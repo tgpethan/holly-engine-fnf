@@ -1,30 +1,51 @@
 package;
 
 import Controls.Control;
-import flash.text.TextField;
+import openfl.Lib;
 import flixel.FlxG;
 import flixel.FlxSprite;
-import flixel.addons.display.FlxGridOverlay;
 import flixel.group.FlxGroup.FlxTypedGroup;
-import flixel.input.keyboard.FlxKey;
-import flixel.math.FlxMath;
 import flixel.text.FlxText;
-import flixel.util.FlxColor;
-import lime.utils.Assets;
+import Options.Option;
+import Options.NumberOption;
+import Options.BoolOption;
 
 class OptionsMenu extends MusicBeatState
 {
 	var selector:FlxText;
 	var curSelected:Int = 0;
+	var lastScreenSelected:Int = 0;
 
-	var controlsStrings:Array<String> = [];
+	var controlsStrings:Array<String> = [
+		"Global Settings",
+		"Gameplay Settings"
+	];
+
+	var daOptions:Array<Array<Option>> = [
+		[
+			new NumberOption("Frame Limiter", "Changes the frame rate that FNF is limited to",
+			function() { return FlxG.save.data.frameLimiter; },
+			function() {
+				
+			}),
+			new BoolOption("Show FPS", "Shows or hides the framerate",
+			function() { return FlxG.save.data.showFPS; },
+			function() {
+				FlxG.save.data.showFPS = !FlxG.save.data.showFPS;
+				cast(Lib.current.getChildAt(0), Main).setFPSVisibility(FlxG.save.data.showFPS);
+			})
+		],
+		[]
+	];
 
 	private var grpControls:FlxTypedGroup<Alphabet>;
+
+	private var grpOptions:FlxTypedGroup<Alphabet>;
+	private var inSubMenu:Bool = false;
 
 	override function create()
 	{
 		var menuBG:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
-		controlsStrings = CoolUtil.coolTextFile(Paths.txt('controls'));
 		menuBG.color = 0xFFea71fd;
 		menuBG.setGraphicSize(Std.int(menuBG.width * 1.1));
 		menuBG.updateHitbox();
@@ -32,50 +53,97 @@ class OptionsMenu extends MusicBeatState
 		menuBG.antialiasing = true;
 		add(menuBG);
 
-		/* 
-			grpControls = new FlxTypedGroup<Alphabet>();
-			add(grpControls);
+		grpControls = new FlxTypedGroup<Alphabet>();
+		add(grpControls);
 
-			for (i in 0...controlsStrings.length)
+		grpOptions = new FlxTypedGroup<Alphabet>();
+		add(grpOptions);
+
+		for (i in 0...controlsStrings.length)
+		{
+			var controlLabel:Alphabet = new Alphabet(0, (70 * i) + 30, controlsStrings[i], true, false);
+			controlLabel.isMenuItem = true;
+			controlLabel.targetY = i;
+			grpControls.add(controlLabel);
+		}
+
+		// Options alphabet asignments
+		for (i in 0...daOptions.length)
+		{
+			for (i1 in 0...daOptions[i].length)
 			{
-				if (controlsStrings[i].indexOf('set') != -1)
-				{
-					var controlLabel:Alphabet = new Alphabet(0, (70 * i) + 30, controlsStrings[i].substring(3) + ': ' + controlsStrings[i + 1], true, false);
-					controlLabel.isMenuItem = true;
-					controlLabel.targetY = i;
-					grpControls.add(controlLabel);
-				}
-				// DONT PUT X IN THE FIRST PARAMETER OF new ALPHABET() !!
+				var controlLabel:Alphabet = new Alphabet(0, (70 * i) + 30, daOptions[i][i1].optionsString(), true, false);
+				controlLabel.isMenuItem = true;
+				controlLabel.targetY = i;
+				daOptions[i][i1].optionAlphabet = controlLabel;
+				//grpOptions.add(controlLabel);
 			}
-		 */
+		}
+
+		changeSelection();
 
 		super.create();
-
-		openSubState(new OptionsSubState());
 	}
 
 	override function update(elapsed:Float)
 	{
 		super.update(elapsed);
 
-		/* 
-			if (controls.ACCEPT)
-			{
-				changeBinding();
-			}
+		if (controls.ACCEPT)
+		{
+			//changeBinding();
 
-			if (isSettingControl)
-				waitingInput();
+			if (!inSubMenu) {
+				lastScreenSelected = curSelected;
+				curSelected = 0;
+				inSubMenu = true;
+
+				for (item in grpControls.members)
+				{
+					item.visible = false;
+				}
+
+				for (i in 0...daOptions[lastScreenSelected].length)
+				{
+					grpOptions.add(daOptions[lastScreenSelected][i].optionAlphabet);
+					//grpOptions.add(controlLabel);
+				}
+
+				changeSelection();
+			}
 			else
 			{
-				if (controls.BACK)
-					FlxG.switchState(new MainMenuState());
-				if (controls.UP_P)
-					changeSelection(-1);
-				if (controls.DOWN_P)
-					changeSelection(1);
+				var option = daOptions[lastScreenSelected][curSelected];
+				option.action();
+
+				// Make new alphabet because it doesn't support updating text.
+				// I tried to make it support updating text and it got really weirdly spaced.
+				var x:Float = option.optionAlphabet.x;
+				var y:Float = option.optionAlphabet.y;
+				var targetY:Float = option.optionAlphabet.targetY;
+				remove(option.optionAlphabet);
+				trace(option.optionsString());
+				option.optionAlphabet = new Alphabet(0, (70 * curSelected) + 30, option.optionsString(), true, false);
+				option.optionAlphabet.isMenuItem = true;
+				option.optionAlphabet.targetY = targetY;
+				add(option.optionAlphabet);
 			}
-		 */
+		}
+		if (controls.BACK)
+			if (inSubMenu) {
+				for (item in grpControls.members)
+				{
+					item.visible = true;
+				}
+				inSubMenu = false;
+				grpOptions.clear();
+				changeSelection();
+			}
+			else FlxG.switchState(new MainMenuState());
+		if (controls.UP_P)
+			changeSelection(-1);
+		if (controls.DOWN_P)
+			changeSelection(1);
 	}
 
 	function waitingInput():Void
@@ -85,16 +153,6 @@ class OptionsMenu extends MusicBeatState
 			PlayerSettings.player1.controls.replaceBinding(Control.LEFT, Keys, FlxG.keys.getIsDown()[0].ID, null);
 		}
 		// PlayerSettings.player1.controls.replaceBinding(Control)
-	}
-
-	var isSettingControl:Bool = false;
-
-	function changeBinding():Void
-	{
-		if (!isSettingControl)
-		{
-			isSettingControl = true;
-		}
 	}
 
 	function changeSelection(change:Int = 0)
@@ -112,7 +170,10 @@ class OptionsMenu extends MusicBeatState
 
 		var bullShit:Int = 0;
 
-		for (item in grpControls.members)
+		var group:Array<Alphabet> = grpControls.members;
+		if (inSubMenu) group = grpOptions.members;
+
+		for (item in group)
 		{
 			item.targetY = bullShit - curSelected;
 			bullShit++;
