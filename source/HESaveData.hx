@@ -38,10 +38,12 @@ class HESaveData
             FlxG.save.flush();
         }
 
+        var mainRef:Main = cast(Lib.current.getChildAt(0), Main);
+
         // Set fps show state
-        cast(Lib.current.getChildAt(0), Main).setFPSVisibility(FlxG.save.data.showFPS);
+        mainRef.setFPSVisibility(FlxG.save.data.showFPS);
 
         // Set FPS Max
-        cast(Lib.current.getChildAt(0), Main).setMaxFPS(FlxG.save.data.frameLimiter);
+        mainRef.setMaxFPS(FlxG.save.data.frameLimiter);
     }
 }
