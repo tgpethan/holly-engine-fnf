@@ -29,24 +29,24 @@
 #include <openfl/geom/Rectangle.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_f182c9f42f2f4da3_39_new,"openfl.filters.BitmapFilter","new",0x22686a4a,"openfl.filters.BitmapFilter.new","openfl/filters/BitmapFilter.hx",39,0x1697f5a4)
-HX_LOCAL_STACK_FRAME(_hx_pos_f182c9f42f2f4da3_59_clone,"openfl.filters.BitmapFilter","clone",0x8c417bc7,"openfl.filters.BitmapFilter.clone","openfl/filters/BitmapFilter.hx",59,0x1697f5a4)
-HX_LOCAL_STACK_FRAME(_hx_pos_f182c9f42f2f4da3_64___applyFilter,"openfl.filters.BitmapFilter","__applyFilter",0xc6240310,"openfl.filters.BitmapFilter.__applyFilter","openfl/filters/BitmapFilter.hx",64,0x1697f5a4)
-HX_LOCAL_STACK_FRAME(_hx_pos_f182c9f42f2f4da3_70___initShader,"openfl.filters.BitmapFilter","__initShader",0x9b1b6e4b,"openfl.filters.BitmapFilter.__initShader","openfl/filters/BitmapFilter.hx",70,0x1697f5a4)
+HX_DEFINE_STACK_FRAME(_hx_pos_f182c9f42f2f4da3_29_new,"openfl.filters.BitmapFilter","new",0x22686a4a,"openfl.filters.BitmapFilter.new","openfl/filters/BitmapFilter.hx",29,0x1697f5a4)
+HX_LOCAL_STACK_FRAME(_hx_pos_f182c9f42f2f4da3_43_clone,"openfl.filters.BitmapFilter","clone",0x8c417bc7,"openfl.filters.BitmapFilter.clone","openfl/filters/BitmapFilter.hx",43,0x1697f5a4)
+HX_LOCAL_STACK_FRAME(_hx_pos_f182c9f42f2f4da3_48___applyFilter,"openfl.filters.BitmapFilter","__applyFilter",0xc6240310,"openfl.filters.BitmapFilter.__applyFilter","openfl/filters/BitmapFilter.hx",48,0x1697f5a4)
+HX_LOCAL_STACK_FRAME(_hx_pos_f182c9f42f2f4da3_54___initShader,"openfl.filters.BitmapFilter","__initShader",0x9b1b6e4b,"openfl.filters.BitmapFilter.__initShader","openfl/filters/BitmapFilter.hx",54,0x1697f5a4)
 namespace openfl{
 namespace filters{
 
 void BitmapFilter_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_f182c9f42f2f4da3_39_new)
-HXLINE(  40)		this->_hx___bottomExtension = 0;
-HXLINE(  41)		this->_hx___leftExtension = 0;
-HXLINE(  42)		this->_hx___needSecondBitmapData = true;
-HXLINE(  43)		this->_hx___numShaderPasses = 0;
-HXLINE(  44)		this->_hx___preserveObject = false;
-HXLINE(  45)		this->_hx___rightExtension = 0;
-HXLINE(  46)		this->_hx___shaderBlendMode = 10;
-HXLINE(  47)		this->_hx___topExtension = 0;
-HXLINE(  48)		this->_hx___smooth = true;
+            	HX_STACKFRAME(&_hx_pos_f182c9f42f2f4da3_29_new)
+HXLINE(  30)		this->_hx___bottomExtension = 0;
+HXLINE(  31)		this->_hx___leftExtension = 0;
+HXLINE(  32)		this->_hx___needSecondBitmapData = true;
+HXLINE(  33)		this->_hx___numShaderPasses = 0;
+HXLINE(  34)		this->_hx___preserveObject = false;
+HXLINE(  35)		this->_hx___rightExtension = 0;
+HXLINE(  36)		this->_hx___shaderBlendMode = 10;
+HXLINE(  37)		this->_hx___topExtension = 0;
+HXLINE(  38)		this->_hx___smooth = true;
             	}
 
 Dynamic BitmapFilter_obj::__CreateEmpty() { return new BitmapFilter_obj; }
@@ -65,24 +65,24 @@ bool BitmapFilter_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::openfl::filters::BitmapFilter BitmapFilter_obj::clone(){
-            	HX_GC_STACKFRAME(&_hx_pos_f182c9f42f2f4da3_59_clone)
-HXDLIN(  59)		return  ::openfl::filters::BitmapFilter_obj::__alloc( HX_CTX );
+            	HX_GC_STACKFRAME(&_hx_pos_f182c9f42f2f4da3_43_clone)
+HXDLIN(  43)		return  ::openfl::filters::BitmapFilter_obj::__alloc( HX_CTX );
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(BitmapFilter_obj,clone,return )
 
  ::openfl::display::BitmapData BitmapFilter_obj::_hx___applyFilter( ::openfl::display::BitmapData bitmapData, ::openfl::display::BitmapData sourceBitmapData, ::openfl::geom::Rectangle sourceRect, ::openfl::geom::Point destPoint){
-            	HX_STACKFRAME(&_hx_pos_f182c9f42f2f4da3_64___applyFilter)
-HXDLIN(  64)		return sourceBitmapData;
+            	HX_STACKFRAME(&_hx_pos_f182c9f42f2f4da3_48___applyFilter)
+HXDLIN(  48)		return sourceBitmapData;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC4(BitmapFilter_obj,_hx___applyFilter,return )
 
  ::openfl::display::Shader BitmapFilter_obj::_hx___initShader( ::openfl::display::DisplayObjectRenderer renderer,int pass, ::openfl::display::BitmapData sourceBitmapData){
-            	HX_STACKFRAME(&_hx_pos_f182c9f42f2f4da3_70___initShader)
-HXDLIN(  70)		return null();
+            	HX_STACKFRAME(&_hx_pos_f182c9f42f2f4da3_54___initShader)
+HXDLIN(  54)		return null();
             	}
 
 

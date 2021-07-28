@@ -8,18 +8,18 @@
 #include <openfl/events/_EventDispatcher/Listener.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_4056b9d72619ced0_544_new,"openfl.events._EventDispatcher.Listener","new",0x63be323b,"openfl.events._EventDispatcher.Listener.new","openfl/events/EventDispatcher.hx",544,0xe2270714)
-HX_LOCAL_STACK_FRAME(_hx_pos_4056b9d72619ced0_556_match,"openfl.events._EventDispatcher.Listener","match",0xdf4e17e0,"openfl.events._EventDispatcher.Listener.match","openfl/events/EventDispatcher.hx",556,0xe2270714)
-HX_LOCAL_STACK_FRAME(_hx_pos_4056b9d72619ced0_537_boot,"openfl.events._EventDispatcher.Listener","boot",0xdac6c1f7,"openfl.events._EventDispatcher.Listener.boot","openfl/events/EventDispatcher.hx",537,0xe2270714)
+HX_DEFINE_STACK_FRAME(_hx_pos_4056b9d72619ced0_320_new,"openfl.events._EventDispatcher.Listener","new",0x63be323b,"openfl.events._EventDispatcher.Listener.new","openfl/events/EventDispatcher.hx",320,0xe2270714)
+HX_LOCAL_STACK_FRAME(_hx_pos_4056b9d72619ced0_332_match,"openfl.events._EventDispatcher.Listener","match",0xdf4e17e0,"openfl.events._EventDispatcher.Listener.match","openfl/events/EventDispatcher.hx",332,0xe2270714)
+HX_LOCAL_STACK_FRAME(_hx_pos_4056b9d72619ced0_313_boot,"openfl.events._EventDispatcher.Listener","boot",0xdac6c1f7,"openfl.events._EventDispatcher.Listener.boot","openfl/events/EventDispatcher.hx",313,0xe2270714)
 namespace openfl{
 namespace events{
 namespace _EventDispatcher{
 
 void Listener_obj::__construct( ::Dynamic callback,bool useCapture,int priority){
-            	HX_STACKFRAME(&_hx_pos_4056b9d72619ced0_544_new)
-HXLINE( 545)		this->callback = callback;
-HXLINE( 546)		this->useCapture = useCapture;
-HXLINE( 547)		this->priority = priority;
+            	HX_STACKFRAME(&_hx_pos_4056b9d72619ced0_320_new)
+HXLINE( 321)		this->callback = callback;
+HXLINE( 322)		this->useCapture = useCapture;
+HXLINE( 323)		this->priority = priority;
             	}
 
 Dynamic Listener_obj::__CreateEmpty() { return new Listener_obj; }
@@ -38,14 +38,14 @@ bool Listener_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 bool Listener_obj::match( ::Dynamic callback,bool useCapture){
-            	HX_STACKFRAME(&_hx_pos_4056b9d72619ced0_556_match)
-HXDLIN( 556)		if (::Reflect_obj::compareMethods(this->callback,callback)) {
-HXDLIN( 556)			return (this->useCapture == useCapture);
+            	HX_STACKFRAME(&_hx_pos_4056b9d72619ced0_332_match)
+HXDLIN( 332)		if (::Reflect_obj::compareMethods(this->callback,callback)) {
+HXDLIN( 332)			return (this->useCapture == useCapture);
             		}
             		else {
-HXDLIN( 556)			return false;
+HXDLIN( 332)			return false;
             		}
-HXDLIN( 556)		return false;
+HXDLIN( 332)		return false;
             	}
 
 
@@ -166,8 +166,8 @@ void Listener_obj::__register()
 void Listener_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_4056b9d72619ced0_537_boot)
-HXDLIN( 537)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
+            	HX_STACKFRAME(&_hx_pos_4056b9d72619ced0_313_boot)
+HXDLIN( 313)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
             			->setFixed(0,HX_("obj",f7,8f,54,00), ::Dynamic(::hx::Anon_obj::Create(1)
             				->setFixed(0,HX_("SuppressWarnings",0c,d3,d2,00),::cpp::VirtualArray_obj::__new(1)->init(0,HX_("checkstyle:FieldDocComment",70,56,1b,20))))));
             	}

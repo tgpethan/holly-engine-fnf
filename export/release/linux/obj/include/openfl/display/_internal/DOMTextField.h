@@ -78,12 +78,6 @@ class HXCPP_CLASS_ATTRIBUTES DOMTextField_obj : public ::hx::Object
 		static void render( ::openfl::text::TextField textField, ::openfl::display::DOMRenderer renderer);
 		static ::Dynamic render_dyn();
 
-		static void renderDrawable( ::openfl::text::TextField textField, ::openfl::display::DOMRenderer renderer);
-		static ::Dynamic renderDrawable_dyn();
-
-		static void renderDrawableClear( ::openfl::text::TextField textField, ::openfl::display::DOMRenderer renderer);
-		static ::Dynamic renderDrawableClear_dyn();
-
 		static ::String _hx___getAttributeMatch( ::EReg regex);
 		static ::Dynamic _hx___getAttributeMatch_dyn();
 

@@ -86,54 +86,53 @@
 #include <openfl/utils/Assets.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_ec393d325e46c77d_27_new,"flixel.system.FlxSound","new",0xa043445c,"flixel.system.FlxSound.new","flixel/system/FlxSound.hx",27,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_226_reset,"flixel.system.FlxSound","reset",0xf879b4cb,"flixel.system.FlxSound.reset","flixel/system/FlxSound.hx",226,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_254_destroy,"flixel.system.FlxSound","destroy",0x15a54ef6,"flixel.system.FlxSound.destroy","flixel/system/FlxSound.hx",254,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_284_update,"flixel.system.FlxSound","update",0xf091b78d,"flixel.system.FlxSound.update","flixel/system/FlxSound.hx",284,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_328_kill,"flixel.system.FlxSound","kill",0x989fe822,"flixel.system.FlxSound.kill","flixel/system/FlxSound.hx",328,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_344_loadEmbedded,"flixel.system.FlxSound","loadEmbedded",0xbf233254,"flixel.system.FlxSound.loadEmbedded","flixel/system/FlxSound.hx",344,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_389_loadStream,"flixel.system.FlxSound","loadStream",0x893586ca,"flixel.system.FlxSound.loadStream","flixel/system/FlxSound.hx",389,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_382_loadStream,"flixel.system.FlxSound","loadStream",0x893586ca,"flixel.system.FlxSound.loadStream","flixel/system/FlxSound.hx",382,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_429_init,"flixel.system.FlxSound","init",0x97514394,"flixel.system.FlxSound.init","flixel/system/FlxSound.hx",429,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_452_proximity,"flixel.system.FlxSound","proximity",0x52ce623b,"flixel.system.FlxSound.proximity","flixel/system/FlxSound.hx",452,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_473_play,"flixel.system.FlxSound","play",0x9bf03678,"flixel.system.FlxSound.play","flixel/system/FlxSound.hx",473,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_495_resume,"flixel.system.FlxSound","resume",0x72109b31,"flixel.system.FlxSound.resume","flixel/system/FlxSound.hx",495,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_505_pause,"flixel.system.FlxSound","pause",0xcf0941f2,"flixel.system.FlxSound.pause","flixel/system/FlxSound.hx",505,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_519_stop,"flixel.system.FlxSound","stop",0x9df1f886,"flixel.system.FlxSound.stop","flixel/system/FlxSound.hx",519,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_531_fadeOut,"flixel.system.FlxSound","fadeOut",0x225b5a6e,"flixel.system.FlxSound.fadeOut","flixel/system/FlxSound.hx",531,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_547_fadeIn,"flixel.system.FlxSound","fadeIn",0x4e377e05,"flixel.system.FlxSound.fadeIn","flixel/system/FlxSound.hx",547,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_560_volumeTween,"flixel.system.FlxSound","volumeTween",0x6ac0ca2d,"flixel.system.FlxSound.volumeTween","flixel/system/FlxSound.hx",560,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_570_getActualVolume,"flixel.system.FlxSound","getActualVolume",0xa3e81aba,"flixel.system.FlxSound.getActualVolume","flixel/system/FlxSound.hx",570,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_581_setPosition,"flixel.system.FlxSound","setPosition",0xba193a67,"flixel.system.FlxSound.setPosition","flixel/system/FlxSound.hx",581,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_591_updateTransform,"flixel.system.FlxSound","updateTransform",0x01697c1f,"flixel.system.FlxSound.updateTransform","flixel/system/FlxSound.hx",591,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_604_startSound,"flixel.system.FlxSound","startSound",0x5fc0a891,"flixel.system.FlxSound.startSound","flixel/system/FlxSound.hx",604,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_631_stopped,"flixel.system.FlxSound","stopped",0x3480f409,"flixel.system.FlxSound.stopped","flixel/system/FlxSound.hx",631,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_654_cleanup,"flixel.system.FlxSound","cleanup",0x9c612e20,"flixel.system.FlxSound.cleanup","flixel/system/FlxSound.hx",654,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_681_gotID3,"flixel.system.FlxSound","gotID3",0xcead1fb0,"flixel.system.FlxSound.gotID3","flixel/system/FlxSound.hx",681,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_691_onFocus,"flixel.system.FlxSound","onFocus",0x8be62035,"flixel.system.FlxSound.onFocus","flixel/system/FlxSound.hx",691,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_697_onFocusLost,"flixel.system.FlxSound","onFocusLost",0x0043b4b9,"flixel.system.FlxSound.onFocusLost","flixel/system/FlxSound.hx",697,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_704_set_group,"flixel.system.FlxSound","set_group",0x9197949e,"flixel.system.FlxSound.set_group","flixel/system/FlxSound.hx",704,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_725_get_playing,"flixel.system.FlxSound","get_playing",0xced03f81,"flixel.system.FlxSound.get_playing","flixel/system/FlxSound.hx",725,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_730_get_volume,"flixel.system.FlxSound","get_volume",0x12b7dd27,"flixel.system.FlxSound.get_volume","flixel/system/FlxSound.hx",730,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_734_set_volume,"flixel.system.FlxSound","set_volume",0x16357b9b,"flixel.system.FlxSound.set_volume","flixel/system/FlxSound.hx",734,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_756_get_pan,"flixel.system.FlxSound","get_pan",0x17e93bf0,"flixel.system.FlxSound.get_pan","flixel/system/FlxSound.hx",756,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_761_set_pan,"flixel.system.FlxSound","set_pan",0x0aeaccfc,"flixel.system.FlxSound.set_pan","flixel/system/FlxSound.hx",761,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_766_get_time,"flixel.system.FlxSound","get_time",0xd6d6221a,"flixel.system.FlxSound.get_time","flixel/system/FlxSound.hx",766,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_770_set_time,"flixel.system.FlxSound","set_time",0x85337b8e,"flixel.system.FlxSound.set_time","flixel/system/FlxSound.hx",770,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_781_get_length,"flixel.system.FlxSound","get_length",0x526c4833,"flixel.system.FlxSound.get_length","flixel/system/FlxSound.hx",781,0x7d78fc74)
-HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_786_toString,"flixel.system.FlxSound","toString",0x428d6b30,"flixel.system.FlxSound.toString","flixel/system/FlxSound.hx",786,0x7d78fc74)
+HX_DEFINE_STACK_FRAME(_hx_pos_ec393d325e46c77d_26_new,"flixel.system.FlxSound","new",0xa043445c,"flixel.system.FlxSound.new","flixel/system/FlxSound.hx",26,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_224_reset,"flixel.system.FlxSound","reset",0xf879b4cb,"flixel.system.FlxSound.reset","flixel/system/FlxSound.hx",224,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_252_destroy,"flixel.system.FlxSound","destroy",0x15a54ef6,"flixel.system.FlxSound.destroy","flixel/system/FlxSound.hx",252,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_282_update,"flixel.system.FlxSound","update",0xf091b78d,"flixel.system.FlxSound.update","flixel/system/FlxSound.hx",282,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_326_kill,"flixel.system.FlxSound","kill",0x989fe822,"flixel.system.FlxSound.kill","flixel/system/FlxSound.hx",326,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_341_loadEmbedded,"flixel.system.FlxSound","loadEmbedded",0xbf233254,"flixel.system.FlxSound.loadEmbedded","flixel/system/FlxSound.hx",341,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_377_loadStream,"flixel.system.FlxSound","loadStream",0x893586ca,"flixel.system.FlxSound.loadStream","flixel/system/FlxSound.hx",377,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_410_init,"flixel.system.FlxSound","init",0x97514394,"flixel.system.FlxSound.init","flixel/system/FlxSound.hx",410,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_433_proximity,"flixel.system.FlxSound","proximity",0x52ce623b,"flixel.system.FlxSound.proximity","flixel/system/FlxSound.hx",433,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_454_play,"flixel.system.FlxSound","play",0x9bf03678,"flixel.system.FlxSound.play","flixel/system/FlxSound.hx",454,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_476_resume,"flixel.system.FlxSound","resume",0x72109b31,"flixel.system.FlxSound.resume","flixel/system/FlxSound.hx",476,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_486_pause,"flixel.system.FlxSound","pause",0xcf0941f2,"flixel.system.FlxSound.pause","flixel/system/FlxSound.hx",486,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_500_stop,"flixel.system.FlxSound","stop",0x9df1f886,"flixel.system.FlxSound.stop","flixel/system/FlxSound.hx",500,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_512_fadeOut,"flixel.system.FlxSound","fadeOut",0x225b5a6e,"flixel.system.FlxSound.fadeOut","flixel/system/FlxSound.hx",512,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_528_fadeIn,"flixel.system.FlxSound","fadeIn",0x4e377e05,"flixel.system.FlxSound.fadeIn","flixel/system/FlxSound.hx",528,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_541_volumeTween,"flixel.system.FlxSound","volumeTween",0x6ac0ca2d,"flixel.system.FlxSound.volumeTween","flixel/system/FlxSound.hx",541,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_551_getActualVolume,"flixel.system.FlxSound","getActualVolume",0xa3e81aba,"flixel.system.FlxSound.getActualVolume","flixel/system/FlxSound.hx",551,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_562_setPosition,"flixel.system.FlxSound","setPosition",0xba193a67,"flixel.system.FlxSound.setPosition","flixel/system/FlxSound.hx",562,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_572_updateTransform,"flixel.system.FlxSound","updateTransform",0x01697c1f,"flixel.system.FlxSound.updateTransform","flixel/system/FlxSound.hx",572,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_585_startSound,"flixel.system.FlxSound","startSound",0x5fc0a891,"flixel.system.FlxSound.startSound","flixel/system/FlxSound.hx",585,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_612_stopped,"flixel.system.FlxSound","stopped",0x3480f409,"flixel.system.FlxSound.stopped","flixel/system/FlxSound.hx",612,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_635_cleanup,"flixel.system.FlxSound","cleanup",0x9c612e20,"flixel.system.FlxSound.cleanup","flixel/system/FlxSound.hx",635,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_662_gotID3,"flixel.system.FlxSound","gotID3",0xcead1fb0,"flixel.system.FlxSound.gotID3","flixel/system/FlxSound.hx",662,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_672_onFocus,"flixel.system.FlxSound","onFocus",0x8be62035,"flixel.system.FlxSound.onFocus","flixel/system/FlxSound.hx",672,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_678_onFocusLost,"flixel.system.FlxSound","onFocusLost",0x0043b4b9,"flixel.system.FlxSound.onFocusLost","flixel/system/FlxSound.hx",678,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_685_set_group,"flixel.system.FlxSound","set_group",0x9197949e,"flixel.system.FlxSound.set_group","flixel/system/FlxSound.hx",685,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_706_get_playing,"flixel.system.FlxSound","get_playing",0xced03f81,"flixel.system.FlxSound.get_playing","flixel/system/FlxSound.hx",706,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_711_get_volume,"flixel.system.FlxSound","get_volume",0x12b7dd27,"flixel.system.FlxSound.get_volume","flixel/system/FlxSound.hx",711,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_715_set_volume,"flixel.system.FlxSound","set_volume",0x16357b9b,"flixel.system.FlxSound.set_volume","flixel/system/FlxSound.hx",715,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_737_get_pan,"flixel.system.FlxSound","get_pan",0x17e93bf0,"flixel.system.FlxSound.get_pan","flixel/system/FlxSound.hx",737,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_742_set_pan,"flixel.system.FlxSound","set_pan",0x0aeaccfc,"flixel.system.FlxSound.set_pan","flixel/system/FlxSound.hx",742,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_747_get_time,"flixel.system.FlxSound","get_time",0xd6d6221a,"flixel.system.FlxSound.get_time","flixel/system/FlxSound.hx",747,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_751_set_time,"flixel.system.FlxSound","set_time",0x85337b8e,"flixel.system.FlxSound.set_time","flixel/system/FlxSound.hx",751,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_762_get_length,"flixel.system.FlxSound","get_length",0x526c4833,"flixel.system.FlxSound.get_length","flixel/system/FlxSound.hx",762,0x7d78fc74)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec393d325e46c77d_767_toString,"flixel.system.FlxSound","toString",0x428d6b30,"flixel.system.FlxSound.toString","flixel/system/FlxSound.hx",767,0x7d78fc74)
 namespace flixel{
 namespace _hx_system{
 
 void FlxSound_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_27_new)
-HXLINE( 211)		this->_alreadyPaused = false;
-HXLINE( 191)		this->_volumeAdjust = ((Float)1.0);
-HXLINE( 179)		this->_length = ((Float)0);
-HXLINE( 174)		this->_time = ((Float)0);
-HXLINE( 130)		this->loopTime = ((Float)0);
-HXLINE( 218)		super::__construct();
-HXLINE( 219)		this->reset();
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_26_new)
+HXLINE( 209)		this->_alreadyPaused = false;
+HXLINE( 189)		this->_volumeAdjust = ((Float)1.0);
+HXLINE( 177)		this->_length = ((Float)0);
+HXLINE( 172)		this->_time = ((Float)0);
+HXLINE( 129)		this->loopTime = ((Float)0);
+HXLINE( 216)		super::__construct();
+HXLINE( 217)		this->reset();
             	}
 
 Dynamic FlxSound_obj::__CreateEmpty() { return new FlxSound_obj; }
@@ -156,227 +155,210 @@ bool FlxSound_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void FlxSound_obj::reset(){
-            	HX_GC_STACKFRAME(&_hx_pos_ec393d325e46c77d_226_reset)
-HXLINE( 227)		this->destroy();
-HXLINE( 229)		this->x = ( (Float)(0) );
-HXLINE( 230)		this->y = ( (Float)(0) );
-HXLINE( 232)		this->_time = ( (Float)(0) );
-HXLINE( 233)		this->_paused = false;
-HXLINE( 234)		this->_volume = ((Float)1.0);
-HXLINE( 235)		this->_volumeAdjust = ((Float)1.0);
-HXLINE( 236)		this->looped = false;
-HXLINE( 237)		this->loopTime = ((Float)0.0);
-HXLINE( 238)		this->endTime = ((Float)0.0);
-HXLINE( 239)		this->_target = null();
-HXLINE( 240)		this->_radius = ( (Float)(0) );
-HXLINE( 241)		this->_proximityPan = false;
-HXLINE( 242)		this->set_visible(false);
-HXLINE( 243)		this->amplitude = ( (Float)(0) );
-HXLINE( 244)		this->amplitudeLeft = ( (Float)(0) );
-HXLINE( 245)		this->amplitudeRight = ( (Float)(0) );
-HXLINE( 246)		this->autoDestroy = false;
-HXLINE( 248)		if (::hx::IsNull( this->_transform )) {
-HXLINE( 249)			this->_transform =  ::openfl::media::SoundTransform_obj::__alloc( HX_CTX ,null(),null());
+            	HX_GC_STACKFRAME(&_hx_pos_ec393d325e46c77d_224_reset)
+HXLINE( 225)		this->destroy();
+HXLINE( 227)		this->x = ( (Float)(0) );
+HXLINE( 228)		this->y = ( (Float)(0) );
+HXLINE( 230)		this->_time = ( (Float)(0) );
+HXLINE( 231)		this->_paused = false;
+HXLINE( 232)		this->_volume = ((Float)1.0);
+HXLINE( 233)		this->_volumeAdjust = ((Float)1.0);
+HXLINE( 234)		this->looped = false;
+HXLINE( 235)		this->loopTime = ((Float)0.0);
+HXLINE( 236)		this->endTime = ((Float)0.0);
+HXLINE( 237)		this->_target = null();
+HXLINE( 238)		this->_radius = ( (Float)(0) );
+HXLINE( 239)		this->_proximityPan = false;
+HXLINE( 240)		this->set_visible(false);
+HXLINE( 241)		this->amplitude = ( (Float)(0) );
+HXLINE( 242)		this->amplitudeLeft = ( (Float)(0) );
+HXLINE( 243)		this->amplitudeRight = ( (Float)(0) );
+HXLINE( 244)		this->autoDestroy = false;
+HXLINE( 246)		if (::hx::IsNull( this->_transform )) {
+HXLINE( 247)			this->_transform =  ::openfl::media::SoundTransform_obj::__alloc( HX_CTX ,null(),null());
             		}
-HXLINE( 250)		this->_transform->pan = ( (Float)(0) );
+HXLINE( 248)		this->_transform->pan = ( (Float)(0) );
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxSound_obj,reset,(void))
 
 void FlxSound_obj::destroy(){
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_254_destroy)
-HXLINE( 255)		this->_transform = null();
-HXLINE( 256)		this->set_exists(false);
-HXLINE( 257)		this->set_active(false);
-HXLINE( 258)		this->_target = null();
-HXLINE( 259)		this->name = null();
-HXLINE( 260)		this->artist = null();
-HXLINE( 262)		if (::hx::IsNotNull( this->_channel )) {
-HXLINE( 264)			this->_channel->removeEventListener(HX_("soundComplete",a8,30,e6,1c),this->stopped_dyn(),null());
-HXLINE( 265)			this->_channel->stop();
-HXLINE( 266)			this->_channel = null();
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_252_destroy)
+HXLINE( 253)		this->_transform = null();
+HXLINE( 254)		this->set_exists(false);
+HXLINE( 255)		this->set_active(false);
+HXLINE( 256)		this->_target = null();
+HXLINE( 257)		this->name = null();
+HXLINE( 258)		this->artist = null();
+HXLINE( 260)		if (::hx::IsNotNull( this->_channel )) {
+HXLINE( 262)			this->_channel->removeEventListener(HX_("soundComplete",a8,30,e6,1c),this->stopped_dyn(),null());
+HXLINE( 263)			this->_channel->stop();
+HXLINE( 264)			this->_channel = null();
             		}
-HXLINE( 269)		if (::hx::IsNotNull( this->_sound )) {
-HXLINE( 271)			this->_sound->removeEventListener(HX_("id3",f8,03,50,00),this->gotID3_dyn(),null());
-HXLINE( 272)			this->_sound = null();
+HXLINE( 267)		if (::hx::IsNotNull( this->_sound )) {
+HXLINE( 269)			this->_sound->removeEventListener(HX_("id3",f8,03,50,00),this->gotID3_dyn(),null());
+HXLINE( 270)			this->_sound = null();
             		}
-HXLINE( 275)		this->onComplete = null();
-HXLINE( 277)		this->super::destroy();
+HXLINE( 273)		this->onComplete = null();
+HXLINE( 275)		this->super::destroy();
             	}
 
 
 void FlxSound_obj::update(Float elapsed){
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_284_update)
-HXLINE( 285)		if (::hx::IsNull( this->_channel )) {
-HXLINE( 286)			return;
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_282_update)
+HXLINE( 283)		if (::hx::IsNull( this->_channel )) {
+HXLINE( 284)			return;
             		}
-HXLINE( 288)		this->_time = this->_channel->get_position();
-HXLINE( 290)		Float radialMultiplier = ((Float)1.0);
-HXLINE( 293)		if (::hx::IsNotNull( this->_target )) {
-HXLINE( 295)			 ::flixel::math::FlxPoint targetPosition = this->_target->getPosition(null());
-HXLINE( 296)			Float X = this->x;
-HXDLIN( 296)			Float Y = this->y;
-HXDLIN( 296)			 ::flixel::math::FlxPoint point = ::flixel::math::FlxPoint_obj::_pool->get()->set(X,Y);
-HXDLIN( 296)			point->_inPool = false;
-HXDLIN( 296)			 ::flixel::math::FlxPoint point1 = point;
-HXDLIN( 296)			point1->_weak = true;
-HXDLIN( 296)			Float radialMultiplier1 = targetPosition->distanceTo(point1);
-HXDLIN( 296)			radialMultiplier = (radialMultiplier1 / this->_radius);
-HXLINE( 297)			targetPosition->put();
-HXLINE( 298)			Float lowerBound;
-HXDLIN( 298)			if ((radialMultiplier < 0)) {
-HXLINE( 298)				lowerBound = ( (Float)(0) );
+HXLINE( 286)		this->_time = this->_channel->get_position();
+HXLINE( 288)		Float radialMultiplier = ((Float)1.0);
+HXLINE( 291)		if (::hx::IsNotNull( this->_target )) {
+HXLINE( 293)			 ::flixel::math::FlxPoint targetPosition = this->_target->getPosition(null());
+HXLINE( 294)			Float X = this->x;
+HXDLIN( 294)			Float Y = this->y;
+HXDLIN( 294)			 ::flixel::math::FlxPoint point = ::flixel::math::FlxPoint_obj::_pool->get()->set(X,Y);
+HXDLIN( 294)			point->_inPool = false;
+HXDLIN( 294)			 ::flixel::math::FlxPoint point1 = point;
+HXDLIN( 294)			point1->_weak = true;
+HXDLIN( 294)			Float radialMultiplier1 = targetPosition->distanceTo(point1);
+HXDLIN( 294)			radialMultiplier = (radialMultiplier1 / this->_radius);
+HXLINE( 295)			targetPosition->put();
+HXLINE( 296)			Float lowerBound;
+HXDLIN( 296)			if ((radialMultiplier < 0)) {
+HXLINE( 296)				lowerBound = ( (Float)(0) );
             			}
             			else {
-HXLINE( 298)				lowerBound = radialMultiplier;
+HXLINE( 296)				lowerBound = radialMultiplier;
             			}
-HXDLIN( 298)			Float radialMultiplier2;
-HXDLIN( 298)			if ((lowerBound > 1)) {
-HXLINE( 298)				radialMultiplier2 = ( (Float)(1) );
+HXDLIN( 296)			Float radialMultiplier2;
+HXDLIN( 296)			if ((lowerBound > 1)) {
+HXLINE( 296)				radialMultiplier2 = ( (Float)(1) );
             			}
             			else {
-HXLINE( 298)				radialMultiplier2 = lowerBound;
+HXLINE( 296)				radialMultiplier2 = lowerBound;
             			}
-HXDLIN( 298)			radialMultiplier = (( (Float)(1) ) - radialMultiplier2);
-HXLINE( 300)			if (this->_proximityPan) {
-HXLINE( 302)				Float d = ((this->x - this->_target->x) / this->_radius);
-HXLINE( 303)				Float lowerBound;
-HXDLIN( 303)				if ((d < -1)) {
-HXLINE( 303)					lowerBound = ( (Float)(-1) );
+HXDLIN( 296)			radialMultiplier = (( (Float)(1) ) - radialMultiplier2);
+HXLINE( 298)			if (this->_proximityPan) {
+HXLINE( 300)				Float d = ((this->x - this->_target->x) / this->_radius);
+HXLINE( 301)				Float lowerBound;
+HXDLIN( 301)				if ((d < -1)) {
+HXLINE( 301)					lowerBound = ( (Float)(-1) );
             				}
             				else {
-HXLINE( 303)					lowerBound = d;
+HXLINE( 301)					lowerBound = d;
             				}
-HXDLIN( 303)				Float _hx_tmp;
-HXDLIN( 303)				if ((lowerBound > 1)) {
-HXLINE( 303)					_hx_tmp = ( (Float)(1) );
+HXDLIN( 301)				Float _hx_tmp;
+HXDLIN( 301)				if ((lowerBound > 1)) {
+HXLINE( 301)					_hx_tmp = ( (Float)(1) );
             				}
             				else {
-HXLINE( 303)					_hx_tmp = lowerBound;
+HXLINE( 301)					_hx_tmp = lowerBound;
             				}
-HXDLIN( 303)				this->_transform->pan = _hx_tmp;
+HXDLIN( 301)				this->_transform->pan = _hx_tmp;
             			}
             		}
-HXLINE( 307)		this->_volumeAdjust = radialMultiplier;
-HXLINE( 308)		this->updateTransform();
-HXLINE( 310)		if ((this->_transform->volume > 0)) {
-HXLINE( 312)			this->amplitudeLeft = (this->_channel->leftPeak / this->_transform->volume);
-HXLINE( 313)			this->amplitudeRight = (this->_channel->rightPeak / this->_transform->volume);
-HXLINE( 314)			this->amplitude = ((this->amplitudeLeft + this->amplitudeRight) * ((Float)0.5));
+HXLINE( 305)		this->_volumeAdjust = radialMultiplier;
+HXLINE( 306)		this->updateTransform();
+HXLINE( 308)		if ((this->_transform->volume > 0)) {
+HXLINE( 310)			this->amplitudeLeft = (this->_channel->leftPeak / this->_transform->volume);
+HXLINE( 311)			this->amplitudeRight = (this->_channel->rightPeak / this->_transform->volume);
+HXLINE( 312)			this->amplitude = ((this->amplitudeLeft + this->amplitudeRight) * ((Float)0.5));
             		}
             		else {
-HXLINE( 318)			this->amplitudeLeft = ( (Float)(0) );
-HXLINE( 319)			this->amplitudeRight = ( (Float)(0) );
-HXLINE( 320)			this->amplitude = ( (Float)(0) );
+HXLINE( 316)			this->amplitudeLeft = ( (Float)(0) );
+HXLINE( 317)			this->amplitudeRight = ( (Float)(0) );
+HXLINE( 318)			this->amplitude = ( (Float)(0) );
             		}
-HXLINE( 323)		bool _hx_tmp;
-HXDLIN( 323)		if (::hx::IsNotNull( this->endTime )) {
-HXLINE( 323)			_hx_tmp = ::hx::IsGreaterEq( this->_time,this->endTime );
+HXLINE( 321)		bool _hx_tmp;
+HXDLIN( 321)		if (::hx::IsNotNull( this->endTime )) {
+HXLINE( 321)			_hx_tmp = ::hx::IsGreaterEq( this->_time,this->endTime );
             		}
             		else {
-HXLINE( 323)			_hx_tmp = false;
+HXLINE( 321)			_hx_tmp = false;
             		}
-HXDLIN( 323)		if (_hx_tmp) {
-HXLINE( 324)			this->stopped(null());
+HXDLIN( 321)		if (_hx_tmp) {
+HXLINE( 322)			this->stopped(null());
             		}
             	}
 
 
 void FlxSound_obj::kill(){
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_328_kill)
-HXLINE( 329)		this->super::kill();
-HXLINE( 330)		this->cleanup(false,null());
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_326_kill)
+HXLINE( 327)		this->super::kill();
+HXLINE( 328)		this->cleanup(false,null());
             	}
 
 
  ::flixel::_hx_system::FlxSound FlxSound_obj::loadEmbedded( ::Dynamic EmbeddedSound,::hx::Null< bool >  __o_Looped,::hx::Null< bool >  __o_AutoDestroy, ::Dynamic OnComplete){
             		bool Looped = __o_Looped.Default(false);
             		bool AutoDestroy = __o_AutoDestroy.Default(false);
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_344_loadEmbedded)
-HXLINE( 345)		if (::hx::IsNull( EmbeddedSound )) {
-HXLINE( 346)			return ::hx::ObjectPtr<OBJ_>(this);
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_341_loadEmbedded)
+HXLINE( 342)		if (::hx::IsNull( EmbeddedSound )) {
+HXLINE( 343)			return ::hx::ObjectPtr<OBJ_>(this);
             		}
-HXLINE( 348)		this->cleanup(true,null());
-HXLINE( 350)		if (::Std_obj::isOfType(EmbeddedSound,::hx::ClassOf< ::openfl::media::Sound >())) {
-HXLINE( 352)			this->_sound = ( ( ::openfl::media::Sound)(EmbeddedSound) );
+HXLINE( 345)		this->cleanup(true,null());
+HXLINE( 347)		if (::Std_obj::isOfType(EmbeddedSound,::hx::ClassOf< ::openfl::media::Sound >())) {
+HXLINE( 349)			this->_sound = ( ( ::openfl::media::Sound)(EmbeddedSound) );
             		}
             		else {
-HXLINE( 354)			if (::Std_obj::isOfType(EmbeddedSound,::hx::ClassOf< ::hx::Class >())) {
-HXLINE( 356)				this->_sound = ( ( ::openfl::media::Sound)(::Type_obj::createInstance(EmbeddedSound,::cpp::VirtualArray_obj::__new(0))) );
+HXLINE( 351)			if (::Std_obj::isOfType(EmbeddedSound,::hx::ClassOf< ::hx::Class >())) {
+HXLINE( 353)				this->_sound = ( ( ::openfl::media::Sound)(::Type_obj::createInstance(EmbeddedSound,::cpp::VirtualArray_obj::__new(0))) );
             			}
             			else {
-HXLINE( 358)				if (::Std_obj::isOfType(EmbeddedSound,::hx::ClassOf< ::String >())) {
-HXLINE( 360)					bool _hx_tmp;
-HXDLIN( 360)					if (!(::openfl::utils::Assets_obj::exists(( (::String)(EmbeddedSound) ),HX_("SOUND",af,c4,ba,fe)))) {
-HXLINE( 360)						_hx_tmp = ::openfl::utils::Assets_obj::exists(( (::String)(EmbeddedSound) ),HX_("MUSIC",85,08,49,8e));
+HXLINE( 355)				if (::Std_obj::isOfType(EmbeddedSound,::hx::ClassOf< ::String >())) {
+HXLINE( 357)					bool _hx_tmp;
+HXDLIN( 357)					if (!(::openfl::utils::Assets_obj::exists(( (::String)(EmbeddedSound) ),HX_("SOUND",af,c4,ba,fe)))) {
+HXLINE( 357)						_hx_tmp = ::openfl::utils::Assets_obj::exists(( (::String)(EmbeddedSound) ),HX_("MUSIC",85,08,49,8e));
             					}
             					else {
-HXLINE( 360)						_hx_tmp = true;
+HXLINE( 357)						_hx_tmp = true;
             					}
-HXDLIN( 360)					if (_hx_tmp) {
-HXLINE( 361)						this->_sound = ::openfl::utils::Assets_obj::getSound(( (::String)(EmbeddedSound) ),null());
+HXDLIN( 357)					if (_hx_tmp) {
+HXLINE( 358)						this->_sound = ::openfl::utils::Assets_obj::getSound(( (::String)(EmbeddedSound) ),null());
             					}
             				}
             			}
             		}
-HXLINE( 367)		return this->init(Looped,AutoDestroy,OnComplete);
+HXLINE( 364)		return this->init(Looped,AutoDestroy,OnComplete);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC4(FlxSound_obj,loadEmbedded,return )
 
- ::flixel::_hx_system::FlxSound FlxSound_obj::loadStream(::String SoundURL,::hx::Null< bool >  __o_Looped,::hx::Null< bool >  __o_AutoDestroy, ::Dynamic OnComplete, ::Dynamic OnLoad){
-            		HX_BEGIN_LOCAL_FUNC_S3(::hx::LocalFunc,_hx_Closure_0, ::Dynamic,OnLoad, ::flixel::_hx_system::FlxSound,_gthis,::Array< ::Dynamic>,loadCallback) HXARGC(1)
-            		void _hx_run( ::openfl::events::Event e){
-            			HX_GC_STACKFRAME(&_hx_pos_ec393d325e46c77d_389_loadStream)
-HXLINE( 390)			::openfl::events::IEventDispatcher_obj::removeEventListener(e->target,e->type,loadCallback->__get(0),null());
-HXLINE( 392)			if (::hx::IsEq( _gthis->_sound,e->target )) {
-HXLINE( 394)				_gthis->_length = ( (Float)(_gthis->_sound->get_length()) );
-HXLINE( 395)				if (::hx::IsNotNull( OnLoad )) {
-HXLINE( 396)					OnLoad();
-            				}
-            			}
-            		}
-            		HX_END_LOCAL_FUNC1((void))
-
+ ::flixel::_hx_system::FlxSound FlxSound_obj::loadStream(::String SoundURL,::hx::Null< bool >  __o_Looped,::hx::Null< bool >  __o_AutoDestroy, ::Dynamic OnComplete){
             		bool Looped = __o_Looped.Default(false);
             		bool AutoDestroy = __o_AutoDestroy.Default(false);
-            	HX_GC_STACKFRAME(&_hx_pos_ec393d325e46c77d_382_loadStream)
-HXLINE( 381)		 ::flixel::_hx_system::FlxSound _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE( 383)		this->cleanup(true,null());
-HXLINE( 385)		this->_sound =  ::openfl::media::Sound_obj::__alloc( HX_CTX ,null(),null());
-HXLINE( 386)		this->_sound->addEventListener(HX_("id3",f8,03,50,00),this->gotID3_dyn(),null(),null(),null());
-HXLINE( 387)		::Array< ::Dynamic> loadCallback = ::Array_obj< ::Dynamic>::__new(1)->init(0,null());
-HXLINE( 388)		loadCallback[0] =  ::Dynamic(new _hx_Closure_0(OnLoad,_gthis,loadCallback));
-HXLINE( 400)		this->_sound->addEventListener(HX_("complete",b9,00,c8,7f),loadCallback->__get(0),false,0,true);
-HXLINE( 401)		 ::openfl::media::Sound _hx_tmp = this->_sound;
-HXDLIN( 401)		_hx_tmp->load( ::openfl::net::URLRequest_obj::__alloc( HX_CTX ,SoundURL),null());
-HXLINE( 403)		return this->init(Looped,AutoDestroy,OnComplete);
+            	HX_GC_STACKFRAME(&_hx_pos_ec393d325e46c77d_377_loadStream)
+HXLINE( 378)		this->cleanup(true,null());
+HXLINE( 380)		this->_sound =  ::openfl::media::Sound_obj::__alloc( HX_CTX ,null(),null());
+HXLINE( 381)		this->_sound->addEventListener(HX_("id3",f8,03,50,00),this->gotID3_dyn(),null(),null(),null());
+HXLINE( 382)		 ::openfl::media::Sound _hx_tmp = this->_sound;
+HXDLIN( 382)		_hx_tmp->load( ::openfl::net::URLRequest_obj::__alloc( HX_CTX ,SoundURL),null());
+HXLINE( 384)		return this->init(Looped,AutoDestroy,OnComplete);
             	}
 
 
-HX_DEFINE_DYNAMIC_FUNC5(FlxSound_obj,loadStream,return )
+HX_DEFINE_DYNAMIC_FUNC4(FlxSound_obj,loadStream,return )
 
  ::flixel::_hx_system::FlxSound FlxSound_obj::init(::hx::Null< bool >  __o_Looped,::hx::Null< bool >  __o_AutoDestroy, ::Dynamic OnComplete){
             		bool Looped = __o_Looped.Default(false);
             		bool AutoDestroy = __o_AutoDestroy.Default(false);
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_429_init)
-HXLINE( 430)		this->looped = Looped;
-HXLINE( 431)		this->autoDestroy = AutoDestroy;
-HXLINE( 432)		this->updateTransform();
-HXLINE( 433)		this->set_exists(true);
-HXLINE( 434)		this->onComplete = OnComplete;
-HXLINE( 435)		Float _hx_tmp;
-HXDLIN( 435)		if (::hx::IsNull( this->_sound )) {
-HXLINE( 435)			_hx_tmp = ( (Float)(0) );
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_410_init)
+HXLINE( 411)		this->looped = Looped;
+HXLINE( 412)		this->autoDestroy = AutoDestroy;
+HXLINE( 413)		this->updateTransform();
+HXLINE( 414)		this->set_exists(true);
+HXLINE( 415)		this->onComplete = OnComplete;
+HXLINE( 416)		Float _hx_tmp;
+HXDLIN( 416)		if (::hx::IsNull( this->_sound )) {
+HXLINE( 416)			_hx_tmp = ( (Float)(0) );
             		}
             		else {
-HXLINE( 435)			_hx_tmp = ( (Float)(this->_sound->get_length()) );
+HXLINE( 416)			_hx_tmp = ( (Float)(this->_sound->get_length()) );
             		}
-HXDLIN( 435)		this->_length = _hx_tmp;
-HXLINE( 436)		this->endTime = this->_length;
-HXLINE( 437)		return ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 416)		this->_length = _hx_tmp;
+HXLINE( 417)		this->endTime = this->_length;
+HXLINE( 418)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
@@ -384,13 +366,13 @@ HX_DEFINE_DYNAMIC_FUNC3(FlxSound_obj,init,return )
 
  ::flixel::_hx_system::FlxSound FlxSound_obj::proximity(Float X,Float Y, ::flixel::FlxObject TargetObject,Float Radius,::hx::Null< bool >  __o_Pan){
             		bool Pan = __o_Pan.Default(true);
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_452_proximity)
-HXLINE( 453)		this->x = X;
-HXLINE( 454)		this->y = Y;
-HXLINE( 455)		this->_target = TargetObject;
-HXLINE( 456)		this->_radius = Radius;
-HXLINE( 457)		this->_proximityPan = Pan;
-HXLINE( 458)		return ::hx::ObjectPtr<OBJ_>(this);
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_433_proximity)
+HXLINE( 434)		this->x = X;
+HXLINE( 435)		this->y = Y;
+HXLINE( 436)		this->_target = TargetObject;
+HXLINE( 437)		this->_radius = Radius;
+HXLINE( 438)		this->_proximityPan = Pan;
+HXLINE( 439)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
@@ -399,60 +381,60 @@ HX_DEFINE_DYNAMIC_FUNC5(FlxSound_obj,proximity,return )
  ::flixel::_hx_system::FlxSound FlxSound_obj::play(::hx::Null< bool >  __o_ForceRestart,::hx::Null< Float >  __o_StartTime, ::Dynamic EndTime){
             		bool ForceRestart = __o_ForceRestart.Default(false);
             		Float StartTime = __o_StartTime.Default(((Float)0.0));
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_473_play)
-HXLINE( 474)		if (!(this->exists)) {
-HXLINE( 475)			return ::hx::ObjectPtr<OBJ_>(this);
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_454_play)
+HXLINE( 455)		if (!(this->exists)) {
+HXLINE( 456)			return ::hx::ObjectPtr<OBJ_>(this);
             		}
-HXLINE( 477)		if (ForceRestart) {
-HXLINE( 478)			this->cleanup(false,true);
+HXLINE( 458)		if (ForceRestart) {
+HXLINE( 459)			this->cleanup(false,true);
             		}
             		else {
-HXLINE( 479)			if (::hx::IsNotNull( this->_channel )) {
-HXLINE( 480)				return ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 460)			if (::hx::IsNotNull( this->_channel )) {
+HXLINE( 461)				return ::hx::ObjectPtr<OBJ_>(this);
             			}
             		}
-HXLINE( 482)		if (this->_paused) {
-HXLINE( 483)			this->resume();
+HXLINE( 463)		if (this->_paused) {
+HXLINE( 464)			this->resume();
             		}
             		else {
-HXLINE( 485)			this->startSound(StartTime);
+HXLINE( 466)			this->startSound(StartTime);
             		}
-HXLINE( 487)		this->endTime = EndTime;
-HXLINE( 488)		return ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 468)		this->endTime = EndTime;
+HXLINE( 469)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(FlxSound_obj,play,return )
 
  ::flixel::_hx_system::FlxSound FlxSound_obj::resume(){
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_495_resume)
-HXLINE( 496)		if (this->_paused) {
-HXLINE( 497)			this->startSound(this->_time);
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_476_resume)
+HXLINE( 477)		if (this->_paused) {
+HXLINE( 478)			this->startSound(this->_time);
             		}
-HXLINE( 498)		return ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 479)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxSound_obj,resume,return )
 
  ::flixel::_hx_system::FlxSound FlxSound_obj::pause(){
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_505_pause)
-HXLINE( 506)		if (::hx::IsNull( this->_channel )) {
-HXLINE( 507)			return ::hx::ObjectPtr<OBJ_>(this);
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_486_pause)
+HXLINE( 487)		if (::hx::IsNull( this->_channel )) {
+HXLINE( 488)			return ::hx::ObjectPtr<OBJ_>(this);
             		}
-HXLINE( 509)		this->_time = this->_channel->get_position();
-HXLINE( 510)		this->_paused = true;
-HXLINE( 511)		this->cleanup(false,false);
-HXLINE( 512)		return ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 490)		this->_time = this->_channel->get_position();
+HXLINE( 491)		this->_paused = true;
+HXLINE( 492)		this->cleanup(false,false);
+HXLINE( 493)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxSound_obj,pause,return )
 
  ::flixel::_hx_system::FlxSound FlxSound_obj::stop(){
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_519_stop)
-HXLINE( 520)		this->cleanup(this->autoDestroy,true);
-HXLINE( 521)		return ::hx::ObjectPtr<OBJ_>(this);
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_500_stop)
+HXLINE( 501)		this->cleanup(this->autoDestroy,true);
+HXLINE( 502)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
@@ -462,13 +444,13 @@ HX_DEFINE_DYNAMIC_FUNC0(FlxSound_obj,stop,return )
             		Float Duration = __o_Duration.Default(1);
             		 ::Dynamic To = __o_To;
             		if (::hx::IsNull(__o_To)) To = 0;
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_531_fadeOut)
-HXLINE( 532)		if (::hx::IsNotNull( this->fadeTween )) {
-HXLINE( 533)			this->fadeTween->cancel();
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_512_fadeOut)
+HXLINE( 513)		if (::hx::IsNotNull( this->fadeTween )) {
+HXLINE( 514)			this->fadeTween->cancel();
             		}
-HXLINE( 534)		this->fadeTween = ::flixel::tweens::FlxTween_obj::num(this->_volume,( (Float)(To) ),Duration, ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE( 515)		this->fadeTween = ::flixel::tweens::FlxTween_obj::num(this->_volume,( (Float)(To) ),Duration, ::Dynamic(::hx::Anon_obj::Create(1)
             			->setFixed(0,HX_("onComplete",f8,d4,7e,5d),onComplete)),this->volumeTween_dyn());
-HXLINE( 536)		return ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 517)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
@@ -478,32 +460,32 @@ HX_DEFINE_DYNAMIC_FUNC3(FlxSound_obj,fadeOut,return )
             		Float Duration = __o_Duration.Default(1);
             		Float From = __o_From.Default(0);
             		Float To = __o_To.Default(1);
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_547_fadeIn)
-HXLINE( 548)		if (::hx::IsNull( this->_channel )) {
-HXLINE( 549)			this->play(null(),null(),null());
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_528_fadeIn)
+HXLINE( 529)		if (::hx::IsNull( this->_channel )) {
+HXLINE( 530)			this->play(null(),null(),null());
             		}
-HXLINE( 551)		if (::hx::IsNotNull( this->fadeTween )) {
-HXLINE( 552)			this->fadeTween->cancel();
+HXLINE( 532)		if (::hx::IsNotNull( this->fadeTween )) {
+HXLINE( 533)			this->fadeTween->cancel();
             		}
-HXLINE( 554)		this->fadeTween = ::flixel::tweens::FlxTween_obj::num(From,To,Duration, ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE( 535)		this->fadeTween = ::flixel::tweens::FlxTween_obj::num(From,To,Duration, ::Dynamic(::hx::Anon_obj::Create(1)
             			->setFixed(0,HX_("onComplete",f8,d4,7e,5d),onComplete)),this->volumeTween_dyn());
-HXLINE( 555)		return ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 536)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC4(FlxSound_obj,fadeIn,return )
 
 void FlxSound_obj::volumeTween(Float f){
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_560_volumeTween)
-HXDLIN( 560)		this->set_volume(f);
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_541_volumeTween)
+HXDLIN( 541)		this->set_volume(f);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxSound_obj,volumeTween,(void))
 
 Float FlxSound_obj::getActualVolume(){
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_570_getActualVolume)
-HXDLIN( 570)		return (this->_volume * this->_volumeAdjust);
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_551_getActualVolume)
+HXDLIN( 551)		return (this->_volume * this->_volumeAdjust);
             	}
 
 
@@ -512,33 +494,33 @@ HX_DEFINE_DYNAMIC_FUNC0(FlxSound_obj,getActualVolume,return )
 void FlxSound_obj::setPosition(::hx::Null< Float >  __o_X,::hx::Null< Float >  __o_Y){
             		Float X = __o_X.Default(0);
             		Float Y = __o_Y.Default(0);
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_581_setPosition)
-HXLINE( 582)		this->x = X;
-HXLINE( 583)		this->y = Y;
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_562_setPosition)
+HXLINE( 563)		this->x = X;
+HXLINE( 564)		this->y = Y;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxSound_obj,setPosition,(void))
 
 void FlxSound_obj::updateTransform(){
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_591_updateTransform)
-HXLINE( 592)		int _hx_tmp;
-HXDLIN( 592)		if (::flixel::FlxG_obj::sound->muted) {
-HXLINE( 592)			_hx_tmp = 0;
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_572_updateTransform)
+HXLINE( 573)		int _hx_tmp;
+HXDLIN( 573)		if (::flixel::FlxG_obj::sound->muted) {
+HXLINE( 573)			_hx_tmp = 0;
             		}
             		else {
-HXLINE( 592)			_hx_tmp = 1;
+HXLINE( 573)			_hx_tmp = 1;
             		}
-HXLINE( 593)		Float _hx_tmp1;
-HXDLIN( 593)		if (::hx::IsNotNull( this->group )) {
-HXLINE( 593)			_hx_tmp1 = this->group->volume;
+HXLINE( 574)		Float _hx_tmp1;
+HXDLIN( 574)		if (::hx::IsNotNull( this->group )) {
+HXLINE( 574)			_hx_tmp1 = this->group->volume;
             		}
             		else {
-HXLINE( 593)			_hx_tmp1 = ( (Float)(1) );
+HXLINE( 574)			_hx_tmp1 = ( (Float)(1) );
             		}
-HXLINE( 592)		this->_transform->volume = ((((( (Float)(_hx_tmp) ) * ::flixel::FlxG_obj::sound->volume) * _hx_tmp1) * this->_volume) * this->_volumeAdjust);
-HXLINE( 595)		if (::hx::IsNotNull( this->_channel )) {
-HXLINE( 596)			this->_channel->set_soundTransform(this->_transform);
+HXLINE( 573)		this->_transform->volume = ((((( (Float)(_hx_tmp) ) * ::flixel::FlxG_obj::sound->volume) * _hx_tmp1) * this->_volume) * this->_volumeAdjust);
+HXLINE( 576)		if (::hx::IsNotNull( this->_channel )) {
+HXLINE( 577)			this->_channel->set_soundTransform(this->_transform);
             		}
             	}
 
@@ -546,20 +528,20 @@ HXLINE( 596)			this->_channel->set_soundTransform(this->_transform);
 HX_DEFINE_DYNAMIC_FUNC0(FlxSound_obj,updateTransform,(void))
 
 void FlxSound_obj::startSound(Float StartTime){
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_604_startSound)
-HXLINE( 605)		if (::hx::IsNull( this->_sound )) {
-HXLINE( 606)			return;
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_585_startSound)
+HXLINE( 586)		if (::hx::IsNull( this->_sound )) {
+HXLINE( 587)			return;
             		}
-HXLINE( 608)		this->_time = StartTime;
-HXLINE( 609)		this->_paused = false;
-HXLINE( 610)		this->_channel = this->_sound->play(this->_time,0,this->_transform);
-HXLINE( 611)		if (::hx::IsNotNull( this->_channel )) {
-HXLINE( 616)			this->_channel->addEventListener(HX_("soundComplete",a8,30,e6,1c),this->stopped_dyn(),null(),null(),null());
-HXLINE( 617)			this->set_active(true);
+HXLINE( 589)		this->_time = StartTime;
+HXLINE( 590)		this->_paused = false;
+HXLINE( 591)		this->_channel = this->_sound->play(this->_time,0,this->_transform);
+HXLINE( 592)		if (::hx::IsNotNull( this->_channel )) {
+HXLINE( 597)			this->_channel->addEventListener(HX_("soundComplete",a8,30,e6,1c),this->stopped_dyn(),null(),null(),null());
+HXLINE( 598)			this->set_active(true);
             		}
             		else {
-HXLINE( 621)			this->set_exists(false);
-HXLINE( 622)			this->set_active(false);
+HXLINE( 602)			this->set_exists(false);
+HXLINE( 603)			this->set_active(false);
             		}
             	}
 
@@ -567,16 +549,16 @@ HXLINE( 622)			this->set_active(false);
 HX_DEFINE_DYNAMIC_FUNC1(FlxSound_obj,startSound,(void))
 
 void FlxSound_obj::stopped( ::openfl::events::Event _){
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_631_stopped)
-HXLINE( 632)		if (::hx::IsNotNull( this->onComplete )) {
-HXLINE( 633)			this->onComplete();
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_612_stopped)
+HXLINE( 613)		if (::hx::IsNotNull( this->onComplete )) {
+HXLINE( 614)			this->onComplete();
             		}
-HXLINE( 635)		if (this->looped) {
-HXLINE( 637)			this->cleanup(false,null());
-HXLINE( 638)			this->play(false,this->loopTime,this->endTime);
+HXLINE( 616)		if (this->looped) {
+HXLINE( 618)			this->cleanup(false,null());
+HXLINE( 619)			this->play(false,this->loopTime,this->endTime);
             		}
             		else {
-HXLINE( 641)			this->cleanup(this->autoDestroy,null());
+HXLINE( 622)			this->cleanup(this->autoDestroy,null());
             		}
             	}
 
@@ -585,20 +567,20 @@ HX_DEFINE_DYNAMIC_FUNC1(FlxSound_obj,stopped,(void))
 
 void FlxSound_obj::cleanup(bool destroySound,::hx::Null< bool >  __o_resetPosition){
             		bool resetPosition = __o_resetPosition.Default(true);
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_654_cleanup)
-HXLINE( 655)		if (destroySound) {
-HXLINE( 657)			this->reset();
-HXLINE( 658)			return;
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_635_cleanup)
+HXLINE( 636)		if (destroySound) {
+HXLINE( 638)			this->reset();
+HXLINE( 639)			return;
             		}
-HXLINE( 661)		if (::hx::IsNotNull( this->_channel )) {
-HXLINE( 663)			this->_channel->removeEventListener(HX_("soundComplete",a8,30,e6,1c),this->stopped_dyn(),null());
-HXLINE( 664)			this->_channel->stop();
-HXLINE( 665)			this->_channel = null();
+HXLINE( 642)		if (::hx::IsNotNull( this->_channel )) {
+HXLINE( 644)			this->_channel->removeEventListener(HX_("soundComplete",a8,30,e6,1c),this->stopped_dyn(),null());
+HXLINE( 645)			this->_channel->stop();
+HXLINE( 646)			this->_channel = null();
             		}
-HXLINE( 668)		this->set_active(false);
-HXLINE( 670)		if (resetPosition) {
-HXLINE( 672)			this->_time = ( (Float)(0) );
-HXLINE( 673)			this->_paused = false;
+HXLINE( 649)		this->set_active(false);
+HXLINE( 651)		if (resetPosition) {
+HXLINE( 653)			this->_time = ( (Float)(0) );
+HXLINE( 654)			this->_paused = false;
             		}
             	}
 
@@ -606,19 +588,19 @@ HXLINE( 673)			this->_paused = false;
 HX_DEFINE_DYNAMIC_FUNC2(FlxSound_obj,cleanup,(void))
 
 void FlxSound_obj::gotID3( ::openfl::events::Event _){
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_681_gotID3)
-HXLINE( 682)		this->name = this->_sound->get_id3()->songName;
-HXLINE( 683)		this->artist = this->_sound->get_id3()->artist;
-HXLINE( 684)		this->_sound->removeEventListener(HX_("id3",f8,03,50,00),this->gotID3_dyn(),null());
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_662_gotID3)
+HXLINE( 663)		this->name = this->_sound->get_id3()->songName;
+HXLINE( 664)		this->artist = this->_sound->get_id3()->artist;
+HXLINE( 665)		this->_sound->removeEventListener(HX_("id3",f8,03,50,00),this->gotID3_dyn(),null());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxSound_obj,gotID3,(void))
 
 void FlxSound_obj::onFocus(){
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_691_onFocus)
-HXDLIN( 691)		if (!(this->_alreadyPaused)) {
-HXLINE( 692)			this->resume();
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_672_onFocus)
+HXDLIN( 672)		if (!(this->_alreadyPaused)) {
+HXLINE( 673)			this->resume();
             		}
             	}
 
@@ -626,136 +608,136 @@ HXLINE( 692)			this->resume();
 HX_DEFINE_DYNAMIC_FUNC0(FlxSound_obj,onFocus,(void))
 
 void FlxSound_obj::onFocusLost(){
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_697_onFocusLost)
-HXLINE( 698)		this->_alreadyPaused = this->_paused;
-HXLINE( 699)		this->pause();
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_678_onFocusLost)
+HXLINE( 679)		this->_alreadyPaused = this->_paused;
+HXLINE( 680)		this->pause();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxSound_obj,onFocusLost,(void))
 
  ::flixel::_hx_system::FlxSoundGroup FlxSound_obj::set_group( ::flixel::_hx_system::FlxSoundGroup group){
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_704_set_group)
-HXLINE( 705)		if (::hx::IsNotEq( this->group,group )) {
-HXLINE( 707)			 ::flixel::_hx_system::FlxSoundGroup oldGroup = this->group;
-HXLINE( 710)			this->group = group;
-HXLINE( 712)			if (::hx::IsNotNull( oldGroup )) {
-HXLINE( 713)				oldGroup->remove(::hx::ObjectPtr<OBJ_>(this));
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_685_set_group)
+HXLINE( 686)		if (::hx::IsNotEq( this->group,group )) {
+HXLINE( 688)			 ::flixel::_hx_system::FlxSoundGroup oldGroup = this->group;
+HXLINE( 691)			this->group = group;
+HXLINE( 693)			if (::hx::IsNotNull( oldGroup )) {
+HXLINE( 694)				oldGroup->remove(::hx::ObjectPtr<OBJ_>(this));
             			}
-HXLINE( 715)			if (::hx::IsNotNull( group )) {
-HXLINE( 716)				group->add(::hx::ObjectPtr<OBJ_>(this));
+HXLINE( 696)			if (::hx::IsNotNull( group )) {
+HXLINE( 697)				group->add(::hx::ObjectPtr<OBJ_>(this));
             			}
-HXLINE( 718)			this->updateTransform();
+HXLINE( 699)			this->updateTransform();
             		}
-HXLINE( 720)		return group;
+HXLINE( 701)		return group;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxSound_obj,set_group,return )
 
 bool FlxSound_obj::get_playing(){
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_725_get_playing)
-HXDLIN( 725)		return ::hx::IsNotNull( this->_channel );
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_706_get_playing)
+HXDLIN( 706)		return ::hx::IsNotNull( this->_channel );
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxSound_obj,get_playing,return )
 
 Float FlxSound_obj::get_volume(){
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_730_get_volume)
-HXDLIN( 730)		return this->_volume;
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_711_get_volume)
+HXDLIN( 711)		return this->_volume;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxSound_obj,get_volume,return )
 
 Float FlxSound_obj::set_volume(Float Volume){
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_734_set_volume)
-HXLINE( 735)		Float lowerBound;
-HXDLIN( 735)		if ((Volume < 0)) {
-HXLINE( 735)			lowerBound = ( (Float)(0) );
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_715_set_volume)
+HXLINE( 716)		Float lowerBound;
+HXDLIN( 716)		if ((Volume < 0)) {
+HXLINE( 716)			lowerBound = ( (Float)(0) );
             		}
             		else {
-HXLINE( 735)			lowerBound = Volume;
+HXLINE( 716)			lowerBound = Volume;
             		}
-HXDLIN( 735)		Float _hx_tmp;
-HXDLIN( 735)		if ((lowerBound > 1)) {
-HXLINE( 735)			_hx_tmp = ( (Float)(1) );
+HXDLIN( 716)		Float _hx_tmp;
+HXDLIN( 716)		if ((lowerBound > 1)) {
+HXLINE( 716)			_hx_tmp = ( (Float)(1) );
             		}
             		else {
-HXLINE( 735)			_hx_tmp = lowerBound;
+HXLINE( 716)			_hx_tmp = lowerBound;
             		}
-HXDLIN( 735)		this->_volume = _hx_tmp;
-HXLINE( 736)		this->updateTransform();
-HXLINE( 737)		return Volume;
+HXDLIN( 716)		this->_volume = _hx_tmp;
+HXLINE( 717)		this->updateTransform();
+HXLINE( 718)		return Volume;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxSound_obj,set_volume,return )
 
 Float FlxSound_obj::get_pan(){
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_756_get_pan)
-HXDLIN( 756)		return this->_transform->pan;
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_737_get_pan)
+HXDLIN( 737)		return this->_transform->pan;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxSound_obj,get_pan,return )
 
 Float FlxSound_obj::set_pan(Float pan){
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_761_set_pan)
-HXDLIN( 761)		return (this->_transform->pan = pan);
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_742_set_pan)
+HXDLIN( 742)		return (this->_transform->pan = pan);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxSound_obj,set_pan,return )
 
 Float FlxSound_obj::get_time(){
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_766_get_time)
-HXDLIN( 766)		return this->_time;
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_747_get_time)
+HXDLIN( 747)		return this->_time;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxSound_obj,get_time,return )
 
 Float FlxSound_obj::set_time(Float time){
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_770_set_time)
-HXLINE( 771)		if (::hx::IsNotNull( this->_channel )) {
-HXLINE( 773)			this->cleanup(false,true);
-HXLINE( 774)			this->startSound(time);
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_751_set_time)
+HXLINE( 752)		if (::hx::IsNotNull( this->_channel )) {
+HXLINE( 754)			this->cleanup(false,true);
+HXLINE( 755)			this->startSound(time);
             		}
-HXLINE( 776)		return (this->_time = time);
+HXLINE( 757)		return (this->_time = time);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxSound_obj,set_time,return )
 
 Float FlxSound_obj::get_length(){
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_781_get_length)
-HXDLIN( 781)		return this->_length;
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_762_get_length)
+HXDLIN( 762)		return this->_length;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxSound_obj,get_length,return )
 
 ::String FlxSound_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_786_toString)
-HXLINE( 787)		 ::Dynamic value = ::hx::IsNotNull( this->_channel );
-HXDLIN( 787)		 ::flixel::util::LabelValuePair _this = ::flixel::util::LabelValuePair_obj::_pool->get();
-HXDLIN( 787)		_this->label = HX_("playing",6e,0f,18,8a);
-HXDLIN( 787)		_this->value = value;
-HXLINE( 788)		 ::Dynamic value1 = this->_time;
-HXDLIN( 788)		 ::flixel::util::LabelValuePair _this1 = ::flixel::util::LabelValuePair_obj::_pool->get();
-HXDLIN( 788)		_this1->label = HX_("time",0d,cc,fc,4c);
-HXDLIN( 788)		_this1->value = value1;
-HXLINE( 789)		 ::Dynamic value2 = this->_length;
-HXDLIN( 789)		 ::flixel::util::LabelValuePair _this2 = ::flixel::util::LabelValuePair_obj::_pool->get();
-HXDLIN( 789)		_this2->label = HX_("length",e6,94,07,9f);
-HXDLIN( 789)		_this2->value = value2;
-HXLINE( 790)		 ::Dynamic value3 = this->_volume;
-HXDLIN( 790)		 ::flixel::util::LabelValuePair _this3 = ::flixel::util::LabelValuePair_obj::_pool->get();
-HXDLIN( 790)		_this3->label = HX_("volume",da,29,53,5f);
-HXDLIN( 790)		_this3->value = value3;
-HXLINE( 786)		return ::flixel::util::FlxStringUtil_obj::getDebugString(::Array_obj< ::Dynamic>::__new(4)->init(0,_this)->init(1,_this1)->init(2,_this2)->init(3,_this3));
+            	HX_STACKFRAME(&_hx_pos_ec393d325e46c77d_767_toString)
+HXLINE( 768)		 ::Dynamic value = ::hx::IsNotNull( this->_channel );
+HXDLIN( 768)		 ::flixel::util::LabelValuePair _this = ::flixel::util::LabelValuePair_obj::_pool->get();
+HXDLIN( 768)		_this->label = HX_("playing",6e,0f,18,8a);
+HXDLIN( 768)		_this->value = value;
+HXLINE( 769)		 ::Dynamic value1 = this->_time;
+HXDLIN( 769)		 ::flixel::util::LabelValuePair _this1 = ::flixel::util::LabelValuePair_obj::_pool->get();
+HXDLIN( 769)		_this1->label = HX_("time",0d,cc,fc,4c);
+HXDLIN( 769)		_this1->value = value1;
+HXLINE( 770)		 ::Dynamic value2 = this->_length;
+HXDLIN( 770)		 ::flixel::util::LabelValuePair _this2 = ::flixel::util::LabelValuePair_obj::_pool->get();
+HXDLIN( 770)		_this2->label = HX_("length",e6,94,07,9f);
+HXDLIN( 770)		_this2->value = value2;
+HXLINE( 771)		 ::Dynamic value3 = this->_volume;
+HXDLIN( 771)		 ::flixel::util::LabelValuePair _this3 = ::flixel::util::LabelValuePair_obj::_pool->get();
+HXDLIN( 771)		_this3->label = HX_("volume",da,29,53,5f);
+HXDLIN( 771)		_this3->value = value3;
+HXLINE( 767)		return ::flixel::util::FlxStringUtil_obj::getDebugString(::Array_obj< ::Dynamic>::__new(4)->init(0,_this)->init(1,_this1)->init(2,_this2)->init(3,_this3));
             	}
 
 

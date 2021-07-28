@@ -63,12 +63,6 @@ class HXCPP_CLASS_ATTRIBUTES Context3DDisplayObject_obj : public ::hx::Object
 		static void render( ::openfl::display::DisplayObject displayObject, ::openfl::display::OpenGLRenderer renderer);
 		static ::Dynamic render_dyn();
 
-		static void renderDrawable( ::openfl::display::DisplayObject displayObject, ::openfl::display::OpenGLRenderer renderer);
-		static ::Dynamic renderDrawable_dyn();
-
-		static void renderDrawableMask( ::openfl::display::DisplayObject displayObject, ::openfl::display::OpenGLRenderer renderer);
-		static ::Dynamic renderDrawableMask_dyn();
-
 		static void renderMask( ::openfl::display::DisplayObject displayObject, ::openfl::display::OpenGLRenderer renderer);
 		static ::Dynamic renderMask_dyn();
 

@@ -14,10 +14,10 @@
 #include <lime/system/ThreadPool.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_07b7a29bdf563898_325_queue,"lime.app._Future.FutureWork","queue",0x91987fc9,"lime.app._Future.FutureWork.queue","lime/app/Future.hx",325,0x058e0853)
-HX_LOCAL_STACK_FRAME(_hx_pos_07b7a29bdf563898_340_threadPool_doWork,"lime.app._Future.FutureWork","threadPool_doWork",0x0c558ecd,"lime.app._Future.FutureWork.threadPool_doWork","lime/app/Future.hx",340,0x058e0853)
-HX_LOCAL_STACK_FRAME(_hx_pos_07b7a29bdf563898_353_threadPool_onComplete,"lime.app._Future.FutureWork","threadPool_onComplete",0x6b927949,"lime.app._Future.FutureWork.threadPool_onComplete","lime/app/Future.hx",353,0x058e0853)
-HX_LOCAL_STACK_FRAME(_hx_pos_07b7a29bdf563898_358_threadPool_onError,"lime.app._Future.FutureWork","threadPool_onError",0xc65d5938,"lime.app._Future.FutureWork.threadPool_onError","lime/app/Future.hx",358,0x058e0853)
+HX_LOCAL_STACK_FRAME(_hx_pos_07b7a29bdf563898_326_queue,"lime.app._Future.FutureWork","queue",0x91987fc9,"lime.app._Future.FutureWork.queue","lime/app/Future.hx",326,0x058e0853)
+HX_LOCAL_STACK_FRAME(_hx_pos_07b7a29bdf563898_341_threadPool_doWork,"lime.app._Future.FutureWork","threadPool_doWork",0x0c558ecd,"lime.app._Future.FutureWork.threadPool_doWork","lime/app/Future.hx",341,0x058e0853)
+HX_LOCAL_STACK_FRAME(_hx_pos_07b7a29bdf563898_354_threadPool_onComplete,"lime.app._Future.FutureWork","threadPool_onComplete",0x6b927949,"lime.app._Future.FutureWork.threadPool_onComplete","lime/app/Future.hx",354,0x058e0853)
+HX_LOCAL_STACK_FRAME(_hx_pos_07b7a29bdf563898_359_threadPool_onError,"lime.app._Future.FutureWork","threadPool_onError",0xc65d5938,"lime.app._Future.FutureWork.threadPool_onError","lime/app/Future.hx",359,0x058e0853)
 namespace lime{
 namespace app{
 namespace _Future{
@@ -42,25 +42,25 @@ bool FutureWork_obj::_hx_isInstanceOf(int inClassId) {
  ::lime::_hx_system::ThreadPool FutureWork_obj::threadPool;
 
 void FutureWork_obj::queue( ::Dynamic state){
-            	HX_GC_STACKFRAME(&_hx_pos_07b7a29bdf563898_325_queue)
-HXLINE( 326)		if (::hx::IsNull( ::lime::app::_Future::FutureWork_obj::threadPool )) {
-HXLINE( 328)			::lime::app::_Future::FutureWork_obj::threadPool =  ::lime::_hx_system::ThreadPool_obj::__alloc( HX_CTX ,null(),null());
-HXLINE( 329)			::lime::app::_Future::FutureWork_obj::threadPool->doWork->add(::lime::app::_Future::FutureWork_obj::threadPool_doWork_dyn(),null(),null());
-HXLINE( 330)			::lime::app::_Future::FutureWork_obj::threadPool->onComplete->add(::lime::app::_Future::FutureWork_obj::threadPool_onComplete_dyn(),null(),null());
-HXLINE( 331)			::lime::app::_Future::FutureWork_obj::threadPool->onError->add(::lime::app::_Future::FutureWork_obj::threadPool_onError_dyn(),null(),null());
+            	HX_GC_STACKFRAME(&_hx_pos_07b7a29bdf563898_326_queue)
+HXLINE( 327)		if (::hx::IsNull( ::lime::app::_Future::FutureWork_obj::threadPool )) {
+HXLINE( 329)			::lime::app::_Future::FutureWork_obj::threadPool =  ::lime::_hx_system::ThreadPool_obj::__alloc( HX_CTX ,null(),null());
+HXLINE( 330)			::lime::app::_Future::FutureWork_obj::threadPool->doWork->add(::lime::app::_Future::FutureWork_obj::threadPool_doWork_dyn(),null(),null());
+HXLINE( 331)			::lime::app::_Future::FutureWork_obj::threadPool->onComplete->add(::lime::app::_Future::FutureWork_obj::threadPool_onComplete_dyn(),null(),null());
+HXLINE( 332)			::lime::app::_Future::FutureWork_obj::threadPool->onError->add(::lime::app::_Future::FutureWork_obj::threadPool_onError_dyn(),null(),null());
             		}
-HXLINE( 334)		::lime::app::_Future::FutureWork_obj::threadPool->queue(state);
+HXLINE( 335)		::lime::app::_Future::FutureWork_obj::threadPool->queue(state);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(FutureWork_obj,queue,(void))
 
 void FutureWork_obj::threadPool_doWork( ::Dynamic state){
-            	HX_STACKFRAME(&_hx_pos_07b7a29bdf563898_340_threadPool_doWork)
-HXDLIN( 340)		try {
+            	HX_STACKFRAME(&_hx_pos_07b7a29bdf563898_341_threadPool_doWork)
+HXDLIN( 341)		try {
             			HX_STACK_CATCHABLE( ::Dynamic, 0);
-HXLINE( 342)			 ::Dynamic result = state->__Field(HX_("work",d1,01,fd,4e),::hx::paccDynamic)();
-HXLINE( 343)			::lime::app::_Future::FutureWork_obj::threadPool->sendComplete( ::Dynamic(::hx::Anon_obj::Create(2)
+HXLINE( 343)			 ::Dynamic result = state->__Field(HX_("work",d1,01,fd,4e),::hx::paccDynamic)();
+HXLINE( 344)			::lime::app::_Future::FutureWork_obj::threadPool->sendComplete( ::Dynamic(::hx::Anon_obj::Create(2)
             				->setFixed(0,HX_("promise",9b,cd,e9,f7), ::Dynamic(state->__Field(HX_("promise",9b,cd,e9,f7),::hx::paccDynamic)))
             				->setFixed(1,HX_("result",dd,68,84,08),result)));
             		} catch( ::Dynamic _hx_e) {
@@ -71,7 +71,7 @@ HXLINE(   1)				{
 HXLINE(   1)					null();
             				}
 HXDLIN(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
-HXLINE( 347)				::lime::app::_Future::FutureWork_obj::threadPool->sendError( ::Dynamic(::hx::Anon_obj::Create(2)
+HXLINE( 348)				::lime::app::_Future::FutureWork_obj::threadPool->sendError( ::Dynamic(::hx::Anon_obj::Create(2)
             					->setFixed(0,HX_("promise",9b,cd,e9,f7), ::Dynamic(state->__Field(HX_("promise",9b,cd,e9,f7),::hx::paccDynamic)))
             					->setFixed(1,HX_("error",c8,cb,29,73),e)));
             			}
@@ -85,16 +85,16 @@ HXLINE( 347)				::lime::app::_Future::FutureWork_obj::threadPool->sendError( ::D
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(FutureWork_obj,threadPool_doWork,(void))
 
 void FutureWork_obj::threadPool_onComplete( ::Dynamic state){
-            	HX_STACKFRAME(&_hx_pos_07b7a29bdf563898_353_threadPool_onComplete)
-HXDLIN( 353)		 ::Dynamic(state->__Field(HX_("promise",9b,cd,e9,f7),::hx::paccDynamic))->__Field(HX_("complete",b9,00,c8,7f),::hx::paccDynamic)( ::Dynamic(state->__Field(HX_("result",dd,68,84,08),::hx::paccDynamic)));
+            	HX_STACKFRAME(&_hx_pos_07b7a29bdf563898_354_threadPool_onComplete)
+HXDLIN( 354)		 ::Dynamic(state->__Field(HX_("promise",9b,cd,e9,f7),::hx::paccDynamic))->__Field(HX_("complete",b9,00,c8,7f),::hx::paccDynamic)( ::Dynamic(state->__Field(HX_("result",dd,68,84,08),::hx::paccDynamic)));
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(FutureWork_obj,threadPool_onComplete,(void))
 
 void FutureWork_obj::threadPool_onError( ::Dynamic state){
-            	HX_STACKFRAME(&_hx_pos_07b7a29bdf563898_358_threadPool_onError)
-HXDLIN( 358)		 ::Dynamic(state->__Field(HX_("promise",9b,cd,e9,f7),::hx::paccDynamic))->__Field(HX_("error",c8,cb,29,73),::hx::paccDynamic)( ::Dynamic(state->__Field(HX_("error",c8,cb,29,73),::hx::paccDynamic)));
+            	HX_STACKFRAME(&_hx_pos_07b7a29bdf563898_359_threadPool_onError)
+HXDLIN( 359)		 ::Dynamic(state->__Field(HX_("promise",9b,cd,e9,f7),::hx::paccDynamic))->__Field(HX_("error",c8,cb,29,73),::hx::paccDynamic)( ::Dynamic(state->__Field(HX_("error",c8,cb,29,73),::hx::paccDynamic)));
             	}
 
 

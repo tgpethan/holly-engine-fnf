@@ -22,17 +22,12 @@
 #ifndef INCLUDED_haxe_iterators_ArrayIterator
 #include <haxe/iterators/ArrayIterator.h>
 #endif
-#ifndef INCLUDED_haxe_iterators_MapKeyValueIterator
-#include <haxe/iterators/MapKeyValueIterator.h>
-#endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_4f13c97c1ff92405_41_new,"haxe.ds.BalancedTree","new",0xfb50b0cf,"haxe.ds.BalancedTree.new","/usr/share/haxe/std/haxe/ds/BalancedTree.hx",41,0x65905886)
 HX_LOCAL_STACK_FRAME(_hx_pos_4f13c97c1ff92405_51_set,"haxe.ds.BalancedTree","set",0xfb547c11,"haxe.ds.BalancedTree.set","/usr/share/haxe/std/haxe/ds/BalancedTree.hx",51,0x65905886)
 HX_LOCAL_STACK_FRAME(_hx_pos_4f13c97c1ff92405_61_get,"haxe.ds.BalancedTree","get",0xfb4b6105,"haxe.ds.BalancedTree.get","/usr/share/haxe/std/haxe/ds/BalancedTree.hx",61,0x65905886)
 HX_LOCAL_STACK_FRAME(_hx_pos_4f13c97c1ff92405_86_remove,"haxe.ds.BalancedTree","remove",0x68366b35,"haxe.ds.BalancedTree.remove","/usr/share/haxe/std/haxe/ds/BalancedTree.hx",86,0x65905886)
 HX_LOCAL_STACK_FRAME(_hx_pos_4f13c97c1ff92405_101_exists,"haxe.ds.BalancedTree","exists",0x238deccd,"haxe.ds.BalancedTree.exists","/usr/share/haxe/std/haxe/ds/BalancedTree.hx",101,0x65905886)
-HX_LOCAL_STACK_FRAME(_hx_pos_4f13c97c1ff92405_120_iterator,"haxe.ds.BalancedTree","iterator",0x998e771f,"haxe.ds.BalancedTree.iterator","/usr/share/haxe/std/haxe/ds/BalancedTree.hx",120,0x65905886)
-HX_LOCAL_STACK_FRAME(_hx_pos_4f13c97c1ff92405_130_keyValueIterator,"haxe.ds.BalancedTree","keyValueIterator",0x348d1391,"haxe.ds.BalancedTree.keyValueIterator","/usr/share/haxe/std/haxe/ds/BalancedTree.hx",130,0x65905886)
 HX_LOCAL_STACK_FRAME(_hx_pos_4f13c97c1ff92405_138_keys,"haxe.ds.BalancedTree","keys",0xe94e62a5,"haxe.ds.BalancedTree.keys","/usr/share/haxe/std/haxe/ds/BalancedTree.hx",138,0x65905886)
 HX_LOCAL_STACK_FRAME(_hx_pos_4f13c97c1ff92405_150_setLoop,"haxe.ds.BalancedTree","setLoop",0xe1a32b15,"haxe.ds.BalancedTree.setLoop","/usr/share/haxe/std/haxe/ds/BalancedTree.hx",150,0x65905886)
 HX_LOCAL_STACK_FRAME(_hx_pos_4f13c97c1ff92405_163_removeLoop,"haxe.ds.BalancedTree","removeLoop",0x52157c39,"haxe.ds.BalancedTree.removeLoop","/usr/share/haxe/std/haxe/ds/BalancedTree.hx",163,0x65905886)
@@ -42,7 +37,6 @@ HX_LOCAL_STACK_FRAME(_hx_pos_4f13c97c1ff92405_198_minBinding,"haxe.ds.BalancedTr
 HX_LOCAL_STACK_FRAME(_hx_pos_4f13c97c1ff92405_202_removeMinBinding,"haxe.ds.BalancedTree","removeMinBinding",0xe82c3b68,"haxe.ds.BalancedTree.removeMinBinding","/usr/share/haxe/std/haxe/ds/BalancedTree.hx",202,0x65905886)
 HX_LOCAL_STACK_FRAME(_hx_pos_4f13c97c1ff92405_205_balance,"haxe.ds.BalancedTree","balance",0xf7f4e10b,"haxe.ds.BalancedTree.balance","/usr/share/haxe/std/haxe/ds/BalancedTree.hx",205,0x65905886)
 HX_LOCAL_STACK_FRAME(_hx_pos_4f13c97c1ff92405_226_compare,"haxe.ds.BalancedTree","compare",0x57d05c94,"haxe.ds.BalancedTree.compare","/usr/share/haxe/std/haxe/ds/BalancedTree.hx",226,0x65905886)
-HX_LOCAL_STACK_FRAME(_hx_pos_4f13c97c1ff92405_173_iteratorLoop,"haxe.ds.BalancedTree","iteratorLoop",0x3392c523,"haxe.ds.BalancedTree.iteratorLoop","/usr/share/haxe/std/haxe/ds/BalancedTree.hx",173,0x65905886)
 namespace haxe{
 namespace ds{
 
@@ -71,8 +65,6 @@ static ::haxe::IMap_obj _hx_haxe_ds_BalancedTree__hx_haxe_IMap= {
 	( bool (::hx::Object::*)( ::Dynamic))&::haxe::ds::BalancedTree_obj::exists,
 	( bool (::hx::Object::*)( ::Dynamic))&::haxe::ds::BalancedTree_obj::remove,
 	(  ::Dynamic (::hx::Object::*)())&::haxe::ds::BalancedTree_obj::keys,
-	(  ::Dynamic (::hx::Object::*)())&::haxe::ds::BalancedTree_obj::iterator,
-	(  ::Dynamic (::hx::Object::*)())&::haxe::ds::BalancedTree_obj::keyValueIterator,
 };
 
 void BalancedTree_obj::set_dca24b06( ::Dynamic k, ::Dynamic v) {
@@ -170,24 +162,6 @@ HXLINE( 112)		return false;
 
 
 HX_DEFINE_DYNAMIC_FUNC1(BalancedTree_obj,exists,return )
-
- ::Dynamic BalancedTree_obj::iterator(){
-            	HX_GC_STACKFRAME(&_hx_pos_4f13c97c1ff92405_120_iterator)
-HXLINE( 121)		::cpp::VirtualArray ret = ::cpp::VirtualArray_obj::__new(0);
-HXLINE( 122)		::haxe::ds::BalancedTree_obj::iteratorLoop(this->root,ret);
-HXLINE( 123)		return  ::haxe::iterators::ArrayIterator_obj::__alloc( HX_CTX ,ret);
-            	}
-
-
-HX_DEFINE_DYNAMIC_FUNC0(BalancedTree_obj,iterator,return )
-
- ::Dynamic BalancedTree_obj::keyValueIterator(){
-            	HX_GC_STACKFRAME(&_hx_pos_4f13c97c1ff92405_130_keyValueIterator)
-HXDLIN( 130)		return  ::haxe::iterators::MapKeyValueIterator_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this));
-            	}
-
-
-HX_DEFINE_DYNAMIC_FUNC0(BalancedTree_obj,keyValueIterator,return )
 
  ::Dynamic BalancedTree_obj::keys(){
             	HX_GC_STACKFRAME(&_hx_pos_4f13c97c1ff92405_138_keys)
@@ -420,18 +394,6 @@ HXDLIN( 226)		return ::Reflect_obj::compare(k1,k2);
 
 HX_DEFINE_DYNAMIC_FUNC2(BalancedTree_obj,compare,return )
 
-void BalancedTree_obj::iteratorLoop( ::haxe::ds::TreeNode node,::cpp::VirtualArray acc){
-            	HX_STACKFRAME(&_hx_pos_4f13c97c1ff92405_173_iteratorLoop)
-HXDLIN( 173)		if (::hx::IsNotNull( node )) {
-HXLINE( 174)			::haxe::ds::BalancedTree_obj::iteratorLoop(node->left,acc);
-HXLINE( 175)			acc->push(node->value);
-HXLINE( 176)			::haxe::ds::BalancedTree_obj::iteratorLoop(node->right,acc);
-            		}
-            	}
-
-
-STATIC_HX_DEFINE_DYNAMIC_FUNC2(BalancedTree_obj,iteratorLoop,(void))
-
 
 ::hx::ObjectPtr< BalancedTree_obj > BalancedTree_obj::__new() {
 	::hx::ObjectPtr< BalancedTree_obj > __this = new BalancedTree_obj();
@@ -486,7 +448,6 @@ void BalancedTree_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"compare") ) { return ::hx::Val( compare_dyn() ); }
 		break;
 	case 8:
-		if (HX_FIELD_EQ(inName,"iterator") ) { return ::hx::Val( iterator_dyn() ); }
 		if (HX_FIELD_EQ(inName,"keysLoop") ) { return ::hx::Val( keysLoop_dyn() ); }
 		break;
 	case 10:
@@ -494,19 +455,9 @@ void BalancedTree_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"minBinding") ) { return ::hx::Val( minBinding_dyn() ); }
 		break;
 	case 16:
-		if (HX_FIELD_EQ(inName,"keyValueIterator") ) { return ::hx::Val( keyValueIterator_dyn() ); }
 		if (HX_FIELD_EQ(inName,"removeMinBinding") ) { return ::hx::Val( removeMinBinding_dyn() ); }
 	}
 	return super::__Field(inName,inCallProp);
-}
-
-bool BalancedTree_obj::__GetStatic(const ::String &inName, Dynamic &outValue, ::hx::PropertyAccess inCallProp)
-{
-	switch(inName.length) {
-	case 12:
-		if (HX_FIELD_EQ(inName,"iteratorLoop") ) { outValue = iteratorLoop_dyn(); return true; }
-	}
-	return false;
 }
 
 ::hx::Val BalancedTree_obj::__SetField(const ::String &inName,const ::hx::Val &inValue,::hx::PropertyAccess inCallProp)
@@ -538,8 +489,6 @@ static ::String BalancedTree_obj_sMemberFields[] = {
 	HX_("get",96,80,4e,00),
 	HX_("remove",44,9c,88,04),
 	HX_("exists",dc,1d,e0,bf),
-	HX_("iterator",ee,49,9a,93),
-	HX_("keyValueIterator",60,cd,ee,4a),
 	HX_("keys",f4,e1,06,47),
 	HX_("setLoop",26,e7,3b,0d),
 	HX_("removeLoop",c8,e0,d6,c4),
@@ -553,11 +502,6 @@ static ::String BalancedTree_obj_sMemberFields[] = {
 
 ::hx::Class BalancedTree_obj::__mClass;
 
-static ::String BalancedTree_obj_sStaticFields[] = {
-	HX_("iteratorLoop",72,ab,e1,e4),
-	::String(null())
-};
-
 void BalancedTree_obj::__register()
 {
 	BalancedTree_obj _hx_dummy;
@@ -567,9 +511,9 @@ void BalancedTree_obj::__register()
 	__mClass->mSuper = &super::__SGetClass();
 	__mClass->mConstructEmpty = &__CreateEmpty;
 	__mClass->mConstructArgs = &__Create;
-	__mClass->mGetStaticField = &BalancedTree_obj::__GetStatic;
+	__mClass->mGetStaticField = &::hx::Class_obj::GetNoStaticField;
 	__mClass->mSetStaticField = &::hx::Class_obj::SetNoStaticField;
-	__mClass->mStatics = ::hx::Class_obj::dupFunctions(BalancedTree_obj_sStaticFields);
+	__mClass->mStatics = ::hx::Class_obj::dupFunctions(0 /* sStaticFields */);
 	__mClass->mMembers = ::hx::Class_obj::dupFunctions(BalancedTree_obj_sMemberFields);
 	__mClass->mCanCast = ::hx::TCanCast< BalancedTree_obj >;
 #ifdef HXCPP_SCRIPTABLE

@@ -5,13 +5,13 @@
 #include <openfl/display/_CapsStyle/CapsStyle_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_8e2965ce4f780c2f_37_fromInt,"openfl.display._CapsStyle.CapsStyle_Impl_","fromInt",0xdf1ba554,"openfl.display._CapsStyle.CapsStyle_Impl_.fromInt","openfl/display/CapsStyle.hx",37,0x1f3162da)
-HX_LOCAL_STACK_FRAME(_hx_pos_8e2965ce4f780c2f_42_fromString,"openfl.display._CapsStyle.CapsStyle_Impl_","fromString",0xfe761d8c,"openfl.display._CapsStyle.CapsStyle_Impl_.fromString","openfl/display/CapsStyle.hx",42,0x1f3162da)
-HX_LOCAL_STACK_FRAME(_hx_pos_8e2965ce4f780c2f_53_toInt,"openfl.display._CapsStyle.CapsStyle_Impl_","toInt",0xbad7ec23,"openfl.display._CapsStyle.CapsStyle_Impl_.toInt","openfl/display/CapsStyle.hx",53,0x1f3162da)
-HX_LOCAL_STACK_FRAME(_hx_pos_8e2965ce4f780c2f_58_toString,"openfl.display._CapsStyle.CapsStyle_Impl_","toString",0xedfcc21d,"openfl.display._CapsStyle.CapsStyle_Impl_.toString","openfl/display/CapsStyle.hx",58,0x1f3162da)
-HX_LOCAL_STACK_FRAME(_hx_pos_8e2965ce4f780c2f_21_boot,"openfl.display._CapsStyle.CapsStyle_Impl_","boot",0xb135a923,"openfl.display._CapsStyle.CapsStyle_Impl_.boot","openfl/display/CapsStyle.hx",21,0x1f3162da)
-HX_LOCAL_STACK_FRAME(_hx_pos_8e2965ce4f780c2f_27_boot,"openfl.display._CapsStyle.CapsStyle_Impl_","boot",0xb135a923,"openfl.display._CapsStyle.CapsStyle_Impl_.boot","openfl/display/CapsStyle.hx",27,0x1f3162da)
-HX_LOCAL_STACK_FRAME(_hx_pos_8e2965ce4f780c2f_33_boot,"openfl.display._CapsStyle.CapsStyle_Impl_","boot",0xb135a923,"openfl.display._CapsStyle.CapsStyle_Impl_.boot","openfl/display/CapsStyle.hx",33,0x1f3162da)
+HX_LOCAL_STACK_FRAME(_hx_pos_8e2965ce4f780c2f_13_fromInt,"openfl.display._CapsStyle.CapsStyle_Impl_","fromInt",0xdf1ba554,"openfl.display._CapsStyle.CapsStyle_Impl_.fromInt","openfl/display/CapsStyle.hx",13,0x1f3162da)
+HX_LOCAL_STACK_FRAME(_hx_pos_8e2965ce4f780c2f_18_fromString,"openfl.display._CapsStyle.CapsStyle_Impl_","fromString",0xfe761d8c,"openfl.display._CapsStyle.CapsStyle_Impl_.fromString","openfl/display/CapsStyle.hx",18,0x1f3162da)
+HX_LOCAL_STACK_FRAME(_hx_pos_8e2965ce4f780c2f_29_toInt,"openfl.display._CapsStyle.CapsStyle_Impl_","toInt",0xbad7ec23,"openfl.display._CapsStyle.CapsStyle_Impl_.toInt","openfl/display/CapsStyle.hx",29,0x1f3162da)
+HX_LOCAL_STACK_FRAME(_hx_pos_8e2965ce4f780c2f_34_toString,"openfl.display._CapsStyle.CapsStyle_Impl_","toString",0xedfcc21d,"openfl.display._CapsStyle.CapsStyle_Impl_.toString","openfl/display/CapsStyle.hx",34,0x1f3162da)
+HX_LOCAL_STACK_FRAME(_hx_pos_8e2965ce4f780c2f_7_boot,"openfl.display._CapsStyle.CapsStyle_Impl_","boot",0xb135a923,"openfl.display._CapsStyle.CapsStyle_Impl_.boot","openfl/display/CapsStyle.hx",7,0x1f3162da)
+HX_LOCAL_STACK_FRAME(_hx_pos_8e2965ce4f780c2f_8_boot,"openfl.display._CapsStyle.CapsStyle_Impl_","boot",0xb135a923,"openfl.display._CapsStyle.CapsStyle_Impl_.boot","openfl/display/CapsStyle.hx",8,0x1f3162da)
+HX_LOCAL_STACK_FRAME(_hx_pos_8e2965ce4f780c2f_9_boot,"openfl.display._CapsStyle.CapsStyle_Impl_","boot",0xb135a923,"openfl.display._CapsStyle.CapsStyle_Impl_.boot","openfl/display/CapsStyle.hx",9,0x1f3162da)
 namespace openfl{
 namespace display{
 namespace _CapsStyle{
@@ -40,66 +40,66 @@ bool CapsStyle_Impl__obj::_hx_isInstanceOf(int inClassId) {
  ::Dynamic CapsStyle_Impl__obj::SQUARE;
 
  ::Dynamic CapsStyle_Impl__obj::fromInt( ::Dynamic value){
-            	HX_STACKFRAME(&_hx_pos_8e2965ce4f780c2f_37_fromInt)
-HXDLIN(  37)		return value;
+            	HX_STACKFRAME(&_hx_pos_8e2965ce4f780c2f_13_fromInt)
+HXDLIN(  13)		return value;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(CapsStyle_Impl__obj,fromInt,return )
 
  ::Dynamic CapsStyle_Impl__obj::fromString(::String value){
-            	HX_STACKFRAME(&_hx_pos_8e2965ce4f780c2f_42_fromString)
-HXDLIN(  42)		::String _hx_switch_0 = value;
+            	HX_STACKFRAME(&_hx_pos_8e2965ce4f780c2f_18_fromString)
+HXDLIN(  18)		::String _hx_switch_0 = value;
             		if (  (_hx_switch_0==HX_("none",b8,12,0a,49)) ){
-HXLINE(  44)			return 0;
-HXDLIN(  44)			goto _hx_goto_1;
+HXLINE(  20)			return 0;
+HXDLIN(  20)			goto _hx_goto_1;
             		}
             		if (  (_hx_switch_0==HX_("round",4e,f8,65,ed)) ){
-HXLINE(  45)			return 1;
-HXDLIN(  45)			goto _hx_goto_1;
+HXLINE(  21)			return 1;
+HXDLIN(  21)			goto _hx_goto_1;
             		}
             		if (  (_hx_switch_0==HX_("square",9d,00,f2,58)) ){
-HXLINE(  46)			return 2;
-HXDLIN(  46)			goto _hx_goto_1;
+HXLINE(  22)			return 2;
+HXDLIN(  22)			goto _hx_goto_1;
             		}
             		/* default */{
-HXLINE(  47)			return null();
+HXLINE(  23)			return null();
             		}
             		_hx_goto_1:;
-HXLINE(  42)		return null();
+HXLINE(  18)		return null();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(CapsStyle_Impl__obj,fromString,return )
 
  ::Dynamic CapsStyle_Impl__obj::toInt( ::Dynamic this1){
-            	HX_STACKFRAME(&_hx_pos_8e2965ce4f780c2f_53_toInt)
-HXDLIN(  53)		return this1;
+            	HX_STACKFRAME(&_hx_pos_8e2965ce4f780c2f_29_toInt)
+HXDLIN(  29)		return this1;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(CapsStyle_Impl__obj,toInt,return )
 
 ::String CapsStyle_Impl__obj::toString( ::Dynamic this1){
-            	HX_STACKFRAME(&_hx_pos_8e2965ce4f780c2f_58_toString)
-HXDLIN(  58)		 ::Dynamic _hx_switch_0 = this1;
+            	HX_STACKFRAME(&_hx_pos_8e2965ce4f780c2f_34_toString)
+HXDLIN(  34)		 ::Dynamic _hx_switch_0 = this1;
             		if (  (_hx_switch_0==0) ){
-HXLINE(  60)			return HX_("none",b8,12,0a,49);
-HXDLIN(  60)			goto _hx_goto_4;
+HXLINE(  36)			return HX_("none",b8,12,0a,49);
+HXDLIN(  36)			goto _hx_goto_4;
             		}
             		if (  (_hx_switch_0==1) ){
-HXLINE(  61)			return HX_("round",4e,f8,65,ed);
-HXDLIN(  61)			goto _hx_goto_4;
+HXLINE(  37)			return HX_("round",4e,f8,65,ed);
+HXDLIN(  37)			goto _hx_goto_4;
             		}
             		if (  (_hx_switch_0==2) ){
-HXLINE(  62)			return HX_("square",9d,00,f2,58);
-HXDLIN(  62)			goto _hx_goto_4;
+HXLINE(  38)			return HX_("square",9d,00,f2,58);
+HXDLIN(  38)			goto _hx_goto_4;
             		}
             		/* default */{
-HXLINE(  63)			return null();
+HXLINE(  39)			return null();
             		}
             		_hx_goto_4:;
-HXLINE(  58)		return null();
+HXLINE(  34)		return null();
             	}
 
 
@@ -196,16 +196,16 @@ void CapsStyle_Impl__obj::__register()
 void CapsStyle_Impl__obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_8e2965ce4f780c2f_21_boot)
-HXDLIN(  21)		NONE = 0;
+            	HX_STACKFRAME(&_hx_pos_8e2965ce4f780c2f_7_boot)
+HXDLIN(   7)		NONE = 0;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_8e2965ce4f780c2f_27_boot)
-HXDLIN(  27)		ROUND = 1;
+            	HX_STACKFRAME(&_hx_pos_8e2965ce4f780c2f_8_boot)
+HXDLIN(   8)		ROUND = 1;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_8e2965ce4f780c2f_33_boot)
-HXDLIN(  33)		SQUARE = 2;
+            	HX_STACKFRAME(&_hx_pos_8e2965ce4f780c2f_9_boot)
+HXDLIN(   9)		SQUARE = 2;
             	}
 }
 

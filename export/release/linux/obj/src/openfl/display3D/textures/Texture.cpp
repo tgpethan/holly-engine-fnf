@@ -67,8 +67,8 @@
 #ifndef INCLUDED_openfl_display3D_Context3D
 #include <openfl/display3D/Context3D.h>
 #endif
-#ifndef INCLUDED_openfl_display3D__internal_ATFReader
-#include <openfl/display3D/_internal/ATFReader.h>
+#ifndef INCLUDED_openfl_display3D__internal_atf_ATFReader
+#include <openfl/display3D/_internal/atf/ATFReader.h>
 #endif
 #ifndef INCLUDED_openfl_display3D_textures_Texture
 #include <openfl/display3D/textures/Texture.h>
@@ -801,7 +801,7 @@ HXLINE( 340)				::lime::graphics::_WebGLRenderContext::WebGLRenderContext_Impl__
 
             	HX_GC_STACKFRAME(&_hx_pos_c910f1c2855eeb73_299___uploadCompressedTextureFromByteArray)
 HXLINE( 298)		 ::openfl::display3D::textures::Texture _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE( 300)		 ::openfl::display3D::_internal::ATFReader reader =  ::openfl::display3D::_internal::ATFReader_obj::__alloc( HX_CTX ,data,byteArrayOffset);
+HXLINE( 300)		 ::openfl::display3D::_internal::atf::ATFReader reader =  ::openfl::display3D::_internal::atf::ATFReader_obj::__alloc( HX_CTX ,data,byteArrayOffset);
 HXLINE( 301)		bool alpha = reader->readHeader(this->_hx___width,this->_hx___height,false);
 HXLINE( 303)		 ::openfl::display3D::Context3D context = this->_hx___context;
 HXLINE( 304)		 ::lime::_internal::backend::native::NativeOpenGLRenderContext gl = context->gl;

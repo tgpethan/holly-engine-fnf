@@ -26,33 +26,33 @@
 #include <lime/utils/_DataPointer/DataPointer_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_21__new,"lime.utils._DataPointer.DataPointer_Impl_","_new",0x3b176380,"lime.utils._DataPointer.DataPointer_Impl_._new","lime/utils/DataPointer.hx",21,0x48d01ae3)
-HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_28_fromInt,"lime.utils._DataPointer.DataPointer_Impl_","fromInt",0xca24ece6,"lime.utils._DataPointer.DataPointer_Impl_.fromInt","lime/utils/DataPointer.hx",28,0x48d01ae3)
-HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_63_fromBytesPointer,"lime.utils._DataPointer.DataPointer_Impl_","fromBytesPointer",0x01727cbb,"lime.utils._DataPointer.DataPointer_Impl_.fromBytesPointer","lime/utils/DataPointer.hx",63,0x48d01ae3)
-HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_77_fromArrayBufferView,"lime.utils._DataPointer.DataPointer_Impl_","fromArrayBufferView",0xced8dcf5,"lime.utils._DataPointer.DataPointer_Impl_.fromArrayBufferView","lime/utils/DataPointer.hx",77,0x48d01ae3)
-HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_91_fromArrayBuffer,"lime.utils._DataPointer.DataPointer_Impl_","fromArrayBuffer",0x4d148670,"lime.utils._DataPointer.DataPointer_Impl_.fromArrayBuffer","lime/utils/DataPointer.hx",91,0x48d01ae3)
-HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_101_fromBytes,"lime.utils._DataPointer.DataPointer_Impl_","fromBytes",0x4e5e1422,"lime.utils._DataPointer.DataPointer_Impl_.fromBytes","lime/utils/DataPointer.hx",101,0x48d01ae3)
-HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_115_fromBytesData,"lime.utils._DataPointer.DataPointer_Impl_","fromBytesData",0x99d44f6c,"lime.utils._DataPointer.DataPointer_Impl_.fromBytesData","lime/utils/DataPointer.hx",115,0x48d01ae3)
-HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_126_fromLimeBytes,"lime.utils._DataPointer.DataPointer_Impl_","fromLimeBytes",0x0d79484d,"lime.utils._DataPointer.DataPointer_Impl_.fromLimeBytes","lime/utils/DataPointer.hx",126,0x48d01ae3)
-HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_131_fromCFFIPointer,"lime.utils._DataPointer.DataPointer_Impl_","fromCFFIPointer",0x157099ce,"lime.utils._DataPointer.DataPointer_Impl_.fromCFFIPointer","lime/utils/DataPointer.hx",131,0x48d01ae3)
-HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_144_fromFile,"lime.utils._DataPointer.DataPointer_Impl_","fromFile",0x142ae6a5,"lime.utils._DataPointer.DataPointer_Impl_.fromFile","lime/utils/DataPointer.hx",144,0x48d01ae3)
-HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_151___withOffset,"lime.utils._DataPointer.DataPointer_Impl_","__withOffset",0x51cf4a78,"lime.utils._DataPointer.DataPointer_Impl_.__withOffset","lime/utils/DataPointer.hx",151,0x48d01ae3)
-HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_163_equals,"lime.utils._DataPointer.DataPointer_Impl_","equals",0xe532421e,"lime.utils._DataPointer.DataPointer_Impl_.equals","lime/utils/DataPointer.hx",163,0x48d01ae3)
-HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_168_equalsPointer,"lime.utils._DataPointer.DataPointer_Impl_","equalsPointer",0xd8d6463f,"lime.utils._DataPointer.DataPointer_Impl_.equalsPointer","lime/utils/DataPointer.hx",168,0x48d01ae3)
-HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_173_greaterThan,"lime.utils._DataPointer.DataPointer_Impl_","greaterThan",0xb434053c,"lime.utils._DataPointer.DataPointer_Impl_.greaterThan","lime/utils/DataPointer.hx",173,0x48d01ae3)
-HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_179_greaterThanPointer,"lime.utils._DataPointer.DataPointer_Impl_","greaterThanPointer",0x7ccc42e1,"lime.utils._DataPointer.DataPointer_Impl_.greaterThanPointer","lime/utils/DataPointer.hx",179,0x48d01ae3)
-HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_185_greaterThanOrEqual,"lime.utils._DataPointer.DataPointer_Impl_","greaterThanOrEqual",0xcdd861b5,"lime.utils._DataPointer.DataPointer_Impl_.greaterThanOrEqual","lime/utils/DataPointer.hx",185,0x48d01ae3)
-HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_191_greaterThanOrEqualPointer,"lime.utils._DataPointer.DataPointer_Impl_","greaterThanOrEqualPointer",0xc9835788,"lime.utils._DataPointer.DataPointer_Impl_.greaterThanOrEqualPointer","lime/utils/DataPointer.hx",191,0x48d01ae3)
-HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_197_lessThan,"lime.utils._DataPointer.DataPointer_Impl_","lessThan",0x65d7a8f9,"lime.utils._DataPointer.DataPointer_Impl_.lessThan","lime/utils/DataPointer.hx",197,0x48d01ae3)
-HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_203_lessThanPointer,"lime.utils._DataPointer.DataPointer_Impl_","lessThanPointer",0xee7140c4,"lime.utils._DataPointer.DataPointer_Impl_.lessThanPointer","lime/utils/DataPointer.hx",203,0x48d01ae3)
-HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_209_lessThanOrEqual,"lime.utils._DataPointer.DataPointer_Impl_","lessThanOrEqual",0x3f7d5f98,"lime.utils._DataPointer.DataPointer_Impl_.lessThanOrEqual","lime/utils/DataPointer.hx",209,0x48d01ae3)
-HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_215_lessThanOrEqualPointer,"lime.utils._DataPointer.DataPointer_Impl_","lessThanOrEqualPointer",0x26e32c05,"lime.utils._DataPointer.DataPointer_Impl_.lessThanOrEqualPointer","lime/utils/DataPointer.hx",215,0x48d01ae3)
-HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_221_notEquals,"lime.utils._DataPointer.DataPointer_Impl_","notEquals",0x1918ed33,"lime.utils._DataPointer.DataPointer_Impl_.notEquals","lime/utils/DataPointer.hx",221,0x48d01ae3)
-HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_226_notEqualsPointer,"lime.utils._DataPointer.DataPointer_Impl_","notEqualsPointer",0xf10e57ca,"lime.utils._DataPointer.DataPointer_Impl_.notEqualsPointer","lime/utils/DataPointer.hx",226,0x48d01ae3)
-HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_231_plus,"lime.utils._DataPointer.DataPointer_Impl_","plus",0x46528d79,"lime.utils._DataPointer.DataPointer_Impl_.plus","lime/utils/DataPointer.hx",231,0x48d01ae3)
-HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_236_plusPointer,"lime.utils._DataPointer.DataPointer_Impl_","plusPointer",0xf813ec44,"lime.utils._DataPointer.DataPointer_Impl_.plusPointer","lime/utils/DataPointer.hx",236,0x48d01ae3)
-HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_241_minus,"lime.utils._DataPointer.DataPointer_Impl_","minus",0x85b48d71,"lime.utils._DataPointer.DataPointer_Impl_.minus","lime/utils/DataPointer.hx",241,0x48d01ae3)
-HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_246_minusPointer,"lime.utils._DataPointer.DataPointer_Impl_","minusPointer",0x7f5e5b4c,"lime.utils._DataPointer.DataPointer_Impl_.minusPointer","lime/utils/DataPointer.hx",246,0x48d01ae3)
+HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_20__new,"lime.utils._DataPointer.DataPointer_Impl_","_new",0x3b176380,"lime.utils._DataPointer.DataPointer_Impl_._new","lime/utils/DataPointer.hx",20,0x48d01ae3)
+HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_27_fromInt,"lime.utils._DataPointer.DataPointer_Impl_","fromInt",0xca24ece6,"lime.utils._DataPointer.DataPointer_Impl_.fromInt","lime/utils/DataPointer.hx",27,0x48d01ae3)
+HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_62_fromBytesPointer,"lime.utils._DataPointer.DataPointer_Impl_","fromBytesPointer",0x01727cbb,"lime.utils._DataPointer.DataPointer_Impl_.fromBytesPointer","lime/utils/DataPointer.hx",62,0x48d01ae3)
+HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_76_fromArrayBufferView,"lime.utils._DataPointer.DataPointer_Impl_","fromArrayBufferView",0xced8dcf5,"lime.utils._DataPointer.DataPointer_Impl_.fromArrayBufferView","lime/utils/DataPointer.hx",76,0x48d01ae3)
+HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_90_fromArrayBuffer,"lime.utils._DataPointer.DataPointer_Impl_","fromArrayBuffer",0x4d148670,"lime.utils._DataPointer.DataPointer_Impl_.fromArrayBuffer","lime/utils/DataPointer.hx",90,0x48d01ae3)
+HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_100_fromBytes,"lime.utils._DataPointer.DataPointer_Impl_","fromBytes",0x4e5e1422,"lime.utils._DataPointer.DataPointer_Impl_.fromBytes","lime/utils/DataPointer.hx",100,0x48d01ae3)
+HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_114_fromBytesData,"lime.utils._DataPointer.DataPointer_Impl_","fromBytesData",0x99d44f6c,"lime.utils._DataPointer.DataPointer_Impl_.fromBytesData","lime/utils/DataPointer.hx",114,0x48d01ae3)
+HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_125_fromLimeBytes,"lime.utils._DataPointer.DataPointer_Impl_","fromLimeBytes",0x0d79484d,"lime.utils._DataPointer.DataPointer_Impl_.fromLimeBytes","lime/utils/DataPointer.hx",125,0x48d01ae3)
+HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_130_fromCFFIPointer,"lime.utils._DataPointer.DataPointer_Impl_","fromCFFIPointer",0x157099ce,"lime.utils._DataPointer.DataPointer_Impl_.fromCFFIPointer","lime/utils/DataPointer.hx",130,0x48d01ae3)
+HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_143_fromFile,"lime.utils._DataPointer.DataPointer_Impl_","fromFile",0x142ae6a5,"lime.utils._DataPointer.DataPointer_Impl_.fromFile","lime/utils/DataPointer.hx",143,0x48d01ae3)
+HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_150___withOffset,"lime.utils._DataPointer.DataPointer_Impl_","__withOffset",0x51cf4a78,"lime.utils._DataPointer.DataPointer_Impl_.__withOffset","lime/utils/DataPointer.hx",150,0x48d01ae3)
+HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_162_equals,"lime.utils._DataPointer.DataPointer_Impl_","equals",0xe532421e,"lime.utils._DataPointer.DataPointer_Impl_.equals","lime/utils/DataPointer.hx",162,0x48d01ae3)
+HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_167_equalsPointer,"lime.utils._DataPointer.DataPointer_Impl_","equalsPointer",0xd8d6463f,"lime.utils._DataPointer.DataPointer_Impl_.equalsPointer","lime/utils/DataPointer.hx",167,0x48d01ae3)
+HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_172_greaterThan,"lime.utils._DataPointer.DataPointer_Impl_","greaterThan",0xb434053c,"lime.utils._DataPointer.DataPointer_Impl_.greaterThan","lime/utils/DataPointer.hx",172,0x48d01ae3)
+HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_178_greaterThanPointer,"lime.utils._DataPointer.DataPointer_Impl_","greaterThanPointer",0x7ccc42e1,"lime.utils._DataPointer.DataPointer_Impl_.greaterThanPointer","lime/utils/DataPointer.hx",178,0x48d01ae3)
+HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_184_greaterThanOrEqual,"lime.utils._DataPointer.DataPointer_Impl_","greaterThanOrEqual",0xcdd861b5,"lime.utils._DataPointer.DataPointer_Impl_.greaterThanOrEqual","lime/utils/DataPointer.hx",184,0x48d01ae3)
+HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_190_greaterThanOrEqualPointer,"lime.utils._DataPointer.DataPointer_Impl_","greaterThanOrEqualPointer",0xc9835788,"lime.utils._DataPointer.DataPointer_Impl_.greaterThanOrEqualPointer","lime/utils/DataPointer.hx",190,0x48d01ae3)
+HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_196_lessThan,"lime.utils._DataPointer.DataPointer_Impl_","lessThan",0x65d7a8f9,"lime.utils._DataPointer.DataPointer_Impl_.lessThan","lime/utils/DataPointer.hx",196,0x48d01ae3)
+HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_202_lessThanPointer,"lime.utils._DataPointer.DataPointer_Impl_","lessThanPointer",0xee7140c4,"lime.utils._DataPointer.DataPointer_Impl_.lessThanPointer","lime/utils/DataPointer.hx",202,0x48d01ae3)
+HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_208_lessThanOrEqual,"lime.utils._DataPointer.DataPointer_Impl_","lessThanOrEqual",0x3f7d5f98,"lime.utils._DataPointer.DataPointer_Impl_.lessThanOrEqual","lime/utils/DataPointer.hx",208,0x48d01ae3)
+HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_214_lessThanOrEqualPointer,"lime.utils._DataPointer.DataPointer_Impl_","lessThanOrEqualPointer",0x26e32c05,"lime.utils._DataPointer.DataPointer_Impl_.lessThanOrEqualPointer","lime/utils/DataPointer.hx",214,0x48d01ae3)
+HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_220_notEquals,"lime.utils._DataPointer.DataPointer_Impl_","notEquals",0x1918ed33,"lime.utils._DataPointer.DataPointer_Impl_.notEquals","lime/utils/DataPointer.hx",220,0x48d01ae3)
+HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_225_notEqualsPointer,"lime.utils._DataPointer.DataPointer_Impl_","notEqualsPointer",0xf10e57ca,"lime.utils._DataPointer.DataPointer_Impl_.notEqualsPointer","lime/utils/DataPointer.hx",225,0x48d01ae3)
+HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_230_plus,"lime.utils._DataPointer.DataPointer_Impl_","plus",0x46528d79,"lime.utils._DataPointer.DataPointer_Impl_.plus","lime/utils/DataPointer.hx",230,0x48d01ae3)
+HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_235_plusPointer,"lime.utils._DataPointer.DataPointer_Impl_","plusPointer",0xf813ec44,"lime.utils._DataPointer.DataPointer_Impl_.plusPointer","lime/utils/DataPointer.hx",235,0x48d01ae3)
+HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_240_minus,"lime.utils._DataPointer.DataPointer_Impl_","minus",0x85b48d71,"lime.utils._DataPointer.DataPointer_Impl_.minus","lime/utils/DataPointer.hx",240,0x48d01ae3)
+HX_LOCAL_STACK_FRAME(_hx_pos_ac34df134646625a_245_minusPointer,"lime.utils._DataPointer.DataPointer_Impl_","minusPointer",0x7f5e5b4c,"lime.utils._DataPointer.DataPointer_Impl_.minusPointer","lime/utils/DataPointer.hx",245,0x48d01ae3)
 namespace lime{
 namespace utils{
 namespace _DataPointer{
@@ -75,256 +75,256 @@ bool DataPointer_Impl__obj::_hx_isInstanceOf(int inClassId) {
 }
 
 Float DataPointer_Impl__obj::_new(Float data){
-            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_21__new)
-HXDLIN(  21)		Float this1 = data;
-HXDLIN(  21)		return this1;
+            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_20__new)
+HXDLIN(  20)		Float this1 = data;
+HXDLIN(  20)		return this1;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(DataPointer_Impl__obj,_new,return )
 
 Float DataPointer_Impl__obj::fromInt(int value){
-            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_28_fromInt)
-HXLINE(  30)		Float _hx_float = ( (Float)(value) );
-HXLINE(  31)		return ::lime::utils::_DataPointer::DataPointer_Impl__obj::_new(_hx_float);
+            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_27_fromInt)
+HXLINE(  29)		Float _hx_float = ( (Float)(value) );
+HXLINE(  30)		return ::lime::utils::_DataPointer::DataPointer_Impl__obj::_new(_hx_float);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(DataPointer_Impl__obj,fromInt,return )
 
 Float DataPointer_Impl__obj::fromBytesPointer( ::lime::utils::BytePointerData pointer){
-            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_63_fromBytesPointer)
-HXLINE(  65)		bool _hx_tmp;
-HXDLIN(  65)		if (::hx::IsNotNull( pointer )) {
-HXLINE(  65)			_hx_tmp = ::hx::IsNull( pointer->bytes );
+            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_62_fromBytesPointer)
+HXLINE(  64)		bool _hx_tmp;
+HXDLIN(  64)		if (::hx::IsNotNull( pointer )) {
+HXLINE(  64)			_hx_tmp = ::hx::IsNull( pointer->bytes );
             		}
             		else {
-HXLINE(  65)			_hx_tmp = true;
+HXLINE(  64)			_hx_tmp = true;
             		}
-HXDLIN(  65)		if (_hx_tmp) {
-HXLINE(  65)			return ( (Float)(0) );
+HXDLIN(  64)		if (_hx_tmp) {
+HXLINE(  64)			return ( (Float)(0) );
             		}
-HXLINE(  66)		::cpp::Pointer< unsigned char > pointer1 = ( (::cpp::Pointer< unsigned char >)(::cpp::Pointer_obj::arrayElem(pointer->bytes->b,0)) );
-HXDLIN(  66)		::cpp::Pointer< unsigned char > pointer2 = pointer1->add(pointer->offset);
-HXDLIN(  66)		return (uintptr_t)pointer2->ptr;
+HXLINE(  65)		::cpp::Pointer< unsigned char > pointer1 = ( (::cpp::Pointer< unsigned char >)(::cpp::Pointer_obj::arrayElem(pointer->bytes->b,0)) );
+HXDLIN(  65)		::cpp::Pointer< unsigned char > pointer2 = pointer1->add(pointer->offset);
+HXDLIN(  65)		return (uintptr_t)pointer2->ptr;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(DataPointer_Impl__obj,fromBytesPointer,return )
 
 Float DataPointer_Impl__obj::fromArrayBufferView( ::lime::utils::ArrayBufferView arrayBufferView){
-            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_77_fromArrayBufferView)
-HXLINE(  79)		if (::hx::IsNull( arrayBufferView )) {
-HXLINE(  79)			return ( (Float)(0) );
+            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_76_fromArrayBufferView)
+HXLINE(  78)		if (::hx::IsNull( arrayBufferView )) {
+HXLINE(  78)			return ( (Float)(0) );
             		}
-HXLINE(  80)		::cpp::Pointer< unsigned char > pointer = ( (::cpp::Pointer< unsigned char >)(::cpp::Pointer_obj::arrayElem(arrayBufferView->buffer->b,0)) );
-HXDLIN(  80)		::cpp::Pointer< unsigned char > pointer1 = pointer->add(arrayBufferView->byteOffset);
-HXDLIN(  80)		return (uintptr_t)pointer1->ptr;
+HXLINE(  79)		::cpp::Pointer< unsigned char > pointer = ( (::cpp::Pointer< unsigned char >)(::cpp::Pointer_obj::arrayElem(arrayBufferView->buffer->b,0)) );
+HXDLIN(  79)		::cpp::Pointer< unsigned char > pointer1 = pointer->add(arrayBufferView->byteOffset);
+HXDLIN(  79)		return (uintptr_t)pointer1->ptr;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(DataPointer_Impl__obj,fromArrayBufferView,return )
 
 Float DataPointer_Impl__obj::fromArrayBuffer( ::haxe::io::Bytes buffer){
-            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_91_fromArrayBuffer)
-HXLINE(  93)		if (::hx::IsNull( buffer )) {
-HXLINE(  93)			return ( (Float)(0) );
+            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_90_fromArrayBuffer)
+HXLINE(  92)		if (::hx::IsNull( buffer )) {
+HXLINE(  92)			return ( (Float)(0) );
             		}
-HXLINE(  94)		return ::lime::utils::_DataPointer::DataPointer_Impl__obj::fromBytes(buffer);
+HXLINE(  93)		return ::lime::utils::_DataPointer::DataPointer_Impl__obj::fromBytes(buffer);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(DataPointer_Impl__obj,fromArrayBuffer,return )
 
 Float DataPointer_Impl__obj::fromBytes( ::haxe::io::Bytes bytes){
-            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_101_fromBytes)
-HXLINE( 103)		if (::hx::IsNull( bytes )) {
-HXLINE( 103)			return ( (Float)(0) );
+            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_100_fromBytes)
+HXLINE( 102)		if (::hx::IsNull( bytes )) {
+HXLINE( 102)			return ( (Float)(0) );
             		}
-HXLINE( 104)		::cpp::Pointer< unsigned char > pointer = ( (::cpp::Pointer< unsigned char >)(::cpp::Pointer_obj::arrayElem(bytes->b,0)) );
-HXDLIN( 104)		return (uintptr_t)pointer->ptr;
+HXLINE( 103)		::cpp::Pointer< unsigned char > pointer = ( (::cpp::Pointer< unsigned char >)(::cpp::Pointer_obj::arrayElem(bytes->b,0)) );
+HXDLIN( 103)		return (uintptr_t)pointer->ptr;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(DataPointer_Impl__obj,fromBytes,return )
 
 Float DataPointer_Impl__obj::fromBytesData(::Array< unsigned char > bytesData){
-            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_115_fromBytesData)
-HXLINE( 117)		if (::hx::IsNull( bytesData )) {
-HXLINE( 117)			return ( (Float)(0) );
+            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_114_fromBytesData)
+HXLINE( 116)		if (::hx::IsNull( bytesData )) {
+HXLINE( 116)			return ( (Float)(0) );
             		}
-HXLINE( 118)		return ::lime::utils::_DataPointer::DataPointer_Impl__obj::fromBytes(::haxe::io::Bytes_obj::ofData(bytesData));
+HXLINE( 117)		return ::lime::utils::_DataPointer::DataPointer_Impl__obj::fromBytes(::haxe::io::Bytes_obj::ofData(bytesData));
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(DataPointer_Impl__obj,fromBytesData,return )
 
 Float DataPointer_Impl__obj::fromLimeBytes( ::haxe::io::Bytes bytes){
-            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_126_fromLimeBytes)
-HXDLIN( 126)		return ::lime::utils::_DataPointer::DataPointer_Impl__obj::fromBytes(bytes);
+            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_125_fromLimeBytes)
+HXDLIN( 125)		return ::lime::utils::_DataPointer::DataPointer_Impl__obj::fromBytes(bytes);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(DataPointer_Impl__obj,fromLimeBytes,return )
 
 Float DataPointer_Impl__obj::fromCFFIPointer( ::Dynamic pointer){
-            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_131_fromCFFIPointer)
-HXLINE( 133)		if (::hx::IsNull( pointer )) {
-HXLINE( 133)			return ( (Float)(0) );
+            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_130_fromCFFIPointer)
+HXLINE( 132)		if (::hx::IsNull( pointer )) {
+HXLINE( 132)			return ( (Float)(0) );
             		}
-HXLINE( 134)		return ::lime::utils::_DataPointer::DataPointer_Impl__obj::_new(::lime::_hx_system::_CFFIPointer::CFFIPointer_Impl__obj::get(pointer));
+HXLINE( 133)		return ::lime::utils::_DataPointer::DataPointer_Impl__obj::_new(::lime::_hx_system::_CFFIPointer::CFFIPointer_Impl__obj::get(pointer));
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(DataPointer_Impl__obj,fromCFFIPointer,return )
 
 Float DataPointer_Impl__obj::fromFile(::String path){
-            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_144_fromFile)
-HXDLIN( 144)		return ::lime::utils::_DataPointer::DataPointer_Impl__obj::fromBytes(::lime::utils::_Bytes::Bytes_Impl__obj::fromFile(path));
+            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_143_fromFile)
+HXDLIN( 143)		return ::lime::utils::_DataPointer::DataPointer_Impl__obj::fromBytes(::lime::utils::_Bytes::Bytes_Impl__obj::fromFile(path));
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(DataPointer_Impl__obj,fromFile,return )
 
 Float DataPointer_Impl__obj::_hx___withOffset(Float data,int offset){
-            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_151___withOffset)
-HXLINE( 153)		if ((data == 0)) {
-HXLINE( 153)			return ( (Float)(0) );
+            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_150___withOffset)
+HXLINE( 152)		if ((data == 0)) {
+HXLINE( 152)			return ( (Float)(0) );
             		}
-HXLINE( 154)		Float data1 = ::lime::_internal::backend::native::NativeCFFI_obj::lime_data_pointer_offset(data,offset);
-HXLINE( 155)		return ::lime::utils::_DataPointer::DataPointer_Impl__obj::_new(data1);
+HXLINE( 153)		Float data1 = ::lime::_internal::backend::native::NativeCFFI_obj::lime_data_pointer_offset(data,offset);
+HXLINE( 154)		return ::lime::utils::_DataPointer::DataPointer_Impl__obj::_new(data1);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DataPointer_Impl__obj,_hx___withOffset,return )
 
 bool DataPointer_Impl__obj::equals(Float a,int b){
-            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_163_equals)
-HXDLIN( 163)		return (a == b);
+            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_162_equals)
+HXDLIN( 162)		return (a == b);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DataPointer_Impl__obj,equals,return )
 
 bool DataPointer_Impl__obj::equalsPointer(Float a,Float b){
-            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_168_equalsPointer)
-HXDLIN( 168)		return (a == b);
+            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_167_equalsPointer)
+HXDLIN( 167)		return (a == b);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DataPointer_Impl__obj,equalsPointer,return )
 
 bool DataPointer_Impl__obj::greaterThan(Float a,int b){
-            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_173_greaterThan)
-HXDLIN( 173)		return (a > b);
+            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_172_greaterThan)
+HXDLIN( 172)		return (a > b);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DataPointer_Impl__obj,greaterThan,return )
 
 bool DataPointer_Impl__obj::greaterThanPointer(Float a, ::Dynamic b){
-            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_179_greaterThanPointer)
-HXDLIN( 179)		Float _hx_tmp = ::lime::_hx_system::_CFFIPointer::CFFIPointer_Impl__obj::get(a);
-HXDLIN( 179)		return (_hx_tmp > ::lime::_hx_system::_CFFIPointer::CFFIPointer_Impl__obj::get(b));
+            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_178_greaterThanPointer)
+HXDLIN( 178)		Float _hx_tmp = ::lime::_hx_system::_CFFIPointer::CFFIPointer_Impl__obj::get(a);
+HXDLIN( 178)		return (_hx_tmp > ::lime::_hx_system::_CFFIPointer::CFFIPointer_Impl__obj::get(b));
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DataPointer_Impl__obj,greaterThanPointer,return )
 
 bool DataPointer_Impl__obj::greaterThanOrEqual(Float a,int b){
-            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_185_greaterThanOrEqual)
-HXDLIN( 185)		return (a >= b);
+            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_184_greaterThanOrEqual)
+HXDLIN( 184)		return (a >= b);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DataPointer_Impl__obj,greaterThanOrEqual,return )
 
 bool DataPointer_Impl__obj::greaterThanOrEqualPointer(Float a, ::Dynamic b){
-            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_191_greaterThanOrEqualPointer)
-HXDLIN( 191)		Float _hx_tmp = ::lime::_hx_system::_CFFIPointer::CFFIPointer_Impl__obj::get(a);
-HXDLIN( 191)		return (_hx_tmp >= ::lime::_hx_system::_CFFIPointer::CFFIPointer_Impl__obj::get(b));
+            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_190_greaterThanOrEqualPointer)
+HXDLIN( 190)		Float _hx_tmp = ::lime::_hx_system::_CFFIPointer::CFFIPointer_Impl__obj::get(a);
+HXDLIN( 190)		return (_hx_tmp >= ::lime::_hx_system::_CFFIPointer::CFFIPointer_Impl__obj::get(b));
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DataPointer_Impl__obj,greaterThanOrEqualPointer,return )
 
 bool DataPointer_Impl__obj::lessThan(Float a,int b){
-            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_197_lessThan)
-HXDLIN( 197)		return (a < b);
+            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_196_lessThan)
+HXDLIN( 196)		return (a < b);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DataPointer_Impl__obj,lessThan,return )
 
 bool DataPointer_Impl__obj::lessThanPointer(Float a, ::Dynamic b){
-            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_203_lessThanPointer)
-HXDLIN( 203)		Float _hx_tmp = ::lime::_hx_system::_CFFIPointer::CFFIPointer_Impl__obj::get(a);
-HXDLIN( 203)		return (_hx_tmp < ::lime::_hx_system::_CFFIPointer::CFFIPointer_Impl__obj::get(b));
+            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_202_lessThanPointer)
+HXDLIN( 202)		Float _hx_tmp = ::lime::_hx_system::_CFFIPointer::CFFIPointer_Impl__obj::get(a);
+HXDLIN( 202)		return (_hx_tmp < ::lime::_hx_system::_CFFIPointer::CFFIPointer_Impl__obj::get(b));
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DataPointer_Impl__obj,lessThanPointer,return )
 
 bool DataPointer_Impl__obj::lessThanOrEqual(Float a,int b){
-            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_209_lessThanOrEqual)
-HXDLIN( 209)		return (a <= b);
+            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_208_lessThanOrEqual)
+HXDLIN( 208)		return (a <= b);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DataPointer_Impl__obj,lessThanOrEqual,return )
 
 bool DataPointer_Impl__obj::lessThanOrEqualPointer(Float a, ::Dynamic b){
-            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_215_lessThanOrEqualPointer)
-HXDLIN( 215)		Float _hx_tmp = ::lime::_hx_system::_CFFIPointer::CFFIPointer_Impl__obj::get(a);
-HXDLIN( 215)		return (_hx_tmp <= ::lime::_hx_system::_CFFIPointer::CFFIPointer_Impl__obj::get(b));
+            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_214_lessThanOrEqualPointer)
+HXDLIN( 214)		Float _hx_tmp = ::lime::_hx_system::_CFFIPointer::CFFIPointer_Impl__obj::get(a);
+HXDLIN( 214)		return (_hx_tmp <= ::lime::_hx_system::_CFFIPointer::CFFIPointer_Impl__obj::get(b));
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DataPointer_Impl__obj,lessThanOrEqualPointer,return )
 
 bool DataPointer_Impl__obj::notEquals(Float a,int b){
-            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_221_notEquals)
-HXDLIN( 221)		return (a != b);
+            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_220_notEquals)
+HXDLIN( 220)		return (a != b);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DataPointer_Impl__obj,notEquals,return )
 
 bool DataPointer_Impl__obj::notEqualsPointer(Float a,Float b){
-            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_226_notEqualsPointer)
-HXDLIN( 226)		return (a != b);
+            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_225_notEqualsPointer)
+HXDLIN( 225)		return (a != b);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DataPointer_Impl__obj,notEqualsPointer,return )
 
 Float DataPointer_Impl__obj::plus(Float a,int b){
-            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_231_plus)
-HXDLIN( 231)		return ::lime::utils::_DataPointer::DataPointer_Impl__obj::_hx___withOffset(a,b);
+            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_230_plus)
+HXDLIN( 230)		return ::lime::utils::_DataPointer::DataPointer_Impl__obj::_hx___withOffset(a,b);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DataPointer_Impl__obj,plus,return )
 
 Float DataPointer_Impl__obj::plusPointer(Float a,Float b){
-            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_236_plusPointer)
-HXDLIN( 236)		return ::lime::utils::_DataPointer::DataPointer_Impl__obj::_hx___withOffset(a,::Std_obj::_hx_int(b));
+            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_235_plusPointer)
+HXDLIN( 235)		return ::lime::utils::_DataPointer::DataPointer_Impl__obj::_hx___withOffset(a,::Std_obj::_hx_int(b));
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DataPointer_Impl__obj,plusPointer,return )
 
 Float DataPointer_Impl__obj::minus(Float a,int b){
-            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_241_minus)
-HXDLIN( 241)		return ::lime::utils::_DataPointer::DataPointer_Impl__obj::_hx___withOffset(a,-(b));
+            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_240_minus)
+HXDLIN( 240)		return ::lime::utils::_DataPointer::DataPointer_Impl__obj::_hx___withOffset(a,-(b));
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DataPointer_Impl__obj,minus,return )
 
 Float DataPointer_Impl__obj::minusPointer(Float a,Float b){
-            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_246_minusPointer)
-HXDLIN( 246)		return ::lime::utils::_DataPointer::DataPointer_Impl__obj::_hx___withOffset(a,-(::Std_obj::_hx_int(b)));
+            	HX_STACKFRAME(&_hx_pos_ac34df134646625a_245_minusPointer)
+HXDLIN( 245)		return ::lime::utils::_DataPointer::DataPointer_Impl__obj::_hx___withOffset(a,-(::Std_obj::_hx_int(b)));
             	}
 
 

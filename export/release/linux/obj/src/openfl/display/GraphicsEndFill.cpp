@@ -11,14 +11,14 @@
 #include <openfl/display/IGraphicsFill.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_60eb5008390fcdf2_28_new,"openfl.display.GraphicsEndFill","new",0x1f8242bb,"openfl.display.GraphicsEndFill.new","openfl/display/GraphicsEndFill.hx",28,0x45937e97)
+HX_DEFINE_STACK_FRAME(_hx_pos_60eb5008390fcdf2_17_new,"openfl.display.GraphicsEndFill","new",0x1f8242bb,"openfl.display.GraphicsEndFill.new","openfl/display/GraphicsEndFill.hx",17,0x45937e97)
 namespace openfl{
 namespace display{
 
 void GraphicsEndFill_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_60eb5008390fcdf2_28_new)
-HXLINE(  29)		this->_hx___graphicsDataType = 5;
-HXLINE(  30)		this->_hx___graphicsFillType = 3;
+            	HX_STACKFRAME(&_hx_pos_60eb5008390fcdf2_17_new)
+HXLINE(  18)		this->_hx___graphicsDataType = 5;
+HXLINE(  19)		this->_hx___graphicsFillType = 3;
             	}
 
 Dynamic GraphicsEndFill_obj::__CreateEmpty() { return new GraphicsEndFill_obj; }

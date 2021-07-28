@@ -20,16 +20,16 @@
 #include <openfl/display/IGraphicsPath.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_7b37310b03d9d57e_65_new,"openfl.display.GraphicsQuadPath","new",0x93697fd3,"openfl.display.GraphicsQuadPath.new","openfl/display/GraphicsQuadPath.hx",65,0x6ee01b3b)
+HX_DEFINE_STACK_FRAME(_hx_pos_7b37310b03d9d57e_23_new,"openfl.display.GraphicsQuadPath","new",0x93697fd3,"openfl.display.GraphicsQuadPath.new","openfl/display/GraphicsQuadPath.hx",23,0x6ee01b3b)
 namespace openfl{
 namespace display{
 
 void GraphicsQuadPath_obj::__construct( ::openfl::_Vector::FloatVector rects, ::openfl::_Vector::IntVector indices, ::openfl::_Vector::FloatVector transforms){
-            	HX_STACKFRAME(&_hx_pos_7b37310b03d9d57e_65_new)
-HXLINE(  66)		this->rects = rects;
-HXLINE(  67)		this->indices = indices;
-HXLINE(  68)		this->transforms = transforms;
-HXLINE(  71)		this->_hx___graphicsDataType = 6;
+            	HX_STACKFRAME(&_hx_pos_7b37310b03d9d57e_23_new)
+HXLINE(  24)		this->rects = rects;
+HXLINE(  25)		this->indices = indices;
+HXLINE(  26)		this->transforms = transforms;
+HXLINE(  29)		this->_hx___graphicsDataType = 6;
             	}
 
 Dynamic GraphicsQuadPath_obj::__CreateEmpty() { return new GraphicsQuadPath_obj; }

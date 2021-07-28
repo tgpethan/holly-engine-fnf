@@ -32,7 +32,7 @@
 #include <openfl/utils/_ByteArray/ByteArray_Impl_.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_d5a338f837bde5d2_47_new,"flixel.system._FlxPreloader.GraphicLogoCorners","new",0x2a125ad5,"flixel.system._FlxPreloader.GraphicLogoCorners.new","openfl/utils/_internal/AssetsMacro.hx",47,0xfdd54705)
+HX_DEFINE_STACK_FRAME(_hx_pos_f94035369fdfefc7_47_new,"flixel.system._FlxPreloader.GraphicLogoCorners","new",0x2a125ad5,"flixel.system._FlxPreloader.GraphicLogoCorners.new","openfl/_internal/macros/AssetsMacro.hx",47,0xf7db08ab)
 HX_LOCAL_STACK_FRAME(_hx_pos_f9d58df639310be5_16_boot,"flixel.system._FlxPreloader.GraphicLogoCorners","boot",0x9e16201d,"flixel.system._FlxPreloader.GraphicLogoCorners.boot","flixel/system/FlxPreloader.hx",16,0xf0599dad)
 namespace flixel{
 namespace _hx_system{
@@ -43,7 +43,7 @@ void GraphicLogoCorners_obj::__construct(int width,int height, ::Dynamic __o_tra
             		if (::hx::IsNull(__o_transparent)) transparent = true;
             		 ::Dynamic fillRGBA = __o_fillRGBA;
             		if (::hx::IsNull(__o_fillRGBA)) fillRGBA = -1;
-            	HX_STACKFRAME(&_hx_pos_d5a338f837bde5d2_47_new)
+            	HX_STACKFRAME(&_hx_pos_f94035369fdfefc7_47_new)
 HXLINE(  71)		super::__construct(0,0,transparent,fillRGBA);
 HXLINE(  73)		 ::openfl::utils::ByteArrayData byteArray = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(::haxe::Resource_obj::getBytes(::flixel::_hx_system::_FlxPreloader::GraphicLogoCorners_obj::resourceName));
 HXLINE(  74)		{

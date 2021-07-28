@@ -36,14 +36,6 @@ class HXCPP_CLASS_ATTRIBUTES IMap_obj {
 		static inline  ::Dynamic keys( ::Dynamic _hx_) {
 			return (_hx_.mPtr->*( ::hx::interface_cast< ::haxe::IMap_obj *>(_hx_.mPtr->_hx_getInterface(0x09c2bd39)))->_hx_keys)();
 		}
-		 ::Dynamic (::hx::Object :: *_hx_iterator)(); 
-		static inline  ::Dynamic iterator( ::Dynamic _hx_) {
-			return (_hx_.mPtr->*( ::hx::interface_cast< ::haxe::IMap_obj *>(_hx_.mPtr->_hx_getInterface(0x09c2bd39)))->_hx_iterator)();
-		}
-		 ::Dynamic (::hx::Object :: *_hx_keyValueIterator)(); 
-		static inline  ::Dynamic keyValueIterator( ::Dynamic _hx_) {
-			return (_hx_.mPtr->*( ::hx::interface_cast< ::haxe::IMap_obj *>(_hx_.mPtr->_hx_getInterface(0x09c2bd39)))->_hx_keyValueIterator)();
-		}
 };
 
 } // end namespace haxe

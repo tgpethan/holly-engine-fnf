@@ -82,12 +82,6 @@ class HXCPP_CLASS_ATTRIBUTES CanvasRenderer_obj : public  ::openfl::display::Dis
 
 		void _hx___render(::Dynamic object);
 
-		void _hx___renderDrawable(::Dynamic object);
-		::Dynamic _hx___renderDrawable_dyn();
-
-		void _hx___renderDrawableMask(::Dynamic object);
-		::Dynamic _hx___renderDrawableMask_dyn();
-
 		void _hx___setBlendMode( ::Dynamic value);
 
 		void _hx___setBlendModeContext( ::Dynamic context, ::Dynamic value);

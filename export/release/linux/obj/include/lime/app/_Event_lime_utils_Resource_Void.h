@@ -60,9 +60,6 @@ class HXCPP_CLASS_ATTRIBUTES _Event_lime_utils_Resource_Void_obj : public ::hx::
 		void remove( ::Dynamic listener);
 		::Dynamic remove_dyn();
 
-		void removeAll();
-		::Dynamic removeAll_dyn();
-
 		::Array< ::Dynamic> _hx___listeners;
 		void dispatch( ::haxe::io::Bytes a);
 		::Dynamic dispatch_dyn();

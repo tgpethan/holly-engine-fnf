@@ -64,12 +64,6 @@ class HXCPP_CLASS_ATTRIBUTES CairoBitmap_obj : public ::hx::Object
 		static void render( ::openfl::display::Bitmap bitmap, ::openfl::display::CairoRenderer renderer);
 		static ::Dynamic render_dyn();
 
-		static void renderDrawable( ::openfl::display::Bitmap bitmap, ::openfl::display::CairoRenderer renderer);
-		static ::Dynamic renderDrawable_dyn();
-
-		static void renderDrawableMask( ::openfl::display::Bitmap bitmap, ::openfl::display::CairoRenderer renderer);
-		static ::Dynamic renderDrawableMask_dyn();
-
 };
 
 } // end namespace openfl

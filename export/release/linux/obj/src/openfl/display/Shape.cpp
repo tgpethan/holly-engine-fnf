@@ -20,15 +20,14 @@
 #include <openfl/events/IEventDispatcher.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_6325b0c027895dfe_44_new,"openfl.display.Shape","new",0x7b6756e9,"openfl.display.Shape.new","openfl/display/Shape.hx",44,0xe963f3a9)
-HX_LOCAL_STACK_FRAME(_hx_pos_6325b0c027895dfe_52_get_graphics,"openfl.display.Shape","get_graphics",0xb4a78d2b,"openfl.display.Shape.get_graphics","openfl/display/Shape.hx",52,0xe963f3a9)
+HX_DEFINE_STACK_FRAME(_hx_pos_6325b0c027895dfe_24_new,"openfl.display.Shape","new",0x7b6756e9,"openfl.display.Shape.new","openfl/display/Shape.hx",24,0xe963f3a9)
+HX_LOCAL_STACK_FRAME(_hx_pos_6325b0c027895dfe_29_get_graphics,"openfl.display.Shape","get_graphics",0xb4a78d2b,"openfl.display.Shape.get_graphics","openfl/display/Shape.hx",29,0xe963f3a9)
 namespace openfl{
 namespace display{
 
 void Shape_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_6325b0c027895dfe_44_new)
-HXLINE(  45)		super::__construct();
-HXLINE(  47)		this->_hx___drawableType = 3;
+            	HX_STACKFRAME(&_hx_pos_6325b0c027895dfe_24_new)
+HXDLIN(  24)		super::__construct();
             	}
 
 Dynamic Shape_obj::__CreateEmpty() { return new Shape_obj; }
@@ -55,11 +54,11 @@ bool Shape_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::openfl::display::Graphics Shape_obj::get_graphics(){
-            	HX_GC_STACKFRAME(&_hx_pos_6325b0c027895dfe_52_get_graphics)
-HXLINE(  53)		if (::hx::IsNull( this->_hx___graphics )) {
-HXLINE(  55)			this->_hx___graphics =  ::openfl::display::Graphics_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this));
+            	HX_GC_STACKFRAME(&_hx_pos_6325b0c027895dfe_29_get_graphics)
+HXLINE(  30)		if (::hx::IsNull( this->_hx___graphics )) {
+HXLINE(  32)			this->_hx___graphics =  ::openfl::display::Graphics_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this));
             		}
-HXLINE(  58)		return this->_hx___graphics;
+HXLINE(  35)		return this->_hx___graphics;
             	}
 
 

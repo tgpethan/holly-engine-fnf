@@ -8,9 +8,6 @@
 #ifndef INCLUDED_Reflect
 #include <Reflect.h>
 #endif
-#ifndef INCLUDED_Std
-#include <Std.h>
-#endif
 #ifndef INCLUDED_flixel_FlxBasic
 #include <flixel/FlxBasic.h>
 #endif
@@ -40,9 +37,6 @@
 #endif
 #ifndef INCLUDED_flixel_math_FlxPoint
 #include <flixel/math/FlxPoint.h>
-#endif
-#ifndef INCLUDED_flixel_math_FlxRect
-#include <flixel/math/FlxRect.h>
 #endif
 #ifndef INCLUDED_flixel_tweens_FlxTween
 #include <flixel/tweens/FlxTween.h>
@@ -78,29 +72,29 @@
 #include <openfl/geom/Rectangle.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_85f0573c4a29b283_23_new,"flixel.addons.transition.TransitionFade","new",0x4927e913,"flixel.addons.transition.TransitionFade.new","flixel/addons/transition/TransitionFade.hx",23,0x307a6abc)
-HX_LOCAL_STACK_FRAME(_hx_pos_85f0573c4a29b283_43_destroy,"flixel.addons.transition.TransitionFade","destroy",0x16001b2d,"flixel.addons.transition.TransitionFade.destroy","flixel/addons/transition/TransitionFade.hx",43,0x307a6abc)
-HX_LOCAL_STACK_FRAME(_hx_pos_85f0573c4a29b283_49_start,"flixel.addons.transition.TransitionFade","start",0xbc9d5fd5,"flixel.addons.transition.TransitionFade.start","flixel/addons/transition/TransitionFade.hx",49,0x307a6abc)
-HX_LOCAL_STACK_FRAME(_hx_pos_85f0573c4a29b283_85_setTweenValues,"flixel.addons.transition.TransitionFade","setTweenValues",0x069b0e58,"flixel.addons.transition.TransitionFade.setTweenValues","flixel/addons/transition/TransitionFade.hx",85,0x307a6abc)
-HX_LOCAL_STACK_FRAME(_hx_pos_85f0573c4a29b283_151_makeSprite,"flixel.addons.transition.TransitionFade","makeSprite",0x080a6440,"flixel.addons.transition.TransitionFade.makeSprite","flixel/addons/transition/TransitionFade.hx",151,0x307a6abc)
-HX_LOCAL_STACK_FRAME(_hx_pos_85f0573c4a29b283_200_getGradient,"flixel.addons.transition.TransitionFade","getGradient",0xadab8059,"flixel.addons.transition.TransitionFade.getGradient","flixel/addons/transition/TransitionFade.hx",200,0x307a6abc)
-HX_LOCAL_STACK_FRAME(_hx_pos_85f0573c4a29b283_219_finishTween,"flixel.addons.transition.TransitionFade","finishTween",0x9dee50cb,"flixel.addons.transition.TransitionFade.finishTween","flixel/addons/transition/TransitionFade.hx",219,0x307a6abc)
+HX_DEFINE_STACK_FRAME(_hx_pos_85f0573c4a29b283_22_new,"flixel.addons.transition.TransitionFade","new",0x4927e913,"flixel.addons.transition.TransitionFade.new","flixel/addons/transition/TransitionFade.hx",22,0x307a6abc)
+HX_LOCAL_STACK_FRAME(_hx_pos_85f0573c4a29b283_42_destroy,"flixel.addons.transition.TransitionFade","destroy",0x16001b2d,"flixel.addons.transition.TransitionFade.destroy","flixel/addons/transition/TransitionFade.hx",42,0x307a6abc)
+HX_LOCAL_STACK_FRAME(_hx_pos_85f0573c4a29b283_48_start,"flixel.addons.transition.TransitionFade","start",0xbc9d5fd5,"flixel.addons.transition.TransitionFade.start","flixel/addons/transition/TransitionFade.hx",48,0x307a6abc)
+HX_LOCAL_STACK_FRAME(_hx_pos_85f0573c4a29b283_84_setTweenValues,"flixel.addons.transition.TransitionFade","setTweenValues",0x069b0e58,"flixel.addons.transition.TransitionFade.setTweenValues","flixel/addons/transition/TransitionFade.hx",84,0x307a6abc)
+HX_LOCAL_STACK_FRAME(_hx_pos_85f0573c4a29b283_150_makeSprite,"flixel.addons.transition.TransitionFade","makeSprite",0x080a6440,"flixel.addons.transition.TransitionFade.makeSprite","flixel/addons/transition/TransitionFade.hx",150,0x307a6abc)
+HX_LOCAL_STACK_FRAME(_hx_pos_85f0573c4a29b283_199_getGradient,"flixel.addons.transition.TransitionFade","getGradient",0xadab8059,"flixel.addons.transition.TransitionFade.getGradient","flixel/addons/transition/TransitionFade.hx",199,0x307a6abc)
+HX_LOCAL_STACK_FRAME(_hx_pos_85f0573c4a29b283_218_finishTween,"flixel.addons.transition.TransitionFade","finishTween",0x9dee50cb,"flixel.addons.transition.TransitionFade.finishTween","flixel/addons/transition/TransitionFade.hx",218,0x307a6abc)
 namespace flixel{
 namespace addons{
 namespace transition{
 
 void TransitionFade_obj::__construct( ::flixel::addons::transition::TransitionData data){
-            	HX_STACKFRAME(&_hx_pos_85f0573c4a29b283_23_new)
-HXLINE(  31)		this->tweenValEnd2 = ((Float)0);
-HXLINE(  30)		this->tweenValEnd = ((Float)0);
-HXLINE(  29)		this->tweenValStart2 = ((Float)0);
-HXLINE(  28)		this->tweenValStart = ((Float)0);
-HXLINE(  27)		this->tweenStr2 = HX_("",00,00,00,00);
-HXLINE(  26)		this->tweenStr = HX_("",00,00,00,00);
-HXLINE(  35)		super::__construct(data);
-HXLINE(  37)		this->back = this->makeSprite(data->direction->x,data->direction->y,data->region);
-HXLINE(  38)		this->back->scrollFactor->set(0,0);
-HXLINE(  39)		this->add(this->back);
+            	HX_STACKFRAME(&_hx_pos_85f0573c4a29b283_22_new)
+HXLINE(  30)		this->tweenValEnd2 = ((Float)0);
+HXLINE(  29)		this->tweenValEnd = ((Float)0);
+HXLINE(  28)		this->tweenValStart2 = ((Float)0);
+HXLINE(  27)		this->tweenValStart = ((Float)0);
+HXLINE(  26)		this->tweenStr2 = HX_("",00,00,00,00);
+HXLINE(  25)		this->tweenStr = HX_("",00,00,00,00);
+HXLINE(  34)		super::__construct(data);
+HXLINE(  36)		this->back = this->makeSprite(data->direction->x,data->direction->y);
+HXLINE(  37)		this->back->scrollFactor->set(0,0);
+HXLINE(  38)		this->add(this->back);
             	}
 
 Dynamic TransitionFade_obj::__CreateEmpty() { return new TransitionFade_obj; }
@@ -135,258 +129,258 @@ bool TransitionFade_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void TransitionFade_obj::destroy(){
-            	HX_STACKFRAME(&_hx_pos_85f0573c4a29b283_43_destroy)
-HXLINE(  44)		this->super::destroy();
-HXLINE(  45)		this->back = null();
+            	HX_STACKFRAME(&_hx_pos_85f0573c4a29b283_42_destroy)
+HXLINE(  43)		this->super::destroy();
+HXLINE(  44)		this->back = null();
             	}
 
 
 void TransitionFade_obj::start(int NewStatus){
-            	HX_STACKFRAME(&_hx_pos_85f0573c4a29b283_49_start)
-HXLINE(  50)		this->super::start(NewStatus);
-HXLINE(  52)		this->setTweenValues(NewStatus,this->_data->direction->x,this->_data->direction->y);
-HXLINE(  54)		::String _hx_switch_0 = this->tweenStr;
+            	HX_STACKFRAME(&_hx_pos_85f0573c4a29b283_48_start)
+HXLINE(  49)		this->super::start(NewStatus);
+HXLINE(  51)		this->setTweenValues(NewStatus,this->_data->direction->x,this->_data->direction->y);
+HXLINE(  53)		::String _hx_switch_0 = this->tweenStr;
             		if (  (_hx_switch_0==HX_("alpha",5e,a7,96,21)) ){
-HXLINE(  57)			this->back->set_alpha(this->tweenValStart);
-HXDLIN(  57)			goto _hx_goto_2;
+HXLINE(  56)			this->back->set_alpha(this->tweenValStart);
+HXDLIN(  56)			goto _hx_goto_2;
             		}
             		if (  (_hx_switch_0==HX_("x",78,00,00,00)) ){
-HXLINE(  59)			this->back->set_x(this->tweenValStart);
-HXDLIN(  59)			goto _hx_goto_2;
+HXLINE(  58)			this->back->set_x(this->tweenValStart);
+HXDLIN(  58)			goto _hx_goto_2;
             		}
             		if (  (_hx_switch_0==HX_("y",79,00,00,00)) ){
-HXLINE(  61)			this->back->set_y(this->tweenValStart);
-HXDLIN(  61)			goto _hx_goto_2;
+HXLINE(  60)			this->back->set_y(this->tweenValStart);
+HXDLIN(  60)			goto _hx_goto_2;
             		}
             		_hx_goto_2:;
-HXLINE(  63)		::String _hx_switch_1 = this->tweenStr2;
+HXLINE(  62)		::String _hx_switch_1 = this->tweenStr2;
             		if (  (_hx_switch_1==HX_("alpha",5e,a7,96,21)) ){
-HXLINE(  66)			this->back->set_alpha(this->tweenValStart2);
-HXDLIN(  66)			goto _hx_goto_3;
+HXLINE(  65)			this->back->set_alpha(this->tweenValStart2);
+HXDLIN(  65)			goto _hx_goto_3;
             		}
             		if (  (_hx_switch_1==HX_("x",78,00,00,00)) ){
-HXLINE(  68)			this->back->set_x(this->tweenValStart2);
-HXDLIN(  68)			goto _hx_goto_3;
+HXLINE(  67)			this->back->set_x(this->tweenValStart2);
+HXDLIN(  67)			goto _hx_goto_3;
             		}
             		if (  (_hx_switch_1==HX_("y",79,00,00,00)) ){
-HXLINE(  70)			this->back->set_y(this->tweenValStart2);
-HXDLIN(  70)			goto _hx_goto_3;
+HXLINE(  69)			this->back->set_y(this->tweenValStart2);
+HXDLIN(  69)			goto _hx_goto_3;
             		}
             		_hx_goto_3:;
-HXLINE(  73)		 ::Dynamic Values =  ::Dynamic(::hx::Anon_obj::Create(0));
-HXLINE(  74)		::Reflect_obj::setField(Values,this->tweenStr,this->tweenValEnd);
-HXLINE(  75)		if ((this->tweenStr2 != HX_("",00,00,00,00))) {
-HXLINE(  77)			::Reflect_obj::setField(Values,this->tweenStr2,this->tweenValEnd2);
+HXLINE(  72)		 ::Dynamic Values =  ::Dynamic(::hx::Anon_obj::Create(0));
+HXLINE(  73)		::Reflect_obj::setField(Values,this->tweenStr,this->tweenValEnd);
+HXLINE(  74)		if ((this->tweenStr2 != HX_("",00,00,00,00))) {
+HXLINE(  76)			::Reflect_obj::setField(Values,this->tweenStr2,this->tweenValEnd2);
             		}
-HXLINE(  79)		this->_data->tweenOptions->__SetField(HX_("onComplete",f8,d4,7e,5d),this->finishTween_dyn(),::hx::paccDynamic);
-HXLINE(  80)		::flixel::tweens::FlxTween_obj::tween(this->back,Values,this->_data->duration,this->_data->tweenOptions);
+HXLINE(  78)		this->_data->tweenOptions->__SetField(HX_("onComplete",f8,d4,7e,5d),this->finishTween_dyn(),::hx::paccDynamic);
+HXLINE(  79)		::flixel::tweens::FlxTween_obj::tween(this->back,Values,this->_data->duration,this->_data->tweenOptions);
             	}
 
 
 void TransitionFade_obj::setTweenValues(int NewStatus,Float DirX,Float DirY){
-            	HX_STACKFRAME(&_hx_pos_85f0573c4a29b283_85_setTweenValues)
-HXDLIN(  85)		bool _hx_tmp;
-HXDLIN(  85)		if ((DirX == 0)) {
-HXDLIN(  85)			_hx_tmp = (DirY == 0);
+            	HX_STACKFRAME(&_hx_pos_85f0573c4a29b283_84_setTweenValues)
+HXDLIN(  84)		bool _hx_tmp;
+HXDLIN(  84)		if ((DirX == 0)) {
+HXDLIN(  84)			_hx_tmp = (DirY == 0);
             		}
             		else {
-HXDLIN(  85)			_hx_tmp = false;
+HXDLIN(  84)			_hx_tmp = false;
             		}
-HXDLIN(  85)		if (_hx_tmp) {
-HXLINE(  88)			this->tweenStr = HX_("alpha",5e,a7,96,21);
-HXLINE(  89)			Float _hx_tmp;
+HXDLIN(  84)		if (_hx_tmp) {
+HXLINE(  87)			this->tweenStr = HX_("alpha",5e,a7,96,21);
+HXLINE(  88)			Float _hx_tmp;
+HXDLIN(  88)			if ((NewStatus == 0)) {
+HXLINE(  88)				_hx_tmp = ((Float)0.0);
+            			}
+            			else {
+HXLINE(  88)				_hx_tmp = ((Float)1.0);
+            			}
+HXDLIN(  88)			this->tweenValStart = _hx_tmp;
+HXLINE(  89)			Float _hx_tmp1;
 HXDLIN(  89)			if ((NewStatus == 0)) {
-HXLINE(  89)				_hx_tmp = ((Float)0.0);
+HXLINE(  89)				_hx_tmp1 = ((Float)1.0);
             			}
             			else {
-HXLINE(  89)				_hx_tmp = ((Float)1.0);
+HXLINE(  89)				_hx_tmp1 = ((Float)0.0);
             			}
-HXDLIN(  89)			this->tweenValStart = _hx_tmp;
-HXLINE(  90)			Float _hx_tmp1;
-HXDLIN(  90)			if ((NewStatus == 0)) {
-HXLINE(  90)				_hx_tmp1 = ((Float)1.0);
-            			}
-            			else {
-HXLINE(  90)				_hx_tmp1 = ((Float)0.0);
-            			}
-HXDLIN(  90)			this->tweenValEnd = _hx_tmp1;
+HXDLIN(  89)			this->tweenValEnd = _hx_tmp1;
             		}
             		else {
-HXLINE(  92)			bool _hx_tmp;
-HXDLIN(  92)			if ((::Math_obj::abs(DirX) > 0)) {
-HXLINE(  92)				_hx_tmp = (DirY == 0);
+HXLINE(  91)			bool _hx_tmp;
+HXDLIN(  91)			if ((::Math_obj::abs(DirX) > 0)) {
+HXLINE(  91)				_hx_tmp = (DirY == 0);
             			}
             			else {
-HXLINE(  92)				_hx_tmp = false;
+HXLINE(  91)				_hx_tmp = false;
             			}
-HXDLIN(  92)			if (_hx_tmp) {
-HXLINE(  95)				this->tweenStr = HX_("x",78,00,00,00);
-HXLINE(  96)				if ((DirX > 0)) {
-HXLINE(  98)					Float _hx_tmp;
+HXDLIN(  91)			if (_hx_tmp) {
+HXLINE(  94)				this->tweenStr = HX_("x",78,00,00,00);
+HXLINE(  95)				if ((DirX > 0)) {
+HXLINE(  97)					Float _hx_tmp;
+HXDLIN(  97)					if ((NewStatus == 0)) {
+HXLINE(  97)						_hx_tmp = -(this->back->get_width());
+            					}
+            					else {
+HXLINE(  97)						_hx_tmp = ( (Float)(0) );
+            					}
+HXDLIN(  97)					this->tweenValStart = _hx_tmp;
+HXLINE(  98)					Float _hx_tmp1;
 HXDLIN(  98)					if ((NewStatus == 0)) {
-HXLINE(  98)						_hx_tmp = -(this->back->get_width());
+HXLINE(  98)						_hx_tmp1 = ( (Float)(0) );
             					}
             					else {
-HXLINE(  98)						_hx_tmp = ( (Float)(0) );
+HXLINE(  98)						_hx_tmp1 = -(this->back->get_width());
             					}
-HXDLIN(  98)					this->tweenValStart = _hx_tmp;
-HXLINE(  99)					Float _hx_tmp1;
-HXDLIN(  99)					if ((NewStatus == 0)) {
-HXLINE(  99)						_hx_tmp1 = ( (Float)(0) );
-            					}
-            					else {
-HXLINE(  99)						_hx_tmp1 = -(this->back->get_width());
-            					}
-HXDLIN(  99)					this->tweenValEnd = _hx_tmp1;
+HXDLIN(  98)					this->tweenValEnd = _hx_tmp1;
             				}
             				else {
-HXLINE( 103)					Float _hx_tmp;
+HXLINE( 102)					Float _hx_tmp;
+HXDLIN( 102)					if ((NewStatus == 0)) {
+HXLINE( 102)						_hx_tmp = ( (Float)(::flixel::FlxG_obj::width) );
+            					}
+            					else {
+HXLINE( 102)						_hx_tmp = (-(this->back->get_width()) / ( (Float)(2) ));
+            					}
+HXDLIN( 102)					this->tweenValStart = _hx_tmp;
+HXLINE( 103)					Float _hx_tmp1;
 HXDLIN( 103)					if ((NewStatus == 0)) {
-HXLINE( 103)						_hx_tmp = ( (Float)(::flixel::FlxG_obj::width) );
+HXLINE( 103)						_hx_tmp1 = (-(this->back->get_width()) / ( (Float)(2) ));
             					}
             					else {
-HXLINE( 103)						_hx_tmp = (-(this->back->get_width()) / ( (Float)(2) ));
+HXLINE( 103)						_hx_tmp1 = ( (Float)(::flixel::FlxG_obj::width) );
             					}
-HXDLIN( 103)					this->tweenValStart = _hx_tmp;
-HXLINE( 104)					Float _hx_tmp1;
-HXDLIN( 104)					if ((NewStatus == 0)) {
-HXLINE( 104)						_hx_tmp1 = (-(this->back->get_width()) / ( (Float)(2) ));
-            					}
-            					else {
-HXLINE( 104)						_hx_tmp1 = ( (Float)(::flixel::FlxG_obj::width) );
-            					}
-HXDLIN( 104)					this->tweenValEnd = _hx_tmp1;
+HXDLIN( 103)					this->tweenValEnd = _hx_tmp1;
             				}
             			}
             			else {
-HXLINE( 107)				bool _hx_tmp;
-HXDLIN( 107)				if ((DirX == 0)) {
-HXLINE( 107)					_hx_tmp = (::Math_obj::abs(DirY) > 0);
+HXLINE( 106)				bool _hx_tmp;
+HXDLIN( 106)				if ((DirX == 0)) {
+HXLINE( 106)					_hx_tmp = (::Math_obj::abs(DirY) > 0);
             				}
             				else {
-HXLINE( 107)					_hx_tmp = false;
+HXLINE( 106)					_hx_tmp = false;
             				}
-HXDLIN( 107)				if (_hx_tmp) {
-HXLINE( 110)					this->tweenStr = HX_("y",79,00,00,00);
-HXLINE( 111)					if ((DirY > 0)) {
-HXLINE( 113)						Float _hx_tmp;
+HXDLIN( 106)				if (_hx_tmp) {
+HXLINE( 109)					this->tweenStr = HX_("y",79,00,00,00);
+HXLINE( 110)					if ((DirY > 0)) {
+HXLINE( 112)						Float _hx_tmp;
+HXDLIN( 112)						if ((NewStatus == 0)) {
+HXLINE( 112)							_hx_tmp = -(this->back->get_height());
+            						}
+            						else {
+HXLINE( 112)							_hx_tmp = ( (Float)(0) );
+            						}
+HXDLIN( 112)						this->tweenValStart = _hx_tmp;
+HXLINE( 113)						Float _hx_tmp1;
 HXDLIN( 113)						if ((NewStatus == 0)) {
-HXLINE( 113)							_hx_tmp = -(this->back->get_height());
+HXLINE( 113)							_hx_tmp1 = ( (Float)(0) );
             						}
             						else {
-HXLINE( 113)							_hx_tmp = ( (Float)(0) );
+HXLINE( 113)							_hx_tmp1 = -(this->back->get_height());
             						}
-HXDLIN( 113)						this->tweenValStart = _hx_tmp;
-HXLINE( 114)						Float _hx_tmp1;
-HXDLIN( 114)						if ((NewStatus == 0)) {
-HXLINE( 114)							_hx_tmp1 = ( (Float)(0) );
-            						}
-            						else {
-HXLINE( 114)							_hx_tmp1 = -(this->back->get_height());
-            						}
-HXDLIN( 114)						this->tweenValEnd = _hx_tmp1;
+HXDLIN( 113)						this->tweenValEnd = _hx_tmp1;
             					}
             					else {
-HXLINE( 118)						Float _hx_tmp;
+HXLINE( 117)						Float _hx_tmp;
+HXDLIN( 117)						if ((NewStatus == 0)) {
+HXLINE( 117)							_hx_tmp = ( (Float)(::flixel::FlxG_obj::height) );
+            						}
+            						else {
+HXLINE( 117)							_hx_tmp = (-(this->back->get_height()) / ( (Float)(2) ));
+            						}
+HXDLIN( 117)						this->tweenValStart = _hx_tmp;
+HXLINE( 118)						Float _hx_tmp1;
 HXDLIN( 118)						if ((NewStatus == 0)) {
-HXLINE( 118)							_hx_tmp = ( (Float)(::flixel::FlxG_obj::height) );
+HXLINE( 118)							_hx_tmp1 = (-(this->back->get_height()) / ( (Float)(2) ));
             						}
             						else {
-HXLINE( 118)							_hx_tmp = (-(this->back->get_height()) / ( (Float)(2) ));
+HXLINE( 118)							_hx_tmp1 = ( (Float)(::flixel::FlxG_obj::height) );
             						}
-HXDLIN( 118)						this->tweenValStart = _hx_tmp;
-HXLINE( 119)						Float _hx_tmp1;
-HXDLIN( 119)						if ((NewStatus == 0)) {
-HXLINE( 119)							_hx_tmp1 = (-(this->back->get_height()) / ( (Float)(2) ));
-            						}
-            						else {
-HXLINE( 119)							_hx_tmp1 = ( (Float)(::flixel::FlxG_obj::height) );
-            						}
-HXDLIN( 119)						this->tweenValEnd = _hx_tmp1;
+HXDLIN( 118)						this->tweenValEnd = _hx_tmp1;
             					}
             				}
             				else {
-HXLINE( 122)					bool _hx_tmp;
-HXDLIN( 122)					if ((::Math_obj::abs(DirX) > 0)) {
-HXLINE( 122)						_hx_tmp = (::Math_obj::abs(DirY) > 0);
+HXLINE( 121)					bool _hx_tmp;
+HXDLIN( 121)					if ((::Math_obj::abs(DirX) > 0)) {
+HXLINE( 121)						_hx_tmp = (::Math_obj::abs(DirY) > 0);
             					}
             					else {
-HXLINE( 122)						_hx_tmp = false;
+HXLINE( 121)						_hx_tmp = false;
             					}
-HXDLIN( 122)					if (_hx_tmp) {
-HXLINE( 125)						this->tweenStr = HX_("x",78,00,00,00);
-HXLINE( 126)						this->tweenStr2 = HX_("y",79,00,00,00);
-HXLINE( 127)						if ((DirX > 0)) {
-HXLINE( 129)							Float _hx_tmp;
+HXDLIN( 121)					if (_hx_tmp) {
+HXLINE( 124)						this->tweenStr = HX_("x",78,00,00,00);
+HXLINE( 125)						this->tweenStr2 = HX_("y",79,00,00,00);
+HXLINE( 126)						if ((DirX > 0)) {
+HXLINE( 128)							Float _hx_tmp;
+HXDLIN( 128)							if ((NewStatus == 0)) {
+HXLINE( 128)								_hx_tmp = -(this->back->get_width());
+            							}
+            							else {
+HXLINE( 128)								_hx_tmp = ( (Float)(0) );
+            							}
+HXDLIN( 128)							this->tweenValStart = _hx_tmp;
+HXLINE( 129)							Float _hx_tmp1;
 HXDLIN( 129)							if ((NewStatus == 0)) {
-HXLINE( 129)								_hx_tmp = -(this->back->get_width());
+HXLINE( 129)								_hx_tmp1 = ( (Float)(0) );
             							}
             							else {
-HXLINE( 129)								_hx_tmp = ( (Float)(0) );
+HXLINE( 129)								_hx_tmp1 = -(this->back->get_width());
             							}
-HXDLIN( 129)							this->tweenValStart = _hx_tmp;
-HXLINE( 130)							Float _hx_tmp1;
-HXDLIN( 130)							if ((NewStatus == 0)) {
-HXLINE( 130)								_hx_tmp1 = ( (Float)(0) );
-            							}
-            							else {
-HXLINE( 130)								_hx_tmp1 = -(this->back->get_width());
-            							}
-HXDLIN( 130)							this->tweenValEnd = _hx_tmp1;
+HXDLIN( 129)							this->tweenValEnd = _hx_tmp1;
             						}
             						else {
-HXLINE( 134)							Float _hx_tmp;
+HXLINE( 133)							Float _hx_tmp;
+HXDLIN( 133)							if ((NewStatus == 0)) {
+HXLINE( 133)								_hx_tmp = ( (Float)(::flixel::FlxG_obj::width) );
+            							}
+            							else {
+HXLINE( 133)								_hx_tmp = (-(this->back->get_width()) * ((Float)0.66666666666666663));
+            							}
+HXDLIN( 133)							this->tweenValStart = _hx_tmp;
+HXLINE( 134)							Float _hx_tmp1;
 HXDLIN( 134)							if ((NewStatus == 0)) {
-HXLINE( 134)								_hx_tmp = ( (Float)(::flixel::FlxG_obj::width) );
+HXLINE( 134)								_hx_tmp1 = (-(this->back->get_width()) * ((Float)0.66666666666666663));
             							}
             							else {
-HXLINE( 134)								_hx_tmp = (-(this->back->get_width()) * ((Float)0.66666666666666663));
+HXLINE( 134)								_hx_tmp1 = ( (Float)(::flixel::FlxG_obj::width) );
             							}
-HXDLIN( 134)							this->tweenValStart = _hx_tmp;
-HXLINE( 135)							Float _hx_tmp1;
-HXDLIN( 135)							if ((NewStatus == 0)) {
-HXLINE( 135)								_hx_tmp1 = (-(this->back->get_width()) * ((Float)0.66666666666666663));
-            							}
-            							else {
-HXLINE( 135)								_hx_tmp1 = ( (Float)(::flixel::FlxG_obj::width) );
-            							}
-HXDLIN( 135)							this->tweenValEnd = _hx_tmp1;
+HXDLIN( 134)							this->tweenValEnd = _hx_tmp1;
             						}
-HXLINE( 137)						if ((DirY > 0)) {
-HXLINE( 139)							Float _hx_tmp;
+HXLINE( 136)						if ((DirY > 0)) {
+HXLINE( 138)							Float _hx_tmp;
+HXDLIN( 138)							if ((NewStatus == 0)) {
+HXLINE( 138)								_hx_tmp = -(this->back->get_height());
+            							}
+            							else {
+HXLINE( 138)								_hx_tmp = ( (Float)(0) );
+            							}
+HXDLIN( 138)							this->tweenValStart2 = _hx_tmp;
+HXLINE( 139)							Float _hx_tmp1;
 HXDLIN( 139)							if ((NewStatus == 0)) {
-HXLINE( 139)								_hx_tmp = -(this->back->get_height());
+HXLINE( 139)								_hx_tmp1 = ( (Float)(0) );
             							}
             							else {
-HXLINE( 139)								_hx_tmp = ( (Float)(0) );
+HXLINE( 139)								_hx_tmp1 = -(this->back->get_height());
             							}
-HXDLIN( 139)							this->tweenValStart2 = _hx_tmp;
-HXLINE( 140)							Float _hx_tmp1;
-HXDLIN( 140)							if ((NewStatus == 0)) {
-HXLINE( 140)								_hx_tmp1 = ( (Float)(0) );
-            							}
-            							else {
-HXLINE( 140)								_hx_tmp1 = -(this->back->get_height());
-            							}
-HXDLIN( 140)							this->tweenValEnd2 = _hx_tmp1;
+HXDLIN( 139)							this->tweenValEnd2 = _hx_tmp1;
             						}
             						else {
-HXLINE( 144)							Float _hx_tmp;
+HXLINE( 143)							Float _hx_tmp;
+HXDLIN( 143)							if ((NewStatus == 0)) {
+HXLINE( 143)								_hx_tmp = ( (Float)(::flixel::FlxG_obj::height) );
+            							}
+            							else {
+HXLINE( 143)								_hx_tmp = (-(this->back->get_height()) * ((Float)0.66666666666666663));
+            							}
+HXDLIN( 143)							this->tweenValStart2 = _hx_tmp;
+HXLINE( 144)							Float _hx_tmp1;
 HXDLIN( 144)							if ((NewStatus == 0)) {
-HXLINE( 144)								_hx_tmp = ( (Float)(::flixel::FlxG_obj::height) );
+HXLINE( 144)								_hx_tmp1 = (-(this->back->get_height()) * ((Float)0.66666666666666663));
             							}
             							else {
-HXLINE( 144)								_hx_tmp = (-(this->back->get_height()) * ((Float)0.66666666666666663));
+HXLINE( 144)								_hx_tmp1 = ( (Float)(::flixel::FlxG_obj::height) );
             							}
-HXDLIN( 144)							this->tweenValStart2 = _hx_tmp;
-HXLINE( 145)							Float _hx_tmp1;
-HXDLIN( 145)							if ((NewStatus == 0)) {
-HXLINE( 145)								_hx_tmp1 = (-(this->back->get_height()) * ((Float)0.66666666666666663));
-            							}
-            							else {
-HXLINE( 145)								_hx_tmp1 = ( (Float)(::flixel::FlxG_obj::height) );
-            							}
-HXDLIN( 145)							this->tweenValEnd2 = _hx_tmp1;
+HXDLIN( 144)							this->tweenValEnd2 = _hx_tmp1;
             						}
             					}
             				}
@@ -397,140 +391,134 @@ HXDLIN( 145)							this->tweenValEnd2 = _hx_tmp1;
 
 HX_DEFINE_DYNAMIC_FUNC3(TransitionFade_obj,setTweenValues,(void))
 
- ::flixel::FlxSprite TransitionFade_obj::makeSprite(Float DirX,Float DirY, ::flixel::math::FlxRect region){
-            	HX_GC_STACKFRAME(&_hx_pos_85f0573c4a29b283_151_makeSprite)
-HXLINE( 152)		 ::flixel::FlxSprite s =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,region->x,region->y,null());
-HXLINE( 153)		Float locX = ( (Float)(0) );
-HXLINE( 154)		Float locY = ( (Float)(0) );
-HXLINE( 155)		int angle = 0;
-HXLINE( 156)		 ::openfl::display::BitmapData pixels = null();
-HXLINE( 157)		bool _hx_tmp;
-HXDLIN( 157)		if ((DirX == 0)) {
-HXLINE( 157)			_hx_tmp = (DirY == 0);
+ ::flixel::FlxSprite TransitionFade_obj::makeSprite(Float DirX,Float DirY){
+            	HX_GC_STACKFRAME(&_hx_pos_85f0573c4a29b283_150_makeSprite)
+HXLINE( 151)		 ::flixel::FlxSprite s =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,0,0,null());
+HXLINE( 152)		Float locX = ( (Float)(0) );
+HXLINE( 153)		Float locY = ( (Float)(0) );
+HXLINE( 154)		int angle = 0;
+HXLINE( 155)		 ::openfl::display::BitmapData pixels = null();
+HXLINE( 156)		bool _hx_tmp;
+HXDLIN( 156)		if ((DirX == 0)) {
+HXLINE( 156)			_hx_tmp = (DirY == 0);
             		}
             		else {
-HXLINE( 157)			_hx_tmp = false;
+HXLINE( 156)			_hx_tmp = false;
             		}
-HXDLIN( 157)		if (_hx_tmp) {
-HXLINE( 160)			int _hx_tmp = ::Std_obj::_hx_int(region->width);
-HXDLIN( 160)			int _hx_tmp1 = ::Std_obj::_hx_int(region->height);
-HXDLIN( 160)			s->makeGraphic(_hx_tmp,_hx_tmp1,this->_data->color,null(),null());
+HXDLIN( 156)		if (_hx_tmp) {
+HXLINE( 159)			s->makeGraphic(::flixel::FlxG_obj::width,::flixel::FlxG_obj::height,this->_data->color,null(),null());
             		}
             		else {
-HXLINE( 162)			bool _hx_tmp;
-HXDLIN( 162)			if ((DirX == 0)) {
-HXLINE( 162)				_hx_tmp = (::Math_obj::abs(DirY) > 0);
+HXLINE( 161)			bool _hx_tmp;
+HXDLIN( 161)			if ((DirX == 0)) {
+HXLINE( 161)				_hx_tmp = (::Math_obj::abs(DirY) > 0);
             			}
             			else {
-HXLINE( 162)				_hx_tmp = false;
+HXLINE( 161)				_hx_tmp = false;
             			}
-HXDLIN( 162)			if (_hx_tmp) {
+HXDLIN( 161)			if (_hx_tmp) {
+HXLINE( 164)				if ((DirY > 0)) {
+HXLINE( 164)					locY = ( (Float)(::flixel::FlxG_obj::height) );
+            				}
+            				else {
+HXLINE( 164)					locY = ( (Float)(0) );
+            				}
 HXLINE( 165)				if ((DirY > 0)) {
-HXLINE( 165)					locY = region->height;
+HXLINE( 165)					angle = 90;
             				}
             				else {
-HXLINE( 165)					locY = ( (Float)(0) );
+HXLINE( 165)					angle = 270;
             				}
-HXLINE( 166)				if ((DirY > 0)) {
-HXLINE( 166)					angle = 90;
-            				}
-            				else {
-HXLINE( 166)					angle = 270;
-            				}
-HXLINE( 167)				int _hx_tmp = ::Std_obj::_hx_int((region->height * ( (Float)(2) )));
-HXDLIN( 167)				s->makeGraphic(1,_hx_tmp,this->_data->color,null(),null());
-HXLINE( 168)				pixels = s->get_pixels();
-HXLINE( 169)				int gvert = ::Std_obj::_hx_int(region->height);
-HXDLIN( 169)				 ::openfl::display::BitmapData gvert1 = ::flixel::util::FlxGradient_obj::createGradientBitmapData(1,gvert,::Array_obj< int >::__new(2)->init(0,this->_data->color)->init(1,0),1,angle,null());
-HXLINE( 170)				 ::openfl::geom::Rectangle gvert2 = gvert1->rect;
-HXDLIN( 170)				pixels->copyPixels(gvert1,gvert2, ::openfl::geom::Point_obj::__alloc( HX_CTX ,0,locY),null(),null(),null());
-HXLINE( 171)				s->set_pixels(pixels);
-HXLINE( 172)				s->scale->set(region->width,((Float)1.0));
-HXLINE( 173)				s->updateHitbox();
+HXLINE( 166)				s->makeGraphic(1,(::flixel::FlxG_obj::height * 2),this->_data->color,null(),null());
+HXLINE( 167)				pixels = s->get_pixels();
+HXLINE( 168)				 ::openfl::display::BitmapData gvert = ::flixel::util::FlxGradient_obj::createGradientBitmapData(1,::flixel::FlxG_obj::height,::Array_obj< int >::__new(2)->init(0,this->_data->color)->init(1,0),1,angle,null());
+HXLINE( 169)				 ::openfl::geom::Rectangle gvert1 = gvert->rect;
+HXDLIN( 169)				pixels->copyPixels(gvert,gvert1, ::openfl::geom::Point_obj::__alloc( HX_CTX ,0,locY),null(),null(),null());
+HXLINE( 170)				s->set_pixels(pixels);
+HXLINE( 171)				s->scale->set(::flixel::FlxG_obj::width,((Float)1.0));
+HXLINE( 172)				s->updateHitbox();
             			}
             			else {
-HXLINE( 175)				bool _hx_tmp;
-HXDLIN( 175)				if ((::Math_obj::abs(DirX) > 0)) {
-HXLINE( 175)					_hx_tmp = (DirY == 0);
+HXLINE( 174)				bool _hx_tmp;
+HXDLIN( 174)				if ((::Math_obj::abs(DirX) > 0)) {
+HXLINE( 174)					_hx_tmp = (DirY == 0);
             				}
             				else {
-HXLINE( 175)					_hx_tmp = false;
+HXLINE( 174)					_hx_tmp = false;
             				}
-HXDLIN( 175)				if (_hx_tmp) {
+HXDLIN( 174)				if (_hx_tmp) {
+HXLINE( 177)					if ((DirX > 0)) {
+HXLINE( 177)						locX = ( (Float)(::flixel::FlxG_obj::width) );
+            					}
+            					else {
+HXLINE( 177)						locX = ( (Float)(0) );
+            					}
 HXLINE( 178)					if ((DirX > 0)) {
-HXLINE( 178)						locX = region->width;
+HXLINE( 178)						angle = 0;
             					}
             					else {
-HXLINE( 178)						locX = ( (Float)(0) );
+HXLINE( 178)						angle = 180;
             					}
-HXLINE( 179)					if ((DirX > 0)) {
-HXLINE( 179)						angle = 0;
-            					}
-            					else {
-HXLINE( 179)						angle = 180;
-            					}
-HXLINE( 180)					int _hx_tmp = ::Std_obj::_hx_int((region->width * ( (Float)(2) )));
-HXDLIN( 180)					s->makeGraphic(_hx_tmp,1,this->_data->color,null(),null());
-HXLINE( 181)					pixels = s->get_pixels();
-HXLINE( 182)					int ghorz = ::Std_obj::_hx_int(region->width);
-HXDLIN( 182)					 ::openfl::display::BitmapData ghorz1 = ::flixel::util::FlxGradient_obj::createGradientBitmapData(ghorz,1,::Array_obj< int >::__new(2)->init(0,this->_data->color)->init(1,0),1,angle,null());
-HXLINE( 183)					 ::openfl::geom::Rectangle ghorz2 = ghorz1->rect;
-HXDLIN( 183)					pixels->copyPixels(ghorz1,ghorz2, ::openfl::geom::Point_obj::__alloc( HX_CTX ,locX,0),null(),null(),null());
-HXLINE( 184)					s->set_pixels(pixels);
-HXLINE( 185)					s->scale->set(((Float)1.0),region->height);
-HXLINE( 186)					s->updateHitbox();
+HXLINE( 179)					s->makeGraphic((::flixel::FlxG_obj::width * 2),1,this->_data->color,null(),null());
+HXLINE( 180)					pixels = s->get_pixels();
+HXLINE( 181)					 ::openfl::display::BitmapData ghorz = ::flixel::util::FlxGradient_obj::createGradientBitmapData(::flixel::FlxG_obj::width,1,::Array_obj< int >::__new(2)->init(0,this->_data->color)->init(1,0),1,angle,null());
+HXLINE( 182)					 ::openfl::geom::Rectangle ghorz1 = ghorz->rect;
+HXDLIN( 182)					pixels->copyPixels(ghorz,ghorz1, ::openfl::geom::Point_obj::__alloc( HX_CTX ,locX,0),null(),null(),null());
+HXLINE( 183)					s->set_pixels(pixels);
+HXLINE( 184)					s->scale->set(((Float)1.0),::flixel::FlxG_obj::height);
+HXLINE( 185)					s->updateHitbox();
             				}
             				else {
-HXLINE( 188)					bool _hx_tmp;
-HXDLIN( 188)					if ((::Math_obj::abs(DirX) > 0)) {
-HXLINE( 188)						_hx_tmp = (::Math_obj::abs(DirY) > 0);
+HXLINE( 187)					bool _hx_tmp;
+HXDLIN( 187)					if ((::Math_obj::abs(DirX) > 0)) {
+HXLINE( 187)						_hx_tmp = (::Math_obj::abs(DirY) > 0);
             					}
             					else {
-HXLINE( 188)						_hx_tmp = false;
+HXLINE( 187)						_hx_tmp = false;
             					}
-HXDLIN( 188)					if (_hx_tmp) {
-HXLINE( 191)						if ((DirY > 0)) {
-HXLINE( 191)							locY = region->height;
+HXDLIN( 187)					if (_hx_tmp) {
+HXLINE( 190)						if ((DirY > 0)) {
+HXLINE( 190)							locY = ( (Float)(::flixel::FlxG_obj::height) );
             						}
             						else {
-HXLINE( 191)							locY = ( (Float)(0) );
+HXLINE( 190)							locY = ( (Float)(0) );
             						}
-HXLINE( 192)						s->loadGraphic(this->getGradient(),null(),null(),null(),null(),null());
-HXLINE( 193)						s->set_flipX((DirX < 0));
-HXLINE( 194)						s->set_flipY((DirY < 0));
+HXLINE( 191)						s->loadGraphic(this->getGradient(),null(),null(),null(),null(),null());
+HXLINE( 192)						s->set_flipX((DirX < 0));
+HXLINE( 193)						s->set_flipY((DirY < 0));
             					}
             				}
             			}
             		}
-HXLINE( 196)		return s;
+HXLINE( 195)		return s;
             	}
 
 
-HX_DEFINE_DYNAMIC_FUNC3(TransitionFade_obj,makeSprite,return )
+HX_DEFINE_DYNAMIC_FUNC2(TransitionFade_obj,makeSprite,return )
 
  ::openfl::display::BitmapData TransitionFade_obj::getGradient(){
-            	HX_GC_STACKFRAME(&_hx_pos_85f0573c4a29b283_200_getGradient)
-HXLINE( 202)		 ::flixel::addons::transition::_TransitionFade::GraphicDiagonalGradient rawBmp =  ::flixel::addons::transition::_TransitionFade::GraphicDiagonalGradient_obj::__alloc( HX_CTX ,0,0,null(),null());
-HXLINE( 203)		 ::openfl::display::BitmapData gdiag = ( ( ::openfl::display::BitmapData)(rawBmp) );
-HXLINE( 204)		 ::openfl::display::BitmapData gdiag_scaled =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,(::flixel::FlxG_obj::width * 2),(::flixel::FlxG_obj::height * 2),true,null());
-HXLINE( 205)		 ::openfl::geom::Matrix m =  ::openfl::geom::Matrix_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-HXLINE( 206)		m->scale((( (Float)(gdiag_scaled->width) ) / ( (Float)(gdiag->width) )),(( (Float)(gdiag_scaled->height) ) / ( (Float)(gdiag->height) )));
-HXLINE( 207)		gdiag_scaled->draw(gdiag,m,null(),null(),null(),true);
-HXLINE( 208)		int theColor = this->_data->color;
-HXLINE( 209)		 ::openfl::display::BitmapData final_pixels =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,(::flixel::FlxG_obj::width * 3),(::flixel::FlxG_obj::height * 3),true,theColor);
-HXLINE( 210)		 ::openfl::geom::Rectangle gdiag_scaled1 = gdiag_scaled->rect;
-HXDLIN( 210)		final_pixels->copyChannel(gdiag_scaled,gdiag_scaled1, ::openfl::geom::Point_obj::__alloc( HX_CTX ,(final_pixels->width - gdiag_scaled->width),(final_pixels->height - gdiag_scaled->height)),1,8);
-HXLINE( 212)		gdiag->dispose();
-HXLINE( 213)		gdiag_scaled->dispose();
-HXLINE( 214)		return final_pixels;
+            	HX_GC_STACKFRAME(&_hx_pos_85f0573c4a29b283_199_getGradient)
+HXLINE( 201)		 ::flixel::addons::transition::_TransitionFade::GraphicDiagonalGradient rawBmp =  ::flixel::addons::transition::_TransitionFade::GraphicDiagonalGradient_obj::__alloc( HX_CTX ,0,0,null(),null());
+HXLINE( 202)		 ::openfl::display::BitmapData gdiag = ( ( ::openfl::display::BitmapData)(rawBmp) );
+HXLINE( 203)		 ::openfl::display::BitmapData gdiag_scaled =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,(::flixel::FlxG_obj::width * 2),(::flixel::FlxG_obj::height * 2),true,null());
+HXLINE( 204)		 ::openfl::geom::Matrix m =  ::openfl::geom::Matrix_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE( 205)		m->scale((( (Float)(gdiag_scaled->width) ) / ( (Float)(gdiag->width) )),(( (Float)(gdiag_scaled->height) ) / ( (Float)(gdiag->height) )));
+HXLINE( 206)		gdiag_scaled->draw(gdiag,m,null(),null(),null(),true);
+HXLINE( 207)		int theColor = this->_data->color;
+HXLINE( 208)		 ::openfl::display::BitmapData final_pixels =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,(::flixel::FlxG_obj::width * 3),(::flixel::FlxG_obj::height * 3),true,theColor);
+HXLINE( 209)		 ::openfl::geom::Rectangle gdiag_scaled1 = gdiag_scaled->rect;
+HXDLIN( 209)		final_pixels->copyChannel(gdiag_scaled,gdiag_scaled1, ::openfl::geom::Point_obj::__alloc( HX_CTX ,(final_pixels->width - gdiag_scaled->width),(final_pixels->height - gdiag_scaled->height)),1,8);
+HXLINE( 211)		gdiag->dispose();
+HXLINE( 212)		gdiag_scaled->dispose();
+HXLINE( 213)		return final_pixels;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TransitionFade_obj,getGradient,return )
 
 void TransitionFade_obj::finishTween( ::flixel::tweens::FlxTween f){
-            	HX_STACKFRAME(&_hx_pos_85f0573c4a29b283_219_finishTween)
-HXDLIN( 219)		this->delayThenFinish();
+            	HX_STACKFRAME(&_hx_pos_85f0573c4a29b283_218_finishTween)
+HXDLIN( 218)		this->delayThenFinish();
             	}
 
 

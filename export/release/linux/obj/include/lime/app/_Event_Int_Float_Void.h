@@ -59,9 +59,6 @@ class HXCPP_CLASS_ATTRIBUTES _Event_Int_Float_Void_obj : public ::hx::Object
 		void remove( ::Dynamic listener);
 		::Dynamic remove_dyn();
 
-		void removeAll();
-		::Dynamic removeAll_dyn();
-
 		::Array< ::Dynamic> _hx___listeners;
 		void dispatch(int a,Float a1);
 		::Dynamic dispatch_dyn();

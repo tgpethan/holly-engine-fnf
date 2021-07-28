@@ -32,7 +32,7 @@
 #include <openfl/utils/_ByteArray/ByteArray_Impl_.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_4bb38dd84953edb1_47_new,"flixel.system.GraphicVirtualInput","new",0xc675786c,"flixel.system.GraphicVirtualInput.new","openfl/utils/_internal/AssetsMacro.hx",47,0xfdd54705)
+HX_DEFINE_STACK_FRAME(_hx_pos_4df0373d7d856d9b_47_new,"flixel.system.GraphicVirtualInput","new",0xc675786c,"flixel.system.GraphicVirtualInput.new","openfl/_internal/macros/AssetsMacro.hx",47,0xf7db08ab)
 HX_LOCAL_STACK_FRAME(_hx_pos_d6a61b2b68d34437_22_boot,"flixel.system.GraphicVirtualInput","boot",0xd86ce6a6,"flixel.system.GraphicVirtualInput.boot","flixel/system/FlxAssets.hx",22,0xd3ac1356)
 namespace flixel{
 namespace _hx_system{
@@ -42,7 +42,7 @@ void GraphicVirtualInput_obj::__construct(int width,int height, ::Dynamic __o_tr
             		if (::hx::IsNull(__o_transparent)) transparent = true;
             		 ::Dynamic fillRGBA = __o_fillRGBA;
             		if (::hx::IsNull(__o_fillRGBA)) fillRGBA = -1;
-            	HX_STACKFRAME(&_hx_pos_4bb38dd84953edb1_47_new)
+            	HX_STACKFRAME(&_hx_pos_4df0373d7d856d9b_47_new)
 HXLINE(  71)		super::__construct(0,0,transparent,fillRGBA);
 HXLINE(  73)		 ::openfl::utils::ByteArrayData byteArray = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(::haxe::Resource_obj::getBytes(::flixel::_hx_system::GraphicVirtualInput_obj::resourceName));
 HXLINE(  74)		{

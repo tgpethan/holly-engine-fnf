@@ -5,112 +5,112 @@
 #include <openfl/ui/Keyboard.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_566_isAccessible,"openfl.ui.Keyboard","isAccessible",0xa9f8adcb,"openfl.ui.Keyboard.isAccessible","openfl/ui/Keyboard.hx",566,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_572___convertKeyCode,"openfl.ui.Keyboard","__convertKeyCode",0x9705d864,"openfl.ui.Keyboard.__convertKeyCode","openfl/ui/Keyboard.hx",572,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_815___getCharCode,"openfl.ui.Keyboard","__getCharCode",0x5c5ae14e,"openfl.ui.Keyboard.__getCharCode","openfl/ui/Keyboard.hx",815,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_949___getKeyLocation,"openfl.ui.Keyboard","__getKeyLocation",0xfd1dd5a9,"openfl.ui.Keyboard.__getKeyLocation","openfl/ui/Keyboard.hx",949,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_128_isAccessible,"openfl.ui.Keyboard","isAccessible",0xa9f8adcb,"openfl.ui.Keyboard.isAccessible","openfl/ui/Keyboard.hx",128,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_134___convertKeyCode,"openfl.ui.Keyboard","__convertKeyCode",0x9705d864,"openfl.ui.Keyboard.__convertKeyCode","openfl/ui/Keyboard.hx",134,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_377___getCharCode,"openfl.ui.Keyboard","__getCharCode",0x5c5ae14e,"openfl.ui.Keyboard.__getCharCode","openfl/ui/Keyboard.hx",377,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_511___getKeyLocation,"openfl.ui.Keyboard","__getKeyLocation",0xfd1dd5a9,"openfl.ui.Keyboard.__getKeyLocation","openfl/ui/Keyboard.hx",511,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_12_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",12,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_14_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",14,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_15_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",15,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_16_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",16,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_17_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",17,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_18_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",18,0x5fb867bb)
 HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_19_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",19,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_20_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",20,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_21_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",21,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_22_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",22,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_23_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",23,0x5fb867bb)
 HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_24_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",24,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_25_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",25,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_26_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",26,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_27_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",27,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_28_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",28,0x5fb867bb)
 HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_29_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",29,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_30_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",30,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_31_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",31,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_32_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",32,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_33_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",33,0x5fb867bb)
 HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_34_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",34,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_35_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",35,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_36_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",36,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_37_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",37,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_38_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",38,0x5fb867bb)
 HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_39_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",39,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_40_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",40,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_41_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",41,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_42_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",42,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_43_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",43,0x5fb867bb)
 HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_44_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",44,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_45_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",45,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_46_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",46,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_47_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",47,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_48_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",48,0x5fb867bb)
 HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_49_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",49,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_50_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",50,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_51_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",51,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_52_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",52,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_53_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",53,0x5fb867bb)
 HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_54_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",54,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_55_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",55,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_56_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",56,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_57_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",57,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_58_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",58,0x5fb867bb)
 HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_59_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",59,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_60_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",60,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_61_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",61,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_62_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",62,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_63_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",63,0x5fb867bb)
 HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_64_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",64,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_65_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",65,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_66_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",66,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_67_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",67,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_68_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",68,0x5fb867bb)
 HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_69_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",69,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_70_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",70,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_71_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",71,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_72_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",72,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_73_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",73,0x5fb867bb)
 HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_74_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",74,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_75_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",75,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_76_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",76,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_77_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",77,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_78_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",78,0x5fb867bb)
 HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_79_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",79,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_80_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",80,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_81_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",81,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_82_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",82,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_83_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",83,0x5fb867bb)
 HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_84_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",84,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_89_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",89,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_85_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",85,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_86_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",86,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_87_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",87,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_90_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",90,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_92_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",92,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_93_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",93,0x5fb867bb)
 HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_94_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",94,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_95_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",95,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_96_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",96,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_97_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",97,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_98_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",98,0x5fb867bb)
 HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_99_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",99,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_100_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",100,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_101_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",101,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_102_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",102,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_103_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",103,0x5fb867bb)
 HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_104_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",104,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_109_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",109,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_105_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",105,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_108_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",108,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_110_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",110,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_111_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",111,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_112_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",112,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_113_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",113,0x5fb867bb)
 HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_114_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",114,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_115_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",115,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_116_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",116,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_117_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",117,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_118_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",118,0x5fb867bb)
 HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_119_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",119,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_124_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",124,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_129_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",129,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_134_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",134,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_139_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",139,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_144_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",144,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_149_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",149,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_154_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",154,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_159_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",159,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_164_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",164,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_169_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",169,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_174_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",174,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_179_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",179,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_184_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",184,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_189_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",189,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_194_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",194,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_199_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",199,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_205_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",205,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_211_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",211,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_217_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",217,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_223_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",223,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_229_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",229,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_235_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",235,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_241_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",241,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_247_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",247,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_253_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",253,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_259_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",259,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_265_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",265,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_271_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",271,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_277_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",277,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_283_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",283,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_289_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",289,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_295_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",295,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_300_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",300,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_305_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",305,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_310_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",310,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_315_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",315,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_320_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",320,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_325_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",325,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_330_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",330,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_335_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",335,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_340_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",340,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_345_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",345,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_350_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",350,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_355_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",355,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_360_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",360,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_365_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",365,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_370_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",370,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_375_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",375,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_380_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",380,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_386_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",386,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_391_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",391,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_397_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",397,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_402_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",402,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_407_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",407,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_410_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",410,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_415_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",415,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_421_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",421,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_426_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",426,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_431_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",431,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_436_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",436,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_441_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",441,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_446_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",446,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_451_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",451,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_456_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",456,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_461_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",461,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_466_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",466,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_471_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",471,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_476_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",476,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_481_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",481,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_484_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",484,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_489_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",489,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_494_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",494,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_499_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",499,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_504_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",504,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_509_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",509,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_514_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",514,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_519_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",519,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_524_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",524,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_529_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",529,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_534_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",534,0x5fb867bb)
-HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_539_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",539,0x5fb867bb)
+HX_LOCAL_STACK_FRAME(_hx_pos_410ccb691917537a_120_boot,"openfl.ui.Keyboard","boot",0xc2cf2c3d,"openfl.ui.Keyboard.boot","openfl/ui/Keyboard.hx",120,0x5fb867bb)
 namespace openfl{
 namespace ui{
 
@@ -338,521 +338,521 @@ bool Keyboard_obj::capsLock;
 bool Keyboard_obj::numLock;
 
 bool Keyboard_obj::isAccessible(){
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_566_isAccessible)
-HXDLIN( 566)		return false;
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_128_isAccessible)
+HXDLIN( 128)		return false;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC0(Keyboard_obj,isAccessible,return )
 
 int Keyboard_obj::_hx___convertKeyCode(int key){
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_572___convertKeyCode)
-HXDLIN( 572)		switch((int)(key)){
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_134___convertKeyCode)
+HXDLIN( 134)		switch((int)(key)){
             			case (int)8: {
-HXLINE( 574)				return 8;
+HXLINE( 136)				return 8;
             			}
             			break;
             			case (int)9: {
-HXLINE( 575)				return 9;
+HXLINE( 137)				return 9;
             			}
             			break;
             			case (int)13: {
-HXLINE( 576)				return 13;
+HXLINE( 138)				return 13;
             			}
             			break;
             			case (int)27: {
-HXLINE( 577)				return 27;
+HXLINE( 139)				return 27;
             			}
             			break;
             			case (int)32: {
-HXLINE( 578)				return 32;
+HXLINE( 140)				return 32;
             			}
             			break;
             			case (int)33: {
-HXLINE( 579)				return 49;
+HXLINE( 141)				return 49;
             			}
             			break;
             			case (int)34: {
-HXLINE( 580)				return 222;
+HXLINE( 142)				return 222;
             			}
             			break;
             			case (int)35: {
-HXLINE( 581)				return 51;
+HXLINE( 143)				return 51;
             			}
             			break;
             			case (int)36: {
-HXLINE( 582)				return 52;
+HXLINE( 144)				return 52;
             			}
             			break;
             			case (int)37: {
-HXLINE( 583)				return 53;
+HXLINE( 145)				return 53;
             			}
             			break;
             			case (int)38: {
-HXLINE( 584)				return 55;
+HXLINE( 146)				return 55;
             			}
             			break;
             			case (int)39: {
-HXLINE( 585)				return 222;
+HXLINE( 147)				return 222;
             			}
             			break;
             			case (int)40: {
-HXLINE( 586)				return 57;
+HXLINE( 148)				return 57;
             			}
             			break;
             			case (int)41: {
-HXLINE( 587)				return 48;
+HXLINE( 149)				return 48;
             			}
             			break;
             			case (int)42: {
-HXLINE( 588)				return 56;
+HXLINE( 150)				return 56;
             			}
             			break;
             			case (int)44: {
-HXLINE( 590)				return 188;
+HXLINE( 152)				return 188;
             			}
             			break;
             			case (int)45: {
-HXLINE( 591)				return 189;
+HXLINE( 153)				return 189;
             			}
             			break;
             			case (int)46: {
-HXLINE( 592)				return 190;
+HXLINE( 154)				return 190;
             			}
             			break;
             			case (int)47: {
-HXLINE( 593)				return 191;
+HXLINE( 155)				return 191;
             			}
             			break;
             			case (int)48: {
-HXLINE( 594)				return 48;
+HXLINE( 156)				return 48;
             			}
             			break;
             			case (int)49: {
-HXLINE( 595)				return 49;
+HXLINE( 157)				return 49;
             			}
             			break;
             			case (int)50: {
-HXLINE( 596)				return 50;
+HXLINE( 158)				return 50;
             			}
             			break;
             			case (int)51: {
-HXLINE( 597)				return 51;
+HXLINE( 159)				return 51;
             			}
             			break;
             			case (int)52: {
-HXLINE( 598)				return 52;
+HXLINE( 160)				return 52;
             			}
             			break;
             			case (int)53: {
-HXLINE( 599)				return 53;
+HXLINE( 161)				return 53;
             			}
             			break;
             			case (int)54: {
-HXLINE( 600)				return 54;
+HXLINE( 162)				return 54;
             			}
             			break;
             			case (int)55: {
-HXLINE( 601)				return 55;
+HXLINE( 163)				return 55;
             			}
             			break;
             			case (int)56: {
-HXLINE( 602)				return 56;
+HXLINE( 164)				return 56;
             			}
             			break;
             			case (int)57: {
-HXLINE( 603)				return 57;
+HXLINE( 165)				return 57;
             			}
             			break;
             			case (int)58: {
-HXLINE( 604)				return 186;
+HXLINE( 166)				return 186;
             			}
             			break;
             			case (int)59: {
-HXLINE( 605)				return 186;
+HXLINE( 167)				return 186;
             			}
             			break;
             			case (int)60: {
-HXLINE( 606)				return 60;
+HXLINE( 168)				return 60;
             			}
             			break;
             			case (int)61: {
-HXLINE( 607)				return 187;
+HXLINE( 169)				return 187;
             			}
             			break;
             			case (int)62: {
-HXLINE( 608)				return 190;
+HXLINE( 170)				return 190;
             			}
             			break;
             			case (int)63: {
-HXLINE( 609)				return 191;
+HXLINE( 171)				return 191;
             			}
             			break;
             			case (int)64: {
-HXLINE( 610)				return 50;
+HXLINE( 172)				return 50;
             			}
             			break;
             			case (int)91: {
-HXLINE( 611)				return 219;
+HXLINE( 173)				return 219;
             			}
             			break;
             			case (int)92: {
-HXLINE( 612)				return 220;
+HXLINE( 174)				return 220;
             			}
             			break;
             			case (int)93: {
-HXLINE( 613)				return 221;
+HXLINE( 175)				return 221;
             			}
             			break;
             			case (int)94: {
-HXLINE( 614)				return 54;
+HXLINE( 176)				return 54;
             			}
             			break;
             			case (int)95: {
-HXLINE( 615)				return 189;
+HXLINE( 177)				return 189;
             			}
             			break;
             			case (int)96: {
-HXLINE( 616)				return 192;
+HXLINE( 178)				return 192;
             			}
             			break;
             			case (int)97: {
-HXLINE( 617)				return 65;
+HXLINE( 179)				return 65;
             			}
             			break;
             			case (int)98: {
-HXLINE( 618)				return 66;
+HXLINE( 180)				return 66;
             			}
             			break;
             			case (int)99: {
-HXLINE( 619)				return 67;
+HXLINE( 181)				return 67;
             			}
             			break;
             			case (int)100: {
-HXLINE( 620)				return 68;
+HXLINE( 182)				return 68;
             			}
             			break;
             			case (int)101: {
-HXLINE( 621)				return 69;
+HXLINE( 183)				return 69;
             			}
             			break;
             			case (int)102: {
-HXLINE( 622)				return 70;
+HXLINE( 184)				return 70;
             			}
             			break;
             			case (int)103: {
-HXLINE( 623)				return 71;
+HXLINE( 185)				return 71;
             			}
             			break;
             			case (int)104: {
-HXLINE( 624)				return 72;
+HXLINE( 186)				return 72;
             			}
             			break;
             			case (int)105: {
-HXLINE( 625)				return 73;
+HXLINE( 187)				return 73;
             			}
             			break;
             			case (int)106: {
-HXLINE( 626)				return 74;
+HXLINE( 188)				return 74;
             			}
             			break;
             			case (int)107: {
-HXLINE( 627)				return 75;
+HXLINE( 189)				return 75;
             			}
             			break;
             			case (int)108: {
-HXLINE( 628)				return 76;
+HXLINE( 190)				return 76;
             			}
             			break;
             			case (int)109: {
-HXLINE( 629)				return 77;
+HXLINE( 191)				return 77;
             			}
             			break;
             			case (int)110: {
-HXLINE( 630)				return 78;
+HXLINE( 192)				return 78;
             			}
             			break;
             			case (int)111: {
-HXLINE( 631)				return 79;
+HXLINE( 193)				return 79;
             			}
             			break;
             			case (int)112: {
-HXLINE( 632)				return 80;
+HXLINE( 194)				return 80;
             			}
             			break;
             			case (int)113: {
-HXLINE( 633)				return 81;
+HXLINE( 195)				return 81;
             			}
             			break;
             			case (int)114: {
-HXLINE( 634)				return 82;
+HXLINE( 196)				return 82;
             			}
             			break;
             			case (int)115: {
-HXLINE( 635)				return 83;
+HXLINE( 197)				return 83;
             			}
             			break;
             			case (int)116: {
-HXLINE( 636)				return 84;
+HXLINE( 198)				return 84;
             			}
             			break;
             			case (int)117: {
-HXLINE( 637)				return 85;
+HXLINE( 199)				return 85;
             			}
             			break;
             			case (int)118: {
-HXLINE( 638)				return 86;
+HXLINE( 200)				return 86;
             			}
             			break;
             			case (int)119: {
-HXLINE( 639)				return 87;
+HXLINE( 201)				return 87;
             			}
             			break;
             			case (int)120: {
-HXLINE( 640)				return 88;
+HXLINE( 202)				return 88;
             			}
             			break;
             			case (int)121: {
-HXLINE( 641)				return 89;
+HXLINE( 203)				return 89;
             			}
             			break;
             			case (int)122: {
-HXLINE( 642)				return 90;
+HXLINE( 204)				return 90;
             			}
             			break;
             			case (int)127: {
-HXLINE( 643)				return 46;
+HXLINE( 205)				return 46;
             			}
             			break;
             			case (int)1073741881: {
-HXLINE( 644)				return 20;
+HXLINE( 206)				return 20;
             			}
             			break;
             			case (int)1073741882: {
-HXLINE( 645)				return 112;
+HXLINE( 207)				return 112;
             			}
             			break;
             			case (int)1073741883: {
-HXLINE( 646)				return 113;
+HXLINE( 208)				return 113;
             			}
             			break;
             			case (int)1073741884: {
-HXLINE( 647)				return 114;
+HXLINE( 209)				return 114;
             			}
             			break;
             			case (int)1073741885: {
-HXLINE( 648)				return 115;
+HXLINE( 210)				return 115;
             			}
             			break;
             			case (int)1073741886: {
-HXLINE( 649)				return 116;
+HXLINE( 211)				return 116;
             			}
             			break;
             			case (int)1073741887: {
-HXLINE( 650)				return 117;
+HXLINE( 212)				return 117;
             			}
             			break;
             			case (int)1073741888: {
-HXLINE( 651)				return 118;
+HXLINE( 213)				return 118;
             			}
             			break;
             			case (int)1073741889: {
-HXLINE( 652)				return 119;
+HXLINE( 214)				return 119;
             			}
             			break;
             			case (int)1073741890: {
-HXLINE( 653)				return 120;
+HXLINE( 215)				return 120;
             			}
             			break;
             			case (int)1073741891: {
-HXLINE( 654)				return 121;
+HXLINE( 216)				return 121;
             			}
             			break;
             			case (int)1073741892: {
-HXLINE( 655)				return 122;
+HXLINE( 217)				return 122;
             			}
             			break;
             			case (int)1073741893: {
-HXLINE( 656)				return 123;
+HXLINE( 218)				return 123;
             			}
             			break;
             			case (int)1073741894: {
-HXLINE( 657)				return 301;
+HXLINE( 219)				return 301;
             			}
             			break;
             			case (int)1073741895: {
-HXLINE( 658)				return 145;
+HXLINE( 220)				return 145;
             			}
             			break;
             			case (int)1073741896: {
-HXLINE( 659)				return 19;
+HXLINE( 221)				return 19;
             			}
             			break;
             			case (int)1073741897: {
-HXLINE( 660)				return 45;
+HXLINE( 222)				return 45;
             			}
             			break;
             			case (int)1073741898: {
-HXLINE( 661)				return 36;
+HXLINE( 223)				return 36;
             			}
             			break;
             			case (int)1073741899: {
-HXLINE( 662)				return 33;
+HXLINE( 224)				return 33;
             			}
             			break;
             			case (int)1073741901: {
-HXLINE( 663)				return 35;
+HXLINE( 225)				return 35;
             			}
             			break;
             			case (int)1073741902: {
-HXLINE( 664)				return 34;
+HXLINE( 226)				return 34;
             			}
             			break;
             			case (int)1073741903: {
-HXLINE( 665)				return 39;
+HXLINE( 227)				return 39;
             			}
             			break;
             			case (int)1073741904: {
-HXLINE( 666)				return 37;
+HXLINE( 228)				return 37;
             			}
             			break;
             			case (int)1073741905: {
-HXLINE( 667)				return 40;
+HXLINE( 229)				return 40;
             			}
             			break;
             			case (int)1073741906: {
-HXLINE( 668)				return 38;
+HXLINE( 230)				return 38;
             			}
             			break;
             			case (int)1073741907: {
-HXLINE( 669)				return 144;
+HXLINE( 231)				return 144;
             			}
             			break;
             			case (int)1073741908: {
-HXLINE( 670)				return 111;
+HXLINE( 232)				return 111;
             			}
             			break;
             			case (int)1073741909: {
-HXLINE( 671)				return 106;
+HXLINE( 233)				return 106;
             			}
             			break;
             			case (int)1073741910: {
-HXLINE( 672)				return 109;
+HXLINE( 234)				return 109;
             			}
             			break;
             			case (int)1073741911: {
-HXLINE( 673)				return 107;
+HXLINE( 235)				return 107;
             			}
             			break;
             			case (int)1073741912: {
-HXLINE( 674)				return 13;
+HXLINE( 236)				return 13;
             			}
             			break;
             			case (int)1073741913: {
-HXLINE( 675)				return 97;
+HXLINE( 237)				return 97;
             			}
             			break;
             			case (int)1073741914: {
-HXLINE( 676)				return 98;
+HXLINE( 238)				return 98;
             			}
             			break;
             			case (int)1073741915: {
-HXLINE( 677)				return 99;
+HXLINE( 239)				return 99;
             			}
             			break;
             			case (int)1073741916: {
-HXLINE( 678)				return 100;
+HXLINE( 240)				return 100;
             			}
             			break;
             			case (int)1073741917: {
-HXLINE( 679)				return 101;
+HXLINE( 241)				return 101;
             			}
             			break;
             			case (int)1073741918: {
-HXLINE( 680)				return 102;
+HXLINE( 242)				return 102;
             			}
             			break;
             			case (int)1073741919: {
-HXLINE( 681)				return 103;
+HXLINE( 243)				return 103;
             			}
             			break;
             			case (int)1073741920: {
-HXLINE( 682)				return 104;
+HXLINE( 244)				return 104;
             			}
             			break;
             			case (int)1073741921: {
-HXLINE( 683)				return 105;
+HXLINE( 245)				return 105;
             			}
             			break;
             			case (int)1073741922: {
-HXLINE( 684)				return 96;
+HXLINE( 246)				return 96;
             			}
             			break;
             			case (int)1073741923: {
-HXLINE( 685)				return 110;
+HXLINE( 247)				return 110;
             			}
             			break;
             			case (int)1073741925: {
-HXLINE( 686)				return 302;
+HXLINE( 248)				return 302;
             			}
             			break;
             			case (int)1073741928: {
-HXLINE( 689)				return 124;
+HXLINE( 251)				return 124;
             			}
             			break;
             			case (int)1073741929: {
-HXLINE( 690)				return 125;
+HXLINE( 252)				return 125;
             			}
             			break;
             			case (int)1073741930: {
-HXLINE( 691)				return 126;
+HXLINE( 253)				return 126;
             			}
             			break;
             			case (int)1073741982: {
-HXLINE( 722)				return 13;
+HXLINE( 284)				return 13;
             			}
             			break;
             			case (int)1073742044: {
-HXLINE( 773)				return 110;
+HXLINE( 335)				return 110;
             			}
             			break;
             			case (int)1073742048: {
-HXLINE( 775)				return 17;
+HXLINE( 337)				return 17;
             			}
             			break;
             			case (int)1073742049: {
-HXLINE( 776)				return 16;
+HXLINE( 338)				return 16;
             			}
             			break;
             			case (int)1073742050: {
-HXLINE( 777)				return 18;
+HXLINE( 339)				return 18;
             			}
             			break;
             			case (int)1073742051: {
-HXLINE( 778)				return 15;
+HXLINE( 340)				return 15;
             			}
             			break;
             			case (int)1073742052: {
-HXLINE( 779)				return 17;
+HXLINE( 341)				return 17;
             			}
             			break;
             			case (int)1073742053: {
-HXLINE( 780)				return 16;
+HXLINE( 342)				return 16;
             			}
             			break;
             			case (int)1073742054: {
-HXLINE( 781)				return 18;
+HXLINE( 343)				return 18;
             			}
             			break;
             			case (int)1073742055: {
-HXLINE( 782)				return 15;
+HXLINE( 344)				return 15;
             			}
             			break;
             			default:{
-HXLINE( 809)				return key;
+HXLINE( 371)				return key;
             			}
             		}
-HXLINE( 572)		return 0;
+HXLINE( 134)		return 0;
             	}
 
 
@@ -860,263 +860,263 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC1(Keyboard_obj,_hx___convertKeyCode,return )
 
 int Keyboard_obj::_hx___getCharCode(int key,::hx::Null< bool >  __o_shift){
             		bool shift = __o_shift.Default(false);
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_815___getCharCode)
-HXLINE( 816)		if (!(shift)) {
-HXLINE( 818)			switch((int)(key)){
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_377___getCharCode)
+HXLINE( 378)		if (!(shift)) {
+HXLINE( 380)			switch((int)(key)){
             				case (int)8: {
-HXLINE( 821)					return 8;
+HXLINE( 383)					return 8;
             				}
             				break;
             				case (int)9: {
-HXLINE( 823)					return 9;
+HXLINE( 385)					return 9;
             				}
             				break;
             				case (int)13: {
-HXLINE( 825)					return 13;
+HXLINE( 387)					return 13;
             				}
             				break;
             				case (int)27: {
-HXLINE( 827)					return 27;
+HXLINE( 389)					return 27;
             				}
             				break;
             				case (int)32: {
-HXLINE( 829)					return 32;
+HXLINE( 391)					return 32;
             				}
             				break;
             				case (int)186: {
-HXLINE( 831)					return 59;
+HXLINE( 393)					return 59;
             				}
             				break;
             				case (int)187: {
-HXLINE( 833)					return 61;
+HXLINE( 395)					return 61;
             				}
             				break;
             				case (int)188: {
-HXLINE( 835)					return 44;
+HXLINE( 397)					return 44;
             				}
             				break;
             				case (int)189: {
-HXLINE( 837)					return 45;
+HXLINE( 399)					return 45;
             				}
             				break;
             				case (int)190: {
-HXLINE( 839)					return 46;
+HXLINE( 401)					return 46;
             				}
             				break;
             				case (int)191: {
-HXLINE( 841)					return 47;
+HXLINE( 403)					return 47;
             				}
             				break;
             				case (int)192: {
-HXLINE( 843)					return 96;
+HXLINE( 405)					return 96;
             				}
             				break;
             				case (int)219: {
-HXLINE( 845)					return 91;
+HXLINE( 407)					return 91;
             				}
             				break;
             				case (int)220: {
-HXLINE( 847)					return 92;
+HXLINE( 409)					return 92;
             				}
             				break;
             				case (int)221: {
-HXLINE( 849)					return 93;
+HXLINE( 411)					return 93;
             				}
             				break;
             				case (int)222: {
-HXLINE( 851)					return 39;
+HXLINE( 413)					return 39;
             				}
             				break;
             			}
-HXLINE( 854)			bool _hx_tmp;
-HXDLIN( 854)			if ((key >= 48)) {
-HXLINE( 854)				_hx_tmp = (key <= 57);
+HXLINE( 416)			bool _hx_tmp;
+HXDLIN( 416)			if ((key >= 48)) {
+HXLINE( 416)				_hx_tmp = (key <= 57);
             			}
             			else {
-HXLINE( 854)				_hx_tmp = false;
+HXLINE( 416)				_hx_tmp = false;
             			}
-HXDLIN( 854)			if (_hx_tmp) {
-HXLINE( 856)				return ((key - 48) + 48);
+HXDLIN( 416)			if (_hx_tmp) {
+HXLINE( 418)				return ((key - 48) + 48);
             			}
-HXLINE( 859)			bool _hx_tmp1;
-HXDLIN( 859)			if ((key >= 65)) {
-HXLINE( 859)				_hx_tmp1 = (key <= 90);
+HXLINE( 421)			bool _hx_tmp1;
+HXDLIN( 421)			if ((key >= 65)) {
+HXLINE( 421)				_hx_tmp1 = (key <= 90);
             			}
             			else {
-HXLINE( 859)				_hx_tmp1 = false;
+HXLINE( 421)				_hx_tmp1 = false;
             			}
-HXDLIN( 859)			if (_hx_tmp1) {
-HXLINE( 861)				return ((key - 65) + 97);
+HXDLIN( 421)			if (_hx_tmp1) {
+HXLINE( 423)				return ((key - 65) + 97);
             			}
             		}
             		else {
-HXLINE( 866)			switch((int)(key)){
+HXLINE( 428)			switch((int)(key)){
             				case (int)48: {
-HXLINE( 869)					return 41;
+HXLINE( 431)					return 41;
             				}
             				break;
             				case (int)49: {
-HXLINE( 871)					return 33;
+HXLINE( 433)					return 33;
             				}
             				break;
             				case (int)50: {
-HXLINE( 873)					return 64;
+HXLINE( 435)					return 64;
             				}
             				break;
             				case (int)51: {
-HXLINE( 875)					return 35;
+HXLINE( 437)					return 35;
             				}
             				break;
             				case (int)52: {
-HXLINE( 877)					return 36;
+HXLINE( 439)					return 36;
             				}
             				break;
             				case (int)53: {
-HXLINE( 879)					return 37;
+HXLINE( 441)					return 37;
             				}
             				break;
             				case (int)54: {
-HXLINE( 881)					return 94;
+HXLINE( 443)					return 94;
             				}
             				break;
             				case (int)55: {
-HXLINE( 883)					return 38;
+HXLINE( 445)					return 38;
             				}
             				break;
             				case (int)56: {
-HXLINE( 885)					return 42;
+HXLINE( 447)					return 42;
             				}
             				break;
             				case (int)57: {
-HXLINE( 887)					return 40;
+HXLINE( 449)					return 40;
             				}
             				break;
             				case (int)186: {
-HXLINE( 889)					return 58;
+HXLINE( 451)					return 58;
             				}
             				break;
             				case (int)187: {
-HXLINE( 891)					return 43;
+HXLINE( 453)					return 43;
             				}
             				break;
             				case (int)188: {
-HXLINE( 893)					return 60;
+HXLINE( 455)					return 60;
             				}
             				break;
             				case (int)189: {
-HXLINE( 895)					return 95;
+HXLINE( 457)					return 95;
             				}
             				break;
             				case (int)190: {
-HXLINE( 897)					return 62;
+HXLINE( 459)					return 62;
             				}
             				break;
             				case (int)191: {
-HXLINE( 899)					return 63;
+HXLINE( 461)					return 63;
             				}
             				break;
             				case (int)192: {
-HXLINE( 901)					return 126;
+HXLINE( 463)					return 126;
             				}
             				break;
             				case (int)219: {
-HXLINE( 903)					return 123;
+HXLINE( 465)					return 123;
             				}
             				break;
             				case (int)220: {
-HXLINE( 905)					return 124;
+HXLINE( 467)					return 124;
             				}
             				break;
             				case (int)221: {
-HXLINE( 907)					return 125;
+HXLINE( 469)					return 125;
             				}
             				break;
             				case (int)222: {
-HXLINE( 909)					return 34;
+HXLINE( 471)					return 34;
             				}
             				break;
             			}
-HXLINE( 912)			bool _hx_tmp;
-HXDLIN( 912)			if ((key >= 65)) {
-HXLINE( 912)				_hx_tmp = (key <= 90);
+HXLINE( 474)			bool _hx_tmp;
+HXDLIN( 474)			if ((key >= 65)) {
+HXLINE( 474)				_hx_tmp = (key <= 90);
             			}
             			else {
-HXLINE( 912)				_hx_tmp = false;
+HXLINE( 474)				_hx_tmp = false;
             			}
-HXDLIN( 912)			if (_hx_tmp) {
-HXLINE( 914)				return ((key - 65) + 65);
+HXDLIN( 474)			if (_hx_tmp) {
+HXLINE( 476)				return ((key - 65) + 65);
             			}
             		}
-HXLINE( 918)		bool _hx_tmp;
-HXDLIN( 918)		if ((key >= 96)) {
-HXLINE( 918)			_hx_tmp = (key <= 105);
+HXLINE( 480)		bool _hx_tmp;
+HXDLIN( 480)		if ((key >= 96)) {
+HXLINE( 480)			_hx_tmp = (key <= 105);
             		}
             		else {
-HXLINE( 918)			_hx_tmp = false;
+HXLINE( 480)			_hx_tmp = false;
             		}
-HXDLIN( 918)		if (_hx_tmp) {
-HXLINE( 920)			return ((key - 96) + 48);
+HXDLIN( 480)		if (_hx_tmp) {
+HXLINE( 482)			return ((key - 96) + 48);
             		}
-HXLINE( 923)		switch((int)(key)){
+HXLINE( 485)		switch((int)(key)){
             			case (int)8: {
-HXLINE( 940)				return 8;
+HXLINE( 502)				return 8;
             			}
             			break;
             			case (int)13: {
-HXLINE( 938)				return 13;
+HXLINE( 500)				return 13;
             			}
             			break;
             			case (int)46: {
-HXLINE( 936)				return 127;
+HXLINE( 498)				return 127;
             			}
             			break;
             			case (int)106: {
-HXLINE( 926)				return 42;
+HXLINE( 488)				return 42;
             			}
             			break;
             			case (int)107: {
-HXLINE( 928)				return 43;
+HXLINE( 490)				return 43;
             			}
             			break;
             			case (int)108: {
-HXLINE( 930)				return 44;
+HXLINE( 492)				return 44;
             			}
             			break;
             			case (int)110: {
-HXLINE( 932)				return 45;
+HXLINE( 494)				return 45;
             			}
             			break;
             			case (int)111: {
-HXLINE( 934)				return 46;
+HXLINE( 496)				return 46;
             			}
             			break;
             		}
-HXLINE( 943)		return 0;
+HXLINE( 505)		return 0;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Keyboard_obj,_hx___getCharCode,return )
 
 int Keyboard_obj::_hx___getKeyLocation(int key){
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_949___getKeyLocation)
-HXDLIN( 949)		switch((int)(key)){
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_511___getKeyLocation)
+HXDLIN( 511)		switch((int)(key)){
             			case (int)1073741908: case (int)1073741909: case (int)1073741910: case (int)1073741911: case (int)1073741912: case (int)1073741913: case (int)1073741914: case (int)1073741915: case (int)1073741916: case (int)1073741917: case (int)1073741918: case (int)1073741919: case (int)1073741920: case (int)1073741921: case (int)1073741922: case (int)1073741923: case (int)1073742044: {
-HXLINE( 956)				return 3;
+HXLINE( 518)				return 3;
             			}
             			break;
             			case (int)1073742048: case (int)1073742049: case (int)1073742050: case (int)1073742051: {
-HXLINE( 951)				return 1;
+HXLINE( 513)				return 1;
             			}
             			break;
             			case (int)1073742052: case (int)1073742053: case (int)1073742054: case (int)1073742055: {
-HXLINE( 952)				return 2;
+HXLINE( 514)				return 2;
             			}
             			break;
             			default:{
-HXLINE( 957)				return 0;
+HXLINE( 519)				return 0;
             			}
             		}
-HXLINE( 949)		return null();
+HXLINE( 511)		return null();
             	}
 
 
@@ -1629,8 +1629,8 @@ void Keyboard_obj::__register()
 void Keyboard_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_19_boot)
-HXDLIN(  19)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_12_boot)
+HXDLIN(  12)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
             			->setFixed(0,HX_("statics",05,3c,65,36), ::Dynamic(::hx::Anon_obj::Create(2)
             				->setFixed(0,HX_("NUMLOCK",11,e9,32,30), ::Dynamic(::hx::Anon_obj::Create(1)
             					->setFixed(0,HX_("SuppressWarnings",0c,d3,d2,00),::cpp::VirtualArray_obj::__new(1)->init(0,HX_("checkstyle:FieldDocComment",70,56,1b,20)))))
@@ -1638,408 +1638,408 @@ HXDLIN(  19)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
             					->setFixed(0,HX_("SuppressWarnings",0c,d3,d2,00),::cpp::VirtualArray_obj::__new(1)->init(0,HX_("checkstyle:FieldDocComment",70,56,1b,20))))))));
             	}
 {
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_14_boot)
+HXDLIN(  14)		NUMBER_0 = 48;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_15_boot)
+HXDLIN(  15)		NUMBER_1 = 49;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_16_boot)
+HXDLIN(  16)		NUMBER_2 = 50;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_17_boot)
+HXDLIN(  17)		NUMBER_3 = 51;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_18_boot)
+HXDLIN(  18)		NUMBER_4 = 52;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_19_boot)
+HXDLIN(  19)		NUMBER_5 = 53;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_20_boot)
+HXDLIN(  20)		NUMBER_6 = 54;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_21_boot)
+HXDLIN(  21)		NUMBER_7 = 55;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_22_boot)
+HXDLIN(  22)		NUMBER_8 = 56;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_23_boot)
+HXDLIN(  23)		NUMBER_9 = 57;
+            	}
+{
             	HX_STACKFRAME(&_hx_pos_410ccb691917537a_24_boot)
-HXDLIN(  24)		NUMBER_0 = 48;
+HXDLIN(  24)		A = 65;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_25_boot)
+HXDLIN(  25)		B = 66;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_26_boot)
+HXDLIN(  26)		C = 67;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_27_boot)
+HXDLIN(  27)		D = 68;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_28_boot)
+HXDLIN(  28)		E = 69;
             	}
 {
             	HX_STACKFRAME(&_hx_pos_410ccb691917537a_29_boot)
-HXDLIN(  29)		NUMBER_1 = 49;
+HXDLIN(  29)		F = 70;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_30_boot)
+HXDLIN(  30)		G = 71;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_31_boot)
+HXDLIN(  31)		H = 72;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_32_boot)
+HXDLIN(  32)		I = 73;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_33_boot)
+HXDLIN(  33)		J = 74;
             	}
 {
             	HX_STACKFRAME(&_hx_pos_410ccb691917537a_34_boot)
-HXDLIN(  34)		NUMBER_2 = 50;
+HXDLIN(  34)		K = 75;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_35_boot)
+HXDLIN(  35)		L = 76;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_36_boot)
+HXDLIN(  36)		M = 77;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_37_boot)
+HXDLIN(  37)		N = 78;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_38_boot)
+HXDLIN(  38)		O = 79;
             	}
 {
             	HX_STACKFRAME(&_hx_pos_410ccb691917537a_39_boot)
-HXDLIN(  39)		NUMBER_3 = 51;
+HXDLIN(  39)		P = 80;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_40_boot)
+HXDLIN(  40)		Q = 81;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_41_boot)
+HXDLIN(  41)		R = 82;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_42_boot)
+HXDLIN(  42)		S = 83;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_43_boot)
+HXDLIN(  43)		T = 84;
             	}
 {
             	HX_STACKFRAME(&_hx_pos_410ccb691917537a_44_boot)
-HXDLIN(  44)		NUMBER_4 = 52;
+HXDLIN(  44)		U = 85;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_45_boot)
+HXDLIN(  45)		V = 86;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_46_boot)
+HXDLIN(  46)		W = 87;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_47_boot)
+HXDLIN(  47)		X = 88;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_48_boot)
+HXDLIN(  48)		Y = 89;
             	}
 {
             	HX_STACKFRAME(&_hx_pos_410ccb691917537a_49_boot)
-HXDLIN(  49)		NUMBER_5 = 53;
+HXDLIN(  49)		Z = 90;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_50_boot)
+HXDLIN(  50)		NUMPAD_0 = 96;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_51_boot)
+HXDLIN(  51)		NUMPAD_1 = 97;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_52_boot)
+HXDLIN(  52)		NUMPAD_2 = 98;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_53_boot)
+HXDLIN(  53)		NUMPAD_3 = 99;
             	}
 {
             	HX_STACKFRAME(&_hx_pos_410ccb691917537a_54_boot)
-HXDLIN(  54)		NUMBER_6 = 54;
+HXDLIN(  54)		NUMPAD_4 = 100;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_55_boot)
+HXDLIN(  55)		NUMPAD_5 = 101;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_56_boot)
+HXDLIN(  56)		NUMPAD_6 = 102;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_57_boot)
+HXDLIN(  57)		NUMPAD_7 = 103;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_58_boot)
+HXDLIN(  58)		NUMPAD_8 = 104;
             	}
 {
             	HX_STACKFRAME(&_hx_pos_410ccb691917537a_59_boot)
-HXDLIN(  59)		NUMBER_7 = 55;
+HXDLIN(  59)		NUMPAD_9 = 105;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_60_boot)
+HXDLIN(  60)		NUMPAD_MULTIPLY = 106;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_61_boot)
+HXDLIN(  61)		NUMPAD_ADD = 107;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_62_boot)
+HXDLIN(  62)		NUMPAD_ENTER = 108;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_63_boot)
+HXDLIN(  63)		NUMPAD_SUBTRACT = 109;
             	}
 {
             	HX_STACKFRAME(&_hx_pos_410ccb691917537a_64_boot)
-HXDLIN(  64)		NUMBER_8 = 56;
+HXDLIN(  64)		NUMPAD_DECIMAL = 110;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_65_boot)
+HXDLIN(  65)		NUMPAD_DIVIDE = 111;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_66_boot)
+HXDLIN(  66)		F1 = 112;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_67_boot)
+HXDLIN(  67)		F2 = 113;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_68_boot)
+HXDLIN(  68)		F3 = 114;
             	}
 {
             	HX_STACKFRAME(&_hx_pos_410ccb691917537a_69_boot)
-HXDLIN(  69)		NUMBER_9 = 57;
+HXDLIN(  69)		F4 = 115;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_70_boot)
+HXDLIN(  70)		F5 = 116;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_71_boot)
+HXDLIN(  71)		F6 = 117;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_72_boot)
+HXDLIN(  72)		F7 = 118;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_73_boot)
+HXDLIN(  73)		F8 = 119;
             	}
 {
             	HX_STACKFRAME(&_hx_pos_410ccb691917537a_74_boot)
-HXDLIN(  74)		A = 65;
+HXDLIN(  74)		F9 = 120;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_75_boot)
+HXDLIN(  75)		F10 = 121;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_76_boot)
+HXDLIN(  76)		F11 = 122;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_77_boot)
+HXDLIN(  77)		F12 = 123;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_78_boot)
+HXDLIN(  78)		F13 = 124;
             	}
 {
             	HX_STACKFRAME(&_hx_pos_410ccb691917537a_79_boot)
-HXDLIN(  79)		B = 66;
+HXDLIN(  79)		F14 = 125;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_80_boot)
+HXDLIN(  80)		F15 = 126;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_81_boot)
+HXDLIN(  81)		BACKSPACE = 8;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_82_boot)
+HXDLIN(  82)		TAB = 9;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_83_boot)
+HXDLIN(  83)		ALTERNATE = 18;
             	}
 {
             	HX_STACKFRAME(&_hx_pos_410ccb691917537a_84_boot)
-HXDLIN(  84)		C = 67;
+HXDLIN(  84)		ENTER = 13;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_89_boot)
-HXDLIN(  89)		D = 68;
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_85_boot)
+HXDLIN(  85)		COMMAND = 15;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_86_boot)
+HXDLIN(  86)		SHIFT = 16;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_87_boot)
+HXDLIN(  87)		CONTROL = 17;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_90_boot)
+HXDLIN(  90)		BREAK = 19;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_92_boot)
+HXDLIN(  92)		CAPS_LOCK = 20;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_93_boot)
+HXDLIN(  93)		NUMPAD = 21;
             	}
 {
             	HX_STACKFRAME(&_hx_pos_410ccb691917537a_94_boot)
-HXDLIN(  94)		E = 69;
+HXDLIN(  94)		ESCAPE = 27;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_95_boot)
+HXDLIN(  95)		SPACE = 32;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_96_boot)
+HXDLIN(  96)		PAGE_UP = 33;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_97_boot)
+HXDLIN(  97)		PAGE_DOWN = 34;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_98_boot)
+HXDLIN(  98)		END = 35;
             	}
 {
             	HX_STACKFRAME(&_hx_pos_410ccb691917537a_99_boot)
-HXDLIN(  99)		F = 70;
+HXDLIN(  99)		HOME = 36;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_100_boot)
+HXDLIN( 100)		LEFT = 37;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_101_boot)
+HXDLIN( 101)		RIGHT = 39;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_102_boot)
+HXDLIN( 102)		UP = 38;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_103_boot)
+HXDLIN( 103)		DOWN = 40;
             	}
 {
             	HX_STACKFRAME(&_hx_pos_410ccb691917537a_104_boot)
-HXDLIN( 104)		G = 71;
+HXDLIN( 104)		INSERT = 45;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_109_boot)
-HXDLIN( 109)		H = 72;
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_105_boot)
+HXDLIN( 105)		DELETE = 46;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_108_boot)
+HXDLIN( 108)		NUMLOCK = 144;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_110_boot)
+HXDLIN( 110)		SEMICOLON = 186;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_111_boot)
+HXDLIN( 111)		EQUAL = 187;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_112_boot)
+HXDLIN( 112)		COMMA = 188;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_113_boot)
+HXDLIN( 113)		MINUS = 189;
             	}
 {
             	HX_STACKFRAME(&_hx_pos_410ccb691917537a_114_boot)
-HXDLIN( 114)		I = 73;
+HXDLIN( 114)		PERIOD = 190;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_115_boot)
+HXDLIN( 115)		SLASH = 191;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_116_boot)
+HXDLIN( 116)		BACKQUOTE = 192;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_117_boot)
+HXDLIN( 117)		LEFTBRACKET = 219;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_118_boot)
+HXDLIN( 118)		BACKSLASH = 220;
             	}
 {
             	HX_STACKFRAME(&_hx_pos_410ccb691917537a_119_boot)
-HXDLIN( 119)		J = 74;
+HXDLIN( 119)		RIGHTBRACKET = 221;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_124_boot)
-HXDLIN( 124)		K = 75;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_129_boot)
-HXDLIN( 129)		L = 76;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_134_boot)
-HXDLIN( 134)		M = 77;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_139_boot)
-HXDLIN( 139)		N = 78;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_144_boot)
-HXDLIN( 144)		O = 79;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_149_boot)
-HXDLIN( 149)		P = 80;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_154_boot)
-HXDLIN( 154)		Q = 81;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_159_boot)
-HXDLIN( 159)		R = 82;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_164_boot)
-HXDLIN( 164)		S = 83;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_169_boot)
-HXDLIN( 169)		T = 84;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_174_boot)
-HXDLIN( 174)		U = 85;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_179_boot)
-HXDLIN( 179)		V = 86;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_184_boot)
-HXDLIN( 184)		W = 87;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_189_boot)
-HXDLIN( 189)		X = 88;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_194_boot)
-HXDLIN( 194)		Y = 89;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_199_boot)
-HXDLIN( 199)		Z = 90;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_205_boot)
-HXDLIN( 205)		NUMPAD_0 = 96;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_211_boot)
-HXDLIN( 211)		NUMPAD_1 = 97;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_217_boot)
-HXDLIN( 217)		NUMPAD_2 = 98;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_223_boot)
-HXDLIN( 223)		NUMPAD_3 = 99;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_229_boot)
-HXDLIN( 229)		NUMPAD_4 = 100;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_235_boot)
-HXDLIN( 235)		NUMPAD_5 = 101;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_241_boot)
-HXDLIN( 241)		NUMPAD_6 = 102;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_247_boot)
-HXDLIN( 247)		NUMPAD_7 = 103;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_253_boot)
-HXDLIN( 253)		NUMPAD_8 = 104;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_259_boot)
-HXDLIN( 259)		NUMPAD_9 = 105;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_265_boot)
-HXDLIN( 265)		NUMPAD_MULTIPLY = 106;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_271_boot)
-HXDLIN( 271)		NUMPAD_ADD = 107;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_277_boot)
-HXDLIN( 277)		NUMPAD_ENTER = 108;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_283_boot)
-HXDLIN( 283)		NUMPAD_SUBTRACT = 109;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_289_boot)
-HXDLIN( 289)		NUMPAD_DECIMAL = 110;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_295_boot)
-HXDLIN( 295)		NUMPAD_DIVIDE = 111;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_300_boot)
-HXDLIN( 300)		F1 = 112;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_305_boot)
-HXDLIN( 305)		F2 = 113;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_310_boot)
-HXDLIN( 310)		F3 = 114;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_315_boot)
-HXDLIN( 315)		F4 = 115;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_320_boot)
-HXDLIN( 320)		F5 = 116;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_325_boot)
-HXDLIN( 325)		F6 = 117;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_330_boot)
-HXDLIN( 330)		F7 = 118;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_335_boot)
-HXDLIN( 335)		F8 = 119;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_340_boot)
-HXDLIN( 340)		F9 = 120;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_345_boot)
-HXDLIN( 345)		F10 = 121;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_350_boot)
-HXDLIN( 350)		F11 = 122;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_355_boot)
-HXDLIN( 355)		F12 = 123;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_360_boot)
-HXDLIN( 360)		F13 = 124;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_365_boot)
-HXDLIN( 365)		F14 = 125;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_370_boot)
-HXDLIN( 370)		F15 = 126;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_375_boot)
-HXDLIN( 375)		BACKSPACE = 8;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_380_boot)
-HXDLIN( 380)		TAB = 9;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_386_boot)
-HXDLIN( 386)		ALTERNATE = 18;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_391_boot)
-HXDLIN( 391)		ENTER = 13;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_397_boot)
-HXDLIN( 397)		COMMAND = 15;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_402_boot)
-HXDLIN( 402)		SHIFT = 16;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_407_boot)
-HXDLIN( 407)		CONTROL = 17;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_410_boot)
-HXDLIN( 410)		BREAK = 19;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_415_boot)
-HXDLIN( 415)		CAPS_LOCK = 20;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_421_boot)
-HXDLIN( 421)		NUMPAD = 21;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_426_boot)
-HXDLIN( 426)		ESCAPE = 27;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_431_boot)
-HXDLIN( 431)		SPACE = 32;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_436_boot)
-HXDLIN( 436)		PAGE_UP = 33;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_441_boot)
-HXDLIN( 441)		PAGE_DOWN = 34;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_446_boot)
-HXDLIN( 446)		END = 35;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_451_boot)
-HXDLIN( 451)		HOME = 36;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_456_boot)
-HXDLIN( 456)		LEFT = 37;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_461_boot)
-HXDLIN( 461)		RIGHT = 39;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_466_boot)
-HXDLIN( 466)		UP = 38;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_471_boot)
-HXDLIN( 471)		DOWN = 40;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_476_boot)
-HXDLIN( 476)		INSERT = 45;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_481_boot)
-HXDLIN( 481)		DELETE = 46;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_484_boot)
-HXDLIN( 484)		NUMLOCK = 144;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_489_boot)
-HXDLIN( 489)		SEMICOLON = 186;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_494_boot)
-HXDLIN( 494)		EQUAL = 187;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_499_boot)
-HXDLIN( 499)		COMMA = 188;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_504_boot)
-HXDLIN( 504)		MINUS = 189;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_509_boot)
-HXDLIN( 509)		PERIOD = 190;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_514_boot)
-HXDLIN( 514)		SLASH = 191;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_519_boot)
-HXDLIN( 519)		BACKQUOTE = 192;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_524_boot)
-HXDLIN( 524)		LEFTBRACKET = 219;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_529_boot)
-HXDLIN( 529)		BACKSLASH = 220;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_534_boot)
-HXDLIN( 534)		RIGHTBRACKET = 221;
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_539_boot)
-HXDLIN( 539)		QUOTE = 222;
+            	HX_STACKFRAME(&_hx_pos_410ccb691917537a_120_boot)
+HXDLIN( 120)		QUOTE = 222;
             	}
 }
 

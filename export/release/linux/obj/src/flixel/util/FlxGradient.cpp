@@ -64,8 +64,8 @@ HX_LOCAL_STACK_FRAME(_hx_pos_5278df5c1114b3d6_25_createGradientMatrix,"flixel.ut
 HX_LOCAL_STACK_FRAME(_hx_pos_5278df5c1114b3d6_69_createGradientArray,"flixel.util.FlxGradient","createGradientArray",0xc5836dc7,"flixel.util.FlxGradient.createGradientArray","flixel/util/FlxGradient.hx",69,0x5a5037d6)
 HX_LOCAL_STACK_FRAME(_hx_pos_5278df5c1114b3d6_94_createGradientFlxSprite,"flixel.util.FlxGradient","createGradientFlxSprite",0xca14a545,"flixel.util.FlxGradient.createGradientFlxSprite","flixel/util/FlxGradient.hx",94,0x5a5037d6)
 HX_LOCAL_STACK_FRAME(_hx_pos_5278df5c1114b3d6_103_createGradientBitmapData,"flixel.util.FlxGradient","createGradientBitmapData",0xa3b74ecb,"flixel.util.FlxGradient.createGradientBitmapData","flixel/util/FlxGradient.hx",103,0x5a5037d6)
-HX_LOCAL_STACK_FRAME(_hx_pos_5278df5c1114b3d6_165_overlayGradientOnFlxSprite,"flixel.util.FlxGradient","overlayGradientOnFlxSprite",0xe400659e,"flixel.util.FlxGradient.overlayGradientOnFlxSprite","flixel/util/FlxGradient.hx",165,0x5a5037d6)
-HX_LOCAL_STACK_FRAME(_hx_pos_5278df5c1114b3d6_199_overlayGradientOnBitmapData,"flixel.util.FlxGradient","overlayGradientOnBitmapData",0x3813dc52,"flixel.util.FlxGradient.overlayGradientOnBitmapData","flixel/util/FlxGradient.hx",199,0x5a5037d6)
+HX_LOCAL_STACK_FRAME(_hx_pos_5278df5c1114b3d6_162_overlayGradientOnFlxSprite,"flixel.util.FlxGradient","overlayGradientOnFlxSprite",0xe400659e,"flixel.util.FlxGradient.overlayGradientOnFlxSprite","flixel/util/FlxGradient.hx",162,0x5a5037d6)
+HX_LOCAL_STACK_FRAME(_hx_pos_5278df5c1114b3d6_196_overlayGradientOnBitmapData,"flixel.util.FlxGradient","overlayGradientOnBitmapData",0x3813dc52,"flixel.util.FlxGradient.overlayGradientOnBitmapData","flixel/util/FlxGradient.hx",196,0x5a5037d6)
 namespace flixel{
 namespace util{
 
@@ -221,71 +221,71 @@ HXLINE( 117)			interpolationMethod = 1;
             		else {
 HXLINE( 117)			interpolationMethod = 0;
             		}
-HXLINE( 122)		shape->get_graphics()->beginGradientFill(0,colors,( (::Array< Float >)(gradient->__Field(HX_("alpha",5e,a7,96,21),::hx::paccDynamic)) ),( (::Array< int >)(gradient->__Field(HX_("ratio",0b,35,24,e4),::hx::paccDynamic)) ),( ( ::openfl::geom::Matrix)(gradient->__Field(HX_("matrix",41,36,c8,bb),::hx::paccDynamic)) ),0,interpolationMethod,0);
-HXLINE( 125)		 ::openfl::display::Graphics _hx_tmp2 = shape->get_graphics();
-HXDLIN( 125)		int _hx_int = width;
-HXDLIN( 125)		Float _hx_tmp3;
-HXDLIN( 125)		if ((_hx_int < 0)) {
-HXLINE( 125)			_hx_tmp3 = (((Float)4294967296.0) + _hx_int);
+HXLINE( 119)		shape->get_graphics()->beginGradientFill(0,colors,( (::Array< Float >)(gradient->__Field(HX_("alpha",5e,a7,96,21),::hx::paccDynamic)) ),( (::Array< int >)(gradient->__Field(HX_("ratio",0b,35,24,e4),::hx::paccDynamic)) ),( ( ::openfl::geom::Matrix)(gradient->__Field(HX_("matrix",41,36,c8,bb),::hx::paccDynamic)) ),0,interpolationMethod,0);
+HXLINE( 122)		 ::openfl::display::Graphics _hx_tmp2 = shape->get_graphics();
+HXDLIN( 122)		int _hx_int = width;
+HXDLIN( 122)		Float _hx_tmp3;
+HXDLIN( 122)		if ((_hx_int < 0)) {
+HXLINE( 122)			_hx_tmp3 = (((Float)4294967296.0) + _hx_int);
             		}
             		else {
-HXLINE( 125)			_hx_tmp3 = (_hx_int + ((Float)0.0));
+HXLINE( 122)			_hx_tmp3 = (_hx_int + ((Float)0.0));
             		}
-HXDLIN( 125)		int int1 = height;
-HXDLIN( 125)		Float _hx_tmp4;
-HXDLIN( 125)		if ((int1 < 0)) {
-HXLINE( 125)			_hx_tmp4 = (((Float)4294967296.0) + int1);
-            		}
-            		else {
-HXLINE( 125)			_hx_tmp4 = (int1 + ((Float)0.0));
-            		}
-HXDLIN( 125)		int int2 = chunkSize;
-HXDLIN( 125)		Float _hx_tmp5;
-HXDLIN( 125)		if ((int2 < 0)) {
-HXLINE( 125)			_hx_tmp5 = (((Float)4294967296.0) + int2);
+HXDLIN( 122)		int int1 = height;
+HXDLIN( 122)		Float _hx_tmp4;
+HXDLIN( 122)		if ((int1 < 0)) {
+HXLINE( 122)			_hx_tmp4 = (((Float)4294967296.0) + int1);
             		}
             		else {
-HXLINE( 125)			_hx_tmp5 = (int2 + ((Float)0.0));
+HXLINE( 122)			_hx_tmp4 = (int1 + ((Float)0.0));
             		}
-HXDLIN( 125)		_hx_tmp2->drawRect(( (Float)(0) ),( (Float)(0) ),_hx_tmp3,(_hx_tmp4 / _hx_tmp5));
-HXLINE( 127)		 ::openfl::display::BitmapData data =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,width,height,true,0);
-HXLINE( 129)		if ((chunkSize == 1)) {
-HXLINE( 131)			data->draw(shape,null(),null(),null(),null(),null());
+HXDLIN( 122)		int int2 = chunkSize;
+HXDLIN( 122)		Float _hx_tmp5;
+HXDLIN( 122)		if ((int2 < 0)) {
+HXLINE( 122)			_hx_tmp5 = (((Float)4294967296.0) + int2);
             		}
             		else {
-HXLINE( 135)			int _hx_int = height;
-HXDLIN( 135)			Float tempBitmap;
-HXDLIN( 135)			if ((_hx_int < 0)) {
-HXLINE( 135)				tempBitmap = (((Float)4294967296.0) + _hx_int);
+HXLINE( 122)			_hx_tmp5 = (int2 + ((Float)0.0));
+            		}
+HXDLIN( 122)		_hx_tmp2->drawRect(( (Float)(0) ),( (Float)(0) ),_hx_tmp3,(_hx_tmp4 / _hx_tmp5));
+HXLINE( 124)		 ::openfl::display::BitmapData data =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,width,height,true,0);
+HXLINE( 126)		if ((chunkSize == 1)) {
+HXLINE( 128)			data->draw(shape,null(),null(),null(),null(),null());
+            		}
+            		else {
+HXLINE( 132)			int _hx_int = height;
+HXDLIN( 132)			Float tempBitmap;
+HXDLIN( 132)			if ((_hx_int < 0)) {
+HXLINE( 132)				tempBitmap = (((Float)4294967296.0) + _hx_int);
             			}
             			else {
-HXLINE( 135)				tempBitmap = (_hx_int + ((Float)0.0));
+HXLINE( 132)				tempBitmap = (_hx_int + ((Float)0.0));
             			}
-HXDLIN( 135)			int int1 = chunkSize;
-HXDLIN( 135)			Float tempBitmap1;
-HXDLIN( 135)			if ((int1 < 0)) {
-HXLINE( 135)				tempBitmap1 = (((Float)4294967296.0) + int1);
-            			}
-            			else {
-HXLINE( 135)				tempBitmap1 = (int1 + ((Float)0.0));
-            			}
-HXDLIN( 135)			 ::openfl::display::Bitmap tempBitmap2 =  ::openfl::display::Bitmap_obj::__alloc( HX_CTX , ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,width,::Std_obj::_hx_int((tempBitmap / tempBitmap1)),true,0),null(),null());
-HXLINE( 136)			tempBitmap2->get_bitmapData()->draw(shape,null(),null(),null(),null(),null());
-HXLINE( 137)			int int2 = chunkSize;
-HXDLIN( 137)			Float _hx_tmp;
-HXDLIN( 137)			if ((int2 < 0)) {
-HXLINE( 137)				_hx_tmp = (((Float)4294967296.0) + int2);
+HXDLIN( 132)			int int1 = chunkSize;
+HXDLIN( 132)			Float tempBitmap1;
+HXDLIN( 132)			if ((int1 < 0)) {
+HXLINE( 132)				tempBitmap1 = (((Float)4294967296.0) + int1);
             			}
             			else {
-HXLINE( 137)				_hx_tmp = (int2 + ((Float)0.0));
+HXLINE( 132)				tempBitmap1 = (int1 + ((Float)0.0));
             			}
-HXDLIN( 137)			tempBitmap2->set_scaleY(_hx_tmp);
-HXLINE( 139)			 ::openfl::geom::Matrix sM =  ::openfl::geom::Matrix_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-HXLINE( 140)			Float _hx_tmp1 = tempBitmap2->get_scaleX();
-HXDLIN( 140)			sM->scale(_hx_tmp1,tempBitmap2->get_scaleY());
-HXLINE( 142)			data->draw(tempBitmap2,sM,null(),null(),null(),null());
+HXDLIN( 132)			 ::openfl::display::Bitmap tempBitmap2 =  ::openfl::display::Bitmap_obj::__alloc( HX_CTX , ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,width,::Std_obj::_hx_int((tempBitmap / tempBitmap1)),true,0),null(),null());
+HXLINE( 133)			tempBitmap2->get_bitmapData()->draw(shape,null(),null(),null(),null(),null());
+HXLINE( 134)			int int2 = chunkSize;
+HXDLIN( 134)			Float _hx_tmp;
+HXDLIN( 134)			if ((int2 < 0)) {
+HXLINE( 134)				_hx_tmp = (((Float)4294967296.0) + int2);
+            			}
+            			else {
+HXLINE( 134)				_hx_tmp = (int2 + ((Float)0.0));
+            			}
+HXDLIN( 134)			tempBitmap2->set_scaleY(_hx_tmp);
+HXLINE( 136)			 ::openfl::geom::Matrix sM =  ::openfl::geom::Matrix_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE( 137)			Float _hx_tmp1 = tempBitmap2->get_scaleX();
+HXDLIN( 137)			sM->scale(_hx_tmp1,tempBitmap2->get_scaleY());
+HXLINE( 139)			data->draw(tempBitmap2,sM,null(),null(),null(),null());
             		}
-HXLINE( 145)		return data;
+HXLINE( 142)		return data;
             	}
 
 
@@ -297,17 +297,17 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC6(FlxGradient_obj,createGradientBitmapData,return )
             		int chunkSize = __o_chunkSize.Default(1);
             		int rotation = __o_rotation.Default(90);
             		bool interpolate = __o_interpolate.Default(true);
-            	HX_STACKFRAME(&_hx_pos_5278df5c1114b3d6_165_overlayGradientOnFlxSprite)
-HXLINE( 166)		if ((width > dest->get_width())) {
-HXLINE( 168)			width = ::Std_obj::_hx_int(dest->get_width());
+            	HX_STACKFRAME(&_hx_pos_5278df5c1114b3d6_162_overlayGradientOnFlxSprite)
+HXLINE( 163)		if ((width > dest->get_width())) {
+HXLINE( 165)			width = ::Std_obj::_hx_int(dest->get_width());
             		}
-HXLINE( 171)		if ((height > dest->get_height())) {
-HXLINE( 173)			height = ::Std_obj::_hx_int(dest->get_height());
+HXLINE( 168)		if ((height > dest->get_height())) {
+HXLINE( 170)			height = ::Std_obj::_hx_int(dest->get_height());
             		}
-HXLINE( 176)		 ::flixel::FlxSprite source = ::flixel::util::FlxGradient_obj::createGradientFlxSprite(width,height,colors,chunkSize,rotation,interpolate);
-HXLINE( 177)		dest->stamp(source,destX,destY);
-HXLINE( 178)		source->destroy();
-HXLINE( 179)		return dest;
+HXLINE( 173)		 ::flixel::FlxSprite source = ::flixel::util::FlxGradient_obj::createGradientFlxSprite(width,height,colors,chunkSize,rotation,interpolate);
+HXLINE( 174)		dest->stamp(source,destX,destY);
+HXLINE( 175)		source->destroy();
+HXLINE( 176)		return dest;
             	}
 
 
@@ -319,18 +319,18 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC9(FlxGradient_obj,overlayGradientOnFlxSprite,return
             		int chunkSize = __o_chunkSize.Default(1);
             		int rotation = __o_rotation.Default(90);
             		bool interpolate = __o_interpolate.Default(true);
-            	HX_GC_STACKFRAME(&_hx_pos_5278df5c1114b3d6_199_overlayGradientOnBitmapData)
-HXLINE( 200)		if ((width > dest->width)) {
-HXLINE( 202)			width = dest->width;
+            	HX_GC_STACKFRAME(&_hx_pos_5278df5c1114b3d6_196_overlayGradientOnBitmapData)
+HXLINE( 197)		if ((width > dest->width)) {
+HXLINE( 199)			width = dest->width;
             		}
-HXLINE( 205)		if ((height > dest->height)) {
-HXLINE( 207)			height = dest->height;
+HXLINE( 202)		if ((height > dest->height)) {
+HXLINE( 204)			height = dest->height;
             		}
-HXLINE( 210)		 ::openfl::display::BitmapData source = ::flixel::util::FlxGradient_obj::createGradientBitmapData(width,height,colors,chunkSize,rotation,interpolate);
-HXLINE( 211)		 ::openfl::geom::Rectangle _hx_tmp =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,0,0,source->width,source->height);
-HXDLIN( 211)		dest->copyPixels(source,_hx_tmp, ::openfl::geom::Point_obj::__alloc( HX_CTX ,destX,destY),null(),null(),true);
-HXLINE( 212)		source->dispose();
-HXLINE( 213)		return dest;
+HXLINE( 207)		 ::openfl::display::BitmapData source = ::flixel::util::FlxGradient_obj::createGradientBitmapData(width,height,colors,chunkSize,rotation,interpolate);
+HXLINE( 208)		 ::openfl::geom::Rectangle _hx_tmp =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,0,0,source->width,source->height);
+HXDLIN( 208)		dest->copyPixels(source,_hx_tmp, ::openfl::geom::Point_obj::__alloc( HX_CTX ,destX,destY),null(),null(),true);
+HXLINE( 209)		source->dispose();
+HXLINE( 210)		return dest;
             	}
 
 

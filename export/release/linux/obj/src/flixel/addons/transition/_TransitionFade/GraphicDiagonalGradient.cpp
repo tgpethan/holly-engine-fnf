@@ -32,8 +32,8 @@
 #include <openfl/utils/_ByteArray/ByteArray_Impl_.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_fbc9ba3aeda490f1_47_new,"flixel.addons.transition._TransitionFade.GraphicDiagonalGradient","new",0x12576751,"flixel.addons.transition._TransitionFade.GraphicDiagonalGradient.new","openfl/utils/_internal/AssetsMacro.hx",47,0xfdd54705)
-HX_LOCAL_STACK_FRAME(_hx_pos_6b0a2037e268ad27_17_boot,"flixel.addons.transition._TransitionFade.GraphicDiagonalGradient","boot",0xf23c0021,"flixel.addons.transition._TransitionFade.GraphicDiagonalGradient.boot","flixel/addons/transition/TransitionFade.hx",17,0x307a6abc)
+HX_DEFINE_STACK_FRAME(_hx_pos_90f8b067d667e9dd_47_new,"flixel.addons.transition._TransitionFade.GraphicDiagonalGradient","new",0x12576751,"flixel.addons.transition._TransitionFade.GraphicDiagonalGradient.new","openfl/_internal/macros/AssetsMacro.hx",47,0xf7db08ab)
+HX_LOCAL_STACK_FRAME(_hx_pos_6b0a2037e268ad27_16_boot,"flixel.addons.transition._TransitionFade.GraphicDiagonalGradient","boot",0xf23c0021,"flixel.addons.transition._TransitionFade.GraphicDiagonalGradient.boot","flixel/addons/transition/TransitionFade.hx",16,0x307a6abc)
 namespace flixel{
 namespace addons{
 namespace transition{
@@ -44,7 +44,7 @@ void GraphicDiagonalGradient_obj::__construct(int width,int height, ::Dynamic __
             		if (::hx::IsNull(__o_transparent)) transparent = true;
             		 ::Dynamic fillRGBA = __o_fillRGBA;
             		if (::hx::IsNull(__o_fillRGBA)) fillRGBA = -1;
-            	HX_STACKFRAME(&_hx_pos_fbc9ba3aeda490f1_47_new)
+            	HX_STACKFRAME(&_hx_pos_90f8b067d667e9dd_47_new)
 HXLINE(  71)		super::__construct(0,0,transparent,fillRGBA);
 HXLINE(  73)		 ::openfl::utils::ByteArrayData byteArray = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(::haxe::Resource_obj::getBytes(::flixel::addons::transition::_TransitionFade::GraphicDiagonalGradient_obj::resourceName));
 HXLINE(  74)		{
@@ -170,8 +170,8 @@ void GraphicDiagonalGradient_obj::__register()
 void GraphicDiagonalGradient_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_6b0a2037e268ad27_17_boot)
-HXDLIN(  17)		resourceName = HX_("__ASSET__:bitmap_flixel_addons_transition__TransitionFade_GraphicDiagonalGradient",43,3b,8c,88);
+            	HX_STACKFRAME(&_hx_pos_6b0a2037e268ad27_16_boot)
+HXDLIN(  16)		resourceName = HX_("__ASSET__:bitmap_flixel_addons_transition__TransitionFade_GraphicDiagonalGradient",43,3b,8c,88);
             	}
 }
 

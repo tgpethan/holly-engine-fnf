@@ -1163,7 +1163,7 @@ HXDLIN(  90)		worldDivisions = 6;
             	}
 {
             	HX_GC_STACKFRAME(&_hx_pos_5f7463bd5b510fa4_102_boot)
-HXDLIN( 102)		VERSION =  ::flixel::_hx_system::FlxVersion_obj::__alloc( HX_CTX ,4,9,0);
+HXDLIN( 102)		VERSION =  ::flixel::_hx_system::FlxVersion_obj::__alloc( HX_CTX ,4,8,1);
             	}
 {
             	HX_STACKFRAME(&_hx_pos_5f7463bd5b510fa4_152_boot)

@@ -21,6 +21,7 @@ HX_DECLARE_CLASS2(openfl,_Vector,IntVector)
 HX_DECLARE_CLASS2(openfl,display,BitmapData)
 HX_DECLARE_CLASS2(openfl,display,CairoRenderer)
 HX_DECLARE_CLASS2(openfl,display,CanvasRenderer)
+HX_DECLARE_CLASS2(openfl,display,DOMRenderer)
 HX_DECLARE_CLASS2(openfl,display,DisplayObject)
 HX_DECLARE_CLASS2(openfl,display,DisplayObjectRenderer)
 HX_DECLARE_CLASS2(openfl,display,IBitmapDrawable)
@@ -117,7 +118,6 @@ class HXCPP_CLASS_ATTRIBUTES BitmapData_obj : public ::hx::Object
 		bool transparent;
 		int width;
 		 ::Dynamic _hx___blendMode;
-		int _hx___drawableType;
 		 ::lime::graphics::opengl::GLObject _hx___framebuffer;
 		 ::lime::graphics::RenderContext _hx___framebufferContext;
 		 ::openfl::display3D::IndexBuffer3D _hx___indexBuffer;
@@ -299,6 +299,27 @@ class HXCPP_CLASS_ATTRIBUTES BitmapData_obj : public ::hx::Object
 
 		 ::lime::app::Future _hx___loadFromFile(::String path);
 		::Dynamic _hx___loadFromFile_dyn();
+
+		void _hx___renderCairo( ::openfl::display::CairoRenderer renderer);
+		::Dynamic _hx___renderCairo_dyn();
+
+		void _hx___renderCairoMask( ::openfl::display::CairoRenderer renderer);
+		::Dynamic _hx___renderCairoMask_dyn();
+
+		void _hx___renderCanvas( ::openfl::display::CanvasRenderer renderer);
+		::Dynamic _hx___renderCanvas_dyn();
+
+		void _hx___renderCanvasMask( ::openfl::display::CanvasRenderer renderer);
+		::Dynamic _hx___renderCanvasMask_dyn();
+
+		void _hx___renderDOM( ::openfl::display::DOMRenderer renderer);
+		::Dynamic _hx___renderDOM_dyn();
+
+		void _hx___renderGL( ::openfl::display::OpenGLRenderer renderer);
+		::Dynamic _hx___renderGL_dyn();
+
+		void _hx___renderGLMask( ::openfl::display::OpenGLRenderer renderer);
+		::Dynamic _hx___renderGLMask_dyn();
 
 		void _hx___resize(int width,int height);
 		::Dynamic _hx___resize_dyn();

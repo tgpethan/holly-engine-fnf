@@ -16,11 +16,29 @@
 #ifndef INCLUDED_openfl__Vector_ObjectVector
 #include <openfl/_Vector/ObjectVector.h>
 #endif
+#ifndef INCLUDED_openfl_display_Bitmap
+#include <openfl/display/Bitmap.h>
+#endif
+#ifndef INCLUDED_openfl_display_CairoRenderer
+#include <openfl/display/CairoRenderer.h>
+#endif
+#ifndef INCLUDED_openfl_display_CanvasRenderer
+#include <openfl/display/CanvasRenderer.h>
+#endif
+#ifndef INCLUDED_openfl_display_DOMRenderer
+#include <openfl/display/DOMRenderer.h>
+#endif
 #ifndef INCLUDED_openfl_display_DisplayObject
 #include <openfl/display/DisplayObject.h>
 #endif
 #ifndef INCLUDED_openfl_display_DisplayObjectContainer
 #include <openfl/display/DisplayObjectContainer.h>
+#endif
+#ifndef INCLUDED_openfl_display_DisplayObjectRenderer
+#include <openfl/display/DisplayObjectRenderer.h>
+#endif
+#ifndef INCLUDED_openfl_display_Graphics
+#include <openfl/display/Graphics.h>
 #endif
 #ifndef INCLUDED_openfl_display_IBitmapDrawable
 #include <openfl/display/IBitmapDrawable.h>
@@ -28,8 +46,20 @@
 #ifndef INCLUDED_openfl_display_InteractiveObject
 #include <openfl/display/InteractiveObject.h>
 #endif
+#ifndef INCLUDED_openfl_display_OpenGLRenderer
+#include <openfl/display/OpenGLRenderer.h>
+#endif
 #ifndef INCLUDED_openfl_display_Stage
 #include <openfl/display/Stage.h>
+#endif
+#ifndef INCLUDED_openfl_display__internal_CairoGraphics
+#include <openfl/display/_internal/CairoGraphics.h>
+#endif
+#ifndef INCLUDED_openfl_display__internal_CanvasGraphics
+#include <openfl/display/_internal/CanvasGraphics.h>
+#endif
+#ifndef INCLUDED_openfl_display__internal_Context3DShape
+#include <openfl/display/_internal/Context3DShape.h>
 #endif
 #ifndef INCLUDED_openfl_errors_ArgumentError
 #include <openfl/errors/ArgumentError.h>
@@ -62,54 +92,63 @@
 #include <openfl/geom/Rectangle.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_d11618aadd936e00_113_new,"openfl.display.DisplayObjectContainer","new",0x4362e03c,"openfl.display.DisplayObjectContainer.new","openfl/display/DisplayObjectContainer.hx",113,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_155_addChild,"openfl.display.DisplayObjectContainer","addChild",0x5694c25f,"openfl.display.DisplayObjectContainer.addChild","openfl/display/DisplayObjectContainer.hx",155,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_190_addChildAt,"openfl.display.DisplayObjectContainer","addChildAt",0xb7119132,"openfl.display.DisplayObjectContainer.addChildAt","openfl/display/DisplayObjectContainer.hx",190,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_300_areInaccessibleObjectsUnderPoint,"openfl.display.DisplayObjectContainer","areInaccessibleObjectsUnderPoint",0x2380e0e1,"openfl.display.DisplayObjectContainer.areInaccessibleObjectsUnderPoint","openfl/display/DisplayObjectContainer.hx",300,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_316_contains,"openfl.display.DisplayObjectContainer","contains",0xc3f94cc3,"openfl.display.DisplayObjectContainer.contains","openfl/display/DisplayObjectContainer.hx",316,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_339_getChildAt,"openfl.display.DisplayObjectContainer","getChildAt",0x9ee8eb5d,"openfl.display.DisplayObjectContainer.getChildAt","openfl/display/DisplayObjectContainer.hx",339,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_367_getChildByName,"openfl.display.DisplayObjectContainer","getChildByName",0x64b33f2c,"openfl.display.DisplayObjectContainer.getChildByName","openfl/display/DisplayObjectContainer.hx",367,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_385_getChildIndex,"openfl.display.DisplayObjectContainer","getChildIndex",0xcc3e62e8,"openfl.display.DisplayObjectContainer.getChildIndex","openfl/display/DisplayObjectContainer.hx",385,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_414_getObjectsUnderPoint,"openfl.display.DisplayObjectContainer","getObjectsUnderPoint",0x85c6693a,"openfl.display.DisplayObjectContainer.getObjectsUnderPoint","openfl/display/DisplayObjectContainer.hx",414,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_441_removeChild,"openfl.display.DisplayObjectContainer","removeChild",0x1a99d294,"openfl.display.DisplayObjectContainer.removeChild","openfl/display/DisplayObjectContainer.hx",441,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_496_removeChildAt,"openfl.display.DisplayObjectContainer","removeChildAt",0x52a2d8a7,"openfl.display.DisplayObjectContainer.removeChildAt","openfl/display/DisplayObjectContainer.hx",496,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_517_removeChildren,"openfl.display.DisplayObjectContainer","removeChildren",0xfbffdb47,"openfl.display.DisplayObjectContainer.removeChildren","openfl/display/DisplayObjectContainer.hx",517,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_546_resolve,"openfl.display.DisplayObjectContainer","resolve",0x8cca40c8,"openfl.display.DisplayObjectContainer.resolve","openfl/display/DisplayObjectContainer.hx",546,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_598_setChildIndex,"openfl.display.DisplayObjectContainer","setChildIndex",0x114444f4,"openfl.display.DisplayObjectContainer.setChildIndex","openfl/display/DisplayObjectContainer.hx",598,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_616_stopAllMovieClips,"openfl.display.DisplayObjectContainer","stopAllMovieClips",0x46e0f9ce,"openfl.display.DisplayObjectContainer.stopAllMovieClips","openfl/display/DisplayObjectContainer.hx",616,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_631_swapChildren,"openfl.display.DisplayObjectContainer","swapChildren",0xe0695f96,"openfl.display.DisplayObjectContainer.swapChildren","openfl/display/DisplayObjectContainer.hx",631,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_653_swapChildrenAt,"openfl.display.DisplayObjectContainer","swapChildrenAt",0xd5312a29,"openfl.display.DisplayObjectContainer.swapChildrenAt","openfl/display/DisplayObjectContainer.hx",653,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_662___cleanup,"openfl.display.DisplayObjectContainer","__cleanup",0x2346b9e0,"openfl.display.DisplayObjectContainer.__cleanup","openfl/display/DisplayObjectContainer.hx",662,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_674___cleanupRemovedChildren,"openfl.display.DisplayObjectContainer","__cleanupRemovedChildren",0x4395feff,"openfl.display.DisplayObjectContainer.__cleanupRemovedChildren","openfl/display/DisplayObjectContainer.hx",674,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_688___dispatchChildren,"openfl.display.DisplayObjectContainer","__dispatchChildren",0x7a91a8dd,"openfl.display.DisplayObjectContainer.__dispatchChildren","openfl/display/DisplayObjectContainer.hx",688,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_706___enterFrame,"openfl.display.DisplayObjectContainer","__enterFrame",0x3af993b9,"openfl.display.DisplayObjectContainer.__enterFrame","openfl/display/DisplayObjectContainer.hx",706,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_713___getBounds,"openfl.display.DisplayObjectContainer","__getBounds",0xe74ca467,"openfl.display.DisplayObjectContainer.__getBounds","openfl/display/DisplayObjectContainer.hx",713,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_733___getFilterBounds,"openfl.display.DisplayObjectContainer","__getFilterBounds",0xbea2d3bf,"openfl.display.DisplayObjectContainer.__getFilterBounds","openfl/display/DisplayObjectContainer.hx",733,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_759___getRenderBounds,"openfl.display.DisplayObjectContainer","__getRenderBounds",0x21a0a9dd,"openfl.display.DisplayObjectContainer.__getRenderBounds","openfl/display/DisplayObjectContainer.hx",759,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_788___hitTest,"openfl.display.DisplayObjectContainer","__hitTest",0x5a840e01,"openfl.display.DisplayObjectContainer.__hitTest","openfl/display/DisplayObjectContainer.hx",788,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_877___hitTestMask,"openfl.display.DisplayObjectContainer","__hitTestMask",0x4f390f8d,"openfl.display.DisplayObjectContainer.__hitTestMask","openfl/display/DisplayObjectContainer.hx",877,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_892___readGraphicsData,"openfl.display.DisplayObjectContainer","__readGraphicsData",0x782e37cf,"openfl.display.DisplayObjectContainer.__readGraphicsData","openfl/display/DisplayObjectContainer.hx",892,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_905___setStageReference,"openfl.display.DisplayObjectContainer","__setStageReference",0x58cb6d2b,"openfl.display.DisplayObjectContainer.__setStageReference","openfl/display/DisplayObjectContainer.hx",905,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_919___setWorldTransformInvalid,"openfl.display.DisplayObjectContainer","__setWorldTransformInvalid",0xa8fd351f,"openfl.display.DisplayObjectContainer.__setWorldTransformInvalid","openfl/display/DisplayObjectContainer.hx",919,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_935___stopAllMovieClips,"openfl.display.DisplayObjectContainer","__stopAllMovieClips",0xb7ce11ae,"openfl.display.DisplayObjectContainer.__stopAllMovieClips","openfl/display/DisplayObjectContainer.hx",935,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_942___tabTest,"openfl.display.DisplayObjectContainer","__tabTest",0xbd744b03,"openfl.display.DisplayObjectContainer.__tabTest","openfl/display/DisplayObjectContainer.hx",942,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_963___update,"openfl.display.DisplayObjectContainer","__update",0xc6b2e3cd,"openfl.display.DisplayObjectContainer.__update","openfl/display/DisplayObjectContainer.hx",963,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_978_get_numChildren,"openfl.display.DisplayObjectContainer","get_numChildren",0x73b78b18,"openfl.display.DisplayObjectContainer.get_numChildren","openfl/display/DisplayObjectContainer.hx",978,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_983_get_tabChildren,"openfl.display.DisplayObjectContainer","get_tabChildren",0x62bd2e27,"openfl.display.DisplayObjectContainer.get_tabChildren","openfl/display/DisplayObjectContainer.hx",983,0x5f4d3d72)
-HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_987_set_tabChildren,"openfl.display.DisplayObjectContainer","set_tabChildren",0x5e88ab33,"openfl.display.DisplayObjectContainer.set_tabChildren","openfl/display/DisplayObjectContainer.hx",987,0x5f4d3d72)
+HX_DEFINE_STACK_FRAME(_hx_pos_d11618aadd936e00_46_new,"openfl.display.DisplayObjectContainer","new",0x4362e03c,"openfl.display.DisplayObjectContainer.new","openfl/display/DisplayObjectContainer.hx",46,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_58_addChild,"openfl.display.DisplayObjectContainer","addChild",0x5694c25f,"openfl.display.DisplayObjectContainer.addChild","openfl/display/DisplayObjectContainer.hx",58,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_62_addChildAt,"openfl.display.DisplayObjectContainer","addChildAt",0xb7119132,"openfl.display.DisplayObjectContainer.addChildAt","openfl/display/DisplayObjectContainer.hx",62,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_152_areInaccessibleObjectsUnderPoint,"openfl.display.DisplayObjectContainer","areInaccessibleObjectsUnderPoint",0x2380e0e1,"openfl.display.DisplayObjectContainer.areInaccessibleObjectsUnderPoint","openfl/display/DisplayObjectContainer.hx",152,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_156_contains,"openfl.display.DisplayObjectContainer","contains",0xc3f94cc3,"openfl.display.DisplayObjectContainer.contains","openfl/display/DisplayObjectContainer.hx",156,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_166_getChildAt,"openfl.display.DisplayObjectContainer","getChildAt",0x9ee8eb5d,"openfl.display.DisplayObjectContainer.getChildAt","openfl/display/DisplayObjectContainer.hx",166,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_176_getChildByName,"openfl.display.DisplayObjectContainer","getChildByName",0x64b33f2c,"openfl.display.DisplayObjectContainer.getChildByName","openfl/display/DisplayObjectContainer.hx",176,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_186_getChildIndex,"openfl.display.DisplayObjectContainer","getChildIndex",0xcc3e62e8,"openfl.display.DisplayObjectContainer.getChildIndex","openfl/display/DisplayObjectContainer.hx",186,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_196_getObjectsUnderPoint,"openfl.display.DisplayObjectContainer","getObjectsUnderPoint",0x85c6693a,"openfl.display.DisplayObjectContainer.getObjectsUnderPoint","openfl/display/DisplayObjectContainer.hx",196,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_204_removeChild,"openfl.display.DisplayObjectContainer","removeChild",0x1a99d294,"openfl.display.DisplayObjectContainer.removeChild","openfl/display/DisplayObjectContainer.hx",204,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_237_removeChildAt,"openfl.display.DisplayObjectContainer","removeChildAt",0x52a2d8a7,"openfl.display.DisplayObjectContainer.removeChildAt","openfl/display/DisplayObjectContainer.hx",237,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_247_removeChildren,"openfl.display.DisplayObjectContainer","removeChildren",0xfbffdb47,"openfl.display.DisplayObjectContainer.removeChildren","openfl/display/DisplayObjectContainer.hx",247,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_276_resolve,"openfl.display.DisplayObjectContainer","resolve",0x8cca40c8,"openfl.display.DisplayObjectContainer.resolve","openfl/display/DisplayObjectContainer.hx",276,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_292_setChildIndex,"openfl.display.DisplayObjectContainer","setChildIndex",0x114444f4,"openfl.display.DisplayObjectContainer.setChildIndex","openfl/display/DisplayObjectContainer.hx",292,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_301_stopAllMovieClips,"openfl.display.DisplayObjectContainer","stopAllMovieClips",0x46e0f9ce,"openfl.display.DisplayObjectContainer.stopAllMovieClips","openfl/display/DisplayObjectContainer.hx",301,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_306_swapChildren,"openfl.display.DisplayObjectContainer","swapChildren",0xe0695f96,"openfl.display.DisplayObjectContainer.swapChildren","openfl/display/DisplayObjectContainer.hx",306,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_319_swapChildrenAt,"openfl.display.DisplayObjectContainer","swapChildrenAt",0xd5312a29,"openfl.display.DisplayObjectContainer.swapChildrenAt","openfl/display/DisplayObjectContainer.hx",319,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_328___cleanup,"openfl.display.DisplayObjectContainer","__cleanup",0x2346b9e0,"openfl.display.DisplayObjectContainer.__cleanup","openfl/display/DisplayObjectContainer.hx",328,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_340___cleanupRemovedChildren,"openfl.display.DisplayObjectContainer","__cleanupRemovedChildren",0x4395feff,"openfl.display.DisplayObjectContainer.__cleanupRemovedChildren","openfl/display/DisplayObjectContainer.hx",340,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_354___dispatchChildren,"openfl.display.DisplayObjectContainer","__dispatchChildren",0x7a91a8dd,"openfl.display.DisplayObjectContainer.__dispatchChildren","openfl/display/DisplayObjectContainer.hx",354,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_372___enterFrame,"openfl.display.DisplayObjectContainer","__enterFrame",0x3af993b9,"openfl.display.DisplayObjectContainer.__enterFrame","openfl/display/DisplayObjectContainer.hx",372,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_379___getBounds,"openfl.display.DisplayObjectContainer","__getBounds",0xe74ca467,"openfl.display.DisplayObjectContainer.__getBounds","openfl/display/DisplayObjectContainer.hx",379,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_399___getFilterBounds,"openfl.display.DisplayObjectContainer","__getFilterBounds",0xbea2d3bf,"openfl.display.DisplayObjectContainer.__getFilterBounds","openfl/display/DisplayObjectContainer.hx",399,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_420___getRenderBounds,"openfl.display.DisplayObjectContainer","__getRenderBounds",0x21a0a9dd,"openfl.display.DisplayObjectContainer.__getRenderBounds","openfl/display/DisplayObjectContainer.hx",420,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_449___hitTest,"openfl.display.DisplayObjectContainer","__hitTest",0x5a840e01,"openfl.display.DisplayObjectContainer.__hitTest","openfl/display/DisplayObjectContainer.hx",449,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_538___hitTestMask,"openfl.display.DisplayObjectContainer","__hitTestMask",0x4f390f8d,"openfl.display.DisplayObjectContainer.__hitTestMask","openfl/display/DisplayObjectContainer.hx",538,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_553___readGraphicsData,"openfl.display.DisplayObjectContainer","__readGraphicsData",0x782e37cf,"openfl.display.DisplayObjectContainer.__readGraphicsData","openfl/display/DisplayObjectContainer.hx",553,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_566___renderCairo,"openfl.display.DisplayObjectContainer","__renderCairo",0x687e990e,"openfl.display.DisplayObjectContainer.__renderCairo","openfl/display/DisplayObjectContainer.hx",566,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_601___renderCairoMask,"openfl.display.DisplayObjectContainer","__renderCairoMask",0x110aa51a,"openfl.display.DisplayObjectContainer.__renderCairoMask","openfl/display/DisplayObjectContainer.hx",601,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_618___renderCanvas,"openfl.display.DisplayObjectContainer","__renderCanvas",0x09986192,"openfl.display.DisplayObjectContainer.__renderCanvas","openfl/display/DisplayObjectContainer.hx",618,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_653___renderCanvasMask,"openfl.display.DisplayObjectContainer","__renderCanvasMask",0xd78cff9e,"openfl.display.DisplayObjectContainer.__renderCanvasMask","openfl/display/DisplayObjectContainer.hx",653,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_668___renderDOM,"openfl.display.DisplayObjectContainer","__renderDOM",0xd2304188,"openfl.display.DisplayObjectContainer.__renderDOM","openfl/display/DisplayObjectContainer.hx",668,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_707___renderDOMClear,"openfl.display.DisplayObjectContainer","__renderDOMClear",0xae5612e5,"openfl.display.DisplayObjectContainer.__renderDOMClear","openfl/display/DisplayObjectContainer.hx",707,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_725___renderGL,"openfl.display.DisplayObjectContainer","__renderGL",0x3eef01bf,"openfl.display.DisplayObjectContainer.__renderGL","openfl/display/DisplayObjectContainer.hx",725,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_766___renderGLMask,"openfl.display.DisplayObjectContainer","__renderGLMask",0x75bbba4b,"openfl.display.DisplayObjectContainer.__renderGLMask","openfl/display/DisplayObjectContainer.hx",766,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_782___setStageReference,"openfl.display.DisplayObjectContainer","__setStageReference",0x58cb6d2b,"openfl.display.DisplayObjectContainer.__setStageReference","openfl/display/DisplayObjectContainer.hx",782,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_796___setWorldTransformInvalid,"openfl.display.DisplayObjectContainer","__setWorldTransformInvalid",0xa8fd351f,"openfl.display.DisplayObjectContainer.__setWorldTransformInvalid","openfl/display/DisplayObjectContainer.hx",796,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_811___shouldCacheHardware,"openfl.display.DisplayObjectContainer","__shouldCacheHardware",0xd831e693,"openfl.display.DisplayObjectContainer.__shouldCacheHardware","openfl/display/DisplayObjectContainer.hx",811,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_830___stopAllMovieClips,"openfl.display.DisplayObjectContainer","__stopAllMovieClips",0xb7ce11ae,"openfl.display.DisplayObjectContainer.__stopAllMovieClips","openfl/display/DisplayObjectContainer.hx",830,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_837___tabTest,"openfl.display.DisplayObjectContainer","__tabTest",0xbd744b03,"openfl.display.DisplayObjectContainer.__tabTest","openfl/display/DisplayObjectContainer.hx",837,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_858___update,"openfl.display.DisplayObjectContainer","__update",0xc6b2e3cd,"openfl.display.DisplayObjectContainer.__update","openfl/display/DisplayObjectContainer.hx",858,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_873_get_numChildren,"openfl.display.DisplayObjectContainer","get_numChildren",0x73b78b18,"openfl.display.DisplayObjectContainer.get_numChildren","openfl/display/DisplayObjectContainer.hx",873,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_878_get_tabChildren,"openfl.display.DisplayObjectContainer","get_tabChildren",0x62bd2e27,"openfl.display.DisplayObjectContainer.get_tabChildren","openfl/display/DisplayObjectContainer.hx",878,0x5f4d3d72)
+HX_LOCAL_STACK_FRAME(_hx_pos_d11618aadd936e00_882_set_tabChildren,"openfl.display.DisplayObjectContainer","set_tabChildren",0x5e88ab33,"openfl.display.DisplayObjectContainer.set_tabChildren","openfl/display/DisplayObjectContainer.hx",882,0x5f4d3d72)
 namespace openfl{
 namespace display{
 
 void DisplayObjectContainer_obj::__construct(){
-            	HX_GC_STACKFRAME(&_hx_pos_d11618aadd936e00_113_new)
-HXLINE( 114)		super::__construct();
-HXLINE( 116)		this->mouseChildren = true;
-HXLINE( 117)		this->_hx___tabChildren = true;
-HXLINE( 119)		this->_hx___children = ::Array_obj< ::Dynamic>::__new();
-HXLINE( 120)		int length = null();
-HXDLIN( 120)		bool fixed = null();
-HXDLIN( 120)		::Array< ::Dynamic> array = null();
-HXDLIN( 120)		this->_hx___removedChildren =  ::openfl::_Vector::ObjectVector_obj::__alloc( HX_CTX ,length,fixed,array,true);
+            	HX_GC_STACKFRAME(&_hx_pos_d11618aadd936e00_46_new)
+HXLINE(  47)		super::__construct();
+HXLINE(  49)		this->mouseChildren = true;
+HXLINE(  50)		this->_hx___tabChildren = true;
+HXLINE(  52)		this->_hx___children = ::Array_obj< ::Dynamic>::__new();
+HXLINE(  53)		int length = null();
+HXDLIN(  53)		bool fixed = null();
+HXDLIN(  53)		::Array< ::Dynamic> array = null();
+HXDLIN(  53)		this->_hx___removedChildren =  ::openfl::_Vector::ObjectVector_obj::__alloc( HX_CTX ,length,fixed,array,true);
             	}
 
 Dynamic DisplayObjectContainer_obj::__CreateEmpty() { return new DisplayObjectContainer_obj; }
@@ -136,246 +175,246 @@ bool DisplayObjectContainer_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::openfl::display::DisplayObject DisplayObjectContainer_obj::addChild( ::openfl::display::DisplayObject child){
-            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_155_addChild)
-HXDLIN( 155)		return this->addChildAt(child,this->get_numChildren());
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_58_addChild)
+HXDLIN(  58)		return this->addChildAt(child,this->get_numChildren());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(DisplayObjectContainer_obj,addChild,return )
 
  ::openfl::display::DisplayObject DisplayObjectContainer_obj::addChildAt( ::openfl::display::DisplayObject child,int index){
-            	HX_GC_STACKFRAME(&_hx_pos_d11618aadd936e00_190_addChildAt)
-HXLINE( 191)		if (::hx::IsNull( child )) {
-HXLINE( 193)			 ::openfl::errors::TypeError error =  ::openfl::errors::TypeError_obj::__alloc( HX_CTX ,HX_("Error #2007: Parameter child must be non-null.",30,5a,a7,aa));
-HXLINE( 194)			error->errorID = 2007;
-HXLINE( 195)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(error));
+            	HX_GC_STACKFRAME(&_hx_pos_d11618aadd936e00_62_addChildAt)
+HXLINE(  63)		if (::hx::IsNull( child )) {
+HXLINE(  65)			 ::openfl::errors::TypeError error =  ::openfl::errors::TypeError_obj::__alloc( HX_CTX ,HX_("Error #2007: Parameter child must be non-null.",30,5a,a7,aa));
+HXLINE(  66)			error->errorID = 2007;
+HXLINE(  67)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(error));
             		}
             		else {
-HXLINE( 198)			if (::hx::IsEq( child->stage,child )) {
-HXLINE( 200)				 ::openfl::errors::ArgumentError error =  ::openfl::errors::ArgumentError_obj::__alloc( HX_CTX ,HX_("Error #3783: A Stage object cannot be added as the child of another object.",fa,51,93,42));
-HXLINE( 201)				error->errorID = 3783;
-HXLINE( 202)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(error));
+HXLINE(  70)			if (::hx::IsEq( child->stage,child )) {
+HXLINE(  72)				 ::openfl::errors::ArgumentError error =  ::openfl::errors::ArgumentError_obj::__alloc( HX_CTX ,HX_("Error #3783: A Stage object cannot be added as the child of another object.",fa,51,93,42));
+HXLINE(  73)				error->errorID = 3783;
+HXLINE(  74)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(error));
             			}
             		}
-HXLINE( 206)		bool _hx_tmp;
-HXDLIN( 206)		if ((index <= this->_hx___children->length)) {
-HXLINE( 206)			_hx_tmp = (index < 0);
+HXLINE(  78)		bool _hx_tmp;
+HXDLIN(  78)		if ((index <= this->_hx___children->length)) {
+HXLINE(  78)			_hx_tmp = (index < 0);
             		}
             		else {
-HXLINE( 206)			_hx_tmp = true;
+HXLINE(  78)			_hx_tmp = true;
             		}
-HXDLIN( 206)		if (_hx_tmp) {
-HXLINE( 208)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown((HX_("Invalid index position ",80,59,50,86) + index)));
+HXDLIN(  78)		if (_hx_tmp) {
+HXLINE(  80)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown((HX_("Invalid index position ",80,59,50,86) + index)));
             		}
-HXLINE( 211)		if (::hx::IsEq( child->parent,::hx::ObjectPtr<OBJ_>(this) )) {
-HXLINE( 213)			if (::hx::IsNotEq( this->_hx___children->__get(index).StaticCast<  ::openfl::display::DisplayObject >(),child )) {
-HXLINE( 215)				this->_hx___children->remove(child);
-HXLINE( 216)				this->_hx___children->insert(index,child);
-HXLINE( 218)				if (!(this->_hx___renderDirty)) {
-HXLINE( 218)					this->_hx___renderDirty = true;
-HXDLIN( 218)					this->_hx___setParentRenderDirty();
+HXLINE(  83)		if (::hx::IsEq( child->parent,::hx::ObjectPtr<OBJ_>(this) )) {
+HXLINE(  85)			if (::hx::IsNotEq( this->_hx___children->__get(index).StaticCast<  ::openfl::display::DisplayObject >(),child )) {
+HXLINE(  87)				this->_hx___children->remove(child);
+HXLINE(  88)				this->_hx___children->insert(index,child);
+HXLINE(  90)				if (!(this->_hx___renderDirty)) {
+HXLINE(  90)					this->_hx___renderDirty = true;
+HXDLIN(  90)					this->_hx___setParentRenderDirty();
             				}
             			}
             		}
             		else {
-HXLINE( 223)			if (::hx::IsNotNull( child->parent )) {
-HXLINE( 225)				child->parent->removeChild(child);
+HXLINE(  95)			if (::hx::IsNotNull( child->parent )) {
+HXLINE(  97)				child->parent->removeChild(child);
             			}
-HXLINE( 228)			this->_hx___children->insert(index,child);
-HXLINE( 229)			child->parent = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE( 231)			bool addedToStage;
-HXDLIN( 231)			if (::hx::IsNotNull( this->stage )) {
-HXLINE( 231)				addedToStage = ::hx::IsNull( child->stage );
+HXLINE( 100)			this->_hx___children->insert(index,child);
+HXLINE( 101)			child->parent = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 103)			bool addedToStage;
+HXDLIN( 103)			if (::hx::IsNotNull( this->stage )) {
+HXLINE( 103)				addedToStage = ::hx::IsNull( child->stage );
             			}
             			else {
-HXLINE( 231)				addedToStage = false;
+HXLINE( 103)				addedToStage = false;
             			}
-HXLINE( 233)			if (addedToStage) {
-HXLINE( 235)				child->_hx___setStageReference(this->stage);
+HXLINE( 105)			if (addedToStage) {
+HXLINE( 107)				child->_hx___setStageReference(this->stage);
             			}
-HXLINE( 238)			child->_hx___setTransformDirty();
-HXLINE( 239)			if (!(child->_hx___renderDirty)) {
-HXLINE( 239)				child->_hx___renderDirty = true;
-HXDLIN( 239)				child->_hx___setParentRenderDirty();
+HXLINE( 110)			child->_hx___setTransformDirty();
+HXLINE( 111)			if (!(child->_hx___renderDirty)) {
+HXLINE( 111)				child->_hx___renderDirty = true;
+HXDLIN( 111)				child->_hx___setParentRenderDirty();
             			}
-HXLINE( 240)			if (!(this->_hx___renderDirty)) {
-HXLINE( 240)				this->_hx___renderDirty = true;
-HXDLIN( 240)				this->_hx___setParentRenderDirty();
+HXLINE( 112)			if (!(this->_hx___renderDirty)) {
+HXLINE( 112)				this->_hx___renderDirty = true;
+HXDLIN( 112)				this->_hx___setParentRenderDirty();
             			}
-HXLINE( 246)			 ::openfl::events::Event event =  ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("added",c0,d4,43,1c),null(),null());
-HXLINE( 248)			event->bubbles = true;
-HXLINE( 250)			event->target = child;
-HXLINE( 252)			child->_hx___dispatchWithCapture(event);
-HXLINE( 258)			if (addedToStage) {
-HXLINE( 263)				event =  ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("addedToStage",63,22,55,0c),false,false);
-HXLINE( 266)				child->_hx___dispatchWithCapture(event);
-HXLINE( 267)				child->_hx___dispatchChildren(event);
+HXLINE( 118)			 ::openfl::events::Event event =  ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("added",c0,d4,43,1c),null(),null());
+HXLINE( 120)			event->bubbles = true;
+HXLINE( 122)			event->target = child;
+HXLINE( 124)			child->_hx___dispatchWithCapture(event);
+HXLINE( 130)			if (addedToStage) {
+HXLINE( 135)				event =  ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("addedToStage",63,22,55,0c),false,false);
+HXLINE( 138)				child->_hx___dispatchWithCapture(event);
+HXLINE( 139)				child->_hx___dispatchChildren(event);
             			}
             		}
-HXLINE( 275)		return child;
+HXLINE( 147)		return child;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(DisplayObjectContainer_obj,addChildAt,return )
 
 bool DisplayObjectContainer_obj::areInaccessibleObjectsUnderPoint( ::openfl::geom::Point point){
-            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_300_areInaccessibleObjectsUnderPoint)
-HXDLIN( 300)		return false;
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_152_areInaccessibleObjectsUnderPoint)
+HXDLIN( 152)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(DisplayObjectContainer_obj,areInaccessibleObjectsUnderPoint,return )
 
 bool DisplayObjectContainer_obj::contains( ::openfl::display::DisplayObject child){
-            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_316_contains)
-HXLINE( 317)		while(true){
-HXLINE( 317)			bool _hx_tmp;
-HXDLIN( 317)			if (::hx::IsNotEq( child,::hx::ObjectPtr<OBJ_>(this) )) {
-HXLINE( 317)				_hx_tmp = ::hx::IsNotNull( child );
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_156_contains)
+HXLINE( 157)		while(true){
+HXLINE( 157)			bool _hx_tmp;
+HXDLIN( 157)			if (::hx::IsNotEq( child,::hx::ObjectPtr<OBJ_>(this) )) {
+HXLINE( 157)				_hx_tmp = ::hx::IsNotNull( child );
             			}
             			else {
-HXLINE( 317)				_hx_tmp = false;
+HXLINE( 157)				_hx_tmp = false;
             			}
-HXDLIN( 317)			if (!(_hx_tmp)) {
-HXLINE( 317)				goto _hx_goto_4;
+HXDLIN( 157)			if (!(_hx_tmp)) {
+HXLINE( 157)				goto _hx_goto_4;
             			}
-HXLINE( 319)			child = child->parent;
+HXLINE( 159)			child = child->parent;
             		}
             		_hx_goto_4:;
-HXLINE( 322)		return ::hx::IsEq( child,::hx::ObjectPtr<OBJ_>(this) );
+HXLINE( 162)		return ::hx::IsEq( child,::hx::ObjectPtr<OBJ_>(this) );
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(DisplayObjectContainer_obj,contains,return )
 
  ::openfl::display::DisplayObject DisplayObjectContainer_obj::getChildAt(int index){
-            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_339_getChildAt)
-HXLINE( 340)		bool _hx_tmp;
-HXDLIN( 340)		if ((index >= 0)) {
-HXLINE( 340)			_hx_tmp = (index < this->_hx___children->length);
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_166_getChildAt)
+HXLINE( 167)		bool _hx_tmp;
+HXDLIN( 167)		if ((index >= 0)) {
+HXLINE( 167)			_hx_tmp = (index < this->_hx___children->length);
             		}
             		else {
-HXLINE( 340)			_hx_tmp = false;
+HXLINE( 167)			_hx_tmp = false;
             		}
-HXDLIN( 340)		if (_hx_tmp) {
-HXLINE( 342)			return this->_hx___children->__get(index).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN( 167)		if (_hx_tmp) {
+HXLINE( 169)			return this->_hx___children->__get(index).StaticCast<  ::openfl::display::DisplayObject >();
             		}
-HXLINE( 345)		return null();
+HXLINE( 172)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(DisplayObjectContainer_obj,getChildAt,return )
 
  ::openfl::display::DisplayObject DisplayObjectContainer_obj::getChildByName(::String name){
-            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_367_getChildByName)
-HXLINE( 368)		{
-HXLINE( 368)			int _g = 0;
-HXDLIN( 368)			::Array< ::Dynamic> _g1 = this->_hx___children;
-HXDLIN( 368)			while((_g < _g1->length)){
-HXLINE( 368)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
-HXDLIN( 368)				_g = (_g + 1);
-HXLINE( 370)				if ((child->get_name() == name)) {
-HXLINE( 370)					return child;
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_176_getChildByName)
+HXLINE( 177)		{
+HXLINE( 177)			int _g = 0;
+HXDLIN( 177)			::Array< ::Dynamic> _g1 = this->_hx___children;
+HXDLIN( 177)			while((_g < _g1->length)){
+HXLINE( 177)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN( 177)				_g = (_g + 1);
+HXLINE( 179)				if ((child->get_name() == name)) {
+HXLINE( 179)					return child;
             				}
             			}
             		}
-HXLINE( 373)		return null();
+HXLINE( 182)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(DisplayObjectContainer_obj,getChildByName,return )
 
 int DisplayObjectContainer_obj::getChildIndex( ::openfl::display::DisplayObject child){
-            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_385_getChildIndex)
-HXLINE( 386)		{
-HXLINE( 386)			int _g = 0;
-HXDLIN( 386)			int _g1 = this->_hx___children->length;
-HXDLIN( 386)			while((_g < _g1)){
-HXLINE( 386)				_g = (_g + 1);
-HXDLIN( 386)				int i = (_g - 1);
-HXLINE( 388)				if (::hx::IsEq( this->_hx___children->__get(i).StaticCast<  ::openfl::display::DisplayObject >(),child )) {
-HXLINE( 388)					return i;
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_186_getChildIndex)
+HXLINE( 187)		{
+HXLINE( 187)			int _g = 0;
+HXDLIN( 187)			int _g1 = this->_hx___children->length;
+HXDLIN( 187)			while((_g < _g1)){
+HXLINE( 187)				_g = (_g + 1);
+HXDLIN( 187)				int i = (_g - 1);
+HXLINE( 189)				if (::hx::IsEq( this->_hx___children->__get(i).StaticCast<  ::openfl::display::DisplayObject >(),child )) {
+HXLINE( 189)					return i;
             				}
             			}
             		}
-HXLINE( 391)		return -1;
+HXLINE( 192)		return -1;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(DisplayObjectContainer_obj,getChildIndex,return )
 
 ::Array< ::Dynamic> DisplayObjectContainer_obj::getObjectsUnderPoint( ::openfl::geom::Point point){
-            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_414_getObjectsUnderPoint)
-HXLINE( 415)		::Array< ::Dynamic> stack = ::Array_obj< ::Dynamic>::__new();
-HXLINE( 416)		this->_hx___hitTest(point->x,point->y,false,stack,false,::hx::ObjectPtr<OBJ_>(this));
-HXLINE( 417)		stack->reverse();
-HXLINE( 418)		return stack;
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_196_getObjectsUnderPoint)
+HXLINE( 197)		::Array< ::Dynamic> stack = ::Array_obj< ::Dynamic>::__new();
+HXLINE( 198)		this->_hx___hitTest(point->x,point->y,false,stack,false,::hx::ObjectPtr<OBJ_>(this));
+HXLINE( 199)		stack->reverse();
+HXLINE( 200)		return stack;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(DisplayObjectContainer_obj,getObjectsUnderPoint,return )
 
  ::openfl::display::DisplayObject DisplayObjectContainer_obj::removeChild( ::openfl::display::DisplayObject child){
-            	HX_GC_STACKFRAME(&_hx_pos_d11618aadd936e00_441_removeChild)
-HXLINE( 442)		bool _hx_tmp;
-HXDLIN( 442)		if (::hx::IsNotNull( child )) {
-HXLINE( 442)			_hx_tmp = ::hx::IsEq( child->parent,::hx::ObjectPtr<OBJ_>(this) );
+            	HX_GC_STACKFRAME(&_hx_pos_d11618aadd936e00_204_removeChild)
+HXLINE( 205)		bool _hx_tmp;
+HXDLIN( 205)		if (::hx::IsNotNull( child )) {
+HXLINE( 205)			_hx_tmp = ::hx::IsEq( child->parent,::hx::ObjectPtr<OBJ_>(this) );
             		}
             		else {
-HXLINE( 442)			_hx_tmp = false;
+HXLINE( 205)			_hx_tmp = false;
             		}
-HXDLIN( 442)		if (_hx_tmp) {
-HXLINE( 444)			child->_hx___setTransformDirty();
-HXLINE( 445)			if (!(child->_hx___renderDirty)) {
-HXLINE( 445)				child->_hx___renderDirty = true;
-HXDLIN( 445)				child->_hx___setParentRenderDirty();
+HXDLIN( 205)		if (_hx_tmp) {
+HXLINE( 207)			child->_hx___setTransformDirty();
+HXLINE( 208)			if (!(child->_hx___renderDirty)) {
+HXLINE( 208)				child->_hx___renderDirty = true;
+HXDLIN( 208)				child->_hx___setParentRenderDirty();
             			}
-HXLINE( 446)			if (!(this->_hx___renderDirty)) {
-HXLINE( 446)				this->_hx___renderDirty = true;
-HXDLIN( 446)				this->_hx___setParentRenderDirty();
+HXLINE( 209)			if (!(this->_hx___renderDirty)) {
+HXLINE( 209)				this->_hx___renderDirty = true;
+HXDLIN( 209)				this->_hx___setParentRenderDirty();
             			}
-HXLINE( 448)			 ::openfl::events::Event event =  ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("removed",a0,1f,00,f3),true,null());
-HXLINE( 449)			child->_hx___dispatchWithCapture(event);
-HXLINE( 451)			if (::hx::IsNotNull( this->stage )) {
-HXLINE( 453)				bool _hx_tmp;
-HXDLIN( 453)				if (::hx::IsNotNull( child->stage )) {
-HXLINE( 453)					_hx_tmp = ::hx::IsEq( this->stage->get_focus(),child );
+HXLINE( 211)			 ::openfl::events::Event event =  ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("removed",a0,1f,00,f3),true,null());
+HXLINE( 212)			child->_hx___dispatchWithCapture(event);
+HXLINE( 214)			if (::hx::IsNotNull( this->stage )) {
+HXLINE( 216)				bool _hx_tmp;
+HXDLIN( 216)				if (::hx::IsNotNull( child->stage )) {
+HXLINE( 216)					_hx_tmp = ::hx::IsEq( this->stage->get_focus(),child );
             				}
             				else {
-HXLINE( 453)					_hx_tmp = false;
+HXLINE( 216)					_hx_tmp = false;
             				}
-HXDLIN( 453)				if (_hx_tmp) {
-HXLINE( 455)					this->stage->set_focus(null());
+HXDLIN( 216)				if (_hx_tmp) {
+HXLINE( 218)					this->stage->set_focus(null());
             				}
-HXLINE( 458)				 ::openfl::events::Event event =  ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("removedFromStage",34,21,76,ba),false,false);
-HXLINE( 459)				child->_hx___dispatchWithCapture(event);
-HXLINE( 460)				child->_hx___dispatchChildren(event);
-HXLINE( 461)				child->_hx___setStageReference(null());
+HXLINE( 221)				 ::openfl::events::Event event =  ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("removedFromStage",34,21,76,ba),false,false);
+HXLINE( 222)				child->_hx___dispatchWithCapture(event);
+HXLINE( 223)				child->_hx___dispatchChildren(event);
+HXLINE( 224)				child->_hx___setStageReference(null());
             			}
-HXLINE( 464)			child->parent = null();
-HXLINE( 465)			this->_hx___children->remove(child);
-HXLINE( 466)			this->_hx___removedChildren->push(child);
-HXLINE( 467)			child->_hx___setTransformDirty();
+HXLINE( 227)			child->parent = null();
+HXLINE( 228)			this->_hx___children->remove(child);
+HXLINE( 229)			this->_hx___removedChildren->push(child);
+HXLINE( 230)			child->_hx___setTransformDirty();
             		}
-HXLINE( 470)		return child;
+HXLINE( 233)		return child;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(DisplayObjectContainer_obj,removeChild,return )
 
  ::openfl::display::DisplayObject DisplayObjectContainer_obj::removeChildAt(int index){
-            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_496_removeChildAt)
-HXLINE( 497)		bool _hx_tmp;
-HXDLIN( 497)		if ((index >= 0)) {
-HXLINE( 497)			_hx_tmp = (index < this->_hx___children->length);
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_237_removeChildAt)
+HXLINE( 238)		bool _hx_tmp;
+HXDLIN( 238)		if ((index >= 0)) {
+HXLINE( 238)			_hx_tmp = (index < this->_hx___children->length);
             		}
             		else {
-HXLINE( 497)			_hx_tmp = false;
+HXLINE( 238)			_hx_tmp = false;
             		}
-HXDLIN( 497)		if (_hx_tmp) {
-HXLINE( 499)			return this->removeChild(this->_hx___children->__get(index).StaticCast<  ::openfl::display::DisplayObject >());
+HXDLIN( 238)		if (_hx_tmp) {
+HXLINE( 240)			return this->removeChild(this->_hx___children->__get(index).StaticCast<  ::openfl::display::DisplayObject >());
             		}
-HXLINE( 502)		return null();
+HXLINE( 243)		return null();
             	}
 
 
@@ -384,39 +423,39 @@ HX_DEFINE_DYNAMIC_FUNC1(DisplayObjectContainer_obj,removeChildAt,return )
 void DisplayObjectContainer_obj::removeChildren(::hx::Null< int >  __o_beginIndex,::hx::Null< int >  __o_endIndex){
             		int beginIndex = __o_beginIndex.Default(0);
             		int endIndex = __o_endIndex.Default(2147483647);
-            	HX_GC_STACKFRAME(&_hx_pos_d11618aadd936e00_517_removeChildren)
-HXLINE( 518)		if ((endIndex == (int)2147483647)) {
-HXLINE( 520)			endIndex = (this->_hx___children->length - 1);
-HXLINE( 522)			if ((endIndex < 0)) {
-HXLINE( 524)				return;
+            	HX_GC_STACKFRAME(&_hx_pos_d11618aadd936e00_247_removeChildren)
+HXLINE( 248)		if ((endIndex == (int)2147483647)) {
+HXLINE( 250)			endIndex = (this->_hx___children->length - 1);
+HXLINE( 252)			if ((endIndex < 0)) {
+HXLINE( 254)				return;
             			}
             		}
-HXLINE( 528)		if ((beginIndex > (this->_hx___children->length - 1))) {
-HXLINE( 530)			return;
+HXLINE( 258)		if ((beginIndex > (this->_hx___children->length - 1))) {
+HXLINE( 260)			return;
             		}
             		else {
-HXLINE( 532)			bool _hx_tmp;
-HXDLIN( 532)			bool _hx_tmp1;
-HXDLIN( 532)			if ((endIndex >= beginIndex)) {
-HXLINE( 532)				_hx_tmp1 = (beginIndex < 0);
+HXLINE( 262)			bool _hx_tmp;
+HXDLIN( 262)			bool _hx_tmp1;
+HXDLIN( 262)			if ((endIndex >= beginIndex)) {
+HXLINE( 262)				_hx_tmp1 = (beginIndex < 0);
             			}
             			else {
-HXLINE( 532)				_hx_tmp1 = true;
+HXLINE( 262)				_hx_tmp1 = true;
             			}
-HXDLIN( 532)			if (!(_hx_tmp1)) {
-HXLINE( 532)				_hx_tmp = (endIndex > this->_hx___children->length);
+HXDLIN( 262)			if (!(_hx_tmp1)) {
+HXLINE( 262)				_hx_tmp = (endIndex > this->_hx___children->length);
             			}
             			else {
-HXLINE( 532)				_hx_tmp = true;
+HXLINE( 262)				_hx_tmp = true;
             			}
-HXDLIN( 532)			if (_hx_tmp) {
-HXLINE( 534)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::RangeError_obj::__alloc( HX_CTX ,HX_("The supplied index is out of bounds.",17,96,1b,51))));
+HXDLIN( 262)			if (_hx_tmp) {
+HXLINE( 264)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::RangeError_obj::__alloc( HX_CTX ,HX_("The supplied index is out of bounds.",17,96,1b,51))));
             			}
             		}
-HXLINE( 537)		int numRemovals = (endIndex - beginIndex);
-HXLINE( 538)		while((numRemovals >= 0)){
-HXLINE( 540)			this->removeChildAt(beginIndex);
-HXLINE( 541)			numRemovals = (numRemovals - 1);
+HXLINE( 267)		int numRemovals = (endIndex - beginIndex);
+HXLINE( 268)		while((numRemovals >= 0)){
+HXLINE( 270)			this->removeChildAt(beginIndex);
+HXLINE( 271)			numRemovals = (numRemovals - 1);
             		}
             	}
 
@@ -424,46 +463,46 @@ HXLINE( 541)			numRemovals = (numRemovals - 1);
 HX_DEFINE_DYNAMIC_FUNC2(DisplayObjectContainer_obj,removeChildren,(void))
 
  ::openfl::display::DisplayObject DisplayObjectContainer_obj::resolve(::String fieldName){
-            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_546_resolve)
-HXLINE( 547)		if (::hx::IsNull( this->_hx___children )) {
-HXLINE( 547)			return null();
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_276_resolve)
+HXLINE( 277)		if (::hx::IsNull( this->_hx___children )) {
+HXLINE( 277)			return null();
             		}
-HXLINE( 549)		{
-HXLINE( 549)			int _g = 0;
-HXDLIN( 549)			::Array< ::Dynamic> _g1 = this->_hx___children;
-HXDLIN( 549)			while((_g < _g1->length)){
-HXLINE( 549)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
-HXDLIN( 549)				_g = (_g + 1);
-HXLINE( 551)				if ((child->get_name() == fieldName)) {
-HXLINE( 553)					return child;
+HXLINE( 279)		{
+HXLINE( 279)			int _g = 0;
+HXDLIN( 279)			::Array< ::Dynamic> _g1 = this->_hx___children;
+HXDLIN( 279)			while((_g < _g1->length)){
+HXLINE( 279)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN( 279)				_g = (_g + 1);
+HXLINE( 281)				if ((child->get_name() == fieldName)) {
+HXLINE( 283)					return child;
             				}
             			}
             		}
-HXLINE( 557)		return null();
+HXLINE( 287)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(DisplayObjectContainer_obj,resolve,return )
 
 void DisplayObjectContainer_obj::setChildIndex( ::openfl::display::DisplayObject child,int index){
-            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_598_setChildIndex)
-HXDLIN( 598)		bool _hx_tmp;
-HXDLIN( 598)		bool _hx_tmp1;
-HXDLIN( 598)		if ((index >= 0)) {
-HXDLIN( 598)			_hx_tmp1 = (index <= this->_hx___children->length);
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_292_setChildIndex)
+HXDLIN( 292)		bool _hx_tmp;
+HXDLIN( 292)		bool _hx_tmp1;
+HXDLIN( 292)		if ((index >= 0)) {
+HXDLIN( 292)			_hx_tmp1 = (index <= this->_hx___children->length);
             		}
             		else {
-HXDLIN( 598)			_hx_tmp1 = false;
+HXDLIN( 292)			_hx_tmp1 = false;
             		}
-HXDLIN( 598)		if (_hx_tmp1) {
-HXDLIN( 598)			_hx_tmp = ::hx::IsEq( child->parent,::hx::ObjectPtr<OBJ_>(this) );
+HXDLIN( 292)		if (_hx_tmp1) {
+HXDLIN( 292)			_hx_tmp = ::hx::IsEq( child->parent,::hx::ObjectPtr<OBJ_>(this) );
             		}
             		else {
-HXDLIN( 598)			_hx_tmp = false;
+HXDLIN( 292)			_hx_tmp = false;
             		}
-HXDLIN( 598)		if (_hx_tmp) {
-HXLINE( 600)			this->_hx___children->remove(child);
-HXLINE( 601)			this->_hx___children->insert(index,child);
+HXDLIN( 292)		if (_hx_tmp) {
+HXLINE( 294)			this->_hx___children->remove(child);
+HXLINE( 295)			this->_hx___children->insert(index,child);
             		}
             	}
 
@@ -471,30 +510,30 @@ HXLINE( 601)			this->_hx___children->insert(index,child);
 HX_DEFINE_DYNAMIC_FUNC2(DisplayObjectContainer_obj,setChildIndex,(void))
 
 void DisplayObjectContainer_obj::stopAllMovieClips(){
-            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_616_stopAllMovieClips)
-HXDLIN( 616)		this->_hx___stopAllMovieClips();
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_301_stopAllMovieClips)
+HXDLIN( 301)		this->_hx___stopAllMovieClips();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(DisplayObjectContainer_obj,stopAllMovieClips,(void))
 
 void DisplayObjectContainer_obj::swapChildren( ::openfl::display::DisplayObject child1, ::openfl::display::DisplayObject child2){
-            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_631_swapChildren)
-HXDLIN( 631)		bool _hx_tmp;
-HXDLIN( 631)		if (::hx::IsEq( child1->parent,::hx::ObjectPtr<OBJ_>(this) )) {
-HXDLIN( 631)			_hx_tmp = ::hx::IsEq( child2->parent,::hx::ObjectPtr<OBJ_>(this) );
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_306_swapChildren)
+HXDLIN( 306)		bool _hx_tmp;
+HXDLIN( 306)		if (::hx::IsEq( child1->parent,::hx::ObjectPtr<OBJ_>(this) )) {
+HXDLIN( 306)			_hx_tmp = ::hx::IsEq( child2->parent,::hx::ObjectPtr<OBJ_>(this) );
             		}
             		else {
-HXDLIN( 631)			_hx_tmp = false;
+HXDLIN( 306)			_hx_tmp = false;
             		}
-HXDLIN( 631)		if (_hx_tmp) {
-HXLINE( 633)			int index1 = this->_hx___children->indexOf(child1,null());
-HXLINE( 634)			int index2 = this->_hx___children->indexOf(child2,null());
-HXLINE( 636)			this->_hx___children[index1] = child2;
-HXLINE( 637)			this->_hx___children[index2] = child1;
-HXLINE( 639)			if (!(this->_hx___renderDirty)) {
-HXLINE( 639)				this->_hx___renderDirty = true;
-HXDLIN( 639)				this->_hx___setParentRenderDirty();
+HXDLIN( 306)		if (_hx_tmp) {
+HXLINE( 308)			int index1 = this->_hx___children->indexOf(child1,null());
+HXLINE( 309)			int index2 = this->_hx___children->indexOf(child2,null());
+HXLINE( 311)			this->_hx___children[index1] = child2;
+HXLINE( 312)			this->_hx___children[index2] = child1;
+HXLINE( 314)			if (!(this->_hx___renderDirty)) {
+HXLINE( 314)				this->_hx___renderDirty = true;
+HXDLIN( 314)				this->_hx___setParentRenderDirty();
             			}
             		}
             	}
@@ -503,14 +542,14 @@ HXDLIN( 639)				this->_hx___setParentRenderDirty();
 HX_DEFINE_DYNAMIC_FUNC2(DisplayObjectContainer_obj,swapChildren,(void))
 
 void DisplayObjectContainer_obj::swapChildrenAt(int index1,int index2){
-            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_653_swapChildrenAt)
-HXLINE( 654)		 ::openfl::display::DisplayObject swap = this->_hx___children->__get(index1).StaticCast<  ::openfl::display::DisplayObject >();
-HXLINE( 655)		this->_hx___children[index1] = this->_hx___children->__get(index2).StaticCast<  ::openfl::display::DisplayObject >();
-HXLINE( 656)		this->_hx___children[index2] = swap;
-HXLINE( 657)		swap = null();
-HXLINE( 658)		if (!(this->_hx___renderDirty)) {
-HXLINE( 658)			this->_hx___renderDirty = true;
-HXDLIN( 658)			this->_hx___setParentRenderDirty();
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_319_swapChildrenAt)
+HXLINE( 320)		 ::openfl::display::DisplayObject swap = this->_hx___children->__get(index1).StaticCast<  ::openfl::display::DisplayObject >();
+HXLINE( 321)		this->_hx___children[index1] = this->_hx___children->__get(index2).StaticCast<  ::openfl::display::DisplayObject >();
+HXLINE( 322)		this->_hx___children[index2] = swap;
+HXLINE( 323)		swap = null();
+HXLINE( 324)		if (!(this->_hx___renderDirty)) {
+HXLINE( 324)			this->_hx___renderDirty = true;
+HXDLIN( 324)			this->_hx___setParentRenderDirty();
             		}
             	}
 
@@ -518,62 +557,62 @@ HXDLIN( 658)			this->_hx___setParentRenderDirty();
 HX_DEFINE_DYNAMIC_FUNC2(DisplayObjectContainer_obj,swapChildrenAt,(void))
 
 void DisplayObjectContainer_obj::_hx___cleanup(){
-            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_662___cleanup)
-HXLINE( 663)		this->super::_hx___cleanup();
-HXLINE( 665)		{
-HXLINE( 665)			int _g = 0;
-HXDLIN( 665)			::Array< ::Dynamic> _g1 = this->_hx___children;
-HXDLIN( 665)			while((_g < _g1->length)){
-HXLINE( 665)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
-HXDLIN( 665)				_g = (_g + 1);
-HXLINE( 667)				child->_hx___cleanup();
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_328___cleanup)
+HXLINE( 329)		this->super::_hx___cleanup();
+HXLINE( 331)		{
+HXLINE( 331)			int _g = 0;
+HXDLIN( 331)			::Array< ::Dynamic> _g1 = this->_hx___children;
+HXDLIN( 331)			while((_g < _g1->length)){
+HXLINE( 331)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN( 331)				_g = (_g + 1);
+HXLINE( 333)				child->_hx___cleanup();
             			}
             		}
-HXLINE( 670)		{
-HXLINE( 670)			{
-HXLINE( 670)				 ::Dynamic orphan = this->_hx___removedChildren->iterator();
-HXDLIN( 670)				while(( (bool)(orphan->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE( 670)					 ::openfl::display::DisplayObject orphan1 = ( ( ::openfl::display::DisplayObject)(orphan->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXDLIN( 670)					if (::hx::IsNull( orphan1->stage )) {
-HXLINE( 670)						orphan1->_hx___cleanup();
+HXLINE( 336)		{
+HXLINE( 336)			{
+HXLINE( 336)				 ::Dynamic orphan = this->_hx___removedChildren->iterator();
+HXDLIN( 336)				while(( (bool)(orphan->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE( 336)					 ::openfl::display::DisplayObject orphan1 = ( ( ::openfl::display::DisplayObject)(orphan->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXDLIN( 336)					if (::hx::IsNull( orphan1->stage )) {
+HXLINE( 336)						orphan1->_hx___cleanup();
             					}
             				}
             			}
-HXDLIN( 670)			this->_hx___removedChildren->set_length(0);
+HXDLIN( 336)			this->_hx___removedChildren->set_length(0);
             		}
             	}
 
 
 void DisplayObjectContainer_obj::_hx___cleanupRemovedChildren(){
-            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_674___cleanupRemovedChildren)
-HXLINE( 675)		{
-HXLINE( 675)			 ::Dynamic orphan = this->_hx___removedChildren->iterator();
-HXDLIN( 675)			while(( (bool)(orphan->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE( 675)				 ::openfl::display::DisplayObject orphan1 = ( ( ::openfl::display::DisplayObject)(orphan->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE( 677)				if (::hx::IsNull( orphan1->stage )) {
-HXLINE( 679)					orphan1->_hx___cleanup();
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_340___cleanupRemovedChildren)
+HXLINE( 341)		{
+HXLINE( 341)			 ::Dynamic orphan = this->_hx___removedChildren->iterator();
+HXDLIN( 341)			while(( (bool)(orphan->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE( 341)				 ::openfl::display::DisplayObject orphan1 = ( ( ::openfl::display::DisplayObject)(orphan->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE( 343)				if (::hx::IsNull( orphan1->stage )) {
+HXLINE( 345)					orphan1->_hx___cleanup();
             				}
             			}
             		}
-HXLINE( 683)		this->_hx___removedChildren->set_length(0);
+HXLINE( 349)		this->_hx___removedChildren->set_length(0);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(DisplayObjectContainer_obj,_hx___cleanupRemovedChildren,(void))
 
 void DisplayObjectContainer_obj::_hx___dispatchChildren( ::openfl::events::Event event){
-            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_688___dispatchChildren)
-HXDLIN( 688)		if (::hx::IsNotNull( this->_hx___children )) {
-HXLINE( 690)			int _g = 0;
-HXDLIN( 690)			::Array< ::Dynamic> _g1 = this->_hx___children;
-HXDLIN( 690)			while((_g < _g1->length)){
-HXLINE( 690)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
-HXDLIN( 690)				_g = (_g + 1);
-HXLINE( 692)				event->target = child;
-HXLINE( 694)				if (!(child->_hx___dispatchWithCapture(event))) {
-HXLINE( 696)					goto _hx_goto_27;
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_354___dispatchChildren)
+HXDLIN( 354)		if (::hx::IsNotNull( this->_hx___children )) {
+HXLINE( 356)			int _g = 0;
+HXDLIN( 356)			::Array< ::Dynamic> _g1 = this->_hx___children;
+HXDLIN( 356)			while((_g < _g1->length)){
+HXLINE( 356)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN( 356)				_g = (_g + 1);
+HXLINE( 358)				event->target = child;
+HXLINE( 360)				if (!(child->_hx___dispatchWithCapture(event))) {
+HXLINE( 362)					goto _hx_goto_27;
             				}
-HXLINE( 699)				child->_hx___dispatchChildren(event);
+HXLINE( 365)				child->_hx___dispatchChildren(event);
             			}
             			_hx_goto_27:;
             		}
@@ -581,409 +620,821 @@ HXLINE( 699)				child->_hx___dispatchChildren(event);
 
 
 void DisplayObjectContainer_obj::_hx___enterFrame(int deltaTime){
-            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_706___enterFrame)
-HXDLIN( 706)		int _g = 0;
-HXDLIN( 706)		::Array< ::Dynamic> _g1 = this->_hx___children;
-HXDLIN( 706)		while((_g < _g1->length)){
-HXDLIN( 706)			 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
-HXDLIN( 706)			_g = (_g + 1);
-HXLINE( 708)			child->_hx___enterFrame(deltaTime);
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_372___enterFrame)
+HXDLIN( 372)		int _g = 0;
+HXDLIN( 372)		::Array< ::Dynamic> _g1 = this->_hx___children;
+HXDLIN( 372)		while((_g < _g1->length)){
+HXDLIN( 372)			 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN( 372)			_g = (_g + 1);
+HXLINE( 374)			child->_hx___enterFrame(deltaTime);
             		}
             	}
 
 
 void DisplayObjectContainer_obj::_hx___getBounds( ::openfl::geom::Rectangle rect, ::openfl::geom::Matrix matrix){
-            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_713___getBounds)
-HXLINE( 714)		this->super::_hx___getBounds(rect,matrix);
-HXLINE( 716)		if ((this->_hx___children->length == 0)) {
-HXLINE( 716)			return;
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_379___getBounds)
+HXLINE( 380)		this->super::_hx___getBounds(rect,matrix);
+HXLINE( 382)		if ((this->_hx___children->length == 0)) {
+HXLINE( 382)			return;
             		}
-HXLINE( 718)		 ::openfl::geom::Matrix childWorldTransform = ::openfl::geom::Matrix_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Matrix >();
-HXLINE( 720)		{
-HXLINE( 720)			int _g = 0;
-HXDLIN( 720)			::Array< ::Dynamic> _g1 = this->_hx___children;
-HXDLIN( 720)			while((_g < _g1->length)){
-HXLINE( 720)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
-HXDLIN( 720)				_g = (_g + 1);
-HXLINE( 722)				bool _hx_tmp;
-HXDLIN( 722)				if ((child->_hx___scaleX != 0)) {
-HXLINE( 722)					_hx_tmp = (child->_hx___scaleY == 0);
+HXLINE( 384)		 ::openfl::geom::Matrix childWorldTransform = ::openfl::geom::Matrix_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Matrix >();
+HXLINE( 386)		{
+HXLINE( 386)			int _g = 0;
+HXDLIN( 386)			::Array< ::Dynamic> _g1 = this->_hx___children;
+HXDLIN( 386)			while((_g < _g1->length)){
+HXLINE( 386)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN( 386)				_g = (_g + 1);
+HXLINE( 388)				bool _hx_tmp;
+HXDLIN( 388)				if ((child->_hx___scaleX != 0)) {
+HXLINE( 388)					_hx_tmp = (child->_hx___scaleY == 0);
             				}
             				else {
-HXLINE( 722)					_hx_tmp = true;
+HXLINE( 388)					_hx_tmp = true;
             				}
-HXDLIN( 722)				if (_hx_tmp) {
-HXLINE( 722)					continue;
+HXDLIN( 388)				if (_hx_tmp) {
+HXLINE( 388)					continue;
             				}
-HXLINE( 724)				{
-HXLINE( 724)					 ::openfl::geom::Matrix local = child->_hx___transform;
-HXDLIN( 724)					childWorldTransform->a = ((local->a * matrix->a) + (local->b * matrix->c));
-HXDLIN( 724)					childWorldTransform->b = ((local->a * matrix->b) + (local->b * matrix->d));
-HXDLIN( 724)					childWorldTransform->c = ((local->c * matrix->a) + (local->d * matrix->c));
-HXDLIN( 724)					childWorldTransform->d = ((local->c * matrix->b) + (local->d * matrix->d));
-HXDLIN( 724)					childWorldTransform->tx = (((local->tx * matrix->a) + (local->ty * matrix->c)) + matrix->tx);
-HXDLIN( 724)					childWorldTransform->ty = (((local->tx * matrix->b) + (local->ty * matrix->d)) + matrix->ty);
+HXLINE( 390)				{
+HXLINE( 390)					 ::openfl::geom::Matrix local = child->_hx___transform;
+HXDLIN( 390)					childWorldTransform->a = ((local->a * matrix->a) + (local->b * matrix->c));
+HXDLIN( 390)					childWorldTransform->b = ((local->a * matrix->b) + (local->b * matrix->d));
+HXDLIN( 390)					childWorldTransform->c = ((local->c * matrix->a) + (local->d * matrix->c));
+HXDLIN( 390)					childWorldTransform->d = ((local->c * matrix->b) + (local->d * matrix->d));
+HXDLIN( 390)					childWorldTransform->tx = (((local->tx * matrix->a) + (local->ty * matrix->c)) + matrix->tx);
+HXDLIN( 390)					childWorldTransform->ty = (((local->tx * matrix->b) + (local->ty * matrix->d)) + matrix->ty);
             				}
-HXLINE( 726)				child->_hx___getBounds(rect,childWorldTransform);
+HXLINE( 392)				child->_hx___getBounds(rect,childWorldTransform);
             			}
             		}
-HXLINE( 729)		::openfl::geom::Matrix_obj::_hx___pool->release(childWorldTransform);
+HXLINE( 395)		::openfl::geom::Matrix_obj::_hx___pool->release(childWorldTransform);
             	}
 
 
 void DisplayObjectContainer_obj::_hx___getFilterBounds( ::openfl::geom::Rectangle rect, ::openfl::geom::Matrix matrix){
-            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_733___getFilterBounds)
-HXLINE( 734)		this->super::_hx___getFilterBounds(rect,matrix);
-HXLINE( 735)		if (::hx::IsNotNull( this->_hx___scrollRect )) {
-HXLINE( 735)			return;
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_399___getFilterBounds)
+HXLINE( 400)		this->super::_hx___getFilterBounds(rect,matrix);
+HXLINE( 401)		if (::hx::IsNotNull( this->_hx___scrollRect )) {
+HXLINE( 401)			return;
             		}
-HXLINE( 737)		if ((this->_hx___children->length == 0)) {
-HXLINE( 737)			return;
+HXLINE( 403)		if ((this->_hx___children->length == 0)) {
+HXLINE( 403)			return;
             		}
-HXLINE( 739)		 ::openfl::geom::Matrix childWorldTransform = ::openfl::geom::Matrix_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Matrix >();
-HXLINE( 741)		{
-HXLINE( 741)			int _g = 0;
-HXDLIN( 741)			::Array< ::Dynamic> _g1 = this->_hx___children;
-HXDLIN( 741)			while((_g < _g1->length)){
-HXLINE( 741)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
-HXDLIN( 741)				_g = (_g + 1);
-HXLINE( 743)				bool _hx_tmp;
-HXDLIN( 743)				bool _hx_tmp1;
-HXDLIN( 743)				if ((child->_hx___scaleX != 0)) {
-HXLINE( 743)					_hx_tmp1 = (child->_hx___scaleY == 0);
+HXLINE( 405)		 ::openfl::geom::Matrix childWorldTransform = ::openfl::geom::Matrix_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Matrix >();
+HXLINE( 407)		{
+HXLINE( 407)			int _g = 0;
+HXDLIN( 407)			::Array< ::Dynamic> _g1 = this->_hx___children;
+HXDLIN( 407)			while((_g < _g1->length)){
+HXLINE( 407)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN( 407)				_g = (_g + 1);
+HXLINE( 409)				bool _hx_tmp;
+HXDLIN( 409)				bool _hx_tmp1;
+HXDLIN( 409)				if ((child->_hx___scaleX != 0)) {
+HXLINE( 409)					_hx_tmp1 = (child->_hx___scaleY == 0);
             				}
             				else {
-HXLINE( 743)					_hx_tmp1 = true;
+HXLINE( 409)					_hx_tmp1 = true;
             				}
-HXDLIN( 743)				if (!(_hx_tmp1)) {
-HXLINE( 743)					_hx_tmp = child->_hx___isMask;
+HXDLIN( 409)				if (!(_hx_tmp1)) {
+HXLINE( 409)					_hx_tmp = child->_hx___isMask;
             				}
             				else {
-HXLINE( 743)					_hx_tmp = true;
+HXLINE( 409)					_hx_tmp = true;
             				}
-HXDLIN( 743)				if (_hx_tmp) {
-HXLINE( 743)					continue;
+HXDLIN( 409)				if (_hx_tmp) {
+HXLINE( 409)					continue;
             				}
-HXLINE( 745)				{
-HXLINE( 745)					 ::openfl::geom::Matrix local = child->_hx___transform;
-HXDLIN( 745)					childWorldTransform->a = ((local->a * matrix->a) + (local->b * matrix->c));
-HXDLIN( 745)					childWorldTransform->b = ((local->a * matrix->b) + (local->b * matrix->d));
-HXDLIN( 745)					childWorldTransform->c = ((local->c * matrix->a) + (local->d * matrix->c));
-HXDLIN( 745)					childWorldTransform->d = ((local->c * matrix->b) + (local->d * matrix->d));
-HXDLIN( 745)					childWorldTransform->tx = (((local->tx * matrix->a) + (local->ty * matrix->c)) + matrix->tx);
-HXDLIN( 745)					childWorldTransform->ty = (((local->tx * matrix->b) + (local->ty * matrix->d)) + matrix->ty);
+HXLINE( 411)				{
+HXLINE( 411)					 ::openfl::geom::Matrix local = child->_hx___transform;
+HXDLIN( 411)					childWorldTransform->a = ((local->a * matrix->a) + (local->b * matrix->c));
+HXDLIN( 411)					childWorldTransform->b = ((local->a * matrix->b) + (local->b * matrix->d));
+HXDLIN( 411)					childWorldTransform->c = ((local->c * matrix->a) + (local->d * matrix->c));
+HXDLIN( 411)					childWorldTransform->d = ((local->c * matrix->b) + (local->d * matrix->d));
+HXDLIN( 411)					childWorldTransform->tx = (((local->tx * matrix->a) + (local->ty * matrix->c)) + matrix->tx);
+HXDLIN( 411)					childWorldTransform->ty = (((local->tx * matrix->b) + (local->ty * matrix->d)) + matrix->ty);
             				}
-HXLINE( 747)				 ::openfl::geom::Rectangle childRect = ::openfl::geom::Rectangle_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Rectangle >();
-HXLINE( 749)				child->_hx___getFilterBounds(childRect,childWorldTransform);
-HXLINE( 750)				rect->_hx___expand(childRect->x,childRect->y,childRect->width,childRect->height);
-HXLINE( 752)				::openfl::geom::Rectangle_obj::_hx___pool->release(childRect);
+HXLINE( 413)				child->_hx___getFilterBounds(rect,childWorldTransform);
             			}
             		}
-HXLINE( 755)		::openfl::geom::Matrix_obj::_hx___pool->release(childWorldTransform);
+HXLINE( 416)		::openfl::geom::Matrix_obj::_hx___pool->release(childWorldTransform);
             	}
 
 
 void DisplayObjectContainer_obj::_hx___getRenderBounds( ::openfl::geom::Rectangle rect, ::openfl::geom::Matrix matrix){
-            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_759___getRenderBounds)
-HXLINE( 760)		if (::hx::IsNotNull( this->_hx___scrollRect )) {
-HXLINE( 762)			this->super::_hx___getRenderBounds(rect,matrix);
-HXLINE( 763)			return;
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_420___getRenderBounds)
+HXLINE( 421)		if (::hx::IsNotNull( this->_hx___scrollRect )) {
+HXLINE( 423)			this->super::_hx___getRenderBounds(rect,matrix);
+HXLINE( 424)			return;
             		}
             		else {
-HXLINE( 767)			this->super::_hx___getBounds(rect,matrix);
+HXLINE( 428)			this->super::_hx___getBounds(rect,matrix);
             		}
-HXLINE( 770)		if ((this->_hx___children->length == 0)) {
-HXLINE( 770)			return;
+HXLINE( 431)		if ((this->_hx___children->length == 0)) {
+HXLINE( 431)			return;
             		}
-HXLINE( 772)		 ::openfl::geom::Matrix childWorldTransform = ::openfl::geom::Matrix_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Matrix >();
-HXLINE( 774)		{
-HXLINE( 774)			int _g = 0;
-HXDLIN( 774)			::Array< ::Dynamic> _g1 = this->_hx___children;
-HXDLIN( 774)			while((_g < _g1->length)){
-HXLINE( 774)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
-HXDLIN( 774)				_g = (_g + 1);
-HXLINE( 776)				bool _hx_tmp;
-HXDLIN( 776)				bool _hx_tmp1;
-HXDLIN( 776)				if ((child->_hx___scaleX != 0)) {
-HXLINE( 776)					_hx_tmp1 = (child->_hx___scaleY == 0);
+HXLINE( 433)		 ::openfl::geom::Matrix childWorldTransform = ::openfl::geom::Matrix_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Matrix >();
+HXLINE( 435)		{
+HXLINE( 435)			int _g = 0;
+HXDLIN( 435)			::Array< ::Dynamic> _g1 = this->_hx___children;
+HXDLIN( 435)			while((_g < _g1->length)){
+HXLINE( 435)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN( 435)				_g = (_g + 1);
+HXLINE( 437)				bool _hx_tmp;
+HXDLIN( 437)				bool _hx_tmp1;
+HXDLIN( 437)				if ((child->_hx___scaleX != 0)) {
+HXLINE( 437)					_hx_tmp1 = (child->_hx___scaleY == 0);
             				}
             				else {
-HXLINE( 776)					_hx_tmp1 = true;
+HXLINE( 437)					_hx_tmp1 = true;
             				}
-HXDLIN( 776)				if (!(_hx_tmp1)) {
-HXLINE( 776)					_hx_tmp = child->_hx___isMask;
+HXDLIN( 437)				if (!(_hx_tmp1)) {
+HXLINE( 437)					_hx_tmp = child->_hx___isMask;
             				}
             				else {
-HXLINE( 776)					_hx_tmp = true;
+HXLINE( 437)					_hx_tmp = true;
             				}
-HXDLIN( 776)				if (_hx_tmp) {
-HXLINE( 776)					continue;
+HXDLIN( 437)				if (_hx_tmp) {
+HXLINE( 437)					continue;
             				}
-HXLINE( 778)				{
-HXLINE( 778)					 ::openfl::geom::Matrix local = child->_hx___transform;
-HXDLIN( 778)					childWorldTransform->a = ((local->a * matrix->a) + (local->b * matrix->c));
-HXDLIN( 778)					childWorldTransform->b = ((local->a * matrix->b) + (local->b * matrix->d));
-HXDLIN( 778)					childWorldTransform->c = ((local->c * matrix->a) + (local->d * matrix->c));
-HXDLIN( 778)					childWorldTransform->d = ((local->c * matrix->b) + (local->d * matrix->d));
-HXDLIN( 778)					childWorldTransform->tx = (((local->tx * matrix->a) + (local->ty * matrix->c)) + matrix->tx);
-HXDLIN( 778)					childWorldTransform->ty = (((local->tx * matrix->b) + (local->ty * matrix->d)) + matrix->ty);
+HXLINE( 439)				{
+HXLINE( 439)					 ::openfl::geom::Matrix local = child->_hx___transform;
+HXDLIN( 439)					childWorldTransform->a = ((local->a * matrix->a) + (local->b * matrix->c));
+HXDLIN( 439)					childWorldTransform->b = ((local->a * matrix->b) + (local->b * matrix->d));
+HXDLIN( 439)					childWorldTransform->c = ((local->c * matrix->a) + (local->d * matrix->c));
+HXDLIN( 439)					childWorldTransform->d = ((local->c * matrix->b) + (local->d * matrix->d));
+HXDLIN( 439)					childWorldTransform->tx = (((local->tx * matrix->a) + (local->ty * matrix->c)) + matrix->tx);
+HXDLIN( 439)					childWorldTransform->ty = (((local->tx * matrix->b) + (local->ty * matrix->d)) + matrix->ty);
             				}
-HXLINE( 780)				child->_hx___getRenderBounds(rect,childWorldTransform);
+HXLINE( 441)				child->_hx___getRenderBounds(rect,childWorldTransform);
             			}
             		}
-HXLINE( 783)		::openfl::geom::Matrix_obj::_hx___pool->release(childWorldTransform);
+HXLINE( 444)		::openfl::geom::Matrix_obj::_hx___pool->release(childWorldTransform);
             	}
 
 
 bool DisplayObjectContainer_obj::_hx___hitTest(Float x,Float y,bool shapeFlag,::Array< ::Dynamic> stack,bool interactiveOnly, ::openfl::display::DisplayObject hitObject){
-            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_788___hitTest)
-HXLINE( 789)		bool _hx_tmp;
-HXDLIN( 789)		bool _hx_tmp1;
-HXDLIN( 789)		if (hitObject->get_visible()) {
-HXLINE( 789)			_hx_tmp1 = this->_hx___isMask;
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_449___hitTest)
+HXLINE( 450)		bool _hx_tmp;
+HXDLIN( 450)		bool _hx_tmp1;
+HXDLIN( 450)		if (hitObject->get_visible()) {
+HXLINE( 450)			_hx_tmp1 = this->_hx___isMask;
             		}
             		else {
-HXLINE( 789)			_hx_tmp1 = true;
+HXLINE( 450)			_hx_tmp1 = true;
             		}
-HXDLIN( 789)		if (!(_hx_tmp1)) {
-HXLINE( 789)			bool _hx_tmp1;
-HXDLIN( 789)			if (interactiveOnly) {
-HXLINE( 789)				_hx_tmp1 = !(this->mouseEnabled);
+HXDLIN( 450)		if (!(_hx_tmp1)) {
+HXLINE( 450)			bool _hx_tmp1;
+HXDLIN( 450)			if (interactiveOnly) {
+HXLINE( 450)				_hx_tmp1 = !(this->mouseEnabled);
             			}
             			else {
-HXLINE( 789)				_hx_tmp1 = false;
+HXLINE( 450)				_hx_tmp1 = false;
             			}
-HXDLIN( 789)			if (_hx_tmp1) {
-HXLINE( 789)				_hx_tmp = !(this->mouseChildren);
+HXDLIN( 450)			if (_hx_tmp1) {
+HXLINE( 450)				_hx_tmp = !(this->mouseChildren);
             			}
             			else {
-HXLINE( 789)				_hx_tmp = false;
+HXLINE( 450)				_hx_tmp = false;
             			}
             		}
             		else {
-HXLINE( 789)			_hx_tmp = true;
+HXLINE( 450)			_hx_tmp = true;
             		}
-HXDLIN( 789)		if (_hx_tmp) {
-HXLINE( 789)			return false;
+HXDLIN( 450)		if (_hx_tmp) {
+HXLINE( 450)			return false;
             		}
-HXLINE( 790)		bool _hx_tmp2;
-HXDLIN( 790)		if (::hx::IsNotNull( this->get_mask() )) {
-HXLINE( 790)			_hx_tmp2 = !(this->get_mask()->_hx___hitTestMask(x,y));
+HXLINE( 451)		bool _hx_tmp2;
+HXDLIN( 451)		if (::hx::IsNotNull( this->get_mask() )) {
+HXLINE( 451)			_hx_tmp2 = !(this->get_mask()->_hx___hitTestMask(x,y));
             		}
             		else {
-HXLINE( 790)			_hx_tmp2 = false;
+HXLINE( 451)			_hx_tmp2 = false;
             		}
-HXDLIN( 790)		if (_hx_tmp2) {
-HXLINE( 790)			return false;
+HXDLIN( 451)		if (_hx_tmp2) {
+HXLINE( 451)			return false;
             		}
-HXLINE( 792)		if (::hx::IsNotNull( this->_hx___scrollRect )) {
-HXLINE( 794)			 ::openfl::geom::Point point = ::openfl::geom::Point_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Point >();
-HXLINE( 795)			point->setTo(x,y);
-HXLINE( 796)			{
-HXLINE( 796)				 ::openfl::geom::Matrix _this = this->_hx___getRenderTransform();
-HXDLIN( 796)				Float norm = ((_this->a * _this->d) - (_this->b * _this->c));
-HXDLIN( 796)				if ((norm == 0)) {
-HXLINE( 796)					point->x = -(_this->tx);
-HXDLIN( 796)					point->y = -(_this->ty);
+HXLINE( 453)		if (::hx::IsNotNull( this->_hx___scrollRect )) {
+HXLINE( 455)			 ::openfl::geom::Point point = ::openfl::geom::Point_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Point >();
+HXLINE( 456)			point->setTo(x,y);
+HXLINE( 457)			{
+HXLINE( 457)				 ::openfl::geom::Matrix _this = this->_hx___getRenderTransform();
+HXDLIN( 457)				Float norm = ((_this->a * _this->d) - (_this->b * _this->c));
+HXDLIN( 457)				if ((norm == 0)) {
+HXLINE( 457)					point->x = -(_this->tx);
+HXDLIN( 457)					point->y = -(_this->ty);
             				}
             				else {
-HXLINE( 796)					Float px = ((((Float)1.0) / norm) * ((_this->c * (_this->ty - point->y)) + (_this->d * (point->x - _this->tx))));
-HXDLIN( 796)					point->y = ((((Float)1.0) / norm) * ((_this->a * (point->y - _this->ty)) + (_this->b * (_this->tx - point->x))));
-HXDLIN( 796)					point->x = px;
+HXLINE( 457)					Float px = ((((Float)1.0) / norm) * ((_this->c * (_this->ty - point->y)) + (_this->d * (point->x - _this->tx))));
+HXDLIN( 457)					point->y = ((((Float)1.0) / norm) * ((_this->a * (point->y - _this->ty)) + (_this->b * (_this->tx - point->x))));
+HXDLIN( 457)					point->x = px;
             				}
             			}
-HXLINE( 798)			if (!(this->_hx___scrollRect->containsPoint(point))) {
-HXLINE( 800)				::openfl::geom::Point_obj::_hx___pool->release(point);
-HXLINE( 801)				return false;
+HXLINE( 459)			if (!(this->_hx___scrollRect->containsPoint(point))) {
+HXLINE( 461)				::openfl::geom::Point_obj::_hx___pool->release(point);
+HXLINE( 462)				return false;
             			}
-HXLINE( 804)			::openfl::geom::Point_obj::_hx___pool->release(point);
+HXLINE( 465)			::openfl::geom::Point_obj::_hx___pool->release(point);
             		}
-HXLINE( 807)		int i = this->_hx___children->length;
-HXLINE( 808)		if (interactiveOnly) {
-HXLINE( 810)			bool _hx_tmp;
-HXDLIN( 810)			if (::hx::IsNotNull( stack )) {
-HXLINE( 810)				_hx_tmp = !(this->mouseChildren);
+HXLINE( 468)		int i = this->_hx___children->length;
+HXLINE( 469)		if (interactiveOnly) {
+HXLINE( 471)			bool _hx_tmp;
+HXDLIN( 471)			if (::hx::IsNotNull( stack )) {
+HXLINE( 471)				_hx_tmp = !(this->mouseChildren);
             			}
             			else {
-HXLINE( 810)				_hx_tmp = true;
+HXLINE( 471)				_hx_tmp = true;
             			}
-HXDLIN( 810)			if (_hx_tmp) {
-HXLINE( 812)				while(true){
-HXLINE( 812)					i = (i - 1);
-HXDLIN( 812)					if (!((i >= 0))) {
-HXLINE( 812)						goto _hx_goto_37;
+HXDLIN( 471)			if (_hx_tmp) {
+HXLINE( 473)				while(true){
+HXLINE( 473)					i = (i - 1);
+HXDLIN( 473)					if (!((i >= 0))) {
+HXLINE( 473)						goto _hx_goto_37;
             					}
-HXLINE( 814)					if (this->_hx___children->__get(i).StaticCast<  ::openfl::display::DisplayObject >()->_hx___hitTest(x,y,shapeFlag,null(),true,this->_hx___children->__get(i).StaticCast<  ::openfl::display::DisplayObject >())) {
-HXLINE( 816)						if (::hx::IsNotNull( stack )) {
-HXLINE( 818)							stack->push(hitObject);
+HXLINE( 475)					if (this->_hx___children->__get(i).StaticCast<  ::openfl::display::DisplayObject >()->_hx___hitTest(x,y,shapeFlag,null(),true,this->_hx___children->__get(i).StaticCast<  ::openfl::display::DisplayObject >())) {
+HXLINE( 477)						if (::hx::IsNotNull( stack )) {
+HXLINE( 479)							stack->push(hitObject);
             						}
-HXLINE( 821)						return true;
+HXLINE( 482)						return true;
             					}
             				}
             				_hx_goto_37:;
             			}
             			else {
-HXLINE( 825)				if (::hx::IsNotNull( stack )) {
-HXLINE( 827)					int length = stack->length;
-HXLINE( 829)					bool interactive = false;
-HXLINE( 830)					bool hitTest = false;
-HXLINE( 832)					while(true){
-HXLINE( 832)						i = (i - 1);
-HXDLIN( 832)						if (!((i >= 0))) {
-HXLINE( 832)							goto _hx_goto_38;
+HXLINE( 486)				if (::hx::IsNotNull( stack )) {
+HXLINE( 488)					int length = stack->length;
+HXLINE( 490)					bool interactive = false;
+HXLINE( 491)					bool hitTest = false;
+HXLINE( 493)					while(true){
+HXLINE( 493)						i = (i - 1);
+HXDLIN( 493)						if (!((i >= 0))) {
+HXLINE( 493)							goto _hx_goto_38;
             						}
-HXLINE( 834)						interactive = this->_hx___children->__get(i).StaticCast<  ::openfl::display::DisplayObject >()->_hx___getInteractive(null());
-HXLINE( 836)						bool _hx_tmp;
-HXDLIN( 836)						if (!(interactive)) {
-HXLINE( 836)							if (this->mouseEnabled) {
-HXLINE( 836)								_hx_tmp = !(hitTest);
+HXLINE( 495)						interactive = this->_hx___children->__get(i).StaticCast<  ::openfl::display::DisplayObject >()->_hx___getInteractive(null());
+HXLINE( 497)						bool _hx_tmp;
+HXDLIN( 497)						if (!(interactive)) {
+HXLINE( 497)							if (this->mouseEnabled) {
+HXLINE( 497)								_hx_tmp = !(hitTest);
             							}
             							else {
-HXLINE( 836)								_hx_tmp = false;
+HXLINE( 497)								_hx_tmp = false;
             							}
             						}
             						else {
-HXLINE( 836)							_hx_tmp = true;
+HXLINE( 497)							_hx_tmp = true;
             						}
-HXDLIN( 836)						if (_hx_tmp) {
-HXLINE( 838)							if (this->_hx___children->__get(i).StaticCast<  ::openfl::display::DisplayObject >()->_hx___hitTest(x,y,shapeFlag,stack,true,this->_hx___children->__get(i).StaticCast<  ::openfl::display::DisplayObject >())) {
-HXLINE( 840)								hitTest = true;
-HXLINE( 842)								bool _hx_tmp;
-HXDLIN( 842)								if (interactive) {
-HXLINE( 842)									_hx_tmp = (stack->length > length);
+HXDLIN( 497)						if (_hx_tmp) {
+HXLINE( 499)							if (this->_hx___children->__get(i).StaticCast<  ::openfl::display::DisplayObject >()->_hx___hitTest(x,y,shapeFlag,stack,true,this->_hx___children->__get(i).StaticCast<  ::openfl::display::DisplayObject >())) {
+HXLINE( 501)								hitTest = true;
+HXLINE( 503)								bool _hx_tmp;
+HXDLIN( 503)								if (interactive) {
+HXLINE( 503)									_hx_tmp = (stack->length > length);
             								}
             								else {
-HXLINE( 842)									_hx_tmp = false;
+HXLINE( 503)									_hx_tmp = false;
             								}
-HXDLIN( 842)								if (_hx_tmp) {
-HXLINE( 844)									goto _hx_goto_38;
+HXDLIN( 503)								if (_hx_tmp) {
+HXLINE( 505)									goto _hx_goto_38;
             								}
             							}
             						}
             					}
             					_hx_goto_38:;
-HXLINE( 850)					if (hitTest) {
-HXLINE( 852)						stack->insert(length,hitObject);
-HXLINE( 853)						return true;
+HXLINE( 511)					if (hitTest) {
+HXLINE( 513)						stack->insert(length,hitObject);
+HXLINE( 514)						return true;
             					}
             				}
             			}
             		}
             		else {
-HXLINE( 859)			bool hitTest = false;
-HXLINE( 861)			while(true){
-HXLINE( 861)				i = (i - 1);
-HXDLIN( 861)				if (!((i >= 0))) {
-HXLINE( 861)					goto _hx_goto_39;
+HXLINE( 520)			bool hitTest = false;
+HXLINE( 522)			while(true){
+HXLINE( 522)				i = (i - 1);
+HXDLIN( 522)				if (!((i >= 0))) {
+HXLINE( 522)					goto _hx_goto_39;
             				}
-HXLINE( 863)				if (this->_hx___children->__get(i).StaticCast<  ::openfl::display::DisplayObject >()->_hx___hitTest(x,y,shapeFlag,stack,false,this->_hx___children->__get(i).StaticCast<  ::openfl::display::DisplayObject >())) {
-HXLINE( 865)					hitTest = true;
-HXLINE( 866)					if (::hx::IsNull( stack )) {
-HXLINE( 866)						goto _hx_goto_39;
+HXLINE( 524)				if (this->_hx___children->__get(i).StaticCast<  ::openfl::display::DisplayObject >()->_hx___hitTest(x,y,shapeFlag,stack,false,this->_hx___children->__get(i).StaticCast<  ::openfl::display::DisplayObject >())) {
+HXLINE( 526)					hitTest = true;
+HXLINE( 527)					if (::hx::IsNull( stack )) {
+HXLINE( 527)						goto _hx_goto_39;
             					}
             				}
             			}
             			_hx_goto_39:;
-HXLINE( 870)			return hitTest;
+HXLINE( 531)			return hitTest;
             		}
-HXLINE( 873)		return false;
+HXLINE( 534)		return false;
             	}
 
 
 bool DisplayObjectContainer_obj::_hx___hitTestMask(Float x,Float y){
-            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_877___hitTestMask)
-HXLINE( 878)		int i = this->_hx___children->length;
-HXLINE( 880)		while(true){
-HXLINE( 880)			i = (i - 1);
-HXDLIN( 880)			if (!((i >= 0))) {
-HXLINE( 880)				goto _hx_goto_41;
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_538___hitTestMask)
+HXLINE( 539)		int i = this->_hx___children->length;
+HXLINE( 541)		while(true){
+HXLINE( 541)			i = (i - 1);
+HXDLIN( 541)			if (!((i >= 0))) {
+HXLINE( 541)				goto _hx_goto_41;
             			}
-HXLINE( 882)			if (this->_hx___children->__get(i).StaticCast<  ::openfl::display::DisplayObject >()->_hx___hitTestMask(x,y)) {
-HXLINE( 884)				return true;
+HXLINE( 543)			if (this->_hx___children->__get(i).StaticCast<  ::openfl::display::DisplayObject >()->_hx___hitTestMask(x,y)) {
+HXLINE( 545)				return true;
             			}
             		}
             		_hx_goto_41:;
-HXLINE( 888)		return false;
+HXLINE( 549)		return false;
             	}
 
 
 void DisplayObjectContainer_obj::_hx___readGraphicsData( ::openfl::_Vector::ObjectVector graphicsData,bool recurse){
-            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_892___readGraphicsData)
-HXLINE( 893)		this->super::_hx___readGraphicsData(graphicsData,recurse);
-HXLINE( 895)		if (recurse) {
-HXLINE( 897)			int _g = 0;
-HXDLIN( 897)			::Array< ::Dynamic> _g1 = this->_hx___children;
-HXDLIN( 897)			while((_g < _g1->length)){
-HXLINE( 897)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
-HXDLIN( 897)				_g = (_g + 1);
-HXLINE( 899)				child->_hx___readGraphicsData(graphicsData,recurse);
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_553___readGraphicsData)
+HXLINE( 554)		this->super::_hx___readGraphicsData(graphicsData,recurse);
+HXLINE( 556)		if (recurse) {
+HXLINE( 558)			int _g = 0;
+HXDLIN( 558)			::Array< ::Dynamic> _g1 = this->_hx___children;
+HXDLIN( 558)			while((_g < _g1->length)){
+HXLINE( 558)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN( 558)				_g = (_g + 1);
+HXLINE( 560)				child->_hx___readGraphicsData(graphicsData,recurse);
+            			}
+            		}
+            	}
+
+
+void DisplayObjectContainer_obj::_hx___renderCairo( ::openfl::display::CairoRenderer renderer){
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_566___renderCairo)
+HXLINE( 568)		{
+HXLINE( 568)			{
+HXLINE( 568)				 ::Dynamic orphan = this->_hx___removedChildren->iterator();
+HXDLIN( 568)				while(( (bool)(orphan->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE( 568)					 ::openfl::display::DisplayObject orphan1 = ( ( ::openfl::display::DisplayObject)(orphan->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXDLIN( 568)					if (::hx::IsNull( orphan1->stage )) {
+HXLINE( 568)						orphan1->_hx___cleanup();
+            					}
+            				}
+            			}
+HXDLIN( 568)			this->_hx___removedChildren->set_length(0);
+            		}
+HXLINE( 570)		bool _hx_tmp;
+HXDLIN( 570)		if (this->_hx___renderable) {
+HXLINE( 570)			_hx_tmp = (this->_hx___worldAlpha <= 0);
+            		}
+            		else {
+HXLINE( 570)			_hx_tmp = true;
+            		}
+HXDLIN( 570)		if (_hx_tmp) {
+HXLINE( 570)			return;
+            		}
+HXLINE( 572)		this->super::_hx___renderCairo(renderer);
+HXLINE( 574)		bool _hx_tmp1;
+HXDLIN( 574)		if (::hx::IsNotNull( this->_hx___cacheBitmap )) {
+HXLINE( 574)			_hx_tmp1 = !(this->_hx___isCacheBitmapRender);
+            		}
+            		else {
+HXLINE( 574)			_hx_tmp1 = false;
+            		}
+HXDLIN( 574)		if (_hx_tmp1) {
+HXLINE( 574)			return;
+            		}
+HXLINE( 576)		renderer->_hx___pushMaskObject(::hx::ObjectPtr<OBJ_>(this),null());
+HXLINE( 578)		if (::hx::IsNotNull( renderer->_hx___stage )) {
+HXLINE( 580)			{
+HXLINE( 580)				int _g = 0;
+HXDLIN( 580)				::Array< ::Dynamic> _g1 = this->_hx___children;
+HXDLIN( 580)				while((_g < _g1->length)){
+HXLINE( 580)					 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN( 580)					_g = (_g + 1);
+HXLINE( 582)					child->_hx___renderCairo(renderer);
+HXLINE( 583)					child->_hx___renderDirty = false;
+            				}
+            			}
+HXLINE( 586)			this->_hx___renderDirty = false;
+            		}
+            		else {
+HXLINE( 590)			int _g = 0;
+HXDLIN( 590)			::Array< ::Dynamic> _g1 = this->_hx___children;
+HXDLIN( 590)			while((_g < _g1->length)){
+HXLINE( 590)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN( 590)				_g = (_g + 1);
+HXLINE( 592)				child->_hx___renderCairo(renderer);
+            			}
+            		}
+HXLINE( 596)		renderer->_hx___popMaskObject(::hx::ObjectPtr<OBJ_>(this),null());
+            	}
+
+
+void DisplayObjectContainer_obj::_hx___renderCairoMask( ::openfl::display::CairoRenderer renderer){
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_601___renderCairoMask)
+HXLINE( 603)		{
+HXLINE( 603)			{
+HXLINE( 603)				 ::Dynamic orphan = this->_hx___removedChildren->iterator();
+HXDLIN( 603)				while(( (bool)(orphan->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE( 603)					 ::openfl::display::DisplayObject orphan1 = ( ( ::openfl::display::DisplayObject)(orphan->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXDLIN( 603)					if (::hx::IsNull( orphan1->stage )) {
+HXLINE( 603)						orphan1->_hx___cleanup();
+            					}
+            				}
+            			}
+HXDLIN( 603)			this->_hx___removedChildren->set_length(0);
+            		}
+HXLINE( 605)		if (::hx::IsNotNull( this->_hx___graphics )) {
+HXLINE( 607)			::openfl::display::_internal::CairoGraphics_obj::renderMask(this->_hx___graphics,renderer);
+            		}
+HXLINE( 610)		{
+HXLINE( 610)			int _g = 0;
+HXDLIN( 610)			::Array< ::Dynamic> _g1 = this->_hx___children;
+HXDLIN( 610)			while((_g < _g1->length)){
+HXLINE( 610)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN( 610)				_g = (_g + 1);
+HXLINE( 612)				child->_hx___renderCairoMask(renderer);
+            			}
+            		}
+            	}
+
+
+void DisplayObjectContainer_obj::_hx___renderCanvas( ::openfl::display::CanvasRenderer renderer){
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_618___renderCanvas)
+HXLINE( 619)		{
+HXLINE( 619)			{
+HXLINE( 619)				 ::Dynamic orphan = this->_hx___removedChildren->iterator();
+HXDLIN( 619)				while(( (bool)(orphan->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE( 619)					 ::openfl::display::DisplayObject orphan1 = ( ( ::openfl::display::DisplayObject)(orphan->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXDLIN( 619)					if (::hx::IsNull( orphan1->stage )) {
+HXLINE( 619)						orphan1->_hx___cleanup();
+            					}
+            				}
+            			}
+HXDLIN( 619)			this->_hx___removedChildren->set_length(0);
+            		}
+HXLINE( 621)		bool _hx_tmp;
+HXDLIN( 621)		bool _hx_tmp1;
+HXDLIN( 621)		if (this->_hx___renderable) {
+HXLINE( 621)			_hx_tmp1 = (this->_hx___worldAlpha <= 0);
+            		}
+            		else {
+HXLINE( 621)			_hx_tmp1 = true;
+            		}
+HXDLIN( 621)		if (!(_hx_tmp1)) {
+HXLINE( 621)			if (::hx::IsNotNull( this->get_mask() )) {
+HXLINE( 621)				if (!((this->get_mask()->get_width() <= 0))) {
+HXLINE( 621)					_hx_tmp = (this->get_mask()->get_height() <= 0);
+            				}
+            				else {
+HXLINE( 621)					_hx_tmp = true;
+            				}
+            			}
+            			else {
+HXLINE( 621)				_hx_tmp = false;
+            			}
+            		}
+            		else {
+HXLINE( 621)			_hx_tmp = true;
+            		}
+HXDLIN( 621)		if (_hx_tmp) {
+HXLINE( 621)			return;
+            		}
+HXLINE( 624)		this->super::_hx___renderCanvas(renderer);
+HXLINE( 626)		bool _hx_tmp2;
+HXDLIN( 626)		if (::hx::IsNotNull( this->_hx___cacheBitmap )) {
+HXLINE( 626)			_hx_tmp2 = !(this->_hx___isCacheBitmapRender);
+            		}
+            		else {
+HXLINE( 626)			_hx_tmp2 = false;
+            		}
+HXDLIN( 626)		if (_hx_tmp2) {
+HXLINE( 626)			return;
+            		}
+HXLINE( 628)		renderer->_hx___pushMaskObject(::hx::ObjectPtr<OBJ_>(this),null());
+HXLINE( 630)		if (::hx::IsNotNull( renderer->_hx___stage )) {
+HXLINE( 632)			{
+HXLINE( 632)				int _g = 0;
+HXDLIN( 632)				::Array< ::Dynamic> _g1 = this->_hx___children;
+HXDLIN( 632)				while((_g < _g1->length)){
+HXLINE( 632)					 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN( 632)					_g = (_g + 1);
+HXLINE( 634)					child->_hx___renderCanvas(renderer);
+HXLINE( 635)					child->_hx___renderDirty = false;
+            				}
+            			}
+HXLINE( 638)			this->_hx___renderDirty = false;
+            		}
+            		else {
+HXLINE( 642)			int _g = 0;
+HXDLIN( 642)			::Array< ::Dynamic> _g1 = this->_hx___children;
+HXDLIN( 642)			while((_g < _g1->length)){
+HXLINE( 642)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN( 642)				_g = (_g + 1);
+HXLINE( 644)				child->_hx___renderCanvas(renderer);
+            			}
+            		}
+HXLINE( 648)		renderer->_hx___popMaskObject(::hx::ObjectPtr<OBJ_>(this),null());
+            	}
+
+
+void DisplayObjectContainer_obj::_hx___renderCanvasMask( ::openfl::display::CanvasRenderer renderer){
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_653___renderCanvasMask)
+HXLINE( 654)		{
+HXLINE( 654)			{
+HXLINE( 654)				 ::Dynamic orphan = this->_hx___removedChildren->iterator();
+HXDLIN( 654)				while(( (bool)(orphan->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE( 654)					 ::openfl::display::DisplayObject orphan1 = ( ( ::openfl::display::DisplayObject)(orphan->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXDLIN( 654)					if (::hx::IsNull( orphan1->stage )) {
+HXLINE( 654)						orphan1->_hx___cleanup();
+            					}
+            				}
+            			}
+HXDLIN( 654)			this->_hx___removedChildren->set_length(0);
+            		}
+HXLINE( 656)		if (::hx::IsNotNull( this->_hx___graphics )) {
+HXLINE( 658)			::openfl::display::_internal::CanvasGraphics_obj::renderMask(this->_hx___graphics,renderer);
+            		}
+HXLINE( 661)		{
+HXLINE( 661)			int _g = 0;
+HXDLIN( 661)			::Array< ::Dynamic> _g1 = this->_hx___children;
+HXDLIN( 661)			while((_g < _g1->length)){
+HXLINE( 661)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN( 661)				_g = (_g + 1);
+HXLINE( 663)				child->_hx___renderCanvasMask(renderer);
+            			}
+            		}
+            	}
+
+
+void DisplayObjectContainer_obj::_hx___renderDOM( ::openfl::display::DOMRenderer renderer){
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_668___renderDOM)
+HXLINE( 669)		{
+HXLINE( 669)			 ::Dynamic orphan = this->_hx___removedChildren->iterator();
+HXDLIN( 669)			while(( (bool)(orphan->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE( 669)				 ::openfl::display::DisplayObject orphan1 = ( ( ::openfl::display::DisplayObject)(orphan->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE( 671)				if (::hx::IsNull( orphan1->stage )) {
+HXLINE( 673)					orphan1->_hx___renderDOM(renderer);
+            				}
+            			}
+            		}
+HXLINE( 677)		{
+HXLINE( 677)			{
+HXLINE( 677)				 ::Dynamic orphan1 = this->_hx___removedChildren->iterator();
+HXDLIN( 677)				while(( (bool)(orphan1->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE( 677)					 ::openfl::display::DisplayObject orphan = ( ( ::openfl::display::DisplayObject)(orphan1->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXDLIN( 677)					if (::hx::IsNull( orphan->stage )) {
+HXLINE( 677)						orphan->_hx___cleanup();
+            					}
+            				}
+            			}
+HXDLIN( 677)			this->_hx___removedChildren->set_length(0);
+            		}
+HXLINE( 679)		this->super::_hx___renderDOM(renderer);
+HXLINE( 681)		bool _hx_tmp;
+HXDLIN( 681)		if (::hx::IsNotNull( this->_hx___cacheBitmap )) {
+HXLINE( 681)			_hx_tmp = !(this->_hx___isCacheBitmapRender);
+            		}
+            		else {
+HXLINE( 681)			_hx_tmp = false;
+            		}
+HXDLIN( 681)		if (_hx_tmp) {
+HXLINE( 681)			return;
+            		}
+HXLINE( 683)		renderer->_hx___pushMaskObject(::hx::ObjectPtr<OBJ_>(this),null());
+HXLINE( 685)		if (::hx::IsNotNull( renderer->_hx___stage )) {
+HXLINE( 687)			{
+HXLINE( 687)				int _g = 0;
+HXDLIN( 687)				::Array< ::Dynamic> _g1 = this->_hx___children;
+HXDLIN( 687)				while((_g < _g1->length)){
+HXLINE( 687)					 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN( 687)					_g = (_g + 1);
+HXLINE( 689)					child->_hx___renderDOM(renderer);
+HXLINE( 690)					child->_hx___renderDirty = false;
+            				}
+            			}
+HXLINE( 693)			this->_hx___renderDirty = false;
+            		}
+            		else {
+HXLINE( 697)			int _g = 0;
+HXDLIN( 697)			::Array< ::Dynamic> _g1 = this->_hx___children;
+HXDLIN( 697)			while((_g < _g1->length)){
+HXLINE( 697)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN( 697)				_g = (_g + 1);
+HXLINE( 699)				child->_hx___renderDOM(renderer);
+            			}
+            		}
+HXLINE( 703)		renderer->_hx___popMaskObject(::hx::ObjectPtr<OBJ_>(this),null());
+            	}
+
+
+void DisplayObjectContainer_obj::_hx___renderDOMClear( ::openfl::display::DOMRenderer renderer){
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_707___renderDOMClear)
+HXLINE( 708)		{
+HXLINE( 708)			 ::Dynamic orphan = this->_hx___removedChildren->iterator();
+HXDLIN( 708)			while(( (bool)(orphan->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE( 708)				 ::openfl::display::DisplayObject orphan1 = ( ( ::openfl::display::DisplayObject)(orphan->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE( 710)				if (::hx::IsNull( orphan1->stage )) {
+HXLINE( 712)					orphan1->_hx___renderDOMClear(renderer);
+            				}
+            			}
+            		}
+HXLINE( 716)		{
+HXLINE( 716)			{
+HXLINE( 716)				 ::Dynamic orphan1 = this->_hx___removedChildren->iterator();
+HXDLIN( 716)				while(( (bool)(orphan1->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE( 716)					 ::openfl::display::DisplayObject orphan = ( ( ::openfl::display::DisplayObject)(orphan1->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXDLIN( 716)					if (::hx::IsNull( orphan->stage )) {
+HXLINE( 716)						orphan->_hx___cleanup();
+            					}
+            				}
+            			}
+HXDLIN( 716)			this->_hx___removedChildren->set_length(0);
+            		}
+HXLINE( 718)		{
+HXLINE( 718)			int _g = 0;
+HXDLIN( 718)			::Array< ::Dynamic> _g1 = this->_hx___children;
+HXDLIN( 718)			while((_g < _g1->length)){
+HXLINE( 718)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN( 718)				_g = (_g + 1);
+HXLINE( 720)				child->_hx___renderDOMClear(renderer);
+            			}
+            		}
+            	}
+
+
+void DisplayObjectContainer_obj::_hx___renderGL( ::openfl::display::OpenGLRenderer renderer){
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_725___renderGL)
+HXLINE( 726)		{
+HXLINE( 726)			{
+HXLINE( 726)				 ::Dynamic orphan = this->_hx___removedChildren->iterator();
+HXDLIN( 726)				while(( (bool)(orphan->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE( 726)					 ::openfl::display::DisplayObject orphan1 = ( ( ::openfl::display::DisplayObject)(orphan->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXDLIN( 726)					if (::hx::IsNull( orphan1->stage )) {
+HXLINE( 726)						orphan1->_hx___cleanup();
+            					}
+            				}
+            			}
+HXDLIN( 726)			this->_hx___removedChildren->set_length(0);
+            		}
+HXLINE( 728)		bool _hx_tmp;
+HXDLIN( 728)		if (this->_hx___renderable) {
+HXLINE( 728)			_hx_tmp = (this->_hx___worldAlpha <= 0);
+            		}
+            		else {
+HXLINE( 728)			_hx_tmp = true;
+            		}
+HXDLIN( 728)		if (_hx_tmp) {
+HXLINE( 728)			return;
+            		}
+HXLINE( 730)		this->super::_hx___renderGL(renderer);
+HXLINE( 732)		bool _hx_tmp1;
+HXDLIN( 732)		if (::hx::IsNotNull( this->_hx___cacheBitmap )) {
+HXLINE( 732)			_hx_tmp1 = !(this->_hx___isCacheBitmapRender);
+            		}
+            		else {
+HXLINE( 732)			_hx_tmp1 = false;
+            		}
+HXDLIN( 732)		if (_hx_tmp1) {
+HXLINE( 732)			return;
+            		}
+HXLINE( 734)		if ((this->_hx___children->length > 0)) {
+HXLINE( 736)			renderer->_hx___pushMaskObject(::hx::ObjectPtr<OBJ_>(this),null());
+HXLINE( 739)			if (::hx::IsNotNull( renderer->_hx___stage )) {
+HXLINE( 741)				{
+HXLINE( 741)					int _g = 0;
+HXDLIN( 741)					::Array< ::Dynamic> _g1 = this->_hx___children;
+HXDLIN( 741)					while((_g < _g1->length)){
+HXLINE( 741)						 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN( 741)						_g = (_g + 1);
+HXLINE( 743)						child->_hx___renderGL(renderer);
+HXLINE( 744)						child->_hx___renderDirty = false;
+            					}
+            				}
+HXLINE( 747)				this->_hx___renderDirty = false;
+            			}
+            			else {
+HXLINE( 751)				int _g = 0;
+HXDLIN( 751)				::Array< ::Dynamic> _g1 = this->_hx___children;
+HXDLIN( 751)				while((_g < _g1->length)){
+HXLINE( 751)					 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN( 751)					_g = (_g + 1);
+HXLINE( 753)					child->_hx___renderGL(renderer);
+            				}
+            			}
+            		}
+HXLINE( 758)		if ((this->_hx___children->length > 0)) {
+HXLINE( 761)			renderer->_hx___popMaskObject(::hx::ObjectPtr<OBJ_>(this),null());
+            		}
+            	}
+
+
+void DisplayObjectContainer_obj::_hx___renderGLMask( ::openfl::display::OpenGLRenderer renderer){
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_766___renderGLMask)
+HXLINE( 767)		{
+HXLINE( 767)			{
+HXLINE( 767)				 ::Dynamic orphan = this->_hx___removedChildren->iterator();
+HXDLIN( 767)				while(( (bool)(orphan->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE( 767)					 ::openfl::display::DisplayObject orphan1 = ( ( ::openfl::display::DisplayObject)(orphan->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXDLIN( 767)					if (::hx::IsNull( orphan1->stage )) {
+HXLINE( 767)						orphan1->_hx___cleanup();
+            					}
+            				}
+            			}
+HXDLIN( 767)			this->_hx___removedChildren->set_length(0);
+            		}
+HXLINE( 769)		if (::hx::IsNotNull( this->_hx___graphics )) {
+HXLINE( 772)			::openfl::display::_internal::Context3DShape_obj::renderMask(::hx::ObjectPtr<OBJ_>(this),renderer);
+            		}
+HXLINE( 775)		{
+HXLINE( 775)			int _g = 0;
+HXDLIN( 775)			::Array< ::Dynamic> _g1 = this->_hx___children;
+HXDLIN( 775)			while((_g < _g1->length)){
+HXLINE( 775)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN( 775)				_g = (_g + 1);
+HXLINE( 777)				child->_hx___renderGLMask(renderer);
             			}
             		}
             	}
 
 
 void DisplayObjectContainer_obj::_hx___setStageReference( ::openfl::display::Stage stage){
-            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_905___setStageReference)
-HXLINE( 906)		this->super::_hx___setStageReference(stage);
-HXLINE( 908)		if (::hx::IsNotNull( this->_hx___children )) {
-HXLINE( 910)			int _g = 0;
-HXDLIN( 910)			::Array< ::Dynamic> _g1 = this->_hx___children;
-HXDLIN( 910)			while((_g < _g1->length)){
-HXLINE( 910)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
-HXDLIN( 910)				_g = (_g + 1);
-HXLINE( 912)				child->_hx___setStageReference(stage);
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_782___setStageReference)
+HXLINE( 783)		this->super::_hx___setStageReference(stage);
+HXLINE( 785)		if (::hx::IsNotNull( this->_hx___children )) {
+HXLINE( 787)			int _g = 0;
+HXDLIN( 787)			::Array< ::Dynamic> _g1 = this->_hx___children;
+HXDLIN( 787)			while((_g < _g1->length)){
+HXLINE( 787)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN( 787)				_g = (_g + 1);
+HXLINE( 789)				child->_hx___setStageReference(stage);
             			}
             		}
             	}
 
 
 void DisplayObjectContainer_obj::_hx___setWorldTransformInvalid(){
-            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_919___setWorldTransformInvalid)
-HXDLIN( 919)		if (!(this->_hx___worldTransformInvalid)) {
-HXLINE( 921)			this->_hx___worldTransformInvalid = true;
-HXLINE( 923)			if (::hx::IsNotNull( this->_hx___children )) {
-HXLINE( 925)				int _g = 0;
-HXDLIN( 925)				::Array< ::Dynamic> _g1 = this->_hx___children;
-HXDLIN( 925)				while((_g < _g1->length)){
-HXLINE( 925)					 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
-HXDLIN( 925)					_g = (_g + 1);
-HXLINE( 927)					child->_hx___setWorldTransformInvalid();
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_796___setWorldTransformInvalid)
+HXDLIN( 796)		if (!(this->_hx___worldTransformInvalid)) {
+HXLINE( 798)			this->_hx___worldTransformInvalid = true;
+HXLINE( 800)			if (::hx::IsNotNull( this->_hx___children )) {
+HXLINE( 802)				int _g = 0;
+HXDLIN( 802)				::Array< ::Dynamic> _g1 = this->_hx___children;
+HXDLIN( 802)				while((_g < _g1->length)){
+HXLINE( 802)					 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN( 802)					_g = (_g + 1);
+HXLINE( 804)					child->_hx___setWorldTransformInvalid();
             				}
             			}
             		}
             	}
 
 
+ ::Dynamic DisplayObjectContainer_obj::_hx___shouldCacheHardware( ::Dynamic value){
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_811___shouldCacheHardware)
+HXLINE( 812)		if (::hx::IsEq( value,true )) {
+HXLINE( 812)			return true;
+            		}
+HXLINE( 813)		value = this->super::_hx___shouldCacheHardware(value);
+HXLINE( 814)		if (::hx::IsEq( value,true )) {
+HXLINE( 814)			return true;
+            		}
+HXLINE( 816)		if (::hx::IsNotNull( this->_hx___children )) {
+HXLINE( 818)			int _g = 0;
+HXDLIN( 818)			::Array< ::Dynamic> _g1 = this->_hx___children;
+HXDLIN( 818)			while((_g < _g1->length)){
+HXLINE( 818)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN( 818)				_g = (_g + 1);
+HXLINE( 820)				value = child->_hx___shouldCacheHardware(value);
+HXLINE( 821)				if (::hx::IsEq( value,true )) {
+HXLINE( 821)					return true;
+            				}
+            			}
+            		}
+HXLINE( 825)		return value;
+            	}
+
+
 void DisplayObjectContainer_obj::_hx___stopAllMovieClips(){
-            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_935___stopAllMovieClips)
-HXDLIN( 935)		int _g = 0;
-HXDLIN( 935)		::Array< ::Dynamic> _g1 = this->_hx___children;
-HXDLIN( 935)		while((_g < _g1->length)){
-HXDLIN( 935)			 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
-HXDLIN( 935)			_g = (_g + 1);
-HXLINE( 937)			child->_hx___stopAllMovieClips();
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_830___stopAllMovieClips)
+HXDLIN( 830)		int _g = 0;
+HXDLIN( 830)		::Array< ::Dynamic> _g1 = this->_hx___children;
+HXDLIN( 830)		while((_g < _g1->length)){
+HXDLIN( 830)			 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN( 830)			_g = (_g + 1);
+HXLINE( 832)			child->_hx___stopAllMovieClips();
             		}
             	}
 
 
 void DisplayObjectContainer_obj::_hx___tabTest(::Array< ::Dynamic> stack){
-            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_942___tabTest)
-HXLINE( 943)		this->super::_hx___tabTest(stack);
-HXLINE( 945)		if (!(this->get_tabChildren())) {
-HXLINE( 945)			return;
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_837___tabTest)
+HXLINE( 838)		this->super::_hx___tabTest(stack);
+HXLINE( 840)		if (!(this->get_tabChildren())) {
+HXLINE( 840)			return;
             		}
-HXLINE( 947)		bool interactive = false;
-HXLINE( 948)		 ::openfl::display::InteractiveObject interactiveObject = null();
-HXLINE( 950)		{
-HXLINE( 950)			int _g = 0;
-HXDLIN( 950)			::Array< ::Dynamic> _g1 = this->_hx___children;
-HXDLIN( 950)			while((_g < _g1->length)){
-HXLINE( 950)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
-HXDLIN( 950)				_g = (_g + 1);
-HXLINE( 952)				interactive = child->_hx___getInteractive(null());
-HXLINE( 954)				if (interactive) {
-HXLINE( 956)					interactiveObject = ( ( ::openfl::display::InteractiveObject)(child) );
-HXLINE( 957)					interactiveObject->_hx___tabTest(stack);
+HXLINE( 842)		bool interactive = false;
+HXLINE( 843)		 ::openfl::display::InteractiveObject interactiveObject = null();
+HXLINE( 845)		{
+HXLINE( 845)			int _g = 0;
+HXDLIN( 845)			::Array< ::Dynamic> _g1 = this->_hx___children;
+HXDLIN( 845)			while((_g < _g1->length)){
+HXLINE( 845)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN( 845)				_g = (_g + 1);
+HXLINE( 847)				interactive = child->_hx___getInteractive(null());
+HXLINE( 849)				if (interactive) {
+HXLINE( 851)					interactiveObject = ( ( ::openfl::display::InteractiveObject)(child) );
+HXLINE( 852)					interactiveObject->_hx___tabTest(stack);
             				}
             			}
             		}
@@ -991,43 +1442,43 @@ HXLINE( 957)					interactiveObject->_hx___tabTest(stack);
 
 
 void DisplayObjectContainer_obj::_hx___update(bool transformOnly,bool updateChildren){
-            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_963___update)
-HXLINE( 964)		this->super::_hx___update(transformOnly,updateChildren);
-HXLINE( 966)		if (updateChildren) {
-HXLINE( 968)			int _g = 0;
-HXDLIN( 968)			::Array< ::Dynamic> _g1 = this->_hx___children;
-HXDLIN( 968)			while((_g < _g1->length)){
-HXLINE( 968)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
-HXDLIN( 968)				_g = (_g + 1);
-HXLINE( 970)				child->_hx___update(transformOnly,true);
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_858___update)
+HXLINE( 859)		this->super::_hx___update(transformOnly,updateChildren);
+HXLINE( 861)		if (updateChildren) {
+HXLINE( 863)			int _g = 0;
+HXDLIN( 863)			::Array< ::Dynamic> _g1 = this->_hx___children;
+HXDLIN( 863)			while((_g < _g1->length)){
+HXLINE( 863)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN( 863)				_g = (_g + 1);
+HXLINE( 865)				child->_hx___update(transformOnly,true);
             			}
             		}
             	}
 
 
 int DisplayObjectContainer_obj::get_numChildren(){
-            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_978_get_numChildren)
-HXDLIN( 978)		return this->_hx___children->length;
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_873_get_numChildren)
+HXDLIN( 873)		return this->_hx___children->length;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(DisplayObjectContainer_obj,get_numChildren,return )
 
 bool DisplayObjectContainer_obj::get_tabChildren(){
-            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_983_get_tabChildren)
-HXDLIN( 983)		return this->_hx___tabChildren;
+            	HX_STACKFRAME(&_hx_pos_d11618aadd936e00_878_get_tabChildren)
+HXDLIN( 878)		return this->_hx___tabChildren;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(DisplayObjectContainer_obj,get_tabChildren,return )
 
 bool DisplayObjectContainer_obj::set_tabChildren(bool value){
-            	HX_GC_STACKFRAME(&_hx_pos_d11618aadd936e00_987_set_tabChildren)
-HXLINE( 988)		if ((this->_hx___tabChildren != value)) {
-HXLINE( 990)			this->_hx___tabChildren = value;
-HXLINE( 992)			this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("tabChildrenChange",44,91,b5,de),true,false));
+            	HX_GC_STACKFRAME(&_hx_pos_d11618aadd936e00_882_set_tabChildren)
+HXLINE( 883)		if ((this->_hx___tabChildren != value)) {
+HXLINE( 885)			this->_hx___tabChildren = value;
+HXLINE( 887)			this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("tabChildrenChange",44,91,b5,de),true,false));
             		}
-HXLINE( 995)		return this->_hx___tabChildren;
+HXLINE( 890)		return this->_hx___tabChildren;
             	}
 
 
@@ -1088,12 +1539,14 @@ void DisplayObjectContainer_obj::__Visit(HX_VISIT_PARAMS)
 	case 10:
 		if (HX_FIELD_EQ(inName,"addChildAt") ) { return ::hx::Val( addChildAt_dyn() ); }
 		if (HX_FIELD_EQ(inName,"getChildAt") ) { return ::hx::Val( getChildAt_dyn() ); }
+		if (HX_FIELD_EQ(inName,"__renderGL") ) { return ::hx::Val( _hx___renderGL_dyn() ); }
 		break;
 	case 11:
 		if (HX_FIELD_EQ(inName,"numChildren") ) { if (inCallProp == ::hx::paccAlways) return ::hx::Val( get_numChildren() ); }
 		if (HX_FIELD_EQ(inName,"tabChildren") ) { if (inCallProp == ::hx::paccAlways) return ::hx::Val( get_tabChildren() ); }
 		if (HX_FIELD_EQ(inName,"removeChild") ) { return ::hx::Val( removeChild_dyn() ); }
 		if (HX_FIELD_EQ(inName,"__getBounds") ) { return ::hx::Val( _hx___getBounds_dyn() ); }
+		if (HX_FIELD_EQ(inName,"__renderDOM") ) { return ::hx::Val( _hx___renderDOM_dyn() ); }
 		break;
 	case 12:
 		if (HX_FIELD_EQ(inName,"swapChildren") ) { return ::hx::Val( swapChildren_dyn() ); }
@@ -1106,26 +1559,34 @@ void DisplayObjectContainer_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"removeChildAt") ) { return ::hx::Val( removeChildAt_dyn() ); }
 		if (HX_FIELD_EQ(inName,"setChildIndex") ) { return ::hx::Val( setChildIndex_dyn() ); }
 		if (HX_FIELD_EQ(inName,"__hitTestMask") ) { return ::hx::Val( _hx___hitTestMask_dyn() ); }
+		if (HX_FIELD_EQ(inName,"__renderCairo") ) { return ::hx::Val( _hx___renderCairo_dyn() ); }
 		break;
 	case 14:
 		if (HX_FIELD_EQ(inName,"getChildByName") ) { return ::hx::Val( getChildByName_dyn() ); }
 		if (HX_FIELD_EQ(inName,"removeChildren") ) { return ::hx::Val( removeChildren_dyn() ); }
 		if (HX_FIELD_EQ(inName,"swapChildrenAt") ) { return ::hx::Val( swapChildrenAt_dyn() ); }
+		if (HX_FIELD_EQ(inName,"__renderCanvas") ) { return ::hx::Val( _hx___renderCanvas_dyn() ); }
+		if (HX_FIELD_EQ(inName,"__renderGLMask") ) { return ::hx::Val( _hx___renderGLMask_dyn() ); }
 		break;
 	case 15:
 		if (HX_FIELD_EQ(inName,"get_numChildren") ) { return ::hx::Val( get_numChildren_dyn() ); }
 		if (HX_FIELD_EQ(inName,"get_tabChildren") ) { return ::hx::Val( get_tabChildren_dyn() ); }
 		if (HX_FIELD_EQ(inName,"set_tabChildren") ) { return ::hx::Val( set_tabChildren_dyn() ); }
 		break;
+	case 16:
+		if (HX_FIELD_EQ(inName,"__renderDOMClear") ) { return ::hx::Val( _hx___renderDOMClear_dyn() ); }
+		break;
 	case 17:
 		if (HX_FIELD_EQ(inName,"__removedChildren") ) { return ::hx::Val( _hx___removedChildren ); }
 		if (HX_FIELD_EQ(inName,"stopAllMovieClips") ) { return ::hx::Val( stopAllMovieClips_dyn() ); }
 		if (HX_FIELD_EQ(inName,"__getFilterBounds") ) { return ::hx::Val( _hx___getFilterBounds_dyn() ); }
 		if (HX_FIELD_EQ(inName,"__getRenderBounds") ) { return ::hx::Val( _hx___getRenderBounds_dyn() ); }
+		if (HX_FIELD_EQ(inName,"__renderCairoMask") ) { return ::hx::Val( _hx___renderCairoMask_dyn() ); }
 		break;
 	case 18:
 		if (HX_FIELD_EQ(inName,"__dispatchChildren") ) { return ::hx::Val( _hx___dispatchChildren_dyn() ); }
 		if (HX_FIELD_EQ(inName,"__readGraphicsData") ) { return ::hx::Val( _hx___readGraphicsData_dyn() ); }
+		if (HX_FIELD_EQ(inName,"__renderCanvasMask") ) { return ::hx::Val( _hx___renderCanvasMask_dyn() ); }
 		break;
 	case 19:
 		if (HX_FIELD_EQ(inName,"__setStageReference") ) { return ::hx::Val( _hx___setStageReference_dyn() ); }
@@ -1133,6 +1594,9 @@ void DisplayObjectContainer_obj::__Visit(HX_VISIT_PARAMS)
 		break;
 	case 20:
 		if (HX_FIELD_EQ(inName,"getObjectsUnderPoint") ) { return ::hx::Val( getObjectsUnderPoint_dyn() ); }
+		break;
+	case 21:
+		if (HX_FIELD_EQ(inName,"__shouldCacheHardware") ) { return ::hx::Val( _hx___shouldCacheHardware_dyn() ); }
 		break;
 	case 24:
 		if (HX_FIELD_EQ(inName,"__cleanupRemovedChildren") ) { return ::hx::Val( _hx___cleanupRemovedChildren_dyn() ); }
@@ -1212,8 +1676,17 @@ static ::String DisplayObjectContainer_obj_sMemberFields[] = {
 	HX_("__hitTest",25,b1,cd,63),
 	HX_("__hitTestMask",b1,14,fd,3b),
 	HX_("__readGraphicsData",2b,10,91,f2),
+	HX_("__renderCairo",32,9e,42,55),
+	HX_("__renderCairoMask",3e,0c,22,6b),
+	HX_("__renderCanvas",ee,db,58,48),
+	HX_("__renderCanvasMask",fa,d7,ef,51),
+	HX_("__renderDOM",ac,f5,83,fb),
+	HX_("__renderDOMClear",41,dc,ee,79),
+	HX_("__renderGL",1b,1e,14,56),
+	HX_("__renderGLMask",a7,34,7c,b4),
 	HX_("__setStageReference",4f,e5,e5,f4),
 	HX_("__setWorldTransformInvalid",7b,c9,b9,d4),
+	HX_("__shouldCacheHardware",b7,af,f5,89),
 	HX_("__stopAllMovieClips",d2,89,e8,53),
 	HX_("__tabTest",27,ee,bd,c6),
 	HX_("__update",29,f1,34,2f),

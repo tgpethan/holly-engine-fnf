@@ -50,21 +50,21 @@
 #include <openfl/events/ProgressEvent.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_c8b942935957ff96_17_new,"openfl.display.Preloader","new",0x5c0f09be,"openfl.display.Preloader.new","openfl/display/Preloader.hx",17,0xc399db74)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8b942935957ff96_38_start,"openfl.display.Preloader","start",0xb00e4140,"openfl.display.Preloader.start","openfl/display/Preloader.hx",38,0xc399db74)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8b942935957ff96_68_update,"openfl.display.Preloader","update",0xdd75fb6b,"openfl.display.Preloader.update","openfl/display/Preloader.hx",68,0xc399db74)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8b942935957ff96_81_display_onUnload,"openfl.display.Preloader","display_onUnload",0xa1bcd03d,"openfl.display.Preloader.display_onUnload","openfl/display/Preloader.hx",81,0xc399db74)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8b942935957ff96_17_boot,"openfl.display.Preloader","boot",0x29327d14,"openfl.display.Preloader.boot","openfl/display/Preloader.hx",17,0xc399db74)
+HX_DEFINE_STACK_FRAME(_hx_pos_c8b942935957ff96_13_new,"openfl.display.Preloader","new",0x5c0f09be,"openfl.display.Preloader.new","openfl/display/Preloader.hx",13,0xc399db74)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8b942935957ff96_34_start,"openfl.display.Preloader","start",0xb00e4140,"openfl.display.Preloader.start","openfl/display/Preloader.hx",34,0xc399db74)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8b942935957ff96_64_update,"openfl.display.Preloader","update",0xdd75fb6b,"openfl.display.Preloader.update","openfl/display/Preloader.hx",64,0xc399db74)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8b942935957ff96_77_display_onUnload,"openfl.display.Preloader","display_onUnload",0xa1bcd03d,"openfl.display.Preloader.display_onUnload","openfl/display/Preloader.hx",77,0xc399db74)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8b942935957ff96_13_boot,"openfl.display.Preloader","boot",0x29327d14,"openfl.display.Preloader.boot","openfl/display/Preloader.hx",13,0xc399db74)
 namespace openfl{
 namespace display{
 
 void Preloader_obj::__construct( ::openfl::display::Sprite display){
-            	HX_GC_STACKFRAME(&_hx_pos_c8b942935957ff96_17_new)
-HXLINE(  20)		this->onComplete =  ::lime::app::_Event_Void_Void_obj::__alloc( HX_CTX );
-HXLINE(  28)		this->display = display;
-HXLINE(  30)		if (::hx::IsNotNull( display )) {
-HXLINE(  32)			display->addEventListener(HX_("unload",ff,a0,8c,65),this->display_onUnload_dyn(),null(),null(),null());
-HXLINE(  33)			::openfl::Lib_obj::get_current()->addChild(display);
+            	HX_GC_STACKFRAME(&_hx_pos_c8b942935957ff96_13_new)
+HXLINE(  16)		this->onComplete =  ::lime::app::_Event_Void_Void_obj::__alloc( HX_CTX );
+HXLINE(  24)		this->display = display;
+HXLINE(  26)		if (::hx::IsNotNull( display )) {
+HXLINE(  28)			display->addEventListener(HX_("unload",ff,a0,8c,65),this->display_onUnload_dyn(),null(),null(),null());
+HXLINE(  29)			::openfl::Lib_obj::get_current()->addChild(display);
             		}
             	}
 
@@ -84,21 +84,21 @@ bool Preloader_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void Preloader_obj::start(){
-            	HX_GC_STACKFRAME(&_hx_pos_c8b942935957ff96_38_start)
-HXLINE(  39)		this->ready = true;
-HXLINE(  42)		::openfl::Lib_obj::get_current()->get_loaderInfo()->_hx___complete();
-HXLINE(  45)		if (::hx::IsNotNull( this->display )) {
-HXLINE(  47)			 ::openfl::events::Event complete =  ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("complete",b9,00,c8,7f),true,true);
-HXLINE(  48)			this->display->dispatchEvent(complete);
-HXLINE(  50)			if (!(complete->isDefaultPrevented())) {
-HXLINE(  52)				 ::openfl::display::Sprite _hx_tmp = this->display;
-HXDLIN(  52)				_hx_tmp->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("unload",ff,a0,8c,65),null(),null()));
+            	HX_GC_STACKFRAME(&_hx_pos_c8b942935957ff96_34_start)
+HXLINE(  35)		this->ready = true;
+HXLINE(  38)		::openfl::Lib_obj::get_current()->get_loaderInfo()->_hx___complete();
+HXLINE(  41)		if (::hx::IsNotNull( this->display )) {
+HXLINE(  43)			 ::openfl::events::Event complete =  ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("complete",b9,00,c8,7f),true,true);
+HXLINE(  44)			this->display->dispatchEvent(complete);
+HXLINE(  46)			if (!(complete->isDefaultPrevented())) {
+HXLINE(  48)				 ::openfl::display::Sprite _hx_tmp = this->display;
+HXDLIN(  48)				_hx_tmp->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("unload",ff,a0,8c,65),null(),null()));
             			}
             		}
             		else {
-HXLINE(  58)			if (!(this->complete)) {
-HXLINE(  60)				this->complete = true;
-HXLINE(  61)				this->onComplete->dispatch();
+HXLINE(  54)			if (!(this->complete)) {
+HXLINE(  56)				this->complete = true;
+HXLINE(  57)				this->onComplete->dispatch();
             			}
             		}
             	}
@@ -107,11 +107,11 @@ HXLINE(  61)				this->onComplete->dispatch();
 HX_DEFINE_DYNAMIC_FUNC0(Preloader_obj,start,(void))
 
 void Preloader_obj::update(int loaded,int total){
-            	HX_GC_STACKFRAME(&_hx_pos_c8b942935957ff96_68_update)
-HXLINE(  70)		::openfl::Lib_obj::get_current()->get_loaderInfo()->_hx___update(loaded,total);
-HXLINE(  73)		if (::hx::IsNotNull( this->display )) {
-HXLINE(  75)			 ::openfl::display::Sprite _hx_tmp = this->display;
-HXDLIN(  75)			_hx_tmp->dispatchEvent( ::openfl::events::ProgressEvent_obj::__alloc( HX_CTX ,HX_("progress",ad,f7,2a,86),true,true,loaded,total));
+            	HX_GC_STACKFRAME(&_hx_pos_c8b942935957ff96_64_update)
+HXLINE(  66)		::openfl::Lib_obj::get_current()->get_loaderInfo()->_hx___update(loaded,total);
+HXLINE(  69)		if (::hx::IsNotNull( this->display )) {
+HXLINE(  71)			 ::openfl::display::Sprite _hx_tmp = this->display;
+HXDLIN(  71)			_hx_tmp->dispatchEvent( ::openfl::events::ProgressEvent_obj::__alloc( HX_CTX ,HX_("progress",ad,f7,2a,86),true,true,loaded,total));
             		}
             	}
 
@@ -119,20 +119,20 @@ HXDLIN(  75)			_hx_tmp->dispatchEvent( ::openfl::events::ProgressEvent_obj::__al
 HX_DEFINE_DYNAMIC_FUNC2(Preloader_obj,update,(void))
 
 void Preloader_obj::display_onUnload( ::openfl::events::Event event){
-            	HX_STACKFRAME(&_hx_pos_c8b942935957ff96_81_display_onUnload)
-HXLINE(  82)		if (::hx::IsNotNull( this->display )) {
-HXLINE(  84)			this->display->removeEventListener(HX_("unload",ff,a0,8c,65),this->display_onUnload_dyn(),null());
-HXLINE(  86)			 ::openfl::display::DisplayObjectContainer _hx_tmp = this->display->parent;
-HXDLIN(  86)			if (::hx::IsEq( _hx_tmp,::openfl::Lib_obj::get_current() )) {
-HXLINE(  88)				::openfl::Lib_obj::get_current()->removeChild(this->display);
+            	HX_STACKFRAME(&_hx_pos_c8b942935957ff96_77_display_onUnload)
+HXLINE(  78)		if (::hx::IsNotNull( this->display )) {
+HXLINE(  80)			this->display->removeEventListener(HX_("unload",ff,a0,8c,65),this->display_onUnload_dyn(),null());
+HXLINE(  82)			 ::openfl::display::DisplayObjectContainer _hx_tmp = this->display->parent;
+HXDLIN(  82)			if (::hx::IsEq( _hx_tmp,::openfl::Lib_obj::get_current() )) {
+HXLINE(  84)				::openfl::Lib_obj::get_current()->removeChild(this->display);
             			}
-HXLINE(  91)			::openfl::Lib_obj::get_current()->stage->set_focus(null());
-HXLINE(  92)			this->display = null();
+HXLINE(  87)			::openfl::Lib_obj::get_current()->stage->set_focus(null());
+HXLINE(  88)			this->display = null();
             		}
-HXLINE(  95)		if (this->ready) {
-HXLINE(  98)			if (!(this->complete)) {
-HXLINE( 100)				this->complete = true;
-HXLINE( 101)				this->onComplete->dispatch();
+HXLINE(  91)		if (this->ready) {
+HXLINE(  94)			if (!(this->complete)) {
+HXLINE(  96)				this->complete = true;
+HXLINE(  97)				this->onComplete->dispatch();
             			}
             		}
             	}
@@ -277,8 +277,8 @@ void Preloader_obj::__register()
 void Preloader_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_c8b942935957ff96_17_boot)
-HXDLIN(  17)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(2)
+            	HX_STACKFRAME(&_hx_pos_c8b942935957ff96_13_boot)
+HXDLIN(  13)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(2)
             			->setFixed(0,HX_("fields",79,8e,8e,80), ::Dynamic(::hx::Anon_obj::Create(1)
             				->setFixed(0,HX_("onComplete",f8,d4,7e,5d), ::Dynamic(::hx::Anon_obj::Create(1)
             					->setFixed(0,HX_("SuppressWarnings",0c,d3,d2,00),::cpp::VirtualArray_obj::__new(1)->init(0,HX_("checkstyle:Dynamic",ce,ea,47,3c)))))))

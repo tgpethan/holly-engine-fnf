@@ -56,10 +56,10 @@ class HXCPP_CLASS_ATTRIBUTES FlxAtlasFrames_obj : public  ::flixel::graphics::fr
 		static void texturePackerHelper(::String FrameName, ::Dynamic FrameData, ::flixel::graphics::frames::FlxAtlasFrames Frames);
 		static ::Dynamic texturePackerHelper_dyn();
 
-		static  ::flixel::graphics::frames::FlxAtlasFrames fromLibGdx( ::Dynamic source,::String description);
+		static  ::flixel::graphics::frames::FlxAtlasFrames fromLibGdx( ::Dynamic Source,::String Description);
 		static ::Dynamic fromLibGdx_dyn();
 
-		static  ::Dynamic getDimensions(::String line);
+		static ::Array< int > getDimensions(::String line,::Array< int > size);
 		static ::Dynamic getDimensions_dyn();
 
 		static  ::flixel::graphics::frames::FlxAtlasFrames fromSparrow( ::Dynamic Source,::String Description);

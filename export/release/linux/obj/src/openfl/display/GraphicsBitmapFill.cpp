@@ -20,20 +20,20 @@
 #include <openfl/geom/Matrix.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_1aabeebe910bc323_94_new,"openfl.display.GraphicsBitmapFill","new",0x9f0e8e19,"openfl.display.GraphicsBitmapFill.new","openfl/display/GraphicsBitmapFill.hx",94,0x222b0335)
+HX_DEFINE_STACK_FRAME(_hx_pos_1aabeebe910bc323_23_new,"openfl.display.GraphicsBitmapFill","new",0x9f0e8e19,"openfl.display.GraphicsBitmapFill.new","openfl/display/GraphicsBitmapFill.hx",23,0x222b0335)
 namespace openfl{
 namespace display{
 
 void GraphicsBitmapFill_obj::__construct( ::openfl::display::BitmapData bitmapData, ::openfl::geom::Matrix matrix,::hx::Null< bool >  __o_repeat,::hx::Null< bool >  __o_smooth){
             		bool repeat = __o_repeat.Default(true);
             		bool smooth = __o_smooth.Default(false);
-            	HX_STACKFRAME(&_hx_pos_1aabeebe910bc323_94_new)
-HXLINE(  95)		this->bitmapData = bitmapData;
-HXLINE(  96)		this->matrix = matrix;
-HXLINE(  97)		this->repeat = repeat;
-HXLINE(  98)		this->smooth = smooth;
-HXLINE( 100)		this->_hx___graphicsDataType = 4;
-HXLINE( 101)		this->_hx___graphicsFillType = 2;
+            	HX_STACKFRAME(&_hx_pos_1aabeebe910bc323_23_new)
+HXLINE(  24)		this->bitmapData = bitmapData;
+HXLINE(  25)		this->matrix = matrix;
+HXLINE(  26)		this->repeat = repeat;
+HXLINE(  27)		this->smooth = smooth;
+HXLINE(  29)		this->_hx___graphicsDataType = 4;
+HXLINE(  30)		this->_hx___graphicsFillType = 2;
             	}
 
 Dynamic GraphicsBitmapFill_obj::__CreateEmpty() { return new GraphicsBitmapFill_obj; }

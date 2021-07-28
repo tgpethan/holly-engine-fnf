@@ -32,7 +32,7 @@
 #include <openfl/utils/_ByteArray/ByteArray_Impl_.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_69f5c42c4cdafd80_47_new,"flixel.addons.transition.GraphicTransTileDiamond","new",0xc69d8d48,"flixel.addons.transition.GraphicTransTileDiamond.new","openfl/utils/_internal/AssetsMacro.hx",47,0xfdd54705)
+HX_DEFINE_STACK_FRAME(_hx_pos_b99408400dab42bd_47_new,"flixel.addons.transition.GraphicTransTileDiamond","new",0xc69d8d48,"flixel.addons.transition.GraphicTransTileDiamond.new","openfl/_internal/macros/AssetsMacro.hx",47,0xf7db08ab)
 HX_LOCAL_STACK_FRAME(_hx_pos_4254a9971902ea36_16_boot,"flixel.addons.transition.GraphicTransTileDiamond","boot",0xfb57124a,"flixel.addons.transition.GraphicTransTileDiamond.boot","flixel/addons/transition/FlxTransitionSprite.hx",16,0xd14f1ac3)
 namespace flixel{
 namespace addons{
@@ -43,7 +43,7 @@ void GraphicTransTileDiamond_obj::__construct(int width,int height, ::Dynamic __
             		if (::hx::IsNull(__o_transparent)) transparent = true;
             		 ::Dynamic fillRGBA = __o_fillRGBA;
             		if (::hx::IsNull(__o_fillRGBA)) fillRGBA = -1;
-            	HX_STACKFRAME(&_hx_pos_69f5c42c4cdafd80_47_new)
+            	HX_STACKFRAME(&_hx_pos_b99408400dab42bd_47_new)
 HXLINE(  71)		super::__construct(0,0,transparent,fillRGBA);
 HXLINE(  73)		 ::openfl::utils::ByteArrayData byteArray = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(::haxe::Resource_obj::getBytes(::flixel::addons::transition::GraphicTransTileDiamond_obj::resourceName));
 HXLINE(  74)		{

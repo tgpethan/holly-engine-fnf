@@ -70,12 +70,6 @@ class HXCPP_CLASS_ATTRIBUTES DOMBitmap_obj : public ::hx::Object
 		static void renderCanvas( ::openfl::display::Bitmap bitmap, ::openfl::display::DOMRenderer renderer);
 		static ::Dynamic renderCanvas_dyn();
 
-		static void renderDrawable( ::openfl::display::Bitmap bitmap, ::openfl::display::DOMRenderer renderer);
-		static ::Dynamic renderDrawable_dyn();
-
-		static void renderDrawableClear( ::openfl::display::Bitmap bitmap, ::openfl::display::DOMRenderer renderer);
-		static ::Dynamic renderDrawableClear_dyn();
-
 		static void renderImage( ::openfl::display::Bitmap bitmap, ::openfl::display::DOMRenderer renderer);
 		static ::Dynamic renderImage_dyn();
 

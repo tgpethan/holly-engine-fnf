@@ -5,23 +5,23 @@
 #include <openfl/display/_BlendMode/BlendMode_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_192_fromString,"openfl.display._BlendMode.BlendMode_Impl_","fromString",0x5c7dc184,"openfl.display._BlendMode.BlendMode_Impl_.fromString","openfl/display/BlendMode.hx",192,0xe0e49a56)
-HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_215_toString,"openfl.display._BlendMode.BlendMode_Impl_","toString",0xf610f815,"openfl.display._BlendMode.BlendMode_Impl_.toString","openfl/display/BlendMode.hx",215,0xe0e49a56)
-HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_27_boot,"openfl.display._BlendMode.BlendMode_Impl_","boot",0x5489831b,"openfl.display._BlendMode.BlendMode_Impl_.boot","openfl/display/BlendMode.hx",27,0xe0e49a56)
-HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_37_boot,"openfl.display._BlendMode.BlendMode_Impl_","boot",0x5489831b,"openfl.display._BlendMode.BlendMode_Impl_.boot","openfl/display/BlendMode.hx",37,0xe0e49a56)
-HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_51_boot,"openfl.display._BlendMode.BlendMode_Impl_","boot",0x5489831b,"openfl.display._BlendMode.BlendMode_Impl_.boot","openfl/display/BlendMode.hx",51,0xe0e49a56)
-HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_64_boot,"openfl.display._BlendMode.BlendMode_Impl_","boot",0x5489831b,"openfl.display._BlendMode.BlendMode_Impl_.boot","openfl/display/BlendMode.hx",64,0xe0e49a56)
-HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_73_boot,"openfl.display._BlendMode.BlendMode_Impl_","boot",0x5489831b,"openfl.display._BlendMode.BlendMode_Impl_.boot","openfl/display/BlendMode.hx",73,0xe0e49a56)
-HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_85_boot,"openfl.display._BlendMode.BlendMode_Impl_","boot",0x5489831b,"openfl.display._BlendMode.BlendMode_Impl_.boot","openfl/display/BlendMode.hx",85,0xe0e49a56)
-HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_90_boot,"openfl.display._BlendMode.BlendMode_Impl_","boot",0x5489831b,"openfl.display._BlendMode.BlendMode_Impl_.boot","openfl/display/BlendMode.hx",90,0xe0e49a56)
-HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_102_boot,"openfl.display._BlendMode.BlendMode_Impl_","boot",0x5489831b,"openfl.display._BlendMode.BlendMode_Impl_.boot","openfl/display/BlendMode.hx",102,0xe0e49a56)
-HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_116_boot,"openfl.display._BlendMode.BlendMode_Impl_","boot",0x5489831b,"openfl.display._BlendMode.BlendMode_Impl_.boot","openfl/display/BlendMode.hx",116,0xe0e49a56)
-HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_131_boot,"openfl.display._BlendMode.BlendMode_Impl_","boot",0x5489831b,"openfl.display._BlendMode.BlendMode_Impl_.boot","openfl/display/BlendMode.hx",131,0xe0e49a56)
-HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_138_boot,"openfl.display._BlendMode.BlendMode_Impl_","boot",0x5489831b,"openfl.display._BlendMode.BlendMode_Impl_.boot","openfl/display/BlendMode.hx",138,0xe0e49a56)
-HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_150_boot,"openfl.display._BlendMode.BlendMode_Impl_","boot",0x5489831b,"openfl.display._BlendMode.BlendMode_Impl_.boot","openfl/display/BlendMode.hx",150,0xe0e49a56)
-HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_158_boot,"openfl.display._BlendMode.BlendMode_Impl_","boot",0x5489831b,"openfl.display._BlendMode.BlendMode_Impl_.boot","openfl/display/BlendMode.hx",158,0xe0e49a56)
-HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_176_boot,"openfl.display._BlendMode.BlendMode_Impl_","boot",0x5489831b,"openfl.display._BlendMode.BlendMode_Impl_.boot","openfl/display/BlendMode.hx",176,0xe0e49a56)
-HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_188_boot,"openfl.display._BlendMode.BlendMode_Impl_","boot",0x5489831b,"openfl.display._BlendMode.BlendMode_Impl_.boot","openfl/display/BlendMode.hx",188,0xe0e49a56)
+HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_26_fromString,"openfl.display._BlendMode.BlendMode_Impl_","fromString",0x5c7dc184,"openfl.display._BlendMode.BlendMode_Impl_.fromString","openfl/display/BlendMode.hx",26,0xe0e49a56)
+HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_49_toString,"openfl.display._BlendMode.BlendMode_Impl_","toString",0xf610f815,"openfl.display._BlendMode.BlendMode_Impl_.toString","openfl/display/BlendMode.hx",49,0xe0e49a56)
+HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_8_boot,"openfl.display._BlendMode.BlendMode_Impl_","boot",0x5489831b,"openfl.display._BlendMode.BlendMode_Impl_.boot","openfl/display/BlendMode.hx",8,0xe0e49a56)
+HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_9_boot,"openfl.display._BlendMode.BlendMode_Impl_","boot",0x5489831b,"openfl.display._BlendMode.BlendMode_Impl_.boot","openfl/display/BlendMode.hx",9,0xe0e49a56)
+HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_10_boot,"openfl.display._BlendMode.BlendMode_Impl_","boot",0x5489831b,"openfl.display._BlendMode.BlendMode_Impl_.boot","openfl/display/BlendMode.hx",10,0xe0e49a56)
+HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_11_boot,"openfl.display._BlendMode.BlendMode_Impl_","boot",0x5489831b,"openfl.display._BlendMode.BlendMode_Impl_.boot","openfl/display/BlendMode.hx",11,0xe0e49a56)
+HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_12_boot,"openfl.display._BlendMode.BlendMode_Impl_","boot",0x5489831b,"openfl.display._BlendMode.BlendMode_Impl_.boot","openfl/display/BlendMode.hx",12,0xe0e49a56)
+HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_13_boot,"openfl.display._BlendMode.BlendMode_Impl_","boot",0x5489831b,"openfl.display._BlendMode.BlendMode_Impl_.boot","openfl/display/BlendMode.hx",13,0xe0e49a56)
+HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_14_boot,"openfl.display._BlendMode.BlendMode_Impl_","boot",0x5489831b,"openfl.display._BlendMode.BlendMode_Impl_.boot","openfl/display/BlendMode.hx",14,0xe0e49a56)
+HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_15_boot,"openfl.display._BlendMode.BlendMode_Impl_","boot",0x5489831b,"openfl.display._BlendMode.BlendMode_Impl_.boot","openfl/display/BlendMode.hx",15,0xe0e49a56)
+HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_16_boot,"openfl.display._BlendMode.BlendMode_Impl_","boot",0x5489831b,"openfl.display._BlendMode.BlendMode_Impl_.boot","openfl/display/BlendMode.hx",16,0xe0e49a56)
+HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_17_boot,"openfl.display._BlendMode.BlendMode_Impl_","boot",0x5489831b,"openfl.display._BlendMode.BlendMode_Impl_.boot","openfl/display/BlendMode.hx",17,0xe0e49a56)
+HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_18_boot,"openfl.display._BlendMode.BlendMode_Impl_","boot",0x5489831b,"openfl.display._BlendMode.BlendMode_Impl_.boot","openfl/display/BlendMode.hx",18,0xe0e49a56)
+HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_19_boot,"openfl.display._BlendMode.BlendMode_Impl_","boot",0x5489831b,"openfl.display._BlendMode.BlendMode_Impl_.boot","openfl/display/BlendMode.hx",19,0xe0e49a56)
+HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_20_boot,"openfl.display._BlendMode.BlendMode_Impl_","boot",0x5489831b,"openfl.display._BlendMode.BlendMode_Impl_.boot","openfl/display/BlendMode.hx",20,0xe0e49a56)
+HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_21_boot,"openfl.display._BlendMode.BlendMode_Impl_","boot",0x5489831b,"openfl.display._BlendMode.BlendMode_Impl_.boot","openfl/display/BlendMode.hx",21,0xe0e49a56)
+HX_LOCAL_STACK_FRAME(_hx_pos_e6e785382931c1c9_22_boot,"openfl.display._BlendMode.BlendMode_Impl_","boot",0x5489831b,"openfl.display._BlendMode.BlendMode_Impl_.boot","openfl/display/BlendMode.hx",22,0xe0e49a56)
 namespace openfl{
 namespace display{
 namespace _BlendMode{
@@ -74,146 +74,146 @@ bool BlendMode_Impl__obj::_hx_isInstanceOf(int inClassId) {
  ::Dynamic BlendMode_Impl__obj::SUBTRACT;
 
  ::Dynamic BlendMode_Impl__obj::fromString(::String value){
-            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_192_fromString)
-HXDLIN( 192)		::String _hx_switch_0 = value;
+            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_26_fromString)
+HXDLIN(  26)		::String _hx_switch_0 = value;
             		if (  (_hx_switch_0==HX_("add",21,f2,49,00)) ){
-HXLINE( 194)			return 0;
-HXDLIN( 194)			goto _hx_goto_0;
+HXLINE(  28)			return 0;
+HXDLIN(  28)			goto _hx_goto_0;
             		}
             		if (  (_hx_switch_0==HX_("alpha",5e,a7,96,21)) ){
-HXLINE( 195)			return 1;
-HXDLIN( 195)			goto _hx_goto_0;
+HXLINE(  29)			return 1;
+HXDLIN(  29)			goto _hx_goto_0;
             		}
             		if (  (_hx_switch_0==HX_("darken",5f,36,3a,21)) ){
-HXLINE( 196)			return 2;
-HXDLIN( 196)			goto _hx_goto_0;
+HXLINE(  30)			return 2;
+HXDLIN(  30)			goto _hx_goto_0;
             		}
             		if (  (_hx_switch_0==HX_("difference",fd,9b,91,46)) ){
-HXLINE( 197)			return 3;
-HXDLIN( 197)			goto _hx_goto_0;
+HXLINE(  31)			return 3;
+HXDLIN(  31)			goto _hx_goto_0;
             		}
             		if (  (_hx_switch_0==HX_("erase",e6,e8,1c,73)) ){
-HXLINE( 198)			return 4;
-HXDLIN( 198)			goto _hx_goto_0;
+HXLINE(  32)			return 4;
+HXDLIN(  32)			goto _hx_goto_0;
             		}
             		if (  (_hx_switch_0==HX_("hardlight",0b,6e,6b,53)) ){
-HXLINE( 199)			return 5;
-HXDLIN( 199)			goto _hx_goto_0;
+HXLINE(  33)			return 5;
+HXDLIN(  33)			goto _hx_goto_0;
             		}
             		if (  (_hx_switch_0==HX_("invert",16,e7,d8,9f)) ){
-HXLINE( 200)			return 6;
-HXDLIN( 200)			goto _hx_goto_0;
+HXLINE(  34)			return 6;
+HXDLIN(  34)			goto _hx_goto_0;
             		}
             		if (  (_hx_switch_0==HX_("layer",d1,81,c0,6f)) ){
-HXLINE( 201)			return 7;
-HXDLIN( 201)			goto _hx_goto_0;
+HXLINE(  35)			return 7;
+HXDLIN(  35)			goto _hx_goto_0;
             		}
             		if (  (_hx_switch_0==HX_("lighten",bf,4a,e3,19)) ){
-HXLINE( 202)			return 8;
-HXDLIN( 202)			goto _hx_goto_0;
+HXLINE(  36)			return 8;
+HXDLIN(  36)			goto _hx_goto_0;
             		}
             		if (  (_hx_switch_0==HX_("multiply",24,e2,8c,9a)) ){
-HXLINE( 203)			return 9;
-HXDLIN( 203)			goto _hx_goto_0;
+HXLINE(  37)			return 9;
+HXDLIN(  37)			goto _hx_goto_0;
             		}
             		if (  (_hx_switch_0==HX_("normal",27,72,69,30)) ){
-HXLINE( 204)			return 10;
-HXDLIN( 204)			goto _hx_goto_0;
+HXLINE(  38)			return 10;
+HXDLIN(  38)			goto _hx_goto_0;
             		}
             		if (  (_hx_switch_0==HX_("overlay",90,43,10,a9)) ){
-HXLINE( 205)			return 11;
-HXDLIN( 205)			goto _hx_goto_0;
+HXLINE(  39)			return 11;
+HXDLIN(  39)			goto _hx_goto_0;
             		}
             		if (  (_hx_switch_0==HX_("screen",6c,3b,5d,47)) ){
-HXLINE( 206)			return 12;
-HXDLIN( 206)			goto _hx_goto_0;
+HXLINE(  40)			return 12;
+HXDLIN(  40)			goto _hx_goto_0;
             		}
             		if (  (_hx_switch_0==HX_("shader",25,bf,20,1d)) ){
-HXLINE( 207)			return 13;
-HXDLIN( 207)			goto _hx_goto_0;
+HXLINE(  41)			return 13;
+HXDLIN(  41)			goto _hx_goto_0;
             		}
             		if (  (_hx_switch_0==HX_("subtract",14,75,11,f8)) ){
-HXLINE( 208)			return 14;
-HXDLIN( 208)			goto _hx_goto_0;
+HXLINE(  42)			return 14;
+HXDLIN(  42)			goto _hx_goto_0;
             		}
             		/* default */{
-HXLINE( 209)			return null();
+HXLINE(  43)			return null();
             		}
             		_hx_goto_0:;
-HXLINE( 192)		return null();
+HXLINE(  26)		return null();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(BlendMode_Impl__obj,fromString,return )
 
 ::String BlendMode_Impl__obj::toString( ::Dynamic this1){
-            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_215_toString)
-HXDLIN( 215)		 ::Dynamic _hx_switch_0 = this1;
+            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_49_toString)
+HXDLIN(  49)		 ::Dynamic _hx_switch_0 = this1;
             		if (  (_hx_switch_0==0) ){
-HXLINE( 217)			return HX_("add",21,f2,49,00);
-HXDLIN( 217)			goto _hx_goto_2;
+HXLINE(  51)			return HX_("add",21,f2,49,00);
+HXDLIN(  51)			goto _hx_goto_2;
             		}
             		if (  (_hx_switch_0==1) ){
-HXLINE( 218)			return HX_("alpha",5e,a7,96,21);
-HXDLIN( 218)			goto _hx_goto_2;
+HXLINE(  52)			return HX_("alpha",5e,a7,96,21);
+HXDLIN(  52)			goto _hx_goto_2;
             		}
             		if (  (_hx_switch_0==2) ){
-HXLINE( 219)			return HX_("darken",5f,36,3a,21);
-HXDLIN( 219)			goto _hx_goto_2;
+HXLINE(  53)			return HX_("darken",5f,36,3a,21);
+HXDLIN(  53)			goto _hx_goto_2;
             		}
             		if (  (_hx_switch_0==3) ){
-HXLINE( 220)			return HX_("difference",fd,9b,91,46);
-HXDLIN( 220)			goto _hx_goto_2;
+HXLINE(  54)			return HX_("difference",fd,9b,91,46);
+HXDLIN(  54)			goto _hx_goto_2;
             		}
             		if (  (_hx_switch_0==4) ){
-HXLINE( 221)			return HX_("erase",e6,e8,1c,73);
-HXDLIN( 221)			goto _hx_goto_2;
+HXLINE(  55)			return HX_("erase",e6,e8,1c,73);
+HXDLIN(  55)			goto _hx_goto_2;
             		}
             		if (  (_hx_switch_0==5) ){
-HXLINE( 222)			return HX_("hardlight",0b,6e,6b,53);
-HXDLIN( 222)			goto _hx_goto_2;
+HXLINE(  56)			return HX_("hardlight",0b,6e,6b,53);
+HXDLIN(  56)			goto _hx_goto_2;
             		}
             		if (  (_hx_switch_0==6) ){
-HXLINE( 223)			return HX_("invert",16,e7,d8,9f);
-HXDLIN( 223)			goto _hx_goto_2;
+HXLINE(  57)			return HX_("invert",16,e7,d8,9f);
+HXDLIN(  57)			goto _hx_goto_2;
             		}
             		if (  (_hx_switch_0==7) ){
-HXLINE( 224)			return HX_("layer",d1,81,c0,6f);
-HXDLIN( 224)			goto _hx_goto_2;
+HXLINE(  58)			return HX_("layer",d1,81,c0,6f);
+HXDLIN(  58)			goto _hx_goto_2;
             		}
             		if (  (_hx_switch_0==8) ){
-HXLINE( 225)			return HX_("lighten",bf,4a,e3,19);
-HXDLIN( 225)			goto _hx_goto_2;
+HXLINE(  59)			return HX_("lighten",bf,4a,e3,19);
+HXDLIN(  59)			goto _hx_goto_2;
             		}
             		if (  (_hx_switch_0==9) ){
-HXLINE( 226)			return HX_("multiply",24,e2,8c,9a);
-HXDLIN( 226)			goto _hx_goto_2;
+HXLINE(  60)			return HX_("multiply",24,e2,8c,9a);
+HXDLIN(  60)			goto _hx_goto_2;
             		}
             		if (  (_hx_switch_0==10) ){
-HXLINE( 227)			return HX_("normal",27,72,69,30);
-HXDLIN( 227)			goto _hx_goto_2;
+HXLINE(  61)			return HX_("normal",27,72,69,30);
+HXDLIN(  61)			goto _hx_goto_2;
             		}
             		if (  (_hx_switch_0==11) ){
-HXLINE( 228)			return HX_("overlay",90,43,10,a9);
-HXDLIN( 228)			goto _hx_goto_2;
+HXLINE(  62)			return HX_("overlay",90,43,10,a9);
+HXDLIN(  62)			goto _hx_goto_2;
             		}
             		if (  (_hx_switch_0==12) ){
-HXLINE( 229)			return HX_("screen",6c,3b,5d,47);
-HXDLIN( 229)			goto _hx_goto_2;
+HXLINE(  63)			return HX_("screen",6c,3b,5d,47);
+HXDLIN(  63)			goto _hx_goto_2;
             		}
             		if (  (_hx_switch_0==13) ){
-HXLINE( 230)			return HX_("shader",25,bf,20,1d);
-HXDLIN( 230)			goto _hx_goto_2;
+HXLINE(  64)			return HX_("shader",25,bf,20,1d);
+HXDLIN(  64)			goto _hx_goto_2;
             		}
             		if (  (_hx_switch_0==14) ){
-HXLINE( 231)			return HX_("subtract",14,75,11,f8);
-HXDLIN( 231)			goto _hx_goto_2;
+HXLINE(  65)			return HX_("subtract",14,75,11,f8);
+HXDLIN(  65)			goto _hx_goto_2;
             		}
             		/* default */{
-HXLINE( 232)			return null();
+HXLINE(  66)			return null();
             		}
             		_hx_goto_2:;
-HXLINE( 215)		return null();
+HXLINE(  49)		return null();
             	}
 
 
@@ -350,64 +350,64 @@ void BlendMode_Impl__obj::__register()
 void BlendMode_Impl__obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_27_boot)
-HXDLIN(  27)		ADD = 0;
+            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_8_boot)
+HXDLIN(   8)		ADD = 0;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_37_boot)
-HXDLIN(  37)		ALPHA = 1;
+            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_9_boot)
+HXDLIN(   9)		ALPHA = 1;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_51_boot)
-HXDLIN(  51)		DARKEN = 2;
+            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_10_boot)
+HXDLIN(  10)		DARKEN = 2;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_64_boot)
-HXDLIN(  64)		DIFFERENCE = 3;
+            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_11_boot)
+HXDLIN(  11)		DIFFERENCE = 3;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_73_boot)
-HXDLIN(  73)		ERASE = 4;
+            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_12_boot)
+HXDLIN(  12)		ERASE = 4;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_85_boot)
-HXDLIN(  85)		HARDLIGHT = 5;
+            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_13_boot)
+HXDLIN(  13)		HARDLIGHT = 5;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_90_boot)
-HXDLIN(  90)		INVERT = 6;
+            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_14_boot)
+HXDLIN(  14)		INVERT = 6;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_102_boot)
-HXDLIN( 102)		LAYER = 7;
+            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_15_boot)
+HXDLIN(  15)		LAYER = 7;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_116_boot)
-HXDLIN( 116)		LIGHTEN = 8;
+            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_16_boot)
+HXDLIN(  16)		LIGHTEN = 8;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_131_boot)
-HXDLIN( 131)		MULTIPLY = 9;
+            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_17_boot)
+HXDLIN(  17)		MULTIPLY = 9;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_138_boot)
-HXDLIN( 138)		NORMAL = 10;
+            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_18_boot)
+HXDLIN(  18)		NORMAL = 10;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_150_boot)
-HXDLIN( 150)		OVERLAY = 11;
+            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_19_boot)
+HXDLIN(  19)		OVERLAY = 11;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_158_boot)
-HXDLIN( 158)		SCREEN = 12;
+            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_20_boot)
+HXDLIN(  20)		SCREEN = 12;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_176_boot)
-HXDLIN( 176)		SHADER = 13;
+            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_21_boot)
+HXDLIN(  21)		SHADER = 13;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_188_boot)
-HXDLIN( 188)		SUBTRACT = 14;
+            	HX_STACKFRAME(&_hx_pos_e6e785382931c1c9_22_boot)
+HXDLIN(  22)		SUBTRACT = 14;
             	}
 }
 

@@ -6,7 +6,7 @@
 #include <hxcpp.h>
 #endif
 
-HX_DECLARE_STACK_FRAME(_hx_pos_0860c5b2df24b64b_102_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_0860c5b2df24b64b_15_new)
 HX_DECLARE_CLASS2(openfl,net,FileFilter)
 
 namespace openfl{
@@ -39,10 +39,10 @@ class HXCPP_CLASS_ATTRIBUTES FileFilter_obj : public ::hx::Object
 			FileFilter_obj *__this = (FileFilter_obj*)(::hx::Ctx::alloc(_hx_ctx, sizeof(FileFilter_obj), true, "openfl.net.FileFilter"));
 			*(void **)__this = FileFilter_obj::_hx_vtable;
 {
-            	HX_STACKFRAME(&_hx_pos_0860c5b2df24b64b_102_new)
-HXLINE( 103)		( ( ::openfl::net::FileFilter)(__this) )->description = description;
-HXLINE( 104)		( ( ::openfl::net::FileFilter)(__this) )->extension = extension;
-HXLINE( 105)		( ( ::openfl::net::FileFilter)(__this) )->macType = macType;
+            	HX_STACKFRAME(&_hx_pos_0860c5b2df24b64b_15_new)
+HXLINE(  16)		( ( ::openfl::net::FileFilter)(__this) )->description = description;
+HXLINE(  17)		( ( ::openfl::net::FileFilter)(__this) )->extension = extension;
+HXLINE(  18)		( ( ::openfl::net::FileFilter)(__this) )->macType = macType;
             	}
 		
 			return __this;

@@ -75,15 +75,6 @@ class HXCPP_CLASS_ATTRIBUTES StringMap_obj : public ::hx::Object
 		 ::Dynamic iterator();
 		::Dynamic iterator_dyn();
 
-		 ::Dynamic keyValueIterator();
-		::Dynamic keyValueIterator_dyn();
-
-		virtual ::String toString();
-		::Dynamic toString_dyn();
-
-		void clear();
-		::Dynamic clear_dyn();
-
 
   inline void set(String key, ::null value) { __string_hash_set(HX_MAP_THIS,key,value); }
   inline void set(String key, bool value) { __string_hash_set(HX_MAP_THIS,key,value); }

@@ -55,8 +55,8 @@
 #ifndef INCLUDED_openfl_display3D_UniformMap
 #include <openfl/display3D/UniformMap.h>
 #endif
-#ifndef INCLUDED_openfl_display3D__internal_AGALConverter
-#include <openfl/display3D/_internal/AGALConverter.h>
+#ifndef INCLUDED_openfl_display3D__internal_agal_AGALConverter
+#include <openfl/display3D/_internal/agal/AGALConverter.h>
 #endif
 #ifndef INCLUDED_openfl_errors_Error
 #include <openfl/errors/Error.h>
@@ -216,8 +216,8 @@ HXLINE( 389)		if (::hx::IsNotEq( this->_hx___format,0 )) {
 HXLINE( 389)			return;
             		}
 HXLINE( 392)		::Array< ::Dynamic> samplerStates = ::Array_obj< ::Dynamic>::__new();
-HXLINE( 394)		::String glslVertex = ::openfl::display3D::_internal::AGALConverter_obj::convertToGLSL(vertexProgram,null());
-HXLINE( 395)		::String glslFragment = ::openfl::display3D::_internal::AGALConverter_obj::convertToGLSL(fragmentProgram,samplerStates);
+HXLINE( 394)		::String glslVertex = ::openfl::display3D::_internal::agal::AGALConverter_obj::convertToGLSL(vertexProgram,null());
+HXLINE( 395)		::String glslFragment = ::openfl::display3D::_internal::agal::AGALConverter_obj::convertToGLSL(fragmentProgram,samplerStates);
 HXLINE( 397)		if ((::lime::utils::Log_obj::level == 5)) {
 HXLINE( 399)			::lime::utils::Log_obj::info(glslVertex,::hx::SourceInfo(HX_("openfl/display3D/Program3D.hx",04,5b,98,0a),399,HX_("openfl.display3D.Program3D",7c,83,68,f5),HX_("upload",01,ca,59,8c)));
 HXLINE( 400)			::lime::utils::Log_obj::info(glslFragment,::hx::SourceInfo(HX_("openfl/display3D/Program3D.hx",04,5b,98,0a),400,HX_("openfl.display3D.Program3D",7c,83,68,f5),HX_("upload",01,ca,59,8c)));

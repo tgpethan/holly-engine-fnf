@@ -27,7 +27,6 @@ HX_DEFINE_STACK_FRAME(_hx_pos_f55a54b42a9231a6_9_new,"flixel.tweens.misc.AngleTw
 HX_LOCAL_STACK_FRAME(_hx_pos_f55a54b42a9231a6_25_destroy,"flixel.tweens.misc.AngleTween","destroy",0x51eec792,"flixel.tweens.misc.AngleTween.destroy","flixel/tweens/misc/AngleTween.hx",25,0x989494f7)
 HX_LOCAL_STACK_FRAME(_hx_pos_f55a54b42a9231a6_38_tween,"flixel.tweens.misc.AngleTween","tween",0xc3ccef03,"flixel.tweens.misc.AngleTween.tween","flixel/tweens/misc/AngleTween.hx",38,0x989494f7)
 HX_LOCAL_STACK_FRAME(_hx_pos_f55a54b42a9231a6_52_update,"flixel.tweens.misc.AngleTween","update",0xed654671,"flixel.tweens.misc.AngleTween.update","flixel/tweens/misc/AngleTween.hx",52,0x989494f7)
-HX_LOCAL_STACK_FRAME(_hx_pos_f55a54b42a9231a6_65_isTweenOf,"flixel.tweens.misc.AngleTween","isTweenOf",0xa7758e30,"flixel.tweens.misc.AngleTween.isTweenOf","flixel/tweens/misc/AngleTween.hx",65,0x989494f7)
 namespace flixel{
 namespace tweens{
 namespace misc{
@@ -90,23 +89,6 @@ HXLINE(  59)			this->sprite->set_angle(spriteAngle);
             	}
 
 
-bool AngleTween_obj::isTweenOf( ::Dynamic object,::String field){
-            	HX_STACKFRAME(&_hx_pos_f55a54b42a9231a6_65_isTweenOf)
-HXDLIN(  65)		if (::hx::IsEq( this->sprite,object )) {
-HXDLIN(  65)			if (::hx::IsNotNull( field )) {
-HXDLIN(  65)				return (field == HX_("angle",d3,43,e2,22));
-            			}
-            			else {
-HXDLIN(  65)				return true;
-            			}
-            		}
-            		else {
-HXDLIN(  65)			return false;
-            		}
-HXDLIN(  65)		return false;
-            	}
-
-
 
 ::hx::ObjectPtr< AngleTween_obj > AngleTween_obj::__new( ::Dynamic Options, ::flixel::tweens::FlxTweenManager manager) {
 	::hx::ObjectPtr< AngleTween_obj > __this = new AngleTween_obj();
@@ -160,9 +142,6 @@ void AngleTween_obj::__Visit(HX_VISIT_PARAMS)
 		break;
 	case 7:
 		if (HX_FIELD_EQ(inName,"destroy") ) { return ::hx::Val( destroy_dyn() ); }
-		break;
-	case 9:
-		if (HX_FIELD_EQ(inName,"isTweenOf") ) { return ::hx::Val( isTweenOf_dyn() ); }
 	}
 	return super::__Field(inName,inCallProp);
 }
@@ -209,7 +188,6 @@ static ::String AngleTween_obj_sMemberFields[] = {
 	HX_("destroy",fa,2c,86,24),
 	HX_("tween",6b,aa,70,19),
 	HX_("update",09,86,05,87),
-	HX_("isTweenOf",98,1d,bf,da),
 	::String(null()) };
 
 ::hx::Class AngleTween_obj::__mClass;

@@ -34,6 +34,9 @@
 #ifndef INCLUDED_lime_utils__Bytes_Bytes_Impl_
 #include <lime/utils/_Bytes/Bytes_Impl_.h>
 #endif
+#ifndef INCLUDED_openfl__internal_Lib
+#include <openfl/_internal/Lib.h>
+#endif
 #ifndef INCLUDED_openfl_events_ErrorEvent
 #include <openfl/events/ErrorEvent.h>
 #endif
@@ -79,9 +82,6 @@
 #ifndef INCLUDED_openfl_utils__ByteArray_ByteArray_Impl_
 #include <openfl/utils/_ByteArray/ByteArray_Impl_.h>
 #endif
-#ifndef INCLUDED_openfl_utils__internal_Lib
-#include <openfl/utils/_internal/Lib.h>
-#endif
 #ifndef INCLUDED_sys_FileSystem
 #include <sys/FileSystem.h>
 #endif
@@ -89,29 +89,29 @@
 #include <sys/io/File.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_069fe0fa1a76d977_472_new,"openfl.net.FileReference","new",0x2e63d252,"openfl.net.FileReference.new","openfl/net/FileReference.hx",472,0x825195e0)
-HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_551_browse,"openfl.net.FileReference","browse",0x617d1ed8,"openfl.net.FileReference.browse","openfl/net/FileReference.hx",551,0x825195e0)
-HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_617_cancel,"openfl.net.FileReference","cancel",0xfd502ec8,"openfl.net.FileReference.cancel","openfl/net/FileReference.hx",617,0x825195e0)
-HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_808_download,"openfl.net.FileReference","download",0x87701c56,"openfl.net.FileReference.download","openfl/net/FileReference.hx",808,0x825195e0)
-HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_906_load,"openfl.net.FileReference","load",0x67a94bf4,"openfl.net.FileReference.load","openfl/net/FileReference.hx",906,0x825195e0)
-HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_1025_save,"openfl.net.FileReference","save",0x6c3f3d0b,"openfl.net.FileReference.save","openfl/net/FileReference.hx",1025,0x825195e0)
-HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_1286_upload,"openfl.net.FileReference","upload",0xd1760b4f,"openfl.net.FileReference.upload","openfl/net/FileReference.hx",1286,0x825195e0)
-HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_1293_openFileDialog_onCancel,"openfl.net.FileReference","openFileDialog_onCancel",0xbb8b83bc,"openfl.net.FileReference.openFileDialog_onCancel","openfl/net/FileReference.hx",1293,0x825195e0)
-HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_1298_openFileDialog_onComplete,"openfl.net.FileReference","openFileDialog_onComplete",0xb8e32b7b,"openfl.net.FileReference.openFileDialog_onComplete","openfl/net/FileReference.hx",1298,0x825195e0)
-HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_1302_openFileDialog_onSelect,"openfl.net.FileReference","openFileDialog_onSelect",0x6d8ab13e,"openfl.net.FileReference.openFileDialog_onSelect","openfl/net/FileReference.hx",1302,0x825195e0)
-HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_1319_saveFileDialog_onCancel,"openfl.net.FileReference","saveFileDialog_onCancel",0x6e985029,"openfl.net.FileReference.saveFileDialog_onCancel","openfl/net/FileReference.hx",1319,0x825195e0)
-HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_1326_saveFileDialog_onSave,"openfl.net.FileReference","saveFileDialog_onSave",0xeaaa942c,"openfl.net.FileReference.saveFileDialog_onSave","openfl/net/FileReference.hx",1326,0x825195e0)
-HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_1323_saveFileDialog_onSave,"openfl.net.FileReference","saveFileDialog_onSave",0xeaaa942c,"openfl.net.FileReference.saveFileDialog_onSave","openfl/net/FileReference.hx",1323,0x825195e0)
-HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_1331_saveFileDialog_onSelect,"openfl.net.FileReference","saveFileDialog_onSelect",0x20977dab,"openfl.net.FileReference.saveFileDialog_onSelect","openfl/net/FileReference.hx",1331,0x825195e0)
-HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_1352_urlLoader_onComplete,"openfl.net.FileReference","urlLoader_onComplete",0x4ddaf243,"openfl.net.FileReference.urlLoader_onComplete","openfl/net/FileReference.hx",1352,0x825195e0)
-HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_1378_urlLoader_onIOError,"openfl.net.FileReference","urlLoader_onIOError",0xbaaf7fd8,"openfl.net.FileReference.urlLoader_onIOError","openfl/net/FileReference.hx",1378,0x825195e0)
-HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_1383_urlLoader_onProgress,"openfl.net.FileReference","urlLoader_onProgress",0x543de937,"openfl.net.FileReference.urlLoader_onProgress","openfl/net/FileReference.hx",1383,0x825195e0)
+HX_DEFINE_STACK_FRAME(_hx_pos_069fe0fa1a76d977_48_new,"openfl.net.FileReference","new",0x2e63d252,"openfl.net.FileReference.new","openfl/net/FileReference.hx",48,0x825195e0)
+HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_61_browse,"openfl.net.FileReference","browse",0x617d1ed8,"openfl.net.FileReference.browse","openfl/net/FileReference.hx",61,0x825195e0)
+HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_120_cancel,"openfl.net.FileReference","cancel",0xfd502ec8,"openfl.net.FileReference.cancel","openfl/net/FileReference.hx",120,0x825195e0)
+HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_127_download,"openfl.net.FileReference","download",0x87701c56,"openfl.net.FileReference.download","openfl/net/FileReference.hx",127,0x825195e0)
+HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_146_load,"openfl.net.FileReference","load",0x67a94bf4,"openfl.net.FileReference.load","openfl/net/FileReference.hx",146,0x825195e0)
+HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_164_save,"openfl.net.FileReference","save",0x6c3f3d0b,"openfl.net.FileReference.save","openfl/net/FileReference.hx",164,0x825195e0)
+HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_206_upload,"openfl.net.FileReference","upload",0xd1760b4f,"openfl.net.FileReference.upload","openfl/net/FileReference.hx",206,0x825195e0)
+HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_213_openFileDialog_onCancel,"openfl.net.FileReference","openFileDialog_onCancel",0xbb8b83bc,"openfl.net.FileReference.openFileDialog_onCancel","openfl/net/FileReference.hx",213,0x825195e0)
+HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_218_openFileDialog_onComplete,"openfl.net.FileReference","openFileDialog_onComplete",0xb8e32b7b,"openfl.net.FileReference.openFileDialog_onComplete","openfl/net/FileReference.hx",218,0x825195e0)
+HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_222_openFileDialog_onSelect,"openfl.net.FileReference","openFileDialog_onSelect",0x6d8ab13e,"openfl.net.FileReference.openFileDialog_onSelect","openfl/net/FileReference.hx",222,0x825195e0)
+HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_239_saveFileDialog_onCancel,"openfl.net.FileReference","saveFileDialog_onCancel",0x6e985029,"openfl.net.FileReference.saveFileDialog_onCancel","openfl/net/FileReference.hx",239,0x825195e0)
+HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_246_saveFileDialog_onSave,"openfl.net.FileReference","saveFileDialog_onSave",0xeaaa942c,"openfl.net.FileReference.saveFileDialog_onSave","openfl/net/FileReference.hx",246,0x825195e0)
+HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_243_saveFileDialog_onSave,"openfl.net.FileReference","saveFileDialog_onSave",0xeaaa942c,"openfl.net.FileReference.saveFileDialog_onSave","openfl/net/FileReference.hx",243,0x825195e0)
+HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_251_saveFileDialog_onSelect,"openfl.net.FileReference","saveFileDialog_onSelect",0x20977dab,"openfl.net.FileReference.saveFileDialog_onSelect","openfl/net/FileReference.hx",251,0x825195e0)
+HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_272_urlLoader_onComplete,"openfl.net.FileReference","urlLoader_onComplete",0x4ddaf243,"openfl.net.FileReference.urlLoader_onComplete","openfl/net/FileReference.hx",272,0x825195e0)
+HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_298_urlLoader_onIOError,"openfl.net.FileReference","urlLoader_onIOError",0xbaaf7fd8,"openfl.net.FileReference.urlLoader_onIOError","openfl/net/FileReference.hx",298,0x825195e0)
+HX_LOCAL_STACK_FRAME(_hx_pos_069fe0fa1a76d977_303_urlLoader_onProgress,"openfl.net.FileReference","urlLoader_onProgress",0x543de937,"openfl.net.FileReference.urlLoader_onProgress","openfl/net/FileReference.hx",303,0x825195e0)
 namespace openfl{
 namespace net{
 
 void FileReference_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_069fe0fa1a76d977_472_new)
-HXDLIN( 472)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_069fe0fa1a76d977_48_new)
+HXDLIN(  48)		super::__construct(null());
             	}
 
 Dynamic FileReference_obj::__CreateEmpty() { return new FileReference_obj; }
@@ -134,36 +134,36 @@ bool FileReference_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 bool FileReference_obj::browse(::Array< ::Dynamic> typeFilter){
-            	HX_GC_STACKFRAME(&_hx_pos_069fe0fa1a76d977_551_browse)
-HXLINE( 552)		this->_hx___data = null();
-HXLINE( 553)		this->_hx___path = null();
-HXLINE( 556)		::String filter = null();
-HXLINE( 558)		if (::hx::IsNotNull( typeFilter )) {
-HXLINE( 560)			::Array< ::String > filters = ::Array_obj< ::String >::__new(0);
-HXLINE( 562)			{
-HXLINE( 562)				int _g = 0;
-HXDLIN( 562)				while((_g < typeFilter->length)){
-HXLINE( 562)					 ::openfl::net::FileFilter type = typeFilter->__get(_g).StaticCast<  ::openfl::net::FileFilter >();
-HXDLIN( 562)					_g = (_g + 1);
-HXLINE( 564)					filters->push(::StringTools_obj::replace(::StringTools_obj::replace(type->extension,HX_("*.",c4,24,00,00),HX_("",00,00,00,00)),HX_(";",3b,00,00,00),HX_(",",2c,00,00,00)));
+            	HX_GC_STACKFRAME(&_hx_pos_069fe0fa1a76d977_61_browse)
+HXLINE(  62)		this->_hx___data = null();
+HXLINE(  63)		this->_hx___path = null();
+HXLINE(  66)		::String filter = null();
+HXLINE(  68)		if (::hx::IsNotNull( typeFilter )) {
+HXLINE(  70)			::Array< ::String > filters = ::Array_obj< ::String >::__new(0);
+HXLINE(  72)			{
+HXLINE(  72)				int _g = 0;
+HXDLIN(  72)				while((_g < typeFilter->length)){
+HXLINE(  72)					 ::openfl::net::FileFilter type = typeFilter->__get(_g).StaticCast<  ::openfl::net::FileFilter >();
+HXDLIN(  72)					_g = (_g + 1);
+HXLINE(  74)					filters->push(::StringTools_obj::replace(::StringTools_obj::replace(type->extension,HX_("*.",c4,24,00,00),HX_("",00,00,00,00)),HX_(";",3b,00,00,00),HX_(",",2c,00,00,00)));
             				}
             			}
-HXLINE( 567)			filter = filters->join(HX_(";",3b,00,00,00));
+HXLINE(  77)			filter = filters->join(HX_(";",3b,00,00,00));
             		}
-HXLINE( 570)		 ::lime::ui::FileDialog openFileDialog =  ::lime::ui::FileDialog_obj::__alloc( HX_CTX );
-HXLINE( 571)		openFileDialog->onCancel->add(this->openFileDialog_onCancel_dyn(),null(),null());
-HXLINE( 572)		openFileDialog->onSelect->add(this->openFileDialog_onSelect_dyn(),null(),null());
-HXLINE( 573)		openFileDialog->browse(::lime::ui::FileDialogType_obj::OPEN_dyn(),filter,null(),null());
-HXLINE( 574)		return true;
+HXLINE(  80)		 ::lime::ui::FileDialog openFileDialog =  ::lime::ui::FileDialog_obj::__alloc( HX_CTX );
+HXLINE(  81)		openFileDialog->onCancel->add(this->openFileDialog_onCancel_dyn(),null(),null());
+HXLINE(  82)		openFileDialog->onSelect->add(this->openFileDialog_onSelect_dyn(),null(),null());
+HXLINE(  83)		openFileDialog->browse(::lime::ui::FileDialogType_obj::OPEN_dyn(),filter,null(),null());
+HXLINE(  84)		return true;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FileReference_obj,browse,return )
 
 void FileReference_obj::cancel(){
-            	HX_STACKFRAME(&_hx_pos_069fe0fa1a76d977_617_cancel)
-HXDLIN( 617)		if (::hx::IsNotNull( this->_hx___urlLoader )) {
-HXLINE( 619)			this->_hx___urlLoader->close();
+            	HX_STACKFRAME(&_hx_pos_069fe0fa1a76d977_120_cancel)
+HXDLIN( 120)		if (::hx::IsNotNull( this->_hx___urlLoader )) {
+HXLINE( 122)			this->_hx___urlLoader->close();
             		}
             	}
 
@@ -171,35 +171,35 @@ HXLINE( 619)			this->_hx___urlLoader->close();
 HX_DEFINE_DYNAMIC_FUNC0(FileReference_obj,cancel,(void))
 
 void FileReference_obj::download( ::openfl::net::URLRequest request,::String defaultFileName){
-            	HX_GC_STACKFRAME(&_hx_pos_069fe0fa1a76d977_808_download)
-HXLINE( 809)		this->_hx___data = null();
-HXLINE( 810)		this->_hx___path = null();
-HXLINE( 812)		this->_hx___urlLoader =  ::openfl::net::URLLoader_obj::__alloc( HX_CTX ,null());
-HXLINE( 813)		this->_hx___urlLoader->addEventListener(HX_("complete",b9,00,c8,7f),this->urlLoader_onComplete_dyn(),null(),null(),null());
-HXLINE( 814)		this->_hx___urlLoader->addEventListener(HX_("ioError",02,fe,41,76),this->urlLoader_onIOError_dyn(),null(),null(),null());
-HXLINE( 815)		this->_hx___urlLoader->addEventListener(HX_("progress",ad,f7,2a,86),this->urlLoader_onProgress_dyn(),null(),null(),null());
-HXLINE( 816)		this->_hx___urlLoader->load(request);
-HXLINE( 818)		 ::lime::ui::FileDialog saveFileDialog =  ::lime::ui::FileDialog_obj::__alloc( HX_CTX );
-HXLINE( 819)		saveFileDialog->onCancel->add(this->saveFileDialog_onCancel_dyn(),null(),null());
-HXLINE( 820)		saveFileDialog->onSelect->add(this->saveFileDialog_onSelect_dyn(),null(),null());
-HXLINE( 821)		::String _hx_tmp;
-HXDLIN( 821)		if (::hx::IsNotNull( defaultFileName )) {
-HXLINE( 821)			_hx_tmp = ::haxe::io::Path_obj::extension(defaultFileName);
+            	HX_GC_STACKFRAME(&_hx_pos_069fe0fa1a76d977_127_download)
+HXLINE( 128)		this->_hx___data = null();
+HXLINE( 129)		this->_hx___path = null();
+HXLINE( 131)		this->_hx___urlLoader =  ::openfl::net::URLLoader_obj::__alloc( HX_CTX ,null());
+HXLINE( 132)		this->_hx___urlLoader->addEventListener(HX_("complete",b9,00,c8,7f),this->urlLoader_onComplete_dyn(),null(),null(),null());
+HXLINE( 133)		this->_hx___urlLoader->addEventListener(HX_("ioError",02,fe,41,76),this->urlLoader_onIOError_dyn(),null(),null(),null());
+HXLINE( 134)		this->_hx___urlLoader->addEventListener(HX_("progress",ad,f7,2a,86),this->urlLoader_onProgress_dyn(),null(),null(),null());
+HXLINE( 135)		this->_hx___urlLoader->load(request);
+HXLINE( 137)		 ::lime::ui::FileDialog saveFileDialog =  ::lime::ui::FileDialog_obj::__alloc( HX_CTX );
+HXLINE( 138)		saveFileDialog->onCancel->add(this->saveFileDialog_onCancel_dyn(),null(),null());
+HXLINE( 139)		saveFileDialog->onSelect->add(this->saveFileDialog_onSelect_dyn(),null(),null());
+HXLINE( 140)		::String _hx_tmp;
+HXDLIN( 140)		if (::hx::IsNotNull( defaultFileName )) {
+HXLINE( 140)			_hx_tmp = ::haxe::io::Path_obj::extension(defaultFileName);
             		}
             		else {
-HXLINE( 821)			_hx_tmp = null();
+HXLINE( 140)			_hx_tmp = null();
             		}
-HXDLIN( 821)		saveFileDialog->browse(::lime::ui::FileDialogType_obj::SAVE_dyn(),_hx_tmp,defaultFileName,null());
+HXDLIN( 140)		saveFileDialog->browse(::lime::ui::FileDialogType_obj::SAVE_dyn(),_hx_tmp,defaultFileName,null());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FileReference_obj,download,(void))
 
 void FileReference_obj::load(){
-            	HX_STACKFRAME(&_hx_pos_069fe0fa1a76d977_906_load)
-HXDLIN( 906)		if (::hx::IsNotNull( this->_hx___path )) {
-HXLINE( 908)			this->data = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(::lime::utils::_Bytes::Bytes_Impl__obj::fromFile(this->_hx___path));
-HXLINE( 909)			this->openFileDialog_onComplete();
+            	HX_STACKFRAME(&_hx_pos_069fe0fa1a76d977_146_load)
+HXDLIN( 146)		if (::hx::IsNotNull( this->_hx___path )) {
+HXLINE( 148)			this->data = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(::lime::utils::_Bytes::Bytes_Impl__obj::fromFile(this->_hx___path));
+HXLINE( 149)			this->openFileDialog_onComplete();
             		}
             	}
 
@@ -207,34 +207,34 @@ HXLINE( 909)			this->openFileDialog_onComplete();
 HX_DEFINE_DYNAMIC_FUNC0(FileReference_obj,load,(void))
 
 void FileReference_obj::save( ::Dynamic data,::String defaultFileName){
-            	HX_GC_STACKFRAME(&_hx_pos_069fe0fa1a76d977_1025_save)
-HXLINE(1026)		this->_hx___data = null();
-HXLINE(1027)		this->_hx___path = null();
-HXLINE(1029)		if (::hx::IsNull( data )) {
-HXLINE(1029)			return;
+            	HX_GC_STACKFRAME(&_hx_pos_069fe0fa1a76d977_164_save)
+HXLINE( 165)		this->_hx___data = null();
+HXLINE( 166)		this->_hx___path = null();
+HXLINE( 168)		if (::hx::IsNull( data )) {
+HXLINE( 168)			return;
             		}
-HXLINE(1032)		if (::Std_obj::isOfType(data,::hx::ClassOf< ::openfl::utils::ByteArrayData >())) {
-HXLINE(1034)			this->_hx___data = ( ( ::openfl::utils::ByteArrayData)(data) );
+HXLINE( 171)		if (::Std_obj::isOfType(data,::hx::ClassOf< ::openfl::utils::ByteArrayData >())) {
+HXLINE( 173)			this->_hx___data = ( ( ::openfl::utils::ByteArrayData)(data) );
             		}
             		else {
-HXLINE(1038)			 ::openfl::utils::ByteArrayData this1 =  ::openfl::utils::ByteArrayData_obj::__alloc( HX_CTX ,0);
-HXDLIN(1038)			this->_hx___data = this1;
-HXLINE(1039)			{
-HXLINE(1039)				 ::openfl::utils::ByteArrayData this2 = this->_hx___data;
-HXDLIN(1039)				this2->writeUTFBytes(::Std_obj::string(data));
+HXLINE( 177)			 ::openfl::utils::ByteArrayData this1 =  ::openfl::utils::ByteArrayData_obj::__alloc( HX_CTX ,0);
+HXDLIN( 177)			this->_hx___data = this1;
+HXLINE( 178)			{
+HXLINE( 178)				 ::openfl::utils::ByteArrayData this2 = this->_hx___data;
+HXDLIN( 178)				this2->writeUTFBytes(::Std_obj::string(data));
             			}
             		}
-HXLINE(1042)		 ::lime::ui::FileDialog saveFileDialog =  ::lime::ui::FileDialog_obj::__alloc( HX_CTX );
-HXLINE(1043)		saveFileDialog->onCancel->add(this->saveFileDialog_onCancel_dyn(),null(),null());
-HXLINE(1044)		saveFileDialog->onSelect->add(this->saveFileDialog_onSelect_dyn(),null(),null());
-HXLINE(1045)		::String _hx_tmp;
-HXDLIN(1045)		if (::hx::IsNotNull( defaultFileName )) {
-HXLINE(1045)			_hx_tmp = ::haxe::io::Path_obj::extension(defaultFileName);
+HXLINE( 181)		 ::lime::ui::FileDialog saveFileDialog =  ::lime::ui::FileDialog_obj::__alloc( HX_CTX );
+HXLINE( 182)		saveFileDialog->onCancel->add(this->saveFileDialog_onCancel_dyn(),null(),null());
+HXLINE( 183)		saveFileDialog->onSelect->add(this->saveFileDialog_onSelect_dyn(),null(),null());
+HXLINE( 184)		::String _hx_tmp;
+HXDLIN( 184)		if (::hx::IsNotNull( defaultFileName )) {
+HXLINE( 184)			_hx_tmp = ::haxe::io::Path_obj::extension(defaultFileName);
             		}
             		else {
-HXLINE(1045)			_hx_tmp = null();
+HXLINE( 184)			_hx_tmp = null();
             		}
-HXDLIN(1045)		saveFileDialog->browse(::lime::ui::FileDialogType_obj::SAVE_dyn(),_hx_tmp,defaultFileName,null());
+HXDLIN( 184)		saveFileDialog->browse(::lime::ui::FileDialogType_obj::SAVE_dyn(),_hx_tmp,defaultFileName,null());
             	}
 
 
@@ -244,47 +244,47 @@ void FileReference_obj::upload( ::openfl::net::URLRequest request,::String __o_u
             		::String uploadDataFieldName = __o_uploadDataFieldName;
             		if (::hx::IsNull(__o_uploadDataFieldName)) uploadDataFieldName = HX_("Filedata",c6,ce,7f,4a);
             		bool testUpload = __o_testUpload.Default(false);
-            	HX_STACKFRAME(&_hx_pos_069fe0fa1a76d977_1286_upload)
-HXDLIN(1286)		::openfl::utils::_internal::Lib_obj::notImplemented(::hx::SourceInfo(HX_("openfl/net/FileReference.hx",e0,95,51,82),1286,HX_("openfl.net.FileReference",60,01,9c,e4),HX_("upload",01,ca,59,8c)));
+            	HX_STACKFRAME(&_hx_pos_069fe0fa1a76d977_206_upload)
+HXDLIN( 206)		::openfl::_internal::Lib_obj::notImplemented(::hx::SourceInfo(HX_("openfl/net/FileReference.hx",e0,95,51,82),206,HX_("openfl.net.FileReference",60,01,9c,e4),HX_("upload",01,ca,59,8c)));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(FileReference_obj,upload,(void))
 
 void FileReference_obj::openFileDialog_onCancel(){
-            	HX_GC_STACKFRAME(&_hx_pos_069fe0fa1a76d977_1293_openFileDialog_onCancel)
-HXDLIN(1293)		this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("cancel",7a,ed,33,b8),null(),null()));
+            	HX_GC_STACKFRAME(&_hx_pos_069fe0fa1a76d977_213_openFileDialog_onCancel)
+HXDLIN( 213)		this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("cancel",7a,ed,33,b8),null(),null()));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FileReference_obj,openFileDialog_onCancel,(void))
 
 void FileReference_obj::openFileDialog_onComplete(){
-            	HX_GC_STACKFRAME(&_hx_pos_069fe0fa1a76d977_1298_openFileDialog_onComplete)
-HXDLIN(1298)		this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("complete",b9,00,c8,7f),null(),null()));
+            	HX_GC_STACKFRAME(&_hx_pos_069fe0fa1a76d977_218_openFileDialog_onComplete)
+HXDLIN( 218)		this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("complete",b9,00,c8,7f),null(),null()));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FileReference_obj,openFileDialog_onComplete,(void))
 
 void FileReference_obj::openFileDialog_onSelect(::String path){
-            	HX_GC_STACKFRAME(&_hx_pos_069fe0fa1a76d977_1302_openFileDialog_onSelect)
-HXLINE(1304)		 ::Dynamic fileInfo = ::sys::FileSystem_obj::stat(path);
-HXLINE(1305)		this->creationDate = ( ( ::Date)(fileInfo->__Field(HX_("ctime",f0,39,a8,4d),::hx::paccDynamic)) );
-HXLINE(1306)		this->modificationDate = ( ( ::Date)(fileInfo->__Field(HX_("mtime",fa,06,aa,0f),::hx::paccDynamic)) );
-HXLINE(1307)		this->size = ( (int)(fileInfo->__Field(HX_("size",c1,a0,53,4c),::hx::paccDynamic)) );
-HXLINE(1308)		this->type = (HX_(".",2e,00,00,00) + ::haxe::io::Path_obj::extension(path));
-HXLINE(1311)		this->name = ::haxe::io::Path_obj::withoutDirectory(path);
-HXLINE(1312)		this->_hx___path = path;
-HXLINE(1314)		this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("select",fc,1a,33,6a),null(),null()));
+            	HX_GC_STACKFRAME(&_hx_pos_069fe0fa1a76d977_222_openFileDialog_onSelect)
+HXLINE( 224)		 ::Dynamic fileInfo = ::sys::FileSystem_obj::stat(path);
+HXLINE( 225)		this->creationDate = ( ( ::Date)(fileInfo->__Field(HX_("ctime",f0,39,a8,4d),::hx::paccDynamic)) );
+HXLINE( 226)		this->modificationDate = ( ( ::Date)(fileInfo->__Field(HX_("mtime",fa,06,aa,0f),::hx::paccDynamic)) );
+HXLINE( 227)		this->size = ( (int)(fileInfo->__Field(HX_("size",c1,a0,53,4c),::hx::paccDynamic)) );
+HXLINE( 228)		this->type = (HX_(".",2e,00,00,00) + ::haxe::io::Path_obj::extension(path));
+HXLINE( 231)		this->name = ::haxe::io::Path_obj::withoutDirectory(path);
+HXLINE( 232)		this->_hx___path = path;
+HXLINE( 234)		this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("select",fc,1a,33,6a),null(),null()));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FileReference_obj,openFileDialog_onSelect,(void))
 
 void FileReference_obj::saveFileDialog_onCancel(){
-            	HX_GC_STACKFRAME(&_hx_pos_069fe0fa1a76d977_1319_saveFileDialog_onCancel)
-HXDLIN(1319)		this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("cancel",7a,ed,33,b8),null(),null()));
+            	HX_GC_STACKFRAME(&_hx_pos_069fe0fa1a76d977_239_saveFileDialog_onCancel)
+HXDLIN( 239)		this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("cancel",7a,ed,33,b8),null(),null()));
             	}
 
 
@@ -293,73 +293,73 @@ HX_DEFINE_DYNAMIC_FUNC0(FileReference_obj,saveFileDialog_onCancel,(void))
 void FileReference_obj::saveFileDialog_onSave(::String path){
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::openfl::net::FileReference,_gthis) HXARGC(0)
             		void _hx_run(){
-            			HX_GC_STACKFRAME(&_hx_pos_069fe0fa1a76d977_1326_saveFileDialog_onSave)
-HXLINE(1326)			 ::openfl::net::FileReference _gthis1 = _gthis;
-HXDLIN(1326)			_gthis1->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("complete",b9,00,c8,7f),null(),null()));
+            			HX_GC_STACKFRAME(&_hx_pos_069fe0fa1a76d977_246_saveFileDialog_onSave)
+HXLINE( 246)			 ::openfl::net::FileReference _gthis1 = _gthis;
+HXDLIN( 246)			_gthis1->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("complete",b9,00,c8,7f),null(),null()));
             		}
             		HX_END_LOCAL_FUNC0((void))
 
-            	HX_STACKFRAME(&_hx_pos_069fe0fa1a76d977_1323_saveFileDialog_onSave)
-HXLINE(1322)		 ::openfl::net::FileReference _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE(1324)		::haxe::Timer_obj::delay( ::Dynamic(new _hx_Closure_0(_gthis)),1);
+            	HX_STACKFRAME(&_hx_pos_069fe0fa1a76d977_243_saveFileDialog_onSave)
+HXLINE( 242)		 ::openfl::net::FileReference _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 244)		::haxe::Timer_obj::delay( ::Dynamic(new _hx_Closure_0(_gthis)),1);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FileReference_obj,saveFileDialog_onSave,(void))
 
 void FileReference_obj::saveFileDialog_onSelect(::String path){
-            	HX_GC_STACKFRAME(&_hx_pos_069fe0fa1a76d977_1331_saveFileDialog_onSelect)
-HXLINE(1333)		this->name = ::haxe::io::Path_obj::withoutDirectory(path);
-HXLINE(1335)		if (::hx::IsNotNull( this->_hx___data )) {
-HXLINE(1337)			::sys::io::File_obj::saveBytes(path,::openfl::utils::_ByteArray::ByteArray_Impl__obj::toArrayBuffer(this->_hx___data));
-HXLINE(1339)			this->_hx___data = null();
-HXLINE(1340)			this->_hx___path = null();
+            	HX_GC_STACKFRAME(&_hx_pos_069fe0fa1a76d977_251_saveFileDialog_onSelect)
+HXLINE( 253)		this->name = ::haxe::io::Path_obj::withoutDirectory(path);
+HXLINE( 255)		if (::hx::IsNotNull( this->_hx___data )) {
+HXLINE( 257)			::sys::io::File_obj::saveBytes(path,::openfl::utils::_ByteArray::ByteArray_Impl__obj::toArrayBuffer(this->_hx___data));
+HXLINE( 259)			this->_hx___data = null();
+HXLINE( 260)			this->_hx___path = null();
             		}
             		else {
-HXLINE(1344)			this->_hx___path = path;
+HXLINE( 264)			this->_hx___path = path;
             		}
-HXLINE(1348)		this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("select",fc,1a,33,6a),null(),null()));
+HXLINE( 268)		this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("select",fc,1a,33,6a),null(),null()));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FileReference_obj,saveFileDialog_onSelect,(void))
 
 void FileReference_obj::urlLoader_onComplete( ::openfl::events::Event event){
-            	HX_GC_STACKFRAME(&_hx_pos_069fe0fa1a76d977_1352_urlLoader_onComplete)
-HXLINE(1354)		if (::Std_obj::isOfType(this->_hx___urlLoader->data,::hx::ClassOf< ::openfl::utils::ByteArrayData >())) {
-HXLINE(1356)			this->_hx___data = ( ( ::openfl::utils::ByteArrayData)(this->_hx___urlLoader->data) );
+            	HX_GC_STACKFRAME(&_hx_pos_069fe0fa1a76d977_272_urlLoader_onComplete)
+HXLINE( 274)		if (::Std_obj::isOfType(this->_hx___urlLoader->data,::hx::ClassOf< ::openfl::utils::ByteArrayData >())) {
+HXLINE( 276)			this->_hx___data = ( ( ::openfl::utils::ByteArrayData)(this->_hx___urlLoader->data) );
             		}
             		else {
-HXLINE(1360)			 ::openfl::utils::ByteArrayData this1 =  ::openfl::utils::ByteArrayData_obj::__alloc( HX_CTX ,0);
-HXDLIN(1360)			this->_hx___data = this1;
-HXLINE(1361)			{
-HXLINE(1361)				 ::openfl::utils::ByteArrayData this2 = this->_hx___data;
-HXDLIN(1361)				this2->writeUTFBytes(::Std_obj::string(this->_hx___urlLoader->data));
+HXLINE( 280)			 ::openfl::utils::ByteArrayData this1 =  ::openfl::utils::ByteArrayData_obj::__alloc( HX_CTX ,0);
+HXDLIN( 280)			this->_hx___data = this1;
+HXLINE( 281)			{
+HXLINE( 281)				 ::openfl::utils::ByteArrayData this2 = this->_hx___data;
+HXDLIN( 281)				this2->writeUTFBytes(::Std_obj::string(this->_hx___urlLoader->data));
             			}
             		}
-HXLINE(1364)		if (::hx::IsNotNull( this->_hx___path )) {
-HXLINE(1366)			::String _hx_tmp = this->_hx___path;
-HXDLIN(1366)			::sys::io::File_obj::saveBytes(_hx_tmp,::openfl::utils::_ByteArray::ByteArray_Impl__obj::toArrayBuffer(this->_hx___data));
-HXLINE(1368)			this->_hx___path = null();
-HXLINE(1369)			this->_hx___data = null();
+HXLINE( 284)		if (::hx::IsNotNull( this->_hx___path )) {
+HXLINE( 286)			::String _hx_tmp = this->_hx___path;
+HXDLIN( 286)			::sys::io::File_obj::saveBytes(_hx_tmp,::openfl::utils::_ByteArray::ByteArray_Impl__obj::toArrayBuffer(this->_hx___data));
+HXLINE( 288)			this->_hx___path = null();
+HXLINE( 289)			this->_hx___data = null();
             		}
-HXLINE(1373)		this->dispatchEvent(event);
+HXLINE( 293)		this->dispatchEvent(event);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FileReference_obj,urlLoader_onComplete,(void))
 
 void FileReference_obj::urlLoader_onIOError( ::openfl::events::IOErrorEvent event){
-            	HX_STACKFRAME(&_hx_pos_069fe0fa1a76d977_1378_urlLoader_onIOError)
-HXDLIN(1378)		this->dispatchEvent(event);
+            	HX_STACKFRAME(&_hx_pos_069fe0fa1a76d977_298_urlLoader_onIOError)
+HXDLIN( 298)		this->dispatchEvent(event);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FileReference_obj,urlLoader_onIOError,(void))
 
 void FileReference_obj::urlLoader_onProgress( ::openfl::events::ProgressEvent event){
-            	HX_STACKFRAME(&_hx_pos_069fe0fa1a76d977_1383_urlLoader_onProgress)
-HXDLIN(1383)		this->dispatchEvent(event);
+            	HX_STACKFRAME(&_hx_pos_069fe0fa1a76d977_303_urlLoader_onProgress)
+HXDLIN( 303)		this->dispatchEvent(event);
             	}
 
 

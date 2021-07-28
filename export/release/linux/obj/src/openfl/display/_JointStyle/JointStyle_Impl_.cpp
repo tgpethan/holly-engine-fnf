@@ -5,13 +5,13 @@
 #include <openfl/display/_JointStyle/JointStyle_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_e69e97fcd930b6f5_36_fromInt,"openfl.display._JointStyle.JointStyle_Impl_","fromInt",0x77a6f7b0,"openfl.display._JointStyle.JointStyle_Impl_.fromInt","openfl/display/JointStyle.hx",36,0xc58a30ab)
-HX_LOCAL_STACK_FRAME(_hx_pos_e69e97fcd930b6f5_41_fromString,"openfl.display._JointStyle.JointStyle_Impl_","fromString",0x7f19acb0,"openfl.display._JointStyle.JointStyle_Impl_.fromString","openfl/display/JointStyle.hx",41,0xc58a30ab)
-HX_LOCAL_STACK_FRAME(_hx_pos_e69e97fcd930b6f5_52_toInt,"openfl.display._JointStyle.JointStyle_Impl_","toInt",0x6fa6af7f,"openfl.display._JointStyle.JointStyle_Impl_.toInt","openfl/display/JointStyle.hx",52,0xc58a30ab)
-HX_LOCAL_STACK_FRAME(_hx_pos_e69e97fcd930b6f5_57_toString,"openfl.display._JointStyle.JointStyle_Impl_","toString",0xcf598041,"openfl.display._JointStyle.JointStyle_Impl_.toString","openfl/display/JointStyle.hx",57,0xc58a30ab)
-HX_LOCAL_STACK_FRAME(_hx_pos_e69e97fcd930b6f5_20_boot,"openfl.display._JointStyle.JointStyle_Impl_","boot",0x74078547,"openfl.display._JointStyle.JointStyle_Impl_.boot","openfl/display/JointStyle.hx",20,0xc58a30ab)
-HX_LOCAL_STACK_FRAME(_hx_pos_e69e97fcd930b6f5_26_boot,"openfl.display._JointStyle.JointStyle_Impl_","boot",0x74078547,"openfl.display._JointStyle.JointStyle_Impl_.boot","openfl/display/JointStyle.hx",26,0xc58a30ab)
-HX_LOCAL_STACK_FRAME(_hx_pos_e69e97fcd930b6f5_32_boot,"openfl.display._JointStyle.JointStyle_Impl_","boot",0x74078547,"openfl.display._JointStyle.JointStyle_Impl_.boot","openfl/display/JointStyle.hx",32,0xc58a30ab)
+HX_LOCAL_STACK_FRAME(_hx_pos_e69e97fcd930b6f5_13_fromInt,"openfl.display._JointStyle.JointStyle_Impl_","fromInt",0x77a6f7b0,"openfl.display._JointStyle.JointStyle_Impl_.fromInt","openfl/display/JointStyle.hx",13,0xc58a30ab)
+HX_LOCAL_STACK_FRAME(_hx_pos_e69e97fcd930b6f5_18_fromString,"openfl.display._JointStyle.JointStyle_Impl_","fromString",0x7f19acb0,"openfl.display._JointStyle.JointStyle_Impl_.fromString","openfl/display/JointStyle.hx",18,0xc58a30ab)
+HX_LOCAL_STACK_FRAME(_hx_pos_e69e97fcd930b6f5_29_toInt,"openfl.display._JointStyle.JointStyle_Impl_","toInt",0x6fa6af7f,"openfl.display._JointStyle.JointStyle_Impl_.toInt","openfl/display/JointStyle.hx",29,0xc58a30ab)
+HX_LOCAL_STACK_FRAME(_hx_pos_e69e97fcd930b6f5_34_toString,"openfl.display._JointStyle.JointStyle_Impl_","toString",0xcf598041,"openfl.display._JointStyle.JointStyle_Impl_.toString","openfl/display/JointStyle.hx",34,0xc58a30ab)
+HX_LOCAL_STACK_FRAME(_hx_pos_e69e97fcd930b6f5_7_boot,"openfl.display._JointStyle.JointStyle_Impl_","boot",0x74078547,"openfl.display._JointStyle.JointStyle_Impl_.boot","openfl/display/JointStyle.hx",7,0xc58a30ab)
+HX_LOCAL_STACK_FRAME(_hx_pos_e69e97fcd930b6f5_8_boot,"openfl.display._JointStyle.JointStyle_Impl_","boot",0x74078547,"openfl.display._JointStyle.JointStyle_Impl_.boot","openfl/display/JointStyle.hx",8,0xc58a30ab)
+HX_LOCAL_STACK_FRAME(_hx_pos_e69e97fcd930b6f5_9_boot,"openfl.display._JointStyle.JointStyle_Impl_","boot",0x74078547,"openfl.display._JointStyle.JointStyle_Impl_.boot","openfl/display/JointStyle.hx",9,0xc58a30ab)
 namespace openfl{
 namespace display{
 namespace _JointStyle{
@@ -40,66 +40,66 @@ bool JointStyle_Impl__obj::_hx_isInstanceOf(int inClassId) {
  ::Dynamic JointStyle_Impl__obj::ROUND;
 
  ::Dynamic JointStyle_Impl__obj::fromInt( ::Dynamic value){
-            	HX_STACKFRAME(&_hx_pos_e69e97fcd930b6f5_36_fromInt)
-HXDLIN(  36)		return value;
+            	HX_STACKFRAME(&_hx_pos_e69e97fcd930b6f5_13_fromInt)
+HXDLIN(  13)		return value;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(JointStyle_Impl__obj,fromInt,return )
 
  ::Dynamic JointStyle_Impl__obj::fromString(::String value){
-            	HX_STACKFRAME(&_hx_pos_e69e97fcd930b6f5_41_fromString)
-HXDLIN(  41)		::String _hx_switch_0 = value;
+            	HX_STACKFRAME(&_hx_pos_e69e97fcd930b6f5_18_fromString)
+HXDLIN(  18)		::String _hx_switch_0 = value;
             		if (  (_hx_switch_0==HX_("bevel",7a,48,61,b0)) ){
-HXLINE(  43)			return 0;
-HXDLIN(  43)			goto _hx_goto_1;
+HXLINE(  20)			return 0;
+HXDLIN(  20)			goto _hx_goto_1;
             		}
             		if (  (_hx_switch_0==HX_("miter",05,00,6d,08)) ){
-HXLINE(  44)			return 1;
-HXDLIN(  44)			goto _hx_goto_1;
+HXLINE(  21)			return 1;
+HXDLIN(  21)			goto _hx_goto_1;
             		}
             		if (  (_hx_switch_0==HX_("round",4e,f8,65,ed)) ){
-HXLINE(  45)			return 2;
-HXDLIN(  45)			goto _hx_goto_1;
+HXLINE(  22)			return 2;
+HXDLIN(  22)			goto _hx_goto_1;
             		}
             		/* default */{
-HXLINE(  46)			return null();
+HXLINE(  23)			return null();
             		}
             		_hx_goto_1:;
-HXLINE(  41)		return null();
+HXLINE(  18)		return null();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(JointStyle_Impl__obj,fromString,return )
 
  ::Dynamic JointStyle_Impl__obj::toInt( ::Dynamic this1){
-            	HX_STACKFRAME(&_hx_pos_e69e97fcd930b6f5_52_toInt)
-HXDLIN(  52)		return this1;
+            	HX_STACKFRAME(&_hx_pos_e69e97fcd930b6f5_29_toInt)
+HXDLIN(  29)		return this1;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(JointStyle_Impl__obj,toInt,return )
 
 ::String JointStyle_Impl__obj::toString( ::Dynamic this1){
-            	HX_STACKFRAME(&_hx_pos_e69e97fcd930b6f5_57_toString)
-HXDLIN(  57)		 ::Dynamic _hx_switch_0 = this1;
+            	HX_STACKFRAME(&_hx_pos_e69e97fcd930b6f5_34_toString)
+HXDLIN(  34)		 ::Dynamic _hx_switch_0 = this1;
             		if (  (_hx_switch_0==0) ){
-HXLINE(  59)			return HX_("bevel",7a,48,61,b0);
-HXDLIN(  59)			goto _hx_goto_4;
+HXLINE(  36)			return HX_("bevel",7a,48,61,b0);
+HXDLIN(  36)			goto _hx_goto_4;
             		}
             		if (  (_hx_switch_0==1) ){
-HXLINE(  60)			return HX_("miter",05,00,6d,08);
-HXDLIN(  60)			goto _hx_goto_4;
+HXLINE(  37)			return HX_("miter",05,00,6d,08);
+HXDLIN(  37)			goto _hx_goto_4;
             		}
             		if (  (_hx_switch_0==2) ){
-HXLINE(  61)			return HX_("round",4e,f8,65,ed);
-HXDLIN(  61)			goto _hx_goto_4;
+HXLINE(  38)			return HX_("round",4e,f8,65,ed);
+HXDLIN(  38)			goto _hx_goto_4;
             		}
             		/* default */{
-HXLINE(  62)			return null();
+HXLINE(  39)			return null();
             		}
             		_hx_goto_4:;
-HXLINE(  57)		return null();
+HXLINE(  34)		return null();
             	}
 
 
@@ -196,16 +196,16 @@ void JointStyle_Impl__obj::__register()
 void JointStyle_Impl__obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_e69e97fcd930b6f5_20_boot)
-HXDLIN(  20)		BEVEL = 0;
+            	HX_STACKFRAME(&_hx_pos_e69e97fcd930b6f5_7_boot)
+HXDLIN(   7)		BEVEL = 0;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_e69e97fcd930b6f5_26_boot)
-HXDLIN(  26)		MITER = 1;
+            	HX_STACKFRAME(&_hx_pos_e69e97fcd930b6f5_8_boot)
+HXDLIN(   8)		MITER = 1;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_e69e97fcd930b6f5_32_boot)
-HXDLIN(  32)		ROUND = 2;
+            	HX_STACKFRAME(&_hx_pos_e69e97fcd930b6f5_9_boot)
+HXDLIN(   9)		ROUND = 2;
             	}
 }
 

@@ -80,25 +80,25 @@
 #include <openfl/utils/_ByteArray/ByteArray_Impl_.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_574e9a3948a11606_28_new,"openfl.display3D.textures.RectangleTexture","new",0xcccbdd5b,"openfl.display3D.textures.RectangleTexture.new","openfl/display3D/textures/RectangleTexture.hx",28,0x83565556)
-HX_LOCAL_STACK_FRAME(_hx_pos_574e9a3948a11606_53_uploadFromBitmapData,"openfl.display3D.textures.RectangleTexture","uploadFromBitmapData",0x711b2e49,"openfl.display3D.textures.RectangleTexture.uploadFromBitmapData","openfl/display3D/textures/RectangleTexture.hx",53,0x83565556)
-HX_LOCAL_STACK_FRAME(_hx_pos_574e9a3948a11606_103_uploadFromByteArray,"openfl.display3D.textures.RectangleTexture","uploadFromByteArray",0xfd7a0ae1,"openfl.display3D.textures.RectangleTexture.uploadFromByteArray","openfl/display3D/textures/RectangleTexture.hx",103,0x83565556)
-HX_LOCAL_STACK_FRAME(_hx_pos_574e9a3948a11606_115_uploadFromTypedArray,"openfl.display3D.textures.RectangleTexture","uploadFromTypedArray",0x35aa255f,"openfl.display3D.textures.RectangleTexture.uploadFromTypedArray","openfl/display3D/textures/RectangleTexture.hx",115,0x83565556)
-HX_LOCAL_STACK_FRAME(_hx_pos_574e9a3948a11606_124___setSamplerState,"openfl.display3D.textures.RectangleTexture","__setSamplerState",0xea7a95c6,"openfl.display3D.textures.RectangleTexture.__setSamplerState","openfl/display3D/textures/RectangleTexture.hx",124,0x83565556)
+HX_DEFINE_STACK_FRAME(_hx_pos_574e9a3948a11606_31_new,"openfl.display3D.textures.RectangleTexture","new",0xcccbdd5b,"openfl.display3D.textures.RectangleTexture.new","openfl/display3D/textures/RectangleTexture.hx",31,0x83565556)
+HX_LOCAL_STACK_FRAME(_hx_pos_574e9a3948a11606_56_uploadFromBitmapData,"openfl.display3D.textures.RectangleTexture","uploadFromBitmapData",0x711b2e49,"openfl.display3D.textures.RectangleTexture.uploadFromBitmapData","openfl/display3D/textures/RectangleTexture.hx",56,0x83565556)
+HX_LOCAL_STACK_FRAME(_hx_pos_574e9a3948a11606_106_uploadFromByteArray,"openfl.display3D.textures.RectangleTexture","uploadFromByteArray",0xfd7a0ae1,"openfl.display3D.textures.RectangleTexture.uploadFromByteArray","openfl/display3D/textures/RectangleTexture.hx",106,0x83565556)
+HX_LOCAL_STACK_FRAME(_hx_pos_574e9a3948a11606_118_uploadFromTypedArray,"openfl.display3D.textures.RectangleTexture","uploadFromTypedArray",0x35aa255f,"openfl.display3D.textures.RectangleTexture.uploadFromTypedArray","openfl/display3D/textures/RectangleTexture.hx",118,0x83565556)
+HX_LOCAL_STACK_FRAME(_hx_pos_574e9a3948a11606_127___setSamplerState,"openfl.display3D.textures.RectangleTexture","__setSamplerState",0xea7a95c6,"openfl.display3D.textures.RectangleTexture.__setSamplerState","openfl/display3D/textures/RectangleTexture.hx",127,0x83565556)
 namespace openfl{
 namespace display3D{
 namespace textures{
 
 void RectangleTexture_obj::__construct( ::openfl::display3D::Context3D context,int width,int height,::String format,bool optimizeForRenderToTexture){
-            	HX_STACKFRAME(&_hx_pos_574e9a3948a11606_28_new)
-HXLINE(  29)		super::__construct(context);
-HXLINE(  31)		this->_hx___width = width;
-HXLINE(  32)		this->_hx___height = height;
-HXLINE(  34)		this->_hx___optimizeForRenderToTexture = optimizeForRenderToTexture;
-HXLINE(  36)		this->_hx___textureTarget = this->_hx___context->gl->TEXTURE_2D;
-HXLINE(  37)		this->uploadFromTypedArray(null());
-HXLINE(  39)		if (optimizeForRenderToTexture) {
-HXLINE(  39)			this->_hx___getGLFramebuffer(true,0,0);
+            	HX_STACKFRAME(&_hx_pos_574e9a3948a11606_31_new)
+HXLINE(  32)		super::__construct(context);
+HXLINE(  34)		this->_hx___width = width;
+HXLINE(  35)		this->_hx___height = height;
+HXLINE(  37)		this->_hx___optimizeForRenderToTexture = optimizeForRenderToTexture;
+HXLINE(  39)		this->_hx___textureTarget = this->_hx___context->gl->TEXTURE_2D;
+HXLINE(  40)		this->uploadFromTypedArray(null());
+HXLINE(  42)		if (optimizeForRenderToTexture) {
+HXLINE(  42)			this->_hx___getGLFramebuffer(true,0,0);
             		}
             	}
 
@@ -126,187 +126,187 @@ bool RectangleTexture_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void RectangleTexture_obj::uploadFromBitmapData( ::openfl::display::BitmapData source){
-            	HX_STACKFRAME(&_hx_pos_574e9a3948a11606_53_uploadFromBitmapData)
-HXLINE(  55)		if (::hx::IsNull( source )) {
-HXLINE(  55)			return;
-            		}
-HXLINE(  57)		 ::lime::graphics::Image image = this->_hx___getImage(source);
-HXLINE(  58)		if (::hx::IsNull( image )) {
+            	HX_STACKFRAME(&_hx_pos_574e9a3948a11606_56_uploadFromBitmapData)
+HXLINE(  58)		if (::hx::IsNull( source )) {
 HXLINE(  58)			return;
             		}
-HXLINE(  72)		this->uploadFromTypedArray(image->get_data());
+HXLINE(  60)		 ::lime::graphics::Image image = this->_hx___getImage(source);
+HXLINE(  61)		if (::hx::IsNull( image )) {
+HXLINE(  61)			return;
+            		}
+HXLINE(  75)		this->uploadFromTypedArray(image->get_data());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(RectangleTexture_obj,uploadFromBitmapData,(void))
 
 void RectangleTexture_obj::uploadFromByteArray( ::openfl::utils::ByteArrayData data,int byteArrayOffset){
-            	HX_GC_STACKFRAME(&_hx_pos_574e9a3948a11606_103_uploadFromByteArray)
-HXDLIN( 103)		 ::Dynamic elements = null();
-HXDLIN( 103)		 ::haxe::io::Bytes buffer = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::toArrayBuffer(data);
-HXDLIN( 103)		::cpp::VirtualArray array = null();
-HXDLIN( 103)		 ::openfl::_Vector::IntVector vector = null();
-HXDLIN( 103)		 ::lime::utils::ArrayBufferView view = null();
-HXDLIN( 103)		 ::Dynamic byteoffset = byteArrayOffset;
-HXDLIN( 103)		 ::Dynamic len = null();
-HXDLIN( 103)		if (::hx::IsNull( byteoffset )) {
-HXDLIN( 103)			byteoffset = 0;
+            	HX_GC_STACKFRAME(&_hx_pos_574e9a3948a11606_106_uploadFromByteArray)
+HXDLIN( 106)		 ::Dynamic elements = null();
+HXDLIN( 106)		 ::haxe::io::Bytes buffer = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::toArrayBuffer(data);
+HXDLIN( 106)		::cpp::VirtualArray array = null();
+HXDLIN( 106)		 ::openfl::_Vector::IntVector vector = null();
+HXDLIN( 106)		 ::lime::utils::ArrayBufferView view = null();
+HXDLIN( 106)		 ::Dynamic byteoffset = byteArrayOffset;
+HXDLIN( 106)		 ::Dynamic len = null();
+HXDLIN( 106)		if (::hx::IsNull( byteoffset )) {
+HXDLIN( 106)			byteoffset = 0;
             		}
-HXDLIN( 103)		 ::lime::utils::ArrayBufferView this1;
-HXDLIN( 103)		if (::hx::IsNotNull( elements )) {
-HXDLIN( 103)			this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,elements,4);
+HXDLIN( 106)		 ::lime::utils::ArrayBufferView this1;
+HXDLIN( 106)		if (::hx::IsNotNull( elements )) {
+HXDLIN( 106)			this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,elements,4);
             		}
             		else {
-HXDLIN( 103)			if (::hx::IsNotNull( array )) {
-HXDLIN( 103)				 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
-HXDLIN( 103)				_this->byteOffset = 0;
-HXDLIN( 103)				_this->length = array->get_length();
-HXDLIN( 103)				_this->byteLength = (_this->length * _this->bytesPerElement);
-HXDLIN( 103)				 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
-HXDLIN( 103)				_this->buffer = this2;
-HXDLIN( 103)				_this->copyFromArray(array,null());
-HXDLIN( 103)				this1 = _this;
+HXDLIN( 106)			if (::hx::IsNotNull( array )) {
+HXDLIN( 106)				 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
+HXDLIN( 106)				_this->byteOffset = 0;
+HXDLIN( 106)				_this->length = array->get_length();
+HXDLIN( 106)				_this->byteLength = (_this->length * _this->bytesPerElement);
+HXDLIN( 106)				 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
+HXDLIN( 106)				_this->buffer = this2;
+HXDLIN( 106)				_this->copyFromArray(array,null());
+HXDLIN( 106)				this1 = _this;
             			}
             			else {
-HXDLIN( 103)				if (::hx::IsNotNull( vector )) {
-HXDLIN( 103)					 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
-HXDLIN( 103)					::cpp::VirtualArray array = ( (::cpp::VirtualArray)(vector->__Field(HX_("__array",79,c6,ed,8f),::hx::paccDynamic)) );
-HXDLIN( 103)					_this->byteOffset = 0;
-HXDLIN( 103)					_this->length = array->get_length();
-HXDLIN( 103)					_this->byteLength = (_this->length * _this->bytesPerElement);
-HXDLIN( 103)					 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
-HXDLIN( 103)					_this->buffer = this2;
-HXDLIN( 103)					_this->copyFromArray(array,null());
-HXDLIN( 103)					this1 = _this;
+HXDLIN( 106)				if (::hx::IsNotNull( vector )) {
+HXDLIN( 106)					 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
+HXDLIN( 106)					::cpp::VirtualArray array = ( (::cpp::VirtualArray)(vector->__Field(HX_("__array",79,c6,ed,8f),::hx::paccDynamic)) );
+HXDLIN( 106)					_this->byteOffset = 0;
+HXDLIN( 106)					_this->length = array->get_length();
+HXDLIN( 106)					_this->byteLength = (_this->length * _this->bytesPerElement);
+HXDLIN( 106)					 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
+HXDLIN( 106)					_this->buffer = this2;
+HXDLIN( 106)					_this->copyFromArray(array,null());
+HXDLIN( 106)					this1 = _this;
             				}
             				else {
-HXDLIN( 103)					if (::hx::IsNotNull( view )) {
-HXDLIN( 103)						 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
-HXDLIN( 103)						 ::haxe::io::Bytes srcData = view->buffer;
-HXDLIN( 103)						int srcLength = view->length;
-HXDLIN( 103)						int srcByteOffset = view->byteOffset;
-HXDLIN( 103)						int srcElementSize = view->bytesPerElement;
-HXDLIN( 103)						int elementSize = _this->bytesPerElement;
-HXDLIN( 103)						if ((view->type == _this->type)) {
-HXDLIN( 103)							int srcLength = srcData->length;
-HXDLIN( 103)							int cloneLength = (srcLength - srcByteOffset);
-HXDLIN( 103)							 ::haxe::io::Bytes this1 = ::haxe::io::Bytes_obj::alloc(cloneLength);
-HXDLIN( 103)							_this->buffer = this1;
-HXDLIN( 103)							_this->buffer->blit(0,srcData,srcByteOffset,cloneLength);
+HXDLIN( 106)					if (::hx::IsNotNull( view )) {
+HXDLIN( 106)						 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
+HXDLIN( 106)						 ::haxe::io::Bytes srcData = view->buffer;
+HXDLIN( 106)						int srcLength = view->length;
+HXDLIN( 106)						int srcByteOffset = view->byteOffset;
+HXDLIN( 106)						int srcElementSize = view->bytesPerElement;
+HXDLIN( 106)						int elementSize = _this->bytesPerElement;
+HXDLIN( 106)						if ((view->type == _this->type)) {
+HXDLIN( 106)							int srcLength = srcData->length;
+HXDLIN( 106)							int cloneLength = (srcLength - srcByteOffset);
+HXDLIN( 106)							 ::haxe::io::Bytes this1 = ::haxe::io::Bytes_obj::alloc(cloneLength);
+HXDLIN( 106)							_this->buffer = this1;
+HXDLIN( 106)							_this->buffer->blit(0,srcData,srcByteOffset,cloneLength);
             						}
             						else {
-HXDLIN( 103)							HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("unimplemented",09,2f,74,b4)));
+HXDLIN( 106)							HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("unimplemented",09,2f,74,b4)));
             						}
-HXDLIN( 103)						_this->byteLength = (_this->bytesPerElement * srcLength);
-HXDLIN( 103)						_this->byteOffset = 0;
-HXDLIN( 103)						_this->length = srcLength;
-HXDLIN( 103)						this1 = _this;
+HXDLIN( 106)						_this->byteLength = (_this->bytesPerElement * srcLength);
+HXDLIN( 106)						_this->byteOffset = 0;
+HXDLIN( 106)						_this->length = srcLength;
+HXDLIN( 106)						this1 = _this;
             					}
             					else {
-HXDLIN( 103)						if (::hx::IsNotNull( buffer )) {
-HXDLIN( 103)							 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
-HXDLIN( 103)							int in_byteOffset = ( (int)(byteoffset) );
-HXDLIN( 103)							if ((in_byteOffset < 0)) {
-HXDLIN( 103)								HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXDLIN( 106)						if (::hx::IsNotNull( buffer )) {
+HXDLIN( 106)							 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
+HXDLIN( 106)							int in_byteOffset = ( (int)(byteoffset) );
+HXDLIN( 106)							if ((in_byteOffset < 0)) {
+HXDLIN( 106)								HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             							}
-HXDLIN( 103)							if ((::hx::Mod(in_byteOffset,_this->bytesPerElement) != 0)) {
-HXDLIN( 103)								HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXDLIN( 106)							if ((::hx::Mod(in_byteOffset,_this->bytesPerElement) != 0)) {
+HXDLIN( 106)								HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             							}
-HXDLIN( 103)							int bufferByteLength = buffer->length;
-HXDLIN( 103)							int elementSize = _this->bytesPerElement;
-HXDLIN( 103)							int newByteLength = bufferByteLength;
-HXDLIN( 103)							if (::hx::IsNull( len )) {
-HXDLIN( 103)								newByteLength = (bufferByteLength - in_byteOffset);
-HXDLIN( 103)								if ((::hx::Mod(bufferByteLength,_this->bytesPerElement) != 0)) {
-HXDLIN( 103)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXDLIN( 106)							int bufferByteLength = buffer->length;
+HXDLIN( 106)							int elementSize = _this->bytesPerElement;
+HXDLIN( 106)							int newByteLength = bufferByteLength;
+HXDLIN( 106)							if (::hx::IsNull( len )) {
+HXDLIN( 106)								newByteLength = (bufferByteLength - in_byteOffset);
+HXDLIN( 106)								if ((::hx::Mod(bufferByteLength,_this->bytesPerElement) != 0)) {
+HXDLIN( 106)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             								}
-HXDLIN( 103)								if ((newByteLength < 0)) {
-HXDLIN( 103)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXDLIN( 106)								if ((newByteLength < 0)) {
+HXDLIN( 106)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             								}
             							}
             							else {
-HXDLIN( 103)								newByteLength = (( (int)(len) ) * _this->bytesPerElement);
-HXDLIN( 103)								int newRange = (in_byteOffset + newByteLength);
-HXDLIN( 103)								if ((newRange > bufferByteLength)) {
-HXDLIN( 103)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXDLIN( 106)								newByteLength = (( (int)(len) ) * _this->bytesPerElement);
+HXDLIN( 106)								int newRange = (in_byteOffset + newByteLength);
+HXDLIN( 106)								if ((newRange > bufferByteLength)) {
+HXDLIN( 106)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             								}
             							}
-HXDLIN( 103)							_this->buffer = buffer;
-HXDLIN( 103)							_this->byteOffset = in_byteOffset;
-HXDLIN( 103)							_this->byteLength = newByteLength;
-HXDLIN( 103)							_this->length = ::Std_obj::_hx_int((( (Float)(newByteLength) ) / ( (Float)(_this->bytesPerElement) )));
-HXDLIN( 103)							this1 = _this;
+HXDLIN( 106)							_this->buffer = buffer;
+HXDLIN( 106)							_this->byteOffset = in_byteOffset;
+HXDLIN( 106)							_this->byteLength = newByteLength;
+HXDLIN( 106)							_this->length = ::Std_obj::_hx_int((( (Float)(newByteLength) ) / ( (Float)(_this->bytesPerElement) )));
+HXDLIN( 106)							this1 = _this;
             						}
             						else {
-HXDLIN( 103)							HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("Invalid constructor arguments for UInt8Array",6b,44,d5,85)));
+HXDLIN( 106)							HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("Invalid constructor arguments for UInt8Array",6b,44,d5,85)));
             						}
             					}
             				}
             			}
             		}
-HXDLIN( 103)		this->uploadFromTypedArray(this1);
+HXDLIN( 106)		this->uploadFromTypedArray(this1);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(RectangleTexture_obj,uploadFromByteArray,(void))
 
 void RectangleTexture_obj::uploadFromTypedArray( ::lime::utils::ArrayBufferView data){
-            	HX_STACKFRAME(&_hx_pos_574e9a3948a11606_115_uploadFromTypedArray)
-HXLINE( 116)		 ::lime::_internal::backend::native::NativeOpenGLRenderContext gl = this->_hx___context->gl;
-HXLINE( 118)		this->_hx___context->_hx___bindGLTexture2D(this->_hx___textureID);
-HXLINE( 119)		{
-HXLINE( 119)			int target = this->_hx___textureTarget;
-HXDLIN( 119)			int internalformat = this->_hx___internalFormat;
-HXDLIN( 119)			int width = this->_hx___width;
-HXDLIN( 119)			int height = this->_hx___height;
-HXDLIN( 119)			int format = this->_hx___format;
-HXDLIN( 119)			int type = gl->UNSIGNED_BYTE;
-HXDLIN( 119)			{
-HXLINE( 119)				::lime::utils::_BytePointer::BytePointer_Impl__obj::set(::lime::graphics::_WebGL2RenderContext::WebGL2RenderContext_Impl__obj::_hx___tempPointer,null(),data,null(),0);
-HXDLIN( 119)				gl->texImage2D(target,0,internalformat,width,height,0,format,type,::lime::utils::_DataPointer::DataPointer_Impl__obj::fromBytesPointer(::lime::graphics::_WebGL2RenderContext::WebGL2RenderContext_Impl__obj::_hx___tempPointer));
+            	HX_STACKFRAME(&_hx_pos_574e9a3948a11606_118_uploadFromTypedArray)
+HXLINE( 119)		 ::lime::_internal::backend::native::NativeOpenGLRenderContext gl = this->_hx___context->gl;
+HXLINE( 121)		this->_hx___context->_hx___bindGLTexture2D(this->_hx___textureID);
+HXLINE( 122)		{
+HXLINE( 122)			int target = this->_hx___textureTarget;
+HXDLIN( 122)			int internalformat = this->_hx___internalFormat;
+HXDLIN( 122)			int width = this->_hx___width;
+HXDLIN( 122)			int height = this->_hx___height;
+HXDLIN( 122)			int format = this->_hx___format;
+HXDLIN( 122)			int type = gl->UNSIGNED_BYTE;
+HXDLIN( 122)			{
+HXLINE( 122)				::lime::utils::_BytePointer::BytePointer_Impl__obj::set(::lime::graphics::_WebGL2RenderContext::WebGL2RenderContext_Impl__obj::_hx___tempPointer,null(),data,null(),0);
+HXDLIN( 122)				gl->texImage2D(target,0,internalformat,width,height,0,format,type,::lime::utils::_DataPointer::DataPointer_Impl__obj::fromBytesPointer(::lime::graphics::_WebGL2RenderContext::WebGL2RenderContext_Impl__obj::_hx___tempPointer));
             			}
             		}
-HXLINE( 120)		this->_hx___context->_hx___bindGLTexture2D(null());
+HXLINE( 123)		this->_hx___context->_hx___bindGLTexture2D(null());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(RectangleTexture_obj,uploadFromTypedArray,(void))
 
 bool RectangleTexture_obj::_hx___setSamplerState( ::openfl::display::_internal::SamplerState state){
-            	HX_STACKFRAME(&_hx_pos_574e9a3948a11606_124___setSamplerState)
-HXLINE( 125)		if (this->super::_hx___setSamplerState(state)) {
-HXLINE( 127)			 ::lime::_internal::backend::native::NativeOpenGLRenderContext gl = this->_hx___context->gl;
-HXLINE( 129)			if ((::openfl::display3D::Context3D_obj::_hx___glMaxTextureMaxAnisotropy != 0)) {
-HXLINE( 131)				int aniso;
-HXDLIN( 131)				 ::Dynamic _hx_switch_0 = state->filter;
+            	HX_STACKFRAME(&_hx_pos_574e9a3948a11606_127___setSamplerState)
+HXLINE( 128)		if (this->super::_hx___setSamplerState(state)) {
+HXLINE( 130)			 ::lime::_internal::backend::native::NativeOpenGLRenderContext gl = this->_hx___context->gl;
+HXLINE( 132)			if ((::openfl::display3D::Context3D_obj::_hx___glMaxTextureMaxAnisotropy != 0)) {
+HXLINE( 134)				int aniso;
+HXDLIN( 134)				 ::Dynamic _hx_switch_0 = state->filter;
             				if (  (_hx_switch_0==0) ){
-HXLINE( 131)					aniso = 16;
-HXDLIN( 131)					goto _hx_goto_4;
+HXLINE( 134)					aniso = 16;
+HXDLIN( 134)					goto _hx_goto_4;
             				}
             				if (  (_hx_switch_0==1) ){
-HXLINE( 131)					aniso = 2;
-HXDLIN( 131)					goto _hx_goto_4;
+HXLINE( 134)					aniso = 2;
+HXDLIN( 134)					goto _hx_goto_4;
             				}
             				if (  (_hx_switch_0==2) ){
-HXLINE( 131)					aniso = 4;
-HXDLIN( 131)					goto _hx_goto_4;
+HXLINE( 134)					aniso = 4;
+HXDLIN( 134)					goto _hx_goto_4;
             				}
             				if (  (_hx_switch_0==3) ){
-HXLINE( 131)					aniso = 8;
-HXDLIN( 131)					goto _hx_goto_4;
+HXLINE( 134)					aniso = 8;
+HXDLIN( 134)					goto _hx_goto_4;
             				}
             				/* default */{
-HXLINE( 131)					aniso = 1;
+HXLINE( 134)					aniso = 1;
             				}
             				_hx_goto_4:;
-HXLINE( 140)				if ((aniso > ::openfl::display3D::Context3D_obj::_hx___glMaxTextureMaxAnisotropy)) {
-HXLINE( 142)					aniso = ::openfl::display3D::Context3D_obj::_hx___glMaxTextureMaxAnisotropy;
+HXLINE( 143)				if ((aniso > ::openfl::display3D::Context3D_obj::_hx___glMaxTextureMaxAnisotropy)) {
+HXLINE( 145)					aniso = ::openfl::display3D::Context3D_obj::_hx___glMaxTextureMaxAnisotropy;
             				}
-HXLINE( 145)				gl->texParameterf(gl->TEXTURE_2D,::openfl::display3D::Context3D_obj::_hx___glTextureMaxAnisotropy,( (Float)(aniso) ));
+HXLINE( 148)				gl->texParameterf(gl->TEXTURE_2D,::openfl::display3D::Context3D_obj::_hx___glTextureMaxAnisotropy,( (Float)(aniso) ));
             			}
-HXLINE( 148)			return true;
+HXLINE( 151)			return true;
             		}
-HXLINE( 151)		return false;
+HXLINE( 154)		return false;
             	}
 
 

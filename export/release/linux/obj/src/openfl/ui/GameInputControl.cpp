@@ -14,19 +14,19 @@
 #include <openfl/ui/GameInputDevice.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_ea5bdb6538331ec9_38_new,"openfl.ui.GameInputControl","new",0xeccd6093,"openfl.ui.GameInputControl.new","openfl/ui/GameInputControl.hx",38,0xb3fe7f9d)
+HX_DEFINE_STACK_FRAME(_hx_pos_ea5bdb6538331ec9_19_new,"openfl.ui.GameInputControl","new",0xeccd6093,"openfl.ui.GameInputControl.new","openfl/ui/GameInputControl.hx",19,0xb3fe7f9d)
 namespace openfl{
 namespace ui{
 
 void GameInputControl_obj::__construct( ::openfl::ui::GameInputDevice device,::String id,Float minValue,Float maxValue,::hx::Null< Float >  __o_value){
             		Float value = __o_value.Default(0);
-            	HX_STACKFRAME(&_hx_pos_ea5bdb6538331ec9_38_new)
-HXLINE(  39)		super::__construct(null());
-HXLINE(  41)		this->device = device;
-HXLINE(  42)		this->id = id;
-HXLINE(  43)		this->minValue = minValue;
-HXLINE(  44)		this->maxValue = maxValue;
-HXLINE(  45)		this->value = value;
+            	HX_STACKFRAME(&_hx_pos_ea5bdb6538331ec9_19_new)
+HXLINE(  20)		super::__construct(null());
+HXLINE(  22)		this->device = device;
+HXLINE(  23)		this->id = id;
+HXLINE(  24)		this->minValue = minValue;
+HXLINE(  25)		this->maxValue = maxValue;
+HXLINE(  26)		this->value = value;
             	}
 
 Dynamic GameInputControl_obj::__CreateEmpty() { return new GameInputControl_obj; }

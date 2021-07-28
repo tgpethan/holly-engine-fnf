@@ -14,10 +14,10 @@
 #include <lime/utils/_ArrayBuffer/ArrayBuffer_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_0c0adae4738ab368_18_get_byteLength,"lime.utils._ArrayBuffer.ArrayBuffer_Impl_","get_byteLength",0xeec1f52a,"lime.utils._ArrayBuffer.ArrayBuffer_Impl_.get_byteLength","lime/utils/ArrayBuffer.hx",18,0x9f41eedd)
-HX_LOCAL_STACK_FRAME(_hx_pos_0c0adae4738ab368_21__new,"lime.utils._ArrayBuffer.ArrayBuffer_Impl_","_new",0x3fa42e74,"lime.utils._ArrayBuffer.ArrayBuffer_Impl_._new","lime/utils/ArrayBuffer.hx",21,0x9f41eedd)
-HX_LOCAL_STACK_FRAME(_hx_pos_0c0adae4738ab368_28_isView,"lime.utils._ArrayBuffer.ArrayBuffer_Impl_","isView",0x6a81bb42,"lime.utils._ArrayBuffer.ArrayBuffer_Impl_.isView","lime/utils/ArrayBuffer.hx",28,0x9f41eedd)
-HX_LOCAL_STACK_FRAME(_hx_pos_0c0adae4738ab368_32_slice,"lime.utils._ArrayBuffer.ArrayBuffer_Impl_","slice",0xf2b89bdf,"lime.utils._ArrayBuffer.ArrayBuffer_Impl_.slice","lime/utils/ArrayBuffer.hx",32,0x9f41eedd)
+HX_LOCAL_STACK_FRAME(_hx_pos_0c0adae4738ab368_17_get_byteLength,"lime.utils._ArrayBuffer.ArrayBuffer_Impl_","get_byteLength",0xeec1f52a,"lime.utils._ArrayBuffer.ArrayBuffer_Impl_.get_byteLength","lime/utils/ArrayBuffer.hx",17,0x9f41eedd)
+HX_LOCAL_STACK_FRAME(_hx_pos_0c0adae4738ab368_20__new,"lime.utils._ArrayBuffer.ArrayBuffer_Impl_","_new",0x3fa42e74,"lime.utils._ArrayBuffer.ArrayBuffer_Impl_._new","lime/utils/ArrayBuffer.hx",20,0x9f41eedd)
+HX_LOCAL_STACK_FRAME(_hx_pos_0c0adae4738ab368_27_isView,"lime.utils._ArrayBuffer.ArrayBuffer_Impl_","isView",0x6a81bb42,"lime.utils._ArrayBuffer.ArrayBuffer_Impl_.isView","lime/utils/ArrayBuffer.hx",27,0x9f41eedd)
+HX_LOCAL_STACK_FRAME(_hx_pos_0c0adae4738ab368_31_slice,"lime.utils._ArrayBuffer.ArrayBuffer_Impl_","slice",0xf2b89bdf,"lime.utils._ArrayBuffer.ArrayBuffer_Impl_.slice","lime/utils/ArrayBuffer.hx",31,0x9f41eedd)
 namespace lime{
 namespace utils{
 namespace _ArrayBuffer{
@@ -40,65 +40,65 @@ bool ArrayBuffer_Impl__obj::_hx_isInstanceOf(int inClassId) {
 }
 
 int ArrayBuffer_Impl__obj::get_byteLength( ::haxe::io::Bytes this1){
-            	HX_STACKFRAME(&_hx_pos_0c0adae4738ab368_18_get_byteLength)
-HXDLIN(  18)		return this1->length;
+            	HX_STACKFRAME(&_hx_pos_0c0adae4738ab368_17_get_byteLength)
+HXDLIN(  17)		return this1->length;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ArrayBuffer_Impl__obj,get_byteLength,return )
 
  ::haxe::io::Bytes ArrayBuffer_Impl__obj::_new(int byteLength){
-            	HX_STACKFRAME(&_hx_pos_0c0adae4738ab368_21__new)
-HXDLIN(  21)		 ::haxe::io::Bytes this1 = ::haxe::io::Bytes_obj::alloc(byteLength);
-HXDLIN(  21)		return this1;
+            	HX_STACKFRAME(&_hx_pos_0c0adae4738ab368_20__new)
+HXDLIN(  20)		 ::haxe::io::Bytes this1 = ::haxe::io::Bytes_obj::alloc(byteLength);
+HXDLIN(  20)		return this1;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ArrayBuffer_Impl__obj,_new,return )
 
 bool ArrayBuffer_Impl__obj::isView( ::Dynamic arg){
-            	HX_STACKFRAME(&_hx_pos_0c0adae4738ab368_28_isView)
-HXDLIN(  28)		if (::hx::IsNotNull( arg )) {
-HXDLIN(  28)			return ::Std_obj::isOfType(arg,::hx::ClassOf< ::lime::utils::ArrayBufferView >());
+            	HX_STACKFRAME(&_hx_pos_0c0adae4738ab368_27_isView)
+HXDLIN(  27)		if (::hx::IsNotNull( arg )) {
+HXDLIN(  27)			return ::Std_obj::isOfType(arg,( ( ::Dynamic)(::hx::ClassOf< ::lime::utils::ArrayBufferView >()) ));
             		}
             		else {
-HXDLIN(  28)			return false;
+HXDLIN(  27)			return false;
             		}
-HXDLIN(  28)		return false;
+HXDLIN(  27)		return false;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ArrayBuffer_Impl__obj,isView,return )
 
  ::haxe::io::Bytes ArrayBuffer_Impl__obj::slice( ::haxe::io::Bytes this1,int begin, ::Dynamic end){
-            	HX_STACKFRAME(&_hx_pos_0c0adae4738ab368_32_slice)
-HXLINE(  33)		if (::hx::IsNull( end )) {
-HXLINE(  33)			end = this1->length;
+            	HX_STACKFRAME(&_hx_pos_0c0adae4738ab368_31_slice)
+HXLINE(  32)		if (::hx::IsNull( end )) {
+HXLINE(  32)			end = this1->length;
             		}
-HXLINE(  34)		if ((begin < 0)) {
-HXLINE(  34)			begin = 0;
+HXLINE(  33)		if ((begin < 0)) {
+HXLINE(  33)			begin = 0;
             		}
-HXLINE(  35)		if (::hx::IsGreater( end,this1->length )) {
-HXLINE(  35)			end = this1->length;
+HXLINE(  34)		if (::hx::IsGreater( end,this1->length )) {
+HXLINE(  34)			end = this1->length;
             		}
-HXLINE(  36)		int length = (( (int)(end) ) - begin);
-HXLINE(  37)		bool _hx_tmp;
-HXDLIN(  37)		if ((begin >= 0)) {
-HXLINE(  37)			_hx_tmp = (length <= 0);
-            		}
-            		else {
-HXLINE(  37)			_hx_tmp = true;
-            		}
-HXDLIN(  37)		if (_hx_tmp) {
-HXLINE(  39)			 ::haxe::io::Bytes this1 = ::haxe::io::Bytes_obj::alloc(0);
-HXDLIN(  39)			return this1;
+HXLINE(  35)		int length = (( (int)(end) ) - begin);
+HXLINE(  36)		bool _hx_tmp;
+HXDLIN(  36)		if ((begin >= 0)) {
+HXLINE(  36)			_hx_tmp = (length <= 0);
             		}
             		else {
-HXLINE(  43)			 ::haxe::io::Bytes bytes = ::haxe::io::Bytes_obj::alloc(length);
-HXLINE(  44)			bytes->blit(0,this1,begin,length);
-HXLINE(  45)			return bytes;
+HXLINE(  36)			_hx_tmp = true;
             		}
-HXLINE(  37)		return null();
+HXDLIN(  36)		if (_hx_tmp) {
+HXLINE(  38)			 ::haxe::io::Bytes this1 = ::haxe::io::Bytes_obj::alloc(0);
+HXDLIN(  38)			return this1;
+            		}
+            		else {
+HXLINE(  42)			 ::haxe::io::Bytes bytes = ::haxe::io::Bytes_obj::alloc(length);
+HXLINE(  43)			bytes->blit(0,this1,begin,length);
+HXLINE(  44)			return bytes;
+            		}
+HXLINE(  36)		return null();
             	}
 
 

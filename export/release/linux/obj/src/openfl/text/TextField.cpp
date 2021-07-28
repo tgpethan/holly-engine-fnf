@@ -35,6 +35,12 @@
 #ifndef INCLUDED_lime_app__Event_lime_ui_KeyCode_lime_ui_KeyModifier_Void
 #include <lime/app/_Event_lime_ui_KeyCode_lime_ui_KeyModifier_Void.h>
 #endif
+#ifndef INCLUDED_lime_graphics_cairo_Cairo
+#include <lime/graphics/cairo/Cairo.h>
+#endif
+#ifndef INCLUDED_lime_graphics_cairo__CairoPattern_CairoPattern_Impl_
+#include <lime/graphics/cairo/_CairoPattern/CairoPattern_Impl_.h>
+#endif
 #ifndef INCLUDED_lime_math_Vector2
 #include <lime/math/Vector2.h>
 #endif
@@ -46,9 +52,6 @@
 #endif
 #ifndef INCLUDED_lime_ui__KeyModifier_KeyModifier_Impl_
 #include <lime/ui/_KeyModifier/KeyModifier_Impl_.h>
-#endif
-#ifndef INCLUDED_lime_utils_Log
-#include <lime/utils/Log.h>
 #endif
 #ifndef INCLUDED_lime_utils_ObjectPool
 #include <lime/utils/ObjectPool.h>
@@ -62,17 +65,35 @@
 #ifndef INCLUDED_openfl__Vector_IVector
 #include <openfl/_Vector/IVector.h>
 #endif
-#ifndef INCLUDED_openfl__Vector_IntVector
-#include <openfl/_Vector/IntVector.h>
-#endif
 #ifndef INCLUDED_openfl__Vector_ObjectVector
 #include <openfl/_Vector/ObjectVector.h>
+#endif
+#ifndef INCLUDED_openfl__internal_formats_html_HTMLParser
+#include <openfl/_internal/formats/html/HTMLParser.h>
+#endif
+#ifndef INCLUDED_openfl_display_Bitmap
+#include <openfl/display/Bitmap.h>
+#endif
+#ifndef INCLUDED_openfl_display_BitmapData
+#include <openfl/display/BitmapData.h>
+#endif
+#ifndef INCLUDED_openfl_display_CairoRenderer
+#include <openfl/display/CairoRenderer.h>
+#endif
+#ifndef INCLUDED_openfl_display_CanvasRenderer
+#include <openfl/display/CanvasRenderer.h>
+#endif
+#ifndef INCLUDED_openfl_display_DOMRenderer
+#include <openfl/display/DOMRenderer.h>
 #endif
 #ifndef INCLUDED_openfl_display_DisplayObject
 #include <openfl/display/DisplayObject.h>
 #endif
 #ifndef INCLUDED_openfl_display_DisplayObjectContainer
 #include <openfl/display/DisplayObjectContainer.h>
+#endif
+#ifndef INCLUDED_openfl_display_DisplayObjectRenderer
+#include <openfl/display/DisplayObjectRenderer.h>
 #endif
 #ifndef INCLUDED_openfl_display_Graphics
 #include <openfl/display/Graphics.h>
@@ -83,8 +104,32 @@
 #ifndef INCLUDED_openfl_display_InteractiveObject
 #include <openfl/display/InteractiveObject.h>
 #endif
+#ifndef INCLUDED_openfl_display_OpenGLRenderer
+#include <openfl/display/OpenGLRenderer.h>
+#endif
 #ifndef INCLUDED_openfl_display_Stage
 #include <openfl/display/Stage.h>
+#endif
+#ifndef INCLUDED_openfl_display__internal_CairoDisplayObject
+#include <openfl/display/_internal/CairoDisplayObject.h>
+#endif
+#ifndef INCLUDED_openfl_display__internal_CairoTextField
+#include <openfl/display/_internal/CairoTextField.h>
+#endif
+#ifndef INCLUDED_openfl_display__internal_Context3DBitmap
+#include <openfl/display/_internal/Context3DBitmap.h>
+#endif
+#ifndef INCLUDED_openfl_display__internal_Context3DShape
+#include <openfl/display/_internal/Context3DShape.h>
+#endif
+#ifndef INCLUDED_openfl_display__internal_Context3DTextField
+#include <openfl/display/_internal/Context3DTextField.h>
+#endif
+#ifndef INCLUDED_openfl_display__internal_DOMTextField
+#include <openfl/display/_internal/DOMTextField.h>
+#endif
+#ifndef INCLUDED_openfl_display3D_Context3D
+#include <openfl/display3D/Context3D.h>
 #endif
 #ifndef INCLUDED_openfl_errors_Error
 #include <openfl/errors/Error.h>
@@ -113,6 +158,9 @@
 #ifndef INCLUDED_openfl_events_TextEvent
 #include <openfl/events/TextEvent.h>
 #endif
+#ifndef INCLUDED_openfl_filters_BitmapFilter
+#include <openfl/filters/BitmapFilter.h>
+#endif
 #ifndef INCLUDED_openfl_geom_Matrix
 #include <openfl/geom/Matrix.h>
 #endif
@@ -134,9 +182,6 @@
 #ifndef INCLUDED_openfl_text__internal_GlyphPosition
 #include <openfl/text/_internal/GlyphPosition.h>
 #endif
-#ifndef INCLUDED_openfl_text__internal_HTMLParser
-#include <openfl/text/_internal/HTMLParser.h>
-#endif
 #ifndef INCLUDED_openfl_text__internal_TextEngine
 #include <openfl/text/_internal/TextEngine.h>
 #endif
@@ -147,173 +192,175 @@
 #include <openfl/text/_internal/TextLayoutGroup.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_d001dbc361c2c159_124_new,"openfl.text.TextField","new",0xbd7676bc,"openfl.text.TextField.new","openfl/text/TextField.hx",124,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_858_appendText,"openfl.text.TextField","appendText",0xaa44eccb,"openfl.text.TextField.appendText","openfl/text/TextField.hx",858,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_884_getCharBoundaries,"openfl.text.TextField","getCharBoundaries",0xf44814d0,"openfl.text.TextField.getCharBoundaries","openfl/text/TextField.hx",884,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_910_getCharIndexAtPoint,"openfl.text.TextField","getCharIndexAtPoint",0x758b0c73,"openfl.text.TextField.getCharIndexAtPoint","openfl/text/TextField.hx",910,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_960_getFirstCharInParagraph,"openfl.text.TextField","getFirstCharInParagraph",0xe06fd955,"openfl.text.TextField.getFirstCharInParagraph","openfl/text/TextField.hx",960,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1007_getLineIndexAtPoint,"openfl.text.TextField","getLineIndexAtPoint",0x633efa91,"openfl.text.TextField.getLineIndexAtPoint","openfl/text/TextField.hx",1007,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1039_getLineIndexOfChar,"openfl.text.TextField","getLineIndexOfChar",0xcab049d9,"openfl.text.TextField.getLineIndexOfChar","openfl/text/TextField.hx",1039,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1063_getLineLength,"openfl.text.TextField","getLineLength",0x953e9d8c,"openfl.text.TextField.getLineLength","openfl/text/TextField.hx",1063,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1096_getLineMetrics,"openfl.text.TextField","getLineMetrics",0xa6c52add,"openfl.text.TextField.getLineMetrics","openfl/text/TextField.hx",1096,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1127_getLineOffset,"openfl.text.TextField","getLineOffset",0x5676a039,"openfl.text.TextField.getLineOffset","openfl/text/TextField.hx",1127,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1153_getLineText,"openfl.text.TextField","getLineText",0xb8113fd3,"openfl.text.TextField.getLineText","openfl/text/TextField.hx",1153,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1192_getParagraphLength,"openfl.text.TextField","getParagraphLength",0xed64f022,"openfl.text.TextField.getParagraphLength","openfl/text/TextField.hx",1192,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1231_getTextFormat,"openfl.text.TextField","getTextFormat",0x560e1d56,"openfl.text.TextField.getTextFormat","openfl/text/TextField.hx",1231,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1325_replaceSelectedText,"openfl.text.TextField","replaceSelectedText",0x86221d58,"openfl.text.TextField.replaceSelectedText","openfl/text/TextField.hx",1325,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1346_replaceText,"openfl.text.TextField","replaceText",0x698fcd5d,"openfl.text.TextField.replaceText","openfl/text/TextField.hx",1346,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1363_setSelection,"openfl.text.TextField","setSelection",0xa586666e,"openfl.text.TextField.setSelection","openfl/text/TextField.hx",1363,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1423_setTextFormat,"openfl.text.TextField","setTextFormat",0x9b13ff62,"openfl.text.TextField.setTextFormat","openfl/text/TextField.hx",1423,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1596___allowMouseFocus,"openfl.text.TextField","__allowMouseFocus",0x70182198,"openfl.text.TextField.__allowMouseFocus","openfl/text/TextField.hx",1596,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1601___caretBeginningOfLine,"openfl.text.TextField","__caretBeginningOfLine",0x4c500c69,"openfl.text.TextField.__caretBeginningOfLine","openfl/text/TextField.hx",1601,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1605___caretBeginningOfNextLine,"openfl.text.TextField","__caretBeginningOfNextLine",0x9988917c,"openfl.text.TextField.__caretBeginningOfNextLine","openfl/text/TextField.hx",1605,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1619___caretBeginningOfPreviousLine,"openfl.text.TextField","__caretBeginningOfPreviousLine",0x6f5ad940,"openfl.text.TextField.__caretBeginningOfPreviousLine","openfl/text/TextField.hx",1619,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1638___caretEndOfLine,"openfl.text.TextField","__caretEndOfLine",0xeca90427,"openfl.text.TextField.__caretEndOfLine","openfl/text/TextField.hx",1638,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1653___caretNextCharacter,"openfl.text.TextField","__caretNextCharacter",0xafbbedf7,"openfl.text.TextField.__caretNextCharacter","openfl/text/TextField.hx",1653,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1660___caretNextLine,"openfl.text.TextField","__caretNextLine",0xd85e2866,"openfl.text.TextField.__caretNextLine","openfl/text/TextField.hx",1660,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1671___caretPreviousCharacter,"openfl.text.TextField","__caretPreviousCharacter",0x656722b3,"openfl.text.TextField.__caretPreviousCharacter","openfl/text/TextField.hx",1671,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1678___caretPreviousLine,"openfl.text.TextField","__caretPreviousLine",0x13772d2a,"openfl.text.TextField.__caretPreviousLine","openfl/text/TextField.hx",1678,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1689___disableInput,"openfl.text.TextField","__disableInput",0xd160e346,"openfl.text.TextField.__disableInput","openfl/text/TextField.hx",1689,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1703___dispatch,"openfl.text.TextField","__dispatch",0x10db5efe,"openfl.text.TextField.__dispatch","openfl/text/TextField.hx",1703,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1733___enableInput,"openfl.text.TextField","__enableInput",0x9681fcc3,"openfl.text.TextField.__enableInput","openfl/text/TextField.hx",1733,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1759___getAdvance,"openfl.text.TextField","__getAdvance",0x6a1cb7d0,"openfl.text.TextField.__getAdvance","openfl/text/TextField.hx",1759,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1764___getBounds,"openfl.text.TextField","__getBounds",0x189abae7,"openfl.text.TextField.__getBounds","openfl/text/TextField.hx",1764,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1781___getCharBoundaries,"openfl.text.TextField","__getCharBoundaries",0x097fccb0,"openfl.text.TextField.__getCharBoundaries","openfl/text/TextField.hx",1781,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1813___getCharIndexOnDifferentLine,"openfl.text.TextField","__getCharIndexOnDifferentLine",0x6afd9f64,"openfl.text.TextField.__getCharIndexOnDifferentLine","openfl/text/TextField.hx",1813,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1850___getCursor,"openfl.text.TextField","__getCursor",0xf165c348,"openfl.text.TextField.__getCursor","openfl/text/TextField.hx",1850,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1866___getGroup,"openfl.text.TextField","__getGroup",0xec43530d,"openfl.text.TextField.__getGroup","openfl/text/TextField.hx",1866,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1915___getPosition,"openfl.text.TextField","__getPosition",0xfe83559b,"openfl.text.TextField.__getPosition","openfl/text/TextField.hx",1915,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1947___hitTest,"openfl.text.TextField","__hitTest",0x83278481,"openfl.text.TextField.__hitTest","openfl/text/TextField.hx",1947,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1971___hitTestMask,"openfl.text.TextField","__hitTestMask",0x0119c60d,"openfl.text.TextField.__hitTestMask","openfl/text/TextField.hx",1971,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1987___replaceSelectedText,"openfl.text.TextField","__replaceSelectedText",0x229f8d38,"openfl.text.TextField.__replaceSelectedText","openfl/text/TextField.hx",1987,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2010___replaceText,"openfl.text.TextField","__replaceText",0x6f2a5d3d,"openfl.text.TextField.__replaceText","openfl/text/TextField.hx",2010,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2141___startCursorTimer,"openfl.text.TextField","__startCursorTimer",0xacba2811,"openfl.text.TextField.__startCursorTimer","openfl/text/TextField.hx",2141,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2151___startTextInput,"openfl.text.TextField","__startTextInput",0x3a7d3e9f,"openfl.text.TextField.__startTextInput","openfl/text/TextField.hx",2151,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2167___stopCursorTimer,"openfl.text.TextField","__stopCursorTimer",0x8f135c69,"openfl.text.TextField.__stopCursorTimer","openfl/text/TextField.hx",2167,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2183___stopTextInput,"openfl.text.TextField","__stopTextInput",0x6c7c2cf7,"openfl.text.TextField.__stopTextInput","openfl/text/TextField.hx",2183,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2194___updateLayout,"openfl.text.TextField","__updateLayout",0x2d3b57d7,"openfl.text.TextField.__updateLayout","openfl/text/TextField.hx",2194,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2225___updateScrollH,"openfl.text.TextField","__updateScrollH",0x4ea991ce,"openfl.text.TextField.__updateScrollH","openfl/text/TextField.hx",2225,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2299___updateScrollV,"openfl.text.TextField","__updateScrollV",0x4ea991dc,"openfl.text.TextField.__updateScrollV","openfl/text/TextField.hx",2299,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2345___updateMouseDrag,"openfl.text.TextField","__updateMouseDrag",0x2a5075ac,"openfl.text.TextField.__updateMouseDrag","openfl/text/TextField.hx",2345,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2373___updateText,"openfl.text.TextField","__updateText",0x315de09a,"openfl.text.TextField.__updateText","openfl/text/TextField.hx",2373,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2410___updateTransforms,"openfl.text.TextField","__updateTransforms",0x79c7d534,"openfl.text.TextField.__updateTransforms","openfl/text/TextField.hx",2410,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2418_get_antiAliasType,"openfl.text.TextField","get_antiAliasType",0x57115f1b,"openfl.text.TextField.get_antiAliasType","openfl/text/TextField.hx",2418,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2422_set_antiAliasType,"openfl.text.TextField","set_antiAliasType",0x7a7f3727,"openfl.text.TextField.set_antiAliasType","openfl/text/TextField.hx",2422,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2433_get_autoSize,"openfl.text.TextField","get_autoSize",0xd7aef1fd,"openfl.text.TextField.get_autoSize","openfl/text/TextField.hx",2433,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2437_set_autoSize,"openfl.text.TextField","set_autoSize",0xeca81571,"openfl.text.TextField.set_autoSize","openfl/text/TextField.hx",2437,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2450_get_background,"openfl.text.TextField","get_background",0x50119b5b,"openfl.text.TextField.get_background","openfl/text/TextField.hx",2450,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2454_set_background,"openfl.text.TextField","set_background",0x703183cf,"openfl.text.TextField.set_background","openfl/text/TextField.hx",2454,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2466_get_backgroundColor,"openfl.text.TextField","get_backgroundColor",0x63403c08,"openfl.text.TextField.get_backgroundColor","openfl/text/TextField.hx",2466,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2470_set_backgroundColor,"openfl.text.TextField","set_backgroundColor",0x9fdd2f14,"openfl.text.TextField.set_backgroundColor","openfl/text/TextField.hx",2470,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2482_get_border,"openfl.text.TextField","get_border",0xa3e0d9d9,"openfl.text.TextField.get_border","openfl/text/TextField.hx",2482,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2486_set_border,"openfl.text.TextField","set_border",0xa75e784d,"openfl.text.TextField.set_border","openfl/text/TextField.hx",2486,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2498_get_borderColor,"openfl.text.TextField","get_borderColor",0x6267b4ca,"openfl.text.TextField.get_borderColor","openfl/text/TextField.hx",2498,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2502_set_borderColor,"openfl.text.TextField","set_borderColor",0x5e3331d6,"openfl.text.TextField.set_borderColor","openfl/text/TextField.hx",2502,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2513_get_bottomScrollV,"openfl.text.TextField","get_bottomScrollV",0xfa9e92b1,"openfl.text.TextField.get_bottomScrollV","openfl/text/TextField.hx",2513,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2521_get_caretIndex,"openfl.text.TextField","get_caretIndex",0x074fbdfc,"openfl.text.TextField.get_caretIndex","openfl/text/TextField.hx",2521,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2526_get_defaultTextFormat,"openfl.text.TextField","get_defaultTextFormat",0x83063818,"openfl.text.TextField.get_defaultTextFormat","openfl/text/TextField.hx",2526,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2530_set_defaultTextFormat,"openfl.text.TextField","set_defaultTextFormat",0xd70f0624,"openfl.text.TextField.set_defaultTextFormat","openfl/text/TextField.hx",2530,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2542_get_displayAsPassword,"openfl.text.TextField","get_displayAsPassword",0x62bc3b42,"openfl.text.TextField.get_displayAsPassword","openfl/text/TextField.hx",2542,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2546_set_displayAsPassword,"openfl.text.TextField","set_displayAsPassword",0xb6c5094e,"openfl.text.TextField.set_displayAsPassword","openfl/text/TextField.hx",2546,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2562_get_embedFonts,"openfl.text.TextField","get_embedFonts",0xb8d5ce98,"openfl.text.TextField.get_embedFonts","openfl/text/TextField.hx",2562,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2574_set_embedFonts,"openfl.text.TextField","set_embedFonts",0xd8f5b70c,"openfl.text.TextField.set_embedFonts","openfl/text/TextField.hx",2574,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2579_get_gridFitType,"openfl.text.TextField","get_gridFitType",0x3fa66af8,"openfl.text.TextField.get_gridFitType","openfl/text/TextField.hx",2579,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2591_set_gridFitType,"openfl.text.TextField","set_gridFitType",0x3b71e804,"openfl.text.TextField.set_gridFitType","openfl/text/TextField.hx",2591,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2595_get_height,"openfl.text.TextField","get_height",0x421294d4,"openfl.text.TextField.get_height","openfl/text/TextField.hx",2595,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2601_set_height,"openfl.text.TextField","set_height",0x45903348,"openfl.text.TextField.set_height","openfl/text/TextField.hx",2601,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2620_get_htmlText,"openfl.text.TextField","get_htmlText",0xb86d81e5,"openfl.text.TextField.get_htmlText","openfl/text/TextField.hx",2620,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2625_set_htmlText,"openfl.text.TextField","set_htmlText",0xcd66a559,"openfl.text.TextField.set_htmlText","openfl/text/TextField.hx",2625,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2677_get_length,"openfl.text.TextField","get_length",0xdece21d3,"openfl.text.TextField.get_length","openfl/text/TextField.hx",2677,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2688_get_maxChars,"openfl.text.TextField","get_maxChars",0x980651c6,"openfl.text.TextField.get_maxChars","openfl/text/TextField.hx",2688,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2692_set_maxChars,"openfl.text.TextField","set_maxChars",0xacff753a,"openfl.text.TextField.set_maxChars","openfl/text/TextField.hx",2692,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2706_get_maxScrollH,"openfl.text.TextField","get_maxScrollH",0xc4f0b4c4,"openfl.text.TextField.get_maxScrollH","openfl/text/TextField.hx",2706,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2713_get_maxScrollV,"openfl.text.TextField","get_maxScrollV",0xc4f0b4d2,"openfl.text.TextField.get_maxScrollV","openfl/text/TextField.hx",2713,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2721_get_mouseWheelEnabled,"openfl.text.TextField","get_mouseWheelEnabled",0xdd79871e,"openfl.text.TextField.get_mouseWheelEnabled","openfl/text/TextField.hx",2721,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2726_set_mouseWheelEnabled,"openfl.text.TextField","set_mouseWheelEnabled",0x3182552a,"openfl.text.TextField.set_mouseWheelEnabled","openfl/text/TextField.hx",2726,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2731_get_multiline,"openfl.text.TextField","get_multiline",0x24925820,"openfl.text.TextField.get_multiline","openfl/text/TextField.hx",2731,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2735_set_multiline,"openfl.text.TextField","set_multiline",0x69983a2c,"openfl.text.TextField.set_multiline","openfl/text/TextField.hx",2735,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2750_get_numLines,"openfl.text.TextField","get_numLines",0xda475406,"openfl.text.TextField.get_numLines","openfl/text/TextField.hx",2750,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2758_get_restrict,"openfl.text.TextField","get_restrict",0x99d42d69,"openfl.text.TextField.get_restrict","openfl/text/TextField.hx",2758,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2762_set_restrict,"openfl.text.TextField","set_restrict",0xaecd50dd,"openfl.text.TextField.set_restrict","openfl/text/TextField.hx",2762,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2774_get_scrollH,"openfl.text.TextField","get_scrollH",0xbeccf60e,"openfl.text.TextField.get_scrollH","openfl/text/TextField.hx",2774,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2778_set_scrollH,"openfl.text.TextField","set_scrollH",0xc939fd1a,"openfl.text.TextField.set_scrollH","openfl/text/TextField.hx",2778,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2797_get_scrollV,"openfl.text.TextField","get_scrollV",0xbeccf61c,"openfl.text.TextField.get_scrollV","openfl/text/TextField.hx",2797,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2801_set_scrollV,"openfl.text.TextField","set_scrollV",0xc939fd28,"openfl.text.TextField.set_scrollV","openfl/text/TextField.hx",2801,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2817_get_selectable,"openfl.text.TextField","get_selectable",0xee1ebe03,"openfl.text.TextField.get_selectable","openfl/text/TextField.hx",2817,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2821_set_selectable,"openfl.text.TextField","set_selectable",0x0e3ea677,"openfl.text.TextField.set_selectable","openfl/text/TextField.hx",2821,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2839_get_selectionBeginIndex,"openfl.text.TextField","get_selectionBeginIndex",0xb79fa288,"openfl.text.TextField.get_selectionBeginIndex","openfl/text/TextField.hx",2839,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2844_get_selectionEndIndex,"openfl.text.TextField","get_selectionEndIndex",0xc3677dd6,"openfl.text.TextField.get_selectionEndIndex","openfl/text/TextField.hx",2844,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2849_get_sharpness,"openfl.text.TextField","get_sharpness",0xa1a5a7b4,"openfl.text.TextField.get_sharpness","openfl/text/TextField.hx",2849,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2853_set_sharpness,"openfl.text.TextField","set_sharpness",0xe6ab89c0,"openfl.text.TextField.set_sharpness","openfl/text/TextField.hx",2853,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2865_get_tabEnabled,"openfl.text.TextField","get_tabEnabled",0x69fcfe19,"openfl.text.TextField.get_tabEnabled","openfl/text/TextField.hx",2865,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2870_get_text,"openfl.text.TextField","get_text",0x3b0d545a,"openfl.text.TextField.get_text","openfl/text/TextField.hx",2870,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2874_set_text,"openfl.text.TextField","set_text",0xe96aadce,"openfl.text.TextField.set_text","openfl/text/TextField.hx",2874,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2907_get_textColor,"openfl.text.TextField","get_textColor",0x69ca86a9,"openfl.text.TextField.get_textColor","openfl/text/TextField.hx",2907,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2911_set_textColor,"openfl.text.TextField","set_textColor",0xaed068b5,"openfl.text.TextField.set_textColor","openfl/text/TextField.hx",2911,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2927_get_textWidth,"openfl.text.TextField","get_textWidth",0xe9d0cb4c,"openfl.text.TextField.get_textWidth","openfl/text/TextField.hx",2927,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2933_get_textHeight,"openfl.text.TextField","get_textHeight",0x63308fe1,"openfl.text.TextField.get_textHeight","openfl/text/TextField.hx",2933,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2940_get_type,"openfl.text.TextField","get_type",0x3b1c7a67,"openfl.text.TextField.get_type","openfl/text/TextField.hx",2940,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2944_set_type,"openfl.text.TextField","set_type",0xe979d3db,"openfl.text.TextField.set_type","openfl/text/TextField.hx",2944,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2971_get_width,"openfl.text.TextField","get_width",0x2d65e5b9,"openfl.text.TextField.get_width","openfl/text/TextField.hx",2971,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2977_set_width,"openfl.text.TextField","set_width",0x10b6d1c5,"openfl.text.TextField.set_width","openfl/text/TextField.hx",2977,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2993_get_wordWrap,"openfl.text.TextField","get_wordWrap",0xa91076e1,"openfl.text.TextField.get_wordWrap","openfl/text/TextField.hx",2993,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2997_set_wordWrap,"openfl.text.TextField","set_wordWrap",0xbe099a55,"openfl.text.TextField.set_wordWrap","openfl/text/TextField.hx",2997,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_3010_get_x,"openfl.text.TextField","get_x",0xd93e9aab,"openfl.text.TextField.get_x","openfl/text/TextField.hx",3010,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_3014_set_x,"openfl.text.TextField","set_x",0xc20d90b7,"openfl.text.TextField.set_x","openfl/text/TextField.hx",3014,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_3021_get_y,"openfl.text.TextField","get_y",0xd93e9aac,"openfl.text.TextField.get_y","openfl/text/TextField.hx",3021,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_3025_set_y,"openfl.text.TextField","set_y",0xc20d90b8,"openfl.text.TextField.set_y","openfl/text/TextField.hx",3025,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_3032_stage_onMouseMove,"openfl.text.TextField","stage_onMouseMove",0x47084bd2,"openfl.text.TextField.stage_onMouseMove","openfl/text/TextField.hx",3032,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_3068_stage_onMouseUp,"openfl.text.TextField","stage_onMouseUp",0x9bb86cdc,"openfl.text.TextField.stage_onMouseUp","openfl/text/TextField.hx",3068,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_3109_this_onAddedToStage,"openfl.text.TextField","this_onAddedToStage",0x3dbcbc7f,"openfl.text.TextField.this_onAddedToStage","openfl/text/TextField.hx",3109,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_3114_this_onEnterFrame,"openfl.text.TextField","this_onEnterFrame",0xf6c59f11,"openfl.text.TextField.this_onEnterFrame","openfl/text/TextField.hx",3114,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_3120_this_onFocusIn,"openfl.text.TextField","this_onFocusIn",0x90f9e141,"openfl.text.TextField.this_onFocusIn","openfl/text/TextField.hx",3120,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_3127_this_onFocusOut,"openfl.text.TextField","this_onFocusOut",0x49afcbb2,"openfl.text.TextField.this_onFocusOut","openfl/text/TextField.hx",3127,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_3160_this_onKeyDown,"openfl.text.TextField","this_onKeyDown",0xebbe0505,"openfl.text.TextField.this_onKeyDown","openfl/text/TextField.hx",3160,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_3171_this_onMouseDown,"openfl.text.TextField","this_onMouseDown",0xfda1ed8b,"openfl.text.TextField.this_onMouseDown","openfl/text/TextField.hx",3171,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_3194_this_onMouseWheel,"openfl.text.TextField","this_onMouseWheel",0xdbfcc352,"openfl.text.TextField.this_onMouseWheel","openfl/text/TextField.hx",3194,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_3202_this_onDoubleClick,"openfl.text.TextField","this_onDoubleClick",0xbfe820db,"openfl.text.TextField.this_onDoubleClick","openfl/text/TextField.hx",3202,0xccf02094)
-static const ::String _hx_array_data_efd5a8ca_154[] = {
+HX_DEFINE_STACK_FRAME(_hx_pos_d001dbc361c2c159_829_new,"openfl.text.TextField","new",0xbd7676bc,"openfl.text.TextField.new","openfl/text/TextField.hx",829,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_875_appendText,"openfl.text.TextField","appendText",0xaa44eccb,"openfl.text.TextField.appendText","openfl/text/TextField.hx",875,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_902_getCharBoundaries,"openfl.text.TextField","getCharBoundaries",0xf44814d0,"openfl.text.TextField.getCharBoundaries","openfl/text/TextField.hx",902,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_928_getCharIndexAtPoint,"openfl.text.TextField","getCharIndexAtPoint",0x758b0c73,"openfl.text.TextField.getCharIndexAtPoint","openfl/text/TextField.hx",928,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_978_getFirstCharInParagraph,"openfl.text.TextField","getFirstCharInParagraph",0xe06fd955,"openfl.text.TextField.getFirstCharInParagraph","openfl/text/TextField.hx",978,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1033_getLineIndexAtPoint,"openfl.text.TextField","getLineIndexAtPoint",0x633efa91,"openfl.text.TextField.getLineIndexAtPoint","openfl/text/TextField.hx",1033,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1065_getLineIndexOfChar,"openfl.text.TextField","getLineIndexOfChar",0xcab049d9,"openfl.text.TextField.getLineIndexOfChar","openfl/text/TextField.hx",1065,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1089_getLineLength,"openfl.text.TextField","getLineLength",0x953e9d8c,"openfl.text.TextField.getLineLength","openfl/text/TextField.hx",1089,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1122_getLineMetrics,"openfl.text.TextField","getLineMetrics",0xa6c52add,"openfl.text.TextField.getLineMetrics","openfl/text/TextField.hx",1122,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1153_getLineOffset,"openfl.text.TextField","getLineOffset",0x5676a039,"openfl.text.TextField.getLineOffset","openfl/text/TextField.hx",1153,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1179_getLineText,"openfl.text.TextField","getLineText",0xb8113fd3,"openfl.text.TextField.getLineText","openfl/text/TextField.hx",1179,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1218_getParagraphLength,"openfl.text.TextField","getParagraphLength",0xed64f022,"openfl.text.TextField.getParagraphLength","openfl/text/TextField.hx",1218,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1257_getTextFormat,"openfl.text.TextField","getTextFormat",0x560e1d56,"openfl.text.TextField.getTextFormat","openfl/text/TextField.hx",1257,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1351_replaceSelectedText,"openfl.text.TextField","replaceSelectedText",0x86221d58,"openfl.text.TextField.replaceSelectedText","openfl/text/TextField.hx",1351,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1372_replaceText,"openfl.text.TextField","replaceText",0x698fcd5d,"openfl.text.TextField.replaceText","openfl/text/TextField.hx",1372,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1389_setSelection,"openfl.text.TextField","setSelection",0xa586666e,"openfl.text.TextField.setSelection","openfl/text/TextField.hx",1389,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1445_setTextFormat,"openfl.text.TextField","setTextFormat",0x9b13ff62,"openfl.text.TextField.setTextFormat","openfl/text/TextField.hx",1445,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1528___allowMouseFocus,"openfl.text.TextField","__allowMouseFocus",0x70182198,"openfl.text.TextField.__allowMouseFocus","openfl/text/TextField.hx",1528,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1533___caretBeginningOfLine,"openfl.text.TextField","__caretBeginningOfLine",0x4c500c69,"openfl.text.TextField.__caretBeginningOfLine","openfl/text/TextField.hx",1533,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1544___caretEndOfLine,"openfl.text.TextField","__caretEndOfLine",0xeca90427,"openfl.text.TextField.__caretEndOfLine","openfl/text/TextField.hx",1544,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1568___caretNextCharacter,"openfl.text.TextField","__caretNextCharacter",0xafbbedf7,"openfl.text.TextField.__caretNextCharacter","openfl/text/TextField.hx",1568,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1575___caretNextLine,"openfl.text.TextField","__caretNextLine",0xd85e2866,"openfl.text.TextField.__caretNextLine","openfl/text/TextField.hx",1575,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1598___caretPreviousCharacter,"openfl.text.TextField","__caretPreviousCharacter",0x656722b3,"openfl.text.TextField.__caretPreviousCharacter","openfl/text/TextField.hx",1598,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1605___caretPreviousLine,"openfl.text.TextField","__caretPreviousLine",0x13772d2a,"openfl.text.TextField.__caretPreviousLine","openfl/text/TextField.hx",1605,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1628___disableInput,"openfl.text.TextField","__disableInput",0xd160e346,"openfl.text.TextField.__disableInput","openfl/text/TextField.hx",1628,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1642___dispatch,"openfl.text.TextField","__dispatch",0x10db5efe,"openfl.text.TextField.__dispatch","openfl/text/TextField.hx",1642,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1672___enableInput,"openfl.text.TextField","__enableInput",0x9681fcc3,"openfl.text.TextField.__enableInput","openfl/text/TextField.hx",1672,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1698___getAdvance,"openfl.text.TextField","__getAdvance",0x6a1cb7d0,"openfl.text.TextField.__getAdvance","openfl/text/TextField.hx",1698,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1703___getBounds,"openfl.text.TextField","__getBounds",0x189abae7,"openfl.text.TextField.__getBounds","openfl/text/TextField.hx",1703,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1720___getCharBoundaries,"openfl.text.TextField","__getCharBoundaries",0x097fccb0,"openfl.text.TextField.__getCharBoundaries","openfl/text/TextField.hx",1720,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1752___getCharIndexOnDifferentLine,"openfl.text.TextField","__getCharIndexOnDifferentLine",0x6afd9f64,"openfl.text.TextField.__getCharIndexOnDifferentLine","openfl/text/TextField.hx",1752,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1789___getCursor,"openfl.text.TextField","__getCursor",0xf165c348,"openfl.text.TextField.__getCursor","openfl/text/TextField.hx",1789,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1805___getGroup,"openfl.text.TextField","__getGroup",0xec43530d,"openfl.text.TextField.__getGroup","openfl/text/TextField.hx",1805,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1854___getPosition,"openfl.text.TextField","__getPosition",0xfe83559b,"openfl.text.TextField.__getPosition","openfl/text/TextField.hx",1854,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1886___hitTest,"openfl.text.TextField","__hitTest",0x83278481,"openfl.text.TextField.__hitTest","openfl/text/TextField.hx",1886,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1910___hitTestMask,"openfl.text.TextField","__hitTestMask",0x0119c60d,"openfl.text.TextField.__hitTestMask","openfl/text/TextField.hx",1910,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1926___renderCairo,"openfl.text.TextField","__renderCairo",0x1a5f4f8e,"openfl.text.TextField.__renderCairo","openfl/text/TextField.hx",1926,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_1945___renderCanvas,"openfl.text.TextField","__renderCanvas",0xfc575b12,"openfl.text.TextField.__renderCanvas","openfl/text/TextField.hx",1945,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2004___renderDOM,"openfl.text.TextField","__renderDOM",0x037e5808,"openfl.text.TextField.__renderDOM","openfl/text/TextField.hx",2004,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2042___renderDOMClear,"openfl.text.TextField","__renderDOMClear",0x09e66c65,"openfl.text.TextField.__renderDOMClear","openfl/text/TextField.hx",2042,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2046___renderGL,"openfl.text.TextField","__renderGL",0xa5533b3f,"openfl.text.TextField.__renderGL","openfl/text/TextField.hx",2046,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2063___renderGLMask,"openfl.text.TextField","__renderGLMask",0x687ab3cb,"openfl.text.TextField.__renderGLMask","openfl/text/TextField.hx",2063,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2069___replaceSelectedText,"openfl.text.TextField","__replaceSelectedText",0x229f8d38,"openfl.text.TextField.__replaceSelectedText","openfl/text/TextField.hx",2069,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2100___replaceText,"openfl.text.TextField","__replaceText",0x6f2a5d3d,"openfl.text.TextField.__replaceText","openfl/text/TextField.hx",2100,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2176___shouldCacheHardware,"openfl.text.TextField","__shouldCacheHardware",0x836d1d13,"openfl.text.TextField.__shouldCacheHardware","openfl/text/TextField.hx",2176,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2180___startCursorTimer,"openfl.text.TextField","__startCursorTimer",0xacba2811,"openfl.text.TextField.__startCursorTimer","openfl/text/TextField.hx",2180,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2188___startTextInput,"openfl.text.TextField","__startTextInput",0x3a7d3e9f,"openfl.text.TextField.__startTextInput","openfl/text/TextField.hx",2188,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2204___stopCursorTimer,"openfl.text.TextField","__stopCursorTimer",0x8f135c69,"openfl.text.TextField.__stopCursorTimer","openfl/text/TextField.hx",2204,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2220___stopTextInput,"openfl.text.TextField","__stopTextInput",0x6c7c2cf7,"openfl.text.TextField.__stopTextInput","openfl/text/TextField.hx",2220,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2230___updateCacheBitmap,"openfl.text.TextField","__updateCacheBitmap",0xf1f52f84,"openfl.text.TextField.__updateCacheBitmap","openfl/text/TextField.hx",2230,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2252___updateLayout,"openfl.text.TextField","__updateLayout",0x2d3b57d7,"openfl.text.TextField.__updateLayout","openfl/text/TextField.hx",2252,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2282___updateScrollH,"openfl.text.TextField","__updateScrollH",0x4ea991ce,"openfl.text.TextField.__updateScrollH","openfl/text/TextField.hx",2282,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2323___updateScrollV,"openfl.text.TextField","__updateScrollV",0x4ea991dc,"openfl.text.TextField.__updateScrollV","openfl/text/TextField.hx",2323,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2364___updateText,"openfl.text.TextField","__updateText",0x315de09a,"openfl.text.TextField.__updateText","openfl/text/TextField.hx",2364,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2401___updateTransforms,"openfl.text.TextField","__updateTransforms",0x79c7d534,"openfl.text.TextField.__updateTransforms","openfl/text/TextField.hx",2401,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2409_get_antiAliasType,"openfl.text.TextField","get_antiAliasType",0x57115f1b,"openfl.text.TextField.get_antiAliasType","openfl/text/TextField.hx",2409,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2413_set_antiAliasType,"openfl.text.TextField","set_antiAliasType",0x7a7f3727,"openfl.text.TextField.set_antiAliasType","openfl/text/TextField.hx",2413,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2424_get_autoSize,"openfl.text.TextField","get_autoSize",0xd7aef1fd,"openfl.text.TextField.get_autoSize","openfl/text/TextField.hx",2424,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2428_set_autoSize,"openfl.text.TextField","set_autoSize",0xeca81571,"openfl.text.TextField.set_autoSize","openfl/text/TextField.hx",2428,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2441_get_background,"openfl.text.TextField","get_background",0x50119b5b,"openfl.text.TextField.get_background","openfl/text/TextField.hx",2441,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2445_set_background,"openfl.text.TextField","set_background",0x703183cf,"openfl.text.TextField.set_background","openfl/text/TextField.hx",2445,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2457_get_backgroundColor,"openfl.text.TextField","get_backgroundColor",0x63403c08,"openfl.text.TextField.get_backgroundColor","openfl/text/TextField.hx",2457,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2461_set_backgroundColor,"openfl.text.TextField","set_backgroundColor",0x9fdd2f14,"openfl.text.TextField.set_backgroundColor","openfl/text/TextField.hx",2461,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2473_get_border,"openfl.text.TextField","get_border",0xa3e0d9d9,"openfl.text.TextField.get_border","openfl/text/TextField.hx",2473,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2477_set_border,"openfl.text.TextField","set_border",0xa75e784d,"openfl.text.TextField.set_border","openfl/text/TextField.hx",2477,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2489_get_borderColor,"openfl.text.TextField","get_borderColor",0x6267b4ca,"openfl.text.TextField.get_borderColor","openfl/text/TextField.hx",2489,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2493_set_borderColor,"openfl.text.TextField","set_borderColor",0x5e3331d6,"openfl.text.TextField.set_borderColor","openfl/text/TextField.hx",2493,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2504_get_bottomScrollV,"openfl.text.TextField","get_bottomScrollV",0xfa9e92b1,"openfl.text.TextField.get_bottomScrollV","openfl/text/TextField.hx",2504,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2512_get_caretIndex,"openfl.text.TextField","get_caretIndex",0x074fbdfc,"openfl.text.TextField.get_caretIndex","openfl/text/TextField.hx",2512,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2517_get_defaultTextFormat,"openfl.text.TextField","get_defaultTextFormat",0x83063818,"openfl.text.TextField.get_defaultTextFormat","openfl/text/TextField.hx",2517,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2521_set_defaultTextFormat,"openfl.text.TextField","set_defaultTextFormat",0xd70f0624,"openfl.text.TextField.set_defaultTextFormat","openfl/text/TextField.hx",2521,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2533_get_displayAsPassword,"openfl.text.TextField","get_displayAsPassword",0x62bc3b42,"openfl.text.TextField.get_displayAsPassword","openfl/text/TextField.hx",2533,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2537_set_displayAsPassword,"openfl.text.TextField","set_displayAsPassword",0xb6c5094e,"openfl.text.TextField.set_displayAsPassword","openfl/text/TextField.hx",2537,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2553_get_embedFonts,"openfl.text.TextField","get_embedFonts",0xb8d5ce98,"openfl.text.TextField.get_embedFonts","openfl/text/TextField.hx",2553,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2565_set_embedFonts,"openfl.text.TextField","set_embedFonts",0xd8f5b70c,"openfl.text.TextField.set_embedFonts","openfl/text/TextField.hx",2565,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2570_get_gridFitType,"openfl.text.TextField","get_gridFitType",0x3fa66af8,"openfl.text.TextField.get_gridFitType","openfl/text/TextField.hx",2570,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2582_set_gridFitType,"openfl.text.TextField","set_gridFitType",0x3b71e804,"openfl.text.TextField.set_gridFitType","openfl/text/TextField.hx",2582,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2586_get_height,"openfl.text.TextField","get_height",0x421294d4,"openfl.text.TextField.get_height","openfl/text/TextField.hx",2586,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2592_set_height,"openfl.text.TextField","set_height",0x45903348,"openfl.text.TextField.set_height","openfl/text/TextField.hx",2592,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2611_get_htmlText,"openfl.text.TextField","get_htmlText",0xb86d81e5,"openfl.text.TextField.get_htmlText","openfl/text/TextField.hx",2611,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2616_set_htmlText,"openfl.text.TextField","set_htmlText",0xcd66a559,"openfl.text.TextField.set_htmlText","openfl/text/TextField.hx",2616,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2668_get_length,"openfl.text.TextField","get_length",0xdece21d3,"openfl.text.TextField.get_length","openfl/text/TextField.hx",2668,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2679_get_maxChars,"openfl.text.TextField","get_maxChars",0x980651c6,"openfl.text.TextField.get_maxChars","openfl/text/TextField.hx",2679,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2683_set_maxChars,"openfl.text.TextField","set_maxChars",0xacff753a,"openfl.text.TextField.set_maxChars","openfl/text/TextField.hx",2683,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2697_get_maxScrollH,"openfl.text.TextField","get_maxScrollH",0xc4f0b4c4,"openfl.text.TextField.get_maxScrollH","openfl/text/TextField.hx",2697,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2704_get_maxScrollV,"openfl.text.TextField","get_maxScrollV",0xc4f0b4d2,"openfl.text.TextField.get_maxScrollV","openfl/text/TextField.hx",2704,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2712_get_mouseWheelEnabled,"openfl.text.TextField","get_mouseWheelEnabled",0xdd79871e,"openfl.text.TextField.get_mouseWheelEnabled","openfl/text/TextField.hx",2712,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2717_set_mouseWheelEnabled,"openfl.text.TextField","set_mouseWheelEnabled",0x3182552a,"openfl.text.TextField.set_mouseWheelEnabled","openfl/text/TextField.hx",2717,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2722_get_multiline,"openfl.text.TextField","get_multiline",0x24925820,"openfl.text.TextField.get_multiline","openfl/text/TextField.hx",2722,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2726_set_multiline,"openfl.text.TextField","set_multiline",0x69983a2c,"openfl.text.TextField.set_multiline","openfl/text/TextField.hx",2726,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2741_get_numLines,"openfl.text.TextField","get_numLines",0xda475406,"openfl.text.TextField.get_numLines","openfl/text/TextField.hx",2741,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2749_get_restrict,"openfl.text.TextField","get_restrict",0x99d42d69,"openfl.text.TextField.get_restrict","openfl/text/TextField.hx",2749,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2753_set_restrict,"openfl.text.TextField","set_restrict",0xaecd50dd,"openfl.text.TextField.set_restrict","openfl/text/TextField.hx",2753,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2765_get_scrollH,"openfl.text.TextField","get_scrollH",0xbeccf60e,"openfl.text.TextField.get_scrollH","openfl/text/TextField.hx",2765,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2769_set_scrollH,"openfl.text.TextField","set_scrollH",0xc939fd1a,"openfl.text.TextField.set_scrollH","openfl/text/TextField.hx",2769,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2788_get_scrollV,"openfl.text.TextField","get_scrollV",0xbeccf61c,"openfl.text.TextField.get_scrollV","openfl/text/TextField.hx",2788,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2792_set_scrollV,"openfl.text.TextField","set_scrollV",0xc939fd28,"openfl.text.TextField.set_scrollV","openfl/text/TextField.hx",2792,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2808_get_selectable,"openfl.text.TextField","get_selectable",0xee1ebe03,"openfl.text.TextField.get_selectable","openfl/text/TextField.hx",2808,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2812_set_selectable,"openfl.text.TextField","set_selectable",0x0e3ea677,"openfl.text.TextField.set_selectable","openfl/text/TextField.hx",2812,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2830_get_selectionBeginIndex,"openfl.text.TextField","get_selectionBeginIndex",0xb79fa288,"openfl.text.TextField.get_selectionBeginIndex","openfl/text/TextField.hx",2830,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2835_get_selectionEndIndex,"openfl.text.TextField","get_selectionEndIndex",0xc3677dd6,"openfl.text.TextField.get_selectionEndIndex","openfl/text/TextField.hx",2835,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2840_get_sharpness,"openfl.text.TextField","get_sharpness",0xa1a5a7b4,"openfl.text.TextField.get_sharpness","openfl/text/TextField.hx",2840,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2844_set_sharpness,"openfl.text.TextField","set_sharpness",0xe6ab89c0,"openfl.text.TextField.set_sharpness","openfl/text/TextField.hx",2844,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2856_get_tabEnabled,"openfl.text.TextField","get_tabEnabled",0x69fcfe19,"openfl.text.TextField.get_tabEnabled","openfl/text/TextField.hx",2856,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2861_get_text,"openfl.text.TextField","get_text",0x3b0d545a,"openfl.text.TextField.get_text","openfl/text/TextField.hx",2861,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2865_set_text,"openfl.text.TextField","set_text",0xe96aadce,"openfl.text.TextField.set_text","openfl/text/TextField.hx",2865,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2898_get_textColor,"openfl.text.TextField","get_textColor",0x69ca86a9,"openfl.text.TextField.get_textColor","openfl/text/TextField.hx",2898,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2902_set_textColor,"openfl.text.TextField","set_textColor",0xaed068b5,"openfl.text.TextField.set_textColor","openfl/text/TextField.hx",2902,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2918_get_textWidth,"openfl.text.TextField","get_textWidth",0xe9d0cb4c,"openfl.text.TextField.get_textWidth","openfl/text/TextField.hx",2918,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2924_get_textHeight,"openfl.text.TextField","get_textHeight",0x63308fe1,"openfl.text.TextField.get_textHeight","openfl/text/TextField.hx",2924,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2931_get_type,"openfl.text.TextField","get_type",0x3b1c7a67,"openfl.text.TextField.get_type","openfl/text/TextField.hx",2931,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2935_set_type,"openfl.text.TextField","set_type",0xe979d3db,"openfl.text.TextField.set_type","openfl/text/TextField.hx",2935,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2962_get_width,"openfl.text.TextField","get_width",0x2d65e5b9,"openfl.text.TextField.get_width","openfl/text/TextField.hx",2962,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2968_set_width,"openfl.text.TextField","set_width",0x10b6d1c5,"openfl.text.TextField.set_width","openfl/text/TextField.hx",2968,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2984_get_wordWrap,"openfl.text.TextField","get_wordWrap",0xa91076e1,"openfl.text.TextField.get_wordWrap","openfl/text/TextField.hx",2984,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_2988_set_wordWrap,"openfl.text.TextField","set_wordWrap",0xbe099a55,"openfl.text.TextField.set_wordWrap","openfl/text/TextField.hx",2988,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_3001_get_x,"openfl.text.TextField","get_x",0xd93e9aab,"openfl.text.TextField.get_x","openfl/text/TextField.hx",3001,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_3005_set_x,"openfl.text.TextField","set_x",0xc20d90b7,"openfl.text.TextField.set_x","openfl/text/TextField.hx",3005,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_3012_get_y,"openfl.text.TextField","get_y",0xd93e9aac,"openfl.text.TextField.get_y","openfl/text/TextField.hx",3012,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_3016_set_y,"openfl.text.TextField","set_y",0xc20d90b8,"openfl.text.TextField.set_y","openfl/text/TextField.hx",3016,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_3023_stage_onMouseMove,"openfl.text.TextField","stage_onMouseMove",0x47084bd2,"openfl.text.TextField.stage_onMouseMove","openfl/text/TextField.hx",3023,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_3059_stage_onMouseUp,"openfl.text.TextField","stage_onMouseUp",0x9bb86cdc,"openfl.text.TextField.stage_onMouseUp","openfl/text/TextField.hx",3059,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_3099_this_onAddedToStage,"openfl.text.TextField","this_onAddedToStage",0x3dbcbc7f,"openfl.text.TextField.this_onAddedToStage","openfl/text/TextField.hx",3099,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_3104_this_onFocusIn,"openfl.text.TextField","this_onFocusIn",0x90f9e141,"openfl.text.TextField.this_onFocusIn","openfl/text/TextField.hx",3104,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_3111_this_onFocusOut,"openfl.text.TextField","this_onFocusOut",0x49afcbb2,"openfl.text.TextField.this_onFocusOut","openfl/text/TextField.hx",3111,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_3144_this_onKeyDown,"openfl.text.TextField","this_onKeyDown",0xebbe0505,"openfl.text.TextField.this_onKeyDown","openfl/text/TextField.hx",3144,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_3155_this_onMouseDown,"openfl.text.TextField","this_onMouseDown",0xfda1ed8b,"openfl.text.TextField.this_onMouseDown","openfl/text/TextField.hx",3155,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_3175_this_onMouseWheel,"openfl.text.TextField","this_onMouseWheel",0xdbfcc352,"openfl.text.TextField.this_onMouseWheel","openfl/text/TextField.hx",3175,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_3183_this_onDoubleClick,"openfl.text.TextField","this_onDoubleClick",0xbfe820db,"openfl.text.TextField.this_onDoubleClick","openfl/text/TextField.hx",3183,0xccf02094)
+static const ::String _hx_array_data_efd5a8ca_157[] = {
 	HX_("\n",0a,00,00,00),HX_(".",2e,00,00,00),HX_("!",21,00,00,00),HX_("?",3f,00,00,00),HX_(",",2c,00,00,00),HX_(" ",20,00,00,00),HX_(";",3b,00,00,00),HX_(":",3a,00,00,00),HX_("(",28,00,00,00),HX_(")",29,00,00,00),HX_("-",2d,00,00,00),HX_("_",5f,00,00,00),HX_("/",2f,00,00,00),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_3252_window_onKeyDown,"openfl.text.TextField","window_onKeyDown",0x61330e17,"openfl.text.TextField.window_onKeyDown","openfl/text/TextField.hx",3252,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_3478_window_onTextInput,"openfl.text.TextField","window_onTextInput",0xe9818213,"openfl.text.TextField.window_onTextInput","openfl/text/TextField.hx",3478,0xccf02094)
-HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_127_boot,"openfl.text.TextField","boot",0x024a6e56,"openfl.text.TextField.boot","openfl/text/TextField.hx",127,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_3233_window_onKeyDown,"openfl.text.TextField","window_onKeyDown",0x61330e17,"openfl.text.TextField.window_onKeyDown","openfl/text/TextField.hx",3233,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_3474_window_onTextInput,"openfl.text.TextField","window_onTextInput",0xe9818213,"openfl.text.TextField.window_onTextInput","openfl/text/TextField.hx",3474,0xccf02094)
+HX_LOCAL_STACK_FRAME(_hx_pos_d001dbc361c2c159_143_boot,"openfl.text.TextField","boot",0x024a6e56,"openfl.text.TextField.boot","openfl/text/TextField.hx",143,0xccf02094)
 namespace openfl{
 namespace text{
 
 void TextField_obj::__construct(){
-            	HX_GC_STACKFRAME(&_hx_pos_d001dbc361c2c159_124_new)
-HXLINE( 676)		this->_hx___mouseScrollVCounter = 0;
-HXLINE( 812)		super::__construct();
-HXLINE( 814)		this->_hx___drawableType = 7;
-HXLINE( 815)		this->_hx___caretIndex = -1;
-HXLINE( 816)		this->_hx___displayAsPassword = false;
-HXLINE( 817)		this->_hx___graphics =  ::openfl::display::Graphics_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this));
-HXLINE( 818)		this->_hx___textEngine =  ::openfl::text::_internal::TextEngine_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this));
-HXLINE( 819)		this->_hx___layoutDirty = true;
-HXLINE( 820)		this->_hx___offsetX = ( (Float)(0) );
-HXLINE( 821)		this->_hx___offsetY = ( (Float)(0) );
-HXLINE( 822)		this->_hx___mouseWheelEnabled = true;
-HXLINE( 823)		this->_hx___text = HX_("",00,00,00,00);
-HXLINE( 825)		this->doubleClickEnabled = true;
-HXLINE( 827)		if (::hx::IsNull( ::openfl::text::TextField_obj::_hx___defaultTextFormat )) {
-HXLINE( 829)			::openfl::text::TextField_obj::_hx___defaultTextFormat =  ::openfl::text::TextFormat_obj::__alloc( HX_CTX ,HX_("Times New Roman",03,86,44,c3),12,0,false,false,false,HX_("",00,00,00,00),HX_("",00,00,00,00),3,0,0,0,0);
-HXLINE( 830)			::openfl::text::TextField_obj::_hx___defaultTextFormat->blockIndent = 0;
-HXLINE( 831)			::openfl::text::TextField_obj::_hx___defaultTextFormat->bullet = false;
-HXLINE( 832)			::openfl::text::TextField_obj::_hx___defaultTextFormat->letterSpacing = 0;
-HXLINE( 833)			::openfl::text::TextField_obj::_hx___defaultTextFormat->kerning = false;
+            	HX_GC_STACKFRAME(&_hx_pos_d001dbc361c2c159_829_new)
+HXLINE( 830)		super::__construct();
+HXLINE( 832)		this->_hx___caretIndex = -1;
+HXLINE( 833)		this->_hx___displayAsPassword = false;
+HXLINE( 834)		this->_hx___graphics =  ::openfl::display::Graphics_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this));
+HXLINE( 835)		this->_hx___textEngine =  ::openfl::text::_internal::TextEngine_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this));
+HXLINE( 836)		this->_hx___layoutDirty = true;
+HXLINE( 837)		this->_hx___offsetX = ( (Float)(0) );
+HXLINE( 838)		this->_hx___offsetY = ( (Float)(0) );
+HXLINE( 839)		this->_hx___mouseWheelEnabled = true;
+HXLINE( 840)		this->_hx___text = HX_("",00,00,00,00);
+HXLINE( 842)		this->doubleClickEnabled = true;
+HXLINE( 844)		if (::hx::IsNull( ::openfl::text::TextField_obj::_hx___defaultTextFormat )) {
+HXLINE( 846)			::openfl::text::TextField_obj::_hx___defaultTextFormat =  ::openfl::text::TextFormat_obj::__alloc( HX_CTX ,HX_("Times New Roman",03,86,44,c3),12,0,false,false,false,HX_("",00,00,00,00),HX_("",00,00,00,00),3,0,0,0,0);
+HXLINE( 847)			::openfl::text::TextField_obj::_hx___defaultTextFormat->blockIndent = 0;
+HXLINE( 848)			::openfl::text::TextField_obj::_hx___defaultTextFormat->bullet = false;
+HXLINE( 849)			::openfl::text::TextField_obj::_hx___defaultTextFormat->letterSpacing = 0;
+HXLINE( 850)			::openfl::text::TextField_obj::_hx___defaultTextFormat->kerning = false;
             		}
-HXLINE( 836)		this->_hx___textFormat = ::openfl::text::TextField_obj::_hx___defaultTextFormat->clone();
-HXLINE( 837)		{
-HXLINE( 837)			::Dynamic this1 = this->_hx___textEngine->textFormatRanges;
-HXDLIN( 837)			( ( ::openfl::_Vector::ObjectVector)(this1) )->push( ::openfl::text::_internal::TextFormatRange_obj::__alloc( HX_CTX ,this->_hx___textFormat,0,0));
+HXLINE( 853)		this->_hx___textFormat = ::openfl::text::TextField_obj::_hx___defaultTextFormat->clone();
+HXLINE( 854)		{
+HXLINE( 854)			::Dynamic this1 = this->_hx___textEngine->textFormatRanges;
+HXDLIN( 854)			( ( ::openfl::_Vector::ObjectVector)(this1) )->push( ::openfl::text::_internal::TextFormatRange_obj::__alloc( HX_CTX ,this->_hx___textFormat,0,0));
             		}
-HXLINE( 839)		this->addEventListener(HX_("mouseDown",27,b1,c2,ee),this->this_onMouseDown_dyn(),null(),null(),null());
-HXLINE( 840)		this->addEventListener(HX_("focusIn",dd,45,83,41),this->this_onFocusIn_dyn(),null(),null(),null());
-HXLINE( 841)		this->addEventListener(HX_("focusOut",96,6f,5e,11),this->this_onFocusOut_dyn(),null(),null(),null());
-HXLINE( 842)		this->addEventListener(HX_("keyDown",a1,69,47,9c),this->this_onKeyDown_dyn(),null(),null(),null());
-HXLINE( 843)		this->addEventListener(HX_("mouseWheel",36,28,87,e7),this->this_onMouseWheel_dyn(),null(),null(),null());
-HXLINE( 845)		this->addEventListener(HX_("doubleClick",77,03,76,cd),this->this_onDoubleClick_dyn(),null(),null(),null());
+HXLINE( 856)		this->addEventListener(HX_("mouseDown",27,b1,c2,ee),this->this_onMouseDown_dyn(),null(),null(),null());
+HXLINE( 857)		this->addEventListener(HX_("focusIn",dd,45,83,41),this->this_onFocusIn_dyn(),null(),null(),null());
+HXLINE( 858)		this->addEventListener(HX_("focusOut",96,6f,5e,11),this->this_onFocusOut_dyn(),null(),null(),null());
+HXLINE( 859)		this->addEventListener(HX_("keyDown",a1,69,47,9c),this->this_onKeyDown_dyn(),null(),null(),null());
+HXLINE( 860)		this->addEventListener(HX_("mouseWheel",36,28,87,e7),this->this_onMouseWheel_dyn(),null(),null(),null());
+HXLINE( 862)		this->addEventListener(HX_("doubleClick",77,03,76,cd),this->this_onDoubleClick_dyn(),null(),null(),null());
             	}
 
 Dynamic TextField_obj::__CreateEmpty() { return new TextField_obj; }
@@ -340,384 +387,351 @@ bool TextField_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void TextField_obj::appendText(::String text){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_858_appendText)
-HXLINE( 859)		bool _hx_tmp;
-HXDLIN( 859)		if (::hx::IsNotNull( text )) {
-HXLINE( 859)			_hx_tmp = (text == HX_("",00,00,00,00));
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_875_appendText)
+HXLINE( 876)		bool _hx_tmp;
+HXDLIN( 876)		if (::hx::IsNotNull( text )) {
+HXLINE( 876)			_hx_tmp = (text == HX_("",00,00,00,00));
             		}
             		else {
-HXLINE( 859)			_hx_tmp = true;
+HXLINE( 876)			_hx_tmp = true;
             		}
-HXDLIN( 859)		if (_hx_tmp) {
-HXLINE( 859)			return;
+HXDLIN( 876)		if (_hx_tmp) {
+HXLINE( 876)			return;
             		}
-HXLINE( 861)		this->_hx___dirty = true;
-HXLINE( 862)		this->_hx___layoutDirty = true;
-HXLINE( 863)		if (!(this->_hx___renderDirty)) {
-HXLINE( 863)			this->_hx___renderDirty = true;
-HXDLIN( 863)			this->_hx___setParentRenderDirty();
+HXLINE( 878)		this->_hx___dirty = true;
+HXLINE( 879)		this->_hx___layoutDirty = true;
+HXLINE( 880)		if (!(this->_hx___renderDirty)) {
+HXLINE( 880)			this->_hx___renderDirty = true;
+HXDLIN( 880)			this->_hx___setParentRenderDirty();
             		}
-HXLINE( 865)		this->_hx___updateText((this->_hx___text + text));
-HXLINE( 867)		::Dynamic this1 = this->_hx___textEngine->textFormatRanges;
-HXDLIN( 867)		( ( ::openfl::_Vector::ObjectVector)(this1) )->get((this->_hx___textEngine->textFormatRanges->get_length() - 1)).StaticCast<  ::openfl::text::_internal::TextFormatRange >()->end = this->_hx___text.length;
-HXLINE( 869)		this->_hx___selectionIndex = (this->_hx___caretIndex = this->_hx___text.length);
+HXLINE( 882)		this->_hx___updateText((this->_hx___text + text));
+HXLINE( 884)		::Dynamic this1 = this->_hx___textEngine->textFormatRanges;
+HXDLIN( 884)		( ( ::openfl::_Vector::ObjectVector)(this1) )->get((this->_hx___textEngine->textFormatRanges->get_length() - 1)).StaticCast<  ::openfl::text::_internal::TextFormatRange >()->end = this->_hx___text.length;
+HXLINE( 886)		this->_hx___updateScrollV();
+HXLINE( 887)		this->_hx___updateScrollH();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,appendText,(void))
 
  ::openfl::geom::Rectangle TextField_obj::getCharBoundaries(int charIndex){
-            	HX_GC_STACKFRAME(&_hx_pos_d001dbc361c2c159_884_getCharBoundaries)
-HXLINE( 885)		bool _hx_tmp;
-HXDLIN( 885)		if ((charIndex >= 0)) {
-HXLINE( 885)			_hx_tmp = (charIndex > (this->_hx___text.length - 1));
+            	HX_GC_STACKFRAME(&_hx_pos_d001dbc361c2c159_902_getCharBoundaries)
+HXLINE( 903)		bool _hx_tmp;
+HXDLIN( 903)		if ((charIndex >= 0)) {
+HXLINE( 903)			_hx_tmp = (charIndex > (this->_hx___text.length - 1));
             		}
             		else {
-HXLINE( 885)			_hx_tmp = true;
+HXLINE( 903)			_hx_tmp = true;
             		}
-HXDLIN( 885)		if (_hx_tmp) {
-HXLINE( 885)			return null();
+HXDLIN( 903)		if (_hx_tmp) {
+HXLINE( 903)			return null();
             		}
-HXLINE( 887)		 ::openfl::geom::Rectangle rect =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,null(),null(),null(),null());
-HXLINE( 889)		if (this->_hx___getCharBoundaries(charIndex,rect)) {
-HXLINE( 891)			return rect;
+HXLINE( 905)		 ::openfl::geom::Rectangle rect =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,null(),null(),null(),null());
+HXLINE( 907)		if (this->_hx___getCharBoundaries(charIndex,rect)) {
+HXLINE( 909)			return rect;
             		}
             		else {
-HXLINE( 895)			return null();
+HXLINE( 913)			return null();
             		}
-HXLINE( 889)		return null();
+HXLINE( 907)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,getCharBoundaries,return )
 
 int TextField_obj::getCharIndexAtPoint(Float x,Float y){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_910_getCharIndexAtPoint)
-HXLINE( 911)		bool _hx_tmp;
-HXDLIN( 911)		bool _hx_tmp1;
-HXDLIN( 911)		bool _hx_tmp2;
-HXDLIN( 911)		if (!((x <= 2))) {
-HXLINE( 911)			_hx_tmp2 = (x > (this->get_width() + 4));
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_928_getCharIndexAtPoint)
+HXLINE( 929)		bool _hx_tmp;
+HXDLIN( 929)		bool _hx_tmp1;
+HXDLIN( 929)		bool _hx_tmp2;
+HXDLIN( 929)		if (!((x <= 2))) {
+HXLINE( 929)			_hx_tmp2 = (x > (this->get_width() + 4));
             		}
             		else {
-HXLINE( 911)			_hx_tmp2 = true;
+HXLINE( 929)			_hx_tmp2 = true;
             		}
-HXDLIN( 911)		if (!(_hx_tmp2)) {
-HXLINE( 911)			_hx_tmp1 = (y <= 0);
-            		}
-            		else {
-HXLINE( 911)			_hx_tmp1 = true;
-            		}
-HXDLIN( 911)		if (!(_hx_tmp1)) {
-HXLINE( 911)			_hx_tmp = (y > (this->get_height() + 4));
+HXDLIN( 929)		if (!(_hx_tmp2)) {
+HXLINE( 929)			_hx_tmp1 = (y <= 0);
             		}
             		else {
-HXLINE( 911)			_hx_tmp = true;
+HXLINE( 929)			_hx_tmp1 = true;
             		}
-HXDLIN( 911)		if (_hx_tmp) {
-HXLINE( 911)			return -1;
+HXDLIN( 929)		if (!(_hx_tmp1)) {
+HXLINE( 929)			_hx_tmp = (y > (this->get_height() + 4));
             		}
-HXLINE( 913)		this->_hx___updateLayout();
-HXLINE( 915)		x = (x + this->get_scrollH());
-HXLINE( 917)		{
-HXLINE( 917)			int _g = 0;
-HXDLIN( 917)			int _g1 = (this->get_scrollV() - 1);
-HXDLIN( 917)			while((_g < _g1)){
-HXLINE( 917)				_g = (_g + 1);
-HXDLIN( 917)				int i = (_g - 1);
-HXLINE( 919)				y = (y + this->_hx___textEngine->lineHeights->get(i));
+            		else {
+HXLINE( 929)			_hx_tmp = true;
+            		}
+HXDLIN( 929)		if (_hx_tmp) {
+HXLINE( 929)			return -1;
+            		}
+HXLINE( 931)		this->_hx___updateLayout();
+HXLINE( 933)		x = (x + this->get_scrollH());
+HXLINE( 935)		{
+HXLINE( 935)			int _g = 0;
+HXDLIN( 935)			int _g1 = (this->get_scrollV() - 1);
+HXDLIN( 935)			while((_g < _g1)){
+HXLINE( 935)				_g = (_g + 1);
+HXDLIN( 935)				int i = (_g - 1);
+HXLINE( 937)				y = (y + this->_hx___textEngine->lineHeights->get(i));
             			}
             		}
-HXLINE( 922)		{
-HXLINE( 922)			 ::Dynamic group = this->_hx___textEngine->layoutGroups->iterator();
-HXDLIN( 922)			while(( (bool)(group->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE( 922)				 ::openfl::text::_internal::TextLayoutGroup group1 = ( ( ::openfl::text::_internal::TextLayoutGroup)(group->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE( 924)				bool _hx_tmp;
-HXDLIN( 924)				if ((y >= group1->offsetY)) {
-HXLINE( 924)					_hx_tmp = (y <= (group1->offsetY + group1->height));
+HXLINE( 940)		{
+HXLINE( 940)			 ::Dynamic group = this->_hx___textEngine->layoutGroups->iterator();
+HXDLIN( 940)			while(( (bool)(group->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE( 940)				 ::openfl::text::_internal::TextLayoutGroup group1 = ( ( ::openfl::text::_internal::TextLayoutGroup)(group->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE( 942)				bool _hx_tmp;
+HXDLIN( 942)				if ((y >= group1->offsetY)) {
+HXLINE( 942)					_hx_tmp = (y <= (group1->offsetY + group1->height));
             				}
             				else {
-HXLINE( 924)					_hx_tmp = false;
+HXLINE( 942)					_hx_tmp = false;
             				}
-HXDLIN( 924)				if (_hx_tmp) {
-HXLINE( 926)					bool _hx_tmp;
-HXDLIN( 926)					if ((x >= group1->offsetX)) {
-HXLINE( 926)						_hx_tmp = (x <= (group1->offsetX + group1->width));
+HXDLIN( 942)				if (_hx_tmp) {
+HXLINE( 944)					bool _hx_tmp;
+HXDLIN( 944)					if ((x >= group1->offsetX)) {
+HXLINE( 944)						_hx_tmp = (x <= (group1->offsetX + group1->width));
             					}
             					else {
-HXLINE( 926)						_hx_tmp = false;
+HXLINE( 944)						_hx_tmp = false;
             					}
-HXDLIN( 926)					if (_hx_tmp) {
-HXLINE( 928)						Float advance = ((Float)0.0);
-HXLINE( 930)						{
-HXLINE( 930)							int _g = 0;
-HXDLIN( 930)							int _g1 = group1->positions->length;
-HXDLIN( 930)							while((_g < _g1)){
-HXLINE( 930)								_g = (_g + 1);
-HXDLIN( 930)								int i = (_g - 1);
-HXLINE( 932)								Float advance1;
-HXDLIN( 932)								bool advance2;
-HXDLIN( 932)								if ((i >= 0)) {
-HXLINE( 932)									advance2 = (i < group1->positions->length);
+HXDLIN( 944)					if (_hx_tmp) {
+HXLINE( 946)						Float advance = ((Float)0.0);
+HXLINE( 948)						{
+HXLINE( 948)							int _g = 0;
+HXDLIN( 948)							int _g1 = group1->positions->length;
+HXDLIN( 948)							while((_g < _g1)){
+HXLINE( 948)								_g = (_g + 1);
+HXDLIN( 948)								int i = (_g - 1);
+HXLINE( 950)								Float advance1;
+HXDLIN( 950)								bool advance2;
+HXDLIN( 950)								if ((i >= 0)) {
+HXLINE( 950)									advance2 = (i < group1->positions->length);
             								}
             								else {
-HXLINE( 932)									advance2 = false;
+HXLINE( 950)									advance2 = false;
             								}
-HXDLIN( 932)								if (advance2) {
-HXLINE( 932)									advance1 = group1->positions->__get(i).StaticCast<  ::openfl::text::_internal::GlyphPosition >()->advance->x;
+HXDLIN( 950)								if (advance2) {
+HXLINE( 950)									advance1 = group1->positions->__get(i).StaticCast<  ::openfl::text::_internal::GlyphPosition >()->advance->x;
             								}
             								else {
-HXLINE( 932)									advance1 = ( (Float)(0) );
+HXLINE( 950)									advance1 = ( (Float)(0) );
             								}
-HXDLIN( 932)								advance = (advance + advance1);
-HXLINE( 934)								if ((x <= (group1->offsetX + advance))) {
-HXLINE( 936)									return (group1->startIndex + i);
+HXDLIN( 950)								advance = (advance + advance1);
+HXLINE( 952)								if ((x <= (group1->offsetX + advance))) {
+HXLINE( 954)									return (group1->startIndex + i);
             								}
             							}
             						}
-HXLINE( 940)						return group1->endIndex;
+HXLINE( 958)						return group1->endIndex;
             					}
             				}
             			}
             		}
-HXLINE( 945)		return -1;
+HXLINE( 963)		return -1;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(TextField_obj,getCharIndexAtPoint,return )
 
 int TextField_obj::getFirstCharInParagraph(int charIndex){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_960_getFirstCharInParagraph)
-HXLINE( 961)		bool _hx_tmp;
-HXDLIN( 961)		if ((charIndex >= 0)) {
-HXLINE( 961)			_hx_tmp = (charIndex > this->get_text().length);
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_978_getFirstCharInParagraph)
+HXLINE( 979)		bool _hx_tmp;
+HXDLIN( 979)		if ((charIndex >= 0)) {
+HXLINE( 979)			_hx_tmp = (charIndex > this->get_text().length);
             		}
             		else {
-HXLINE( 961)			_hx_tmp = true;
+HXLINE( 979)			_hx_tmp = true;
             		}
-HXDLIN( 961)		if (_hx_tmp) {
-HXLINE( 961)			return -1;
+HXDLIN( 979)		if (_hx_tmp) {
+HXLINE( 979)			return -1;
             		}
-HXLINE( 962)		if ((this->_hx___textEngine->lineBreaks->get_length() == 0)) {
-HXLINE( 962)			return 0;
-            		}
-HXLINE( 964)		{
-HXLINE( 964)			int _g = 0;
-HXDLIN( 964)			int _g1 = this->_hx___textEngine->lineBreaks->get_length();
-HXDLIN( 964)			while((_g < _g1)){
-HXLINE( 964)				_g = (_g + 1);
-HXDLIN( 964)				int i = (_g - 1);
-HXLINE( 966)				if ((charIndex <= this->_hx___textEngine->lineBreaks->get(i))) {
-HXLINE( 968)					if ((i == 0)) {
-HXLINE( 968)						return 0;
-            					}
-            					else {
-HXLINE( 968)						return (this->_hx___textEngine->lineBreaks->get((i - 1)) + 1);
-            					}
+HXLINE( 981)		int index = this->_hx___textEngine->getLineBreakIndex(null());
+HXLINE( 982)		int startIndex = 0;
+HXLINE( 984)		while((index > -1)){
+HXLINE( 986)			if ((index < charIndex)) {
+HXLINE( 988)				startIndex = (index + 1);
+            			}
+            			else {
+HXLINE( 990)				if ((index >= charIndex)) {
+HXLINE( 992)					goto _hx_goto_7;
             				}
             			}
+HXLINE( 995)			index = this->_hx___textEngine->getLineBreakIndex((index + 1));
             		}
-HXLINE( 972)		::Dynamic this1 = this->_hx___textEngine->lineBreaks;
-HXDLIN( 972)		return (( ( ::openfl::_Vector::IntVector)(this1) )->get((this->_hx___textEngine->lineBreaks->get_length() - 1)) + 1);
+            		_hx_goto_7:;
+HXLINE( 998)		return startIndex;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,getFirstCharInParagraph,return )
 
 int TextField_obj::getLineIndexAtPoint(Float x,Float y){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1007_getLineIndexAtPoint)
-HXLINE(1008)		this->_hx___updateLayout();
-HXLINE(1010)		bool _hx_tmp;
-HXDLIN(1010)		bool _hx_tmp1;
-HXDLIN(1010)		bool _hx_tmp2;
-HXDLIN(1010)		if (!((x <= 2))) {
-HXLINE(1010)			_hx_tmp2 = (x > (this->get_width() + 4));
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1033_getLineIndexAtPoint)
+HXLINE(1034)		this->_hx___updateLayout();
+HXLINE(1036)		bool _hx_tmp;
+HXDLIN(1036)		bool _hx_tmp1;
+HXDLIN(1036)		bool _hx_tmp2;
+HXDLIN(1036)		if (!((x <= 2))) {
+HXLINE(1036)			_hx_tmp2 = (x > (this->get_width() + 4));
             		}
             		else {
-HXLINE(1010)			_hx_tmp2 = true;
+HXLINE(1036)			_hx_tmp2 = true;
             		}
-HXDLIN(1010)		if (!(_hx_tmp2)) {
-HXLINE(1010)			_hx_tmp1 = (y <= 0);
-            		}
-            		else {
-HXLINE(1010)			_hx_tmp1 = true;
-            		}
-HXDLIN(1010)		if (!(_hx_tmp1)) {
-HXLINE(1010)			_hx_tmp = (y > (this->get_height() + 4));
+HXDLIN(1036)		if (!(_hx_tmp2)) {
+HXLINE(1036)			_hx_tmp1 = (y <= 0);
             		}
             		else {
-HXLINE(1010)			_hx_tmp = true;
+HXLINE(1036)			_hx_tmp1 = true;
             		}
-HXDLIN(1010)		if (_hx_tmp) {
-HXLINE(1010)			return -1;
+HXDLIN(1036)		if (!(_hx_tmp1)) {
+HXLINE(1036)			_hx_tmp = (y > (this->get_height() + 4));
             		}
-HXLINE(1012)		{
-HXLINE(1012)			int _g = 0;
-HXDLIN(1012)			int _g1 = (this->get_scrollV() - 1);
-HXDLIN(1012)			while((_g < _g1)){
-HXLINE(1012)				_g = (_g + 1);
-HXDLIN(1012)				int i = (_g - 1);
-HXLINE(1014)				y = (y + this->_hx___textEngine->lineHeights->get(i));
+            		else {
+HXLINE(1036)			_hx_tmp = true;
+            		}
+HXDLIN(1036)		if (_hx_tmp) {
+HXLINE(1036)			return -1;
+            		}
+HXLINE(1038)		{
+HXLINE(1038)			int _g = 0;
+HXDLIN(1038)			int _g1 = (this->get_scrollV() - 1);
+HXDLIN(1038)			while((_g < _g1)){
+HXLINE(1038)				_g = (_g + 1);
+HXDLIN(1038)				int i = (_g - 1);
+HXLINE(1040)				y = (y + this->_hx___textEngine->lineHeights->get(i));
             			}
             		}
-HXLINE(1017)		{
-HXLINE(1017)			 ::Dynamic group = this->_hx___textEngine->layoutGroups->iterator();
-HXDLIN(1017)			while(( (bool)(group->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE(1017)				 ::openfl::text::_internal::TextLayoutGroup group1 = ( ( ::openfl::text::_internal::TextLayoutGroup)(group->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE(1019)				bool _hx_tmp;
-HXDLIN(1019)				if ((y >= group1->offsetY)) {
-HXLINE(1019)					_hx_tmp = (y <= (group1->offsetY + group1->height));
+HXLINE(1043)		{
+HXLINE(1043)			 ::Dynamic group = this->_hx___textEngine->layoutGroups->iterator();
+HXDLIN(1043)			while(( (bool)(group->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE(1043)				 ::openfl::text::_internal::TextLayoutGroup group1 = ( ( ::openfl::text::_internal::TextLayoutGroup)(group->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE(1045)				bool _hx_tmp;
+HXDLIN(1045)				if ((y >= group1->offsetY)) {
+HXLINE(1045)					_hx_tmp = (y <= (group1->offsetY + group1->height));
             				}
             				else {
-HXLINE(1019)					_hx_tmp = false;
+HXLINE(1045)					_hx_tmp = false;
             				}
-HXDLIN(1019)				if (_hx_tmp) {
-HXLINE(1021)					return group1->lineIndex;
+HXDLIN(1045)				if (_hx_tmp) {
+HXLINE(1047)					return group1->lineIndex;
             				}
             			}
             		}
-HXLINE(1025)		return -1;
+HXLINE(1051)		return -1;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(TextField_obj,getLineIndexAtPoint,return )
 
 int TextField_obj::getLineIndexOfChar(int charIndex){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1039_getLineIndexOfChar)
-HXLINE(1040)		bool _hx_tmp;
-HXDLIN(1040)		if ((charIndex >= 0)) {
-HXLINE(1040)			_hx_tmp = (charIndex > this->_hx___text.length);
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1065_getLineIndexOfChar)
+HXLINE(1066)		bool _hx_tmp;
+HXDLIN(1066)		if ((charIndex >= 0)) {
+HXLINE(1066)			_hx_tmp = (charIndex > this->_hx___text.length);
             		}
             		else {
-HXLINE(1040)			_hx_tmp = true;
+HXLINE(1066)			_hx_tmp = true;
             		}
-HXDLIN(1040)		if (_hx_tmp) {
-HXLINE(1040)			return -1;
+HXDLIN(1066)		if (_hx_tmp) {
+HXLINE(1066)			return -1;
             		}
-HXLINE(1042)		this->_hx___updateLayout();
-HXLINE(1044)		{
-HXLINE(1044)			 ::Dynamic group = this->_hx___textEngine->layoutGroups->iterator();
-HXDLIN(1044)			while(( (bool)(group->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE(1044)				 ::openfl::text::_internal::TextLayoutGroup group1 = ( ( ::openfl::text::_internal::TextLayoutGroup)(group->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE(1046)				bool _hx_tmp;
-HXDLIN(1046)				if ((group1->startIndex <= charIndex)) {
-HXLINE(1046)					_hx_tmp = (group1->endIndex >= charIndex);
+HXLINE(1068)		this->_hx___updateLayout();
+HXLINE(1070)		{
+HXLINE(1070)			 ::Dynamic group = this->_hx___textEngine->layoutGroups->iterator();
+HXDLIN(1070)			while(( (bool)(group->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE(1070)				 ::openfl::text::_internal::TextLayoutGroup group1 = ( ( ::openfl::text::_internal::TextLayoutGroup)(group->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE(1072)				bool _hx_tmp;
+HXDLIN(1072)				if ((group1->startIndex <= charIndex)) {
+HXLINE(1072)					_hx_tmp = (group1->endIndex >= charIndex);
             				}
             				else {
-HXLINE(1046)					_hx_tmp = false;
+HXLINE(1072)					_hx_tmp = false;
             				}
-HXDLIN(1046)				if (_hx_tmp) {
-HXLINE(1048)					return group1->lineIndex;
+HXDLIN(1072)				if (_hx_tmp) {
+HXLINE(1074)					return group1->lineIndex;
             				}
             			}
             		}
-HXLINE(1052)		return -1;
+HXLINE(1078)		return -1;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,getLineIndexOfChar,return )
 
 int TextField_obj::getLineLength(int lineIndex){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1063_getLineLength)
-HXLINE(1064)		this->_hx___updateLayout();
-HXLINE(1066)		bool _hx_tmp;
-HXDLIN(1066)		if ((lineIndex >= 0)) {
-HXLINE(1066)			_hx_tmp = (lineIndex > (this->_hx___textEngine->numLines - 1));
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1089_getLineLength)
+HXLINE(1090)		this->_hx___updateLayout();
+HXLINE(1092)		bool _hx_tmp;
+HXDLIN(1092)		if ((lineIndex >= 0)) {
+HXLINE(1092)			_hx_tmp = (lineIndex > (this->_hx___textEngine->numLines - 1));
             		}
             		else {
-HXLINE(1066)			_hx_tmp = true;
+HXLINE(1092)			_hx_tmp = true;
             		}
-HXDLIN(1066)		if (_hx_tmp) {
-HXLINE(1066)			return 0;
+HXDLIN(1092)		if (_hx_tmp) {
+HXLINE(1092)			return 0;
             		}
-HXLINE(1068)		int startIndex = -1;
-HXLINE(1069)		int endIndex = -1;
-HXLINE(1071)		{
-HXLINE(1071)			 ::Dynamic group = this->_hx___textEngine->layoutGroups->iterator();
-HXDLIN(1071)			while(( (bool)(group->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE(1071)				 ::openfl::text::_internal::TextLayoutGroup group1 = ( ( ::openfl::text::_internal::TextLayoutGroup)(group->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE(1073)				if ((group1->lineIndex == lineIndex)) {
-HXLINE(1075)					if ((startIndex == -1)) {
-HXLINE(1075)						startIndex = group1->startIndex;
+HXLINE(1094)		int startIndex = -1;
+HXLINE(1095)		int endIndex = -1;
+HXLINE(1097)		{
+HXLINE(1097)			 ::Dynamic group = this->_hx___textEngine->layoutGroups->iterator();
+HXDLIN(1097)			while(( (bool)(group->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE(1097)				 ::openfl::text::_internal::TextLayoutGroup group1 = ( ( ::openfl::text::_internal::TextLayoutGroup)(group->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE(1099)				if ((group1->lineIndex == lineIndex)) {
+HXLINE(1101)					if ((startIndex == -1)) {
+HXLINE(1101)						startIndex = group1->startIndex;
             					}
             				}
             				else {
-HXLINE(1077)					if ((group1->lineIndex == (lineIndex + 1))) {
-HXLINE(1079)						endIndex = group1->startIndex;
-HXLINE(1080)						goto _hx_goto_14;
+HXLINE(1103)					if ((group1->lineIndex == (lineIndex + 1))) {
+HXLINE(1105)						endIndex = group1->startIndex;
+HXLINE(1106)						goto _hx_goto_14;
             					}
             				}
             			}
             			_hx_goto_14:;
             		}
-HXLINE(1084)		if ((endIndex == -1)) {
-HXLINE(1084)			endIndex = this->_hx___text.length;
+HXLINE(1110)		if ((endIndex == -1)) {
+HXLINE(1110)			endIndex = this->_hx___text.length;
             		}
-HXLINE(1085)		return (endIndex - startIndex);
+HXLINE(1111)		return (endIndex - startIndex);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,getLineLength,return )
 
  ::openfl::text::TextLineMetrics TextField_obj::getLineMetrics(int lineIndex){
-            	HX_GC_STACKFRAME(&_hx_pos_d001dbc361c2c159_1096_getLineMetrics)
-HXLINE(1097)		this->_hx___updateLayout();
-HXLINE(1099)		Float ascender = this->_hx___textEngine->lineAscents->get(lineIndex);
-HXLINE(1100)		Float descender = this->_hx___textEngine->lineDescents->get(lineIndex);
-HXLINE(1101)		Float leading = this->_hx___textEngine->lineLeadings->get(lineIndex);
-HXLINE(1102)		Float lineHeight = this->_hx___textEngine->lineHeights->get(lineIndex);
-HXLINE(1103)		Float lineWidth = this->_hx___textEngine->lineWidths->get(lineIndex);
-HXLINE(1107)		Float margin;
-HXDLIN(1107)		 ::Dynamic _hx_switch_0 = this->_hx___textFormat->align;
+            	HX_GC_STACKFRAME(&_hx_pos_d001dbc361c2c159_1122_getLineMetrics)
+HXLINE(1123)		this->_hx___updateLayout();
+HXLINE(1125)		Float ascender = this->_hx___textEngine->lineAscents->get(lineIndex);
+HXLINE(1126)		Float descender = this->_hx___textEngine->lineDescents->get(lineIndex);
+HXLINE(1127)		Float leading = this->_hx___textEngine->lineLeadings->get(lineIndex);
+HXLINE(1128)		Float lineHeight = this->_hx___textEngine->lineHeights->get(lineIndex);
+HXLINE(1129)		Float lineWidth = this->_hx___textEngine->lineWidths->get(lineIndex);
+HXLINE(1133)		Float margin;
+HXDLIN(1133)		 ::Dynamic _hx_switch_0 = this->_hx___textFormat->align;
             		if (  (_hx_switch_0==0) ){
-HXLINE(1107)			margin = ((this->_hx___textEngine->width - lineWidth) / ( (Float)(2) ));
-HXDLIN(1107)			goto _hx_goto_16;
+HXLINE(1133)			margin = ((this->_hx___textEngine->width - lineWidth) / ( (Float)(2) ));
+HXDLIN(1133)			goto _hx_goto_16;
             		}
             		if (  (_hx_switch_0==1) ||  (_hx_switch_0==4) ){
-HXLINE(1107)			margin = ((this->_hx___textEngine->width - lineWidth) - ( (Float)(2) ));
-HXDLIN(1107)			goto _hx_goto_16;
+HXLINE(1133)			margin = ((this->_hx___textEngine->width - lineWidth) - ( (Float)(2) ));
+HXDLIN(1133)			goto _hx_goto_16;
             		}
             		if (  (_hx_switch_0==2) ||  (_hx_switch_0==3) ||  (_hx_switch_0==5) ){
-HXLINE(1107)			margin = ( (Float)(2) );
-HXDLIN(1107)			goto _hx_goto_16;
+HXLINE(1133)			margin = ( (Float)(2) );
+HXDLIN(1133)			goto _hx_goto_16;
             		}
             		_hx_goto_16:;
-HXLINE(1114)		return  ::openfl::text::TextLineMetrics_obj::__alloc( HX_CTX ,margin,lineWidth,lineHeight,ascender,descender,leading);
+HXLINE(1140)		return  ::openfl::text::TextLineMetrics_obj::__alloc( HX_CTX ,margin,lineWidth,lineHeight,ascender,descender,leading);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,getLineMetrics,return )
 
 int TextField_obj::getLineOffset(int lineIndex){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1127_getLineOffset)
-HXLINE(1128)		this->_hx___updateLayout();
-HXLINE(1130)		bool _hx_tmp;
-HXDLIN(1130)		if ((lineIndex >= 0)) {
-HXLINE(1130)			_hx_tmp = (lineIndex > (this->_hx___textEngine->numLines - 1));
-            		}
-            		else {
-HXLINE(1130)			_hx_tmp = true;
-            		}
-HXDLIN(1130)		if (_hx_tmp) {
-HXLINE(1130)			return -1;
-            		}
-HXLINE(1132)		{
-HXLINE(1132)			 ::Dynamic group = this->_hx___textEngine->layoutGroups->iterator();
-HXDLIN(1132)			while(( (bool)(group->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE(1132)				 ::openfl::text::_internal::TextLayoutGroup group1 = ( ( ::openfl::text::_internal::TextLayoutGroup)(group->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE(1134)				if ((group1->lineIndex == lineIndex)) {
-HXLINE(1136)					return group1->startIndex;
-            				}
-            			}
-            		}
-HXLINE(1140)		return 0;
-            	}
-
-
-HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,getLineOffset,return )
-
-::String TextField_obj::getLineText(int lineIndex){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1153_getLineText)
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1153_getLineOffset)
 HXLINE(1154)		this->_hx___updateLayout();
 HXLINE(1156)		bool _hx_tmp;
 HXDLIN(1156)		if ((lineIndex >= 0)) {
@@ -727,58 +741,86 @@ HXLINE(1156)			_hx_tmp = (lineIndex > (this->_hx___textEngine->numLines - 1));
 HXLINE(1156)			_hx_tmp = true;
             		}
 HXDLIN(1156)		if (_hx_tmp) {
-HXLINE(1156)			return null();
+HXLINE(1156)			return -1;
             		}
-HXLINE(1158)		int startIndex = -1;
-HXLINE(1159)		int endIndex = -1;
-HXLINE(1161)		{
-HXLINE(1161)			 ::Dynamic group = this->_hx___textEngine->layoutGroups->iterator();
-HXDLIN(1161)			while(( (bool)(group->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE(1161)				 ::openfl::text::_internal::TextLayoutGroup group1 = ( ( ::openfl::text::_internal::TextLayoutGroup)(group->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE(1163)				if ((group1->lineIndex == lineIndex)) {
-HXLINE(1165)					if ((startIndex == -1)) {
-HXLINE(1165)						startIndex = group1->startIndex;
+HXLINE(1158)		{
+HXLINE(1158)			 ::Dynamic group = this->_hx___textEngine->layoutGroups->iterator();
+HXDLIN(1158)			while(( (bool)(group->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE(1158)				 ::openfl::text::_internal::TextLayoutGroup group1 = ( ( ::openfl::text::_internal::TextLayoutGroup)(group->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE(1160)				if ((group1->lineIndex == lineIndex)) {
+HXLINE(1162)					return group1->startIndex;
+            				}
+            			}
+            		}
+HXLINE(1166)		return 0;
+            	}
+
+
+HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,getLineOffset,return )
+
+::String TextField_obj::getLineText(int lineIndex){
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1179_getLineText)
+HXLINE(1180)		this->_hx___updateLayout();
+HXLINE(1182)		bool _hx_tmp;
+HXDLIN(1182)		if ((lineIndex >= 0)) {
+HXLINE(1182)			_hx_tmp = (lineIndex > (this->_hx___textEngine->numLines - 1));
+            		}
+            		else {
+HXLINE(1182)			_hx_tmp = true;
+            		}
+HXDLIN(1182)		if (_hx_tmp) {
+HXLINE(1182)			return null();
+            		}
+HXLINE(1184)		int startIndex = -1;
+HXLINE(1185)		int endIndex = -1;
+HXLINE(1187)		{
+HXLINE(1187)			 ::Dynamic group = this->_hx___textEngine->layoutGroups->iterator();
+HXDLIN(1187)			while(( (bool)(group->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE(1187)				 ::openfl::text::_internal::TextLayoutGroup group1 = ( ( ::openfl::text::_internal::TextLayoutGroup)(group->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE(1189)				if ((group1->lineIndex == lineIndex)) {
+HXLINE(1191)					if ((startIndex == -1)) {
+HXLINE(1191)						startIndex = group1->startIndex;
             					}
             				}
             				else {
-HXLINE(1167)					if ((group1->lineIndex == (lineIndex + 1))) {
-HXLINE(1169)						endIndex = group1->startIndex;
-HXLINE(1170)						goto _hx_goto_20;
+HXLINE(1193)					if ((group1->lineIndex == (lineIndex + 1))) {
+HXLINE(1195)						endIndex = group1->startIndex;
+HXLINE(1196)						goto _hx_goto_20;
             					}
             				}
             			}
             			_hx_goto_20:;
             		}
-HXLINE(1174)		if ((endIndex == -1)) {
-HXLINE(1174)			endIndex = this->_hx___text.length;
+HXLINE(1200)		if ((endIndex == -1)) {
+HXLINE(1200)			endIndex = this->_hx___text.length;
             		}
-HXLINE(1176)		return this->_hx___textEngine->text.substring(startIndex,endIndex);
+HXLINE(1202)		return this->_hx___textEngine->text.substring(startIndex,endIndex);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,getLineText,return )
 
 int TextField_obj::getParagraphLength(int charIndex){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1192_getParagraphLength)
-HXLINE(1193)		bool _hx_tmp;
-HXDLIN(1193)		if ((charIndex >= 0)) {
-HXLINE(1193)			_hx_tmp = (charIndex > this->get_text().length);
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1218_getParagraphLength)
+HXLINE(1219)		bool _hx_tmp;
+HXDLIN(1219)		if ((charIndex >= 0)) {
+HXLINE(1219)			_hx_tmp = (charIndex > this->get_text().length);
             		}
             		else {
-HXLINE(1193)			_hx_tmp = true;
+HXLINE(1219)			_hx_tmp = true;
             		}
-HXDLIN(1193)		if (_hx_tmp) {
-HXLINE(1193)			return -1;
+HXDLIN(1219)		if (_hx_tmp) {
+HXLINE(1219)			return -1;
             		}
-HXLINE(1195)		int startIndex = this->getFirstCharInParagraph(charIndex);
-HXLINE(1197)		if ((charIndex >= this->get_text().length)) {
-HXLINE(1197)			return ((this->get_text().length - startIndex) + 1);
+HXLINE(1221)		int startIndex = this->getFirstCharInParagraph(charIndex);
+HXLINE(1223)		if ((charIndex >= this->get_text().length)) {
+HXLINE(1223)			return ((this->get_text().length - startIndex) + 1);
             		}
-HXLINE(1199)		int endIndex = (this->_hx___textEngine->getLineBreakIndex(charIndex) + 1);
-HXLINE(1201)		if ((endIndex == 0)) {
-HXLINE(1201)			endIndex = this->_hx___text.length;
+HXLINE(1225)		int endIndex = (this->_hx___textEngine->getLineBreakIndex(charIndex) + 1);
+HXLINE(1227)		if ((endIndex == 0)) {
+HXLINE(1227)			endIndex = this->_hx___text.length;
             		}
-HXLINE(1202)		return (endIndex - startIndex);
+HXLINE(1228)		return (endIndex - startIndex);
             	}
 
 
@@ -787,363 +829,292 @@ HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,getParagraphLength,return )
  ::openfl::text::TextFormat TextField_obj::getTextFormat(::hx::Null< int >  __o_beginIndex,::hx::Null< int >  __o_endIndex){
             		int beginIndex = __o_beginIndex.Default(-1);
             		int endIndex = __o_endIndex.Default(-1);
-            	HX_GC_STACKFRAME(&_hx_pos_d001dbc361c2c159_1231_getTextFormat)
-HXLINE(1232)		 ::openfl::text::TextFormat format = null();
-HXLINE(1234)		bool _hx_tmp;
-HXDLIN(1234)		bool _hx_tmp1;
-HXDLIN(1234)		bool _hx_tmp2;
-HXDLIN(1234)		if ((beginIndex < this->get_text().length)) {
-HXLINE(1234)			_hx_tmp2 = (beginIndex < -1);
+            	HX_GC_STACKFRAME(&_hx_pos_d001dbc361c2c159_1257_getTextFormat)
+HXLINE(1258)		 ::openfl::text::TextFormat format = null();
+HXLINE(1260)		bool _hx_tmp;
+HXDLIN(1260)		bool _hx_tmp1;
+HXDLIN(1260)		bool _hx_tmp2;
+HXDLIN(1260)		if ((beginIndex < this->get_text().length)) {
+HXLINE(1260)			_hx_tmp2 = (beginIndex < -1);
             		}
             		else {
-HXLINE(1234)			_hx_tmp2 = true;
+HXLINE(1260)			_hx_tmp2 = true;
             		}
-HXDLIN(1234)		if (!(_hx_tmp2)) {
-HXLINE(1234)			_hx_tmp1 = (endIndex > this->get_text().length);
-            		}
-            		else {
-HXLINE(1234)			_hx_tmp1 = true;
-            		}
-HXDLIN(1234)		if (!(_hx_tmp1)) {
-HXLINE(1234)			_hx_tmp = (endIndex < -1);
+HXDLIN(1260)		if (!(_hx_tmp2)) {
+HXLINE(1260)			_hx_tmp1 = (endIndex > this->get_text().length);
             		}
             		else {
-HXLINE(1234)			_hx_tmp = true;
+HXLINE(1260)			_hx_tmp1 = true;
             		}
-HXDLIN(1234)		if (_hx_tmp) {
-HXLINE(1235)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::RangeError_obj::__alloc( HX_CTX ,HX_("The supplied index is out of bounds",37,5a,d3,87))));
+HXDLIN(1260)		if (!(_hx_tmp1)) {
+HXLINE(1260)			_hx_tmp = (endIndex < -1);
             		}
-HXLINE(1237)		if ((beginIndex == -1)) {
-HXLINE(1237)			beginIndex = 0;
+            		else {
+HXLINE(1260)			_hx_tmp = true;
             		}
-HXLINE(1238)		if ((endIndex == -1)) {
-HXLINE(1238)			endIndex = this->get_text().length;
+HXDLIN(1260)		if (_hx_tmp) {
+HXLINE(1261)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::RangeError_obj::__alloc( HX_CTX ,HX_("The supplied index is out of bounds",37,5a,d3,87))));
             		}
-HXLINE(1240)		if ((beginIndex >= endIndex)) {
-HXLINE(1240)			return  ::openfl::text::TextFormat_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null(),null(),null(),null(),null(),null(),null(),null());
+HXLINE(1263)		if ((beginIndex == -1)) {
+HXLINE(1263)			beginIndex = 0;
             		}
-HXLINE(1242)		{
-HXLINE(1242)			 ::Dynamic group = this->_hx___textEngine->textFormatRanges->iterator();
-HXDLIN(1242)			while(( (bool)(group->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE(1242)				 ::openfl::text::_internal::TextFormatRange group1 = ( ( ::openfl::text::_internal::TextFormatRange)(group->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE(1244)				bool _hx_tmp;
-HXDLIN(1244)				bool _hx_tmp1;
-HXDLIN(1244)				if ((group1->start <= beginIndex)) {
-HXLINE(1244)					_hx_tmp1 = (group1->end > beginIndex);
+HXLINE(1264)		if ((endIndex == -1)) {
+HXLINE(1264)			endIndex = this->get_text().length;
+            		}
+HXLINE(1266)		if ((beginIndex >= endIndex)) {
+HXLINE(1266)			return  ::openfl::text::TextFormat_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null(),null(),null(),null(),null(),null(),null(),null());
+            		}
+HXLINE(1268)		{
+HXLINE(1268)			 ::Dynamic group = this->_hx___textEngine->textFormatRanges->iterator();
+HXDLIN(1268)			while(( (bool)(group->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE(1268)				 ::openfl::text::_internal::TextFormatRange group1 = ( ( ::openfl::text::_internal::TextFormatRange)(group->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE(1270)				bool _hx_tmp;
+HXDLIN(1270)				bool _hx_tmp1;
+HXDLIN(1270)				if ((group1->start <= beginIndex)) {
+HXLINE(1270)					_hx_tmp1 = (group1->end > beginIndex);
             				}
             				else {
-HXLINE(1244)					_hx_tmp1 = false;
+HXLINE(1270)					_hx_tmp1 = false;
             				}
-HXDLIN(1244)				if (!(_hx_tmp1)) {
-HXLINE(1244)					if ((group1->start < endIndex)) {
-HXLINE(1244)						_hx_tmp = (group1->end >= endIndex);
+HXDLIN(1270)				if (!(_hx_tmp1)) {
+HXLINE(1270)					if ((group1->start < endIndex)) {
+HXLINE(1270)						_hx_tmp = (group1->end >= endIndex);
             					}
             					else {
-HXLINE(1244)						_hx_tmp = false;
+HXLINE(1270)						_hx_tmp = false;
             					}
             				}
             				else {
-HXLINE(1244)					_hx_tmp = true;
+HXLINE(1270)					_hx_tmp = true;
             				}
-HXDLIN(1244)				if (_hx_tmp) {
-HXLINE(1246)					if (::hx::IsNull( format )) {
-HXLINE(1248)						format = group1->format->clone();
+HXDLIN(1270)				if (_hx_tmp) {
+HXLINE(1272)					if (::hx::IsNull( format )) {
+HXLINE(1274)						format = group1->format->clone();
             					}
             					else {
-HXLINE(1252)						if ((group1->format->font != format->font)) {
-HXLINE(1252)							format->font = null();
+HXLINE(1278)						if ((group1->format->font != format->font)) {
+HXLINE(1278)							format->font = null();
             						}
-HXLINE(1253)						if (::hx::IsNotEq( group1->format->size,format->size )) {
-HXLINE(1253)							format->size = null();
+HXLINE(1279)						if (::hx::IsNotEq( group1->format->size,format->size )) {
+HXLINE(1279)							format->size = null();
             						}
-HXLINE(1254)						if (::hx::IsNotEq( group1->format->color,format->color )) {
-HXLINE(1254)							format->color = null();
+HXLINE(1280)						if (::hx::IsNotEq( group1->format->color,format->color )) {
+HXLINE(1280)							format->color = null();
             						}
-HXLINE(1255)						if (::hx::IsNotEq( group1->format->bold,format->bold )) {
-HXLINE(1255)							format->bold = null();
+HXLINE(1281)						if (::hx::IsNotEq( group1->format->bold,format->bold )) {
+HXLINE(1281)							format->bold = null();
             						}
-HXLINE(1256)						if (::hx::IsNotEq( group1->format->italic,format->italic )) {
-HXLINE(1256)							format->italic = null();
+HXLINE(1282)						if (::hx::IsNotEq( group1->format->italic,format->italic )) {
+HXLINE(1282)							format->italic = null();
             						}
-HXLINE(1257)						if (::hx::IsNotEq( group1->format->underline,format->underline )) {
-HXLINE(1257)							format->underline = null();
+HXLINE(1283)						if (::hx::IsNotEq( group1->format->underline,format->underline )) {
+HXLINE(1283)							format->underline = null();
             						}
-HXLINE(1258)						if ((group1->format->url != format->url)) {
-HXLINE(1258)							format->url = null();
+HXLINE(1284)						if ((group1->format->url != format->url)) {
+HXLINE(1284)							format->url = null();
             						}
-HXLINE(1259)						if ((group1->format->target != format->target)) {
-HXLINE(1259)							format->target = null();
+HXLINE(1285)						if ((group1->format->target != format->target)) {
+HXLINE(1285)							format->target = null();
             						}
-HXLINE(1260)						if (::hx::IsNotEq( group1->format->align,format->align )) {
-HXLINE(1260)							format->align = null();
+HXLINE(1286)						if (::hx::IsNotEq( group1->format->align,format->align )) {
+HXLINE(1286)							format->align = null();
             						}
-HXLINE(1261)						if (::hx::IsNotEq( group1->format->leftMargin,format->leftMargin )) {
-HXLINE(1261)							format->leftMargin = null();
+HXLINE(1287)						if (::hx::IsNotEq( group1->format->leftMargin,format->leftMargin )) {
+HXLINE(1287)							format->leftMargin = null();
             						}
-HXLINE(1262)						if (::hx::IsNotEq( group1->format->rightMargin,format->rightMargin )) {
-HXLINE(1262)							format->rightMargin = null();
+HXLINE(1288)						if (::hx::IsNotEq( group1->format->rightMargin,format->rightMargin )) {
+HXLINE(1288)							format->rightMargin = null();
             						}
-HXLINE(1263)						if (::hx::IsNotEq( group1->format->indent,format->indent )) {
-HXLINE(1263)							format->indent = null();
+HXLINE(1289)						if (::hx::IsNotEq( group1->format->indent,format->indent )) {
+HXLINE(1289)							format->indent = null();
             						}
-HXLINE(1264)						if (::hx::IsNotEq( group1->format->leading,format->leading )) {
-HXLINE(1264)							format->leading = null();
+HXLINE(1290)						if (::hx::IsNotEq( group1->format->leading,format->leading )) {
+HXLINE(1290)							format->leading = null();
             						}
-HXLINE(1265)						if (::hx::IsNotEq( group1->format->blockIndent,format->blockIndent )) {
-HXLINE(1265)							format->blockIndent = null();
+HXLINE(1291)						if (::hx::IsNotEq( group1->format->blockIndent,format->blockIndent )) {
+HXLINE(1291)							format->blockIndent = null();
             						}
-HXLINE(1266)						if (::hx::IsNotEq( group1->format->bullet,format->bullet )) {
-HXLINE(1266)							format->bullet = null();
+HXLINE(1292)						if (::hx::IsNotEq( group1->format->bullet,format->bullet )) {
+HXLINE(1292)							format->bullet = null();
             						}
-HXLINE(1267)						if (::hx::IsNotEq( group1->format->kerning,format->kerning )) {
-HXLINE(1267)							format->kerning = null();
+HXLINE(1293)						if (::hx::IsNotEq( group1->format->kerning,format->kerning )) {
+HXLINE(1293)							format->kerning = null();
             						}
-HXLINE(1268)						if (::hx::IsNotEq( group1->format->letterSpacing,format->letterSpacing )) {
-HXLINE(1268)							format->letterSpacing = null();
+HXLINE(1294)						if (::hx::IsNotEq( group1->format->letterSpacing,format->letterSpacing )) {
+HXLINE(1294)							format->letterSpacing = null();
             						}
-HXLINE(1269)						if (::hx::IsNotEq( group1->format->tabStops,format->tabStops )) {
-HXLINE(1269)							format->tabStops = null();
+HXLINE(1295)						if (::hx::IsNotEq( group1->format->tabStops,format->tabStops )) {
+HXLINE(1295)							format->tabStops = null();
             						}
             					}
             				}
             			}
             		}
-HXLINE(1274)		if (::hx::IsNull( format )) {
-HXLINE(1274)			format =  ::openfl::text::TextFormat_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null(),null(),null(),null(),null(),null(),null(),null());
+HXLINE(1300)		if (::hx::IsNull( format )) {
+HXLINE(1300)			format =  ::openfl::text::TextFormat_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null(),null(),null(),null(),null(),null(),null(),null());
             		}
-HXLINE(1275)		return format;
+HXLINE(1301)		return format;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(TextField_obj,getTextFormat,return )
 
 void TextField_obj::replaceSelectedText(::String value){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1325_replaceSelectedText)
-HXDLIN(1325)		this->_hx___replaceSelectedText(value,false);
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1351_replaceSelectedText)
+HXDLIN(1351)		this->_hx___replaceSelectedText(value,false);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,replaceSelectedText,(void))
 
 void TextField_obj::replaceText(int beginIndex,int endIndex,::String newText){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1346_replaceText)
-HXDLIN(1346)		this->_hx___replaceText(beginIndex,endIndex,newText,false);
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1372_replaceText)
+HXDLIN(1372)		this->_hx___replaceText(beginIndex,endIndex,newText,false);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(TextField_obj,replaceText,(void))
 
 void TextField_obj::setSelection(int beginIndex,int endIndex){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1363_setSelection)
-HXLINE(1364)		this->_hx___selectionIndex = beginIndex;
-HXLINE(1365)		this->_hx___caretIndex = endIndex;
-HXLINE(1367)		this->_hx___updateScrollV();
-HXLINE(1368)		this->_hx___updateScrollH();
-HXLINE(1370)		bool _hx_tmp;
-HXDLIN(1370)		if (::hx::IsNotNull( this->stage )) {
-HXLINE(1370)			_hx_tmp = ::hx::IsEq( this->stage->get_focus(),::hx::ObjectPtr<OBJ_>(this) );
-            		}
-            		else {
-HXLINE(1370)			_hx_tmp = false;
-            		}
-HXDLIN(1370)		if (_hx_tmp) {
-HXLINE(1372)			this->_hx___stopCursorTimer();
-HXLINE(1373)			this->_hx___startCursorTimer();
-            		}
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1389_setSelection)
+HXLINE(1390)		this->_hx___selectionIndex = beginIndex;
+HXLINE(1391)		this->_hx___caretIndex = endIndex;
+HXLINE(1393)		this->_hx___updateScrollV();
+HXLINE(1395)		this->_hx___stopCursorTimer();
+HXLINE(1396)		this->_hx___startCursorTimer();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(TextField_obj,setSelection,(void))
 
 void TextField_obj::setTextFormat( ::openfl::text::TextFormat format,::hx::Null< int >  __o_beginIndex,::hx::Null< int >  __o_endIndex){
-            		int beginIndex = __o_beginIndex.Default(-1);
-            		int endIndex = __o_endIndex.Default(-1);
-            	HX_GC_STACKFRAME(&_hx_pos_d001dbc361c2c159_1423_setTextFormat)
-HXLINE(1424)		int max = this->get_text().length;
-HXLINE(1425)		 ::openfl::text::_internal::TextFormatRange range;
-HXLINE(1427)		if ((beginIndex == -1)) {
-HXLINE(1429)			if ((endIndex == -1)) {
-HXLINE(1429)				endIndex = max;
+            		int beginIndex = __o_beginIndex.Default(0);
+            		int endIndex = __o_endIndex.Default(0);
+            	HX_GC_STACKFRAME(&_hx_pos_d001dbc361c2c159_1445_setTextFormat)
+HXLINE(1446)		int max = this->get_text().length;
+HXLINE(1447)		 ::openfl::text::_internal::TextFormatRange range;
+HXLINE(1449)		if ((beginIndex < 0)) {
+HXLINE(1449)			beginIndex = 0;
+            		}
+HXLINE(1450)		if ((endIndex < 0)) {
+HXLINE(1450)			endIndex = 0;
+            		}
+HXLINE(1452)		if ((endIndex == 0)) {
+HXLINE(1454)			if ((beginIndex == 0)) {
+HXLINE(1456)				endIndex = max;
             			}
-HXLINE(1430)			beginIndex = 0;
-            		}
-            		else {
-HXLINE(1432)			if ((endIndex == -1)) {
-HXLINE(1434)				endIndex = (beginIndex + 1);
+            			else {
+HXLINE(1460)				endIndex = (beginIndex + 1);
             			}
             		}
-HXLINE(1437)		if ((beginIndex == endIndex)) {
-HXLINE(1437)			return;
+HXLINE(1464)		if ((endIndex < beginIndex)) {
+HXLINE(1464)			return;
             		}
-HXLINE(1438)		bool _hx_tmp;
-HXDLIN(1438)		bool _hx_tmp1;
-HXDLIN(1438)		bool _hx_tmp2;
-HXDLIN(1438)		bool _hx_tmp3;
-HXDLIN(1438)		if ((beginIndex >= 0)) {
-HXLINE(1438)			_hx_tmp3 = (endIndex <= 0);
+HXLINE(1466)		bool _hx_tmp;
+HXDLIN(1466)		if ((beginIndex == 0)) {
+HXLINE(1466)			_hx_tmp = (endIndex >= max);
             		}
             		else {
-HXLINE(1438)			_hx_tmp3 = true;
+HXLINE(1466)			_hx_tmp = false;
             		}
-HXDLIN(1438)		if (!(_hx_tmp3)) {
-HXLINE(1438)			_hx_tmp2 = (endIndex < beginIndex);
-            		}
-            		else {
-HXLINE(1438)			_hx_tmp2 = true;
-            		}
-HXDLIN(1438)		if (!(_hx_tmp2)) {
-HXLINE(1438)			_hx_tmp1 = (beginIndex >= max);
-            		}
-            		else {
-HXLINE(1438)			_hx_tmp1 = true;
-            		}
-HXDLIN(1438)		if (!(_hx_tmp1)) {
-HXLINE(1438)			_hx_tmp = (endIndex > max);
+HXDLIN(1466)		if (_hx_tmp) {
+HXLINE(1469)			this->_hx___textFormat->_hx___merge(format);
+HXLINE(1471)			{
+HXLINE(1471)				int _g = 0;
+HXDLIN(1471)				int _g1 = this->_hx___textEngine->textFormatRanges->get_length();
+HXDLIN(1471)				while((_g < _g1)){
+HXLINE(1471)					_g = (_g + 1);
+HXDLIN(1471)					int i = (_g - 1);
+HXLINE(1473)					range = this->_hx___textEngine->textFormatRanges->get(i).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXLINE(1474)					range->format->_hx___merge(format);
+            				}
+            			}
             		}
             		else {
-HXLINE(1438)			_hx_tmp = true;
-            		}
-HXDLIN(1438)		if (_hx_tmp) {
-HXLINE(1438)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::RangeError_obj::__alloc( HX_CTX ,null())));
-            		}
-HXLINE(1456)		bool _hx_tmp4;
-HXDLIN(1456)		if ((beginIndex == 0)) {
-HXLINE(1456)			_hx_tmp4 = (endIndex == max);
-            		}
-            		else {
-HXLINE(1456)			_hx_tmp4 = false;
-            		}
-HXDLIN(1456)		if (_hx_tmp4) {
-HXLINE(1459)			this->_hx___textEngine->textFormatRanges->set_length(1);
-HXLINE(1461)			range = this->_hx___textEngine->textFormatRanges->get(0).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXLINE(1462)			range->start = 0;
-HXLINE(1463)			range->end = max;
-HXLINE(1464)			range->format->_hx___merge(format);
-            		}
-            		else {
-HXLINE(1468)			int index = 0;
-HXLINE(1469)			 ::openfl::text::_internal::TextFormatRange newRange;
-HXLINE(1471)			while((index < this->_hx___textEngine->textFormatRanges->get_length())){
-HXLINE(1473)				range = this->_hx___textEngine->textFormatRanges->get(index).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXLINE(1475)				if ((range->end <= beginIndex)) {
-HXLINE(1478)					index = (index + 1);
+HXLINE(1479)			int index = 0;
+HXLINE(1480)			 ::openfl::text::_internal::TextFormatRange newRange;
+HXLINE(1482)			while((index < this->_hx___textEngine->textFormatRanges->get_length())){
+HXLINE(1484)				range = this->_hx___textEngine->textFormatRanges->get(index).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXLINE(1486)				bool _hx_tmp;
+HXDLIN(1486)				if ((range->start == beginIndex)) {
+HXLINE(1486)					_hx_tmp = (range->end == endIndex);
             				}
             				else {
-HXLINE(1480)					if ((range->start >= endIndex)) {
-HXLINE(1483)						goto _hx_goto_28;
+HXLINE(1486)					_hx_tmp = false;
+            				}
+HXDLIN(1486)				if (_hx_tmp) {
+HXLINE(1489)					range->format->_hx___merge(format);
+HXLINE(1490)					goto _hx_goto_29;
+            				}
+            				else {
+HXLINE(1492)					bool _hx_tmp;
+HXDLIN(1492)					if ((range->start >= beginIndex)) {
+HXLINE(1492)						_hx_tmp = (range->end <= endIndex);
             					}
             					else {
-HXLINE(1485)						bool _hx_tmp;
-HXDLIN(1485)						if ((range->start <= beginIndex)) {
-HXLINE(1485)							_hx_tmp = (range->end >= endIndex);
+HXLINE(1492)						_hx_tmp = false;
+            					}
+HXDLIN(1492)					if (_hx_tmp) {
+HXLINE(1495)						range->format->_hx___merge(format);
+            					}
+            					else {
+HXLINE(1497)						bool _hx_tmp;
+HXDLIN(1497)						bool _hx_tmp1;
+HXDLIN(1497)						if ((range->start >= beginIndex)) {
+HXLINE(1497)							_hx_tmp1 = (range->start < endIndex);
             						}
             						else {
-HXLINE(1485)							_hx_tmp = false;
+HXLINE(1497)							_hx_tmp1 = false;
             						}
-HXDLIN(1485)						if (_hx_tmp) {
-HXLINE(1487)							bool _hx_tmp;
-HXDLIN(1487)							if ((range->start == beginIndex)) {
-HXLINE(1487)								_hx_tmp = (range->end == endIndex);
-            							}
-            							else {
-HXLINE(1487)								_hx_tmp = false;
-            							}
-HXDLIN(1487)							if (_hx_tmp) {
-HXLINE(1490)								range->format = range->format->clone();
-HXLINE(1491)								range->format->_hx___merge(format);
-HXLINE(1492)								goto _hx_goto_28;
-            							}
-            							else {
-HXLINE(1494)								if ((range->start == beginIndex)) {
-HXLINE(1497)									newRange =  ::openfl::text::_internal::TextFormatRange_obj::__alloc( HX_CTX ,range->format->clone(),beginIndex,endIndex);
-HXLINE(1498)									newRange->format->_hx___merge(format);
-HXLINE(1499)									this->_hx___textEngine->textFormatRanges->insertAt(index,newRange);
-HXLINE(1500)									range->start = endIndex;
-HXLINE(1501)									index = (index + 2);
-            								}
-            								else {
-HXLINE(1503)									if ((range->end == endIndex)) {
-HXLINE(1506)										newRange =  ::openfl::text::_internal::TextFormatRange_obj::__alloc( HX_CTX ,range->format->clone(),beginIndex,endIndex);
-HXLINE(1507)										newRange->format->_hx___merge(format);
-HXLINE(1508)										this->_hx___textEngine->textFormatRanges->insertAt((index + 1),newRange);
-HXLINE(1510)										range->end = beginIndex;
-HXLINE(1511)										goto _hx_goto_28;
-            									}
-            									else {
-HXLINE(1516)										newRange =  ::openfl::text::_internal::TextFormatRange_obj::__alloc( HX_CTX ,range->format->clone(),beginIndex,endIndex);
-HXLINE(1517)										newRange->format->_hx___merge(format);
-HXLINE(1518)										this->_hx___textEngine->textFormatRanges->insertAt((index + 1),newRange);
-HXLINE(1520)										 ::openfl::text::TextFormat newRange1 = range->format->clone();
-HXDLIN(1520)										newRange =  ::openfl::text::_internal::TextFormatRange_obj::__alloc( HX_CTX ,newRange1,endIndex,range->end);
-HXLINE(1521)										this->_hx___textEngine->textFormatRanges->insertAt((index + 2),newRange);
-HXLINE(1523)										range->end = beginIndex;
-HXLINE(1524)										goto _hx_goto_28;
-            									}
-            								}
-            							}
+HXDLIN(1497)						if (_hx_tmp1) {
+HXLINE(1497)							_hx_tmp = (range->end > beginIndex);
             						}
             						else {
-HXLINE(1527)							bool _hx_tmp;
-HXDLIN(1527)							if ((range->start >= beginIndex)) {
-HXLINE(1527)								_hx_tmp = (range->end <= endIndex);
+HXLINE(1497)							_hx_tmp = false;
+            						}
+HXDLIN(1497)						if (_hx_tmp) {
+HXLINE(1500)							 ::openfl::text::TextFormat newRange1 = range->format->clone();
+HXDLIN(1500)							newRange =  ::openfl::text::_internal::TextFormatRange_obj::__alloc( HX_CTX ,newRange1,range->start,endIndex);
+HXLINE(1501)							newRange->format->_hx___merge(format);
+HXLINE(1502)							this->_hx___textEngine->textFormatRanges->insertAt(index,newRange);
+HXLINE(1503)							range->start = endIndex;
+HXLINE(1504)							index = (index + 1);
+            						}
+            						else {
+HXLINE(1506)							bool _hx_tmp;
+HXDLIN(1506)							bool _hx_tmp1;
+HXDLIN(1506)							if ((range->start < beginIndex)) {
+HXLINE(1506)								_hx_tmp1 = (range->end > beginIndex);
             							}
             							else {
-HXLINE(1527)								_hx_tmp = false;
+HXLINE(1506)								_hx_tmp1 = false;
             							}
-HXDLIN(1527)							if (_hx_tmp) {
-HXLINE(1530)								if ((range->start == beginIndex)) {
-HXLINE(1533)									range->format = range->format->clone();
-HXLINE(1534)									range->format->_hx___merge(format);
-HXLINE(1535)									range->end = endIndex;
-            								}
-            								else {
-HXLINE(1540)									this->_hx___textEngine->textFormatRanges->removeAt(index).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-            								}
+HXDLIN(1506)							if (_hx_tmp1) {
+HXLINE(1506)								_hx_tmp = (range->end >= endIndex);
             							}
             							else {
-HXLINE(1543)								bool _hx_tmp;
-HXDLIN(1543)								if ((range->start > beginIndex)) {
-HXLINE(1543)									_hx_tmp = (range->end > beginIndex);
-            								}
-            								else {
-HXLINE(1543)									_hx_tmp = false;
-            								}
-HXDLIN(1543)								if (_hx_tmp) {
-HXLINE(1546)									range->start = endIndex;
-HXLINE(1547)									goto _hx_goto_28;
-            								}
-            								else {
-HXLINE(1549)									bool _hx_tmp;
-HXDLIN(1549)									if ((range->start < beginIndex)) {
-HXLINE(1549)										_hx_tmp = (range->end <= endIndex);
-            									}
-            									else {
-HXLINE(1549)										_hx_tmp = false;
-            									}
-HXDLIN(1549)									if (_hx_tmp) {
-HXLINE(1552)										newRange =  ::openfl::text::_internal::TextFormatRange_obj::__alloc( HX_CTX ,range->format->clone(),beginIndex,endIndex);
-HXLINE(1553)										newRange->format->_hx___merge(format);
-HXLINE(1554)										this->_hx___textEngine->textFormatRanges->insertAt((index + 1),newRange);
-HXLINE(1555)										range->end = beginIndex;
-HXLINE(1556)										index = (index + 2);
-            									}
-            									else {
-HXLINE(1561)										index = (index + 1);
-HXLINE(1562)										::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/TextField.hx",94,20,f0,cc),1562,HX_("openfl.text.TextField",ca,a8,d5,ef),HX_("setTextFormat",06,4e,f7,d5)));
-            									}
-            								}
+HXLINE(1506)								_hx_tmp = false;
+            							}
+HXDLIN(1506)							if (_hx_tmp) {
+HXLINE(1509)								 ::openfl::text::TextFormat newRange1 = range->format->clone();
+HXDLIN(1509)								newRange =  ::openfl::text::_internal::TextFormatRange_obj::__alloc( HX_CTX ,newRange1,beginIndex,range->end);
+HXLINE(1510)								newRange->format->_hx___merge(format);
+HXLINE(1511)								this->_hx___textEngine->textFormatRanges->insertAt((index + 1),newRange);
+HXLINE(1512)								range->end = beginIndex;
+HXLINE(1513)								index = (index + 1);
             							}
             						}
             					}
             				}
+HXLINE(1516)				index = (index + 1);
             			}
-            			_hx_goto_28:;
+            			_hx_goto_29:;
             		}
-HXLINE(1589)		this->_hx___dirty = true;
-HXLINE(1590)		this->_hx___layoutDirty = true;
-HXLINE(1591)		if (!(this->_hx___renderDirty)) {
-HXLINE(1591)			this->_hx___renderDirty = true;
-HXDLIN(1591)			this->_hx___setParentRenderDirty();
+HXLINE(1521)		this->_hx___dirty = true;
+HXLINE(1522)		this->_hx___layoutDirty = true;
+HXLINE(1523)		if (!(this->_hx___renderDirty)) {
+HXLINE(1523)			this->_hx___renderDirty = true;
+HXDLIN(1523)			this->_hx___setParentRenderDirty();
             		}
             	}
 
@@ -1151,71 +1122,58 @@ HXDLIN(1591)			this->_hx___setParentRenderDirty();
 HX_DEFINE_DYNAMIC_FUNC3(TextField_obj,setTextFormat,(void))
 
 bool TextField_obj::_hx___allowMouseFocus(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1596___allowMouseFocus)
-HXDLIN(1596)		bool _hx_tmp;
-HXDLIN(1596)		if (::hx::IsNotEq( this->_hx___textEngine->type,1 )) {
-HXDLIN(1596)			_hx_tmp = this->get_tabEnabled();
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1528___allowMouseFocus)
+HXDLIN(1528)		bool _hx_tmp;
+HXDLIN(1528)		if (::hx::IsNotEq( this->_hx___textEngine->type,1 )) {
+HXDLIN(1528)			_hx_tmp = this->get_tabEnabled();
             		}
             		else {
-HXDLIN(1596)			_hx_tmp = true;
+HXDLIN(1528)			_hx_tmp = true;
             		}
-HXDLIN(1596)		if (!(_hx_tmp)) {
-HXDLIN(1596)			return this->get_selectable();
+HXDLIN(1528)		if (!(_hx_tmp)) {
+HXDLIN(1528)			return this->get_selectable();
             		}
             		else {
-HXDLIN(1596)			return true;
+HXDLIN(1528)			return true;
             		}
-HXDLIN(1596)		return false;
+HXDLIN(1528)		return false;
             	}
 
 
 void TextField_obj::_hx___caretBeginningOfLine(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1601___caretBeginningOfLine)
-HXDLIN(1601)		this->_hx___caretIndex = this->getLineOffset(this->getLineIndexOfChar(this->_hx___caretIndex));
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1533___caretBeginningOfLine)
+HXDLIN(1533)		bool _hx_tmp;
+HXDLIN(1533)		if ((this->_hx___selectionIndex != this->_hx___caretIndex)) {
+HXDLIN(1533)			_hx_tmp = (this->_hx___caretIndex < this->_hx___selectionIndex);
+            		}
+            		else {
+HXDLIN(1533)			_hx_tmp = true;
+            		}
+HXDLIN(1533)		if (_hx_tmp) {
+HXLINE(1535)			this->_hx___caretIndex = this->getLineOffset(this->getLineIndexOfChar(this->_hx___caretIndex));
+            		}
+            		else {
+HXLINE(1539)			this->_hx___selectionIndex = this->getLineOffset(this->getLineIndexOfChar(this->_hx___selectionIndex));
+            		}
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,_hx___caretBeginningOfLine,(void))
 
-void TextField_obj::_hx___caretBeginningOfNextLine(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1605___caretBeginningOfNextLine)
-HXLINE(1606)		int lineIndex = this->getLineIndexOfChar(this->_hx___caretIndex);
-HXLINE(1608)		if ((lineIndex < (this->_hx___textEngine->numLines - 1))) {
-HXLINE(1610)			this->_hx___caretIndex = this->getLineOffset((lineIndex + 1));
-            		}
-            		else {
-HXLINE(1614)			this->_hx___caretIndex = this->_hx___text.length;
-            		}
-            	}
-
-
-HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,_hx___caretBeginningOfNextLine,(void))
-
-void TextField_obj::_hx___caretBeginningOfPreviousLine(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1619___caretBeginningOfPreviousLine)
-HXLINE(1620)		int lineIndex = this->getLineIndexOfChar(this->_hx___caretIndex);
-HXLINE(1622)		if ((lineIndex > 0)) {
-HXLINE(1624)			int index = this->getLineOffset(this->getLineIndexOfChar(this->_hx___caretIndex));
-HXLINE(1626)			if ((this->_hx___caretIndex == index)) {
-HXLINE(1628)				this->_hx___caretIndex = this->getLineOffset((lineIndex - 1));
-            			}
-            			else {
-HXLINE(1632)				this->_hx___caretIndex = index;
-            			}
-            		}
-            	}
-
-
-HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,_hx___caretBeginningOfPreviousLine,(void))
-
 void TextField_obj::_hx___caretEndOfLine(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1638___caretEndOfLine)
-HXLINE(1639)		int lineIndex = this->getLineIndexOfChar(this->_hx___caretIndex);
-HXLINE(1641)		if ((lineIndex < (this->_hx___textEngine->numLines - 1))) {
-HXLINE(1643)			this->_hx___caretIndex = (this->getLineOffset((lineIndex + 1)) - 1);
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1544___caretEndOfLine)
+HXLINE(1545)		int lineIndex;
+HXLINE(1547)		if ((this->_hx___selectionIndex == this->_hx___caretIndex)) {
+HXLINE(1549)			lineIndex = this->getLineIndexOfChar(this->_hx___caretIndex);
             		}
             		else {
-HXLINE(1647)			this->_hx___caretIndex = this->_hx___text.length;
+HXLINE(1553)			lineIndex = this->getLineIndexOfChar(::Std_obj::_hx_int(::Math_obj::max(( (Float)(this->_hx___caretIndex) ),( (Float)(this->_hx___selectionIndex) ))));
+            		}
+HXLINE(1556)		if ((lineIndex < (this->_hx___textEngine->numLines - 1))) {
+HXLINE(1558)			this->_hx___caretIndex = (this->getLineOffset((lineIndex + 1)) - 1);
+            		}
+            		else {
+HXLINE(1562)			this->_hx___caretIndex = this->_hx___text.length;
             		}
             	}
 
@@ -1223,62 +1181,78 @@ HXLINE(1647)			this->_hx___caretIndex = this->_hx___text.length;
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,_hx___caretEndOfLine,(void))
 
 void TextField_obj::_hx___caretNextCharacter(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1653___caretNextCharacter)
-HXDLIN(1653)		if ((this->_hx___caretIndex < this->_hx___text.length)) {
-HXLINE(1655)			this->_hx___caretIndex++;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1568___caretNextCharacter)
+HXDLIN(1568)		if ((this->_hx___caretIndex < this->_hx___text.length)) {
+HXLINE(1570)			this->_hx___caretIndex++;
             		}
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,_hx___caretNextCharacter,(void))
 
-void TextField_obj::_hx___caretNextLine(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1660___caretNextLine)
-HXLINE(1661)		int lineIndex = this->getLineIndexOfChar(this->_hx___caretIndex);
-HXLINE(1663)		if ((lineIndex < (this->_hx___textEngine->numLines - 1))) {
-HXLINE(1665)			this->_hx___caretIndex = this->_hx___getCharIndexOnDifferentLine(this->get_caretIndex(),(lineIndex + 1));
+void TextField_obj::_hx___caretNextLine( ::Dynamic lineIndex, ::Dynamic caretIndex){
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1575___caretNextLine)
+HXLINE(1576)		if (::hx::IsNull( lineIndex )) {
+HXLINE(1578)			lineIndex = this->getLineIndexOfChar(this->_hx___caretIndex);
+            		}
+HXLINE(1581)		if (::hx::IsLess( lineIndex,(this->_hx___textEngine->numLines - 1) )) {
+HXLINE(1583)			if (::hx::IsNull( caretIndex )) {
+HXLINE(1585)				caretIndex = this->_hx___caretIndex;
+            			}
+HXLINE(1588)			this->_hx___caretIndex = this->_hx___getCharIndexOnDifferentLine(( (int)(caretIndex) ),(lineIndex + 1));
+            		}
+            		else {
+HXLINE(1592)			this->_hx___caretIndex = this->_hx___text.length;
             		}
             	}
 
 
-HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,_hx___caretNextLine,(void))
+HX_DEFINE_DYNAMIC_FUNC2(TextField_obj,_hx___caretNextLine,(void))
 
 void TextField_obj::_hx___caretPreviousCharacter(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1671___caretPreviousCharacter)
-HXDLIN(1671)		if ((this->_hx___caretIndex > 0)) {
-HXLINE(1673)			this->_hx___caretIndex--;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1598___caretPreviousCharacter)
+HXDLIN(1598)		if ((this->_hx___caretIndex > 0)) {
+HXLINE(1600)			this->_hx___caretIndex--;
             		}
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,_hx___caretPreviousCharacter,(void))
 
-void TextField_obj::_hx___caretPreviousLine(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1678___caretPreviousLine)
-HXLINE(1679)		int lineIndex = this->getLineIndexOfChar(this->_hx___caretIndex);
-HXLINE(1681)		if ((lineIndex > 0)) {
-HXLINE(1683)			this->_hx___caretIndex = this->_hx___getCharIndexOnDifferentLine(this->get_caretIndex(),(lineIndex - 1));
+void TextField_obj::_hx___caretPreviousLine( ::Dynamic lineIndex, ::Dynamic caretIndex){
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1605___caretPreviousLine)
+HXLINE(1606)		if (::hx::IsNull( lineIndex )) {
+HXLINE(1608)			lineIndex = this->getLineIndexOfChar(this->_hx___caretIndex);
+            		}
+HXLINE(1611)		if (::hx::IsGreater( lineIndex,0 )) {
+HXLINE(1613)			if (::hx::IsNull( caretIndex )) {
+HXLINE(1615)				caretIndex = this->_hx___caretIndex;
+            			}
+HXLINE(1618)			this->_hx___caretIndex = this->_hx___getCharIndexOnDifferentLine(( (int)(caretIndex) ),(( (int)(lineIndex) ) - 1));
+            		}
+            		else {
+HXLINE(1622)			this->_hx___caretIndex = 0;
             		}
             	}
 
 
-HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,_hx___caretPreviousLine,(void))
+HX_DEFINE_DYNAMIC_FUNC2(TextField_obj,_hx___caretPreviousLine,(void))
 
 void TextField_obj::_hx___disableInput(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1689___disableInput)
-HXDLIN(1689)		bool _hx_tmp;
-HXDLIN(1689)		if (this->_hx___inputEnabled) {
-HXDLIN(1689)			_hx_tmp = ::hx::IsNotNull( this->stage );
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1628___disableInput)
+HXDLIN(1628)		bool _hx_tmp;
+HXDLIN(1628)		if (this->_hx___inputEnabled) {
+HXDLIN(1628)			_hx_tmp = ::hx::IsNotNull( this->stage );
             		}
             		else {
-HXDLIN(1689)			_hx_tmp = false;
+HXDLIN(1628)			_hx_tmp = false;
             		}
-HXDLIN(1689)		if (_hx_tmp) {
-HXLINE(1692)			this->stage->window->_hx___backend->setTextInputEnabled(false);
-HXLINE(1693)			this->stage->window->onTextInput->remove(this->window_onTextInput_dyn());
-HXLINE(1694)			this->stage->window->onKeyDown->remove(this->window_onKeyDown_dyn());
-HXLINE(1697)			this->_hx___inputEnabled = false;
-HXLINE(1698)			this->_hx___stopCursorTimer();
+HXDLIN(1628)		if (_hx_tmp) {
+HXLINE(1631)			this->stage->window->_hx___backend->setTextInputEnabled(false);
+HXLINE(1632)			this->stage->window->onTextInput->remove(this->window_onTextInput_dyn());
+HXLINE(1633)			this->stage->window->onKeyDown->remove(this->window_onKeyDown_dyn());
+HXLINE(1636)			this->_hx___inputEnabled = false;
+HXLINE(1637)			this->_hx___stopCursorTimer();
             		}
             	}
 
@@ -1286,53 +1260,53 @@ HXLINE(1698)			this->_hx___stopCursorTimer();
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,_hx___disableInput,(void))
 
 bool TextField_obj::_hx___dispatch( ::openfl::events::Event event){
-            	HX_GC_STACKFRAME(&_hx_pos_d001dbc361c2c159_1703___dispatch)
-HXLINE(1704)		bool _hx_tmp;
-HXDLIN(1704)		if ((event->eventPhase == 2)) {
-HXLINE(1704)			_hx_tmp = (event->type == HX_("mouseUp",e0,f3,72,c0));
+            	HX_GC_STACKFRAME(&_hx_pos_d001dbc361c2c159_1642___dispatch)
+HXLINE(1643)		bool _hx_tmp;
+HXDLIN(1643)		if ((event->eventPhase == 2)) {
+HXLINE(1643)			_hx_tmp = (event->type == HX_("mouseUp",e0,f3,72,c0));
             		}
             		else {
-HXLINE(1704)			_hx_tmp = false;
+HXLINE(1643)			_hx_tmp = false;
             		}
-HXDLIN(1704)		if (_hx_tmp) {
-HXLINE(1706)			 ::openfl::events::MouseEvent event1 = ( ( ::openfl::events::MouseEvent)(event) );
-HXLINE(1707)			Float group = this->get_mouseX();
-HXDLIN(1707)			 ::openfl::text::_internal::TextLayoutGroup group1 = this->_hx___getGroup(group,this->get_mouseY(),true);
-HXLINE(1709)			if (::hx::IsNotNull( group1 )) {
-HXLINE(1711)				::String url = group1->format->url;
-HXLINE(1713)				bool _hx_tmp;
-HXDLIN(1713)				if (::hx::IsNotNull( url )) {
-HXLINE(1713)					_hx_tmp = (url != HX_("",00,00,00,00));
+HXDLIN(1643)		if (_hx_tmp) {
+HXLINE(1645)			 ::openfl::events::MouseEvent event1 = ( ( ::openfl::events::MouseEvent)(event) );
+HXLINE(1646)			Float group = this->get_mouseX();
+HXDLIN(1646)			 ::openfl::text::_internal::TextLayoutGroup group1 = this->_hx___getGroup(group,this->get_mouseY(),true);
+HXLINE(1648)			if (::hx::IsNotNull( group1 )) {
+HXLINE(1650)				::String url = group1->format->url;
+HXLINE(1652)				bool _hx_tmp;
+HXDLIN(1652)				if (::hx::IsNotNull( url )) {
+HXLINE(1652)					_hx_tmp = (url != HX_("",00,00,00,00));
             				}
             				else {
-HXLINE(1713)					_hx_tmp = false;
+HXLINE(1652)					_hx_tmp = false;
             				}
-HXDLIN(1713)				if (_hx_tmp) {
-HXLINE(1715)					if (::StringTools_obj::startsWith(url,HX_("event:",e0,4e,6a,96))) {
-HXLINE(1717)						this->dispatchEvent( ::openfl::events::TextEvent_obj::__alloc( HX_CTX ,HX_("link",fa,17,b3,47),false,false,url.substr(6,null())));
+HXDLIN(1652)				if (_hx_tmp) {
+HXLINE(1654)					if (::StringTools_obj::startsWith(url,HX_("event:",e0,4e,6a,96))) {
+HXLINE(1656)						this->dispatchEvent( ::openfl::events::TextEvent_obj::__alloc( HX_CTX ,HX_("link",fa,17,b3,47),false,false,url.substr(6,null())));
             					}
             					else {
-HXLINE(1721)						::openfl::Lib_obj::getURL( ::openfl::net::URLRequest_obj::__alloc( HX_CTX ,url),null());
+HXLINE(1660)						::openfl::Lib_obj::getURL( ::openfl::net::URLRequest_obj::__alloc( HX_CTX ,url),null());
             					}
             				}
             			}
             		}
-HXLINE(1727)		return this->super::_hx___dispatch(event);
+HXLINE(1666)		return this->super::_hx___dispatch(event);
             	}
 
 
 void TextField_obj::_hx___enableInput(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1733___enableInput)
-HXDLIN(1733)		if (::hx::IsNotNull( this->stage )) {
-HXLINE(1735)			this->stage->window->_hx___backend->setTextInputEnabled(true);
-HXLINE(1737)			if (!(this->_hx___inputEnabled)) {
-HXLINE(1739)				this->stage->window->_hx___backend->setTextInputEnabled(true);
-HXLINE(1741)				if (!(this->stage->window->onTextInput->has(this->window_onTextInput_dyn()))) {
-HXLINE(1743)					this->stage->window->onTextInput->add(this->window_onTextInput_dyn(),null(),null());
-HXLINE(1744)					this->stage->window->onKeyDown->add(this->window_onKeyDown_dyn(),null(),null());
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1672___enableInput)
+HXDLIN(1672)		if (::hx::IsNotNull( this->stage )) {
+HXLINE(1674)			this->stage->window->_hx___backend->setTextInputEnabled(true);
+HXLINE(1676)			if (!(this->_hx___inputEnabled)) {
+HXLINE(1678)				this->stage->window->_hx___backend->setTextInputEnabled(true);
+HXLINE(1680)				if (!(this->stage->window->onTextInput->has(this->window_onTextInput_dyn()))) {
+HXLINE(1682)					this->stage->window->onTextInput->add(this->window_onTextInput_dyn(),null(),null());
+HXLINE(1683)					this->stage->window->onKeyDown->add(this->window_onKeyDown_dyn(),null(),null());
             				}
-HXLINE(1747)				this->_hx___inputEnabled = true;
-HXLINE(1748)				this->_hx___startCursorTimer();
+HXLINE(1686)				this->_hx___inputEnabled = true;
+HXLINE(1687)				this->_hx___startCursorTimer();
             			}
             		}
             	}
@@ -1341,96 +1315,96 @@ HXLINE(1748)				this->_hx___startCursorTimer();
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,_hx___enableInput,(void))
 
 Float TextField_obj::_hx___getAdvance( ::Dynamic position){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1759___getAdvance)
-HXDLIN(1759)		return ( (Float)( ::Dynamic(position->__Field(HX_("advance",82,08,0c,ef),::hx::paccDynamic))->__Field(HX_("x",78,00,00,00),::hx::paccDynamic)) );
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1698___getAdvance)
+HXDLIN(1698)		return ( (Float)( ::Dynamic(position->__Field(HX_("advance",82,08,0c,ef),::hx::paccDynamic))->__Field(HX_("x",78,00,00,00),::hx::paccDynamic)) );
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,_hx___getAdvance,return )
 
 void TextField_obj::_hx___getBounds( ::openfl::geom::Rectangle rect, ::openfl::geom::Matrix matrix){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1764___getBounds)
-HXLINE(1765)		this->_hx___updateLayout();
-HXLINE(1767)		 ::openfl::geom::Rectangle bounds = ::openfl::geom::Rectangle_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Rectangle >();
-HXLINE(1768)		bounds->copyFrom(this->_hx___textEngine->bounds);
-HXLINE(1770)		 ::openfl::geom::Matrix matrix1 = matrix;
-HXDLIN(1770)		matrix1->tx = (matrix1->tx + this->_hx___offsetX);
-HXLINE(1771)		 ::openfl::geom::Matrix matrix2 = matrix;
-HXDLIN(1771)		matrix2->ty = (matrix2->ty + this->_hx___offsetY);
-HXLINE(1773)		bounds->_hx___transform(bounds,matrix);
-HXLINE(1775)		rect->_hx___expand(bounds->x,bounds->y,bounds->width,bounds->height);
-HXLINE(1777)		::openfl::geom::Rectangle_obj::_hx___pool->release(bounds);
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1703___getBounds)
+HXLINE(1704)		this->_hx___updateLayout();
+HXLINE(1706)		 ::openfl::geom::Rectangle bounds = ::openfl::geom::Rectangle_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Rectangle >();
+HXLINE(1707)		bounds->copyFrom(this->_hx___textEngine->bounds);
+HXLINE(1709)		 ::openfl::geom::Matrix matrix1 = matrix;
+HXDLIN(1709)		matrix1->tx = (matrix1->tx + this->_hx___offsetX);
+HXLINE(1710)		 ::openfl::geom::Matrix matrix2 = matrix;
+HXDLIN(1710)		matrix2->ty = (matrix2->ty + this->_hx___offsetY);
+HXLINE(1712)		bounds->_hx___transform(bounds,matrix);
+HXLINE(1714)		rect->_hx___expand(bounds->x,bounds->y,bounds->width,bounds->height);
+HXLINE(1716)		::openfl::geom::Rectangle_obj::_hx___pool->release(bounds);
             	}
 
 
 bool TextField_obj::_hx___getCharBoundaries(int charIndex, ::openfl::geom::Rectangle rect){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1781___getCharBoundaries)
-HXLINE(1782)		bool _hx_tmp;
-HXDLIN(1782)		if ((charIndex >= 0)) {
-HXLINE(1782)			_hx_tmp = (charIndex > (this->_hx___text.length - 1));
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1720___getCharBoundaries)
+HXLINE(1721)		bool _hx_tmp;
+HXDLIN(1721)		if ((charIndex >= 0)) {
+HXLINE(1721)			_hx_tmp = (charIndex > (this->_hx___text.length - 1));
             		}
             		else {
-HXLINE(1782)			_hx_tmp = true;
+HXLINE(1721)			_hx_tmp = true;
             		}
-HXDLIN(1782)		if (_hx_tmp) {
-HXLINE(1782)			return false;
+HXDLIN(1721)		if (_hx_tmp) {
+HXLINE(1721)			return false;
             		}
-HXLINE(1784)		this->_hx___updateLayout();
-HXLINE(1786)		{
-HXLINE(1786)			 ::Dynamic group = this->_hx___textEngine->layoutGroups->iterator();
-HXDLIN(1786)			while(( (bool)(group->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE(1786)				 ::openfl::text::_internal::TextLayoutGroup group1 = ( ( ::openfl::text::_internal::TextLayoutGroup)(group->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE(1788)				bool _hx_tmp;
-HXDLIN(1788)				if ((charIndex >= group1->startIndex)) {
-HXLINE(1788)					_hx_tmp = (charIndex < group1->endIndex);
+HXLINE(1723)		this->_hx___updateLayout();
+HXLINE(1725)		{
+HXLINE(1725)			 ::Dynamic group = this->_hx___textEngine->layoutGroups->iterator();
+HXDLIN(1725)			while(( (bool)(group->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE(1725)				 ::openfl::text::_internal::TextLayoutGroup group1 = ( ( ::openfl::text::_internal::TextLayoutGroup)(group->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE(1727)				bool _hx_tmp;
+HXDLIN(1727)				if ((charIndex >= group1->startIndex)) {
+HXLINE(1727)					_hx_tmp = (charIndex < group1->endIndex);
             				}
             				else {
-HXLINE(1788)					_hx_tmp = false;
+HXLINE(1727)					_hx_tmp = false;
             				}
-HXDLIN(1788)				if (_hx_tmp) {
-HXLINE(1790)					try {
+HXDLIN(1727)				if (_hx_tmp) {
+HXLINE(1729)					try {
             						HX_STACK_CATCHABLE( ::Dynamic, 0);
-HXLINE(1792)						Float x = group1->offsetX;
-HXLINE(1794)						{
-HXLINE(1794)							int _g = 0;
-HXDLIN(1794)							int _g1 = (charIndex - group1->startIndex);
-HXDLIN(1794)							while((_g < _g1)){
-HXLINE(1794)								_g = (_g + 1);
-HXDLIN(1794)								int i = (_g - 1);
-HXLINE(1796)								Float x1;
-HXDLIN(1796)								bool x2;
-HXDLIN(1796)								if ((i >= 0)) {
-HXLINE(1796)									x2 = (i < group1->positions->length);
+HXLINE(1731)						Float x = group1->offsetX;
+HXLINE(1733)						{
+HXLINE(1733)							int _g = 0;
+HXDLIN(1733)							int _g1 = (charIndex - group1->startIndex);
+HXDLIN(1733)							while((_g < _g1)){
+HXLINE(1733)								_g = (_g + 1);
+HXDLIN(1733)								int i = (_g - 1);
+HXLINE(1735)								Float x1;
+HXDLIN(1735)								bool x2;
+HXDLIN(1735)								if ((i >= 0)) {
+HXLINE(1735)									x2 = (i < group1->positions->length);
             								}
             								else {
-HXLINE(1796)									x2 = false;
+HXLINE(1735)									x2 = false;
             								}
-HXDLIN(1796)								if (x2) {
-HXLINE(1796)									x1 = group1->positions->__get(i).StaticCast<  ::openfl::text::_internal::GlyphPosition >()->advance->x;
+HXDLIN(1735)								if (x2) {
+HXLINE(1735)									x1 = group1->positions->__get(i).StaticCast<  ::openfl::text::_internal::GlyphPosition >()->advance->x;
             								}
             								else {
-HXLINE(1796)									x1 = ( (Float)(0) );
+HXLINE(1735)									x1 = ( (Float)(0) );
             								}
-HXDLIN(1796)								x = (x + x1);
+HXDLIN(1735)								x = (x + x1);
             							}
             						}
-HXLINE(1800)						int index = (charIndex - group1->startIndex);
-HXDLIN(1800)						Float lastPosition;
-HXDLIN(1800)						bool lastPosition1;
-HXDLIN(1800)						if ((index >= 0)) {
-HXLINE(1800)							lastPosition1 = (index < group1->positions->length);
+HXLINE(1739)						int index = (charIndex - group1->startIndex);
+HXDLIN(1739)						Float lastPosition;
+HXDLIN(1739)						bool lastPosition1;
+HXDLIN(1739)						if ((index >= 0)) {
+HXLINE(1739)							lastPosition1 = (index < group1->positions->length);
             						}
             						else {
-HXLINE(1800)							lastPosition1 = false;
+HXLINE(1739)							lastPosition1 = false;
             						}
-HXDLIN(1800)						if (lastPosition1) {
-HXLINE(1800)							lastPosition = group1->positions->__get(index).StaticCast<  ::openfl::text::_internal::GlyphPosition >()->advance->x;
+HXDLIN(1739)						if (lastPosition1) {
+HXLINE(1739)							lastPosition = group1->positions->__get(index).StaticCast<  ::openfl::text::_internal::GlyphPosition >()->advance->x;
             						}
             						else {
-HXLINE(1800)							lastPosition = ( (Float)(0) );
+HXLINE(1739)							lastPosition = ( (Float)(0) );
             						}
-HXLINE(1802)						rect->setTo(x,group1->offsetY,lastPosition,(group1->ascent + group1->descent));
-HXLINE(1803)						return true;
+HXLINE(1741)						rect->setTo(x,group1->offsetY,lastPosition,(group1->ascent + group1->descent));
+HXLINE(1742)						return true;
             					} catch( ::Dynamic _hx_e) {
             						if (_hx_e.IsClass<  ::Dynamic >() ){
             							HX_STACK_BEGIN_CATCH
@@ -1446,683 +1420,775 @@ HXLINE(   1)								null();
             				}
             			}
             		}
-HXLINE(1809)		return false;
+HXLINE(1748)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(TextField_obj,_hx___getCharBoundaries,return )
 
 int TextField_obj::_hx___getCharIndexOnDifferentLine(int charIndex,int lineIndex){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1813___getCharIndexOnDifferentLine)
-HXLINE(1814)		bool _hx_tmp;
-HXDLIN(1814)		if ((charIndex >= 0)) {
-HXLINE(1814)			_hx_tmp = (charIndex > this->_hx___text.length);
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1752___getCharIndexOnDifferentLine)
+HXLINE(1753)		bool _hx_tmp;
+HXDLIN(1753)		if ((charIndex >= 0)) {
+HXLINE(1753)			_hx_tmp = (charIndex > this->_hx___text.length);
             		}
             		else {
-HXLINE(1814)			_hx_tmp = true;
+HXLINE(1753)			_hx_tmp = true;
             		}
-HXDLIN(1814)		if (_hx_tmp) {
-HXLINE(1814)			return -1;
+HXDLIN(1753)		if (_hx_tmp) {
+HXLINE(1753)			return -1;
             		}
-HXLINE(1815)		bool _hx_tmp1;
-HXDLIN(1815)		if ((lineIndex >= 0)) {
-HXLINE(1815)			_hx_tmp1 = (lineIndex > (this->_hx___textEngine->numLines - 1));
+HXLINE(1754)		bool _hx_tmp1;
+HXDLIN(1754)		if ((lineIndex >= 0)) {
+HXLINE(1754)			_hx_tmp1 = (lineIndex > (this->_hx___textEngine->numLines - 1));
             		}
             		else {
-HXLINE(1815)			_hx_tmp1 = true;
+HXLINE(1754)			_hx_tmp1 = true;
             		}
-HXDLIN(1815)		if (_hx_tmp1) {
-HXLINE(1815)			return -1;
+HXDLIN(1754)		if (_hx_tmp1) {
+HXLINE(1754)			return -1;
             		}
-HXLINE(1817)		 ::Dynamic x = null();
-HXDLIN(1817)		 ::Dynamic y = null();
-HXLINE(1819)		{
-HXLINE(1819)			 ::Dynamic group = this->_hx___textEngine->layoutGroups->iterator();
-HXDLIN(1819)			while(( (bool)(group->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE(1819)				 ::openfl::text::_internal::TextLayoutGroup group1 = ( ( ::openfl::text::_internal::TextLayoutGroup)(group->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE(1821)				bool _hx_tmp;
-HXDLIN(1821)				if ((charIndex >= group1->startIndex)) {
-HXLINE(1821)					_hx_tmp = (charIndex <= group1->endIndex);
+HXLINE(1756)		 ::Dynamic x = null();
+HXDLIN(1756)		 ::Dynamic y = null();
+HXLINE(1758)		{
+HXLINE(1758)			 ::Dynamic group = this->_hx___textEngine->layoutGroups->iterator();
+HXDLIN(1758)			while(( (bool)(group->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE(1758)				 ::openfl::text::_internal::TextLayoutGroup group1 = ( ( ::openfl::text::_internal::TextLayoutGroup)(group->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE(1760)				bool _hx_tmp;
+HXDLIN(1760)				if ((charIndex >= group1->startIndex)) {
+HXLINE(1760)					_hx_tmp = (charIndex <= group1->endIndex);
             				}
             				else {
-HXLINE(1821)					_hx_tmp = false;
+HXLINE(1760)					_hx_tmp = false;
             				}
-HXDLIN(1821)				if (_hx_tmp) {
-HXLINE(1823)					x = group1->offsetX;
-HXLINE(1825)					{
-HXLINE(1825)						int _g = 0;
-HXDLIN(1825)						int _g1 = (charIndex - group1->startIndex);
-HXDLIN(1825)						while((_g < _g1)){
-HXLINE(1825)							_g = (_g + 1);
-HXDLIN(1825)							int i = (_g - 1);
-HXLINE(1827)							Float x1;
-HXDLIN(1827)							bool x2;
-HXDLIN(1827)							if ((i >= 0)) {
-HXLINE(1827)								x2 = (i < group1->positions->length);
+HXDLIN(1760)				if (_hx_tmp) {
+HXLINE(1762)					x = group1->offsetX;
+HXLINE(1764)					{
+HXLINE(1764)						int _g = 0;
+HXDLIN(1764)						int _g1 = (charIndex - group1->startIndex);
+HXDLIN(1764)						while((_g < _g1)){
+HXLINE(1764)							_g = (_g + 1);
+HXDLIN(1764)							int i = (_g - 1);
+HXLINE(1766)							Float x1;
+HXDLIN(1766)							bool x2;
+HXDLIN(1766)							if ((i >= 0)) {
+HXLINE(1766)								x2 = (i < group1->positions->length);
             							}
             							else {
-HXLINE(1827)								x2 = false;
+HXLINE(1766)								x2 = false;
             							}
-HXDLIN(1827)							if (x2) {
-HXLINE(1827)								x1 = group1->positions->__get(i).StaticCast<  ::openfl::text::_internal::GlyphPosition >()->advance->x;
+HXDLIN(1766)							if (x2) {
+HXLINE(1766)								x1 = group1->positions->__get(i).StaticCast<  ::openfl::text::_internal::GlyphPosition >()->advance->x;
             							}
             							else {
-HXLINE(1827)								x1 = ( (Float)(0) );
+HXLINE(1766)								x1 = ( (Float)(0) );
             							}
-HXDLIN(1827)							x = (x + x1);
+HXDLIN(1766)							x = (x + x1);
             						}
             					}
-HXLINE(1830)					if (::hx::IsNotNull( y )) {
-HXLINE(1830)						return this->_hx___getPosition(( (Float)(x) ),( (Float)(y) ));
+HXLINE(1769)					if (::hx::IsNotNull( y )) {
+HXLINE(1769)						return this->_hx___getPosition(( (Float)(x) ),( (Float)(y) ));
             					}
             				}
-HXLINE(1833)				if ((group1->lineIndex == lineIndex)) {
-HXLINE(1835)					y = (group1->offsetY + (group1->height / ( (Float)(2) )));
-HXLINE(1837)					{
-HXLINE(1837)						int _g = 0;
-HXDLIN(1837)						int _g1 = (this->get_scrollV() - 1);
-HXDLIN(1837)						while((_g < _g1)){
-HXLINE(1837)							_g = (_g + 1);
-HXDLIN(1837)							int i = (_g - 1);
-HXLINE(1839)							y = (y - this->_hx___textEngine->lineHeights->get(i));
+HXLINE(1772)				if ((group1->lineIndex == lineIndex)) {
+HXLINE(1774)					y = (group1->offsetY + (group1->height / ( (Float)(2) )));
+HXLINE(1776)					{
+HXLINE(1776)						int _g = 0;
+HXDLIN(1776)						int _g1 = (this->get_scrollV() - 1);
+HXDLIN(1776)						while((_g < _g1)){
+HXLINE(1776)							_g = (_g + 1);
+HXDLIN(1776)							int i = (_g - 1);
+HXLINE(1778)							y = (y - this->_hx___textEngine->lineHeights->get(i));
             						}
             					}
-HXLINE(1842)					if (::hx::IsNotNull( x )) {
-HXLINE(1842)						return this->_hx___getPosition(( (Float)(x) ),( (Float)(y) ));
+HXLINE(1781)					if (::hx::IsNotNull( x )) {
+HXLINE(1781)						return this->_hx___getPosition(( (Float)(x) ),( (Float)(y) ));
             					}
             				}
             			}
             		}
-HXLINE(1846)		return -1;
+HXLINE(1785)		return -1;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(TextField_obj,_hx___getCharIndexOnDifferentLine,return )
 
 ::String TextField_obj::_hx___getCursor(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1850___getCursor)
-HXLINE(1851)		Float group = this->get_mouseX();
-HXDLIN(1851)		 ::openfl::text::_internal::TextLayoutGroup group1 = this->_hx___getGroup(group,this->get_mouseY(),true);
-HXLINE(1853)		bool _hx_tmp;
-HXDLIN(1853)		if (::hx::IsNotNull( group1 )) {
-HXLINE(1853)			_hx_tmp = (group1->format->url != HX_("",00,00,00,00));
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1789___getCursor)
+HXLINE(1790)		Float group = this->get_mouseX();
+HXDLIN(1790)		 ::openfl::text::_internal::TextLayoutGroup group1 = this->_hx___getGroup(group,this->get_mouseY(),true);
+HXLINE(1792)		bool _hx_tmp;
+HXDLIN(1792)		if (::hx::IsNotNull( group1 )) {
+HXLINE(1792)			_hx_tmp = (group1->format->url != HX_("",00,00,00,00));
             		}
             		else {
-HXLINE(1853)			_hx_tmp = false;
+HXLINE(1792)			_hx_tmp = false;
             		}
-HXDLIN(1853)		if (_hx_tmp) {
-HXLINE(1855)			return HX_("button",f2,61,e0,d9);
+HXDLIN(1792)		if (_hx_tmp) {
+HXLINE(1794)			return HX_("button",f2,61,e0,d9);
             		}
             		else {
-HXLINE(1857)			if (this->_hx___textEngine->selectable) {
-HXLINE(1859)				return HX_("ibeam",58,ca,26,b6);
+HXLINE(1796)			if (this->_hx___textEngine->selectable) {
+HXLINE(1798)				return HX_("ibeam",58,ca,26,b6);
             			}
             		}
-HXLINE(1862)		return null();
+HXLINE(1801)		return null();
             	}
 
 
  ::openfl::text::_internal::TextLayoutGroup TextField_obj::_hx___getGroup(Float x,Float y,::hx::Null< bool >  __o_precise){
             		bool precise = __o_precise.Default(false);
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1866___getGroup)
-HXLINE(1867)		this->_hx___updateLayout();
-HXLINE(1869)		x = (x + this->get_scrollH());
-HXLINE(1871)		{
-HXLINE(1871)			int _g = 0;
-HXDLIN(1871)			int _g1 = (this->get_scrollV() - 1);
-HXDLIN(1871)			while((_g < _g1)){
-HXLINE(1871)				_g = (_g + 1);
-HXDLIN(1871)				int i = (_g - 1);
-HXLINE(1873)				y = (y + this->_hx___textEngine->lineHeights->get(i));
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1805___getGroup)
+HXLINE(1806)		this->_hx___updateLayout();
+HXLINE(1808)		x = (x + this->get_scrollH());
+HXLINE(1810)		{
+HXLINE(1810)			int _g = 0;
+HXDLIN(1810)			int _g1 = (this->get_scrollV() - 1);
+HXDLIN(1810)			while((_g < _g1)){
+HXLINE(1810)				_g = (_g + 1);
+HXDLIN(1810)				int i = (_g - 1);
+HXLINE(1812)				y = (y + this->_hx___textEngine->lineHeights->get(i));
             			}
             		}
-HXLINE(1876)		bool _hx_tmp;
-HXDLIN(1876)		if (!(precise)) {
-HXLINE(1876)			_hx_tmp = (y > this->_hx___textEngine->textHeight);
+HXLINE(1815)		bool _hx_tmp;
+HXDLIN(1815)		if (!(precise)) {
+HXLINE(1815)			_hx_tmp = (y > this->_hx___textEngine->textHeight);
             		}
             		else {
-HXLINE(1876)			_hx_tmp = false;
+HXLINE(1815)			_hx_tmp = false;
             		}
-HXDLIN(1876)		if (_hx_tmp) {
-HXLINE(1876)			y = this->_hx___textEngine->textHeight;
+HXDLIN(1815)		if (_hx_tmp) {
+HXLINE(1815)			y = this->_hx___textEngine->textHeight;
             		}
-HXLINE(1878)		bool firstGroup = true;
-HXLINE(1879)		 ::openfl::text::_internal::TextLayoutGroup group;
-HXDLIN(1879)		 ::openfl::text::_internal::TextLayoutGroup nextGroup;
-HXLINE(1881)		{
-HXLINE(1881)			int _g2 = 0;
-HXDLIN(1881)			int _g3 = this->_hx___textEngine->layoutGroups->get_length();
-HXDLIN(1881)			while((_g2 < _g3)){
-HXLINE(1881)				_g2 = (_g2 + 1);
-HXDLIN(1881)				int i = (_g2 - 1);
-HXLINE(1883)				group = this->_hx___textEngine->layoutGroups->get(i).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
-HXLINE(1885)				if ((i < (this->_hx___textEngine->layoutGroups->get_length() - 1))) {
-HXLINE(1887)					nextGroup = this->_hx___textEngine->layoutGroups->get((i + 1)).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
+HXLINE(1817)		bool firstGroup = true;
+HXLINE(1818)		 ::openfl::text::_internal::TextLayoutGroup group;
+HXDLIN(1818)		 ::openfl::text::_internal::TextLayoutGroup nextGroup;
+HXLINE(1820)		{
+HXLINE(1820)			int _g2 = 0;
+HXDLIN(1820)			int _g3 = this->_hx___textEngine->layoutGroups->get_length();
+HXDLIN(1820)			while((_g2 < _g3)){
+HXLINE(1820)				_g2 = (_g2 + 1);
+HXDLIN(1820)				int i = (_g2 - 1);
+HXLINE(1822)				group = this->_hx___textEngine->layoutGroups->get(i).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
+HXLINE(1824)				if ((i < (this->_hx___textEngine->layoutGroups->get_length() - 1))) {
+HXLINE(1826)					nextGroup = this->_hx___textEngine->layoutGroups->get((i + 1)).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
             				}
             				else {
-HXLINE(1891)					nextGroup = null();
+HXLINE(1830)					nextGroup = null();
             				}
-HXLINE(1894)				if (firstGroup) {
-HXLINE(1896)					if ((y < group->offsetY)) {
-HXLINE(1896)						y = group->offsetY;
+HXLINE(1833)				if (firstGroup) {
+HXLINE(1835)					if ((y < group->offsetY)) {
+HXLINE(1835)						y = group->offsetY;
             					}
-HXLINE(1897)					if ((x < group->offsetX)) {
-HXLINE(1897)						x = group->offsetX;
+HXLINE(1836)					if ((x < group->offsetX)) {
+HXLINE(1836)						x = group->offsetX;
             					}
-HXLINE(1898)					firstGroup = false;
+HXLINE(1837)					firstGroup = false;
             				}
-HXLINE(1901)				bool _hx_tmp;
-HXDLIN(1901)				bool _hx_tmp1;
-HXDLIN(1901)				if ((y >= group->offsetY)) {
-HXLINE(1901)					_hx_tmp1 = (y <= (group->offsetY + group->height));
+HXLINE(1840)				bool _hx_tmp;
+HXDLIN(1840)				bool _hx_tmp1;
+HXDLIN(1840)				if ((y >= group->offsetY)) {
+HXLINE(1840)					_hx_tmp1 = (y <= (group->offsetY + group->height));
             				}
             				else {
-HXLINE(1901)					_hx_tmp1 = false;
+HXLINE(1840)					_hx_tmp1 = false;
             				}
-HXDLIN(1901)				if (!(_hx_tmp1)) {
-HXLINE(1901)					if (!(precise)) {
-HXLINE(1901)						_hx_tmp = ::hx::IsNull( nextGroup );
+HXDLIN(1840)				if (!(_hx_tmp1)) {
+HXLINE(1840)					if (!(precise)) {
+HXLINE(1840)						_hx_tmp = ::hx::IsNull( nextGroup );
             					}
             					else {
-HXLINE(1901)						_hx_tmp = false;
+HXLINE(1840)						_hx_tmp = false;
             					}
             				}
             				else {
-HXLINE(1901)					_hx_tmp = true;
+HXLINE(1840)					_hx_tmp = true;
             				}
-HXDLIN(1901)				if (_hx_tmp) {
-HXLINE(1903)					bool _hx_tmp;
-HXDLIN(1903)					bool _hx_tmp1;
-HXDLIN(1903)					if ((x >= group->offsetX)) {
-HXLINE(1903)						_hx_tmp1 = (x <= (group->offsetX + group->width));
+HXDLIN(1840)				if (_hx_tmp) {
+HXLINE(1842)					bool _hx_tmp;
+HXDLIN(1842)					bool _hx_tmp1;
+HXDLIN(1842)					if ((x >= group->offsetX)) {
+HXLINE(1842)						_hx_tmp1 = (x <= (group->offsetX + group->width));
             					}
             					else {
-HXLINE(1903)						_hx_tmp1 = false;
+HXLINE(1842)						_hx_tmp1 = false;
             					}
-HXDLIN(1903)					if (!(_hx_tmp1)) {
-HXLINE(1904)						if (!(precise)) {
-HXLINE(1904)							if (::hx::IsNotNull( nextGroup )) {
-HXLINE(1903)								_hx_tmp = (nextGroup->lineIndex != group->lineIndex);
+HXDLIN(1842)					if (!(_hx_tmp1)) {
+HXLINE(1843)						if (!(precise)) {
+HXLINE(1843)							if (::hx::IsNotNull( nextGroup )) {
+HXLINE(1842)								_hx_tmp = (nextGroup->lineIndex != group->lineIndex);
             							}
             							else {
-HXLINE(1903)								_hx_tmp = true;
+HXLINE(1842)								_hx_tmp = true;
             							}
             						}
             						else {
-HXLINE(1903)							_hx_tmp = false;
+HXLINE(1842)							_hx_tmp = false;
             						}
             					}
             					else {
-HXLINE(1903)						_hx_tmp = true;
+HXLINE(1842)						_hx_tmp = true;
             					}
-HXDLIN(1903)					if (_hx_tmp) {
-HXLINE(1906)						return group;
+HXDLIN(1842)					if (_hx_tmp) {
+HXLINE(1845)						return group;
             					}
             				}
             			}
             		}
-HXLINE(1911)		return null();
+HXLINE(1850)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(TextField_obj,_hx___getGroup,return )
 
 int TextField_obj::_hx___getPosition(Float x,Float y){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1915___getPosition)
-HXLINE(1916)		 ::openfl::text::_internal::TextLayoutGroup group = this->_hx___getGroup(x,y,null());
-HXLINE(1918)		if (::hx::IsNull( group )) {
-HXLINE(1920)			return this->_hx___text.length;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1854___getPosition)
+HXLINE(1855)		 ::openfl::text::_internal::TextLayoutGroup group = this->_hx___getGroup(x,y,null());
+HXLINE(1857)		if (::hx::IsNull( group )) {
+HXLINE(1859)			return this->_hx___text.length;
             		}
-HXLINE(1923)		Float advance = ((Float)0.0);
-HXLINE(1925)		{
-HXLINE(1925)			int _g = 0;
-HXDLIN(1925)			int _g1 = group->positions->length;
-HXDLIN(1925)			while((_g < _g1)){
-HXLINE(1925)				_g = (_g + 1);
-HXDLIN(1925)				int i = (_g - 1);
-HXLINE(1927)				Float advance1;
-HXDLIN(1927)				bool advance2;
-HXDLIN(1927)				if ((i >= 0)) {
-HXLINE(1927)					advance2 = (i < group->positions->length);
+HXLINE(1862)		Float advance = ((Float)0.0);
+HXLINE(1864)		{
+HXLINE(1864)			int _g = 0;
+HXDLIN(1864)			int _g1 = group->positions->length;
+HXDLIN(1864)			while((_g < _g1)){
+HXLINE(1864)				_g = (_g + 1);
+HXDLIN(1864)				int i = (_g - 1);
+HXLINE(1866)				Float advance1;
+HXDLIN(1866)				bool advance2;
+HXDLIN(1866)				if ((i >= 0)) {
+HXLINE(1866)					advance2 = (i < group->positions->length);
             				}
             				else {
-HXLINE(1927)					advance2 = false;
+HXLINE(1866)					advance2 = false;
             				}
-HXDLIN(1927)				if (advance2) {
-HXLINE(1927)					advance1 = group->positions->__get(i).StaticCast<  ::openfl::text::_internal::GlyphPosition >()->advance->x;
+HXDLIN(1866)				if (advance2) {
+HXLINE(1866)					advance1 = group->positions->__get(i).StaticCast<  ::openfl::text::_internal::GlyphPosition >()->advance->x;
             				}
             				else {
-HXLINE(1927)					advance1 = ( (Float)(0) );
+HXLINE(1866)					advance1 = ( (Float)(0) );
             				}
-HXDLIN(1927)				advance = (advance + advance1);
-HXLINE(1929)				if ((x <= (group->offsetX + advance))) {
-HXLINE(1931)					Float _hx_tmp;
-HXDLIN(1931)					bool _hx_tmp1;
-HXDLIN(1931)					if ((i >= 0)) {
-HXLINE(1931)						_hx_tmp1 = (i < group->positions->length);
+HXDLIN(1866)				advance = (advance + advance1);
+HXLINE(1868)				if ((x <= (group->offsetX + advance))) {
+HXLINE(1870)					Float _hx_tmp;
+HXDLIN(1870)					bool _hx_tmp1;
+HXDLIN(1870)					if ((i >= 0)) {
+HXLINE(1870)						_hx_tmp1 = (i < group->positions->length);
             					}
             					else {
-HXLINE(1931)						_hx_tmp1 = false;
+HXLINE(1870)						_hx_tmp1 = false;
             					}
-HXDLIN(1931)					if (_hx_tmp1) {
-HXLINE(1931)						_hx_tmp = group->positions->__get(i).StaticCast<  ::openfl::text::_internal::GlyphPosition >()->advance->x;
-            					}
-            					else {
-HXLINE(1931)						_hx_tmp = ( (Float)(0) );
-            					}
-HXDLIN(1931)					Float _hx_tmp2;
-HXDLIN(1931)					bool _hx_tmp3;
-HXDLIN(1931)					if ((i >= 0)) {
-HXLINE(1931)						_hx_tmp3 = (i < group->positions->length);
+HXDLIN(1870)					if (_hx_tmp1) {
+HXLINE(1870)						_hx_tmp = group->positions->__get(i).StaticCast<  ::openfl::text::_internal::GlyphPosition >()->advance->x;
             					}
             					else {
-HXLINE(1931)						_hx_tmp3 = false;
+HXLINE(1870)						_hx_tmp = ( (Float)(0) );
             					}
-HXDLIN(1931)					if (_hx_tmp3) {
-HXLINE(1931)						_hx_tmp2 = group->positions->__get(i).StaticCast<  ::openfl::text::_internal::GlyphPosition >()->advance->x;
-            					}
-            					else {
-HXLINE(1931)						_hx_tmp2 = ( (Float)(0) );
-            					}
-HXDLIN(1931)					if ((x <= ((group->offsetX + (advance - _hx_tmp)) + (_hx_tmp2 / ( (Float)(2) ))))) {
-HXLINE(1933)						return (group->startIndex + i);
+HXDLIN(1870)					Float _hx_tmp2;
+HXDLIN(1870)					bool _hx_tmp3;
+HXDLIN(1870)					if ((i >= 0)) {
+HXLINE(1870)						_hx_tmp3 = (i < group->positions->length);
             					}
             					else {
-HXLINE(1937)						if (((group->startIndex + i) < group->endIndex)) {
-HXLINE(1937)							return ((group->startIndex + i) + 1);
+HXLINE(1870)						_hx_tmp3 = false;
+            					}
+HXDLIN(1870)					if (_hx_tmp3) {
+HXLINE(1870)						_hx_tmp2 = group->positions->__get(i).StaticCast<  ::openfl::text::_internal::GlyphPosition >()->advance->x;
+            					}
+            					else {
+HXLINE(1870)						_hx_tmp2 = ( (Float)(0) );
+            					}
+HXDLIN(1870)					if ((x <= ((group->offsetX + (advance - _hx_tmp)) + (_hx_tmp2 / ( (Float)(2) ))))) {
+HXLINE(1872)						return (group->startIndex + i);
+            					}
+            					else {
+HXLINE(1876)						if (((group->startIndex + i) < group->endIndex)) {
+HXLINE(1876)							return ((group->startIndex + i) + 1);
             						}
             						else {
-HXLINE(1937)							return group->endIndex;
+HXLINE(1876)							return group->endIndex;
             						}
             					}
             				}
             			}
             		}
-HXLINE(1942)		return group->endIndex;
+HXLINE(1881)		return group->endIndex;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(TextField_obj,_hx___getPosition,return )
 
 bool TextField_obj::_hx___hitTest(Float x,Float y,bool shapeFlag,::Array< ::Dynamic> stack,bool interactiveOnly, ::openfl::display::DisplayObject hitObject){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1947___hitTest)
-HXLINE(1948)		bool _hx_tmp;
-HXDLIN(1948)		bool _hx_tmp1;
-HXDLIN(1948)		if (hitObject->get_visible()) {
-HXLINE(1948)			_hx_tmp1 = this->_hx___isMask;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1886___hitTest)
+HXLINE(1887)		bool _hx_tmp;
+HXDLIN(1887)		bool _hx_tmp1;
+HXDLIN(1887)		if (hitObject->get_visible()) {
+HXLINE(1887)			_hx_tmp1 = this->_hx___isMask;
             		}
             		else {
-HXLINE(1948)			_hx_tmp1 = true;
+HXLINE(1887)			_hx_tmp1 = true;
             		}
-HXDLIN(1948)		if (!(_hx_tmp1)) {
-HXLINE(1948)			if (interactiveOnly) {
-HXLINE(1948)				_hx_tmp = !(this->mouseEnabled);
+HXDLIN(1887)		if (!(_hx_tmp1)) {
+HXLINE(1887)			if (interactiveOnly) {
+HXLINE(1887)				_hx_tmp = !(this->mouseEnabled);
             			}
             			else {
-HXLINE(1948)				_hx_tmp = false;
+HXLINE(1887)				_hx_tmp = false;
             			}
             		}
             		else {
-HXLINE(1948)			_hx_tmp = true;
+HXLINE(1887)			_hx_tmp = true;
             		}
-HXDLIN(1948)		if (_hx_tmp) {
-HXLINE(1948)			return false;
+HXDLIN(1887)		if (_hx_tmp) {
+HXLINE(1887)			return false;
             		}
-HXLINE(1949)		bool _hx_tmp2;
-HXDLIN(1949)		if (::hx::IsNotNull( this->get_mask() )) {
-HXLINE(1949)			_hx_tmp2 = !(this->get_mask()->_hx___hitTestMask(x,y));
-            		}
-            		else {
-HXLINE(1949)			_hx_tmp2 = false;
-            		}
-HXDLIN(1949)		if (_hx_tmp2) {
-HXLINE(1949)			return false;
-            		}
-HXLINE(1951)		this->_hx___getRenderTransform();
-HXLINE(1952)		this->_hx___updateLayout();
-HXLINE(1954)		 ::openfl::geom::Matrix _this = this->_hx___renderTransform;
-HXDLIN(1954)		Float norm = ((_this->a * _this->d) - (_this->b * _this->c));
-HXDLIN(1954)		Float px;
-HXDLIN(1954)		if ((norm == 0)) {
-HXLINE(1954)			px = -(_this->tx);
+HXLINE(1888)		bool _hx_tmp2;
+HXDLIN(1888)		if (::hx::IsNotNull( this->get_mask() )) {
+HXLINE(1888)			_hx_tmp2 = !(this->get_mask()->_hx___hitTestMask(x,y));
             		}
             		else {
-HXLINE(1954)			px = ((((Float)1.0) / norm) * ((_this->c * (_this->ty - y)) + (_this->d * (x - _this->tx))));
+HXLINE(1888)			_hx_tmp2 = false;
             		}
-HXLINE(1955)		 ::openfl::geom::Matrix _this1 = this->_hx___renderTransform;
-HXDLIN(1955)		Float norm1 = ((_this1->a * _this1->d) - (_this1->b * _this1->c));
-HXDLIN(1955)		Float py;
-HXDLIN(1955)		if ((norm1 == 0)) {
-HXLINE(1955)			py = -(_this1->ty);
+HXDLIN(1888)		if (_hx_tmp2) {
+HXLINE(1888)			return false;
+            		}
+HXLINE(1890)		this->_hx___getRenderTransform();
+HXLINE(1891)		this->_hx___updateLayout();
+HXLINE(1893)		 ::openfl::geom::Matrix _this = this->_hx___renderTransform;
+HXDLIN(1893)		Float norm = ((_this->a * _this->d) - (_this->b * _this->c));
+HXDLIN(1893)		Float px;
+HXDLIN(1893)		if ((norm == 0)) {
+HXLINE(1893)			px = -(_this->tx);
             		}
             		else {
-HXLINE(1955)			py = ((((Float)1.0) / norm1) * ((_this1->a * (y - _this1->ty)) + (_this1->b * (_this1->tx - x))));
+HXLINE(1893)			px = ((((Float)1.0) / norm) * ((_this->c * (_this->ty - y)) + (_this->d * (x - _this->tx))));
             		}
-HXLINE(1957)		if (this->_hx___textEngine->bounds->contains(px,py)) {
-HXLINE(1959)			if (::hx::IsNotNull( stack )) {
-HXLINE(1961)				stack->push(hitObject);
+HXLINE(1894)		 ::openfl::geom::Matrix _this1 = this->_hx___renderTransform;
+HXDLIN(1894)		Float norm1 = ((_this1->a * _this1->d) - (_this1->b * _this1->c));
+HXDLIN(1894)		Float py;
+HXDLIN(1894)		if ((norm1 == 0)) {
+HXLINE(1894)			py = -(_this1->ty);
+            		}
+            		else {
+HXLINE(1894)			py = ((((Float)1.0) / norm1) * ((_this1->a * (y - _this1->ty)) + (_this1->b * (_this1->tx - x))));
+            		}
+HXLINE(1896)		if (this->_hx___textEngine->bounds->contains(px,py)) {
+HXLINE(1898)			if (::hx::IsNotNull( stack )) {
+HXLINE(1900)				stack->push(hitObject);
             			}
-HXLINE(1964)			return true;
+HXLINE(1903)			return true;
             		}
-HXLINE(1967)		return false;
+HXLINE(1906)		return false;
             	}
 
 
 bool TextField_obj::_hx___hitTestMask(Float x,Float y){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1971___hitTestMask)
-HXLINE(1972)		this->_hx___getRenderTransform();
-HXLINE(1973)		this->_hx___updateLayout();
-HXLINE(1975)		 ::openfl::geom::Matrix _this = this->_hx___renderTransform;
-HXDLIN(1975)		Float norm = ((_this->a * _this->d) - (_this->b * _this->c));
-HXDLIN(1975)		Float px;
-HXDLIN(1975)		if ((norm == 0)) {
-HXLINE(1975)			px = -(_this->tx);
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1910___hitTestMask)
+HXLINE(1911)		this->_hx___getRenderTransform();
+HXLINE(1912)		this->_hx___updateLayout();
+HXLINE(1914)		 ::openfl::geom::Matrix _this = this->_hx___renderTransform;
+HXDLIN(1914)		Float norm = ((_this->a * _this->d) - (_this->b * _this->c));
+HXDLIN(1914)		Float px;
+HXDLIN(1914)		if ((norm == 0)) {
+HXLINE(1914)			px = -(_this->tx);
             		}
             		else {
-HXLINE(1975)			px = ((((Float)1.0) / norm) * ((_this->c * (_this->ty - y)) + (_this->d * (x - _this->tx))));
+HXLINE(1914)			px = ((((Float)1.0) / norm) * ((_this->c * (_this->ty - y)) + (_this->d * (x - _this->tx))));
             		}
-HXLINE(1976)		 ::openfl::geom::Matrix _this1 = this->_hx___renderTransform;
-HXDLIN(1976)		Float norm1 = ((_this1->a * _this1->d) - (_this1->b * _this1->c));
-HXDLIN(1976)		Float py;
-HXDLIN(1976)		if ((norm1 == 0)) {
-HXLINE(1976)			py = -(_this1->ty);
+HXLINE(1915)		 ::openfl::geom::Matrix _this1 = this->_hx___renderTransform;
+HXDLIN(1915)		Float norm1 = ((_this1->a * _this1->d) - (_this1->b * _this1->c));
+HXDLIN(1915)		Float py;
+HXDLIN(1915)		if ((norm1 == 0)) {
+HXLINE(1915)			py = -(_this1->ty);
             		}
             		else {
-HXLINE(1976)			py = ((((Float)1.0) / norm1) * ((_this1->a * (y - _this1->ty)) + (_this1->b * (_this1->tx - x))));
+HXLINE(1915)			py = ((((Float)1.0) / norm1) * ((_this1->a * (y - _this1->ty)) + (_this1->b * (_this1->tx - x))));
             		}
-HXLINE(1978)		if (this->_hx___textEngine->bounds->contains(px,py)) {
-HXLINE(1980)			return true;
+HXLINE(1917)		if (this->_hx___textEngine->bounds->contains(px,py)) {
+HXLINE(1919)			return true;
             		}
-HXLINE(1983)		return false;
+HXLINE(1922)		return false;
+            	}
+
+
+void TextField_obj::_hx___renderCairo( ::openfl::display::CairoRenderer renderer){
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1926___renderCairo)
+HXLINE(1928)		this->_hx___updateCacheBitmap(renderer,this->_hx___dirty);
+HXLINE(1930)		bool _hx_tmp;
+HXDLIN(1930)		if (::hx::IsNotNull( this->_hx___cacheBitmap )) {
+HXLINE(1930)			_hx_tmp = !(this->_hx___isCacheBitmapRender);
+            		}
+            		else {
+HXLINE(1930)			_hx_tmp = false;
+            		}
+HXDLIN(1930)		if (_hx_tmp) {
+HXLINE(1932)			 ::openfl::display::Bitmap bitmap = this->_hx___cacheBitmap;
+HXDLIN(1932)			if (bitmap->_hx___renderable) {
+HXLINE(1932)				Float alpha = renderer->_hx___getAlpha(bitmap->_hx___worldAlpha);
+HXDLIN(1932)				bool _hx_tmp;
+HXDLIN(1932)				bool _hx_tmp1;
+HXDLIN(1932)				if ((alpha > 0)) {
+HXLINE(1932)					_hx_tmp1 = ::hx::IsNotNull( bitmap->_hx___bitmapData );
+            				}
+            				else {
+HXLINE(1932)					_hx_tmp1 = false;
+            				}
+HXDLIN(1932)				if (_hx_tmp1) {
+HXLINE(1932)					_hx_tmp = bitmap->_hx___bitmapData->_hx___isValid;
+            				}
+            				else {
+HXLINE(1932)					_hx_tmp = false;
+            				}
+HXDLIN(1932)				if (_hx_tmp) {
+HXLINE(1932)					 ::lime::graphics::cairo::Cairo cairo = renderer->cairo;
+HXDLIN(1932)					renderer->_hx___setBlendMode(bitmap->_hx___worldBlendMode);
+HXDLIN(1932)					renderer->_hx___pushMaskObject(bitmap,null());
+HXDLIN(1932)					renderer->applyMatrix(bitmap->_hx___renderTransform,cairo);
+HXDLIN(1932)					 ::Dynamic surface = bitmap->_hx___bitmapData->getSurface();
+HXDLIN(1932)					if (::hx::IsNotNull( surface )) {
+HXLINE(1932)						 ::Dynamic pattern = ::lime::graphics::cairo::_CairoPattern::CairoPattern_Impl__obj::createForSurface(surface);
+HXDLIN(1932)						int _hx_tmp;
+HXDLIN(1932)						bool _hx_tmp1;
+HXDLIN(1932)						if (renderer->_hx___allowSmoothing) {
+HXLINE(1932)							_hx_tmp1 = bitmap->smoothing;
+            						}
+            						else {
+HXLINE(1932)							_hx_tmp1 = false;
+            						}
+HXDLIN(1932)						if (_hx_tmp1) {
+HXLINE(1932)							_hx_tmp = 1;
+            						}
+            						else {
+HXLINE(1932)							_hx_tmp = 3;
+            						}
+HXDLIN(1932)						::lime::graphics::cairo::_CairoPattern::CairoPattern_Impl__obj::set_filter(pattern,_hx_tmp);
+HXDLIN(1932)						cairo->set_source(pattern);
+HXDLIN(1932)						if ((alpha == 1)) {
+HXLINE(1932)							cairo->paint();
+            						}
+            						else {
+HXLINE(1932)							cairo->paintWithAlpha(alpha);
+            						}
+            					}
+HXDLIN(1932)					renderer->_hx___popMaskObject(bitmap,null());
+HXDLIN(1932)					renderer->_hx___setBlendMode(10);
+            				}
+            			}
+            		}
+            		else {
+HXLINE(1936)			::openfl::display::_internal::CairoTextField_obj::render(::hx::ObjectPtr<OBJ_>(this),renderer,this->_hx___worldTransform);
+HXLINE(1937)			::openfl::display::_internal::CairoDisplayObject_obj::render(::hx::ObjectPtr<OBJ_>(this),renderer);
+            		}
+HXLINE(1940)		this->_hx___renderEvent(renderer);
+            	}
+
+
+void TextField_obj::_hx___renderCanvas( ::openfl::display::CanvasRenderer renderer){
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1945___renderCanvas)
+            	}
+
+
+void TextField_obj::_hx___renderDOM( ::openfl::display::DOMRenderer renderer){
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2004___renderDOM)
+            	}
+
+
+void TextField_obj::_hx___renderDOMClear( ::openfl::display::DOMRenderer renderer){
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2042___renderDOMClear)
+HXDLIN(2042)		::openfl::display::_internal::DOMTextField_obj::clear(::hx::ObjectPtr<OBJ_>(this),renderer);
+            	}
+
+
+void TextField_obj::_hx___renderGL( ::openfl::display::OpenGLRenderer renderer){
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2046___renderGL)
+HXLINE(2047)		this->_hx___updateCacheBitmap(renderer,false);
+HXLINE(2049)		bool _hx_tmp;
+HXDLIN(2049)		if (::hx::IsNotNull( this->_hx___cacheBitmap )) {
+HXLINE(2049)			_hx_tmp = !(this->_hx___isCacheBitmapRender);
+            		}
+            		else {
+HXLINE(2049)			_hx_tmp = false;
+            		}
+HXDLIN(2049)		if (_hx_tmp) {
+HXLINE(2051)			::openfl::display::_internal::Context3DBitmap_obj::render(this->_hx___cacheBitmap,renderer);
+            		}
+            		else {
+HXLINE(2055)			::openfl::display::_internal::Context3DTextField_obj::render(::hx::ObjectPtr<OBJ_>(this),renderer);
+HXLINE(2056)			bool _hx_tmp;
+HXDLIN(2056)			if (::hx::IsNull( this->opaqueBackground )) {
+HXLINE(2056)				_hx_tmp = ::hx::IsNull( this->_hx___graphics );
+            			}
+            			else {
+HXLINE(2056)				_hx_tmp = false;
+            			}
+HXDLIN(2056)			if (!(_hx_tmp)) {
+HXLINE(2056)				bool _hx_tmp;
+HXDLIN(2056)				if (this->_hx___renderable) {
+HXLINE(2056)					_hx_tmp = (this->_hx___worldAlpha <= 0);
+            				}
+            				else {
+HXLINE(2056)					_hx_tmp = true;
+            				}
+HXDLIN(2056)				if (!(_hx_tmp)) {
+HXLINE(2056)					bool _hx_tmp;
+HXDLIN(2056)					bool _hx_tmp1;
+HXDLIN(2056)					bool _hx_tmp2;
+HXDLIN(2056)					if (::hx::IsNotNull( this->opaqueBackground )) {
+HXLINE(2056)						_hx_tmp2 = !(this->_hx___isCacheBitmapRender);
+            					}
+            					else {
+HXLINE(2056)						_hx_tmp2 = false;
+            					}
+HXDLIN(2056)					if (_hx_tmp2) {
+HXLINE(2056)						_hx_tmp1 = (this->get_width() > 0);
+            					}
+            					else {
+HXLINE(2056)						_hx_tmp1 = false;
+            					}
+HXDLIN(2056)					if (_hx_tmp1) {
+HXLINE(2056)						_hx_tmp = (this->get_height() > 0);
+            					}
+            					else {
+HXLINE(2056)						_hx_tmp = false;
+            					}
+HXDLIN(2056)					if (_hx_tmp) {
+HXLINE(2056)						renderer->_hx___setBlendMode(this->_hx___worldBlendMode);
+HXDLIN(2056)						renderer->_hx___pushMaskObject(::hx::ObjectPtr<OBJ_>(this),null());
+HXDLIN(2056)						 ::openfl::display3D::Context3D context = renderer->_hx___context3D;
+HXDLIN(2056)						 ::openfl::geom::Rectangle rect = ::openfl::geom::Rectangle_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Rectangle >();
+HXDLIN(2056)						Float _hx_tmp = this->get_width();
+HXDLIN(2056)						rect->setTo(( (Float)(0) ),( (Float)(0) ),_hx_tmp,this->get_height());
+HXDLIN(2056)						renderer->_hx___pushMaskRect(rect,this->_hx___renderTransform);
+HXDLIN(2056)						int color = ( (int)(this->opaqueBackground) );
+HXDLIN(2056)						context->clear((( (Float)((::hx::UShr(color,16) & 255)) ) / ( (Float)(255) )),(( (Float)((::hx::UShr(color,8) & 255)) ) / ( (Float)(255) )),(( (Float)((color & 255)) ) / ( (Float)(255) )),1,0,0,1);
+HXDLIN(2056)						renderer->_hx___popMaskRect();
+HXDLIN(2056)						renderer->_hx___popMaskObject(::hx::ObjectPtr<OBJ_>(this),null());
+HXDLIN(2056)						::openfl::geom::Rectangle_obj::_hx___pool->release(rect);
+            					}
+HXDLIN(2056)					if (::hx::IsNotNull( this->_hx___graphics )) {
+HXLINE(2056)						::openfl::display::_internal::Context3DShape_obj::render(::hx::ObjectPtr<OBJ_>(this),renderer);
+            					}
+            				}
+            			}
+            		}
+HXLINE(2059)		this->_hx___renderEvent(renderer);
+            	}
+
+
+void TextField_obj::_hx___renderGLMask( ::openfl::display::OpenGLRenderer renderer){
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2063___renderGLMask)
+HXLINE(2064)		::openfl::display::_internal::Context3DTextField_obj::renderMask(::hx::ObjectPtr<OBJ_>(this),renderer);
+HXLINE(2065)		this->super::_hx___renderGLMask(renderer);
             	}
 
 
 void TextField_obj::_hx___replaceSelectedText(::String value,::hx::Null< bool >  __o_restrict){
             		bool restrict = __o_restrict.Default(true);
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_1987___replaceSelectedText)
-HXLINE(1988)		if (::hx::IsNull( value )) {
-HXLINE(1988)			value = HX_("",00,00,00,00);
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2069___replaceSelectedText)
+HXLINE(2070)		if (::hx::IsNull( value )) {
+HXLINE(2070)			value = HX_("",00,00,00,00);
             		}
-HXLINE(1989)		bool _hx_tmp;
-HXDLIN(1989)		if ((value == HX_("",00,00,00,00))) {
-HXLINE(1989)			_hx_tmp = (this->_hx___selectionIndex == this->_hx___caretIndex);
-            		}
-            		else {
-HXLINE(1989)			_hx_tmp = false;
-            		}
-HXDLIN(1989)		if (_hx_tmp) {
-HXLINE(1989)			return;
-            		}
-HXLINE(1991)		int startIndex;
-HXDLIN(1991)		if ((this->_hx___caretIndex < this->_hx___selectionIndex)) {
-HXLINE(1991)			startIndex = this->_hx___caretIndex;
+HXLINE(2071)		bool _hx_tmp;
+HXDLIN(2071)		if ((value == HX_("",00,00,00,00))) {
+HXLINE(2071)			_hx_tmp = (this->_hx___selectionIndex == this->_hx___caretIndex);
             		}
             		else {
-HXLINE(1991)			startIndex = this->_hx___selectionIndex;
+HXLINE(2071)			_hx_tmp = false;
             		}
-HXLINE(1992)		int endIndex;
-HXDLIN(1992)		if ((this->_hx___caretIndex > this->_hx___selectionIndex)) {
-HXLINE(1992)			endIndex = this->_hx___caretIndex;
+HXDLIN(2071)		if (_hx_tmp) {
+HXLINE(2071)			return;
             		}
-            		else {
-HXLINE(1992)			endIndex = this->_hx___selectionIndex;
-            		}
-HXLINE(1994)		bool _hx_tmp1;
-HXDLIN(1994)		bool _hx_tmp2;
-HXDLIN(1994)		if ((startIndex == endIndex)) {
-HXLINE(1994)			_hx_tmp2 = (this->_hx___textEngine->maxChars > 0);
+HXLINE(2073)		int startIndex;
+HXDLIN(2073)		if ((this->_hx___caretIndex < this->_hx___selectionIndex)) {
+HXLINE(2073)			startIndex = this->_hx___caretIndex;
             		}
             		else {
-HXLINE(1994)			_hx_tmp2 = false;
+HXLINE(2073)			startIndex = this->_hx___selectionIndex;
             		}
-HXDLIN(1994)		if (_hx_tmp2) {
-HXLINE(1994)			_hx_tmp1 = (this->_hx___text.length == this->_hx___textEngine->maxChars);
+HXLINE(2074)		int endIndex;
+HXDLIN(2074)		if ((this->_hx___caretIndex > this->_hx___selectionIndex)) {
+HXLINE(2074)			endIndex = this->_hx___caretIndex;
             		}
             		else {
-HXLINE(1994)			_hx_tmp1 = false;
+HXLINE(2074)			endIndex = this->_hx___selectionIndex;
             		}
-HXDLIN(1994)		if (_hx_tmp1) {
-HXLINE(1994)			return;
+HXLINE(2076)		bool _hx_tmp1;
+HXDLIN(2076)		bool _hx_tmp2;
+HXDLIN(2076)		if ((startIndex == endIndex)) {
+HXLINE(2076)			_hx_tmp2 = (this->_hx___textEngine->maxChars > 0);
             		}
-HXLINE(1996)		if ((startIndex > this->_hx___text.length)) {
-HXLINE(1996)			startIndex = this->_hx___text.length;
+            		else {
+HXLINE(2076)			_hx_tmp2 = false;
             		}
-HXLINE(1997)		if ((endIndex > this->_hx___text.length)) {
-HXLINE(1997)			endIndex = this->_hx___text.length;
+HXDLIN(2076)		if (_hx_tmp2) {
+HXLINE(2076)			_hx_tmp1 = (this->_hx___text.length == this->_hx___textEngine->maxChars);
             		}
-HXLINE(1998)		if ((endIndex < startIndex)) {
-HXLINE(2000)			int cache = endIndex;
-HXLINE(2001)			endIndex = startIndex;
-HXLINE(2002)			startIndex = cache;
+            		else {
+HXLINE(2076)			_hx_tmp1 = false;
             		}
-HXLINE(2004)		if ((startIndex < 0)) {
-HXLINE(2004)			startIndex = 0;
+HXDLIN(2076)		if (_hx_tmp1) {
+HXLINE(2076)			return;
             		}
-HXLINE(2006)		this->_hx___replaceText(startIndex,endIndex,value,restrict);
+HXLINE(2078)		if ((startIndex > this->_hx___text.length)) {
+HXLINE(2078)			startIndex = this->_hx___text.length;
+            		}
+HXLINE(2079)		if ((endIndex > this->_hx___text.length)) {
+HXLINE(2079)			endIndex = this->_hx___text.length;
+            		}
+HXLINE(2080)		if ((endIndex < startIndex)) {
+HXLINE(2082)			int cache = endIndex;
+HXLINE(2083)			endIndex = startIndex;
+HXLINE(2084)			startIndex = cache;
+            		}
+HXLINE(2086)		if ((startIndex < 0)) {
+HXLINE(2086)			startIndex = 0;
+            		}
+HXLINE(2088)		this->_hx___replaceText(startIndex,endIndex,value,restrict);
+HXLINE(2090)		int i = (startIndex + value.length);
+HXLINE(2091)		if ((i > this->_hx___text.length)) {
+HXLINE(2091)			i = this->_hx___text.length;
+            		}
+HXLINE(2093)		this->setSelection(i,i);
+HXLINE(2096)		this->_hx___updateScrollH();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(TextField_obj,_hx___replaceSelectedText,(void))
 
 void TextField_obj::_hx___replaceText(int beginIndex,int endIndex,::String newText,bool restrict){
-            	HX_GC_STACKFRAME(&_hx_pos_d001dbc361c2c159_2010___replaceText)
-HXLINE(2011)		bool _hx_tmp;
-HXDLIN(2011)		bool _hx_tmp1;
-HXDLIN(2011)		bool _hx_tmp2;
-HXDLIN(2011)		if ((endIndex >= beginIndex)) {
-HXLINE(2011)			_hx_tmp2 = (beginIndex < 0);
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2100___replaceText)
+HXLINE(2101)		bool _hx_tmp;
+HXDLIN(2101)		bool _hx_tmp1;
+HXDLIN(2101)		bool _hx_tmp2;
+HXDLIN(2101)		if ((endIndex >= beginIndex)) {
+HXLINE(2101)			_hx_tmp2 = (beginIndex < 0);
             		}
             		else {
-HXLINE(2011)			_hx_tmp2 = true;
+HXLINE(2101)			_hx_tmp2 = true;
             		}
-HXDLIN(2011)		if (!(_hx_tmp2)) {
-HXLINE(2011)			_hx_tmp1 = (endIndex > this->_hx___text.length);
-            		}
-            		else {
-HXLINE(2011)			_hx_tmp1 = true;
-            		}
-HXDLIN(2011)		if (!(_hx_tmp1)) {
-HXLINE(2011)			_hx_tmp = ::hx::IsNull( newText );
+HXDLIN(2101)		if (!(_hx_tmp2)) {
+HXLINE(2101)			_hx_tmp1 = (endIndex > this->_hx___text.length);
             		}
             		else {
-HXLINE(2011)			_hx_tmp = true;
+HXLINE(2101)			_hx_tmp1 = true;
             		}
-HXDLIN(2011)		if (_hx_tmp) {
-HXLINE(2011)			return;
+HXDLIN(2101)		if (!(_hx_tmp1)) {
+HXLINE(2101)			_hx_tmp = ::hx::IsNull( newText );
             		}
-HXLINE(2013)		if (restrict) {
-HXLINE(2015)			newText = this->_hx___textEngine->restrictText(newText);
-HXLINE(2017)			if ((this->_hx___textEngine->maxChars > 0)) {
-HXLINE(2019)				int removeLength = (endIndex - beginIndex);
-HXLINE(2020)				int maxLength = ((this->_hx___textEngine->maxChars - this->_hx___text.length) + removeLength);
-HXLINE(2022)				if ((maxLength <= 0)) {
-HXLINE(2024)					newText = HX_("",00,00,00,00);
+            		else {
+HXLINE(2101)			_hx_tmp = true;
+            		}
+HXDLIN(2101)		if (_hx_tmp) {
+HXLINE(2101)			return;
+            		}
+HXLINE(2103)		if (restrict) {
+HXLINE(2105)			newText = this->_hx___textEngine->restrictText(newText);
+HXLINE(2107)			if ((this->_hx___textEngine->maxChars > 0)) {
+HXLINE(2109)				int removeLength = (endIndex - beginIndex);
+HXLINE(2110)				int maxLength = ((this->_hx___textEngine->maxChars - this->_hx___text.length) + removeLength);
+HXLINE(2112)				if ((maxLength <= 0)) {
+HXLINE(2114)					newText = HX_("",00,00,00,00);
             				}
             				else {
-HXLINE(2026)					if ((maxLength < newText.length)) {
-HXLINE(2028)						newText = newText.substr(0,maxLength);
+HXLINE(2116)					if ((maxLength < newText.length)) {
+HXLINE(2118)						newText = newText.substr(0,maxLength);
             					}
             				}
             			}
             		}
-HXLINE(2033)		::String _hx_tmp3 = (this->_hx___text.substring(0,beginIndex) + newText);
-HXDLIN(2033)		this->_hx___updateText((_hx_tmp3 + this->_hx___text.substring(endIndex,null())));
-HXLINE(2035)		int offset = (newText.length - (endIndex - beginIndex));
-HXLINE(2037)		int i = 0;
-HXLINE(2038)		 ::openfl::text::_internal::TextFormatRange range;
-HXLINE(2040)		while((i < this->_hx___textEngine->textFormatRanges->get_length())){
-HXLINE(2042)			range = this->_hx___textEngine->textFormatRanges->get(i).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXLINE(2044)			if ((beginIndex == endIndex)) {
-HXLINE(2046)				if ((range->start == range->end)) {
-HXLINE(2049)					if ((range->start != 0)) {
-HXLINE(2051)						::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/TextField.hx",94,20,f0,cc),2051,HX_("openfl.text.TextField",ca,a8,d5,ef),HX_("__replaceText",e1,ab,0d,aa)));
+HXLINE(2123)		::String _hx_tmp3 = (this->_hx___text.substring(0,beginIndex) + newText);
+HXDLIN(2123)		this->_hx___updateText((_hx_tmp3 + this->_hx___text.substring(endIndex,null())));
+HXLINE(2124)		if ((endIndex > this->_hx___text.length)) {
+HXLINE(2124)			endIndex = this->_hx___text.length;
+            		}
+HXLINE(2126)		int offset = (newText.length - (endIndex - beginIndex));
+HXLINE(2128)		int i = 0;
+HXLINE(2129)		 ::openfl::text::_internal::TextFormatRange range;
+HXLINE(2131)		while((i < this->_hx___textEngine->textFormatRanges->get_length())){
+HXLINE(2133)			range = this->_hx___textEngine->textFormatRanges->get(i).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXLINE(2135)			bool _hx_tmp;
+HXDLIN(2135)			if ((range->start <= beginIndex)) {
+HXLINE(2135)				_hx_tmp = (range->end >= endIndex);
+            			}
+            			else {
+HXLINE(2135)				_hx_tmp = false;
+            			}
+HXDLIN(2135)			if (_hx_tmp) {
+HXLINE(2137)				 ::openfl::text::_internal::TextFormatRange range1 = range;
+HXDLIN(2137)				range1->end = (range1->end + offset);
+HXLINE(2138)				i = (i + 1);
+            			}
+            			else {
+HXLINE(2140)				bool _hx_tmp;
+HXDLIN(2140)				if ((range->start >= beginIndex)) {
+HXLINE(2140)					_hx_tmp = (range->end <= endIndex);
+            				}
+            				else {
+HXLINE(2140)					_hx_tmp = false;
+            				}
+HXDLIN(2140)				if (_hx_tmp) {
+HXLINE(2142)					if ((i > 0)) {
+HXLINE(2144)						this->_hx___textEngine->textFormatRanges->splice(i,1);
             					}
             					else {
-HXLINE(2055)						 ::openfl::text::_internal::TextFormatRange range1 = range;
-HXDLIN(2055)						range1->end = (range1->end + offset);
+HXLINE(2148)						range->start = 0;
+HXLINE(2149)						range->end = (beginIndex + newText.length);
+HXLINE(2150)						i = (i + 1);
             					}
+HXLINE(2153)					offset = (offset - (range->end - range->start));
             				}
             				else {
-HXLINE(2058)					if ((range->end >= beginIndex)) {
-HXLINE(2062)						if ((range->start >= beginIndex)) {
-HXLINE(2065)							 ::openfl::text::_internal::TextFormatRange range1 = range;
-HXDLIN(2065)							range1->start = (range1->start + offset);
-HXLINE(2066)							 ::openfl::text::_internal::TextFormatRange range2 = range;
-HXDLIN(2066)							range2->end = (range2->end + offset);
-            						}
-            						else {
-HXLINE(2068)							bool _hx_tmp;
-HXDLIN(2068)							if ((range->start < beginIndex)) {
-HXLINE(2068)								_hx_tmp = (range->end >= endIndex);
-            							}
-            							else {
-HXLINE(2068)								_hx_tmp = false;
-            							}
-HXDLIN(2068)							if (_hx_tmp) {
-HXLINE(2072)								 ::openfl::text::_internal::TextFormatRange range1 = range;
-HXDLIN(2072)								range1->end = (range1->end + offset);
-            							}
-            						}
-            					}
-            				}
-            			}
-            			else {
-HXLINE(2077)				if ((range->end > beginIndex)) {
-HXLINE(2081)					if ((range->start > endIndex)) {
-HXLINE(2084)						 ::openfl::text::_internal::TextFormatRange range1 = range;
-HXDLIN(2084)						range1->start = (range1->start + offset);
-HXLINE(2085)						 ::openfl::text::_internal::TextFormatRange range2 = range;
-HXDLIN(2085)						range2->end = (range2->end + offset);
+HXLINE(2155)					bool _hx_tmp;
+HXDLIN(2155)					if ((range->start > beginIndex)) {
+HXLINE(2155)						_hx_tmp = (range->start <= endIndex);
             					}
             					else {
-HXLINE(2087)						bool _hx_tmp;
-HXDLIN(2087)						if ((range->start <= beginIndex)) {
-HXLINE(2087)							_hx_tmp = (range->end > endIndex);
-            						}
-            						else {
-HXLINE(2087)							_hx_tmp = false;
-            						}
-HXDLIN(2087)						if (_hx_tmp) {
-HXLINE(2090)							 ::openfl::text::_internal::TextFormatRange range1 = range;
-HXDLIN(2090)							range1->end = (range1->end + offset);
-            						}
-            						else {
-HXLINE(2092)							bool _hx_tmp;
-HXDLIN(2092)							if ((range->start >= beginIndex)) {
-HXLINE(2092)								_hx_tmp = (range->end <= endIndex);
-            							}
-            							else {
-HXLINE(2092)								_hx_tmp = false;
-            							}
-HXDLIN(2092)							if (_hx_tmp) {
-HXLINE(2095)								i = (i - 1);
-HXDLIN(2095)								this->_hx___textEngine->textFormatRanges->splice((i + 1),1);
-            							}
-            							else {
-HXLINE(2097)								bool _hx_tmp;
-HXDLIN(2097)								bool _hx_tmp1;
-HXDLIN(2097)								if ((range->end > endIndex)) {
-HXLINE(2097)									_hx_tmp1 = (range->start > beginIndex);
-            								}
-            								else {
-HXLINE(2097)									_hx_tmp1 = false;
-            								}
-HXDLIN(2097)								if (_hx_tmp1) {
-HXLINE(2097)									_hx_tmp = (range->start <= endIndex);
-            								}
-            								else {
-HXLINE(2097)									_hx_tmp = false;
-            								}
-HXDLIN(2097)								if (_hx_tmp) {
-HXLINE(2101)									range->start = beginIndex;
-HXLINE(2102)									 ::openfl::text::_internal::TextFormatRange range1 = range;
-HXDLIN(2102)									range1->end = (range1->end + offset);
-            								}
-            								else {
-HXLINE(2104)									bool _hx_tmp;
-HXDLIN(2104)									bool _hx_tmp1;
-HXDLIN(2104)									if ((range->start < beginIndex)) {
-HXLINE(2104)										_hx_tmp1 = (range->end > beginIndex);
-            									}
-            									else {
-HXLINE(2104)										_hx_tmp1 = false;
-            									}
-HXDLIN(2104)									if (_hx_tmp1) {
-HXLINE(2104)										_hx_tmp = (range->end <= endIndex);
-            									}
-            									else {
-HXLINE(2104)										_hx_tmp = false;
-            									}
-HXDLIN(2104)									if (_hx_tmp) {
-HXLINE(2107)										range->end = beginIndex;
-            									}
-            								}
-            							}
-            						}
+HXLINE(2155)						_hx_tmp = false;
+            					}
+HXDLIN(2155)					if (_hx_tmp) {
+HXLINE(2157)						 ::openfl::text::_internal::TextFormatRange range1 = range;
+HXDLIN(2157)						range1->start = (range1->start + offset);
+HXLINE(2158)						i = (i + 1);
+            					}
+            					else {
+HXLINE(2162)						i = (i + 1);
             					}
             				}
             			}
-HXLINE(2111)			i = (i + 1);
             		}
-HXLINE(2115)		if ((this->_hx___textEngine->textFormatRanges->get_length() == 0)) {
-HXLINE(2118)			::Dynamic this1 = this->_hx___textEngine->textFormatRanges;
-HXDLIN(2118)			 ::openfl::text::TextFormat value = this->get_defaultTextFormat()->clone();
-HXDLIN(2118)			( ( ::openfl::_Vector::ObjectVector)(this1) )->push( ::openfl::text::_internal::TextFormatRange_obj::__alloc( HX_CTX ,value,0,newText.length));
-            		}
-            		else {
-HXLINE(2120)			bool _hx_tmp;
-HXDLIN(2120)			if ((beginIndex == endIndex)) {
-HXLINE(2120)				_hx_tmp = (this->_hx___textEngine->textFormatRanges->get(0).StaticCast<  ::openfl::text::_internal::TextFormatRange >()->start > 0);
-            			}
-            			else {
-HXLINE(2120)				_hx_tmp = false;
-            			}
-HXDLIN(2120)			if (_hx_tmp) {
-HXLINE(2123)				::Dynamic this1 = this->_hx___textEngine->textFormatRanges;
-HXDLIN(2123)				 ::openfl::text::TextFormat value = this->get_defaultTextFormat()->clone();
-HXDLIN(2123)				( ( ::openfl::_Vector::ObjectVector)(this1) )->unshift( ::openfl::text::_internal::TextFormatRange_obj::__alloc( HX_CTX ,value,0,this->_hx___textEngine->textFormatRanges->get(0).StaticCast<  ::openfl::text::_internal::TextFormatRange >()->start));
-            			}
-            			else {
-HXLINE(2125)				bool _hx_tmp;
-HXDLIN(2125)				if ((beginIndex != endIndex)) {
-HXLINE(2125)					::Dynamic this1 = this->_hx___textEngine->textFormatRanges;
-HXDLIN(2125)					 ::openfl::text::_internal::TextFormatRange _hx_tmp1 = ( ( ::openfl::_Vector::ObjectVector)(this1) )->get((this->_hx___textEngine->textFormatRanges->get_length() - 1)).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(2125)					_hx_tmp = (_hx_tmp1->end < this->_hx___text.length);
-            				}
-            				else {
-HXLINE(2125)					_hx_tmp = false;
-            				}
-HXDLIN(2125)				if (_hx_tmp) {
-HXLINE(2128)					::Dynamic this1 = this->_hx___textEngine->textFormatRanges;
-HXDLIN(2128)					 ::openfl::text::TextFormat value = this->get_defaultTextFormat()->clone();
-HXLINE(2129)					::Dynamic this2 = this->_hx___textEngine->textFormatRanges;
-HXDLIN(2129)					 ::openfl::text::_internal::TextFormatRange value1 = ( ( ::openfl::_Vector::ObjectVector)(this2) )->get((this->_hx___textEngine->textFormatRanges->get_length() - 1)).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXLINE(2128)					( ( ::openfl::_Vector::ObjectVector)(this1) )->push( ::openfl::text::_internal::TextFormatRange_obj::__alloc( HX_CTX ,value,value1->end,this->_hx___text.length));
-            				}
-            			}
-            		}
-HXLINE(2132)		this->_hx___selectionIndex = (this->_hx___caretIndex = (beginIndex + newText.length));
-HXLINE(2134)		this->_hx___dirty = true;
-HXLINE(2135)		this->_hx___layoutDirty = true;
-HXLINE(2136)		if (!(this->_hx___renderDirty)) {
-HXLINE(2136)			this->_hx___renderDirty = true;
-HXDLIN(2136)			this->_hx___setParentRenderDirty();
+HXLINE(2166)		this->_hx___updateScrollV();
+HXLINE(2167)		this->_hx___updateScrollH();
+HXLINE(2169)		this->_hx___dirty = true;
+HXLINE(2170)		this->_hx___layoutDirty = true;
+HXLINE(2171)		if (!(this->_hx___renderDirty)) {
+HXLINE(2171)			this->_hx___renderDirty = true;
+HXDLIN(2171)			this->_hx___setParentRenderDirty();
             		}
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC4(TextField_obj,_hx___replaceText,(void))
 
+ ::Dynamic TextField_obj::_hx___shouldCacheHardware( ::Dynamic value){
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2176___shouldCacheHardware)
+HXDLIN(2176)		if (::hx::IsEq( value,true )) {
+HXDLIN(2176)			return true;
+            		}
+            		else {
+HXDLIN(2176)			return false;
+            		}
+HXDLIN(2176)		return false;
+            	}
+
+
 void TextField_obj::_hx___startCursorTimer(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2141___startCursorTimer)
-HXDLIN(2141)		if (::hx::IsEq( this->get_type(),1 )) {
-HXLINE(2143)			this->_hx___cursorTimer = ::haxe::Timer_obj::delay(this->_hx___startCursorTimer_dyn(),600);
-HXLINE(2144)			this->_hx___showCursor = !(this->_hx___showCursor);
-HXLINE(2145)			this->_hx___dirty = true;
-HXLINE(2146)			if (!(this->_hx___renderDirty)) {
-HXLINE(2146)				this->_hx___renderDirty = true;
-HXDLIN(2146)				this->_hx___setParentRenderDirty();
-            			}
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2180___startCursorTimer)
+HXLINE(2181)		this->_hx___cursorTimer = ::haxe::Timer_obj::delay(this->_hx___startCursorTimer_dyn(),600);
+HXLINE(2182)		this->_hx___showCursor = !(this->_hx___showCursor);
+HXLINE(2183)		this->_hx___dirty = true;
+HXLINE(2184)		if (!(this->_hx___renderDirty)) {
+HXLINE(2184)			this->_hx___renderDirty = true;
+HXDLIN(2184)			this->_hx___setParentRenderDirty();
             		}
             	}
 
@@ -2130,14 +2196,14 @@ HXDLIN(2146)				this->_hx___setParentRenderDirty();
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,_hx___startCursorTimer,(void))
 
 void TextField_obj::_hx___startTextInput(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2151___startTextInput)
-HXLINE(2152)		if ((this->_hx___caretIndex < 0)) {
-HXLINE(2154)			this->_hx___caretIndex = this->_hx___text.length;
-HXLINE(2155)			this->_hx___selectionIndex = this->_hx___caretIndex;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2188___startTextInput)
+HXLINE(2189)		if ((this->_hx___caretIndex < 0)) {
+HXLINE(2191)			this->_hx___caretIndex = this->_hx___text.length;
+HXLINE(2192)			this->_hx___selectionIndex = this->_hx___caretIndex;
             		}
-HXLINE(2158)		bool enableInput = true;
-HXLINE(2160)		if (enableInput) {
-HXLINE(2162)			this->_hx___enableInput();
+HXLINE(2195)		bool enableInput = true;
+HXLINE(2197)		if (enableInput) {
+HXLINE(2199)			this->_hx___enableInput();
             		}
             	}
 
@@ -2145,17 +2211,17 @@ HXLINE(2162)			this->_hx___enableInput();
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,_hx___startTextInput,(void))
 
 void TextField_obj::_hx___stopCursorTimer(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2167___stopCursorTimer)
-HXLINE(2168)		if (::hx::IsNotNull( this->_hx___cursorTimer )) {
-HXLINE(2170)			this->_hx___cursorTimer->stop();
-HXLINE(2171)			this->_hx___cursorTimer = null();
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2204___stopCursorTimer)
+HXLINE(2205)		if (::hx::IsNotNull( this->_hx___cursorTimer )) {
+HXLINE(2207)			this->_hx___cursorTimer->stop();
+HXLINE(2208)			this->_hx___cursorTimer = null();
             		}
-HXLINE(2174)		if (this->_hx___showCursor) {
-HXLINE(2176)			this->_hx___showCursor = false;
-HXLINE(2177)			this->_hx___dirty = true;
-HXLINE(2178)			if (!(this->_hx___renderDirty)) {
-HXLINE(2178)				this->_hx___renderDirty = true;
-HXDLIN(2178)				this->_hx___setParentRenderDirty();
+HXLINE(2211)		if (this->_hx___showCursor) {
+HXLINE(2213)			this->_hx___showCursor = false;
+HXLINE(2214)			this->_hx___dirty = true;
+HXLINE(2215)			if (!(this->_hx___renderDirty)) {
+HXLINE(2215)				this->_hx___renderDirty = true;
+HXDLIN(2215)				this->_hx___setParentRenderDirty();
             			}
             		}
             	}
@@ -2164,44 +2230,92 @@ HXDLIN(2178)				this->_hx___setParentRenderDirty();
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,_hx___stopCursorTimer,(void))
 
 void TextField_obj::_hx___stopTextInput(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2183___stopTextInput)
-HXLINE(2184)		bool disableInput = true;
-HXLINE(2186)		if (disableInput) {
-HXLINE(2188)			this->_hx___disableInput();
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2220___stopTextInput)
+HXLINE(2221)		bool disableInput = true;
+HXLINE(2223)		if (disableInput) {
+HXLINE(2225)			this->_hx___disableInput();
             		}
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,_hx___stopTextInput,(void))
 
+bool TextField_obj::_hx___updateCacheBitmap( ::openfl::display::DisplayObjectRenderer renderer,bool force){
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2230___updateCacheBitmap)
+HXLINE(2232)		bool _hx_tmp;
+HXDLIN(2232)		bool _hx_tmp1;
+HXDLIN(2232)		bool _hx_tmp2;
+HXDLIN(2232)		if (::hx::IsNull( this->_hx___filters )) {
+HXLINE(2232)			_hx_tmp2 = (renderer->_hx___type == HX_("opengl",6f,64,94,21));
+            		}
+            		else {
+HXLINE(2232)			_hx_tmp2 = false;
+            		}
+HXDLIN(2232)		if (_hx_tmp2) {
+HXLINE(2232)			_hx_tmp1 = ::hx::IsNull( this->_hx___cacheBitmap );
+            		}
+            		else {
+HXLINE(2232)			_hx_tmp1 = false;
+            		}
+HXDLIN(2232)		if (_hx_tmp1) {
+HXLINE(2232)			_hx_tmp = !(this->_hx___domRender);
+            		}
+            		else {
+HXLINE(2232)			_hx_tmp = false;
+            		}
+HXDLIN(2232)		if (_hx_tmp) {
+HXLINE(2232)			return false;
+            		}
+HXLINE(2234)		if (force) {
+HXLINE(2234)			this->_hx___renderDirty = true;
+            		}
+HXLINE(2235)		bool _hx_tmp3;
+HXDLIN(2235)		if (!(force)) {
+HXLINE(2235)			_hx_tmp3 = this->_hx___dirty;
+            		}
+            		else {
+HXLINE(2235)			_hx_tmp3 = true;
+            		}
+HXDLIN(2235)		if (this->super::_hx___updateCacheBitmap(renderer,_hx_tmp3)) {
+HXLINE(2237)			if (::hx::IsNotNull( this->_hx___cacheBitmap )) {
+HXLINE(2239)				 ::openfl::geom::Matrix _hx_tmp = this->_hx___cacheBitmap->_hx___renderTransform;
+HXDLIN(2239)				_hx_tmp->tx = (_hx_tmp->tx - this->_hx___offsetX);
+HXLINE(2240)				 ::openfl::geom::Matrix _hx_tmp1 = this->_hx___cacheBitmap->_hx___renderTransform;
+HXDLIN(2240)				_hx_tmp1->ty = (_hx_tmp1->ty - this->_hx___offsetY);
+            			}
+HXLINE(2243)			return true;
+            		}
+HXLINE(2247)		return false;
+            	}
+
+
 void TextField_obj::_hx___updateLayout(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2194___updateLayout)
-HXDLIN(2194)		if (this->_hx___layoutDirty) {
-HXLINE(2196)			Float cacheWidth = this->_hx___textEngine->width;
-HXLINE(2197)			this->_hx___textEngine->update();
-HXLINE(2199)			if (::hx::IsNotEq( this->_hx___textEngine->autoSize,2 )) {
-HXLINE(2201)				if ((this->_hx___textEngine->width != cacheWidth)) {
-HXLINE(2203)					 ::Dynamic _hx_switch_0 = this->_hx___textEngine->autoSize;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2252___updateLayout)
+HXDLIN(2252)		if (this->_hx___layoutDirty) {
+HXLINE(2254)			Float cacheWidth = this->_hx___textEngine->width;
+HXLINE(2255)			this->_hx___textEngine->update();
+HXLINE(2257)			if (::hx::IsNotEq( this->_hx___textEngine->autoSize,2 )) {
+HXLINE(2259)				if ((this->_hx___textEngine->width != cacheWidth)) {
+HXLINE(2261)					 ::Dynamic _hx_switch_0 = this->_hx___textEngine->autoSize;
             					if (  (_hx_switch_0==0) ){
-HXLINE(2209)						 ::openfl::text::TextField _g = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(2209)						Float _hx_tmp = _g->get_x();
-HXDLIN(2209)						_g->set_x((_hx_tmp + ((cacheWidth - this->_hx___textEngine->width) / ( (Float)(2) ))));
-HXDLIN(2209)						goto _hx_goto_66;
+HXLINE(2267)						 ::openfl::text::TextField _g = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(2267)						Float _hx_tmp = _g->get_x();
+HXDLIN(2267)						_g->set_x((_hx_tmp + ((cacheWidth - this->_hx___textEngine->width) / ( (Float)(2) ))));
+HXDLIN(2267)						goto _hx_goto_73;
             					}
             					if (  (_hx_switch_0==3) ){
-HXLINE(2206)						 ::openfl::text::TextField _g = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(2206)						Float _hx_tmp = _g->get_x();
-HXDLIN(2206)						_g->set_x((_hx_tmp + (cacheWidth - this->_hx___textEngine->width)));
-HXDLIN(2206)						goto _hx_goto_66;
+HXLINE(2264)						 ::openfl::text::TextField _g = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(2264)						Float _hx_tmp = _g->get_x();
+HXDLIN(2264)						_g->set_x((_hx_tmp + (cacheWidth - this->_hx___textEngine->width)));
+HXDLIN(2264)						goto _hx_goto_73;
             					}
             					/* default */{
             					}
-            					_hx_goto_66:;
+            					_hx_goto_73:;
             				}
-HXLINE(2215)				this->_hx___textEngine->getBounds();
+HXLINE(2273)				this->_hx___textEngine->getBounds();
             			}
-HXLINE(2218)			this->_hx___layoutDirty = false;
-HXLINE(2220)			this->setSelection(this->_hx___selectionIndex,this->_hx___caretIndex);
+HXLINE(2276)			this->_hx___layoutDirty = false;
             		}
             	}
 
@@ -2209,83 +2323,42 @@ HXLINE(2220)			this->setSelection(this->_hx___selectionIndex,this->_hx___caretIn
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,_hx___updateLayout,(void))
 
 void TextField_obj::_hx___updateScrollH(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2225___updateScrollH)
-HXLINE(2226)		this->_hx___updateLayout();
-HXLINE(2228)		Float _hx_tmp = this->get_textWidth();
-HXDLIN(2228)		if ((_hx_tmp <= (this->get_width() - ( (Float)(4) )))) {
-HXLINE(2230)			this->set_scrollH(0);
-HXLINE(2231)			return;
-            		}
-HXLINE(2234)		int tempScrollH = this->get_scrollH();
-HXLINE(2238)		bool _hx_tmp1;
-HXDLIN(2238)		if ((this->_hx___caretIndex != 0)) {
-HXLINE(2238)			int _hx_tmp = this->getLineOffset(this->getLineIndexOfChar(this->_hx___caretIndex));
-HXDLIN(2238)			_hx_tmp1 = (_hx_tmp == this->_hx___caretIndex);
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2282___updateScrollH)
+HXDLIN(2282)		bool _hx_tmp;
+HXDLIN(2282)		if (!(this->get_multiline())) {
+HXDLIN(2282)			_hx_tmp = ::hx::IsEq( this->get_type(),1 );
             		}
             		else {
-HXLINE(2238)			_hx_tmp1 = true;
+HXDLIN(2282)			_hx_tmp = false;
             		}
-HXDLIN(2238)		if (_hx_tmp1) {
-HXLINE(2241)			tempScrollH = 0;
-            		}
-            		else {
-HXLINE(2245)			 ::openfl::geom::Rectangle caret = ::openfl::geom::Rectangle_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Rectangle >();
-HXLINE(2246)			bool written = false;
-HXLINE(2248)			if ((this->_hx___caretIndex < this->_hx___text.length)) {
-HXLINE(2250)				written = this->_hx___getCharBoundaries(this->_hx___caretIndex,caret);
-            			}
-HXLINE(2252)			if (!(written)) {
-HXLINE(2256)				this->_hx___getCharBoundaries((this->_hx___caretIndex - 1),caret);
-HXLINE(2257)				 ::openfl::geom::Rectangle caret1 = caret;
-HXDLIN(2257)				caret1->x = (caret1->x + caret->width);
-            			}
-HXLINE(2260)			while(true){
-HXLINE(2260)				bool _hx_tmp;
-HXDLIN(2260)				if ((caret->x < tempScrollH)) {
-HXLINE(2260)					_hx_tmp = (tempScrollH > 0);
+HXDLIN(2282)		if (_hx_tmp) {
+HXLINE(2284)			this->_hx___layoutDirty = true;
+HXLINE(2285)			this->_hx___updateLayout();
+HXLINE(2287)			Float offsetX = ((this->_hx___textEngine->textWidth - this->_hx___textEngine->width) + 4);
+HXLINE(2289)			if ((offsetX > 0)) {
+HXLINE(2294)				int _hx_tmp = this->_hx___caretIndex;
+HXDLIN(2294)				if ((_hx_tmp >= this->get_text().length)) {
+HXLINE(2296)					this->set_scrollH(::Math_obj::ceil(offsetX));
             				}
             				else {
-HXLINE(2260)					_hx_tmp = false;
+HXLINE(2300)					 ::openfl::geom::Rectangle caret = ::openfl::geom::Rectangle_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Rectangle >();
+HXLINE(2301)					this->_hx___getCharBoundaries(this->_hx___caretIndex,caret);
+HXLINE(2303)					Float caret1 = caret->x;
+HXDLIN(2303)					if ((caret1 < this->get_scrollH())) {
+HXLINE(2305)						this->set_scrollH(::Math_obj::floor((caret->x - ( (Float)(2) ))));
+            					}
+            					else {
+HXLINE(2307)						Float caret1 = caret->x;
+HXDLIN(2307)						int _hx_tmp = this->get_scrollH();
+HXDLIN(2307)						if ((caret1 > (_hx_tmp + this->_hx___textEngine->width))) {
+HXLINE(2309)							this->set_scrollH(::Math_obj::ceil(((caret->x - this->_hx___textEngine->width) - ( (Float)(2) ))));
+            						}
+            					}
+HXLINE(2312)					::openfl::geom::Rectangle_obj::_hx___pool->release(caret);
             				}
-HXDLIN(2260)				if (!(_hx_tmp)) {
-HXLINE(2260)					goto _hx_goto_68;
-            				}
-HXLINE(2262)				tempScrollH = (tempScrollH - 24);
-            			}
-            			_hx_goto_68:;
-HXLINE(2264)			while(true){
-HXLINE(2264)				Float caret1 = caret->x;
-HXDLIN(2264)				if (!((caret1 > ((tempScrollH + this->get_width()) - ( (Float)(4) ))))) {
-HXLINE(2264)					goto _hx_goto_69;
-            				}
-HXLINE(2266)				tempScrollH = (tempScrollH + 24);
-            			}
-            			_hx_goto_69:;
-HXLINE(2269)			::openfl::geom::Rectangle_obj::_hx___pool->release(caret);
-            		}
-HXLINE(2272)		bool _hx_tmp2;
-HXDLIN(2272)		if ((tempScrollH > 0)) {
-HXLINE(2272)			_hx_tmp2 = ::hx::IsNotEq( this->get_type(),1 );
-            		}
-            		else {
-HXLINE(2272)			_hx_tmp2 = false;
-            		}
-HXDLIN(2272)		if (_hx_tmp2) {
-HXLINE(2275)			int lineLength = this->getLineLength(this->getLineIndexOfChar(this->_hx___caretIndex));
-HXLINE(2276)			int _hx_tmp = this->get_scrollH();
-HXDLIN(2276)			if ((((_hx_tmp + this->get_width()) - ( (Float)(4) )) > lineLength)) {
-HXLINE(2278)				this->set_scrollH(::Math_obj::ceil(((( (Float)(lineLength) ) - this->get_width()) + 4)));
-            			}
-            		}
-HXLINE(2282)		if ((tempScrollH < 0)) {
-HXLINE(2284)			this->set_scrollH(0);
-            		}
-            		else {
-HXLINE(2286)			if ((tempScrollH > this->get_maxScrollH())) {
-HXLINE(2288)				this->set_scrollH(this->get_maxScrollH());
             			}
             			else {
-HXLINE(2292)				this->set_scrollH(tempScrollH);
+HXLINE(2317)				this->set_scrollH(0);
             			}
             		}
             	}
@@ -2294,46 +2367,42 @@ HXLINE(2292)				this->set_scrollH(tempScrollH);
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,_hx___updateScrollH,(void))
 
 void TextField_obj::_hx___updateScrollV(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2299___updateScrollV)
-HXLINE(2300)		this->_hx___updateLayout();
-HXLINE(2302)		Float _hx_tmp = this->get_textHeight();
-HXDLIN(2302)		if ((_hx_tmp <= (this->get_height() - ( (Float)(4) )))) {
-HXLINE(2304)			this->set_scrollV(1);
-HXLINE(2305)			return;
-            		}
-HXLINE(2308)		int lineIndex = this->getLineIndexOfChar(this->_hx___caretIndex);
-HXLINE(2310)		bool _hx_tmp1;
-HXDLIN(2310)		if ((lineIndex == -1)) {
-HXLINE(2310)			_hx_tmp1 = (this->_hx___caretIndex > 0);
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2323___updateScrollV)
+HXLINE(2324)		this->_hx___layoutDirty = true;
+HXLINE(2325)		this->_hx___updateLayout();
+HXLINE(2327)		int lineIndex = this->getLineIndexOfChar(this->_hx___caretIndex);
+HXLINE(2329)		bool _hx_tmp;
+HXDLIN(2329)		if ((lineIndex == -1)) {
+HXLINE(2329)			_hx_tmp = (this->_hx___caretIndex > 0);
             		}
             		else {
-HXLINE(2310)			_hx_tmp1 = false;
+HXLINE(2329)			_hx_tmp = false;
             		}
-HXDLIN(2310)		if (_hx_tmp1) {
-HXLINE(2313)			lineIndex = (this->getLineIndexOfChar((this->_hx___caretIndex - 1)) + 1);
+HXDLIN(2329)		if (_hx_tmp) {
+HXLINE(2332)			lineIndex = (this->getLineIndexOfChar((this->_hx___caretIndex - 1)) + 1);
             		}
-HXLINE(2316)		if (((lineIndex + 1) < this->get_scrollV())) {
-HXLINE(2318)			this->set_scrollV((lineIndex + 1));
+HXLINE(2335)		if (((lineIndex + 1) < this->get_scrollV())) {
+HXLINE(2337)			this->set_scrollV((lineIndex + 1));
             		}
             		else {
-HXLINE(2320)			if (((lineIndex + 1) > this->get_bottomScrollV())) {
-HXLINE(2322)				int i = lineIndex;
-HXDLIN(2322)				Float tempHeight = ((Float)0.0);
-HXLINE(2324)				while((i >= 0)){
-HXLINE(2326)					Float _hx_tmp = (tempHeight + this->_hx___textEngine->lineHeights->get(i));
-HXDLIN(2326)					if ((_hx_tmp <= (this->get_height() - ( (Float)(4) )))) {
-HXLINE(2328)						tempHeight = (tempHeight + this->_hx___textEngine->lineHeights->get(i));
-HXLINE(2329)						i = (i - 1);
+HXLINE(2339)			if (((lineIndex + 1) > this->get_bottomScrollV())) {
+HXLINE(2341)				int i = lineIndex;
+HXDLIN(2341)				Float tempHeight = ((Float)0.0);
+HXLINE(2343)				while((i >= 0)){
+HXLINE(2345)					Float _hx_tmp = (tempHeight + this->_hx___textEngine->lineHeights->get(i));
+HXDLIN(2345)					if ((_hx_tmp <= (this->get_height() - ( (Float)(4) )))) {
+HXLINE(2347)						tempHeight = (tempHeight + this->_hx___textEngine->lineHeights->get(i));
+HXLINE(2348)						i = (i - 1);
             					}
             					else {
-HXLINE(2332)						goto _hx_goto_71;
+HXLINE(2351)						goto _hx_goto_76;
             					}
             				}
-            				_hx_goto_71:;
-HXLINE(2335)				this->set_scrollV((i + 2));
+            				_hx_goto_76:;
+HXLINE(2354)				this->set_scrollV((i + 2));
             			}
             			else {
-HXLINE(2340)				this->set_scrollV(this->get_scrollV());
+HXLINE(2359)				this->set_scrollV(this->get_scrollV());
             			}
             		}
             	}
@@ -2341,70 +2410,29 @@ HXLINE(2340)				this->set_scrollV(this->get_scrollV());
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,_hx___updateScrollV,(void))
 
-void TextField_obj::_hx___updateMouseDrag(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2345___updateMouseDrag)
-HXLINE(2346)		Float _hx_tmp = this->get_mouseX();
-HXDLIN(2346)		if ((_hx_tmp > (this->get_width() - ( (Float)(1) )))) {
-HXLINE(2348)			 ::openfl::text::TextField _g = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(2348)			int _hx_tmp = _g->get_scrollH();
-HXDLIN(2348)			Float _hx_tmp1 = this->get_mouseX();
-HXDLIN(2348)			_g->set_scrollH((_hx_tmp + ::Std_obj::_hx_int(::Math_obj::max(::Math_obj::min(((_hx_tmp1 - this->get_width()) * ((Float).1)),( (Float)(10) )),( (Float)(1) )))));
-            		}
-            		else {
-HXLINE(2350)			if ((this->get_mouseX() < 1)) {
-HXLINE(2352)				 ::openfl::text::TextField _g = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(2352)				int _hx_tmp = _g->get_scrollH();
-HXDLIN(2352)				_g->set_scrollH((_hx_tmp - ::Std_obj::_hx_int(::Math_obj::max(::Math_obj::min((this->get_mouseX() * ((Float)-.1)),( (Float)(10) )),( (Float)(1) )))));
-            			}
-            		}
-HXLINE(2355)		this->_hx___mouseScrollVCounter++;
-HXLINE(2357)		int _hx_tmp1 = this->_hx___mouseScrollVCounter;
-HXDLIN(2357)		if ((_hx_tmp1 > (this->stage->get_frameRate() / ( (Float)(10) )))) {
-HXLINE(2359)			Float _hx_tmp = this->get_mouseY();
-HXDLIN(2359)			if ((_hx_tmp > (this->get_height() - ( (Float)(2) )))) {
-HXLINE(2361)				 ::openfl::text::TextField _g = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(2361)				int _hx_tmp = _g->get_scrollV();
-HXDLIN(2361)				Float _hx_tmp1 = this->get_mouseY();
-HXDLIN(2361)				_g->set_scrollV((_hx_tmp + ::Std_obj::_hx_int(::Math_obj::max(::Math_obj::min(((_hx_tmp1 - this->get_height()) * ((Float).03)),( (Float)(5) )),( (Float)(1) )))));
-            			}
-            			else {
-HXLINE(2363)				if ((this->get_mouseY() < 2)) {
-HXLINE(2365)					 ::openfl::text::TextField _g = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(2365)					int _hx_tmp = _g->get_scrollV();
-HXDLIN(2365)					_g->set_scrollV((_hx_tmp - ::Std_obj::_hx_int(::Math_obj::max(::Math_obj::min((this->get_mouseY() * ((Float)-.03)),( (Float)(5) )),( (Float)(1) )))));
-            				}
-            			}
-HXLINE(2367)			this->_hx___mouseScrollVCounter = 0;
-            		}
-HXLINE(2369)		this->stage_onMouseMove(null());
-            	}
-
-
-HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,_hx___updateMouseDrag,(void))
-
 void TextField_obj::_hx___updateText(::String value){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2373___updateText)
-HXLINE(2383)		this->_hx___textEngine->set_text(value);
-HXLINE(2384)		this->_hx___text = this->_hx___textEngine->text;
-HXLINE(2386)		if ((this->_hx___text.length < this->_hx___caretIndex)) {
-HXLINE(2388)			this->_hx___selectionIndex = (this->_hx___caretIndex = this->_hx___text.length);
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2364___updateText)
+HXLINE(2374)		this->_hx___textEngine->set_text(value);
+HXLINE(2375)		this->_hx___text = this->_hx___textEngine->text;
+HXLINE(2377)		if ((this->_hx___text.length < this->_hx___caretIndex)) {
+HXLINE(2379)			this->_hx___selectionIndex = (this->_hx___caretIndex = this->_hx___text.length);
             		}
-HXLINE(2391)		if (!(this->_hx___displayAsPassword)) {
-HXLINE(2393)			this->_hx___textEngine->set_text(this->_hx___text);
+HXLINE(2382)		if (!(this->_hx___displayAsPassword)) {
+HXLINE(2384)			this->_hx___textEngine->set_text(this->_hx___text);
             		}
             		else {
-HXLINE(2397)			int length = this->get_text().length;
-HXLINE(2398)			::String mask = HX_("",00,00,00,00);
-HXLINE(2400)			{
-HXLINE(2400)				int _g = 0;
-HXDLIN(2400)				int _g1 = length;
-HXDLIN(2400)				while((_g < _g1)){
-HXLINE(2400)					_g = (_g + 1);
-HXDLIN(2400)					int i = (_g - 1);
-HXLINE(2402)					mask = (mask + HX_("*",2a,00,00,00));
+HXLINE(2388)			int length = this->get_text().length;
+HXLINE(2389)			::String mask = HX_("",00,00,00,00);
+HXLINE(2391)			{
+HXLINE(2391)				int _g = 0;
+HXDLIN(2391)				int _g1 = length;
+HXDLIN(2391)				while((_g < _g1)){
+HXLINE(2391)					_g = (_g + 1);
+HXDLIN(2391)					int i = (_g - 1);
+HXLINE(2393)					mask = (mask + HX_("*",2a,00,00,00));
             				}
             			}
-HXLINE(2405)			this->_hx___textEngine->set_text(mask);
+HXLINE(2396)			this->_hx___textEngine->set_text(mask);
             		}
             	}
 
@@ -2412,820 +2440,820 @@ HXLINE(2405)			this->_hx___textEngine->set_text(mask);
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,_hx___updateText,(void))
 
 void TextField_obj::_hx___updateTransforms( ::openfl::geom::Matrix overrideTransform){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2410___updateTransforms)
-HXLINE(2411)		this->super::_hx___updateTransforms(overrideTransform);
-HXLINE(2412)		{
-HXLINE(2412)			 ::openfl::geom::Matrix _this = this->_hx___renderTransform;
-HXDLIN(2412)			Float px = this->_hx___offsetX;
-HXDLIN(2412)			Float py = this->_hx___offsetY;
-HXDLIN(2412)			_this->tx = (((px * _this->a) + (py * _this->c)) + _this->tx);
-HXDLIN(2412)			_this->ty = (((px * _this->b) + (py * _this->d)) + _this->ty);
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2401___updateTransforms)
+HXLINE(2402)		this->super::_hx___updateTransforms(overrideTransform);
+HXLINE(2403)		{
+HXLINE(2403)			 ::openfl::geom::Matrix _this = this->_hx___renderTransform;
+HXDLIN(2403)			Float px = this->_hx___offsetX;
+HXDLIN(2403)			Float py = this->_hx___offsetY;
+HXDLIN(2403)			_this->tx = (((px * _this->a) + (py * _this->c)) + _this->tx);
+HXDLIN(2403)			_this->ty = (((px * _this->b) + (py * _this->d)) + _this->ty);
             		}
             	}
 
 
  ::Dynamic TextField_obj::get_antiAliasType(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2418_get_antiAliasType)
-HXDLIN(2418)		return this->_hx___textEngine->antiAliasType;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2409_get_antiAliasType)
+HXDLIN(2409)		return this->_hx___textEngine->antiAliasType;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_antiAliasType,return )
 
  ::Dynamic TextField_obj::set_antiAliasType( ::Dynamic value){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2422_set_antiAliasType)
-HXLINE(2423)		bool _hx_tmp = ::hx::IsNotEq( value,this->_hx___textEngine->antiAliasType );
-HXLINE(2428)		return (this->_hx___textEngine->antiAliasType = value);
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2413_set_antiAliasType)
+HXLINE(2414)		bool _hx_tmp = ::hx::IsNotEq( value,this->_hx___textEngine->antiAliasType );
+HXLINE(2419)		return (this->_hx___textEngine->antiAliasType = value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,set_antiAliasType,return )
 
  ::Dynamic TextField_obj::get_autoSize(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2433_get_autoSize)
-HXDLIN(2433)		return this->_hx___textEngine->autoSize;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2424_get_autoSize)
+HXDLIN(2424)		return this->_hx___textEngine->autoSize;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_autoSize,return )
 
  ::Dynamic TextField_obj::set_autoSize( ::Dynamic value){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2437_set_autoSize)
-HXLINE(2438)		if (::hx::IsNotEq( value,this->_hx___textEngine->autoSize )) {
-HXLINE(2440)			this->_hx___dirty = true;
-HXLINE(2441)			this->_hx___layoutDirty = true;
-HXLINE(2442)			if (!(this->_hx___renderDirty)) {
-HXLINE(2442)				this->_hx___renderDirty = true;
-HXDLIN(2442)				this->_hx___setParentRenderDirty();
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2428_set_autoSize)
+HXLINE(2429)		if (::hx::IsNotEq( value,this->_hx___textEngine->autoSize )) {
+HXLINE(2431)			this->_hx___dirty = true;
+HXLINE(2432)			this->_hx___layoutDirty = true;
+HXLINE(2433)			if (!(this->_hx___renderDirty)) {
+HXLINE(2433)				this->_hx___renderDirty = true;
+HXDLIN(2433)				this->_hx___setParentRenderDirty();
             			}
             		}
-HXLINE(2445)		return (this->_hx___textEngine->autoSize = value);
+HXLINE(2436)		return (this->_hx___textEngine->autoSize = value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,set_autoSize,return )
 
 bool TextField_obj::get_background(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2450_get_background)
-HXDLIN(2450)		return this->_hx___textEngine->background;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2441_get_background)
+HXDLIN(2441)		return this->_hx___textEngine->background;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_background,return )
 
 bool TextField_obj::set_background(bool value){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2454_set_background)
-HXLINE(2455)		if ((value != this->_hx___textEngine->background)) {
-HXLINE(2457)			this->_hx___dirty = true;
-HXLINE(2458)			if (!(this->_hx___renderDirty)) {
-HXLINE(2458)				this->_hx___renderDirty = true;
-HXDLIN(2458)				this->_hx___setParentRenderDirty();
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2445_set_background)
+HXLINE(2446)		if ((value != this->_hx___textEngine->background)) {
+HXLINE(2448)			this->_hx___dirty = true;
+HXLINE(2449)			if (!(this->_hx___renderDirty)) {
+HXLINE(2449)				this->_hx___renderDirty = true;
+HXDLIN(2449)				this->_hx___setParentRenderDirty();
             			}
             		}
-HXLINE(2461)		return (this->_hx___textEngine->background = value);
+HXLINE(2452)		return (this->_hx___textEngine->background = value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,set_background,return )
 
 int TextField_obj::get_backgroundColor(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2466_get_backgroundColor)
-HXDLIN(2466)		return this->_hx___textEngine->backgroundColor;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2457_get_backgroundColor)
+HXDLIN(2457)		return this->_hx___textEngine->backgroundColor;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_backgroundColor,return )
 
 int TextField_obj::set_backgroundColor(int value){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2470_set_backgroundColor)
-HXLINE(2471)		if ((value != this->_hx___textEngine->backgroundColor)) {
-HXLINE(2473)			this->_hx___dirty = true;
-HXLINE(2474)			if (!(this->_hx___renderDirty)) {
-HXLINE(2474)				this->_hx___renderDirty = true;
-HXDLIN(2474)				this->_hx___setParentRenderDirty();
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2461_set_backgroundColor)
+HXLINE(2462)		if ((value != this->_hx___textEngine->backgroundColor)) {
+HXLINE(2464)			this->_hx___dirty = true;
+HXLINE(2465)			if (!(this->_hx___renderDirty)) {
+HXLINE(2465)				this->_hx___renderDirty = true;
+HXDLIN(2465)				this->_hx___setParentRenderDirty();
             			}
             		}
-HXLINE(2477)		return (this->_hx___textEngine->backgroundColor = value);
+HXLINE(2468)		return (this->_hx___textEngine->backgroundColor = value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,set_backgroundColor,return )
 
 bool TextField_obj::get_border(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2482_get_border)
-HXDLIN(2482)		return this->_hx___textEngine->border;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2473_get_border)
+HXDLIN(2473)		return this->_hx___textEngine->border;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_border,return )
 
 bool TextField_obj::set_border(bool value){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2486_set_border)
-HXLINE(2487)		if ((value != this->_hx___textEngine->border)) {
-HXLINE(2489)			this->_hx___dirty = true;
-HXLINE(2490)			if (!(this->_hx___renderDirty)) {
-HXLINE(2490)				this->_hx___renderDirty = true;
-HXDLIN(2490)				this->_hx___setParentRenderDirty();
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2477_set_border)
+HXLINE(2478)		if ((value != this->_hx___textEngine->border)) {
+HXLINE(2480)			this->_hx___dirty = true;
+HXLINE(2481)			if (!(this->_hx___renderDirty)) {
+HXLINE(2481)				this->_hx___renderDirty = true;
+HXDLIN(2481)				this->_hx___setParentRenderDirty();
             			}
             		}
-HXLINE(2493)		return (this->_hx___textEngine->border = value);
+HXLINE(2484)		return (this->_hx___textEngine->border = value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,set_border,return )
 
 int TextField_obj::get_borderColor(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2498_get_borderColor)
-HXDLIN(2498)		return this->_hx___textEngine->borderColor;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2489_get_borderColor)
+HXDLIN(2489)		return this->_hx___textEngine->borderColor;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_borderColor,return )
 
 int TextField_obj::set_borderColor(int value){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2502_set_borderColor)
-HXLINE(2503)		if ((value != this->_hx___textEngine->borderColor)) {
-HXLINE(2505)			this->_hx___dirty = true;
-HXLINE(2506)			if (!(this->_hx___renderDirty)) {
-HXLINE(2506)				this->_hx___renderDirty = true;
-HXDLIN(2506)				this->_hx___setParentRenderDirty();
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2493_set_borderColor)
+HXLINE(2494)		if ((value != this->_hx___textEngine->borderColor)) {
+HXLINE(2496)			this->_hx___dirty = true;
+HXLINE(2497)			if (!(this->_hx___renderDirty)) {
+HXLINE(2497)				this->_hx___renderDirty = true;
+HXDLIN(2497)				this->_hx___setParentRenderDirty();
             			}
             		}
-HXLINE(2509)		return (this->_hx___textEngine->borderColor = value);
+HXLINE(2500)		return (this->_hx___textEngine->borderColor = value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,set_borderColor,return )
 
 int TextField_obj::get_bottomScrollV(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2513_get_bottomScrollV)
-HXLINE(2514)		this->_hx___updateLayout();
-HXLINE(2516)		return this->_hx___textEngine->get_bottomScrollV();
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2504_get_bottomScrollV)
+HXLINE(2505)		this->_hx___updateLayout();
+HXLINE(2507)		return this->_hx___textEngine->get_bottomScrollV();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_bottomScrollV,return )
 
 int TextField_obj::get_caretIndex(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2521_get_caretIndex)
-HXDLIN(2521)		return this->_hx___caretIndex;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2512_get_caretIndex)
+HXDLIN(2512)		return this->_hx___caretIndex;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_caretIndex,return )
 
  ::openfl::text::TextFormat TextField_obj::get_defaultTextFormat(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2526_get_defaultTextFormat)
-HXDLIN(2526)		return this->_hx___textFormat->clone();
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2517_get_defaultTextFormat)
+HXDLIN(2517)		return this->_hx___textFormat->clone();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_defaultTextFormat,return )
 
  ::openfl::text::TextFormat TextField_obj::set_defaultTextFormat( ::openfl::text::TextFormat value){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2530_set_defaultTextFormat)
-HXLINE(2531)		this->_hx___textFormat->_hx___merge(value);
-HXLINE(2533)		this->_hx___layoutDirty = true;
-HXLINE(2534)		this->_hx___dirty = true;
-HXLINE(2535)		if (!(this->_hx___renderDirty)) {
-HXLINE(2535)			this->_hx___renderDirty = true;
-HXDLIN(2535)			this->_hx___setParentRenderDirty();
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2521_set_defaultTextFormat)
+HXLINE(2522)		this->_hx___textFormat->_hx___merge(value);
+HXLINE(2524)		this->_hx___layoutDirty = true;
+HXLINE(2525)		this->_hx___dirty = true;
+HXLINE(2526)		if (!(this->_hx___renderDirty)) {
+HXLINE(2526)			this->_hx___renderDirty = true;
+HXDLIN(2526)			this->_hx___setParentRenderDirty();
             		}
-HXLINE(2537)		return value;
+HXLINE(2528)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,set_defaultTextFormat,return )
 
 bool TextField_obj::get_displayAsPassword(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2542_get_displayAsPassword)
-HXDLIN(2542)		return this->_hx___displayAsPassword;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2533_get_displayAsPassword)
+HXDLIN(2533)		return this->_hx___displayAsPassword;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_displayAsPassword,return )
 
 bool TextField_obj::set_displayAsPassword(bool value){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2546_set_displayAsPassword)
-HXLINE(2547)		if ((value != this->_hx___displayAsPassword)) {
-HXLINE(2549)			this->_hx___dirty = true;
-HXLINE(2550)			this->_hx___layoutDirty = true;
-HXLINE(2551)			if (!(this->_hx___renderDirty)) {
-HXLINE(2551)				this->_hx___renderDirty = true;
-HXDLIN(2551)				this->_hx___setParentRenderDirty();
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2537_set_displayAsPassword)
+HXLINE(2538)		if ((value != this->_hx___displayAsPassword)) {
+HXLINE(2540)			this->_hx___dirty = true;
+HXLINE(2541)			this->_hx___layoutDirty = true;
+HXLINE(2542)			if (!(this->_hx___renderDirty)) {
+HXLINE(2542)				this->_hx___renderDirty = true;
+HXDLIN(2542)				this->_hx___setParentRenderDirty();
             			}
-HXLINE(2553)			this->_hx___displayAsPassword = value;
-HXLINE(2554)			this->_hx___updateText(this->_hx___text);
+HXLINE(2544)			this->_hx___displayAsPassword = value;
+HXLINE(2545)			this->_hx___updateText(this->_hx___text);
             		}
-HXLINE(2557)		return value;
+HXLINE(2548)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,set_displayAsPassword,return )
 
 bool TextField_obj::get_embedFonts(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2562_get_embedFonts)
-HXDLIN(2562)		return this->_hx___textEngine->embedFonts;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2553_get_embedFonts)
+HXDLIN(2553)		return this->_hx___textEngine->embedFonts;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_embedFonts,return )
 
 bool TextField_obj::set_embedFonts(bool value){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2574_set_embedFonts)
-HXDLIN(2574)		return (this->_hx___textEngine->embedFonts = value);
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2565_set_embedFonts)
+HXDLIN(2565)		return (this->_hx___textEngine->embedFonts = value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,set_embedFonts,return )
 
  ::Dynamic TextField_obj::get_gridFitType(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2579_get_gridFitType)
-HXDLIN(2579)		return this->_hx___textEngine->gridFitType;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2570_get_gridFitType)
+HXDLIN(2570)		return this->_hx___textEngine->gridFitType;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_gridFitType,return )
 
  ::Dynamic TextField_obj::set_gridFitType( ::Dynamic value){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2591_set_gridFitType)
-HXDLIN(2591)		return (this->_hx___textEngine->gridFitType = value);
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2582_set_gridFitType)
+HXDLIN(2582)		return (this->_hx___textEngine->gridFitType = value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,set_gridFitType,return )
 
 Float TextField_obj::get_height(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2595_get_height)
-HXLINE(2596)		this->_hx___updateLayout();
-HXLINE(2597)		Float _hx_tmp = this->_hx___textEngine->height;
-HXDLIN(2597)		return (_hx_tmp * ::Math_obj::abs(this->get_scaleY()));
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2586_get_height)
+HXLINE(2587)		this->_hx___updateLayout();
+HXLINE(2588)		Float _hx_tmp = this->_hx___textEngine->height;
+HXDLIN(2588)		return (_hx_tmp * ::Math_obj::abs(this->get_scaleY()));
             	}
 
 
 Float TextField_obj::set_height(Float value){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2601_set_height)
-HXLINE(2602)		if ((value != this->_hx___textEngine->height)) {
-HXLINE(2604)			this->_hx___setTransformDirty();
-HXLINE(2605)			this->_hx___dirty = true;
-HXLINE(2606)			this->_hx___layoutDirty = true;
-HXLINE(2607)			if (!(this->_hx___renderDirty)) {
-HXLINE(2607)				this->_hx___renderDirty = true;
-HXDLIN(2607)				this->_hx___setParentRenderDirty();
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2592_set_height)
+HXLINE(2593)		if ((value != this->_hx___textEngine->height)) {
+HXLINE(2595)			this->_hx___setTransformDirty();
+HXLINE(2596)			this->_hx___dirty = true;
+HXLINE(2597)			this->_hx___layoutDirty = true;
+HXLINE(2598)			if (!(this->_hx___renderDirty)) {
+HXLINE(2598)				this->_hx___renderDirty = true;
+HXDLIN(2598)				this->_hx___setParentRenderDirty();
             			}
-HXLINE(2609)			this->_hx___textEngine->height = value;
+HXLINE(2600)			this->_hx___textEngine->height = value;
             		}
-HXLINE(2612)		Float _hx_tmp = this->_hx___textEngine->height;
-HXDLIN(2612)		return (_hx_tmp * ::Math_obj::abs(this->get_scaleY()));
+HXLINE(2603)		Float _hx_tmp = this->_hx___textEngine->height;
+HXDLIN(2603)		return (_hx_tmp * ::Math_obj::abs(this->get_scaleY()));
             	}
 
 
 ::String TextField_obj::get_htmlText(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2620_get_htmlText)
-HXDLIN(2620)		return this->_hx___text;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2611_get_htmlText)
+HXDLIN(2611)		return this->_hx___text;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_htmlText,return )
 
 ::String TextField_obj::set_htmlText(::String value){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2625_set_htmlText)
-HXLINE(2626)		bool _hx_tmp;
-HXDLIN(2626)		if (this->_hx___isHTML) {
-HXLINE(2626)			_hx_tmp = (this->_hx___text != value);
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2616_set_htmlText)
+HXLINE(2617)		bool _hx_tmp;
+HXDLIN(2617)		if (this->_hx___isHTML) {
+HXLINE(2617)			_hx_tmp = (this->_hx___text != value);
             		}
             		else {
-HXLINE(2626)			_hx_tmp = true;
+HXLINE(2617)			_hx_tmp = true;
             		}
-HXDLIN(2626)		if (_hx_tmp) {
-HXLINE(2628)			this->_hx___dirty = true;
-HXLINE(2629)			this->_hx___layoutDirty = true;
-HXLINE(2630)			if (!(this->_hx___renderDirty)) {
-HXLINE(2630)				this->_hx___renderDirty = true;
-HXDLIN(2630)				this->_hx___setParentRenderDirty();
+HXDLIN(2617)		if (_hx_tmp) {
+HXLINE(2619)			this->_hx___dirty = true;
+HXLINE(2620)			this->_hx___layoutDirty = true;
+HXLINE(2621)			if (!(this->_hx___renderDirty)) {
+HXLINE(2621)				this->_hx___renderDirty = true;
+HXDLIN(2621)				this->_hx___setParentRenderDirty();
             			}
             		}
-HXLINE(2633)		this->_hx___isHTML = true;
-HXLINE(2639)		value = ::openfl::text::_internal::HTMLParser_obj::parse(value,this->_hx___textFormat,this->_hx___textEngine->textFormatRanges);
-HXLINE(2669)		this->_hx___updateText(value);
-HXLINE(2671)		this->_hx___selectionIndex = (this->_hx___caretIndex = this->get_length());
-HXLINE(2673)		return value;
+HXLINE(2624)		this->_hx___isHTML = true;
+HXLINE(2630)		value = ::openfl::_internal::formats::html::HTMLParser_obj::parse(value,this->_hx___textFormat,this->_hx___textEngine->textFormatRanges);
+HXLINE(2660)		this->_hx___updateText(value);
+HXLINE(2662)		this->_hx___updateScrollV();
+HXLINE(2664)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,set_htmlText,return )
 
 int TextField_obj::get_length(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2677_get_length)
-HXLINE(2678)		if (::hx::IsNotNull( this->_hx___text )) {
-HXLINE(2680)			return this->_hx___text.length;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2668_get_length)
+HXLINE(2669)		if (::hx::IsNotNull( this->_hx___text )) {
+HXLINE(2671)			return this->_hx___text.length;
             		}
-HXLINE(2683)		return 0;
+HXLINE(2674)		return 0;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_length,return )
 
 int TextField_obj::get_maxChars(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2688_get_maxChars)
-HXDLIN(2688)		return this->_hx___textEngine->maxChars;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2679_get_maxChars)
+HXDLIN(2679)		return this->_hx___textEngine->maxChars;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_maxChars,return )
 
 int TextField_obj::set_maxChars(int value){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2692_set_maxChars)
-HXLINE(2693)		if ((value != this->_hx___textEngine->maxChars)) {
-HXLINE(2695)			this->_hx___textEngine->maxChars = value;
-HXLINE(2697)			this->_hx___dirty = true;
-HXLINE(2698)			this->_hx___layoutDirty = true;
-HXLINE(2699)			if (!(this->_hx___renderDirty)) {
-HXLINE(2699)				this->_hx___renderDirty = true;
-HXDLIN(2699)				this->_hx___setParentRenderDirty();
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2683_set_maxChars)
+HXLINE(2684)		if ((value != this->_hx___textEngine->maxChars)) {
+HXLINE(2686)			this->_hx___textEngine->maxChars = value;
+HXLINE(2688)			this->_hx___dirty = true;
+HXLINE(2689)			this->_hx___layoutDirty = true;
+HXLINE(2690)			if (!(this->_hx___renderDirty)) {
+HXLINE(2690)				this->_hx___renderDirty = true;
+HXDLIN(2690)				this->_hx___setParentRenderDirty();
             			}
             		}
-HXLINE(2702)		return value;
+HXLINE(2693)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,set_maxChars,return )
 
 int TextField_obj::get_maxScrollH(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2706_get_maxScrollH)
-HXLINE(2707)		this->_hx___updateLayout();
-HXLINE(2709)		return this->_hx___textEngine->maxScrollH;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2697_get_maxScrollH)
+HXLINE(2698)		this->_hx___updateLayout();
+HXLINE(2700)		return this->_hx___textEngine->maxScrollH;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_maxScrollH,return )
 
 int TextField_obj::get_maxScrollV(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2713_get_maxScrollV)
-HXLINE(2714)		this->_hx___updateLayout();
-HXLINE(2716)		return this->_hx___textEngine->get_maxScrollV();
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2704_get_maxScrollV)
+HXLINE(2705)		this->_hx___updateLayout();
+HXLINE(2707)		return this->_hx___textEngine->get_maxScrollV();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_maxScrollV,return )
 
 bool TextField_obj::get_mouseWheelEnabled(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2721_get_mouseWheelEnabled)
-HXDLIN(2721)		return this->_hx___mouseWheelEnabled;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2712_get_mouseWheelEnabled)
+HXDLIN(2712)		return this->_hx___mouseWheelEnabled;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_mouseWheelEnabled,return )
 
 bool TextField_obj::set_mouseWheelEnabled(bool value){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2726_set_mouseWheelEnabled)
-HXDLIN(2726)		return (this->_hx___mouseWheelEnabled = value);
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2717_set_mouseWheelEnabled)
+HXDLIN(2717)		return (this->_hx___mouseWheelEnabled = value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,set_mouseWheelEnabled,return )
 
 bool TextField_obj::get_multiline(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2731_get_multiline)
-HXDLIN(2731)		return this->_hx___textEngine->multiline;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2722_get_multiline)
+HXDLIN(2722)		return this->_hx___textEngine->multiline;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_multiline,return )
 
 bool TextField_obj::set_multiline(bool value){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2735_set_multiline)
-HXLINE(2736)		if ((value != this->_hx___textEngine->multiline)) {
-HXLINE(2738)			this->_hx___dirty = true;
-HXLINE(2739)			this->_hx___layoutDirty = true;
-HXLINE(2740)			this->_hx___updateText(this->_hx___text);
-HXLINE(2742)			this->_hx___updateScrollH();
-HXLINE(2743)			if (!(this->_hx___renderDirty)) {
-HXLINE(2743)				this->_hx___renderDirty = true;
-HXDLIN(2743)				this->_hx___setParentRenderDirty();
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2726_set_multiline)
+HXLINE(2727)		if ((value != this->_hx___textEngine->multiline)) {
+HXLINE(2729)			this->_hx___dirty = true;
+HXLINE(2730)			this->_hx___layoutDirty = true;
+HXLINE(2731)			this->_hx___updateText(this->_hx___text);
+HXLINE(2733)			this->_hx___updateScrollH();
+HXLINE(2734)			if (!(this->_hx___renderDirty)) {
+HXLINE(2734)				this->_hx___renderDirty = true;
+HXDLIN(2734)				this->_hx___setParentRenderDirty();
             			}
             		}
-HXLINE(2746)		return (this->_hx___textEngine->multiline = value);
+HXLINE(2737)		return (this->_hx___textEngine->multiline = value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,set_multiline,return )
 
 int TextField_obj::get_numLines(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2750_get_numLines)
-HXLINE(2751)		this->_hx___updateLayout();
-HXLINE(2753)		return this->_hx___textEngine->numLines;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2741_get_numLines)
+HXLINE(2742)		this->_hx___updateLayout();
+HXLINE(2744)		return this->_hx___textEngine->numLines;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_numLines,return )
 
 ::String TextField_obj::get_restrict(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2758_get_restrict)
-HXDLIN(2758)		return this->_hx___textEngine->restrict;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2749_get_restrict)
+HXDLIN(2749)		return this->_hx___textEngine->restrict;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_restrict,return )
 
 ::String TextField_obj::set_restrict(::String value){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2762_set_restrict)
-HXLINE(2763)		if ((this->_hx___textEngine->restrict != value)) {
-HXLINE(2765)			this->_hx___textEngine->set_restrict(value);
-HXLINE(2766)			this->_hx___updateText(this->_hx___text);
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2753_set_restrict)
+HXLINE(2754)		if ((this->_hx___textEngine->restrict != value)) {
+HXLINE(2756)			this->_hx___textEngine->set_restrict(value);
+HXLINE(2757)			this->_hx___updateText(this->_hx___text);
             		}
-HXLINE(2769)		return value;
+HXLINE(2760)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,set_restrict,return )
 
 int TextField_obj::get_scrollH(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2774_get_scrollH)
-HXDLIN(2774)		return this->_hx___textEngine->scrollH;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2765_get_scrollH)
+HXDLIN(2765)		return this->_hx___textEngine->scrollH;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_scrollH,return )
 
 int TextField_obj::set_scrollH(int value){
-            	HX_GC_STACKFRAME(&_hx_pos_d001dbc361c2c159_2778_set_scrollH)
-HXLINE(2779)		this->_hx___updateLayout();
-HXLINE(2781)		if ((value > this->_hx___textEngine->maxScrollH)) {
-HXLINE(2781)			value = this->_hx___textEngine->maxScrollH;
+            	HX_GC_STACKFRAME(&_hx_pos_d001dbc361c2c159_2769_set_scrollH)
+HXLINE(2770)		this->_hx___updateLayout();
+HXLINE(2772)		if ((value > this->_hx___textEngine->maxScrollH)) {
+HXLINE(2772)			value = this->_hx___textEngine->maxScrollH;
             		}
-HXLINE(2782)		if ((value < 0)) {
-HXLINE(2782)			value = 0;
+HXLINE(2773)		if ((value < 0)) {
+HXLINE(2773)			value = 0;
             		}
-HXLINE(2784)		if ((value != this->_hx___textEngine->scrollH)) {
-HXLINE(2786)			this->_hx___dirty = true;
-HXLINE(2787)			if (!(this->_hx___renderDirty)) {
-HXLINE(2787)				this->_hx___renderDirty = true;
-HXDLIN(2787)				this->_hx___setParentRenderDirty();
+HXLINE(2775)		if ((value != this->_hx___textEngine->scrollH)) {
+HXLINE(2777)			this->_hx___dirty = true;
+HXLINE(2778)			if (!(this->_hx___renderDirty)) {
+HXLINE(2778)				this->_hx___renderDirty = true;
+HXDLIN(2778)				this->_hx___setParentRenderDirty();
             			}
-HXLINE(2788)			this->_hx___textEngine->scrollH = value;
-HXLINE(2789)			this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("scroll",0d,d8,64,47),null(),null()));
+HXLINE(2779)			this->_hx___textEngine->scrollH = value;
+HXLINE(2780)			this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("scroll",0d,d8,64,47),null(),null()));
             		}
-HXLINE(2792)		return this->_hx___textEngine->scrollH;
+HXLINE(2783)		return this->_hx___textEngine->scrollH;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,set_scrollH,return )
 
 int TextField_obj::get_scrollV(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2797_get_scrollV)
-HXDLIN(2797)		return this->_hx___textEngine->get_scrollV();
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2788_get_scrollV)
+HXDLIN(2788)		return this->_hx___textEngine->get_scrollV();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_scrollV,return )
 
 int TextField_obj::set_scrollV(int value){
-            	HX_GC_STACKFRAME(&_hx_pos_d001dbc361c2c159_2801_set_scrollV)
-HXLINE(2802)		this->_hx___updateLayout();
-HXLINE(2804)		bool _hx_tmp;
-HXDLIN(2804)		if ((value > 0)) {
-HXLINE(2804)			_hx_tmp = (value != this->_hx___textEngine->get_scrollV());
+            	HX_GC_STACKFRAME(&_hx_pos_d001dbc361c2c159_2792_set_scrollV)
+HXLINE(2793)		this->_hx___updateLayout();
+HXLINE(2795)		bool _hx_tmp;
+HXDLIN(2795)		if ((value > 0)) {
+HXLINE(2795)			_hx_tmp = (value != this->_hx___textEngine->get_scrollV());
             		}
             		else {
-HXLINE(2804)			_hx_tmp = false;
+HXLINE(2795)			_hx_tmp = false;
             		}
-HXDLIN(2804)		if (_hx_tmp) {
-HXLINE(2806)			this->_hx___dirty = true;
-HXLINE(2807)			if (!(this->_hx___renderDirty)) {
-HXLINE(2807)				this->_hx___renderDirty = true;
-HXDLIN(2807)				this->_hx___setParentRenderDirty();
+HXDLIN(2795)		if (_hx_tmp) {
+HXLINE(2797)			this->_hx___dirty = true;
+HXLINE(2798)			if (!(this->_hx___renderDirty)) {
+HXLINE(2798)				this->_hx___renderDirty = true;
+HXDLIN(2798)				this->_hx___setParentRenderDirty();
             			}
-HXLINE(2808)			this->_hx___textEngine->set_scrollV(value);
-HXLINE(2809)			this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("scroll",0d,d8,64,47),null(),null()));
+HXLINE(2799)			this->_hx___textEngine->set_scrollV(value);
+HXLINE(2800)			this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("scroll",0d,d8,64,47),null(),null()));
             		}
-HXLINE(2812)		return this->_hx___textEngine->get_scrollV();
+HXLINE(2803)		return this->_hx___textEngine->get_scrollV();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,set_scrollV,return )
 
 bool TextField_obj::get_selectable(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2817_get_selectable)
-HXDLIN(2817)		return this->_hx___textEngine->selectable;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2808_get_selectable)
+HXDLIN(2808)		return this->_hx___textEngine->selectable;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_selectable,return )
 
 bool TextField_obj::set_selectable(bool value){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2821_set_selectable)
-HXLINE(2822)		bool _hx_tmp;
-HXDLIN(2822)		if ((value != this->_hx___textEngine->selectable)) {
-HXLINE(2822)			_hx_tmp = ::hx::IsEq( this->get_type(),1 );
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2812_set_selectable)
+HXLINE(2813)		bool _hx_tmp;
+HXDLIN(2813)		if ((value != this->_hx___textEngine->selectable)) {
+HXLINE(2813)			_hx_tmp = ::hx::IsEq( this->get_type(),1 );
             		}
             		else {
-HXLINE(2822)			_hx_tmp = false;
+HXLINE(2813)			_hx_tmp = false;
             		}
-HXDLIN(2822)		if (_hx_tmp) {
-HXLINE(2824)			bool _hx_tmp;
-HXDLIN(2824)			if (::hx::IsNotNull( this->stage )) {
-HXLINE(2824)				_hx_tmp = ::hx::IsEq( this->stage->get_focus(),::hx::ObjectPtr<OBJ_>(this) );
+HXDLIN(2813)		if (_hx_tmp) {
+HXLINE(2815)			bool _hx_tmp;
+HXDLIN(2815)			if (::hx::IsNotNull( this->stage )) {
+HXLINE(2815)				_hx_tmp = ::hx::IsEq( this->stage->get_focus(),::hx::ObjectPtr<OBJ_>(this) );
             			}
             			else {
-HXLINE(2824)				_hx_tmp = false;
+HXLINE(2815)				_hx_tmp = false;
             			}
-HXDLIN(2824)			if (_hx_tmp) {
-HXLINE(2826)				this->_hx___startTextInput();
+HXDLIN(2815)			if (_hx_tmp) {
+HXLINE(2817)				this->_hx___startTextInput();
             			}
             			else {
-HXLINE(2828)				if (!(value)) {
-HXLINE(2830)					this->_hx___stopTextInput();
+HXLINE(2819)				if (!(value)) {
+HXLINE(2821)					this->_hx___stopTextInput();
             				}
             			}
             		}
-HXLINE(2834)		return (this->_hx___textEngine->selectable = value);
+HXLINE(2825)		return (this->_hx___textEngine->selectable = value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,set_selectable,return )
 
 int TextField_obj::get_selectionBeginIndex(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2839_get_selectionBeginIndex)
-HXDLIN(2839)		return ::Std_obj::_hx_int(::Math_obj::min(( (Float)(this->_hx___caretIndex) ),( (Float)(this->_hx___selectionIndex) )));
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2830_get_selectionBeginIndex)
+HXDLIN(2830)		return ::Std_obj::_hx_int(::Math_obj::min(( (Float)(this->_hx___caretIndex) ),( (Float)(this->_hx___selectionIndex) )));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_selectionBeginIndex,return )
 
 int TextField_obj::get_selectionEndIndex(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2844_get_selectionEndIndex)
-HXDLIN(2844)		return ::Std_obj::_hx_int(::Math_obj::max(( (Float)(this->_hx___caretIndex) ),( (Float)(this->_hx___selectionIndex) )));
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2835_get_selectionEndIndex)
+HXDLIN(2835)		return ::Std_obj::_hx_int(::Math_obj::max(( (Float)(this->_hx___caretIndex) ),( (Float)(this->_hx___selectionIndex) )));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_selectionEndIndex,return )
 
 Float TextField_obj::get_sharpness(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2849_get_sharpness)
-HXDLIN(2849)		return this->_hx___textEngine->sharpness;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2840_get_sharpness)
+HXDLIN(2840)		return this->_hx___textEngine->sharpness;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_sharpness,return )
 
 Float TextField_obj::set_sharpness(Float value){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2853_set_sharpness)
-HXLINE(2854)		if ((value != this->_hx___textEngine->sharpness)) {
-HXLINE(2856)			this->_hx___dirty = true;
-HXLINE(2857)			if (!(this->_hx___renderDirty)) {
-HXLINE(2857)				this->_hx___renderDirty = true;
-HXDLIN(2857)				this->_hx___setParentRenderDirty();
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2844_set_sharpness)
+HXLINE(2845)		if ((value != this->_hx___textEngine->sharpness)) {
+HXLINE(2847)			this->_hx___dirty = true;
+HXLINE(2848)			if (!(this->_hx___renderDirty)) {
+HXLINE(2848)				this->_hx___renderDirty = true;
+HXDLIN(2848)				this->_hx___setParentRenderDirty();
             			}
             		}
-HXLINE(2860)		return (this->_hx___textEngine->sharpness = value);
+HXLINE(2851)		return (this->_hx___textEngine->sharpness = value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,set_sharpness,return )
 
 bool TextField_obj::get_tabEnabled(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2865_get_tabEnabled)
-HXDLIN(2865)		if (::hx::IsNull( this->_hx___tabEnabled )) {
-HXDLIN(2865)			return ::hx::IsEq( this->_hx___textEngine->type,1 );
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2856_get_tabEnabled)
+HXDLIN(2856)		if (::hx::IsNull( this->_hx___tabEnabled )) {
+HXDLIN(2856)			return ::hx::IsEq( this->_hx___textEngine->type,1 );
             		}
             		else {
-HXDLIN(2865)			return ( (bool)(this->_hx___tabEnabled) );
+HXDLIN(2856)			return ( (bool)(this->_hx___tabEnabled) );
             		}
-HXDLIN(2865)		return false;
+HXDLIN(2856)		return false;
             	}
 
 
 ::String TextField_obj::get_text(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2870_get_text)
-HXDLIN(2870)		return this->_hx___text;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2861_get_text)
+HXDLIN(2861)		return this->_hx___text;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_text,return )
 
 ::String TextField_obj::set_text(::String value){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2874_set_text)
-HXLINE(2875)		bool _hx_tmp;
-HXDLIN(2875)		if (!(this->_hx___isHTML)) {
-HXLINE(2875)			_hx_tmp = (this->_hx___text != value);
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2865_set_text)
+HXLINE(2866)		bool _hx_tmp;
+HXDLIN(2866)		if (!(this->_hx___isHTML)) {
+HXLINE(2866)			_hx_tmp = (this->_hx___text != value);
             		}
             		else {
-HXLINE(2875)			_hx_tmp = true;
+HXLINE(2866)			_hx_tmp = true;
             		}
-HXDLIN(2875)		if (_hx_tmp) {
-HXLINE(2877)			this->_hx___dirty = true;
-HXLINE(2878)			this->_hx___layoutDirty = true;
-HXLINE(2879)			if (!(this->_hx___renderDirty)) {
-HXLINE(2879)				this->_hx___renderDirty = true;
-HXDLIN(2879)				this->_hx___setParentRenderDirty();
+HXDLIN(2866)		if (_hx_tmp) {
+HXLINE(2868)			this->_hx___dirty = true;
+HXLINE(2869)			this->_hx___layoutDirty = true;
+HXLINE(2870)			if (!(this->_hx___renderDirty)) {
+HXLINE(2870)				this->_hx___renderDirty = true;
+HXDLIN(2870)				this->_hx___setParentRenderDirty();
             			}
             		}
             		else {
-HXLINE(2883)			return value;
+HXLINE(2874)			return value;
             		}
-HXLINE(2886)		if ((this->_hx___textEngine->textFormatRanges->get_length() > 1)) {
-HXLINE(2888)			::Dynamic this1 = this->_hx___textEngine->textFormatRanges;
-HXDLIN(2888)			( ( ::openfl::_Vector::ObjectVector)(this1) )->splice(1,(this->_hx___textEngine->textFormatRanges->get_length() - 1));
+HXLINE(2877)		if ((this->_hx___textEngine->textFormatRanges->get_length() > 1)) {
+HXLINE(2879)			::Dynamic this1 = this->_hx___textEngine->textFormatRanges;
+HXDLIN(2879)			( ( ::openfl::_Vector::ObjectVector)(this1) )->splice(1,(this->_hx___textEngine->textFormatRanges->get_length() - 1));
             		}
-HXLINE(2891)		::String utfValue = value;
-HXLINE(2892)		 ::openfl::text::_internal::TextFormatRange range = this->_hx___textEngine->textFormatRanges->get(0).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXLINE(2893)		range->format = this->_hx___textFormat;
-HXLINE(2894)		range->start = 0;
-HXLINE(2895)		range->end = utfValue.length;
-HXLINE(2897)		this->_hx___isHTML = false;
-HXLINE(2899)		this->_hx___updateText(value);
-HXLINE(2900)		this->_hx___selectionIndex = (this->_hx___caretIndex = 0);
-HXLINE(2902)		return value;
+HXLINE(2882)		::String utfValue = value;
+HXLINE(2883)		 ::openfl::text::_internal::TextFormatRange range = this->_hx___textEngine->textFormatRanges->get(0).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXLINE(2884)		range->format = this->_hx___textFormat;
+HXLINE(2885)		range->start = 0;
+HXLINE(2886)		range->end = utfValue.length;
+HXLINE(2888)		this->_hx___isHTML = false;
+HXLINE(2890)		this->_hx___updateText(value);
+HXLINE(2891)		this->_hx___updateScrollV();
+HXLINE(2893)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,set_text,return )
 
 int TextField_obj::get_textColor(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2907_get_textColor)
-HXDLIN(2907)		return ( (int)(this->_hx___textFormat->color) );
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2898_get_textColor)
+HXDLIN(2898)		return ( (int)(this->_hx___textFormat->color) );
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_textColor,return )
 
 int TextField_obj::set_textColor(int value){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2911_set_textColor)
-HXLINE(2912)		if (::hx::IsNotEq( value,this->_hx___textFormat->color )) {
-HXLINE(2914)			this->_hx___dirty = true;
-HXLINE(2915)			if (!(this->_hx___renderDirty)) {
-HXLINE(2915)				this->_hx___renderDirty = true;
-HXDLIN(2915)				this->_hx___setParentRenderDirty();
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2902_set_textColor)
+HXLINE(2903)		if (::hx::IsNotEq( value,this->_hx___textFormat->color )) {
+HXLINE(2905)			this->_hx___dirty = true;
+HXLINE(2906)			if (!(this->_hx___renderDirty)) {
+HXLINE(2906)				this->_hx___renderDirty = true;
+HXDLIN(2906)				this->_hx___setParentRenderDirty();
             			}
             		}
-HXLINE(2918)		{
-HXLINE(2918)			 ::Dynamic range = this->_hx___textEngine->textFormatRanges->iterator();
-HXDLIN(2918)			while(( (bool)(range->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE(2918)				 ::openfl::text::_internal::TextFormatRange range1 = ( ( ::openfl::text::_internal::TextFormatRange)(range->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE(2920)				range1->format->color = value;
+HXLINE(2909)		{
+HXLINE(2909)			 ::Dynamic range = this->_hx___textEngine->textFormatRanges->iterator();
+HXDLIN(2909)			while(( (bool)(range->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE(2909)				 ::openfl::text::_internal::TextFormatRange range1 = ( ( ::openfl::text::_internal::TextFormatRange)(range->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE(2911)				range1->format->color = value;
             			}
             		}
-HXLINE(2923)		return ( (int)((this->_hx___textFormat->color = value)) );
+HXLINE(2914)		return ( (int)((this->_hx___textFormat->color = value)) );
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,set_textColor,return )
 
 Float TextField_obj::get_textWidth(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2927_get_textWidth)
-HXLINE(2928)		this->_hx___updateLayout();
-HXLINE(2929)		return this->_hx___textEngine->textWidth;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2918_get_textWidth)
+HXLINE(2919)		this->_hx___updateLayout();
+HXLINE(2920)		return this->_hx___textEngine->textWidth;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_textWidth,return )
 
 Float TextField_obj::get_textHeight(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2933_get_textHeight)
-HXLINE(2934)		this->_hx___updateLayout();
-HXLINE(2935)		return this->_hx___textEngine->textHeight;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2924_get_textHeight)
+HXLINE(2925)		this->_hx___updateLayout();
+HXLINE(2926)		return this->_hx___textEngine->textHeight;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_textHeight,return )
 
  ::Dynamic TextField_obj::get_type(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2940_get_type)
-HXDLIN(2940)		return this->_hx___textEngine->type;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2931_get_type)
+HXDLIN(2931)		return this->_hx___textEngine->type;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_type,return )
 
  ::Dynamic TextField_obj::set_type( ::Dynamic value){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2944_set_type)
-HXLINE(2945)		if (::hx::IsNotEq( value,this->_hx___textEngine->type )) {
-HXLINE(2947)			if (::hx::IsEq( value,1 )) {
-HXLINE(2949)				this->addEventListener(HX_("addedToStage",63,22,55,0c),this->this_onAddedToStage_dyn(),null(),null(),null());
-HXLINE(2951)				this->this_onFocusIn(null());
-HXLINE(2952)				this->_hx___textEngine->_hx___useIntAdvances = true;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2935_set_type)
+HXLINE(2936)		if (::hx::IsNotEq( value,this->_hx___textEngine->type )) {
+HXLINE(2938)			if (::hx::IsEq( value,1 )) {
+HXLINE(2940)				this->addEventListener(HX_("addedToStage",63,22,55,0c),this->this_onAddedToStage_dyn(),null(),null(),null());
+HXLINE(2942)				this->this_onFocusIn(null());
+HXLINE(2943)				this->_hx___textEngine->_hx___useIntAdvances = true;
             			}
             			else {
-HXLINE(2956)				this->removeEventListener(HX_("addedToStage",63,22,55,0c),this->this_onAddedToStage_dyn(),null());
-HXLINE(2958)				this->_hx___stopTextInput();
-HXLINE(2959)				this->_hx___textEngine->_hx___useIntAdvances = null();
+HXLINE(2947)				this->removeEventListener(HX_("addedToStage",63,22,55,0c),this->this_onAddedToStage_dyn(),null());
+HXLINE(2949)				this->_hx___stopTextInput();
+HXLINE(2950)				this->_hx___textEngine->_hx___useIntAdvances = null();
             			}
-HXLINE(2962)			this->_hx___dirty = true;
-HXLINE(2963)			this->_hx___layoutDirty = true;
-HXLINE(2964)			if (!(this->_hx___renderDirty)) {
-HXLINE(2964)				this->_hx___renderDirty = true;
-HXDLIN(2964)				this->_hx___setParentRenderDirty();
+HXLINE(2953)			this->_hx___dirty = true;
+HXLINE(2954)			this->_hx___layoutDirty = true;
+HXLINE(2955)			if (!(this->_hx___renderDirty)) {
+HXLINE(2955)				this->_hx___renderDirty = true;
+HXDLIN(2955)				this->_hx___setParentRenderDirty();
             			}
             		}
-HXLINE(2967)		return (this->_hx___textEngine->type = value);
+HXLINE(2958)		return (this->_hx___textEngine->type = value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,set_type,return )
 
 Float TextField_obj::get_width(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2971_get_width)
-HXLINE(2972)		this->_hx___updateLayout();
-HXLINE(2973)		return (this->_hx___textEngine->width * ::Math_obj::abs(this->_hx___scaleX));
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2962_get_width)
+HXLINE(2963)		this->_hx___updateLayout();
+HXLINE(2964)		return (this->_hx___textEngine->width * ::Math_obj::abs(this->_hx___scaleX));
             	}
 
 
 Float TextField_obj::set_width(Float value){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2977_set_width)
-HXLINE(2978)		if ((value != this->_hx___textEngine->width)) {
-HXLINE(2980)			this->_hx___setTransformDirty();
-HXLINE(2981)			this->_hx___dirty = true;
-HXLINE(2982)			this->_hx___layoutDirty = true;
-HXLINE(2983)			if (!(this->_hx___renderDirty)) {
-HXLINE(2983)				this->_hx___renderDirty = true;
-HXDLIN(2983)				this->_hx___setParentRenderDirty();
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2968_set_width)
+HXLINE(2969)		if ((value != this->_hx___textEngine->width)) {
+HXLINE(2971)			this->_hx___setTransformDirty();
+HXLINE(2972)			this->_hx___dirty = true;
+HXLINE(2973)			this->_hx___layoutDirty = true;
+HXLINE(2974)			if (!(this->_hx___renderDirty)) {
+HXLINE(2974)				this->_hx___renderDirty = true;
+HXDLIN(2974)				this->_hx___setParentRenderDirty();
             			}
-HXLINE(2985)			this->_hx___textEngine->width = value;
+HXLINE(2976)			this->_hx___textEngine->width = value;
             		}
-HXLINE(2988)		return (this->_hx___textEngine->width * ::Math_obj::abs(this->_hx___scaleX));
+HXLINE(2979)		return (this->_hx___textEngine->width * ::Math_obj::abs(this->_hx___scaleX));
             	}
 
 
 bool TextField_obj::get_wordWrap(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2993_get_wordWrap)
-HXDLIN(2993)		return this->_hx___textEngine->wordWrap;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2984_get_wordWrap)
+HXDLIN(2984)		return this->_hx___textEngine->wordWrap;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextField_obj,get_wordWrap,return )
 
 bool TextField_obj::set_wordWrap(bool value){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2997_set_wordWrap)
-HXLINE(2998)		if ((value != this->_hx___textEngine->wordWrap)) {
-HXLINE(3000)			this->_hx___dirty = true;
-HXLINE(3001)			this->_hx___layoutDirty = true;
-HXLINE(3002)			if (!(this->_hx___renderDirty)) {
-HXLINE(3002)				this->_hx___renderDirty = true;
-HXDLIN(3002)				this->_hx___setParentRenderDirty();
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_2988_set_wordWrap)
+HXLINE(2989)		if ((value != this->_hx___textEngine->wordWrap)) {
+HXLINE(2991)			this->_hx___dirty = true;
+HXLINE(2992)			this->_hx___layoutDirty = true;
+HXLINE(2993)			if (!(this->_hx___renderDirty)) {
+HXLINE(2993)				this->_hx___renderDirty = true;
+HXDLIN(2993)				this->_hx___setParentRenderDirty();
             			}
             		}
-HXLINE(3005)		return (this->_hx___textEngine->wordWrap = value);
+HXLINE(2996)		return (this->_hx___textEngine->wordWrap = value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,set_wordWrap,return )
 
 Float TextField_obj::get_x(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_3010_get_x)
-HXDLIN(3010)		return (this->_hx___transform->tx + this->_hx___offsetX);
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_3001_get_x)
+HXDLIN(3001)		return (this->_hx___transform->tx + this->_hx___offsetX);
             	}
 
 
 Float TextField_obj::set_x(Float value){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_3014_set_x)
-HXLINE(3015)		if ((value != (this->_hx___transform->tx + this->_hx___offsetX))) {
-HXLINE(3015)			this->_hx___setTransformDirty();
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_3005_set_x)
+HXLINE(3006)		if ((value != (this->_hx___transform->tx + this->_hx___offsetX))) {
+HXLINE(3006)			this->_hx___setTransformDirty();
             		}
-HXLINE(3016)		return (this->_hx___transform->tx = (value - this->_hx___offsetX));
+HXLINE(3007)		return (this->_hx___transform->tx = (value - this->_hx___offsetX));
             	}
 
 
 Float TextField_obj::get_y(){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_3021_get_y)
-HXDLIN(3021)		return (this->_hx___transform->ty + this->_hx___offsetY);
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_3012_get_y)
+HXDLIN(3012)		return (this->_hx___transform->ty + this->_hx___offsetY);
             	}
 
 
 Float TextField_obj::set_y(Float value){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_3025_set_y)
-HXLINE(3026)		if ((value != (this->_hx___transform->ty + this->_hx___offsetY))) {
-HXLINE(3026)			this->_hx___setTransformDirty();
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_3016_set_y)
+HXLINE(3017)		if ((value != (this->_hx___transform->ty + this->_hx___offsetY))) {
+HXLINE(3017)			this->_hx___setTransformDirty();
             		}
-HXLINE(3027)		return (this->_hx___transform->ty = (value - this->_hx___offsetY));
+HXLINE(3018)		return (this->_hx___transform->ty = (value - this->_hx___offsetY));
             	}
 
 
 void TextField_obj::stage_onMouseMove( ::openfl::events::MouseEvent event){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_3032_stage_onMouseMove)
-HXLINE(3033)		if (::hx::IsNull( this->stage )) {
-HXLINE(3033)			return;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_3023_stage_onMouseMove)
+HXLINE(3024)		if (::hx::IsNull( this->stage )) {
+HXLINE(3024)			return;
             		}
-HXLINE(3035)		bool _hx_tmp;
-HXDLIN(3035)		if (this->get_selectable()) {
-HXLINE(3035)			_hx_tmp = (this->_hx___selectionIndex >= 0);
+HXLINE(3026)		bool _hx_tmp;
+HXDLIN(3026)		if (this->get_selectable()) {
+HXLINE(3026)			_hx_tmp = (this->_hx___selectionIndex >= 0);
             		}
             		else {
-HXLINE(3035)			_hx_tmp = false;
+HXLINE(3026)			_hx_tmp = false;
             		}
-HXDLIN(3035)		if (_hx_tmp) {
-HXLINE(3037)			this->_hx___updateLayout();
-HXLINE(3039)			Float position = this->get_mouseX();
-HXDLIN(3039)			Float position1 = (position + this->get_scrollH());
-HXDLIN(3039)			int position2 = this->_hx___getPosition(position1,this->get_mouseY());
-HXLINE(3041)			if ((position2 != this->_hx___caretIndex)) {
-HXLINE(3043)				this->_hx___caretIndex = position2;
-HXLINE(3045)				bool setDirty = true;
-HXLINE(3058)				if (setDirty) {
-HXLINE(3060)					this->_hx___dirty = true;
-HXLINE(3061)					if (!(this->_hx___renderDirty)) {
-HXLINE(3061)						this->_hx___renderDirty = true;
-HXDLIN(3061)						this->_hx___setParentRenderDirty();
+HXDLIN(3026)		if (_hx_tmp) {
+HXLINE(3028)			this->_hx___updateLayout();
+HXLINE(3030)			Float position = this->get_mouseX();
+HXDLIN(3030)			Float position1 = (position + this->get_scrollH());
+HXDLIN(3030)			int position2 = this->_hx___getPosition(position1,this->get_mouseY());
+HXLINE(3032)			if ((position2 != this->_hx___caretIndex)) {
+HXLINE(3034)				this->_hx___caretIndex = position2;
+HXLINE(3036)				bool setDirty = true;
+HXLINE(3049)				if (setDirty) {
+HXLINE(3051)					this->_hx___dirty = true;
+HXLINE(3052)					if (!(this->_hx___renderDirty)) {
+HXLINE(3052)						this->_hx___renderDirty = true;
+HXDLIN(3052)						this->_hx___setParentRenderDirty();
             					}
             				}
             			}
@@ -3236,27 +3264,26 @@ HXDLIN(3061)						this->_hx___setParentRenderDirty();
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,stage_onMouseMove,(void))
 
 void TextField_obj::stage_onMouseUp( ::openfl::events::MouseEvent event){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_3068_stage_onMouseUp)
-HXLINE(3069)		if (::hx::IsNull( this->stage )) {
-HXLINE(3069)			return;
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_3059_stage_onMouseUp)
+HXLINE(3060)		if (::hx::IsNull( this->stage )) {
+HXLINE(3060)			return;
             		}
-HXLINE(3071)		this->stage->removeEventListener(HX_("enterFrame",f5,03,50,02),this->this_onEnterFrame_dyn(),null());
-HXLINE(3072)		this->stage->removeEventListener(HX_("mouseMove",d6,9b,b5,f4),this->stage_onMouseMove_dyn(),null());
-HXLINE(3073)		this->stage->removeEventListener(HX_("mouseUp",e0,f3,72,c0),this->stage_onMouseUp_dyn(),null());
-HXLINE(3075)		if (::hx::IsEq( this->stage->get_focus(),::hx::ObjectPtr<OBJ_>(this) )) {
-HXLINE(3077)			this->_hx___getWorldTransform();
-HXLINE(3078)			this->_hx___updateLayout();
-HXLINE(3080)			Float upPos = this->get_mouseX();
-HXDLIN(3080)			Float upPos1 = (upPos + this->get_scrollH());
-HXDLIN(3080)			int upPos2 = this->_hx___getPosition(upPos1,this->get_mouseY());
-HXLINE(3081)			int leftPos = ::Std_obj::_hx_int(::Math_obj::min(( (Float)(this->_hx___selectionIndex) ),( (Float)(upPos2) )));
-HXLINE(3082)			int rightPos = ::Std_obj::_hx_int(::Math_obj::max(( (Float)(this->_hx___selectionIndex) ),( (Float)(upPos2) )));
-HXLINE(3087)			this->_hx___selectionIndex = leftPos;
-HXLINE(3088)			this->_hx___caretIndex = rightPos;
-HXLINE(3090)			if (this->_hx___inputEnabled) {
-HXLINE(3092)				this->this_onFocusIn(null());
-HXLINE(3094)				this->_hx___stopCursorTimer();
-HXLINE(3095)				this->_hx___startCursorTimer();
+HXLINE(3062)		this->stage->removeEventListener(HX_("mouseMove",d6,9b,b5,f4),this->stage_onMouseMove_dyn(),null());
+HXLINE(3063)		this->stage->removeEventListener(HX_("mouseUp",e0,f3,72,c0),this->stage_onMouseUp_dyn(),null());
+HXLINE(3065)		if (::hx::IsEq( this->stage->get_focus(),::hx::ObjectPtr<OBJ_>(this) )) {
+HXLINE(3067)			this->_hx___getWorldTransform();
+HXLINE(3068)			this->_hx___updateLayout();
+HXLINE(3070)			Float upPos = this->get_mouseX();
+HXDLIN(3070)			Float upPos1 = (upPos + this->get_scrollH());
+HXDLIN(3070)			int upPos2 = this->_hx___getPosition(upPos1,this->get_mouseY());
+HXLINE(3071)			int leftPos = ::Std_obj::_hx_int(::Math_obj::min(( (Float)(this->_hx___selectionIndex) ),( (Float)(upPos2) )));
+HXLINE(3072)			int rightPos = ::Std_obj::_hx_int(::Math_obj::max(( (Float)(this->_hx___selectionIndex) ),( (Float)(upPos2) )));
+HXLINE(3077)			this->_hx___selectionIndex = leftPos;
+HXLINE(3078)			this->_hx___caretIndex = rightPos;
+HXLINE(3080)			if (this->_hx___inputEnabled) {
+HXLINE(3082)				this->this_onFocusIn(null());
+HXLINE(3084)				this->_hx___stopCursorTimer();
+HXLINE(3085)				this->_hx___startCursorTimer();
             			}
             		}
             	}
@@ -3265,39 +3292,31 @@ HXLINE(3095)				this->_hx___startCursorTimer();
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,stage_onMouseUp,(void))
 
 void TextField_obj::this_onAddedToStage( ::openfl::events::Event event){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_3109_this_onAddedToStage)
-HXDLIN(3109)		this->this_onFocusIn(null());
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_3099_this_onAddedToStage)
+HXDLIN(3099)		this->this_onFocusIn(null());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,this_onAddedToStage,(void))
 
-void TextField_obj::this_onEnterFrame( ::openfl::events::Event e){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_3114_this_onEnterFrame)
-HXDLIN(3114)		this->_hx___updateMouseDrag();
-            	}
-
-
-HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,this_onEnterFrame,(void))
-
 void TextField_obj::this_onFocusIn( ::openfl::events::FocusEvent event){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_3120_this_onFocusIn)
-HXDLIN(3120)		bool _hx_tmp;
-HXDLIN(3120)		bool _hx_tmp1;
-HXDLIN(3120)		if (::hx::IsEq( this->get_type(),1 )) {
-HXDLIN(3120)			_hx_tmp1 = ::hx::IsNotNull( this->stage );
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_3104_this_onFocusIn)
+HXDLIN(3104)		bool _hx_tmp;
+HXDLIN(3104)		bool _hx_tmp1;
+HXDLIN(3104)		if (::hx::IsEq( this->get_type(),1 )) {
+HXDLIN(3104)			_hx_tmp1 = ::hx::IsNotNull( this->stage );
             		}
             		else {
-HXDLIN(3120)			_hx_tmp1 = false;
+HXDLIN(3104)			_hx_tmp1 = false;
             		}
-HXDLIN(3120)		if (_hx_tmp1) {
-HXDLIN(3120)			_hx_tmp = ::hx::IsEq( this->stage->get_focus(),::hx::ObjectPtr<OBJ_>(this) );
+HXDLIN(3104)		if (_hx_tmp1) {
+HXDLIN(3104)			_hx_tmp = ::hx::IsEq( this->stage->get_focus(),::hx::ObjectPtr<OBJ_>(this) );
             		}
             		else {
-HXDLIN(3120)			_hx_tmp = false;
+HXDLIN(3104)			_hx_tmp = false;
             		}
-HXDLIN(3120)		if (_hx_tmp) {
-HXLINE(3122)			this->_hx___startTextInput();
+HXDLIN(3104)		if (_hx_tmp) {
+HXLINE(3106)			this->_hx___startTextInput();
             		}
             	}
 
@@ -3305,31 +3324,31 @@ HXLINE(3122)			this->_hx___startTextInput();
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,this_onFocusIn,(void))
 
 void TextField_obj::this_onFocusOut( ::openfl::events::FocusEvent event){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_3127_this_onFocusOut)
-HXLINE(3128)		this->_hx___stopCursorTimer();
-HXLINE(3132)		bool _hx_tmp;
-HXDLIN(3132)		if (::hx::IsNotNull( event->relatedObject )) {
-HXLINE(3132)			_hx_tmp = !(::Std_obj::isOfType(event->relatedObject,::hx::ClassOf< ::openfl::text::TextField >()));
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_3111_this_onFocusOut)
+HXLINE(3112)		this->_hx___stopCursorTimer();
+HXLINE(3116)		bool _hx_tmp;
+HXDLIN(3116)		if (::hx::IsNotNull( event->relatedObject )) {
+HXLINE(3116)			_hx_tmp = !(::Std_obj::isOfType(event->relatedObject,::hx::ClassOf< ::openfl::text::TextField >()));
             		}
             		else {
-HXLINE(3132)			_hx_tmp = true;
+HXLINE(3116)			_hx_tmp = true;
             		}
-HXDLIN(3132)		if (_hx_tmp) {
-HXLINE(3134)			this->_hx___stopTextInput();
+HXDLIN(3116)		if (_hx_tmp) {
+HXLINE(3118)			this->_hx___stopTextInput();
             		}
             		else {
-HXLINE(3138)			if (::hx::IsNotNull( this->stage )) {
-HXLINE(3141)				this->stage->window->onTextInput->remove(this->window_onTextInput_dyn());
-HXLINE(3142)				this->stage->window->onKeyDown->remove(this->window_onKeyDown_dyn());
+HXLINE(3122)			if (::hx::IsNotNull( this->stage )) {
+HXLINE(3125)				this->stage->window->onTextInput->remove(this->window_onTextInput_dyn());
+HXLINE(3126)				this->stage->window->onKeyDown->remove(this->window_onKeyDown_dyn());
             			}
-HXLINE(3146)			this->_hx___inputEnabled = false;
+HXLINE(3130)			this->_hx___inputEnabled = false;
             		}
-HXLINE(3149)		if ((this->_hx___selectionIndex != this->_hx___caretIndex)) {
-HXLINE(3151)			this->_hx___selectionIndex = this->_hx___caretIndex;
-HXLINE(3152)			this->_hx___dirty = true;
-HXLINE(3153)			if (!(this->_hx___renderDirty)) {
-HXLINE(3153)				this->_hx___renderDirty = true;
-HXDLIN(3153)				this->_hx___setParentRenderDirty();
+HXLINE(3133)		if ((this->_hx___selectionIndex != this->_hx___caretIndex)) {
+HXLINE(3135)			this->_hx___selectionIndex = this->_hx___caretIndex;
+HXLINE(3136)			this->_hx___dirty = true;
+HXLINE(3137)			if (!(this->_hx___renderDirty)) {
+HXLINE(3137)				this->_hx___renderDirty = true;
+HXDLIN(3137)				this->_hx___setParentRenderDirty();
             			}
             		}
             	}
@@ -3338,36 +3357,36 @@ HXDLIN(3153)				this->_hx___setParentRenderDirty();
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,this_onFocusOut,(void))
 
 void TextField_obj::this_onKeyDown( ::openfl::events::KeyboardEvent event){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_3160_this_onKeyDown)
-HXDLIN(3160)		bool _hx_tmp;
-HXDLIN(3160)		bool _hx_tmp1;
-HXDLIN(3160)		bool _hx_tmp2;
-HXDLIN(3160)		if (this->get_selectable()) {
-HXDLIN(3160)			_hx_tmp2 = ::hx::IsNotEq( this->get_type(),1 );
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_3144_this_onKeyDown)
+HXDLIN(3144)		bool _hx_tmp;
+HXDLIN(3144)		bool _hx_tmp1;
+HXDLIN(3144)		bool _hx_tmp2;
+HXDLIN(3144)		if (this->get_selectable()) {
+HXDLIN(3144)			_hx_tmp2 = ::hx::IsNotEq( this->get_type(),1 );
             		}
             		else {
-HXDLIN(3160)			_hx_tmp2 = false;
+HXDLIN(3144)			_hx_tmp2 = false;
             		}
-HXDLIN(3160)		if (_hx_tmp2) {
-HXDLIN(3160)			_hx_tmp1 = (event->keyCode == 67);
+HXDLIN(3144)		if (_hx_tmp2) {
+HXDLIN(3144)			_hx_tmp1 = (event->keyCode == 67);
             		}
             		else {
-HXDLIN(3160)			_hx_tmp1 = false;
+HXDLIN(3144)			_hx_tmp1 = false;
             		}
-HXDLIN(3160)		if (_hx_tmp1) {
-HXDLIN(3160)			if (!(event->commandKey)) {
-HXDLIN(3160)				_hx_tmp = event->ctrlKey;
+HXDLIN(3144)		if (_hx_tmp1) {
+HXDLIN(3144)			if (!(event->commandKey)) {
+HXDLIN(3144)				_hx_tmp = event->ctrlKey;
             			}
             			else {
-HXDLIN(3160)				_hx_tmp = true;
+HXDLIN(3144)				_hx_tmp = true;
             			}
             		}
             		else {
-HXDLIN(3160)			_hx_tmp = false;
+HXDLIN(3144)			_hx_tmp = false;
             		}
-HXDLIN(3160)		if (_hx_tmp) {
-HXLINE(3162)			if ((this->_hx___caretIndex != this->_hx___selectionIndex)) {
-HXLINE(3164)				::lime::_hx_system::Clipboard_obj::set_text(this->_hx___text.substring(this->_hx___caretIndex,this->_hx___selectionIndex));
+HXDLIN(3144)		if (_hx_tmp) {
+HXLINE(3146)			if ((this->_hx___caretIndex != this->_hx___selectionIndex)) {
+HXLINE(3148)				::lime::_hx_system::Clipboard_obj::set_text(this->_hx___text.substring(this->_hx___caretIndex,this->_hx___selectionIndex));
             			}
             		}
             	}
@@ -3376,43 +3395,42 @@ HXLINE(3164)				::lime::_hx_system::Clipboard_obj::set_text(this->_hx___text.sub
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,this_onKeyDown,(void))
 
 void TextField_obj::this_onMouseDown( ::openfl::events::MouseEvent event){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_3171_this_onMouseDown)
-HXLINE(3172)		bool _hx_tmp;
-HXDLIN(3172)		if (!(this->get_selectable())) {
-HXLINE(3172)			_hx_tmp = ::hx::IsNotEq( this->get_type(),1 );
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_3155_this_onMouseDown)
+HXLINE(3156)		bool _hx_tmp;
+HXDLIN(3156)		if (!(this->get_selectable())) {
+HXLINE(3156)			_hx_tmp = ::hx::IsNotEq( this->get_type(),1 );
             		}
             		else {
-HXLINE(3172)			_hx_tmp = false;
+HXLINE(3156)			_hx_tmp = false;
             		}
-HXDLIN(3172)		if (_hx_tmp) {
-HXLINE(3172)			return;
+HXDLIN(3156)		if (_hx_tmp) {
+HXLINE(3156)			return;
             		}
-HXLINE(3174)		this->_hx___updateLayout();
-HXLINE(3176)		Float _hx_tmp1 = this->get_mouseX();
-HXDLIN(3176)		Float _hx_tmp2 = (_hx_tmp1 + this->get_scrollH());
-HXDLIN(3176)		this->_hx___caretIndex = this->_hx___getPosition(_hx_tmp2,this->get_mouseY());
-HXLINE(3177)		this->_hx___selectionIndex = this->_hx___caretIndex;
-HXLINE(3180)		{
-HXLINE(3181)			this->_hx___dirty = true;
-HXLINE(3182)			if (!(this->_hx___renderDirty)) {
-HXLINE(3182)				this->_hx___renderDirty = true;
-HXDLIN(3182)				this->_hx___setParentRenderDirty();
+HXLINE(3158)		this->_hx___updateLayout();
+HXLINE(3160)		Float _hx_tmp1 = this->get_mouseX();
+HXDLIN(3160)		Float _hx_tmp2 = (_hx_tmp1 + this->get_scrollH());
+HXDLIN(3160)		this->_hx___caretIndex = this->_hx___getPosition(_hx_tmp2,this->get_mouseY());
+HXLINE(3161)		this->_hx___selectionIndex = this->_hx___caretIndex;
+HXLINE(3164)		{
+HXLINE(3165)			this->_hx___dirty = true;
+HXLINE(3166)			if (!(this->_hx___renderDirty)) {
+HXLINE(3166)				this->_hx___renderDirty = true;
+HXDLIN(3166)				this->_hx___setParentRenderDirty();
             			}
             		}
-HXLINE(3186)		this->stage->addEventListener(HX_("enterFrame",f5,03,50,02),this->this_onEnterFrame_dyn(),null(),null(),null());
-HXLINE(3188)		this->stage->addEventListener(HX_("mouseMove",d6,9b,b5,f4),this->stage_onMouseMove_dyn(),null(),null(),null());
-HXLINE(3189)		this->stage->addEventListener(HX_("mouseUp",e0,f3,72,c0),this->stage_onMouseUp_dyn(),null(),null(),null());
+HXLINE(3169)		this->stage->addEventListener(HX_("mouseMove",d6,9b,b5,f4),this->stage_onMouseMove_dyn(),null(),null(),null());
+HXLINE(3170)		this->stage->addEventListener(HX_("mouseUp",e0,f3,72,c0),this->stage_onMouseUp_dyn(),null(),null(),null());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,this_onMouseDown,(void))
 
 void TextField_obj::this_onMouseWheel( ::openfl::events::MouseEvent event){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_3194_this_onMouseWheel)
-HXDLIN(3194)		if (this->get_mouseWheelEnabled()) {
-HXLINE(3196)			 ::openfl::text::TextField _g = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(3196)			int _hx_tmp = _g->get_scrollV();
-HXDLIN(3196)			_g->set_scrollV((_hx_tmp - event->delta));
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_3175_this_onMouseWheel)
+HXDLIN(3175)		if (this->get_mouseWheelEnabled()) {
+HXLINE(3177)			 ::openfl::text::TextField _g = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(3177)			int _hx_tmp = _g->get_scrollV();
+HXDLIN(3177)			_g->set_scrollV((_hx_tmp - event->delta));
             		}
             	}
 
@@ -3420,60 +3438,60 @@ HXDLIN(3196)			_g->set_scrollV((_hx_tmp - event->delta));
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,this_onMouseWheel,(void))
 
 void TextField_obj::this_onDoubleClick( ::openfl::events::MouseEvent event){
-            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_3202_this_onDoubleClick)
-HXDLIN(3202)		if (this->get_selectable()) {
-HXLINE(3204)			this->_hx___updateLayout();
-HXLINE(3206)			::Array< ::String > delimiters = ::Array_obj< ::String >::fromData( _hx_array_data_efd5a8ca_154,13);
-HXLINE(3208)			::String txtStr = this->_hx___text;
-HXLINE(3209)			int leftPos = -1;
-HXLINE(3210)			int rightPos = txtStr.length;
-HXLINE(3211)			int pos = 0;
-HXLINE(3212)			int startPos = ::Std_obj::_hx_int(::Math_obj::max(( (Float)(this->_hx___caretIndex) ),( (Float)(1) )));
-HXLINE(3213)			bool _hx_tmp;
-HXDLIN(3213)			bool _hx_tmp1;
-HXDLIN(3213)			if ((txtStr.length > 0)) {
-HXLINE(3213)				_hx_tmp1 = (this->_hx___caretIndex >= 0);
+            	HX_STACKFRAME(&_hx_pos_d001dbc361c2c159_3183_this_onDoubleClick)
+HXDLIN(3183)		if (this->get_selectable()) {
+HXLINE(3185)			this->_hx___updateLayout();
+HXLINE(3187)			::Array< ::String > delimiters = ::Array_obj< ::String >::fromData( _hx_array_data_efd5a8ca_157,13);
+HXLINE(3189)			::String txtStr = this->_hx___text;
+HXLINE(3190)			int leftPos = -1;
+HXLINE(3191)			int rightPos = txtStr.length;
+HXLINE(3192)			int pos = 0;
+HXLINE(3193)			int startPos = ::Std_obj::_hx_int(::Math_obj::max(( (Float)(this->_hx___caretIndex) ),( (Float)(1) )));
+HXLINE(3194)			bool _hx_tmp;
+HXDLIN(3194)			bool _hx_tmp1;
+HXDLIN(3194)			if ((txtStr.length > 0)) {
+HXLINE(3194)				_hx_tmp1 = (this->_hx___caretIndex >= 0);
             			}
             			else {
-HXLINE(3213)				_hx_tmp1 = false;
+HXLINE(3194)				_hx_tmp1 = false;
             			}
-HXDLIN(3213)			if (_hx_tmp1) {
-HXLINE(3213)				_hx_tmp = (rightPos >= this->_hx___caretIndex);
+HXDLIN(3194)			if (_hx_tmp1) {
+HXLINE(3194)				_hx_tmp = (rightPos >= this->_hx___caretIndex);
             			}
             			else {
-HXLINE(3213)				_hx_tmp = false;
+HXLINE(3194)				_hx_tmp = false;
             			}
-HXDLIN(3213)			if (_hx_tmp) {
-HXLINE(3215)				{
-HXLINE(3215)					int _g = 0;
-HXDLIN(3215)					while((_g < delimiters->length)){
-HXLINE(3215)						::String c = delimiters->__get(_g);
-HXDLIN(3215)						_g = (_g + 1);
-HXLINE(3217)						pos = txtStr.lastIndexOf(c,(startPos - 1));
-HXLINE(3218)						if ((pos > leftPos)) {
-HXLINE(3218)							leftPos = (pos + 1);
+HXDLIN(3194)			if (_hx_tmp) {
+HXLINE(3196)				{
+HXLINE(3196)					int _g = 0;
+HXDLIN(3196)					while((_g < delimiters->length)){
+HXLINE(3196)						::String c = delimiters->__get(_g);
+HXDLIN(3196)						_g = (_g + 1);
+HXLINE(3198)						pos = txtStr.lastIndexOf(c,(startPos - 1));
+HXLINE(3199)						if ((pos > leftPos)) {
+HXLINE(3199)							leftPos = (pos + 1);
             						}
-HXLINE(3220)						pos = txtStr.indexOf(c,startPos);
-HXLINE(3221)						bool _hx_tmp;
-HXDLIN(3221)						if ((pos < rightPos)) {
-HXLINE(3221)							_hx_tmp = (pos != -1);
+HXLINE(3201)						pos = txtStr.indexOf(c,startPos);
+HXLINE(3202)						bool _hx_tmp;
+HXDLIN(3202)						if ((pos < rightPos)) {
+HXLINE(3202)							_hx_tmp = (pos != -1);
             						}
             						else {
-HXLINE(3221)							_hx_tmp = false;
+HXLINE(3202)							_hx_tmp = false;
             						}
-HXDLIN(3221)						if (_hx_tmp) {
-HXLINE(3221)							rightPos = pos;
+HXDLIN(3202)						if (_hx_tmp) {
+HXLINE(3202)							rightPos = pos;
             						}
             					}
             				}
-HXLINE(3224)				if ((leftPos != rightPos)) {
-HXLINE(3226)					this->setSelection(leftPos,rightPos);
-HXLINE(3228)					bool setDirty = true;
-HXLINE(3239)					if (setDirty) {
-HXLINE(3241)						this->_hx___dirty = true;
-HXLINE(3242)						if (!(this->_hx___renderDirty)) {
-HXLINE(3242)							this->_hx___renderDirty = true;
-HXDLIN(3242)							this->_hx___setParentRenderDirty();
+HXLINE(3205)				if ((leftPos != rightPos)) {
+HXLINE(3207)					this->setSelection(leftPos,rightPos);
+HXLINE(3209)					bool setDirty = true;
+HXLINE(3220)					if (setDirty) {
+HXLINE(3222)						this->_hx___dirty = true;
+HXLINE(3223)						if (!(this->_hx___renderDirty)) {
+HXLINE(3223)							this->_hx___renderDirty = true;
+HXDLIN(3223)							this->_hx___setParentRenderDirty();
             						}
             					}
             				}
@@ -3485,197 +3503,218 @@ HXDLIN(3242)							this->_hx___setParentRenderDirty();
 HX_DEFINE_DYNAMIC_FUNC1(TextField_obj,this_onDoubleClick,(void))
 
 void TextField_obj::window_onKeyDown(int key,int modifier){
-            	HX_GC_STACKFRAME(&_hx_pos_d001dbc361c2c159_3252_window_onKeyDown)
-HXDLIN(3252)		switch((int)(key)){
+            	HX_GC_STACKFRAME(&_hx_pos_d001dbc361c2c159_3233_window_onKeyDown)
+HXDLIN(3233)		switch((int)(key)){
             			case (int)8: {
-HXLINE(3275)				bool _hx_tmp;
-HXDLIN(3275)				if ((this->_hx___selectionIndex == this->_hx___caretIndex)) {
-HXLINE(3275)					_hx_tmp = (this->_hx___caretIndex > 0);
+HXLINE(3251)				bool _hx_tmp;
+HXDLIN(3251)				if ((this->_hx___selectionIndex == this->_hx___caretIndex)) {
+HXLINE(3251)					_hx_tmp = (this->_hx___caretIndex > 0);
             				}
             				else {
-HXLINE(3275)					_hx_tmp = false;
+HXLINE(3251)					_hx_tmp = false;
             				}
-HXDLIN(3275)				if (_hx_tmp) {
-HXLINE(3277)					this->_hx___selectionIndex = (this->_hx___caretIndex - 1);
+HXDLIN(3251)				if (_hx_tmp) {
+HXLINE(3253)					this->_hx___selectionIndex = (this->_hx___caretIndex - 1);
             				}
-HXLINE(3280)				if ((this->_hx___selectionIndex != this->_hx___caretIndex)) {
-HXLINE(3282)					this->replaceSelectedText(HX_("",00,00,00,00));
-HXLINE(3283)					this->_hx___selectionIndex = this->_hx___caretIndex;
-HXLINE(3285)					this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("change",70,91,72,b7),true,null()));
-            				}
-            				else {
-HXLINE(3289)					this->_hx___stopCursorTimer();
-HXLINE(3290)					this->_hx___startCursorTimer();
+HXLINE(3256)				if ((this->_hx___selectionIndex != this->_hx___caretIndex)) {
+HXLINE(3258)					this->replaceSelectedText(HX_("",00,00,00,00));
+HXLINE(3259)					this->_hx___selectionIndex = this->_hx___caretIndex;
+HXLINE(3261)					this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("change",70,91,72,b7),true,null()));
             				}
             			}
             			break;
             			case (int)97: {
-HXLINE(3466)				if (this->get_selectable()) {
-HXLINE(3467)					if (::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_ctrlKey(modifier)) {
-HXLINE(3469)						this->setSelection(0,this->_hx___text.length);
+HXLINE(3461)				if (this->get_selectable()) {
+HXLINE(3462)					if (::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_ctrlKey(modifier)) {
+HXLINE(3464)						this->_hx___caretIndex = this->_hx___text.length;
+HXLINE(3465)						this->_hx___selectionIndex = 0;
             					}
             				}
             			}
             			break;
             			case (int)99: {
-HXLINE(3416)				if (::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_ctrlKey(modifier)) {
-HXLINE(3418)					if ((this->_hx___caretIndex != this->_hx___selectionIndex)) {
-HXLINE(3420)						::lime::_hx_system::Clipboard_obj::set_text(this->_hx___text.substring(this->_hx___caretIndex,this->_hx___selectionIndex));
+HXLINE(3411)				if (::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_ctrlKey(modifier)) {
+HXLINE(3413)					if ((this->_hx___caretIndex != this->_hx___selectionIndex)) {
+HXLINE(3415)						::lime::_hx_system::Clipboard_obj::set_text(this->_hx___text.substring(this->_hx___caretIndex,this->_hx___selectionIndex));
             					}
             				}
             			}
             			break;
             			case (int)118: {
-HXLINE(3442)				if (::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_ctrlKey(modifier)) {
-HXLINE(3444)					if (::hx::IsNotNull( ::lime::_hx_system::Clipboard_obj::get_text() )) {
-HXLINE(3446)						 ::openfl::events::TextEvent te =  ::openfl::events::TextEvent_obj::__alloc( HX_CTX ,HX_("textInput",1d,54,0b,57),true,true,::lime::_hx_system::Clipboard_obj::get_text());
-HXLINE(3448)						this->dispatchEvent(te);
-HXLINE(3450)						if (!(te->isDefaultPrevented())) {
-HXLINE(3452)							this->_hx___replaceSelectedText(::lime::_hx_system::Clipboard_obj::get_text(),true);
-HXLINE(3454)							this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("change",70,91,72,b7),true,null()));
+HXLINE(3437)				if (::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_ctrlKey(modifier)) {
+HXLINE(3439)					if (::hx::IsNotNull( ::lime::_hx_system::Clipboard_obj::get_text() )) {
+HXLINE(3441)						 ::openfl::events::TextEvent te =  ::openfl::events::TextEvent_obj::__alloc( HX_CTX ,HX_("textInput",1d,54,0b,57),true,true,::lime::_hx_system::Clipboard_obj::get_text());
+HXLINE(3443)						this->dispatchEvent(te);
+HXLINE(3445)						if (!(te->isDefaultPrevented())) {
+HXLINE(3447)							this->_hx___replaceSelectedText(::lime::_hx_system::Clipboard_obj::get_text(),true);
+HXLINE(3449)							this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("change",70,91,72,b7),true,null()));
             						}
             					}
             				}
             				else {
-HXLINE(3461)					::Dynamic this1 = this->_hx___textEngine->textFormatRanges;
-HXDLIN(3461)					( ( ::openfl::_Vector::ObjectVector)(this1) )->get((this->_hx___textEngine->textFormatRanges->get_length() - 1)).StaticCast<  ::openfl::text::_internal::TextFormatRange >()->end = this->_hx___text.length;
+HXLINE(3456)					::Dynamic this1 = this->_hx___textEngine->textFormatRanges;
+HXDLIN(3456)					( ( ::openfl::_Vector::ObjectVector)(this1) )->get((this->_hx___textEngine->textFormatRanges->get_length() - 1)).StaticCast<  ::openfl::text::_internal::TextFormatRange >()->end = this->_hx___text.length;
             				}
             			}
             			break;
             			case (int)120: {
-HXLINE(3427)				if (::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_ctrlKey(modifier)) {
-HXLINE(3429)					if ((this->_hx___caretIndex != this->_hx___selectionIndex)) {
-HXLINE(3431)						::lime::_hx_system::Clipboard_obj::set_text(this->_hx___text.substring(this->_hx___caretIndex,this->_hx___selectionIndex));
-HXLINE(3433)						this->replaceSelectedText(HX_("",00,00,00,00));
-HXLINE(3434)						this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("change",70,91,72,b7),true,null()));
+HXLINE(3422)				if (::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_ctrlKey(modifier)) {
+HXLINE(3424)					if ((this->_hx___caretIndex != this->_hx___selectionIndex)) {
+HXLINE(3426)						::lime::_hx_system::Clipboard_obj::set_text(this->_hx___text.substring(this->_hx___caretIndex,this->_hx___selectionIndex));
+HXLINE(3428)						this->replaceSelectedText(HX_("",00,00,00,00));
+HXLINE(3429)						this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("change",70,91,72,b7),true,null()));
             					}
             				}
             			}
             			break;
             			case (int)127: {
-HXLINE(3294)				bool _hx_tmp;
-HXDLIN(3294)				if ((this->_hx___selectionIndex == this->_hx___caretIndex)) {
-HXLINE(3294)					_hx_tmp = (this->_hx___caretIndex < this->_hx___text.length);
+HXLINE(3265)				bool _hx_tmp;
+HXDLIN(3265)				if ((this->_hx___selectionIndex == this->_hx___caretIndex)) {
+HXLINE(3265)					_hx_tmp = (this->_hx___caretIndex < this->_hx___text.length);
             				}
             				else {
-HXLINE(3294)					_hx_tmp = false;
+HXLINE(3265)					_hx_tmp = false;
             				}
-HXDLIN(3294)				if (_hx_tmp) {
-HXLINE(3296)					this->_hx___selectionIndex = (this->_hx___caretIndex + 1);
+HXDLIN(3265)				if (_hx_tmp) {
+HXLINE(3267)					this->_hx___selectionIndex = (this->_hx___caretIndex + 1);
             				}
-HXLINE(3299)				if ((this->_hx___selectionIndex != this->_hx___caretIndex)) {
-HXLINE(3301)					this->replaceSelectedText(HX_("",00,00,00,00));
-HXLINE(3302)					this->_hx___selectionIndex = this->_hx___caretIndex;
-HXLINE(3304)					this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("change",70,91,72,b7),true,null()));
+HXLINE(3270)				if ((this->_hx___selectionIndex != this->_hx___caretIndex)) {
+HXLINE(3272)					this->replaceSelectedText(HX_("",00,00,00,00));
+HXLINE(3273)					this->_hx___selectionIndex = this->_hx___caretIndex;
+HXLINE(3275)					this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("change",70,91,72,b7),true,null()));
             				}
-            				else {
+            			}
+            			break;
+            			case (int)1073741898: {
+HXLINE(3399)				if (this->get_selectable()) {
+HXLINE(3400)					this->_hx___caretBeginningOfLine();
+HXLINE(3401)					this->_hx___stopCursorTimer();
+HXLINE(3402)					this->_hx___startCursorTimer();
+            				}
+            			}
+            			break;
+            			case (int)1073741901: {
+HXLINE(3404)				if (this->get_selectable()) {
+HXLINE(3405)					this->_hx___caretEndOfLine();
+HXLINE(3406)					this->_hx___stopCursorTimer();
+HXLINE(3407)					this->_hx___startCursorTimer();
+            				}
+            			}
+            			break;
+            			case (int)1073741903: {
+HXLINE(3311)				if (this->get_selectable()) {
+HXLINE(3312)					if (::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_metaKey(modifier)) {
+HXLINE(3314)						this->_hx___caretEndOfLine();
+HXLINE(3316)						if (!(::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_shiftKey(modifier))) {
+HXLINE(3318)							this->_hx___selectionIndex = this->_hx___caretIndex;
+            						}
+            					}
+            					else {
+HXLINE(3321)						if (::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_shiftKey(modifier)) {
+HXLINE(3323)							this->_hx___caretNextCharacter();
+            						}
+            						else {
+HXLINE(3327)							if ((this->_hx___selectionIndex == this->_hx___caretIndex)) {
+HXLINE(3329)								this->_hx___caretNextCharacter();
+            							}
+            							else {
+HXLINE(3333)								this->_hx___caretIndex = ::Std_obj::_hx_int(::Math_obj::max(( (Float)(this->_hx___caretIndex) ),( (Float)(this->_hx___selectionIndex) )));
+            							}
+HXLINE(3336)							this->_hx___selectionIndex = this->_hx___caretIndex;
+            						}
+            					}
+HXLINE(3339)					this->_hx___updateScrollH();
+HXLINE(3340)					this->_hx___updateScrollV();
+HXLINE(3342)					this->_hx___stopCursorTimer();
+HXLINE(3343)					this->_hx___startCursorTimer();
+            				}
+            			}
+            			break;
+            			case (int)1073741904: {
+HXLINE(3278)				if (this->get_selectable()) {
+HXLINE(3279)					if (::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_metaKey(modifier)) {
+HXLINE(3281)						this->_hx___caretBeginningOfLine();
+HXLINE(3283)						if (!(::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_shiftKey(modifier))) {
+HXLINE(3285)							this->_hx___selectionIndex = this->_hx___caretIndex;
+            						}
+            					}
+            					else {
+HXLINE(3288)						if (::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_shiftKey(modifier)) {
+HXLINE(3290)							this->_hx___caretPreviousCharacter();
+            						}
+            						else {
+HXLINE(3294)							if ((this->_hx___selectionIndex == this->_hx___caretIndex)) {
+HXLINE(3296)								this->_hx___caretPreviousCharacter();
+            							}
+            							else {
+HXLINE(3300)								this->_hx___caretIndex = ::Std_obj::_hx_int(::Math_obj::min(( (Float)(this->_hx___caretIndex) ),( (Float)(this->_hx___selectionIndex) )));
+            							}
+HXLINE(3303)							this->_hx___selectionIndex = this->_hx___caretIndex;
+            						}
+            					}
+HXLINE(3306)					this->_hx___updateScrollH();
+HXLINE(3307)					this->_hx___updateScrollV();
 HXLINE(3308)					this->_hx___stopCursorTimer();
 HXLINE(3309)					this->_hx___startCursorTimer();
             				}
             			}
             			break;
-            			case (int)1073741898: {
-HXLINE(3380)				if (this->get_selectable()) {
-HXLINE(3381)					if (::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_ctrlKey(modifier)) {
-HXLINE(3383)						this->_hx___caretIndex = 0;
-            					}
-            					else {
-HXLINE(3387)						this->_hx___caretBeginningOfLine();
-            					}
-HXLINE(3390)					if (!(::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_shiftKey(modifier))) {
-HXLINE(3392)						this->_hx___selectionIndex = this->_hx___caretIndex;
-            					}
-HXLINE(3395)					this->setSelection(this->_hx___selectionIndex,this->_hx___caretIndex);
-            				}
-            			}
-            			break;
-            			case (int)1073741901: {
-HXLINE(3397)				if (this->get_selectable()) {
-HXLINE(3398)					if (::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_ctrlKey(modifier)) {
-HXLINE(3400)						this->_hx___caretIndex = this->_hx___text.length;
-            					}
-            					else {
-HXLINE(3404)						this->_hx___caretEndOfLine();
-            					}
-HXLINE(3407)					if (!(::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_shiftKey(modifier))) {
-HXLINE(3409)						this->_hx___selectionIndex = this->_hx___caretIndex;
-            					}
-HXLINE(3412)					this->setSelection(this->_hx___selectionIndex,this->_hx___caretIndex);
-            				}
-            			}
-            			break;
-            			case (int)1073741903: {
-HXLINE(3329)				if (this->get_selectable()) {
-HXLINE(3330)					if (::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_ctrlKey(modifier)) {
-HXLINE(3332)						this->_hx___caretBeginningOfNextLine();
-            					}
-            					else {
-HXLINE(3336)						this->_hx___caretNextCharacter();
-            					}
-HXLINE(3339)					if (!(::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_shiftKey(modifier))) {
-HXLINE(3341)						this->_hx___selectionIndex = this->_hx___caretIndex;
-            					}
-HXLINE(3344)					this->setSelection(this->_hx___selectionIndex,this->_hx___caretIndex);
-            				}
-            			}
-            			break;
-            			case (int)1073741904: {
-HXLINE(3312)				if (this->get_selectable()) {
-HXLINE(3313)					if (::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_ctrlKey(modifier)) {
-HXLINE(3315)						this->_hx___caretBeginningOfPreviousLine();
-            					}
-            					else {
-HXLINE(3319)						this->_hx___caretPreviousCharacter();
-            					}
-HXLINE(3322)					if (!(::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_shiftKey(modifier))) {
-HXLINE(3324)						this->_hx___selectionIndex = this->_hx___caretIndex;
-            					}
-HXLINE(3327)					this->setSelection(this->_hx___selectionIndex,this->_hx___caretIndex);
-            				}
-            			}
-            			break;
             			case (int)1073741905: {
-HXLINE(3346)				if (this->get_selectable()) {
-HXLINE(3347)					if (::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_ctrlKey(modifier)) {
-HXLINE(3349)						this->_hx___caretIndex = this->_hx___text.length;
+HXLINE(3345)				if (this->get_selectable()) {
+HXLINE(3346)					if (!(this->_hx___textEngine->multiline)) {
+HXLINE(3346)						return;
+            					}
+HXLINE(3348)					if (::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_shiftKey(modifier)) {
+HXLINE(3350)						this->_hx___caretNextLine(null(),null());
             					}
             					else {
-HXLINE(3353)						this->_hx___caretNextLine();
+HXLINE(3354)						if ((this->_hx___selectionIndex == this->_hx___caretIndex)) {
+HXLINE(3356)							this->_hx___caretNextLine(null(),null());
+            						}
+            						else {
+HXLINE(3360)							int lineIndex = this->getLineIndexOfChar(::Std_obj::_hx_int(::Math_obj::max(( (Float)(this->_hx___caretIndex) ),( (Float)(this->_hx___selectionIndex) ))));
+HXLINE(3361)							this->_hx___caretNextLine(lineIndex,::Std_obj::_hx_int(::Math_obj::min(( (Float)(this->_hx___caretIndex) ),( (Float)(this->_hx___selectionIndex) ))));
+            						}
+HXLINE(3364)						this->_hx___selectionIndex = this->_hx___caretIndex;
             					}
-HXLINE(3356)					if (!(::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_shiftKey(modifier))) {
-HXLINE(3358)						this->_hx___selectionIndex = this->_hx___caretIndex;
-            					}
-HXLINE(3361)					this->setSelection(this->_hx___selectionIndex,this->_hx___caretIndex);
+HXLINE(3367)					this->_hx___updateScrollV();
+HXLINE(3369)					this->_hx___stopCursorTimer();
+HXLINE(3370)					this->_hx___startCursorTimer();
             				}
             			}
             			break;
             			case (int)1073741906: {
-HXLINE(3363)				if (this->get_selectable()) {
-HXLINE(3364)					if (::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_ctrlKey(modifier)) {
-HXLINE(3366)						this->_hx___caretIndex = 0;
+HXLINE(3372)				if (this->get_selectable()) {
+HXLINE(3373)					if (!(this->_hx___textEngine->multiline)) {
+HXLINE(3373)						return;
+            					}
+HXLINE(3375)					if (::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_shiftKey(modifier)) {
+HXLINE(3377)						this->_hx___caretPreviousLine(null(),null());
             					}
             					else {
-HXLINE(3370)						this->_hx___caretPreviousLine();
+HXLINE(3381)						if ((this->_hx___selectionIndex == this->_hx___caretIndex)) {
+HXLINE(3383)							this->_hx___caretPreviousLine(null(),null());
+            						}
+            						else {
+HXLINE(3387)							int lineIndex = this->getLineIndexOfChar(::Std_obj::_hx_int(::Math_obj::min(( (Float)(this->_hx___caretIndex) ),( (Float)(this->_hx___selectionIndex) ))));
+HXLINE(3388)							this->_hx___caretPreviousLine(lineIndex,::Std_obj::_hx_int(::Math_obj::min(( (Float)(this->_hx___caretIndex) ),( (Float)(this->_hx___selectionIndex) ))));
+            						}
+HXLINE(3391)						this->_hx___selectionIndex = this->_hx___caretIndex;
             					}
-HXLINE(3373)					if (!(::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_shiftKey(modifier))) {
-HXLINE(3375)						this->_hx___selectionIndex = this->_hx___caretIndex;
-            					}
-HXLINE(3378)					this->setSelection(this->_hx___selectionIndex,this->_hx___caretIndex);
+HXLINE(3394)					this->_hx___updateScrollV();
+HXLINE(3396)					this->_hx___stopCursorTimer();
+HXLINE(3397)					this->_hx___startCursorTimer();
             				}
             			}
             			break;
             			case (int)13: case (int)1073741912: {
-HXLINE(3255)				if (this->_hx___textEngine->multiline) {
-HXLINE(3257)					 ::openfl::events::TextEvent te =  ::openfl::events::TextEvent_obj::__alloc( HX_CTX ,HX_("textInput",1d,54,0b,57),true,true,HX_("\n",0a,00,00,00));
-HXLINE(3259)					this->dispatchEvent(te);
-HXLINE(3261)					if (!(te->isDefaultPrevented())) {
-HXLINE(3263)						this->_hx___replaceSelectedText(HX_("\n",0a,00,00,00),true);
-HXLINE(3265)						this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("change",70,91,72,b7),true,null()));
+HXLINE(3236)				if (this->_hx___textEngine->multiline) {
+HXLINE(3238)					 ::openfl::events::TextEvent te =  ::openfl::events::TextEvent_obj::__alloc( HX_CTX ,HX_("textInput",1d,54,0b,57),true,true,HX_("\n",0a,00,00,00));
+HXLINE(3240)					this->dispatchEvent(te);
+HXLINE(3242)					if (!(te->isDefaultPrevented())) {
+HXLINE(3244)						this->_hx___replaceSelectedText(HX_("\n",0a,00,00,00),true);
+HXLINE(3246)						this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("change",70,91,72,b7),true,null()));
             					}
-            				}
-            				else {
-HXLINE(3270)					this->_hx___stopCursorTimer();
-HXLINE(3271)					this->_hx___startCursorTimer();
             				}
             			}
             			break;
@@ -3688,9 +3727,9 @@ HXLINE(3271)					this->_hx___startCursorTimer();
 HX_DEFINE_DYNAMIC_FUNC2(TextField_obj,window_onKeyDown,(void))
 
 void TextField_obj::window_onTextInput(::String value){
-            	HX_GC_STACKFRAME(&_hx_pos_d001dbc361c2c159_3478_window_onTextInput)
-HXLINE(3479)		this->_hx___replaceSelectedText(value,true);
-HXLINE(3482)		this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("change",70,91,72,b7),true,null()));
+            	HX_GC_STACKFRAME(&_hx_pos_d001dbc361c2c159_3474_window_onTextInput)
+HXLINE(3475)		this->_hx___replaceSelectedText(value,true);
+HXLINE(3478)		this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("change",70,91,72,b7),true,null()));
             	}
 
 
@@ -3730,7 +3769,6 @@ void TextField_obj::__Mark(HX_MARK_PARAMS)
 	HX_MARK_MEMBER_NAME(_hx___inputEnabled,"__inputEnabled");
 	HX_MARK_MEMBER_NAME(_hx___isHTML,"__isHTML");
 	HX_MARK_MEMBER_NAME(_hx___layoutDirty,"__layoutDirty");
-	HX_MARK_MEMBER_NAME(_hx___mouseScrollVCounter,"__mouseScrollVCounter");
 	HX_MARK_MEMBER_NAME(_hx___mouseWheelEnabled,"__mouseWheelEnabled");
 	HX_MARK_MEMBER_NAME(_hx___offsetX,"__offsetX");
 	HX_MARK_MEMBER_NAME(_hx___offsetY,"__offsetY");
@@ -3755,7 +3793,6 @@ void TextField_obj::__Visit(HX_VISIT_PARAMS)
 	HX_VISIT_MEMBER_NAME(_hx___inputEnabled,"__inputEnabled");
 	HX_VISIT_MEMBER_NAME(_hx___isHTML,"__isHTML");
 	HX_VISIT_MEMBER_NAME(_hx___layoutDirty,"__layoutDirty");
-	HX_VISIT_MEMBER_NAME(_hx___mouseScrollVCounter,"__mouseScrollVCounter");
 	HX_VISIT_MEMBER_NAME(_hx___mouseWheelEnabled,"__mouseWheelEnabled");
 	HX_VISIT_MEMBER_NAME(_hx___offsetX,"__offsetX");
 	HX_VISIT_MEMBER_NAME(_hx___offsetY,"__offsetY");
@@ -3828,6 +3865,7 @@ void TextField_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"appendText") ) { return ::hx::Val( appendText_dyn() ); }
 		if (HX_FIELD_EQ(inName,"__dispatch") ) { return ::hx::Val( _hx___dispatch_dyn() ); }
 		if (HX_FIELD_EQ(inName,"__getGroup") ) { return ::hx::Val( _hx___getGroup_dyn() ); }
+		if (HX_FIELD_EQ(inName,"__renderGL") ) { return ::hx::Val( _hx___renderGL_dyn() ); }
 		if (HX_FIELD_EQ(inName,"get_border") ) { return ::hx::Val( get_border_dyn() ); }
 		if (HX_FIELD_EQ(inName,"set_border") ) { return ::hx::Val( set_border_dyn() ); }
 		if (HX_FIELD_EQ(inName,"get_height") ) { return ::hx::Val( get_height_dyn() ); }
@@ -3842,6 +3880,7 @@ void TextField_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"replaceText") ) { return ::hx::Val( replaceText_dyn() ); }
 		if (HX_FIELD_EQ(inName,"__getBounds") ) { return ::hx::Val( _hx___getBounds_dyn() ); }
 		if (HX_FIELD_EQ(inName,"__getCursor") ) { return ::hx::Val( _hx___getCursor_dyn() ); }
+		if (HX_FIELD_EQ(inName,"__renderDOM") ) { return ::hx::Val( _hx___renderDOM_dyn() ); }
 		if (HX_FIELD_EQ(inName,"get_scrollH") ) { return ::hx::Val( get_scrollH_dyn() ); }
 		if (HX_FIELD_EQ(inName,"set_scrollH") ) { return ::hx::Val( set_scrollH_dyn() ); }
 		if (HX_FIELD_EQ(inName,"get_scrollV") ) { return ::hx::Val( get_scrollV_dyn() ); }
@@ -3879,6 +3918,7 @@ void TextField_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"__enableInput") ) { return ::hx::Val( _hx___enableInput_dyn() ); }
 		if (HX_FIELD_EQ(inName,"__getPosition") ) { return ::hx::Val( _hx___getPosition_dyn() ); }
 		if (HX_FIELD_EQ(inName,"__hitTestMask") ) { return ::hx::Val( _hx___hitTestMask_dyn() ); }
+		if (HX_FIELD_EQ(inName,"__renderCairo") ) { return ::hx::Val( _hx___renderCairo_dyn() ); }
 		if (HX_FIELD_EQ(inName,"__replaceText") ) { return ::hx::Val( _hx___replaceText_dyn() ); }
 		if (HX_FIELD_EQ(inName,"get_multiline") ) { return ::hx::Val( get_multiline_dyn() ); }
 		if (HX_FIELD_EQ(inName,"set_multiline") ) { return ::hx::Val( set_multiline_dyn() ); }
@@ -3892,6 +3932,8 @@ void TextField_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"__inputEnabled") ) { return ::hx::Val( _hx___inputEnabled ); }
 		if (HX_FIELD_EQ(inName,"getLineMetrics") ) { return ::hx::Val( getLineMetrics_dyn() ); }
 		if (HX_FIELD_EQ(inName,"__disableInput") ) { return ::hx::Val( _hx___disableInput_dyn() ); }
+		if (HX_FIELD_EQ(inName,"__renderCanvas") ) { return ::hx::Val( _hx___renderCanvas_dyn() ); }
+		if (HX_FIELD_EQ(inName,"__renderGLMask") ) { return ::hx::Val( _hx___renderGLMask_dyn() ); }
 		if (HX_FIELD_EQ(inName,"__updateLayout") ) { return ::hx::Val( _hx___updateLayout_dyn() ); }
 		if (HX_FIELD_EQ(inName,"get_background") ) { return ::hx::Val( get_background_dyn() ); }
 		if (HX_FIELD_EQ(inName,"set_background") ) { return ::hx::Val( set_background_dyn() ); }
@@ -3923,6 +3965,7 @@ void TextField_obj::__Visit(HX_VISIT_PARAMS)
 	case 16:
 		if (HX_FIELD_EQ(inName,"__selectionIndex") ) { return ::hx::Val( _hx___selectionIndex ); }
 		if (HX_FIELD_EQ(inName,"__caretEndOfLine") ) { return ::hx::Val( _hx___caretEndOfLine_dyn() ); }
+		if (HX_FIELD_EQ(inName,"__renderDOMClear") ) { return ::hx::Val( _hx___renderDOMClear_dyn() ); }
 		if (HX_FIELD_EQ(inName,"__startTextInput") ) { return ::hx::Val( _hx___startTextInput_dyn() ); }
 		if (HX_FIELD_EQ(inName,"this_onMouseDown") ) { return ::hx::Val( this_onMouseDown_dyn() ); }
 		if (HX_FIELD_EQ(inName,"window_onKeyDown") ) { return ::hx::Val( window_onKeyDown_dyn() ); }
@@ -3935,12 +3978,10 @@ void TextField_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"getCharBoundaries") ) { return ::hx::Val( getCharBoundaries_dyn() ); }
 		if (HX_FIELD_EQ(inName,"__allowMouseFocus") ) { return ::hx::Val( _hx___allowMouseFocus_dyn() ); }
 		if (HX_FIELD_EQ(inName,"__stopCursorTimer") ) { return ::hx::Val( _hx___stopCursorTimer_dyn() ); }
-		if (HX_FIELD_EQ(inName,"__updateMouseDrag") ) { return ::hx::Val( _hx___updateMouseDrag_dyn() ); }
 		if (HX_FIELD_EQ(inName,"get_antiAliasType") ) { return ::hx::Val( get_antiAliasType_dyn() ); }
 		if (HX_FIELD_EQ(inName,"set_antiAliasType") ) { return ::hx::Val( set_antiAliasType_dyn() ); }
 		if (HX_FIELD_EQ(inName,"get_bottomScrollV") ) { return ::hx::Val( get_bottomScrollV_dyn() ); }
 		if (HX_FIELD_EQ(inName,"stage_onMouseMove") ) { return ::hx::Val( stage_onMouseMove_dyn() ); }
-		if (HX_FIELD_EQ(inName,"this_onEnterFrame") ) { return ::hx::Val( this_onEnterFrame_dyn() ); }
 		if (HX_FIELD_EQ(inName,"this_onMouseWheel") ) { return ::hx::Val( this_onMouseWheel_dyn() ); }
 		break;
 	case 18:
@@ -3960,6 +4001,7 @@ void TextField_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"replaceSelectedText") ) { return ::hx::Val( replaceSelectedText_dyn() ); }
 		if (HX_FIELD_EQ(inName,"__caretPreviousLine") ) { return ::hx::Val( _hx___caretPreviousLine_dyn() ); }
 		if (HX_FIELD_EQ(inName,"__getCharBoundaries") ) { return ::hx::Val( _hx___getCharBoundaries_dyn() ); }
+		if (HX_FIELD_EQ(inName,"__updateCacheBitmap") ) { return ::hx::Val( _hx___updateCacheBitmap_dyn() ); }
 		if (HX_FIELD_EQ(inName,"get_backgroundColor") ) { return ::hx::Val( get_backgroundColor_dyn() ); }
 		if (HX_FIELD_EQ(inName,"set_backgroundColor") ) { return ::hx::Val( set_backgroundColor_dyn() ); }
 		if (HX_FIELD_EQ(inName,"this_onAddedToStage") ) { return ::hx::Val( this_onAddedToStage_dyn() ); }
@@ -3968,8 +4010,8 @@ void TextField_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"__caretNextCharacter") ) { return ::hx::Val( _hx___caretNextCharacter_dyn() ); }
 		break;
 	case 21:
-		if (HX_FIELD_EQ(inName,"__mouseScrollVCounter") ) { return ::hx::Val( _hx___mouseScrollVCounter ); }
 		if (HX_FIELD_EQ(inName,"__replaceSelectedText") ) { return ::hx::Val( _hx___replaceSelectedText_dyn() ); }
+		if (HX_FIELD_EQ(inName,"__shouldCacheHardware") ) { return ::hx::Val( _hx___shouldCacheHardware_dyn() ); }
 		if (HX_FIELD_EQ(inName,"get_defaultTextFormat") ) { return ::hx::Val( get_defaultTextFormat_dyn() ); }
 		if (HX_FIELD_EQ(inName,"set_defaultTextFormat") ) { return ::hx::Val( set_defaultTextFormat_dyn() ); }
 		if (HX_FIELD_EQ(inName,"get_displayAsPassword") ) { return ::hx::Val( get_displayAsPassword_dyn() ); }
@@ -3988,14 +4030,8 @@ void TextField_obj::__Visit(HX_VISIT_PARAMS)
 	case 24:
 		if (HX_FIELD_EQ(inName,"__caretPreviousCharacter") ) { return ::hx::Val( _hx___caretPreviousCharacter_dyn() ); }
 		break;
-	case 26:
-		if (HX_FIELD_EQ(inName,"__caretBeginningOfNextLine") ) { return ::hx::Val( _hx___caretBeginningOfNextLine_dyn() ); }
-		break;
 	case 29:
 		if (HX_FIELD_EQ(inName,"__getCharIndexOnDifferentLine") ) { return ::hx::Val( _hx___getCharIndexOnDifferentLine_dyn() ); }
-		break;
-	case 30:
-		if (HX_FIELD_EQ(inName,"__caretBeginningOfPreviousLine") ) { return ::hx::Val( _hx___caretBeginningOfPreviousLine_dyn() ); }
 	}
 	return super::__Field(inName,inCallProp);
 }
@@ -4083,9 +4119,6 @@ bool TextField_obj::__GetStatic(const ::String &inName, Dynamic &outValue, ::hx:
 	case 19:
 		if (HX_FIELD_EQ(inName,"__displayAsPassword") ) { _hx___displayAsPassword=inValue.Cast< bool >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"__mouseWheelEnabled") ) { _hx___mouseWheelEnabled=inValue.Cast< bool >(); return inValue; }
-		break;
-	case 21:
-		if (HX_FIELD_EQ(inName,"__mouseScrollVCounter") ) { _hx___mouseScrollVCounter=inValue.Cast< int >(); return inValue; }
 	}
 	return super::__SetField(inName,inValue,inCallProp);
 }
@@ -4146,7 +4179,6 @@ void TextField_obj::__GetFields(Array< ::String> &outFields)
 	outFields->push(HX_("__inputEnabled",b7,e0,1d,37));
 	outFields->push(HX_("__isHTML",75,61,94,0a));
 	outFields->push(HX_("__layoutDirty",e8,e9,31,d3));
-	outFields->push(HX_("__mouseScrollVCounter",38,bc,63,27));
 	outFields->push(HX_("__mouseWheelEnabled",cb,3f,44,18));
 	outFields->push(HX_("__offsetX",45,5a,b3,58));
 	outFields->push(HX_("__offsetY",46,5a,b3,58));
@@ -4170,7 +4202,6 @@ static ::hx::StorageInfo TextField_obj_sMemberStorageInfo[] = {
 	{::hx::fsBool,(int)offsetof(TextField_obj,_hx___inputEnabled),HX_("__inputEnabled",b7,e0,1d,37)},
 	{::hx::fsBool,(int)offsetof(TextField_obj,_hx___isHTML),HX_("__isHTML",75,61,94,0a)},
 	{::hx::fsBool,(int)offsetof(TextField_obj,_hx___layoutDirty),HX_("__layoutDirty",e8,e9,31,d3)},
-	{::hx::fsInt,(int)offsetof(TextField_obj,_hx___mouseScrollVCounter),HX_("__mouseScrollVCounter",38,bc,63,27)},
 	{::hx::fsBool,(int)offsetof(TextField_obj,_hx___mouseWheelEnabled),HX_("__mouseWheelEnabled",cb,3f,44,18)},
 	{::hx::fsFloat,(int)offsetof(TextField_obj,_hx___offsetX),HX_("__offsetX",45,5a,b3,58)},
 	{::hx::fsFloat,(int)offsetof(TextField_obj,_hx___offsetY),HX_("__offsetY",46,5a,b3,58)},
@@ -4199,7 +4230,6 @@ static ::String TextField_obj_sMemberFields[] = {
 	HX_("__inputEnabled",b7,e0,1d,37),
 	HX_("__isHTML",75,61,94,0a),
 	HX_("__layoutDirty",e8,e9,31,d3),
-	HX_("__mouseScrollVCounter",38,bc,63,27),
 	HX_("__mouseWheelEnabled",cb,3f,44,18),
 	HX_("__offsetX",45,5a,b3,58),
 	HX_("__offsetY",46,5a,b3,58),
@@ -4227,8 +4257,6 @@ static ::String TextField_obj_sMemberFields[] = {
 	HX_("setTextFormat",06,4e,f7,d5),
 	HX_("__allowMouseFocus",3c,92,71,07),
 	HX_("__caretBeginningOfLine",45,c9,47,fd),
-	HX_("__caretBeginningOfNextLine",58,ec,35,93),
-	HX_("__caretBeginningOfPreviousLine",1c,d2,e4,ff),
 	HX_("__caretEndOfLine",03,74,b1,5c),
 	HX_("__caretNextCharacter",d3,7b,4f,ea),
 	HX_("__caretNextLine",0a,68,ad,0d),
@@ -4246,16 +4274,23 @@ static ::String TextField_obj_sMemberFields[] = {
 	HX_("__getPosition",3f,a4,66,39),
 	HX_("__hitTest",25,b1,cd,63),
 	HX_("__hitTestMask",b1,14,fd,3b),
+	HX_("__renderCairo",32,9e,42,55),
+	HX_("__renderCanvas",ee,db,58,48),
+	HX_("__renderDOM",ac,f5,83,fb),
+	HX_("__renderDOMClear",41,dc,ee,79),
+	HX_("__renderGL",1b,1e,14,56),
+	HX_("__renderGLMask",a7,34,7c,b4),
 	HX_("__replaceSelectedText",dc,1f,28,29),
 	HX_("__replaceText",e1,ab,0d,aa),
+	HX_("__shouldCacheHardware",b7,af,f5,89),
 	HX_("__startCursorTimer",ed,46,a3,83),
 	HX_("__startTextInput",7b,ae,85,aa),
 	HX_("__stopCursorTimer",0d,cd,6c,26),
 	HX_("__stopTextInput",9b,6c,cb,a1),
+	HX_("__updateCacheBitmap",28,11,07,27),
 	HX_("__updateLayout",b3,d8,3c,79),
 	HX_("__updateScrollH",72,d1,f8,83),
 	HX_("__updateScrollV",80,d1,f8,83),
-	HX_("__updateMouseDrag",50,e6,a9,c1),
 	HX_("__updateText",76,32,42,3e),
 	HX_("__updateTransforms",10,f4,b0,50),
 	HX_("get_antiAliasType",bf,cf,6a,ee),
@@ -4326,7 +4361,6 @@ static ::String TextField_obj_sMemberFields[] = {
 	HX_("stage_onMouseMove",76,bc,61,de),
 	HX_("stage_onMouseUp",80,ac,07,d1),
 	HX_("this_onAddedToStage",23,9e,ce,72),
-	HX_("this_onEnterFrame",b5,0f,1f,8e),
 	HX_("this_onFocusIn",1d,62,fb,dc),
 	HX_("this_onFocusOut",56,0b,ff,7e),
 	HX_("this_onKeyDown",e1,85,bf,37),
@@ -4388,8 +4422,8 @@ void TextField_obj::__register()
 void TextField_obj::__boot()
 {
 {
-            	HX_GC_STACKFRAME(&_hx_pos_d001dbc361c2c159_127_boot)
-HXDLIN( 127)		_hx___missingFontWarning =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
+            	HX_GC_STACKFRAME(&_hx_pos_d001dbc361c2c159_143_boot)
+HXDLIN( 143)		_hx___missingFontWarning =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
             	}
 }
 

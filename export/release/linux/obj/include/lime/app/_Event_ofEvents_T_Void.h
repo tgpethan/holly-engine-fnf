@@ -59,9 +59,6 @@ class HXCPP_CLASS_ATTRIBUTES _Event_ofEvents_T_Void_obj : public ::hx::Object
 		void remove( ::Dynamic listener);
 		::Dynamic remove_dyn();
 
-		void removeAll();
-		::Dynamic removeAll_dyn();
-
 		::Array< ::Dynamic> _hx___listeners;
 		void dispatch( ::Dynamic a);
 		::Dynamic dispatch_dyn();

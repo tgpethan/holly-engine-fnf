@@ -8,7 +8,7 @@
 #include <lime/graphics/_DOMRenderContext/DOMRenderContext_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_2f3df008938fcd18_34_fromRenderContext,"lime.graphics._DOMRenderContext.DOMRenderContext_Impl_","fromRenderContext",0xc0c4271a,"lime.graphics._DOMRenderContext.DOMRenderContext_Impl_.fromRenderContext","lime/graphics/DOMRenderContext.hx",34,0x5950199d)
+HX_LOCAL_STACK_FRAME(_hx_pos_2f3df008938fcd18_33_fromRenderContext,"lime.graphics._DOMRenderContext.DOMRenderContext_Impl_","fromRenderContext",0xc0c4271a,"lime.graphics._DOMRenderContext.DOMRenderContext_Impl_.fromRenderContext","lime/graphics/DOMRenderContext.hx",33,0x5950199d)
 namespace lime{
 namespace graphics{
 namespace _DOMRenderContext{
@@ -31,8 +31,8 @@ bool DOMRenderContext_Impl__obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::Dynamic DOMRenderContext_Impl__obj::fromRenderContext( ::lime::graphics::RenderContext context){
-            	HX_STACKFRAME(&_hx_pos_2f3df008938fcd18_34_fromRenderContext)
-HXDLIN(  34)		return null();
+            	HX_STACKFRAME(&_hx_pos_2f3df008938fcd18_33_fromRenderContext)
+HXDLIN(  33)		return null();
             	}
 
 

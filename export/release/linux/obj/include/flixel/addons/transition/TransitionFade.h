@@ -16,10 +16,8 @@ HX_DECLARE_CLASS3(flixel,addons,transition,TransitionData)
 HX_DECLARE_CLASS3(flixel,addons,transition,TransitionEffect)
 HX_DECLARE_CLASS3(flixel,addons,transition,TransitionFade)
 HX_DECLARE_CLASS2(flixel,group,FlxTypedSpriteGroup)
-HX_DECLARE_CLASS2(flixel,math,FlxRect)
 HX_DECLARE_CLASS2(flixel,tweens,FlxTween)
 HX_DECLARE_CLASS2(flixel,util,IFlxDestroyable)
-HX_DECLARE_CLASS2(flixel,util,IFlxPooled)
 HX_DECLARE_CLASS2(openfl,display,BitmapData)
 HX_DECLARE_CLASS2(openfl,display,IBitmapDrawable)
 
@@ -74,7 +72,7 @@ class HXCPP_CLASS_ATTRIBUTES TransitionFade_obj : public  ::flixel::addons::tran
 		void setTweenValues(int NewStatus,Float DirX,Float DirY);
 		::Dynamic setTweenValues_dyn();
 
-		 ::flixel::FlxSprite makeSprite(Float DirX,Float DirY, ::flixel::math::FlxRect region);
+		 ::flixel::FlxSprite makeSprite(Float DirX,Float DirY);
 		::Dynamic makeSprite_dyn();
 
 		 ::openfl::display::BitmapData getGradient();

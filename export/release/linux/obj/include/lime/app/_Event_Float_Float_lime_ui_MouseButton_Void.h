@@ -59,9 +59,6 @@ class HXCPP_CLASS_ATTRIBUTES _Event_Float_Float_lime_ui_MouseButton_Void_obj : p
 		void remove( ::Dynamic listener);
 		::Dynamic remove_dyn();
 
-		void removeAll();
-		::Dynamic removeAll_dyn();
-
 		::Array< ::Dynamic> _hx___listeners;
 		void dispatch(Float a,Float a1,int a2);
 		::Dynamic dispatch_dyn();

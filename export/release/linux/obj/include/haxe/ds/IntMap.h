@@ -75,9 +75,6 @@ class HXCPP_CLASS_ATTRIBUTES IntMap_obj : public ::hx::Object
 		 ::Dynamic iterator();
 		::Dynamic iterator_dyn();
 
-		 ::Dynamic keyValueIterator();
-		::Dynamic keyValueIterator_dyn();
-
 
   inline void set(int key, ::null value) { __int_hash_set(HX_MAP_THIS,key,value); }
   inline void set(int key, bool value) { __int_hash_set(HX_MAP_THIS,key,value); }

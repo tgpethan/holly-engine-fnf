@@ -137,6 +137,9 @@
 #ifndef INCLUDED_openfl__Vector_ObjectVector
 #include <openfl/_Vector/ObjectVector.h>
 #endif
+#ifndef INCLUDED_openfl__internal_utils_TouchData
+#include <openfl/_internal/utils/TouchData.h>
+#endif
 #ifndef INCLUDED_openfl_display_BitmapData
 #include <openfl/display/BitmapData.h>
 #endif
@@ -251,28 +254,26 @@
 #ifndef INCLUDED_openfl_ui__MouseCursor_MouseCursor_Impl_
 #include <openfl/ui/_MouseCursor/MouseCursor_Impl_.h>
 #endif
-#ifndef INCLUDED_openfl_utils__internal_TouchData
-#include <openfl/utils/_internal/TouchData.h>
-#endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_e171466d8d112c10_948_new,"openfl.display.Stage","new",0x908e7106,"openfl.display.Stage.new","openfl/display/Stage.hx",948,0xadca4c2c)
 static const Float _hx_array_data_5c7c3614_1[] = {
 	(Float)255,(Float)255,(Float)255,
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1129_invalidate,"openfl.display.Stage","invalidate",0x70397995,"openfl.display.Stage.invalidate","openfl/display/Stage.hx",1129,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1139_localToGlobal,"openfl.display.Stage","localToGlobal",0xb7e76def,"openfl.display.Stage.localToGlobal","openfl/display/Stage.hx",1139,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1145___broadcastEvent,"openfl.display.Stage","__broadcastEvent",0x79aa0c13,"openfl.display.Stage.__broadcastEvent","openfl/display/Stage.hx",1145,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1174___createRenderer,"openfl.display.Stage","__createRenderer",0x1d5b3f19,"openfl.display.Stage.__createRenderer","openfl/display/Stage.hx",1174,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1234___dispatchEvent,"openfl.display.Stage","__dispatchEvent",0xd6930186,"openfl.display.Stage.__dispatchEvent","openfl/display/Stage.hx",1234,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1252___dispatchPendingMouseEvent,"openfl.display.Stage","__dispatchPendingMouseEvent",0xd7687658,"openfl.display.Stage.__dispatchPendingMouseEvent","openfl/display/Stage.hx",1252,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1263___dispatchStack,"openfl.display.Stage","__dispatchStack",0xe4d9a0b4,"openfl.display.Stage.__dispatchStack","openfl/display/Stage.hx",1263,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1332___dispatchTarget,"openfl.display.Stage","__dispatchTarget",0xda90f865,"openfl.display.Stage.__dispatchTarget","openfl/display/Stage.hx",1332,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1347___drag,"openfl.display.Stage","__drag",0xf14b5a2e,"openfl.display.Stage.__drag","openfl/display/Stage.hx",1347,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1383___getInteractive,"openfl.display.Stage","__getInteractive",0xdc3c8ba6,"openfl.display.Stage.__getInteractive","openfl/display/Stage.hx",1383,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1393___globalToLocal,"openfl.display.Stage","__globalToLocal",0x7bdc8953,"openfl.display.Stage.__globalToLocal","openfl/display/Stage.hx",1393,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1404___handleError,"openfl.display.Stage","__handleError",0xdde7e406,"openfl.display.Stage.__handleError","openfl/display/Stage.hx",1404,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1458___onKey,"openfl.display.Stage","__onKey",0x83566246,"openfl.display.Stage.__onKey","openfl/display/Stage.hx",1458,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1546___onKey,"openfl.display.Stage","__onKey",0x83566246,"openfl.display.Stage.__onKey","openfl/display/Stage.hx",1546,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1128_invalidate,"openfl.display.Stage","invalidate",0x70397995,"openfl.display.Stage.invalidate","openfl/display/Stage.hx",1128,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1138_localToGlobal,"openfl.display.Stage","localToGlobal",0xb7e76def,"openfl.display.Stage.localToGlobal","openfl/display/Stage.hx",1138,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1144___broadcastEvent,"openfl.display.Stage","__broadcastEvent",0x79aa0c13,"openfl.display.Stage.__broadcastEvent","openfl/display/Stage.hx",1144,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1173___createRenderer,"openfl.display.Stage","__createRenderer",0x1d5b3f19,"openfl.display.Stage.__createRenderer","openfl/display/Stage.hx",1173,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1233___dispatchEvent,"openfl.display.Stage","__dispatchEvent",0xd6930186,"openfl.display.Stage.__dispatchEvent","openfl/display/Stage.hx",1233,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1251___dispatchPendingMouseEvent,"openfl.display.Stage","__dispatchPendingMouseEvent",0xd7687658,"openfl.display.Stage.__dispatchPendingMouseEvent","openfl/display/Stage.hx",1251,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1262___dispatchStack,"openfl.display.Stage","__dispatchStack",0xe4d9a0b4,"openfl.display.Stage.__dispatchStack","openfl/display/Stage.hx",1262,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1331___dispatchTarget,"openfl.display.Stage","__dispatchTarget",0xda90f865,"openfl.display.Stage.__dispatchTarget","openfl/display/Stage.hx",1331,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1346___drag,"openfl.display.Stage","__drag",0xf14b5a2e,"openfl.display.Stage.__drag","openfl/display/Stage.hx",1346,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1382___getInteractive,"openfl.display.Stage","__getInteractive",0xdc3c8ba6,"openfl.display.Stage.__getInteractive","openfl/display/Stage.hx",1382,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1392___globalToLocal,"openfl.display.Stage","__globalToLocal",0x7bdc8953,"openfl.display.Stage.__globalToLocal","openfl/display/Stage.hx",1392,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1403___handleError,"openfl.display.Stage","__handleError",0xdde7e406,"openfl.display.Stage.__handleError","openfl/display/Stage.hx",1403,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1457___onKey,"openfl.display.Stage","__onKey",0x83566246,"openfl.display.Stage.__onKey","openfl/display/Stage.hx",1457,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1545___onKey,"openfl.display.Stage","__onKey",0x83566246,"openfl.display.Stage.__onKey","openfl/display/Stage.hx",1545,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1692___onLimeCreateWindow,"openfl.display.Stage","__onLimeCreateWindow",0xf11d8dba,"openfl.display.Stage.__onLimeCreateWindow","openfl/display/Stage.hx",1692,0xadca4c2c)
 HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1693___onLimeCreateWindow,"openfl.display.Stage","__onLimeCreateWindow",0xf11d8dba,"openfl.display.Stage.__onLimeCreateWindow","openfl/display/Stage.hx",1693,0xadca4c2c)
 HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1694___onLimeCreateWindow,"openfl.display.Stage","__onLimeCreateWindow",0xf11d8dba,"openfl.display.Stage.__onLimeCreateWindow","openfl/display/Stage.hx",1694,0xadca4c2c)
 HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1695___onLimeCreateWindow,"openfl.display.Stage","__onLimeCreateWindow",0xf11d8dba,"openfl.display.Stage.__onLimeCreateWindow","openfl/display/Stage.hx",1695,0xadca4c2c)
@@ -291,55 +292,54 @@ HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1707___onLimeCreateWindow,"openfl.
 HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1708___onLimeCreateWindow,"openfl.display.Stage","__onLimeCreateWindow",0xf11d8dba,"openfl.display.Stage.__onLimeCreateWindow","openfl/display/Stage.hx",1708,0xadca4c2c)
 HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1709___onLimeCreateWindow,"openfl.display.Stage","__onLimeCreateWindow",0xf11d8dba,"openfl.display.Stage.__onLimeCreateWindow","openfl/display/Stage.hx",1709,0xadca4c2c)
 HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1710___onLimeCreateWindow,"openfl.display.Stage","__onLimeCreateWindow",0xf11d8dba,"openfl.display.Stage.__onLimeCreateWindow","openfl/display/Stage.hx",1710,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1711___onLimeCreateWindow,"openfl.display.Stage","__onLimeCreateWindow",0xf11d8dba,"openfl.display.Stage.__onLimeCreateWindow","openfl/display/Stage.hx",1711,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1714___onLimeCreateWindow,"openfl.display.Stage","__onLimeCreateWindow",0xf11d8dba,"openfl.display.Stage.__onLimeCreateWindow","openfl/display/Stage.hx",1714,0xadca4c2c)
 HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1715___onLimeCreateWindow,"openfl.display.Stage","__onLimeCreateWindow",0xf11d8dba,"openfl.display.Stage.__onLimeCreateWindow","openfl/display/Stage.hx",1715,0xadca4c2c)
 HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1716___onLimeCreateWindow,"openfl.display.Stage","__onLimeCreateWindow",0xf11d8dba,"openfl.display.Stage.__onLimeCreateWindow","openfl/display/Stage.hx",1716,0xadca4c2c)
 HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1717___onLimeCreateWindow,"openfl.display.Stage","__onLimeCreateWindow",0xf11d8dba,"openfl.display.Stage.__onLimeCreateWindow","openfl/display/Stage.hx",1717,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1718___onLimeCreateWindow,"openfl.display.Stage","__onLimeCreateWindow",0xf11d8dba,"openfl.display.Stage.__onLimeCreateWindow","openfl/display/Stage.hx",1718,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1690___onLimeCreateWindow,"openfl.display.Stage","__onLimeCreateWindow",0xf11d8dba,"openfl.display.Stage.__onLimeCreateWindow","openfl/display/Stage.hx",1690,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1726___onLimeGamepadAxisMove,"openfl.display.Stage","__onLimeGamepadAxisMove",0xbc003d25,"openfl.display.Stage.__onLimeGamepadAxisMove","openfl/display/Stage.hx",1726,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1742___onLimeGamepadButtonDown,"openfl.display.Stage","__onLimeGamepadButtonDown",0xb4532f07,"openfl.display.Stage.__onLimeGamepadButtonDown","openfl/display/Stage.hx",1742,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1758___onLimeGamepadButtonUp,"openfl.display.Stage","__onLimeGamepadButtonUp",0x883e39c0,"openfl.display.Stage.__onLimeGamepadButtonUp","openfl/display/Stage.hx",1758,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1689___onLimeCreateWindow,"openfl.display.Stage","__onLimeCreateWindow",0xf11d8dba,"openfl.display.Stage.__onLimeCreateWindow","openfl/display/Stage.hx",1689,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1725___onLimeGamepadAxisMove,"openfl.display.Stage","__onLimeGamepadAxisMove",0xbc003d25,"openfl.display.Stage.__onLimeGamepadAxisMove","openfl/display/Stage.hx",1725,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1741___onLimeGamepadButtonDown,"openfl.display.Stage","__onLimeGamepadButtonDown",0xb4532f07,"openfl.display.Stage.__onLimeGamepadButtonDown","openfl/display/Stage.hx",1741,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1757___onLimeGamepadButtonUp,"openfl.display.Stage","__onLimeGamepadButtonUp",0x883e39c0,"openfl.display.Stage.__onLimeGamepadButtonUp","openfl/display/Stage.hx",1757,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1785___onLimeGamepadConnect,"openfl.display.Stage","__onLimeGamepadConnect",0xae614a77,"openfl.display.Stage.__onLimeGamepadConnect","openfl/display/Stage.hx",1785,0xadca4c2c)
 HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1786___onLimeGamepadConnect,"openfl.display.Stage","__onLimeGamepadConnect",0xae614a77,"openfl.display.Stage.__onLimeGamepadConnect","openfl/display/Stage.hx",1786,0xadca4c2c)
 HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1787___onLimeGamepadConnect,"openfl.display.Stage","__onLimeGamepadConnect",0xae614a77,"openfl.display.Stage.__onLimeGamepadConnect","openfl/display/Stage.hx",1787,0xadca4c2c)
 HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1788___onLimeGamepadConnect,"openfl.display.Stage","__onLimeGamepadConnect",0xae614a77,"openfl.display.Stage.__onLimeGamepadConnect","openfl/display/Stage.hx",1788,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1789___onLimeGamepadConnect,"openfl.display.Stage","__onLimeGamepadConnect",0xae614a77,"openfl.display.Stage.__onLimeGamepadConnect","openfl/display/Stage.hx",1789,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1772___onLimeGamepadConnect,"openfl.display.Stage","__onLimeGamepadConnect",0xae614a77,"openfl.display.Stage.__onLimeGamepadConnect","openfl/display/Stage.hx",1772,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1795___onLimeGamepadDisconnect,"openfl.display.Stage","__onLimeGamepadDisconnect",0x71332bef,"openfl.display.Stage.__onLimeGamepadDisconnect","openfl/display/Stage.hx",1795,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1809___onLimeKeyDown,"openfl.display.Stage","__onLimeKeyDown",0x7ac20eb3,"openfl.display.Stage.__onLimeKeyDown","openfl/display/Stage.hx",1809,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1816___onLimeKeyUp,"openfl.display.Stage","__onLimeKeyUp",0xd71b966c,"openfl.display.Stage.__onLimeKeyUp","openfl/display/Stage.hx",1816,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1824___onLimeModuleExit,"openfl.display.Stage","__onLimeModuleExit",0x39407018,"openfl.display.Stage.__onLimeModuleExit","openfl/display/Stage.hx",1824,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1843___onLimeMouseDown,"openfl.display.Stage","__onLimeMouseDown",0x5cfe3eb9,"openfl.display.Stage.__onLimeMouseDown","openfl/display/Stage.hx",1843,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1864___onLimeMouseMove,"openfl.display.Stage","__onLimeMouseMove",0x62f12968,"openfl.display.Stage.__onLimeMouseMove","openfl/display/Stage.hx",1864,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1877___onLimeMouseMoveRelative,"openfl.display.Stage","__onLimeMouseMoveRelative",0xa75b4a54,"openfl.display.Stage.__onLimeMouseMoveRelative","openfl/display/Stage.hx",1877,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1882___onLimeMouseUp,"openfl.display.Stage","__onLimeMouseUp",0x9eed98f2,"openfl.display.Stage.__onLimeMouseUp","openfl/display/Stage.hx",1882,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1903___onLimeMouseWheel,"openfl.display.Stage","__onLimeMouseWheel",0xed677a64,"openfl.display.Stage.__onLimeMouseWheel","openfl/display/Stage.hx",1903,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1919___onLimeRender,"openfl.display.Stage","__onLimeRender",0x264d8e84,"openfl.display.Stage.__onLimeRender","openfl/display/Stage.hx",1919,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2052___onLimeRenderContextLost,"openfl.display.Stage","__onLimeRenderContextLost",0xb143df4f,"openfl.display.Stage.__onLimeRenderContextLost","openfl/display/Stage.hx",2052,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2063___onLimeRenderContextRestored,"openfl.display.Stage","__onLimeRenderContextRestored",0xe7d4c441,"openfl.display.Stage.__onLimeRenderContextRestored","openfl/display/Stage.hx",2063,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2073___onLimeTextEdit,"openfl.display.Stage","__onLimeTextEdit",0x12dfe805,"openfl.display.Stage.__onLimeTextEdit","openfl/display/Stage.hx",2073,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2078___onLimeTextInput,"openfl.display.Stage","__onLimeTextInput",0xc546e1af,"openfl.display.Stage.__onLimeTextInput","openfl/display/Stage.hx",2078,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2110___onLimeTouchCancel,"openfl.display.Stage","__onLimeTouchCancel",0x3bd1e8ab,"openfl.display.Stage.__onLimeTouchCancel","openfl/display/Stage.hx",2110,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2123___onLimeTouchMove,"openfl.display.Stage","__onLimeTouchMove",0x7c090002,"openfl.display.Stage.__onLimeTouchMove","openfl/display/Stage.hx",2123,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2127___onLimeTouchEnd,"openfl.display.Stage","__onLimeTouchEnd",0xccdf900a,"openfl.display.Stage.__onLimeTouchEnd","openfl/display/Stage.hx",2127,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2138___onLimeTouchStart,"openfl.display.Stage","__onLimeTouchStart",0x837caa51,"openfl.display.Stage.__onLimeTouchStart","openfl/display/Stage.hx",2138,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2148___onLimeUpdate,"openfl.display.Stage","__onLimeUpdate",0xa829a937,"openfl.display.Stage.__onLimeUpdate","openfl/display/Stage.hx",2148,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2156___onLimeWindowActivate,"openfl.display.Stage","__onLimeWindowActivate",0xad67dcf1,"openfl.display.Stage.__onLimeWindowActivate","openfl/display/Stage.hx",2156,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2162___onLimeWindowClose,"openfl.display.Stage","__onLimeWindowClose",0x579d43ba,"openfl.display.Stage.__onLimeWindowClose","openfl/display/Stage.hx",2162,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2186___onLimeWindowCreate,"openfl.display.Stage","__onLimeWindowCreate",0xbfbbbcba,"openfl.display.Stage.__onLimeWindowCreate","openfl/display/Stage.hx",2186,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2197___onLimeWindowDeactivate,"openfl.display.Stage","__onLimeWindowDeactivate",0x3b1e68f2,"openfl.display.Stage.__onLimeWindowDeactivate","openfl/display/Stage.hx",2197,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2203___onLimeWindowDropFile,"openfl.display.Stage","__onLimeWindowDropFile",0xb1123789,"openfl.display.Stage.__onLimeWindowDropFile","openfl/display/Stage.hx",2203,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2206___onLimeWindowEnter,"openfl.display.Stage","__onLimeWindowEnter",0x7fc0991a,"openfl.display.Stage.__onLimeWindowEnter","openfl/display/Stage.hx",2206,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2211___onLimeWindowExpose,"openfl.display.Stage","__onLimeWindowExpose",0x0829e802,"openfl.display.Stage.__onLimeWindowExpose","openfl/display/Stage.hx",2211,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2218___onLimeWindowFocusIn,"openfl.display.Stage","__onLimeWindowFocusIn",0x34a1f65f,"openfl.display.Stage.__onLimeWindowFocusIn","openfl/display/Stage.hx",2218,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2246___onLimeWindowFocusOut,"openfl.display.Stage","__onLimeWindowFocusOut",0xd91a30d4,"openfl.display.Stage.__onLimeWindowFocusOut","openfl/display/Stage.hx",2246,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2276___onLimeWindowFullscreen,"openfl.display.Stage","__onLimeWindowFullscreen",0xf8d146f9,"openfl.display.Stage.__onLimeWindowFullscreen","openfl/display/Stage.hx",2276,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2290___onLimeWindowLeave,"openfl.display.Stage","__onLimeWindowLeave",0x818d60f9,"openfl.display.Stage.__onLimeWindowLeave","openfl/display/Stage.hx",2290,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2312___onLimeWindowMinimize,"openfl.display.Stage","__onLimeWindowMinimize",0xe935005c,"openfl.display.Stage.__onLimeWindowMinimize","openfl/display/Stage.hx",2312,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2319___onLimeWindowMove,"openfl.display.Stage","__onLimeWindowMove",0xd917ad4f,"openfl.display.Stage.__onLimeWindowMove","openfl/display/Stage.hx",2319,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2324___onLimeWindowResize,"openfl.display.Stage","__onLimeWindowResize",0x4c27afb2,"openfl.display.Stage.__onLimeWindowResize","openfl/display/Stage.hx",2324,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2347___onLimeWindowRestore,"openfl.display.Stage","__onLimeWindowRestore",0x5dcf17d0,"openfl.display.Stage.__onLimeWindowRestore","openfl/display/Stage.hx",2347,0xadca4c2c)
-HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2360___onMouse,"openfl.display.Stage","__onMouse",0xfccea68c,"openfl.display.Stage.__onMouse","openfl/display/Stage.hx",2360,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1771___onLimeGamepadConnect,"openfl.display.Stage","__onLimeGamepadConnect",0xae614a77,"openfl.display.Stage.__onLimeGamepadConnect","openfl/display/Stage.hx",1771,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1794___onLimeGamepadDisconnect,"openfl.display.Stage","__onLimeGamepadDisconnect",0x71332bef,"openfl.display.Stage.__onLimeGamepadDisconnect","openfl/display/Stage.hx",1794,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1808___onLimeKeyDown,"openfl.display.Stage","__onLimeKeyDown",0x7ac20eb3,"openfl.display.Stage.__onLimeKeyDown","openfl/display/Stage.hx",1808,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1815___onLimeKeyUp,"openfl.display.Stage","__onLimeKeyUp",0xd71b966c,"openfl.display.Stage.__onLimeKeyUp","openfl/display/Stage.hx",1815,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1823___onLimeModuleExit,"openfl.display.Stage","__onLimeModuleExit",0x39407018,"openfl.display.Stage.__onLimeModuleExit","openfl/display/Stage.hx",1823,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1842___onLimeMouseDown,"openfl.display.Stage","__onLimeMouseDown",0x5cfe3eb9,"openfl.display.Stage.__onLimeMouseDown","openfl/display/Stage.hx",1842,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1863___onLimeMouseMove,"openfl.display.Stage","__onLimeMouseMove",0x62f12968,"openfl.display.Stage.__onLimeMouseMove","openfl/display/Stage.hx",1863,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1876___onLimeMouseMoveRelative,"openfl.display.Stage","__onLimeMouseMoveRelative",0xa75b4a54,"openfl.display.Stage.__onLimeMouseMoveRelative","openfl/display/Stage.hx",1876,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1881___onLimeMouseUp,"openfl.display.Stage","__onLimeMouseUp",0x9eed98f2,"openfl.display.Stage.__onLimeMouseUp","openfl/display/Stage.hx",1881,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1902___onLimeMouseWheel,"openfl.display.Stage","__onLimeMouseWheel",0xed677a64,"openfl.display.Stage.__onLimeMouseWheel","openfl/display/Stage.hx",1902,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_1918___onLimeRender,"openfl.display.Stage","__onLimeRender",0x264d8e84,"openfl.display.Stage.__onLimeRender","openfl/display/Stage.hx",1918,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2051___onLimeRenderContextLost,"openfl.display.Stage","__onLimeRenderContextLost",0xb143df4f,"openfl.display.Stage.__onLimeRenderContextLost","openfl/display/Stage.hx",2051,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2062___onLimeRenderContextRestored,"openfl.display.Stage","__onLimeRenderContextRestored",0xe7d4c441,"openfl.display.Stage.__onLimeRenderContextRestored","openfl/display/Stage.hx",2062,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2072___onLimeTextEdit,"openfl.display.Stage","__onLimeTextEdit",0x12dfe805,"openfl.display.Stage.__onLimeTextEdit","openfl/display/Stage.hx",2072,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2077___onLimeTextInput,"openfl.display.Stage","__onLimeTextInput",0xc546e1af,"openfl.display.Stage.__onLimeTextInput","openfl/display/Stage.hx",2077,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2109___onLimeTouchCancel,"openfl.display.Stage","__onLimeTouchCancel",0x3bd1e8ab,"openfl.display.Stage.__onLimeTouchCancel","openfl/display/Stage.hx",2109,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2122___onLimeTouchMove,"openfl.display.Stage","__onLimeTouchMove",0x7c090002,"openfl.display.Stage.__onLimeTouchMove","openfl/display/Stage.hx",2122,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2126___onLimeTouchEnd,"openfl.display.Stage","__onLimeTouchEnd",0xccdf900a,"openfl.display.Stage.__onLimeTouchEnd","openfl/display/Stage.hx",2126,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2137___onLimeTouchStart,"openfl.display.Stage","__onLimeTouchStart",0x837caa51,"openfl.display.Stage.__onLimeTouchStart","openfl/display/Stage.hx",2137,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2147___onLimeUpdate,"openfl.display.Stage","__onLimeUpdate",0xa829a937,"openfl.display.Stage.__onLimeUpdate","openfl/display/Stage.hx",2147,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2155___onLimeWindowActivate,"openfl.display.Stage","__onLimeWindowActivate",0xad67dcf1,"openfl.display.Stage.__onLimeWindowActivate","openfl/display/Stage.hx",2155,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2161___onLimeWindowClose,"openfl.display.Stage","__onLimeWindowClose",0x579d43ba,"openfl.display.Stage.__onLimeWindowClose","openfl/display/Stage.hx",2161,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2185___onLimeWindowCreate,"openfl.display.Stage","__onLimeWindowCreate",0xbfbbbcba,"openfl.display.Stage.__onLimeWindowCreate","openfl/display/Stage.hx",2185,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2196___onLimeWindowDeactivate,"openfl.display.Stage","__onLimeWindowDeactivate",0x3b1e68f2,"openfl.display.Stage.__onLimeWindowDeactivate","openfl/display/Stage.hx",2196,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2202___onLimeWindowDropFile,"openfl.display.Stage","__onLimeWindowDropFile",0xb1123789,"openfl.display.Stage.__onLimeWindowDropFile","openfl/display/Stage.hx",2202,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2205___onLimeWindowEnter,"openfl.display.Stage","__onLimeWindowEnter",0x7fc0991a,"openfl.display.Stage.__onLimeWindowEnter","openfl/display/Stage.hx",2205,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2210___onLimeWindowExpose,"openfl.display.Stage","__onLimeWindowExpose",0x0829e802,"openfl.display.Stage.__onLimeWindowExpose","openfl/display/Stage.hx",2210,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2217___onLimeWindowFocusIn,"openfl.display.Stage","__onLimeWindowFocusIn",0x34a1f65f,"openfl.display.Stage.__onLimeWindowFocusIn","openfl/display/Stage.hx",2217,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2245___onLimeWindowFocusOut,"openfl.display.Stage","__onLimeWindowFocusOut",0xd91a30d4,"openfl.display.Stage.__onLimeWindowFocusOut","openfl/display/Stage.hx",2245,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2275___onLimeWindowFullscreen,"openfl.display.Stage","__onLimeWindowFullscreen",0xf8d146f9,"openfl.display.Stage.__onLimeWindowFullscreen","openfl/display/Stage.hx",2275,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2289___onLimeWindowLeave,"openfl.display.Stage","__onLimeWindowLeave",0x818d60f9,"openfl.display.Stage.__onLimeWindowLeave","openfl/display/Stage.hx",2289,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2311___onLimeWindowMinimize,"openfl.display.Stage","__onLimeWindowMinimize",0xe935005c,"openfl.display.Stage.__onLimeWindowMinimize","openfl/display/Stage.hx",2311,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2318___onLimeWindowMove,"openfl.display.Stage","__onLimeWindowMove",0xd917ad4f,"openfl.display.Stage.__onLimeWindowMove","openfl/display/Stage.hx",2318,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2323___onLimeWindowResize,"openfl.display.Stage","__onLimeWindowResize",0x4c27afb2,"openfl.display.Stage.__onLimeWindowResize","openfl/display/Stage.hx",2323,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2346___onLimeWindowRestore,"openfl.display.Stage","__onLimeWindowRestore",0x5dcf17d0,"openfl.display.Stage.__onLimeWindowRestore","openfl/display/Stage.hx",2346,0xadca4c2c)
+HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2359___onMouse,"openfl.display.Stage","__onMouse",0xfccea68c,"openfl.display.Stage.__onMouse","openfl/display/Stage.hx",2359,0xadca4c2c)
 HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2691___onMouseWheel,"openfl.display.Stage","__onMouseWheel",0x6d35c26f,"openfl.display.Stage.__onMouseWheel","openfl/display/Stage.hx",2691,0xadca4c2c)
 HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2725___onTouch,"openfl.display.Stage","__onTouch",0x049ca826,"openfl.display.Stage.__onTouch","openfl/display/Stage.hx",2725,0xadca4c2c)
 HX_LOCAL_STACK_FRAME(_hx_pos_e171466d8d112c10_2891___registerLimeModule,"openfl.display.Stage","__registerLimeModule",0x9fba419e,"openfl.display.Stage.__registerLimeModule","openfl/display/Stage.hx",2891,0xadca4c2c)
@@ -387,69 +387,68 @@ namespace display{
 void Stage_obj::__construct( ::lime::ui::Window window, ::Dynamic color){
             	HX_GC_STACKFRAME(&_hx_pos_e171466d8d112c10_948_new)
 HXLINE( 953)		super::__construct();
-HXLINE( 955)		this->_hx___drawableType = 5;
-HXLINE( 956)		this->set_name(null());
-HXLINE( 958)		this->_hx___color = -1;
-HXLINE( 959)		this->_hx___colorSplit = ::Array_obj< Float >::fromData( _hx_array_data_5c7c3614_1,3);
-HXLINE( 960)		this->_hx___colorString = HX_("#FFFFFF",23,64,f1,28);
-HXLINE( 961)		this->_hx___contentsScaleFactor = ( (Float)(1) );
-HXLINE( 962)		this->_hx___currentTabOrderIndex = 0;
-HXLINE( 963)		this->_hx___deltaTime = 0;
-HXLINE( 964)		this->_hx___displayState = 2;
-HXLINE( 965)		this->_hx___mouseX = ( (Float)(0) );
-HXLINE( 966)		this->_hx___mouseY = ( (Float)(0) );
-HXLINE( 967)		this->_hx___lastClickTime = 0;
-HXLINE( 968)		this->_hx___logicalWidth = 0;
-HXLINE( 969)		this->_hx___logicalHeight = 0;
-HXLINE( 970)		this->_hx___displayMatrix =  ::openfl::geom::Matrix_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-HXLINE( 971)		this->_hx___displayRect =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,null(),null(),null(),null());
-HXLINE( 972)		this->_hx___renderDirty = true;
-HXLINE( 974)		int length = null();
-HXDLIN( 974)		bool fixed = null();
-HXDLIN( 974)		::Array< ::Dynamic> array = null();
-HXDLIN( 974)		this->stage3Ds =  ::openfl::_Vector::ObjectVector_obj::__alloc( HX_CTX ,length,fixed,array,true);
-HXLINE( 975)		{
-HXLINE( 977)			{
-HXLINE( 977)				::Dynamic this1 = this->stage3Ds;
-HXDLIN( 977)				( ( ::openfl::_Vector::ObjectVector)(this1) )->push( ::openfl::display::Stage3D_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this)));
+HXLINE( 955)		this->set_name(null());
+HXLINE( 957)		this->_hx___color = -1;
+HXLINE( 958)		this->_hx___colorSplit = ::Array_obj< Float >::fromData( _hx_array_data_5c7c3614_1,3);
+HXLINE( 959)		this->_hx___colorString = HX_("#FFFFFF",23,64,f1,28);
+HXLINE( 960)		this->_hx___contentsScaleFactor = ( (Float)(1) );
+HXLINE( 961)		this->_hx___currentTabOrderIndex = 0;
+HXLINE( 962)		this->_hx___deltaTime = 0;
+HXLINE( 963)		this->_hx___displayState = 2;
+HXLINE( 964)		this->_hx___mouseX = ( (Float)(0) );
+HXLINE( 965)		this->_hx___mouseY = ( (Float)(0) );
+HXLINE( 966)		this->_hx___lastClickTime = 0;
+HXLINE( 967)		this->_hx___logicalWidth = 0;
+HXLINE( 968)		this->_hx___logicalHeight = 0;
+HXLINE( 969)		this->_hx___displayMatrix =  ::openfl::geom::Matrix_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE( 970)		this->_hx___displayRect =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,null(),null(),null(),null());
+HXLINE( 971)		this->_hx___renderDirty = true;
+HXLINE( 973)		int length = null();
+HXDLIN( 973)		bool fixed = null();
+HXDLIN( 973)		::Array< ::Dynamic> array = null();
+HXDLIN( 973)		this->stage3Ds =  ::openfl::_Vector::ObjectVector_obj::__alloc( HX_CTX ,length,fixed,array,true);
+HXLINE( 974)		{
+HXLINE( 976)			{
+HXLINE( 976)				::Dynamic this1 = this->stage3Ds;
+HXDLIN( 976)				( ( ::openfl::_Vector::ObjectVector)(this1) )->push( ::openfl::display::Stage3D_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this)));
             			}
-HXDLIN( 977)			{
-HXLINE( 977)				::Dynamic this2 = this->stage3Ds;
-HXDLIN( 977)				( ( ::openfl::_Vector::ObjectVector)(this2) )->push( ::openfl::display::Stage3D_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this)));
+HXDLIN( 976)			{
+HXLINE( 976)				::Dynamic this2 = this->stage3Ds;
+HXDLIN( 976)				( ( ::openfl::_Vector::ObjectVector)(this2) )->push( ::openfl::display::Stage3D_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this)));
             			}
-HXDLIN( 977)			{
-HXLINE( 977)				::Dynamic this3 = this->stage3Ds;
-HXDLIN( 977)				( ( ::openfl::_Vector::ObjectVector)(this3) )->push( ::openfl::display::Stage3D_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this)));
+HXDLIN( 976)			{
+HXLINE( 976)				::Dynamic this3 = this->stage3Ds;
+HXDLIN( 976)				( ( ::openfl::_Vector::ObjectVector)(this3) )->push( ::openfl::display::Stage3D_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this)));
             			}
-HXDLIN( 977)			{
-HXLINE( 977)				::Dynamic this4 = this->stage3Ds;
-HXDLIN( 977)				( ( ::openfl::_Vector::ObjectVector)(this4) )->push( ::openfl::display::Stage3D_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this)));
+HXDLIN( 976)			{
+HXLINE( 976)				::Dynamic this4 = this->stage3Ds;
+HXDLIN( 976)				( ( ::openfl::_Vector::ObjectVector)(this4) )->push( ::openfl::display::Stage3D_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this)));
             			}
             		}
-HXLINE( 980)		this->stage = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE( 982)		this->align = 6;
-HXLINE( 983)		this->allowsFullScreen = true;
-HXLINE( 984)		this->allowsFullScreenInteractive = true;
-HXLINE( 985)		this->_hx___quality = 1;
-HXLINE( 986)		this->_hx___scaleMode = 2;
-HXLINE( 987)		this->showDefaultContextMenu = true;
-HXLINE( 988)		this->softKeyboardRect =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,null(),null(),null(),null());
-HXLINE( 989)		this->stageFocusRect = true;
-HXLINE( 997)		this->_hx___clearBeforeRender = true;
-HXLINE( 998)		this->_hx___forceRender = false;
-HXLINE( 999)		this->_hx___stack = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE(1000)		this->_hx___rollOutStack = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE(1001)		this->_hx___mouseOutStack = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE(1002)		this->_hx___touchData =  ::haxe::ds::IntMap_obj::__alloc( HX_CTX );
-HXLINE(1074)		this->application = window->application;
-HXLINE(1075)		this->window = window;
-HXLINE(1076)		this->set_color(color);
-HXLINE(1079)		this->_hx___contentsScaleFactor = window->_hx___scale;
-HXLINE(1080)		this->_hx___wasFullscreen = window->_hx___fullscreen;
-HXLINE(1082)		this->_hx___resize();
-HXLINE(1084)		if (::hx::IsNull( ::openfl::Lib_obj::get_current()->stage )) {
-HXLINE(1086)			 ::openfl::display::Stage _hx_tmp = this->stage;
-HXDLIN(1086)			_hx_tmp->addChild(::openfl::Lib_obj::get_current());
+HXLINE( 979)		this->stage = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 981)		this->align = 6;
+HXLINE( 982)		this->allowsFullScreen = true;
+HXLINE( 983)		this->allowsFullScreenInteractive = true;
+HXLINE( 984)		this->_hx___quality = 1;
+HXLINE( 985)		this->_hx___scaleMode = 2;
+HXLINE( 986)		this->showDefaultContextMenu = true;
+HXLINE( 987)		this->softKeyboardRect =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,null(),null(),null(),null());
+HXLINE( 988)		this->stageFocusRect = true;
+HXLINE( 996)		this->_hx___clearBeforeRender = true;
+HXLINE( 997)		this->_hx___forceRender = false;
+HXLINE( 998)		this->_hx___stack = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE( 999)		this->_hx___rollOutStack = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(1000)		this->_hx___mouseOutStack = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(1001)		this->_hx___touchData =  ::haxe::ds::IntMap_obj::__alloc( HX_CTX );
+HXLINE(1073)		this->application = window->application;
+HXLINE(1074)		this->window = window;
+HXLINE(1075)		this->set_color(color);
+HXLINE(1078)		this->_hx___contentsScaleFactor = window->_hx___scale;
+HXLINE(1079)		this->_hx___wasFullscreen = window->_hx___fullscreen;
+HXLINE(1081)		this->_hx___resize();
+HXLINE(1083)		if (::hx::IsNull( ::openfl::Lib_obj::get_current()->stage )) {
+HXLINE(1085)			 ::openfl::display::Stage _hx_tmp = this->stage;
+HXDLIN(1085)			_hx_tmp->addChild(::openfl::Lib_obj::get_current());
             		}
             	}
 
@@ -493,38 +492,38 @@ void *Stage_obj::_hx_getInterface(int inHash) {
 }
 
 void Stage_obj::invalidate(){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1129_invalidate)
-HXLINE(1130)		this->_hx___invalidated = true;
-HXLINE(1133)		this->_hx___renderDirty = true;
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1128_invalidate)
+HXLINE(1129)		this->_hx___invalidated = true;
+HXLINE(1132)		this->_hx___renderDirty = true;
             	}
 
 
  ::openfl::geom::Point Stage_obj::localToGlobal( ::openfl::geom::Point pos){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1139_localToGlobal)
-HXDLIN(1139)		return pos->clone();
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1138_localToGlobal)
+HXDLIN(1138)		return pos->clone();
             	}
 
 
 void Stage_obj::_hx___broadcastEvent( ::openfl::events::Event event){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1145___broadcastEvent)
-HXDLIN(1145)		if (::openfl::display::DisplayObject_obj::_hx___broadcastEvents->exists(event->type)) {
-HXLINE(1147)			::Array< ::Dynamic> dispatchers = ( (::Array< ::Dynamic>)(::openfl::display::DisplayObject_obj::_hx___broadcastEvents->get(event->type)) );
-HXLINE(1149)			{
-HXLINE(1149)				int _g = 0;
-HXDLIN(1149)				while((_g < dispatchers->length)){
-HXLINE(1149)					 ::openfl::display::DisplayObject dispatcher = dispatchers->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
-HXDLIN(1149)					_g = (_g + 1);
-HXLINE(1154)					bool _hx_tmp;
-HXDLIN(1154)					if (::hx::IsNotEq( dispatcher->stage,::hx::ObjectPtr<OBJ_>(this) )) {
-HXLINE(1154)						_hx_tmp = ::hx::IsNull( dispatcher->stage );
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1144___broadcastEvent)
+HXDLIN(1144)		if (::openfl::display::DisplayObject_obj::_hx___broadcastEvents->exists(event->type)) {
+HXLINE(1146)			::Array< ::Dynamic> dispatchers = ( (::Array< ::Dynamic>)(::openfl::display::DisplayObject_obj::_hx___broadcastEvents->get(event->type)) );
+HXLINE(1148)			{
+HXLINE(1148)				int _g = 0;
+HXDLIN(1148)				while((_g < dispatchers->length)){
+HXLINE(1148)					 ::openfl::display::DisplayObject dispatcher = dispatchers->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN(1148)					_g = (_g + 1);
+HXLINE(1153)					bool _hx_tmp;
+HXDLIN(1153)					if (::hx::IsNotEq( dispatcher->stage,::hx::ObjectPtr<OBJ_>(this) )) {
+HXLINE(1153)						_hx_tmp = ::hx::IsNull( dispatcher->stage );
             					}
             					else {
-HXLINE(1154)						_hx_tmp = true;
+HXLINE(1153)						_hx_tmp = true;
             					}
-HXDLIN(1154)					if (_hx_tmp) {
-HXLINE(1157)						try {
+HXDLIN(1153)					if (_hx_tmp) {
+HXLINE(1156)						try {
             							HX_STACK_CATCHABLE( ::Dynamic, 0);
-HXLINE(1159)							dispatcher->_hx___dispatch(event);
+HXLINE(1158)							dispatcher->_hx___dispatch(event);
             						} catch( ::Dynamic _hx_e) {
             							if (_hx_e.IsClass<  ::Dynamic >() ){
             								HX_STACK_BEGIN_CATCH
@@ -533,7 +532,7 @@ HXLINE(   1)								{
 HXLINE(   1)									null();
             								}
 HXDLIN(   1)								 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
-HXLINE(1163)								this->_hx___handleError(e);
+HXLINE(1162)								this->_hx___handleError(e);
             							}
             							else {
             								HX_STACK_DO_THROW(_hx_e);
@@ -549,36 +548,36 @@ HXLINE(1163)								this->_hx___handleError(e);
 HX_DEFINE_DYNAMIC_FUNC1(Stage_obj,_hx___broadcastEvent,(void))
 
 void Stage_obj::_hx___createRenderer(){
-            	HX_GC_STACKFRAME(&_hx_pos_e171466d8d112c10_1174___createRenderer)
-HXLINE(1186)		int windowWidth = ::Std_obj::_hx_int((( (Float)(this->window->_hx___width) ) * this->window->_hx___scale));
-HXLINE(1187)		int windowHeight = ::Std_obj::_hx_int((( (Float)(this->window->_hx___height) ) * this->window->_hx___scale));
-HXLINE(1189)		::String _hx_switch_0 = this->window->context->type;
+            	HX_GC_STACKFRAME(&_hx_pos_e171466d8d112c10_1173___createRenderer)
+HXLINE(1185)		int windowWidth = ::Std_obj::_hx_int((( (Float)(this->window->_hx___width) ) * this->window->_hx___scale));
+HXLINE(1186)		int windowHeight = ::Std_obj::_hx_int((( (Float)(this->window->_hx___height) ) * this->window->_hx___scale));
+HXLINE(1188)		::String _hx_switch_0 = this->window->context->type;
             		if (  (_hx_switch_0==HX_("cairo",88,30,19,41)) ){
-HXLINE(1213)			this->_hx___renderer =  ::openfl::display::CairoRenderer_obj::__alloc( HX_CTX ,this->window->context->cairo);
-HXDLIN(1213)			goto _hx_goto_6;
+HXLINE(1212)			this->_hx___renderer =  ::openfl::display::CairoRenderer_obj::__alloc( HX_CTX ,this->window->context->cairo);
+HXDLIN(1212)			goto _hx_goto_6;
             		}
             		if (  (_hx_switch_0==HX_("canvas",d8,54,42,b8)) ){
-HXLINE(1199)			goto _hx_goto_6;
+HXLINE(1198)			goto _hx_goto_6;
             		}
             		if (  (_hx_switch_0==HX_("dom",82,42,4c,00)) ){
-HXLINE(1205)			goto _hx_goto_6;
+HXLINE(1204)			goto _hx_goto_6;
             		}
             		if (  (_hx_switch_0==HX_("opengl",6f,64,94,21)) ||  (_hx_switch_0==HX_("opengles",9d,f6,c9,fa)) ||  (_hx_switch_0==HX_("webgl",b9,4b,bc,c7)) ){
-HXLINE(1193)			this->context3D =  ::openfl::display3D::Context3D_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this),null(),null());
-HXLINE(1194)			this->context3D->configureBackBuffer(windowWidth,windowHeight,0,true,true,true);
-HXLINE(1195)			this->context3D->present();
-HXLINE(1196)			this->_hx___renderer =  ::openfl::display::OpenGLRenderer_obj::__alloc( HX_CTX ,this->context3D,null());
-HXLINE(1191)			goto _hx_goto_6;
+HXLINE(1192)			this->context3D =  ::openfl::display3D::Context3D_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this),null(),null());
+HXLINE(1193)			this->context3D->configureBackBuffer(windowWidth,windowHeight,0,true,true,true);
+HXLINE(1194)			this->context3D->present();
+HXLINE(1195)			this->_hx___renderer =  ::openfl::display::OpenGLRenderer_obj::__alloc( HX_CTX ,this->context3D,null());
+HXLINE(1190)			goto _hx_goto_6;
             		}
             		/* default */{
             		}
             		_hx_goto_6:;
-HXLINE(1219)		if (::hx::IsNotNull( this->_hx___renderer )) {
-HXLINE(1221)			 ::Dynamic _hx_tmp = this->get_quality();
-HXDLIN(1221)			this->_hx___renderer->_hx___allowSmoothing = ::hx::IsNotEq( _hx_tmp,2 );
-HXLINE(1222)			this->_hx___renderer->_hx___worldTransform = this->_hx___displayMatrix;
-HXLINE(1223)			this->_hx___renderer->_hx___stage = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE(1225)			this->_hx___renderer->_hx___resize(windowWidth,windowHeight);
+HXLINE(1218)		if (::hx::IsNotNull( this->_hx___renderer )) {
+HXLINE(1220)			 ::Dynamic _hx_tmp = this->get_quality();
+HXDLIN(1220)			this->_hx___renderer->_hx___allowSmoothing = ::hx::IsNotEq( _hx_tmp,2 );
+HXLINE(1221)			this->_hx___renderer->_hx___worldTransform = this->_hx___displayMatrix;
+HXLINE(1222)			this->_hx___renderer->_hx___stage = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(1224)			this->_hx___renderer->_hx___resize(windowWidth,windowHeight);
             		}
             	}
 
@@ -586,10 +585,10 @@ HXLINE(1225)			this->_hx___renderer->_hx___resize(windowWidth,windowHeight);
 HX_DEFINE_DYNAMIC_FUNC0(Stage_obj,_hx___createRenderer,(void))
 
 bool Stage_obj::_hx___dispatchEvent( ::openfl::events::Event event){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1234___dispatchEvent)
-HXDLIN(1234)		try {
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1233___dispatchEvent)
+HXDLIN(1233)		try {
             			HX_STACK_CATCHABLE( ::Dynamic, 0);
-HXLINE(1238)			return this->super::_hx___dispatchEvent(event);
+HXLINE(1237)			return this->super::_hx___dispatchEvent(event);
             		} catch( ::Dynamic _hx_e) {
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
@@ -598,22 +597,22 @@ HXLINE(   1)				{
 HXLINE(   1)					null();
             				}
 HXDLIN(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
-HXLINE(1244)				this->_hx___handleError(e);
-HXLINE(1245)				return false;
+HXLINE(1243)				this->_hx___handleError(e);
+HXLINE(1244)				return false;
             			}
             			else {
             				HX_STACK_DO_THROW(_hx_e);
             			}
             		}
-HXLINE(1234)		return false;
+HXLINE(1233)		return false;
             	}
 
 
 void Stage_obj::_hx___dispatchPendingMouseEvent(){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1252___dispatchPendingMouseEvent)
-HXDLIN(1252)		if (this->_hx___pendingMouseEvent) {
-HXLINE(1254)			this->_hx___onMouse(HX_("mouseMove",d6,9b,b5,f4),( (Float)(this->_hx___pendingMouseX) ),( (Float)(this->_hx___pendingMouseY) ),0);
-HXLINE(1255)			this->_hx___pendingMouseEvent = false;
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1251___dispatchPendingMouseEvent)
+HXDLIN(1251)		if (this->_hx___pendingMouseEvent) {
+HXLINE(1253)			this->_hx___onMouse(HX_("mouseMove",d6,9b,b5,f4),( (Float)(this->_hx___pendingMouseX) ),( (Float)(this->_hx___pendingMouseY) ),0);
+HXLINE(1254)			this->_hx___pendingMouseEvent = false;
             		}
             	}
 
@@ -621,46 +620,46 @@ HXLINE(1255)			this->_hx___pendingMouseEvent = false;
 HX_DEFINE_DYNAMIC_FUNC0(Stage_obj,_hx___dispatchPendingMouseEvent,(void))
 
 void Stage_obj::_hx___dispatchStack( ::openfl::events::Event event,::Array< ::Dynamic> stack){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1263___dispatchStack)
-HXDLIN(1263)		try {
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1262___dispatchStack)
+HXDLIN(1262)		try {
             			HX_STACK_CATCHABLE( ::Dynamic, 0);
-HXLINE(1267)			 ::openfl::display::DisplayObject target;
-HXLINE(1268)			int length = stack->length;
-HXLINE(1270)			if ((length == 0)) {
-HXLINE(1272)				event->eventPhase = 2;
-HXLINE(1273)				target = ( ( ::openfl::display::DisplayObject)(event->target) );
-HXLINE(1274)				target->_hx___dispatch(event);
+HXLINE(1266)			 ::openfl::display::DisplayObject target;
+HXLINE(1267)			int length = stack->length;
+HXLINE(1269)			if ((length == 0)) {
+HXLINE(1271)				event->eventPhase = 2;
+HXLINE(1272)				target = ( ( ::openfl::display::DisplayObject)(event->target) );
+HXLINE(1273)				target->_hx___dispatch(event);
             			}
             			else {
-HXLINE(1278)				event->eventPhase = 1;
-HXLINE(1279)				event->target = stack->__get((stack->length - 1)).StaticCast<  ::openfl::display::DisplayObject >();
-HXLINE(1281)				{
-HXLINE(1281)					int _g = 0;
-HXDLIN(1281)					int _g1 = (length - 1);
-HXDLIN(1281)					while((_g < _g1)){
-HXLINE(1281)						_g = (_g + 1);
-HXDLIN(1281)						int i = (_g - 1);
-HXLINE(1283)						stack->__get(i).StaticCast<  ::openfl::display::DisplayObject >()->_hx___dispatch(event);
-HXLINE(1285)						if (event->_hx___isCanceled) {
-HXLINE(1287)							return;
+HXLINE(1277)				event->eventPhase = 1;
+HXLINE(1278)				event->target = stack->__get((stack->length - 1)).StaticCast<  ::openfl::display::DisplayObject >();
+HXLINE(1280)				{
+HXLINE(1280)					int _g = 0;
+HXDLIN(1280)					int _g1 = (length - 1);
+HXDLIN(1280)					while((_g < _g1)){
+HXLINE(1280)						_g = (_g + 1);
+HXDLIN(1280)						int i = (_g - 1);
+HXLINE(1282)						stack->__get(i).StaticCast<  ::openfl::display::DisplayObject >()->_hx___dispatch(event);
+HXLINE(1284)						if (event->_hx___isCanceled) {
+HXLINE(1286)							return;
             						}
             					}
             				}
-HXLINE(1291)				event->eventPhase = 2;
-HXLINE(1292)				target = ( ( ::openfl::display::DisplayObject)(event->target) );
-HXLINE(1293)				target->_hx___dispatch(event);
-HXLINE(1295)				if (event->_hx___isCanceled) {
-HXLINE(1297)					return;
+HXLINE(1290)				event->eventPhase = 2;
+HXLINE(1291)				target = ( ( ::openfl::display::DisplayObject)(event->target) );
+HXLINE(1292)				target->_hx___dispatch(event);
+HXLINE(1294)				if (event->_hx___isCanceled) {
+HXLINE(1296)					return;
             				}
-HXLINE(1300)				if (event->bubbles) {
-HXLINE(1302)					event->eventPhase = 3;
-HXLINE(1303)					int i = (length - 2);
-HXLINE(1305)					while((i >= 0)){
-HXLINE(1307)						stack->__get(i).StaticCast<  ::openfl::display::DisplayObject >()->_hx___dispatch(event);
-HXLINE(1309)						if (event->_hx___isCanceled) {
-HXLINE(1311)							return;
+HXLINE(1299)				if (event->bubbles) {
+HXLINE(1301)					event->eventPhase = 3;
+HXLINE(1302)					int i = (length - 2);
+HXLINE(1304)					while((i >= 0)){
+HXLINE(1306)						stack->__get(i).StaticCast<  ::openfl::display::DisplayObject >()->_hx___dispatch(event);
+HXLINE(1308)						if (event->_hx___isCanceled) {
+HXLINE(1310)							return;
             						}
-HXLINE(1314)						i = (i - 1);
+HXLINE(1313)						i = (i - 1);
             					}
             				}
             			}
@@ -672,7 +671,7 @@ HXLINE(   1)				{
 HXLINE(   1)					null();
             				}
 HXDLIN(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
-HXLINE(1323)				this->_hx___handleError(e);
+HXLINE(1322)				this->_hx___handleError(e);
             			}
             			else {
             				HX_STACK_DO_THROW(_hx_e);
@@ -684,10 +683,10 @@ HXLINE(1323)				this->_hx___handleError(e);
 HX_DEFINE_DYNAMIC_FUNC2(Stage_obj,_hx___dispatchStack,(void))
 
 bool Stage_obj::_hx___dispatchTarget( ::openfl::events::EventDispatcher target, ::openfl::events::Event event){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1332___dispatchTarget)
-HXDLIN(1332)		try {
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1331___dispatchTarget)
+HXDLIN(1331)		try {
             			HX_STACK_CATCHABLE( ::Dynamic, 0);
-HXLINE(1334)			return target->_hx___dispatchEvent(event);
+HXLINE(1333)			return target->_hx___dispatchEvent(event);
             		} catch( ::Dynamic _hx_e) {
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
@@ -696,86 +695,86 @@ HXLINE(   1)				{
 HXLINE(   1)					null();
             				}
 HXDLIN(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
-HXLINE(1338)				this->_hx___handleError(e);
-HXLINE(1339)				return false;
+HXLINE(1337)				this->_hx___handleError(e);
+HXLINE(1338)				return false;
             			}
             			else {
             				HX_STACK_DO_THROW(_hx_e);
             			}
             		}
-HXLINE(1332)		return false;
+HXLINE(1331)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Stage_obj,_hx___dispatchTarget,return )
 
 void Stage_obj::_hx___drag( ::openfl::geom::Point mouse){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1347___drag)
-HXLINE(1348)		 ::openfl::display::DisplayObjectContainer parent = this->_hx___dragObject->parent;
-HXLINE(1349)		if (::hx::IsNotNull( parent )) {
-HXLINE(1351)			 ::openfl::geom::Matrix _this = parent->_hx___getWorldTransform();
-HXDLIN(1351)			Float norm = ((_this->a * _this->d) - (_this->b * _this->c));
-HXDLIN(1351)			if ((norm == 0)) {
-HXLINE(1351)				mouse->x = -(_this->tx);
-HXDLIN(1351)				mouse->y = -(_this->ty);
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1346___drag)
+HXLINE(1347)		 ::openfl::display::DisplayObjectContainer parent = this->_hx___dragObject->parent;
+HXLINE(1348)		if (::hx::IsNotNull( parent )) {
+HXLINE(1350)			 ::openfl::geom::Matrix _this = parent->_hx___getWorldTransform();
+HXDLIN(1350)			Float norm = ((_this->a * _this->d) - (_this->b * _this->c));
+HXDLIN(1350)			if ((norm == 0)) {
+HXLINE(1350)				mouse->x = -(_this->tx);
+HXDLIN(1350)				mouse->y = -(_this->ty);
             			}
             			else {
-HXLINE(1351)				Float px = ((((Float)1.0) / norm) * ((_this->c * (_this->ty - mouse->y)) + (_this->d * (mouse->x - _this->tx))));
-HXDLIN(1351)				mouse->y = ((((Float)1.0) / norm) * ((_this->a * (mouse->y - _this->ty)) + (_this->b * (_this->tx - mouse->x))));
-HXDLIN(1351)				mouse->x = px;
+HXLINE(1350)				Float px = ((((Float)1.0) / norm) * ((_this->c * (_this->ty - mouse->y)) + (_this->d * (mouse->x - _this->tx))));
+HXDLIN(1350)				mouse->y = ((((Float)1.0) / norm) * ((_this->a * (mouse->y - _this->ty)) + (_this->b * (_this->tx - mouse->x))));
+HXDLIN(1350)				mouse->x = px;
             			}
             		}
-HXLINE(1354)		Float x = (mouse->x + this->_hx___dragOffsetX);
-HXLINE(1355)		Float y = (mouse->y + this->_hx___dragOffsetY);
-HXLINE(1357)		if (::hx::IsNotNull( this->_hx___dragBounds )) {
-HXLINE(1359)			if ((x < this->_hx___dragBounds->x)) {
-HXLINE(1361)				x = this->_hx___dragBounds->x;
+HXLINE(1353)		Float x = (mouse->x + this->_hx___dragOffsetX);
+HXLINE(1354)		Float y = (mouse->y + this->_hx___dragOffsetY);
+HXLINE(1356)		if (::hx::IsNotNull( this->_hx___dragBounds )) {
+HXLINE(1358)			if ((x < this->_hx___dragBounds->x)) {
+HXLINE(1360)				x = this->_hx___dragBounds->x;
             			}
             			else {
-HXLINE(1363)				if ((x > this->_hx___dragBounds->get_right())) {
-HXLINE(1365)					x = this->_hx___dragBounds->get_right();
+HXLINE(1362)				if ((x > this->_hx___dragBounds->get_right())) {
+HXLINE(1364)					x = this->_hx___dragBounds->get_right();
             				}
             			}
-HXLINE(1368)			if ((y < this->_hx___dragBounds->y)) {
-HXLINE(1370)				y = this->_hx___dragBounds->y;
+HXLINE(1367)			if ((y < this->_hx___dragBounds->y)) {
+HXLINE(1369)				y = this->_hx___dragBounds->y;
             			}
             			else {
-HXLINE(1372)				if ((y > this->_hx___dragBounds->get_bottom())) {
-HXLINE(1374)					y = this->_hx___dragBounds->get_bottom();
+HXLINE(1371)				if ((y > this->_hx___dragBounds->get_bottom())) {
+HXLINE(1373)					y = this->_hx___dragBounds->get_bottom();
             				}
             			}
             		}
-HXLINE(1378)		this->_hx___dragObject->set_x(x);
-HXLINE(1379)		this->_hx___dragObject->set_y(y);
+HXLINE(1377)		this->_hx___dragObject->set_x(x);
+HXLINE(1378)		this->_hx___dragObject->set_y(y);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Stage_obj,_hx___drag,(void))
 
 bool Stage_obj::_hx___getInteractive(::Array< ::Dynamic> stack){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1383___getInteractive)
-HXLINE(1384)		if (::hx::IsNotNull( stack )) {
-HXLINE(1386)			stack->push(::hx::ObjectPtr<OBJ_>(this));
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1382___getInteractive)
+HXLINE(1383)		if (::hx::IsNotNull( stack )) {
+HXLINE(1385)			stack->push(::hx::ObjectPtr<OBJ_>(this));
             		}
-HXLINE(1389)		return true;
+HXLINE(1388)		return true;
             	}
 
 
  ::openfl::geom::Point Stage_obj::_hx___globalToLocal( ::openfl::geom::Point global, ::openfl::geom::Point local){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1393___globalToLocal)
-HXLINE(1394)		if (::hx::IsNotEq( global,local )) {
-HXLINE(1396)			local->copyFrom(global);
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1392___globalToLocal)
+HXLINE(1393)		if (::hx::IsNotEq( global,local )) {
+HXLINE(1395)			local->copyFrom(global);
             		}
-HXLINE(1399)		return local;
+HXLINE(1398)		return local;
             	}
 
 
 void Stage_obj::_hx___handleError( ::Dynamic e){
-            	HX_GC_STACKFRAME(&_hx_pos_e171466d8d112c10_1404___handleError)
-HXLINE(1405)		 ::openfl::events::UncaughtErrorEvent event =  ::openfl::events::UncaughtErrorEvent_obj::__alloc( HX_CTX ,HX_("uncaughtError",f3,98,8b,8b),true,true,e);
-HXLINE(1407)		try {
+            	HX_GC_STACKFRAME(&_hx_pos_e171466d8d112c10_1403___handleError)
+HXLINE(1404)		 ::openfl::events::UncaughtErrorEvent event =  ::openfl::events::UncaughtErrorEvent_obj::__alloc( HX_CTX ,HX_("uncaughtError",f3,98,8b,8b),true,true,e);
+HXLINE(1406)		try {
             			HX_STACK_CATCHABLE( ::Dynamic, 0);
-HXLINE(1409)			::openfl::Lib_obj::get_current()->_hx___loaderInfo->uncaughtErrorEvents->dispatchEvent(event);
+HXLINE(1408)			::openfl::Lib_obj::get_current()->_hx___loaderInfo->uncaughtErrorEvents->dispatchEvent(event);
             		} catch( ::Dynamic _hx_e) {
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
@@ -788,10 +787,10 @@ HXLINE(   1)					null();
             				HX_STACK_DO_THROW(_hx_e);
             			}
             		}
-HXLINE(1413)		if (!(event->_hx___preventDefault)) {
-HXLINE(1416)			::Sys_obj::println(::Std_obj::string(::haxe::_CallStack::CallStack_Impl__obj::toString(::haxe::_CallStack::CallStack_Impl__obj::exceptionStack(null()))));
-HXLINE(1417)			::Sys_obj::println(::Std_obj::string(::Std_obj::string(e)));
-HXLINE(1421)			throw e;
+HXLINE(1412)		if (!(event->_hx___preventDefault)) {
+HXLINE(1415)			::Sys_obj::println(::Std_obj::string(::haxe::_CallStack::CallStack_Impl__obj::toString(::haxe::_CallStack::CallStack_Impl__obj::exceptionStack(null()))));
+HXLINE(1416)			::Sys_obj::println(::Std_obj::string(::Std_obj::string(e)));
+HXLINE(1420)			throw e;
             		}
             	}
 
@@ -799,802 +798,802 @@ HXLINE(1421)			throw e;
 HX_DEFINE_DYNAMIC_FUNC1(Stage_obj,_hx___handleError,(void))
 
 void Stage_obj::_hx___onKey(::String type,int keyCode,int modifier){
-            	HX_GC_STACKFRAME(&_hx_pos_e171466d8d112c10_1458___onKey)
-HXLINE(1459)		this->_hx___dispatchPendingMouseEvent();
-HXLINE(1461)		::openfl::events::MouseEvent_obj::_hx___altKey = ::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_altKey(modifier);
-HXLINE(1462)		::openfl::events::MouseEvent_obj::_hx___commandKey = ::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_metaKey(modifier);
-HXLINE(1463)		::openfl::events::MouseEvent_obj::_hx___ctrlKey = ::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_ctrlKey(modifier);
-HXLINE(1464)		::openfl::events::MouseEvent_obj::_hx___shiftKey = ::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_shiftKey(modifier);
-HXLINE(1466)		::Array< ::Dynamic> stack = ::Array_obj< ::Dynamic>::__new();
-HXLINE(1468)		if (::hx::IsNull( this->_hx___focus )) {
-HXLINE(1470)			this->_hx___getInteractive(stack);
+            	HX_GC_STACKFRAME(&_hx_pos_e171466d8d112c10_1457___onKey)
+HXLINE(1458)		this->_hx___dispatchPendingMouseEvent();
+HXLINE(1460)		::openfl::events::MouseEvent_obj::_hx___altKey = ::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_altKey(modifier);
+HXLINE(1461)		::openfl::events::MouseEvent_obj::_hx___commandKey = ::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_metaKey(modifier);
+HXLINE(1462)		::openfl::events::MouseEvent_obj::_hx___ctrlKey = ::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_ctrlKey(modifier);
+HXLINE(1463)		::openfl::events::MouseEvent_obj::_hx___shiftKey = ::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_shiftKey(modifier);
+HXLINE(1465)		::Array< ::Dynamic> stack = ::Array_obj< ::Dynamic>::__new();
+HXLINE(1467)		if (::hx::IsNull( this->_hx___focus )) {
+HXLINE(1469)			this->_hx___getInteractive(stack);
             		}
             		else {
-HXLINE(1474)			this->_hx___focus->_hx___getInteractive(stack);
+HXLINE(1473)			this->_hx___focus->_hx___getInteractive(stack);
             		}
-HXLINE(1477)		if ((stack->length > 0)) {
-HXLINE(1479)			int keyLocation;
-HXDLIN(1479)			switch((int)(keyCode)){
+HXLINE(1476)		if ((stack->length > 0)) {
+HXLINE(1478)			int keyLocation;
+HXDLIN(1478)			switch((int)(keyCode)){
             				case (int)1073741908: case (int)1073741909: case (int)1073741910: case (int)1073741911: case (int)1073741912: case (int)1073741913: case (int)1073741914: case (int)1073741915: case (int)1073741916: case (int)1073741917: case (int)1073741918: case (int)1073741919: case (int)1073741920: case (int)1073741921: case (int)1073741922: case (int)1073741923: case (int)1073742044: {
-HXLINE(1479)					keyLocation = 3;
+HXLINE(1478)					keyLocation = 3;
             				}
             				break;
             				case (int)1073742048: case (int)1073742049: case (int)1073742050: case (int)1073742051: {
-HXLINE(1479)					keyLocation = 1;
+HXLINE(1478)					keyLocation = 1;
             				}
             				break;
             				case (int)1073742052: case (int)1073742053: case (int)1073742054: case (int)1073742055: {
-HXLINE(1479)					keyLocation = 2;
+HXLINE(1478)					keyLocation = 2;
             				}
             				break;
             				default:{
-HXLINE(1479)					keyLocation = 0;
+HXLINE(1478)					keyLocation = 0;
             				}
             			}
-HXLINE(1480)			int keyCode1;
-HXDLIN(1480)			switch((int)(keyCode)){
+HXLINE(1479)			int keyCode1;
+HXDLIN(1479)			switch((int)(keyCode)){
             				case (int)8: {
-HXLINE(1480)					keyCode1 = 8;
+HXLINE(1479)					keyCode1 = 8;
             				}
             				break;
             				case (int)9: {
-HXLINE(1480)					keyCode1 = 9;
+HXLINE(1479)					keyCode1 = 9;
             				}
             				break;
             				case (int)13: {
-HXLINE(1480)					keyCode1 = 13;
+HXLINE(1479)					keyCode1 = 13;
             				}
             				break;
             				case (int)27: {
-HXLINE(1480)					keyCode1 = 27;
+HXLINE(1479)					keyCode1 = 27;
             				}
             				break;
             				case (int)32: {
-HXLINE(1480)					keyCode1 = 32;
+HXLINE(1479)					keyCode1 = 32;
             				}
             				break;
             				case (int)33: {
-HXLINE(1480)					keyCode1 = 49;
+HXLINE(1479)					keyCode1 = 49;
             				}
             				break;
             				case (int)34: {
-HXLINE(1480)					keyCode1 = 222;
+HXLINE(1479)					keyCode1 = 222;
             				}
             				break;
             				case (int)35: {
-HXLINE(1480)					keyCode1 = 51;
+HXLINE(1479)					keyCode1 = 51;
             				}
             				break;
             				case (int)36: {
-HXLINE(1480)					keyCode1 = 52;
+HXLINE(1479)					keyCode1 = 52;
             				}
             				break;
             				case (int)37: {
-HXLINE(1480)					keyCode1 = 53;
+HXLINE(1479)					keyCode1 = 53;
             				}
             				break;
             				case (int)38: {
-HXLINE(1480)					keyCode1 = 55;
+HXLINE(1479)					keyCode1 = 55;
             				}
             				break;
             				case (int)39: {
-HXLINE(1480)					keyCode1 = 222;
+HXLINE(1479)					keyCode1 = 222;
             				}
             				break;
             				case (int)40: {
-HXLINE(1480)					keyCode1 = 57;
+HXLINE(1479)					keyCode1 = 57;
             				}
             				break;
             				case (int)41: {
-HXLINE(1480)					keyCode1 = 48;
+HXLINE(1479)					keyCode1 = 48;
             				}
             				break;
             				case (int)42: {
-HXLINE(1480)					keyCode1 = 56;
+HXLINE(1479)					keyCode1 = 56;
             				}
             				break;
             				case (int)44: {
-HXLINE(1480)					keyCode1 = 188;
+HXLINE(1479)					keyCode1 = 188;
             				}
             				break;
             				case (int)45: {
-HXLINE(1480)					keyCode1 = 189;
+HXLINE(1479)					keyCode1 = 189;
             				}
             				break;
             				case (int)46: {
-HXLINE(1480)					keyCode1 = 190;
+HXLINE(1479)					keyCode1 = 190;
             				}
             				break;
             				case (int)47: {
-HXLINE(1480)					keyCode1 = 191;
+HXLINE(1479)					keyCode1 = 191;
             				}
             				break;
             				case (int)48: {
-HXLINE(1480)					keyCode1 = 48;
+HXLINE(1479)					keyCode1 = 48;
             				}
             				break;
             				case (int)49: {
-HXLINE(1480)					keyCode1 = 49;
+HXLINE(1479)					keyCode1 = 49;
             				}
             				break;
             				case (int)50: {
-HXLINE(1480)					keyCode1 = 50;
+HXLINE(1479)					keyCode1 = 50;
             				}
             				break;
             				case (int)51: {
-HXLINE(1480)					keyCode1 = 51;
+HXLINE(1479)					keyCode1 = 51;
             				}
             				break;
             				case (int)52: {
-HXLINE(1480)					keyCode1 = 52;
+HXLINE(1479)					keyCode1 = 52;
             				}
             				break;
             				case (int)53: {
-HXLINE(1480)					keyCode1 = 53;
+HXLINE(1479)					keyCode1 = 53;
             				}
             				break;
             				case (int)54: {
-HXLINE(1480)					keyCode1 = 54;
+HXLINE(1479)					keyCode1 = 54;
             				}
             				break;
             				case (int)55: {
-HXLINE(1480)					keyCode1 = 55;
+HXLINE(1479)					keyCode1 = 55;
             				}
             				break;
             				case (int)56: {
-HXLINE(1480)					keyCode1 = 56;
+HXLINE(1479)					keyCode1 = 56;
             				}
             				break;
             				case (int)57: {
-HXLINE(1480)					keyCode1 = 57;
+HXLINE(1479)					keyCode1 = 57;
             				}
             				break;
             				case (int)58: {
-HXLINE(1480)					keyCode1 = 186;
+HXLINE(1479)					keyCode1 = 186;
             				}
             				break;
             				case (int)59: {
-HXLINE(1480)					keyCode1 = 186;
+HXLINE(1479)					keyCode1 = 186;
             				}
             				break;
             				case (int)60: {
-HXLINE(1480)					keyCode1 = 60;
+HXLINE(1479)					keyCode1 = 60;
             				}
             				break;
             				case (int)61: {
-HXLINE(1480)					keyCode1 = 187;
+HXLINE(1479)					keyCode1 = 187;
             				}
             				break;
             				case (int)62: {
-HXLINE(1480)					keyCode1 = 190;
+HXLINE(1479)					keyCode1 = 190;
             				}
             				break;
             				case (int)63: {
-HXLINE(1480)					keyCode1 = 191;
+HXLINE(1479)					keyCode1 = 191;
             				}
             				break;
             				case (int)64: {
-HXLINE(1480)					keyCode1 = 50;
+HXLINE(1479)					keyCode1 = 50;
             				}
             				break;
             				case (int)91: {
-HXLINE(1480)					keyCode1 = 219;
+HXLINE(1479)					keyCode1 = 219;
             				}
             				break;
             				case (int)92: {
-HXLINE(1480)					keyCode1 = 220;
+HXLINE(1479)					keyCode1 = 220;
             				}
             				break;
             				case (int)93: {
-HXLINE(1480)					keyCode1 = 221;
+HXLINE(1479)					keyCode1 = 221;
             				}
             				break;
             				case (int)94: {
-HXLINE(1480)					keyCode1 = 54;
+HXLINE(1479)					keyCode1 = 54;
             				}
             				break;
             				case (int)95: {
-HXLINE(1480)					keyCode1 = 189;
+HXLINE(1479)					keyCode1 = 189;
             				}
             				break;
             				case (int)96: {
-HXLINE(1480)					keyCode1 = 192;
+HXLINE(1479)					keyCode1 = 192;
             				}
             				break;
             				case (int)97: {
-HXLINE(1480)					keyCode1 = 65;
+HXLINE(1479)					keyCode1 = 65;
             				}
             				break;
             				case (int)98: {
-HXLINE(1480)					keyCode1 = 66;
+HXLINE(1479)					keyCode1 = 66;
             				}
             				break;
             				case (int)99: {
-HXLINE(1480)					keyCode1 = 67;
+HXLINE(1479)					keyCode1 = 67;
             				}
             				break;
             				case (int)100: {
-HXLINE(1480)					keyCode1 = 68;
+HXLINE(1479)					keyCode1 = 68;
             				}
             				break;
             				case (int)101: {
-HXLINE(1480)					keyCode1 = 69;
+HXLINE(1479)					keyCode1 = 69;
             				}
             				break;
             				case (int)102: {
-HXLINE(1480)					keyCode1 = 70;
+HXLINE(1479)					keyCode1 = 70;
             				}
             				break;
             				case (int)103: {
-HXLINE(1480)					keyCode1 = 71;
+HXLINE(1479)					keyCode1 = 71;
             				}
             				break;
             				case (int)104: {
-HXLINE(1480)					keyCode1 = 72;
+HXLINE(1479)					keyCode1 = 72;
             				}
             				break;
             				case (int)105: {
-HXLINE(1480)					keyCode1 = 73;
+HXLINE(1479)					keyCode1 = 73;
             				}
             				break;
             				case (int)106: {
-HXLINE(1480)					keyCode1 = 74;
+HXLINE(1479)					keyCode1 = 74;
             				}
             				break;
             				case (int)107: {
-HXLINE(1480)					keyCode1 = 75;
+HXLINE(1479)					keyCode1 = 75;
             				}
             				break;
             				case (int)108: {
-HXLINE(1480)					keyCode1 = 76;
+HXLINE(1479)					keyCode1 = 76;
             				}
             				break;
             				case (int)109: {
-HXLINE(1480)					keyCode1 = 77;
+HXLINE(1479)					keyCode1 = 77;
             				}
             				break;
             				case (int)110: {
-HXLINE(1480)					keyCode1 = 78;
+HXLINE(1479)					keyCode1 = 78;
             				}
             				break;
             				case (int)111: {
-HXLINE(1480)					keyCode1 = 79;
+HXLINE(1479)					keyCode1 = 79;
             				}
             				break;
             				case (int)112: {
-HXLINE(1480)					keyCode1 = 80;
+HXLINE(1479)					keyCode1 = 80;
             				}
             				break;
             				case (int)113: {
-HXLINE(1480)					keyCode1 = 81;
+HXLINE(1479)					keyCode1 = 81;
             				}
             				break;
             				case (int)114: {
-HXLINE(1480)					keyCode1 = 82;
+HXLINE(1479)					keyCode1 = 82;
             				}
             				break;
             				case (int)115: {
-HXLINE(1480)					keyCode1 = 83;
+HXLINE(1479)					keyCode1 = 83;
             				}
             				break;
             				case (int)116: {
-HXLINE(1480)					keyCode1 = 84;
+HXLINE(1479)					keyCode1 = 84;
             				}
             				break;
             				case (int)117: {
-HXLINE(1480)					keyCode1 = 85;
+HXLINE(1479)					keyCode1 = 85;
             				}
             				break;
             				case (int)118: {
-HXLINE(1480)					keyCode1 = 86;
+HXLINE(1479)					keyCode1 = 86;
             				}
             				break;
             				case (int)119: {
-HXLINE(1480)					keyCode1 = 87;
+HXLINE(1479)					keyCode1 = 87;
             				}
             				break;
             				case (int)120: {
-HXLINE(1480)					keyCode1 = 88;
+HXLINE(1479)					keyCode1 = 88;
             				}
             				break;
             				case (int)121: {
-HXLINE(1480)					keyCode1 = 89;
+HXLINE(1479)					keyCode1 = 89;
             				}
             				break;
             				case (int)122: {
-HXLINE(1480)					keyCode1 = 90;
+HXLINE(1479)					keyCode1 = 90;
             				}
             				break;
             				case (int)127: {
-HXLINE(1480)					keyCode1 = 46;
+HXLINE(1479)					keyCode1 = 46;
             				}
             				break;
             				case (int)1073741881: {
-HXLINE(1480)					keyCode1 = 20;
+HXLINE(1479)					keyCode1 = 20;
             				}
             				break;
             				case (int)1073741882: {
-HXLINE(1480)					keyCode1 = 112;
+HXLINE(1479)					keyCode1 = 112;
             				}
             				break;
             				case (int)1073741883: {
-HXLINE(1480)					keyCode1 = 113;
+HXLINE(1479)					keyCode1 = 113;
             				}
             				break;
             				case (int)1073741884: {
-HXLINE(1480)					keyCode1 = 114;
+HXLINE(1479)					keyCode1 = 114;
             				}
             				break;
             				case (int)1073741885: {
-HXLINE(1480)					keyCode1 = 115;
+HXLINE(1479)					keyCode1 = 115;
             				}
             				break;
             				case (int)1073741886: {
-HXLINE(1480)					keyCode1 = 116;
+HXLINE(1479)					keyCode1 = 116;
             				}
             				break;
             				case (int)1073741887: {
-HXLINE(1480)					keyCode1 = 117;
+HXLINE(1479)					keyCode1 = 117;
             				}
             				break;
             				case (int)1073741888: {
-HXLINE(1480)					keyCode1 = 118;
+HXLINE(1479)					keyCode1 = 118;
             				}
             				break;
             				case (int)1073741889: {
-HXLINE(1480)					keyCode1 = 119;
+HXLINE(1479)					keyCode1 = 119;
             				}
             				break;
             				case (int)1073741890: {
-HXLINE(1480)					keyCode1 = 120;
+HXLINE(1479)					keyCode1 = 120;
             				}
             				break;
             				case (int)1073741891: {
-HXLINE(1480)					keyCode1 = 121;
+HXLINE(1479)					keyCode1 = 121;
             				}
             				break;
             				case (int)1073741892: {
-HXLINE(1480)					keyCode1 = 122;
+HXLINE(1479)					keyCode1 = 122;
             				}
             				break;
             				case (int)1073741893: {
-HXLINE(1480)					keyCode1 = 123;
+HXLINE(1479)					keyCode1 = 123;
             				}
             				break;
             				case (int)1073741894: {
-HXLINE(1480)					keyCode1 = 301;
+HXLINE(1479)					keyCode1 = 301;
             				}
             				break;
             				case (int)1073741895: {
-HXLINE(1480)					keyCode1 = 145;
+HXLINE(1479)					keyCode1 = 145;
             				}
             				break;
             				case (int)1073741896: {
-HXLINE(1480)					keyCode1 = 19;
+HXLINE(1479)					keyCode1 = 19;
             				}
             				break;
             				case (int)1073741897: {
-HXLINE(1480)					keyCode1 = 45;
+HXLINE(1479)					keyCode1 = 45;
             				}
             				break;
             				case (int)1073741898: {
-HXLINE(1480)					keyCode1 = 36;
+HXLINE(1479)					keyCode1 = 36;
             				}
             				break;
             				case (int)1073741899: {
-HXLINE(1480)					keyCode1 = 33;
+HXLINE(1479)					keyCode1 = 33;
             				}
             				break;
             				case (int)1073741901: {
-HXLINE(1480)					keyCode1 = 35;
+HXLINE(1479)					keyCode1 = 35;
             				}
             				break;
             				case (int)1073741902: {
-HXLINE(1480)					keyCode1 = 34;
+HXLINE(1479)					keyCode1 = 34;
             				}
             				break;
             				case (int)1073741903: {
-HXLINE(1480)					keyCode1 = 39;
+HXLINE(1479)					keyCode1 = 39;
             				}
             				break;
             				case (int)1073741904: {
-HXLINE(1480)					keyCode1 = 37;
+HXLINE(1479)					keyCode1 = 37;
             				}
             				break;
             				case (int)1073741905: {
-HXLINE(1480)					keyCode1 = 40;
+HXLINE(1479)					keyCode1 = 40;
             				}
             				break;
             				case (int)1073741906: {
-HXLINE(1480)					keyCode1 = 38;
+HXLINE(1479)					keyCode1 = 38;
             				}
             				break;
             				case (int)1073741907: {
-HXLINE(1480)					keyCode1 = 144;
+HXLINE(1479)					keyCode1 = 144;
             				}
             				break;
             				case (int)1073741908: {
-HXLINE(1480)					keyCode1 = 111;
+HXLINE(1479)					keyCode1 = 111;
             				}
             				break;
             				case (int)1073741909: {
-HXLINE(1480)					keyCode1 = 106;
+HXLINE(1479)					keyCode1 = 106;
             				}
             				break;
             				case (int)1073741910: {
-HXLINE(1480)					keyCode1 = 109;
+HXLINE(1479)					keyCode1 = 109;
             				}
             				break;
             				case (int)1073741911: {
-HXLINE(1480)					keyCode1 = 107;
+HXLINE(1479)					keyCode1 = 107;
             				}
             				break;
             				case (int)1073741912: {
-HXLINE(1480)					keyCode1 = 13;
+HXLINE(1479)					keyCode1 = 13;
             				}
             				break;
             				case (int)1073741913: {
-HXLINE(1480)					keyCode1 = 97;
+HXLINE(1479)					keyCode1 = 97;
             				}
             				break;
             				case (int)1073741914: {
-HXLINE(1480)					keyCode1 = 98;
+HXLINE(1479)					keyCode1 = 98;
             				}
             				break;
             				case (int)1073741915: {
-HXLINE(1480)					keyCode1 = 99;
+HXLINE(1479)					keyCode1 = 99;
             				}
             				break;
             				case (int)1073741916: {
-HXLINE(1480)					keyCode1 = 100;
+HXLINE(1479)					keyCode1 = 100;
             				}
             				break;
             				case (int)1073741917: {
-HXLINE(1480)					keyCode1 = 101;
+HXLINE(1479)					keyCode1 = 101;
             				}
             				break;
             				case (int)1073741918: {
-HXLINE(1480)					keyCode1 = 102;
+HXLINE(1479)					keyCode1 = 102;
             				}
             				break;
             				case (int)1073741919: {
-HXLINE(1480)					keyCode1 = 103;
+HXLINE(1479)					keyCode1 = 103;
             				}
             				break;
             				case (int)1073741920: {
-HXLINE(1480)					keyCode1 = 104;
+HXLINE(1479)					keyCode1 = 104;
             				}
             				break;
             				case (int)1073741921: {
-HXLINE(1480)					keyCode1 = 105;
+HXLINE(1479)					keyCode1 = 105;
             				}
             				break;
             				case (int)1073741922: {
-HXLINE(1480)					keyCode1 = 96;
+HXLINE(1479)					keyCode1 = 96;
             				}
             				break;
             				case (int)1073741923: {
-HXLINE(1480)					keyCode1 = 110;
+HXLINE(1479)					keyCode1 = 110;
             				}
             				break;
             				case (int)1073741925: {
-HXLINE(1480)					keyCode1 = 302;
+HXLINE(1479)					keyCode1 = 302;
             				}
             				break;
             				case (int)1073741928: {
-HXLINE(1480)					keyCode1 = 124;
+HXLINE(1479)					keyCode1 = 124;
             				}
             				break;
             				case (int)1073741929: {
-HXLINE(1480)					keyCode1 = 125;
+HXLINE(1479)					keyCode1 = 125;
             				}
             				break;
             				case (int)1073741930: {
-HXLINE(1480)					keyCode1 = 126;
+HXLINE(1479)					keyCode1 = 126;
             				}
             				break;
             				case (int)1073741982: {
-HXLINE(1480)					keyCode1 = 13;
+HXLINE(1479)					keyCode1 = 13;
             				}
             				break;
             				case (int)1073742044: {
-HXLINE(1480)					keyCode1 = 110;
+HXLINE(1479)					keyCode1 = 110;
             				}
             				break;
             				case (int)1073742048: {
-HXLINE(1480)					keyCode1 = 17;
+HXLINE(1479)					keyCode1 = 17;
             				}
             				break;
             				case (int)1073742049: {
-HXLINE(1480)					keyCode1 = 16;
+HXLINE(1479)					keyCode1 = 16;
             				}
             				break;
             				case (int)1073742050: {
-HXLINE(1480)					keyCode1 = 18;
+HXLINE(1479)					keyCode1 = 18;
             				}
             				break;
             				case (int)1073742051: {
-HXLINE(1480)					keyCode1 = 15;
+HXLINE(1479)					keyCode1 = 15;
             				}
             				break;
             				case (int)1073742052: {
-HXLINE(1480)					keyCode1 = 17;
+HXLINE(1479)					keyCode1 = 17;
             				}
             				break;
             				case (int)1073742053: {
-HXLINE(1480)					keyCode1 = 16;
+HXLINE(1479)					keyCode1 = 16;
             				}
             				break;
             				case (int)1073742054: {
-HXLINE(1480)					keyCode1 = 18;
+HXLINE(1479)					keyCode1 = 18;
             				}
             				break;
             				case (int)1073742055: {
-HXLINE(1480)					keyCode1 = 15;
+HXLINE(1479)					keyCode1 = 15;
             				}
             				break;
             				default:{
-HXLINE(1480)					keyCode1 = keyCode;
+HXLINE(1479)					keyCode1 = keyCode;
             				}
             			}
-HXLINE(1481)			int charCode = ::openfl::ui::Keyboard_obj::_hx___getCharCode(keyCode1,::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_shiftKey(modifier));
-HXLINE(1483)			bool _hx_tmp;
-HXDLIN(1483)			bool _hx_tmp1;
-HXDLIN(1483)			if ((type == HX_("keyUp",da,b9,fe,de))) {
-HXLINE(1483)				if ((keyCode1 != 32)) {
-HXLINE(1483)					_hx_tmp1 = (keyCode1 == 13);
+HXLINE(1480)			int charCode = ::openfl::ui::Keyboard_obj::_hx___getCharCode(keyCode1,::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_shiftKey(modifier));
+HXLINE(1482)			bool _hx_tmp;
+HXDLIN(1482)			bool _hx_tmp1;
+HXDLIN(1482)			if ((type == HX_("keyUp",da,b9,fe,de))) {
+HXLINE(1482)				if ((keyCode1 != 32)) {
+HXLINE(1482)					_hx_tmp1 = (keyCode1 == 13);
             				}
             				else {
-HXLINE(1483)					_hx_tmp1 = true;
+HXLINE(1482)					_hx_tmp1 = true;
             				}
             			}
             			else {
-HXLINE(1483)				_hx_tmp1 = false;
+HXLINE(1482)				_hx_tmp1 = false;
             			}
-HXDLIN(1483)			if (_hx_tmp1) {
-HXLINE(1483)				_hx_tmp = ::Std_obj::isOfType(this->_hx___focus,::hx::ClassOf< ::openfl::display::Sprite >());
-            			}
-            			else {
-HXLINE(1483)				_hx_tmp = false;
-            			}
-HXDLIN(1483)			if (_hx_tmp) {
-HXLINE(1485)				 ::openfl::display::Sprite sprite = ::hx::TCast<  ::openfl::display::Sprite >::cast(this->_hx___focus);
-HXLINE(1486)				bool _hx_tmp;
-HXDLIN(1486)				if (sprite->get_buttonMode()) {
-HXLINE(1486)					_hx_tmp = ::hx::IsEq( sprite->focusRect,true );
-            				}
-            				else {
-HXLINE(1486)					_hx_tmp = false;
-            				}
-HXDLIN(1486)				if (_hx_tmp) {
-HXLINE(1488)					 ::openfl::geom::Point localPoint = ::openfl::geom::Point_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Point >();
-HXLINE(1489)					 ::openfl::geom::Point targetPoint = ::openfl::geom::Point_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Point >();
-HXLINE(1490)					targetPoint->x = this->_hx___mouseX;
-HXLINE(1491)					targetPoint->y = this->_hx___mouseY;
-HXLINE(1496)					Float clickEvent = this->_hx___mouseX;
-HXDLIN(1496)					Float clickEvent1 = this->_hx___mouseY;
-HXDLIN(1496)					 ::openfl::events::MouseEvent clickEvent2 = ::openfl::events::MouseEvent_obj::_hx___create(HX_("click",48,7c,5e,48),0,clickEvent,clickEvent1,sprite->_hx___globalToLocal(targetPoint,localPoint),sprite,null());
-HXLINE(1499)					this->_hx___dispatchStack(clickEvent2,stack);
-HXLINE(1505)					::openfl::geom::Point_obj::_hx___pool->release(targetPoint);
-HXLINE(1506)					::openfl::geom::Point_obj::_hx___pool->release(localPoint);
-            				}
-            			}
-HXLINE(1513)			bool event;
-HXDLIN(1513)			if (this->_hx___macKeyboard) {
-HXLINE(1513)				if (!(::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_ctrlKey(modifier))) {
-HXLINE(1513)					event = ::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_metaKey(modifier);
-            				}
-            				else {
-HXLINE(1513)					event = true;
-            				}
+HXDLIN(1482)			if (_hx_tmp1) {
+HXLINE(1482)				_hx_tmp = ::Std_obj::isOfType(this->_hx___focus,::hx::ClassOf< ::openfl::display::Sprite >());
             			}
             			else {
-HXLINE(1513)				event = ::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_ctrlKey(modifier);
+HXLINE(1482)				_hx_tmp = false;
             			}
-HXDLIN(1513)			bool event1 = ::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_altKey(modifier);
-HXDLIN(1513)			bool event2 = ::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_shiftKey(modifier);
-HXDLIN(1513)			bool event3 = ::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_ctrlKey(modifier);
-HXLINE(1512)			 ::openfl::events::KeyboardEvent event4 =  ::openfl::events::KeyboardEvent_obj::__alloc( HX_CTX ,type,true,true,charCode,keyCode1,keyLocation,event,event1,event2,event3,::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_metaKey(modifier));
-HXLINE(1516)			stack->reverse();
-HXLINE(1517)			this->_hx___dispatchStack(event4,stack);
-HXLINE(1519)			if (event4->_hx___preventDefault) {
-HXLINE(1521)				if ((type == HX_("keyDown",a1,69,47,9c))) {
-HXLINE(1523)					this->window->onKeyDown->cancel();
+HXDLIN(1482)			if (_hx_tmp) {
+HXLINE(1484)				 ::openfl::display::Sprite sprite = ::hx::TCast<  ::openfl::display::Sprite >::cast(this->_hx___focus);
+HXLINE(1485)				bool _hx_tmp;
+HXDLIN(1485)				if (sprite->get_buttonMode()) {
+HXLINE(1485)					_hx_tmp = ::hx::IsEq( sprite->focusRect,true );
             				}
             				else {
-HXLINE(1527)					this->window->onKeyUp->cancel();
+HXLINE(1485)					_hx_tmp = false;
+            				}
+HXDLIN(1485)				if (_hx_tmp) {
+HXLINE(1487)					 ::openfl::geom::Point localPoint = ::openfl::geom::Point_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Point >();
+HXLINE(1488)					 ::openfl::geom::Point targetPoint = ::openfl::geom::Point_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Point >();
+HXLINE(1489)					targetPoint->x = this->_hx___mouseX;
+HXLINE(1490)					targetPoint->y = this->_hx___mouseY;
+HXLINE(1495)					Float clickEvent = this->_hx___mouseX;
+HXDLIN(1495)					Float clickEvent1 = this->_hx___mouseY;
+HXDLIN(1495)					 ::openfl::events::MouseEvent clickEvent2 = ::openfl::events::MouseEvent_obj::_hx___create(HX_("click",48,7c,5e,48),0,clickEvent,clickEvent1,sprite->_hx___globalToLocal(targetPoint,localPoint),sprite,null());
+HXLINE(1498)					this->_hx___dispatchStack(clickEvent2,stack);
+HXLINE(1504)					::openfl::geom::Point_obj::_hx___pool->release(targetPoint);
+HXLINE(1505)					::openfl::geom::Point_obj::_hx___pool->release(localPoint);
+            				}
+            			}
+HXLINE(1512)			bool event;
+HXDLIN(1512)			if (this->_hx___macKeyboard) {
+HXLINE(1512)				if (!(::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_ctrlKey(modifier))) {
+HXLINE(1512)					event = ::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_metaKey(modifier);
+            				}
+            				else {
+HXLINE(1512)					event = true;
             				}
             			}
             			else {
-HXLINE(1532)				bool _hx_tmp;
-HXDLIN(1532)				if ((type == HX_("keyDown",a1,69,47,9c))) {
-HXLINE(1532)					_hx_tmp = (keyCode1 == 9);
+HXLINE(1512)				event = ::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_ctrlKey(modifier);
+            			}
+HXDLIN(1512)			bool event1 = ::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_altKey(modifier);
+HXDLIN(1512)			bool event2 = ::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_shiftKey(modifier);
+HXDLIN(1512)			bool event3 = ::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_ctrlKey(modifier);
+HXLINE(1511)			 ::openfl::events::KeyboardEvent event4 =  ::openfl::events::KeyboardEvent_obj::__alloc( HX_CTX ,type,true,true,charCode,keyCode1,keyLocation,event,event1,event2,event3,::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_metaKey(modifier));
+HXLINE(1515)			stack->reverse();
+HXLINE(1516)			this->_hx___dispatchStack(event4,stack);
+HXLINE(1518)			if (event4->_hx___preventDefault) {
+HXLINE(1520)				if ((type == HX_("keyDown",a1,69,47,9c))) {
+HXLINE(1522)					this->window->onKeyDown->cancel();
             				}
             				else {
-HXLINE(1532)					_hx_tmp = false;
+HXLINE(1526)					this->window->onKeyUp->cancel();
             				}
-HXDLIN(1532)				if (_hx_tmp) {
-HXLINE(1534)					::Array< ::Dynamic> tabStack = ::Array_obj< ::Dynamic>::__new();
-HXLINE(1536)					this->_hx___tabTest(tabStack);
-HXLINE(1538)					int nextIndex = -1;
-HXLINE(1539)					 ::openfl::display::InteractiveObject nextObject = null();
-HXLINE(1540)					int nextOffset;
-HXDLIN(1540)					if (::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_shiftKey(modifier)) {
-HXLINE(1540)						nextOffset = -1;
+            			}
+            			else {
+HXLINE(1531)				bool _hx_tmp;
+HXDLIN(1531)				if ((type == HX_("keyDown",a1,69,47,9c))) {
+HXLINE(1531)					_hx_tmp = (keyCode1 == 9);
+            				}
+            				else {
+HXLINE(1531)					_hx_tmp = false;
+            				}
+HXDLIN(1531)				if (_hx_tmp) {
+HXLINE(1533)					::Array< ::Dynamic> tabStack = ::Array_obj< ::Dynamic>::__new();
+HXLINE(1535)					this->_hx___tabTest(tabStack);
+HXLINE(1537)					int nextIndex = -1;
+HXLINE(1538)					 ::openfl::display::InteractiveObject nextObject = null();
+HXLINE(1539)					int nextOffset;
+HXDLIN(1539)					if (::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_shiftKey(modifier)) {
+HXLINE(1539)						nextOffset = -1;
             					}
             					else {
-HXLINE(1540)						nextOffset = 1;
+HXLINE(1539)						nextOffset = 1;
             					}
-HXLINE(1542)					if ((tabStack->length > 1)) {
+HXLINE(1541)					if ((tabStack->length > 1)) {
             						HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_0) HXARGC(2)
             						int _hx_run( ::openfl::display::InteractiveObject a, ::openfl::display::InteractiveObject b){
-            							HX_GC_STACKFRAME(&_hx_pos_e171466d8d112c10_1546___onKey)
-HXLINE(1546)							int _hx_tmp = a->get_tabIndex();
-HXDLIN(1546)							return (_hx_tmp - b->get_tabIndex());
+            							HX_GC_STACKFRAME(&_hx_pos_e171466d8d112c10_1545___onKey)
+HXLINE(1545)							int _hx_tmp = a->get_tabIndex();
+HXDLIN(1545)							return (_hx_tmp - b->get_tabIndex());
             						}
             						HX_END_LOCAL_FUNC2(return)
 
-HXLINE(1544)						::haxe::ds::ArraySort_obj::sort(tabStack, ::Dynamic(new _hx_Closure_0()));
-HXLINE(1549)						if ((tabStack->__get((tabStack->length - 1)).StaticCast<  ::openfl::display::InteractiveObject >()->get_tabIndex() != -1)) {
-HXLINE(1553)							int i = 0;
-HXLINE(1554)							while((i < tabStack->length)){
-HXLINE(1556)								if ((tabStack->__get(i).StaticCast<  ::openfl::display::InteractiveObject >()->get_tabIndex() > -1)) {
-HXLINE(1558)									if ((i > 0)) {
-HXLINE(1558)										tabStack->removeRange(0,i);
+HXLINE(1543)						::haxe::ds::ArraySort_obj::sort(tabStack, ::Dynamic(new _hx_Closure_0()));
+HXLINE(1548)						if ((tabStack->__get((tabStack->length - 1)).StaticCast<  ::openfl::display::InteractiveObject >()->get_tabIndex() != -1)) {
+HXLINE(1552)							int i = 0;
+HXLINE(1553)							while((i < tabStack->length)){
+HXLINE(1555)								if ((tabStack->__get(i).StaticCast<  ::openfl::display::InteractiveObject >()->get_tabIndex() > -1)) {
+HXLINE(1557)									if ((i > 0)) {
+HXLINE(1557)										tabStack->removeRange(0,i);
             									}
-HXLINE(1559)									goto _hx_goto_18;
+HXLINE(1558)									goto _hx_goto_18;
             								}
-HXLINE(1562)								i = (i + 1);
+HXLINE(1561)								i = (i + 1);
             							}
             							_hx_goto_18:;
             						}
-HXLINE(1566)						if (::hx::IsNotNull( this->get_focus() )) {
-HXLINE(1568)							 ::openfl::display::InteractiveObject current = this->get_focus();
-HXLINE(1569)							int index = tabStack->indexOf(current,null());
-HXLINE(1570)							while(true){
-HXLINE(1570)								bool _hx_tmp;
-HXDLIN(1570)								if ((index == -1)) {
-HXLINE(1570)									_hx_tmp = ::hx::IsNotNull( current );
+HXLINE(1565)						if (::hx::IsNotNull( this->get_focus() )) {
+HXLINE(1567)							 ::openfl::display::InteractiveObject current = this->get_focus();
+HXLINE(1568)							int index = tabStack->indexOf(current,null());
+HXLINE(1569)							while(true){
+HXLINE(1569)								bool _hx_tmp;
+HXDLIN(1569)								if ((index == -1)) {
+HXLINE(1569)									_hx_tmp = ::hx::IsNotNull( current );
             								}
             								else {
-HXLINE(1570)									_hx_tmp = false;
+HXLINE(1569)									_hx_tmp = false;
             								}
-HXDLIN(1570)								if (!(_hx_tmp)) {
-HXLINE(1570)									goto _hx_goto_19;
+HXDLIN(1569)								if (!(_hx_tmp)) {
+HXLINE(1569)									goto _hx_goto_19;
             								}
-HXLINE(1575)								 ::openfl::display::DisplayObjectContainer currentParent = current->parent;
-HXLINE(1576)								bool _hx_tmp1;
-HXDLIN(1576)								if (::hx::IsNotNull( currentParent )) {
-HXLINE(1576)									_hx_tmp1 = currentParent->get_tabChildren();
+HXLINE(1574)								 ::openfl::display::DisplayObjectContainer currentParent = current->parent;
+HXLINE(1575)								bool _hx_tmp1;
+HXDLIN(1575)								if (::hx::IsNotNull( currentParent )) {
+HXLINE(1575)									_hx_tmp1 = currentParent->get_tabChildren();
             								}
             								else {
-HXLINE(1576)									_hx_tmp1 = false;
+HXLINE(1575)									_hx_tmp1 = false;
             								}
-HXDLIN(1576)								if (_hx_tmp1) {
-HXLINE(1578)									int currentIndex = currentParent->getChildIndex(current);
-HXLINE(1579)									if ((currentIndex == -1)) {
-HXLINE(1581)										current = currentParent;
-HXLINE(1582)										continue;
+HXDLIN(1575)								if (_hx_tmp1) {
+HXLINE(1577)									int currentIndex = currentParent->getChildIndex(current);
+HXLINE(1578)									if ((currentIndex == -1)) {
+HXLINE(1580)										current = currentParent;
+HXLINE(1581)										continue;
             									}
-HXLINE(1584)									int i = (currentIndex + nextOffset);
-HXLINE(1585)									while(true){
-HXLINE(1585)										bool _hx_tmp;
-HXDLIN(1585)										if (::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_shiftKey(modifier)) {
-HXLINE(1585)											_hx_tmp = (i >= 0);
+HXLINE(1583)									int i = (currentIndex + nextOffset);
+HXLINE(1584)									while(true){
+HXLINE(1584)										bool _hx_tmp;
+HXDLIN(1584)										if (::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_shiftKey(modifier)) {
+HXLINE(1584)											_hx_tmp = (i >= 0);
             										}
             										else {
-HXLINE(1585)											_hx_tmp = (i < currentParent->get_numChildren());
+HXLINE(1584)											_hx_tmp = (i < currentParent->get_numChildren());
             										}
-HXDLIN(1585)										if (!(_hx_tmp)) {
-HXLINE(1585)											goto _hx_goto_20;
+HXDLIN(1584)										if (!(_hx_tmp)) {
+HXLINE(1584)											goto _hx_goto_20;
             										}
-HXLINE(1587)										 ::openfl::display::DisplayObject sibling = currentParent->getChildAt(i);
-HXLINE(1588)										if (::Std_obj::isOfType(sibling,::hx::ClassOf< ::openfl::display::InteractiveObject >())) {
-HXLINE(1590)											 ::openfl::display::InteractiveObject interactiveSibling = ::hx::TCast<  ::openfl::display::InteractiveObject >::cast(sibling);
-HXLINE(1591)											index = tabStack->indexOf(interactiveSibling,null());
-HXLINE(1592)											if ((index != -1)) {
-HXLINE(1594)												nextOffset = 0;
-HXLINE(1595)												goto _hx_goto_20;
+HXLINE(1586)										 ::openfl::display::DisplayObject sibling = currentParent->getChildAt(i);
+HXLINE(1587)										if (::Std_obj::isOfType(sibling,::hx::ClassOf< ::openfl::display::InteractiveObject >())) {
+HXLINE(1589)											 ::openfl::display::InteractiveObject interactiveSibling = ::hx::TCast<  ::openfl::display::InteractiveObject >::cast(sibling);
+HXLINE(1590)											index = tabStack->indexOf(interactiveSibling,null());
+HXLINE(1591)											if ((index != -1)) {
+HXLINE(1593)												nextOffset = 0;
+HXLINE(1594)												goto _hx_goto_20;
             											}
             										}
-HXLINE(1598)										i = (i + nextOffset);
+HXLINE(1597)										i = (i + nextOffset);
             									}
             									_hx_goto_20:;
             								}
             								else {
-HXLINE(1601)									if (::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_shiftKey(modifier)) {
-HXLINE(1603)										index = tabStack->indexOf(currentParent,null());
-HXLINE(1604)										if ((index != -1)) {
-HXLINE(1604)											nextOffset = 0;
+HXLINE(1600)									if (::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_shiftKey(modifier)) {
+HXLINE(1602)										index = tabStack->indexOf(currentParent,null());
+HXLINE(1603)										if ((index != -1)) {
+HXLINE(1603)											nextOffset = 0;
             										}
             									}
             								}
-HXLINE(1606)								current = currentParent;
+HXLINE(1605)								current = currentParent;
             							}
             							_hx_goto_19:;
-HXLINE(1609)							if ((index < 0)) {
-HXLINE(1609)								nextIndex = 0;
+HXLINE(1608)							if ((index < 0)) {
+HXLINE(1608)								nextIndex = 0;
             							}
             							else {
-HXLINE(1611)								nextIndex = (index + nextOffset);
+HXLINE(1610)								nextIndex = (index + nextOffset);
             							}
             						}
             						else {
-HXLINE(1615)							nextIndex = this->_hx___currentTabOrderIndex;
+HXLINE(1614)							nextIndex = this->_hx___currentTabOrderIndex;
             						}
             					}
             					else {
-HXLINE(1618)						if ((tabStack->length == 1)) {
-HXLINE(1620)							nextObject = tabStack->__get(0).StaticCast<  ::openfl::display::InteractiveObject >();
-HXLINE(1622)							if (::hx::IsEq( this->get_focus(),nextObject )) {
-HXLINE(1622)								nextObject = null();
+HXLINE(1617)						if ((tabStack->length == 1)) {
+HXLINE(1619)							nextObject = tabStack->__get(0).StaticCast<  ::openfl::display::InteractiveObject >();
+HXLINE(1621)							if (::hx::IsEq( this->get_focus(),nextObject )) {
+HXLINE(1621)								nextObject = null();
             							}
             						}
             					}
-HXLINE(1625)					bool cancelTab;
-HXDLIN(1625)					if ((nextIndex >= 0)) {
-HXLINE(1625)						cancelTab = (nextIndex < tabStack->length);
+HXLINE(1624)					bool cancelTab;
+HXDLIN(1624)					if ((nextIndex >= 0)) {
+HXLINE(1624)						cancelTab = (nextIndex < tabStack->length);
             					}
             					else {
-HXLINE(1625)						cancelTab = false;
+HXLINE(1624)						cancelTab = false;
             					}
-HXLINE(1626)					bool _hx_tmp;
-HXDLIN(1626)					if ((tabStack->length != 1)) {
-HXLINE(1626)						if ((tabStack->length == 0)) {
-HXLINE(1626)							_hx_tmp = ::hx::IsNotNull( this->get_focus() );
+HXLINE(1625)					bool _hx_tmp;
+HXDLIN(1625)					if ((tabStack->length != 1)) {
+HXLINE(1625)						if ((tabStack->length == 0)) {
+HXLINE(1625)							_hx_tmp = ::hx::IsNotNull( this->get_focus() );
             						}
             						else {
-HXLINE(1626)							_hx_tmp = false;
+HXLINE(1625)							_hx_tmp = false;
             						}
             					}
             					else {
-HXLINE(1626)						_hx_tmp = true;
+HXLINE(1625)						_hx_tmp = true;
             					}
-HXDLIN(1626)					if (_hx_tmp) {
-HXLINE(1628)						nextIndex = 0;
+HXDLIN(1625)					if (_hx_tmp) {
+HXLINE(1627)						nextIndex = 0;
             					}
             					else {
-HXLINE(1630)						if ((tabStack->length > 1)) {
-HXLINE(1632)							if ((nextIndex < 0)) {
-HXLINE(1632)								nextIndex = (nextIndex + tabStack->length);
+HXLINE(1629)						if ((tabStack->length > 1)) {
+HXLINE(1631)							if ((nextIndex < 0)) {
+HXLINE(1631)								nextIndex = (nextIndex + tabStack->length);
             							}
-HXLINE(1634)							nextIndex = ::hx::Mod(nextIndex,tabStack->length);
-HXLINE(1635)							nextObject = tabStack->__get(nextIndex).StaticCast<  ::openfl::display::InteractiveObject >();
-HXLINE(1637)							if (::hx::IsEq( nextObject,this->get_focus() )) {
-HXLINE(1639)								nextIndex = (nextIndex + nextOffset);
-HXLINE(1641)								if ((nextIndex < 0)) {
-HXLINE(1641)									nextIndex = (nextIndex + tabStack->length);
+HXLINE(1633)							nextIndex = ::hx::Mod(nextIndex,tabStack->length);
+HXLINE(1634)							nextObject = tabStack->__get(nextIndex).StaticCast<  ::openfl::display::InteractiveObject >();
+HXLINE(1636)							if (::hx::IsEq( nextObject,this->get_focus() )) {
+HXLINE(1638)								nextIndex = (nextIndex + nextOffset);
+HXLINE(1640)								if ((nextIndex < 0)) {
+HXLINE(1640)									nextIndex = (nextIndex + tabStack->length);
             								}
-HXLINE(1643)								nextIndex = ::hx::Mod(nextIndex,tabStack->length);
-HXLINE(1644)								nextObject = tabStack->__get(nextIndex).StaticCast<  ::openfl::display::InteractiveObject >();
+HXLINE(1642)								nextIndex = ::hx::Mod(nextIndex,tabStack->length);
+HXLINE(1643)								nextObject = tabStack->__get(nextIndex).StaticCast<  ::openfl::display::InteractiveObject >();
             							}
             						}
             					}
-HXLINE(1648)					 ::openfl::events::FocusEvent focusEvent = null();
-HXLINE(1650)					if (::hx::IsNotNull( this->get_focus() )) {
-HXLINE(1652)						focusEvent =  ::openfl::events::FocusEvent_obj::__alloc( HX_CTX ,HX_("keyFocusChange",09,9c,8e,e5),true,true,nextObject,::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_shiftKey(modifier),0);
-HXLINE(1654)						stack = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE(1656)						this->get_focus()->_hx___getInteractive(stack);
-HXLINE(1657)						stack->reverse();
-HXLINE(1659)						this->_hx___dispatchStack(focusEvent,stack);
-HXLINE(1661)						if (focusEvent->isDefaultPrevented()) {
-HXLINE(1663)							this->window->onKeyDown->cancel();
+HXLINE(1647)					 ::openfl::events::FocusEvent focusEvent = null();
+HXLINE(1649)					if (::hx::IsNotNull( this->get_focus() )) {
+HXLINE(1651)						focusEvent =  ::openfl::events::FocusEvent_obj::__alloc( HX_CTX ,HX_("keyFocusChange",09,9c,8e,e5),true,true,nextObject,::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_shiftKey(modifier),0);
+HXLINE(1653)						stack = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(1655)						this->get_focus()->_hx___getInteractive(stack);
+HXLINE(1656)						stack->reverse();
+HXLINE(1658)						this->_hx___dispatchStack(focusEvent,stack);
+HXLINE(1660)						if (focusEvent->isDefaultPrevented()) {
+HXLINE(1662)							this->window->onKeyDown->cancel();
             						}
             					}
-HXLINE(1667)					bool _hx_tmp1;
-HXDLIN(1667)					if (::hx::IsNotNull( focusEvent )) {
-HXLINE(1667)						_hx_tmp1 = !(focusEvent->isDefaultPrevented());
+HXLINE(1666)					bool _hx_tmp1;
+HXDLIN(1666)					if (::hx::IsNotNull( focusEvent )) {
+HXLINE(1666)						_hx_tmp1 = !(focusEvent->isDefaultPrevented());
             					}
             					else {
-HXLINE(1667)						_hx_tmp1 = true;
+HXLINE(1666)						_hx_tmp1 = true;
             					}
-HXDLIN(1667)					if (_hx_tmp1) {
-HXLINE(1669)						this->_hx___currentTabOrderIndex = nextIndex;
-HXLINE(1670)						if (::hx::IsNotNull( nextObject )) {
-HXLINE(1670)							this->set_focus(nextObject);
+HXDLIN(1666)					if (_hx_tmp1) {
+HXLINE(1668)						this->_hx___currentTabOrderIndex = nextIndex;
+HXLINE(1669)						if (::hx::IsNotNull( nextObject )) {
+HXLINE(1669)							this->set_focus(nextObject);
             						}
-HXLINE(1671)						if (cancelTab) {
-HXLINE(1675)							this->window->onKeyDown->cancel();
+HXLINE(1670)						if (cancelTab) {
+HXLINE(1674)							this->window->onKeyDown->cancel();
             						}
             					}
             				}
@@ -1608,275 +1607,275 @@ HX_DEFINE_DYNAMIC_FUNC3(Stage_obj,_hx___onKey,(void))
 void Stage_obj::_hx___onLimeCreateWindow( ::lime::ui::Window window){
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_0, ::lime::ui::Window,window1, ::Dynamic,_g) HXARGC(0)
             		void _hx_run(){
-            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1693___onLimeCreateWindow)
-HXLINE(1693)			_g(window1);
+            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1692___onLimeCreateWindow)
+HXLINE(1692)			_g(window1);
             		}
             		HX_END_LOCAL_FUNC0((void))
 
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_1, ::Dynamic,_g1, ::lime::ui::Window,window2) HXARGC(0)
             		void _hx_run(){
-            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1694___onLimeCreateWindow)
-HXLINE(1694)			_g1(window2);
+            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1693___onLimeCreateWindow)
+HXLINE(1693)			_g1(window2);
             		}
             		HX_END_LOCAL_FUNC0((void))
 
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_2, ::Dynamic,_g2, ::lime::ui::Window,window3) HXARGC(0)
             		void _hx_run(){
-            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1695___onLimeCreateWindow)
-HXLINE(1695)			_g2(window3);
+            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1694___onLimeCreateWindow)
+HXLINE(1694)			_g2(window3);
             		}
             		HX_END_LOCAL_FUNC0((void))
 
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_3, ::Dynamic,_g3, ::lime::ui::Window,window4) HXARGC(1)
             		void _hx_run(::String file){
-            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1696___onLimeCreateWindow)
-HXLINE(1696)			_g3(window4,file);
+            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1695___onLimeCreateWindow)
+HXLINE(1695)			_g3(window4,file);
             		}
             		HX_END_LOCAL_FUNC1((void))
 
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_4, ::Dynamic,_g4, ::lime::ui::Window,window5) HXARGC(0)
             		void _hx_run(){
-            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1697___onLimeCreateWindow)
-HXLINE(1697)			_g4(window5);
+            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1696___onLimeCreateWindow)
+HXLINE(1696)			_g4(window5);
             		}
             		HX_END_LOCAL_FUNC0((void))
 
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_5, ::Dynamic,_g5, ::lime::ui::Window,window6) HXARGC(0)
             		void _hx_run(){
-            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1698___onLimeCreateWindow)
-HXLINE(1698)			_g5(window6);
+            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1697___onLimeCreateWindow)
+HXLINE(1697)			_g5(window6);
             		}
             		HX_END_LOCAL_FUNC0((void))
 
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_6, ::lime::ui::Window,window7, ::Dynamic,_g6) HXARGC(0)
             		void _hx_run(){
-            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1699___onLimeCreateWindow)
-HXLINE(1699)			_g6(window7);
+            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1698___onLimeCreateWindow)
+HXLINE(1698)			_g6(window7);
             		}
             		HX_END_LOCAL_FUNC0((void))
 
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_7, ::lime::ui::Window,window8, ::Dynamic,_g7) HXARGC(0)
             		void _hx_run(){
-            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1700___onLimeCreateWindow)
-HXLINE(1700)			_g7(window8);
+            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1699___onLimeCreateWindow)
+HXLINE(1699)			_g7(window8);
             		}
             		HX_END_LOCAL_FUNC0((void))
 
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_8, ::Dynamic,_g8, ::lime::ui::Window,window9) HXARGC(0)
             		void _hx_run(){
-            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1701___onLimeCreateWindow)
-HXLINE(1701)			_g8(window9);
+            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1700___onLimeCreateWindow)
+HXLINE(1700)			_g8(window9);
             		}
             		HX_END_LOCAL_FUNC0((void))
 
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_9, ::lime::ui::Window,window10, ::Dynamic,_g9) HXARGC(2)
             		void _hx_run(int keyCode,int modifier){
-            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1702___onLimeCreateWindow)
-HXLINE(1702)			_g9(window10,keyCode,modifier);
+            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1701___onLimeCreateWindow)
+HXLINE(1701)			_g9(window10,keyCode,modifier);
             		}
             		HX_END_LOCAL_FUNC2((void))
 
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_10, ::lime::ui::Window,window11, ::Dynamic,_g10) HXARGC(2)
             		void _hx_run(int keyCode,int modifier){
-            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1703___onLimeCreateWindow)
-HXLINE(1703)			_g10(window11,keyCode,modifier);
+            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1702___onLimeCreateWindow)
+HXLINE(1702)			_g10(window11,keyCode,modifier);
             		}
             		HX_END_LOCAL_FUNC2((void))
 
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_11, ::lime::ui::Window,window12, ::Dynamic,_g11) HXARGC(0)
             		void _hx_run(){
-            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1704___onLimeCreateWindow)
-HXLINE(1704)			_g11(window12);
+            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1703___onLimeCreateWindow)
+HXLINE(1703)			_g11(window12);
             		}
             		HX_END_LOCAL_FUNC0((void))
 
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_12, ::lime::ui::Window,window13, ::Dynamic,_g12) HXARGC(0)
             		void _hx_run(){
-            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1705___onLimeCreateWindow)
-HXLINE(1705)			_g12(window13);
+            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1704___onLimeCreateWindow)
+HXLINE(1704)			_g12(window13);
             		}
             		HX_END_LOCAL_FUNC0((void))
 
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_13, ::Dynamic,_g13, ::lime::ui::Window,window14) HXARGC(3)
             		void _hx_run(Float x,Float y,int button){
-            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1706___onLimeCreateWindow)
-HXLINE(1706)			_g13(window14,x,y,button);
+            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1705___onLimeCreateWindow)
+HXLINE(1705)			_g13(window14,x,y,button);
             		}
             		HX_END_LOCAL_FUNC3((void))
 
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_14, ::Dynamic,_g14, ::lime::ui::Window,window15) HXARGC(2)
             		void _hx_run(Float x,Float y){
-            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1707___onLimeCreateWindow)
-HXLINE(1707)			_g14(window15,x,y);
+            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1706___onLimeCreateWindow)
+HXLINE(1706)			_g14(window15,x,y);
             		}
             		HX_END_LOCAL_FUNC2((void))
 
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_15, ::lime::ui::Window,window16, ::Dynamic,_g15) HXARGC(2)
             		void _hx_run(Float x,Float y){
-            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1708___onLimeCreateWindow)
-HXLINE(1708)			_g15(window16,x,y);
+            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1707___onLimeCreateWindow)
+HXLINE(1707)			_g15(window16,x,y);
             		}
             		HX_END_LOCAL_FUNC2((void))
 
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_16, ::lime::ui::Window,window17, ::Dynamic,_g16) HXARGC(3)
             		void _hx_run(Float x,Float y,int button){
-            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1709___onLimeCreateWindow)
-HXLINE(1709)			_g16(window17,x,y,button);
+            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1708___onLimeCreateWindow)
+HXLINE(1708)			_g16(window17,x,y,button);
             		}
             		HX_END_LOCAL_FUNC3((void))
 
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_17, ::lime::ui::Window,window18, ::Dynamic,_g17) HXARGC(3)
             		void _hx_run(Float deltaX,Float deltaY, ::lime::ui::MouseWheelMode deltaMode){
-            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1710___onLimeCreateWindow)
-HXLINE(1710)			_g17(window18,deltaX,deltaY,deltaMode);
+            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1709___onLimeCreateWindow)
+HXLINE(1709)			_g17(window18,deltaX,deltaY,deltaMode);
             		}
             		HX_END_LOCAL_FUNC3((void))
 
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_18, ::lime::ui::Window,window19, ::Dynamic,_g18) HXARGC(2)
             		void _hx_run(Float x,Float y){
-            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1711___onLimeCreateWindow)
-HXLINE(1711)			_g18(window19,x,y);
+            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1710___onLimeCreateWindow)
+HXLINE(1710)			_g18(window19,x,y);
             		}
             		HX_END_LOCAL_FUNC2((void))
 
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_19, ::lime::ui::Window,window20, ::Dynamic,_g19) HXARGC(2)
             		void _hx_run(int width,int height){
-            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1715___onLimeCreateWindow)
-HXLINE(1715)			_g19(window20,width,height);
+            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1714___onLimeCreateWindow)
+HXLINE(1714)			_g19(window20,width,height);
             		}
             		HX_END_LOCAL_FUNC2((void))
 
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_20, ::Dynamic,_g20, ::lime::ui::Window,window21) HXARGC(0)
             		void _hx_run(){
-            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1716___onLimeCreateWindow)
-HXLINE(1716)			_g20(window21);
+            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1715___onLimeCreateWindow)
+HXLINE(1715)			_g20(window21);
             		}
             		HX_END_LOCAL_FUNC0((void))
 
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_21, ::lime::ui::Window,window22, ::Dynamic,_g21) HXARGC(3)
             		void _hx_run(::String text,int start,int length){
-            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1717___onLimeCreateWindow)
-HXLINE(1717)			_g21(window22,text,start,length);
+            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1716___onLimeCreateWindow)
+HXLINE(1716)			_g21(window22,text,start,length);
             		}
             		HX_END_LOCAL_FUNC3((void))
 
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_22, ::Dynamic,_g22, ::lime::ui::Window,window23) HXARGC(1)
             		void _hx_run(::String text){
-            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1718___onLimeCreateWindow)
-HXLINE(1718)			_g22(window23,text);
+            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1717___onLimeCreateWindow)
+HXLINE(1717)			_g22(window23,text);
             		}
             		HX_END_LOCAL_FUNC1((void))
 
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1690___onLimeCreateWindow)
-HXLINE(1691)		if (::hx::IsNotEq( this->window,window )) {
-HXLINE(1691)			return;
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1689___onLimeCreateWindow)
+HXLINE(1690)		if (::hx::IsNotEq( this->window,window )) {
+HXLINE(1690)			return;
             		}
-HXLINE(1693)		 ::Dynamic _g = this->_hx___onLimeWindowActivate_dyn();
-HXDLIN(1693)		 ::lime::ui::Window window1 = window;
-HXDLIN(1693)		 ::Dynamic _hx_tmp =  ::Dynamic(new _hx_Closure_0(window1,_g));
-HXDLIN(1693)		window->onActivate->add(_hx_tmp,null(),null());
-HXLINE(1694)		 ::Dynamic _g1 = this->_hx___onLimeWindowClose_dyn();
-HXDLIN(1694)		 ::lime::ui::Window window2 = window;
-HXDLIN(1694)		 ::Dynamic _hx_tmp1 =  ::Dynamic(new _hx_Closure_1(_g1,window2));
-HXDLIN(1694)		window->onClose->add(_hx_tmp1,false,-9000);
-HXLINE(1695)		 ::Dynamic _g2 = this->_hx___onLimeWindowDeactivate_dyn();
-HXDLIN(1695)		 ::lime::ui::Window window3 = window;
-HXDLIN(1695)		 ::Dynamic _hx_tmp2 =  ::Dynamic(new _hx_Closure_2(_g2,window3));
-HXDLIN(1695)		window->onDeactivate->add(_hx_tmp2,null(),null());
-HXLINE(1696)		 ::Dynamic _g3 = this->_hx___onLimeWindowDropFile_dyn();
-HXDLIN(1696)		 ::lime::ui::Window window4 = window;
-HXDLIN(1696)		 ::Dynamic _hx_tmp3 =  ::Dynamic(new _hx_Closure_3(_g3,window4));
-HXDLIN(1696)		window->onDropFile->add(_hx_tmp3,null(),null());
-HXLINE(1697)		 ::Dynamic _g4 = this->_hx___onLimeWindowEnter_dyn();
-HXDLIN(1697)		 ::lime::ui::Window window5 = window;
-HXDLIN(1697)		 ::Dynamic _hx_tmp4 =  ::Dynamic(new _hx_Closure_4(_g4,window5));
-HXDLIN(1697)		window->onEnter->add(_hx_tmp4,null(),null());
-HXLINE(1698)		 ::Dynamic _g5 = this->_hx___onLimeWindowExpose_dyn();
-HXDLIN(1698)		 ::lime::ui::Window window6 = window;
-HXDLIN(1698)		 ::Dynamic _hx_tmp5 =  ::Dynamic(new _hx_Closure_5(_g5,window6));
-HXDLIN(1698)		window->onExpose->add(_hx_tmp5,null(),null());
-HXLINE(1699)		 ::Dynamic _g6 = this->_hx___onLimeWindowFocusIn_dyn();
-HXDLIN(1699)		 ::lime::ui::Window window7 = window;
-HXDLIN(1699)		 ::Dynamic _hx_tmp6 =  ::Dynamic(new _hx_Closure_6(window7,_g6));
-HXDLIN(1699)		window->onFocusIn->add(_hx_tmp6,null(),null());
-HXLINE(1700)		 ::Dynamic _g7 = this->_hx___onLimeWindowFocusOut_dyn();
-HXDLIN(1700)		 ::lime::ui::Window window8 = window;
-HXDLIN(1700)		 ::Dynamic _hx_tmp7 =  ::Dynamic(new _hx_Closure_7(window8,_g7));
-HXDLIN(1700)		window->onFocusOut->add(_hx_tmp7,null(),null());
-HXLINE(1701)		 ::Dynamic _g8 = this->_hx___onLimeWindowFullscreen_dyn();
-HXDLIN(1701)		 ::lime::ui::Window window9 = window;
-HXDLIN(1701)		 ::Dynamic _hx_tmp8 =  ::Dynamic(new _hx_Closure_8(_g8,window9));
-HXDLIN(1701)		window->onFullscreen->add(_hx_tmp8,null(),null());
-HXLINE(1702)		 ::Dynamic _g9 = this->_hx___onLimeKeyDown_dyn();
-HXDLIN(1702)		 ::lime::ui::Window window10 = window;
-HXDLIN(1702)		 ::Dynamic _hx_tmp9 =  ::Dynamic(new _hx_Closure_9(window10,_g9));
-HXDLIN(1702)		window->onKeyDown->add(_hx_tmp9,null(),null());
-HXLINE(1703)		 ::Dynamic _g10 = this->_hx___onLimeKeyUp_dyn();
-HXDLIN(1703)		 ::lime::ui::Window window11 = window;
-HXDLIN(1703)		 ::Dynamic _hx_tmp10 =  ::Dynamic(new _hx_Closure_10(window11,_g10));
-HXDLIN(1703)		window->onKeyUp->add(_hx_tmp10,null(),null());
-HXLINE(1704)		 ::Dynamic _g11 = this->_hx___onLimeWindowLeave_dyn();
-HXDLIN(1704)		 ::lime::ui::Window window12 = window;
-HXDLIN(1704)		 ::Dynamic _hx_tmp11 =  ::Dynamic(new _hx_Closure_11(window12,_g11));
-HXDLIN(1704)		window->onLeave->add(_hx_tmp11,null(),null());
-HXLINE(1705)		 ::Dynamic _g12 = this->_hx___onLimeWindowMinimize_dyn();
-HXDLIN(1705)		 ::lime::ui::Window window13 = window;
-HXDLIN(1705)		 ::Dynamic _hx_tmp12 =  ::Dynamic(new _hx_Closure_12(window13,_g12));
-HXDLIN(1705)		window->onMinimize->add(_hx_tmp12,null(),null());
-HXLINE(1706)		 ::Dynamic _g13 = this->_hx___onLimeMouseDown_dyn();
-HXDLIN(1706)		 ::lime::ui::Window window14 = window;
-HXDLIN(1706)		 ::Dynamic _hx_tmp13 =  ::Dynamic(new _hx_Closure_13(_g13,window14));
-HXDLIN(1706)		window->onMouseDown->add(_hx_tmp13,null(),null());
-HXLINE(1707)		 ::Dynamic _g14 = this->_hx___onLimeMouseMove_dyn();
-HXDLIN(1707)		 ::lime::ui::Window window15 = window;
-HXDLIN(1707)		 ::Dynamic _hx_tmp14 =  ::Dynamic(new _hx_Closure_14(_g14,window15));
-HXDLIN(1707)		window->onMouseMove->add(_hx_tmp14,null(),null());
-HXLINE(1708)		 ::Dynamic _g15 = this->_hx___onLimeMouseMoveRelative_dyn();
-HXDLIN(1708)		 ::lime::ui::Window window16 = window;
-HXDLIN(1708)		 ::Dynamic _hx_tmp15 =  ::Dynamic(new _hx_Closure_15(window16,_g15));
-HXDLIN(1708)		window->onMouseMoveRelative->add(_hx_tmp15,null(),null());
-HXLINE(1709)		 ::Dynamic _g16 = this->_hx___onLimeMouseUp_dyn();
-HXDLIN(1709)		 ::lime::ui::Window window17 = window;
-HXDLIN(1709)		 ::Dynamic _hx_tmp16 =  ::Dynamic(new _hx_Closure_16(window17,_g16));
-HXDLIN(1709)		window->onMouseUp->add(_hx_tmp16,null(),null());
-HXLINE(1710)		 ::Dynamic _g17 = this->_hx___onLimeMouseWheel_dyn();
-HXDLIN(1710)		 ::lime::ui::Window window18 = window;
-HXDLIN(1710)		 ::Dynamic _hx_tmp17 =  ::Dynamic(new _hx_Closure_17(window18,_g17));
-HXDLIN(1710)		window->onMouseWheel->add(_hx_tmp17,null(),null());
-HXLINE(1711)		 ::Dynamic _g18 = this->_hx___onLimeWindowMove_dyn();
-HXDLIN(1711)		 ::lime::ui::Window window19 = window;
-HXDLIN(1711)		 ::Dynamic _hx_tmp18 =  ::Dynamic(new _hx_Closure_18(window19,_g18));
-HXDLIN(1711)		window->onMove->add(_hx_tmp18,null(),null());
-HXLINE(1712)		window->onRender->add(this->_hx___onLimeRender_dyn(),null(),null());
-HXLINE(1713)		window->onRenderContextLost->add(this->_hx___onLimeRenderContextLost_dyn(),null(),null());
-HXLINE(1714)		window->onRenderContextRestored->add(this->_hx___onLimeRenderContextRestored_dyn(),null(),null());
-HXLINE(1715)		 ::Dynamic _g19 = this->_hx___onLimeWindowResize_dyn();
-HXDLIN(1715)		 ::lime::ui::Window window20 = window;
-HXDLIN(1715)		 ::Dynamic _hx_tmp19 =  ::Dynamic(new _hx_Closure_19(window20,_g19));
-HXDLIN(1715)		window->onResize->add(_hx_tmp19,null(),null());
-HXLINE(1716)		 ::Dynamic _g20 = this->_hx___onLimeWindowRestore_dyn();
-HXDLIN(1716)		 ::lime::ui::Window window21 = window;
-HXDLIN(1716)		 ::Dynamic _hx_tmp20 =  ::Dynamic(new _hx_Closure_20(_g20,window21));
-HXDLIN(1716)		window->onRestore->add(_hx_tmp20,null(),null());
-HXLINE(1717)		 ::Dynamic _g21 = this->_hx___onLimeTextEdit_dyn();
-HXDLIN(1717)		 ::lime::ui::Window window22 = window;
-HXDLIN(1717)		 ::Dynamic _hx_tmp21 =  ::Dynamic(new _hx_Closure_21(window22,_g21));
-HXDLIN(1717)		window->onTextEdit->add(_hx_tmp21,null(),null());
-HXLINE(1718)		 ::Dynamic _g22 = this->_hx___onLimeTextInput_dyn();
-HXDLIN(1718)		 ::lime::ui::Window window23 = window;
-HXDLIN(1718)		 ::Dynamic _hx_tmp22 =  ::Dynamic(new _hx_Closure_22(_g22,window23));
-HXDLIN(1718)		window->onTextInput->add(_hx_tmp22,null(),null());
-HXLINE(1720)		this->_hx___onLimeWindowCreate(window);
+HXLINE(1692)		 ::Dynamic _g = this->_hx___onLimeWindowActivate_dyn();
+HXDLIN(1692)		 ::lime::ui::Window window1 = window;
+HXDLIN(1692)		 ::Dynamic _hx_tmp =  ::Dynamic(new _hx_Closure_0(window1,_g));
+HXDLIN(1692)		window->onActivate->add(_hx_tmp,null(),null());
+HXLINE(1693)		 ::Dynamic _g1 = this->_hx___onLimeWindowClose_dyn();
+HXDLIN(1693)		 ::lime::ui::Window window2 = window;
+HXDLIN(1693)		 ::Dynamic _hx_tmp1 =  ::Dynamic(new _hx_Closure_1(_g1,window2));
+HXDLIN(1693)		window->onClose->add(_hx_tmp1,false,-9000);
+HXLINE(1694)		 ::Dynamic _g2 = this->_hx___onLimeWindowDeactivate_dyn();
+HXDLIN(1694)		 ::lime::ui::Window window3 = window;
+HXDLIN(1694)		 ::Dynamic _hx_tmp2 =  ::Dynamic(new _hx_Closure_2(_g2,window3));
+HXDLIN(1694)		window->onDeactivate->add(_hx_tmp2,null(),null());
+HXLINE(1695)		 ::Dynamic _g3 = this->_hx___onLimeWindowDropFile_dyn();
+HXDLIN(1695)		 ::lime::ui::Window window4 = window;
+HXDLIN(1695)		 ::Dynamic _hx_tmp3 =  ::Dynamic(new _hx_Closure_3(_g3,window4));
+HXDLIN(1695)		window->onDropFile->add(_hx_tmp3,null(),null());
+HXLINE(1696)		 ::Dynamic _g4 = this->_hx___onLimeWindowEnter_dyn();
+HXDLIN(1696)		 ::lime::ui::Window window5 = window;
+HXDLIN(1696)		 ::Dynamic _hx_tmp4 =  ::Dynamic(new _hx_Closure_4(_g4,window5));
+HXDLIN(1696)		window->onEnter->add(_hx_tmp4,null(),null());
+HXLINE(1697)		 ::Dynamic _g5 = this->_hx___onLimeWindowExpose_dyn();
+HXDLIN(1697)		 ::lime::ui::Window window6 = window;
+HXDLIN(1697)		 ::Dynamic _hx_tmp5 =  ::Dynamic(new _hx_Closure_5(_g5,window6));
+HXDLIN(1697)		window->onExpose->add(_hx_tmp5,null(),null());
+HXLINE(1698)		 ::Dynamic _g6 = this->_hx___onLimeWindowFocusIn_dyn();
+HXDLIN(1698)		 ::lime::ui::Window window7 = window;
+HXDLIN(1698)		 ::Dynamic _hx_tmp6 =  ::Dynamic(new _hx_Closure_6(window7,_g6));
+HXDLIN(1698)		window->onFocusIn->add(_hx_tmp6,null(),null());
+HXLINE(1699)		 ::Dynamic _g7 = this->_hx___onLimeWindowFocusOut_dyn();
+HXDLIN(1699)		 ::lime::ui::Window window8 = window;
+HXDLIN(1699)		 ::Dynamic _hx_tmp7 =  ::Dynamic(new _hx_Closure_7(window8,_g7));
+HXDLIN(1699)		window->onFocusOut->add(_hx_tmp7,null(),null());
+HXLINE(1700)		 ::Dynamic _g8 = this->_hx___onLimeWindowFullscreen_dyn();
+HXDLIN(1700)		 ::lime::ui::Window window9 = window;
+HXDLIN(1700)		 ::Dynamic _hx_tmp8 =  ::Dynamic(new _hx_Closure_8(_g8,window9));
+HXDLIN(1700)		window->onFullscreen->add(_hx_tmp8,null(),null());
+HXLINE(1701)		 ::Dynamic _g9 = this->_hx___onLimeKeyDown_dyn();
+HXDLIN(1701)		 ::lime::ui::Window window10 = window;
+HXDLIN(1701)		 ::Dynamic _hx_tmp9 =  ::Dynamic(new _hx_Closure_9(window10,_g9));
+HXDLIN(1701)		window->onKeyDown->add(_hx_tmp9,null(),null());
+HXLINE(1702)		 ::Dynamic _g10 = this->_hx___onLimeKeyUp_dyn();
+HXDLIN(1702)		 ::lime::ui::Window window11 = window;
+HXDLIN(1702)		 ::Dynamic _hx_tmp10 =  ::Dynamic(new _hx_Closure_10(window11,_g10));
+HXDLIN(1702)		window->onKeyUp->add(_hx_tmp10,null(),null());
+HXLINE(1703)		 ::Dynamic _g11 = this->_hx___onLimeWindowLeave_dyn();
+HXDLIN(1703)		 ::lime::ui::Window window12 = window;
+HXDLIN(1703)		 ::Dynamic _hx_tmp11 =  ::Dynamic(new _hx_Closure_11(window12,_g11));
+HXDLIN(1703)		window->onLeave->add(_hx_tmp11,null(),null());
+HXLINE(1704)		 ::Dynamic _g12 = this->_hx___onLimeWindowMinimize_dyn();
+HXDLIN(1704)		 ::lime::ui::Window window13 = window;
+HXDLIN(1704)		 ::Dynamic _hx_tmp12 =  ::Dynamic(new _hx_Closure_12(window13,_g12));
+HXDLIN(1704)		window->onMinimize->add(_hx_tmp12,null(),null());
+HXLINE(1705)		 ::Dynamic _g13 = this->_hx___onLimeMouseDown_dyn();
+HXDLIN(1705)		 ::lime::ui::Window window14 = window;
+HXDLIN(1705)		 ::Dynamic _hx_tmp13 =  ::Dynamic(new _hx_Closure_13(_g13,window14));
+HXDLIN(1705)		window->onMouseDown->add(_hx_tmp13,null(),null());
+HXLINE(1706)		 ::Dynamic _g14 = this->_hx___onLimeMouseMove_dyn();
+HXDLIN(1706)		 ::lime::ui::Window window15 = window;
+HXDLIN(1706)		 ::Dynamic _hx_tmp14 =  ::Dynamic(new _hx_Closure_14(_g14,window15));
+HXDLIN(1706)		window->onMouseMove->add(_hx_tmp14,null(),null());
+HXLINE(1707)		 ::Dynamic _g15 = this->_hx___onLimeMouseMoveRelative_dyn();
+HXDLIN(1707)		 ::lime::ui::Window window16 = window;
+HXDLIN(1707)		 ::Dynamic _hx_tmp15 =  ::Dynamic(new _hx_Closure_15(window16,_g15));
+HXDLIN(1707)		window->onMouseMoveRelative->add(_hx_tmp15,null(),null());
+HXLINE(1708)		 ::Dynamic _g16 = this->_hx___onLimeMouseUp_dyn();
+HXDLIN(1708)		 ::lime::ui::Window window17 = window;
+HXDLIN(1708)		 ::Dynamic _hx_tmp16 =  ::Dynamic(new _hx_Closure_16(window17,_g16));
+HXDLIN(1708)		window->onMouseUp->add(_hx_tmp16,null(),null());
+HXLINE(1709)		 ::Dynamic _g17 = this->_hx___onLimeMouseWheel_dyn();
+HXDLIN(1709)		 ::lime::ui::Window window18 = window;
+HXDLIN(1709)		 ::Dynamic _hx_tmp17 =  ::Dynamic(new _hx_Closure_17(window18,_g17));
+HXDLIN(1709)		window->onMouseWheel->add(_hx_tmp17,null(),null());
+HXLINE(1710)		 ::Dynamic _g18 = this->_hx___onLimeWindowMove_dyn();
+HXDLIN(1710)		 ::lime::ui::Window window19 = window;
+HXDLIN(1710)		 ::Dynamic _hx_tmp18 =  ::Dynamic(new _hx_Closure_18(window19,_g18));
+HXDLIN(1710)		window->onMove->add(_hx_tmp18,null(),null());
+HXLINE(1711)		window->onRender->add(this->_hx___onLimeRender_dyn(),null(),null());
+HXLINE(1712)		window->onRenderContextLost->add(this->_hx___onLimeRenderContextLost_dyn(),null(),null());
+HXLINE(1713)		window->onRenderContextRestored->add(this->_hx___onLimeRenderContextRestored_dyn(),null(),null());
+HXLINE(1714)		 ::Dynamic _g19 = this->_hx___onLimeWindowResize_dyn();
+HXDLIN(1714)		 ::lime::ui::Window window20 = window;
+HXDLIN(1714)		 ::Dynamic _hx_tmp19 =  ::Dynamic(new _hx_Closure_19(window20,_g19));
+HXDLIN(1714)		window->onResize->add(_hx_tmp19,null(),null());
+HXLINE(1715)		 ::Dynamic _g20 = this->_hx___onLimeWindowRestore_dyn();
+HXDLIN(1715)		 ::lime::ui::Window window21 = window;
+HXDLIN(1715)		 ::Dynamic _hx_tmp20 =  ::Dynamic(new _hx_Closure_20(_g20,window21));
+HXDLIN(1715)		window->onRestore->add(_hx_tmp20,null(),null());
+HXLINE(1716)		 ::Dynamic _g21 = this->_hx___onLimeTextEdit_dyn();
+HXDLIN(1716)		 ::lime::ui::Window window22 = window;
+HXDLIN(1716)		 ::Dynamic _hx_tmp21 =  ::Dynamic(new _hx_Closure_21(window22,_g21));
+HXDLIN(1716)		window->onTextEdit->add(_hx_tmp21,null(),null());
+HXLINE(1717)		 ::Dynamic _g22 = this->_hx___onLimeTextInput_dyn();
+HXDLIN(1717)		 ::lime::ui::Window window23 = window;
+HXDLIN(1717)		 ::Dynamic _hx_tmp22 =  ::Dynamic(new _hx_Closure_22(_g22,window23));
+HXDLIN(1717)		window->onTextInput->add(_hx_tmp22,null(),null());
+HXLINE(1719)		this->_hx___onLimeWindowCreate(window);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Stage_obj,_hx___onLimeCreateWindow,(void))
 
 void Stage_obj::_hx___onLimeGamepadAxisMove( ::lime::ui::Gamepad gamepad,int axis,Float value){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1726___onLimeGamepadAxisMove)
-HXDLIN(1726)		try {
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1725___onLimeGamepadAxisMove)
+HXDLIN(1725)		try {
             			HX_STACK_CATCHABLE( ::Dynamic, 0);
-HXLINE(1728)			::openfl::ui::GameInput_obj::_hx___onGamepadAxisMove(gamepad,axis,value);
+HXLINE(1727)			::openfl::ui::GameInput_obj::_hx___onGamepadAxisMove(gamepad,axis,value);
             		} catch( ::Dynamic _hx_e) {
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
@@ -1885,7 +1884,7 @@ HXLINE(   1)				{
 HXLINE(   1)					null();
             				}
 HXDLIN(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
-HXLINE(1732)				this->_hx___handleError(e);
+HXLINE(1731)				this->_hx___handleError(e);
             			}
             			else {
             				HX_STACK_DO_THROW(_hx_e);
@@ -1897,10 +1896,10 @@ HXLINE(1732)				this->_hx___handleError(e);
 HX_DEFINE_DYNAMIC_FUNC3(Stage_obj,_hx___onLimeGamepadAxisMove,(void))
 
 void Stage_obj::_hx___onLimeGamepadButtonDown( ::lime::ui::Gamepad gamepad,int button){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1742___onLimeGamepadButtonDown)
-HXDLIN(1742)		try {
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1741___onLimeGamepadButtonDown)
+HXDLIN(1741)		try {
             			HX_STACK_CATCHABLE( ::Dynamic, 0);
-HXLINE(1744)			::openfl::ui::GameInput_obj::_hx___onGamepadButtonDown(gamepad,button);
+HXLINE(1743)			::openfl::ui::GameInput_obj::_hx___onGamepadButtonDown(gamepad,button);
             		} catch( ::Dynamic _hx_e) {
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
@@ -1909,7 +1908,7 @@ HXLINE(   1)				{
 HXLINE(   1)					null();
             				}
 HXDLIN(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
-HXLINE(1748)				this->_hx___handleError(e);
+HXLINE(1747)				this->_hx___handleError(e);
             			}
             			else {
             				HX_STACK_DO_THROW(_hx_e);
@@ -1921,10 +1920,10 @@ HXLINE(1748)				this->_hx___handleError(e);
 HX_DEFINE_DYNAMIC_FUNC2(Stage_obj,_hx___onLimeGamepadButtonDown,(void))
 
 void Stage_obj::_hx___onLimeGamepadButtonUp( ::lime::ui::Gamepad gamepad,int button){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1758___onLimeGamepadButtonUp)
-HXDLIN(1758)		try {
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1757___onLimeGamepadButtonUp)
+HXDLIN(1757)		try {
             			HX_STACK_CATCHABLE( ::Dynamic, 0);
-HXLINE(1760)			::openfl::ui::GameInput_obj::_hx___onGamepadButtonUp(gamepad,button);
+HXLINE(1759)			::openfl::ui::GameInput_obj::_hx___onGamepadButtonUp(gamepad,button);
             		} catch( ::Dynamic _hx_e) {
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
@@ -1933,7 +1932,7 @@ HXLINE(   1)				{
 HXLINE(   1)					null();
             				}
 HXDLIN(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
-HXLINE(1764)				this->_hx___handleError(e);
+HXLINE(1763)				this->_hx___handleError(e);
             			}
             			else {
             				HX_STACK_DO_THROW(_hx_e);
@@ -1947,36 +1946,36 @@ HX_DEFINE_DYNAMIC_FUNC2(Stage_obj,_hx___onLimeGamepadButtonUp,(void))
 void Stage_obj::_hx___onLimeGamepadConnect( ::lime::ui::Gamepad gamepad){
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_0, ::lime::ui::Gamepad,gamepad1, ::Dynamic,_g) HXARGC(2)
             		void _hx_run(int axis,Float value){
-            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1786___onLimeGamepadConnect)
-HXLINE(1786)			_g(gamepad1,axis,value);
+            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1785___onLimeGamepadConnect)
+HXLINE(1785)			_g(gamepad1,axis,value);
             		}
             		HX_END_LOCAL_FUNC2((void))
 
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_1, ::lime::ui::Gamepad,gamepad2, ::Dynamic,_g1) HXARGC(1)
             		void _hx_run(int button){
-            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1787___onLimeGamepadConnect)
-HXLINE(1787)			_g1(gamepad2,button);
+            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1786___onLimeGamepadConnect)
+HXLINE(1786)			_g1(gamepad2,button);
             		}
             		HX_END_LOCAL_FUNC1((void))
 
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_2, ::Dynamic,_g2, ::lime::ui::Gamepad,gamepad3) HXARGC(1)
             		void _hx_run(int button){
-            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1788___onLimeGamepadConnect)
-HXLINE(1788)			_g2(gamepad3,button);
+            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1787___onLimeGamepadConnect)
+HXLINE(1787)			_g2(gamepad3,button);
             		}
             		HX_END_LOCAL_FUNC1((void))
 
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_3, ::Dynamic,_g3, ::lime::ui::Gamepad,gamepad4) HXARGC(0)
             		void _hx_run(){
-            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1789___onLimeGamepadConnect)
-HXLINE(1789)			_g3(gamepad4);
+            			HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1788___onLimeGamepadConnect)
+HXLINE(1788)			_g3(gamepad4);
             		}
             		HX_END_LOCAL_FUNC0((void))
 
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1772___onLimeGamepadConnect)
-HXLINE(1774)		try {
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1771___onLimeGamepadConnect)
+HXLINE(1773)		try {
             			HX_STACK_CATCHABLE( ::Dynamic, 0);
-HXLINE(1776)			::openfl::ui::GameInput_obj::_hx___onGamepadConnect(gamepad);
+HXLINE(1775)			::openfl::ui::GameInput_obj::_hx___onGamepadConnect(gamepad);
             		} catch( ::Dynamic _hx_e) {
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
@@ -1985,38 +1984,38 @@ HXLINE(   1)				{
 HXLINE(   1)					null();
             				}
 HXDLIN(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
-HXLINE(1780)				this->_hx___handleError(e);
+HXLINE(1779)				this->_hx___handleError(e);
             			}
             			else {
             				HX_STACK_DO_THROW(_hx_e);
             			}
             		}
-HXLINE(1786)		 ::Dynamic _g = this->_hx___onLimeGamepadAxisMove_dyn();
-HXDLIN(1786)		 ::lime::ui::Gamepad gamepad1 = gamepad;
-HXDLIN(1786)		 ::Dynamic _hx_tmp =  ::Dynamic(new _hx_Closure_0(gamepad1,_g));
-HXDLIN(1786)		gamepad->onAxisMove->add(_hx_tmp,null(),null());
-HXLINE(1787)		 ::Dynamic _g1 = this->_hx___onLimeGamepadButtonDown_dyn();
-HXDLIN(1787)		 ::lime::ui::Gamepad gamepad2 = gamepad;
-HXDLIN(1787)		 ::Dynamic _hx_tmp1 =  ::Dynamic(new _hx_Closure_1(gamepad2,_g1));
-HXDLIN(1787)		gamepad->onButtonDown->add(_hx_tmp1,null(),null());
-HXLINE(1788)		 ::Dynamic _g2 = this->_hx___onLimeGamepadButtonUp_dyn();
-HXDLIN(1788)		 ::lime::ui::Gamepad gamepad3 = gamepad;
-HXDLIN(1788)		 ::Dynamic _hx_tmp2 =  ::Dynamic(new _hx_Closure_2(_g2,gamepad3));
-HXDLIN(1788)		gamepad->onButtonUp->add(_hx_tmp2,null(),null());
-HXLINE(1789)		 ::Dynamic _g3 = this->_hx___onLimeGamepadDisconnect_dyn();
-HXDLIN(1789)		 ::lime::ui::Gamepad gamepad4 = gamepad;
-HXDLIN(1789)		 ::Dynamic _hx_tmp3 =  ::Dynamic(new _hx_Closure_3(_g3,gamepad4));
-HXDLIN(1789)		gamepad->onDisconnect->add(_hx_tmp3,null(),null());
+HXLINE(1785)		 ::Dynamic _g = this->_hx___onLimeGamepadAxisMove_dyn();
+HXDLIN(1785)		 ::lime::ui::Gamepad gamepad1 = gamepad;
+HXDLIN(1785)		 ::Dynamic _hx_tmp =  ::Dynamic(new _hx_Closure_0(gamepad1,_g));
+HXDLIN(1785)		gamepad->onAxisMove->add(_hx_tmp,null(),null());
+HXLINE(1786)		 ::Dynamic _g1 = this->_hx___onLimeGamepadButtonDown_dyn();
+HXDLIN(1786)		 ::lime::ui::Gamepad gamepad2 = gamepad;
+HXDLIN(1786)		 ::Dynamic _hx_tmp1 =  ::Dynamic(new _hx_Closure_1(gamepad2,_g1));
+HXDLIN(1786)		gamepad->onButtonDown->add(_hx_tmp1,null(),null());
+HXLINE(1787)		 ::Dynamic _g2 = this->_hx___onLimeGamepadButtonUp_dyn();
+HXDLIN(1787)		 ::lime::ui::Gamepad gamepad3 = gamepad;
+HXDLIN(1787)		 ::Dynamic _hx_tmp2 =  ::Dynamic(new _hx_Closure_2(_g2,gamepad3));
+HXDLIN(1787)		gamepad->onButtonUp->add(_hx_tmp2,null(),null());
+HXLINE(1788)		 ::Dynamic _g3 = this->_hx___onLimeGamepadDisconnect_dyn();
+HXDLIN(1788)		 ::lime::ui::Gamepad gamepad4 = gamepad;
+HXDLIN(1788)		 ::Dynamic _hx_tmp3 =  ::Dynamic(new _hx_Closure_3(_g3,gamepad4));
+HXDLIN(1788)		gamepad->onDisconnect->add(_hx_tmp3,null(),null());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Stage_obj,_hx___onLimeGamepadConnect,(void))
 
 void Stage_obj::_hx___onLimeGamepadDisconnect( ::lime::ui::Gamepad gamepad){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1795___onLimeGamepadDisconnect)
-HXDLIN(1795)		try {
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1794___onLimeGamepadDisconnect)
+HXDLIN(1794)		try {
             			HX_STACK_CATCHABLE( ::Dynamic, 0);
-HXLINE(1797)			::openfl::ui::GameInput_obj::_hx___onGamepadDisconnect(gamepad);
+HXLINE(1796)			::openfl::ui::GameInput_obj::_hx___onGamepadDisconnect(gamepad);
             		} catch( ::Dynamic _hx_e) {
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
@@ -2025,7 +2024,7 @@ HXLINE(   1)				{
 HXLINE(   1)					null();
             				}
 HXDLIN(   1)				 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
-HXLINE(1801)				this->_hx___handleError(e);
+HXLINE(1800)				this->_hx___handleError(e);
             			}
             			else {
             				HX_STACK_DO_THROW(_hx_e);
@@ -2037,47 +2036,47 @@ HXLINE(1801)				this->_hx___handleError(e);
 HX_DEFINE_DYNAMIC_FUNC1(Stage_obj,_hx___onLimeGamepadDisconnect,(void))
 
 void Stage_obj::_hx___onLimeKeyDown( ::lime::ui::Window window,int keyCode,int modifier){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1809___onLimeKeyDown)
-HXLINE(1810)		bool _hx_tmp;
-HXDLIN(1810)		if (::hx::IsNotNull( this->window )) {
-HXLINE(1810)			_hx_tmp = ::hx::IsNotEq( this->window,window );
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1808___onLimeKeyDown)
+HXLINE(1809)		bool _hx_tmp;
+HXDLIN(1809)		if (::hx::IsNotNull( this->window )) {
+HXLINE(1809)			_hx_tmp = ::hx::IsNotEq( this->window,window );
             		}
             		else {
-HXLINE(1810)			_hx_tmp = true;
+HXLINE(1809)			_hx_tmp = true;
             		}
-HXDLIN(1810)		if (_hx_tmp) {
-HXLINE(1810)			return;
+HXDLIN(1809)		if (_hx_tmp) {
+HXLINE(1809)			return;
             		}
-HXLINE(1812)		this->_hx___onKey(HX_("keyDown",a1,69,47,9c),keyCode,modifier);
+HXLINE(1811)		this->_hx___onKey(HX_("keyDown",a1,69,47,9c),keyCode,modifier);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(Stage_obj,_hx___onLimeKeyDown,(void))
 
 void Stage_obj::_hx___onLimeKeyUp( ::lime::ui::Window window,int keyCode,int modifier){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1816___onLimeKeyUp)
-HXLINE(1817)		bool _hx_tmp;
-HXDLIN(1817)		if (::hx::IsNotNull( this->window )) {
-HXLINE(1817)			_hx_tmp = ::hx::IsNotEq( this->window,window );
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1815___onLimeKeyUp)
+HXLINE(1816)		bool _hx_tmp;
+HXDLIN(1816)		if (::hx::IsNotNull( this->window )) {
+HXLINE(1816)			_hx_tmp = ::hx::IsNotEq( this->window,window );
             		}
             		else {
-HXLINE(1817)			_hx_tmp = true;
+HXLINE(1816)			_hx_tmp = true;
             		}
-HXDLIN(1817)		if (_hx_tmp) {
-HXLINE(1817)			return;
+HXDLIN(1816)		if (_hx_tmp) {
+HXLINE(1816)			return;
             		}
-HXLINE(1819)		this->_hx___onKey(HX_("keyUp",da,b9,fe,de),keyCode,modifier);
+HXLINE(1818)		this->_hx___onKey(HX_("keyUp",da,b9,fe,de),keyCode,modifier);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(Stage_obj,_hx___onLimeKeyUp,(void))
 
 void Stage_obj::_hx___onLimeModuleExit(int code){
-            	HX_GC_STACKFRAME(&_hx_pos_e171466d8d112c10_1824___onLimeModuleExit)
-HXDLIN(1824)		if (::hx::IsNotNull( this->window )) {
-HXLINE(1826)			 ::openfl::events::Event event = null();
-HXLINE(1831)			event =  ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("deactivate",34,5c,01,3c),null(),null());
-HXLINE(1834)			this->_hx___broadcastEvent(event);
+            	HX_GC_STACKFRAME(&_hx_pos_e171466d8d112c10_1823___onLimeModuleExit)
+HXDLIN(1823)		if (::hx::IsNotNull( this->window )) {
+HXLINE(1825)			 ::openfl::events::Event event = null();
+HXLINE(1830)			event =  ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("deactivate",34,5c,01,3c),null(),null());
+HXLINE(1833)			this->_hx___broadcastEvent(event);
             		}
             	}
 
@@ -2085,43 +2084,43 @@ HXLINE(1834)			this->_hx___broadcastEvent(event);
 HX_DEFINE_DYNAMIC_FUNC1(Stage_obj,_hx___onLimeModuleExit,(void))
 
 void Stage_obj::_hx___onLimeMouseDown( ::lime::ui::Window window,Float x,Float y,int button){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1843___onLimeMouseDown)
-HXLINE(1844)		bool _hx_tmp;
-HXDLIN(1844)		if (::hx::IsNotNull( this->window )) {
-HXLINE(1844)			_hx_tmp = ::hx::IsNotEq( this->window,window );
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1842___onLimeMouseDown)
+HXLINE(1843)		bool _hx_tmp;
+HXDLIN(1843)		if (::hx::IsNotNull( this->window )) {
+HXLINE(1843)			_hx_tmp = ::hx::IsNotEq( this->window,window );
             		}
             		else {
-HXLINE(1844)			_hx_tmp = true;
+HXLINE(1843)			_hx_tmp = true;
             		}
-HXDLIN(1844)		if (_hx_tmp) {
-HXLINE(1844)			return;
+HXDLIN(1843)		if (_hx_tmp) {
+HXLINE(1843)			return;
             		}
-HXLINE(1846)		this->_hx___dispatchPendingMouseEvent();
-HXLINE(1848)		::String type;
-HXDLIN(1848)		switch((int)(button)){
+HXLINE(1845)		this->_hx___dispatchPendingMouseEvent();
+HXLINE(1847)		::String type;
+HXDLIN(1847)		switch((int)(button)){
             			case (int)1: {
-HXLINE(1848)				type = HX_("middleMouseDown",12,2b,fe,01);
+HXLINE(1847)				type = HX_("middleMouseDown",12,2b,fe,01);
             			}
             			break;
             			case (int)2: {
-HXLINE(1848)				type = HX_("rightMouseDown",ab,29,d7,cd);
+HXLINE(1847)				type = HX_("rightMouseDown",ab,29,d7,cd);
             			}
             			break;
             			default:{
-HXLINE(1848)				type = HX_("mouseDown",27,b1,c2,ee);
+HXLINE(1847)				type = HX_("mouseDown",27,b1,c2,ee);
             			}
             		}
-HXLINE(1855)		int _hx_tmp1 = ::Std_obj::_hx_int((x * window->_hx___scale));
-HXDLIN(1855)		this->_hx___onMouse(type,( (Float)(_hx_tmp1) ),( (Float)(::Std_obj::_hx_int((y * window->_hx___scale))) ),button);
-HXLINE(1857)		bool _hx_tmp2;
-HXDLIN(1857)		if (!(this->showDefaultContextMenu)) {
-HXLINE(1857)			_hx_tmp2 = (button == 2);
+HXLINE(1854)		int _hx_tmp1 = ::Std_obj::_hx_int((x * window->_hx___scale));
+HXDLIN(1854)		this->_hx___onMouse(type,( (Float)(_hx_tmp1) ),( (Float)(::Std_obj::_hx_int((y * window->_hx___scale))) ),button);
+HXLINE(1856)		bool _hx_tmp2;
+HXDLIN(1856)		if (!(this->showDefaultContextMenu)) {
+HXLINE(1856)			_hx_tmp2 = (button == 2);
             		}
             		else {
-HXLINE(1857)			_hx_tmp2 = false;
+HXLINE(1856)			_hx_tmp2 = false;
             		}
-HXDLIN(1857)		if (_hx_tmp2) {
-HXLINE(1859)			window->onMouseDown->cancel();
+HXDLIN(1856)		if (_hx_tmp2) {
+HXLINE(1858)			window->onMouseDown->cancel();
             		}
             	}
 
@@ -2129,70 +2128,70 @@ HXLINE(1859)			window->onMouseDown->cancel();
 HX_DEFINE_DYNAMIC_FUNC4(Stage_obj,_hx___onLimeMouseDown,(void))
 
 void Stage_obj::_hx___onLimeMouseMove( ::lime::ui::Window window,Float x,Float y){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1864___onLimeMouseMove)
-HXLINE(1865)		bool _hx_tmp;
-HXDLIN(1865)		if (::hx::IsNotNull( this->window )) {
-HXLINE(1865)			_hx_tmp = ::hx::IsNotEq( this->window,window );
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1863___onLimeMouseMove)
+HXLINE(1864)		bool _hx_tmp;
+HXDLIN(1864)		if (::hx::IsNotNull( this->window )) {
+HXLINE(1864)			_hx_tmp = ::hx::IsNotEq( this->window,window );
             		}
             		else {
-HXLINE(1865)			_hx_tmp = true;
+HXLINE(1864)			_hx_tmp = true;
             		}
-HXDLIN(1865)		if (_hx_tmp) {
-HXLINE(1865)			return;
+HXDLIN(1864)		if (_hx_tmp) {
+HXLINE(1864)			return;
             		}
-HXLINE(1870)		this->_hx___pendingMouseEvent = true;
-HXLINE(1871)		this->_hx___pendingMouseX = ::Std_obj::_hx_int((x * window->_hx___scale));
-HXLINE(1872)		this->_hx___pendingMouseY = ::Std_obj::_hx_int((y * window->_hx___scale));
+HXLINE(1869)		this->_hx___pendingMouseEvent = true;
+HXLINE(1870)		this->_hx___pendingMouseX = ::Std_obj::_hx_int((x * window->_hx___scale));
+HXLINE(1871)		this->_hx___pendingMouseY = ::Std_obj::_hx_int((y * window->_hx___scale));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(Stage_obj,_hx___onLimeMouseMove,(void))
 
 void Stage_obj::_hx___onLimeMouseMoveRelative( ::lime::ui::Window window,Float x,Float y){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1877___onLimeMouseMoveRelative)
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1876___onLimeMouseMoveRelative)
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(Stage_obj,_hx___onLimeMouseMoveRelative,(void))
 
 void Stage_obj::_hx___onLimeMouseUp( ::lime::ui::Window window,Float x,Float y,int button){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1882___onLimeMouseUp)
-HXLINE(1883)		bool _hx_tmp;
-HXDLIN(1883)		if (::hx::IsNotNull( this->window )) {
-HXLINE(1883)			_hx_tmp = ::hx::IsNotEq( this->window,window );
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1881___onLimeMouseUp)
+HXLINE(1882)		bool _hx_tmp;
+HXDLIN(1882)		if (::hx::IsNotNull( this->window )) {
+HXLINE(1882)			_hx_tmp = ::hx::IsNotEq( this->window,window );
             		}
             		else {
-HXLINE(1883)			_hx_tmp = true;
+HXLINE(1882)			_hx_tmp = true;
             		}
-HXDLIN(1883)		if (_hx_tmp) {
-HXLINE(1883)			return;
+HXDLIN(1882)		if (_hx_tmp) {
+HXLINE(1882)			return;
             		}
-HXLINE(1885)		this->_hx___dispatchPendingMouseEvent();
-HXLINE(1887)		::String type;
-HXDLIN(1887)		switch((int)(button)){
+HXLINE(1884)		this->_hx___dispatchPendingMouseEvent();
+HXLINE(1886)		::String type;
+HXDLIN(1886)		switch((int)(button)){
             			case (int)1: {
-HXLINE(1887)				type = HX_("middleMouseUp",0b,8d,f5,3a);
+HXLINE(1886)				type = HX_("middleMouseUp",0b,8d,f5,3a);
             			}
             			break;
             			case (int)2: {
-HXLINE(1887)				type = HX_("rightMouseUp",64,83,21,ab);
+HXLINE(1886)				type = HX_("rightMouseUp",64,83,21,ab);
             			}
             			break;
             			default:{
-HXLINE(1887)				type = HX_("mouseUp",e0,f3,72,c0);
+HXLINE(1886)				type = HX_("mouseUp",e0,f3,72,c0);
             			}
             		}
-HXLINE(1894)		int _hx_tmp1 = ::Std_obj::_hx_int((x * window->_hx___scale));
-HXDLIN(1894)		this->_hx___onMouse(type,( (Float)(_hx_tmp1) ),( (Float)(::Std_obj::_hx_int((y * window->_hx___scale))) ),button);
-HXLINE(1896)		bool _hx_tmp2;
-HXDLIN(1896)		if (!(this->showDefaultContextMenu)) {
-HXLINE(1896)			_hx_tmp2 = (button == 2);
+HXLINE(1893)		int _hx_tmp1 = ::Std_obj::_hx_int((x * window->_hx___scale));
+HXDLIN(1893)		this->_hx___onMouse(type,( (Float)(_hx_tmp1) ),( (Float)(::Std_obj::_hx_int((y * window->_hx___scale))) ),button);
+HXLINE(1895)		bool _hx_tmp2;
+HXDLIN(1895)		if (!(this->showDefaultContextMenu)) {
+HXLINE(1895)			_hx_tmp2 = (button == 2);
             		}
             		else {
-HXLINE(1896)			_hx_tmp2 = false;
+HXLINE(1895)			_hx_tmp2 = false;
             		}
-HXDLIN(1896)		if (_hx_tmp2) {
-HXLINE(1898)			window->onMouseUp->cancel();
+HXDLIN(1895)		if (_hx_tmp2) {
+HXLINE(1897)			window->onMouseUp->cancel();
             		}
             	}
 
@@ -2200,25 +2199,25 @@ HXLINE(1898)			window->onMouseUp->cancel();
 HX_DEFINE_DYNAMIC_FUNC4(Stage_obj,_hx___onLimeMouseUp,(void))
 
 void Stage_obj::_hx___onLimeMouseWheel( ::lime::ui::Window window,Float deltaX,Float deltaY, ::lime::ui::MouseWheelMode deltaMode){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1903___onLimeMouseWheel)
-HXLINE(1904)		bool _hx_tmp;
-HXDLIN(1904)		if (::hx::IsNotNull( this->window )) {
-HXLINE(1904)			_hx_tmp = ::hx::IsNotEq( this->window,window );
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_1902___onLimeMouseWheel)
+HXLINE(1903)		bool _hx_tmp;
+HXDLIN(1903)		if (::hx::IsNotNull( this->window )) {
+HXLINE(1903)			_hx_tmp = ::hx::IsNotEq( this->window,window );
             		}
             		else {
-HXLINE(1904)			_hx_tmp = true;
+HXLINE(1903)			_hx_tmp = true;
             		}
-HXDLIN(1904)		if (_hx_tmp) {
-HXLINE(1904)			return;
+HXDLIN(1903)		if (_hx_tmp) {
+HXLINE(1903)			return;
             		}
-HXLINE(1906)		this->_hx___dispatchPendingMouseEvent();
-HXLINE(1908)		if (::hx::IsEq( deltaMode,::lime::ui::MouseWheelMode_obj::PIXELS_dyn() )) {
-HXLINE(1910)			int _hx_tmp = ::Std_obj::_hx_int((deltaX * window->_hx___scale));
-HXDLIN(1910)			this->_hx___onMouseWheel(( (Float)(_hx_tmp) ),( (Float)(::Std_obj::_hx_int((deltaY * window->_hx___scale))) ),deltaMode);
+HXLINE(1905)		this->_hx___dispatchPendingMouseEvent();
+HXLINE(1907)		if (::hx::IsEq( deltaMode,::lime::ui::MouseWheelMode_obj::PIXELS_dyn() )) {
+HXLINE(1909)			int _hx_tmp = ::Std_obj::_hx_int((deltaX * window->_hx___scale));
+HXDLIN(1909)			this->_hx___onMouseWheel(( (Float)(_hx_tmp) ),( (Float)(::Std_obj::_hx_int((deltaY * window->_hx___scale))) ),deltaMode);
             		}
             		else {
-HXLINE(1914)			int _hx_tmp = ::Std_obj::_hx_int(deltaX);
-HXDLIN(1914)			this->_hx___onMouseWheel(( (Float)(_hx_tmp) ),( (Float)(::Std_obj::_hx_int(deltaY)) ),deltaMode);
+HXLINE(1913)			int _hx_tmp = ::Std_obj::_hx_int(deltaX);
+HXDLIN(1913)			this->_hx___onMouseWheel(( (Float)(_hx_tmp) ),( (Float)(::Std_obj::_hx_int(deltaY)) ),deltaMode);
             		}
             	}
 
@@ -2226,99 +2225,99 @@ HXDLIN(1914)			this->_hx___onMouseWheel(( (Float)(_hx_tmp) ),( (Float)(::Std_obj
 HX_DEFINE_DYNAMIC_FUNC4(Stage_obj,_hx___onLimeMouseWheel,(void))
 
 void Stage_obj::_hx___onLimeRender( ::lime::graphics::RenderContext context){
-            	HX_GC_STACKFRAME(&_hx_pos_e171466d8d112c10_1919___onLimeRender)
-HXLINE(1920)		if (this->_hx___rendering) {
-HXLINE(1920)			return;
+            	HX_GC_STACKFRAME(&_hx_pos_e171466d8d112c10_1918___onLimeRender)
+HXLINE(1919)		if (this->_hx___rendering) {
+HXLINE(1919)			return;
             		}
-HXLINE(1921)		this->_hx___rendering = true;
-HXLINE(1931)		 ::openfl::events::Event event = null();
-HXLINE(1950)		this->_hx___broadcastEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("enterFrame",f5,03,50,02),null(),null()));
-HXLINE(1951)		this->_hx___broadcastEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("frameConstructed",09,89,5d,98),null(),null()));
-HXLINE(1952)		this->_hx___broadcastEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("exitFrame",2f,64,48,12),null(),null()));
-HXLINE(1955)		this->_hx___renderable = true;
-HXLINE(1956)		this->_hx___enterFrame(this->_hx___deltaTime);
-HXLINE(1957)		this->_hx___deltaTime = 0;
-HXLINE(1959)		bool shouldRender;
-HXDLIN(1959)		if (::hx::IsNotNull( this->_hx___renderer )) {
-HXLINE(1959)			if (!(this->_hx___renderDirty)) {
-HXLINE(1959)				shouldRender = this->_hx___forceRender;
+HXLINE(1920)		this->_hx___rendering = true;
+HXLINE(1930)		 ::openfl::events::Event event = null();
+HXLINE(1949)		this->_hx___broadcastEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("enterFrame",f5,03,50,02),null(),null()));
+HXLINE(1950)		this->_hx___broadcastEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("frameConstructed",09,89,5d,98),null(),null()));
+HXLINE(1951)		this->_hx___broadcastEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("exitFrame",2f,64,48,12),null(),null()));
+HXLINE(1954)		this->_hx___renderable = true;
+HXLINE(1955)		this->_hx___enterFrame(this->_hx___deltaTime);
+HXLINE(1956)		this->_hx___deltaTime = 0;
+HXLINE(1958)		bool shouldRender;
+HXDLIN(1958)		if (::hx::IsNotNull( this->_hx___renderer )) {
+HXLINE(1958)			if (!(this->_hx___renderDirty)) {
+HXLINE(1958)				shouldRender = this->_hx___forceRender;
             			}
             			else {
-HXLINE(1959)				shouldRender = true;
+HXLINE(1958)				shouldRender = true;
             			}
             		}
             		else {
-HXLINE(1959)			shouldRender = false;
+HXLINE(1958)			shouldRender = false;
             		}
-HXLINE(1961)		bool _hx_tmp;
-HXDLIN(1961)		if (this->_hx___invalidated) {
-HXLINE(1961)			_hx_tmp = shouldRender;
+HXLINE(1960)		bool _hx_tmp;
+HXDLIN(1960)		if (this->_hx___invalidated) {
+HXLINE(1960)			_hx_tmp = shouldRender;
             		}
             		else {
-HXLINE(1961)			_hx_tmp = false;
+HXLINE(1960)			_hx_tmp = false;
             		}
-HXDLIN(1961)		if (_hx_tmp) {
-HXLINE(1963)			this->_hx___invalidated = false;
-HXLINE(1968)			event =  ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("render",56,6b,29,05),null(),null());
-HXLINE(1971)			this->_hx___broadcastEvent(event);
+HXDLIN(1960)		if (_hx_tmp) {
+HXLINE(1962)			this->_hx___invalidated = false;
+HXLINE(1967)			event =  ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("render",56,6b,29,05),null(),null());
+HXLINE(1970)			this->_hx___broadcastEvent(event);
             		}
-HXLINE(1983)		this->_hx___update(false,true);
-HXLINE(1986)		if (::hx::IsNotNull( this->_hx___renderer )) {
-HXLINE(1988)			if (::hx::IsNotNull( this->context3D )) {
-HXLINE(1990)				{
-HXLINE(1990)					 ::Dynamic stage3D = this->stage3Ds->iterator();
-HXDLIN(1990)					while(( (bool)(stage3D->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE(1990)						 ::openfl::display::Stage3D stage3D1 = ( ( ::openfl::display::Stage3D)(stage3D->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE(1992)						this->context3D->_hx___renderStage3D(stage3D1);
+HXLINE(1982)		this->_hx___update(false,true);
+HXLINE(1985)		if (::hx::IsNotNull( this->_hx___renderer )) {
+HXLINE(1987)			if (::hx::IsNotNull( this->context3D )) {
+HXLINE(1989)				{
+HXLINE(1989)					 ::Dynamic stage3D = this->stage3Ds->iterator();
+HXDLIN(1989)					while(( (bool)(stage3D->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE(1989)						 ::openfl::display::Stage3D stage3D1 = ( ( ::openfl::display::Stage3D)(stage3D->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE(1991)						this->context3D->_hx___renderStage3D(stage3D1);
             					}
             				}
-HXLINE(1996)				if (this->context3D->_hx___present) {
-HXLINE(1996)					shouldRender = true;
+HXLINE(1995)				if (this->context3D->_hx___present) {
+HXLINE(1995)					shouldRender = true;
             				}
             			}
-HXLINE(2000)			if (shouldRender) {
-HXLINE(2002)				if ((this->_hx___renderer->_hx___type == HX_("cairo",88,30,19,41))) {
-HXLINE(2005)					::hx::TCast<  ::openfl::display::CairoRenderer >::cast(this->_hx___renderer)->cairo = context->cairo;
+HXLINE(1999)			if (shouldRender) {
+HXLINE(2001)				if ((this->_hx___renderer->_hx___type == HX_("cairo",88,30,19,41))) {
+HXLINE(2004)					::hx::TCast<  ::openfl::display::CairoRenderer >::cast(this->_hx___renderer)->cairo = context->cairo;
             				}
-HXLINE(2009)				if (::hx::IsNull( this->context3D )) {
-HXLINE(2011)					this->_hx___renderer->_hx___clear();
+HXLINE(2008)				if (::hx::IsNull( this->context3D )) {
+HXLINE(2010)					this->_hx___renderer->_hx___clear();
             				}
-HXLINE(2014)				this->_hx___renderer->_hx___render(::hx::ObjectPtr<OBJ_>(this));
+HXLINE(2013)				this->_hx___renderer->_hx___render(::hx::ObjectPtr<OBJ_>(this));
             			}
             			else {
-HXLINE(2016)				if (::hx::IsNull( this->context3D )) {
-HXLINE(2018)					this->window->onRender->cancel();
+HXLINE(2015)				if (::hx::IsNull( this->context3D )) {
+HXLINE(2017)					this->window->onRender->cancel();
             				}
             			}
-HXLINE(2021)			if (::hx::IsNotNull( this->context3D )) {
-HXLINE(2023)				if (!(this->context3D->_hx___present)) {
-HXLINE(2025)					this->window->onRender->cancel();
+HXLINE(2020)			if (::hx::IsNotNull( this->context3D )) {
+HXLINE(2022)				if (!(this->context3D->_hx___present)) {
+HXLINE(2024)					this->window->onRender->cancel();
             				}
             				else {
-HXLINE(2029)					if (!(this->_hx___renderer->_hx___cleared)) {
-HXLINE(2031)						this->_hx___renderer->_hx___clear();
+HXLINE(2028)					if (!(this->_hx___renderer->_hx___cleared)) {
+HXLINE(2030)						this->_hx___renderer->_hx___clear();
             					}
-HXLINE(2034)					this->context3D->_hx___present = false;
-HXLINE(2035)					this->context3D->_hx___cleared = false;
+HXLINE(2033)					this->context3D->_hx___present = false;
+HXLINE(2034)					this->context3D->_hx___cleared = false;
             				}
             			}
-HXLINE(2039)			this->_hx___renderer->_hx___cleared = false;
+HXLINE(2038)			this->_hx___renderer->_hx___cleared = false;
             		}
-HXLINE(2048)		this->_hx___rendering = false;
+HXLINE(2047)		this->_hx___rendering = false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Stage_obj,_hx___onLimeRender,(void))
 
 void Stage_obj::_hx___onLimeRenderContextLost(){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2052___onLimeRenderContextLost)
-HXLINE(2053)		this->_hx___renderer = null();
-HXLINE(2054)		this->context3D = null();
-HXLINE(2056)		{
-HXLINE(2056)			 ::Dynamic stage3D = this->stage3Ds->iterator();
-HXDLIN(2056)			while(( (bool)(stage3D->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE(2056)				 ::openfl::display::Stage3D stage3D1 = ( ( ::openfl::display::Stage3D)(stage3D->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE(2058)				stage3D1->_hx___lostContext();
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2051___onLimeRenderContextLost)
+HXLINE(2052)		this->_hx___renderer = null();
+HXLINE(2053)		this->context3D = null();
+HXLINE(2055)		{
+HXLINE(2055)			 ::Dynamic stage3D = this->stage3Ds->iterator();
+HXDLIN(2055)			while(( (bool)(stage3D->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE(2055)				 ::openfl::display::Stage3D stage3D1 = ( ( ::openfl::display::Stage3D)(stage3D->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE(2057)				stage3D1->_hx___lostContext();
             			}
             		}
             	}
@@ -2327,13 +2326,13 @@ HXLINE(2058)				stage3D1->_hx___lostContext();
 HX_DEFINE_DYNAMIC_FUNC0(Stage_obj,_hx___onLimeRenderContextLost,(void))
 
 void Stage_obj::_hx___onLimeRenderContextRestored( ::lime::graphics::RenderContext context){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2063___onLimeRenderContextRestored)
-HXLINE(2064)		this->_hx___createRenderer();
-HXLINE(2066)		{
-HXLINE(2066)			 ::Dynamic stage3D = this->stage3Ds->iterator();
-HXDLIN(2066)			while(( (bool)(stage3D->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE(2066)				 ::openfl::display::Stage3D stage3D1 = ( ( ::openfl::display::Stage3D)(stage3D->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE(2068)				stage3D1->_hx___restoreContext();
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2062___onLimeRenderContextRestored)
+HXLINE(2063)		this->_hx___createRenderer();
+HXLINE(2065)		{
+HXLINE(2065)			 ::Dynamic stage3D = this->stage3Ds->iterator();
+HXDLIN(2065)			while(( (bool)(stage3D->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE(2065)				 ::openfl::display::Stage3D stage3D1 = ( ( ::openfl::display::Stage3D)(stage3D->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE(2067)				stage3D1->_hx___restoreContext();
             			}
             		}
             	}
@@ -2342,41 +2341,41 @@ HXLINE(2068)				stage3D1->_hx___restoreContext();
 HX_DEFINE_DYNAMIC_FUNC1(Stage_obj,_hx___onLimeRenderContextRestored,(void))
 
 void Stage_obj::_hx___onLimeTextEdit( ::lime::ui::Window window,::String text,int start,int length){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2073___onLimeTextEdit)
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2072___onLimeTextEdit)
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC4(Stage_obj,_hx___onLimeTextEdit,(void))
 
 void Stage_obj::_hx___onLimeTextInput( ::lime::ui::Window window,::String text){
-            	HX_GC_STACKFRAME(&_hx_pos_e171466d8d112c10_2078___onLimeTextInput)
-HXLINE(2079)		bool _hx_tmp;
-HXDLIN(2079)		if (::hx::IsNotNull( this->window )) {
-HXLINE(2079)			_hx_tmp = ::hx::IsNotEq( this->window,window );
+            	HX_GC_STACKFRAME(&_hx_pos_e171466d8d112c10_2077___onLimeTextInput)
+HXLINE(2078)		bool _hx_tmp;
+HXDLIN(2078)		if (::hx::IsNotNull( this->window )) {
+HXLINE(2078)			_hx_tmp = ::hx::IsNotEq( this->window,window );
             		}
             		else {
-HXLINE(2079)			_hx_tmp = true;
+HXLINE(2078)			_hx_tmp = true;
             		}
-HXDLIN(2079)		if (_hx_tmp) {
-HXLINE(2079)			return;
+HXDLIN(2078)		if (_hx_tmp) {
+HXLINE(2078)			return;
             		}
-HXLINE(2081)		::Array< ::Dynamic> stack = ::Array_obj< ::Dynamic>::__new();
-HXLINE(2083)		if (::hx::IsNull( this->_hx___focus )) {
-HXLINE(2085)			this->_hx___getInteractive(stack);
-            		}
-            		else {
-HXLINE(2089)			this->_hx___focus->_hx___getInteractive(stack);
-            		}
-HXLINE(2092)		 ::openfl::events::TextEvent event =  ::openfl::events::TextEvent_obj::__alloc( HX_CTX ,HX_("textInput",1d,54,0b,57),true,true,text);
-HXLINE(2093)		if ((stack->length > 0)) {
-HXLINE(2095)			stack->reverse();
-HXLINE(2096)			this->_hx___dispatchStack(event,stack);
+HXLINE(2080)		::Array< ::Dynamic> stack = ::Array_obj< ::Dynamic>::__new();
+HXLINE(2082)		if (::hx::IsNull( this->_hx___focus )) {
+HXLINE(2084)			this->_hx___getInteractive(stack);
             		}
             		else {
-HXLINE(2100)			this->_hx___dispatchEvent(event);
+HXLINE(2088)			this->_hx___focus->_hx___getInteractive(stack);
             		}
-HXLINE(2103)		if (event->isDefaultPrevented()) {
-HXLINE(2105)			window->onTextInput->cancel();
+HXLINE(2091)		 ::openfl::events::TextEvent event =  ::openfl::events::TextEvent_obj::__alloc( HX_CTX ,HX_("textInput",1d,54,0b,57),true,true,text);
+HXLINE(2092)		if ((stack->length > 0)) {
+HXLINE(2094)			stack->reverse();
+HXLINE(2095)			this->_hx___dispatchStack(event,stack);
+            		}
+            		else {
+HXLINE(2099)			this->_hx___dispatchEvent(event);
+            		}
+HXLINE(2102)		if (event->isDefaultPrevented()) {
+HXLINE(2104)			window->onTextInput->cancel();
             		}
             	}
 
@@ -2384,68 +2383,68 @@ HXLINE(2105)			window->onTextInput->cancel();
 HX_DEFINE_DYNAMIC_FUNC2(Stage_obj,_hx___onLimeTextInput,(void))
 
 void Stage_obj::_hx___onLimeTouchCancel( ::lime::ui::Touch touch){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2110___onLimeTouchCancel)
-HXLINE(2112)		bool isPrimaryTouchPoint = ::hx::IsEq( this->_hx___primaryTouch,touch );
-HXLINE(2113)		if (isPrimaryTouchPoint) {
-HXLINE(2115)			this->_hx___primaryTouch = null();
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2109___onLimeTouchCancel)
+HXLINE(2111)		bool isPrimaryTouchPoint = ::hx::IsEq( this->_hx___primaryTouch,touch );
+HXLINE(2112)		if (isPrimaryTouchPoint) {
+HXLINE(2114)			this->_hx___primaryTouch = null();
             		}
-HXLINE(2118)		this->_hx___onTouch(HX_("touchEnd",5c,c5,09,00),touch,isPrimaryTouchPoint);
+HXLINE(2117)		this->_hx___onTouch(HX_("touchEnd",5c,c5,09,00),touch,isPrimaryTouchPoint);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Stage_obj,_hx___onLimeTouchCancel,(void))
 
 void Stage_obj::_hx___onLimeTouchMove( ::lime::ui::Touch touch){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2123___onLimeTouchMove)
-HXDLIN(2123)		this->_hx___onTouch(HX_("touchMove",70,72,cd,0d),touch,::hx::IsEq( this->_hx___primaryTouch,touch ));
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2122___onLimeTouchMove)
+HXDLIN(2122)		this->_hx___onTouch(HX_("touchMove",70,72,cd,0d),touch,::hx::IsEq( this->_hx___primaryTouch,touch ));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Stage_obj,_hx___onLimeTouchMove,(void))
 
 void Stage_obj::_hx___onLimeTouchEnd( ::lime::ui::Touch touch){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2127___onLimeTouchEnd)
-HXLINE(2128)		bool isPrimaryTouchPoint = ::hx::IsEq( this->_hx___primaryTouch,touch );
-HXLINE(2129)		if (isPrimaryTouchPoint) {
-HXLINE(2131)			this->_hx___primaryTouch = null();
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2126___onLimeTouchEnd)
+HXLINE(2127)		bool isPrimaryTouchPoint = ::hx::IsEq( this->_hx___primaryTouch,touch );
+HXLINE(2128)		if (isPrimaryTouchPoint) {
+HXLINE(2130)			this->_hx___primaryTouch = null();
             		}
-HXLINE(2134)		this->_hx___onTouch(HX_("touchEnd",5c,c5,09,00),touch,isPrimaryTouchPoint);
+HXLINE(2133)		this->_hx___onTouch(HX_("touchEnd",5c,c5,09,00),touch,isPrimaryTouchPoint);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Stage_obj,_hx___onLimeTouchEnd,(void))
 
 void Stage_obj::_hx___onLimeTouchStart( ::lime::ui::Touch touch){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2138___onLimeTouchStart)
-HXLINE(2139)		if (::hx::IsNull( this->_hx___primaryTouch )) {
-HXLINE(2141)			this->_hx___primaryTouch = touch;
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2137___onLimeTouchStart)
+HXLINE(2138)		if (::hx::IsNull( this->_hx___primaryTouch )) {
+HXLINE(2140)			this->_hx___primaryTouch = touch;
             		}
-HXLINE(2144)		this->_hx___onTouch(HX_("touchBegin",ea,cd,e6,a9),touch,::hx::IsEq( this->_hx___primaryTouch,touch ));
+HXLINE(2143)		this->_hx___onTouch(HX_("touchBegin",ea,cd,e6,a9),touch,::hx::IsEq( this->_hx___primaryTouch,touch ));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Stage_obj,_hx___onLimeTouchStart,(void))
 
 void Stage_obj::_hx___onLimeUpdate(int deltaTime){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2148___onLimeUpdate)
-HXLINE(2149)		this->_hx___deltaTime = deltaTime;
-HXLINE(2151)		this->_hx___dispatchPendingMouseEvent();
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2147___onLimeUpdate)
+HXLINE(2148)		this->_hx___deltaTime = deltaTime;
+HXLINE(2150)		this->_hx___dispatchPendingMouseEvent();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Stage_obj,_hx___onLimeUpdate,(void))
 
 void Stage_obj::_hx___onLimeWindowActivate( ::lime::ui::Window window){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2156___onLimeWindowActivate)
-HXDLIN(2156)		bool _hx_tmp;
-HXDLIN(2156)		if (::hx::IsNotNull( this->window )) {
-HXDLIN(2156)			_hx_tmp = ::hx::IsNotEq( this->window,window );
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2155___onLimeWindowActivate)
+HXDLIN(2155)		bool _hx_tmp;
+HXDLIN(2155)		if (::hx::IsNotNull( this->window )) {
+HXDLIN(2155)			_hx_tmp = ::hx::IsNotEq( this->window,window );
             		}
             		else {
-HXDLIN(2156)			_hx_tmp = true;
+HXDLIN(2155)			_hx_tmp = true;
             		}
-HXDLIN(2156)		if (_hx_tmp) {
-HXDLIN(2156)			return;
+HXDLIN(2155)		if (_hx_tmp) {
+HXDLIN(2155)			return;
             		}
             	}
 
@@ -2453,33 +2452,33 @@ HXDLIN(2156)			return;
 HX_DEFINE_DYNAMIC_FUNC1(Stage_obj,_hx___onLimeWindowActivate,(void))
 
 void Stage_obj::_hx___onLimeWindowClose( ::lime::ui::Window window){
-            	HX_GC_STACKFRAME(&_hx_pos_e171466d8d112c10_2162___onLimeWindowClose)
-HXLINE(2163)		if (::hx::IsEq( this->window,window )) {
-HXLINE(2165)			this->window = null();
+            	HX_GC_STACKFRAME(&_hx_pos_e171466d8d112c10_2161___onLimeWindowClose)
+HXLINE(2162)		if (::hx::IsEq( this->window,window )) {
+HXLINE(2164)			this->window = null();
             		}
-HXLINE(2168)		this->_hx___primaryTouch = null();
-HXLINE(2170)		 ::openfl::events::Event event = null();
-HXLINE(2175)		event =  ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("deactivate",34,5c,01,3c),null(),null());
-HXLINE(2178)		this->_hx___broadcastEvent(event);
+HXLINE(2167)		this->_hx___primaryTouch = null();
+HXLINE(2169)		 ::openfl::events::Event event = null();
+HXLINE(2174)		event =  ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("deactivate",34,5c,01,3c),null(),null());
+HXLINE(2177)		this->_hx___broadcastEvent(event);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Stage_obj,_hx___onLimeWindowClose,(void))
 
 void Stage_obj::_hx___onLimeWindowCreate( ::lime::ui::Window window){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2186___onLimeWindowCreate)
-HXLINE(2187)		bool _hx_tmp;
-HXDLIN(2187)		if (::hx::IsNotNull( this->window )) {
-HXLINE(2187)			_hx_tmp = ::hx::IsNotEq( this->window,window );
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2185___onLimeWindowCreate)
+HXLINE(2186)		bool _hx_tmp;
+HXDLIN(2186)		if (::hx::IsNotNull( this->window )) {
+HXLINE(2186)			_hx_tmp = ::hx::IsNotEq( this->window,window );
             		}
             		else {
-HXLINE(2187)			_hx_tmp = true;
+HXLINE(2186)			_hx_tmp = true;
             		}
-HXDLIN(2187)		if (_hx_tmp) {
-HXLINE(2187)			return;
+HXDLIN(2186)		if (_hx_tmp) {
+HXLINE(2186)			return;
             		}
-HXLINE(2189)		if (::hx::IsNotNull( window->context )) {
-HXLINE(2191)			this->_hx___createRenderer();
+HXLINE(2188)		if (::hx::IsNotNull( window->context )) {
+HXLINE(2190)			this->_hx___createRenderer();
             		}
             	}
 
@@ -2487,16 +2486,16 @@ HXLINE(2191)			this->_hx___createRenderer();
 HX_DEFINE_DYNAMIC_FUNC1(Stage_obj,_hx___onLimeWindowCreate,(void))
 
 void Stage_obj::_hx___onLimeWindowDeactivate( ::lime::ui::Window window){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2197___onLimeWindowDeactivate)
-HXDLIN(2197)		bool _hx_tmp;
-HXDLIN(2197)		if (::hx::IsNotNull( this->window )) {
-HXDLIN(2197)			_hx_tmp = ::hx::IsNotEq( this->window,window );
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2196___onLimeWindowDeactivate)
+HXDLIN(2196)		bool _hx_tmp;
+HXDLIN(2196)		if (::hx::IsNotNull( this->window )) {
+HXDLIN(2196)			_hx_tmp = ::hx::IsNotEq( this->window,window );
             		}
             		else {
-HXDLIN(2197)			_hx_tmp = true;
+HXDLIN(2196)			_hx_tmp = true;
             		}
-HXDLIN(2197)		if (_hx_tmp) {
-HXDLIN(2197)			return;
+HXDLIN(2196)		if (_hx_tmp) {
+HXDLIN(2196)			return;
             		}
             	}
 
@@ -2504,104 +2503,104 @@ HXDLIN(2197)			return;
 HX_DEFINE_DYNAMIC_FUNC1(Stage_obj,_hx___onLimeWindowDeactivate,(void))
 
 void Stage_obj::_hx___onLimeWindowDropFile( ::lime::ui::Window window,::String file){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2203___onLimeWindowDropFile)
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2202___onLimeWindowDropFile)
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Stage_obj,_hx___onLimeWindowDropFile,(void))
 
 void Stage_obj::_hx___onLimeWindowEnter( ::lime::ui::Window window){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2206___onLimeWindowEnter)
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2205___onLimeWindowEnter)
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Stage_obj,_hx___onLimeWindowEnter,(void))
 
 void Stage_obj::_hx___onLimeWindowExpose( ::lime::ui::Window window){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2211___onLimeWindowExpose)
-HXLINE(2212)		bool _hx_tmp;
-HXDLIN(2212)		if (::hx::IsNotNull( this->window )) {
-HXLINE(2212)			_hx_tmp = ::hx::IsNotEq( this->window,window );
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2210___onLimeWindowExpose)
+HXLINE(2211)		bool _hx_tmp;
+HXDLIN(2211)		if (::hx::IsNotNull( this->window )) {
+HXLINE(2211)			_hx_tmp = ::hx::IsNotEq( this->window,window );
             		}
             		else {
-HXLINE(2212)			_hx_tmp = true;
+HXLINE(2211)			_hx_tmp = true;
             		}
-HXDLIN(2212)		if (_hx_tmp) {
-HXLINE(2212)			return;
+HXDLIN(2211)		if (_hx_tmp) {
+HXLINE(2211)			return;
             		}
-HXLINE(2214)		this->_hx___renderDirty = true;
+HXLINE(2213)		this->_hx___renderDirty = true;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Stage_obj,_hx___onLimeWindowExpose,(void))
 
 void Stage_obj::_hx___onLimeWindowFocusIn( ::lime::ui::Window window){
-            	HX_GC_STACKFRAME(&_hx_pos_e171466d8d112c10_2218___onLimeWindowFocusIn)
-HXLINE(2219)		bool _hx_tmp;
-HXDLIN(2219)		if (::hx::IsNotNull( this->window )) {
-HXLINE(2219)			_hx_tmp = ::hx::IsNotEq( this->window,window );
+            	HX_GC_STACKFRAME(&_hx_pos_e171466d8d112c10_2217___onLimeWindowFocusIn)
+HXLINE(2218)		bool _hx_tmp;
+HXDLIN(2218)		if (::hx::IsNotNull( this->window )) {
+HXLINE(2218)			_hx_tmp = ::hx::IsNotEq( this->window,window );
             		}
             		else {
-HXLINE(2219)			_hx_tmp = true;
+HXLINE(2218)			_hx_tmp = true;
             		}
-HXDLIN(2219)		if (_hx_tmp) {
-HXLINE(2219)			return;
+HXDLIN(2218)		if (_hx_tmp) {
+HXLINE(2218)			return;
             		}
-HXLINE(2226)		 ::openfl::events::Event event = null();
-HXLINE(2231)		event =  ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("activate",b3,1b,ac,e5),null(),null());
-HXLINE(2234)		this->_hx___broadcastEvent(event);
+HXLINE(2225)		 ::openfl::events::Event event = null();
+HXLINE(2230)		event =  ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("activate",b3,1b,ac,e5),null(),null());
+HXLINE(2233)		this->_hx___broadcastEvent(event);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Stage_obj,_hx___onLimeWindowFocusIn,(void))
 
 void Stage_obj::_hx___onLimeWindowFocusOut( ::lime::ui::Window window){
-            	HX_GC_STACKFRAME(&_hx_pos_e171466d8d112c10_2246___onLimeWindowFocusOut)
-HXLINE(2247)		bool _hx_tmp;
-HXDLIN(2247)		if (::hx::IsNotNull( this->window )) {
-HXLINE(2247)			_hx_tmp = ::hx::IsNotEq( this->window,window );
+            	HX_GC_STACKFRAME(&_hx_pos_e171466d8d112c10_2245___onLimeWindowFocusOut)
+HXLINE(2246)		bool _hx_tmp;
+HXDLIN(2246)		if (::hx::IsNotNull( this->window )) {
+HXLINE(2246)			_hx_tmp = ::hx::IsNotEq( this->window,window );
             		}
             		else {
-HXLINE(2247)			_hx_tmp = true;
+HXLINE(2246)			_hx_tmp = true;
             		}
-HXDLIN(2247)		if (_hx_tmp) {
-HXLINE(2247)			return;
+HXDLIN(2246)		if (_hx_tmp) {
+HXLINE(2246)			return;
             		}
-HXLINE(2249)		this->_hx___primaryTouch = null();
-HXLINE(2251)		 ::openfl::events::Event event = null();
-HXLINE(2256)		event =  ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("deactivate",34,5c,01,3c),null(),null());
-HXLINE(2259)		this->_hx___broadcastEvent(event);
-HXLINE(2265)		 ::openfl::display::InteractiveObject currentFocus = this->get_focus();
-HXLINE(2266)		this->set_focus(null());
-HXLINE(2267)		this->_hx___cacheFocus = currentFocus;
-HXLINE(2269)		::openfl::events::MouseEvent_obj::_hx___altKey = false;
-HXLINE(2270)		::openfl::events::MouseEvent_obj::_hx___commandKey = false;
-HXLINE(2271)		::openfl::events::MouseEvent_obj::_hx___ctrlKey = false;
-HXLINE(2272)		::openfl::events::MouseEvent_obj::_hx___shiftKey = false;
+HXLINE(2248)		this->_hx___primaryTouch = null();
+HXLINE(2250)		 ::openfl::events::Event event = null();
+HXLINE(2255)		event =  ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("deactivate",34,5c,01,3c),null(),null());
+HXLINE(2258)		this->_hx___broadcastEvent(event);
+HXLINE(2264)		 ::openfl::display::InteractiveObject currentFocus = this->get_focus();
+HXLINE(2265)		this->set_focus(null());
+HXLINE(2266)		this->_hx___cacheFocus = currentFocus;
+HXLINE(2268)		::openfl::events::MouseEvent_obj::_hx___altKey = false;
+HXLINE(2269)		::openfl::events::MouseEvent_obj::_hx___commandKey = false;
+HXLINE(2270)		::openfl::events::MouseEvent_obj::_hx___ctrlKey = false;
+HXLINE(2271)		::openfl::events::MouseEvent_obj::_hx___shiftKey = false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Stage_obj,_hx___onLimeWindowFocusOut,(void))
 
 void Stage_obj::_hx___onLimeWindowFullscreen( ::lime::ui::Window window){
-            	HX_GC_STACKFRAME(&_hx_pos_e171466d8d112c10_2276___onLimeWindowFullscreen)
-HXLINE(2277)		bool _hx_tmp;
-HXDLIN(2277)		if (::hx::IsNotNull( this->window )) {
-HXLINE(2277)			_hx_tmp = ::hx::IsNotEq( this->window,window );
+            	HX_GC_STACKFRAME(&_hx_pos_e171466d8d112c10_2275___onLimeWindowFullscreen)
+HXLINE(2276)		bool _hx_tmp;
+HXDLIN(2276)		if (::hx::IsNotNull( this->window )) {
+HXLINE(2276)			_hx_tmp = ::hx::IsNotEq( this->window,window );
             		}
             		else {
-HXLINE(2277)			_hx_tmp = true;
+HXLINE(2276)			_hx_tmp = true;
             		}
-HXDLIN(2277)		if (_hx_tmp) {
-HXLINE(2277)			return;
+HXDLIN(2276)		if (_hx_tmp) {
+HXLINE(2276)			return;
             		}
-HXLINE(2279)		this->_hx___resize();
-HXLINE(2281)		if (!(this->_hx___wasFullscreen)) {
-HXLINE(2283)			this->_hx___wasFullscreen = true;
-HXLINE(2284)			if (::hx::IsEq( this->_hx___displayState,2 )) {
-HXLINE(2284)				this->_hx___displayState = 1;
+HXLINE(2278)		this->_hx___resize();
+HXLINE(2280)		if (!(this->_hx___wasFullscreen)) {
+HXLINE(2282)			this->_hx___wasFullscreen = true;
+HXLINE(2283)			if (::hx::IsEq( this->_hx___displayState,2 )) {
+HXLINE(2283)				this->_hx___displayState = 1;
             			}
-HXLINE(2285)			this->_hx___dispatchEvent( ::openfl::events::FullScreenEvent_obj::__alloc( HX_CTX ,HX_("fullScreen",5b,ae,48,2e),false,false,true,true));
+HXLINE(2284)			this->_hx___dispatchEvent( ::openfl::events::FullScreenEvent_obj::__alloc( HX_CTX ,HX_("fullScreen",5b,ae,48,2e),false,false,true,true));
             		}
             	}
 
@@ -2609,44 +2608,44 @@ HXLINE(2285)			this->_hx___dispatchEvent( ::openfl::events::FullScreenEvent_obj:
 HX_DEFINE_DYNAMIC_FUNC1(Stage_obj,_hx___onLimeWindowFullscreen,(void))
 
 void Stage_obj::_hx___onLimeWindowLeave( ::lime::ui::Window window){
-            	HX_GC_STACKFRAME(&_hx_pos_e171466d8d112c10_2290___onLimeWindowLeave)
-HXLINE(2291)		bool _hx_tmp;
-HXDLIN(2291)		bool _hx_tmp1;
-HXDLIN(2291)		if (::hx::IsNotNull( this->window )) {
-HXLINE(2291)			_hx_tmp1 = ::hx::IsNotEq( this->window,window );
+            	HX_GC_STACKFRAME(&_hx_pos_e171466d8d112c10_2289___onLimeWindowLeave)
+HXLINE(2290)		bool _hx_tmp;
+HXDLIN(2290)		bool _hx_tmp1;
+HXDLIN(2290)		if (::hx::IsNotNull( this->window )) {
+HXLINE(2290)			_hx_tmp1 = ::hx::IsNotEq( this->window,window );
             		}
             		else {
-HXLINE(2291)			_hx_tmp1 = true;
+HXLINE(2290)			_hx_tmp1 = true;
             		}
-HXDLIN(2291)		if (!(_hx_tmp1)) {
-HXLINE(2291)			_hx_tmp = ::openfl::events::MouseEvent_obj::_hx___buttonDown;
+HXDLIN(2290)		if (!(_hx_tmp1)) {
+HXLINE(2290)			_hx_tmp = ::openfl::events::MouseEvent_obj::_hx___buttonDown;
             		}
             		else {
-HXLINE(2291)			_hx_tmp = true;
+HXLINE(2290)			_hx_tmp = true;
             		}
-HXDLIN(2291)		if (_hx_tmp) {
-HXLINE(2291)			return;
+HXDLIN(2290)		if (_hx_tmp) {
+HXLINE(2290)			return;
             		}
-HXLINE(2293)		this->_hx___dispatchPendingMouseEvent();
-HXLINE(2295)		 ::openfl::events::Event event = null();
-HXLINE(2300)		event =  ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("mouseLeave",92,28,20,90),null(),null());
-HXLINE(2303)		this->_hx___dispatchEvent(event);
+HXLINE(2292)		this->_hx___dispatchPendingMouseEvent();
+HXLINE(2294)		 ::openfl::events::Event event = null();
+HXLINE(2299)		event =  ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("mouseLeave",92,28,20,90),null(),null());
+HXLINE(2302)		this->_hx___dispatchEvent(event);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Stage_obj,_hx___onLimeWindowLeave,(void))
 
 void Stage_obj::_hx___onLimeWindowMinimize( ::lime::ui::Window window){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2312___onLimeWindowMinimize)
-HXDLIN(2312)		bool _hx_tmp;
-HXDLIN(2312)		if (::hx::IsNotNull( this->window )) {
-HXDLIN(2312)			_hx_tmp = ::hx::IsNotEq( this->window,window );
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2311___onLimeWindowMinimize)
+HXDLIN(2311)		bool _hx_tmp;
+HXDLIN(2311)		if (::hx::IsNotNull( this->window )) {
+HXDLIN(2311)			_hx_tmp = ::hx::IsNotEq( this->window,window );
             		}
             		else {
-HXDLIN(2312)			_hx_tmp = true;
+HXDLIN(2311)			_hx_tmp = true;
             		}
-HXDLIN(2312)		if (_hx_tmp) {
-HXDLIN(2312)			return;
+HXDLIN(2311)		if (_hx_tmp) {
+HXDLIN(2311)			return;
             		}
             	}
 
@@ -2654,36 +2653,36 @@ HXDLIN(2312)			return;
 HX_DEFINE_DYNAMIC_FUNC1(Stage_obj,_hx___onLimeWindowMinimize,(void))
 
 void Stage_obj::_hx___onLimeWindowMove( ::lime::ui::Window window,Float x,Float y){
-            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2319___onLimeWindowMove)
+            	HX_STACKFRAME(&_hx_pos_e171466d8d112c10_2318___onLimeWindowMove)
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(Stage_obj,_hx___onLimeWindowMove,(void))
 
 void Stage_obj::_hx___onLimeWindowResize( ::lime::ui::Window window,int width,int height){
-            	HX_GC_STACKFRAME(&_hx_pos_e171466d8d112c10_2324___onLimeWindowResize)
-HXLINE(2325)		bool _hx_tmp;
-HXDLIN(2325)		if (::hx::IsNotNull( this->window )) {
-HXLINE(2325)			_hx_tmp = ::hx::IsNotEq( this->window,window );
+            	HX_GC_STACKFRAME(&_hx_pos_e171466d8d112c10_2323___onLimeWindowResize)
+HXLINE(2324)		bool _hx_tmp;
+HXDLIN(2324)		if (::hx::IsNotNull( this->window )) {
+HXLINE(2324)			_hx_tmp = ::hx::IsNotEq( this->window,window );
             		}
             		else {
-HXLINE(2325)			_hx_tmp = true;
+HXLINE(2324)			_hx_tmp = true;
             		}
-HXDLIN(2325)		if (_hx_tmp) {
-HXLINE(2325)			return;
+HXDLIN(2324)		if (_hx_tmp) {
+HXLINE(2324)			return;
             		}
-HXLINE(2327)		this->_hx___resize();
-HXLINE(2338)		bool _hx_tmp1;
-HXDLIN(2338)		if (this->_hx___wasFullscreen) {
-HXLINE(2338)			_hx_tmp1 = !(window->_hx___fullscreen);
+HXLINE(2326)		this->_hx___resize();
+HXLINE(2337)		bool _hx_tmp1;
+HXDLIN(2337)		if (this->_hx___wasFullscreen) {
+HXLINE(2337)			_hx_tmp1 = !(window->_hx___fullscreen);
             		}
             		else {
-HXLINE(2338)			_hx_tmp1 = false;
+HXLINE(2337)			_hx_tmp1 = false;
             		}
-HXDLIN(2338)		if (_hx_tmp1) {
-HXLINE(2340)			this->_hx___wasFullscreen = false;
-HXLINE(2341)			this->_hx___displayState = 2;
-HXLINE(2342)			this->_hx___dispatchEvent( ::openfl::events::FullScreenEvent_obj::__alloc( HX_CTX ,HX_("fullScreen",5b,ae,48,2e),false,false,false,true));
+HXDLIN(2337)		if (_hx_tmp1) {
+HXLINE(2339)			this->_hx___wasFullscreen = false;
+HXLINE(2340)			this->_hx___displayState = 2;
+HXLINE(2341)			this->_hx___dispatchEvent( ::openfl::events::FullScreenEvent_obj::__alloc( HX_CTX ,HX_("fullScreen",5b,ae,48,2e),false,false,false,true));
             		}
             	}
 
@@ -2691,28 +2690,28 @@ HXLINE(2342)			this->_hx___dispatchEvent( ::openfl::events::FullScreenEvent_obj:
 HX_DEFINE_DYNAMIC_FUNC3(Stage_obj,_hx___onLimeWindowResize,(void))
 
 void Stage_obj::_hx___onLimeWindowRestore( ::lime::ui::Window window){
-            	HX_GC_STACKFRAME(&_hx_pos_e171466d8d112c10_2347___onLimeWindowRestore)
-HXLINE(2348)		bool _hx_tmp;
-HXDLIN(2348)		if (::hx::IsNotNull( this->window )) {
-HXLINE(2348)			_hx_tmp = ::hx::IsNotEq( this->window,window );
+            	HX_GC_STACKFRAME(&_hx_pos_e171466d8d112c10_2346___onLimeWindowRestore)
+HXLINE(2347)		bool _hx_tmp;
+HXDLIN(2347)		if (::hx::IsNotNull( this->window )) {
+HXLINE(2347)			_hx_tmp = ::hx::IsNotEq( this->window,window );
             		}
             		else {
-HXLINE(2348)			_hx_tmp = true;
+HXLINE(2347)			_hx_tmp = true;
             		}
-HXDLIN(2348)		if (_hx_tmp) {
-HXLINE(2348)			return;
+HXDLIN(2347)		if (_hx_tmp) {
+HXLINE(2347)			return;
             		}
-HXLINE(2350)		bool _hx_tmp1;
-HXDLIN(2350)		if (this->_hx___wasFullscreen) {
-HXLINE(2350)			_hx_tmp1 = !(window->_hx___fullscreen);
+HXLINE(2349)		bool _hx_tmp1;
+HXDLIN(2349)		if (this->_hx___wasFullscreen) {
+HXLINE(2349)			_hx_tmp1 = !(window->_hx___fullscreen);
             		}
             		else {
-HXLINE(2350)			_hx_tmp1 = false;
+HXLINE(2349)			_hx_tmp1 = false;
             		}
-HXDLIN(2350)		if (_hx_tmp1) {
-HXLINE(2352)			this->_hx___wasFullscreen = false;
-HXLINE(2353)			this->_hx___displayState = 2;
-HXLINE(2354)			this->_hx___dispatchEvent( ::openfl::events::FullScreenEvent_obj::__alloc( HX_CTX ,HX_("fullScreen",5b,ae,48,2e),false,false,false,true));
+HXDLIN(2349)		if (_hx_tmp1) {
+HXLINE(2351)			this->_hx___wasFullscreen = false;
+HXLINE(2352)			this->_hx___displayState = 2;
+HXLINE(2353)			this->_hx___dispatchEvent( ::openfl::events::FullScreenEvent_obj::__alloc( HX_CTX ,HX_("fullScreen",5b,ae,48,2e),false,false,false,true));
             		}
             	}
 
@@ -2720,184 +2719,185 @@ HXLINE(2354)			this->_hx___dispatchEvent( ::openfl::events::FullScreenEvent_obj:
 HX_DEFINE_DYNAMIC_FUNC1(Stage_obj,_hx___onLimeWindowRestore,(void))
 
 void Stage_obj::_hx___onMouse(::String type,Float x,Float y,int button){
-            	HX_GC_STACKFRAME(&_hx_pos_e171466d8d112c10_2360___onMouse)
-HXLINE(2361)		if ((button > 2)) {
-HXLINE(2361)			return;
+            	HX_GC_STACKFRAME(&_hx_pos_e171466d8d112c10_2359___onMouse)
+HXLINE(2360)		if ((button > 2)) {
+HXLINE(2360)			return;
             		}
-HXLINE(2363)		 ::openfl::geom::Point targetPoint = ::openfl::geom::Point_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Point >();
-HXLINE(2364)		targetPoint->setTo(x,y);
-HXLINE(2365)		{
-HXLINE(2365)			 ::openfl::geom::Matrix _this = this->_hx___displayMatrix;
-HXDLIN(2365)			Float norm = ((_this->a * _this->d) - (_this->b * _this->c));
-HXDLIN(2365)			if ((norm == 0)) {
-HXLINE(2365)				targetPoint->x = -(_this->tx);
-HXDLIN(2365)				targetPoint->y = -(_this->ty);
+HXLINE(2362)		 ::openfl::geom::Point targetPoint = ::openfl::geom::Point_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Point >();
+HXLINE(2363)		targetPoint->setTo(x,y);
+HXLINE(2364)		{
+HXLINE(2364)			 ::openfl::geom::Matrix _this = this->_hx___displayMatrix;
+HXDLIN(2364)			Float norm = ((_this->a * _this->d) - (_this->b * _this->c));
+HXDLIN(2364)			if ((norm == 0)) {
+HXLINE(2364)				targetPoint->x = -(_this->tx);
+HXDLIN(2364)				targetPoint->y = -(_this->ty);
             			}
             			else {
-HXLINE(2365)				Float px = ((((Float)1.0) / norm) * ((_this->c * (_this->ty - targetPoint->y)) + (_this->d * (targetPoint->x - _this->tx))));
-HXDLIN(2365)				targetPoint->y = ((((Float)1.0) / norm) * ((_this->a * (targetPoint->y - _this->ty)) + (_this->b * (_this->tx - targetPoint->x))));
-HXDLIN(2365)				targetPoint->x = px;
+HXLINE(2364)				Float px = ((((Float)1.0) / norm) * ((_this->c * (_this->ty - targetPoint->y)) + (_this->d * (targetPoint->x - _this->tx))));
+HXDLIN(2364)				targetPoint->y = ((((Float)1.0) / norm) * ((_this->a * (targetPoint->y - _this->ty)) + (_this->b * (_this->tx - targetPoint->x))));
+HXDLIN(2364)				targetPoint->x = px;
             			}
             		}
-HXLINE(2367)		this->_hx___mouseX = targetPoint->x;
-HXLINE(2368)		this->_hx___mouseY = targetPoint->y;
-HXLINE(2370)		::Array< ::Dynamic> stack = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE(2371)		 ::openfl::display::InteractiveObject target = null();
-HXLINE(2373)		if (this->_hx___hitTest(this->_hx___mouseX,this->_hx___mouseY,true,stack,true,::hx::ObjectPtr<OBJ_>(this))) {
-HXLINE(2375)			target = ( ( ::openfl::display::InteractiveObject)(stack->__get((stack->length - 1)).StaticCast<  ::openfl::display::DisplayObject >()) );
+HXLINE(2366)		this->_hx___mouseX = targetPoint->x;
+HXLINE(2367)		this->_hx___mouseY = targetPoint->y;
+HXLINE(2369)		::Array< ::Dynamic> stack = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(2370)		 ::openfl::display::InteractiveObject target = null();
+HXLINE(2372)		if (this->_hx___hitTest(this->_hx___mouseX,this->_hx___mouseY,true,stack,true,::hx::ObjectPtr<OBJ_>(this))) {
+HXLINE(2374)			target = ( ( ::openfl::display::InteractiveObject)(stack->__get((stack->length - 1)).StaticCast<  ::openfl::display::DisplayObject >()) );
             		}
             		else {
-HXLINE(2379)			target = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE(2380)			stack = ::Array_obj< ::Dynamic>::__new(1)->init(0,::hx::ObjectPtr<OBJ_>(this));
+HXLINE(2378)			target = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(2379)			stack = ::Array_obj< ::Dynamic>::__new(1)->init(0,::hx::ObjectPtr<OBJ_>(this));
             		}
-HXLINE(2383)		if (::hx::IsNull( target )) {
-HXLINE(2383)			target = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(2382)		if (::hx::IsNull( target )) {
+HXLINE(2382)			target = ::hx::ObjectPtr<OBJ_>(this);
             		}
-HXLINE(2385)		::String clickType = null();
-HXLINE(2387)		::String _hx_switch_0 = type;
+HXLINE(2384)		::String clickType = null();
+HXLINE(2386)		::String _hx_switch_0 = type;
             		if (  (_hx_switch_0==HX_("middleMouseDown",12,2b,fe,01)) ){
-HXLINE(2417)			this->_hx___mouseDownMiddle = target;
-HXDLIN(2417)			goto _hx_goto_92;
+HXLINE(2416)			this->_hx___mouseDownMiddle = target;
+HXDLIN(2416)			goto _hx_goto_92;
             		}
             		if (  (_hx_switch_0==HX_("middleMouseUp",0b,8d,f5,3a)) ){
-HXLINE(2452)			if (::hx::IsEq( this->_hx___mouseDownMiddle,target )) {
-HXLINE(2454)				clickType = HX_("middleClick",b3,e4,e5,43);
+HXLINE(2451)			if (::hx::IsEq( this->_hx___mouseDownMiddle,target )) {
+HXLINE(2453)				clickType = HX_("middleClick",b3,e4,e5,43);
             			}
-HXLINE(2457)			this->_hx___mouseDownMiddle = null();
-HXLINE(2451)			goto _hx_goto_92;
+HXLINE(2456)			this->_hx___mouseDownMiddle = null();
+HXLINE(2450)			goto _hx_goto_92;
             		}
             		if (  (_hx_switch_0==HX_("mouseDown",27,b1,c2,ee)) ){
-HXLINE(2390)			if (target->_hx___allowMouseFocus()) {
-HXLINE(2392)				if (::hx::IsNotNull( this->get_focus() )) {
-HXLINE(2394)					 ::openfl::events::FocusEvent focusEvent =  ::openfl::events::FocusEvent_obj::__alloc( HX_CTX ,HX_("mouseFocusChange",43,f1,81,96),true,true,target,false,0);
-HXLINE(2396)					this->_hx___dispatchStack(focusEvent,stack);
-HXLINE(2398)					if (!(focusEvent->isDefaultPrevented())) {
-HXLINE(2400)						this->set_focus(target);
+HXLINE(2389)			if (target->_hx___allowMouseFocus()) {
+HXLINE(2391)				if (::hx::IsNotNull( this->get_focus() )) {
+HXLINE(2393)					 ::openfl::events::FocusEvent focusEvent =  ::openfl::events::FocusEvent_obj::__alloc( HX_CTX ,HX_("mouseFocusChange",43,f1,81,96),true,true,target,false,0);
+HXLINE(2395)					this->_hx___dispatchStack(focusEvent,stack);
+HXLINE(2397)					if (!(focusEvent->isDefaultPrevented())) {
+HXLINE(2399)						this->set_focus(target);
             					}
             				}
             				else {
-HXLINE(2405)					this->set_focus(target);
+HXLINE(2404)					this->set_focus(target);
             				}
             			}
             			else {
-HXLINE(2410)				this->set_focus(null());
+HXLINE(2409)				this->set_focus(null());
             			}
-HXLINE(2413)			this->_hx___mouseDownLeft = target;
-HXLINE(2414)			::openfl::events::MouseEvent_obj::_hx___buttonDown = true;
-HXLINE(2389)			goto _hx_goto_92;
+HXLINE(2412)			this->_hx___mouseDownLeft = target;
+HXLINE(2413)			::openfl::events::MouseEvent_obj::_hx___buttonDown = true;
+HXLINE(2388)			goto _hx_goto_92;
             		}
             		if (  (_hx_switch_0==HX_("mouseUp",e0,f3,72,c0)) ){
-HXLINE(2423)			if (::hx::IsNotNull( this->_hx___mouseDownLeft )) {
-HXLINE(2425)				::openfl::events::MouseEvent_obj::_hx___buttonDown = false;
-HXLINE(2427)				if (::hx::IsEq( this->_hx___mouseDownLeft,target )) {
-HXLINE(2429)					clickType = HX_("click",48,7c,5e,48);
+HXLINE(2422)			if (::hx::IsNotNull( this->_hx___mouseDownLeft )) {
+HXLINE(2424)				::openfl::events::MouseEvent_obj::_hx___buttonDown = false;
+HXLINE(2426)				if (::hx::IsEq( this->_hx___mouseDownLeft,target )) {
+HXLINE(2428)					clickType = HX_("click",48,7c,5e,48);
             				}
             				else {
-HXLINE(2433)					 ::openfl::events::MouseEvent event = null();
-HXLINE(2438)					Float event1 = this->_hx___mouseX;
-HXDLIN(2438)					Float event2 = this->_hx___mouseY;
-HXDLIN(2438)					event = ::openfl::events::MouseEvent_obj::_hx___create(HX_("releaseOutside",1e,86,e3,ad),1,event1,event2, ::openfl::geom::Point_obj::__alloc( HX_CTX ,this->_hx___mouseX,this->_hx___mouseY),::hx::ObjectPtr<OBJ_>(this),null());
-HXLINE(2441)					this->_hx___mouseDownLeft->dispatchEvent(event);
+HXLINE(2432)					 ::openfl::events::MouseEvent event = null();
+HXLINE(2437)					Float event1 = this->_hx___mouseX;
+HXDLIN(2437)					Float event2 = this->_hx___mouseY;
+HXDLIN(2437)					event = ::openfl::events::MouseEvent_obj::_hx___create(HX_("releaseOutside",1e,86,e3,ad),1,event1,event2, ::openfl::geom::Point_obj::__alloc( HX_CTX ,this->_hx___mouseX,this->_hx___mouseY),::hx::ObjectPtr<OBJ_>(this),null());
+HXLINE(2440)					this->_hx___mouseDownLeft->dispatchEvent(event);
             				}
-HXLINE(2448)				this->_hx___mouseDownLeft = null();
+HXLINE(2447)				this->_hx___mouseDownLeft = null();
             			}
-HXLINE(2423)			goto _hx_goto_92;
+HXLINE(2422)			goto _hx_goto_92;
             		}
             		if (  (_hx_switch_0==HX_("rightMouseDown",ab,29,d7,cd)) ){
-HXLINE(2420)			this->_hx___mouseDownRight = target;
-HXDLIN(2420)			goto _hx_goto_92;
+HXLINE(2419)			this->_hx___mouseDownRight = target;
+HXDLIN(2419)			goto _hx_goto_92;
             		}
             		if (  (_hx_switch_0==HX_("rightMouseUp",64,83,21,ab)) ){
-HXLINE(2460)			if (::hx::IsEq( this->_hx___mouseDownRight,target )) {
-HXLINE(2462)				clickType = HX_("rightClick",cc,62,23,4b);
+HXLINE(2459)			if (::hx::IsEq( this->_hx___mouseDownRight,target )) {
+HXLINE(2461)				clickType = HX_("rightClick",cc,62,23,4b);
             			}
-HXLINE(2465)			this->_hx___mouseDownRight = null();
-HXLINE(2459)			goto _hx_goto_92;
+HXLINE(2464)			this->_hx___mouseDownRight = null();
+HXLINE(2458)			goto _hx_goto_92;
             		}
             		/* default */{
             		}
             		_hx_goto_92:;
-HXLINE(2470)		 ::openfl::geom::Point localPoint = ::openfl::geom::Point_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Point >();
-HXLINE(2471)		 ::openfl::events::MouseEvent event = null();
-HXLINE(2476)		Float event1 = this->_hx___mouseX;
-HXDLIN(2476)		Float event2 = this->_hx___mouseY;
-HXDLIN(2476)		event = ::openfl::events::MouseEvent_obj::_hx___create(type,button,event1,event2,target->_hx___globalToLocal(targetPoint,localPoint),target,null());
-HXLINE(2479)		this->_hx___dispatchStack(event,stack);
-HXLINE(2485)		if (::hx::IsNotNull( clickType )) {
-HXLINE(2490)			Float event1 = this->_hx___mouseX;
-HXDLIN(2490)			Float event2 = this->_hx___mouseY;
-HXDLIN(2490)			event = ::openfl::events::MouseEvent_obj::_hx___create(clickType,button,event1,event2,target->_hx___globalToLocal(targetPoint,localPoint),target,null());
-HXLINE(2493)			this->_hx___dispatchStack(event,stack);
-HXLINE(2499)			bool _hx_tmp;
-HXDLIN(2499)			if ((type == HX_("mouseUp",e0,f3,72,c0))) {
-HXLINE(2499)				_hx_tmp = target->doubleClickEnabled;
+HXLINE(2469)		 ::openfl::geom::Point localPoint = ::openfl::geom::Point_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Point >();
+HXLINE(2470)		 ::openfl::events::MouseEvent event = null();
+HXLINE(2475)		Float event1 = this->_hx___mouseX;
+HXDLIN(2475)		Float event2 = this->_hx___mouseY;
+HXDLIN(2475)		event = ::openfl::events::MouseEvent_obj::_hx___create(type,button,event1,event2,target->_hx___globalToLocal(targetPoint,localPoint),target,null());
+HXLINE(2478)		this->_hx___dispatchStack(event,stack);
+HXLINE(2484)		if (::hx::IsNotNull( clickType )) {
+HXLINE(2489)			Float event1 = this->_hx___mouseX;
+HXDLIN(2489)			Float event2 = this->_hx___mouseY;
+HXDLIN(2489)			event = ::openfl::events::MouseEvent_obj::_hx___create(clickType,button,event1,event2,target->_hx___globalToLocal(targetPoint,localPoint),target,null());
+HXLINE(2492)			this->_hx___dispatchStack(event,stack);
+HXLINE(2498)			bool _hx_tmp;
+HXDLIN(2498)			if ((type == HX_("mouseUp",e0,f3,72,c0))) {
+HXLINE(2498)				_hx_tmp = target->doubleClickEnabled;
             			}
             			else {
-HXLINE(2499)				_hx_tmp = false;
+HXLINE(2498)				_hx_tmp = false;
             			}
-HXDLIN(2499)			if (_hx_tmp) {
-HXLINE(2501)				int currentTime = ::openfl::Lib_obj::getTimer();
-HXLINE(2502)				if (((currentTime - this->_hx___lastClickTime) < 500)) {
-HXLINE(2507)					Float event1 = this->_hx___mouseX;
-HXDLIN(2507)					Float event2 = this->_hx___mouseY;
-HXDLIN(2507)					event = ::openfl::events::MouseEvent_obj::_hx___create(HX_("doubleClick",77,03,76,cd),button,event1,event2,target->_hx___globalToLocal(targetPoint,localPoint),target,null());
-HXLINE(2510)					this->_hx___dispatchStack(event,stack);
-HXLINE(2516)					this->_hx___lastClickTime = 0;
+HXDLIN(2498)			if (_hx_tmp) {
+HXLINE(2500)				int currentTime = ::openfl::Lib_obj::getTimer();
+HXLINE(2501)				if (((currentTime - this->_hx___lastClickTime) < 500)) {
+HXLINE(2506)					Float event1 = this->_hx___mouseX;
+HXDLIN(2506)					Float event2 = this->_hx___mouseY;
+HXDLIN(2506)					event = ::openfl::events::MouseEvent_obj::_hx___create(HX_("doubleClick",77,03,76,cd),button,event1,event2,target->_hx___globalToLocal(targetPoint,localPoint),target,null());
+HXLINE(2509)					this->_hx___dispatchStack(event,stack);
+HXLINE(2515)					this->_hx___lastClickTime = 0;
             				}
             				else {
-HXLINE(2520)					this->_hx___lastClickTime = currentTime;
+HXLINE(2519)					this->_hx___lastClickTime = currentTime;
             				}
             			}
             		}
-HXLINE(2525)		bool _hx_tmp;
-HXDLIN(2525)		if ((::openfl::ui::Mouse_obj::_hx___cursor == HX_("auto",6f,df,76,40))) {
-HXLINE(2525)			_hx_tmp = !(::openfl::ui::Mouse_obj::_hx___hidden);
+HXLINE(2524)		bool _hx_tmp;
+HXDLIN(2524)		if ((::openfl::ui::Mouse_obj::_hx___cursor == HX_("auto",6f,df,76,40))) {
+HXLINE(2524)			_hx_tmp = !(::openfl::ui::Mouse_obj::_hx___hidden);
             		}
             		else {
-HXLINE(2525)			_hx_tmp = false;
+HXLINE(2524)			_hx_tmp = false;
             		}
-HXDLIN(2525)		if (_hx_tmp) {
-HXLINE(2527)			::String cursor = null();
-HXLINE(2529)			if (::hx::IsNotNull( this->_hx___mouseDownLeft )) {
-HXLINE(2531)				cursor = this->_hx___mouseDownLeft->_hx___getCursor();
+HXDLIN(2524)		if (_hx_tmp) {
+HXLINE(2526)			::String cursor = null();
+HXLINE(2528)			if (::hx::IsNotNull( this->_hx___mouseDownLeft )) {
+HXLINE(2530)				cursor = this->_hx___mouseDownLeft->_hx___getCursor();
             			}
             			else {
-HXLINE(2535)				int _g = 0;
-HXDLIN(2535)				while((_g < stack->length)){
-HXLINE(2535)					 ::openfl::display::DisplayObject target = stack->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
-HXDLIN(2535)					_g = (_g + 1);
-HXLINE(2537)					cursor = target->_hx___getCursor();
-HXLINE(2539)					if (::hx::IsNotNull( cursor )) {
-HXLINE(2541)						 ::lime::ui::Window _hx_tmp = this->window;
-HXDLIN(2541)						_hx_tmp->set_cursor(::openfl::ui::_MouseCursor::MouseCursor_Impl__obj::toLimeCursor(cursor));
-HXLINE(2542)						goto _hx_goto_93;
+HXLINE(2534)				int _g = 0;
+HXDLIN(2534)				while((_g < stack->length)){
+HXLINE(2534)					 ::openfl::display::DisplayObject target = stack->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN(2534)					_g = (_g + 1);
+HXLINE(2536)					cursor = target->_hx___getCursor();
+HXLINE(2538)					if (::hx::IsNotNull( cursor )) {
+HXLINE(2540)						 ::lime::ui::Window _hx_tmp = this->window;
+HXDLIN(2540)						_hx_tmp->set_cursor(::openfl::ui::_MouseCursor::MouseCursor_Impl__obj::toLimeCursor(cursor));
+HXLINE(2541)						goto _hx_goto_93;
             					}
             				}
             				_hx_goto_93:;
             			}
-HXLINE(2547)			if (::hx::IsNull( cursor )) {
-HXLINE(2549)				this->window->set_cursor(::lime::ui::MouseCursor_obj::ARROW_dyn());
+HXLINE(2546)			if (::hx::IsNull( cursor )) {
+HXLINE(2548)				this->window->set_cursor(::lime::ui::MouseCursor_obj::ARROW_dyn());
             			}
             		}
-HXLINE(2553)		 ::openfl::events::MouseEvent event3;
-HXLINE(2555)		if (::hx::IsNotEq( target,this->_hx___mouseOverTarget )) {
-HXLINE(2557)			if (::hx::IsNotNull( this->_hx___mouseOverTarget )) {
-HXLINE(2563)				Float event = this->_hx___mouseX;
-HXDLIN(2563)				Float event1 = this->_hx___mouseY;
-HXDLIN(2563)				 ::openfl::geom::Point event2 = this->_hx___mouseOverTarget->_hx___globalToLocal(targetPoint,localPoint);
-HXDLIN(2563)				event3 = ::openfl::events::MouseEvent_obj::_hx___create(HX_("mouseOut",69,e7,1d,a4),button,event,event1,event2,this->_hx___mouseOverTarget,null());
-HXLINE(2567)				this->_hx___dispatchStack(event3,this->_hx___mouseOutStack);
+HXLINE(2552)		 ::openfl::events::MouseEvent event3;
+HXLINE(2554)		if (::hx::IsNotEq( target,this->_hx___mouseOverTarget )) {
+HXLINE(2556)			if (::hx::IsNotNull( this->_hx___mouseOverTarget )) {
+HXLINE(2562)				Float event = this->_hx___mouseX;
+HXDLIN(2562)				Float event1 = this->_hx___mouseY;
+HXDLIN(2562)				 ::openfl::geom::Point event2 = this->_hx___mouseOverTarget->_hx___globalToLocal(targetPoint,localPoint);
+HXDLIN(2562)				event3 = ::openfl::events::MouseEvent_obj::_hx___create(HX_("mouseOut",69,e7,1d,a4),button,event,event1,event2,this->_hx___mouseOverTarget,null());
+HXLINE(2566)				this->_hx___dispatchStack(event3,this->_hx___mouseOutStack);
             			}
             		}
-HXLINE(2575)		 ::openfl::display::DisplayObject item;
-HXDLIN(2575)		int i = 0;
-HXLINE(2576)		while((i < this->_hx___rollOutStack->length)){
-HXLINE(2578)			item = this->_hx___rollOutStack->__get(i).StaticCast<  ::openfl::display::DisplayObject >();
-HXLINE(2579)			if ((stack->indexOf(item,null()) == -1)) {
-HXLINE(2581)				this->_hx___rollOutStack->remove(item);
+HXLINE(2574)		 ::openfl::display::DisplayObject item;
+HXDLIN(2574)		int i = 0;
+HXLINE(2575)		while((i < this->_hx___rollOutStack->length)){
+HXLINE(2577)			item = this->_hx___rollOutStack->__get(i).StaticCast<  ::openfl::display::DisplayObject >();
+HXLINE(2578)			if ((stack->indexOf(item,null()) == -1)) {
+HXLINE(2580)				this->_hx___rollOutStack->remove(item);
 HXLINE(2586)				Float event = this->_hx___mouseX;
 HXDLIN(2586)				Float event1 = this->_hx___mouseY;
-HXDLIN(2586)				event3 = ::openfl::events::MouseEvent_obj::_hx___create(HX_("rollOut",11,f9,11,5d),button,event,event1,this->_hx___mouseOverTarget->_hx___globalToLocal(targetPoint,localPoint),( ( ::openfl::display::InteractiveObject)(item) ),null());
+HXDLIN(2586)				 ::openfl::geom::Point event2 = this->_hx___mouseOverTarget->_hx___globalToLocal(targetPoint,localPoint);
+HXDLIN(2586)				event3 = ::openfl::events::MouseEvent_obj::_hx___create(HX_("rollOut",11,f9,11,5d),button,event,event1,event2,this->_hx___mouseOverTarget,null());
 HXLINE(2589)				event3->bubbles = false;
 HXLINE(2591)				this->_hx___dispatchTarget(item,event3);
             			}
@@ -3055,12 +3055,12 @@ HXLINE(2746)		if (::hx::IsNull( target )) {
 HXLINE(2746)			target = ::hx::ObjectPtr<OBJ_>(this);
             		}
 HXLINE(2748)		int touchId = touch->id;
-HXLINE(2749)		 ::openfl::utils::_internal::TouchData touchData = null();
+HXLINE(2749)		 ::openfl::_internal::utils::TouchData touchData = null();
 HXLINE(2751)		if (this->_hx___touchData->exists(touchId)) {
-HXLINE(2753)			touchData = ( ( ::openfl::utils::_internal::TouchData)(this->_hx___touchData->get(touchId)) );
+HXLINE(2753)			touchData = ( ( ::openfl::_internal::utils::TouchData)(this->_hx___touchData->get(touchId)) );
             		}
             		else {
-HXLINE(2757)			touchData = ::openfl::utils::_internal::TouchData_obj::_hx___pool->get().StaticCast<  ::openfl::utils::_internal::TouchData >();
+HXLINE(2757)			touchData = ::openfl::_internal::utils::TouchData_obj::_hx___pool->get().StaticCast<  ::openfl::_internal::utils::TouchData >();
 HXLINE(2758)			touchData->reset();
 HXLINE(2759)			touchData->touch = touch;
 HXLINE(2760)			this->_hx___touchData->set(touchId,touchData);
@@ -3165,7 +3165,7 @@ HXLINE(2878)		::openfl::geom::Point_obj::_hx___pool->release(localPoint);
 HXLINE(2880)		if (releaseTouchData) {
 HXLINE(2882)			this->_hx___touchData->remove(touchId);
 HXLINE(2883)			touchData->reset();
-HXLINE(2884)			::openfl::utils::_internal::TouchData_obj::_hx___pool->release(touchData);
+HXLINE(2884)			::openfl::_internal::utils::TouchData_obj::_hx___pool->release(touchData);
             		}
             	}
 

@@ -11,18 +11,18 @@
 #include <openfl/display/IGraphicsFill.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_e7eaf41fa1350495_46_new,"openfl.display.GraphicsSolidFill","new",0x800a4bcb,"openfl.display.GraphicsSolidFill.new","openfl/display/GraphicsSolidFill.hx",46,0x9b142c07)
+HX_DEFINE_STACK_FRAME(_hx_pos_e7eaf41fa1350495_20_new,"openfl.display.GraphicsSolidFill","new",0x800a4bcb,"openfl.display.GraphicsSolidFill.new","openfl/display/GraphicsSolidFill.hx",20,0x9b142c07)
 namespace openfl{
 namespace display{
 
 void GraphicsSolidFill_obj::__construct(::hx::Null< int >  __o_color,::hx::Null< Float >  __o_alpha){
             		int color = __o_color.Default(0);
             		Float alpha = __o_alpha.Default(1);
-            	HX_STACKFRAME(&_hx_pos_e7eaf41fa1350495_46_new)
-HXLINE(  47)		this->alpha = alpha;
-HXLINE(  48)		this->color = color;
-HXLINE(  49)		this->_hx___graphicsDataType = 1;
-HXLINE(  50)		this->_hx___graphicsFillType = 0;
+            	HX_STACKFRAME(&_hx_pos_e7eaf41fa1350495_20_new)
+HXLINE(  21)		this->alpha = alpha;
+HXLINE(  22)		this->color = color;
+HXLINE(  23)		this->_hx___graphicsDataType = 1;
+HXLINE(  24)		this->_hx___graphicsFillType = 0;
             	}
 
 Dynamic GraphicsSolidFill_obj::__CreateEmpty() { return new GraphicsSolidFill_obj; }

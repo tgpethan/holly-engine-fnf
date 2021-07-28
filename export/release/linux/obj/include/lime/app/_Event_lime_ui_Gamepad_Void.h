@@ -60,9 +60,6 @@ class HXCPP_CLASS_ATTRIBUTES _Event_lime_ui_Gamepad_Void_obj : public ::hx::Obje
 		void remove( ::Dynamic listener);
 		::Dynamic remove_dyn();
 
-		void removeAll();
-		::Dynamic removeAll_dyn();
-
 		::Array< ::Dynamic> _hx___listeners;
 		void dispatch( ::lime::ui::Gamepad a);
 		::Dynamic dispatch_dyn();

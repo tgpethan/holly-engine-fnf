@@ -54,20 +54,16 @@ class HXCPP_CLASS_ATTRIBUTES CameraFrontEnd_obj : public ::hx::Object
 		::String __ToString() const { return HX_("CameraFrontEnd",97,f6,1c,f3); }
 
 		::Array< ::Dynamic> list;
-		::Array< ::Dynamic> defaults;
 		 ::flixel::util::_FlxSignal::FlxSignal1 cameraAdded;
 		 ::flixel::util::_FlxSignal::FlxSignal1 cameraRemoved;
 		 ::flixel::util::_FlxSignal::FlxSignal1 cameraResized;
 		bool useBufferLocking;
 		 ::openfl::geom::Rectangle _cameraRect;
-		 ::Dynamic add( ::Dynamic NewCamera,::hx::Null< bool >  DefaultDrawTarget);
+		 ::Dynamic add( ::Dynamic NewCamera);
 		::Dynamic add_dyn();
 
 		void remove( ::flixel::FlxCamera Camera,::hx::Null< bool >  Destroy);
 		::Dynamic remove_dyn();
-
-		void setDefaultDrawTarget( ::flixel::FlxCamera camera,bool value);
-		::Dynamic setDefaultDrawTarget_dyn();
 
 		void reset( ::flixel::FlxCamera NewCamera);
 		::Dynamic reset_dyn();

@@ -5,18 +5,18 @@
 #include <flixel/group/FlxTypedGroupIterator.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_a2c5aad29e94c731_930_new,"flixel.group.FlxTypedGroupIterator","new",0xa7153fe6,"flixel.group.FlxTypedGroupIterator.new","flixel/group/FlxGroup.hx",930,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_a2c5aad29e94c731_939_next,"flixel.group.FlxTypedGroupIterator","next",0x8b82aaad,"flixel.group.FlxTypedGroupIterator.next","flixel/group/FlxGroup.hx",939,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_a2c5aad29e94c731_943_hasNext,"flixel.group.FlxTypedGroupIterator","hasNext",0x559d4ff3,"flixel.group.FlxTypedGroupIterator.hasNext","flixel/group/FlxGroup.hx",943,0x1e89d58e)
+HX_DEFINE_STACK_FRAME(_hx_pos_a2c5aad29e94c731_925_new,"flixel.group.FlxTypedGroupIterator","new",0xa7153fe6,"flixel.group.FlxTypedGroupIterator.new","flixel/group/FlxGroup.hx",925,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_a2c5aad29e94c731_934_next,"flixel.group.FlxTypedGroupIterator","next",0x8b82aaad,"flixel.group.FlxTypedGroupIterator.next","flixel/group/FlxGroup.hx",934,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_a2c5aad29e94c731_938_hasNext,"flixel.group.FlxTypedGroupIterator","hasNext",0x559d4ff3,"flixel.group.FlxTypedGroupIterator.hasNext","flixel/group/FlxGroup.hx",938,0x1e89d58e)
 namespace flixel{
 namespace group{
 
 void FlxTypedGroupIterator_obj::__construct(::cpp::VirtualArray GroupMembers, ::Dynamic filter){
-            	HX_STACKFRAME(&_hx_pos_a2c5aad29e94c731_930_new)
-HXLINE( 931)		this->_groupMembers = GroupMembers;
-HXLINE( 932)		this->_filter = filter;
-HXLINE( 933)		this->_cursor = 0;
-HXLINE( 934)		this->_length = this->_groupMembers->get_length();
+            	HX_STACKFRAME(&_hx_pos_a2c5aad29e94c731_925_new)
+HXLINE( 926)		this->_groupMembers = GroupMembers;
+HXLINE( 927)		this->_filter = filter;
+HXLINE( 928)		this->_cursor = 0;
+HXLINE( 929)		this->_length = this->_groupMembers->get_length();
             	}
 
 Dynamic FlxTypedGroupIterator_obj::__CreateEmpty() { return new FlxTypedGroupIterator_obj; }
@@ -35,46 +35,46 @@ bool FlxTypedGroupIterator_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::Dynamic FlxTypedGroupIterator_obj::next(){
-            	HX_STACKFRAME(&_hx_pos_a2c5aad29e94c731_939_next)
-HXDLIN( 939)		if (this->hasNext()) {
-HXDLIN( 939)			return this->_groupMembers->__get(this->_cursor++);
+            	HX_STACKFRAME(&_hx_pos_a2c5aad29e94c731_934_next)
+HXDLIN( 934)		if (this->hasNext()) {
+HXDLIN( 934)			return this->_groupMembers->__get(this->_cursor++);
             		}
             		else {
-HXDLIN( 939)			return null();
+HXDLIN( 934)			return null();
             		}
-HXDLIN( 939)		return null();
+HXDLIN( 934)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTypedGroupIterator_obj,next,return )
 
 bool FlxTypedGroupIterator_obj::hasNext(){
-            	HX_STACKFRAME(&_hx_pos_a2c5aad29e94c731_943_hasNext)
-HXLINE( 944)		while(true){
-HXLINE( 944)			bool _hx_tmp;
-HXDLIN( 944)			if ((this->_cursor < this->_length)) {
-HXLINE( 944)				if (::hx::IsNotNull( this->_groupMembers->__get(this->_cursor) )) {
-HXLINE( 944)					if (::hx::IsNotNull( this->_filter )) {
-HXLINE( 944)						_hx_tmp = !(( (bool)(this->_filter(this->_groupMembers->__get(this->_cursor))) ));
+            	HX_STACKFRAME(&_hx_pos_a2c5aad29e94c731_938_hasNext)
+HXLINE( 939)		while(true){
+HXLINE( 939)			bool _hx_tmp;
+HXDLIN( 939)			if ((this->_cursor < this->_length)) {
+HXLINE( 939)				if (::hx::IsNotNull( this->_groupMembers->__get(this->_cursor) )) {
+HXLINE( 939)					if (::hx::IsNotNull( this->_filter )) {
+HXLINE( 939)						_hx_tmp = !(( (bool)(this->_filter(this->_groupMembers->__get(this->_cursor))) ));
             					}
             					else {
-HXLINE( 944)						_hx_tmp = false;
+HXLINE( 939)						_hx_tmp = false;
             					}
             				}
             				else {
-HXLINE( 944)					_hx_tmp = true;
+HXLINE( 939)					_hx_tmp = true;
             				}
             			}
             			else {
-HXLINE( 944)				_hx_tmp = false;
+HXLINE( 939)				_hx_tmp = false;
             			}
-HXDLIN( 944)			if (!(_hx_tmp)) {
-HXLINE( 944)				goto _hx_goto_2;
+HXDLIN( 939)			if (!(_hx_tmp)) {
+HXLINE( 939)				goto _hx_goto_2;
             			}
-HXLINE( 946)			this->_cursor++;
+HXLINE( 941)			this->_cursor++;
             		}
             		_hx_goto_2:;
-HXLINE( 948)		return (this->_cursor < this->_length);
+HXLINE( 943)		return (this->_cursor < this->_length);
             	}
 
 

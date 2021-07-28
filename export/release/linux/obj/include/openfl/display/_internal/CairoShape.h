@@ -11,7 +11,6 @@ HX_DECLARE_CLASS2(openfl,display,CairoRenderer)
 HX_DECLARE_CLASS2(openfl,display,DisplayObject)
 HX_DECLARE_CLASS2(openfl,display,DisplayObjectRenderer)
 HX_DECLARE_CLASS2(openfl,display,IBitmapDrawable)
-HX_DECLARE_CLASS2(openfl,display,Shape)
 HX_DECLARE_CLASS3(openfl,display,_internal,CairoShape)
 HX_DECLARE_CLASS2(openfl,events,EventDispatcher)
 HX_DECLARE_CLASS2(openfl,events,IEventDispatcher)
@@ -66,12 +65,6 @@ class HXCPP_CLASS_ATTRIBUTES CairoShape_obj : public ::hx::Object
 		static  ::lime::math::Matrix3 sourceTransform;
 		static void render( ::openfl::display::DisplayObject shape, ::openfl::display::CairoRenderer renderer);
 		static ::Dynamic render_dyn();
-
-		static void renderDrawable( ::openfl::display::Shape shape, ::openfl::display::CairoRenderer renderer);
-		static ::Dynamic renderDrawable_dyn();
-
-		static void renderDrawableMask( ::openfl::display::Shape shape, ::openfl::display::CairoRenderer renderer);
-		static ::Dynamic renderDrawableMask_dyn();
 
 };
 

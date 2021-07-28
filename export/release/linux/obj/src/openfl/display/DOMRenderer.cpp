@@ -7,9 +7,6 @@
 #ifndef INCLUDED_lime_utils_ObjectPool
 #include <lime/utils/ObjectPool.h>
 #endif
-#ifndef INCLUDED_openfl_display_Bitmap
-#include <openfl/display/Bitmap.h>
-#endif
 #ifndef INCLUDED_openfl_display_CanvasRenderer
 #include <openfl/display/CanvasRenderer.h>
 #endif
@@ -28,41 +25,11 @@
 #ifndef INCLUDED_openfl_display_IBitmapDrawable
 #include <openfl/display/IBitmapDrawable.h>
 #endif
-#ifndef INCLUDED_openfl_display_ITileContainer
-#include <openfl/display/ITileContainer.h>
-#endif
 #ifndef INCLUDED_openfl_display_InteractiveObject
 #include <openfl/display/InteractiveObject.h>
 #endif
-#ifndef INCLUDED_openfl_display_SimpleButton
-#include <openfl/display/SimpleButton.h>
-#endif
 #ifndef INCLUDED_openfl_display_Stage
 #include <openfl/display/Stage.h>
-#endif
-#ifndef INCLUDED_openfl_display_Tilemap
-#include <openfl/display/Tilemap.h>
-#endif
-#ifndef INCLUDED_openfl_display__internal_DOMBitmap
-#include <openfl/display/_internal/DOMBitmap.h>
-#endif
-#ifndef INCLUDED_openfl_display__internal_DOMDisplayObject
-#include <openfl/display/_internal/DOMDisplayObject.h>
-#endif
-#ifndef INCLUDED_openfl_display__internal_DOMDisplayObjectContainer
-#include <openfl/display/_internal/DOMDisplayObjectContainer.h>
-#endif
-#ifndef INCLUDED_openfl_display__internal_DOMSimpleButton
-#include <openfl/display/_internal/DOMSimpleButton.h>
-#endif
-#ifndef INCLUDED_openfl_display__internal_DOMTextField
-#include <openfl/display/_internal/DOMTextField.h>
-#endif
-#ifndef INCLUDED_openfl_display__internal_DOMTilemap
-#include <openfl/display/_internal/DOMTilemap.h>
-#endif
-#ifndef INCLUDED_openfl_display__internal_DOMVideo
-#include <openfl/display/_internal/DOMVideo.h>
 #endif
 #ifndef INCLUDED_openfl_events_EventDispatcher
 #include <openfl/events/EventDispatcher.h>
@@ -76,43 +43,35 @@
 #ifndef INCLUDED_openfl_geom_Rectangle
 #include <openfl/geom/Rectangle.h>
 #endif
-#ifndef INCLUDED_openfl_media_Video
-#include <openfl/media/Video.h>
-#endif
-#ifndef INCLUDED_openfl_text_TextField
-#include <openfl/text/TextField.h>
-#endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_6e05dc14770b0678_38_new,"openfl.display.DOMRenderer","new",0xd62a842d,"openfl.display.DOMRenderer.new","openfl/display/DOMRenderer.hx",38,0x3d2c4865)
-HX_LOCAL_STACK_FRAME(_hx_pos_6e05dc14770b0678_110_applyStyle,"openfl.display.DOMRenderer","applyStyle",0x738a30b6,"openfl.display.DOMRenderer.applyStyle","openfl/display/DOMRenderer.hx",110,0x3d2c4865)
-HX_LOCAL_STACK_FRAME(_hx_pos_6e05dc14770b0678_133_clearStyle,"openfl.display.DOMRenderer","clearStyle",0x9d42f437,"openfl.display.DOMRenderer.clearStyle","openfl/display/DOMRenderer.hx",133,0x3d2c4865)
-HX_LOCAL_STACK_FRAME(_hx_pos_6e05dc14770b0678_143___applyStyle,"openfl.display.DOMRenderer","__applyStyle",0x34df8696,"openfl.display.DOMRenderer.__applyStyle","openfl/display/DOMRenderer.hx",143,0x3d2c4865)
-HX_LOCAL_STACK_FRAME(_hx_pos_6e05dc14770b0678_210___popMask,"openfl.display.DOMRenderer","__popMask",0x6d6ec38a,"openfl.display.DOMRenderer.__popMask","openfl/display/DOMRenderer.hx",210,0x3d2c4865)
-HX_LOCAL_STACK_FRAME(_hx_pos_6e05dc14770b0678_214___popMaskObject,"openfl.display.DOMRenderer","__popMaskObject",0xc1c8f9e9,"openfl.display.DOMRenderer.__popMaskObject","openfl/display/DOMRenderer.hx",214,0x3d2c4865)
-HX_LOCAL_STACK_FRAME(_hx_pos_6e05dc14770b0678_228___popMaskRect,"openfl.display.DOMRenderer","__popMaskRect",0x8b58c9ce,"openfl.display.DOMRenderer.__popMaskRect","openfl/display/DOMRenderer.hx",228,0x3d2c4865)
-HX_LOCAL_STACK_FRAME(_hx_pos_6e05dc14770b0678_247___pushMask,"openfl.display.DOMRenderer","__pushMask",0xfe9af6d9,"openfl.display.DOMRenderer.__pushMask","openfl/display/DOMRenderer.hx",247,0x3d2c4865)
-HX_LOCAL_STACK_FRAME(_hx_pos_6e05dc14770b0678_251___pushMaskObject,"openfl.display.DOMRenderer","__pushMaskObject",0x17bd1278,"openfl.display.DOMRenderer.__pushMaskObject","openfl/display/DOMRenderer.hx",251,0x3d2c4865)
-HX_LOCAL_STACK_FRAME(_hx_pos_6e05dc14770b0678_264___pushMaskRect,"openfl.display.DOMRenderer","__pushMaskRect",0x0ec2509d,"openfl.display.DOMRenderer.__pushMaskRect","openfl/display/DOMRenderer.hx",264,0x3d2c4865)
-HX_LOCAL_STACK_FRAME(_hx_pos_6e05dc14770b0678_296___render,"openfl.display.DOMRenderer","__render",0xc8823b89,"openfl.display.DOMRenderer.__render","openfl/display/DOMRenderer.hx",296,0x3d2c4865)
-HX_LOCAL_STACK_FRAME(_hx_pos_6e05dc14770b0678_311___renderDrawable,"openfl.display.DOMRenderer","__renderDrawable",0xe4911447,"openfl.display.DOMRenderer.__renderDrawable","openfl/display/DOMRenderer.hx",311,0x3d2c4865)
-HX_LOCAL_STACK_FRAME(_hx_pos_6e05dc14770b0678_362___renderDrawableClear,"openfl.display.DOMRenderer","__renderDrawableClear",0x4fe5ebc6,"openfl.display.DOMRenderer.__renderDrawableClear","openfl/display/DOMRenderer.hx",362,0x3d2c4865)
-HX_LOCAL_STACK_FRAME(_hx_pos_6e05dc14770b0678_388___setBlendMode,"openfl.display.DOMRenderer","__setBlendMode",0xbf231cc5,"openfl.display.DOMRenderer.__setBlendMode","openfl/display/DOMRenderer.hx",388,0x3d2c4865)
-HX_LOCAL_STACK_FRAME(_hx_pos_6e05dc14770b0678_465___updateClip,"openfl.display.DOMRenderer","__updateClip",0xffe7bf2c,"openfl.display.DOMRenderer.__updateClip","openfl/display/DOMRenderer.hx",465,0x3d2c4865)
-HX_LOCAL_STACK_FRAME(_hx_pos_6e05dc14770b0678_38_boot,"openfl.display.DOMRenderer","boot",0x872223c5,"openfl.display.DOMRenderer.boot","openfl/display/DOMRenderer.hx",38,0x3d2c4865)
+HX_DEFINE_STACK_FRAME(_hx_pos_6e05dc14770b0678_30_new,"openfl.display.DOMRenderer","new",0xd62a842d,"openfl.display.DOMRenderer.new","openfl/display/DOMRenderer.hx",30,0x3d2c4865)
+HX_LOCAL_STACK_FRAME(_hx_pos_6e05dc14770b0678_102_applyStyle,"openfl.display.DOMRenderer","applyStyle",0x738a30b6,"openfl.display.DOMRenderer.applyStyle","openfl/display/DOMRenderer.hx",102,0x3d2c4865)
+HX_LOCAL_STACK_FRAME(_hx_pos_6e05dc14770b0678_125_clearStyle,"openfl.display.DOMRenderer","clearStyle",0x9d42f437,"openfl.display.DOMRenderer.clearStyle","openfl/display/DOMRenderer.hx",125,0x3d2c4865)
+HX_LOCAL_STACK_FRAME(_hx_pos_6e05dc14770b0678_135___applyStyle,"openfl.display.DOMRenderer","__applyStyle",0x34df8696,"openfl.display.DOMRenderer.__applyStyle","openfl/display/DOMRenderer.hx",135,0x3d2c4865)
+HX_LOCAL_STACK_FRAME(_hx_pos_6e05dc14770b0678_202___popMask,"openfl.display.DOMRenderer","__popMask",0x6d6ec38a,"openfl.display.DOMRenderer.__popMask","openfl/display/DOMRenderer.hx",202,0x3d2c4865)
+HX_LOCAL_STACK_FRAME(_hx_pos_6e05dc14770b0678_206___popMaskObject,"openfl.display.DOMRenderer","__popMaskObject",0xc1c8f9e9,"openfl.display.DOMRenderer.__popMaskObject","openfl/display/DOMRenderer.hx",206,0x3d2c4865)
+HX_LOCAL_STACK_FRAME(_hx_pos_6e05dc14770b0678_220___popMaskRect,"openfl.display.DOMRenderer","__popMaskRect",0x8b58c9ce,"openfl.display.DOMRenderer.__popMaskRect","openfl/display/DOMRenderer.hx",220,0x3d2c4865)
+HX_LOCAL_STACK_FRAME(_hx_pos_6e05dc14770b0678_239___pushMask,"openfl.display.DOMRenderer","__pushMask",0xfe9af6d9,"openfl.display.DOMRenderer.__pushMask","openfl/display/DOMRenderer.hx",239,0x3d2c4865)
+HX_LOCAL_STACK_FRAME(_hx_pos_6e05dc14770b0678_243___pushMaskObject,"openfl.display.DOMRenderer","__pushMaskObject",0x17bd1278,"openfl.display.DOMRenderer.__pushMaskObject","openfl/display/DOMRenderer.hx",243,0x3d2c4865)
+HX_LOCAL_STACK_FRAME(_hx_pos_6e05dc14770b0678_256___pushMaskRect,"openfl.display.DOMRenderer","__pushMaskRect",0x0ec2509d,"openfl.display.DOMRenderer.__pushMaskRect","openfl/display/DOMRenderer.hx",256,0x3d2c4865)
+HX_LOCAL_STACK_FRAME(_hx_pos_6e05dc14770b0678_288___render,"openfl.display.DOMRenderer","__render",0xc8823b89,"openfl.display.DOMRenderer.__render","openfl/display/DOMRenderer.hx",288,0x3d2c4865)
+HX_LOCAL_STACK_FRAME(_hx_pos_6e05dc14770b0678_303___setBlendMode,"openfl.display.DOMRenderer","__setBlendMode",0xbf231cc5,"openfl.display.DOMRenderer.__setBlendMode","openfl/display/DOMRenderer.hx",303,0x3d2c4865)
+HX_LOCAL_STACK_FRAME(_hx_pos_6e05dc14770b0678_380___updateClip,"openfl.display.DOMRenderer","__updateClip",0xffe7bf2c,"openfl.display.DOMRenderer.__updateClip","openfl/display/DOMRenderer.hx",380,0x3d2c4865)
+HX_LOCAL_STACK_FRAME(_hx_pos_6e05dc14770b0678_30_boot,"openfl.display.DOMRenderer","boot",0x872223c5,"openfl.display.DOMRenderer.boot","openfl/display/DOMRenderer.hx",30,0x3d2c4865)
 namespace openfl{
 namespace display{
 
 void DOMRenderer_obj::__construct( ::Dynamic element){
-            	HX_GC_STACKFRAME(&_hx_pos_6e05dc14770b0678_38_new)
-HXLINE(  49)		this->pixelRatio = ((Float)1);
-HXLINE(  63)		super::__construct();
-HXLINE(  65)		this->element = element;
-HXLINE(  91)		this->_hx___clipRects = ::Array_obj< ::Dynamic>::__new();
-HXLINE(  92)		this->_hx___numClipRects = 0;
-HXLINE(  93)		this->_hx___z = 0;
-HXLINE(  96)		this->_hx___type = HX_("dom",82,42,4c,00);
-HXLINE(  99)		this->_hx___canvasRenderer =  ::openfl::display::CanvasRenderer_obj::__alloc( HX_CTX ,null());
-HXLINE( 100)		this->_hx___canvasRenderer->_hx___isDOM = true;
+            	HX_GC_STACKFRAME(&_hx_pos_6e05dc14770b0678_30_new)
+HXLINE(  41)		this->pixelRatio = ((Float)1);
+HXLINE(  55)		super::__construct();
+HXLINE(  57)		this->element = element;
+HXLINE(  83)		this->_hx___clipRects = ::Array_obj< ::Dynamic>::__new();
+HXLINE(  84)		this->_hx___numClipRects = 0;
+HXLINE(  85)		this->_hx___z = 0;
+HXLINE(  88)		this->_hx___type = HX_("dom",82,42,4c,00);
+HXLINE(  91)		this->_hx___canvasRenderer =  ::openfl::display::CanvasRenderer_obj::__alloc( HX_CTX ,null());
+HXLINE(  92)		this->_hx___canvasRenderer->_hx___isDOM = true;
             	}
 
 Dynamic DOMRenderer_obj::__CreateEmpty() { return new DOMRenderer_obj; }
@@ -139,255 +98,162 @@ bool DOMRenderer_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void DOMRenderer_obj::applyStyle( ::openfl::display::DisplayObject parent, ::Dynamic childElement){
-            	HX_STACKFRAME(&_hx_pos_6e05dc14770b0678_110_applyStyle)
+            	HX_STACKFRAME(&_hx_pos_6e05dc14770b0678_102_applyStyle)
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(DOMRenderer_obj,applyStyle,(void))
 
 void DOMRenderer_obj::clearStyle( ::Dynamic childElement){
-            	HX_STACKFRAME(&_hx_pos_6e05dc14770b0678_133_clearStyle)
+            	HX_STACKFRAME(&_hx_pos_6e05dc14770b0678_125_clearStyle)
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(DOMRenderer_obj,clearStyle,(void))
 
 void DOMRenderer_obj::_hx___applyStyle( ::openfl::display::DisplayObject displayObject,bool setTransform,bool setAlpha,bool setClip){
-            	HX_STACKFRAME(&_hx_pos_6e05dc14770b0678_143___applyStyle)
+            	HX_STACKFRAME(&_hx_pos_6e05dc14770b0678_135___applyStyle)
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC4(DOMRenderer_obj,_hx___applyStyle,(void))
 
 void DOMRenderer_obj::_hx___popMask(){
-            	HX_STACKFRAME(&_hx_pos_6e05dc14770b0678_210___popMask)
-HXDLIN( 210)		this->_hx___popMaskRect();
+            	HX_STACKFRAME(&_hx_pos_6e05dc14770b0678_202___popMask)
+HXDLIN( 202)		this->_hx___popMaskRect();
             	}
 
 
 void DOMRenderer_obj::_hx___popMaskObject( ::openfl::display::DisplayObject object,::hx::Null< bool >  __o_handleScrollRect){
             		bool handleScrollRect = __o_handleScrollRect.Default(true);
-            	HX_STACKFRAME(&_hx_pos_6e05dc14770b0678_214___popMaskObject)
-HXLINE( 215)		if (::hx::IsNotNull( object->_hx___mask )) {
-HXLINE( 217)			this->_hx___popMask();
+            	HX_STACKFRAME(&_hx_pos_6e05dc14770b0678_206___popMaskObject)
+HXLINE( 207)		if (::hx::IsNotNull( object->_hx___mask )) {
+HXLINE( 209)			this->_hx___popMask();
             		}
-HXLINE( 220)		bool _hx_tmp;
-HXDLIN( 220)		if (handleScrollRect) {
-HXLINE( 220)			_hx_tmp = ::hx::IsNotNull( object->_hx___scrollRect );
+HXLINE( 212)		bool _hx_tmp;
+HXDLIN( 212)		if (handleScrollRect) {
+HXLINE( 212)			_hx_tmp = ::hx::IsNotNull( object->_hx___scrollRect );
             		}
             		else {
-HXLINE( 220)			_hx_tmp = false;
+HXLINE( 212)			_hx_tmp = false;
             		}
-HXDLIN( 220)		if (_hx_tmp) {
-HXLINE( 222)			this->_hx___popMaskRect();
+HXDLIN( 212)		if (_hx_tmp) {
+HXLINE( 214)			this->_hx___popMaskRect();
             		}
             	}
 
 
 void DOMRenderer_obj::_hx___popMaskRect(){
-            	HX_STACKFRAME(&_hx_pos_6e05dc14770b0678_228___popMaskRect)
-HXDLIN( 228)		if ((this->_hx___numClipRects > 0)) {
-HXLINE( 230)			this->_hx___numClipRects--;
-HXLINE( 232)			if ((this->_hx___numClipRects > 0)) {
-HXLINE( 234)				this->_hx___currentClipRect = this->_hx___clipRects->__get((this->_hx___numClipRects - 1)).StaticCast<  ::openfl::geom::Rectangle >();
+            	HX_STACKFRAME(&_hx_pos_6e05dc14770b0678_220___popMaskRect)
+HXDLIN( 220)		if ((this->_hx___numClipRects > 0)) {
+HXLINE( 222)			this->_hx___numClipRects--;
+HXLINE( 224)			if ((this->_hx___numClipRects > 0)) {
+HXLINE( 226)				this->_hx___currentClipRect = this->_hx___clipRects->__get((this->_hx___numClipRects - 1)).StaticCast<  ::openfl::geom::Rectangle >();
             			}
             			else {
-HXLINE( 238)				this->_hx___currentClipRect = null();
+HXLINE( 230)				this->_hx___currentClipRect = null();
             			}
             		}
             	}
 
 
 void DOMRenderer_obj::_hx___pushMask( ::openfl::display::DisplayObject mask){
-            	HX_STACKFRAME(&_hx_pos_6e05dc14770b0678_247___pushMask)
-HXDLIN( 247)		 ::openfl::geom::Rectangle _hx_tmp = mask->getBounds(mask);
-HXDLIN( 247)		this->_hx___pushMaskRect(_hx_tmp,mask->_hx___renderTransform);
+            	HX_STACKFRAME(&_hx_pos_6e05dc14770b0678_239___pushMask)
+HXDLIN( 239)		 ::openfl::geom::Rectangle _hx_tmp = mask->getBounds(mask);
+HXDLIN( 239)		this->_hx___pushMaskRect(_hx_tmp,mask->_hx___renderTransform);
             	}
 
 
 void DOMRenderer_obj::_hx___pushMaskObject( ::openfl::display::DisplayObject object,::hx::Null< bool >  __o_handleScrollRect){
             		bool handleScrollRect = __o_handleScrollRect.Default(true);
-            	HX_STACKFRAME(&_hx_pos_6e05dc14770b0678_251___pushMaskObject)
-HXLINE( 252)		bool _hx_tmp;
-HXDLIN( 252)		if (handleScrollRect) {
-HXLINE( 252)			_hx_tmp = ::hx::IsNotNull( object->_hx___scrollRect );
+            	HX_STACKFRAME(&_hx_pos_6e05dc14770b0678_243___pushMaskObject)
+HXLINE( 244)		bool _hx_tmp;
+HXDLIN( 244)		if (handleScrollRect) {
+HXLINE( 244)			_hx_tmp = ::hx::IsNotNull( object->_hx___scrollRect );
             		}
             		else {
-HXLINE( 252)			_hx_tmp = false;
+HXLINE( 244)			_hx_tmp = false;
             		}
-HXDLIN( 252)		if (_hx_tmp) {
-HXLINE( 254)			this->_hx___pushMaskRect(object->_hx___scrollRect,object->_hx___renderTransform);
+HXDLIN( 244)		if (_hx_tmp) {
+HXLINE( 246)			this->_hx___pushMaskRect(object->_hx___scrollRect,object->_hx___renderTransform);
             		}
-HXLINE( 257)		if (::hx::IsNotNull( object->_hx___mask )) {
-HXLINE( 259)			this->_hx___pushMask(object->_hx___mask);
+HXLINE( 249)		if (::hx::IsNotNull( object->_hx___mask )) {
+HXLINE( 251)			this->_hx___pushMask(object->_hx___mask);
             		}
             	}
 
 
 void DOMRenderer_obj::_hx___pushMaskRect( ::openfl::geom::Rectangle rect, ::openfl::geom::Matrix transform){
-            	HX_GC_STACKFRAME(&_hx_pos_6e05dc14770b0678_264___pushMaskRect)
-HXLINE( 267)		if ((this->_hx___numClipRects == this->_hx___clipRects->length)) {
-HXLINE( 269)			this->_hx___clipRects[this->_hx___numClipRects] =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,null(),null(),null(),null());
+            	HX_GC_STACKFRAME(&_hx_pos_6e05dc14770b0678_256___pushMaskRect)
+HXLINE( 259)		if ((this->_hx___numClipRects == this->_hx___clipRects->length)) {
+HXLINE( 261)			this->_hx___clipRects[this->_hx___numClipRects] =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,null(),null(),null(),null());
             		}
-HXLINE( 272)		 ::openfl::geom::Rectangle clipRect = this->_hx___clipRects->__get(this->_hx___numClipRects).StaticCast<  ::openfl::geom::Rectangle >();
-HXLINE( 273)		rect->_hx___transform(clipRect,transform);
-HXLINE( 275)		if ((this->_hx___numClipRects > 0)) {
-HXLINE( 277)			 ::openfl::geom::Rectangle parentClipRect = this->_hx___clipRects->__get((this->_hx___numClipRects - 1)).StaticCast<  ::openfl::geom::Rectangle >();
-HXLINE( 278)			clipRect->_hx___contract(parentClipRect->x,parentClipRect->y,parentClipRect->width,parentClipRect->height);
+HXLINE( 264)		 ::openfl::geom::Rectangle clipRect = this->_hx___clipRects->__get(this->_hx___numClipRects).StaticCast<  ::openfl::geom::Rectangle >();
+HXLINE( 265)		rect->_hx___transform(clipRect,transform);
+HXLINE( 267)		if ((this->_hx___numClipRects > 0)) {
+HXLINE( 269)			 ::openfl::geom::Rectangle parentClipRect = this->_hx___clipRects->__get((this->_hx___numClipRects - 1)).StaticCast<  ::openfl::geom::Rectangle >();
+HXLINE( 270)			clipRect->_hx___contract(parentClipRect->x,parentClipRect->y,parentClipRect->width,parentClipRect->height);
             		}
-HXLINE( 281)		if ((clipRect->height < 0)) {
-HXLINE( 283)			clipRect->height = ( (Float)(0) );
+HXLINE( 273)		if ((clipRect->height < 0)) {
+HXLINE( 275)			clipRect->height = ( (Float)(0) );
             		}
-HXLINE( 286)		if ((clipRect->width < 0)) {
-HXLINE( 288)			clipRect->width = ( (Float)(0) );
+HXLINE( 278)		if ((clipRect->width < 0)) {
+HXLINE( 280)			clipRect->width = ( (Float)(0) );
             		}
-HXLINE( 291)		this->_hx___currentClipRect = clipRect;
-HXLINE( 292)		this->_hx___numClipRects++;
+HXLINE( 283)		this->_hx___currentClipRect = clipRect;
+HXLINE( 284)		this->_hx___numClipRects++;
             	}
 
 
 void DOMRenderer_obj::_hx___render(::Dynamic object){
-            	HX_STACKFRAME(&_hx_pos_6e05dc14770b0678_296___render)
-HXLINE( 297)		if (!(this->_hx___stage->_hx___transparent)) {
-HXLINE( 299)			 ::Dynamic(this->element->__Field(HX_("style",31,a5,1d,84),::hx::paccDynamic))->__SetField(HX_("background",ee,93,1d,26),this->_hx___stage->_hx___colorString,::hx::paccDynamic);
+            	HX_STACKFRAME(&_hx_pos_6e05dc14770b0678_288___render)
+HXLINE( 289)		if (!(this->_hx___stage->_hx___transparent)) {
+HXLINE( 291)			 ::Dynamic(this->element->__Field(HX_("style",31,a5,1d,84),::hx::paccDynamic))->__SetField(HX_("background",ee,93,1d,26),this->_hx___stage->_hx___colorString,::hx::paccDynamic);
             		}
             		else {
-HXLINE( 303)			 ::Dynamic(this->element->__Field(HX_("style",31,a5,1d,84),::hx::paccDynamic))->__SetField(HX_("background",ee,93,1d,26),HX_("none",b8,12,0a,49),::hx::paccDynamic);
+HXLINE( 295)			 ::Dynamic(this->element->__Field(HX_("style",31,a5,1d,84),::hx::paccDynamic))->__SetField(HX_("background",ee,93,1d,26),HX_("none",b8,12,0a,49),::hx::paccDynamic);
             		}
-HXLINE( 306)		this->_hx___z = 1;
-HXLINE( 307)		this->_hx___renderDrawable(object);
+HXLINE( 298)		this->_hx___z = 1;
+HXLINE( 299)		::openfl::display::IBitmapDrawable_obj::_hx___renderDOM(object,::hx::ObjectPtr<OBJ_>(this));
             	}
 
-
-void DOMRenderer_obj::_hx___renderDrawable(::Dynamic object){
-            	HX_STACKFRAME(&_hx_pos_6e05dc14770b0678_311___renderDrawable)
-HXLINE( 312)		if (::hx::IsNull( object )) {
-HXLINE( 312)			return;
-            		}
-HXLINE( 314)		switch((int)(( (int)(object->__Field(HX_("__drawableType",98,b4,3c,42),::hx::paccDynamic)) ))){
-            			case (int)0: {
-            			}
-            			break;
-            			case (int)2: {
-HXLINE( 321)				::openfl::display::_internal::DOMBitmap_obj::renderDrawable(( ( ::openfl::display::Bitmap)(object) ),::hx::ObjectPtr<OBJ_>(this));
-            			}
-            			break;
-            			case (int)3: {
-HXLINE( 323)				::openfl::display::_internal::DOMDisplayObject_obj::renderDrawable(( ( ::openfl::display::DisplayObject)(object) ),::hx::ObjectPtr<OBJ_>(this));
-            			}
-            			break;
-            			case (int)4: case (int)5: {
-HXLINE( 319)				::openfl::display::_internal::DOMDisplayObjectContainer_obj::renderDrawable(( ( ::openfl::display::DisplayObjectContainer)(object) ),::hx::ObjectPtr<OBJ_>(this));
-            			}
-            			break;
-            			case (int)6: {
-HXLINE( 325)				::openfl::display::_internal::DOMSimpleButton_obj::renderDrawable(( ( ::openfl::display::SimpleButton)(object) ),::hx::ObjectPtr<OBJ_>(this));
-            			}
-            			break;
-            			case (int)7: {
-HXLINE( 327)				::openfl::display::_internal::DOMTextField_obj::renderDrawable(( ( ::openfl::text::TextField)(object) ),::hx::ObjectPtr<OBJ_>(this));
-            			}
-            			break;
-            			case (int)8: {
-HXLINE( 329)				::openfl::display::_internal::DOMVideo_obj::renderDrawable(( ( ::openfl::media::Video)(object) ),::hx::ObjectPtr<OBJ_>(this));
-            			}
-            			break;
-            			case (int)9: {
-HXLINE( 331)				::openfl::display::_internal::DOMTilemap_obj::renderDrawable(( ( ::openfl::display::Tilemap)(object) ),::hx::ObjectPtr<OBJ_>(this));
-            			}
-            			break;
-            			case (int)10: {
-            			}
-            			break;
-            			default:{
-            			}
-            		}
-            	}
-
-
-HX_DEFINE_DYNAMIC_FUNC1(DOMRenderer_obj,_hx___renderDrawable,(void))
-
-void DOMRenderer_obj::_hx___renderDrawableClear(::Dynamic object){
-            	HX_STACKFRAME(&_hx_pos_6e05dc14770b0678_362___renderDrawableClear)
-HXLINE( 363)		if (::hx::IsNull( object )) {
-HXLINE( 363)			return;
-            		}
-HXLINE( 365)		switch((int)(( (int)(object->__Field(HX_("__drawableType",98,b4,3c,42),::hx::paccDynamic)) ))){
-            			case (int)0: {
-            			}
-            			break;
-            			case (int)2: {
-HXLINE( 372)				::openfl::display::_internal::DOMBitmap_obj::renderDrawableClear(( ( ::openfl::display::Bitmap)(object) ),::hx::ObjectPtr<OBJ_>(this));
-            			}
-            			break;
-            			case (int)3: {
-HXLINE( 374)				::openfl::display::_internal::DOMDisplayObject_obj::renderDrawableClear(( ( ::openfl::display::DisplayObject)(object) ),::hx::ObjectPtr<OBJ_>(this));
-            			}
-            			break;
-            			case (int)4: case (int)5: {
-HXLINE( 370)				::openfl::display::_internal::DOMDisplayObjectContainer_obj::renderDrawableClear(( ( ::openfl::display::DisplayObjectContainer)(object) ),::hx::ObjectPtr<OBJ_>(this));
-            			}
-            			break;
-            			case (int)6: {
-HXLINE( 376)				::openfl::display::_internal::DOMSimpleButton_obj::renderDrawableClear(( ( ::openfl::display::SimpleButton)(object) ),::hx::ObjectPtr<OBJ_>(this));
-            			}
-            			break;
-            			case (int)7: {
-HXLINE( 378)				::openfl::display::_internal::DOMTextField_obj::renderDrawableClear(( ( ::openfl::text::TextField)(object) ),::hx::ObjectPtr<OBJ_>(this));
-            			}
-            			break;
-            			case (int)8: {
-HXLINE( 380)				::openfl::display::_internal::DOMVideo_obj::renderDrawableClear(( ( ::openfl::media::Video)(object) ),::hx::ObjectPtr<OBJ_>(this));
-            			}
-            			break;
-            			case (int)9: {
-HXLINE( 382)				::openfl::display::_internal::DOMTilemap_obj::renderDrawableClear(( ( ::openfl::display::Tilemap)(object) ),::hx::ObjectPtr<OBJ_>(this));
-            			}
-            			break;
-            			default:{
-            			}
-            		}
-            	}
-
-
-HX_DEFINE_DYNAMIC_FUNC1(DOMRenderer_obj,_hx___renderDrawableClear,(void))
 
 void DOMRenderer_obj::_hx___setBlendMode( ::Dynamic value){
-            	HX_STACKFRAME(&_hx_pos_6e05dc14770b0678_388___setBlendMode)
-HXLINE( 389)		if (::hx::IsNotNull( this->_hx___overrideBlendMode )) {
-HXLINE( 389)			value = this->_hx___overrideBlendMode;
+            	HX_STACKFRAME(&_hx_pos_6e05dc14770b0678_303___setBlendMode)
+HXLINE( 304)		if (::hx::IsNotNull( this->_hx___overrideBlendMode )) {
+HXLINE( 304)			value = this->_hx___overrideBlendMode;
             		}
-HXLINE( 390)		if (::hx::IsEq( this->_hx___blendMode,value )) {
-HXLINE( 390)			return;
+HXLINE( 305)		if (::hx::IsEq( this->_hx___blendMode,value )) {
+HXLINE( 305)			return;
             		}
-HXLINE( 392)		this->_hx___blendMode = value;
+HXLINE( 307)		this->_hx___blendMode = value;
             	}
 
 
 void DOMRenderer_obj::_hx___updateClip( ::openfl::display::DisplayObject displayObject){
-            	HX_GC_STACKFRAME(&_hx_pos_6e05dc14770b0678_465___updateClip)
-HXDLIN( 465)		if (::hx::IsNull( this->_hx___currentClipRect )) {
-HXLINE( 467)			displayObject->_hx___worldClipChanged = ::hx::IsNotNull( displayObject->_hx___worldClip );
-HXLINE( 468)			displayObject->_hx___worldClip = null();
+            	HX_GC_STACKFRAME(&_hx_pos_6e05dc14770b0678_380___updateClip)
+HXDLIN( 380)		if (::hx::IsNull( this->_hx___currentClipRect )) {
+HXLINE( 382)			displayObject->_hx___worldClipChanged = ::hx::IsNotNull( displayObject->_hx___worldClip );
+HXLINE( 383)			displayObject->_hx___worldClip = null();
             		}
             		else {
-HXLINE( 472)			if (::hx::IsNull( displayObject->_hx___worldClip )) {
-HXLINE( 474)				displayObject->_hx___worldClip =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,null(),null(),null(),null());
+HXLINE( 387)			if (::hx::IsNull( displayObject->_hx___worldClip )) {
+HXLINE( 389)				displayObject->_hx___worldClip =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,null(),null(),null(),null());
             			}
-HXLINE( 477)			 ::openfl::geom::Rectangle clip = ::openfl::geom::Rectangle_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Rectangle >();
-HXLINE( 478)			 ::openfl::geom::Matrix matrix = ::openfl::geom::Matrix_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Matrix >();
-HXLINE( 480)			matrix->copyFrom(displayObject->_hx___renderTransform);
-HXLINE( 481)			matrix->invert();
-HXLINE( 483)			this->_hx___currentClipRect->_hx___transform(clip,matrix);
-HXLINE( 485)			if (clip->equals(displayObject->_hx___worldClip)) {
-HXLINE( 487)				displayObject->_hx___worldClipChanged = false;
+HXLINE( 392)			 ::openfl::geom::Rectangle clip = ::openfl::geom::Rectangle_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Rectangle >();
+HXLINE( 393)			 ::openfl::geom::Matrix matrix = ::openfl::geom::Matrix_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Matrix >();
+HXLINE( 395)			matrix->copyFrom(displayObject->_hx___renderTransform);
+HXLINE( 396)			matrix->invert();
+HXLINE( 398)			this->_hx___currentClipRect->_hx___transform(clip,matrix);
+HXLINE( 400)			if (clip->equals(displayObject->_hx___worldClip)) {
+HXLINE( 402)				displayObject->_hx___worldClipChanged = false;
             			}
             			else {
-HXLINE( 491)				displayObject->_hx___worldClip->copyFrom(clip);
-HXLINE( 492)				displayObject->_hx___worldClipChanged = true;
+HXLINE( 406)				displayObject->_hx___worldClip->copyFrom(clip);
+HXLINE( 407)				displayObject->_hx___worldClipChanged = true;
             			}
-HXLINE( 495)			::openfl::geom::Rectangle_obj::_hx___pool->release(clip);
-HXLINE( 496)			::openfl::geom::Matrix_obj::_hx___pool->release(matrix);
+HXLINE( 410)			::openfl::geom::Rectangle_obj::_hx___pool->release(clip);
+HXLINE( 411)			::openfl::geom::Matrix_obj::_hx___pool->release(matrix);
             		}
             	}
 
@@ -487,16 +353,12 @@ void DOMRenderer_obj::__Visit(HX_VISIT_PARAMS)
 	case 16:
 		if (HX_FIELD_EQ(inName,"__canvasRenderer") ) { return ::hx::Val( _hx___canvasRenderer ); }
 		if (HX_FIELD_EQ(inName,"__pushMaskObject") ) { return ::hx::Val( _hx___pushMaskObject_dyn() ); }
-		if (HX_FIELD_EQ(inName,"__renderDrawable") ) { return ::hx::Val( _hx___renderDrawable_dyn() ); }
 		break;
 	case 17:
 		if (HX_FIELD_EQ(inName,"__currentClipRect") ) { return ::hx::Val( _hx___currentClipRect ); }
 		break;
 	case 19:
 		if (HX_FIELD_EQ(inName,"__transformProperty") ) { return ::hx::Val( _hx___transformProperty ); }
-		break;
-	case 21:
-		if (HX_FIELD_EQ(inName,"__renderDrawableClear") ) { return ::hx::Val( _hx___renderDrawableClear_dyn() ); }
 		break;
 	case 25:
 		if (HX_FIELD_EQ(inName,"__transformOriginProperty") ) { return ::hx::Val( _hx___transformOriginProperty ); }
@@ -591,8 +453,6 @@ static ::String DOMRenderer_obj_sMemberFields[] = {
 	HX_("__pushMaskObject",65,e2,3b,45),
 	HX_("__pushMaskRect",4a,5b,e7,a0),
 	HX_("__render",76,d6,58,ad),
-	HX_("__renderDrawable",34,e4,0f,12),
-	HX_("__renderDrawableClear",b9,40,ed,1b),
 	HX_("__setBlendMode",72,27,48,51),
 	HX_("__updateClip",99,d4,0a,33),
 	::String(null()) };
@@ -625,8 +485,8 @@ void DOMRenderer_obj::__register()
 void DOMRenderer_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_6e05dc14770b0678_38_boot)
-HXDLIN(  38)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
+            	HX_STACKFRAME(&_hx_pos_6e05dc14770b0678_30_boot)
+HXDLIN(  30)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
             			->setFixed(0,HX_("fields",79,8e,8e,80), ::Dynamic(::hx::Anon_obj::Create(4)
             				->setFixed(0,HX_("_",5f,00,00,00), ::Dynamic(::hx::Anon_obj::Create(1)
             					->setFixed(0,HX_("SuppressWarnings",0c,d3,d2,00),::cpp::VirtualArray_obj::__new(1)->init(0,HX_("checkstyle:Dynamic",ce,ea,47,3c)))))

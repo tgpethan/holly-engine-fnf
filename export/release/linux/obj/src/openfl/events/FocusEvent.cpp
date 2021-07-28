@@ -23,17 +23,17 @@
 #include <openfl/events/IEventDispatcher.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_919c1dfcca12e2f6_168_new,"openfl.events.FocusEvent","new",0xf00a0d8b,"openfl.events.FocusEvent.new","openfl/events/FocusEvent.hx",168,0xe559e625)
-HX_LOCAL_STACK_FRAME(_hx_pos_919c1dfcca12e2f6_177_clone,"openfl.events.FocusEvent","clone",0x40033148,"openfl.events.FocusEvent.clone","openfl/events/FocusEvent.hx",177,0xe559e625)
-HX_LOCAL_STACK_FRAME(_hx_pos_919c1dfcca12e2f6_187_toString,"openfl.events.FocusEvent","toString",0x8b53f7a1,"openfl.events.FocusEvent.toString","openfl/events/FocusEvent.hx",187,0xe559e625)
+HX_DEFINE_STACK_FRAME(_hx_pos_919c1dfcca12e2f6_30_new,"openfl.events.FocusEvent","new",0xf00a0d8b,"openfl.events.FocusEvent.new","openfl/events/FocusEvent.hx",30,0xe559e625)
+HX_LOCAL_STACK_FRAME(_hx_pos_919c1dfcca12e2f6_39_clone,"openfl.events.FocusEvent","clone",0x40033148,"openfl.events.FocusEvent.clone","openfl/events/FocusEvent.hx",39,0xe559e625)
+HX_LOCAL_STACK_FRAME(_hx_pos_919c1dfcca12e2f6_49_toString,"openfl.events.FocusEvent","toString",0x8b53f7a1,"openfl.events.FocusEvent.toString","openfl/events/FocusEvent.hx",49,0xe559e625)
 static const ::String _hx_array_data_ade3ec19_3[] = {
 	HX_("type",ba,f2,08,4d),HX_("bubbles",67,bb,56,61),HX_("cancelable",14,a0,79,c4),HX_("relatedObject",0a,bf,cb,e8),HX_("shiftKey",3d,92,9f,99),HX_("keyCode",6c,22,9e,9b),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_919c1dfcca12e2f6_191___init,"openfl.events.FocusEvent","__init",0xa92dade5,"openfl.events.FocusEvent.__init","openfl/events/FocusEvent.hx",191,0xe559e625)
-HX_LOCAL_STACK_FRAME(_hx_pos_919c1dfcca12e2f6_38_boot,"openfl.events.FocusEvent","boot",0x10dacca7,"openfl.events.FocusEvent.boot","openfl/events/FocusEvent.hx",38,0xe559e625)
-HX_LOCAL_STACK_FRAME(_hx_pos_919c1dfcca12e2f6_63_boot,"openfl.events.FocusEvent","boot",0x10dacca7,"openfl.events.FocusEvent.boot","openfl/events/FocusEvent.hx",63,0xe559e625)
-HX_LOCAL_STACK_FRAME(_hx_pos_919c1dfcca12e2f6_80_boot,"openfl.events.FocusEvent","boot",0x10dacca7,"openfl.events.FocusEvent.boot","openfl/events/FocusEvent.hx",80,0xe559e625)
-HX_LOCAL_STACK_FRAME(_hx_pos_919c1dfcca12e2f6_97_boot,"openfl.events.FocusEvent","boot",0x10dacca7,"openfl.events.FocusEvent.boot","openfl/events/FocusEvent.hx",97,0xe559e625)
+HX_LOCAL_STACK_FRAME(_hx_pos_919c1dfcca12e2f6_53___init,"openfl.events.FocusEvent","__init",0xa92dade5,"openfl.events.FocusEvent.__init","openfl/events/FocusEvent.hx",53,0xe559e625)
+HX_LOCAL_STACK_FRAME(_hx_pos_919c1dfcca12e2f6_13_boot,"openfl.events.FocusEvent","boot",0x10dacca7,"openfl.events.FocusEvent.boot","openfl/events/FocusEvent.hx",13,0xe559e625)
+HX_LOCAL_STACK_FRAME(_hx_pos_919c1dfcca12e2f6_14_boot,"openfl.events.FocusEvent","boot",0x10dacca7,"openfl.events.FocusEvent.boot","openfl/events/FocusEvent.hx",14,0xe559e625)
+HX_LOCAL_STACK_FRAME(_hx_pos_919c1dfcca12e2f6_15_boot,"openfl.events.FocusEvent","boot",0x10dacca7,"openfl.events.FocusEvent.boot","openfl/events/FocusEvent.hx",15,0xe559e625)
+HX_LOCAL_STACK_FRAME(_hx_pos_919c1dfcca12e2f6_16_boot,"openfl.events.FocusEvent","boot",0x10dacca7,"openfl.events.FocusEvent.boot","openfl/events/FocusEvent.hx",16,0xe559e625)
 namespace openfl{
 namespace events{
 
@@ -42,11 +42,11 @@ void FocusEvent_obj::__construct(::String type,::hx::Null< bool >  __o_bubbles,:
             		bool cancelable = __o_cancelable.Default(false);
             		bool shiftKey = __o_shiftKey.Default(false);
             		int keyCode = __o_keyCode.Default(0);
-            	HX_STACKFRAME(&_hx_pos_919c1dfcca12e2f6_168_new)
-HXLINE( 169)		super::__construct(type,bubbles,cancelable);
-HXLINE( 171)		this->keyCode = keyCode;
-HXLINE( 172)		this->shiftKey = shiftKey;
-HXLINE( 173)		this->relatedObject = relatedObject;
+            	HX_STACKFRAME(&_hx_pos_919c1dfcca12e2f6_30_new)
+HXLINE(  31)		super::__construct(type,bubbles,cancelable);
+HXLINE(  33)		this->keyCode = keyCode;
+HXLINE(  34)		this->shiftKey = shiftKey;
+HXLINE(  35)		this->relatedObject = relatedObject;
             	}
 
 Dynamic FocusEvent_obj::__CreateEmpty() { return new FocusEvent_obj; }
@@ -69,27 +69,27 @@ bool FocusEvent_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::openfl::events::Event FocusEvent_obj::clone(){
-            	HX_GC_STACKFRAME(&_hx_pos_919c1dfcca12e2f6_177_clone)
-HXLINE( 178)		 ::openfl::events::FocusEvent event =  ::openfl::events::FocusEvent_obj::__alloc( HX_CTX ,this->type,this->bubbles,this->cancelable,this->relatedObject,this->shiftKey,this->keyCode);
-HXLINE( 179)		event->target = this->target;
-HXLINE( 180)		event->currentTarget = this->currentTarget;
-HXLINE( 181)		event->eventPhase = this->eventPhase;
-HXLINE( 182)		return event;
+            	HX_GC_STACKFRAME(&_hx_pos_919c1dfcca12e2f6_39_clone)
+HXLINE(  40)		 ::openfl::events::FocusEvent event =  ::openfl::events::FocusEvent_obj::__alloc( HX_CTX ,this->type,this->bubbles,this->cancelable,this->relatedObject,this->shiftKey,this->keyCode);
+HXLINE(  41)		event->target = this->target;
+HXLINE(  42)		event->currentTarget = this->currentTarget;
+HXLINE(  43)		event->eventPhase = this->eventPhase;
+HXLINE(  44)		return event;
             	}
 
 
 ::String FocusEvent_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_919c1dfcca12e2f6_187_toString)
-HXDLIN( 187)		return this->_hx___formatToString(HX_("FocusEvent",42,6d,d7,2e),::Array_obj< ::String >::fromData( _hx_array_data_ade3ec19_3,6));
+            	HX_STACKFRAME(&_hx_pos_919c1dfcca12e2f6_49_toString)
+HXDLIN(  49)		return this->_hx___formatToString(HX_("FocusEvent",42,6d,d7,2e),::Array_obj< ::String >::fromData( _hx_array_data_ade3ec19_3,6));
             	}
 
 
 void FocusEvent_obj::_hx___init(){
-            	HX_STACKFRAME(&_hx_pos_919c1dfcca12e2f6_191___init)
-HXLINE( 192)		this->super::_hx___init();
-HXLINE( 193)		this->keyCode = 0;
-HXLINE( 194)		this->shiftKey = false;
-HXLINE( 195)		this->relatedObject = null();
+            	HX_STACKFRAME(&_hx_pos_919c1dfcca12e2f6_53___init)
+HXLINE(  54)		this->super::_hx___init();
+HXLINE(  55)		this->keyCode = 0;
+HXLINE(  56)		this->shiftKey = false;
+HXLINE(  57)		this->relatedObject = null();
             	}
 
 
@@ -264,20 +264,20 @@ void FocusEvent_obj::__register()
 void FocusEvent_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_919c1dfcca12e2f6_38_boot)
-HXDLIN(  38)		FOCUS_IN = HX_("focusIn",dd,45,83,41);
+            	HX_STACKFRAME(&_hx_pos_919c1dfcca12e2f6_13_boot)
+HXDLIN(  13)		FOCUS_IN = HX_("focusIn",dd,45,83,41);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_919c1dfcca12e2f6_63_boot)
-HXDLIN(  63)		FOCUS_OUT = HX_("focusOut",96,6f,5e,11);
+            	HX_STACKFRAME(&_hx_pos_919c1dfcca12e2f6_14_boot)
+HXDLIN(  14)		FOCUS_OUT = HX_("focusOut",96,6f,5e,11);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_919c1dfcca12e2f6_80_boot)
-HXDLIN(  80)		KEY_FOCUS_CHANGE = HX_("keyFocusChange",09,9c,8e,e5);
+            	HX_STACKFRAME(&_hx_pos_919c1dfcca12e2f6_15_boot)
+HXDLIN(  15)		KEY_FOCUS_CHANGE = HX_("keyFocusChange",09,9c,8e,e5);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_919c1dfcca12e2f6_97_boot)
-HXDLIN(  97)		MOUSE_FOCUS_CHANGE = HX_("mouseFocusChange",43,f1,81,96);
+            	HX_STACKFRAME(&_hx_pos_919c1dfcca12e2f6_16_boot)
+HXDLIN(  16)		MOUSE_FOCUS_CHANGE = HX_("mouseFocusChange",43,f1,81,96);
             	}
 }
 

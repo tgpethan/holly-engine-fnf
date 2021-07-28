@@ -44,70 +44,70 @@
 #include <openfl/utils/_ByteArray/ByteArray_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_170__new,"openfl.utils._ByteArray.ByteArray_Impl_","_new",0x0c79e17f,"openfl.utils._ByteArray.ByteArray_Impl_._new","openfl/utils/ByteArray.hx",170,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_188_clear,"openfl.utils._ByteArray.ByteArray_Impl_","clear",0x2a733faf,"openfl.utils._ByteArray.ByteArray_Impl_.clear","openfl/utils/ByteArray.hx",188,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_250_compress,"openfl.utils._ByteArray.ByteArray_Impl_","compress",0x0a757ac0,"openfl.utils._ByteArray.ByteArray_Impl_.compress","openfl/utils/ByteArray.hx",250,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_278_deflate,"openfl.utils._ByteArray.ByteArray_Impl_","deflate",0x153b260d,"openfl.utils._ByteArray.ByteArray_Impl_.deflate","openfl/utils/ByteArray.hx",278,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_289_fromArrayBuffer,"openfl.utils._ByteArray.ByteArray_Impl_","fromArrayBuffer",0x09275ad1,"openfl.utils._ByteArray.ByteArray_Impl_.fromArrayBuffer","openfl/utils/ByteArray.hx",289,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_311_fromBytes,"openfl.utils._ByteArray.ByteArray_Impl_","fromBytes",0xcad779c3,"openfl.utils._ByteArray.ByteArray_Impl_.fromBytes","openfl/utils/ByteArray.hx",311,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_339_fromBytesData,"openfl.utils._ByteArray.ByteArray_Impl_","fromBytesData",0x72e7998d,"openfl.utils._ByteArray.ByteArray_Impl_.fromBytesData","openfl/utils/ByteArray.hx",339,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_367_fromFile,"openfl.utils._ByteArray.ByteArray_Impl_","fromFile",0x283dd024,"openfl.utils._ByteArray.ByteArray_Impl_.fromFile","openfl/utils/ByteArray.hx",367,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_382_fromLimeBytes,"openfl.utils._ByteArray.ByteArray_Impl_","fromLimeBytes",0xe68c926e,"openfl.utils._ByteArray.ByteArray_Impl_.fromLimeBytes","openfl/utils/ByteArray.hx",382,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_393_get,"openfl.utils._ByteArray.ByteArray_Impl_","get",0x47412238,"openfl.utils._ByteArray.ByteArray_Impl_.get","openfl/utils/ByteArray.hx",393,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_421_inflate,"openfl.utils._ByteArray.ByteArray_Impl_","inflate",0x7e5cb729,"openfl.utils._ByteArray.ByteArray_Impl_.inflate","openfl/utils/ByteArray.hx",421,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_436_loadFromBytes,"openfl.utils._ByteArray.ByteArray_Impl_","loadFromBytes",0x8c2c83bd,"openfl.utils._ByteArray.ByteArray_Impl_.loadFromBytes","openfl/utils/ByteArray.hx",436,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_169__new,"openfl.utils._ByteArray.ByteArray_Impl_","_new",0x0c79e17f,"openfl.utils._ByteArray.ByteArray_Impl_._new","openfl/utils/ByteArray.hx",169,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_187_clear,"openfl.utils._ByteArray.ByteArray_Impl_","clear",0x2a733faf,"openfl.utils._ByteArray.ByteArray_Impl_.clear","openfl/utils/ByteArray.hx",187,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_249_compress,"openfl.utils._ByteArray.ByteArray_Impl_","compress",0x0a757ac0,"openfl.utils._ByteArray.ByteArray_Impl_.compress","openfl/utils/ByteArray.hx",249,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_277_deflate,"openfl.utils._ByteArray.ByteArray_Impl_","deflate",0x153b260d,"openfl.utils._ByteArray.ByteArray_Impl_.deflate","openfl/utils/ByteArray.hx",277,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_288_fromArrayBuffer,"openfl.utils._ByteArray.ByteArray_Impl_","fromArrayBuffer",0x09275ad1,"openfl.utils._ByteArray.ByteArray_Impl_.fromArrayBuffer","openfl/utils/ByteArray.hx",288,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_310_fromBytes,"openfl.utils._ByteArray.ByteArray_Impl_","fromBytes",0xcad779c3,"openfl.utils._ByteArray.ByteArray_Impl_.fromBytes","openfl/utils/ByteArray.hx",310,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_338_fromBytesData,"openfl.utils._ByteArray.ByteArray_Impl_","fromBytesData",0x72e7998d,"openfl.utils._ByteArray.ByteArray_Impl_.fromBytesData","openfl/utils/ByteArray.hx",338,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_366_fromFile,"openfl.utils._ByteArray.ByteArray_Impl_","fromFile",0x283dd024,"openfl.utils._ByteArray.ByteArray_Impl_.fromFile","openfl/utils/ByteArray.hx",366,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_381_fromLimeBytes,"openfl.utils._ByteArray.ByteArray_Impl_","fromLimeBytes",0xe68c926e,"openfl.utils._ByteArray.ByteArray_Impl_.fromLimeBytes","openfl/utils/ByteArray.hx",381,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_392_get,"openfl.utils._ByteArray.ByteArray_Impl_","get",0x47412238,"openfl.utils._ByteArray.ByteArray_Impl_.get","openfl/utils/ByteArray.hx",392,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_420_inflate,"openfl.utils._ByteArray.ByteArray_Impl_","inflate",0x7e5cb729,"openfl.utils._ByteArray.ByteArray_Impl_.inflate","openfl/utils/ByteArray.hx",420,0xaa5cee4a)
 HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_435_loadFromBytes,"openfl.utils._ByteArray.ByteArray_Impl_","loadFromBytes",0x8c2c83bd,"openfl.utils._ByteArray.ByteArray_Impl_.loadFromBytes","openfl/utils/ByteArray.hx",435,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_458_loadFromFile,"openfl.utils._ByteArray.ByteArray_Impl_","loadFromFile",0x2a41a36a,"openfl.utils._ByteArray.ByteArray_Impl_.loadFromFile","openfl/utils/ByteArray.hx",458,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_434_loadFromBytes,"openfl.utils._ByteArray.ByteArray_Impl_","loadFromBytes",0x8c2c83bd,"openfl.utils._ByteArray.ByteArray_Impl_.loadFromBytes","openfl/utils/ByteArray.hx",434,0xaa5cee4a)
 HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_457_loadFromFile,"openfl.utils._ByteArray.ByteArray_Impl_","loadFromFile",0x2a41a36a,"openfl.utils._ByteArray.ByteArray_Impl_.loadFromFile","openfl/utils/ByteArray.hx",457,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_478_readBoolean,"openfl.utils._ByteArray.ByteArray_Impl_","readBoolean",0xa9aa9194,"openfl.utils._ByteArray.ByteArray_Impl_.readBoolean","openfl/utils/ByteArray.hx",478,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_491_readByte,"openfl.utils._ByteArray.ByteArray_Impl_","readByte",0xefd12c9c,"openfl.utils._ByteArray.ByteArray_Impl_.readByte","openfl/utils/ByteArray.hx",491,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_512_readBytes,"openfl.utils._ByteArray.ByteArray_Impl_","readBytes",0xe735dc57,"openfl.utils._ByteArray.ByteArray_Impl_.readBytes","openfl/utils/ByteArray.hx",512,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_524_readDouble,"openfl.utils._ByteArray.ByteArray_Impl_","readDouble",0x7346c5a5,"openfl.utils._ByteArray.ByteArray_Impl_.readDouble","openfl/utils/ByteArray.hx",524,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_536_readFloat,"openfl.utils._ByteArray.ByteArray_Impl_","readFloat",0x2c349988,"openfl.utils._ByteArray.ByteArray_Impl_.readFloat","openfl/utils/ByteArray.hx",536,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_549_readInt,"openfl.utils._ByteArray.ByteArray_Impl_","readInt",0x750acddb,"openfl.utils._ByteArray.ByteArray_Impl_.readInt","openfl/utils/ByteArray.hx",549,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_579_readMultiByte,"openfl.utils._ByteArray.ByteArray_Impl_","readMultiByte",0xad6f400d,"openfl.utils._ByteArray.ByteArray_Impl_.readMultiByte","openfl/utils/ByteArray.hx",579,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_590_readObject,"openfl.utils._ByteArray.ByteArray_Impl_","readObject",0x55bb1953,"openfl.utils._ByteArray.ByteArray_Impl_.readObject","openfl/utils/ByteArray.hx",590,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_603_readShort,"openfl.utils._ByteArray.ByteArray_Impl_","readShort",0xa5c55868,"openfl.utils._ByteArray.ByteArray_Impl_.readShort","openfl/utils/ByteArray.hx",603,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_615_readUTF,"openfl.utils._ByteArray.ByteArray_Impl_","readUTF",0x7513d213,"openfl.utils._ByteArray.ByteArray_Impl_.readUTF","openfl/utils/ByteArray.hx",615,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_628_readUTFBytes,"openfl.utils._ByteArray.ByteArray_Impl_","readUTFBytes",0x21604158,"openfl.utils._ByteArray.ByteArray_Impl_.readUTFBytes","openfl/utils/ByteArray.hx",628,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_641_readUnsignedByte,"openfl.utils._ByteArray.ByteArray_Impl_","readUnsignedByte",0x98b98c31,"openfl.utils._ByteArray.ByteArray_Impl_.readUnsignedByte","openfl/utils/ByteArray.hx",641,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_654_readUnsignedInt,"openfl.utils._ByteArray.ByteArray_Impl_","readUnsignedInt",0x21ff37e6,"openfl.utils._ByteArray.ByteArray_Impl_.readUnsignedInt","openfl/utils/ByteArray.hx",654,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_667_readUnsignedShort,"openfl.utils._ByteArray.ByteArray_Impl_","readUnsignedShort",0xc8309b33,"openfl.utils._ByteArray.ByteArray_Impl_.readUnsignedShort","openfl/utils/ByteArray.hx",667,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_671_set,"openfl.utils._ByteArray.ByteArray_Impl_","set",0x474a3d44,"openfl.utils._ByteArray.ByteArray_Impl_.set","openfl/utils/ByteArray.hx",671,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_698_toArrayBuffer,"openfl.utils._ByteArray.ByteArray_Impl_","toArrayBuffer",0x56ee15e0,"openfl.utils._ByteArray.ByteArray_Impl_.toArrayBuffer","openfl/utils/ByteArray.hx",698,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_705_toBytePointer,"openfl.utils._ByteArray.ByteArray_Impl_","toBytePointer",0x1626f8fc,"openfl.utils._ByteArray.ByteArray_Impl_.toBytePointer","openfl/utils/ByteArray.hx",705,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_716_toDataPointer,"openfl.utils._ByteArray.ByteArray_Impl_","toDataPointer",0x2c1eca1a,"openfl.utils._ByteArray.ByteArray_Impl_.toDataPointer","openfl/utils/ByteArray.hx",716,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_731_toBytes,"openfl.utils._ByteArray.ByteArray_Impl_","toBytes",0xfc5d6f92,"openfl.utils._ByteArray.ByteArray_Impl_.toBytes","openfl/utils/ByteArray.hx",731,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_743_toBytesData,"openfl.utils._ByteArray.ByteArray_Impl_","toBytesData",0xa6fe22dc,"openfl.utils._ByteArray.ByteArray_Impl_.toBytesData","openfl/utils/ByteArray.hx",743,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_756_toLimeBytes,"openfl.utils._ByteArray.ByteArray_Impl_","toLimeBytes",0x1aa31bbd,"openfl.utils._ByteArray.ByteArray_Impl_.toLimeBytes","openfl/utils/ByteArray.hx",756,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_772_toString,"openfl.utils._ByteArray.ByteArray_Impl_","toString",0xbf2503ca,"openfl.utils._ByteArray.ByteArray_Impl_.toString","openfl/utils/ByteArray.hx",772,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_808_uncompress,"openfl.utils._ByteArray.ByteArray_Impl_","uncompress",0x5082e599,"openfl.utils._ByteArray.ByteArray_Impl_.uncompress","openfl/utils/ByteArray.hx",808,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_823_writeBoolean,"openfl.utils._ByteArray.ByteArray_Impl_","writeBoolean",0x127ea9a7,"openfl.utils._ByteArray.ByteArray_Impl_.writeBoolean","openfl/utils/ByteArray.hx",823,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_837_writeByte,"openfl.utils._ByteArray.ByteArray_Impl_","writeByte",0xa28d9aa9,"openfl.utils._ByteArray.ByteArray_Impl_.writeByte","openfl/utils/ByteArray.hx",837,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_861_writeBytes,"openfl.utils._ByteArray.ByteArray_Impl_","writeBytes",0x9959b9aa,"openfl.utils._ByteArray.ByteArray_Impl_.writeBytes","openfl/utils/ByteArray.hx",861,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_872_writeDouble,"openfl.utils._ByteArray.ByteArray_Impl_","writeDouble",0xa08490f2,"openfl.utils._ByteArray.ByteArray_Impl_.writeDouble","openfl/utils/ByteArray.hx",872,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_883_writeFloat,"openfl.utils._ByteArray.ByteArray_Impl_","writeFloat",0xde5876db,"openfl.utils._ByteArray.ByteArray_Impl_.writeFloat","openfl/utils/ByteArray.hx",883,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_893_writeInt,"openfl.utils._ByteArray.ByteArray_Impl_","writeInt",0xaaa6a06e,"openfl.utils._ByteArray.ByteArray_Impl_.writeInt","openfl/utils/ByteArray.hx",893,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_910_writeMultiByte,"openfl.utils._ByteArray.ByteArray_Impl_","writeMultiByte",0x0587c2e0,"openfl.utils._ByteArray.ByteArray_Impl_.writeMultiByte","openfl/utils/ByteArray.hx",910,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_920_writeObject,"openfl.utils._ByteArray.ByteArray_Impl_","writeObject",0x82f8e4a0,"openfl.utils._ByteArray.ByteArray_Impl_.writeObject","openfl/utils/ByteArray.hx",920,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_932_writeShort,"openfl.utils._ByteArray.ByteArray_Impl_","writeShort",0x57e935bb,"openfl.utils._ByteArray.ByteArray_Impl_.writeShort","openfl/utils/ByteArray.hx",932,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_945_writeUTF,"openfl.utils._ByteArray.ByteArray_Impl_","writeUTF",0xaaafa4a6,"openfl.utils._ByteArray.ByteArray_Impl_.writeUTF","openfl/utils/ByteArray.hx",945,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_957_writeUTFBytes,"openfl.utils._ByteArray.ByteArray_Impl_","writeUTFBytes",0x722139e5,"openfl.utils._ByteArray.ByteArray_Impl_.writeUTFBytes","openfl/utils/ByteArray.hx",957,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_967_writeUnsignedInt,"openfl.utils._ByteArray.ByteArray_Impl_","writeUnsignedInt",0x135c5579,"openfl.utils._ByteArray.ByteArray_Impl_.writeUnsignedInt","openfl/utils/ByteArray.hx",967,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_973_get_bytesAvailable,"openfl.utils._ByteArray.ByteArray_Impl_","get_bytesAvailable",0xe6dbb145,"openfl.utils._ByteArray.ByteArray_Impl_.get_bytesAvailable","openfl/utils/ByteArray.hx",973,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_978_get_defaultEndian,"openfl.utils._ByteArray.ByteArray_Impl_","get_defaultEndian",0x4c96f0b5,"openfl.utils._ByteArray.ByteArray_Impl_.get_defaultEndian","openfl/utils/ByteArray.hx",978,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_983_set_defaultEndian,"openfl.utils._ByteArray.ByteArray_Impl_","set_defaultEndian",0x7004c8c1,"openfl.utils._ByteArray.ByteArray_Impl_.set_defaultEndian","openfl/utils/ByteArray.hx",983,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_988_get_defaultObjectEncoding,"openfl.utils._ByteArray.ByteArray_Impl_","get_defaultObjectEncoding",0xa2c020cc,"openfl.utils._ByteArray.ByteArray_Impl_.get_defaultObjectEncoding","openfl/utils/ByteArray.hx",988,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_993_set_defaultObjectEncoding,"openfl.utils._ByteArray.ByteArray_Impl_","set_defaultObjectEncoding",0x0f16e4d8,"openfl.utils._ByteArray.ByteArray_Impl_.set_defaultObjectEncoding","openfl/utils/ByteArray.hx",993,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_998_get_endian,"openfl.utils._ByteArray.ByteArray_Impl_","get_endian",0x320fbf02,"openfl.utils._ByteArray.ByteArray_Impl_.get_endian","openfl/utils/ByteArray.hx",998,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_1003_set_endian,"openfl.utils._ByteArray.ByteArray_Impl_","set_endian",0x358d5d76,"openfl.utils._ByteArray.ByteArray_Impl_.set_endian","openfl/utils/ByteArray.hx",1003,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_1013_get_length,"openfl.utils._ByteArray.ByteArray_Impl_","get_length",0xd68ebb4d,"openfl.utils._ByteArray.ByteArray_Impl_.get_length","openfl/utils/ByteArray.hx",1013,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_1018_set_length,"openfl.utils._ByteArray.ByteArray_Impl_","set_length",0xda0c59c1,"openfl.utils._ByteArray.ByteArray_Impl_.set_length","openfl/utils/ByteArray.hx",1018,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_1039_get_objectEncoding,"openfl.utils._ByteArray.ByteArray_Impl_","get_objectEncoding",0x75538419,"openfl.utils._ByteArray.ByteArray_Impl_.get_objectEncoding","openfl/utils/ByteArray.hx",1039,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_1044_set_objectEncoding,"openfl.utils._ByteArray.ByteArray_Impl_","set_objectEncoding",0x5202b68d,"openfl.utils._ByteArray.ByteArray_Impl_.set_objectEncoding","openfl/utils/ByteArray.hx",1044,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_1049_get_position,"openfl.utils._ByteArray.ByteArray_Impl_","get_position",0x4f656ed0,"openfl.utils._ByteArray.ByteArray_Impl_.get_position","openfl/utils/ByteArray.hx",1049,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_1054_set_position,"openfl.utils._ByteArray.ByteArray_Impl_","set_position",0x645e9244,"openfl.utils._ByteArray.ByteArray_Impl_.set_position","openfl/utils/ByteArray.hx",1054,0xaa5cee4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_103_boot,"openfl.utils._ByteArray.ByteArray_Impl_","boot",0x0e765050,"openfl.utils._ByteArray.ByteArray_Impl_.boot","openfl/utils/ByteArray.hx",103,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_456_loadFromFile,"openfl.utils._ByteArray.ByteArray_Impl_","loadFromFile",0x2a41a36a,"openfl.utils._ByteArray.ByteArray_Impl_.loadFromFile","openfl/utils/ByteArray.hx",456,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_477_readBoolean,"openfl.utils._ByteArray.ByteArray_Impl_","readBoolean",0xa9aa9194,"openfl.utils._ByteArray.ByteArray_Impl_.readBoolean","openfl/utils/ByteArray.hx",477,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_490_readByte,"openfl.utils._ByteArray.ByteArray_Impl_","readByte",0xefd12c9c,"openfl.utils._ByteArray.ByteArray_Impl_.readByte","openfl/utils/ByteArray.hx",490,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_511_readBytes,"openfl.utils._ByteArray.ByteArray_Impl_","readBytes",0xe735dc57,"openfl.utils._ByteArray.ByteArray_Impl_.readBytes","openfl/utils/ByteArray.hx",511,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_523_readDouble,"openfl.utils._ByteArray.ByteArray_Impl_","readDouble",0x7346c5a5,"openfl.utils._ByteArray.ByteArray_Impl_.readDouble","openfl/utils/ByteArray.hx",523,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_535_readFloat,"openfl.utils._ByteArray.ByteArray_Impl_","readFloat",0x2c349988,"openfl.utils._ByteArray.ByteArray_Impl_.readFloat","openfl/utils/ByteArray.hx",535,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_548_readInt,"openfl.utils._ByteArray.ByteArray_Impl_","readInt",0x750acddb,"openfl.utils._ByteArray.ByteArray_Impl_.readInt","openfl/utils/ByteArray.hx",548,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_578_readMultiByte,"openfl.utils._ByteArray.ByteArray_Impl_","readMultiByte",0xad6f400d,"openfl.utils._ByteArray.ByteArray_Impl_.readMultiByte","openfl/utils/ByteArray.hx",578,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_589_readObject,"openfl.utils._ByteArray.ByteArray_Impl_","readObject",0x55bb1953,"openfl.utils._ByteArray.ByteArray_Impl_.readObject","openfl/utils/ByteArray.hx",589,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_602_readShort,"openfl.utils._ByteArray.ByteArray_Impl_","readShort",0xa5c55868,"openfl.utils._ByteArray.ByteArray_Impl_.readShort","openfl/utils/ByteArray.hx",602,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_614_readUTF,"openfl.utils._ByteArray.ByteArray_Impl_","readUTF",0x7513d213,"openfl.utils._ByteArray.ByteArray_Impl_.readUTF","openfl/utils/ByteArray.hx",614,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_627_readUTFBytes,"openfl.utils._ByteArray.ByteArray_Impl_","readUTFBytes",0x21604158,"openfl.utils._ByteArray.ByteArray_Impl_.readUTFBytes","openfl/utils/ByteArray.hx",627,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_640_readUnsignedByte,"openfl.utils._ByteArray.ByteArray_Impl_","readUnsignedByte",0x98b98c31,"openfl.utils._ByteArray.ByteArray_Impl_.readUnsignedByte","openfl/utils/ByteArray.hx",640,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_653_readUnsignedInt,"openfl.utils._ByteArray.ByteArray_Impl_","readUnsignedInt",0x21ff37e6,"openfl.utils._ByteArray.ByteArray_Impl_.readUnsignedInt","openfl/utils/ByteArray.hx",653,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_666_readUnsignedShort,"openfl.utils._ByteArray.ByteArray_Impl_","readUnsignedShort",0xc8309b33,"openfl.utils._ByteArray.ByteArray_Impl_.readUnsignedShort","openfl/utils/ByteArray.hx",666,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_670_set,"openfl.utils._ByteArray.ByteArray_Impl_","set",0x474a3d44,"openfl.utils._ByteArray.ByteArray_Impl_.set","openfl/utils/ByteArray.hx",670,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_697_toArrayBuffer,"openfl.utils._ByteArray.ByteArray_Impl_","toArrayBuffer",0x56ee15e0,"openfl.utils._ByteArray.ByteArray_Impl_.toArrayBuffer","openfl/utils/ByteArray.hx",697,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_704_toBytePointer,"openfl.utils._ByteArray.ByteArray_Impl_","toBytePointer",0x1626f8fc,"openfl.utils._ByteArray.ByteArray_Impl_.toBytePointer","openfl/utils/ByteArray.hx",704,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_715_toDataPointer,"openfl.utils._ByteArray.ByteArray_Impl_","toDataPointer",0x2c1eca1a,"openfl.utils._ByteArray.ByteArray_Impl_.toDataPointer","openfl/utils/ByteArray.hx",715,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_730_toBytes,"openfl.utils._ByteArray.ByteArray_Impl_","toBytes",0xfc5d6f92,"openfl.utils._ByteArray.ByteArray_Impl_.toBytes","openfl/utils/ByteArray.hx",730,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_742_toBytesData,"openfl.utils._ByteArray.ByteArray_Impl_","toBytesData",0xa6fe22dc,"openfl.utils._ByteArray.ByteArray_Impl_.toBytesData","openfl/utils/ByteArray.hx",742,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_750_toLimeBytes,"openfl.utils._ByteArray.ByteArray_Impl_","toLimeBytes",0x1aa31bbd,"openfl.utils._ByteArray.ByteArray_Impl_.toLimeBytes","openfl/utils/ByteArray.hx",750,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_765_toString,"openfl.utils._ByteArray.ByteArray_Impl_","toString",0xbf2503ca,"openfl.utils._ByteArray.ByteArray_Impl_.toString","openfl/utils/ByteArray.hx",765,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_801_uncompress,"openfl.utils._ByteArray.ByteArray_Impl_","uncompress",0x5082e599,"openfl.utils._ByteArray.ByteArray_Impl_.uncompress","openfl/utils/ByteArray.hx",801,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_816_writeBoolean,"openfl.utils._ByteArray.ByteArray_Impl_","writeBoolean",0x127ea9a7,"openfl.utils._ByteArray.ByteArray_Impl_.writeBoolean","openfl/utils/ByteArray.hx",816,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_830_writeByte,"openfl.utils._ByteArray.ByteArray_Impl_","writeByte",0xa28d9aa9,"openfl.utils._ByteArray.ByteArray_Impl_.writeByte","openfl/utils/ByteArray.hx",830,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_854_writeBytes,"openfl.utils._ByteArray.ByteArray_Impl_","writeBytes",0x9959b9aa,"openfl.utils._ByteArray.ByteArray_Impl_.writeBytes","openfl/utils/ByteArray.hx",854,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_865_writeDouble,"openfl.utils._ByteArray.ByteArray_Impl_","writeDouble",0xa08490f2,"openfl.utils._ByteArray.ByteArray_Impl_.writeDouble","openfl/utils/ByteArray.hx",865,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_876_writeFloat,"openfl.utils._ByteArray.ByteArray_Impl_","writeFloat",0xde5876db,"openfl.utils._ByteArray.ByteArray_Impl_.writeFloat","openfl/utils/ByteArray.hx",876,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_886_writeInt,"openfl.utils._ByteArray.ByteArray_Impl_","writeInt",0xaaa6a06e,"openfl.utils._ByteArray.ByteArray_Impl_.writeInt","openfl/utils/ByteArray.hx",886,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_903_writeMultiByte,"openfl.utils._ByteArray.ByteArray_Impl_","writeMultiByte",0x0587c2e0,"openfl.utils._ByteArray.ByteArray_Impl_.writeMultiByte","openfl/utils/ByteArray.hx",903,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_913_writeObject,"openfl.utils._ByteArray.ByteArray_Impl_","writeObject",0x82f8e4a0,"openfl.utils._ByteArray.ByteArray_Impl_.writeObject","openfl/utils/ByteArray.hx",913,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_925_writeShort,"openfl.utils._ByteArray.ByteArray_Impl_","writeShort",0x57e935bb,"openfl.utils._ByteArray.ByteArray_Impl_.writeShort","openfl/utils/ByteArray.hx",925,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_938_writeUTF,"openfl.utils._ByteArray.ByteArray_Impl_","writeUTF",0xaaafa4a6,"openfl.utils._ByteArray.ByteArray_Impl_.writeUTF","openfl/utils/ByteArray.hx",938,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_950_writeUTFBytes,"openfl.utils._ByteArray.ByteArray_Impl_","writeUTFBytes",0x722139e5,"openfl.utils._ByteArray.ByteArray_Impl_.writeUTFBytes","openfl/utils/ByteArray.hx",950,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_960_writeUnsignedInt,"openfl.utils._ByteArray.ByteArray_Impl_","writeUnsignedInt",0x135c5579,"openfl.utils._ByteArray.ByteArray_Impl_.writeUnsignedInt","openfl/utils/ByteArray.hx",960,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_966_get_bytesAvailable,"openfl.utils._ByteArray.ByteArray_Impl_","get_bytesAvailable",0xe6dbb145,"openfl.utils._ByteArray.ByteArray_Impl_.get_bytesAvailable","openfl/utils/ByteArray.hx",966,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_971_get_defaultEndian,"openfl.utils._ByteArray.ByteArray_Impl_","get_defaultEndian",0x4c96f0b5,"openfl.utils._ByteArray.ByteArray_Impl_.get_defaultEndian","openfl/utils/ByteArray.hx",971,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_976_set_defaultEndian,"openfl.utils._ByteArray.ByteArray_Impl_","set_defaultEndian",0x7004c8c1,"openfl.utils._ByteArray.ByteArray_Impl_.set_defaultEndian","openfl/utils/ByteArray.hx",976,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_981_get_defaultObjectEncoding,"openfl.utils._ByteArray.ByteArray_Impl_","get_defaultObjectEncoding",0xa2c020cc,"openfl.utils._ByteArray.ByteArray_Impl_.get_defaultObjectEncoding","openfl/utils/ByteArray.hx",981,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_986_set_defaultObjectEncoding,"openfl.utils._ByteArray.ByteArray_Impl_","set_defaultObjectEncoding",0x0f16e4d8,"openfl.utils._ByteArray.ByteArray_Impl_.set_defaultObjectEncoding","openfl/utils/ByteArray.hx",986,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_991_get_endian,"openfl.utils._ByteArray.ByteArray_Impl_","get_endian",0x320fbf02,"openfl.utils._ByteArray.ByteArray_Impl_.get_endian","openfl/utils/ByteArray.hx",991,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_996_set_endian,"openfl.utils._ByteArray.ByteArray_Impl_","set_endian",0x358d5d76,"openfl.utils._ByteArray.ByteArray_Impl_.set_endian","openfl/utils/ByteArray.hx",996,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_1006_get_length,"openfl.utils._ByteArray.ByteArray_Impl_","get_length",0xd68ebb4d,"openfl.utils._ByteArray.ByteArray_Impl_.get_length","openfl/utils/ByteArray.hx",1006,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_1011_set_length,"openfl.utils._ByteArray.ByteArray_Impl_","set_length",0xda0c59c1,"openfl.utils._ByteArray.ByteArray_Impl_.set_length","openfl/utils/ByteArray.hx",1011,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_1032_get_objectEncoding,"openfl.utils._ByteArray.ByteArray_Impl_","get_objectEncoding",0x75538419,"openfl.utils._ByteArray.ByteArray_Impl_.get_objectEncoding","openfl/utils/ByteArray.hx",1032,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_1037_set_objectEncoding,"openfl.utils._ByteArray.ByteArray_Impl_","set_objectEncoding",0x5202b68d,"openfl.utils._ByteArray.ByteArray_Impl_.set_objectEncoding","openfl/utils/ByteArray.hx",1037,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_1042_get_position,"openfl.utils._ByteArray.ByteArray_Impl_","get_position",0x4f656ed0,"openfl.utils._ByteArray.ByteArray_Impl_.get_position","openfl/utils/ByteArray.hx",1042,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_1047_set_position,"openfl.utils._ByteArray.ByteArray_Impl_","set_position",0x645e9244,"openfl.utils._ByteArray.ByteArray_Impl_.set_position","openfl/utils/ByteArray.hx",1047,0xaa5cee4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_67382ab39e6adff2_102_boot,"openfl.utils._ByteArray.ByteArray_Impl_","boot",0x0e765050,"openfl.utils._ByteArray.ByteArray_Impl_.boot","openfl/utils/ByteArray.hx",102,0xaa5cee4a)
 namespace openfl{
 namespace utils{
 namespace _ByteArray{
@@ -133,104 +133,104 @@ bool ByteArray_Impl__obj::_hx_isInstanceOf(int inClassId) {
 
  ::openfl::utils::ByteArrayData ByteArray_Impl__obj::_new(::hx::Null< int >  __o_length){
             		int length = __o_length.Default(0);
-            	HX_GC_STACKFRAME(&_hx_pos_67382ab39e6adff2_170__new)
-HXDLIN( 170)		 ::openfl::utils::ByteArrayData this1 =  ::openfl::utils::ByteArrayData_obj::__alloc( HX_CTX ,length);
-HXDLIN( 170)		return this1;
+            	HX_GC_STACKFRAME(&_hx_pos_67382ab39e6adff2_169__new)
+HXDLIN( 169)		 ::openfl::utils::ByteArrayData this1 =  ::openfl::utils::ByteArrayData_obj::__alloc( HX_CTX ,length);
+HXDLIN( 169)		return this1;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,_new,return )
 
 void ByteArray_Impl__obj::clear( ::openfl::utils::ByteArrayData this1){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_188_clear)
-HXDLIN( 188)		this1->clear();
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_187_clear)
+HXDLIN( 187)		this1->clear();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,clear,(void))
 
 void ByteArray_Impl__obj::compress( ::openfl::utils::ByteArrayData this1, ::Dynamic algorithm){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_250_compress)
-HXDLIN( 250)		this1->compress(algorithm);
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_249_compress)
+HXDLIN( 249)		this1->compress(algorithm);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(ByteArray_Impl__obj,compress,(void))
 
 void ByteArray_Impl__obj::deflate( ::openfl::utils::ByteArrayData this1){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_278_deflate)
-HXDLIN( 278)		this1->deflate();
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_277_deflate)
+HXDLIN( 277)		this1->deflate();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,deflate,(void))
 
  ::openfl::utils::ByteArrayData ByteArray_Impl__obj::fromArrayBuffer( ::haxe::io::Bytes buffer){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_289_fromArrayBuffer)
-HXLINE( 290)		if (::hx::IsNull( buffer )) {
-HXLINE( 290)			return null();
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_288_fromArrayBuffer)
+HXLINE( 289)		if (::hx::IsNull( buffer )) {
+HXLINE( 289)			return null();
             		}
-HXLINE( 299)		return ::openfl::utils::ByteArrayData_obj::fromBytes(buffer);
+HXLINE( 298)		return ::openfl::utils::ByteArrayData_obj::fromBytes(buffer);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,fromArrayBuffer,return )
 
  ::openfl::utils::ByteArrayData ByteArray_Impl__obj::fromBytes( ::haxe::io::Bytes bytes){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_311_fromBytes)
-HXLINE( 312)		if (::hx::IsNull( bytes )) {
-HXLINE( 312)			return null();
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_310_fromBytes)
+HXLINE( 311)		if (::hx::IsNull( bytes )) {
+HXLINE( 311)			return null();
             		}
-HXLINE( 317)		if (::Std_obj::isOfType(bytes,::hx::ClassOf< ::openfl::utils::ByteArrayData >())) {
-HXLINE( 319)			return ( ( ::openfl::utils::ByteArrayData)(bytes) );
+HXLINE( 316)		if (::Std_obj::isOfType(bytes,::hx::ClassOf< ::openfl::utils::ByteArrayData >())) {
+HXLINE( 318)			return ( ( ::openfl::utils::ByteArrayData)(bytes) );
             		}
             		else {
-HXLINE( 326)			return ::openfl::utils::ByteArrayData_obj::fromBytes(bytes);
+HXLINE( 325)			return ::openfl::utils::ByteArrayData_obj::fromBytes(bytes);
             		}
-HXLINE( 317)		return null();
+HXLINE( 316)		return null();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,fromBytes,return )
 
  ::openfl::utils::ByteArrayData ByteArray_Impl__obj::fromBytesData(::Array< unsigned char > bytesData){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_339_fromBytesData)
-HXLINE( 340)		if (::hx::IsNull( bytesData )) {
-HXLINE( 340)			return null();
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_338_fromBytesData)
+HXLINE( 339)		if (::hx::IsNull( bytesData )) {
+HXLINE( 339)			return null();
             		}
-HXLINE( 347)		return ::openfl::utils::ByteArrayData_obj::fromBytes(::haxe::io::Bytes_obj::ofData(bytesData));
+HXLINE( 346)		return ::openfl::utils::ByteArrayData_obj::fromBytes(::haxe::io::Bytes_obj::ofData(bytesData));
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,fromBytesData,return )
 
  ::openfl::utils::ByteArrayData ByteArray_Impl__obj::fromFile(::String path){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_367_fromFile)
-HXDLIN( 367)		return ::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(::lime::utils::_Bytes::Bytes_Impl__obj::fromFile(path));
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_366_fromFile)
+HXDLIN( 366)		return ::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(::lime::utils::_Bytes::Bytes_Impl__obj::fromFile(path));
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,fromFile,return )
 
  ::openfl::utils::ByteArrayData ByteArray_Impl__obj::fromLimeBytes( ::haxe::io::Bytes bytes){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_382_fromLimeBytes)
-HXDLIN( 382)		return ::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(bytes);
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_381_fromLimeBytes)
+HXDLIN( 381)		return ::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(bytes);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,fromLimeBytes,return )
 
 int ByteArray_Impl__obj::get( ::openfl::utils::ByteArrayData this1,int index){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_393_get)
-HXDLIN( 393)		return ( (int)(this1->b->__get(index)) );
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_392_get)
+HXDLIN( 392)		return ( (int)(this1->b->__get(index)) );
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(ByteArray_Impl__obj,get,return )
 
 void ByteArray_Impl__obj::inflate( ::openfl::utils::ByteArrayData this1){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_421_inflate)
-HXDLIN( 421)		this1->inflate();
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_420_inflate)
+HXDLIN( 420)		this1->inflate();
             	}
 
 
@@ -239,14 +239,14 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,inflate,(void))
  ::lime::app::Future ByteArray_Impl__obj::loadFromBytes( ::haxe::io::Bytes bytes){
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_0) HXARGC(1)
             		 ::lime::app::Future _hx_run( ::haxe::io::Bytes limeBytes){
-            			HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_436_loadFromBytes)
-HXLINE( 437)			 ::openfl::utils::ByteArrayData byteArray = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(limeBytes);
-HXLINE( 438)			return ::lime::app::Future_obj::withValue(byteArray);
+            			HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_435_loadFromBytes)
+HXLINE( 436)			 ::openfl::utils::ByteArrayData byteArray = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(limeBytes);
+HXLINE( 437)			return ::lime::app::Future_obj::withValue(byteArray);
             		}
             		HX_END_LOCAL_FUNC1(return)
 
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_435_loadFromBytes)
-HXDLIN( 435)		return ::lime::utils::_Bytes::Bytes_Impl__obj::loadFromBytes(bytes)->then( ::Dynamic(new _hx_Closure_0()));
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_434_loadFromBytes)
+HXDLIN( 434)		return ::lime::utils::_Bytes::Bytes_Impl__obj::loadFromBytes(bytes)->then( ::Dynamic(new _hx_Closure_0()));
             	}
 
 
@@ -255,30 +255,30 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,loadFromBytes,return )
  ::lime::app::Future ByteArray_Impl__obj::loadFromFile(::String path){
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_0) HXARGC(1)
             		 ::lime::app::Future _hx_run( ::haxe::io::Bytes limeBytes){
-            			HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_458_loadFromFile)
-HXLINE( 459)			 ::openfl::utils::ByteArrayData byteArray = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(limeBytes);
-HXLINE( 460)			return ::lime::app::Future_obj::withValue(byteArray);
+            			HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_457_loadFromFile)
+HXLINE( 458)			 ::openfl::utils::ByteArrayData byteArray = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(limeBytes);
+HXLINE( 459)			return ::lime::app::Future_obj::withValue(byteArray);
             		}
             		HX_END_LOCAL_FUNC1(return)
 
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_457_loadFromFile)
-HXDLIN( 457)		return ::lime::utils::_Bytes::Bytes_Impl__obj::loadFromFile(path)->then( ::Dynamic(new _hx_Closure_0()));
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_456_loadFromFile)
+HXDLIN( 456)		return ::lime::utils::_Bytes::Bytes_Impl__obj::loadFromFile(path)->then( ::Dynamic(new _hx_Closure_0()));
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,loadFromFile,return )
 
 bool ByteArray_Impl__obj::readBoolean( ::openfl::utils::ByteArrayData this1){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_478_readBoolean)
-HXDLIN( 478)		return this1->readBoolean();
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_477_readBoolean)
+HXDLIN( 477)		return this1->readBoolean();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,readBoolean,return )
 
 int ByteArray_Impl__obj::readByte( ::openfl::utils::ByteArrayData this1){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_491_readByte)
-HXDLIN( 491)		return this1->readByte();
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_490_readByte)
+HXDLIN( 490)		return this1->readByte();
             	}
 
 
@@ -287,188 +287,188 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,readByte,return )
 void ByteArray_Impl__obj::readBytes( ::openfl::utils::ByteArrayData this1, ::openfl::utils::ByteArrayData bytes,::hx::Null< int >  __o_offset,::hx::Null< int >  __o_length){
             		int offset = __o_offset.Default(0);
             		int length = __o_length.Default(0);
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_512_readBytes)
-HXDLIN( 512)		this1->readBytes(bytes,offset,length);
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_511_readBytes)
+HXDLIN( 511)		this1->readBytes(bytes,offset,length);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC4(ByteArray_Impl__obj,readBytes,(void))
 
 Float ByteArray_Impl__obj::readDouble( ::openfl::utils::ByteArrayData this1){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_524_readDouble)
-HXDLIN( 524)		return this1->readDouble();
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_523_readDouble)
+HXDLIN( 523)		return this1->readDouble();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,readDouble,return )
 
 Float ByteArray_Impl__obj::readFloat( ::openfl::utils::ByteArrayData this1){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_536_readFloat)
-HXDLIN( 536)		return this1->readFloat();
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_535_readFloat)
+HXDLIN( 535)		return this1->readFloat();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,readFloat,return )
 
 int ByteArray_Impl__obj::readInt( ::openfl::utils::ByteArrayData this1){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_549_readInt)
-HXDLIN( 549)		return this1->readInt();
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_548_readInt)
+HXDLIN( 548)		return this1->readInt();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,readInt,return )
 
 ::String ByteArray_Impl__obj::readMultiByte( ::openfl::utils::ByteArrayData this1,int length,::String charSet){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_579_readMultiByte)
-HXDLIN( 579)		return this1->readMultiByte(length,charSet);
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_578_readMultiByte)
+HXDLIN( 578)		return this1->readMultiByte(length,charSet);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC3(ByteArray_Impl__obj,readMultiByte,return )
 
  ::Dynamic ByteArray_Impl__obj::readObject( ::openfl::utils::ByteArrayData this1){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_590_readObject)
-HXDLIN( 590)		return this1->readObject();
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_589_readObject)
+HXDLIN( 589)		return this1->readObject();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,readObject,return )
 
 int ByteArray_Impl__obj::readShort( ::openfl::utils::ByteArrayData this1){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_603_readShort)
-HXDLIN( 603)		return this1->readShort();
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_602_readShort)
+HXDLIN( 602)		return this1->readShort();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,readShort,return )
 
 ::String ByteArray_Impl__obj::readUTF( ::openfl::utils::ByteArrayData this1){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_615_readUTF)
-HXDLIN( 615)		return this1->readUTF();
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_614_readUTF)
+HXDLIN( 614)		return this1->readUTF();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,readUTF,return )
 
 ::String ByteArray_Impl__obj::readUTFBytes( ::openfl::utils::ByteArrayData this1,int length){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_628_readUTFBytes)
-HXDLIN( 628)		return this1->readUTFBytes(length);
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_627_readUTFBytes)
+HXDLIN( 627)		return this1->readUTFBytes(length);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(ByteArray_Impl__obj,readUTFBytes,return )
 
 int ByteArray_Impl__obj::readUnsignedByte( ::openfl::utils::ByteArrayData this1){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_641_readUnsignedByte)
-HXDLIN( 641)		return this1->readUnsignedByte();
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_640_readUnsignedByte)
+HXDLIN( 640)		return this1->readUnsignedByte();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,readUnsignedByte,return )
 
 int ByteArray_Impl__obj::readUnsignedInt( ::openfl::utils::ByteArrayData this1){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_654_readUnsignedInt)
-HXDLIN( 654)		return this1->readUnsignedInt();
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_653_readUnsignedInt)
+HXDLIN( 653)		return this1->readUnsignedInt();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,readUnsignedInt,return )
 
 int ByteArray_Impl__obj::readUnsignedShort( ::openfl::utils::ByteArrayData this1){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_667_readUnsignedShort)
-HXDLIN( 667)		return this1->readUnsignedShort();
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_666_readUnsignedShort)
+HXDLIN( 666)		return this1->readUnsignedShort();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,readUnsignedShort,return )
 
 int ByteArray_Impl__obj::set( ::openfl::utils::ByteArrayData this1,int index,int value){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_671_set)
-HXLINE( 676)		this1->_hx___resize((index + 1));
-HXLINE( 677)		this1->b[index] = ( (unsigned char)(value) );
-HXLINE( 679)		return value;
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_670_set)
+HXLINE( 675)		this1->_hx___resize((index + 1));
+HXLINE( 676)		this1->b[index] = ( (unsigned char)(value) );
+HXLINE( 678)		return value;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC3(ByteArray_Impl__obj,set,return )
 
  ::haxe::io::Bytes ByteArray_Impl__obj::toArrayBuffer( ::openfl::utils::ByteArrayData byteArray){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_698_toArrayBuffer)
-HXDLIN( 698)		return byteArray;
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_697_toArrayBuffer)
+HXDLIN( 697)		return byteArray;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,toArrayBuffer,return )
 
  ::lime::utils::BytePointerData ByteArray_Impl__obj::toBytePointer( ::openfl::utils::ByteArrayData byteArray){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_705_toBytePointer)
-HXLINE( 707)		::lime::utils::_BytePointer::BytePointer_Impl__obj::set(::openfl::utils::_ByteArray::ByteArray_Impl__obj::_hx___bytePointer,byteArray,null(),null(),byteArray->position);
-HXLINE( 709)		return ::openfl::utils::_ByteArray::ByteArray_Impl__obj::_hx___bytePointer;
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_704_toBytePointer)
+HXLINE( 706)		::lime::utils::_BytePointer::BytePointer_Impl__obj::set(::openfl::utils::_ByteArray::ByteArray_Impl__obj::_hx___bytePointer,byteArray,null(),null(),byteArray->position);
+HXLINE( 708)		return ::openfl::utils::_ByteArray::ByteArray_Impl__obj::_hx___bytePointer;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,toBytePointer,return )
 
 Float ByteArray_Impl__obj::toDataPointer( ::openfl::utils::ByteArrayData byteArray){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_716_toDataPointer)
-HXLINE( 718)		::lime::utils::_BytePointer::BytePointer_Impl__obj::set(::openfl::utils::_ByteArray::ByteArray_Impl__obj::_hx___bytePointer,byteArray,null(),null(),byteArray->position);
-HXLINE( 720)		return ::lime::utils::_DataPointer::DataPointer_Impl__obj::fromBytesPointer(::openfl::utils::_ByteArray::ByteArray_Impl__obj::_hx___bytePointer);
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_715_toDataPointer)
+HXLINE( 717)		::lime::utils::_BytePointer::BytePointer_Impl__obj::set(::openfl::utils::_ByteArray::ByteArray_Impl__obj::_hx___bytePointer,byteArray,null(),null(),byteArray->position);
+HXLINE( 719)		return ::lime::utils::_DataPointer::DataPointer_Impl__obj::fromBytesPointer(::openfl::utils::_ByteArray::ByteArray_Impl__obj::_hx___bytePointer);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,toDataPointer,return )
 
  ::haxe::io::Bytes ByteArray_Impl__obj::toBytes( ::openfl::utils::ByteArrayData byteArray){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_731_toBytes)
-HXDLIN( 731)		return byteArray;
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_730_toBytes)
+HXDLIN( 730)		return byteArray;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,toBytes,return )
 
 ::Array< unsigned char > ByteArray_Impl__obj::toBytesData( ::openfl::utils::ByteArrayData byteArray){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_743_toBytesData)
-HXDLIN( 743)		return byteArray->b;
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_742_toBytesData)
+HXDLIN( 742)		return byteArray->b;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,toBytesData,return )
 
  ::haxe::io::Bytes ByteArray_Impl__obj::toLimeBytes( ::openfl::utils::ByteArrayData byteArray){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_756_toLimeBytes)
-HXDLIN( 756)		return byteArray;
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_750_toLimeBytes)
+HXDLIN( 750)		return ::openfl::utils::_ByteArray::ByteArray_Impl__obj::toBytes(::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(::openfl::utils::_ByteArray::ByteArray_Impl__obj::toArrayBuffer(byteArray)));
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,toLimeBytes,return )
 
 ::String ByteArray_Impl__obj::toString( ::openfl::utils::ByteArrayData this1){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_772_toString)
-HXDLIN( 772)		return this1->toString();
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_765_toString)
+HXDLIN( 765)		return this1->toString();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,toString,return )
 
 void ByteArray_Impl__obj::uncompress( ::openfl::utils::ByteArrayData this1, ::Dynamic algorithm){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_808_uncompress)
-HXDLIN( 808)		this1->uncompress(algorithm);
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_801_uncompress)
+HXDLIN( 801)		this1->uncompress(algorithm);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(ByteArray_Impl__obj,uncompress,(void))
 
 void ByteArray_Impl__obj::writeBoolean( ::openfl::utils::ByteArrayData this1,bool value){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_823_writeBoolean)
-HXDLIN( 823)		this1->writeBoolean(value);
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_816_writeBoolean)
+HXDLIN( 816)		this1->writeBoolean(value);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(ByteArray_Impl__obj,writeBoolean,(void))
 
 void ByteArray_Impl__obj::writeByte( ::openfl::utils::ByteArrayData this1,int value){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_837_writeByte)
-HXDLIN( 837)		this1->writeByte(value);
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_830_writeByte)
+HXDLIN( 830)		this1->writeByte(value);
             	}
 
 
@@ -477,205 +477,205 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC2(ByteArray_Impl__obj,writeByte,(void))
 void ByteArray_Impl__obj::writeBytes( ::openfl::utils::ByteArrayData this1, ::openfl::utils::ByteArrayData bytes,::hx::Null< int >  __o_offset,::hx::Null< int >  __o_length){
             		int offset = __o_offset.Default(0);
             		int length = __o_length.Default(0);
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_861_writeBytes)
-HXDLIN( 861)		this1->writeBytes(bytes,offset,length);
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_854_writeBytes)
+HXDLIN( 854)		this1->writeBytes(bytes,offset,length);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC4(ByteArray_Impl__obj,writeBytes,(void))
 
 void ByteArray_Impl__obj::writeDouble( ::openfl::utils::ByteArrayData this1,Float value){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_872_writeDouble)
-HXDLIN( 872)		this1->writeDouble(value);
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_865_writeDouble)
+HXDLIN( 865)		this1->writeDouble(value);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(ByteArray_Impl__obj,writeDouble,(void))
 
 void ByteArray_Impl__obj::writeFloat( ::openfl::utils::ByteArrayData this1,Float value){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_883_writeFloat)
-HXDLIN( 883)		this1->writeFloat(value);
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_876_writeFloat)
+HXDLIN( 876)		this1->writeFloat(value);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(ByteArray_Impl__obj,writeFloat,(void))
 
 void ByteArray_Impl__obj::writeInt( ::openfl::utils::ByteArrayData this1,int value){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_893_writeInt)
-HXDLIN( 893)		this1->writeInt(value);
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_886_writeInt)
+HXDLIN( 886)		this1->writeInt(value);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(ByteArray_Impl__obj,writeInt,(void))
 
 void ByteArray_Impl__obj::writeMultiByte( ::openfl::utils::ByteArrayData this1,::String value,::String charSet){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_910_writeMultiByte)
-HXDLIN( 910)		this1->writeMultiByte(value,charSet);
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_903_writeMultiByte)
+HXDLIN( 903)		this1->writeMultiByte(value,charSet);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC3(ByteArray_Impl__obj,writeMultiByte,(void))
 
 void ByteArray_Impl__obj::writeObject( ::openfl::utils::ByteArrayData this1, ::Dynamic object){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_920_writeObject)
-HXDLIN( 920)		this1->writeObject(object);
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_913_writeObject)
+HXDLIN( 913)		this1->writeObject(object);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(ByteArray_Impl__obj,writeObject,(void))
 
 void ByteArray_Impl__obj::writeShort( ::openfl::utils::ByteArrayData this1,int value){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_932_writeShort)
-HXDLIN( 932)		this1->writeShort(value);
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_925_writeShort)
+HXDLIN( 925)		this1->writeShort(value);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(ByteArray_Impl__obj,writeShort,(void))
 
 void ByteArray_Impl__obj::writeUTF( ::openfl::utils::ByteArrayData this1,::String value){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_945_writeUTF)
-HXDLIN( 945)		this1->writeUTF(value);
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_938_writeUTF)
+HXDLIN( 938)		this1->writeUTF(value);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(ByteArray_Impl__obj,writeUTF,(void))
 
 void ByteArray_Impl__obj::writeUTFBytes( ::openfl::utils::ByteArrayData this1,::String value){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_957_writeUTFBytes)
-HXDLIN( 957)		this1->writeUTFBytes(value);
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_950_writeUTFBytes)
+HXDLIN( 950)		this1->writeUTFBytes(value);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(ByteArray_Impl__obj,writeUTFBytes,(void))
 
 void ByteArray_Impl__obj::writeUnsignedInt( ::openfl::utils::ByteArrayData this1,int value){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_967_writeUnsignedInt)
-HXDLIN( 967)		this1->writeUnsignedInt(value);
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_960_writeUnsignedInt)
+HXDLIN( 960)		this1->writeUnsignedInt(value);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(ByteArray_Impl__obj,writeUnsignedInt,(void))
 
 int ByteArray_Impl__obj::get_bytesAvailable( ::openfl::utils::ByteArrayData this1){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_973_get_bytesAvailable)
-HXDLIN( 973)		return (this1->length - this1->position);
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_966_get_bytesAvailable)
+HXDLIN( 966)		return (this1->length - this1->position);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,get_bytesAvailable,return )
 
  ::Dynamic ByteArray_Impl__obj::get_defaultEndian(){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_978_get_defaultEndian)
-HXDLIN( 978)		if (::hx::IsNull( ::openfl::utils::ByteArrayData_obj::_hx___defaultEndian )) {
-HXDLIN( 978)			if (::hx::IsEq( ::lime::_hx_system::System_obj::get_endianness(),::lime::_hx_system::Endian_obj::_hx_LITTLE_ENDIAN_dyn() )) {
-HXDLIN( 978)				::openfl::utils::ByteArrayData_obj::_hx___defaultEndian = 1;
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_971_get_defaultEndian)
+HXDLIN( 971)		if (::hx::IsNull( ::openfl::utils::ByteArrayData_obj::_hx___defaultEndian )) {
+HXDLIN( 971)			if (::hx::IsEq( ::lime::_hx_system::System_obj::get_endianness(),::lime::_hx_system::Endian_obj::_hx_LITTLE_ENDIAN_dyn() )) {
+HXDLIN( 971)				::openfl::utils::ByteArrayData_obj::_hx___defaultEndian = 1;
             			}
             			else {
-HXDLIN( 978)				::openfl::utils::ByteArrayData_obj::_hx___defaultEndian = 0;
+HXDLIN( 971)				::openfl::utils::ByteArrayData_obj::_hx___defaultEndian = 0;
             			}
             		}
-HXDLIN( 978)		return ::openfl::utils::ByteArrayData_obj::_hx___defaultEndian;
+HXDLIN( 971)		return ::openfl::utils::ByteArrayData_obj::_hx___defaultEndian;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC0(ByteArray_Impl__obj,get_defaultEndian,return )
 
  ::Dynamic ByteArray_Impl__obj::set_defaultEndian( ::Dynamic value){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_983_set_defaultEndian)
-HXDLIN( 983)		return (::openfl::utils::ByteArrayData_obj::_hx___defaultEndian = value);
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_976_set_defaultEndian)
+HXDLIN( 976)		return (::openfl::utils::ByteArrayData_obj::_hx___defaultEndian = value);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,set_defaultEndian,return )
 
 int ByteArray_Impl__obj::get_defaultObjectEncoding(){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_988_get_defaultObjectEncoding)
-HXDLIN( 988)		return ::openfl::utils::ByteArrayData_obj::defaultObjectEncoding;
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_981_get_defaultObjectEncoding)
+HXDLIN( 981)		return ::openfl::utils::ByteArrayData_obj::defaultObjectEncoding;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC0(ByteArray_Impl__obj,get_defaultObjectEncoding,return )
 
 int ByteArray_Impl__obj::set_defaultObjectEncoding(int value){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_993_set_defaultObjectEncoding)
-HXDLIN( 993)		return (::openfl::utils::ByteArrayData_obj::defaultObjectEncoding = value);
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_986_set_defaultObjectEncoding)
+HXDLIN( 986)		return (::openfl::utils::ByteArrayData_obj::defaultObjectEncoding = value);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,set_defaultObjectEncoding,return )
 
  ::Dynamic ByteArray_Impl__obj::get_endian( ::openfl::utils::ByteArrayData this1){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_998_get_endian)
-HXDLIN( 998)		return this1->_hx___endian;
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_991_get_endian)
+HXDLIN( 991)		return this1->_hx___endian;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,get_endian,return )
 
  ::Dynamic ByteArray_Impl__obj::set_endian( ::openfl::utils::ByteArrayData this1, ::Dynamic value){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_1003_set_endian)
-HXDLIN(1003)		return (this1->_hx___endian = value);
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_996_set_endian)
+HXDLIN( 996)		return (this1->_hx___endian = value);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(ByteArray_Impl__obj,set_endian,return )
 
 int ByteArray_Impl__obj::get_length( ::openfl::utils::ByteArrayData this1){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_1013_get_length)
-HXDLIN(1013)		if (::hx::IsNull( this1 )) {
-HXDLIN(1013)			return 0;
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_1006_get_length)
+HXDLIN(1006)		if (::hx::IsNull( this1 )) {
+HXDLIN(1006)			return 0;
             		}
             		else {
-HXDLIN(1013)			return this1->length;
+HXDLIN(1006)			return this1->length;
             		}
-HXDLIN(1013)		return null();
+HXDLIN(1006)		return null();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,get_length,return )
 
 int ByteArray_Impl__obj::set_length( ::openfl::utils::ByteArrayData this1,int value){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_1018_set_length)
-HXLINE(1025)		if ((value > 0)) {
-HXLINE(1027)			this1->_hx___resize(value);
-HXLINE(1028)			if ((value < this1->position)) {
-HXLINE(1028)				this1->position = value;
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_1011_set_length)
+HXLINE(1018)		if ((value > 0)) {
+HXLINE(1020)			this1->_hx___resize(value);
+HXLINE(1021)			if ((value < this1->position)) {
+HXLINE(1021)				this1->position = value;
             			}
             		}
-HXLINE(1031)		this1->length = value;
-HXLINE(1034)		return value;
+HXLINE(1024)		this1->length = value;
+HXLINE(1027)		return value;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(ByteArray_Impl__obj,set_length,return )
 
 int ByteArray_Impl__obj::get_objectEncoding( ::openfl::utils::ByteArrayData this1){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_1039_get_objectEncoding)
-HXDLIN(1039)		return this1->objectEncoding;
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_1032_get_objectEncoding)
+HXDLIN(1032)		return this1->objectEncoding;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,get_objectEncoding,return )
 
 int ByteArray_Impl__obj::set_objectEncoding( ::openfl::utils::ByteArrayData this1,int value){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_1044_set_objectEncoding)
-HXDLIN(1044)		return (this1->objectEncoding = value);
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_1037_set_objectEncoding)
+HXDLIN(1037)		return (this1->objectEncoding = value);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(ByteArray_Impl__obj,set_objectEncoding,return )
 
 int ByteArray_Impl__obj::get_position( ::openfl::utils::ByteArrayData this1){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_1049_get_position)
-HXDLIN(1049)		return this1->position;
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_1042_get_position)
+HXDLIN(1042)		return this1->position;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,get_position,return )
 
 int ByteArray_Impl__obj::set_position( ::openfl::utils::ByteArrayData this1,int value){
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_1054_set_position)
-HXDLIN(1054)		return (this1->position = value);
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_1047_set_position)
+HXDLIN(1047)		return (this1->position = value);
             	}
 
 
@@ -904,15 +904,15 @@ void ByteArray_Impl__obj::__boot()
 {
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_0) HXARGC(0)
             		 ::lime::utils::BytePointerData _hx_run(){
-            			HX_GC_STACKFRAME(&_hx_pos_67382ab39e6adff2_103_boot)
-HXDLIN( 103)			 ::haxe::io::Bytes bytes = null();
-HXDLIN( 103)			 ::lime::utils::BytePointerData this1 =  ::lime::utils::BytePointerData_obj::__alloc( HX_CTX ,bytes,0);
-HXDLIN( 103)			return this1;
+            			HX_GC_STACKFRAME(&_hx_pos_67382ab39e6adff2_102_boot)
+HXDLIN( 102)			 ::haxe::io::Bytes bytes = null();
+HXDLIN( 102)			 ::lime::utils::BytePointerData this1 =  ::lime::utils::BytePointerData_obj::__alloc( HX_CTX ,bytes,0);
+HXDLIN( 102)			return this1;
             		}
             		HX_END_LOCAL_FUNC0(return)
 
-            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_103_boot)
-HXDLIN( 103)		_hx___bytePointer = ( ( ::lime::utils::BytePointerData)( ::Dynamic(new _hx_Closure_0())()) );
+            	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_102_boot)
+HXDLIN( 102)		_hx___bytePointer = ( ( ::lime::utils::BytePointerData)( ::Dynamic(new _hx_Closure_0())()) );
             	}
 }
 

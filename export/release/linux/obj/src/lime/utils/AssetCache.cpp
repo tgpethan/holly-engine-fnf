@@ -39,7 +39,7 @@ HXLINE(  17)		this->enabled = true;
 HXLINE(  24)		this->audio =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
 HXLINE(  25)		this->font =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
 HXLINE(  26)		this->image =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
-HXLINE(  33)		this->version = 267855;
+HXLINE(  33)		this->version = 274129;
             	}
 
 Dynamic AssetCache_obj::__CreateEmpty() { return new AssetCache_obj; }
@@ -116,14 +116,14 @@ HXLINE(  62)			this->font->set(id,asset);
 HXDLIN(  62)			goto _hx_goto_2;
             		}
             		if (  (_hx_switch_0==HX_("IMAGE",3b,57,57,3b)) ){
-HXLINE(  65)			if (!(::Std_obj::isOfType(asset,::hx::ClassOf< ::lime::graphics::Image >()))) {
+HXLINE(  65)			if (!(::Std_obj::isOfType(asset,( ( ::Dynamic)(::hx::ClassOf< ::lime::graphics::Image >()) )))) {
 HXLINE(  65)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(((HX_("Cannot cache non-Image asset: ",d6,62,c2,3a) + ::Std_obj::string(asset)) + HX_(" as Image",ad,d1,70,d4))));
             			}
 HXLINE(  67)			this->image->set(id,( ( ::lime::graphics::Image)(asset) ));
 HXLINE(  64)			goto _hx_goto_2;
             		}
             		if (  (_hx_switch_0==HX_("MUSIC",85,08,49,8e)) ||  (_hx_switch_0==HX_("SOUND",af,c4,ba,fe)) ){
-HXLINE(  70)			if (!(::Std_obj::isOfType(asset,::hx::ClassOf< ::lime::media::AudioBuffer >()))) {
+HXLINE(  70)			if (!(::Std_obj::isOfType(asset,( ( ::Dynamic)(::hx::ClassOf< ::lime::media::AudioBuffer >()) )))) {
 HXLINE(  70)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(((HX_("Cannot cache non-AudioBuffer asset: ",b1,96,a5,01) + ::Std_obj::string(asset)) + HX_(" as AudioBuffer",48,2a,fe,73))));
             			}
 HXLINE(  72)			this->audio->set(id,( ( ::lime::media::AudioBuffer)(asset) ));

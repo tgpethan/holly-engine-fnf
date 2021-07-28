@@ -33,7 +33,6 @@ HX_DEFINE_STACK_FRAME(_hx_pos_81f6578febd56b01_11_new,"flixel.tweens.misc.ColorT
 HX_LOCAL_STACK_FRAME(_hx_pos_81f6578febd56b01_27_destroy,"flixel.tweens.misc.ColorTween","destroy",0x7f5b6002,"flixel.tweens.misc.ColorTween.destroy","flixel/tweens/misc/ColorTween.hx",27,0xe14ed287)
 HX_LOCAL_STACK_FRAME(_hx_pos_81f6578febd56b01_42_tween,"flixel.tweens.misc.ColorTween","tween",0xdc858b73,"flixel.tweens.misc.ColorTween.tween","flixel/tweens/misc/ColorTween.hx",42,0xe14ed287)
 HX_LOCAL_STACK_FRAME(_hx_pos_81f6578febd56b01_52_update,"flixel.tweens.misc.ColorTween","update",0x76358c01,"flixel.tweens.misc.ColorTween.update","flixel/tweens/misc/ColorTween.hx",52,0xe14ed287)
-HX_LOCAL_STACK_FRAME(_hx_pos_81f6578febd56b01_65_isTweenOf,"flixel.tweens.misc.ColorTween","isTweenOf",0x7b8d22a0,"flixel.tweens.misc.ColorTween.isTweenOf","flixel/tweens/misc/ColorTween.hx",65,0xe14ed287)
 namespace flixel{
 namespace tweens{
 namespace misc{
@@ -165,23 +164,6 @@ HXLINE(  59)			this->sprite->set_alpha((( (Float)(((this->color >> 24) & 255)) )
             	}
 
 
-bool ColorTween_obj::isTweenOf( ::Dynamic object,::String field){
-            	HX_STACKFRAME(&_hx_pos_81f6578febd56b01_65_isTweenOf)
-HXDLIN(  65)		if (::hx::IsEq( this->sprite,object )) {
-HXDLIN(  65)			if (::hx::IsNotNull( field )) {
-HXDLIN(  65)				return (field == HX_("color",63,71,5c,4a));
-            			}
-            			else {
-HXDLIN(  65)				return true;
-            			}
-            		}
-            		else {
-HXDLIN(  65)			return false;
-            		}
-HXDLIN(  65)		return false;
-            	}
-
-
 
 ::hx::ObjectPtr< ColorTween_obj > ColorTween_obj::__new( ::Dynamic Options, ::flixel::tweens::FlxTweenManager manager) {
 	::hx::ObjectPtr< ColorTween_obj > __this = new ColorTween_obj();
@@ -237,9 +219,6 @@ void ColorTween_obj::__Visit(HX_VISIT_PARAMS)
 	case 8:
 		if (HX_FIELD_EQ(inName,"endColor") ) { return ::hx::Val( endColor ); }
 		break;
-	case 9:
-		if (HX_FIELD_EQ(inName,"isTweenOf") ) { return ::hx::Val( isTweenOf_dyn() ); }
-		break;
 	case 10:
 		if (HX_FIELD_EQ(inName,"startColor") ) { return ::hx::Val( startColor ); }
 	}
@@ -292,7 +271,6 @@ static ::String ColorTween_obj_sMemberFields[] = {
 	HX_("destroy",fa,2c,86,24),
 	HX_("tween",6b,aa,70,19),
 	HX_("update",09,86,05,87),
-	HX_("isTweenOf",98,1d,bf,da),
 	::String(null()) };
 
 ::hx::Class ColorTween_obj::__mClass;

@@ -63,12 +63,6 @@ class HXCPP_CLASS_ATTRIBUTES CanvasDisplayObject_obj : public ::hx::Object
 		static void render( ::openfl::display::DisplayObject displayObject, ::openfl::display::CanvasRenderer renderer);
 		static ::Dynamic render_dyn();
 
-		static void renderDrawable( ::openfl::display::DisplayObject displayObject, ::openfl::display::CanvasRenderer renderer);
-		static ::Dynamic renderDrawable_dyn();
-
-		static void renderDrawableMask( ::openfl::display::DisplayObject displayObject, ::openfl::display::CanvasRenderer renderer);
-		static ::Dynamic renderDrawableMask_dyn();
-
 };
 
 } // end namespace openfl

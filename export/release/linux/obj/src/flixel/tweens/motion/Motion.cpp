@@ -26,7 +26,6 @@ HX_LOCAL_STACK_FRAME(_hx_pos_3615c645ab6bc3d8_31_setObject,"flixel.tweens.motion
 HX_LOCAL_STACK_FRAME(_hx_pos_3615c645ab6bc3d8_39_update,"flixel.tweens.motion.Motion","update",0xebe25e5d,"flixel.tweens.motion.Motion.update","flixel/tweens/motion/Motion.hx",39,0xc6c8a363)
 HX_LOCAL_STACK_FRAME(_hx_pos_3615c645ab6bc3d8_45_onEnd,"flixel.tweens.motion.Motion","onEnd",0x35242628,"flixel.tweens.motion.Motion.onEnd","flixel/tweens/motion/Motion.hx",45,0xc6c8a363)
 HX_LOCAL_STACK_FRAME(_hx_pos_3615c645ab6bc3d8_52_postUpdate,"flixel.tweens.motion.Motion","postUpdate",0xca0f98dd,"flixel.tweens.motion.Motion.postUpdate","flixel/tweens/motion/Motion.hx",52,0xc6c8a363)
-HX_LOCAL_STACK_FRAME(_hx_pos_3615c645ab6bc3d8_59_isTweenOf,"flixel.tweens.motion.Motion","isTweenOf",0xe4ff31c4,"flixel.tweens.motion.Motion.isTweenOf","flixel/tweens/motion/Motion.hx",59,0xc6c8a363)
 namespace flixel{
 namespace tweens{
 namespace motion{
@@ -99,30 +98,6 @@ HXLINE(  54)			this->_object->setPosition(this->x,this->y);
 
 HX_DEFINE_DYNAMIC_FUNC0(Motion_obj,postUpdate,(void))
 
-bool Motion_obj::isTweenOf( ::Dynamic object,::String field){
-            	HX_STACKFRAME(&_hx_pos_3615c645ab6bc3d8_59_isTweenOf)
-HXDLIN(  59)		if (::hx::IsEq( this->_object,object )) {
-HXLINE(  60)			bool _hx_tmp;
-HXDLIN(  60)			if (::hx::IsNotNull( field )) {
-HXLINE(  60)				_hx_tmp = (field == HX_("x",78,00,00,00));
-            			}
-            			else {
-HXLINE(  60)				_hx_tmp = true;
-            			}
-HXDLIN(  60)			if (!(_hx_tmp)) {
-HXLINE(  60)				return (field == HX_("y",79,00,00,00));
-            			}
-            			else {
-HXLINE(  60)				return true;
-            			}
-            		}
-            		else {
-HXDLIN(  59)			return false;
-            		}
-HXDLIN(  59)		return false;
-            	}
-
-
 
 ::hx::ObjectPtr< Motion_obj > Motion_obj::__new( ::Dynamic Options, ::flixel::tweens::FlxTweenManager manager) {
 	::hx::ObjectPtr< Motion_obj > __this = new Motion_obj();
@@ -180,7 +155,6 @@ void Motion_obj::__Visit(HX_VISIT_PARAMS)
 		break;
 	case 9:
 		if (HX_FIELD_EQ(inName,"setObject") ) { return ::hx::Val( setObject_dyn() ); }
-		if (HX_FIELD_EQ(inName,"isTweenOf") ) { return ::hx::Val( isTweenOf_dyn() ); }
 		break;
 	case 10:
 		if (HX_FIELD_EQ(inName,"postUpdate") ) { return ::hx::Val( postUpdate_dyn() ); }
@@ -237,7 +211,6 @@ static ::String Motion_obj_sMemberFields[] = {
 	HX_("update",09,86,05,87),
 	HX_("onEnd",fc,97,64,32),
 	HX_("postUpdate",89,06,3e,dc),
-	HX_("isTweenOf",98,1d,bf,da),
 	::String(null()) };
 
 ::hx::Class Motion_obj::__mClass;

@@ -5,14 +5,14 @@
 #include <openfl/display/PNGEncoderOptions.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_3a64445735a88117_27_new,"openfl.display.PNGEncoderOptions","new",0x5da61973,"openfl.display.PNGEncoderOptions.new","openfl/display/PNGEncoderOptions.hx",27,0xcb23cb5f)
+HX_DEFINE_STACK_FRAME(_hx_pos_3a64445735a88117_14_new,"openfl.display.PNGEncoderOptions","new",0x5da61973,"openfl.display.PNGEncoderOptions.new","openfl/display/PNGEncoderOptions.hx",14,0xcb23cb5f)
 namespace openfl{
 namespace display{
 
 void PNGEncoderOptions_obj::__construct(::hx::Null< bool >  __o_fastCompression){
             		bool fastCompression = __o_fastCompression.Default(false);
-            	HX_STACKFRAME(&_hx_pos_3a64445735a88117_27_new)
-HXDLIN(  27)		this->fastCompression = fastCompression;
+            	HX_STACKFRAME(&_hx_pos_3a64445735a88117_14_new)
+HXDLIN(  14)		this->fastCompression = fastCompression;
             	}
 
 Dynamic PNGEncoderOptions_obj::__CreateEmpty() { return new PNGEncoderOptions_obj; }

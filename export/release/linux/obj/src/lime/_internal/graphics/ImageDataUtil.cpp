@@ -80,36 +80,36 @@ HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_160_lerp,"lime._internal.graphics.
 HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_164_colorTransform,"lime._internal.graphics.ImageDataUtil","colorTransform",0x125b6f48,"lime._internal.graphics.ImageDataUtil.colorTransform","lime/_internal/graphics/ImageDataUtil.hx",164,0x59dddace)
 HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_206_copyChannel,"lime._internal.graphics.ImageDataUtil","copyChannel",0xecaa286f,"lime._internal.graphics.ImageDataUtil.copyChannel","lime/_internal/graphics/ImageDataUtil.hx",206,0x59dddace)
 HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_295_copyPixels,"lime._internal.graphics.ImageDataUtil","copyPixels",0xd2d56101,"lime._internal.graphics.ImageDataUtil.copyPixels","lime/_internal/graphics/ImageDataUtil.hx",295,0x59dddace)
-HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_508_fillRect,"lime._internal.graphics.ImageDataUtil","fillRect",0x041873c6,"lime._internal.graphics.ImageDataUtil.fillRect","lime/_internal/graphics/ImageDataUtil.hx",508,0x59dddace)
-HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_558_floodFill,"lime._internal.graphics.ImageDataUtil","floodFill",0x35740402,"lime._internal.graphics.ImageDataUtil.floodFill","lime/_internal/graphics/ImageDataUtil.hx",558,0x59dddace)
+HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_507_fillRect,"lime._internal.graphics.ImageDataUtil","fillRect",0x041873c6,"lime._internal.graphics.ImageDataUtil.fillRect","lime/_internal/graphics/ImageDataUtil.hx",507,0x59dddace)
+HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_557_floodFill,"lime._internal.graphics.ImageDataUtil","floodFill",0x35740402,"lime._internal.graphics.ImageDataUtil.floodFill","lime/_internal/graphics/ImageDataUtil.hx",557,0x59dddace)
 static const int _hx_array_data_0eb0fdcf_29[] = {
 	(int)0,(int)-1,(int)1,(int)0,
 };
 static const int _hx_array_data_0eb0fdcf_30[] = {
 	(int)-1,(int)0,(int)0,(int)1,
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_642_gaussianBlur,"lime._internal.graphics.ImageDataUtil","gaussianBlur",0xb8d3c441,"lime._internal.graphics.ImageDataUtil.gaussianBlur","lime/_internal/graphics/ImageDataUtil.hx",642,0x59dddace)
-HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_668_getColorBoundsRect,"lime._internal.graphics.ImageDataUtil","getColorBoundsRect",0x8aa490c5,"lime._internal.graphics.ImageDataUtil.getColorBoundsRect","lime/_internal/graphics/ImageDataUtil.hx",668,0x59dddace)
-HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_812_getPixel,"lime._internal.graphics.ImageDataUtil","getPixel",0xb9da048f,"lime._internal.graphics.ImageDataUtil.getPixel","lime/_internal/graphics/ImageDataUtil.hx",812,0x59dddace)
-HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_831_getPixel32,"lime._internal.graphics.ImageDataUtil","getPixel32",0x67cfb2ee,"lime._internal.graphics.ImageDataUtil.getPixel32","lime/_internal/graphics/ImageDataUtil.hx",831,0x59dddace)
-HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_849_getPixels,"lime._internal.graphics.ImageDataUtil","getPixels",0xe4e9f904,"lime._internal.graphics.ImageDataUtil.getPixels","lime/_internal/graphics/ImageDataUtil.hx",849,0x59dddace)
-HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_905_merge,"lime._internal.graphics.ImageDataUtil","merge",0xf318fed9,"lime._internal.graphics.ImageDataUtil.merge","lime/_internal/graphics/ImageDataUtil.hx",905,0x59dddace)
-HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_956_multiplyAlpha,"lime._internal.graphics.ImageDataUtil","multiplyAlpha",0xed49d7bb,"lime._internal.graphics.ImageDataUtil.multiplyAlpha","lime/_internal/graphics/ImageDataUtil.hx",956,0x59dddace)
-HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_982_resize,"lime._internal.graphics.ImageDataUtil","resize",0xc3399ab3,"lime._internal.graphics.ImageDataUtil.resize","lime/_internal/graphics/ImageDataUtil.hx",982,0x59dddace)
-HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_1071_resizeBuffer,"lime._internal.graphics.ImageDataUtil","resizeBuffer",0x76145413,"lime._internal.graphics.ImageDataUtil.resizeBuffer","lime/_internal/graphics/ImageDataUtil.hx",1071,0x59dddace)
-HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_1107_setFormat,"lime._internal.graphics.ImageDataUtil","setFormat",0x391f851a,"lime._internal.graphics.ImageDataUtil.setFormat","lime/_internal/graphics/ImageDataUtil.hx",1107,0x59dddace)
-HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_1185_setPixel,"lime._internal.graphics.ImageDataUtil","setPixel",0x68375e03,"lime._internal.graphics.ImageDataUtil.setPixel","lime/_internal/graphics/ImageDataUtil.hx",1185,0x59dddace)
-HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_1213_setPixel32,"lime._internal.graphics.ImageDataUtil","setPixel32",0x6b4d5162,"lime._internal.graphics.ImageDataUtil.setPixel32","lime/_internal/graphics/ImageDataUtil.hx",1213,0x59dddace)
-HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_1235_setPixels,"lime._internal.graphics.ImageDataUtil","setPixels",0xc83ae510,"lime._internal.graphics.ImageDataUtil.setPixels","lime/_internal/graphics/ImageDataUtil.hx",1235,0x59dddace)
-HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_1293_threshold,"lime._internal.graphics.ImageDataUtil","threshold",0x108d444c,"lime._internal.graphics.ImageDataUtil.threshold","lime/_internal/graphics/ImageDataUtil.hx",1293,0x59dddace)
-HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_1406_unmultiplyAlpha,"lime._internal.graphics.ImageDataUtil","unmultiplyAlpha",0x3b9ff802,"lime._internal.graphics.ImageDataUtil.unmultiplyAlpha","lime/_internal/graphics/ImageDataUtil.hx",1406,0x59dddace)
-HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_1432___boxBlur,"lime._internal.graphics.ImageDataUtil","__boxBlur",0xee145fd3,"lime._internal.graphics.ImageDataUtil.__boxBlur","lime/_internal/graphics/ImageDataUtil.hx",1432,0x59dddace)
-HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_1452___boxBlurH,"lime._internal.graphics.ImageDataUtil","__boxBlurH",0x63bf7915,"lime._internal.graphics.ImageDataUtil.__boxBlurH","lime/_internal/graphics/ImageDataUtil.hx",1452,0x59dddace)
-HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_1499___boxBlurT,"lime._internal.graphics.ImageDataUtil","__boxBlurT",0x63bf7921,"lime._internal.graphics.ImageDataUtil.__boxBlurT","lime/_internal/graphics/ImageDataUtil.hx",1499,0x59dddace)
-HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_1551___calculateSourceOffset,"lime._internal.graphics.ImageDataUtil","__calculateSourceOffset",0x5e2fc695,"lime._internal.graphics.ImageDataUtil.__calculateSourceOffset","lime/_internal/graphics/ImageDataUtil.hx",1551,0x59dddace)
-HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_1570___getBoxesForGaussianBlur,"lime._internal.graphics.ImageDataUtil","__getBoxesForGaussianBlur",0xdeeea6e9,"lime._internal.graphics.ImageDataUtil.__getBoxesForGaussianBlur","lime/_internal/graphics/ImageDataUtil.hx",1570,0x59dddace)
-HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_1589___pixelCompare,"lime._internal.graphics.ImageDataUtil","__pixelCompare",0xf2ff119e,"lime._internal.graphics.ImageDataUtil.__pixelCompare","lime/_internal/graphics/ImageDataUtil.hx",1589,0x59dddace)
-HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_1638___translatePixel,"lime._internal.graphics.ImageDataUtil","__translatePixel",0xf39bf4f7,"lime._internal.graphics.ImageDataUtil.__translatePixel","lime/_internal/graphics/ImageDataUtil.hx",1638,0x59dddace)
+HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_641_gaussianBlur,"lime._internal.graphics.ImageDataUtil","gaussianBlur",0xb8d3c441,"lime._internal.graphics.ImageDataUtil.gaussianBlur","lime/_internal/graphics/ImageDataUtil.hx",641,0x59dddace)
+HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_667_getColorBoundsRect,"lime._internal.graphics.ImageDataUtil","getColorBoundsRect",0x8aa490c5,"lime._internal.graphics.ImageDataUtil.getColorBoundsRect","lime/_internal/graphics/ImageDataUtil.hx",667,0x59dddace)
+HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_811_getPixel,"lime._internal.graphics.ImageDataUtil","getPixel",0xb9da048f,"lime._internal.graphics.ImageDataUtil.getPixel","lime/_internal/graphics/ImageDataUtil.hx",811,0x59dddace)
+HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_830_getPixel32,"lime._internal.graphics.ImageDataUtil","getPixel32",0x67cfb2ee,"lime._internal.graphics.ImageDataUtil.getPixel32","lime/_internal/graphics/ImageDataUtil.hx",830,0x59dddace)
+HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_848_getPixels,"lime._internal.graphics.ImageDataUtil","getPixels",0xe4e9f904,"lime._internal.graphics.ImageDataUtil.getPixels","lime/_internal/graphics/ImageDataUtil.hx",848,0x59dddace)
+HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_901_merge,"lime._internal.graphics.ImageDataUtil","merge",0xf318fed9,"lime._internal.graphics.ImageDataUtil.merge","lime/_internal/graphics/ImageDataUtil.hx",901,0x59dddace)
+HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_950_multiplyAlpha,"lime._internal.graphics.ImageDataUtil","multiplyAlpha",0xed49d7bb,"lime._internal.graphics.ImageDataUtil.multiplyAlpha","lime/_internal/graphics/ImageDataUtil.hx",950,0x59dddace)
+HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_976_resize,"lime._internal.graphics.ImageDataUtil","resize",0xc3399ab3,"lime._internal.graphics.ImageDataUtil.resize","lime/_internal/graphics/ImageDataUtil.hx",976,0x59dddace)
+HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_1065_resizeBuffer,"lime._internal.graphics.ImageDataUtil","resizeBuffer",0x76145413,"lime._internal.graphics.ImageDataUtil.resizeBuffer","lime/_internal/graphics/ImageDataUtil.hx",1065,0x59dddace)
+HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_1101_setFormat,"lime._internal.graphics.ImageDataUtil","setFormat",0x391f851a,"lime._internal.graphics.ImageDataUtil.setFormat","lime/_internal/graphics/ImageDataUtil.hx",1101,0x59dddace)
+HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_1179_setPixel,"lime._internal.graphics.ImageDataUtil","setPixel",0x68375e03,"lime._internal.graphics.ImageDataUtil.setPixel","lime/_internal/graphics/ImageDataUtil.hx",1179,0x59dddace)
+HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_1207_setPixel32,"lime._internal.graphics.ImageDataUtil","setPixel32",0x6b4d5162,"lime._internal.graphics.ImageDataUtil.setPixel32","lime/_internal/graphics/ImageDataUtil.hx",1207,0x59dddace)
+HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_1229_setPixels,"lime._internal.graphics.ImageDataUtil","setPixels",0xc83ae510,"lime._internal.graphics.ImageDataUtil.setPixels","lime/_internal/graphics/ImageDataUtil.hx",1229,0x59dddace)
+HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_1287_threshold,"lime._internal.graphics.ImageDataUtil","threshold",0x108d444c,"lime._internal.graphics.ImageDataUtil.threshold","lime/_internal/graphics/ImageDataUtil.hx",1287,0x59dddace)
+HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_1400_unmultiplyAlpha,"lime._internal.graphics.ImageDataUtil","unmultiplyAlpha",0x3b9ff802,"lime._internal.graphics.ImageDataUtil.unmultiplyAlpha","lime/_internal/graphics/ImageDataUtil.hx",1400,0x59dddace)
+HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_1426___boxBlur,"lime._internal.graphics.ImageDataUtil","__boxBlur",0xee145fd3,"lime._internal.graphics.ImageDataUtil.__boxBlur","lime/_internal/graphics/ImageDataUtil.hx",1426,0x59dddace)
+HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_1446___boxBlurH,"lime._internal.graphics.ImageDataUtil","__boxBlurH",0x63bf7915,"lime._internal.graphics.ImageDataUtil.__boxBlurH","lime/_internal/graphics/ImageDataUtil.hx",1446,0x59dddace)
+HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_1493___boxBlurT,"lime._internal.graphics.ImageDataUtil","__boxBlurT",0x63bf7921,"lime._internal.graphics.ImageDataUtil.__boxBlurT","lime/_internal/graphics/ImageDataUtil.hx",1493,0x59dddace)
+HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_1545___calculateSourceOffset,"lime._internal.graphics.ImageDataUtil","__calculateSourceOffset",0x5e2fc695,"lime._internal.graphics.ImageDataUtil.__calculateSourceOffset","lime/_internal/graphics/ImageDataUtil.hx",1545,0x59dddace)
+HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_1564___getBoxesForGaussianBlur,"lime._internal.graphics.ImageDataUtil","__getBoxesForGaussianBlur",0xdeeea6e9,"lime._internal.graphics.ImageDataUtil.__getBoxesForGaussianBlur","lime/_internal/graphics/ImageDataUtil.hx",1564,0x59dddace)
+HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_1583___pixelCompare,"lime._internal.graphics.ImageDataUtil","__pixelCompare",0xf2ff119e,"lime._internal.graphics.ImageDataUtil.__pixelCompare","lime/_internal/graphics/ImageDataUtil.hx",1583,0x59dddace)
+HX_LOCAL_STACK_FRAME(_hx_pos_68d87270d4f7b5ed_1632___translatePixel,"lime._internal.graphics.ImageDataUtil","__translatePixel",0xf39bf4f7,"lime._internal.graphics.ImageDataUtil.__translatePixel","lime/_internal/graphics/ImageDataUtil.hx",1632,0x59dddace)
 namespace lime{
 namespace _internal{
 namespace graphics{
@@ -146,16 +146,16 @@ HXLINE(  46)		 ::lime::_internal::graphics::_ImageDataUtil::ImageDataView source
 HXLINE(  47)		 ::lime::_internal::graphics::_ImageDataUtil::ImageDataView mapView =  ::lime::_internal::graphics::_ImageDataUtil::ImageDataView_obj::__alloc( HX_CTX ,map,null());
 HXLINE(  49)		int row;
 HXLINE(  51)		int sourceOffset;
-HXLINE(  53)		int sourcePixel = 0;
-HXLINE(  54)		int mapPixel = 0;
-HXLINE(  55)		int targetPixel = 0;
+HXLINE(  53)		int sourcePixel;
+HXLINE(  54)		int mapPixel;
+HXLINE(  55)		int targetPixel;
 HXLINE(  57)		Float mapPixelX;
 HXLINE(  58)		Float mapPixelY;
 HXLINE(  59)		Float mapPixelA;
-HXLINE(  62)		int s1 = 0;
-HXLINE(  63)		int s2 = 0;
-HXLINE(  64)		int s3 = 0;
-HXLINE(  65)		int s4 = 0;
+HXLINE(  62)		int s1;
+HXLINE(  63)		int s2;
+HXLINE(  64)		int s3;
+HXLINE(  65)		int s4;
 HXLINE(  67)		int mPointXFloor;
 HXLINE(  68)		int mPointYFloor;
 HXLINE(  70)		int disOffsetXFloor;
@@ -748,7 +748,8 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC6(ImageDataUtil_obj,bilinear,return )
 
 int ImageDataUtil_obj::lerpRGBA(int v0,int v1,Float x){
             	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_143_lerpRGBA)
-HXLINE( 144)		int result = 0;
+HXLINE( 144)		int this1 = 0;
+HXDLIN( 144)		int result = this1;
 HXLINE( 145)		{
 HXLINE( 145)			int value = ::Math_obj::floor(::lime::_internal::graphics::ImageDataUtil_obj::lerp(( (Float)((::hx::UShr(v0,24) & 255)) ),( (Float)((::hx::UShr(v1,24) & 255)) ),x));
 HXDLIN( 145)			result = (((((value & 255) << 24) | (((::hx::UShr(result,16) & 255) & 255) << 16)) | (((::hx::UShr(result,8) & 255) & 255) << 8)) | ((result & 255) & 255));
@@ -809,7 +810,7 @@ HXLINE( 180)			 ::lime::utils::ArrayBufferView greenTable = ::lime::math::_Color
 HXLINE( 181)			 ::lime::utils::ArrayBufferView blueTable = ::lime::math::_ColorMatrix::ColorMatrix_Impl__obj::getBlueTable(colorMatrix);
 HXLINE( 183)			int row;
 HXDLIN( 183)			int offset;
-HXDLIN( 183)			int pixel = 0;
+HXDLIN( 183)			int pixel;
 HXLINE( 185)			{
 HXLINE( 185)				int _g = 0;
 HXDLIN( 185)				int _g1 = dataView->height;
@@ -1026,8 +1027,8 @@ HXLINE( 238)			bool srcPremultiplied = sourceImage->buffer->premultiplied;
 HXLINE( 239)			bool destPremultiplied = image->buffer->premultiplied;
 HXLINE( 241)			int srcPosition;
 HXDLIN( 241)			int destPosition;
-HXDLIN( 241)			int srcPixel = 0;
-HXDLIN( 241)			int destPixel = 0;
+HXDLIN( 241)			int srcPixel;
+HXDLIN( 241)			int destPixel;
 HXDLIN( 241)			int value = 0;
 HXLINE( 247)			{
 HXLINE( 247)				int _g = 0;
@@ -1398,427 +1399,427 @@ HXLINE( 331)				Float sourceAlpha;
 HXDLIN( 331)				Float destAlpha;
 HXDLIN( 331)				Float oneMinusSourceAlpha;
 HXDLIN( 331)				Float blendAlpha;
-HXLINE( 332)				int sourcePixel = 0;
-HXLINE( 333)				int destPixel = 0;
-HXLINE( 335)				bool sourcePremultiplied = sourceImage->buffer->premultiplied;
-HXLINE( 336)				bool destPremultiplied = image->buffer->premultiplied;
-HXLINE( 337)				int sourceBytesPerPixel = ::Std_obj::_hx_int((( (Float)(sourceImage->buffer->bitsPerPixel) ) / ( (Float)(8) )));
-HXLINE( 338)				int destBytesPerPixel = ::Std_obj::_hx_int((( (Float)(image->buffer->bitsPerPixel) ) / ( (Float)(8) )));
-HXLINE( 340)				bool useAlphaImage;
-HXDLIN( 340)				if (::hx::IsNotNull( alphaImage )) {
-HXLINE( 340)					useAlphaImage = alphaImage->get_transparent();
+HXLINE( 332)				int sourcePixel;
+HXDLIN( 332)				int destPixel;
+HXLINE( 334)				bool sourcePremultiplied = sourceImage->buffer->premultiplied;
+HXLINE( 335)				bool destPremultiplied = image->buffer->premultiplied;
+HXLINE( 336)				int sourceBytesPerPixel = ::Std_obj::_hx_int((( (Float)(sourceImage->buffer->bitsPerPixel) ) / ( (Float)(8) )));
+HXLINE( 337)				int destBytesPerPixel = ::Std_obj::_hx_int((( (Float)(image->buffer->bitsPerPixel) ) / ( (Float)(8) )));
+HXLINE( 339)				bool useAlphaImage;
+HXDLIN( 339)				if (::hx::IsNotNull( alphaImage )) {
+HXLINE( 339)					useAlphaImage = alphaImage->get_transparent();
             				}
             				else {
-HXLINE( 340)					useAlphaImage = false;
+HXLINE( 339)					useAlphaImage = false;
             				}
-HXLINE( 341)				bool blend;
-HXDLIN( 341)				bool blend1;
-HXDLIN( 341)				if (!(mergeAlpha)) {
-HXLINE( 341)					if (useAlphaImage) {
+HXLINE( 340)				bool blend;
+HXDLIN( 340)				bool blend1;
+HXDLIN( 340)				if (!(mergeAlpha)) {
+HXLINE( 340)					if (useAlphaImage) {
+HXLINE( 340)						blend1 = !(image->get_transparent());
+            					}
+            					else {
+HXLINE( 340)						blend1 = false;
+            					}
+            				}
+            				else {
+HXLINE( 340)					blend1 = true;
+            				}
+HXDLIN( 340)				if (!(blend1)) {
+HXLINE( 341)					bool blend1;
+HXDLIN( 341)					if (!(mergeAlpha)) {
 HXLINE( 341)						blend1 = !(image->get_transparent());
             					}
             					else {
 HXLINE( 341)						blend1 = false;
             					}
-            				}
-            				else {
-HXLINE( 341)					blend1 = true;
-            				}
-HXDLIN( 341)				if (!(blend1)) {
-HXLINE( 342)					bool blend1;
-HXDLIN( 342)					if (!(mergeAlpha)) {
-HXLINE( 342)						blend1 = !(image->get_transparent());
+HXDLIN( 341)					if (blend1) {
+HXLINE( 340)						blend = sourceImage->get_transparent();
             					}
             					else {
-HXLINE( 342)						blend1 = false;
-            					}
-HXDLIN( 342)					if (blend1) {
-HXLINE( 341)						blend = sourceImage->get_transparent();
-            					}
-            					else {
-HXLINE( 341)						blend = false;
+HXLINE( 340)						blend = false;
             					}
             				}
             				else {
-HXLINE( 341)					blend = true;
+HXLINE( 340)					blend = true;
             				}
-HXLINE( 344)				if (!(useAlphaImage)) {
-HXLINE( 346)					if (blend) {
-HXLINE( 348)						int _g = 0;
-HXDLIN( 348)						int _g1 = destView->height;
-HXDLIN( 348)						while((_g < _g1)){
-HXLINE( 348)							_g = (_g + 1);
-HXDLIN( 348)							int y = (_g - 1);
-HXLINE( 350)							sourcePosition = (sourceView->byteOffset + (sourceView->stride * y));
-HXLINE( 351)							destPosition = (destView->byteOffset + (destView->stride * y));
-HXLINE( 353)							{
-HXLINE( 353)								int _g1 = 0;
-HXDLIN( 353)								int _g2 = destView->width;
-HXDLIN( 353)								while((_g1 < _g2)){
-HXLINE( 353)									_g1 = (_g1 + 1);
-HXDLIN( 353)									int x = (_g1 - 1);
-HXLINE( 355)									{
-HXLINE( 355)										switch((int)(sourceFormat)){
+HXLINE( 343)				if (!(useAlphaImage)) {
+HXLINE( 345)					if (blend) {
+HXLINE( 347)						int _g = 0;
+HXDLIN( 347)						int _g1 = destView->height;
+HXDLIN( 347)						while((_g < _g1)){
+HXLINE( 347)							_g = (_g + 1);
+HXDLIN( 347)							int y = (_g - 1);
+HXLINE( 349)							sourcePosition = (sourceView->byteOffset + (sourceView->stride * y));
+HXLINE( 350)							destPosition = (destView->byteOffset + (destView->stride * y));
+HXLINE( 352)							{
+HXLINE( 352)								int _g1 = 0;
+HXDLIN( 352)								int _g2 = destView->width;
+HXDLIN( 352)								while((_g1 < _g2)){
+HXLINE( 352)									_g1 = (_g1 + 1);
+HXDLIN( 352)									int x = (_g1 - 1);
+HXLINE( 354)									{
+HXLINE( 354)										switch((int)(sourceFormat)){
             											case (int)0: {
-HXLINE( 355)												int r = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + sourcePosition)) & 255)) );
-HXDLIN( 355)												int g = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 1))) & 255)) );
-HXDLIN( 355)												int b = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 2))) & 255)) );
-HXDLIN( 355)												sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 3))) & 255)) ) & 255));
+HXLINE( 354)												int r = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + sourcePosition)) & 255)) );
+HXDLIN( 354)												int g = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 1))) & 255)) );
+HXDLIN( 354)												int b = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 2))) & 255)) );
+HXDLIN( 354)												sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 3))) & 255)) ) & 255));
             											}
             											break;
             											case (int)1: {
-HXLINE( 355)												int r = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 1))) & 255)) );
-HXDLIN( 355)												int g = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 2))) & 255)) );
-HXDLIN( 355)												int b = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 3))) & 255)) );
-HXDLIN( 355)												sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + sourcePosition)) & 255)) ) & 255));
+HXLINE( 354)												int r = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 1))) & 255)) );
+HXDLIN( 354)												int g = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 2))) & 255)) );
+HXDLIN( 354)												int b = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 3))) & 255)) );
+HXDLIN( 354)												sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + sourcePosition)) & 255)) ) & 255));
             											}
             											break;
             											case (int)2: {
-HXLINE( 355)												int r = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 2))) & 255)) );
-HXDLIN( 355)												int g = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 1))) & 255)) );
-HXDLIN( 355)												int b = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + sourcePosition)) & 255)) );
-HXDLIN( 355)												sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 3))) & 255)) ) & 255));
+HXLINE( 354)												int r = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 2))) & 255)) );
+HXDLIN( 354)												int g = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 1))) & 255)) );
+HXDLIN( 354)												int b = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + sourcePosition)) & 255)) );
+HXDLIN( 354)												sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 3))) & 255)) ) & 255));
             											}
             											break;
             										}
-HXDLIN( 355)										if (sourcePremultiplied) {
+HXDLIN( 354)										if (sourcePremultiplied) {
+HXLINE( 354)											bool _hx_tmp;
+HXDLIN( 354)											if (((sourcePixel & 255) != 0)) {
+HXLINE( 354)												_hx_tmp = ((sourcePixel & 255) != 255);
+            											}
+            											else {
+HXLINE( 354)												_hx_tmp = false;
+            											}
+HXDLIN( 354)											if (_hx_tmp) {
+HXLINE( 354)												::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((sourcePixel & 255)) ));
+HXDLIN( 354)												{
+HXLINE( 354)													 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 354)													int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(sourcePixel,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN( 354)													 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 354)													int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(sourcePixel,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN( 354)													 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 354)													sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(sourcePixel,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((sourcePixel & 255) & 255));
+            												}
+            											}
+            										}
+            									}
+HXLINE( 355)									{
+HXLINE( 355)										switch((int)(destFormat)){
+            											case (int)0: {
+HXLINE( 355)												int r = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + destPosition)) & 255)) );
+HXDLIN( 355)												int g = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1))) & 255)) );
+HXDLIN( 355)												int b = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2))) & 255)) );
+HXDLIN( 355)												destPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3))) & 255)) ) & 255));
+            											}
+            											break;
+            											case (int)1: {
+HXLINE( 355)												int r = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1))) & 255)) );
+HXDLIN( 355)												int g = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2))) & 255)) );
+HXDLIN( 355)												int b = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3))) & 255)) );
+HXDLIN( 355)												destPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + destPosition)) & 255)) ) & 255));
+            											}
+            											break;
+            											case (int)2: {
+HXLINE( 355)												int r = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2))) & 255)) );
+HXDLIN( 355)												int g = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1))) & 255)) );
+HXDLIN( 355)												int b = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + destPosition)) & 255)) );
+HXDLIN( 355)												destPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3))) & 255)) ) & 255));
+            											}
+            											break;
+            										}
+HXDLIN( 355)										if (destPremultiplied) {
 HXLINE( 355)											bool _hx_tmp;
-HXDLIN( 355)											if (((sourcePixel & 255) != 0)) {
-HXLINE( 355)												_hx_tmp = ((sourcePixel & 255) != 255);
+HXDLIN( 355)											if (((destPixel & 255) != 0)) {
+HXLINE( 355)												_hx_tmp = ((destPixel & 255) != 255);
             											}
             											else {
 HXLINE( 355)												_hx_tmp = false;
             											}
 HXDLIN( 355)											if (_hx_tmp) {
-HXLINE( 355)												::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((sourcePixel & 255)) ));
+HXLINE( 355)												::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((destPixel & 255)) ));
 HXDLIN( 355)												{
 HXLINE( 355)													 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 355)													int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(sourcePixel,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN( 355)													int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(destPixel,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
 HXDLIN( 355)													 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 355)													int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(sourcePixel,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN( 355)													int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(destPixel,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
 HXDLIN( 355)													 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 355)													sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(sourcePixel,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((sourcePixel & 255) & 255));
+HXDLIN( 355)													destPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(destPixel,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((destPixel & 255) & 255));
             												}
             											}
             										}
             									}
-HXLINE( 356)									{
-HXLINE( 356)										switch((int)(destFormat)){
-            											case (int)0: {
-HXLINE( 356)												int r = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + destPosition)) & 255)) );
-HXDLIN( 356)												int g = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1))) & 255)) );
-HXDLIN( 356)												int b = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2))) & 255)) );
-HXDLIN( 356)												destPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3))) & 255)) ) & 255));
-            											}
-            											break;
-            											case (int)1: {
-HXLINE( 356)												int r = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1))) & 255)) );
-HXDLIN( 356)												int g = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2))) & 255)) );
-HXDLIN( 356)												int b = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3))) & 255)) );
-HXDLIN( 356)												destPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + destPosition)) & 255)) ) & 255));
-            											}
-            											break;
-            											case (int)2: {
-HXLINE( 356)												int r = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2))) & 255)) );
-HXDLIN( 356)												int g = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1))) & 255)) );
-HXDLIN( 356)												int b = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + destPosition)) & 255)) );
-HXDLIN( 356)												destPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3))) & 255)) ) & 255));
-            											}
-            											break;
-            										}
-HXDLIN( 356)										if (destPremultiplied) {
-HXLINE( 356)											bool _hx_tmp;
-HXDLIN( 356)											if (((destPixel & 255) != 0)) {
-HXLINE( 356)												_hx_tmp = ((destPixel & 255) != 255);
-            											}
-            											else {
-HXLINE( 356)												_hx_tmp = false;
-            											}
-HXDLIN( 356)											if (_hx_tmp) {
-HXLINE( 356)												::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((destPixel & 255)) ));
-HXDLIN( 356)												{
-HXLINE( 356)													 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 356)													int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(destPixel,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN( 356)													 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 356)													int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(destPixel,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN( 356)													 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 356)													destPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(destPixel,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((destPixel & 255) & 255));
-            												}
-            											}
-            										}
-            									}
-HXLINE( 358)									sourceAlpha = (( (Float)((sourcePixel & 255)) ) / ((Float)255.0));
-HXLINE( 359)									destAlpha = (( (Float)((destPixel & 255)) ) / ((Float)255.0));
-HXLINE( 360)									oneMinusSourceAlpha = (( (Float)(1) ) - sourceAlpha);
-HXLINE( 361)									blendAlpha = (sourceAlpha + (destAlpha * oneMinusSourceAlpha));
-HXLINE( 363)									if ((blendAlpha == 0)) {
-HXLINE( 365)										destPixel = 0;
+HXLINE( 357)									sourceAlpha = (( (Float)((sourcePixel & 255)) ) / ((Float)255.0));
+HXLINE( 358)									destAlpha = (( (Float)((destPixel & 255)) ) / ((Float)255.0));
+HXLINE( 359)									oneMinusSourceAlpha = (( (Float)(1) ) - sourceAlpha);
+HXLINE( 360)									blendAlpha = (sourceAlpha + (destAlpha * oneMinusSourceAlpha));
+HXLINE( 362)									if ((blendAlpha == 0)) {
+HXLINE( 364)										destPixel = 0;
             									}
             									else {
-HXLINE( 369)										{
-HXLINE( 369)											 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 369)											int value = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((((( (Float)((::hx::UShr(sourcePixel,24) & 255)) ) * sourceAlpha) + ((( (Float)((::hx::UShr(destPixel,24) & 255)) ) * destAlpha) * oneMinusSourceAlpha)) / blendAlpha)))) & 255)) );
-HXDLIN( 369)											destPixel = (((((value & 255) << 24) | (((::hx::UShr(destPixel,16) & 255) & 255) << 16)) | (((::hx::UShr(destPixel,8) & 255) & 255) << 8)) | ((destPixel & 255) & 255));
+HXLINE( 368)										{
+HXLINE( 368)											 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 368)											int value = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((((( (Float)((::hx::UShr(sourcePixel,24) & 255)) ) * sourceAlpha) + ((( (Float)((::hx::UShr(destPixel,24) & 255)) ) * destAlpha) * oneMinusSourceAlpha)) / blendAlpha)))) & 255)) );
+HXDLIN( 368)											destPixel = (((((value & 255) << 24) | (((::hx::UShr(destPixel,16) & 255) & 255) << 16)) | (((::hx::UShr(destPixel,8) & 255) & 255) << 8)) | ((destPixel & 255) & 255));
             										}
-HXLINE( 372)										{
-HXLINE( 372)											 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 372)											int value1 = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((((( (Float)((::hx::UShr(sourcePixel,16) & 255)) ) * sourceAlpha) + ((( (Float)((::hx::UShr(destPixel,16) & 255)) ) * destAlpha) * oneMinusSourceAlpha)) / blendAlpha)))) & 255)) );
-HXDLIN( 372)											destPixel = ((((((::hx::UShr(destPixel,24) & 255) & 255) << 24) | ((value1 & 255) << 16)) | (((::hx::UShr(destPixel,8) & 255) & 255) << 8)) | ((destPixel & 255) & 255));
+HXLINE( 371)										{
+HXLINE( 371)											 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 371)											int value1 = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((((( (Float)((::hx::UShr(sourcePixel,16) & 255)) ) * sourceAlpha) + ((( (Float)((::hx::UShr(destPixel,16) & 255)) ) * destAlpha) * oneMinusSourceAlpha)) / blendAlpha)))) & 255)) );
+HXDLIN( 371)											destPixel = ((((((::hx::UShr(destPixel,24) & 255) & 255) << 24) | ((value1 & 255) << 16)) | (((::hx::UShr(destPixel,8) & 255) & 255) << 8)) | ((destPixel & 255) & 255));
             										}
-HXLINE( 375)										{
-HXLINE( 375)											 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 375)											int value2 = ( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((((( (Float)((::hx::UShr(sourcePixel,8) & 255)) ) * sourceAlpha) + ((( (Float)((::hx::UShr(destPixel,8) & 255)) ) * destAlpha) * oneMinusSourceAlpha)) / blendAlpha)))) & 255)) );
-HXDLIN( 375)											destPixel = ((((((::hx::UShr(destPixel,24) & 255) & 255) << 24) | (((::hx::UShr(destPixel,16) & 255) & 255) << 16)) | ((value2 & 255) << 8)) | ((destPixel & 255) & 255));
+HXLINE( 374)										{
+HXLINE( 374)											 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 374)											int value2 = ( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((((( (Float)((::hx::UShr(sourcePixel,8) & 255)) ) * sourceAlpha) + ((( (Float)((::hx::UShr(destPixel,8) & 255)) ) * destAlpha) * oneMinusSourceAlpha)) / blendAlpha)))) & 255)) );
+HXDLIN( 374)											destPixel = ((((((::hx::UShr(destPixel,24) & 255) & 255) << 24) | (((::hx::UShr(destPixel,16) & 255) & 255) << 16)) | ((value2 & 255) << 8)) | ((destPixel & 255) & 255));
             										}
-HXLINE( 378)										{
-HXLINE( 378)											 ::lime::utils::ArrayBufferView this4 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 378)											int value3 = ( (int)(( ::__hxcpp_memory_get_byte(this4->buffer->b,(this4->byteOffset + ::Math_obj::round((blendAlpha * ((Float)255.0))))) & 255)) );
-HXDLIN( 378)											destPixel = ((((((::hx::UShr(destPixel,24) & 255) & 255) << 24) | (((::hx::UShr(destPixel,16) & 255) & 255) << 16)) | (((::hx::UShr(destPixel,8) & 255) & 255) << 8)) | (value3 & 255));
+HXLINE( 377)										{
+HXLINE( 377)											 ::lime::utils::ArrayBufferView this4 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 377)											int value3 = ( (int)(( ::__hxcpp_memory_get_byte(this4->buffer->b,(this4->byteOffset + ::Math_obj::round((blendAlpha * ((Float)255.0))))) & 255)) );
+HXDLIN( 377)											destPixel = ((((((::hx::UShr(destPixel,24) & 255) & 255) << 24) | (((::hx::UShr(destPixel,16) & 255) & 255) << 16)) | (((::hx::UShr(destPixel,8) & 255) & 255) << 8)) | (value3 & 255));
             										}
             									}
-HXLINE( 381)									{
-HXLINE( 381)										if (destPremultiplied) {
-HXLINE( 381)											if (((destPixel & 255) == 0)) {
-HXLINE( 381)												if ((destPixel != 0)) {
-HXLINE( 381)													destPixel = 0;
+HXLINE( 380)									{
+HXLINE( 380)										if (destPremultiplied) {
+HXLINE( 380)											if (((destPixel & 255) == 0)) {
+HXLINE( 380)												if ((destPixel != 0)) {
+HXLINE( 380)													destPixel = 0;
             												}
             											}
             											else {
-HXLINE( 381)												if (((destPixel & 255) != 255)) {
-HXLINE( 381)													 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
-HXDLIN( 381)													::lime::math::_RGBA::RGBA_Impl__obj::a16 = ( (int)( ::__hxcpp_memory_get_ui32(this1->buffer->b,(this1->byteOffset + ((destPixel & 255) * 4)))) );
-HXDLIN( 381)													destPixel = ((((((((::hx::UShr(destPixel,24) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 24) | (((((::hx::UShr(destPixel,16) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 16)) | (((((::hx::UShr(destPixel,8) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 8)) | ((destPixel & 255) & 255));
+HXLINE( 380)												if (((destPixel & 255) != 255)) {
+HXLINE( 380)													 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
+HXDLIN( 380)													::lime::math::_RGBA::RGBA_Impl__obj::a16 = ( (int)( ::__hxcpp_memory_get_ui32(this1->buffer->b,(this1->byteOffset + ((destPixel & 255) * 4)))) );
+HXDLIN( 380)													destPixel = ((((((((::hx::UShr(destPixel,24) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 24) | (((((::hx::UShr(destPixel,16) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 16)) | (((((::hx::UShr(destPixel,8) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 8)) | ((destPixel & 255) & 255));
             												}
             											}
             										}
-HXDLIN( 381)										switch((int)(destFormat)){
+HXDLIN( 380)										switch((int)(destFormat)){
             											case (int)0: {
-HXLINE( 381)												{
-HXLINE( 381)													int val = (::hx::UShr(destPixel,24) & 255);
-HXDLIN( 381)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
+HXLINE( 380)												{
+HXLINE( 380)													int val = (::hx::UShr(destPixel,24) & 255);
+HXDLIN( 380)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
             												}
-HXDLIN( 381)												{
-HXLINE( 381)													int val1 = (::hx::UShr(destPixel,16) & 255);
-HXDLIN( 381)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
+HXDLIN( 380)												{
+HXLINE( 380)													int val1 = (::hx::UShr(destPixel,16) & 255);
+HXDLIN( 380)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
             												}
-HXDLIN( 381)												{
-HXLINE( 381)													int val2 = (::hx::UShr(destPixel,8) & 255);
-HXDLIN( 381)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
+HXDLIN( 380)												{
+HXLINE( 380)													int val2 = (::hx::UShr(destPixel,8) & 255);
+HXDLIN( 380)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
             												}
-HXDLIN( 381)												{
-HXLINE( 381)													int val3 = (destPixel & 255);
-HXDLIN( 381)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
+HXDLIN( 380)												{
+HXLINE( 380)													int val3 = (destPixel & 255);
+HXDLIN( 380)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
             												}
             											}
             											break;
             											case (int)1: {
-HXLINE( 381)												{
-HXLINE( 381)													int val = (destPixel & 255);
-HXDLIN( 381)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
+HXLINE( 380)												{
+HXLINE( 380)													int val = (destPixel & 255);
+HXDLIN( 380)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
             												}
-HXDLIN( 381)												{
-HXLINE( 381)													int val1 = (::hx::UShr(destPixel,24) & 255);
-HXDLIN( 381)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
+HXDLIN( 380)												{
+HXLINE( 380)													int val1 = (::hx::UShr(destPixel,24) & 255);
+HXDLIN( 380)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
             												}
-HXDLIN( 381)												{
-HXLINE( 381)													int val2 = (::hx::UShr(destPixel,16) & 255);
-HXDLIN( 381)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
+HXDLIN( 380)												{
+HXLINE( 380)													int val2 = (::hx::UShr(destPixel,16) & 255);
+HXDLIN( 380)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
             												}
-HXDLIN( 381)												{
-HXLINE( 381)													int val3 = (::hx::UShr(destPixel,8) & 255);
-HXDLIN( 381)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
+HXDLIN( 380)												{
+HXLINE( 380)													int val3 = (::hx::UShr(destPixel,8) & 255);
+HXDLIN( 380)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
             												}
             											}
             											break;
             											case (int)2: {
-HXLINE( 381)												{
-HXLINE( 381)													int val = (::hx::UShr(destPixel,8) & 255);
-HXDLIN( 381)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
+HXLINE( 380)												{
+HXLINE( 380)													int val = (::hx::UShr(destPixel,8) & 255);
+HXDLIN( 380)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
             												}
-HXDLIN( 381)												{
-HXLINE( 381)													int val1 = (::hx::UShr(destPixel,16) & 255);
-HXDLIN( 381)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
+HXDLIN( 380)												{
+HXLINE( 380)													int val1 = (::hx::UShr(destPixel,16) & 255);
+HXDLIN( 380)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
             												}
-HXDLIN( 381)												{
-HXLINE( 381)													int val2 = (::hx::UShr(destPixel,24) & 255);
-HXDLIN( 381)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
+HXDLIN( 380)												{
+HXLINE( 380)													int val2 = (::hx::UShr(destPixel,24) & 255);
+HXDLIN( 380)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
             												}
-HXDLIN( 381)												{
-HXLINE( 381)													int val3 = (destPixel & 255);
-HXDLIN( 381)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
+HXDLIN( 380)												{
+HXLINE( 380)													int val3 = (destPixel & 255);
+HXDLIN( 380)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
             												}
             											}
             											break;
             										}
             									}
-HXLINE( 383)									sourcePosition = (sourcePosition + 4);
-HXLINE( 384)									destPosition = (destPosition + 4);
+HXLINE( 382)									sourcePosition = (sourcePosition + 4);
+HXLINE( 383)									destPosition = (destPosition + 4);
             								}
             							}
             						}
             					}
             					else {
-HXLINE( 388)						bool _hx_tmp;
-HXDLIN( 388)						bool _hx_tmp1;
-HXDLIN( 388)						if ((sourceFormat == destFormat)) {
-HXLINE( 388)							_hx_tmp1 = (sourcePremultiplied == destPremultiplied);
+HXLINE( 387)						bool _hx_tmp;
+HXDLIN( 387)						bool _hx_tmp1;
+HXDLIN( 387)						if ((sourceFormat == destFormat)) {
+HXLINE( 387)							_hx_tmp1 = (sourcePremultiplied == destPremultiplied);
             						}
             						else {
-HXLINE( 388)							_hx_tmp1 = false;
+HXLINE( 387)							_hx_tmp1 = false;
             						}
-HXDLIN( 388)						if (_hx_tmp1) {
-HXLINE( 388)							_hx_tmp = (sourceBytesPerPixel == destBytesPerPixel);
+HXDLIN( 387)						if (_hx_tmp1) {
+HXLINE( 387)							_hx_tmp = (sourceBytesPerPixel == destBytesPerPixel);
             						}
             						else {
-HXLINE( 388)							_hx_tmp = false;
+HXLINE( 387)							_hx_tmp = false;
             						}
-HXDLIN( 388)						if (_hx_tmp) {
-HXLINE( 392)							int _g = 0;
-HXDLIN( 392)							int _g1 = destView->height;
-HXDLIN( 392)							while((_g < _g1)){
-HXLINE( 392)								_g = (_g + 1);
-HXDLIN( 392)								int y = (_g - 1);
-HXLINE( 394)								sourcePosition = (sourceView->byteOffset + (sourceView->stride * y));
-HXLINE( 395)								destPosition = (destView->byteOffset + (destView->stride * y));
-HXLINE( 401)								destData->buffer->blit(destPosition,sourceData->buffer,sourcePosition,(destView->width * destBytesPerPixel));
+HXDLIN( 387)						if (_hx_tmp) {
+HXLINE( 391)							int _g = 0;
+HXDLIN( 391)							int _g1 = destView->height;
+HXDLIN( 391)							while((_g < _g1)){
+HXLINE( 391)								_g = (_g + 1);
+HXDLIN( 391)								int y = (_g - 1);
+HXLINE( 393)								sourcePosition = (sourceView->byteOffset + (sourceView->stride * y));
+HXLINE( 394)								destPosition = (destView->byteOffset + (destView->stride * y));
+HXLINE( 400)								destData->buffer->blit(destPosition,sourceData->buffer,sourcePosition,(destView->width * destBytesPerPixel));
             							}
             						}
             						else {
-HXLINE( 407)							int _g = 0;
-HXDLIN( 407)							int _g1 = destView->height;
-HXDLIN( 407)							while((_g < _g1)){
-HXLINE( 407)								_g = (_g + 1);
-HXDLIN( 407)								int y = (_g - 1);
-HXLINE( 409)								sourcePosition = (sourceView->byteOffset + (sourceView->stride * y));
-HXLINE( 410)								destPosition = (destView->byteOffset + (destView->stride * y));
-HXLINE( 412)								{
-HXLINE( 412)									int _g1 = 0;
-HXDLIN( 412)									int _g2 = destView->width;
-HXDLIN( 412)									while((_g1 < _g2)){
-HXLINE( 412)										_g1 = (_g1 + 1);
-HXDLIN( 412)										int x = (_g1 - 1);
+HXLINE( 406)							int _g = 0;
+HXDLIN( 406)							int _g1 = destView->height;
+HXDLIN( 406)							while((_g < _g1)){
+HXLINE( 406)								_g = (_g + 1);
+HXDLIN( 406)								int y = (_g - 1);
+HXLINE( 408)								sourcePosition = (sourceView->byteOffset + (sourceView->stride * y));
+HXLINE( 409)								destPosition = (destView->byteOffset + (destView->stride * y));
+HXLINE( 411)								{
+HXLINE( 411)									int _g1 = 0;
+HXDLIN( 411)									int _g2 = destView->width;
+HXDLIN( 411)									while((_g1 < _g2)){
+HXLINE( 411)										_g1 = (_g1 + 1);
+HXDLIN( 411)										int x = (_g1 - 1);
+HXLINE( 413)										{
+HXLINE( 413)											switch((int)(sourceFormat)){
+            												case (int)0: {
+HXLINE( 413)													int r = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + sourcePosition)) & 255)) );
+HXDLIN( 413)													int g = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 1))) & 255)) );
+HXDLIN( 413)													int b = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 2))) & 255)) );
+HXDLIN( 413)													sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 3))) & 255)) ) & 255));
+            												}
+            												break;
+            												case (int)1: {
+HXLINE( 413)													int r = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 1))) & 255)) );
+HXDLIN( 413)													int g = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 2))) & 255)) );
+HXDLIN( 413)													int b = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 3))) & 255)) );
+HXDLIN( 413)													sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + sourcePosition)) & 255)) ) & 255));
+            												}
+            												break;
+            												case (int)2: {
+HXLINE( 413)													int r = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 2))) & 255)) );
+HXDLIN( 413)													int g = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 1))) & 255)) );
+HXDLIN( 413)													int b = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + sourcePosition)) & 255)) );
+HXDLIN( 413)													sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 3))) & 255)) ) & 255));
+            												}
+            												break;
+            											}
+HXDLIN( 413)											if (sourcePremultiplied) {
+HXLINE( 413)												bool _hx_tmp;
+HXDLIN( 413)												if (((sourcePixel & 255) != 0)) {
+HXLINE( 413)													_hx_tmp = ((sourcePixel & 255) != 255);
+            												}
+            												else {
+HXLINE( 413)													_hx_tmp = false;
+            												}
+HXDLIN( 413)												if (_hx_tmp) {
+HXLINE( 413)													::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((sourcePixel & 255)) ));
+HXDLIN( 413)													{
+HXLINE( 413)														 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 413)														int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(sourcePixel,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN( 413)														 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 413)														int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(sourcePixel,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN( 413)														 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 413)														sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(sourcePixel,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((sourcePixel & 255) & 255));
+            													}
+            												}
+            											}
+            										}
 HXLINE( 414)										{
-HXLINE( 414)											switch((int)(sourceFormat)){
-            												case (int)0: {
-HXLINE( 414)													int r = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + sourcePosition)) & 255)) );
-HXDLIN( 414)													int g = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 1))) & 255)) );
-HXDLIN( 414)													int b = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 2))) & 255)) );
-HXDLIN( 414)													sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 3))) & 255)) ) & 255));
-            												}
-            												break;
-            												case (int)1: {
-HXLINE( 414)													int r = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 1))) & 255)) );
-HXDLIN( 414)													int g = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 2))) & 255)) );
-HXDLIN( 414)													int b = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 3))) & 255)) );
-HXDLIN( 414)													sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + sourcePosition)) & 255)) ) & 255));
-            												}
-            												break;
-            												case (int)2: {
-HXLINE( 414)													int r = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 2))) & 255)) );
-HXDLIN( 414)													int g = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 1))) & 255)) );
-HXDLIN( 414)													int b = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + sourcePosition)) & 255)) );
-HXDLIN( 414)													sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 3))) & 255)) ) & 255));
-            												}
-            												break;
-            											}
-HXDLIN( 414)											if (sourcePremultiplied) {
-HXLINE( 414)												bool _hx_tmp;
-HXDLIN( 414)												if (((sourcePixel & 255) != 0)) {
-HXLINE( 414)													_hx_tmp = ((sourcePixel & 255) != 255);
+HXLINE( 414)											if (destPremultiplied) {
+HXLINE( 414)												if (((sourcePixel & 255) == 0)) {
+HXLINE( 414)													if ((sourcePixel != 0)) {
+HXLINE( 414)														sourcePixel = 0;
+            													}
             												}
             												else {
-HXLINE( 414)													_hx_tmp = false;
+HXLINE( 414)													if (((sourcePixel & 255) != 255)) {
+HXLINE( 414)														 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
+HXDLIN( 414)														::lime::math::_RGBA::RGBA_Impl__obj::a16 = ( (int)( ::__hxcpp_memory_get_ui32(this1->buffer->b,(this1->byteOffset + ((sourcePixel & 255) * 4)))) );
+HXDLIN( 414)														sourcePixel = ((((((((::hx::UShr(sourcePixel,24) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 24) | (((((::hx::UShr(sourcePixel,16) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 16)) | (((((::hx::UShr(sourcePixel,8) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 8)) | ((sourcePixel & 255) & 255));
+            													}
             												}
-HXDLIN( 414)												if (_hx_tmp) {
-HXLINE( 414)													::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((sourcePixel & 255)) ));
+            											}
+HXDLIN( 414)											switch((int)(destFormat)){
+            												case (int)0: {
+HXLINE( 414)													{
+HXLINE( 414)														int val = (::hx::UShr(sourcePixel,24) & 255);
+HXDLIN( 414)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
+            													}
 HXDLIN( 414)													{
-HXLINE( 414)														 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 414)														int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(sourcePixel,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN( 414)														 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 414)														int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(sourcePixel,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN( 414)														 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 414)														sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(sourcePixel,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((sourcePixel & 255) & 255));
+HXLINE( 414)														int val1 = (::hx::UShr(sourcePixel,16) & 255);
+HXDLIN( 414)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
             													}
-            												}
-            											}
-            										}
-HXLINE( 415)										{
-HXLINE( 415)											if (destPremultiplied) {
-HXLINE( 415)												if (((sourcePixel & 255) == 0)) {
-HXLINE( 415)													if ((sourcePixel != 0)) {
-HXLINE( 415)														sourcePixel = 0;
+HXDLIN( 414)													{
+HXLINE( 414)														int val2 = (::hx::UShr(sourcePixel,8) & 255);
+HXDLIN( 414)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
             													}
-            												}
-            												else {
-HXLINE( 415)													if (((sourcePixel & 255) != 255)) {
-HXLINE( 415)														 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
-HXDLIN( 415)														::lime::math::_RGBA::RGBA_Impl__obj::a16 = ( (int)( ::__hxcpp_memory_get_ui32(this1->buffer->b,(this1->byteOffset + ((sourcePixel & 255) * 4)))) );
-HXDLIN( 415)														sourcePixel = ((((((((::hx::UShr(sourcePixel,24) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 24) | (((((::hx::UShr(sourcePixel,16) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 16)) | (((((::hx::UShr(sourcePixel,8) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 8)) | ((sourcePixel & 255) & 255));
-            													}
-            												}
-            											}
-HXDLIN( 415)											switch((int)(destFormat)){
-            												case (int)0: {
-HXLINE( 415)													{
-HXLINE( 415)														int val = (::hx::UShr(sourcePixel,24) & 255);
-HXDLIN( 415)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
-            													}
-HXDLIN( 415)													{
-HXLINE( 415)														int val1 = (::hx::UShr(sourcePixel,16) & 255);
-HXDLIN( 415)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
-            													}
-HXDLIN( 415)													{
-HXLINE( 415)														int val2 = (::hx::UShr(sourcePixel,8) & 255);
-HXDLIN( 415)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
-            													}
-HXDLIN( 415)													{
-HXLINE( 415)														int val3 = (sourcePixel & 255);
-HXDLIN( 415)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
+HXDLIN( 414)													{
+HXLINE( 414)														int val3 = (sourcePixel & 255);
+HXDLIN( 414)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
             													}
             												}
             												break;
             												case (int)1: {
-HXLINE( 415)													{
-HXLINE( 415)														int val = (sourcePixel & 255);
-HXDLIN( 415)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
+HXLINE( 414)													{
+HXLINE( 414)														int val = (sourcePixel & 255);
+HXDLIN( 414)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
             													}
-HXDLIN( 415)													{
-HXLINE( 415)														int val1 = (::hx::UShr(sourcePixel,24) & 255);
-HXDLIN( 415)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
+HXDLIN( 414)													{
+HXLINE( 414)														int val1 = (::hx::UShr(sourcePixel,24) & 255);
+HXDLIN( 414)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
             													}
-HXDLIN( 415)													{
-HXLINE( 415)														int val2 = (::hx::UShr(sourcePixel,16) & 255);
-HXDLIN( 415)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
+HXDLIN( 414)													{
+HXLINE( 414)														int val2 = (::hx::UShr(sourcePixel,16) & 255);
+HXDLIN( 414)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
             													}
-HXDLIN( 415)													{
-HXLINE( 415)														int val3 = (::hx::UShr(sourcePixel,8) & 255);
-HXDLIN( 415)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
+HXDLIN( 414)													{
+HXLINE( 414)														int val3 = (::hx::UShr(sourcePixel,8) & 255);
+HXDLIN( 414)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
             													}
             												}
             												break;
             												case (int)2: {
-HXLINE( 415)													{
-HXLINE( 415)														int val = (::hx::UShr(sourcePixel,8) & 255);
-HXDLIN( 415)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
+HXLINE( 414)													{
+HXLINE( 414)														int val = (::hx::UShr(sourcePixel,8) & 255);
+HXDLIN( 414)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
             													}
-HXDLIN( 415)													{
-HXLINE( 415)														int val1 = (::hx::UShr(sourcePixel,16) & 255);
-HXDLIN( 415)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
+HXDLIN( 414)													{
+HXLINE( 414)														int val1 = (::hx::UShr(sourcePixel,16) & 255);
+HXDLIN( 414)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
             													}
-HXDLIN( 415)													{
-HXLINE( 415)														int val2 = (::hx::UShr(sourcePixel,24) & 255);
-HXDLIN( 415)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
+HXDLIN( 414)													{
+HXLINE( 414)														int val2 = (::hx::UShr(sourcePixel,24) & 255);
+HXDLIN( 414)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
             													}
-HXDLIN( 415)													{
-HXLINE( 415)														int val3 = (sourcePixel & 255);
-HXDLIN( 415)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
+HXDLIN( 414)													{
+HXLINE( 414)														int val3 = (sourcePixel & 255);
+HXDLIN( 414)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
             													}
             												}
             												break;
             											}
             										}
-HXLINE( 417)										sourcePosition = (sourcePosition + 4);
-HXLINE( 418)										destPosition = (destPosition + 4);
+HXLINE( 416)										sourcePosition = (sourcePosition + 4);
+HXLINE( 417)										destPosition = (destPosition + 4);
             									}
             								}
             							}
@@ -1826,429 +1827,429 @@ HXLINE( 418)										destPosition = (destPosition + 4);
             					}
             				}
             				else {
-HXLINE( 425)					 ::lime::utils::ArrayBufferView alphaData = alphaImage->buffer->data;
-HXLINE( 426)					int alphaFormat = alphaImage->buffer->format;
-HXLINE( 427)					int alphaPosition;
-HXDLIN( 427)					int alphaPixel = 0;
-HXLINE( 430)					Float alphaView;
-HXDLIN( 430)					if (::hx::IsNull( alphaPoint )) {
-HXLINE( 430)						alphaView = ( (Float)(0) );
+HXLINE( 424)					 ::lime::utils::ArrayBufferView alphaData = alphaImage->buffer->data;
+HXLINE( 425)					int alphaFormat = alphaImage->buffer->format;
+HXLINE( 426)					int alphaPosition;
+HXDLIN( 426)					int alphaPixel;
+HXLINE( 429)					Float alphaView;
+HXDLIN( 429)					if (::hx::IsNull( alphaPoint )) {
+HXLINE( 429)						alphaView = ( (Float)(0) );
             					}
             					else {
-HXLINE( 430)						alphaView = alphaPoint->x;
+HXLINE( 429)						alphaView = alphaPoint->x;
             					}
-HXDLIN( 430)					Float alphaView1;
-HXDLIN( 430)					if (::hx::IsNull( alphaPoint )) {
-HXLINE( 430)						alphaView1 = ( (Float)(0) );
+HXDLIN( 429)					Float alphaView1;
+HXDLIN( 429)					if (::hx::IsNull( alphaPoint )) {
+HXLINE( 429)						alphaView1 = ( (Float)(0) );
             					}
             					else {
-HXLINE( 430)						alphaView1 = alphaPoint->y;
+HXLINE( 429)						alphaView1 = alphaPoint->y;
             					}
-HXLINE( 429)					 ::lime::_internal::graphics::_ImageDataUtil::ImageDataView alphaView2 =  ::lime::_internal::graphics::_ImageDataUtil::ImageDataView_obj::__alloc( HX_CTX ,alphaImage, ::lime::math::Rectangle_obj::__alloc( HX_CTX ,(sourceView->x + alphaView),(sourceView->y + alphaView1),sourceView->width,sourceView->height));
-HXLINE( 433)					int _hx_tmp = ::Std_obj::_hx_int(destPoint->x);
-HXDLIN( 433)					int _hx_tmp1 = ::Std_obj::_hx_int(destPoint->y);
-HXDLIN( 433)					destView->clip(_hx_tmp,_hx_tmp1,alphaView2->width,alphaView2->height);
-HXLINE( 435)					if (blend) {
-HXLINE( 437)						int _g = 0;
-HXDLIN( 437)						int _g1 = destView->height;
-HXDLIN( 437)						while((_g < _g1)){
-HXLINE( 437)							_g = (_g + 1);
-HXDLIN( 437)							int y = (_g - 1);
-HXLINE( 439)							sourcePosition = (sourceView->byteOffset + (sourceView->stride * y));
-HXLINE( 440)							destPosition = (destView->byteOffset + (destView->stride * y));
-HXLINE( 441)							alphaPosition = (alphaView2->byteOffset + (alphaView2->stride * y));
-HXLINE( 443)							{
-HXLINE( 443)								int _g1 = 0;
-HXDLIN( 443)								int _g2 = destView->width;
-HXDLIN( 443)								while((_g1 < _g2)){
-HXLINE( 443)									_g1 = (_g1 + 1);
-HXDLIN( 443)									int x = (_g1 - 1);
-HXLINE( 445)									{
-HXLINE( 445)										switch((int)(sourceFormat)){
+HXLINE( 428)					 ::lime::_internal::graphics::_ImageDataUtil::ImageDataView alphaView2 =  ::lime::_internal::graphics::_ImageDataUtil::ImageDataView_obj::__alloc( HX_CTX ,alphaImage, ::lime::math::Rectangle_obj::__alloc( HX_CTX ,(sourceView->x + alphaView),(sourceView->y + alphaView1),sourceView->width,sourceView->height));
+HXLINE( 432)					int _hx_tmp = ::Std_obj::_hx_int(destPoint->x);
+HXDLIN( 432)					int _hx_tmp1 = ::Std_obj::_hx_int(destPoint->y);
+HXDLIN( 432)					destView->clip(_hx_tmp,_hx_tmp1,alphaView2->width,alphaView2->height);
+HXLINE( 434)					if (blend) {
+HXLINE( 436)						int _g = 0;
+HXDLIN( 436)						int _g1 = destView->height;
+HXDLIN( 436)						while((_g < _g1)){
+HXLINE( 436)							_g = (_g + 1);
+HXDLIN( 436)							int y = (_g - 1);
+HXLINE( 438)							sourcePosition = (sourceView->byteOffset + (sourceView->stride * y));
+HXLINE( 439)							destPosition = (destView->byteOffset + (destView->stride * y));
+HXLINE( 440)							alphaPosition = (alphaView2->byteOffset + (alphaView2->stride * y));
+HXLINE( 442)							{
+HXLINE( 442)								int _g1 = 0;
+HXDLIN( 442)								int _g2 = destView->width;
+HXDLIN( 442)								while((_g1 < _g2)){
+HXLINE( 442)									_g1 = (_g1 + 1);
+HXDLIN( 442)									int x = (_g1 - 1);
+HXLINE( 444)									{
+HXLINE( 444)										switch((int)(sourceFormat)){
             											case (int)0: {
-HXLINE( 445)												int r = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + sourcePosition)) & 255)) );
-HXDLIN( 445)												int g = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 1))) & 255)) );
-HXDLIN( 445)												int b = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 2))) & 255)) );
-HXDLIN( 445)												sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 3))) & 255)) ) & 255));
+HXLINE( 444)												int r = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + sourcePosition)) & 255)) );
+HXDLIN( 444)												int g = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 1))) & 255)) );
+HXDLIN( 444)												int b = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 2))) & 255)) );
+HXDLIN( 444)												sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 3))) & 255)) ) & 255));
             											}
             											break;
             											case (int)1: {
-HXLINE( 445)												int r = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 1))) & 255)) );
-HXDLIN( 445)												int g = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 2))) & 255)) );
-HXDLIN( 445)												int b = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 3))) & 255)) );
-HXDLIN( 445)												sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + sourcePosition)) & 255)) ) & 255));
+HXLINE( 444)												int r = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 1))) & 255)) );
+HXDLIN( 444)												int g = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 2))) & 255)) );
+HXDLIN( 444)												int b = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 3))) & 255)) );
+HXDLIN( 444)												sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + sourcePosition)) & 255)) ) & 255));
             											}
             											break;
             											case (int)2: {
-HXLINE( 445)												int r = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 2))) & 255)) );
-HXDLIN( 445)												int g = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 1))) & 255)) );
-HXDLIN( 445)												int b = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + sourcePosition)) & 255)) );
-HXDLIN( 445)												sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 3))) & 255)) ) & 255));
+HXLINE( 444)												int r = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 2))) & 255)) );
+HXDLIN( 444)												int g = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 1))) & 255)) );
+HXDLIN( 444)												int b = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + sourcePosition)) & 255)) );
+HXDLIN( 444)												sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 3))) & 255)) ) & 255));
             											}
             											break;
             										}
-HXDLIN( 445)										if (sourcePremultiplied) {
+HXDLIN( 444)										if (sourcePremultiplied) {
+HXLINE( 444)											bool _hx_tmp;
+HXDLIN( 444)											if (((sourcePixel & 255) != 0)) {
+HXLINE( 444)												_hx_tmp = ((sourcePixel & 255) != 255);
+            											}
+            											else {
+HXLINE( 444)												_hx_tmp = false;
+            											}
+HXDLIN( 444)											if (_hx_tmp) {
+HXLINE( 444)												::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((sourcePixel & 255)) ));
+HXDLIN( 444)												{
+HXLINE( 444)													 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 444)													int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(sourcePixel,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN( 444)													 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 444)													int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(sourcePixel,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN( 444)													 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 444)													sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(sourcePixel,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((sourcePixel & 255) & 255));
+            												}
+            											}
+            										}
+            									}
+HXLINE( 445)									{
+HXLINE( 445)										switch((int)(destFormat)){
+            											case (int)0: {
+HXLINE( 445)												int r = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + destPosition)) & 255)) );
+HXDLIN( 445)												int g = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1))) & 255)) );
+HXDLIN( 445)												int b = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2))) & 255)) );
+HXDLIN( 445)												destPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3))) & 255)) ) & 255));
+            											}
+            											break;
+            											case (int)1: {
+HXLINE( 445)												int r = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1))) & 255)) );
+HXDLIN( 445)												int g = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2))) & 255)) );
+HXDLIN( 445)												int b = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3))) & 255)) );
+HXDLIN( 445)												destPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + destPosition)) & 255)) ) & 255));
+            											}
+            											break;
+            											case (int)2: {
+HXLINE( 445)												int r = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2))) & 255)) );
+HXDLIN( 445)												int g = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1))) & 255)) );
+HXDLIN( 445)												int b = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + destPosition)) & 255)) );
+HXDLIN( 445)												destPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3))) & 255)) ) & 255));
+            											}
+            											break;
+            										}
+HXDLIN( 445)										if (destPremultiplied) {
 HXLINE( 445)											bool _hx_tmp;
-HXDLIN( 445)											if (((sourcePixel & 255) != 0)) {
-HXLINE( 445)												_hx_tmp = ((sourcePixel & 255) != 255);
+HXDLIN( 445)											if (((destPixel & 255) != 0)) {
+HXLINE( 445)												_hx_tmp = ((destPixel & 255) != 255);
             											}
             											else {
 HXLINE( 445)												_hx_tmp = false;
             											}
 HXDLIN( 445)											if (_hx_tmp) {
-HXLINE( 445)												::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((sourcePixel & 255)) ));
+HXLINE( 445)												::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((destPixel & 255)) ));
 HXDLIN( 445)												{
 HXLINE( 445)													 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 445)													int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(sourcePixel,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN( 445)													int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(destPixel,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
 HXDLIN( 445)													 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 445)													int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(sourcePixel,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN( 445)													int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(destPixel,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
 HXDLIN( 445)													 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 445)													sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(sourcePixel,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((sourcePixel & 255) & 255));
+HXDLIN( 445)													destPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(destPixel,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((destPixel & 255) & 255));
             												}
             											}
             										}
             									}
-HXLINE( 446)									{
-HXLINE( 446)										switch((int)(destFormat)){
-            											case (int)0: {
-HXLINE( 446)												int r = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + destPosition)) & 255)) );
-HXDLIN( 446)												int g = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1))) & 255)) );
-HXDLIN( 446)												int b = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2))) & 255)) );
-HXDLIN( 446)												destPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3))) & 255)) ) & 255));
-            											}
-            											break;
-            											case (int)1: {
-HXLINE( 446)												int r = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1))) & 255)) );
-HXDLIN( 446)												int g = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2))) & 255)) );
-HXDLIN( 446)												int b = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3))) & 255)) );
-HXDLIN( 446)												destPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + destPosition)) & 255)) ) & 255));
-            											}
-            											break;
-            											case (int)2: {
-HXLINE( 446)												int r = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2))) & 255)) );
-HXDLIN( 446)												int g = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1))) & 255)) );
-HXDLIN( 446)												int b = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + destPosition)) & 255)) );
-HXDLIN( 446)												destPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3))) & 255)) ) & 255));
-            											}
-            											break;
-            										}
-HXDLIN( 446)										if (destPremultiplied) {
-HXLINE( 446)											bool _hx_tmp;
-HXDLIN( 446)											if (((destPixel & 255) != 0)) {
-HXLINE( 446)												_hx_tmp = ((destPixel & 255) != 255);
-            											}
-            											else {
-HXLINE( 446)												_hx_tmp = false;
-            											}
-HXDLIN( 446)											if (_hx_tmp) {
-HXLINE( 446)												::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((destPixel & 255)) ));
-HXDLIN( 446)												{
-HXLINE( 446)													 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 446)													int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(destPixel,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN( 446)													 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 446)													int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(destPixel,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN( 446)													 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 446)													destPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(destPixel,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((destPixel & 255) & 255));
-            												}
-            											}
-            										}
-            									}
-HXLINE( 447)									switch((int)(alphaFormat)){
+HXLINE( 446)									switch((int)(alphaFormat)){
             										case (int)0: {
-HXLINE( 447)											int r = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + alphaPosition)) & 255)) );
-HXDLIN( 447)											int g = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 1))) & 255)) );
-HXDLIN( 447)											int b = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 2))) & 255)) );
-HXDLIN( 447)											alphaPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 3))) & 255)) ) & 255));
+HXLINE( 446)											int r = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + alphaPosition)) & 255)) );
+HXDLIN( 446)											int g = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 1))) & 255)) );
+HXDLIN( 446)											int b = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 2))) & 255)) );
+HXDLIN( 446)											alphaPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 3))) & 255)) ) & 255));
             										}
             										break;
             										case (int)1: {
-HXLINE( 447)											int r = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 1))) & 255)) );
-HXDLIN( 447)											int g = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 2))) & 255)) );
-HXDLIN( 447)											int b = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 3))) & 255)) );
-HXDLIN( 447)											alphaPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + alphaPosition)) & 255)) ) & 255));
+HXLINE( 446)											int r = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 1))) & 255)) );
+HXDLIN( 446)											int g = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 2))) & 255)) );
+HXDLIN( 446)											int b = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 3))) & 255)) );
+HXDLIN( 446)											alphaPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + alphaPosition)) & 255)) ) & 255));
             										}
             										break;
             										case (int)2: {
-HXLINE( 447)											int r = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 2))) & 255)) );
-HXDLIN( 447)											int g = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 1))) & 255)) );
-HXDLIN( 447)											int b = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + alphaPosition)) & 255)) );
-HXDLIN( 447)											alphaPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 3))) & 255)) ) & 255));
+HXLINE( 446)											int r = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 2))) & 255)) );
+HXDLIN( 446)											int g = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 1))) & 255)) );
+HXDLIN( 446)											int b = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + alphaPosition)) & 255)) );
+HXDLIN( 446)											alphaPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 3))) & 255)) ) & 255));
             										}
             										break;
             									}
-HXLINE( 449)									sourceAlpha = ((( (Float)((alphaPixel & 255)) ) / ((Float)255.0)) * (( (Float)((sourcePixel & 255)) ) / ((Float)255.0)));
-HXLINE( 451)									if ((sourceAlpha > 0)) {
-HXLINE( 453)										destAlpha = (( (Float)((destPixel & 255)) ) / ((Float)255.0));
-HXLINE( 454)										oneMinusSourceAlpha = (( (Float)(1) ) - sourceAlpha);
-HXLINE( 455)										blendAlpha = (sourceAlpha + (destAlpha * oneMinusSourceAlpha));
-HXLINE( 457)										{
-HXLINE( 457)											 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 457)											int value = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((((( (Float)((::hx::UShr(sourcePixel,24) & 255)) ) * sourceAlpha) + ((( (Float)((::hx::UShr(destPixel,24) & 255)) ) * destAlpha) * oneMinusSourceAlpha)) / blendAlpha)))) & 255)) );
-HXDLIN( 457)											destPixel = (((((value & 255) << 24) | (((::hx::UShr(destPixel,16) & 255) & 255) << 16)) | (((::hx::UShr(destPixel,8) & 255) & 255) << 8)) | ((destPixel & 255) & 255));
+HXLINE( 448)									sourceAlpha = ((( (Float)((alphaPixel & 255)) ) / ((Float)255.0)) * (( (Float)((sourcePixel & 255)) ) / ((Float)255.0)));
+HXLINE( 450)									if ((sourceAlpha > 0)) {
+HXLINE( 452)										destAlpha = (( (Float)((destPixel & 255)) ) / ((Float)255.0));
+HXLINE( 453)										oneMinusSourceAlpha = (( (Float)(1) ) - sourceAlpha);
+HXLINE( 454)										blendAlpha = (sourceAlpha + (destAlpha * oneMinusSourceAlpha));
+HXLINE( 456)										{
+HXLINE( 456)											 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 456)											int value = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((((( (Float)((::hx::UShr(sourcePixel,24) & 255)) ) * sourceAlpha) + ((( (Float)((::hx::UShr(destPixel,24) & 255)) ) * destAlpha) * oneMinusSourceAlpha)) / blendAlpha)))) & 255)) );
+HXDLIN( 456)											destPixel = (((((value & 255) << 24) | (((::hx::UShr(destPixel,16) & 255) & 255) << 16)) | (((::hx::UShr(destPixel,8) & 255) & 255) << 8)) | ((destPixel & 255) & 255));
             										}
-HXLINE( 460)										{
-HXLINE( 460)											 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 460)											int value1 = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((((( (Float)((::hx::UShr(sourcePixel,16) & 255)) ) * sourceAlpha) + ((( (Float)((::hx::UShr(destPixel,16) & 255)) ) * destAlpha) * oneMinusSourceAlpha)) / blendAlpha)))) & 255)) );
-HXDLIN( 460)											destPixel = ((((((::hx::UShr(destPixel,24) & 255) & 255) << 24) | ((value1 & 255) << 16)) | (((::hx::UShr(destPixel,8) & 255) & 255) << 8)) | ((destPixel & 255) & 255));
+HXLINE( 459)										{
+HXLINE( 459)											 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 459)											int value1 = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((((( (Float)((::hx::UShr(sourcePixel,16) & 255)) ) * sourceAlpha) + ((( (Float)((::hx::UShr(destPixel,16) & 255)) ) * destAlpha) * oneMinusSourceAlpha)) / blendAlpha)))) & 255)) );
+HXDLIN( 459)											destPixel = ((((((::hx::UShr(destPixel,24) & 255) & 255) << 24) | ((value1 & 255) << 16)) | (((::hx::UShr(destPixel,8) & 255) & 255) << 8)) | ((destPixel & 255) & 255));
             										}
-HXLINE( 463)										{
-HXLINE( 463)											 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 463)											int value2 = ( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((((( (Float)((::hx::UShr(sourcePixel,8) & 255)) ) * sourceAlpha) + ((( (Float)((::hx::UShr(destPixel,8) & 255)) ) * destAlpha) * oneMinusSourceAlpha)) / blendAlpha)))) & 255)) );
-HXDLIN( 463)											destPixel = ((((((::hx::UShr(destPixel,24) & 255) & 255) << 24) | (((::hx::UShr(destPixel,16) & 255) & 255) << 16)) | ((value2 & 255) << 8)) | ((destPixel & 255) & 255));
+HXLINE( 462)										{
+HXLINE( 462)											 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 462)											int value2 = ( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((((( (Float)((::hx::UShr(sourcePixel,8) & 255)) ) * sourceAlpha) + ((( (Float)((::hx::UShr(destPixel,8) & 255)) ) * destAlpha) * oneMinusSourceAlpha)) / blendAlpha)))) & 255)) );
+HXDLIN( 462)											destPixel = ((((((::hx::UShr(destPixel,24) & 255) & 255) << 24) | (((::hx::UShr(destPixel,16) & 255) & 255) << 16)) | ((value2 & 255) << 8)) | ((destPixel & 255) & 255));
             										}
-HXLINE( 466)										{
-HXLINE( 466)											 ::lime::utils::ArrayBufferView this4 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 466)											int value3 = ( (int)(( ::__hxcpp_memory_get_byte(this4->buffer->b,(this4->byteOffset + ::Math_obj::round((blendAlpha * ((Float)255.0))))) & 255)) );
-HXDLIN( 466)											destPixel = ((((((::hx::UShr(destPixel,24) & 255) & 255) << 24) | (((::hx::UShr(destPixel,16) & 255) & 255) << 16)) | (((::hx::UShr(destPixel,8) & 255) & 255) << 8)) | (value3 & 255));
+HXLINE( 465)										{
+HXLINE( 465)											 ::lime::utils::ArrayBufferView this4 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 465)											int value3 = ( (int)(( ::__hxcpp_memory_get_byte(this4->buffer->b,(this4->byteOffset + ::Math_obj::round((blendAlpha * ((Float)255.0))))) & 255)) );
+HXDLIN( 465)											destPixel = ((((((::hx::UShr(destPixel,24) & 255) & 255) << 24) | (((::hx::UShr(destPixel,16) & 255) & 255) << 16)) | (((::hx::UShr(destPixel,8) & 255) & 255) << 8)) | (value3 & 255));
             										}
-HXLINE( 468)										{
-HXLINE( 468)											if (destPremultiplied) {
-HXLINE( 468)												if (((destPixel & 255) == 0)) {
-HXLINE( 468)													if ((destPixel != 0)) {
-HXLINE( 468)														destPixel = 0;
+HXLINE( 467)										{
+HXLINE( 467)											if (destPremultiplied) {
+HXLINE( 467)												if (((destPixel & 255) == 0)) {
+HXLINE( 467)													if ((destPixel != 0)) {
+HXLINE( 467)														destPixel = 0;
             													}
             												}
             												else {
-HXLINE( 468)													if (((destPixel & 255) != 255)) {
-HXLINE( 468)														 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
-HXDLIN( 468)														::lime::math::_RGBA::RGBA_Impl__obj::a16 = ( (int)( ::__hxcpp_memory_get_ui32(this1->buffer->b,(this1->byteOffset + ((destPixel & 255) * 4)))) );
-HXDLIN( 468)														destPixel = ((((((((::hx::UShr(destPixel,24) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 24) | (((((::hx::UShr(destPixel,16) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 16)) | (((((::hx::UShr(destPixel,8) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 8)) | ((destPixel & 255) & 255));
+HXLINE( 467)													if (((destPixel & 255) != 255)) {
+HXLINE( 467)														 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
+HXDLIN( 467)														::lime::math::_RGBA::RGBA_Impl__obj::a16 = ( (int)( ::__hxcpp_memory_get_ui32(this1->buffer->b,(this1->byteOffset + ((destPixel & 255) * 4)))) );
+HXDLIN( 467)														destPixel = ((((((((::hx::UShr(destPixel,24) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 24) | (((((::hx::UShr(destPixel,16) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 16)) | (((((::hx::UShr(destPixel,8) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 8)) | ((destPixel & 255) & 255));
             													}
             												}
             											}
-HXDLIN( 468)											switch((int)(destFormat)){
+HXDLIN( 467)											switch((int)(destFormat)){
             												case (int)0: {
-HXLINE( 468)													{
-HXLINE( 468)														int val = (::hx::UShr(destPixel,24) & 255);
-HXDLIN( 468)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
+HXLINE( 467)													{
+HXLINE( 467)														int val = (::hx::UShr(destPixel,24) & 255);
+HXDLIN( 467)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
             													}
-HXDLIN( 468)													{
-HXLINE( 468)														int val1 = (::hx::UShr(destPixel,16) & 255);
-HXDLIN( 468)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
+HXDLIN( 467)													{
+HXLINE( 467)														int val1 = (::hx::UShr(destPixel,16) & 255);
+HXDLIN( 467)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
             													}
-HXDLIN( 468)													{
-HXLINE( 468)														int val2 = (::hx::UShr(destPixel,8) & 255);
-HXDLIN( 468)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
+HXDLIN( 467)													{
+HXLINE( 467)														int val2 = (::hx::UShr(destPixel,8) & 255);
+HXDLIN( 467)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
             													}
-HXDLIN( 468)													{
-HXLINE( 468)														int val3 = (destPixel & 255);
-HXDLIN( 468)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
+HXDLIN( 467)													{
+HXLINE( 467)														int val3 = (destPixel & 255);
+HXDLIN( 467)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
             													}
             												}
             												break;
             												case (int)1: {
-HXLINE( 468)													{
-HXLINE( 468)														int val = (destPixel & 255);
-HXDLIN( 468)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
+HXLINE( 467)													{
+HXLINE( 467)														int val = (destPixel & 255);
+HXDLIN( 467)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
             													}
-HXDLIN( 468)													{
-HXLINE( 468)														int val1 = (::hx::UShr(destPixel,24) & 255);
-HXDLIN( 468)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
+HXDLIN( 467)													{
+HXLINE( 467)														int val1 = (::hx::UShr(destPixel,24) & 255);
+HXDLIN( 467)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
             													}
-HXDLIN( 468)													{
-HXLINE( 468)														int val2 = (::hx::UShr(destPixel,16) & 255);
-HXDLIN( 468)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
+HXDLIN( 467)													{
+HXLINE( 467)														int val2 = (::hx::UShr(destPixel,16) & 255);
+HXDLIN( 467)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
             													}
-HXDLIN( 468)													{
-HXLINE( 468)														int val3 = (::hx::UShr(destPixel,8) & 255);
-HXDLIN( 468)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
+HXDLIN( 467)													{
+HXLINE( 467)														int val3 = (::hx::UShr(destPixel,8) & 255);
+HXDLIN( 467)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
             													}
             												}
             												break;
             												case (int)2: {
-HXLINE( 468)													{
-HXLINE( 468)														int val = (::hx::UShr(destPixel,8) & 255);
-HXDLIN( 468)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
+HXLINE( 467)													{
+HXLINE( 467)														int val = (::hx::UShr(destPixel,8) & 255);
+HXDLIN( 467)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
             													}
-HXDLIN( 468)													{
-HXLINE( 468)														int val1 = (::hx::UShr(destPixel,16) & 255);
-HXDLIN( 468)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
+HXDLIN( 467)													{
+HXLINE( 467)														int val1 = (::hx::UShr(destPixel,16) & 255);
+HXDLIN( 467)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
             													}
-HXDLIN( 468)													{
-HXLINE( 468)														int val2 = (::hx::UShr(destPixel,24) & 255);
-HXDLIN( 468)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
+HXDLIN( 467)													{
+HXLINE( 467)														int val2 = (::hx::UShr(destPixel,24) & 255);
+HXDLIN( 467)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
             													}
-HXDLIN( 468)													{
-HXLINE( 468)														int val3 = (destPixel & 255);
-HXDLIN( 468)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
+HXDLIN( 467)													{
+HXLINE( 467)														int val3 = (destPixel & 255);
+HXDLIN( 467)														 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
             													}
             												}
             												break;
             											}
             										}
             									}
-HXLINE( 471)									sourcePosition = (sourcePosition + 4);
-HXLINE( 472)									destPosition = (destPosition + 4);
-HXLINE( 473)									alphaPosition = (alphaPosition + 4);
+HXLINE( 470)									sourcePosition = (sourcePosition + 4);
+HXLINE( 471)									destPosition = (destPosition + 4);
+HXLINE( 472)									alphaPosition = (alphaPosition + 4);
             								}
             							}
             						}
             					}
             					else {
-HXLINE( 479)						int _g = 0;
-HXDLIN( 479)						int _g1 = destView->height;
-HXDLIN( 479)						while((_g < _g1)){
-HXLINE( 479)							_g = (_g + 1);
-HXDLIN( 479)							int y = (_g - 1);
-HXLINE( 481)							sourcePosition = (sourceView->byteOffset + (sourceView->stride * y));
-HXLINE( 482)							destPosition = (destView->byteOffset + (destView->stride * y));
-HXLINE( 483)							alphaPosition = (alphaView2->byteOffset + (alphaView2->stride * y));
-HXLINE( 485)							{
-HXLINE( 485)								int _g1 = 0;
-HXDLIN( 485)								int _g2 = destView->width;
-HXDLIN( 485)								while((_g1 < _g2)){
-HXLINE( 485)									_g1 = (_g1 + 1);
-HXDLIN( 485)									int x = (_g1 - 1);
-HXLINE( 487)									{
-HXLINE( 487)										switch((int)(sourceFormat)){
+HXLINE( 478)						int _g = 0;
+HXDLIN( 478)						int _g1 = destView->height;
+HXDLIN( 478)						while((_g < _g1)){
+HXLINE( 478)							_g = (_g + 1);
+HXDLIN( 478)							int y = (_g - 1);
+HXLINE( 480)							sourcePosition = (sourceView->byteOffset + (sourceView->stride * y));
+HXLINE( 481)							destPosition = (destView->byteOffset + (destView->stride * y));
+HXLINE( 482)							alphaPosition = (alphaView2->byteOffset + (alphaView2->stride * y));
+HXLINE( 484)							{
+HXLINE( 484)								int _g1 = 0;
+HXDLIN( 484)								int _g2 = destView->width;
+HXDLIN( 484)								while((_g1 < _g2)){
+HXLINE( 484)									_g1 = (_g1 + 1);
+HXDLIN( 484)									int x = (_g1 - 1);
+HXLINE( 486)									{
+HXLINE( 486)										switch((int)(sourceFormat)){
             											case (int)0: {
-HXLINE( 487)												int r = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + sourcePosition)) & 255)) );
-HXDLIN( 487)												int g = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 1))) & 255)) );
-HXDLIN( 487)												int b = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 2))) & 255)) );
-HXDLIN( 487)												sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 3))) & 255)) ) & 255));
+HXLINE( 486)												int r = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + sourcePosition)) & 255)) );
+HXDLIN( 486)												int g = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 1))) & 255)) );
+HXDLIN( 486)												int b = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 2))) & 255)) );
+HXDLIN( 486)												sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 3))) & 255)) ) & 255));
             											}
             											break;
             											case (int)1: {
-HXLINE( 487)												int r = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 1))) & 255)) );
-HXDLIN( 487)												int g = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 2))) & 255)) );
-HXDLIN( 487)												int b = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 3))) & 255)) );
-HXDLIN( 487)												sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + sourcePosition)) & 255)) ) & 255));
+HXLINE( 486)												int r = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 1))) & 255)) );
+HXDLIN( 486)												int g = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 2))) & 255)) );
+HXDLIN( 486)												int b = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 3))) & 255)) );
+HXDLIN( 486)												sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + sourcePosition)) & 255)) ) & 255));
             											}
             											break;
             											case (int)2: {
-HXLINE( 487)												int r = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 2))) & 255)) );
-HXDLIN( 487)												int g = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 1))) & 255)) );
-HXDLIN( 487)												int b = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + sourcePosition)) & 255)) );
-HXDLIN( 487)												sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 3))) & 255)) ) & 255));
+HXLINE( 486)												int r = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 2))) & 255)) );
+HXDLIN( 486)												int g = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 1))) & 255)) );
+HXDLIN( 486)												int b = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + sourcePosition)) & 255)) );
+HXDLIN( 486)												sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 3))) & 255)) ) & 255));
             											}
             											break;
             										}
-HXDLIN( 487)										if (sourcePremultiplied) {
-HXLINE( 487)											bool _hx_tmp;
-HXDLIN( 487)											if (((sourcePixel & 255) != 0)) {
-HXLINE( 487)												_hx_tmp = ((sourcePixel & 255) != 255);
+HXDLIN( 486)										if (sourcePremultiplied) {
+HXLINE( 486)											bool _hx_tmp;
+HXDLIN( 486)											if (((sourcePixel & 255) != 0)) {
+HXLINE( 486)												_hx_tmp = ((sourcePixel & 255) != 255);
             											}
             											else {
-HXLINE( 487)												_hx_tmp = false;
+HXLINE( 486)												_hx_tmp = false;
             											}
-HXDLIN( 487)											if (_hx_tmp) {
-HXLINE( 487)												::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((sourcePixel & 255)) ));
-HXDLIN( 487)												{
-HXLINE( 487)													 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 487)													int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(sourcePixel,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN( 487)													 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 487)													int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(sourcePixel,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN( 487)													 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 487)													sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(sourcePixel,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((sourcePixel & 255) & 255));
+HXDLIN( 486)											if (_hx_tmp) {
+HXLINE( 486)												::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((sourcePixel & 255)) ));
+HXDLIN( 486)												{
+HXLINE( 486)													 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 486)													int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(sourcePixel,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN( 486)													 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 486)													int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(sourcePixel,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN( 486)													 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 486)													sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(sourcePixel,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((sourcePixel & 255) & 255));
             												}
             											}
             										}
             									}
-HXLINE( 488)									switch((int)(alphaFormat)){
+HXLINE( 487)									switch((int)(alphaFormat)){
             										case (int)0: {
-HXLINE( 488)											int r = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + alphaPosition)) & 255)) );
-HXDLIN( 488)											int g = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 1))) & 255)) );
-HXDLIN( 488)											int b = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 2))) & 255)) );
-HXDLIN( 488)											alphaPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 3))) & 255)) ) & 255));
+HXLINE( 487)											int r = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + alphaPosition)) & 255)) );
+HXDLIN( 487)											int g = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 1))) & 255)) );
+HXDLIN( 487)											int b = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 2))) & 255)) );
+HXDLIN( 487)											alphaPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 3))) & 255)) ) & 255));
             										}
             										break;
             										case (int)1: {
-HXLINE( 488)											int r = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 1))) & 255)) );
-HXDLIN( 488)											int g = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 2))) & 255)) );
-HXDLIN( 488)											int b = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 3))) & 255)) );
-HXDLIN( 488)											alphaPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + alphaPosition)) & 255)) ) & 255));
+HXLINE( 487)											int r = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 1))) & 255)) );
+HXDLIN( 487)											int g = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 2))) & 255)) );
+HXDLIN( 487)											int b = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 3))) & 255)) );
+HXDLIN( 487)											alphaPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + alphaPosition)) & 255)) ) & 255));
             										}
             										break;
             										case (int)2: {
-HXLINE( 488)											int r = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 2))) & 255)) );
-HXDLIN( 488)											int g = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 1))) & 255)) );
-HXDLIN( 488)											int b = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + alphaPosition)) & 255)) );
-HXDLIN( 488)											alphaPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 3))) & 255)) ) & 255));
+HXLINE( 487)											int r = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 2))) & 255)) );
+HXDLIN( 487)											int g = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 1))) & 255)) );
+HXDLIN( 487)											int b = ( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + alphaPosition)) & 255)) );
+HXDLIN( 487)											alphaPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(alphaData->buffer->b,(alphaData->byteOffset + (alphaPosition + 3))) & 255)) ) & 255));
             										}
             										break;
             									}
-HXLINE( 490)									{
-HXLINE( 490)										int value = ::Math_obj::round((( (Float)((sourcePixel & 255)) ) * (( (Float)((alphaPixel & 255)) ) / ( (Float)(255) ))));
-HXDLIN( 490)										sourcePixel = ((((((::hx::UShr(sourcePixel,24) & 255) & 255) << 24) | (((::hx::UShr(sourcePixel,16) & 255) & 255) << 16)) | (((::hx::UShr(sourcePixel,8) & 255) & 255) << 8)) | (value & 255));
+HXLINE( 489)									{
+HXLINE( 489)										int value = ::Math_obj::round((( (Float)((sourcePixel & 255)) ) * (( (Float)((alphaPixel & 255)) ) / ( (Float)(255) ))));
+HXDLIN( 489)										sourcePixel = ((((((::hx::UShr(sourcePixel,24) & 255) & 255) << 24) | (((::hx::UShr(sourcePixel,16) & 255) & 255) << 16)) | (((::hx::UShr(sourcePixel,8) & 255) & 255) << 8)) | (value & 255));
             									}
-HXLINE( 491)									{
-HXLINE( 491)										if (destPremultiplied) {
-HXLINE( 491)											if (((sourcePixel & 255) == 0)) {
-HXLINE( 491)												if ((sourcePixel != 0)) {
-HXLINE( 491)													sourcePixel = 0;
+HXLINE( 490)									{
+HXLINE( 490)										if (destPremultiplied) {
+HXLINE( 490)											if (((sourcePixel & 255) == 0)) {
+HXLINE( 490)												if ((sourcePixel != 0)) {
+HXLINE( 490)													sourcePixel = 0;
             												}
             											}
             											else {
-HXLINE( 491)												if (((sourcePixel & 255) != 255)) {
-HXLINE( 491)													 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
-HXDLIN( 491)													::lime::math::_RGBA::RGBA_Impl__obj::a16 = ( (int)( ::__hxcpp_memory_get_ui32(this1->buffer->b,(this1->byteOffset + ((sourcePixel & 255) * 4)))) );
-HXDLIN( 491)													sourcePixel = ((((((((::hx::UShr(sourcePixel,24) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 24) | (((((::hx::UShr(sourcePixel,16) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 16)) | (((((::hx::UShr(sourcePixel,8) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 8)) | ((sourcePixel & 255) & 255));
+HXLINE( 490)												if (((sourcePixel & 255) != 255)) {
+HXLINE( 490)													 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
+HXDLIN( 490)													::lime::math::_RGBA::RGBA_Impl__obj::a16 = ( (int)( ::__hxcpp_memory_get_ui32(this1->buffer->b,(this1->byteOffset + ((sourcePixel & 255) * 4)))) );
+HXDLIN( 490)													sourcePixel = ((((((((::hx::UShr(sourcePixel,24) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 24) | (((((::hx::UShr(sourcePixel,16) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 16)) | (((((::hx::UShr(sourcePixel,8) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 8)) | ((sourcePixel & 255) & 255));
             												}
             											}
             										}
-HXDLIN( 491)										switch((int)(destFormat)){
+HXDLIN( 490)										switch((int)(destFormat)){
             											case (int)0: {
-HXLINE( 491)												{
-HXLINE( 491)													int val = (::hx::UShr(sourcePixel,24) & 255);
-HXDLIN( 491)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
+HXLINE( 490)												{
+HXLINE( 490)													int val = (::hx::UShr(sourcePixel,24) & 255);
+HXDLIN( 490)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
             												}
-HXDLIN( 491)												{
-HXLINE( 491)													int val1 = (::hx::UShr(sourcePixel,16) & 255);
-HXDLIN( 491)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
+HXDLIN( 490)												{
+HXLINE( 490)													int val1 = (::hx::UShr(sourcePixel,16) & 255);
+HXDLIN( 490)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
             												}
-HXDLIN( 491)												{
-HXLINE( 491)													int val2 = (::hx::UShr(sourcePixel,8) & 255);
-HXDLIN( 491)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
+HXDLIN( 490)												{
+HXLINE( 490)													int val2 = (::hx::UShr(sourcePixel,8) & 255);
+HXDLIN( 490)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
             												}
-HXDLIN( 491)												{
-HXLINE( 491)													int val3 = (sourcePixel & 255);
-HXDLIN( 491)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
+HXDLIN( 490)												{
+HXLINE( 490)													int val3 = (sourcePixel & 255);
+HXDLIN( 490)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
             												}
             											}
             											break;
             											case (int)1: {
-HXLINE( 491)												{
-HXLINE( 491)													int val = (sourcePixel & 255);
-HXDLIN( 491)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
+HXLINE( 490)												{
+HXLINE( 490)													int val = (sourcePixel & 255);
+HXDLIN( 490)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
             												}
-HXDLIN( 491)												{
-HXLINE( 491)													int val1 = (::hx::UShr(sourcePixel,24) & 255);
-HXDLIN( 491)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
+HXDLIN( 490)												{
+HXLINE( 490)													int val1 = (::hx::UShr(sourcePixel,24) & 255);
+HXDLIN( 490)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
             												}
-HXDLIN( 491)												{
-HXLINE( 491)													int val2 = (::hx::UShr(sourcePixel,16) & 255);
-HXDLIN( 491)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
+HXDLIN( 490)												{
+HXLINE( 490)													int val2 = (::hx::UShr(sourcePixel,16) & 255);
+HXDLIN( 490)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
             												}
-HXDLIN( 491)												{
-HXLINE( 491)													int val3 = (::hx::UShr(sourcePixel,8) & 255);
-HXDLIN( 491)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
+HXDLIN( 490)												{
+HXLINE( 490)													int val3 = (::hx::UShr(sourcePixel,8) & 255);
+HXDLIN( 490)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
             												}
             											}
             											break;
             											case (int)2: {
-HXLINE( 491)												{
-HXLINE( 491)													int val = (::hx::UShr(sourcePixel,8) & 255);
-HXDLIN( 491)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
+HXLINE( 490)												{
+HXLINE( 490)													int val = (::hx::UShr(sourcePixel,8) & 255);
+HXDLIN( 490)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
             												}
-HXDLIN( 491)												{
-HXLINE( 491)													int val1 = (::hx::UShr(sourcePixel,16) & 255);
-HXDLIN( 491)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
+HXDLIN( 490)												{
+HXLINE( 490)													int val1 = (::hx::UShr(sourcePixel,16) & 255);
+HXDLIN( 490)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
             												}
-HXDLIN( 491)												{
-HXLINE( 491)													int val2 = (::hx::UShr(sourcePixel,24) & 255);
-HXDLIN( 491)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
+HXDLIN( 490)												{
+HXLINE( 490)													int val2 = (::hx::UShr(sourcePixel,24) & 255);
+HXDLIN( 490)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
             												}
-HXDLIN( 491)												{
-HXLINE( 491)													int val3 = (sourcePixel & 255);
-HXDLIN( 491)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
+HXDLIN( 490)												{
+HXLINE( 490)													int val3 = (sourcePixel & 255);
+HXDLIN( 490)													 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
             												}
             											}
             											break;
             										}
             									}
-HXLINE( 493)									sourcePosition = (sourcePosition + 4);
-HXLINE( 494)									destPosition = (destPosition + 4);
-HXLINE( 495)									alphaPosition = (alphaPosition + 4);
+HXLINE( 492)									sourcePosition = (sourcePosition + 4);
+HXLINE( 493)									destPosition = (destPosition + 4);
+HXLINE( 494)									alphaPosition = (alphaPosition + 4);
             								}
             							}
             						}
@@ -2256,136 +2257,136 @@ HXLINE( 495)									alphaPosition = (alphaPosition + 4);
             				}
             			}
             		}
-HXLINE( 503)		image->dirty = true;
-HXLINE( 504)		image->version++;
+HXLINE( 502)		image->dirty = true;
+HXLINE( 503)		image->version++;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC7(ImageDataUtil_obj,copyPixels,(void))
 
 void ImageDataUtil_obj::fillRect( ::lime::graphics::Image image, ::lime::math::Rectangle rect,int color,int format){
-            	HX_GC_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_508_fillRect)
-HXLINE( 509)		int fillColor;
-HXLINE( 511)		switch((int)(format)){
+            	HX_GC_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_507_fillRect)
+HXLINE( 508)		int fillColor;
+HXLINE( 510)		switch((int)(format)){
             			case (int)1: {
-HXLINE( 514)				int argb = color;
-HXDLIN( 514)				int this1 = 0;
-HXDLIN( 514)				int rgba = this1;
-HXDLIN( 514)				rgba = ((((((::hx::UShr(argb,16) & 255) & 255) << 24) | (((::hx::UShr(argb,8) & 255) & 255) << 16)) | (((argb & 255) & 255) << 8)) | ((::hx::UShr(argb,24) & 255) & 255));
-HXDLIN( 514)				fillColor = rgba;
+HXLINE( 513)				int argb = color;
+HXDLIN( 513)				int this1 = 0;
+HXDLIN( 513)				int rgba = this1;
+HXDLIN( 513)				rgba = ((((((::hx::UShr(argb,16) & 255) & 255) << 24) | (((::hx::UShr(argb,8) & 255) & 255) << 16)) | (((argb & 255) & 255) << 8)) | ((::hx::UShr(argb,24) & 255) & 255));
+HXDLIN( 513)				fillColor = rgba;
             			}
             			break;
             			case (int)2: {
-HXLINE( 516)				int bgra = color;
-HXDLIN( 516)				int this1 = 0;
-HXDLIN( 516)				int rgba = this1;
-HXDLIN( 516)				rgba = ((((((::hx::UShr(bgra,8) & 255) & 255) << 24) | (((::hx::UShr(bgra,16) & 255) & 255) << 16)) | (((::hx::UShr(bgra,24) & 255) & 255) << 8)) | ((bgra & 255) & 255));
-HXDLIN( 516)				fillColor = rgba;
+HXLINE( 515)				int bgra = color;
+HXDLIN( 515)				int this1 = 0;
+HXDLIN( 515)				int rgba = this1;
+HXDLIN( 515)				rgba = ((((((::hx::UShr(bgra,8) & 255) & 255) << 24) | (((::hx::UShr(bgra,16) & 255) & 255) << 16)) | (((::hx::UShr(bgra,24) & 255) & 255) << 8)) | ((bgra & 255) & 255));
+HXDLIN( 515)				fillColor = rgba;
             			}
             			break;
             			default:{
-HXLINE( 518)				fillColor = color;
+HXLINE( 517)				fillColor = color;
             			}
             		}
-HXLINE( 521)		if (!(image->get_transparent())) {
-HXLINE( 523)			fillColor = ((((((::hx::UShr(fillColor,24) & 255) & 255) << 24) | (((::hx::UShr(fillColor,16) & 255) & 255) << 16)) | (((::hx::UShr(fillColor,8) & 255) & 255) << 8)) | 255);
+HXLINE( 520)		if (!(image->get_transparent())) {
+HXLINE( 522)			fillColor = ((((((::hx::UShr(fillColor,24) & 255) & 255) << 24) | (((::hx::UShr(fillColor,16) & 255) & 255) << 16)) | (((::hx::UShr(fillColor,8) & 255) & 255) << 8)) | 255);
             		}
-HXLINE( 526)		 ::lime::utils::ArrayBufferView data = image->buffer->data;
-HXLINE( 527)		if (::hx::IsNull( data )) {
-HXLINE( 527)			return;
+HXLINE( 525)		 ::lime::utils::ArrayBufferView data = image->buffer->data;
+HXLINE( 526)		if (::hx::IsNull( data )) {
+HXLINE( 526)			return;
             		}
-HXLINE( 530)		if (::lime::_hx_system::CFFI_obj::enabled) {
-HXLINE( 530)			::lime::_internal::backend::native::NativeCFFI_obj::lime_image_data_util_fill_rect(::hx::DynamicPtr(image),::hx::DynamicPtr(rect),((fillColor >> 16) & 65535),(fillColor & 65535));
+HXLINE( 529)		if (::lime::_hx_system::CFFI_obj::enabled) {
+HXLINE( 529)			::lime::_internal::backend::native::NativeCFFI_obj::lime_image_data_util_fill_rect(::hx::DynamicPtr(image),::hx::DynamicPtr(rect),((fillColor >> 16) & 65535),(fillColor & 65535));
             		}
             		else {
-HXLINE( 535)			int format = image->buffer->format;
-HXLINE( 536)			bool premultiplied = image->buffer->premultiplied;
-HXLINE( 537)			if (premultiplied) {
-HXLINE( 537)				if (((fillColor & 255) == 0)) {
-HXLINE( 537)					if ((fillColor != 0)) {
-HXLINE( 537)						fillColor = 0;
+HXLINE( 534)			int format = image->buffer->format;
+HXLINE( 535)			bool premultiplied = image->buffer->premultiplied;
+HXLINE( 536)			if (premultiplied) {
+HXLINE( 536)				if (((fillColor & 255) == 0)) {
+HXLINE( 536)					if ((fillColor != 0)) {
+HXLINE( 536)						fillColor = 0;
             					}
             				}
             				else {
-HXLINE( 537)					if (((fillColor & 255) != 255)) {
-HXLINE( 537)						 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
-HXDLIN( 537)						::lime::math::_RGBA::RGBA_Impl__obj::a16 = ( (int)( ::__hxcpp_memory_get_ui32(this1->buffer->b,(this1->byteOffset + ((fillColor & 255) * 4)))) );
-HXDLIN( 537)						fillColor = ((((((((::hx::UShr(fillColor,24) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 24) | (((((::hx::UShr(fillColor,16) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 16)) | (((((::hx::UShr(fillColor,8) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 8)) | ((fillColor & 255) & 255));
+HXLINE( 536)					if (((fillColor & 255) != 255)) {
+HXLINE( 536)						 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
+HXDLIN( 536)						::lime::math::_RGBA::RGBA_Impl__obj::a16 = ( (int)( ::__hxcpp_memory_get_ui32(this1->buffer->b,(this1->byteOffset + ((fillColor & 255) * 4)))) );
+HXDLIN( 536)						fillColor = ((((((((::hx::UShr(fillColor,24) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 24) | (((((::hx::UShr(fillColor,16) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 16)) | (((((::hx::UShr(fillColor,8) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 8)) | ((fillColor & 255) & 255));
             					}
             				}
             			}
-HXLINE( 539)			 ::lime::_internal::graphics::_ImageDataUtil::ImageDataView dataView =  ::lime::_internal::graphics::_ImageDataUtil::ImageDataView_obj::__alloc( HX_CTX ,image,rect);
-HXLINE( 540)			int row;
-HXLINE( 542)			{
-HXLINE( 542)				int _g = 0;
-HXDLIN( 542)				int _g1 = dataView->height;
-HXDLIN( 542)				while((_g < _g1)){
-HXLINE( 542)					_g = (_g + 1);
-HXDLIN( 542)					int y = (_g - 1);
-HXLINE( 544)					row = (dataView->byteOffset + (dataView->stride * y));
-HXLINE( 546)					{
-HXLINE( 546)						int _g1 = 0;
-HXDLIN( 546)						int _g2 = dataView->width;
-HXDLIN( 546)						while((_g1 < _g2)){
-HXLINE( 546)							_g1 = (_g1 + 1);
-HXDLIN( 546)							int x = (_g1 - 1);
-HXLINE( 548)							{
-HXLINE( 548)								int offset = (row + (x * 4));
-HXDLIN( 548)								switch((int)(format)){
+HXLINE( 538)			 ::lime::_internal::graphics::_ImageDataUtil::ImageDataView dataView =  ::lime::_internal::graphics::_ImageDataUtil::ImageDataView_obj::__alloc( HX_CTX ,image,rect);
+HXLINE( 539)			int row;
+HXLINE( 541)			{
+HXLINE( 541)				int _g = 0;
+HXDLIN( 541)				int _g1 = dataView->height;
+HXDLIN( 541)				while((_g < _g1)){
+HXLINE( 541)					_g = (_g + 1);
+HXDLIN( 541)					int y = (_g - 1);
+HXLINE( 543)					row = (dataView->byteOffset + (dataView->stride * y));
+HXLINE( 545)					{
+HXLINE( 545)						int _g1 = 0;
+HXDLIN( 545)						int _g2 = dataView->width;
+HXDLIN( 545)						while((_g1 < _g2)){
+HXLINE( 545)							_g1 = (_g1 + 1);
+HXDLIN( 545)							int x = (_g1 - 1);
+HXLINE( 547)							{
+HXLINE( 547)								int offset = (row + (x * 4));
+HXDLIN( 547)								switch((int)(format)){
             									case (int)0: {
-HXLINE( 548)										{
-HXLINE( 548)											int val = (::hx::UShr(fillColor,24) & 255);
-HXDLIN( 548)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset),val);
+HXLINE( 547)										{
+HXLINE( 547)											int val = (::hx::UShr(fillColor,24) & 255);
+HXDLIN( 547)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset),val);
             										}
-HXDLIN( 548)										{
-HXLINE( 548)											int val1 = (::hx::UShr(fillColor,16) & 255);
-HXDLIN( 548)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 1)),val1);
+HXDLIN( 547)										{
+HXLINE( 547)											int val1 = (::hx::UShr(fillColor,16) & 255);
+HXDLIN( 547)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 1)),val1);
             										}
-HXDLIN( 548)										{
-HXLINE( 548)											int val2 = (::hx::UShr(fillColor,8) & 255);
-HXDLIN( 548)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 2)),val2);
+HXDLIN( 547)										{
+HXLINE( 547)											int val2 = (::hx::UShr(fillColor,8) & 255);
+HXDLIN( 547)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 2)),val2);
             										}
-HXDLIN( 548)										{
-HXLINE( 548)											int val3 = (fillColor & 255);
-HXDLIN( 548)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 3)),val3);
+HXDLIN( 547)										{
+HXLINE( 547)											int val3 = (fillColor & 255);
+HXDLIN( 547)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 3)),val3);
             										}
             									}
             									break;
             									case (int)1: {
-HXLINE( 548)										{
-HXLINE( 548)											int val = (fillColor & 255);
-HXDLIN( 548)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset),val);
+HXLINE( 547)										{
+HXLINE( 547)											int val = (fillColor & 255);
+HXDLIN( 547)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset),val);
             										}
-HXDLIN( 548)										{
-HXLINE( 548)											int val1 = (::hx::UShr(fillColor,24) & 255);
-HXDLIN( 548)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 1)),val1);
+HXDLIN( 547)										{
+HXLINE( 547)											int val1 = (::hx::UShr(fillColor,24) & 255);
+HXDLIN( 547)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 1)),val1);
             										}
-HXDLIN( 548)										{
-HXLINE( 548)											int val2 = (::hx::UShr(fillColor,16) & 255);
-HXDLIN( 548)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 2)),val2);
+HXDLIN( 547)										{
+HXLINE( 547)											int val2 = (::hx::UShr(fillColor,16) & 255);
+HXDLIN( 547)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 2)),val2);
             										}
-HXDLIN( 548)										{
-HXLINE( 548)											int val3 = (::hx::UShr(fillColor,8) & 255);
-HXDLIN( 548)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 3)),val3);
+HXDLIN( 547)										{
+HXLINE( 547)											int val3 = (::hx::UShr(fillColor,8) & 255);
+HXDLIN( 547)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 3)),val3);
             										}
             									}
             									break;
             									case (int)2: {
-HXLINE( 548)										{
-HXLINE( 548)											int val = (::hx::UShr(fillColor,8) & 255);
-HXDLIN( 548)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset),val);
+HXLINE( 547)										{
+HXLINE( 547)											int val = (::hx::UShr(fillColor,8) & 255);
+HXDLIN( 547)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset),val);
             										}
-HXDLIN( 548)										{
-HXLINE( 548)											int val1 = (::hx::UShr(fillColor,16) & 255);
-HXDLIN( 548)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 1)),val1);
+HXDLIN( 547)										{
+HXLINE( 547)											int val1 = (::hx::UShr(fillColor,16) & 255);
+HXDLIN( 547)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 1)),val1);
             										}
-HXDLIN( 548)										{
-HXLINE( 548)											int val2 = (::hx::UShr(fillColor,24) & 255);
-HXDLIN( 548)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 2)),val2);
+HXDLIN( 547)										{
+HXLINE( 547)											int val2 = (::hx::UShr(fillColor,24) & 255);
+HXDLIN( 547)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 2)),val2);
             										}
-HXDLIN( 548)										{
-HXLINE( 548)											int val3 = (fillColor & 255);
-HXDLIN( 548)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 3)),val3);
+HXDLIN( 547)										{
+HXLINE( 547)											int val3 = (fillColor & 255);
+HXDLIN( 547)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 3)),val3);
             										}
             									}
             									break;
@@ -2396,261 +2397,261 @@ HXDLIN( 548)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOff
             				}
             			}
             		}
-HXLINE( 553)		image->dirty = true;
-HXLINE( 554)		image->version++;
+HXLINE( 552)		image->dirty = true;
+HXLINE( 553)		image->version++;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC4(ImageDataUtil_obj,fillRect,(void))
 
 void ImageDataUtil_obj::floodFill( ::lime::graphics::Image image,int x,int y,int color,int format){
-            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_558_floodFill)
-HXLINE( 559)		 ::lime::utils::ArrayBufferView data = image->buffer->data;
-HXLINE( 560)		if (::hx::IsNull( data )) {
-HXLINE( 560)			return;
+            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_557_floodFill)
+HXLINE( 558)		 ::lime::utils::ArrayBufferView data = image->buffer->data;
+HXLINE( 559)		if (::hx::IsNull( data )) {
+HXLINE( 559)			return;
             		}
-HXLINE( 562)		if ((format == 1)) {
-HXLINE( 562)			color = (((color & 16777215) << 8) | ((color >> 24) & 255));
+HXLINE( 561)		if ((format == 1)) {
+HXLINE( 561)			color = (((color & 16777215) << 8) | ((color >> 24) & 255));
             		}
-HXLINE( 565)		if (::lime::_hx_system::CFFI_obj::enabled) {
-HXLINE( 565)			::lime::_internal::backend::native::NativeCFFI_obj::lime_image_data_util_flood_fill(::hx::DynamicPtr(image),x,y,((color >> 16) & 65535),(color & 65535));
+HXLINE( 564)		if (::lime::_hx_system::CFFI_obj::enabled) {
+HXLINE( 564)			::lime::_internal::backend::native::NativeCFFI_obj::lime_image_data_util_flood_fill(::hx::DynamicPtr(image),x,y,((color >> 16) & 65535),(color & 65535));
             		}
             		else {
-HXLINE( 570)			int format = image->buffer->format;
-HXLINE( 571)			bool premultiplied = image->buffer->premultiplied;
-HXLINE( 573)			int fillColor = color;
-HXLINE( 575)			int hitColor = 0;
-HXLINE( 576)			{
-HXLINE( 576)				int offset = (((y + image->offsetY) * (image->buffer->width * 4)) + ((x + image->offsetX) * 4));
-HXDLIN( 576)				switch((int)(format)){
+HXLINE( 569)			int format = image->buffer->format;
+HXLINE( 570)			bool premultiplied = image->buffer->premultiplied;
+HXLINE( 572)			int fillColor = color;
+HXLINE( 574)			int hitColor;
+HXLINE( 575)			{
+HXLINE( 575)				int offset = (((y + image->offsetY) * (image->buffer->width * 4)) + ((x + image->offsetX) * 4));
+HXDLIN( 575)				switch((int)(format)){
             					case (int)0: {
-HXLINE( 576)						int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) );
-HXDLIN( 576)						int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
-HXDLIN( 576)						int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
-HXDLIN( 576)						hitColor = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) ) & 255));
+HXLINE( 575)						int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) );
+HXDLIN( 575)						int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
+HXDLIN( 575)						int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
+HXDLIN( 575)						hitColor = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) ) & 255));
             					}
             					break;
             					case (int)1: {
-HXLINE( 576)						int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
-HXDLIN( 576)						int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
-HXDLIN( 576)						int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) );
-HXDLIN( 576)						hitColor = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) ) & 255));
+HXLINE( 575)						int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
+HXDLIN( 575)						int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
+HXDLIN( 575)						int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) );
+HXDLIN( 575)						hitColor = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) ) & 255));
             					}
             					break;
             					case (int)2: {
-HXLINE( 576)						int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
-HXDLIN( 576)						int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
-HXDLIN( 576)						int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) );
-HXDLIN( 576)						hitColor = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) ) & 255));
+HXLINE( 575)						int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
+HXDLIN( 575)						int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
+HXDLIN( 575)						int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) );
+HXDLIN( 575)						hitColor = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) ) & 255));
             					}
             					break;
             				}
-HXDLIN( 576)				if (premultiplied) {
-HXLINE( 576)					bool _hx_tmp;
-HXDLIN( 576)					if (((hitColor & 255) != 0)) {
-HXLINE( 576)						_hx_tmp = ((hitColor & 255) != 255);
+HXDLIN( 575)				if (premultiplied) {
+HXLINE( 575)					bool _hx_tmp;
+HXDLIN( 575)					if (((hitColor & 255) != 0)) {
+HXLINE( 575)						_hx_tmp = ((hitColor & 255) != 255);
             					}
             					else {
-HXLINE( 576)						_hx_tmp = false;
+HXLINE( 575)						_hx_tmp = false;
             					}
-HXDLIN( 576)					if (_hx_tmp) {
-HXLINE( 576)						::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((hitColor & 255)) ));
-HXDLIN( 576)						{
-HXLINE( 576)							 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 576)							int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(hitColor,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN( 576)							 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 576)							int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(hitColor,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN( 576)							 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 576)							hitColor = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(hitColor,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((hitColor & 255) & 255));
+HXDLIN( 575)					if (_hx_tmp) {
+HXLINE( 575)						::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((hitColor & 255)) ));
+HXDLIN( 575)						{
+HXLINE( 575)							 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 575)							int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(hitColor,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN( 575)							 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 575)							int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(hitColor,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN( 575)							 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 575)							hitColor = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(hitColor,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((hitColor & 255) & 255));
             						}
             					}
             				}
             			}
-HXLINE( 578)			if (!(image->get_transparent())) {
-HXLINE( 580)				fillColor = ((((((::hx::UShr(fillColor,24) & 255) & 255) << 24) | (((::hx::UShr(fillColor,16) & 255) & 255) << 16)) | (((::hx::UShr(fillColor,8) & 255) & 255) << 8)) | 255);
-HXLINE( 581)				hitColor = ((((((::hx::UShr(hitColor,24) & 255) & 255) << 24) | (((::hx::UShr(hitColor,16) & 255) & 255) << 16)) | (((::hx::UShr(hitColor,8) & 255) & 255) << 8)) | 255);
+HXLINE( 577)			if (!(image->get_transparent())) {
+HXLINE( 579)				fillColor = ((((((::hx::UShr(fillColor,24) & 255) & 255) << 24) | (((::hx::UShr(fillColor,16) & 255) & 255) << 16)) | (((::hx::UShr(fillColor,8) & 255) & 255) << 8)) | 255);
+HXLINE( 580)				hitColor = ((((((::hx::UShr(hitColor,24) & 255) & 255) << 24) | (((::hx::UShr(hitColor,16) & 255) & 255) << 16)) | (((::hx::UShr(hitColor,8) & 255) & 255) << 8)) | 255);
             			}
-HXLINE( 584)			if ((fillColor == hitColor)) {
-HXLINE( 584)				return;
+HXLINE( 583)			if ((fillColor == hitColor)) {
+HXLINE( 583)				return;
             			}
-HXLINE( 586)			if (premultiplied) {
-HXLINE( 586)				if (((fillColor & 255) == 0)) {
-HXLINE( 586)					if ((fillColor != 0)) {
-HXLINE( 586)						fillColor = 0;
+HXLINE( 585)			if (premultiplied) {
+HXLINE( 585)				if (((fillColor & 255) == 0)) {
+HXLINE( 585)					if ((fillColor != 0)) {
+HXLINE( 585)						fillColor = 0;
             					}
             				}
             				else {
-HXLINE( 586)					if (((fillColor & 255) != 255)) {
-HXLINE( 586)						 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
-HXDLIN( 586)						::lime::math::_RGBA::RGBA_Impl__obj::a16 = ( (int)( ::__hxcpp_memory_get_ui32(this1->buffer->b,(this1->byteOffset + ((fillColor & 255) * 4)))) );
-HXDLIN( 586)						fillColor = ((((((((::hx::UShr(fillColor,24) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 24) | (((((::hx::UShr(fillColor,16) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 16)) | (((((::hx::UShr(fillColor,8) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 8)) | ((fillColor & 255) & 255));
+HXLINE( 585)					if (((fillColor & 255) != 255)) {
+HXLINE( 585)						 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
+HXDLIN( 585)						::lime::math::_RGBA::RGBA_Impl__obj::a16 = ( (int)( ::__hxcpp_memory_get_ui32(this1->buffer->b,(this1->byteOffset + ((fillColor & 255) * 4)))) );
+HXDLIN( 585)						fillColor = ((((((((::hx::UShr(fillColor,24) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 24) | (((((::hx::UShr(fillColor,16) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 16)) | (((((::hx::UShr(fillColor,8) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 8)) | ((fillColor & 255) & 255));
             					}
             				}
             			}
-HXLINE( 588)			::Array< int > dx = ::Array_obj< int >::fromData( _hx_array_data_0eb0fdcf_29,4);
-HXLINE( 589)			::Array< int > dy = ::Array_obj< int >::fromData( _hx_array_data_0eb0fdcf_30,4);
-HXLINE( 591)			int minX = -(image->offsetX);
-HXLINE( 592)			int minY = -(image->offsetY);
-HXLINE( 593)			int maxX = (minX + image->width);
-HXLINE( 594)			int maxY = (minY + image->height);
-HXLINE( 596)			::Array< int > queue = ::Array_obj< int >::__new();
-HXLINE( 597)			queue->push(x);
-HXLINE( 598)			queue->push(y);
-HXLINE( 600)			 ::Dynamic curPointX;
-HXDLIN( 600)			 ::Dynamic curPointY;
-HXDLIN( 600)			int nextPointX;
-HXDLIN( 600)			int nextPointY;
-HXDLIN( 600)			int nextPointOffset;
-HXDLIN( 600)			int readColor = 0;
-HXLINE( 607)			while((queue->length > 0)){
-HXLINE( 609)				curPointY = queue->pop();
-HXLINE( 610)				curPointX = queue->pop();
-HXLINE( 612)				{
-HXLINE( 612)					int _g = 0;
-HXDLIN( 612)					while((_g < 4)){
-HXLINE( 612)						_g = (_g + 1);
-HXDLIN( 612)						int i = (_g - 1);
-HXLINE( 614)						nextPointX = (curPointX + dx->__get(i));
-HXLINE( 615)						nextPointY = (curPointY + dy->__get(i));
-HXLINE( 617)						bool _hx_tmp;
-HXDLIN( 617)						bool _hx_tmp1;
-HXDLIN( 617)						bool _hx_tmp2;
-HXDLIN( 617)						if ((nextPointX >= minX)) {
-HXLINE( 617)							_hx_tmp2 = (nextPointY < minY);
+HXLINE( 587)			::Array< int > dx = ::Array_obj< int >::fromData( _hx_array_data_0eb0fdcf_29,4);
+HXLINE( 588)			::Array< int > dy = ::Array_obj< int >::fromData( _hx_array_data_0eb0fdcf_30,4);
+HXLINE( 590)			int minX = -(image->offsetX);
+HXLINE( 591)			int minY = -(image->offsetY);
+HXLINE( 592)			int maxX = (minX + image->width);
+HXLINE( 593)			int maxY = (minY + image->height);
+HXLINE( 595)			::Array< int > queue = ::Array_obj< int >::__new();
+HXLINE( 596)			queue->push(x);
+HXLINE( 597)			queue->push(y);
+HXLINE( 599)			 ::Dynamic curPointX;
+HXDLIN( 599)			 ::Dynamic curPointY;
+HXDLIN( 599)			int nextPointX;
+HXDLIN( 599)			int nextPointY;
+HXDLIN( 599)			int nextPointOffset;
+HXDLIN( 599)			int readColor;
+HXLINE( 606)			while((queue->length > 0)){
+HXLINE( 608)				curPointY = queue->pop();
+HXLINE( 609)				curPointX = queue->pop();
+HXLINE( 611)				{
+HXLINE( 611)					int _g = 0;
+HXDLIN( 611)					while((_g < 4)){
+HXLINE( 611)						_g = (_g + 1);
+HXDLIN( 611)						int i = (_g - 1);
+HXLINE( 613)						nextPointX = (curPointX + dx->__get(i));
+HXLINE( 614)						nextPointY = (curPointY + dy->__get(i));
+HXLINE( 616)						bool _hx_tmp;
+HXDLIN( 616)						bool _hx_tmp1;
+HXDLIN( 616)						bool _hx_tmp2;
+HXDLIN( 616)						if ((nextPointX >= minX)) {
+HXLINE( 616)							_hx_tmp2 = (nextPointY < minY);
             						}
             						else {
-HXLINE( 617)							_hx_tmp2 = true;
+HXLINE( 616)							_hx_tmp2 = true;
             						}
-HXDLIN( 617)						if (!(_hx_tmp2)) {
-HXLINE( 617)							_hx_tmp1 = (nextPointX >= maxX);
-            						}
-            						else {
-HXLINE( 617)							_hx_tmp1 = true;
-            						}
-HXDLIN( 617)						if (!(_hx_tmp1)) {
-HXLINE( 617)							_hx_tmp = (nextPointY >= maxY);
+HXDLIN( 616)						if (!(_hx_tmp2)) {
+HXLINE( 616)							_hx_tmp1 = (nextPointX >= maxX);
             						}
             						else {
-HXLINE( 617)							_hx_tmp = true;
+HXLINE( 616)							_hx_tmp1 = true;
             						}
-HXDLIN( 617)						if (_hx_tmp) {
-HXLINE( 619)							continue;
+HXDLIN( 616)						if (!(_hx_tmp1)) {
+HXLINE( 616)							_hx_tmp = (nextPointY >= maxY);
             						}
-HXLINE( 622)						nextPointOffset = (((nextPointY * image->width) + nextPointX) * 4);
-HXLINE( 623)						{
-HXLINE( 623)							switch((int)(format)){
+            						else {
+HXLINE( 616)							_hx_tmp = true;
+            						}
+HXDLIN( 616)						if (_hx_tmp) {
+HXLINE( 618)							continue;
+            						}
+HXLINE( 621)						nextPointOffset = (((nextPointY * image->width) + nextPointX) * 4);
+HXLINE( 622)						{
+HXLINE( 622)							switch((int)(format)){
             								case (int)0: {
-HXLINE( 623)									int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + nextPointOffset)) & 255)) );
-HXDLIN( 623)									int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 1))) & 255)) );
-HXDLIN( 623)									int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 2))) & 255)) );
-HXDLIN( 623)									readColor = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 3))) & 255)) ) & 255));
+HXLINE( 622)									int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + nextPointOffset)) & 255)) );
+HXDLIN( 622)									int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 1))) & 255)) );
+HXDLIN( 622)									int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 2))) & 255)) );
+HXDLIN( 622)									readColor = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 3))) & 255)) ) & 255));
             								}
             								break;
             								case (int)1: {
-HXLINE( 623)									int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 1))) & 255)) );
-HXDLIN( 623)									int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 2))) & 255)) );
-HXDLIN( 623)									int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 3))) & 255)) );
-HXDLIN( 623)									readColor = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + nextPointOffset)) & 255)) ) & 255));
+HXLINE( 622)									int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 1))) & 255)) );
+HXDLIN( 622)									int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 2))) & 255)) );
+HXDLIN( 622)									int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 3))) & 255)) );
+HXDLIN( 622)									readColor = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + nextPointOffset)) & 255)) ) & 255));
             								}
             								break;
             								case (int)2: {
-HXLINE( 623)									int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 2))) & 255)) );
-HXDLIN( 623)									int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 1))) & 255)) );
-HXDLIN( 623)									int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + nextPointOffset)) & 255)) );
-HXDLIN( 623)									readColor = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 3))) & 255)) ) & 255));
+HXLINE( 622)									int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 2))) & 255)) );
+HXDLIN( 622)									int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 1))) & 255)) );
+HXDLIN( 622)									int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + nextPointOffset)) & 255)) );
+HXDLIN( 622)									readColor = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 3))) & 255)) ) & 255));
             								}
             								break;
             							}
-HXDLIN( 623)							if (premultiplied) {
-HXLINE( 623)								bool _hx_tmp;
-HXDLIN( 623)								if (((readColor & 255) != 0)) {
-HXLINE( 623)									_hx_tmp = ((readColor & 255) != 255);
+HXDLIN( 622)							if (premultiplied) {
+HXLINE( 622)								bool _hx_tmp;
+HXDLIN( 622)								if (((readColor & 255) != 0)) {
+HXLINE( 622)									_hx_tmp = ((readColor & 255) != 255);
             								}
             								else {
-HXLINE( 623)									_hx_tmp = false;
+HXLINE( 622)									_hx_tmp = false;
             								}
-HXDLIN( 623)								if (_hx_tmp) {
-HXLINE( 623)									::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((readColor & 255)) ));
-HXDLIN( 623)									{
-HXLINE( 623)										 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 623)										int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(readColor,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN( 623)										 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 623)										int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(readColor,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN( 623)										 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 623)										readColor = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(readColor,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((readColor & 255) & 255));
+HXDLIN( 622)								if (_hx_tmp) {
+HXLINE( 622)									::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((readColor & 255)) ));
+HXDLIN( 622)									{
+HXLINE( 622)										 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 622)										int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(readColor,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN( 622)										 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 622)										int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(readColor,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN( 622)										 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 622)										readColor = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(readColor,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((readColor & 255) & 255));
             									}
             								}
             							}
             						}
-HXLINE( 625)						if ((readColor == hitColor)) {
-HXLINE( 627)							switch((int)(format)){
+HXLINE( 624)						if ((readColor == hitColor)) {
+HXLINE( 626)							switch((int)(format)){
             								case (int)0: {
-HXLINE( 627)									{
-HXLINE( 627)										int val = (::hx::UShr(fillColor,24) & 255);
-HXDLIN( 627)										 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + nextPointOffset),val);
+HXLINE( 626)									{
+HXLINE( 626)										int val = (::hx::UShr(fillColor,24) & 255);
+HXDLIN( 626)										 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + nextPointOffset),val);
             									}
-HXDLIN( 627)									{
-HXLINE( 627)										int val1 = (::hx::UShr(fillColor,16) & 255);
-HXDLIN( 627)										 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 1)),val1);
+HXDLIN( 626)									{
+HXLINE( 626)										int val1 = (::hx::UShr(fillColor,16) & 255);
+HXDLIN( 626)										 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 1)),val1);
             									}
-HXDLIN( 627)									{
-HXLINE( 627)										int val2 = (::hx::UShr(fillColor,8) & 255);
-HXDLIN( 627)										 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 2)),val2);
+HXDLIN( 626)									{
+HXLINE( 626)										int val2 = (::hx::UShr(fillColor,8) & 255);
+HXDLIN( 626)										 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 2)),val2);
             									}
-HXDLIN( 627)									{
-HXLINE( 627)										int val3 = (fillColor & 255);
-HXDLIN( 627)										 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 3)),val3);
+HXDLIN( 626)									{
+HXLINE( 626)										int val3 = (fillColor & 255);
+HXDLIN( 626)										 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 3)),val3);
             									}
             								}
             								break;
             								case (int)1: {
-HXLINE( 627)									{
-HXLINE( 627)										int val = (fillColor & 255);
-HXDLIN( 627)										 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + nextPointOffset),val);
+HXLINE( 626)									{
+HXLINE( 626)										int val = (fillColor & 255);
+HXDLIN( 626)										 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + nextPointOffset),val);
             									}
-HXDLIN( 627)									{
-HXLINE( 627)										int val1 = (::hx::UShr(fillColor,24) & 255);
-HXDLIN( 627)										 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 1)),val1);
+HXDLIN( 626)									{
+HXLINE( 626)										int val1 = (::hx::UShr(fillColor,24) & 255);
+HXDLIN( 626)										 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 1)),val1);
             									}
-HXDLIN( 627)									{
-HXLINE( 627)										int val2 = (::hx::UShr(fillColor,16) & 255);
-HXDLIN( 627)										 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 2)),val2);
+HXDLIN( 626)									{
+HXLINE( 626)										int val2 = (::hx::UShr(fillColor,16) & 255);
+HXDLIN( 626)										 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 2)),val2);
             									}
-HXDLIN( 627)									{
-HXLINE( 627)										int val3 = (::hx::UShr(fillColor,8) & 255);
-HXDLIN( 627)										 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 3)),val3);
+HXDLIN( 626)									{
+HXLINE( 626)										int val3 = (::hx::UShr(fillColor,8) & 255);
+HXDLIN( 626)										 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 3)),val3);
             									}
             								}
             								break;
             								case (int)2: {
-HXLINE( 627)									{
-HXLINE( 627)										int val = (::hx::UShr(fillColor,8) & 255);
-HXDLIN( 627)										 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + nextPointOffset),val);
+HXLINE( 626)									{
+HXLINE( 626)										int val = (::hx::UShr(fillColor,8) & 255);
+HXDLIN( 626)										 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + nextPointOffset),val);
             									}
-HXDLIN( 627)									{
-HXLINE( 627)										int val1 = (::hx::UShr(fillColor,16) & 255);
-HXDLIN( 627)										 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 1)),val1);
+HXDLIN( 626)									{
+HXLINE( 626)										int val1 = (::hx::UShr(fillColor,16) & 255);
+HXDLIN( 626)										 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 1)),val1);
             									}
-HXDLIN( 627)									{
-HXLINE( 627)										int val2 = (::hx::UShr(fillColor,24) & 255);
-HXDLIN( 627)										 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 2)),val2);
+HXDLIN( 626)									{
+HXLINE( 626)										int val2 = (::hx::UShr(fillColor,24) & 255);
+HXDLIN( 626)										 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 2)),val2);
             									}
-HXDLIN( 627)									{
-HXLINE( 627)										int val3 = (fillColor & 255);
-HXDLIN( 627)										 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 3)),val3);
+HXDLIN( 626)									{
+HXLINE( 626)										int val3 = (fillColor & 255);
+HXDLIN( 626)										 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (nextPointOffset + 3)),val3);
             									}
             								}
             								break;
             							}
-HXLINE( 629)							queue->push(nextPointX);
-HXLINE( 630)							queue->push(nextPointY);
+HXLINE( 628)							queue->push(nextPointX);
+HXLINE( 629)							queue->push(nextPointY);
             						}
             					}
             				}
             			}
             		}
-HXLINE( 636)		image->dirty = true;
-HXLINE( 637)		image->version++;
+HXLINE( 635)		image->dirty = true;
+HXLINE( 636)		image->version++;
             	}
 
 
@@ -2661,882 +2662,882 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC5(ImageDataUtil_obj,floodFill,(void))
             		Float blurY = __o_blurY.Default(4);
             		int quality = __o_quality.Default(1);
             		Float strength = __o_strength.Default(1);
-            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_642_gaussianBlur)
-HXLINE( 646)		bool imagePremultiplied = image->get_premultiplied();
-HXLINE( 647)		if (imagePremultiplied) {
-HXLINE( 647)			image->set_premultiplied(false);
+            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_641_gaussianBlur)
+HXLINE( 645)		bool imagePremultiplied = image->get_premultiplied();
+HXLINE( 646)		if (imagePremultiplied) {
+HXLINE( 646)			image->set_premultiplied(false);
             		}
-HXLINE( 657)		::lime::_internal::graphics::StackBlur_obj::blur(image,sourceImage,sourceRect,destPoint,blurX,blurY,quality);
-HXLINE( 659)		image->dirty = true;
-HXLINE( 660)		image->version++;
-HXLINE( 662)		if (imagePremultiplied) {
-HXLINE( 662)			image->set_premultiplied(true);
+HXLINE( 656)		::lime::_internal::graphics::StackBlur_obj::blur(image,sourceImage,sourceRect,destPoint,blurX,blurY,quality);
+HXLINE( 658)		image->dirty = true;
+HXLINE( 659)		image->version++;
+HXLINE( 661)		if (imagePremultiplied) {
+HXLINE( 661)			image->set_premultiplied(true);
             		}
-HXLINE( 664)		return image;
+HXLINE( 663)		return image;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC9(ImageDataUtil_obj,gaussianBlur,return )
 
  ::lime::math::Rectangle ImageDataUtil_obj::getColorBoundsRect( ::lime::graphics::Image image,int mask,int color,bool findColor,int format){
-            	HX_GC_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_668_getColorBoundsRect)
-HXLINE( 669)		int left = (image->width + 1);
-HXLINE( 670)		int right = 0;
-HXLINE( 671)		int top = (image->height + 1);
-HXLINE( 672)		int bottom = 0;
-HXLINE( 674)		int _color;
-HXDLIN( 674)		int _mask;
-HXLINE( 676)		switch((int)(format)){
+            	HX_GC_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_667_getColorBoundsRect)
+HXLINE( 668)		int left = (image->width + 1);
+HXLINE( 669)		int right = 0;
+HXLINE( 670)		int top = (image->height + 1);
+HXLINE( 671)		int bottom = 0;
+HXLINE( 673)		int _color;
+HXDLIN( 673)		int _mask;
+HXLINE( 675)		switch((int)(format)){
             			case (int)1: {
-HXLINE( 679)				int argb = color;
-HXDLIN( 679)				int this1 = 0;
-HXDLIN( 679)				int rgba = this1;
-HXDLIN( 679)				rgba = ((((((::hx::UShr(argb,16) & 255) & 255) << 24) | (((::hx::UShr(argb,8) & 255) & 255) << 16)) | (((argb & 255) & 255) << 8)) | ((::hx::UShr(argb,24) & 255) & 255));
-HXDLIN( 679)				_color = rgba;
-HXLINE( 680)				int argb1 = mask;
-HXDLIN( 680)				int this2 = 0;
-HXDLIN( 680)				int rgba1 = this2;
-HXDLIN( 680)				rgba1 = ((((((::hx::UShr(argb1,16) & 255) & 255) << 24) | (((::hx::UShr(argb1,8) & 255) & 255) << 16)) | (((argb1 & 255) & 255) << 8)) | ((::hx::UShr(argb1,24) & 255) & 255));
-HXDLIN( 680)				_mask = rgba1;
+HXLINE( 678)				int argb = color;
+HXDLIN( 678)				int this1 = 0;
+HXDLIN( 678)				int rgba = this1;
+HXDLIN( 678)				rgba = ((((((::hx::UShr(argb,16) & 255) & 255) << 24) | (((::hx::UShr(argb,8) & 255) & 255) << 16)) | (((argb & 255) & 255) << 8)) | ((::hx::UShr(argb,24) & 255) & 255));
+HXDLIN( 678)				_color = rgba;
+HXLINE( 679)				int argb1 = mask;
+HXDLIN( 679)				int this2 = 0;
+HXDLIN( 679)				int rgba1 = this2;
+HXDLIN( 679)				rgba1 = ((((((::hx::UShr(argb1,16) & 255) & 255) << 24) | (((::hx::UShr(argb1,8) & 255) & 255) << 16)) | (((argb1 & 255) & 255) << 8)) | ((::hx::UShr(argb1,24) & 255) & 255));
+HXDLIN( 679)				_mask = rgba1;
             			}
             			break;
             			case (int)2: {
-HXLINE( 683)				int bgra = color;
-HXDLIN( 683)				int this1 = 0;
-HXDLIN( 683)				int rgba = this1;
-HXDLIN( 683)				rgba = ((((((::hx::UShr(bgra,8) & 255) & 255) << 24) | (((::hx::UShr(bgra,16) & 255) & 255) << 16)) | (((::hx::UShr(bgra,24) & 255) & 255) << 8)) | ((bgra & 255) & 255));
-HXDLIN( 683)				_color = rgba;
-HXLINE( 684)				int bgra1 = mask;
-HXDLIN( 684)				int this2 = 0;
-HXDLIN( 684)				int rgba1 = this2;
-HXDLIN( 684)				rgba1 = ((((((::hx::UShr(bgra1,8) & 255) & 255) << 24) | (((::hx::UShr(bgra1,16) & 255) & 255) << 16)) | (((::hx::UShr(bgra1,24) & 255) & 255) << 8)) | ((bgra1 & 255) & 255));
-HXDLIN( 684)				_mask = rgba1;
+HXLINE( 682)				int bgra = color;
+HXDLIN( 682)				int this1 = 0;
+HXDLIN( 682)				int rgba = this1;
+HXDLIN( 682)				rgba = ((((((::hx::UShr(bgra,8) & 255) & 255) << 24) | (((::hx::UShr(bgra,16) & 255) & 255) << 16)) | (((::hx::UShr(bgra,24) & 255) & 255) << 8)) | ((bgra & 255) & 255));
+HXDLIN( 682)				_color = rgba;
+HXLINE( 683)				int bgra1 = mask;
+HXDLIN( 683)				int this2 = 0;
+HXDLIN( 683)				int rgba1 = this2;
+HXDLIN( 683)				rgba1 = ((((((::hx::UShr(bgra1,8) & 255) & 255) << 24) | (((::hx::UShr(bgra1,16) & 255) & 255) << 16)) | (((::hx::UShr(bgra1,24) & 255) & 255) << 8)) | ((bgra1 & 255) & 255));
+HXDLIN( 683)				_mask = rgba1;
             			}
             			break;
             			default:{
-HXLINE( 687)				_color = color;
-HXLINE( 688)				_mask = mask;
+HXLINE( 686)				_color = color;
+HXLINE( 687)				_mask = mask;
             			}
             		}
-HXLINE( 691)		if (!(image->get_transparent())) {
-HXLINE( 693)			_color = ((((((::hx::UShr(_color,24) & 255) & 255) << 24) | (((::hx::UShr(_color,16) & 255) & 255) << 16)) | (((::hx::UShr(_color,8) & 255) & 255) << 8)) | 255);
-HXLINE( 694)			_mask = ((((((::hx::UShr(_mask,24) & 255) & 255) << 24) | (((::hx::UShr(_mask,16) & 255) & 255) << 16)) | (((::hx::UShr(_mask,8) & 255) & 255) << 8)) | 255);
+HXLINE( 690)		if (!(image->get_transparent())) {
+HXLINE( 692)			_color = ((((((::hx::UShr(_color,24) & 255) & 255) << 24) | (((::hx::UShr(_color,16) & 255) & 255) << 16)) | (((::hx::UShr(_color,8) & 255) & 255) << 8)) | 255);
+HXLINE( 693)			_mask = ((((((::hx::UShr(_mask,24) & 255) & 255) << 24) | (((::hx::UShr(_mask,16) & 255) & 255) << 16)) | (((::hx::UShr(_mask,8) & 255) & 255) << 8)) | 255);
             		}
-HXLINE( 697)		int pixel;
-HXDLIN( 697)		bool hit;
-HXLINE( 699)		{
-HXLINE( 699)			int _g = 0;
-HXDLIN( 699)			int _g1 = image->width;
-HXDLIN( 699)			while((_g < _g1)){
-HXLINE( 699)				_g = (_g + 1);
-HXDLIN( 699)				int x = (_g - 1);
-HXLINE( 701)				hit = false;
-HXLINE( 703)				{
-HXLINE( 703)					int _g1 = 0;
-HXDLIN( 703)					int _g2 = image->height;
-HXDLIN( 703)					while((_g1 < _g2)){
-HXLINE( 703)						_g1 = (_g1 + 1);
-HXDLIN( 703)						int y = (_g1 - 1);
-HXLINE( 705)						pixel = image->getPixel32(x,y,0);
-HXLINE( 706)						if (findColor) {
-HXLINE( 706)							hit = ((pixel & _mask) == _color);
+HXLINE( 696)		int pixel;
+HXDLIN( 696)		bool hit;
+HXLINE( 698)		{
+HXLINE( 698)			int _g = 0;
+HXDLIN( 698)			int _g1 = image->width;
+HXDLIN( 698)			while((_g < _g1)){
+HXLINE( 698)				_g = (_g + 1);
+HXDLIN( 698)				int x = (_g - 1);
+HXLINE( 700)				hit = false;
+HXLINE( 702)				{
+HXLINE( 702)					int _g1 = 0;
+HXDLIN( 702)					int _g2 = image->height;
+HXDLIN( 702)					while((_g1 < _g2)){
+HXLINE( 702)						_g1 = (_g1 + 1);
+HXDLIN( 702)						int y = (_g1 - 1);
+HXLINE( 704)						pixel = image->getPixel32(x,y,0);
+HXLINE( 705)						if (findColor) {
+HXLINE( 705)							hit = ((pixel & _mask) == _color);
             						}
             						else {
-HXLINE( 706)							hit = ((pixel & _mask) != _color);
+HXLINE( 705)							hit = ((pixel & _mask) != _color);
             						}
-HXLINE( 708)						if (hit) {
-HXLINE( 710)							if ((x < left)) {
-HXLINE( 710)								left = x;
+HXLINE( 707)						if (hit) {
+HXLINE( 709)							if ((x < left)) {
+HXLINE( 709)								left = x;
             							}
-HXLINE( 711)							goto _hx_goto_33;
+HXLINE( 710)							goto _hx_goto_33;
             						}
             					}
             					_hx_goto_33:;
             				}
-HXLINE( 715)				if (hit) {
-HXLINE( 717)					goto _hx_goto_32;
+HXLINE( 714)				if (hit) {
+HXLINE( 716)					goto _hx_goto_32;
             				}
             			}
             			_hx_goto_32:;
             		}
-HXLINE( 721)		int ix;
-HXLINE( 723)		{
-HXLINE( 723)			int _g2 = 0;
-HXDLIN( 723)			int _g3 = image->width;
-HXDLIN( 723)			while((_g2 < _g3)){
-HXLINE( 723)				_g2 = (_g2 + 1);
-HXDLIN( 723)				int x = (_g2 - 1);
-HXLINE( 725)				ix = ((image->width - 1) - x);
-HXLINE( 726)				hit = false;
-HXLINE( 728)				{
-HXLINE( 728)					int _g = 0;
-HXDLIN( 728)					int _g1 = image->height;
-HXDLIN( 728)					while((_g < _g1)){
-HXLINE( 728)						_g = (_g + 1);
-HXDLIN( 728)						int y = (_g - 1);
-HXLINE( 730)						pixel = image->getPixel32(ix,y,0);
-HXLINE( 731)						if (findColor) {
-HXLINE( 731)							hit = ((pixel & _mask) == _color);
+HXLINE( 720)		int ix;
+HXLINE( 722)		{
+HXLINE( 722)			int _g2 = 0;
+HXDLIN( 722)			int _g3 = image->width;
+HXDLIN( 722)			while((_g2 < _g3)){
+HXLINE( 722)				_g2 = (_g2 + 1);
+HXDLIN( 722)				int x = (_g2 - 1);
+HXLINE( 724)				ix = ((image->width - 1) - x);
+HXLINE( 725)				hit = false;
+HXLINE( 727)				{
+HXLINE( 727)					int _g = 0;
+HXDLIN( 727)					int _g1 = image->height;
+HXDLIN( 727)					while((_g < _g1)){
+HXLINE( 727)						_g = (_g + 1);
+HXDLIN( 727)						int y = (_g - 1);
+HXLINE( 729)						pixel = image->getPixel32(ix,y,0);
+HXLINE( 730)						if (findColor) {
+HXLINE( 730)							hit = ((pixel & _mask) == _color);
             						}
             						else {
-HXLINE( 731)							hit = ((pixel & _mask) != _color);
+HXLINE( 730)							hit = ((pixel & _mask) != _color);
             						}
-HXLINE( 733)						if (hit) {
-HXLINE( 735)							if ((ix > right)) {
-HXLINE( 735)								right = ix;
+HXLINE( 732)						if (hit) {
+HXLINE( 734)							if ((ix > right)) {
+HXLINE( 734)								right = ix;
             							}
-HXLINE( 736)							goto _hx_goto_35;
+HXLINE( 735)							goto _hx_goto_35;
             						}
             					}
             					_hx_goto_35:;
             				}
-HXLINE( 740)				if (hit) {
-HXLINE( 742)					goto _hx_goto_34;
+HXLINE( 739)				if (hit) {
+HXLINE( 741)					goto _hx_goto_34;
             				}
             			}
             			_hx_goto_34:;
             		}
-HXLINE( 746)		{
-HXLINE( 746)			int _g4 = 0;
-HXDLIN( 746)			int _g5 = image->height;
-HXDLIN( 746)			while((_g4 < _g5)){
-HXLINE( 746)				_g4 = (_g4 + 1);
-HXDLIN( 746)				int y = (_g4 - 1);
-HXLINE( 748)				hit = false;
-HXLINE( 750)				{
-HXLINE( 750)					int _g = 0;
-HXDLIN( 750)					int _g1 = image->width;
-HXDLIN( 750)					while((_g < _g1)){
-HXLINE( 750)						_g = (_g + 1);
-HXDLIN( 750)						int x = (_g - 1);
-HXLINE( 752)						pixel = image->getPixel32(x,y,0);
-HXLINE( 753)						if (findColor) {
-HXLINE( 753)							hit = ((pixel & _mask) == _color);
+HXLINE( 745)		{
+HXLINE( 745)			int _g4 = 0;
+HXDLIN( 745)			int _g5 = image->height;
+HXDLIN( 745)			while((_g4 < _g5)){
+HXLINE( 745)				_g4 = (_g4 + 1);
+HXDLIN( 745)				int y = (_g4 - 1);
+HXLINE( 747)				hit = false;
+HXLINE( 749)				{
+HXLINE( 749)					int _g = 0;
+HXDLIN( 749)					int _g1 = image->width;
+HXDLIN( 749)					while((_g < _g1)){
+HXLINE( 749)						_g = (_g + 1);
+HXDLIN( 749)						int x = (_g - 1);
+HXLINE( 751)						pixel = image->getPixel32(x,y,0);
+HXLINE( 752)						if (findColor) {
+HXLINE( 752)							hit = ((pixel & _mask) == _color);
             						}
             						else {
-HXLINE( 753)							hit = ((pixel & _mask) != _color);
+HXLINE( 752)							hit = ((pixel & _mask) != _color);
             						}
-HXLINE( 755)						if (hit) {
-HXLINE( 757)							if ((y < top)) {
-HXLINE( 757)								top = y;
+HXLINE( 754)						if (hit) {
+HXLINE( 756)							if ((y < top)) {
+HXLINE( 756)								top = y;
             							}
-HXLINE( 758)							goto _hx_goto_37;
+HXLINE( 757)							goto _hx_goto_37;
             						}
             					}
             					_hx_goto_37:;
             				}
-HXLINE( 762)				if (hit) {
-HXLINE( 764)					goto _hx_goto_36;
+HXLINE( 761)				if (hit) {
+HXLINE( 763)					goto _hx_goto_36;
             				}
             			}
             			_hx_goto_36:;
             		}
-HXLINE( 768)		int iy;
-HXLINE( 770)		{
-HXLINE( 770)			int _g6 = 0;
-HXDLIN( 770)			int _g7 = image->height;
-HXDLIN( 770)			while((_g6 < _g7)){
-HXLINE( 770)				_g6 = (_g6 + 1);
-HXDLIN( 770)				int y = (_g6 - 1);
-HXLINE( 772)				iy = ((image->height - 1) - y);
-HXLINE( 773)				hit = false;
-HXLINE( 775)				{
-HXLINE( 775)					int _g = 0;
-HXDLIN( 775)					int _g1 = image->width;
-HXDLIN( 775)					while((_g < _g1)){
-HXLINE( 775)						_g = (_g + 1);
-HXDLIN( 775)						int x = (_g - 1);
-HXLINE( 777)						pixel = image->getPixel32(x,iy,0);
-HXLINE( 778)						if (findColor) {
-HXLINE( 778)							hit = ((pixel & _mask) == _color);
+HXLINE( 767)		int iy;
+HXLINE( 769)		{
+HXLINE( 769)			int _g6 = 0;
+HXDLIN( 769)			int _g7 = image->height;
+HXDLIN( 769)			while((_g6 < _g7)){
+HXLINE( 769)				_g6 = (_g6 + 1);
+HXDLIN( 769)				int y = (_g6 - 1);
+HXLINE( 771)				iy = ((image->height - 1) - y);
+HXLINE( 772)				hit = false;
+HXLINE( 774)				{
+HXLINE( 774)					int _g = 0;
+HXDLIN( 774)					int _g1 = image->width;
+HXDLIN( 774)					while((_g < _g1)){
+HXLINE( 774)						_g = (_g + 1);
+HXDLIN( 774)						int x = (_g - 1);
+HXLINE( 776)						pixel = image->getPixel32(x,iy,0);
+HXLINE( 777)						if (findColor) {
+HXLINE( 777)							hit = ((pixel & _mask) == _color);
             						}
             						else {
-HXLINE( 778)							hit = ((pixel & _mask) != _color);
+HXLINE( 777)							hit = ((pixel & _mask) != _color);
             						}
-HXLINE( 780)						if (hit) {
-HXLINE( 782)							if ((iy > bottom)) {
-HXLINE( 782)								bottom = iy;
+HXLINE( 779)						if (hit) {
+HXLINE( 781)							if ((iy > bottom)) {
+HXLINE( 781)								bottom = iy;
             							}
-HXLINE( 783)							goto _hx_goto_39;
+HXLINE( 782)							goto _hx_goto_39;
             						}
             					}
             					_hx_goto_39:;
             				}
-HXLINE( 787)				if (hit) {
-HXLINE( 789)					goto _hx_goto_38;
+HXLINE( 786)				if (hit) {
+HXLINE( 788)					goto _hx_goto_38;
             				}
             			}
             			_hx_goto_38:;
             		}
-HXLINE( 793)		int w = (right - left);
-HXLINE( 794)		int h = (bottom - top);
-HXLINE( 796)		if ((w > 0)) {
-HXLINE( 796)			w = (w + 1);
+HXLINE( 792)		int w = (right - left);
+HXLINE( 793)		int h = (bottom - top);
+HXLINE( 795)		if ((w > 0)) {
+HXLINE( 795)			w = (w + 1);
             		}
-HXLINE( 797)		if ((h > 0)) {
-HXLINE( 797)			h = (h + 1);
+HXLINE( 796)		if ((h > 0)) {
+HXLINE( 796)			h = (h + 1);
             		}
-HXLINE( 799)		if ((w < 0)) {
-HXLINE( 799)			w = 0;
+HXLINE( 798)		if ((w < 0)) {
+HXLINE( 798)			w = 0;
             		}
-HXLINE( 800)		if ((h < 0)) {
-HXLINE( 800)			h = 0;
+HXLINE( 799)		if ((h < 0)) {
+HXLINE( 799)			h = 0;
             		}
-HXLINE( 802)		if ((left == right)) {
-HXLINE( 802)			w = 1;
+HXLINE( 801)		if ((left == right)) {
+HXLINE( 801)			w = 1;
             		}
-HXLINE( 803)		if ((top == bottom)) {
-HXLINE( 803)			h = 1;
+HXLINE( 802)		if ((top == bottom)) {
+HXLINE( 802)			h = 1;
             		}
-HXLINE( 805)		if ((left > image->width)) {
-HXLINE( 805)			left = 0;
+HXLINE( 804)		if ((left > image->width)) {
+HXLINE( 804)			left = 0;
             		}
-HXLINE( 806)		if ((top > image->height)) {
-HXLINE( 806)			top = 0;
+HXLINE( 805)		if ((top > image->height)) {
+HXLINE( 805)			top = 0;
             		}
-HXLINE( 808)		return  ::lime::math::Rectangle_obj::__alloc( HX_CTX ,left,top,w,h);
+HXLINE( 807)		return  ::lime::math::Rectangle_obj::__alloc( HX_CTX ,left,top,w,h);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC5(ImageDataUtil_obj,getColorBoundsRect,return )
 
 int ImageDataUtil_obj::getPixel( ::lime::graphics::Image image,int x,int y,int format){
-            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_812_getPixel)
-HXLINE( 813)		int pixel = 0;
-HXLINE( 815)		{
-HXLINE( 815)			 ::lime::utils::ArrayBufferView data = image->buffer->data;
-HXDLIN( 815)			int offset = (((4 * (y + image->offsetY)) * image->buffer->width) + ((x + image->offsetX) * 4));
-HXDLIN( 815)			bool premultiplied = image->buffer->premultiplied;
-HXDLIN( 815)			switch((int)(image->buffer->format)){
+            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_811_getPixel)
+HXLINE( 812)		int pixel;
+HXLINE( 814)		{
+HXLINE( 814)			 ::lime::utils::ArrayBufferView data = image->buffer->data;
+HXDLIN( 814)			int offset = (((4 * (y + image->offsetY)) * image->buffer->width) + ((x + image->offsetX) * 4));
+HXDLIN( 814)			bool premultiplied = image->buffer->premultiplied;
+HXDLIN( 814)			switch((int)(image->buffer->format)){
             				case (int)0: {
-HXLINE( 815)					int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) );
-HXDLIN( 815)					int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
-HXDLIN( 815)					int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
-HXDLIN( 815)					pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) ) & 255));
+HXLINE( 814)					int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) );
+HXDLIN( 814)					int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
+HXDLIN( 814)					int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
+HXDLIN( 814)					pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) ) & 255));
             				}
             				break;
             				case (int)1: {
-HXLINE( 815)					int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
-HXDLIN( 815)					int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
-HXDLIN( 815)					int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) );
-HXDLIN( 815)					pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) ) & 255));
+HXLINE( 814)					int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
+HXDLIN( 814)					int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
+HXDLIN( 814)					int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) );
+HXDLIN( 814)					pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) ) & 255));
             				}
             				break;
             				case (int)2: {
-HXLINE( 815)					int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
-HXDLIN( 815)					int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
-HXDLIN( 815)					int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) );
-HXDLIN( 815)					pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) ) & 255));
+HXLINE( 814)					int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
+HXDLIN( 814)					int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
+HXDLIN( 814)					int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) );
+HXDLIN( 814)					pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) ) & 255));
             				}
             				break;
             			}
-HXDLIN( 815)			if (premultiplied) {
-HXLINE( 815)				bool _hx_tmp;
-HXDLIN( 815)				if (((pixel & 255) != 0)) {
-HXLINE( 815)					_hx_tmp = ((pixel & 255) != 255);
+HXDLIN( 814)			if (premultiplied) {
+HXLINE( 814)				bool _hx_tmp;
+HXDLIN( 814)				if (((pixel & 255) != 0)) {
+HXLINE( 814)					_hx_tmp = ((pixel & 255) != 255);
             				}
             				else {
-HXLINE( 815)					_hx_tmp = false;
+HXLINE( 814)					_hx_tmp = false;
             				}
-HXDLIN( 815)				if (_hx_tmp) {
-HXLINE( 815)					::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((pixel & 255)) ));
-HXDLIN( 815)					{
-HXLINE( 815)						 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 815)						int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(pixel,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN( 815)						 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 815)						int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(pixel,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN( 815)						 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 815)						pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(pixel,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((pixel & 255) & 255));
+HXDLIN( 814)				if (_hx_tmp) {
+HXLINE( 814)					::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((pixel & 255)) ));
+HXDLIN( 814)					{
+HXLINE( 814)						 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 814)						int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(pixel,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN( 814)						 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 814)						int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(pixel,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN( 814)						 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 814)						pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(pixel,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((pixel & 255) & 255));
             					}
             				}
             			}
             		}
-HXLINE( 817)		pixel = ((((((::hx::UShr(pixel,24) & 255) & 255) << 24) | (((::hx::UShr(pixel,16) & 255) & 255) << 16)) | (((::hx::UShr(pixel,8) & 255) & 255) << 8)) | 0);
-HXLINE( 819)		switch((int)(format)){
+HXLINE( 816)		pixel = ((((((::hx::UShr(pixel,24) & 255) & 255) << 24) | (((::hx::UShr(pixel,16) & 255) & 255) << 16)) | (((::hx::UShr(pixel,8) & 255) & 255) << 8)) | 0);
+HXLINE( 818)		switch((int)(format)){
             			case (int)1: {
-HXLINE( 822)				int this1 = 0;
-HXDLIN( 822)				int argb = this1;
-HXDLIN( 822)				argb = ((((((pixel & 255) & 255) << 24) | (((::hx::UShr(pixel,24) & 255) & 255) << 16)) | (((::hx::UShr(pixel,16) & 255) & 255) << 8)) | ((::hx::UShr(pixel,8) & 255) & 255));
-HXDLIN( 822)				return argb;
+HXLINE( 821)				int this1 = 0;
+HXDLIN( 821)				int argb = this1;
+HXDLIN( 821)				argb = ((((((pixel & 255) & 255) << 24) | (((::hx::UShr(pixel,24) & 255) & 255) << 16)) | (((::hx::UShr(pixel,16) & 255) & 255) << 8)) | ((::hx::UShr(pixel,8) & 255) & 255));
+HXDLIN( 821)				return argb;
             			}
             			break;
             			case (int)2: {
-HXLINE( 824)				int this1 = 0;
-HXDLIN( 824)				int bgra = this1;
-HXDLIN( 824)				bgra = ((((((::hx::UShr(pixel,8) & 255) & 255) << 24) | (((::hx::UShr(pixel,16) & 255) & 255) << 16)) | (((::hx::UShr(pixel,24) & 255) & 255) << 8)) | ((pixel & 255) & 255));
-HXDLIN( 824)				return bgra;
+HXLINE( 823)				int this1 = 0;
+HXDLIN( 823)				int bgra = this1;
+HXDLIN( 823)				bgra = ((((((::hx::UShr(pixel,8) & 255) & 255) << 24) | (((::hx::UShr(pixel,16) & 255) & 255) << 16)) | (((::hx::UShr(pixel,24) & 255) & 255) << 8)) | ((pixel & 255) & 255));
+HXDLIN( 823)				return bgra;
             			}
             			break;
             			default:{
-HXLINE( 826)				return pixel;
+HXLINE( 825)				return pixel;
             			}
             		}
-HXLINE( 819)		return 0;
+HXLINE( 818)		return 0;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC4(ImageDataUtil_obj,getPixel,return )
 
 int ImageDataUtil_obj::getPixel32( ::lime::graphics::Image image,int x,int y,int format){
-            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_831_getPixel32)
-HXLINE( 832)		int pixel = 0;
-HXLINE( 834)		{
-HXLINE( 834)			 ::lime::utils::ArrayBufferView data = image->buffer->data;
-HXDLIN( 834)			int offset = (((4 * (y + image->offsetY)) * image->buffer->width) + ((x + image->offsetX) * 4));
-HXDLIN( 834)			bool premultiplied = image->buffer->premultiplied;
-HXDLIN( 834)			switch((int)(image->buffer->format)){
+            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_830_getPixel32)
+HXLINE( 831)		int pixel;
+HXLINE( 833)		{
+HXLINE( 833)			 ::lime::utils::ArrayBufferView data = image->buffer->data;
+HXDLIN( 833)			int offset = (((4 * (y + image->offsetY)) * image->buffer->width) + ((x + image->offsetX) * 4));
+HXDLIN( 833)			bool premultiplied = image->buffer->premultiplied;
+HXDLIN( 833)			switch((int)(image->buffer->format)){
             				case (int)0: {
-HXLINE( 834)					int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) );
-HXDLIN( 834)					int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
-HXDLIN( 834)					int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
-HXDLIN( 834)					pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) ) & 255));
+HXLINE( 833)					int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) );
+HXDLIN( 833)					int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
+HXDLIN( 833)					int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
+HXDLIN( 833)					pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) ) & 255));
             				}
             				break;
             				case (int)1: {
-HXLINE( 834)					int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
-HXDLIN( 834)					int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
-HXDLIN( 834)					int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) );
-HXDLIN( 834)					pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) ) & 255));
+HXLINE( 833)					int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
+HXDLIN( 833)					int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
+HXDLIN( 833)					int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) );
+HXDLIN( 833)					pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) ) & 255));
             				}
             				break;
             				case (int)2: {
-HXLINE( 834)					int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
-HXDLIN( 834)					int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
-HXDLIN( 834)					int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) );
-HXDLIN( 834)					pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) ) & 255));
+HXLINE( 833)					int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
+HXDLIN( 833)					int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
+HXDLIN( 833)					int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) );
+HXDLIN( 833)					pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) ) & 255));
             				}
             				break;
             			}
-HXDLIN( 834)			if (premultiplied) {
-HXLINE( 834)				bool _hx_tmp;
-HXDLIN( 834)				if (((pixel & 255) != 0)) {
-HXLINE( 834)					_hx_tmp = ((pixel & 255) != 255);
+HXDLIN( 833)			if (premultiplied) {
+HXLINE( 833)				bool _hx_tmp;
+HXDLIN( 833)				if (((pixel & 255) != 0)) {
+HXLINE( 833)					_hx_tmp = ((pixel & 255) != 255);
             				}
             				else {
-HXLINE( 834)					_hx_tmp = false;
+HXLINE( 833)					_hx_tmp = false;
             				}
-HXDLIN( 834)				if (_hx_tmp) {
-HXLINE( 834)					::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((pixel & 255)) ));
-HXDLIN( 834)					{
-HXLINE( 834)						 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 834)						int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(pixel,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN( 834)						 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 834)						int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(pixel,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN( 834)						 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 834)						pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(pixel,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((pixel & 255) & 255));
+HXDLIN( 833)				if (_hx_tmp) {
+HXLINE( 833)					::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((pixel & 255)) ));
+HXDLIN( 833)					{
+HXLINE( 833)						 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 833)						int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(pixel,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN( 833)						 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 833)						int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(pixel,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN( 833)						 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 833)						pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(pixel,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((pixel & 255) & 255));
             					}
             				}
             			}
             		}
-HXLINE( 837)		switch((int)(format)){
+HXLINE( 836)		switch((int)(format)){
             			case (int)1: {
-HXLINE( 840)				int this1 = 0;
-HXDLIN( 840)				int argb = this1;
-HXDLIN( 840)				argb = ((((((pixel & 255) & 255) << 24) | (((::hx::UShr(pixel,24) & 255) & 255) << 16)) | (((::hx::UShr(pixel,16) & 255) & 255) << 8)) | ((::hx::UShr(pixel,8) & 255) & 255));
-HXDLIN( 840)				return argb;
+HXLINE( 839)				int this1 = 0;
+HXDLIN( 839)				int argb = this1;
+HXDLIN( 839)				argb = ((((((pixel & 255) & 255) << 24) | (((::hx::UShr(pixel,24) & 255) & 255) << 16)) | (((::hx::UShr(pixel,16) & 255) & 255) << 8)) | ((::hx::UShr(pixel,8) & 255) & 255));
+HXDLIN( 839)				return argb;
             			}
             			break;
             			case (int)2: {
-HXLINE( 842)				int this1 = 0;
-HXDLIN( 842)				int bgra = this1;
-HXDLIN( 842)				bgra = ((((((::hx::UShr(pixel,8) & 255) & 255) << 24) | (((::hx::UShr(pixel,16) & 255) & 255) << 16)) | (((::hx::UShr(pixel,24) & 255) & 255) << 8)) | ((pixel & 255) & 255));
-HXDLIN( 842)				return bgra;
+HXLINE( 841)				int this1 = 0;
+HXDLIN( 841)				int bgra = this1;
+HXDLIN( 841)				bgra = ((((((::hx::UShr(pixel,8) & 255) & 255) << 24) | (((::hx::UShr(pixel,16) & 255) & 255) << 16)) | (((::hx::UShr(pixel,24) & 255) & 255) << 8)) | ((pixel & 255) & 255));
+HXDLIN( 841)				return bgra;
             			}
             			break;
             			default:{
-HXLINE( 844)				return pixel;
+HXLINE( 843)				return pixel;
             			}
             		}
-HXLINE( 837)		return 0;
+HXLINE( 836)		return 0;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC4(ImageDataUtil_obj,getPixel32,return )
 
  ::haxe::io::Bytes ImageDataUtil_obj::getPixels( ::lime::graphics::Image image, ::lime::math::Rectangle rect,int format){
-            	HX_GC_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_849_getPixels)
-HXLINE( 850)		if (::hx::IsNull( image->buffer->data )) {
-HXLINE( 850)			return null();
+            	HX_GC_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_848_getPixels)
+HXLINE( 849)		if (::hx::IsNull( image->buffer->data )) {
+HXLINE( 849)			return null();
             		}
-HXLINE( 852)		int length = ::Std_obj::_hx_int((rect->width * rect->height));
-HXLINE( 853)		 ::haxe::io::Bytes bytes = ::haxe::io::Bytes_obj::alloc((length * 4));
-HXLINE( 856)		if (::lime::_hx_system::CFFI_obj::enabled) {
-HXLINE( 856)			::lime::_internal::backend::native::NativeCFFI_obj::lime_image_data_util_get_pixels(::hx::DynamicPtr(image),::hx::DynamicPtr(rect),format,::hx::DynamicPtr(bytes));
+HXLINE( 851)		int length = ::Std_obj::_hx_int((rect->width * rect->height));
+HXLINE( 852)		 ::haxe::io::Bytes bytes = ::haxe::io::Bytes_obj::alloc((length * 4));
+HXLINE( 855)		if (::lime::_hx_system::CFFI_obj::enabled) {
+HXLINE( 855)			::lime::_internal::backend::native::NativeCFFI_obj::lime_image_data_util_get_pixels(::hx::DynamicPtr(image),::hx::DynamicPtr(rect),format,::hx::DynamicPtr(bytes));
             		}
             		else {
-HXLINE( 860)			 ::lime::utils::ArrayBufferView data = image->buffer->data;
-HXLINE( 861)			int sourceFormat = image->buffer->format;
-HXLINE( 862)			bool premultiplied = image->buffer->premultiplied;
-HXLINE( 864)			 ::lime::_internal::graphics::_ImageDataUtil::ImageDataView dataView =  ::lime::_internal::graphics::_ImageDataUtil::ImageDataView_obj::__alloc( HX_CTX ,image,rect);
-HXLINE( 865)			int position;
-HXLINE( 866)			int argb = 0;
-HXLINE( 867)			int bgra = 0;
-HXLINE( 868)			int pixel = 0;
-HXLINE( 869)			int destPosition = 0;
-HXLINE( 871)			{
-HXLINE( 871)				int _g = 0;
-HXDLIN( 871)				int _g1 = dataView->height;
-HXDLIN( 871)				while((_g < _g1)){
-HXLINE( 871)					_g = (_g + 1);
-HXDLIN( 871)					int y = (_g - 1);
-HXLINE( 873)					position = (dataView->byteOffset + (dataView->stride * y));
-HXLINE( 875)					{
-HXLINE( 875)						int _g1 = 0;
-HXDLIN( 875)						int _g2 = dataView->width;
-HXDLIN( 875)						while((_g1 < _g2)){
-HXLINE( 875)							_g1 = (_g1 + 1);
-HXDLIN( 875)							int x = (_g1 - 1);
-HXLINE( 877)							{
-HXLINE( 877)								switch((int)(sourceFormat)){
+HXLINE( 859)			 ::lime::utils::ArrayBufferView data = image->buffer->data;
+HXLINE( 860)			int sourceFormat = image->buffer->format;
+HXLINE( 861)			bool premultiplied = image->buffer->premultiplied;
+HXLINE( 863)			 ::lime::_internal::graphics::_ImageDataUtil::ImageDataView dataView =  ::lime::_internal::graphics::_ImageDataUtil::ImageDataView_obj::__alloc( HX_CTX ,image,rect);
+HXLINE( 864)			int position;
+HXDLIN( 864)			int argb;
+HXDLIN( 864)			int bgra;
+HXDLIN( 864)			int pixel;
+HXLINE( 865)			int destPosition = 0;
+HXLINE( 867)			{
+HXLINE( 867)				int _g = 0;
+HXDLIN( 867)				int _g1 = dataView->height;
+HXDLIN( 867)				while((_g < _g1)){
+HXLINE( 867)					_g = (_g + 1);
+HXDLIN( 867)					int y = (_g - 1);
+HXLINE( 869)					position = (dataView->byteOffset + (dataView->stride * y));
+HXLINE( 871)					{
+HXLINE( 871)						int _g1 = 0;
+HXDLIN( 871)						int _g2 = dataView->width;
+HXDLIN( 871)						while((_g1 < _g2)){
+HXLINE( 871)							_g1 = (_g1 + 1);
+HXDLIN( 871)							int x = (_g1 - 1);
+HXLINE( 873)							{
+HXLINE( 873)								switch((int)(sourceFormat)){
             									case (int)0: {
-HXLINE( 877)										int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + position)) & 255)) );
-HXDLIN( 877)										int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (position + 1))) & 255)) );
-HXDLIN( 877)										int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (position + 2))) & 255)) );
-HXDLIN( 877)										pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (position + 3))) & 255)) ) & 255));
+HXLINE( 873)										int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + position)) & 255)) );
+HXDLIN( 873)										int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (position + 1))) & 255)) );
+HXDLIN( 873)										int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (position + 2))) & 255)) );
+HXDLIN( 873)										pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (position + 3))) & 255)) ) & 255));
             									}
             									break;
             									case (int)1: {
-HXLINE( 877)										int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (position + 1))) & 255)) );
-HXDLIN( 877)										int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (position + 2))) & 255)) );
-HXDLIN( 877)										int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (position + 3))) & 255)) );
-HXDLIN( 877)										pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + position)) & 255)) ) & 255));
+HXLINE( 873)										int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (position + 1))) & 255)) );
+HXDLIN( 873)										int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (position + 2))) & 255)) );
+HXDLIN( 873)										int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (position + 3))) & 255)) );
+HXDLIN( 873)										pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + position)) & 255)) ) & 255));
             									}
             									break;
             									case (int)2: {
-HXLINE( 877)										int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (position + 2))) & 255)) );
-HXDLIN( 877)										int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (position + 1))) & 255)) );
-HXDLIN( 877)										int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + position)) & 255)) );
-HXDLIN( 877)										pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (position + 3))) & 255)) ) & 255));
+HXLINE( 873)										int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (position + 2))) & 255)) );
+HXDLIN( 873)										int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (position + 1))) & 255)) );
+HXDLIN( 873)										int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + position)) & 255)) );
+HXDLIN( 873)										pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (position + 3))) & 255)) ) & 255));
             									}
             									break;
             								}
-HXDLIN( 877)								if (premultiplied) {
-HXLINE( 877)									bool _hx_tmp;
-HXDLIN( 877)									if (((pixel & 255) != 0)) {
-HXLINE( 877)										_hx_tmp = ((pixel & 255) != 255);
+HXDLIN( 873)								if (premultiplied) {
+HXLINE( 873)									bool _hx_tmp;
+HXDLIN( 873)									if (((pixel & 255) != 0)) {
+HXLINE( 873)										_hx_tmp = ((pixel & 255) != 255);
             									}
             									else {
-HXLINE( 877)										_hx_tmp = false;
+HXLINE( 873)										_hx_tmp = false;
             									}
-HXDLIN( 877)									if (_hx_tmp) {
-HXLINE( 877)										::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((pixel & 255)) ));
-HXDLIN( 877)										{
-HXLINE( 877)											 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 877)											int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(pixel,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN( 877)											 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 877)											int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(pixel,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN( 877)											 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 877)											pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(pixel,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((pixel & 255) & 255));
+HXDLIN( 873)									if (_hx_tmp) {
+HXLINE( 873)										::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((pixel & 255)) ));
+HXDLIN( 873)										{
+HXLINE( 873)											 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 873)											int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(pixel,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN( 873)											 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 873)											int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(pixel,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN( 873)											 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 873)											pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(pixel,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((pixel & 255) & 255));
             										}
             									}
             								}
             							}
-HXLINE( 879)							switch((int)(format)){
+HXLINE( 875)							switch((int)(format)){
             								case (int)1: {
-HXLINE( 882)									int this1 = 0;
-HXDLIN( 882)									int argb1 = this1;
-HXDLIN( 882)									argb1 = ((((((pixel & 255) & 255) << 24) | (((::hx::UShr(pixel,24) & 255) & 255) << 16)) | (((::hx::UShr(pixel,16) & 255) & 255) << 8)) | ((::hx::UShr(pixel,8) & 255) & 255));
-HXDLIN( 882)									argb = argb1;
-HXLINE( 883)									pixel = argb;
+HXLINE( 878)									int this1 = 0;
+HXDLIN( 878)									int argb1 = this1;
+HXDLIN( 878)									argb1 = ((((((pixel & 255) & 255) << 24) | (((::hx::UShr(pixel,24) & 255) & 255) << 16)) | (((::hx::UShr(pixel,16) & 255) & 255) << 8)) | ((::hx::UShr(pixel,8) & 255) & 255));
+HXDLIN( 878)									argb = argb1;
+HXLINE( 879)									pixel = argb;
             								}
             								break;
             								case (int)2: {
-HXLINE( 885)									int this1 = 0;
-HXDLIN( 885)									int bgra1 = this1;
-HXDLIN( 885)									bgra1 = ((((((::hx::UShr(pixel,8) & 255) & 255) << 24) | (((::hx::UShr(pixel,16) & 255) & 255) << 16)) | (((::hx::UShr(pixel,24) & 255) & 255) << 8)) | ((pixel & 255) & 255));
-HXDLIN( 885)									bgra = bgra1;
-HXLINE( 886)									pixel = bgra;
+HXLINE( 881)									int this1 = 0;
+HXDLIN( 881)									int bgra1 = this1;
+HXDLIN( 881)									bgra1 = ((((((::hx::UShr(pixel,8) & 255) & 255) << 24) | (((::hx::UShr(pixel,16) & 255) & 255) << 16)) | (((::hx::UShr(pixel,24) & 255) & 255) << 8)) | ((pixel & 255) & 255));
+HXDLIN( 881)									bgra = bgra1;
+HXLINE( 882)									pixel = bgra;
             								}
             								break;
             								default:{
             								}
             							}
-HXLINE( 890)							{
-HXLINE( 890)								destPosition = (destPosition + 1);
-HXDLIN( 890)								bytes->b[(destPosition - 1)] = ( (unsigned char)((::hx::UShr(pixel,24) & 255)) );
+HXLINE( 886)							{
+HXLINE( 886)								destPosition = (destPosition + 1);
+HXDLIN( 886)								bytes->b[(destPosition - 1)] = ( (unsigned char)((::hx::UShr(pixel,24) & 255)) );
             							}
-HXLINE( 891)							{
-HXLINE( 891)								destPosition = (destPosition + 1);
-HXDLIN( 891)								bytes->b[(destPosition - 1)] = ( (unsigned char)((::hx::UShr(pixel,16) & 255)) );
+HXLINE( 887)							{
+HXLINE( 887)								destPosition = (destPosition + 1);
+HXDLIN( 887)								bytes->b[(destPosition - 1)] = ( (unsigned char)((::hx::UShr(pixel,16) & 255)) );
             							}
-HXLINE( 892)							{
-HXLINE( 892)								destPosition = (destPosition + 1);
-HXDLIN( 892)								bytes->b[(destPosition - 1)] = ( (unsigned char)((::hx::UShr(pixel,8) & 255)) );
+HXLINE( 888)							{
+HXLINE( 888)								destPosition = (destPosition + 1);
+HXDLIN( 888)								bytes->b[(destPosition - 1)] = ( (unsigned char)((::hx::UShr(pixel,8) & 255)) );
             							}
-HXLINE( 893)							{
-HXLINE( 893)								destPosition = (destPosition + 1);
-HXDLIN( 893)								bytes->b[(destPosition - 1)] = ( (unsigned char)((pixel & 255)) );
+HXLINE( 889)							{
+HXLINE( 889)								destPosition = (destPosition + 1);
+HXDLIN( 889)								bytes->b[(destPosition - 1)] = ( (unsigned char)((pixel & 255)) );
             							}
-HXLINE( 895)							position = (position + 4);
+HXLINE( 891)							position = (position + 4);
             						}
             					}
             				}
             			}
             		}
-HXLINE( 900)		return bytes;
+HXLINE( 896)		return bytes;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC3(ImageDataUtil_obj,getPixels,return )
 
 void ImageDataUtil_obj::merge( ::lime::graphics::Image image, ::lime::graphics::Image sourceImage, ::lime::math::Rectangle sourceRect, ::lime::math::Vector2 destPoint,int redMultiplier,int greenMultiplier,int blueMultiplier,int alphaMultiplier){
-            	HX_GC_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_905_merge)
-HXLINE( 906)		bool _hx_tmp;
-HXDLIN( 906)		if (::hx::IsNotNull( image->buffer->data )) {
-HXLINE( 906)			_hx_tmp = ::hx::IsNull( sourceImage->buffer->data );
+            	HX_GC_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_901_merge)
+HXLINE( 902)		bool _hx_tmp;
+HXDLIN( 902)		if (::hx::IsNotNull( image->buffer->data )) {
+HXLINE( 902)			_hx_tmp = ::hx::IsNull( sourceImage->buffer->data );
             		}
             		else {
-HXLINE( 906)			_hx_tmp = true;
+HXLINE( 902)			_hx_tmp = true;
             		}
-HXDLIN( 906)		if (_hx_tmp) {
-HXLINE( 906)			return;
+HXDLIN( 902)		if (_hx_tmp) {
+HXLINE( 902)			return;
             		}
-HXLINE( 909)		if (::lime::_hx_system::CFFI_obj::enabled) {
-HXLINE( 909)			::lime::_internal::backend::native::NativeCFFI_obj::lime_image_data_util_merge(::hx::DynamicPtr(image),::hx::DynamicPtr(sourceImage),::hx::DynamicPtr(sourceRect),::hx::DynamicPtr(destPoint),redMultiplier,greenMultiplier,blueMultiplier,alphaMultiplier);
+HXLINE( 905)		if (::lime::_hx_system::CFFI_obj::enabled) {
+HXLINE( 905)			::lime::_internal::backend::native::NativeCFFI_obj::lime_image_data_util_merge(::hx::DynamicPtr(image),::hx::DynamicPtr(sourceImage),::hx::DynamicPtr(sourceRect),::hx::DynamicPtr(destPoint),redMultiplier,greenMultiplier,blueMultiplier,alphaMultiplier);
             		}
             		else {
-HXLINE( 914)			 ::lime::_internal::graphics::_ImageDataUtil::ImageDataView sourceView =  ::lime::_internal::graphics::_ImageDataUtil::ImageDataView_obj::__alloc( HX_CTX ,sourceImage,sourceRect);
-HXLINE( 915)			 ::lime::_internal::graphics::_ImageDataUtil::ImageDataView destView =  ::lime::_internal::graphics::_ImageDataUtil::ImageDataView_obj::__alloc( HX_CTX ,image, ::lime::math::Rectangle_obj::__alloc( HX_CTX ,destPoint->x,destPoint->y,sourceView->width,sourceView->height));
-HXLINE( 917)			 ::lime::utils::ArrayBufferView sourceData = sourceImage->buffer->data;
-HXLINE( 918)			 ::lime::utils::ArrayBufferView destData = image->buffer->data;
-HXLINE( 919)			int sourceFormat = sourceImage->buffer->format;
-HXLINE( 920)			int destFormat = image->buffer->format;
-HXLINE( 921)			bool sourcePremultiplied = sourceImage->buffer->premultiplied;
-HXLINE( 922)			bool destPremultiplied = image->buffer->premultiplied;
-HXLINE( 924)			int sourcePosition;
-HXDLIN( 924)			int destPosition;
-HXLINE( 925)			int sourcePixel = 0;
-HXLINE( 926)			int destPixel = 0;
-HXLINE( 928)			{
-HXLINE( 928)				int _g = 0;
-HXDLIN( 928)				int _g1 = destView->height;
-HXDLIN( 928)				while((_g < _g1)){
-HXLINE( 928)					_g = (_g + 1);
-HXDLIN( 928)					int y = (_g - 1);
-HXLINE( 930)					sourcePosition = (sourceView->byteOffset + (sourceView->stride * y));
-HXLINE( 931)					destPosition = (destView->byteOffset + (destView->stride * y));
-HXLINE( 933)					{
-HXLINE( 933)						int _g1 = 0;
-HXDLIN( 933)						int _g2 = destView->width;
-HXDLIN( 933)						while((_g1 < _g2)){
-HXLINE( 933)							_g1 = (_g1 + 1);
-HXDLIN( 933)							int x = (_g1 - 1);
+HXLINE( 910)			 ::lime::_internal::graphics::_ImageDataUtil::ImageDataView sourceView =  ::lime::_internal::graphics::_ImageDataUtil::ImageDataView_obj::__alloc( HX_CTX ,sourceImage,sourceRect);
+HXLINE( 911)			 ::lime::_internal::graphics::_ImageDataUtil::ImageDataView destView =  ::lime::_internal::graphics::_ImageDataUtil::ImageDataView_obj::__alloc( HX_CTX ,image, ::lime::math::Rectangle_obj::__alloc( HX_CTX ,destPoint->x,destPoint->y,sourceView->width,sourceView->height));
+HXLINE( 913)			 ::lime::utils::ArrayBufferView sourceData = sourceImage->buffer->data;
+HXLINE( 914)			 ::lime::utils::ArrayBufferView destData = image->buffer->data;
+HXLINE( 915)			int sourceFormat = sourceImage->buffer->format;
+HXLINE( 916)			int destFormat = image->buffer->format;
+HXLINE( 917)			bool sourcePremultiplied = sourceImage->buffer->premultiplied;
+HXLINE( 918)			bool destPremultiplied = image->buffer->premultiplied;
+HXLINE( 920)			int sourcePosition;
+HXDLIN( 920)			int destPosition;
+HXDLIN( 920)			int sourcePixel;
+HXDLIN( 920)			int destPixel;
+HXLINE( 922)			{
+HXLINE( 922)				int _g = 0;
+HXDLIN( 922)				int _g1 = destView->height;
+HXDLIN( 922)				while((_g < _g1)){
+HXLINE( 922)					_g = (_g + 1);
+HXDLIN( 922)					int y = (_g - 1);
+HXLINE( 924)					sourcePosition = (sourceView->byteOffset + (sourceView->stride * y));
+HXLINE( 925)					destPosition = (destView->byteOffset + (destView->stride * y));
+HXLINE( 927)					{
+HXLINE( 927)						int _g1 = 0;
+HXDLIN( 927)						int _g2 = destView->width;
+HXDLIN( 927)						while((_g1 < _g2)){
+HXLINE( 927)							_g1 = (_g1 + 1);
+HXDLIN( 927)							int x = (_g1 - 1);
+HXLINE( 929)							{
+HXLINE( 929)								switch((int)(sourceFormat)){
+            									case (int)0: {
+HXLINE( 929)										int r = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + sourcePosition)) & 255)) );
+HXDLIN( 929)										int g = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 1))) & 255)) );
+HXDLIN( 929)										int b = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 2))) & 255)) );
+HXDLIN( 929)										sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 3))) & 255)) ) & 255));
+            									}
+            									break;
+            									case (int)1: {
+HXLINE( 929)										int r = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 1))) & 255)) );
+HXDLIN( 929)										int g = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 2))) & 255)) );
+HXDLIN( 929)										int b = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 3))) & 255)) );
+HXDLIN( 929)										sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + sourcePosition)) & 255)) ) & 255));
+            									}
+            									break;
+            									case (int)2: {
+HXLINE( 929)										int r = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 2))) & 255)) );
+HXDLIN( 929)										int g = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 1))) & 255)) );
+HXDLIN( 929)										int b = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + sourcePosition)) & 255)) );
+HXDLIN( 929)										sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 3))) & 255)) ) & 255));
+            									}
+            									break;
+            								}
+HXDLIN( 929)								if (sourcePremultiplied) {
+HXLINE( 929)									bool _hx_tmp;
+HXDLIN( 929)									if (((sourcePixel & 255) != 0)) {
+HXLINE( 929)										_hx_tmp = ((sourcePixel & 255) != 255);
+            									}
+            									else {
+HXLINE( 929)										_hx_tmp = false;
+            									}
+HXDLIN( 929)									if (_hx_tmp) {
+HXLINE( 929)										::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((sourcePixel & 255)) ));
+HXDLIN( 929)										{
+HXLINE( 929)											 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 929)											int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(sourcePixel,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN( 929)											 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 929)											int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(sourcePixel,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN( 929)											 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 929)											sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(sourcePixel,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((sourcePixel & 255) & 255));
+            										}
+            									}
+            								}
+            							}
+HXLINE( 930)							{
+HXLINE( 930)								switch((int)(destFormat)){
+            									case (int)0: {
+HXLINE( 930)										int r = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + destPosition)) & 255)) );
+HXDLIN( 930)										int g = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1))) & 255)) );
+HXDLIN( 930)										int b = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2))) & 255)) );
+HXDLIN( 930)										destPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3))) & 255)) ) & 255));
+            									}
+            									break;
+            									case (int)1: {
+HXLINE( 930)										int r = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1))) & 255)) );
+HXDLIN( 930)										int g = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2))) & 255)) );
+HXDLIN( 930)										int b = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3))) & 255)) );
+HXDLIN( 930)										destPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + destPosition)) & 255)) ) & 255));
+            									}
+            									break;
+            									case (int)2: {
+HXLINE( 930)										int r = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2))) & 255)) );
+HXDLIN( 930)										int g = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1))) & 255)) );
+HXDLIN( 930)										int b = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + destPosition)) & 255)) );
+HXDLIN( 930)										destPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3))) & 255)) ) & 255));
+            									}
+            									break;
+            								}
+HXDLIN( 930)								if (destPremultiplied) {
+HXLINE( 930)									bool _hx_tmp;
+HXDLIN( 930)									if (((destPixel & 255) != 0)) {
+HXLINE( 930)										_hx_tmp = ((destPixel & 255) != 255);
+            									}
+            									else {
+HXLINE( 930)										_hx_tmp = false;
+            									}
+HXDLIN( 930)									if (_hx_tmp) {
+HXLINE( 930)										::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((destPixel & 255)) ));
+HXDLIN( 930)										{
+HXLINE( 930)											 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 930)											int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(destPixel,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN( 930)											 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 930)											int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(destPixel,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN( 930)											 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 930)											destPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(destPixel,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((destPixel & 255) & 255));
+            										}
+            									}
+            								}
+            							}
+HXLINE( 932)							{
+HXLINE( 932)								int value = ::Std_obj::_hx_int((( (Float)((((::hx::UShr(sourcePixel,24) & 255) * redMultiplier) + ((::hx::UShr(destPixel,24) & 255) * (256 - redMultiplier)))) ) / ( (Float)(256) )));
+HXDLIN( 932)								destPixel = (((((value & 255) << 24) | (((::hx::UShr(destPixel,16) & 255) & 255) << 16)) | (((::hx::UShr(destPixel,8) & 255) & 255) << 8)) | ((destPixel & 255) & 255));
+            							}
+HXLINE( 933)							{
+HXLINE( 933)								int value1 = ::Std_obj::_hx_int((( (Float)((((::hx::UShr(sourcePixel,16) & 255) * greenMultiplier) + ((::hx::UShr(destPixel,16) & 255) * (256 - greenMultiplier)))) ) / ( (Float)(256) )));
+HXDLIN( 933)								destPixel = ((((((::hx::UShr(destPixel,24) & 255) & 255) << 24) | ((value1 & 255) << 16)) | (((::hx::UShr(destPixel,8) & 255) & 255) << 8)) | ((destPixel & 255) & 255));
+            							}
+HXLINE( 934)							{
+HXLINE( 934)								int value2 = ::Std_obj::_hx_int((( (Float)((((::hx::UShr(sourcePixel,8) & 255) * blueMultiplier) + ((::hx::UShr(destPixel,8) & 255) * (256 - blueMultiplier)))) ) / ( (Float)(256) )));
+HXDLIN( 934)								destPixel = ((((((::hx::UShr(destPixel,24) & 255) & 255) << 24) | (((::hx::UShr(destPixel,16) & 255) & 255) << 16)) | ((value2 & 255) << 8)) | ((destPixel & 255) & 255));
+            							}
 HXLINE( 935)							{
-HXLINE( 935)								switch((int)(sourceFormat)){
-            									case (int)0: {
-HXLINE( 935)										int r = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + sourcePosition)) & 255)) );
-HXDLIN( 935)										int g = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 1))) & 255)) );
-HXDLIN( 935)										int b = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 2))) & 255)) );
-HXDLIN( 935)										sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 3))) & 255)) ) & 255));
-            									}
-            									break;
-            									case (int)1: {
-HXLINE( 935)										int r = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 1))) & 255)) );
-HXDLIN( 935)										int g = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 2))) & 255)) );
-HXDLIN( 935)										int b = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 3))) & 255)) );
-HXDLIN( 935)										sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + sourcePosition)) & 255)) ) & 255));
-            									}
-            									break;
-            									case (int)2: {
-HXLINE( 935)										int r = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 2))) & 255)) );
-HXDLIN( 935)										int g = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 1))) & 255)) );
-HXDLIN( 935)										int b = ( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + sourcePosition)) & 255)) );
-HXDLIN( 935)										sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(sourceData->buffer->b,(sourceData->byteOffset + (sourcePosition + 3))) & 255)) ) & 255));
-            									}
-            									break;
-            								}
-HXDLIN( 935)								if (sourcePremultiplied) {
-HXLINE( 935)									bool _hx_tmp;
-HXDLIN( 935)									if (((sourcePixel & 255) != 0)) {
-HXLINE( 935)										_hx_tmp = ((sourcePixel & 255) != 255);
-            									}
-            									else {
-HXLINE( 935)										_hx_tmp = false;
-            									}
-HXDLIN( 935)									if (_hx_tmp) {
-HXLINE( 935)										::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((sourcePixel & 255)) ));
-HXDLIN( 935)										{
-HXLINE( 935)											 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 935)											int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(sourcePixel,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN( 935)											 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 935)											int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(sourcePixel,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN( 935)											 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 935)											sourcePixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(sourcePixel,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((sourcePixel & 255) & 255));
-            										}
-            									}
-            								}
+HXLINE( 935)								int value3 = ::Std_obj::_hx_int((( (Float)((((sourcePixel & 255) * alphaMultiplier) + ((destPixel & 255) * (256 - alphaMultiplier)))) ) / ( (Float)(256) )));
+HXDLIN( 935)								destPixel = ((((((::hx::UShr(destPixel,24) & 255) & 255) << 24) | (((::hx::UShr(destPixel,16) & 255) & 255) << 16)) | (((::hx::UShr(destPixel,8) & 255) & 255) << 8)) | (value3 & 255));
             							}
-HXLINE( 936)							{
-HXLINE( 936)								switch((int)(destFormat)){
-            									case (int)0: {
-HXLINE( 936)										int r = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + destPosition)) & 255)) );
-HXDLIN( 936)										int g = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1))) & 255)) );
-HXDLIN( 936)										int b = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2))) & 255)) );
-HXDLIN( 936)										destPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3))) & 255)) ) & 255));
-            									}
-            									break;
-            									case (int)1: {
-HXLINE( 936)										int r = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1))) & 255)) );
-HXDLIN( 936)										int g = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2))) & 255)) );
-HXDLIN( 936)										int b = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3))) & 255)) );
-HXDLIN( 936)										destPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + destPosition)) & 255)) ) & 255));
-            									}
-            									break;
-            									case (int)2: {
-HXLINE( 936)										int r = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2))) & 255)) );
-HXDLIN( 936)										int g = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1))) & 255)) );
-HXDLIN( 936)										int b = ( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + destPosition)) & 255)) );
-HXDLIN( 936)										destPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3))) & 255)) ) & 255));
-            									}
-            									break;
-            								}
-HXDLIN( 936)								if (destPremultiplied) {
-HXLINE( 936)									bool _hx_tmp;
-HXDLIN( 936)									if (((destPixel & 255) != 0)) {
-HXLINE( 936)										_hx_tmp = ((destPixel & 255) != 255);
-            									}
-            									else {
-HXLINE( 936)										_hx_tmp = false;
-            									}
-HXDLIN( 936)									if (_hx_tmp) {
-HXLINE( 936)										::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((destPixel & 255)) ));
-HXDLIN( 936)										{
-HXLINE( 936)											 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 936)											int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(destPixel,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN( 936)											 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 936)											int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(destPixel,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN( 936)											 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 936)											destPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(destPixel,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((destPixel & 255) & 255));
-            										}
-            									}
-            								}
-            							}
-HXLINE( 938)							{
-HXLINE( 938)								int value = ::Std_obj::_hx_int((( (Float)((((::hx::UShr(sourcePixel,24) & 255) * redMultiplier) + ((::hx::UShr(destPixel,24) & 255) * (256 - redMultiplier)))) ) / ( (Float)(256) )));
-HXDLIN( 938)								destPixel = (((((value & 255) << 24) | (((::hx::UShr(destPixel,16) & 255) & 255) << 16)) | (((::hx::UShr(destPixel,8) & 255) & 255) << 8)) | ((destPixel & 255) & 255));
-            							}
-HXLINE( 939)							{
-HXLINE( 939)								int value1 = ::Std_obj::_hx_int((( (Float)((((::hx::UShr(sourcePixel,16) & 255) * greenMultiplier) + ((::hx::UShr(destPixel,16) & 255) * (256 - greenMultiplier)))) ) / ( (Float)(256) )));
-HXDLIN( 939)								destPixel = ((((((::hx::UShr(destPixel,24) & 255) & 255) << 24) | ((value1 & 255) << 16)) | (((::hx::UShr(destPixel,8) & 255) & 255) << 8)) | ((destPixel & 255) & 255));
-            							}
-HXLINE( 940)							{
-HXLINE( 940)								int value2 = ::Std_obj::_hx_int((( (Float)((((::hx::UShr(sourcePixel,8) & 255) * blueMultiplier) + ((::hx::UShr(destPixel,8) & 255) * (256 - blueMultiplier)))) ) / ( (Float)(256) )));
-HXDLIN( 940)								destPixel = ((((((::hx::UShr(destPixel,24) & 255) & 255) << 24) | (((::hx::UShr(destPixel,16) & 255) & 255) << 16)) | ((value2 & 255) << 8)) | ((destPixel & 255) & 255));
-            							}
-HXLINE( 941)							{
-HXLINE( 941)								int value3 = ::Std_obj::_hx_int((( (Float)((((sourcePixel & 255) * alphaMultiplier) + ((destPixel & 255) * (256 - alphaMultiplier)))) ) / ( (Float)(256) )));
-HXDLIN( 941)								destPixel = ((((((::hx::UShr(destPixel,24) & 255) & 255) << 24) | (((::hx::UShr(destPixel,16) & 255) & 255) << 16)) | (((::hx::UShr(destPixel,8) & 255) & 255) << 8)) | (value3 & 255));
-            							}
-HXLINE( 943)							{
-HXLINE( 943)								if (destPremultiplied) {
-HXLINE( 943)									if (((destPixel & 255) == 0)) {
-HXLINE( 943)										if ((destPixel != 0)) {
-HXLINE( 943)											destPixel = 0;
+HXLINE( 937)							{
+HXLINE( 937)								if (destPremultiplied) {
+HXLINE( 937)									if (((destPixel & 255) == 0)) {
+HXLINE( 937)										if ((destPixel != 0)) {
+HXLINE( 937)											destPixel = 0;
             										}
             									}
             									else {
-HXLINE( 943)										if (((destPixel & 255) != 255)) {
-HXLINE( 943)											 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
-HXDLIN( 943)											::lime::math::_RGBA::RGBA_Impl__obj::a16 = ( (int)( ::__hxcpp_memory_get_ui32(this1->buffer->b,(this1->byteOffset + ((destPixel & 255) * 4)))) );
-HXDLIN( 943)											destPixel = ((((((((::hx::UShr(destPixel,24) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 24) | (((((::hx::UShr(destPixel,16) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 16)) | (((((::hx::UShr(destPixel,8) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 8)) | ((destPixel & 255) & 255));
+HXLINE( 937)										if (((destPixel & 255) != 255)) {
+HXLINE( 937)											 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
+HXDLIN( 937)											::lime::math::_RGBA::RGBA_Impl__obj::a16 = ( (int)( ::__hxcpp_memory_get_ui32(this1->buffer->b,(this1->byteOffset + ((destPixel & 255) * 4)))) );
+HXDLIN( 937)											destPixel = ((((((((::hx::UShr(destPixel,24) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 24) | (((((::hx::UShr(destPixel,16) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 16)) | (((((::hx::UShr(destPixel,8) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 8)) | ((destPixel & 255) & 255));
             										}
             									}
             								}
-HXDLIN( 943)								switch((int)(destFormat)){
+HXDLIN( 937)								switch((int)(destFormat)){
             									case (int)0: {
-HXLINE( 943)										{
-HXLINE( 943)											int val = (::hx::UShr(destPixel,24) & 255);
-HXDLIN( 943)											 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
+HXLINE( 937)										{
+HXLINE( 937)											int val = (::hx::UShr(destPixel,24) & 255);
+HXDLIN( 937)											 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
             										}
-HXDLIN( 943)										{
-HXLINE( 943)											int val1 = (::hx::UShr(destPixel,16) & 255);
-HXDLIN( 943)											 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
+HXDLIN( 937)										{
+HXLINE( 937)											int val1 = (::hx::UShr(destPixel,16) & 255);
+HXDLIN( 937)											 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
             										}
-HXDLIN( 943)										{
-HXLINE( 943)											int val2 = (::hx::UShr(destPixel,8) & 255);
-HXDLIN( 943)											 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
+HXDLIN( 937)										{
+HXLINE( 937)											int val2 = (::hx::UShr(destPixel,8) & 255);
+HXDLIN( 937)											 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
             										}
-HXDLIN( 943)										{
-HXLINE( 943)											int val3 = (destPixel & 255);
-HXDLIN( 943)											 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
+HXDLIN( 937)										{
+HXLINE( 937)											int val3 = (destPixel & 255);
+HXDLIN( 937)											 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
             										}
             									}
             									break;
             									case (int)1: {
-HXLINE( 943)										{
-HXLINE( 943)											int val = (destPixel & 255);
-HXDLIN( 943)											 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
+HXLINE( 937)										{
+HXLINE( 937)											int val = (destPixel & 255);
+HXDLIN( 937)											 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
             										}
-HXDLIN( 943)										{
-HXLINE( 943)											int val1 = (::hx::UShr(destPixel,24) & 255);
-HXDLIN( 943)											 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
+HXDLIN( 937)										{
+HXLINE( 937)											int val1 = (::hx::UShr(destPixel,24) & 255);
+HXDLIN( 937)											 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
             										}
-HXDLIN( 943)										{
-HXLINE( 943)											int val2 = (::hx::UShr(destPixel,16) & 255);
-HXDLIN( 943)											 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
+HXDLIN( 937)										{
+HXLINE( 937)											int val2 = (::hx::UShr(destPixel,16) & 255);
+HXDLIN( 937)											 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
             										}
-HXDLIN( 943)										{
-HXLINE( 943)											int val3 = (::hx::UShr(destPixel,8) & 255);
-HXDLIN( 943)											 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
+HXDLIN( 937)										{
+HXLINE( 937)											int val3 = (::hx::UShr(destPixel,8) & 255);
+HXDLIN( 937)											 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
             										}
             									}
             									break;
             									case (int)2: {
-HXLINE( 943)										{
-HXLINE( 943)											int val = (::hx::UShr(destPixel,8) & 255);
-HXDLIN( 943)											 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
+HXLINE( 937)										{
+HXLINE( 937)											int val = (::hx::UShr(destPixel,8) & 255);
+HXDLIN( 937)											 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
             										}
-HXDLIN( 943)										{
-HXLINE( 943)											int val1 = (::hx::UShr(destPixel,16) & 255);
-HXDLIN( 943)											 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
+HXDLIN( 937)										{
+HXLINE( 937)											int val1 = (::hx::UShr(destPixel,16) & 255);
+HXDLIN( 937)											 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
             										}
-HXDLIN( 943)										{
-HXLINE( 943)											int val2 = (::hx::UShr(destPixel,24) & 255);
-HXDLIN( 943)											 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
+HXDLIN( 937)										{
+HXLINE( 937)											int val2 = (::hx::UShr(destPixel,24) & 255);
+HXDLIN( 937)											 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
             										}
-HXDLIN( 943)										{
-HXLINE( 943)											int val3 = (destPixel & 255);
-HXDLIN( 943)											 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
+HXDLIN( 937)										{
+HXLINE( 937)											int val3 = (destPixel & 255);
+HXDLIN( 937)											 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
             										}
             									}
             									break;
             								}
             							}
-HXLINE( 945)							sourcePosition = (sourcePosition + 4);
-HXLINE( 946)							destPosition = (destPosition + 4);
+HXLINE( 939)							sourcePosition = (sourcePosition + 4);
+HXLINE( 940)							destPosition = (destPosition + 4);
             						}
             					}
             				}
             			}
             		}
-HXLINE( 951)		image->dirty = true;
-HXLINE( 952)		image->version++;
+HXLINE( 945)		image->dirty = true;
+HXLINE( 946)		image->version++;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC8(ImageDataUtil_obj,merge,(void))
 
 void ImageDataUtil_obj::multiplyAlpha( ::lime::graphics::Image image){
-            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_956_multiplyAlpha)
-HXLINE( 957)		 ::lime::utils::ArrayBufferView data = image->buffer->data;
-HXLINE( 958)		bool _hx_tmp;
-HXDLIN( 958)		if (::hx::IsNotNull( data )) {
-HXLINE( 958)			_hx_tmp = !(image->buffer->transparent);
+            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_950_multiplyAlpha)
+HXLINE( 951)		 ::lime::utils::ArrayBufferView data = image->buffer->data;
+HXLINE( 952)		bool _hx_tmp;
+HXDLIN( 952)		if (::hx::IsNotNull( data )) {
+HXLINE( 952)			_hx_tmp = !(image->buffer->transparent);
             		}
             		else {
-HXLINE( 958)			_hx_tmp = true;
+HXLINE( 952)			_hx_tmp = true;
             		}
-HXDLIN( 958)		if (_hx_tmp) {
-HXLINE( 958)			return;
+HXDLIN( 952)		if (_hx_tmp) {
+HXLINE( 952)			return;
             		}
-HXLINE( 961)		if (::lime::_hx_system::CFFI_obj::enabled) {
-HXLINE( 961)			::lime::_internal::backend::native::NativeCFFI_obj::lime_image_data_util_multiply_alpha(::hx::DynamicPtr(image));
+HXLINE( 955)		if (::lime::_hx_system::CFFI_obj::enabled) {
+HXLINE( 955)			::lime::_internal::backend::native::NativeCFFI_obj::lime_image_data_util_multiply_alpha(::hx::DynamicPtr(image));
             		}
             		else {
-HXLINE( 965)			int format = image->buffer->format;
-HXLINE( 966)			int length = ::Std_obj::_hx_int((( (Float)(data->length) ) / ( (Float)(4) )));
-HXLINE( 967)			int pixel = 0;
-HXLINE( 969)			{
-HXLINE( 969)				int _g = 0;
-HXDLIN( 969)				int _g1 = length;
-HXDLIN( 969)				while((_g < _g1)){
-HXLINE( 969)					_g = (_g + 1);
-HXDLIN( 969)					int i = (_g - 1);
-HXLINE( 971)					{
-HXLINE( 971)						int offset = (i * 4);
-HXDLIN( 971)						switch((int)(format)){
+HXLINE( 959)			int format = image->buffer->format;
+HXLINE( 960)			int length = ::Std_obj::_hx_int((( (Float)(data->length) ) / ( (Float)(4) )));
+HXLINE( 961)			int pixel;
+HXLINE( 963)			{
+HXLINE( 963)				int _g = 0;
+HXDLIN( 963)				int _g1 = length;
+HXDLIN( 963)				while((_g < _g1)){
+HXLINE( 963)					_g = (_g + 1);
+HXDLIN( 963)					int i = (_g - 1);
+HXLINE( 965)					{
+HXLINE( 965)						int offset = (i * 4);
+HXDLIN( 965)						switch((int)(format)){
             							case (int)0: {
-HXLINE( 971)								int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) );
-HXDLIN( 971)								int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
-HXDLIN( 971)								int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
-HXDLIN( 971)								pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) ) & 255));
+HXLINE( 965)								int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) );
+HXDLIN( 965)								int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
+HXDLIN( 965)								int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
+HXDLIN( 965)								pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) ) & 255));
             							}
             							break;
             							case (int)1: {
-HXLINE( 971)								int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
-HXDLIN( 971)								int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
-HXDLIN( 971)								int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) );
-HXDLIN( 971)								pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) ) & 255));
+HXLINE( 965)								int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
+HXDLIN( 965)								int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
+HXDLIN( 965)								int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) );
+HXDLIN( 965)								pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) ) & 255));
             							}
             							break;
             							case (int)2: {
-HXLINE( 971)								int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
-HXDLIN( 971)								int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
-HXDLIN( 971)								int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) );
-HXDLIN( 971)								pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) ) & 255));
+HXLINE( 965)								int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
+HXDLIN( 965)								int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
+HXDLIN( 965)								int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) );
+HXDLIN( 965)								pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) ) & 255));
             							}
             							break;
             						}
             					}
-HXLINE( 972)					{
-HXLINE( 972)						int offset1 = (i * 4);
-HXDLIN( 972)						if (((pixel & 255) == 0)) {
-HXLINE( 972)							if ((pixel != 0)) {
-HXLINE( 972)								pixel = 0;
+HXLINE( 966)					{
+HXLINE( 966)						int offset1 = (i * 4);
+HXDLIN( 966)						if (((pixel & 255) == 0)) {
+HXLINE( 966)							if ((pixel != 0)) {
+HXLINE( 966)								pixel = 0;
             							}
             						}
             						else {
-HXLINE( 972)							if (((pixel & 255) != 255)) {
-HXLINE( 972)								 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
-HXDLIN( 972)								::lime::math::_RGBA::RGBA_Impl__obj::a16 = ( (int)( ::__hxcpp_memory_get_ui32(this1->buffer->b,(this1->byteOffset + ((pixel & 255) * 4)))) );
-HXDLIN( 972)								pixel = ((((((((::hx::UShr(pixel,24) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 24) | (((((::hx::UShr(pixel,16) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 16)) | (((((::hx::UShr(pixel,8) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 8)) | ((pixel & 255) & 255));
+HXLINE( 966)							if (((pixel & 255) != 255)) {
+HXLINE( 966)								 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
+HXDLIN( 966)								::lime::math::_RGBA::RGBA_Impl__obj::a16 = ( (int)( ::__hxcpp_memory_get_ui32(this1->buffer->b,(this1->byteOffset + ((pixel & 255) * 4)))) );
+HXDLIN( 966)								pixel = ((((((((::hx::UShr(pixel,24) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 24) | (((((::hx::UShr(pixel,16) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 16)) | (((((::hx::UShr(pixel,8) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 8)) | ((pixel & 255) & 255));
             							}
             						}
-HXDLIN( 972)						switch((int)(format)){
+HXDLIN( 966)						switch((int)(format)){
             							case (int)0: {
-HXLINE( 972)								{
-HXLINE( 972)									int val = (::hx::UShr(pixel,24) & 255);
-HXDLIN( 972)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset1),val);
+HXLINE( 966)								{
+HXLINE( 966)									int val = (::hx::UShr(pixel,24) & 255);
+HXDLIN( 966)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset1),val);
             								}
-HXDLIN( 972)								{
-HXLINE( 972)									int val1 = (::hx::UShr(pixel,16) & 255);
-HXDLIN( 972)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 1)),val1);
+HXDLIN( 966)								{
+HXLINE( 966)									int val1 = (::hx::UShr(pixel,16) & 255);
+HXDLIN( 966)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 1)),val1);
             								}
-HXDLIN( 972)								{
-HXLINE( 972)									int val2 = (::hx::UShr(pixel,8) & 255);
-HXDLIN( 972)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 2)),val2);
+HXDLIN( 966)								{
+HXLINE( 966)									int val2 = (::hx::UShr(pixel,8) & 255);
+HXDLIN( 966)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 2)),val2);
             								}
-HXDLIN( 972)								{
-HXLINE( 972)									int val3 = (pixel & 255);
-HXDLIN( 972)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 3)),val3);
+HXDLIN( 966)								{
+HXLINE( 966)									int val3 = (pixel & 255);
+HXDLIN( 966)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 3)),val3);
             								}
             							}
             							break;
             							case (int)1: {
-HXLINE( 972)								{
-HXLINE( 972)									int val = (pixel & 255);
-HXDLIN( 972)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset1),val);
+HXLINE( 966)								{
+HXLINE( 966)									int val = (pixel & 255);
+HXDLIN( 966)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset1),val);
             								}
-HXDLIN( 972)								{
-HXLINE( 972)									int val1 = (::hx::UShr(pixel,24) & 255);
-HXDLIN( 972)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 1)),val1);
+HXDLIN( 966)								{
+HXLINE( 966)									int val1 = (::hx::UShr(pixel,24) & 255);
+HXDLIN( 966)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 1)),val1);
             								}
-HXDLIN( 972)								{
-HXLINE( 972)									int val2 = (::hx::UShr(pixel,16) & 255);
-HXDLIN( 972)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 2)),val2);
+HXDLIN( 966)								{
+HXLINE( 966)									int val2 = (::hx::UShr(pixel,16) & 255);
+HXDLIN( 966)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 2)),val2);
             								}
-HXDLIN( 972)								{
-HXLINE( 972)									int val3 = (::hx::UShr(pixel,8) & 255);
-HXDLIN( 972)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 3)),val3);
+HXDLIN( 966)								{
+HXLINE( 966)									int val3 = (::hx::UShr(pixel,8) & 255);
+HXDLIN( 966)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 3)),val3);
             								}
             							}
             							break;
             							case (int)2: {
-HXLINE( 972)								{
-HXLINE( 972)									int val = (::hx::UShr(pixel,8) & 255);
-HXDLIN( 972)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset1),val);
+HXLINE( 966)								{
+HXLINE( 966)									int val = (::hx::UShr(pixel,8) & 255);
+HXDLIN( 966)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset1),val);
             								}
-HXDLIN( 972)								{
-HXLINE( 972)									int val1 = (::hx::UShr(pixel,16) & 255);
-HXDLIN( 972)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 1)),val1);
+HXDLIN( 966)								{
+HXLINE( 966)									int val1 = (::hx::UShr(pixel,16) & 255);
+HXDLIN( 966)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 1)),val1);
             								}
-HXDLIN( 972)								{
-HXLINE( 972)									int val2 = (::hx::UShr(pixel,24) & 255);
-HXDLIN( 972)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 2)),val2);
+HXDLIN( 966)								{
+HXLINE( 966)									int val2 = (::hx::UShr(pixel,24) & 255);
+HXDLIN( 966)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 2)),val2);
             								}
-HXDLIN( 972)								{
-HXLINE( 972)									int val3 = (pixel & 255);
-HXDLIN( 972)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 3)),val3);
+HXDLIN( 966)								{
+HXLINE( 966)									int val3 = (pixel & 255);
+HXDLIN( 966)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 3)),val3);
             								}
             							}
             							break;
@@ -3545,1006 +3546,1006 @@ HXDLIN( 972)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffse
             				}
             			}
             		}
-HXLINE( 976)		image->buffer->premultiplied = true;
-HXLINE( 977)		image->dirty = true;
-HXLINE( 978)		image->version++;
+HXLINE( 970)		image->buffer->premultiplied = true;
+HXLINE( 971)		image->dirty = true;
+HXLINE( 972)		image->version++;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ImageDataUtil_obj,multiplyAlpha,(void))
 
 void ImageDataUtil_obj::resize( ::lime::graphics::Image image,int newWidth,int newHeight){
-            	HX_GC_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_982_resize)
-HXLINE( 983)		 ::lime::graphics::ImageBuffer buffer = image->buffer;
-HXLINE( 984)		bool _hx_tmp;
-HXDLIN( 984)		if ((buffer->width == newWidth)) {
-HXLINE( 984)			_hx_tmp = (buffer->height == newHeight);
+            	HX_GC_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_976_resize)
+HXLINE( 977)		 ::lime::graphics::ImageBuffer buffer = image->buffer;
+HXLINE( 978)		bool _hx_tmp;
+HXDLIN( 978)		if ((buffer->width == newWidth)) {
+HXLINE( 978)			_hx_tmp = (buffer->height == newHeight);
             		}
             		else {
-HXLINE( 984)			_hx_tmp = false;
+HXLINE( 978)			_hx_tmp = false;
             		}
-HXDLIN( 984)		if (_hx_tmp) {
-HXLINE( 984)			return;
+HXDLIN( 978)		if (_hx_tmp) {
+HXLINE( 978)			return;
             		}
-HXLINE( 985)		 ::Dynamic elements = ((newWidth * newHeight) * 4);
-HXDLIN( 985)		 ::haxe::io::Bytes buffer1 = null();
-HXDLIN( 985)		::cpp::VirtualArray array = null();
-HXDLIN( 985)		 ::openfl::_Vector::IntVector vector = null();
-HXDLIN( 985)		 ::lime::utils::ArrayBufferView view = null();
-HXDLIN( 985)		 ::Dynamic len = null();
-HXDLIN( 985)		 ::lime::utils::ArrayBufferView this1;
-HXDLIN( 985)		if (::hx::IsNotNull( elements )) {
-HXLINE( 985)			this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,elements,4);
+HXLINE( 979)		 ::Dynamic elements = ((newWidth * newHeight) * 4);
+HXDLIN( 979)		 ::haxe::io::Bytes buffer1 = null();
+HXDLIN( 979)		::cpp::VirtualArray array = null();
+HXDLIN( 979)		 ::openfl::_Vector::IntVector vector = null();
+HXDLIN( 979)		 ::lime::utils::ArrayBufferView view = null();
+HXDLIN( 979)		 ::Dynamic len = null();
+HXDLIN( 979)		 ::lime::utils::ArrayBufferView this1;
+HXDLIN( 979)		if (::hx::IsNotNull( elements )) {
+HXLINE( 979)			this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,elements,4);
             		}
             		else {
-HXLINE( 985)			if (::hx::IsNotNull( array )) {
-HXLINE( 985)				 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
-HXDLIN( 985)				_this->byteOffset = 0;
-HXDLIN( 985)				_this->length = array->get_length();
-HXDLIN( 985)				_this->byteLength = (_this->length * _this->bytesPerElement);
-HXDLIN( 985)				 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
-HXDLIN( 985)				_this->buffer = this2;
-HXDLIN( 985)				_this->copyFromArray(array,null());
-HXDLIN( 985)				this1 = _this;
+HXLINE( 979)			if (::hx::IsNotNull( array )) {
+HXLINE( 979)				 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
+HXDLIN( 979)				_this->byteOffset = 0;
+HXDLIN( 979)				_this->length = array->get_length();
+HXDLIN( 979)				_this->byteLength = (_this->length * _this->bytesPerElement);
+HXDLIN( 979)				 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
+HXDLIN( 979)				_this->buffer = this2;
+HXDLIN( 979)				_this->copyFromArray(array,null());
+HXDLIN( 979)				this1 = _this;
             			}
             			else {
-HXLINE( 985)				if (::hx::IsNotNull( vector )) {
-HXLINE( 985)					 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
-HXDLIN( 985)					::cpp::VirtualArray array = ( (::cpp::VirtualArray)(vector->__Field(HX_("__array",79,c6,ed,8f),::hx::paccDynamic)) );
-HXDLIN( 985)					_this->byteOffset = 0;
-HXDLIN( 985)					_this->length = array->get_length();
-HXDLIN( 985)					_this->byteLength = (_this->length * _this->bytesPerElement);
-HXDLIN( 985)					 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
-HXDLIN( 985)					_this->buffer = this2;
-HXDLIN( 985)					_this->copyFromArray(array,null());
-HXDLIN( 985)					this1 = _this;
+HXLINE( 979)				if (::hx::IsNotNull( vector )) {
+HXLINE( 979)					 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
+HXDLIN( 979)					::cpp::VirtualArray array = ( (::cpp::VirtualArray)(vector->__Field(HX_("__array",79,c6,ed,8f),::hx::paccDynamic)) );
+HXDLIN( 979)					_this->byteOffset = 0;
+HXDLIN( 979)					_this->length = array->get_length();
+HXDLIN( 979)					_this->byteLength = (_this->length * _this->bytesPerElement);
+HXDLIN( 979)					 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
+HXDLIN( 979)					_this->buffer = this2;
+HXDLIN( 979)					_this->copyFromArray(array,null());
+HXDLIN( 979)					this1 = _this;
             				}
             				else {
-HXLINE( 985)					if (::hx::IsNotNull( view )) {
-HXLINE( 985)						 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
-HXDLIN( 985)						 ::haxe::io::Bytes srcData = view->buffer;
-HXDLIN( 985)						int srcLength = view->length;
-HXDLIN( 985)						int srcByteOffset = view->byteOffset;
-HXDLIN( 985)						int srcElementSize = view->bytesPerElement;
-HXDLIN( 985)						int elementSize = _this->bytesPerElement;
-HXDLIN( 985)						if ((view->type == _this->type)) {
-HXLINE( 985)							int srcLength = srcData->length;
-HXDLIN( 985)							int cloneLength = (srcLength - srcByteOffset);
-HXDLIN( 985)							 ::haxe::io::Bytes this1 = ::haxe::io::Bytes_obj::alloc(cloneLength);
-HXDLIN( 985)							_this->buffer = this1;
-HXDLIN( 985)							_this->buffer->blit(0,srcData,srcByteOffset,cloneLength);
+HXLINE( 979)					if (::hx::IsNotNull( view )) {
+HXLINE( 979)						 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
+HXDLIN( 979)						 ::haxe::io::Bytes srcData = view->buffer;
+HXDLIN( 979)						int srcLength = view->length;
+HXDLIN( 979)						int srcByteOffset = view->byteOffset;
+HXDLIN( 979)						int srcElementSize = view->bytesPerElement;
+HXDLIN( 979)						int elementSize = _this->bytesPerElement;
+HXDLIN( 979)						if ((view->type == _this->type)) {
+HXLINE( 979)							int srcLength = srcData->length;
+HXDLIN( 979)							int cloneLength = (srcLength - srcByteOffset);
+HXDLIN( 979)							 ::haxe::io::Bytes this1 = ::haxe::io::Bytes_obj::alloc(cloneLength);
+HXDLIN( 979)							_this->buffer = this1;
+HXDLIN( 979)							_this->buffer->blit(0,srcData,srcByteOffset,cloneLength);
             						}
             						else {
-HXLINE( 985)							HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("unimplemented",09,2f,74,b4)));
+HXLINE( 979)							HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("unimplemented",09,2f,74,b4)));
             						}
-HXDLIN( 985)						_this->byteLength = (_this->bytesPerElement * srcLength);
-HXDLIN( 985)						_this->byteOffset = 0;
-HXDLIN( 985)						_this->length = srcLength;
-HXDLIN( 985)						this1 = _this;
+HXDLIN( 979)						_this->byteLength = (_this->bytesPerElement * srcLength);
+HXDLIN( 979)						_this->byteOffset = 0;
+HXDLIN( 979)						_this->length = srcLength;
+HXDLIN( 979)						this1 = _this;
             					}
             					else {
-HXLINE( 985)						if (::hx::IsNotNull( buffer1 )) {
-HXLINE( 985)							 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
-HXDLIN( 985)							int in_byteOffset = 0;
-HXDLIN( 985)							if ((in_byteOffset < 0)) {
-HXLINE( 985)								HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXLINE( 979)						if (::hx::IsNotNull( buffer1 )) {
+HXLINE( 979)							 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
+HXDLIN( 979)							int in_byteOffset = 0;
+HXDLIN( 979)							if ((in_byteOffset < 0)) {
+HXLINE( 979)								HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             							}
-HXDLIN( 985)							if ((::hx::Mod(in_byteOffset,_this->bytesPerElement) != 0)) {
-HXLINE( 985)								HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXDLIN( 979)							if ((::hx::Mod(in_byteOffset,_this->bytesPerElement) != 0)) {
+HXLINE( 979)								HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             							}
-HXDLIN( 985)							int bufferByteLength = buffer1->length;
-HXDLIN( 985)							int elementSize = _this->bytesPerElement;
-HXDLIN( 985)							int newByteLength = bufferByteLength;
-HXDLIN( 985)							if (::hx::IsNull( len )) {
-HXLINE( 985)								newByteLength = (bufferByteLength - in_byteOffset);
-HXDLIN( 985)								if ((::hx::Mod(bufferByteLength,_this->bytesPerElement) != 0)) {
-HXLINE( 985)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXDLIN( 979)							int bufferByteLength = buffer1->length;
+HXDLIN( 979)							int elementSize = _this->bytesPerElement;
+HXDLIN( 979)							int newByteLength = bufferByteLength;
+HXDLIN( 979)							if (::hx::IsNull( len )) {
+HXLINE( 979)								newByteLength = (bufferByteLength - in_byteOffset);
+HXDLIN( 979)								if ((::hx::Mod(bufferByteLength,_this->bytesPerElement) != 0)) {
+HXLINE( 979)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             								}
-HXDLIN( 985)								if ((newByteLength < 0)) {
-HXLINE( 985)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXDLIN( 979)								if ((newByteLength < 0)) {
+HXLINE( 979)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             								}
             							}
             							else {
-HXLINE( 985)								newByteLength = (( (int)(len) ) * _this->bytesPerElement);
-HXDLIN( 985)								int newRange = (in_byteOffset + newByteLength);
-HXDLIN( 985)								if ((newRange > bufferByteLength)) {
-HXLINE( 985)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXLINE( 979)								newByteLength = (( (int)(len) ) * _this->bytesPerElement);
+HXDLIN( 979)								int newRange = (in_byteOffset + newByteLength);
+HXDLIN( 979)								if ((newRange > bufferByteLength)) {
+HXLINE( 979)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             								}
             							}
-HXDLIN( 985)							_this->buffer = buffer1;
-HXDLIN( 985)							_this->byteOffset = in_byteOffset;
-HXDLIN( 985)							_this->byteLength = newByteLength;
-HXDLIN( 985)							_this->length = ::Std_obj::_hx_int((( (Float)(newByteLength) ) / ( (Float)(_this->bytesPerElement) )));
-HXDLIN( 985)							this1 = _this;
+HXDLIN( 979)							_this->buffer = buffer1;
+HXDLIN( 979)							_this->byteOffset = in_byteOffset;
+HXDLIN( 979)							_this->byteLength = newByteLength;
+HXDLIN( 979)							_this->length = ::Std_obj::_hx_int((( (Float)(newByteLength) ) / ( (Float)(_this->bytesPerElement) )));
+HXDLIN( 979)							this1 = _this;
             						}
             						else {
-HXLINE( 985)							HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("Invalid constructor arguments for UInt8Array",6b,44,d5,85)));
+HXLINE( 979)							HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("Invalid constructor arguments for UInt8Array",6b,44,d5,85)));
             						}
             					}
             				}
             			}
             		}
-HXDLIN( 985)		 ::lime::graphics::ImageBuffer newBuffer =  ::lime::graphics::ImageBuffer_obj::__alloc( HX_CTX ,this1,newWidth,newHeight,null(),null());
-HXLINE( 988)		if (::lime::_hx_system::CFFI_obj::enabled) {
-HXLINE( 988)			::lime::_internal::backend::native::NativeCFFI_obj::lime_image_data_util_resize(::hx::DynamicPtr(image),::hx::DynamicPtr(newBuffer),newWidth,newHeight);
+HXDLIN( 979)		 ::lime::graphics::ImageBuffer newBuffer =  ::lime::graphics::ImageBuffer_obj::__alloc( HX_CTX ,this1,newWidth,newHeight,null(),null());
+HXLINE( 982)		if (::lime::_hx_system::CFFI_obj::enabled) {
+HXLINE( 982)			::lime::_internal::backend::native::NativeCFFI_obj::lime_image_data_util_resize(::hx::DynamicPtr(image),::hx::DynamicPtr(newBuffer),newWidth,newHeight);
             		}
             		else {
-HXLINE( 992)			int imageWidth = image->width;
-HXLINE( 993)			int imageHeight = image->height;
-HXLINE( 995)			 ::lime::utils::ArrayBufferView data = image->get_data();
-HXLINE( 996)			 ::lime::utils::ArrayBufferView newData = newBuffer->data;
-HXLINE( 997)			int sourceIndex;
-HXDLIN( 997)			int sourceIndexX;
-HXDLIN( 997)			int sourceIndexY;
-HXDLIN( 997)			int sourceIndexXY;
-HXDLIN( 997)			int index;
-HXLINE(1002)			int sourceX;
-HXDLIN(1002)			int sourceY;
-HXLINE(1003)			Float u;
-HXDLIN(1003)			Float v;
-HXDLIN(1003)			Float uRatio;
-HXDLIN(1003)			Float vRatio;
-HXDLIN(1003)			Float uOpposite;
-HXDLIN(1003)			Float vOpposite;
-HXLINE(1010)			{
-HXLINE(1010)				int _g = 0;
-HXDLIN(1010)				int _g1 = newHeight;
-HXDLIN(1010)				while((_g < _g1)){
-HXLINE(1010)					_g = (_g + 1);
-HXDLIN(1010)					int y = (_g - 1);
-HXLINE(1012)					{
-HXLINE(1012)						int _g1 = 0;
-HXDLIN(1012)						int _g2 = newWidth;
-HXDLIN(1012)						while((_g1 < _g2)){
-HXLINE(1012)							_g1 = (_g1 + 1);
-HXDLIN(1012)							int x = (_g1 - 1);
-HXLINE(1016)							u = ((((x + ((Float)0.5)) / ( (Float)(newWidth) )) * ( (Float)(imageWidth) )) - ((Float)0.5));
-HXLINE(1017)							v = ((((y + ((Float)0.5)) / ( (Float)(newHeight) )) * ( (Float)(imageHeight) )) - ((Float)0.5));
-HXLINE(1019)							sourceX = ::Std_obj::_hx_int(u);
-HXLINE(1020)							sourceY = ::Std_obj::_hx_int(v);
-HXLINE(1022)							sourceIndex = (((sourceY * imageWidth) + sourceX) * 4);
-HXLINE(1023)							if ((sourceX < (imageWidth - 1))) {
-HXLINE(1023)								sourceIndexX = (sourceIndex + 4);
+HXLINE( 986)			int imageWidth = image->width;
+HXLINE( 987)			int imageHeight = image->height;
+HXLINE( 989)			 ::lime::utils::ArrayBufferView data = image->get_data();
+HXLINE( 990)			 ::lime::utils::ArrayBufferView newData = newBuffer->data;
+HXLINE( 991)			int sourceIndex;
+HXDLIN( 991)			int sourceIndexX;
+HXDLIN( 991)			int sourceIndexY;
+HXDLIN( 991)			int sourceIndexXY;
+HXDLIN( 991)			int index;
+HXLINE( 996)			int sourceX;
+HXDLIN( 996)			int sourceY;
+HXLINE( 997)			Float u;
+HXDLIN( 997)			Float v;
+HXDLIN( 997)			Float uRatio;
+HXDLIN( 997)			Float vRatio;
+HXDLIN( 997)			Float uOpposite;
+HXDLIN( 997)			Float vOpposite;
+HXLINE(1004)			{
+HXLINE(1004)				int _g = 0;
+HXDLIN(1004)				int _g1 = newHeight;
+HXDLIN(1004)				while((_g < _g1)){
+HXLINE(1004)					_g = (_g + 1);
+HXDLIN(1004)					int y = (_g - 1);
+HXLINE(1006)					{
+HXLINE(1006)						int _g1 = 0;
+HXDLIN(1006)						int _g2 = newWidth;
+HXDLIN(1006)						while((_g1 < _g2)){
+HXLINE(1006)							_g1 = (_g1 + 1);
+HXDLIN(1006)							int x = (_g1 - 1);
+HXLINE(1010)							u = ((((x + ((Float)0.5)) / ( (Float)(newWidth) )) * ( (Float)(imageWidth) )) - ((Float)0.5));
+HXLINE(1011)							v = ((((y + ((Float)0.5)) / ( (Float)(newHeight) )) * ( (Float)(imageHeight) )) - ((Float)0.5));
+HXLINE(1013)							sourceX = ::Std_obj::_hx_int(u);
+HXLINE(1014)							sourceY = ::Std_obj::_hx_int(v);
+HXLINE(1016)							sourceIndex = (((sourceY * imageWidth) + sourceX) * 4);
+HXLINE(1017)							if ((sourceX < (imageWidth - 1))) {
+HXLINE(1017)								sourceIndexX = (sourceIndex + 4);
             							}
             							else {
-HXLINE(1023)								sourceIndexX = sourceIndex;
+HXLINE(1017)								sourceIndexX = sourceIndex;
             							}
-HXLINE(1024)							if ((sourceY < (imageHeight - 1))) {
-HXLINE(1024)								sourceIndexY = (sourceIndex + (imageWidth * 4));
-            							}
-            							else {
-HXLINE(1024)								sourceIndexY = sourceIndex;
-            							}
-HXLINE(1025)							if ((sourceIndexX != sourceIndex)) {
-HXLINE(1025)								sourceIndexXY = (sourceIndexY + 4);
+HXLINE(1018)							if ((sourceY < (imageHeight - 1))) {
+HXLINE(1018)								sourceIndexY = (sourceIndex + (imageWidth * 4));
             							}
             							else {
-HXLINE(1025)								sourceIndexXY = sourceIndexY;
+HXLINE(1018)								sourceIndexY = sourceIndex;
             							}
-HXLINE(1027)							index = (((y * newWidth) + x) * 4);
-HXLINE(1029)							uRatio = (u - ( (Float)(sourceX) ));
-HXLINE(1030)							vRatio = (v - ( (Float)(sourceY) ));
-HXLINE(1031)							uOpposite = (( (Float)(1) ) - uRatio);
-HXLINE(1032)							vOpposite = (( (Float)(1) ) - vRatio);
-HXLINE(1034)							{
-HXLINE(1034)								int _hx_int = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + sourceIndex)) & 255)) );
-HXDLIN(1034)								Float val;
-HXDLIN(1034)								if ((_hx_int < 0)) {
-HXLINE(1034)									val = (((Float)4294967296.0) + _hx_int);
-            								}
-            								else {
-HXLINE(1034)									val = (_hx_int + ((Float)0.0));
-            								}
-HXDLIN(1034)								int int1 = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + sourceIndexX)) & 255)) );
-HXDLIN(1034)								Float val1;
-HXDLIN(1034)								if ((int1 < 0)) {
-HXLINE(1034)									val1 = (((Float)4294967296.0) + int1);
-            								}
-            								else {
-HXLINE(1034)									val1 = (int1 + ((Float)0.0));
-            								}
-HXLINE(1035)								int int2 = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + sourceIndexY)) & 255)) );
-HXDLIN(1035)								Float val2;
-HXDLIN(1035)								if ((int2 < 0)) {
-HXLINE(1035)									val2 = (((Float)4294967296.0) + int2);
-            								}
-            								else {
-HXLINE(1035)									val2 = (int2 + ((Float)0.0));
-            								}
-HXDLIN(1035)								int int3 = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + sourceIndexXY)) & 255)) );
-HXDLIN(1035)								Float val3;
-HXDLIN(1035)								if ((int3 < 0)) {
-HXLINE(1035)									val3 = (((Float)4294967296.0) + int3);
-            								}
-            								else {
-HXLINE(1035)									val3 = (int3 + ((Float)0.0));
-            								}
-HXLINE(1034)								int val4 = ::Std_obj::_hx_int(((((val * uOpposite) + (val1 * uRatio)) * vOpposite) + (((val2 * uOpposite) + (val3 * uRatio)) * vRatio)));
-HXDLIN(1034)								 ::__hxcpp_memory_set_byte(newData->buffer->b,(newData->byteOffset + index),val4);
-            							}
-HXLINE(1036)							{
-HXLINE(1036)								int int4 = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (sourceIndex + 1))) & 255)) );
-HXDLIN(1036)								Float val5;
-HXDLIN(1036)								if ((int4 < 0)) {
-HXLINE(1036)									val5 = (((Float)4294967296.0) + int4);
-            								}
-            								else {
-HXLINE(1036)									val5 = (int4 + ((Float)0.0));
-            								}
-HXDLIN(1036)								int int5 = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (sourceIndexX + 1))) & 255)) );
-HXDLIN(1036)								Float val6;
-HXDLIN(1036)								if ((int5 < 0)) {
-HXLINE(1036)									val6 = (((Float)4294967296.0) + int5);
-            								}
-            								else {
-HXLINE(1036)									val6 = (int5 + ((Float)0.0));
-            								}
-HXLINE(1037)								int int6 = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (sourceIndexY + 1))) & 255)) );
-HXDLIN(1037)								Float val7;
-HXDLIN(1037)								if ((int6 < 0)) {
-HXLINE(1037)									val7 = (((Float)4294967296.0) + int6);
-            								}
-            								else {
-HXLINE(1037)									val7 = (int6 + ((Float)0.0));
-            								}
-HXDLIN(1037)								int int7 = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (sourceIndexXY + 1))) & 255)) );
-HXDLIN(1037)								Float val8;
-HXDLIN(1037)								if ((int7 < 0)) {
-HXLINE(1037)									val8 = (((Float)4294967296.0) + int7);
-            								}
-            								else {
-HXLINE(1037)									val8 = (int7 + ((Float)0.0));
-            								}
-HXLINE(1036)								int val9 = ::Std_obj::_hx_int(((((val5 * uOpposite) + (val6 * uRatio)) * vOpposite) + (((val7 * uOpposite) + (val8 * uRatio)) * vRatio)));
-HXDLIN(1036)								 ::__hxcpp_memory_set_byte(newData->buffer->b,(newData->byteOffset + (index + 1)),val9);
-            							}
-HXLINE(1038)							{
-HXLINE(1038)								int int8 = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (sourceIndex + 2))) & 255)) );
-HXDLIN(1038)								Float val10;
-HXDLIN(1038)								if ((int8 < 0)) {
-HXLINE(1038)									val10 = (((Float)4294967296.0) + int8);
-            								}
-            								else {
-HXLINE(1038)									val10 = (int8 + ((Float)0.0));
-            								}
-HXDLIN(1038)								int int9 = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (sourceIndexX + 2))) & 255)) );
-HXDLIN(1038)								Float val11;
-HXDLIN(1038)								if ((int9 < 0)) {
-HXLINE(1038)									val11 = (((Float)4294967296.0) + int9);
-            								}
-            								else {
-HXLINE(1038)									val11 = (int9 + ((Float)0.0));
-            								}
-HXLINE(1039)								int int10 = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (sourceIndexY + 2))) & 255)) );
-HXDLIN(1039)								Float val12;
-HXDLIN(1039)								if ((int10 < 0)) {
-HXLINE(1039)									val12 = (((Float)4294967296.0) + int10);
-            								}
-            								else {
-HXLINE(1039)									val12 = (int10 + ((Float)0.0));
-            								}
-HXDLIN(1039)								int int11 = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (sourceIndexXY + 2))) & 255)) );
-HXDLIN(1039)								Float val13;
-HXDLIN(1039)								if ((int11 < 0)) {
-HXLINE(1039)									val13 = (((Float)4294967296.0) + int11);
-            								}
-            								else {
-HXLINE(1039)									val13 = (int11 + ((Float)0.0));
-            								}
-HXLINE(1038)								int val14 = ::Std_obj::_hx_int(((((val10 * uOpposite) + (val11 * uRatio)) * vOpposite) + (((val12 * uOpposite) + (val13 * uRatio)) * vRatio)));
-HXDLIN(1038)								 ::__hxcpp_memory_set_byte(newData->buffer->b,(newData->byteOffset + (index + 2)),val14);
-            							}
-HXLINE(1043)							bool _hx_tmp;
-HXDLIN(1043)							bool _hx_tmp1;
-HXDLIN(1043)							if ((( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (sourceIndexX + 3))) & 255)) ) != 0)) {
-HXLINE(1043)								_hx_tmp1 = (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (sourceIndexY + 3))) & 255)) ) == 0);
+HXLINE(1019)							if ((sourceIndexX != sourceIndex)) {
+HXLINE(1019)								sourceIndexXY = (sourceIndexY + 4);
             							}
             							else {
-HXLINE(1043)								_hx_tmp1 = true;
+HXLINE(1019)								sourceIndexXY = sourceIndexY;
             							}
-HXDLIN(1043)							if (!(_hx_tmp1)) {
-HXLINE(1043)								_hx_tmp = (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (sourceIndexXY + 3))) & 255)) ) == 0);
+HXLINE(1021)							index = (((y * newWidth) + x) * 4);
+HXLINE(1023)							uRatio = (u - ( (Float)(sourceX) ));
+HXLINE(1024)							vRatio = (v - ( (Float)(sourceY) ));
+HXLINE(1025)							uOpposite = (( (Float)(1) ) - uRatio);
+HXLINE(1026)							vOpposite = (( (Float)(1) ) - vRatio);
+HXLINE(1028)							{
+HXLINE(1028)								int _hx_int = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + sourceIndex)) & 255)) );
+HXDLIN(1028)								Float val;
+HXDLIN(1028)								if ((_hx_int < 0)) {
+HXLINE(1028)									val = (((Float)4294967296.0) + _hx_int);
+            								}
+            								else {
+HXLINE(1028)									val = (_hx_int + ((Float)0.0));
+            								}
+HXDLIN(1028)								int int1 = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + sourceIndexX)) & 255)) );
+HXDLIN(1028)								Float val1;
+HXDLIN(1028)								if ((int1 < 0)) {
+HXLINE(1028)									val1 = (((Float)4294967296.0) + int1);
+            								}
+            								else {
+HXLINE(1028)									val1 = (int1 + ((Float)0.0));
+            								}
+HXLINE(1029)								int int2 = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + sourceIndexY)) & 255)) );
+HXDLIN(1029)								Float val2;
+HXDLIN(1029)								if ((int2 < 0)) {
+HXLINE(1029)									val2 = (((Float)4294967296.0) + int2);
+            								}
+            								else {
+HXLINE(1029)									val2 = (int2 + ((Float)0.0));
+            								}
+HXDLIN(1029)								int int3 = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + sourceIndexXY)) & 255)) );
+HXDLIN(1029)								Float val3;
+HXDLIN(1029)								if ((int3 < 0)) {
+HXLINE(1029)									val3 = (((Float)4294967296.0) + int3);
+            								}
+            								else {
+HXLINE(1029)									val3 = (int3 + ((Float)0.0));
+            								}
+HXLINE(1028)								int val4 = ::Std_obj::_hx_int(((((val * uOpposite) + (val1 * uRatio)) * vOpposite) + (((val2 * uOpposite) + (val3 * uRatio)) * vRatio)));
+HXDLIN(1028)								 ::__hxcpp_memory_set_byte(newData->buffer->b,(newData->byteOffset + index),val4);
+            							}
+HXLINE(1030)							{
+HXLINE(1030)								int int4 = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (sourceIndex + 1))) & 255)) );
+HXDLIN(1030)								Float val5;
+HXDLIN(1030)								if ((int4 < 0)) {
+HXLINE(1030)									val5 = (((Float)4294967296.0) + int4);
+            								}
+            								else {
+HXLINE(1030)									val5 = (int4 + ((Float)0.0));
+            								}
+HXDLIN(1030)								int int5 = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (sourceIndexX + 1))) & 255)) );
+HXDLIN(1030)								Float val6;
+HXDLIN(1030)								if ((int5 < 0)) {
+HXLINE(1030)									val6 = (((Float)4294967296.0) + int5);
+            								}
+            								else {
+HXLINE(1030)									val6 = (int5 + ((Float)0.0));
+            								}
+HXLINE(1031)								int int6 = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (sourceIndexY + 1))) & 255)) );
+HXDLIN(1031)								Float val7;
+HXDLIN(1031)								if ((int6 < 0)) {
+HXLINE(1031)									val7 = (((Float)4294967296.0) + int6);
+            								}
+            								else {
+HXLINE(1031)									val7 = (int6 + ((Float)0.0));
+            								}
+HXDLIN(1031)								int int7 = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (sourceIndexXY + 1))) & 255)) );
+HXDLIN(1031)								Float val8;
+HXDLIN(1031)								if ((int7 < 0)) {
+HXLINE(1031)									val8 = (((Float)4294967296.0) + int7);
+            								}
+            								else {
+HXLINE(1031)									val8 = (int7 + ((Float)0.0));
+            								}
+HXLINE(1030)								int val9 = ::Std_obj::_hx_int(((((val5 * uOpposite) + (val6 * uRatio)) * vOpposite) + (((val7 * uOpposite) + (val8 * uRatio)) * vRatio)));
+HXDLIN(1030)								 ::__hxcpp_memory_set_byte(newData->buffer->b,(newData->byteOffset + (index + 1)),val9);
+            							}
+HXLINE(1032)							{
+HXLINE(1032)								int int8 = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (sourceIndex + 2))) & 255)) );
+HXDLIN(1032)								Float val10;
+HXDLIN(1032)								if ((int8 < 0)) {
+HXLINE(1032)									val10 = (((Float)4294967296.0) + int8);
+            								}
+            								else {
+HXLINE(1032)									val10 = (int8 + ((Float)0.0));
+            								}
+HXDLIN(1032)								int int9 = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (sourceIndexX + 2))) & 255)) );
+HXDLIN(1032)								Float val11;
+HXDLIN(1032)								if ((int9 < 0)) {
+HXLINE(1032)									val11 = (((Float)4294967296.0) + int9);
+            								}
+            								else {
+HXLINE(1032)									val11 = (int9 + ((Float)0.0));
+            								}
+HXLINE(1033)								int int10 = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (sourceIndexY + 2))) & 255)) );
+HXDLIN(1033)								Float val12;
+HXDLIN(1033)								if ((int10 < 0)) {
+HXLINE(1033)									val12 = (((Float)4294967296.0) + int10);
+            								}
+            								else {
+HXLINE(1033)									val12 = (int10 + ((Float)0.0));
+            								}
+HXDLIN(1033)								int int11 = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (sourceIndexXY + 2))) & 255)) );
+HXDLIN(1033)								Float val13;
+HXDLIN(1033)								if ((int11 < 0)) {
+HXLINE(1033)									val13 = (((Float)4294967296.0) + int11);
+            								}
+            								else {
+HXLINE(1033)									val13 = (int11 + ((Float)0.0));
+            								}
+HXLINE(1032)								int val14 = ::Std_obj::_hx_int(((((val10 * uOpposite) + (val11 * uRatio)) * vOpposite) + (((val12 * uOpposite) + (val13 * uRatio)) * vRatio)));
+HXDLIN(1032)								 ::__hxcpp_memory_set_byte(newData->buffer->b,(newData->byteOffset + (index + 2)),val14);
+            							}
+HXLINE(1037)							bool _hx_tmp;
+HXDLIN(1037)							bool _hx_tmp1;
+HXDLIN(1037)							if ((( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (sourceIndexX + 3))) & 255)) ) != 0)) {
+HXLINE(1037)								_hx_tmp1 = (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (sourceIndexY + 3))) & 255)) ) == 0);
             							}
             							else {
-HXLINE(1043)								_hx_tmp = true;
+HXLINE(1037)								_hx_tmp1 = true;
             							}
-HXDLIN(1043)							if (_hx_tmp) {
-HXLINE(1045)								 ::__hxcpp_memory_set_byte(newData->buffer->b,(newData->byteOffset + (index + 3)),0);
+HXDLIN(1037)							if (!(_hx_tmp1)) {
+HXLINE(1037)								_hx_tmp = (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (sourceIndexXY + 3))) & 255)) ) == 0);
             							}
             							else {
-HXLINE(1049)								int val = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (sourceIndex + 3))) & 255)) );
-HXDLIN(1049)								 ::__hxcpp_memory_set_byte(newData->buffer->b,(newData->byteOffset + (index + 3)),val);
+HXLINE(1037)								_hx_tmp = true;
+            							}
+HXDLIN(1037)							if (_hx_tmp) {
+HXLINE(1039)								 ::__hxcpp_memory_set_byte(newData->buffer->b,(newData->byteOffset + (index + 3)),0);
+            							}
+            							else {
+HXLINE(1043)								int val = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (sourceIndex + 3))) & 255)) );
+HXDLIN(1043)								 ::__hxcpp_memory_set_byte(newData->buffer->b,(newData->byteOffset + (index + 3)),val);
             							}
             						}
             					}
             				}
             			}
             		}
-HXLINE(1055)		buffer->data = newBuffer->data;
-HXLINE(1056)		buffer->width = newWidth;
-HXLINE(1057)		buffer->height = newHeight;
-HXLINE(1066)		image->dirty = true;
-HXLINE(1067)		image->version++;
+HXLINE(1049)		buffer->data = newBuffer->data;
+HXLINE(1050)		buffer->width = newWidth;
+HXLINE(1051)		buffer->height = newHeight;
+HXLINE(1060)		image->dirty = true;
+HXLINE(1061)		image->version++;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC3(ImageDataUtil_obj,resize,(void))
 
 void ImageDataUtil_obj::resizeBuffer( ::lime::graphics::Image image,int newWidth,int newHeight){
-            	HX_GC_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_1071_resizeBuffer)
-HXLINE(1072)		 ::lime::graphics::ImageBuffer buffer = image->buffer;
-HXLINE(1073)		 ::lime::utils::ArrayBufferView data = image->get_data();
-HXLINE(1074)		 ::Dynamic elements = ((newWidth * newHeight) * 4);
-HXDLIN(1074)		 ::haxe::io::Bytes buffer1 = null();
-HXDLIN(1074)		::cpp::VirtualArray array = null();
-HXDLIN(1074)		 ::openfl::_Vector::IntVector vector = null();
-HXDLIN(1074)		 ::lime::utils::ArrayBufferView view = null();
-HXDLIN(1074)		 ::Dynamic len = null();
-HXDLIN(1074)		 ::lime::utils::ArrayBufferView this1;
-HXDLIN(1074)		if (::hx::IsNotNull( elements )) {
-HXLINE(1074)			this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,elements,4);
+            	HX_GC_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_1065_resizeBuffer)
+HXLINE(1066)		 ::lime::graphics::ImageBuffer buffer = image->buffer;
+HXLINE(1067)		 ::lime::utils::ArrayBufferView data = image->get_data();
+HXLINE(1068)		 ::Dynamic elements = ((newWidth * newHeight) * 4);
+HXDLIN(1068)		 ::haxe::io::Bytes buffer1 = null();
+HXDLIN(1068)		::cpp::VirtualArray array = null();
+HXDLIN(1068)		 ::openfl::_Vector::IntVector vector = null();
+HXDLIN(1068)		 ::lime::utils::ArrayBufferView view = null();
+HXDLIN(1068)		 ::Dynamic len = null();
+HXDLIN(1068)		 ::lime::utils::ArrayBufferView this1;
+HXDLIN(1068)		if (::hx::IsNotNull( elements )) {
+HXLINE(1068)			this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,elements,4);
             		}
             		else {
-HXLINE(1074)			if (::hx::IsNotNull( array )) {
-HXLINE(1074)				 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
-HXDLIN(1074)				_this->byteOffset = 0;
-HXDLIN(1074)				_this->length = array->get_length();
-HXDLIN(1074)				_this->byteLength = (_this->length * _this->bytesPerElement);
-HXDLIN(1074)				 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
-HXDLIN(1074)				_this->buffer = this2;
-HXDLIN(1074)				_this->copyFromArray(array,null());
-HXDLIN(1074)				this1 = _this;
+HXLINE(1068)			if (::hx::IsNotNull( array )) {
+HXLINE(1068)				 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
+HXDLIN(1068)				_this->byteOffset = 0;
+HXDLIN(1068)				_this->length = array->get_length();
+HXDLIN(1068)				_this->byteLength = (_this->length * _this->bytesPerElement);
+HXDLIN(1068)				 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
+HXDLIN(1068)				_this->buffer = this2;
+HXDLIN(1068)				_this->copyFromArray(array,null());
+HXDLIN(1068)				this1 = _this;
             			}
             			else {
-HXLINE(1074)				if (::hx::IsNotNull( vector )) {
-HXLINE(1074)					 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
-HXDLIN(1074)					::cpp::VirtualArray array = ( (::cpp::VirtualArray)(vector->__Field(HX_("__array",79,c6,ed,8f),::hx::paccDynamic)) );
-HXDLIN(1074)					_this->byteOffset = 0;
-HXDLIN(1074)					_this->length = array->get_length();
-HXDLIN(1074)					_this->byteLength = (_this->length * _this->bytesPerElement);
-HXDLIN(1074)					 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
-HXDLIN(1074)					_this->buffer = this2;
-HXDLIN(1074)					_this->copyFromArray(array,null());
-HXDLIN(1074)					this1 = _this;
+HXLINE(1068)				if (::hx::IsNotNull( vector )) {
+HXLINE(1068)					 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
+HXDLIN(1068)					::cpp::VirtualArray array = ( (::cpp::VirtualArray)(vector->__Field(HX_("__array",79,c6,ed,8f),::hx::paccDynamic)) );
+HXDLIN(1068)					_this->byteOffset = 0;
+HXDLIN(1068)					_this->length = array->get_length();
+HXDLIN(1068)					_this->byteLength = (_this->length * _this->bytesPerElement);
+HXDLIN(1068)					 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
+HXDLIN(1068)					_this->buffer = this2;
+HXDLIN(1068)					_this->copyFromArray(array,null());
+HXDLIN(1068)					this1 = _this;
             				}
             				else {
-HXLINE(1074)					if (::hx::IsNotNull( view )) {
-HXLINE(1074)						 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
-HXDLIN(1074)						 ::haxe::io::Bytes srcData = view->buffer;
-HXDLIN(1074)						int srcLength = view->length;
-HXDLIN(1074)						int srcByteOffset = view->byteOffset;
-HXDLIN(1074)						int srcElementSize = view->bytesPerElement;
-HXDLIN(1074)						int elementSize = _this->bytesPerElement;
-HXDLIN(1074)						if ((view->type == _this->type)) {
-HXLINE(1074)							int srcLength = srcData->length;
-HXDLIN(1074)							int cloneLength = (srcLength - srcByteOffset);
-HXDLIN(1074)							 ::haxe::io::Bytes this1 = ::haxe::io::Bytes_obj::alloc(cloneLength);
-HXDLIN(1074)							_this->buffer = this1;
-HXDLIN(1074)							_this->buffer->blit(0,srcData,srcByteOffset,cloneLength);
+HXLINE(1068)					if (::hx::IsNotNull( view )) {
+HXLINE(1068)						 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
+HXDLIN(1068)						 ::haxe::io::Bytes srcData = view->buffer;
+HXDLIN(1068)						int srcLength = view->length;
+HXDLIN(1068)						int srcByteOffset = view->byteOffset;
+HXDLIN(1068)						int srcElementSize = view->bytesPerElement;
+HXDLIN(1068)						int elementSize = _this->bytesPerElement;
+HXDLIN(1068)						if ((view->type == _this->type)) {
+HXLINE(1068)							int srcLength = srcData->length;
+HXDLIN(1068)							int cloneLength = (srcLength - srcByteOffset);
+HXDLIN(1068)							 ::haxe::io::Bytes this1 = ::haxe::io::Bytes_obj::alloc(cloneLength);
+HXDLIN(1068)							_this->buffer = this1;
+HXDLIN(1068)							_this->buffer->blit(0,srcData,srcByteOffset,cloneLength);
             						}
             						else {
-HXLINE(1074)							HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("unimplemented",09,2f,74,b4)));
+HXLINE(1068)							HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("unimplemented",09,2f,74,b4)));
             						}
-HXDLIN(1074)						_this->byteLength = (_this->bytesPerElement * srcLength);
-HXDLIN(1074)						_this->byteOffset = 0;
-HXDLIN(1074)						_this->length = srcLength;
-HXDLIN(1074)						this1 = _this;
+HXDLIN(1068)						_this->byteLength = (_this->bytesPerElement * srcLength);
+HXDLIN(1068)						_this->byteOffset = 0;
+HXDLIN(1068)						_this->length = srcLength;
+HXDLIN(1068)						this1 = _this;
             					}
             					else {
-HXLINE(1074)						if (::hx::IsNotNull( buffer1 )) {
-HXLINE(1074)							 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
-HXDLIN(1074)							int in_byteOffset = 0;
-HXDLIN(1074)							if ((in_byteOffset < 0)) {
-HXLINE(1074)								HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXLINE(1068)						if (::hx::IsNotNull( buffer1 )) {
+HXLINE(1068)							 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
+HXDLIN(1068)							int in_byteOffset = 0;
+HXDLIN(1068)							if ((in_byteOffset < 0)) {
+HXLINE(1068)								HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             							}
-HXDLIN(1074)							if ((::hx::Mod(in_byteOffset,_this->bytesPerElement) != 0)) {
-HXLINE(1074)								HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXDLIN(1068)							if ((::hx::Mod(in_byteOffset,_this->bytesPerElement) != 0)) {
+HXLINE(1068)								HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             							}
-HXDLIN(1074)							int bufferByteLength = buffer1->length;
-HXDLIN(1074)							int elementSize = _this->bytesPerElement;
-HXDLIN(1074)							int newByteLength = bufferByteLength;
-HXDLIN(1074)							if (::hx::IsNull( len )) {
-HXLINE(1074)								newByteLength = (bufferByteLength - in_byteOffset);
-HXDLIN(1074)								if ((::hx::Mod(bufferByteLength,_this->bytesPerElement) != 0)) {
-HXLINE(1074)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXDLIN(1068)							int bufferByteLength = buffer1->length;
+HXDLIN(1068)							int elementSize = _this->bytesPerElement;
+HXDLIN(1068)							int newByteLength = bufferByteLength;
+HXDLIN(1068)							if (::hx::IsNull( len )) {
+HXLINE(1068)								newByteLength = (bufferByteLength - in_byteOffset);
+HXDLIN(1068)								if ((::hx::Mod(bufferByteLength,_this->bytesPerElement) != 0)) {
+HXLINE(1068)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             								}
-HXDLIN(1074)								if ((newByteLength < 0)) {
-HXLINE(1074)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXDLIN(1068)								if ((newByteLength < 0)) {
+HXLINE(1068)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             								}
             							}
             							else {
-HXLINE(1074)								newByteLength = (( (int)(len) ) * _this->bytesPerElement);
-HXDLIN(1074)								int newRange = (in_byteOffset + newByteLength);
-HXDLIN(1074)								if ((newRange > bufferByteLength)) {
-HXLINE(1074)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXLINE(1068)								newByteLength = (( (int)(len) ) * _this->bytesPerElement);
+HXDLIN(1068)								int newRange = (in_byteOffset + newByteLength);
+HXDLIN(1068)								if ((newRange > bufferByteLength)) {
+HXLINE(1068)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             								}
             							}
-HXDLIN(1074)							_this->buffer = buffer1;
-HXDLIN(1074)							_this->byteOffset = in_byteOffset;
-HXDLIN(1074)							_this->byteLength = newByteLength;
-HXDLIN(1074)							_this->length = ::Std_obj::_hx_int((( (Float)(newByteLength) ) / ( (Float)(_this->bytesPerElement) )));
-HXDLIN(1074)							this1 = _this;
+HXDLIN(1068)							_this->buffer = buffer1;
+HXDLIN(1068)							_this->byteOffset = in_byteOffset;
+HXDLIN(1068)							_this->byteLength = newByteLength;
+HXDLIN(1068)							_this->length = ::Std_obj::_hx_int((( (Float)(newByteLength) ) / ( (Float)(_this->bytesPerElement) )));
+HXDLIN(1068)							this1 = _this;
             						}
             						else {
-HXLINE(1074)							HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("Invalid constructor arguments for UInt8Array",6b,44,d5,85)));
+HXLINE(1068)							HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("Invalid constructor arguments for UInt8Array",6b,44,d5,85)));
             						}
             					}
             				}
             			}
             		}
-HXDLIN(1074)		 ::lime::utils::ArrayBufferView newData = this1;
-HXLINE(1075)		int sourceIndex;
-HXDLIN(1075)		int index;
-HXLINE(1077)		{
-HXLINE(1077)			int _g = 0;
-HXDLIN(1077)			int _g1 = buffer->height;
-HXDLIN(1077)			while((_g < _g1)){
-HXLINE(1077)				_g = (_g + 1);
-HXDLIN(1077)				int y = (_g - 1);
-HXLINE(1079)				{
-HXLINE(1079)					int _g1 = 0;
-HXDLIN(1079)					int _g2 = buffer->width;
-HXDLIN(1079)					while((_g1 < _g2)){
-HXLINE(1079)						_g1 = (_g1 + 1);
-HXDLIN(1079)						int x = (_g1 - 1);
-HXLINE(1081)						sourceIndex = (((y * buffer->width) + x) * 4);
-HXLINE(1082)						index = (((y * newWidth) + x) * 4);
-HXLINE(1084)						{
-HXLINE(1084)							int val = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + sourceIndex)) & 255)) );
-HXDLIN(1084)							 ::__hxcpp_memory_set_byte(newData->buffer->b,(newData->byteOffset + index),val);
+HXDLIN(1068)		 ::lime::utils::ArrayBufferView newData = this1;
+HXLINE(1069)		int sourceIndex;
+HXDLIN(1069)		int index;
+HXLINE(1071)		{
+HXLINE(1071)			int _g = 0;
+HXDLIN(1071)			int _g1 = buffer->height;
+HXDLIN(1071)			while((_g < _g1)){
+HXLINE(1071)				_g = (_g + 1);
+HXDLIN(1071)				int y = (_g - 1);
+HXLINE(1073)				{
+HXLINE(1073)					int _g1 = 0;
+HXDLIN(1073)					int _g2 = buffer->width;
+HXDLIN(1073)					while((_g1 < _g2)){
+HXLINE(1073)						_g1 = (_g1 + 1);
+HXDLIN(1073)						int x = (_g1 - 1);
+HXLINE(1075)						sourceIndex = (((y * buffer->width) + x) * 4);
+HXLINE(1076)						index = (((y * newWidth) + x) * 4);
+HXLINE(1078)						{
+HXLINE(1078)							int val = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + sourceIndex)) & 255)) );
+HXDLIN(1078)							 ::__hxcpp_memory_set_byte(newData->buffer->b,(newData->byteOffset + index),val);
             						}
-HXLINE(1085)						{
-HXLINE(1085)							int val1 = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (sourceIndex + 1))) & 255)) );
-HXDLIN(1085)							 ::__hxcpp_memory_set_byte(newData->buffer->b,(newData->byteOffset + (index + 1)),val1);
+HXLINE(1079)						{
+HXLINE(1079)							int val1 = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (sourceIndex + 1))) & 255)) );
+HXDLIN(1079)							 ::__hxcpp_memory_set_byte(newData->buffer->b,(newData->byteOffset + (index + 1)),val1);
             						}
-HXLINE(1086)						{
-HXLINE(1086)							int val2 = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (sourceIndex + 2))) & 255)) );
-HXDLIN(1086)							 ::__hxcpp_memory_set_byte(newData->buffer->b,(newData->byteOffset + (index + 2)),val2);
+HXLINE(1080)						{
+HXLINE(1080)							int val2 = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (sourceIndex + 2))) & 255)) );
+HXDLIN(1080)							 ::__hxcpp_memory_set_byte(newData->buffer->b,(newData->byteOffset + (index + 2)),val2);
             						}
-HXLINE(1087)						{
-HXLINE(1087)							int val3 = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (sourceIndex + 3))) & 255)) );
-HXDLIN(1087)							 ::__hxcpp_memory_set_byte(newData->buffer->b,(newData->byteOffset + (index + 3)),val3);
+HXLINE(1081)						{
+HXLINE(1081)							int val3 = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (sourceIndex + 3))) & 255)) );
+HXDLIN(1081)							 ::__hxcpp_memory_set_byte(newData->buffer->b,(newData->byteOffset + (index + 3)),val3);
             						}
             					}
             				}
             			}
             		}
-HXLINE(1091)		buffer->data = newData;
-HXLINE(1092)		buffer->width = newWidth;
-HXLINE(1093)		buffer->height = newHeight;
-HXLINE(1102)		image->dirty = true;
-HXLINE(1103)		image->version++;
+HXLINE(1085)		buffer->data = newData;
+HXLINE(1086)		buffer->width = newWidth;
+HXLINE(1087)		buffer->height = newHeight;
+HXLINE(1096)		image->dirty = true;
+HXLINE(1097)		image->version++;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC3(ImageDataUtil_obj,resizeBuffer,(void))
 
 void ImageDataUtil_obj::setFormat( ::lime::graphics::Image image,int format){
-            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_1107_setFormat)
-HXLINE(1108)		 ::lime::utils::ArrayBufferView data = image->buffer->data;
-HXLINE(1109)		if (::hx::IsNull( data )) {
-HXLINE(1109)			return;
+            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_1101_setFormat)
+HXLINE(1102)		 ::lime::utils::ArrayBufferView data = image->buffer->data;
+HXLINE(1103)		if (::hx::IsNull( data )) {
+HXLINE(1103)			return;
             		}
-HXLINE(1112)		if (::lime::_hx_system::CFFI_obj::enabled) {
-HXLINE(1112)			::lime::_internal::backend::native::NativeCFFI_obj::lime_image_data_util_set_format(::hx::DynamicPtr(image),format);
+HXLINE(1106)		if (::lime::_hx_system::CFFI_obj::enabled) {
+HXLINE(1106)			::lime::_internal::backend::native::NativeCFFI_obj::lime_image_data_util_set_format(::hx::DynamicPtr(image),format);
             		}
             		else {
-HXLINE(1116)			int index;
-HXDLIN(1116)			 ::Dynamic a16;
-HXLINE(1117)			int length = ::Std_obj::_hx_int((( (Float)(data->length) ) / ( (Float)(4) )));
-HXLINE(1118)			int r1;
-HXDLIN(1118)			int g1;
-HXDLIN(1118)			int b1;
-HXDLIN(1118)			int a1;
-HXDLIN(1118)			int r2;
-HXDLIN(1118)			int g2;
-HXDLIN(1118)			int b2;
-HXDLIN(1118)			int a2;
-HXLINE(1119)			 ::Dynamic r;
-HXDLIN(1119)			 ::Dynamic g;
-HXDLIN(1119)			 ::Dynamic b;
-HXDLIN(1119)			 ::Dynamic a;
-HXLINE(1121)			switch((int)(image->get_format())){
+HXLINE(1110)			int index;
+HXDLIN(1110)			 ::Dynamic a16;
+HXLINE(1111)			int length = ::Std_obj::_hx_int((( (Float)(data->length) ) / ( (Float)(4) )));
+HXLINE(1112)			int r1;
+HXDLIN(1112)			int g1;
+HXDLIN(1112)			int b1;
+HXDLIN(1112)			int a1;
+HXDLIN(1112)			int r2;
+HXDLIN(1112)			int g2;
+HXDLIN(1112)			int b2;
+HXDLIN(1112)			int a2;
+HXLINE(1113)			 ::Dynamic r;
+HXDLIN(1113)			 ::Dynamic g;
+HXDLIN(1113)			 ::Dynamic b;
+HXDLIN(1113)			 ::Dynamic a;
+HXLINE(1115)			switch((int)(image->get_format())){
             				case (int)0: {
-HXLINE(1124)					r1 = 0;
-HXLINE(1125)					g1 = 1;
-HXLINE(1126)					b1 = 2;
-HXLINE(1127)					a1 = 3;
+HXLINE(1118)					r1 = 0;
+HXLINE(1119)					g1 = 1;
+HXLINE(1120)					b1 = 2;
+HXLINE(1121)					a1 = 3;
             				}
             				break;
             				case (int)1: {
-HXLINE(1130)					r1 = 1;
-HXLINE(1131)					g1 = 2;
-HXLINE(1132)					b1 = 3;
-HXLINE(1133)					a1 = 0;
+HXLINE(1124)					r1 = 1;
+HXLINE(1125)					g1 = 2;
+HXLINE(1126)					b1 = 3;
+HXLINE(1127)					a1 = 0;
             				}
             				break;
             				case (int)2: {
-HXLINE(1136)					r1 = 2;
-HXLINE(1137)					g1 = 1;
-HXLINE(1138)					b1 = 0;
-HXLINE(1139)					a1 = 3;
+HXLINE(1130)					r1 = 2;
+HXLINE(1131)					g1 = 1;
+HXLINE(1132)					b1 = 0;
+HXLINE(1133)					a1 = 3;
             				}
             				break;
             			}
-HXLINE(1142)			switch((int)(format)){
+HXLINE(1136)			switch((int)(format)){
             				case (int)0: {
-HXLINE(1145)					r2 = 0;
-HXLINE(1146)					g2 = 1;
-HXLINE(1147)					b2 = 2;
-HXLINE(1148)					a2 = 3;
+HXLINE(1139)					r2 = 0;
+HXLINE(1140)					g2 = 1;
+HXLINE(1141)					b2 = 2;
+HXLINE(1142)					a2 = 3;
             				}
             				break;
             				case (int)1: {
-HXLINE(1151)					r2 = 1;
-HXLINE(1152)					g2 = 2;
-HXLINE(1153)					b2 = 3;
-HXLINE(1154)					a2 = 0;
+HXLINE(1145)					r2 = 1;
+HXLINE(1146)					g2 = 2;
+HXLINE(1147)					b2 = 3;
+HXLINE(1148)					a2 = 0;
             				}
             				break;
             				case (int)2: {
-HXLINE(1157)					r2 = 2;
-HXLINE(1158)					g2 = 1;
-HXLINE(1159)					b2 = 0;
-HXLINE(1160)					a2 = 3;
+HXLINE(1151)					r2 = 2;
+HXLINE(1152)					g2 = 1;
+HXLINE(1153)					b2 = 0;
+HXLINE(1154)					a2 = 3;
             				}
             				break;
             			}
-HXLINE(1163)			{
-HXLINE(1163)				int _g = 0;
-HXDLIN(1163)				int _g1 = length;
-HXDLIN(1163)				while((_g < _g1)){
-HXLINE(1163)					_g = (_g + 1);
-HXDLIN(1163)					int i = (_g - 1);
-HXLINE(1165)					index = (i * 4);
-HXLINE(1167)					r = ( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (index + r1))) & 255);
-HXLINE(1168)					g = ( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (index + g1))) & 255);
-HXLINE(1169)					b = ( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (index + b1))) & 255);
-HXLINE(1170)					a = ( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (index + a1))) & 255);
-HXLINE(1172)					{
-HXLINE(1172)						int val = ( (int)(r) );
-HXDLIN(1172)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (index + r2)),val);
+HXLINE(1157)			{
+HXLINE(1157)				int _g = 0;
+HXDLIN(1157)				int _g1 = length;
+HXDLIN(1157)				while((_g < _g1)){
+HXLINE(1157)					_g = (_g + 1);
+HXDLIN(1157)					int i = (_g - 1);
+HXLINE(1159)					index = (i * 4);
+HXLINE(1161)					r = ( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (index + r1))) & 255);
+HXLINE(1162)					g = ( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (index + g1))) & 255);
+HXLINE(1163)					b = ( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (index + b1))) & 255);
+HXLINE(1164)					a = ( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (index + a1))) & 255);
+HXLINE(1166)					{
+HXLINE(1166)						int val = ( (int)(r) );
+HXDLIN(1166)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (index + r2)),val);
             					}
-HXLINE(1173)					{
-HXLINE(1173)						int val1 = ( (int)(g) );
-HXDLIN(1173)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (index + g2)),val1);
+HXLINE(1167)					{
+HXLINE(1167)						int val1 = ( (int)(g) );
+HXDLIN(1167)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (index + g2)),val1);
             					}
-HXLINE(1174)					{
-HXLINE(1174)						int val2 = ( (int)(b) );
-HXDLIN(1174)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (index + b2)),val2);
+HXLINE(1168)					{
+HXLINE(1168)						int val2 = ( (int)(b) );
+HXDLIN(1168)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (index + b2)),val2);
             					}
-HXLINE(1175)					{
-HXLINE(1175)						int val3 = ( (int)(a) );
-HXDLIN(1175)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (index + a2)),val3);
+HXLINE(1169)					{
+HXLINE(1169)						int val3 = ( (int)(a) );
+HXDLIN(1169)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (index + a2)),val3);
             					}
             				}
             			}
             		}
-HXLINE(1179)		image->buffer->format = format;
-HXLINE(1180)		image->dirty = true;
-HXLINE(1181)		image->version++;
+HXLINE(1173)		image->buffer->format = format;
+HXLINE(1174)		image->dirty = true;
+HXLINE(1175)		image->version++;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(ImageDataUtil_obj,setFormat,(void))
 
 void ImageDataUtil_obj::setPixel( ::lime::graphics::Image image,int x,int y,int color,int format){
-            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_1185_setPixel)
-HXLINE(1186)		int pixel;
-HXLINE(1188)		switch((int)(format)){
+            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_1179_setPixel)
+HXLINE(1180)		int pixel;
+HXLINE(1182)		switch((int)(format)){
             			case (int)1: {
-HXLINE(1191)				int argb = color;
-HXDLIN(1191)				int this1 = 0;
-HXDLIN(1191)				int rgba = this1;
-HXDLIN(1191)				rgba = ((((((::hx::UShr(argb,16) & 255) & 255) << 24) | (((::hx::UShr(argb,8) & 255) & 255) << 16)) | (((argb & 255) & 255) << 8)) | ((::hx::UShr(argb,24) & 255) & 255));
-HXDLIN(1191)				pixel = rgba;
+HXLINE(1185)				int argb = color;
+HXDLIN(1185)				int this1 = 0;
+HXDLIN(1185)				int rgba = this1;
+HXDLIN(1185)				rgba = ((((((::hx::UShr(argb,16) & 255) & 255) << 24) | (((::hx::UShr(argb,8) & 255) & 255) << 16)) | (((argb & 255) & 255) << 8)) | ((::hx::UShr(argb,24) & 255) & 255));
+HXDLIN(1185)				pixel = rgba;
             			}
             			break;
             			case (int)2: {
-HXLINE(1193)				int bgra = color;
-HXDLIN(1193)				int this1 = 0;
-HXDLIN(1193)				int rgba = this1;
-HXDLIN(1193)				rgba = ((((((::hx::UShr(bgra,8) & 255) & 255) << 24) | (((::hx::UShr(bgra,16) & 255) & 255) << 16)) | (((::hx::UShr(bgra,24) & 255) & 255) << 8)) | ((bgra & 255) & 255));
-HXDLIN(1193)				pixel = rgba;
+HXLINE(1187)				int bgra = color;
+HXDLIN(1187)				int this1 = 0;
+HXDLIN(1187)				int rgba = this1;
+HXDLIN(1187)				rgba = ((((((::hx::UShr(bgra,8) & 255) & 255) << 24) | (((::hx::UShr(bgra,16) & 255) & 255) << 16)) | (((::hx::UShr(bgra,24) & 255) & 255) << 8)) | ((bgra & 255) & 255));
+HXDLIN(1187)				pixel = rgba;
             			}
             			break;
             			default:{
-HXLINE(1195)				pixel = color;
+HXLINE(1189)				pixel = color;
             			}
             		}
-HXLINE(1200)		int this1 = 0;
-HXDLIN(1200)		int source = this1;
-HXLINE(1201)		{
-HXLINE(1201)			 ::lime::utils::ArrayBufferView data = image->buffer->data;
-HXDLIN(1201)			int offset = (((4 * (y + image->offsetY)) * image->buffer->width) + ((x + image->offsetX) * 4));
-HXDLIN(1201)			bool premultiplied = image->buffer->premultiplied;
-HXDLIN(1201)			switch((int)(image->buffer->format)){
+HXLINE(1194)		int this1 = 0;
+HXDLIN(1194)		int source = this1;
+HXLINE(1195)		{
+HXLINE(1195)			 ::lime::utils::ArrayBufferView data = image->buffer->data;
+HXDLIN(1195)			int offset = (((4 * (y + image->offsetY)) * image->buffer->width) + ((x + image->offsetX) * 4));
+HXDLIN(1195)			bool premultiplied = image->buffer->premultiplied;
+HXDLIN(1195)			switch((int)(image->buffer->format)){
             				case (int)0: {
-HXLINE(1201)					int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) );
-HXDLIN(1201)					int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
-HXDLIN(1201)					int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
-HXDLIN(1201)					source = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) ) & 255));
+HXLINE(1195)					int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) );
+HXDLIN(1195)					int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
+HXDLIN(1195)					int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
+HXDLIN(1195)					source = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) ) & 255));
             				}
             				break;
             				case (int)1: {
-HXLINE(1201)					int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
-HXDLIN(1201)					int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
-HXDLIN(1201)					int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) );
-HXDLIN(1201)					source = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) ) & 255));
+HXLINE(1195)					int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
+HXDLIN(1195)					int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
+HXDLIN(1195)					int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) );
+HXDLIN(1195)					source = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) ) & 255));
             				}
             				break;
             				case (int)2: {
-HXLINE(1201)					int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
-HXDLIN(1201)					int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
-HXDLIN(1201)					int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) );
-HXDLIN(1201)					source = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) ) & 255));
+HXLINE(1195)					int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
+HXDLIN(1195)					int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
+HXDLIN(1195)					int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) );
+HXDLIN(1195)					source = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) ) & 255));
             				}
             				break;
             			}
-HXDLIN(1201)			if (premultiplied) {
-HXLINE(1201)				bool _hx_tmp;
-HXDLIN(1201)				if (((source & 255) != 0)) {
-HXLINE(1201)					_hx_tmp = ((source & 255) != 255);
+HXDLIN(1195)			if (premultiplied) {
+HXLINE(1195)				bool _hx_tmp;
+HXDLIN(1195)				if (((source & 255) != 0)) {
+HXLINE(1195)					_hx_tmp = ((source & 255) != 255);
             				}
             				else {
-HXLINE(1201)					_hx_tmp = false;
+HXLINE(1195)					_hx_tmp = false;
             				}
-HXDLIN(1201)				if (_hx_tmp) {
-HXLINE(1201)					::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((source & 255)) ));
-HXDLIN(1201)					{
-HXLINE(1201)						 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN(1201)						int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(source,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN(1201)						 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN(1201)						int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(source,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN(1201)						 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN(1201)						source = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(source,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((source & 255) & 255));
+HXDLIN(1195)				if (_hx_tmp) {
+HXLINE(1195)					::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((source & 255)) ));
+HXDLIN(1195)					{
+HXLINE(1195)						 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN(1195)						int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(source,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN(1195)						 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN(1195)						int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(source,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN(1195)						 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN(1195)						source = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(source,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((source & 255) & 255));
             					}
             				}
             			}
             		}
-HXLINE(1204)		{
-HXLINE(1204)			int value = (source & 255);
-HXDLIN(1204)			pixel = ((((((::hx::UShr(pixel,24) & 255) & 255) << 24) | (((::hx::UShr(pixel,16) & 255) & 255) << 16)) | (((::hx::UShr(pixel,8) & 255) & 255) << 8)) | (value & 255));
+HXLINE(1198)		{
+HXLINE(1198)			int value = (source & 255);
+HXDLIN(1198)			pixel = ((((((::hx::UShr(pixel,24) & 255) & 255) << 24) | (((::hx::UShr(pixel,16) & 255) & 255) << 16)) | (((::hx::UShr(pixel,8) & 255) & 255) << 8)) | (value & 255));
             		}
-HXLINE(1205)		{
-HXLINE(1205)			 ::lime::utils::ArrayBufferView data1 = image->buffer->data;
-HXDLIN(1205)			int offset1 = (((4 * (y + image->offsetY)) * image->buffer->width) + ((x + image->offsetX) * 4));
-HXDLIN(1205)			int format1 = image->buffer->format;
-HXDLIN(1205)			if (image->buffer->premultiplied) {
-HXLINE(1205)				if (((pixel & 255) == 0)) {
-HXLINE(1205)					if ((pixel != 0)) {
-HXLINE(1205)						pixel = 0;
+HXLINE(1199)		{
+HXLINE(1199)			 ::lime::utils::ArrayBufferView data1 = image->buffer->data;
+HXDLIN(1199)			int offset1 = (((4 * (y + image->offsetY)) * image->buffer->width) + ((x + image->offsetX) * 4));
+HXDLIN(1199)			int format1 = image->buffer->format;
+HXDLIN(1199)			if (image->buffer->premultiplied) {
+HXLINE(1199)				if (((pixel & 255) == 0)) {
+HXLINE(1199)					if ((pixel != 0)) {
+HXLINE(1199)						pixel = 0;
             					}
             				}
             				else {
-HXLINE(1205)					if (((pixel & 255) != 255)) {
-HXLINE(1205)						 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
-HXDLIN(1205)						::lime::math::_RGBA::RGBA_Impl__obj::a16 = ( (int)( ::__hxcpp_memory_get_ui32(this1->buffer->b,(this1->byteOffset + ((pixel & 255) * 4)))) );
-HXDLIN(1205)						pixel = ((((((((::hx::UShr(pixel,24) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 24) | (((((::hx::UShr(pixel,16) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 16)) | (((((::hx::UShr(pixel,8) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 8)) | ((pixel & 255) & 255));
+HXLINE(1199)					if (((pixel & 255) != 255)) {
+HXLINE(1199)						 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
+HXDLIN(1199)						::lime::math::_RGBA::RGBA_Impl__obj::a16 = ( (int)( ::__hxcpp_memory_get_ui32(this1->buffer->b,(this1->byteOffset + ((pixel & 255) * 4)))) );
+HXDLIN(1199)						pixel = ((((((((::hx::UShr(pixel,24) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 24) | (((((::hx::UShr(pixel,16) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 16)) | (((((::hx::UShr(pixel,8) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 8)) | ((pixel & 255) & 255));
             					}
             				}
             			}
-HXDLIN(1205)			switch((int)(format1)){
+HXDLIN(1199)			switch((int)(format1)){
             				case (int)0: {
-HXLINE(1205)					{
-HXLINE(1205)						int val = (::hx::UShr(pixel,24) & 255);
-HXDLIN(1205)						 ::__hxcpp_memory_set_byte(data1->buffer->b,(data1->byteOffset + offset1),val);
+HXLINE(1199)					{
+HXLINE(1199)						int val = (::hx::UShr(pixel,24) & 255);
+HXDLIN(1199)						 ::__hxcpp_memory_set_byte(data1->buffer->b,(data1->byteOffset + offset1),val);
             					}
-HXDLIN(1205)					{
-HXLINE(1205)						int val1 = (::hx::UShr(pixel,16) & 255);
-HXDLIN(1205)						 ::__hxcpp_memory_set_byte(data1->buffer->b,(data1->byteOffset + (offset1 + 1)),val1);
+HXDLIN(1199)					{
+HXLINE(1199)						int val1 = (::hx::UShr(pixel,16) & 255);
+HXDLIN(1199)						 ::__hxcpp_memory_set_byte(data1->buffer->b,(data1->byteOffset + (offset1 + 1)),val1);
             					}
-HXDLIN(1205)					{
-HXLINE(1205)						int val2 = (::hx::UShr(pixel,8) & 255);
-HXDLIN(1205)						 ::__hxcpp_memory_set_byte(data1->buffer->b,(data1->byteOffset + (offset1 + 2)),val2);
+HXDLIN(1199)					{
+HXLINE(1199)						int val2 = (::hx::UShr(pixel,8) & 255);
+HXDLIN(1199)						 ::__hxcpp_memory_set_byte(data1->buffer->b,(data1->byteOffset + (offset1 + 2)),val2);
             					}
-HXDLIN(1205)					{
-HXLINE(1205)						int val3 = (pixel & 255);
-HXDLIN(1205)						 ::__hxcpp_memory_set_byte(data1->buffer->b,(data1->byteOffset + (offset1 + 3)),val3);
+HXDLIN(1199)					{
+HXLINE(1199)						int val3 = (pixel & 255);
+HXDLIN(1199)						 ::__hxcpp_memory_set_byte(data1->buffer->b,(data1->byteOffset + (offset1 + 3)),val3);
             					}
             				}
             				break;
             				case (int)1: {
-HXLINE(1205)					{
-HXLINE(1205)						int val = (pixel & 255);
-HXDLIN(1205)						 ::__hxcpp_memory_set_byte(data1->buffer->b,(data1->byteOffset + offset1),val);
+HXLINE(1199)					{
+HXLINE(1199)						int val = (pixel & 255);
+HXDLIN(1199)						 ::__hxcpp_memory_set_byte(data1->buffer->b,(data1->byteOffset + offset1),val);
             					}
-HXDLIN(1205)					{
-HXLINE(1205)						int val1 = (::hx::UShr(pixel,24) & 255);
-HXDLIN(1205)						 ::__hxcpp_memory_set_byte(data1->buffer->b,(data1->byteOffset + (offset1 + 1)),val1);
+HXDLIN(1199)					{
+HXLINE(1199)						int val1 = (::hx::UShr(pixel,24) & 255);
+HXDLIN(1199)						 ::__hxcpp_memory_set_byte(data1->buffer->b,(data1->byteOffset + (offset1 + 1)),val1);
             					}
-HXDLIN(1205)					{
-HXLINE(1205)						int val2 = (::hx::UShr(pixel,16) & 255);
-HXDLIN(1205)						 ::__hxcpp_memory_set_byte(data1->buffer->b,(data1->byteOffset + (offset1 + 2)),val2);
+HXDLIN(1199)					{
+HXLINE(1199)						int val2 = (::hx::UShr(pixel,16) & 255);
+HXDLIN(1199)						 ::__hxcpp_memory_set_byte(data1->buffer->b,(data1->byteOffset + (offset1 + 2)),val2);
             					}
-HXDLIN(1205)					{
-HXLINE(1205)						int val3 = (::hx::UShr(pixel,8) & 255);
-HXDLIN(1205)						 ::__hxcpp_memory_set_byte(data1->buffer->b,(data1->byteOffset + (offset1 + 3)),val3);
+HXDLIN(1199)					{
+HXLINE(1199)						int val3 = (::hx::UShr(pixel,8) & 255);
+HXDLIN(1199)						 ::__hxcpp_memory_set_byte(data1->buffer->b,(data1->byteOffset + (offset1 + 3)),val3);
             					}
             				}
             				break;
             				case (int)2: {
-HXLINE(1205)					{
-HXLINE(1205)						int val = (::hx::UShr(pixel,8) & 255);
-HXDLIN(1205)						 ::__hxcpp_memory_set_byte(data1->buffer->b,(data1->byteOffset + offset1),val);
+HXLINE(1199)					{
+HXLINE(1199)						int val = (::hx::UShr(pixel,8) & 255);
+HXDLIN(1199)						 ::__hxcpp_memory_set_byte(data1->buffer->b,(data1->byteOffset + offset1),val);
             					}
-HXDLIN(1205)					{
-HXLINE(1205)						int val1 = (::hx::UShr(pixel,16) & 255);
-HXDLIN(1205)						 ::__hxcpp_memory_set_byte(data1->buffer->b,(data1->byteOffset + (offset1 + 1)),val1);
+HXDLIN(1199)					{
+HXLINE(1199)						int val1 = (::hx::UShr(pixel,16) & 255);
+HXDLIN(1199)						 ::__hxcpp_memory_set_byte(data1->buffer->b,(data1->byteOffset + (offset1 + 1)),val1);
             					}
-HXDLIN(1205)					{
-HXLINE(1205)						int val2 = (::hx::UShr(pixel,24) & 255);
-HXDLIN(1205)						 ::__hxcpp_memory_set_byte(data1->buffer->b,(data1->byteOffset + (offset1 + 2)),val2);
+HXDLIN(1199)					{
+HXLINE(1199)						int val2 = (::hx::UShr(pixel,24) & 255);
+HXDLIN(1199)						 ::__hxcpp_memory_set_byte(data1->buffer->b,(data1->byteOffset + (offset1 + 2)),val2);
             					}
-HXDLIN(1205)					{
-HXLINE(1205)						int val3 = (pixel & 255);
-HXDLIN(1205)						 ::__hxcpp_memory_set_byte(data1->buffer->b,(data1->byteOffset + (offset1 + 3)),val3);
+HXDLIN(1199)					{
+HXLINE(1199)						int val3 = (pixel & 255);
+HXDLIN(1199)						 ::__hxcpp_memory_set_byte(data1->buffer->b,(data1->byteOffset + (offset1 + 3)),val3);
             					}
             				}
             				break;
             			}
             		}
-HXLINE(1208)		image->dirty = true;
-HXLINE(1209)		image->version++;
+HXLINE(1202)		image->dirty = true;
+HXLINE(1203)		image->version++;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC5(ImageDataUtil_obj,setPixel,(void))
 
 void ImageDataUtil_obj::setPixel32( ::lime::graphics::Image image,int x,int y,int color,int format){
-            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_1213_setPixel32)
-HXLINE(1214)		int pixel;
-HXLINE(1216)		switch((int)(format)){
+            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_1207_setPixel32)
+HXLINE(1208)		int pixel;
+HXLINE(1210)		switch((int)(format)){
             			case (int)1: {
-HXLINE(1219)				int argb = color;
-HXDLIN(1219)				int this1 = 0;
-HXDLIN(1219)				int rgba = this1;
-HXDLIN(1219)				rgba = ((((((::hx::UShr(argb,16) & 255) & 255) << 24) | (((::hx::UShr(argb,8) & 255) & 255) << 16)) | (((argb & 255) & 255) << 8)) | ((::hx::UShr(argb,24) & 255) & 255));
-HXDLIN(1219)				pixel = rgba;
+HXLINE(1213)				int argb = color;
+HXDLIN(1213)				int this1 = 0;
+HXDLIN(1213)				int rgba = this1;
+HXDLIN(1213)				rgba = ((((((::hx::UShr(argb,16) & 255) & 255) << 24) | (((::hx::UShr(argb,8) & 255) & 255) << 16)) | (((argb & 255) & 255) << 8)) | ((::hx::UShr(argb,24) & 255) & 255));
+HXDLIN(1213)				pixel = rgba;
             			}
             			break;
             			case (int)2: {
-HXLINE(1221)				int bgra = color;
-HXDLIN(1221)				int this1 = 0;
-HXDLIN(1221)				int rgba = this1;
-HXDLIN(1221)				rgba = ((((((::hx::UShr(bgra,8) & 255) & 255) << 24) | (((::hx::UShr(bgra,16) & 255) & 255) << 16)) | (((::hx::UShr(bgra,24) & 255) & 255) << 8)) | ((bgra & 255) & 255));
-HXDLIN(1221)				pixel = rgba;
+HXLINE(1215)				int bgra = color;
+HXDLIN(1215)				int this1 = 0;
+HXDLIN(1215)				int rgba = this1;
+HXDLIN(1215)				rgba = ((((((::hx::UShr(bgra,8) & 255) & 255) << 24) | (((::hx::UShr(bgra,16) & 255) & 255) << 16)) | (((::hx::UShr(bgra,24) & 255) & 255) << 8)) | ((bgra & 255) & 255));
+HXDLIN(1215)				pixel = rgba;
             			}
             			break;
             			default:{
-HXLINE(1223)				pixel = color;
+HXLINE(1217)				pixel = color;
             			}
             		}
-HXLINE(1226)		if (!(image->get_transparent())) {
-HXLINE(1226)			pixel = ((((((::hx::UShr(pixel,24) & 255) & 255) << 24) | (((::hx::UShr(pixel,16) & 255) & 255) << 16)) | (((::hx::UShr(pixel,8) & 255) & 255) << 8)) | 255);
+HXLINE(1220)		if (!(image->get_transparent())) {
+HXLINE(1220)			pixel = ((((((::hx::UShr(pixel,24) & 255) & 255) << 24) | (((::hx::UShr(pixel,16) & 255) & 255) << 16)) | (((::hx::UShr(pixel,8) & 255) & 255) << 8)) | 255);
             		}
-HXLINE(1227)		{
-HXLINE(1227)			 ::lime::utils::ArrayBufferView data = image->buffer->data;
-HXDLIN(1227)			int offset = (((4 * (y + image->offsetY)) * image->buffer->width) + ((x + image->offsetX) * 4));
-HXDLIN(1227)			int format1 = image->buffer->format;
-HXDLIN(1227)			if (image->buffer->premultiplied) {
-HXLINE(1227)				if (((pixel & 255) == 0)) {
-HXLINE(1227)					if ((pixel != 0)) {
-HXLINE(1227)						pixel = 0;
+HXLINE(1221)		{
+HXLINE(1221)			 ::lime::utils::ArrayBufferView data = image->buffer->data;
+HXDLIN(1221)			int offset = (((4 * (y + image->offsetY)) * image->buffer->width) + ((x + image->offsetX) * 4));
+HXDLIN(1221)			int format1 = image->buffer->format;
+HXDLIN(1221)			if (image->buffer->premultiplied) {
+HXLINE(1221)				if (((pixel & 255) == 0)) {
+HXLINE(1221)					if ((pixel != 0)) {
+HXLINE(1221)						pixel = 0;
             					}
             				}
             				else {
-HXLINE(1227)					if (((pixel & 255) != 255)) {
-HXLINE(1227)						 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
-HXDLIN(1227)						::lime::math::_RGBA::RGBA_Impl__obj::a16 = ( (int)( ::__hxcpp_memory_get_ui32(this1->buffer->b,(this1->byteOffset + ((pixel & 255) * 4)))) );
-HXDLIN(1227)						pixel = ((((((((::hx::UShr(pixel,24) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 24) | (((((::hx::UShr(pixel,16) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 16)) | (((((::hx::UShr(pixel,8) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 8)) | ((pixel & 255) & 255));
+HXLINE(1221)					if (((pixel & 255) != 255)) {
+HXLINE(1221)						 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
+HXDLIN(1221)						::lime::math::_RGBA::RGBA_Impl__obj::a16 = ( (int)( ::__hxcpp_memory_get_ui32(this1->buffer->b,(this1->byteOffset + ((pixel & 255) * 4)))) );
+HXDLIN(1221)						pixel = ((((((((::hx::UShr(pixel,24) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 24) | (((((::hx::UShr(pixel,16) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 16)) | (((((::hx::UShr(pixel,8) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 8)) | ((pixel & 255) & 255));
             					}
             				}
             			}
-HXDLIN(1227)			switch((int)(format1)){
+HXDLIN(1221)			switch((int)(format1)){
             				case (int)0: {
-HXLINE(1227)					{
-HXLINE(1227)						int val = (::hx::UShr(pixel,24) & 255);
-HXDLIN(1227)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset),val);
+HXLINE(1221)					{
+HXLINE(1221)						int val = (::hx::UShr(pixel,24) & 255);
+HXDLIN(1221)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset),val);
             					}
-HXDLIN(1227)					{
-HXLINE(1227)						int val1 = (::hx::UShr(pixel,16) & 255);
-HXDLIN(1227)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 1)),val1);
+HXDLIN(1221)					{
+HXLINE(1221)						int val1 = (::hx::UShr(pixel,16) & 255);
+HXDLIN(1221)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 1)),val1);
             					}
-HXDLIN(1227)					{
-HXLINE(1227)						int val2 = (::hx::UShr(pixel,8) & 255);
-HXDLIN(1227)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 2)),val2);
+HXDLIN(1221)					{
+HXLINE(1221)						int val2 = (::hx::UShr(pixel,8) & 255);
+HXDLIN(1221)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 2)),val2);
             					}
-HXDLIN(1227)					{
-HXLINE(1227)						int val3 = (pixel & 255);
-HXDLIN(1227)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 3)),val3);
+HXDLIN(1221)					{
+HXLINE(1221)						int val3 = (pixel & 255);
+HXDLIN(1221)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 3)),val3);
             					}
             				}
             				break;
             				case (int)1: {
-HXLINE(1227)					{
-HXLINE(1227)						int val = (pixel & 255);
-HXDLIN(1227)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset),val);
+HXLINE(1221)					{
+HXLINE(1221)						int val = (pixel & 255);
+HXDLIN(1221)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset),val);
             					}
-HXDLIN(1227)					{
-HXLINE(1227)						int val1 = (::hx::UShr(pixel,24) & 255);
-HXDLIN(1227)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 1)),val1);
+HXDLIN(1221)					{
+HXLINE(1221)						int val1 = (::hx::UShr(pixel,24) & 255);
+HXDLIN(1221)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 1)),val1);
             					}
-HXDLIN(1227)					{
-HXLINE(1227)						int val2 = (::hx::UShr(pixel,16) & 255);
-HXDLIN(1227)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 2)),val2);
+HXDLIN(1221)					{
+HXLINE(1221)						int val2 = (::hx::UShr(pixel,16) & 255);
+HXDLIN(1221)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 2)),val2);
             					}
-HXDLIN(1227)					{
-HXLINE(1227)						int val3 = (::hx::UShr(pixel,8) & 255);
-HXDLIN(1227)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 3)),val3);
+HXDLIN(1221)					{
+HXLINE(1221)						int val3 = (::hx::UShr(pixel,8) & 255);
+HXDLIN(1221)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 3)),val3);
             					}
             				}
             				break;
             				case (int)2: {
-HXLINE(1227)					{
-HXLINE(1227)						int val = (::hx::UShr(pixel,8) & 255);
-HXDLIN(1227)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset),val);
+HXLINE(1221)					{
+HXLINE(1221)						int val = (::hx::UShr(pixel,8) & 255);
+HXDLIN(1221)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset),val);
             					}
-HXDLIN(1227)					{
-HXLINE(1227)						int val1 = (::hx::UShr(pixel,16) & 255);
-HXDLIN(1227)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 1)),val1);
+HXDLIN(1221)					{
+HXLINE(1221)						int val1 = (::hx::UShr(pixel,16) & 255);
+HXDLIN(1221)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 1)),val1);
             					}
-HXDLIN(1227)					{
-HXLINE(1227)						int val2 = (::hx::UShr(pixel,24) & 255);
-HXDLIN(1227)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 2)),val2);
+HXDLIN(1221)					{
+HXLINE(1221)						int val2 = (::hx::UShr(pixel,24) & 255);
+HXDLIN(1221)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 2)),val2);
             					}
-HXDLIN(1227)					{
-HXLINE(1227)						int val3 = (pixel & 255);
-HXDLIN(1227)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 3)),val3);
+HXDLIN(1221)					{
+HXLINE(1221)						int val3 = (pixel & 255);
+HXDLIN(1221)						 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 3)),val3);
             					}
             				}
             				break;
             			}
             		}
-HXLINE(1230)		image->dirty = true;
-HXLINE(1231)		image->version++;
+HXLINE(1224)		image->dirty = true;
+HXLINE(1225)		image->version++;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC5(ImageDataUtil_obj,setPixel32,(void))
 
 void ImageDataUtil_obj::setPixels( ::lime::graphics::Image image, ::lime::math::Rectangle rect, ::lime::utils::BytePointerData bytePointer,int format, ::lime::_hx_system::Endian endian){
-            	HX_GC_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_1235_setPixels)
-HXLINE(1236)		if (::hx::IsNull( image->buffer->data )) {
-HXLINE(1236)			return;
+            	HX_GC_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_1229_setPixels)
+HXLINE(1230)		if (::hx::IsNull( image->buffer->data )) {
+HXLINE(1230)			return;
             		}
-HXLINE(1239)		if (::lime::_hx_system::CFFI_obj::enabled) {
-HXLINE(1239)			int _hx_tmp;
-HXDLIN(1239)			if (::hx::IsEq( endian,::lime::_hx_system::Endian_obj::_hx_BIG_ENDIAN_dyn() )) {
-HXLINE(1239)				_hx_tmp = 1;
+HXLINE(1233)		if (::lime::_hx_system::CFFI_obj::enabled) {
+HXLINE(1233)			int _hx_tmp;
+HXDLIN(1233)			if (::hx::IsEq( endian,::lime::_hx_system::Endian_obj::_hx_BIG_ENDIAN_dyn() )) {
+HXLINE(1233)				_hx_tmp = 1;
             			}
             			else {
-HXLINE(1239)				_hx_tmp = 0;
+HXLINE(1233)				_hx_tmp = 0;
             			}
-HXDLIN(1239)			::lime::_internal::backend::native::NativeCFFI_obj::lime_image_data_util_set_pixels(::hx::DynamicPtr(image),::hx::DynamicPtr(rect),::hx::DynamicPtr(bytePointer->bytes),bytePointer->offset,format,_hx_tmp);
+HXDLIN(1233)			::lime::_internal::backend::native::NativeCFFI_obj::lime_image_data_util_set_pixels(::hx::DynamicPtr(image),::hx::DynamicPtr(rect),::hx::DynamicPtr(bytePointer->bytes),bytePointer->offset,format,_hx_tmp);
             		}
             		else {
-HXLINE(1243)			 ::lime::utils::ArrayBufferView data = image->buffer->data;
-HXLINE(1244)			int sourceFormat = image->buffer->format;
-HXLINE(1245)			bool premultiplied = image->buffer->premultiplied;
-HXLINE(1246)			 ::lime::_internal::graphics::_ImageDataUtil::ImageDataView dataView =  ::lime::_internal::graphics::_ImageDataUtil::ImageDataView_obj::__alloc( HX_CTX ,image,rect);
-HXLINE(1247)			int row;
-HXDLIN(1247)			int color;
-HXDLIN(1247)			int pixel;
-HXLINE(1248)			bool transparent = image->get_transparent();
-HXLINE(1249)			 ::haxe::io::Bytes bytes = bytePointer->bytes;
-HXLINE(1250)			int dataPosition = bytePointer->offset;
-HXLINE(1251)			bool littleEndian = ::hx::IsNotEq( endian,::lime::_hx_system::Endian_obj::_hx_BIG_ENDIAN_dyn() );
-HXLINE(1253)			{
-HXLINE(1253)				int _g = 0;
-HXDLIN(1253)				int _g1 = dataView->height;
-HXDLIN(1253)				while((_g < _g1)){
-HXLINE(1253)					_g = (_g + 1);
-HXDLIN(1253)					int y = (_g - 1);
-HXLINE(1255)					row = (dataView->byteOffset + (dataView->stride * y));
-HXLINE(1257)					{
-HXLINE(1257)						int _g1 = 0;
-HXDLIN(1257)						int _g2 = dataView->width;
-HXDLIN(1257)						while((_g1 < _g2)){
-HXLINE(1257)							_g1 = (_g1 + 1);
-HXDLIN(1257)							int x = (_g1 - 1);
-HXLINE(1259)							if (littleEndian) {
-HXLINE(1261)								color = (((( (int)(bytes->b->__get(dataPosition)) ) | (( (int)(bytes->b->__get((dataPosition + 1))) ) << 8)) | (( (int)(bytes->b->__get((dataPosition + 2))) ) << 16)) | (( (int)(bytes->b->__get((dataPosition + 3))) ) << 24));
+HXLINE(1237)			 ::lime::utils::ArrayBufferView data = image->buffer->data;
+HXLINE(1238)			int sourceFormat = image->buffer->format;
+HXLINE(1239)			bool premultiplied = image->buffer->premultiplied;
+HXLINE(1240)			 ::lime::_internal::graphics::_ImageDataUtil::ImageDataView dataView =  ::lime::_internal::graphics::_ImageDataUtil::ImageDataView_obj::__alloc( HX_CTX ,image,rect);
+HXLINE(1241)			int row;
+HXDLIN(1241)			int color;
+HXDLIN(1241)			int pixel;
+HXLINE(1242)			bool transparent = image->get_transparent();
+HXLINE(1243)			 ::haxe::io::Bytes bytes = bytePointer->bytes;
+HXLINE(1244)			int dataPosition = bytePointer->offset;
+HXLINE(1245)			bool littleEndian = ::hx::IsNotEq( endian,::lime::_hx_system::Endian_obj::_hx_BIG_ENDIAN_dyn() );
+HXLINE(1247)			{
+HXLINE(1247)				int _g = 0;
+HXDLIN(1247)				int _g1 = dataView->height;
+HXDLIN(1247)				while((_g < _g1)){
+HXLINE(1247)					_g = (_g + 1);
+HXDLIN(1247)					int y = (_g - 1);
+HXLINE(1249)					row = (dataView->byteOffset + (dataView->stride * y));
+HXLINE(1251)					{
+HXLINE(1251)						int _g1 = 0;
+HXDLIN(1251)						int _g2 = dataView->width;
+HXDLIN(1251)						while((_g1 < _g2)){
+HXLINE(1251)							_g1 = (_g1 + 1);
+HXDLIN(1251)							int x = (_g1 - 1);
+HXLINE(1253)							if (littleEndian) {
+HXLINE(1255)								color = (((( (int)(bytes->b->__get(dataPosition)) ) | (( (int)(bytes->b->__get((dataPosition + 1))) ) << 8)) | (( (int)(bytes->b->__get((dataPosition + 2))) ) << 16)) | (( (int)(bytes->b->__get((dataPosition + 3))) ) << 24));
             							}
             							else {
-HXLINE(1265)								color = (((( (int)(bytes->b->__get((dataPosition + 3))) ) | (( (int)(bytes->b->__get((dataPosition + 2))) ) << 8)) | (( (int)(bytes->b->__get((dataPosition + 1))) ) << 16)) | (( (int)(bytes->b->__get(dataPosition)) ) << 24));
+HXLINE(1259)								color = (((( (int)(bytes->b->__get((dataPosition + 3))) ) | (( (int)(bytes->b->__get((dataPosition + 2))) ) << 8)) | (( (int)(bytes->b->__get((dataPosition + 1))) ) << 16)) | (( (int)(bytes->b->__get(dataPosition)) ) << 24));
             							}
-HXLINE(1269)							dataPosition = (dataPosition + 4);
-HXLINE(1271)							switch((int)(format)){
+HXLINE(1263)							dataPosition = (dataPosition + 4);
+HXLINE(1265)							switch((int)(format)){
             								case (int)1: {
-HXLINE(1274)									int argb = color;
-HXDLIN(1274)									int this1 = 0;
-HXDLIN(1274)									int rgba = this1;
-HXDLIN(1274)									rgba = ((((((::hx::UShr(argb,16) & 255) & 255) << 24) | (((::hx::UShr(argb,8) & 255) & 255) << 16)) | (((argb & 255) & 255) << 8)) | ((::hx::UShr(argb,24) & 255) & 255));
-HXDLIN(1274)									pixel = rgba;
+HXLINE(1268)									int argb = color;
+HXDLIN(1268)									int this1 = 0;
+HXDLIN(1268)									int rgba = this1;
+HXDLIN(1268)									rgba = ((((((::hx::UShr(argb,16) & 255) & 255) << 24) | (((::hx::UShr(argb,8) & 255) & 255) << 16)) | (((argb & 255) & 255) << 8)) | ((::hx::UShr(argb,24) & 255) & 255));
+HXDLIN(1268)									pixel = rgba;
             								}
             								break;
             								case (int)2: {
-HXLINE(1276)									int bgra = color;
-HXDLIN(1276)									int this1 = 0;
-HXDLIN(1276)									int rgba = this1;
-HXDLIN(1276)									rgba = ((((((::hx::UShr(bgra,8) & 255) & 255) << 24) | (((::hx::UShr(bgra,16) & 255) & 255) << 16)) | (((::hx::UShr(bgra,24) & 255) & 255) << 8)) | ((bgra & 255) & 255));
-HXDLIN(1276)									pixel = rgba;
+HXLINE(1270)									int bgra = color;
+HXDLIN(1270)									int this1 = 0;
+HXDLIN(1270)									int rgba = this1;
+HXDLIN(1270)									rgba = ((((((::hx::UShr(bgra,8) & 255) & 255) << 24) | (((::hx::UShr(bgra,16) & 255) & 255) << 16)) | (((::hx::UShr(bgra,24) & 255) & 255) << 8)) | ((bgra & 255) & 255));
+HXDLIN(1270)									pixel = rgba;
             								}
             								break;
             								default:{
-HXLINE(1278)									pixel = color;
+HXLINE(1272)									pixel = color;
             								}
             							}
-HXLINE(1281)							if (!(transparent)) {
-HXLINE(1281)								pixel = ((((((::hx::UShr(pixel,24) & 255) & 255) << 24) | (((::hx::UShr(pixel,16) & 255) & 255) << 16)) | (((::hx::UShr(pixel,8) & 255) & 255) << 8)) | 255);
+HXLINE(1275)							if (!(transparent)) {
+HXLINE(1275)								pixel = ((((((::hx::UShr(pixel,24) & 255) & 255) << 24) | (((::hx::UShr(pixel,16) & 255) & 255) << 16)) | (((::hx::UShr(pixel,8) & 255) & 255) << 8)) | 255);
             							}
-HXLINE(1282)							{
-HXLINE(1282)								int offset = (row + (x * 4));
-HXDLIN(1282)								if (premultiplied) {
-HXLINE(1282)									if (((pixel & 255) == 0)) {
-HXLINE(1282)										if ((pixel != 0)) {
-HXLINE(1282)											pixel = 0;
+HXLINE(1276)							{
+HXLINE(1276)								int offset = (row + (x * 4));
+HXDLIN(1276)								if (premultiplied) {
+HXLINE(1276)									if (((pixel & 255) == 0)) {
+HXLINE(1276)										if ((pixel != 0)) {
+HXLINE(1276)											pixel = 0;
             										}
             									}
             									else {
-HXLINE(1282)										if (((pixel & 255) != 255)) {
-HXLINE(1282)											 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
-HXDLIN(1282)											::lime::math::_RGBA::RGBA_Impl__obj::a16 = ( (int)( ::__hxcpp_memory_get_ui32(this1->buffer->b,(this1->byteOffset + ((pixel & 255) * 4)))) );
-HXDLIN(1282)											pixel = ((((((((::hx::UShr(pixel,24) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 24) | (((((::hx::UShr(pixel,16) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 16)) | (((((::hx::UShr(pixel,8) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 8)) | ((pixel & 255) & 255));
+HXLINE(1276)										if (((pixel & 255) != 255)) {
+HXLINE(1276)											 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
+HXDLIN(1276)											::lime::math::_RGBA::RGBA_Impl__obj::a16 = ( (int)( ::__hxcpp_memory_get_ui32(this1->buffer->b,(this1->byteOffset + ((pixel & 255) * 4)))) );
+HXDLIN(1276)											pixel = ((((((((::hx::UShr(pixel,24) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 24) | (((((::hx::UShr(pixel,16) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 16)) | (((((::hx::UShr(pixel,8) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 8)) | ((pixel & 255) & 255));
             										}
             									}
             								}
-HXDLIN(1282)								switch((int)(sourceFormat)){
+HXDLIN(1276)								switch((int)(sourceFormat)){
             									case (int)0: {
-HXLINE(1282)										{
-HXLINE(1282)											int val = (::hx::UShr(pixel,24) & 255);
-HXDLIN(1282)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset),val);
+HXLINE(1276)										{
+HXLINE(1276)											int val = (::hx::UShr(pixel,24) & 255);
+HXDLIN(1276)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset),val);
             										}
-HXDLIN(1282)										{
-HXLINE(1282)											int val1 = (::hx::UShr(pixel,16) & 255);
-HXDLIN(1282)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 1)),val1);
+HXDLIN(1276)										{
+HXLINE(1276)											int val1 = (::hx::UShr(pixel,16) & 255);
+HXDLIN(1276)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 1)),val1);
             										}
-HXDLIN(1282)										{
-HXLINE(1282)											int val2 = (::hx::UShr(pixel,8) & 255);
-HXDLIN(1282)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 2)),val2);
+HXDLIN(1276)										{
+HXLINE(1276)											int val2 = (::hx::UShr(pixel,8) & 255);
+HXDLIN(1276)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 2)),val2);
             										}
-HXDLIN(1282)										{
-HXLINE(1282)											int val3 = (pixel & 255);
-HXDLIN(1282)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 3)),val3);
+HXDLIN(1276)										{
+HXLINE(1276)											int val3 = (pixel & 255);
+HXDLIN(1276)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 3)),val3);
             										}
             									}
             									break;
             									case (int)1: {
-HXLINE(1282)										{
-HXLINE(1282)											int val = (pixel & 255);
-HXDLIN(1282)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset),val);
+HXLINE(1276)										{
+HXLINE(1276)											int val = (pixel & 255);
+HXDLIN(1276)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset),val);
             										}
-HXDLIN(1282)										{
-HXLINE(1282)											int val1 = (::hx::UShr(pixel,24) & 255);
-HXDLIN(1282)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 1)),val1);
+HXDLIN(1276)										{
+HXLINE(1276)											int val1 = (::hx::UShr(pixel,24) & 255);
+HXDLIN(1276)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 1)),val1);
             										}
-HXDLIN(1282)										{
-HXLINE(1282)											int val2 = (::hx::UShr(pixel,16) & 255);
-HXDLIN(1282)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 2)),val2);
+HXDLIN(1276)										{
+HXLINE(1276)											int val2 = (::hx::UShr(pixel,16) & 255);
+HXDLIN(1276)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 2)),val2);
             										}
-HXDLIN(1282)										{
-HXLINE(1282)											int val3 = (::hx::UShr(pixel,8) & 255);
-HXDLIN(1282)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 3)),val3);
+HXDLIN(1276)										{
+HXLINE(1276)											int val3 = (::hx::UShr(pixel,8) & 255);
+HXDLIN(1276)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 3)),val3);
             										}
             									}
             									break;
             									case (int)2: {
-HXLINE(1282)										{
-HXLINE(1282)											int val = (::hx::UShr(pixel,8) & 255);
-HXDLIN(1282)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset),val);
+HXLINE(1276)										{
+HXLINE(1276)											int val = (::hx::UShr(pixel,8) & 255);
+HXDLIN(1276)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset),val);
             										}
-HXDLIN(1282)										{
-HXLINE(1282)											int val1 = (::hx::UShr(pixel,16) & 255);
-HXDLIN(1282)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 1)),val1);
+HXDLIN(1276)										{
+HXLINE(1276)											int val1 = (::hx::UShr(pixel,16) & 255);
+HXDLIN(1276)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 1)),val1);
             										}
-HXDLIN(1282)										{
-HXLINE(1282)											int val2 = (::hx::UShr(pixel,24) & 255);
-HXDLIN(1282)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 2)),val2);
+HXDLIN(1276)										{
+HXLINE(1276)											int val2 = (::hx::UShr(pixel,24) & 255);
+HXDLIN(1276)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 2)),val2);
             										}
-HXDLIN(1282)										{
-HXLINE(1282)											int val3 = (pixel & 255);
-HXDLIN(1282)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 3)),val3);
+HXDLIN(1276)										{
+HXLINE(1276)											int val3 = (pixel & 255);
+HXDLIN(1276)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 3)),val3);
             										}
             									}
             									break;
@@ -4555,600 +4556,600 @@ HXDLIN(1282)											 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOff
             				}
             			}
             		}
-HXLINE(1287)		image->dirty = true;
-HXLINE(1288)		image->version++;
+HXLINE(1281)		image->dirty = true;
+HXLINE(1282)		image->version++;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC5(ImageDataUtil_obj,setPixels,(void))
 
 int ImageDataUtil_obj::threshold( ::lime::graphics::Image image, ::lime::graphics::Image sourceImage, ::lime::math::Rectangle sourceRect, ::lime::math::Vector2 destPoint,::String operation,int threshold,int color,int mask,bool copySource,int format){
-            	HX_GC_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_1293_threshold)
-HXLINE(1294)		int _color;
-HXDLIN(1294)		int _mask;
-HXDLIN(1294)		int _threshold;
-HXLINE(1296)		switch((int)(format)){
+            	HX_GC_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_1287_threshold)
+HXLINE(1288)		int _color;
+HXDLIN(1288)		int _mask;
+HXDLIN(1288)		int _threshold;
+HXLINE(1290)		switch((int)(format)){
             			case (int)1: {
-HXLINE(1299)				int argb = color;
-HXDLIN(1299)				int this1 = 0;
-HXDLIN(1299)				int rgba = this1;
-HXDLIN(1299)				rgba = ((((((::hx::UShr(argb,16) & 255) & 255) << 24) | (((::hx::UShr(argb,8) & 255) & 255) << 16)) | (((argb & 255) & 255) << 8)) | ((::hx::UShr(argb,24) & 255) & 255));
-HXDLIN(1299)				_color = rgba;
-HXLINE(1300)				int argb1 = mask;
-HXDLIN(1300)				int this2 = 0;
-HXDLIN(1300)				int rgba1 = this2;
-HXDLIN(1300)				rgba1 = ((((((::hx::UShr(argb1,16) & 255) & 255) << 24) | (((::hx::UShr(argb1,8) & 255) & 255) << 16)) | (((argb1 & 255) & 255) << 8)) | ((::hx::UShr(argb1,24) & 255) & 255));
-HXDLIN(1300)				_mask = rgba1;
-HXLINE(1301)				int argb2 = threshold;
-HXDLIN(1301)				int this3 = 0;
-HXDLIN(1301)				int rgba2 = this3;
-HXDLIN(1301)				rgba2 = ((((((::hx::UShr(argb2,16) & 255) & 255) << 24) | (((::hx::UShr(argb2,8) & 255) & 255) << 16)) | (((argb2 & 255) & 255) << 8)) | ((::hx::UShr(argb2,24) & 255) & 255));
-HXDLIN(1301)				_threshold = rgba2;
+HXLINE(1293)				int argb = color;
+HXDLIN(1293)				int this1 = 0;
+HXDLIN(1293)				int rgba = this1;
+HXDLIN(1293)				rgba = ((((((::hx::UShr(argb,16) & 255) & 255) << 24) | (((::hx::UShr(argb,8) & 255) & 255) << 16)) | (((argb & 255) & 255) << 8)) | ((::hx::UShr(argb,24) & 255) & 255));
+HXDLIN(1293)				_color = rgba;
+HXLINE(1294)				int argb1 = mask;
+HXDLIN(1294)				int this2 = 0;
+HXDLIN(1294)				int rgba1 = this2;
+HXDLIN(1294)				rgba1 = ((((((::hx::UShr(argb1,16) & 255) & 255) << 24) | (((::hx::UShr(argb1,8) & 255) & 255) << 16)) | (((argb1 & 255) & 255) << 8)) | ((::hx::UShr(argb1,24) & 255) & 255));
+HXDLIN(1294)				_mask = rgba1;
+HXLINE(1295)				int argb2 = threshold;
+HXDLIN(1295)				int this3 = 0;
+HXDLIN(1295)				int rgba2 = this3;
+HXDLIN(1295)				rgba2 = ((((((::hx::UShr(argb2,16) & 255) & 255) << 24) | (((::hx::UShr(argb2,8) & 255) & 255) << 16)) | (((argb2 & 255) & 255) << 8)) | ((::hx::UShr(argb2,24) & 255) & 255));
+HXDLIN(1295)				_threshold = rgba2;
             			}
             			break;
             			case (int)2: {
-HXLINE(1304)				int bgra = color;
-HXDLIN(1304)				int this1 = 0;
-HXDLIN(1304)				int rgba = this1;
-HXDLIN(1304)				rgba = ((((((::hx::UShr(bgra,8) & 255) & 255) << 24) | (((::hx::UShr(bgra,16) & 255) & 255) << 16)) | (((::hx::UShr(bgra,24) & 255) & 255) << 8)) | ((bgra & 255) & 255));
-HXDLIN(1304)				_color = rgba;
-HXLINE(1305)				int bgra1 = mask;
-HXDLIN(1305)				int this2 = 0;
-HXDLIN(1305)				int rgba1 = this2;
-HXDLIN(1305)				rgba1 = ((((((::hx::UShr(bgra1,8) & 255) & 255) << 24) | (((::hx::UShr(bgra1,16) & 255) & 255) << 16)) | (((::hx::UShr(bgra1,24) & 255) & 255) << 8)) | ((bgra1 & 255) & 255));
-HXDLIN(1305)				_mask = rgba1;
-HXLINE(1306)				int bgra2 = threshold;
-HXDLIN(1306)				int this3 = 0;
-HXDLIN(1306)				int rgba2 = this3;
-HXDLIN(1306)				rgba2 = ((((((::hx::UShr(bgra2,8) & 255) & 255) << 24) | (((::hx::UShr(bgra2,16) & 255) & 255) << 16)) | (((::hx::UShr(bgra2,24) & 255) & 255) << 8)) | ((bgra2 & 255) & 255));
-HXDLIN(1306)				_threshold = rgba2;
+HXLINE(1298)				int bgra = color;
+HXDLIN(1298)				int this1 = 0;
+HXDLIN(1298)				int rgba = this1;
+HXDLIN(1298)				rgba = ((((((::hx::UShr(bgra,8) & 255) & 255) << 24) | (((::hx::UShr(bgra,16) & 255) & 255) << 16)) | (((::hx::UShr(bgra,24) & 255) & 255) << 8)) | ((bgra & 255) & 255));
+HXDLIN(1298)				_color = rgba;
+HXLINE(1299)				int bgra1 = mask;
+HXDLIN(1299)				int this2 = 0;
+HXDLIN(1299)				int rgba1 = this2;
+HXDLIN(1299)				rgba1 = ((((((::hx::UShr(bgra1,8) & 255) & 255) << 24) | (((::hx::UShr(bgra1,16) & 255) & 255) << 16)) | (((::hx::UShr(bgra1,24) & 255) & 255) << 8)) | ((bgra1 & 255) & 255));
+HXDLIN(1299)				_mask = rgba1;
+HXLINE(1300)				int bgra2 = threshold;
+HXDLIN(1300)				int this3 = 0;
+HXDLIN(1300)				int rgba2 = this3;
+HXDLIN(1300)				rgba2 = ((((((::hx::UShr(bgra2,8) & 255) & 255) << 24) | (((::hx::UShr(bgra2,16) & 255) & 255) << 16)) | (((::hx::UShr(bgra2,24) & 255) & 255) << 8)) | ((bgra2 & 255) & 255));
+HXDLIN(1300)				_threshold = rgba2;
             			}
             			break;
             			default:{
-HXLINE(1309)				_color = color;
-HXLINE(1310)				_mask = mask;
-HXLINE(1311)				_threshold = threshold;
+HXLINE(1303)				_color = color;
+HXLINE(1304)				_mask = mask;
+HXLINE(1305)				_threshold = threshold;
             			}
             		}
-HXLINE(1314)		int _operation;
-HXDLIN(1314)		::String _hx_switch_0 = operation;
+HXLINE(1308)		int _operation;
+HXDLIN(1308)		::String _hx_switch_0 = operation;
             		if (  (_hx_switch_0==HX_("!=",fc,1c,00,00)) ){
-HXLINE(1314)			_operation = 0;
-HXDLIN(1314)			goto _hx_goto_64;
+HXLINE(1308)			_operation = 0;
+HXDLIN(1308)			goto _hx_goto_64;
             		}
             		if (  (_hx_switch_0==HX_("<",3c,00,00,00)) ){
-HXLINE(1314)			_operation = 2;
-HXDLIN(1314)			goto _hx_goto_64;
+HXLINE(1308)			_operation = 2;
+HXDLIN(1308)			goto _hx_goto_64;
             		}
             		if (  (_hx_switch_0==HX_("<=",81,34,00,00)) ){
-HXLINE(1314)			_operation = 3;
-HXDLIN(1314)			goto _hx_goto_64;
+HXLINE(1308)			_operation = 3;
+HXDLIN(1308)			goto _hx_goto_64;
             		}
             		if (  (_hx_switch_0==HX_("==",60,35,00,00)) ){
-HXLINE(1314)			_operation = 1;
-HXDLIN(1314)			goto _hx_goto_64;
+HXLINE(1308)			_operation = 1;
+HXDLIN(1308)			goto _hx_goto_64;
             		}
             		if (  (_hx_switch_0==HX_(">",3e,00,00,00)) ){
-HXLINE(1314)			_operation = 4;
-HXDLIN(1314)			goto _hx_goto_64;
+HXLINE(1308)			_operation = 4;
+HXDLIN(1308)			goto _hx_goto_64;
             		}
             		if (  (_hx_switch_0==HX_(">=",3f,36,00,00)) ){
-HXLINE(1314)			_operation = 5;
-HXDLIN(1314)			goto _hx_goto_64;
+HXLINE(1308)			_operation = 5;
+HXDLIN(1308)			goto _hx_goto_64;
             		}
             		/* default */{
-HXLINE(1314)			_operation = -1;
+HXLINE(1308)			_operation = -1;
             		}
             		_hx_goto_64:;
-HXLINE(1325)		if ((_operation == -1)) {
-HXLINE(1325)			return 0;
+HXLINE(1319)		if ((_operation == -1)) {
+HXLINE(1319)			return 0;
             		}
-HXLINE(1327)		 ::lime::utils::ArrayBufferView srcData = sourceImage->buffer->data;
-HXLINE(1328)		 ::lime::utils::ArrayBufferView destData = image->buffer->data;
-HXLINE(1330)		bool _hx_tmp;
-HXDLIN(1330)		if (::hx::IsNotNull( srcData )) {
-HXLINE(1330)			_hx_tmp = ::hx::IsNull( destData );
-            		}
-            		else {
-HXLINE(1330)			_hx_tmp = true;
-            		}
-HXDLIN(1330)		if (_hx_tmp) {
-HXLINE(1330)			return 0;
-            		}
-HXLINE(1332)		int hits = 0;
-HXLINE(1335)		if (::lime::_hx_system::CFFI_obj::enabled) {
-HXLINE(1335)			hits = ::lime::_internal::backend::native::NativeCFFI_obj::lime_image_data_util_threshold(::hx::DynamicPtr(image),::hx::DynamicPtr(sourceImage),::hx::DynamicPtr(sourceRect),::hx::DynamicPtr(destPoint),_operation,((_threshold >> 16) & 65535),(_threshold & 65535),((_color >> 16) & 65535),(_color & 65535),((_mask >> 16) & 65535),(_mask & 65535),copySource);
+HXLINE(1321)		 ::lime::utils::ArrayBufferView srcData = sourceImage->buffer->data;
+HXLINE(1322)		 ::lime::utils::ArrayBufferView destData = image->buffer->data;
+HXLINE(1324)		bool _hx_tmp;
+HXDLIN(1324)		if (::hx::IsNotNull( srcData )) {
+HXLINE(1324)			_hx_tmp = ::hx::IsNull( destData );
             		}
             		else {
-HXLINE(1340)			 ::lime::_internal::graphics::_ImageDataUtil::ImageDataView srcView =  ::lime::_internal::graphics::_ImageDataUtil::ImageDataView_obj::__alloc( HX_CTX ,sourceImage,sourceRect);
-HXLINE(1341)			 ::lime::_internal::graphics::_ImageDataUtil::ImageDataView destView =  ::lime::_internal::graphics::_ImageDataUtil::ImageDataView_obj::__alloc( HX_CTX ,image, ::lime::math::Rectangle_obj::__alloc( HX_CTX ,destPoint->x,destPoint->y,srcView->width,srcView->height));
-HXLINE(1343)			int srcFormat = sourceImage->buffer->format;
-HXLINE(1344)			int destFormat = image->buffer->format;
-HXLINE(1345)			bool srcPremultiplied = sourceImage->buffer->premultiplied;
-HXLINE(1346)			bool destPremultiplied = image->buffer->premultiplied;
-HXLINE(1348)			int srcPosition;
-HXDLIN(1348)			int destPosition;
-HXDLIN(1348)			int srcPixel = 0;
-HXDLIN(1348)			int destPixel = 0;
-HXDLIN(1348)			int pixelMask;
-HXDLIN(1348)			bool test;
-HXDLIN(1348)			int value;
-HXLINE(1356)			{
-HXLINE(1356)				int _g = 0;
-HXDLIN(1356)				int _g1 = destView->height;
-HXDLIN(1356)				while((_g < _g1)){
-HXLINE(1356)					_g = (_g + 1);
-HXDLIN(1356)					int y = (_g - 1);
-HXLINE(1358)					srcPosition = (srcView->byteOffset + (srcView->stride * y));
-HXLINE(1359)					destPosition = (destView->byteOffset + (destView->stride * y));
-HXLINE(1361)					{
-HXLINE(1361)						int _g1 = 0;
-HXDLIN(1361)						int _g2 = destView->width;
-HXDLIN(1361)						while((_g1 < _g2)){
-HXLINE(1361)							_g1 = (_g1 + 1);
-HXDLIN(1361)							int x = (_g1 - 1);
-HXLINE(1363)							{
-HXLINE(1363)								switch((int)(srcFormat)){
+HXLINE(1324)			_hx_tmp = true;
+            		}
+HXDLIN(1324)		if (_hx_tmp) {
+HXLINE(1324)			return 0;
+            		}
+HXLINE(1326)		int hits = 0;
+HXLINE(1329)		if (::lime::_hx_system::CFFI_obj::enabled) {
+HXLINE(1329)			hits = ::lime::_internal::backend::native::NativeCFFI_obj::lime_image_data_util_threshold(::hx::DynamicPtr(image),::hx::DynamicPtr(sourceImage),::hx::DynamicPtr(sourceRect),::hx::DynamicPtr(destPoint),_operation,((_threshold >> 16) & 65535),(_threshold & 65535),((_color >> 16) & 65535),(_color & 65535),((_mask >> 16) & 65535),(_mask & 65535),copySource);
+            		}
+            		else {
+HXLINE(1334)			 ::lime::_internal::graphics::_ImageDataUtil::ImageDataView srcView =  ::lime::_internal::graphics::_ImageDataUtil::ImageDataView_obj::__alloc( HX_CTX ,sourceImage,sourceRect);
+HXLINE(1335)			 ::lime::_internal::graphics::_ImageDataUtil::ImageDataView destView =  ::lime::_internal::graphics::_ImageDataUtil::ImageDataView_obj::__alloc( HX_CTX ,image, ::lime::math::Rectangle_obj::__alloc( HX_CTX ,destPoint->x,destPoint->y,srcView->width,srcView->height));
+HXLINE(1337)			int srcFormat = sourceImage->buffer->format;
+HXLINE(1338)			int destFormat = image->buffer->format;
+HXLINE(1339)			bool srcPremultiplied = sourceImage->buffer->premultiplied;
+HXLINE(1340)			bool destPremultiplied = image->buffer->premultiplied;
+HXLINE(1342)			int srcPosition;
+HXDLIN(1342)			int destPosition;
+HXDLIN(1342)			int srcPixel;
+HXDLIN(1342)			int destPixel;
+HXDLIN(1342)			int pixelMask;
+HXDLIN(1342)			bool test;
+HXDLIN(1342)			int value;
+HXLINE(1350)			{
+HXLINE(1350)				int _g = 0;
+HXDLIN(1350)				int _g1 = destView->height;
+HXDLIN(1350)				while((_g < _g1)){
+HXLINE(1350)					_g = (_g + 1);
+HXDLIN(1350)					int y = (_g - 1);
+HXLINE(1352)					srcPosition = (srcView->byteOffset + (srcView->stride * y));
+HXLINE(1353)					destPosition = (destView->byteOffset + (destView->stride * y));
+HXLINE(1355)					{
+HXLINE(1355)						int _g1 = 0;
+HXDLIN(1355)						int _g2 = destView->width;
+HXDLIN(1355)						while((_g1 < _g2)){
+HXLINE(1355)							_g1 = (_g1 + 1);
+HXDLIN(1355)							int x = (_g1 - 1);
+HXLINE(1357)							{
+HXLINE(1357)								switch((int)(srcFormat)){
             									case (int)0: {
-HXLINE(1363)										int r = ( (int)(( ::__hxcpp_memory_get_byte(srcData->buffer->b,(srcData->byteOffset + srcPosition)) & 255)) );
-HXDLIN(1363)										int g = ( (int)(( ::__hxcpp_memory_get_byte(srcData->buffer->b,(srcData->byteOffset + (srcPosition + 1))) & 255)) );
-HXDLIN(1363)										int b = ( (int)(( ::__hxcpp_memory_get_byte(srcData->buffer->b,(srcData->byteOffset + (srcPosition + 2))) & 255)) );
-HXDLIN(1363)										srcPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(srcData->buffer->b,(srcData->byteOffset + (srcPosition + 3))) & 255)) ) & 255));
+HXLINE(1357)										int r = ( (int)(( ::__hxcpp_memory_get_byte(srcData->buffer->b,(srcData->byteOffset + srcPosition)) & 255)) );
+HXDLIN(1357)										int g = ( (int)(( ::__hxcpp_memory_get_byte(srcData->buffer->b,(srcData->byteOffset + (srcPosition + 1))) & 255)) );
+HXDLIN(1357)										int b = ( (int)(( ::__hxcpp_memory_get_byte(srcData->buffer->b,(srcData->byteOffset + (srcPosition + 2))) & 255)) );
+HXDLIN(1357)										srcPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(srcData->buffer->b,(srcData->byteOffset + (srcPosition + 3))) & 255)) ) & 255));
             									}
             									break;
             									case (int)1: {
-HXLINE(1363)										int r = ( (int)(( ::__hxcpp_memory_get_byte(srcData->buffer->b,(srcData->byteOffset + (srcPosition + 1))) & 255)) );
-HXDLIN(1363)										int g = ( (int)(( ::__hxcpp_memory_get_byte(srcData->buffer->b,(srcData->byteOffset + (srcPosition + 2))) & 255)) );
-HXDLIN(1363)										int b = ( (int)(( ::__hxcpp_memory_get_byte(srcData->buffer->b,(srcData->byteOffset + (srcPosition + 3))) & 255)) );
-HXDLIN(1363)										srcPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(srcData->buffer->b,(srcData->byteOffset + srcPosition)) & 255)) ) & 255));
+HXLINE(1357)										int r = ( (int)(( ::__hxcpp_memory_get_byte(srcData->buffer->b,(srcData->byteOffset + (srcPosition + 1))) & 255)) );
+HXDLIN(1357)										int g = ( (int)(( ::__hxcpp_memory_get_byte(srcData->buffer->b,(srcData->byteOffset + (srcPosition + 2))) & 255)) );
+HXDLIN(1357)										int b = ( (int)(( ::__hxcpp_memory_get_byte(srcData->buffer->b,(srcData->byteOffset + (srcPosition + 3))) & 255)) );
+HXDLIN(1357)										srcPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(srcData->buffer->b,(srcData->byteOffset + srcPosition)) & 255)) ) & 255));
             									}
             									break;
             									case (int)2: {
-HXLINE(1363)										int r = ( (int)(( ::__hxcpp_memory_get_byte(srcData->buffer->b,(srcData->byteOffset + (srcPosition + 2))) & 255)) );
-HXDLIN(1363)										int g = ( (int)(( ::__hxcpp_memory_get_byte(srcData->buffer->b,(srcData->byteOffset + (srcPosition + 1))) & 255)) );
-HXDLIN(1363)										int b = ( (int)(( ::__hxcpp_memory_get_byte(srcData->buffer->b,(srcData->byteOffset + srcPosition)) & 255)) );
-HXDLIN(1363)										srcPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(srcData->buffer->b,(srcData->byteOffset + (srcPosition + 3))) & 255)) ) & 255));
+HXLINE(1357)										int r = ( (int)(( ::__hxcpp_memory_get_byte(srcData->buffer->b,(srcData->byteOffset + (srcPosition + 2))) & 255)) );
+HXDLIN(1357)										int g = ( (int)(( ::__hxcpp_memory_get_byte(srcData->buffer->b,(srcData->byteOffset + (srcPosition + 1))) & 255)) );
+HXDLIN(1357)										int b = ( (int)(( ::__hxcpp_memory_get_byte(srcData->buffer->b,(srcData->byteOffset + srcPosition)) & 255)) );
+HXDLIN(1357)										srcPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(srcData->buffer->b,(srcData->byteOffset + (srcPosition + 3))) & 255)) ) & 255));
             									}
             									break;
             								}
-HXDLIN(1363)								if (srcPremultiplied) {
-HXLINE(1363)									bool _hx_tmp;
-HXDLIN(1363)									if (((srcPixel & 255) != 0)) {
-HXLINE(1363)										_hx_tmp = ((srcPixel & 255) != 255);
+HXDLIN(1357)								if (srcPremultiplied) {
+HXLINE(1357)									bool _hx_tmp;
+HXDLIN(1357)									if (((srcPixel & 255) != 0)) {
+HXLINE(1357)										_hx_tmp = ((srcPixel & 255) != 255);
             									}
             									else {
-HXLINE(1363)										_hx_tmp = false;
+HXLINE(1357)										_hx_tmp = false;
             									}
-HXDLIN(1363)									if (_hx_tmp) {
-HXLINE(1363)										::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((srcPixel & 255)) ));
-HXDLIN(1363)										{
-HXLINE(1363)											 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN(1363)											int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(srcPixel,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN(1363)											 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN(1363)											int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(srcPixel,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN(1363)											 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN(1363)											srcPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(srcPixel,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((srcPixel & 255) & 255));
+HXDLIN(1357)									if (_hx_tmp) {
+HXLINE(1357)										::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((srcPixel & 255)) ));
+HXDLIN(1357)										{
+HXLINE(1357)											 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN(1357)											int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(srcPixel,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN(1357)											 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN(1357)											int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(srcPixel,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN(1357)											 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN(1357)											srcPixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(srcPixel,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((srcPixel & 255) & 255));
             										}
             									}
             								}
             							}
-HXLINE(1365)							pixelMask = (srcPixel & _mask);
-HXLINE(1367)							int tmp1 = (::hx::UShr(pixelMask,24) & 255);
-HXDLIN(1367)							int tmp2 = (::hx::UShr(_threshold,24) & 255);
-HXDLIN(1367)							if ((tmp1 != tmp2)) {
-HXLINE(1367)								bool aNeg = (tmp1 < 0);
-HXDLIN(1367)								bool bNeg = (tmp2 < 0);
-HXDLIN(1367)								bool value1;
-HXDLIN(1367)								if ((aNeg != bNeg)) {
-HXLINE(1367)									value1 = aNeg;
+HXLINE(1359)							pixelMask = (srcPixel & _mask);
+HXLINE(1361)							int tmp1 = (::hx::UShr(pixelMask,24) & 255);
+HXDLIN(1361)							int tmp2 = (::hx::UShr(_threshold,24) & 255);
+HXDLIN(1361)							if ((tmp1 != tmp2)) {
+HXLINE(1361)								bool aNeg = (tmp1 < 0);
+HXDLIN(1361)								bool bNeg = (tmp2 < 0);
+HXDLIN(1361)								bool value1;
+HXDLIN(1361)								if ((aNeg != bNeg)) {
+HXLINE(1361)									value1 = aNeg;
             								}
             								else {
-HXLINE(1367)									value1 = (tmp1 > tmp2);
+HXLINE(1361)									value1 = (tmp1 > tmp2);
             								}
-HXDLIN(1367)								if (value1) {
-HXLINE(1367)									value = 1;
+HXDLIN(1361)								if (value1) {
+HXLINE(1361)									value = 1;
             								}
             								else {
-HXLINE(1367)									value = -1;
+HXLINE(1361)									value = -1;
             								}
             							}
             							else {
-HXLINE(1367)								tmp1 = (::hx::UShr(pixelMask,16) & 255);
-HXDLIN(1367)								tmp2 = (::hx::UShr(_threshold,16) & 255);
-HXDLIN(1367)								if ((tmp1 != tmp2)) {
-HXLINE(1367)									bool aNeg = (tmp1 < 0);
-HXDLIN(1367)									bool bNeg = (tmp2 < 0);
-HXDLIN(1367)									bool value1;
-HXDLIN(1367)									if ((aNeg != bNeg)) {
-HXLINE(1367)										value1 = aNeg;
+HXLINE(1361)								tmp1 = (::hx::UShr(pixelMask,16) & 255);
+HXDLIN(1361)								tmp2 = (::hx::UShr(_threshold,16) & 255);
+HXDLIN(1361)								if ((tmp1 != tmp2)) {
+HXLINE(1361)									bool aNeg = (tmp1 < 0);
+HXDLIN(1361)									bool bNeg = (tmp2 < 0);
+HXDLIN(1361)									bool value1;
+HXDLIN(1361)									if ((aNeg != bNeg)) {
+HXLINE(1361)										value1 = aNeg;
             									}
             									else {
-HXLINE(1367)										value1 = (tmp1 > tmp2);
+HXLINE(1361)										value1 = (tmp1 > tmp2);
             									}
-HXDLIN(1367)									if (value1) {
-HXLINE(1367)										value = 1;
+HXDLIN(1361)									if (value1) {
+HXLINE(1361)										value = 1;
             									}
             									else {
-HXLINE(1367)										value = -1;
+HXLINE(1361)										value = -1;
             									}
             								}
             								else {
-HXLINE(1367)									tmp1 = (::hx::UShr(pixelMask,8) & 255);
-HXDLIN(1367)									tmp2 = (::hx::UShr(_threshold,8) & 255);
-HXDLIN(1367)									if ((tmp1 != tmp2)) {
-HXLINE(1367)										bool aNeg = (tmp1 < 0);
-HXDLIN(1367)										bool bNeg = (tmp2 < 0);
-HXDLIN(1367)										bool value1;
-HXDLIN(1367)										if ((aNeg != bNeg)) {
-HXLINE(1367)											value1 = aNeg;
+HXLINE(1361)									tmp1 = (::hx::UShr(pixelMask,8) & 255);
+HXDLIN(1361)									tmp2 = (::hx::UShr(_threshold,8) & 255);
+HXDLIN(1361)									if ((tmp1 != tmp2)) {
+HXLINE(1361)										bool aNeg = (tmp1 < 0);
+HXDLIN(1361)										bool bNeg = (tmp2 < 0);
+HXDLIN(1361)										bool value1;
+HXDLIN(1361)										if ((aNeg != bNeg)) {
+HXLINE(1361)											value1 = aNeg;
             										}
             										else {
-HXLINE(1367)											value1 = (tmp1 > tmp2);
+HXLINE(1361)											value1 = (tmp1 > tmp2);
             										}
-HXDLIN(1367)										if (value1) {
-HXLINE(1367)											value = 1;
+HXDLIN(1361)										if (value1) {
+HXLINE(1361)											value = 1;
             										}
             										else {
-HXLINE(1367)											value = -1;
+HXLINE(1361)											value = -1;
             										}
             									}
             									else {
-HXLINE(1367)										tmp1 = (pixelMask & 255);
-HXDLIN(1367)										tmp2 = (_threshold & 255);
-HXDLIN(1367)										if ((tmp1 != tmp2)) {
-HXLINE(1367)											bool aNeg = (tmp1 < 0);
-HXDLIN(1367)											bool bNeg = (tmp2 < 0);
-HXDLIN(1367)											bool value1;
-HXDLIN(1367)											if ((aNeg != bNeg)) {
-HXLINE(1367)												value1 = aNeg;
+HXLINE(1361)										tmp1 = (pixelMask & 255);
+HXDLIN(1361)										tmp2 = (_threshold & 255);
+HXDLIN(1361)										if ((tmp1 != tmp2)) {
+HXLINE(1361)											bool aNeg = (tmp1 < 0);
+HXDLIN(1361)											bool bNeg = (tmp2 < 0);
+HXDLIN(1361)											bool value1;
+HXDLIN(1361)											if ((aNeg != bNeg)) {
+HXLINE(1361)												value1 = aNeg;
             											}
             											else {
-HXLINE(1367)												value1 = (tmp1 > tmp2);
+HXLINE(1361)												value1 = (tmp1 > tmp2);
             											}
-HXDLIN(1367)											if (value1) {
-HXLINE(1367)												value = 1;
+HXDLIN(1361)											if (value1) {
+HXLINE(1361)												value = 1;
             											}
             											else {
-HXLINE(1367)												value = -1;
+HXLINE(1361)												value = -1;
             											}
             										}
             										else {
-HXLINE(1367)											value = 0;
+HXLINE(1361)											value = 0;
             										}
             									}
             								}
             							}
-HXLINE(1369)							switch((int)(_operation)){
+HXLINE(1363)							switch((int)(_operation)){
             								case (int)0: {
-HXLINE(1371)									test = (value != 0);
+HXLINE(1365)									test = (value != 0);
             								}
             								break;
             								case (int)1: {
-HXLINE(1372)									test = (value == 0);
+HXLINE(1366)									test = (value == 0);
             								}
             								break;
             								case (int)2: {
-HXLINE(1373)									test = (value == -1);
+HXLINE(1367)									test = (value == -1);
             								}
             								break;
             								case (int)3: {
-HXLINE(1374)									if ((value != 0)) {
-HXLINE(1374)										test = (value == -1);
+HXLINE(1368)									if ((value != 0)) {
+HXLINE(1368)										test = (value == -1);
             									}
             									else {
-HXLINE(1374)										test = true;
+HXLINE(1368)										test = true;
             									}
             								}
             								break;
             								case (int)4: {
-HXLINE(1375)									test = (value == 1);
+HXLINE(1369)									test = (value == 1);
             								}
             								break;
             								case (int)5: {
-HXLINE(1376)									if ((value != 0)) {
-HXLINE(1376)										test = (value == 1);
+HXLINE(1370)									if ((value != 0)) {
+HXLINE(1370)										test = (value == 1);
             									}
             									else {
-HXLINE(1376)										test = true;
+HXLINE(1370)										test = true;
             									}
             								}
             								break;
             								default:{
-HXLINE(1377)									test = false;
+HXLINE(1371)									test = false;
             								}
             							}
-HXLINE(1380)							if (test) {
-HXLINE(1382)								{
-HXLINE(1382)									if (destPremultiplied) {
-HXLINE(1382)										if (((_color & 255) == 0)) {
-HXLINE(1382)											if ((_color != 0)) {
-HXLINE(1382)												_color = 0;
+HXLINE(1374)							if (test) {
+HXLINE(1376)								{
+HXLINE(1376)									if (destPremultiplied) {
+HXLINE(1376)										if (((_color & 255) == 0)) {
+HXLINE(1376)											if ((_color != 0)) {
+HXLINE(1376)												_color = 0;
             											}
             										}
             										else {
-HXLINE(1382)											if (((_color & 255) != 255)) {
-HXLINE(1382)												 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
-HXDLIN(1382)												::lime::math::_RGBA::RGBA_Impl__obj::a16 = ( (int)( ::__hxcpp_memory_get_ui32(this1->buffer->b,(this1->byteOffset + ((_color & 255) * 4)))) );
-HXDLIN(1382)												_color = ((((((((::hx::UShr(_color,24) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 24) | (((((::hx::UShr(_color,16) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 16)) | (((((::hx::UShr(_color,8) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 8)) | ((_color & 255) & 255));
+HXLINE(1376)											if (((_color & 255) != 255)) {
+HXLINE(1376)												 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
+HXDLIN(1376)												::lime::math::_RGBA::RGBA_Impl__obj::a16 = ( (int)( ::__hxcpp_memory_get_ui32(this1->buffer->b,(this1->byteOffset + ((_color & 255) * 4)))) );
+HXDLIN(1376)												_color = ((((((((::hx::UShr(_color,24) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 24) | (((((::hx::UShr(_color,16) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 16)) | (((((::hx::UShr(_color,8) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 8)) | ((_color & 255) & 255));
             											}
             										}
             									}
-HXDLIN(1382)									switch((int)(destFormat)){
+HXDLIN(1376)									switch((int)(destFormat)){
             										case (int)0: {
-HXLINE(1382)											{
-HXLINE(1382)												int val = (::hx::UShr(_color,24) & 255);
-HXDLIN(1382)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
+HXLINE(1376)											{
+HXLINE(1376)												int val = (::hx::UShr(_color,24) & 255);
+HXDLIN(1376)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
             											}
-HXDLIN(1382)											{
-HXLINE(1382)												int val1 = (::hx::UShr(_color,16) & 255);
-HXDLIN(1382)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
+HXDLIN(1376)											{
+HXLINE(1376)												int val1 = (::hx::UShr(_color,16) & 255);
+HXDLIN(1376)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
             											}
-HXDLIN(1382)											{
-HXLINE(1382)												int val2 = (::hx::UShr(_color,8) & 255);
-HXDLIN(1382)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
+HXDLIN(1376)											{
+HXLINE(1376)												int val2 = (::hx::UShr(_color,8) & 255);
+HXDLIN(1376)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
             											}
-HXDLIN(1382)											{
-HXLINE(1382)												int val3 = (_color & 255);
-HXDLIN(1382)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
+HXDLIN(1376)											{
+HXLINE(1376)												int val3 = (_color & 255);
+HXDLIN(1376)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
             											}
             										}
             										break;
             										case (int)1: {
-HXLINE(1382)											{
-HXLINE(1382)												int val = (_color & 255);
-HXDLIN(1382)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
+HXLINE(1376)											{
+HXLINE(1376)												int val = (_color & 255);
+HXDLIN(1376)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
             											}
-HXDLIN(1382)											{
-HXLINE(1382)												int val1 = (::hx::UShr(_color,24) & 255);
-HXDLIN(1382)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
+HXDLIN(1376)											{
+HXLINE(1376)												int val1 = (::hx::UShr(_color,24) & 255);
+HXDLIN(1376)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
             											}
-HXDLIN(1382)											{
-HXLINE(1382)												int val2 = (::hx::UShr(_color,16) & 255);
-HXDLIN(1382)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
+HXDLIN(1376)											{
+HXLINE(1376)												int val2 = (::hx::UShr(_color,16) & 255);
+HXDLIN(1376)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
             											}
-HXDLIN(1382)											{
-HXLINE(1382)												int val3 = (::hx::UShr(_color,8) & 255);
-HXDLIN(1382)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
+HXDLIN(1376)											{
+HXLINE(1376)												int val3 = (::hx::UShr(_color,8) & 255);
+HXDLIN(1376)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
             											}
             										}
             										break;
             										case (int)2: {
-HXLINE(1382)											{
-HXLINE(1382)												int val = (::hx::UShr(_color,8) & 255);
-HXDLIN(1382)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
+HXLINE(1376)											{
+HXLINE(1376)												int val = (::hx::UShr(_color,8) & 255);
+HXDLIN(1376)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
             											}
-HXDLIN(1382)											{
-HXLINE(1382)												int val1 = (::hx::UShr(_color,16) & 255);
-HXDLIN(1382)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
+HXDLIN(1376)											{
+HXLINE(1376)												int val1 = (::hx::UShr(_color,16) & 255);
+HXDLIN(1376)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
             											}
-HXDLIN(1382)											{
-HXLINE(1382)												int val2 = (::hx::UShr(_color,24) & 255);
-HXDLIN(1382)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
+HXDLIN(1376)											{
+HXLINE(1376)												int val2 = (::hx::UShr(_color,24) & 255);
+HXDLIN(1376)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
             											}
-HXDLIN(1382)											{
-HXLINE(1382)												int val3 = (_color & 255);
-HXDLIN(1382)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
+HXDLIN(1376)											{
+HXLINE(1376)												int val3 = (_color & 255);
+HXDLIN(1376)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
             											}
             										}
             										break;
             									}
             								}
-HXLINE(1383)								hits = (hits + 1);
+HXLINE(1377)								hits = (hits + 1);
             							}
             							else {
-HXLINE(1385)								if (copySource) {
-HXLINE(1387)									if (destPremultiplied) {
-HXLINE(1387)										if (((srcPixel & 255) == 0)) {
-HXLINE(1387)											if ((srcPixel != 0)) {
-HXLINE(1387)												srcPixel = 0;
+HXLINE(1379)								if (copySource) {
+HXLINE(1381)									if (destPremultiplied) {
+HXLINE(1381)										if (((srcPixel & 255) == 0)) {
+HXLINE(1381)											if ((srcPixel != 0)) {
+HXLINE(1381)												srcPixel = 0;
             											}
             										}
             										else {
-HXLINE(1387)											if (((srcPixel & 255) != 255)) {
-HXLINE(1387)												 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
-HXDLIN(1387)												::lime::math::_RGBA::RGBA_Impl__obj::a16 = ( (int)( ::__hxcpp_memory_get_ui32(this1->buffer->b,(this1->byteOffset + ((srcPixel & 255) * 4)))) );
-HXDLIN(1387)												srcPixel = ((((((((::hx::UShr(srcPixel,24) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 24) | (((((::hx::UShr(srcPixel,16) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 16)) | (((((::hx::UShr(srcPixel,8) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 8)) | ((srcPixel & 255) & 255));
+HXLINE(1381)											if (((srcPixel & 255) != 255)) {
+HXLINE(1381)												 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
+HXDLIN(1381)												::lime::math::_RGBA::RGBA_Impl__obj::a16 = ( (int)( ::__hxcpp_memory_get_ui32(this1->buffer->b,(this1->byteOffset + ((srcPixel & 255) * 4)))) );
+HXDLIN(1381)												srcPixel = ((((((((::hx::UShr(srcPixel,24) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 24) | (((((::hx::UShr(srcPixel,16) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 16)) | (((((::hx::UShr(srcPixel,8) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 8)) | ((srcPixel & 255) & 255));
             											}
             										}
             									}
-HXDLIN(1387)									switch((int)(destFormat)){
+HXDLIN(1381)									switch((int)(destFormat)){
             										case (int)0: {
-HXLINE(1387)											{
-HXLINE(1387)												int val = (::hx::UShr(srcPixel,24) & 255);
-HXDLIN(1387)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
+HXLINE(1381)											{
+HXLINE(1381)												int val = (::hx::UShr(srcPixel,24) & 255);
+HXDLIN(1381)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
             											}
-HXDLIN(1387)											{
-HXLINE(1387)												int val1 = (::hx::UShr(srcPixel,16) & 255);
-HXDLIN(1387)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
+HXDLIN(1381)											{
+HXLINE(1381)												int val1 = (::hx::UShr(srcPixel,16) & 255);
+HXDLIN(1381)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
             											}
-HXDLIN(1387)											{
-HXLINE(1387)												int val2 = (::hx::UShr(srcPixel,8) & 255);
-HXDLIN(1387)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
+HXDLIN(1381)											{
+HXLINE(1381)												int val2 = (::hx::UShr(srcPixel,8) & 255);
+HXDLIN(1381)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
             											}
-HXDLIN(1387)											{
-HXLINE(1387)												int val3 = (srcPixel & 255);
-HXDLIN(1387)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
+HXDLIN(1381)											{
+HXLINE(1381)												int val3 = (srcPixel & 255);
+HXDLIN(1381)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
             											}
             										}
             										break;
             										case (int)1: {
-HXLINE(1387)											{
-HXLINE(1387)												int val = (srcPixel & 255);
-HXDLIN(1387)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
+HXLINE(1381)											{
+HXLINE(1381)												int val = (srcPixel & 255);
+HXDLIN(1381)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
             											}
-HXDLIN(1387)											{
-HXLINE(1387)												int val1 = (::hx::UShr(srcPixel,24) & 255);
-HXDLIN(1387)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
+HXDLIN(1381)											{
+HXLINE(1381)												int val1 = (::hx::UShr(srcPixel,24) & 255);
+HXDLIN(1381)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
             											}
-HXDLIN(1387)											{
-HXLINE(1387)												int val2 = (::hx::UShr(srcPixel,16) & 255);
-HXDLIN(1387)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
+HXDLIN(1381)											{
+HXLINE(1381)												int val2 = (::hx::UShr(srcPixel,16) & 255);
+HXDLIN(1381)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
             											}
-HXDLIN(1387)											{
-HXLINE(1387)												int val3 = (::hx::UShr(srcPixel,8) & 255);
-HXDLIN(1387)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
+HXDLIN(1381)											{
+HXLINE(1381)												int val3 = (::hx::UShr(srcPixel,8) & 255);
+HXDLIN(1381)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
             											}
             										}
             										break;
             										case (int)2: {
-HXLINE(1387)											{
-HXLINE(1387)												int val = (::hx::UShr(srcPixel,8) & 255);
-HXDLIN(1387)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
+HXLINE(1381)											{
+HXLINE(1381)												int val = (::hx::UShr(srcPixel,8) & 255);
+HXDLIN(1381)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + destPosition),val);
             											}
-HXDLIN(1387)											{
-HXLINE(1387)												int val1 = (::hx::UShr(srcPixel,16) & 255);
-HXDLIN(1387)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
+HXDLIN(1381)											{
+HXLINE(1381)												int val1 = (::hx::UShr(srcPixel,16) & 255);
+HXDLIN(1381)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 1)),val1);
             											}
-HXDLIN(1387)											{
-HXLINE(1387)												int val2 = (::hx::UShr(srcPixel,24) & 255);
-HXDLIN(1387)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
+HXDLIN(1381)											{
+HXLINE(1381)												int val2 = (::hx::UShr(srcPixel,24) & 255);
+HXDLIN(1381)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 2)),val2);
             											}
-HXDLIN(1387)											{
-HXLINE(1387)												int val3 = (srcPixel & 255);
-HXDLIN(1387)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
+HXDLIN(1381)											{
+HXLINE(1381)												int val3 = (srcPixel & 255);
+HXDLIN(1381)												 ::__hxcpp_memory_set_byte(destData->buffer->b,(destData->byteOffset + (destPosition + 3)),val3);
             											}
             										}
             										break;
             									}
             								}
             							}
-HXLINE(1390)							srcPosition = (srcPosition + 4);
-HXLINE(1391)							destPosition = (destPosition + 4);
+HXLINE(1384)							srcPosition = (srcPosition + 4);
+HXLINE(1385)							destPosition = (destPosition + 4);
             						}
             					}
             				}
             			}
             		}
-HXLINE(1396)		if ((hits > 0)) {
-HXLINE(1398)			image->dirty = true;
-HXLINE(1399)			image->version++;
+HXLINE(1390)		if ((hits > 0)) {
+HXLINE(1392)			image->dirty = true;
+HXLINE(1393)			image->version++;
             		}
-HXLINE(1402)		return hits;
+HXLINE(1396)		return hits;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC10(ImageDataUtil_obj,threshold,return )
 
 void ImageDataUtil_obj::unmultiplyAlpha( ::lime::graphics::Image image){
-            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_1406_unmultiplyAlpha)
-HXLINE(1407)		 ::lime::utils::ArrayBufferView data = image->buffer->data;
-HXLINE(1408)		if (::hx::IsNull( data )) {
-HXLINE(1408)			return;
+            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_1400_unmultiplyAlpha)
+HXLINE(1401)		 ::lime::utils::ArrayBufferView data = image->buffer->data;
+HXLINE(1402)		if (::hx::IsNull( data )) {
+HXLINE(1402)			return;
             		}
-HXLINE(1411)		if (::lime::_hx_system::CFFI_obj::enabled) {
-HXLINE(1411)			::lime::_internal::backend::native::NativeCFFI_obj::lime_image_data_util_unmultiply_alpha(::hx::DynamicPtr(image));
+HXLINE(1405)		if (::lime::_hx_system::CFFI_obj::enabled) {
+HXLINE(1405)			::lime::_internal::backend::native::NativeCFFI_obj::lime_image_data_util_unmultiply_alpha(::hx::DynamicPtr(image));
             		}
             		else {
-HXLINE(1415)			int format = image->buffer->format;
-HXLINE(1416)			int length = ::Std_obj::_hx_int((( (Float)(data->length) ) / ( (Float)(4) )));
-HXLINE(1417)			int pixel = 0;
-HXLINE(1419)			{
-HXLINE(1419)				int _g = 0;
-HXDLIN(1419)				int _g1 = length;
-HXDLIN(1419)				while((_g < _g1)){
-HXLINE(1419)					_g = (_g + 1);
-HXDLIN(1419)					int i = (_g - 1);
-HXLINE(1421)					{
-HXLINE(1421)						int offset = (i * 4);
-HXDLIN(1421)						switch((int)(format)){
+HXLINE(1409)			int format = image->buffer->format;
+HXLINE(1410)			int length = ::Std_obj::_hx_int((( (Float)(data->length) ) / ( (Float)(4) )));
+HXLINE(1411)			int pixel;
+HXLINE(1413)			{
+HXLINE(1413)				int _g = 0;
+HXDLIN(1413)				int _g1 = length;
+HXDLIN(1413)				while((_g < _g1)){
+HXLINE(1413)					_g = (_g + 1);
+HXDLIN(1413)					int i = (_g - 1);
+HXLINE(1415)					{
+HXLINE(1415)						int offset = (i * 4);
+HXDLIN(1415)						switch((int)(format)){
             							case (int)0: {
-HXLINE(1421)								int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) );
-HXDLIN(1421)								int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
-HXDLIN(1421)								int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
-HXDLIN(1421)								pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) ) & 255));
+HXLINE(1415)								int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) );
+HXDLIN(1415)								int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
+HXDLIN(1415)								int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
+HXDLIN(1415)								pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) ) & 255));
             							}
             							break;
             							case (int)1: {
-HXLINE(1421)								int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
-HXDLIN(1421)								int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
-HXDLIN(1421)								int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) );
-HXDLIN(1421)								pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) ) & 255));
+HXLINE(1415)								int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
+HXDLIN(1415)								int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
+HXDLIN(1415)								int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) );
+HXDLIN(1415)								pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) ) & 255));
             							}
             							break;
             							case (int)2: {
-HXLINE(1421)								int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
-HXDLIN(1421)								int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
-HXDLIN(1421)								int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) );
-HXDLIN(1421)								pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) ) & 255));
+HXLINE(1415)								int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
+HXDLIN(1415)								int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
+HXDLIN(1415)								int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) );
+HXDLIN(1415)								pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) ) & 255));
             							}
             							break;
             						}
-HXDLIN(1421)						bool _hx_tmp;
-HXDLIN(1421)						if (((pixel & 255) != 0)) {
-HXLINE(1421)							_hx_tmp = ((pixel & 255) != 255);
+HXDLIN(1415)						bool _hx_tmp;
+HXDLIN(1415)						if (((pixel & 255) != 0)) {
+HXLINE(1415)							_hx_tmp = ((pixel & 255) != 255);
             						}
             						else {
-HXLINE(1421)							_hx_tmp = false;
+HXLINE(1415)							_hx_tmp = false;
             						}
-HXDLIN(1421)						if (_hx_tmp) {
-HXLINE(1421)							::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((pixel & 255)) ));
-HXDLIN(1421)							{
-HXLINE(1421)								 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN(1421)								int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(pixel,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN(1421)								 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN(1421)								int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(pixel,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN(1421)								 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN(1421)								pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(pixel,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((pixel & 255) & 255));
+HXDLIN(1415)						if (_hx_tmp) {
+HXLINE(1415)							::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((pixel & 255)) ));
+HXDLIN(1415)							{
+HXLINE(1415)								 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN(1415)								int r = ( (int)(( ::__hxcpp_memory_get_byte(this1->buffer->b,(this1->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(pixel,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN(1415)								 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN(1415)								int g = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(pixel,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN(1415)								 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN(1415)								pixel = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(pixel,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((pixel & 255) & 255));
             							}
             						}
             					}
-HXLINE(1422)					{
-HXLINE(1422)						int offset1 = (i * 4);
-HXDLIN(1422)						switch((int)(format)){
+HXLINE(1416)					{
+HXLINE(1416)						int offset1 = (i * 4);
+HXDLIN(1416)						switch((int)(format)){
             							case (int)0: {
-HXLINE(1422)								{
-HXLINE(1422)									int val = (::hx::UShr(pixel,24) & 255);
-HXDLIN(1422)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset1),val);
+HXLINE(1416)								{
+HXLINE(1416)									int val = (::hx::UShr(pixel,24) & 255);
+HXDLIN(1416)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset1),val);
             								}
-HXDLIN(1422)								{
-HXLINE(1422)									int val1 = (::hx::UShr(pixel,16) & 255);
-HXDLIN(1422)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 1)),val1);
+HXDLIN(1416)								{
+HXLINE(1416)									int val1 = (::hx::UShr(pixel,16) & 255);
+HXDLIN(1416)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 1)),val1);
             								}
-HXDLIN(1422)								{
-HXLINE(1422)									int val2 = (::hx::UShr(pixel,8) & 255);
-HXDLIN(1422)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 2)),val2);
+HXDLIN(1416)								{
+HXLINE(1416)									int val2 = (::hx::UShr(pixel,8) & 255);
+HXDLIN(1416)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 2)),val2);
             								}
-HXDLIN(1422)								{
-HXLINE(1422)									int val3 = (pixel & 255);
-HXDLIN(1422)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 3)),val3);
+HXDLIN(1416)								{
+HXLINE(1416)									int val3 = (pixel & 255);
+HXDLIN(1416)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 3)),val3);
             								}
             							}
             							break;
             							case (int)1: {
-HXLINE(1422)								{
-HXLINE(1422)									int val = (pixel & 255);
-HXDLIN(1422)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset1),val);
+HXLINE(1416)								{
+HXLINE(1416)									int val = (pixel & 255);
+HXDLIN(1416)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset1),val);
             								}
-HXDLIN(1422)								{
-HXLINE(1422)									int val1 = (::hx::UShr(pixel,24) & 255);
-HXDLIN(1422)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 1)),val1);
+HXDLIN(1416)								{
+HXLINE(1416)									int val1 = (::hx::UShr(pixel,24) & 255);
+HXDLIN(1416)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 1)),val1);
             								}
-HXDLIN(1422)								{
-HXLINE(1422)									int val2 = (::hx::UShr(pixel,16) & 255);
-HXDLIN(1422)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 2)),val2);
+HXDLIN(1416)								{
+HXLINE(1416)									int val2 = (::hx::UShr(pixel,16) & 255);
+HXDLIN(1416)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 2)),val2);
             								}
-HXDLIN(1422)								{
-HXLINE(1422)									int val3 = (::hx::UShr(pixel,8) & 255);
-HXDLIN(1422)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 3)),val3);
+HXDLIN(1416)								{
+HXLINE(1416)									int val3 = (::hx::UShr(pixel,8) & 255);
+HXDLIN(1416)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 3)),val3);
             								}
             							}
             							break;
             							case (int)2: {
-HXLINE(1422)								{
-HXLINE(1422)									int val = (::hx::UShr(pixel,8) & 255);
-HXDLIN(1422)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset1),val);
+HXLINE(1416)								{
+HXLINE(1416)									int val = (::hx::UShr(pixel,8) & 255);
+HXDLIN(1416)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset1),val);
             								}
-HXDLIN(1422)								{
-HXLINE(1422)									int val1 = (::hx::UShr(pixel,16) & 255);
-HXDLIN(1422)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 1)),val1);
+HXDLIN(1416)								{
+HXLINE(1416)									int val1 = (::hx::UShr(pixel,16) & 255);
+HXDLIN(1416)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 1)),val1);
             								}
-HXDLIN(1422)								{
-HXLINE(1422)									int val2 = (::hx::UShr(pixel,24) & 255);
-HXDLIN(1422)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 2)),val2);
+HXDLIN(1416)								{
+HXLINE(1416)									int val2 = (::hx::UShr(pixel,24) & 255);
+HXDLIN(1416)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 2)),val2);
             								}
-HXDLIN(1422)								{
-HXLINE(1422)									int val3 = (pixel & 255);
-HXDLIN(1422)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 3)),val3);
+HXDLIN(1416)								{
+HXLINE(1416)									int val3 = (pixel & 255);
+HXDLIN(1416)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset1 + 3)),val3);
             								}
             							}
             							break;
@@ -5157,188 +5158,706 @@ HXDLIN(1422)									 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffse
             				}
             			}
             		}
-HXLINE(1426)		image->buffer->premultiplied = false;
-HXLINE(1427)		image->dirty = true;
-HXLINE(1428)		image->version++;
+HXLINE(1420)		image->buffer->premultiplied = false;
+HXLINE(1421)		image->dirty = true;
+HXLINE(1422)		image->version++;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(ImageDataUtil_obj,unmultiplyAlpha,(void))
 
 void ImageDataUtil_obj::_hx___boxBlur( ::lime::utils::ArrayBufferView imgA, ::lime::utils::ArrayBufferView imgB,int w,int h,Float bx,Float by){
-            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_1432___boxBlur)
-HXLINE(1435)		{
-HXLINE(1435)			::cpp::VirtualArray array = null();
-HXDLIN(1435)			int offset = 0;
-HXDLIN(1435)			bool _hx_tmp;
-HXDLIN(1435)			if (::hx::IsNotNull( imgA )) {
-HXLINE(1435)				_hx_tmp = ::hx::IsNull( array );
+            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_1426___boxBlur)
+HXLINE(1429)		{
+HXLINE(1429)			::cpp::VirtualArray array = null();
+HXDLIN(1429)			int offset = 0;
+HXDLIN(1429)			bool _hx_tmp;
+HXDLIN(1429)			if (::hx::IsNotNull( imgA )) {
+HXLINE(1429)				_hx_tmp = ::hx::IsNull( array );
             			}
             			else {
-HXLINE(1435)				_hx_tmp = false;
+HXLINE(1429)				_hx_tmp = false;
             			}
-HXDLIN(1435)			if (_hx_tmp) {
-HXLINE(1435)				imgB->buffer->blit((offset * imgB->bytesPerElement),imgA->buffer,imgA->byteOffset,imgA->byteLength);
+HXDLIN(1429)			if (_hx_tmp) {
+HXLINE(1429)				imgB->buffer->blit((offset * imgB->bytesPerElement),imgA->buffer,imgA->byteOffset,imgA->byteLength);
             			}
             			else {
-HXLINE(1435)				bool _hx_tmp;
-HXDLIN(1435)				if (::hx::IsNotNull( array )) {
-HXLINE(1435)					_hx_tmp = ::hx::IsNull( imgA );
+HXLINE(1429)				bool _hx_tmp;
+HXDLIN(1429)				if (::hx::IsNotNull( array )) {
+HXLINE(1429)					_hx_tmp = ::hx::IsNull( imgA );
             				}
             				else {
-HXLINE(1435)					_hx_tmp = false;
+HXLINE(1429)					_hx_tmp = false;
             				}
-HXDLIN(1435)				if (_hx_tmp) {
-HXLINE(1435)					imgB->copyFromArray(array,offset);
+HXDLIN(1429)				if (_hx_tmp) {
+HXLINE(1429)					imgB->copyFromArray(array,offset);
             				}
             				else {
-HXLINE(1435)					HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("Invalid .set call. either view, or array must be not-null.",64,ba,b7,6c)));
+HXLINE(1429)					HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("Invalid .set call. either view, or array must be not-null.",64,ba,b7,6c)));
             				}
             			}
             		}
-HXLINE(1437)		int bx1 = ::Std_obj::_hx_int(bx);
-HXLINE(1438)		int by1 = ::Std_obj::_hx_int(by);
+HXLINE(1431)		int bx1 = ::Std_obj::_hx_int(bx);
+HXLINE(1432)		int by1 = ::Std_obj::_hx_int(by);
+HXLINE(1434)		{
+HXLINE(1434)			Float iarr = (( (Float)(1) ) / ( (Float)(((bx1 + bx1) + 1)) ));
+HXDLIN(1434)			int ti;
+HXDLIN(1434)			int li;
+HXDLIN(1434)			int ri;
+HXDLIN(1434)			 ::Dynamic fv;
+HXDLIN(1434)			 ::Dynamic lv;
+HXDLIN(1434)			int val;
+HXDLIN(1434)			{
+HXLINE(1434)				int _g = 0;
+HXDLIN(1434)				int _g1 = h;
+HXDLIN(1434)				while((_g < _g1)){
+HXLINE(1434)					_g = (_g + 1);
+HXDLIN(1434)					int i = (_g - 1);
+HXDLIN(1434)					ti = (i * w);
+HXDLIN(1434)					li = ti;
+HXDLIN(1434)					ri = (ti + bx1);
+HXDLIN(1434)					fv = ( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + (ti * 4))) & 255);
+HXDLIN(1434)					lv = ( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + (((ti + w) - 1) * 4))) & 255);
+HXDLIN(1434)					val = ((bx1 + 1) * ( (int)(fv) ));
+HXDLIN(1434)					{
+HXLINE(1434)						int _g1 = 0;
+HXDLIN(1434)						int _g2 = bx1;
+HXDLIN(1434)						while((_g1 < _g2)){
+HXLINE(1434)							_g1 = (_g1 + 1);
+HXDLIN(1434)							int j = (_g1 - 1);
+HXDLIN(1434)							val = (val + ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((ti + j) * 4))) & 255)) ));
+            						}
+            					}
+HXDLIN(1434)					{
+HXLINE(1434)						int _g3 = 0;
+HXDLIN(1434)						int _g4 = (bx1 + 1);
+HXDLIN(1434)						while((_g3 < _g4)){
+HXLINE(1434)							_g3 = (_g3 + 1);
+HXDLIN(1434)							int j = (_g3 - 1);
+HXDLIN(1434)							val = (val + (( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + (ri * 4))) & 255)) ) - ( (int)(fv) )));
+HXDLIN(1434)							{
+HXLINE(1434)								int _hx_int = val;
+HXDLIN(1434)								Float val1;
+HXDLIN(1434)								if ((_hx_int < 0)) {
+HXLINE(1434)									val1 = (((Float)4294967296.0) + _hx_int);
+            								}
+            								else {
+HXLINE(1434)									val1 = (_hx_int + ((Float)0.0));
+            								}
+HXDLIN(1434)								int val2 = ::Math_obj::round((val1 * iarr));
+HXDLIN(1434)								 ::__hxcpp_memory_set_byte(imgA->buffer->b,(imgA->byteOffset + (ti * 4)),val2);
+            							}
+HXDLIN(1434)							ri = (ri + 1);
+HXDLIN(1434)							ti = (ti + 1);
+            						}
+            					}
+HXDLIN(1434)					{
+HXLINE(1434)						int _g5 = (bx1 + 1);
+HXDLIN(1434)						int _g6 = (w - bx1);
+HXDLIN(1434)						while((_g5 < _g6)){
+HXLINE(1434)							_g5 = (_g5 + 1);
+HXDLIN(1434)							int j = (_g5 - 1);
+HXDLIN(1434)							int a = ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + (ri * 4))) & 255)) );
+HXDLIN(1434)							val = (val + (a - ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + (li * 4))) & 255)) )));
+HXDLIN(1434)							{
+HXLINE(1434)								int _hx_int = val;
+HXDLIN(1434)								Float val1;
+HXDLIN(1434)								if ((_hx_int < 0)) {
+HXLINE(1434)									val1 = (((Float)4294967296.0) + _hx_int);
+            								}
+            								else {
+HXLINE(1434)									val1 = (_hx_int + ((Float)0.0));
+            								}
+HXDLIN(1434)								int val2 = ::Math_obj::round((val1 * iarr));
+HXDLIN(1434)								 ::__hxcpp_memory_set_byte(imgA->buffer->b,(imgA->byteOffset + (ti * 4)),val2);
+            							}
+HXDLIN(1434)							ri = (ri + 1);
+HXDLIN(1434)							li = (li + 1);
+HXDLIN(1434)							ti = (ti + 1);
+            						}
+            					}
+HXDLIN(1434)					{
+HXLINE(1434)						int _g7 = (w - bx1);
+HXDLIN(1434)						int _g8 = w;
+HXDLIN(1434)						while((_g7 < _g8)){
+HXLINE(1434)							_g7 = (_g7 + 1);
+HXDLIN(1434)							int j = (_g7 - 1);
+HXDLIN(1434)							val = (val + (( (int)(lv) ) - ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + (li * 4))) & 255)) )));
+HXDLIN(1434)							{
+HXLINE(1434)								int _hx_int = val;
+HXDLIN(1434)								Float val1;
+HXDLIN(1434)								if ((_hx_int < 0)) {
+HXLINE(1434)									val1 = (((Float)4294967296.0) + _hx_int);
+            								}
+            								else {
+HXLINE(1434)									val1 = (_hx_int + ((Float)0.0));
+            								}
+HXDLIN(1434)								int val2 = ::Math_obj::round((val1 * iarr));
+HXDLIN(1434)								 ::__hxcpp_memory_set_byte(imgA->buffer->b,(imgA->byteOffset + (ti * 4)),val2);
+            							}
+HXDLIN(1434)							li = (li + 1);
+HXDLIN(1434)							ti = (ti + 1);
+            						}
+            					}
+            				}
+            			}
+            		}
+HXLINE(1435)		{
+HXLINE(1435)			Float iarr1 = (( (Float)(1) ) / ( (Float)(((bx1 + bx1) + 1)) ));
+HXDLIN(1435)			int ti1;
+HXDLIN(1435)			int li1;
+HXDLIN(1435)			int ri1;
+HXDLIN(1435)			 ::Dynamic fv1;
+HXDLIN(1435)			 ::Dynamic lv1;
+HXDLIN(1435)			int val1;
+HXDLIN(1435)			{
+HXLINE(1435)				int _g2 = 0;
+HXDLIN(1435)				int _g3 = h;
+HXDLIN(1435)				while((_g2 < _g3)){
+HXLINE(1435)					_g2 = (_g2 + 1);
+HXDLIN(1435)					int i = (_g2 - 1);
+HXDLIN(1435)					ti1 = (i * w);
+HXDLIN(1435)					li1 = ti1;
+HXDLIN(1435)					ri1 = (ti1 + bx1);
+HXDLIN(1435)					fv1 = ( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((ti1 * 4) + 1))) & 255);
+HXDLIN(1435)					lv1 = ( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((((ti1 + w) - 1) * 4) + 1))) & 255);
+HXDLIN(1435)					val1 = ((bx1 + 1) * ( (int)(fv1) ));
+HXDLIN(1435)					{
+HXLINE(1435)						int _g = 0;
+HXDLIN(1435)						int _g1 = bx1;
+HXDLIN(1435)						while((_g < _g1)){
+HXLINE(1435)							_g = (_g + 1);
+HXDLIN(1435)							int j = (_g - 1);
+HXDLIN(1435)							val1 = (val1 + ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + (((ti1 + j) * 4) + 1))) & 255)) ));
+            						}
+            					}
+HXDLIN(1435)					{
+HXLINE(1435)						int _g3 = 0;
+HXDLIN(1435)						int _g4 = (bx1 + 1);
+HXDLIN(1435)						while((_g3 < _g4)){
+HXLINE(1435)							_g3 = (_g3 + 1);
+HXDLIN(1435)							int j = (_g3 - 1);
+HXDLIN(1435)							val1 = (val1 + (( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((ri1 * 4) + 1))) & 255)) ) - ( (int)(fv1) )));
+HXDLIN(1435)							{
+HXLINE(1435)								int _hx_int = val1;
+HXDLIN(1435)								Float val;
+HXDLIN(1435)								if ((_hx_int < 0)) {
+HXLINE(1435)									val = (((Float)4294967296.0) + _hx_int);
+            								}
+            								else {
+HXLINE(1435)									val = (_hx_int + ((Float)0.0));
+            								}
+HXDLIN(1435)								int val2 = ::Math_obj::round((val * iarr1));
+HXDLIN(1435)								 ::__hxcpp_memory_set_byte(imgA->buffer->b,(imgA->byteOffset + ((ti1 * 4) + 1)),val2);
+            							}
+HXDLIN(1435)							ri1 = (ri1 + 1);
+HXDLIN(1435)							ti1 = (ti1 + 1);
+            						}
+            					}
+HXDLIN(1435)					{
+HXLINE(1435)						int _g5 = (bx1 + 1);
+HXDLIN(1435)						int _g6 = (w - bx1);
+HXDLIN(1435)						while((_g5 < _g6)){
+HXLINE(1435)							_g5 = (_g5 + 1);
+HXDLIN(1435)							int j = (_g5 - 1);
+HXDLIN(1435)							int a = ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((ri1 * 4) + 1))) & 255)) );
+HXDLIN(1435)							val1 = (val1 + (a - ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((li1 * 4) + 1))) & 255)) )));
+HXDLIN(1435)							{
+HXLINE(1435)								int _hx_int = val1;
+HXDLIN(1435)								Float val;
+HXDLIN(1435)								if ((_hx_int < 0)) {
+HXLINE(1435)									val = (((Float)4294967296.0) + _hx_int);
+            								}
+            								else {
+HXLINE(1435)									val = (_hx_int + ((Float)0.0));
+            								}
+HXDLIN(1435)								int val2 = ::Math_obj::round((val * iarr1));
+HXDLIN(1435)								 ::__hxcpp_memory_set_byte(imgA->buffer->b,(imgA->byteOffset + ((ti1 * 4) + 1)),val2);
+            							}
+HXDLIN(1435)							ri1 = (ri1 + 1);
+HXDLIN(1435)							li1 = (li1 + 1);
+HXDLIN(1435)							ti1 = (ti1 + 1);
+            						}
+            					}
+HXDLIN(1435)					{
+HXLINE(1435)						int _g7 = (w - bx1);
+HXDLIN(1435)						int _g8 = w;
+HXDLIN(1435)						while((_g7 < _g8)){
+HXLINE(1435)							_g7 = (_g7 + 1);
+HXDLIN(1435)							int j = (_g7 - 1);
+HXDLIN(1435)							val1 = (val1 + (( (int)(lv1) ) - ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((li1 * 4) + 1))) & 255)) )));
+HXDLIN(1435)							{
+HXLINE(1435)								int _hx_int = val1;
+HXDLIN(1435)								Float val;
+HXDLIN(1435)								if ((_hx_int < 0)) {
+HXLINE(1435)									val = (((Float)4294967296.0) + _hx_int);
+            								}
+            								else {
+HXLINE(1435)									val = (_hx_int + ((Float)0.0));
+            								}
+HXDLIN(1435)								int val2 = ::Math_obj::round((val * iarr1));
+HXDLIN(1435)								 ::__hxcpp_memory_set_byte(imgA->buffer->b,(imgA->byteOffset + ((ti1 * 4) + 1)),val2);
+            							}
+HXDLIN(1435)							li1 = (li1 + 1);
+HXDLIN(1435)							ti1 = (ti1 + 1);
+            						}
+            					}
+            				}
+            			}
+            		}
+HXLINE(1436)		{
+HXLINE(1436)			Float iarr2 = (( (Float)(1) ) / ( (Float)(((bx1 + bx1) + 1)) ));
+HXDLIN(1436)			int ti2;
+HXDLIN(1436)			int li2;
+HXDLIN(1436)			int ri2;
+HXDLIN(1436)			 ::Dynamic fv2;
+HXDLIN(1436)			 ::Dynamic lv2;
+HXDLIN(1436)			int val2;
+HXDLIN(1436)			{
+HXLINE(1436)				int _g4 = 0;
+HXDLIN(1436)				int _g5 = h;
+HXDLIN(1436)				while((_g4 < _g5)){
+HXLINE(1436)					_g4 = (_g4 + 1);
+HXDLIN(1436)					int i = (_g4 - 1);
+HXDLIN(1436)					ti2 = (i * w);
+HXDLIN(1436)					li2 = ti2;
+HXDLIN(1436)					ri2 = (ti2 + bx1);
+HXDLIN(1436)					fv2 = ( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((ti2 * 4) + 2))) & 255);
+HXDLIN(1436)					lv2 = ( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((((ti2 + w) - 1) * 4) + 2))) & 255);
+HXDLIN(1436)					val2 = ((bx1 + 1) * ( (int)(fv2) ));
+HXDLIN(1436)					{
+HXLINE(1436)						int _g = 0;
+HXDLIN(1436)						int _g1 = bx1;
+HXDLIN(1436)						while((_g < _g1)){
+HXLINE(1436)							_g = (_g + 1);
+HXDLIN(1436)							int j = (_g - 1);
+HXDLIN(1436)							val2 = (val2 + ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + (((ti2 + j) * 4) + 2))) & 255)) ));
+            						}
+            					}
+HXDLIN(1436)					{
+HXLINE(1436)						int _g2 = 0;
+HXDLIN(1436)						int _g3 = (bx1 + 1);
+HXDLIN(1436)						while((_g2 < _g3)){
+HXLINE(1436)							_g2 = (_g2 + 1);
+HXDLIN(1436)							int j = (_g2 - 1);
+HXDLIN(1436)							val2 = (val2 + (( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((ri2 * 4) + 2))) & 255)) ) - ( (int)(fv2) )));
+HXDLIN(1436)							{
+HXLINE(1436)								int _hx_int = val2;
+HXDLIN(1436)								Float val;
+HXDLIN(1436)								if ((_hx_int < 0)) {
+HXLINE(1436)									val = (((Float)4294967296.0) + _hx_int);
+            								}
+            								else {
+HXLINE(1436)									val = (_hx_int + ((Float)0.0));
+            								}
+HXDLIN(1436)								int val1 = ::Math_obj::round((val * iarr2));
+HXDLIN(1436)								 ::__hxcpp_memory_set_byte(imgA->buffer->b,(imgA->byteOffset + ((ti2 * 4) + 2)),val1);
+            							}
+HXDLIN(1436)							ri2 = (ri2 + 1);
+HXDLIN(1436)							ti2 = (ti2 + 1);
+            						}
+            					}
+HXDLIN(1436)					{
+HXLINE(1436)						int _g5 = (bx1 + 1);
+HXDLIN(1436)						int _g6 = (w - bx1);
+HXDLIN(1436)						while((_g5 < _g6)){
+HXLINE(1436)							_g5 = (_g5 + 1);
+HXDLIN(1436)							int j = (_g5 - 1);
+HXDLIN(1436)							int a = ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((ri2 * 4) + 2))) & 255)) );
+HXDLIN(1436)							val2 = (val2 + (a - ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((li2 * 4) + 2))) & 255)) )));
+HXDLIN(1436)							{
+HXLINE(1436)								int _hx_int = val2;
+HXDLIN(1436)								Float val;
+HXDLIN(1436)								if ((_hx_int < 0)) {
+HXLINE(1436)									val = (((Float)4294967296.0) + _hx_int);
+            								}
+            								else {
+HXLINE(1436)									val = (_hx_int + ((Float)0.0));
+            								}
+HXDLIN(1436)								int val1 = ::Math_obj::round((val * iarr2));
+HXDLIN(1436)								 ::__hxcpp_memory_set_byte(imgA->buffer->b,(imgA->byteOffset + ((ti2 * 4) + 2)),val1);
+            							}
+HXDLIN(1436)							ri2 = (ri2 + 1);
+HXDLIN(1436)							li2 = (li2 + 1);
+HXDLIN(1436)							ti2 = (ti2 + 1);
+            						}
+            					}
+HXDLIN(1436)					{
+HXLINE(1436)						int _g7 = (w - bx1);
+HXDLIN(1436)						int _g8 = w;
+HXDLIN(1436)						while((_g7 < _g8)){
+HXLINE(1436)							_g7 = (_g7 + 1);
+HXDLIN(1436)							int j = (_g7 - 1);
+HXDLIN(1436)							val2 = (val2 + (( (int)(lv2) ) - ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((li2 * 4) + 2))) & 255)) )));
+HXDLIN(1436)							{
+HXLINE(1436)								int _hx_int = val2;
+HXDLIN(1436)								Float val;
+HXDLIN(1436)								if ((_hx_int < 0)) {
+HXLINE(1436)									val = (((Float)4294967296.0) + _hx_int);
+            								}
+            								else {
+HXLINE(1436)									val = (_hx_int + ((Float)0.0));
+            								}
+HXDLIN(1436)								int val1 = ::Math_obj::round((val * iarr2));
+HXDLIN(1436)								 ::__hxcpp_memory_set_byte(imgA->buffer->b,(imgA->byteOffset + ((ti2 * 4) + 2)),val1);
+            							}
+HXDLIN(1436)							li2 = (li2 + 1);
+HXDLIN(1436)							ti2 = (ti2 + 1);
+            						}
+            					}
+            				}
+            			}
+            		}
+HXLINE(1437)		{
+HXLINE(1437)			Float iarr3 = (( (Float)(1) ) / ( (Float)(((bx1 + bx1) + 1)) ));
+HXDLIN(1437)			int ti3;
+HXDLIN(1437)			int li3;
+HXDLIN(1437)			int ri3;
+HXDLIN(1437)			 ::Dynamic fv3;
+HXDLIN(1437)			 ::Dynamic lv3;
+HXDLIN(1437)			int val3;
+HXDLIN(1437)			{
+HXLINE(1437)				int _g6 = 0;
+HXDLIN(1437)				int _g7 = h;
+HXDLIN(1437)				while((_g6 < _g7)){
+HXLINE(1437)					_g6 = (_g6 + 1);
+HXDLIN(1437)					int i = (_g6 - 1);
+HXDLIN(1437)					ti3 = (i * w);
+HXDLIN(1437)					li3 = ti3;
+HXDLIN(1437)					ri3 = (ti3 + bx1);
+HXDLIN(1437)					fv3 = ( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((ti3 * 4) + 3))) & 255);
+HXDLIN(1437)					lv3 = ( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((((ti3 + w) - 1) * 4) + 3))) & 255);
+HXDLIN(1437)					val3 = ((bx1 + 1) * ( (int)(fv3) ));
+HXDLIN(1437)					{
+HXLINE(1437)						int _g = 0;
+HXDLIN(1437)						int _g1 = bx1;
+HXDLIN(1437)						while((_g < _g1)){
+HXLINE(1437)							_g = (_g + 1);
+HXDLIN(1437)							int j = (_g - 1);
+HXDLIN(1437)							val3 = (val3 + ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + (((ti3 + j) * 4) + 3))) & 255)) ));
+            						}
+            					}
+HXDLIN(1437)					{
+HXLINE(1437)						int _g2 = 0;
+HXDLIN(1437)						int _g3 = (bx1 + 1);
+HXDLIN(1437)						while((_g2 < _g3)){
+HXLINE(1437)							_g2 = (_g2 + 1);
+HXDLIN(1437)							int j = (_g2 - 1);
+HXDLIN(1437)							val3 = (val3 + (( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((ri3 * 4) + 3))) & 255)) ) - ( (int)(fv3) )));
+HXDLIN(1437)							{
+HXLINE(1437)								int _hx_int = val3;
+HXDLIN(1437)								Float val;
+HXDLIN(1437)								if ((_hx_int < 0)) {
+HXLINE(1437)									val = (((Float)4294967296.0) + _hx_int);
+            								}
+            								else {
+HXLINE(1437)									val = (_hx_int + ((Float)0.0));
+            								}
+HXDLIN(1437)								int val1 = ::Math_obj::round((val * iarr3));
+HXDLIN(1437)								 ::__hxcpp_memory_set_byte(imgA->buffer->b,(imgA->byteOffset + ((ti3 * 4) + 3)),val1);
+            							}
+HXDLIN(1437)							ri3 = (ri3 + 1);
+HXDLIN(1437)							ti3 = (ti3 + 1);
+            						}
+            					}
+HXDLIN(1437)					{
+HXLINE(1437)						int _g4 = (bx1 + 1);
+HXDLIN(1437)						int _g5 = (w - bx1);
+HXDLIN(1437)						while((_g4 < _g5)){
+HXLINE(1437)							_g4 = (_g4 + 1);
+HXDLIN(1437)							int j = (_g4 - 1);
+HXDLIN(1437)							int a = ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((ri3 * 4) + 3))) & 255)) );
+HXDLIN(1437)							val3 = (val3 + (a - ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((li3 * 4) + 3))) & 255)) )));
+HXDLIN(1437)							{
+HXLINE(1437)								int _hx_int = val3;
+HXDLIN(1437)								Float val;
+HXDLIN(1437)								if ((_hx_int < 0)) {
+HXLINE(1437)									val = (((Float)4294967296.0) + _hx_int);
+            								}
+            								else {
+HXLINE(1437)									val = (_hx_int + ((Float)0.0));
+            								}
+HXDLIN(1437)								int val1 = ::Math_obj::round((val * iarr3));
+HXDLIN(1437)								 ::__hxcpp_memory_set_byte(imgA->buffer->b,(imgA->byteOffset + ((ti3 * 4) + 3)),val1);
+            							}
+HXDLIN(1437)							ri3 = (ri3 + 1);
+HXDLIN(1437)							li3 = (li3 + 1);
+HXDLIN(1437)							ti3 = (ti3 + 1);
+            						}
+            					}
+HXDLIN(1437)					{
+HXLINE(1437)						int _g7 = (w - bx1);
+HXDLIN(1437)						int _g8 = w;
+HXDLIN(1437)						while((_g7 < _g8)){
+HXLINE(1437)							_g7 = (_g7 + 1);
+HXDLIN(1437)							int j = (_g7 - 1);
+HXDLIN(1437)							val3 = (val3 + (( (int)(lv3) ) - ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((li3 * 4) + 3))) & 255)) )));
+HXDLIN(1437)							{
+HXLINE(1437)								int _hx_int = val3;
+HXDLIN(1437)								Float val;
+HXDLIN(1437)								if ((_hx_int < 0)) {
+HXLINE(1437)									val = (((Float)4294967296.0) + _hx_int);
+            								}
+            								else {
+HXLINE(1437)									val = (_hx_int + ((Float)0.0));
+            								}
+HXDLIN(1437)								int val1 = ::Math_obj::round((val * iarr3));
+HXDLIN(1437)								 ::__hxcpp_memory_set_byte(imgA->buffer->b,(imgA->byteOffset + ((ti3 * 4) + 3)),val1);
+            							}
+HXDLIN(1437)							li3 = (li3 + 1);
+HXDLIN(1437)							ti3 = (ti3 + 1);
+            						}
+            					}
+            				}
+            			}
+            		}
+HXLINE(1439)		{
+HXLINE(1439)			Float iarr4 = (( (Float)(1) ) / ( (Float)(((by1 + by1) + 1)) ));
+HXDLIN(1439)			int ws = (w * 4);
+HXDLIN(1439)			int ti4;
+HXDLIN(1439)			int li4;
+HXDLIN(1439)			int ri4;
+HXDLIN(1439)			 ::Dynamic fv4;
+HXDLIN(1439)			 ::Dynamic lv4;
+HXDLIN(1439)			int val4;
+HXDLIN(1439)			{
+HXLINE(1439)				int _g8 = 0;
+HXDLIN(1439)				int _g9 = w;
+HXDLIN(1439)				while((_g8 < _g9)){
+HXLINE(1439)					_g8 = (_g8 + 1);
+HXDLIN(1439)					int i = (_g8 - 1);
+HXDLIN(1439)					ti4 = (i * 4);
+HXDLIN(1439)					li4 = ti4;
+HXDLIN(1439)					ri4 = (ti4 + (by1 * ws));
+HXDLIN(1439)					fv4 = ( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ti4)) & 255);
+HXDLIN(1439)					lv4 = ( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + (ti4 + (ws * (h - 1))))) & 255);
+HXDLIN(1439)					val4 = ((by1 + 1) * ( (int)(fv4) ));
+HXDLIN(1439)					{
+HXLINE(1439)						int _g = 0;
+HXDLIN(1439)						int _g1 = by1;
+HXDLIN(1439)						while((_g < _g1)){
+HXLINE(1439)							_g = (_g + 1);
+HXDLIN(1439)							int j = (_g - 1);
+HXDLIN(1439)							val4 = (val4 + ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + (ti4 + (j * ws)))) & 255)) ));
+            						}
+            					}
+HXDLIN(1439)					{
+HXLINE(1439)						int _g2 = 0;
+HXDLIN(1439)						int _g3 = (by1 + 1);
+HXDLIN(1439)						while((_g2 < _g3)){
+HXLINE(1439)							_g2 = (_g2 + 1);
+HXDLIN(1439)							int j = (_g2 - 1);
+HXDLIN(1439)							val4 = (val4 + (( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ri4)) & 255)) ) - ( (int)(fv4) )));
+HXDLIN(1439)							{
+HXLINE(1439)								int _hx_int = val4;
+HXDLIN(1439)								Float val;
+HXDLIN(1439)								if ((_hx_int < 0)) {
+HXLINE(1439)									val = (((Float)4294967296.0) + _hx_int);
+            								}
+            								else {
+HXLINE(1439)									val = (_hx_int + ((Float)0.0));
+            								}
+HXDLIN(1439)								int val1 = ::Math_obj::round((val * iarr4));
+HXDLIN(1439)								 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ti4),val1);
+            							}
+HXDLIN(1439)							ri4 = (ri4 + ws);
+HXDLIN(1439)							ti4 = (ti4 + ws);
+            						}
+            					}
+HXDLIN(1439)					{
+HXLINE(1439)						int _g4 = (by1 + 1);
+HXDLIN(1439)						int _g5 = (h - by1);
+HXDLIN(1439)						while((_g4 < _g5)){
+HXLINE(1439)							_g4 = (_g4 + 1);
+HXDLIN(1439)							int j = (_g4 - 1);
+HXDLIN(1439)							int a = ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ri4)) & 255)) );
+HXDLIN(1439)							val4 = (val4 + (a - ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + li4)) & 255)) )));
+HXDLIN(1439)							{
+HXLINE(1439)								int _hx_int = val4;
+HXDLIN(1439)								Float val;
+HXDLIN(1439)								if ((_hx_int < 0)) {
+HXLINE(1439)									val = (((Float)4294967296.0) + _hx_int);
+            								}
+            								else {
+HXLINE(1439)									val = (_hx_int + ((Float)0.0));
+            								}
+HXDLIN(1439)								int val1 = ::Math_obj::round((val * iarr4));
+HXDLIN(1439)								 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ti4),val1);
+            							}
+HXDLIN(1439)							li4 = (li4 + ws);
+HXDLIN(1439)							ri4 = (ri4 + ws);
+HXDLIN(1439)							ti4 = (ti4 + ws);
+            						}
+            					}
+HXDLIN(1439)					{
+HXLINE(1439)						int _g6 = (h - by1);
+HXDLIN(1439)						int _g7 = h;
+HXDLIN(1439)						while((_g6 < _g7)){
+HXLINE(1439)							_g6 = (_g6 + 1);
+HXDLIN(1439)							int j = (_g6 - 1);
+HXDLIN(1439)							val4 = (val4 + (( (int)(lv4) ) - ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + li4)) & 255)) )));
+HXDLIN(1439)							{
+HXLINE(1439)								int _hx_int = val4;
+HXDLIN(1439)								Float val;
+HXDLIN(1439)								if ((_hx_int < 0)) {
+HXLINE(1439)									val = (((Float)4294967296.0) + _hx_int);
+            								}
+            								else {
+HXLINE(1439)									val = (_hx_int + ((Float)0.0));
+            								}
+HXDLIN(1439)								int val1 = ::Math_obj::round((val * iarr4));
+HXDLIN(1439)								 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ti4),val1);
+            							}
+HXDLIN(1439)							li4 = (li4 + ws);
+HXDLIN(1439)							ti4 = (ti4 + ws);
+            						}
+            					}
+            				}
+            			}
+            		}
 HXLINE(1440)		{
-HXLINE(1440)			Float iarr = (( (Float)(1) ) / ( (Float)(((bx1 + bx1) + 1)) ));
-HXDLIN(1440)			int ti;
-HXDLIN(1440)			int li;
-HXDLIN(1440)			int ri;
-HXDLIN(1440)			 ::Dynamic fv;
-HXDLIN(1440)			 ::Dynamic lv;
-HXDLIN(1440)			int val;
+HXLINE(1440)			Float iarr5 = (( (Float)(1) ) / ( (Float)(((by1 + by1) + 1)) ));
+HXDLIN(1440)			int ws1 = (w * 4);
+HXDLIN(1440)			int ti5;
+HXDLIN(1440)			int li5;
+HXDLIN(1440)			int ri5;
+HXDLIN(1440)			 ::Dynamic fv5;
+HXDLIN(1440)			 ::Dynamic lv5;
+HXDLIN(1440)			int val5;
 HXDLIN(1440)			{
-HXLINE(1440)				int _g = 0;
-HXDLIN(1440)				int _g1 = h;
-HXDLIN(1440)				while((_g < _g1)){
-HXLINE(1440)					_g = (_g + 1);
-HXDLIN(1440)					int i = (_g - 1);
-HXDLIN(1440)					ti = (i * w);
-HXDLIN(1440)					li = ti;
-HXDLIN(1440)					ri = (ti + bx1);
-HXDLIN(1440)					fv = ( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + (ti * 4))) & 255);
-HXDLIN(1440)					lv = ( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + (((ti + w) - 1) * 4))) & 255);
-HXDLIN(1440)					val = ((bx1 + 1) * ( (int)(fv) ));
+HXLINE(1440)				int _g10 = 0;
+HXDLIN(1440)				int _g11 = w;
+HXDLIN(1440)				while((_g10 < _g11)){
+HXLINE(1440)					_g10 = (_g10 + 1);
+HXDLIN(1440)					int i = (_g10 - 1);
+HXDLIN(1440)					ti5 = ((i * 4) + 1);
+HXDLIN(1440)					li5 = ti5;
+HXDLIN(1440)					ri5 = (ti5 + (by1 * ws1));
+HXDLIN(1440)					fv5 = ( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ti5)) & 255);
+HXDLIN(1440)					lv5 = ( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + (ti5 + (ws1 * (h - 1))))) & 255);
+HXDLIN(1440)					val5 = ((by1 + 1) * ( (int)(fv5) ));
 HXDLIN(1440)					{
-HXLINE(1440)						int _g1 = 0;
-HXDLIN(1440)						int _g2 = bx1;
-HXDLIN(1440)						while((_g1 < _g2)){
-HXLINE(1440)							_g1 = (_g1 + 1);
-HXDLIN(1440)							int j = (_g1 - 1);
-HXDLIN(1440)							val = (val + ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((ti + j) * 4))) & 255)) ));
+HXLINE(1440)						int _g = 0;
+HXDLIN(1440)						int _g1 = by1;
+HXDLIN(1440)						while((_g < _g1)){
+HXLINE(1440)							_g = (_g + 1);
+HXDLIN(1440)							int j = (_g - 1);
+HXDLIN(1440)							val5 = (val5 + ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + (ti5 + (j * ws1)))) & 255)) ));
             						}
             					}
 HXDLIN(1440)					{
-HXLINE(1440)						int _g3 = 0;
-HXDLIN(1440)						int _g4 = (bx1 + 1);
-HXDLIN(1440)						while((_g3 < _g4)){
-HXLINE(1440)							_g3 = (_g3 + 1);
-HXDLIN(1440)							int j = (_g3 - 1);
-HXDLIN(1440)							val = (val + (( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + (ri * 4))) & 255)) ) - ( (int)(fv) )));
+HXLINE(1440)						int _g2 = 0;
+HXDLIN(1440)						int _g3 = (by1 + 1);
+HXDLIN(1440)						while((_g2 < _g3)){
+HXLINE(1440)							_g2 = (_g2 + 1);
+HXDLIN(1440)							int j = (_g2 - 1);
+HXDLIN(1440)							val5 = (val5 + (( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ri5)) & 255)) ) - ( (int)(fv5) )));
 HXDLIN(1440)							{
-HXLINE(1440)								int _hx_int = val;
-HXDLIN(1440)								Float val1;
+HXLINE(1440)								int _hx_int = val5;
+HXDLIN(1440)								Float val;
 HXDLIN(1440)								if ((_hx_int < 0)) {
-HXLINE(1440)									val1 = (((Float)4294967296.0) + _hx_int);
+HXLINE(1440)									val = (((Float)4294967296.0) + _hx_int);
             								}
             								else {
-HXLINE(1440)									val1 = (_hx_int + ((Float)0.0));
+HXLINE(1440)									val = (_hx_int + ((Float)0.0));
             								}
-HXDLIN(1440)								int val2 = ::Math_obj::round((val1 * iarr));
-HXDLIN(1440)								 ::__hxcpp_memory_set_byte(imgA->buffer->b,(imgA->byteOffset + (ti * 4)),val2);
+HXDLIN(1440)								int val1 = ::Math_obj::round((val * iarr5));
+HXDLIN(1440)								 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ti5),val1);
             							}
-HXDLIN(1440)							ri = (ri + 1);
-HXDLIN(1440)							ti = (ti + 1);
+HXDLIN(1440)							ri5 = (ri5 + ws1);
+HXDLIN(1440)							ti5 = (ti5 + ws1);
             						}
             					}
 HXDLIN(1440)					{
-HXLINE(1440)						int _g5 = (bx1 + 1);
-HXDLIN(1440)						int _g6 = (w - bx1);
-HXDLIN(1440)						while((_g5 < _g6)){
-HXLINE(1440)							_g5 = (_g5 + 1);
-HXDLIN(1440)							int j = (_g5 - 1);
-HXDLIN(1440)							int a = ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + (ri * 4))) & 255)) );
-HXDLIN(1440)							val = (val + (a - ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + (li * 4))) & 255)) )));
+HXLINE(1440)						int _g4 = (by1 + 1);
+HXDLIN(1440)						int _g5 = (h - by1);
+HXDLIN(1440)						while((_g4 < _g5)){
+HXLINE(1440)							_g4 = (_g4 + 1);
+HXDLIN(1440)							int j = (_g4 - 1);
+HXDLIN(1440)							int a = ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ri5)) & 255)) );
+HXDLIN(1440)							val5 = (val5 + (a - ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + li5)) & 255)) )));
 HXDLIN(1440)							{
-HXLINE(1440)								int _hx_int = val;
-HXDLIN(1440)								Float val1;
+HXLINE(1440)								int _hx_int = val5;
+HXDLIN(1440)								Float val;
 HXDLIN(1440)								if ((_hx_int < 0)) {
-HXLINE(1440)									val1 = (((Float)4294967296.0) + _hx_int);
+HXLINE(1440)									val = (((Float)4294967296.0) + _hx_int);
             								}
             								else {
-HXLINE(1440)									val1 = (_hx_int + ((Float)0.0));
+HXLINE(1440)									val = (_hx_int + ((Float)0.0));
             								}
-HXDLIN(1440)								int val2 = ::Math_obj::round((val1 * iarr));
-HXDLIN(1440)								 ::__hxcpp_memory_set_byte(imgA->buffer->b,(imgA->byteOffset + (ti * 4)),val2);
+HXDLIN(1440)								int val1 = ::Math_obj::round((val * iarr5));
+HXDLIN(1440)								 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ti5),val1);
             							}
-HXDLIN(1440)							ri = (ri + 1);
-HXDLIN(1440)							li = (li + 1);
-HXDLIN(1440)							ti = (ti + 1);
+HXDLIN(1440)							li5 = (li5 + ws1);
+HXDLIN(1440)							ri5 = (ri5 + ws1);
+HXDLIN(1440)							ti5 = (ti5 + ws1);
             						}
             					}
 HXDLIN(1440)					{
-HXLINE(1440)						int _g7 = (w - bx1);
-HXDLIN(1440)						int _g8 = w;
-HXDLIN(1440)						while((_g7 < _g8)){
-HXLINE(1440)							_g7 = (_g7 + 1);
-HXDLIN(1440)							int j = (_g7 - 1);
-HXDLIN(1440)							val = (val + (( (int)(lv) ) - ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + (li * 4))) & 255)) )));
+HXLINE(1440)						int _g6 = (h - by1);
+HXDLIN(1440)						int _g7 = h;
+HXDLIN(1440)						while((_g6 < _g7)){
+HXLINE(1440)							_g6 = (_g6 + 1);
+HXDLIN(1440)							int j = (_g6 - 1);
+HXDLIN(1440)							val5 = (val5 + (( (int)(lv5) ) - ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + li5)) & 255)) )));
 HXDLIN(1440)							{
-HXLINE(1440)								int _hx_int = val;
-HXDLIN(1440)								Float val1;
+HXLINE(1440)								int _hx_int = val5;
+HXDLIN(1440)								Float val;
 HXDLIN(1440)								if ((_hx_int < 0)) {
-HXLINE(1440)									val1 = (((Float)4294967296.0) + _hx_int);
+HXLINE(1440)									val = (((Float)4294967296.0) + _hx_int);
             								}
             								else {
-HXLINE(1440)									val1 = (_hx_int + ((Float)0.0));
+HXLINE(1440)									val = (_hx_int + ((Float)0.0));
             								}
-HXDLIN(1440)								int val2 = ::Math_obj::round((val1 * iarr));
-HXDLIN(1440)								 ::__hxcpp_memory_set_byte(imgA->buffer->b,(imgA->byteOffset + (ti * 4)),val2);
+HXDLIN(1440)								int val1 = ::Math_obj::round((val * iarr5));
+HXDLIN(1440)								 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ti5),val1);
             							}
-HXDLIN(1440)							li = (li + 1);
-HXDLIN(1440)							ti = (ti + 1);
+HXDLIN(1440)							li5 = (li5 + ws1);
+HXDLIN(1440)							ti5 = (ti5 + ws1);
             						}
             					}
             				}
             			}
             		}
 HXLINE(1441)		{
-HXLINE(1441)			Float iarr1 = (( (Float)(1) ) / ( (Float)(((bx1 + bx1) + 1)) ));
-HXDLIN(1441)			int ti1;
-HXDLIN(1441)			int li1;
-HXDLIN(1441)			int ri1;
-HXDLIN(1441)			 ::Dynamic fv1;
-HXDLIN(1441)			 ::Dynamic lv1;
-HXDLIN(1441)			int val1;
+HXLINE(1441)			Float iarr6 = (( (Float)(1) ) / ( (Float)(((by1 + by1) + 1)) ));
+HXDLIN(1441)			int ws2 = (w * 4);
+HXDLIN(1441)			int ti6;
+HXDLIN(1441)			int li6;
+HXDLIN(1441)			int ri6;
+HXDLIN(1441)			 ::Dynamic fv6;
+HXDLIN(1441)			 ::Dynamic lv6;
+HXDLIN(1441)			int val6;
 HXDLIN(1441)			{
-HXLINE(1441)				int _g2 = 0;
-HXDLIN(1441)				int _g3 = h;
-HXDLIN(1441)				while((_g2 < _g3)){
-HXLINE(1441)					_g2 = (_g2 + 1);
-HXDLIN(1441)					int i = (_g2 - 1);
-HXDLIN(1441)					ti1 = (i * w);
-HXDLIN(1441)					li1 = ti1;
-HXDLIN(1441)					ri1 = (ti1 + bx1);
-HXDLIN(1441)					fv1 = ( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((ti1 * 4) + 1))) & 255);
-HXDLIN(1441)					lv1 = ( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((((ti1 + w) - 1) * 4) + 1))) & 255);
-HXDLIN(1441)					val1 = ((bx1 + 1) * ( (int)(fv1) ));
+HXLINE(1441)				int _g12 = 0;
+HXDLIN(1441)				int _g13 = w;
+HXDLIN(1441)				while((_g12 < _g13)){
+HXLINE(1441)					_g12 = (_g12 + 1);
+HXDLIN(1441)					int i = (_g12 - 1);
+HXDLIN(1441)					ti6 = ((i * 4) + 2);
+HXDLIN(1441)					li6 = ti6;
+HXDLIN(1441)					ri6 = (ti6 + (by1 * ws2));
+HXDLIN(1441)					fv6 = ( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ti6)) & 255);
+HXDLIN(1441)					lv6 = ( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + (ti6 + (ws2 * (h - 1))))) & 255);
+HXDLIN(1441)					val6 = ((by1 + 1) * ( (int)(fv6) ));
 HXDLIN(1441)					{
 HXLINE(1441)						int _g = 0;
-HXDLIN(1441)						int _g1 = bx1;
+HXDLIN(1441)						int _g1 = by1;
 HXDLIN(1441)						while((_g < _g1)){
 HXLINE(1441)							_g = (_g + 1);
 HXDLIN(1441)							int j = (_g - 1);
-HXDLIN(1441)							val1 = (val1 + ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + (((ti1 + j) * 4) + 1))) & 255)) ));
+HXDLIN(1441)							val6 = (val6 + ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + (ti6 + (j * ws2)))) & 255)) ));
             						}
             					}
 HXDLIN(1441)					{
-HXLINE(1441)						int _g3 = 0;
-HXDLIN(1441)						int _g4 = (bx1 + 1);
-HXDLIN(1441)						while((_g3 < _g4)){
-HXLINE(1441)							_g3 = (_g3 + 1);
-HXDLIN(1441)							int j = (_g3 - 1);
-HXDLIN(1441)							val1 = (val1 + (( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((ri1 * 4) + 1))) & 255)) ) - ( (int)(fv1) )));
+HXLINE(1441)						int _g2 = 0;
+HXDLIN(1441)						int _g3 = (by1 + 1);
+HXDLIN(1441)						while((_g2 < _g3)){
+HXLINE(1441)							_g2 = (_g2 + 1);
+HXDLIN(1441)							int j = (_g2 - 1);
+HXDLIN(1441)							val6 = (val6 + (( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ri6)) & 255)) ) - ( (int)(fv6) )));
 HXDLIN(1441)							{
-HXLINE(1441)								int _hx_int = val1;
+HXLINE(1441)								int _hx_int = val6;
 HXDLIN(1441)								Float val;
 HXDLIN(1441)								if ((_hx_int < 0)) {
 HXLINE(1441)									val = (((Float)4294967296.0) + _hx_int);
@@ -5346,23 +5865,23 @@ HXLINE(1441)									val = (((Float)4294967296.0) + _hx_int);
             								else {
 HXLINE(1441)									val = (_hx_int + ((Float)0.0));
             								}
-HXDLIN(1441)								int val2 = ::Math_obj::round((val * iarr1));
-HXDLIN(1441)								 ::__hxcpp_memory_set_byte(imgA->buffer->b,(imgA->byteOffset + ((ti1 * 4) + 1)),val2);
+HXDLIN(1441)								int val1 = ::Math_obj::round((val * iarr6));
+HXDLIN(1441)								 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ti6),val1);
             							}
-HXDLIN(1441)							ri1 = (ri1 + 1);
-HXDLIN(1441)							ti1 = (ti1 + 1);
+HXDLIN(1441)							ri6 = (ri6 + ws2);
+HXDLIN(1441)							ti6 = (ti6 + ws2);
             						}
             					}
 HXDLIN(1441)					{
-HXLINE(1441)						int _g5 = (bx1 + 1);
-HXDLIN(1441)						int _g6 = (w - bx1);
-HXDLIN(1441)						while((_g5 < _g6)){
-HXLINE(1441)							_g5 = (_g5 + 1);
-HXDLIN(1441)							int j = (_g5 - 1);
-HXDLIN(1441)							int a = ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((ri1 * 4) + 1))) & 255)) );
-HXDLIN(1441)							val1 = (val1 + (a - ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((li1 * 4) + 1))) & 255)) )));
+HXLINE(1441)						int _g4 = (by1 + 1);
+HXDLIN(1441)						int _g5 = (h - by1);
+HXDLIN(1441)						while((_g4 < _g5)){
+HXLINE(1441)							_g4 = (_g4 + 1);
+HXDLIN(1441)							int j = (_g4 - 1);
+HXDLIN(1441)							int a = ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ri6)) & 255)) );
+HXDLIN(1441)							val6 = (val6 + (a - ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + li6)) & 255)) )));
 HXDLIN(1441)							{
-HXLINE(1441)								int _hx_int = val1;
+HXLINE(1441)								int _hx_int = val6;
 HXDLIN(1441)								Float val;
 HXDLIN(1441)								if ((_hx_int < 0)) {
 HXLINE(1441)									val = (((Float)4294967296.0) + _hx_int);
@@ -5370,23 +5889,23 @@ HXLINE(1441)									val = (((Float)4294967296.0) + _hx_int);
             								else {
 HXLINE(1441)									val = (_hx_int + ((Float)0.0));
             								}
-HXDLIN(1441)								int val2 = ::Math_obj::round((val * iarr1));
-HXDLIN(1441)								 ::__hxcpp_memory_set_byte(imgA->buffer->b,(imgA->byteOffset + ((ti1 * 4) + 1)),val2);
+HXDLIN(1441)								int val1 = ::Math_obj::round((val * iarr6));
+HXDLIN(1441)								 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ti6),val1);
             							}
-HXDLIN(1441)							ri1 = (ri1 + 1);
-HXDLIN(1441)							li1 = (li1 + 1);
-HXDLIN(1441)							ti1 = (ti1 + 1);
+HXDLIN(1441)							li6 = (li6 + ws2);
+HXDLIN(1441)							ri6 = (ri6 + ws2);
+HXDLIN(1441)							ti6 = (ti6 + ws2);
             						}
             					}
 HXDLIN(1441)					{
-HXLINE(1441)						int _g7 = (w - bx1);
-HXDLIN(1441)						int _g8 = w;
-HXDLIN(1441)						while((_g7 < _g8)){
-HXLINE(1441)							_g7 = (_g7 + 1);
-HXDLIN(1441)							int j = (_g7 - 1);
-HXDLIN(1441)							val1 = (val1 + (( (int)(lv1) ) - ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((li1 * 4) + 1))) & 255)) )));
+HXLINE(1441)						int _g6 = (h - by1);
+HXDLIN(1441)						int _g7 = h;
+HXDLIN(1441)						while((_g6 < _g7)){
+HXLINE(1441)							_g6 = (_g6 + 1);
+HXDLIN(1441)							int j = (_g6 - 1);
+HXDLIN(1441)							val6 = (val6 + (( (int)(lv6) ) - ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + li6)) & 255)) )));
 HXDLIN(1441)							{
-HXLINE(1441)								int _hx_int = val1;
+HXLINE(1441)								int _hx_int = val6;
 HXDLIN(1441)								Float val;
 HXDLIN(1441)								if ((_hx_int < 0)) {
 HXLINE(1441)									val = (((Float)4294967296.0) + _hx_int);
@@ -5394,54 +5913,55 @@ HXLINE(1441)									val = (((Float)4294967296.0) + _hx_int);
             								else {
 HXLINE(1441)									val = (_hx_int + ((Float)0.0));
             								}
-HXDLIN(1441)								int val2 = ::Math_obj::round((val * iarr1));
-HXDLIN(1441)								 ::__hxcpp_memory_set_byte(imgA->buffer->b,(imgA->byteOffset + ((ti1 * 4) + 1)),val2);
+HXDLIN(1441)								int val1 = ::Math_obj::round((val * iarr6));
+HXDLIN(1441)								 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ti6),val1);
             							}
-HXDLIN(1441)							li1 = (li1 + 1);
-HXDLIN(1441)							ti1 = (ti1 + 1);
+HXDLIN(1441)							li6 = (li6 + ws2);
+HXDLIN(1441)							ti6 = (ti6 + ws2);
             						}
             					}
             				}
             			}
             		}
 HXLINE(1442)		{
-HXLINE(1442)			Float iarr2 = (( (Float)(1) ) / ( (Float)(((bx1 + bx1) + 1)) ));
-HXDLIN(1442)			int ti2;
-HXDLIN(1442)			int li2;
-HXDLIN(1442)			int ri2;
-HXDLIN(1442)			 ::Dynamic fv2;
-HXDLIN(1442)			 ::Dynamic lv2;
-HXDLIN(1442)			int val2;
+HXLINE(1442)			Float iarr7 = (( (Float)(1) ) / ( (Float)(((by1 + by1) + 1)) ));
+HXDLIN(1442)			int ws3 = (w * 4);
+HXDLIN(1442)			int ti7;
+HXDLIN(1442)			int li7;
+HXDLIN(1442)			int ri7;
+HXDLIN(1442)			 ::Dynamic fv7;
+HXDLIN(1442)			 ::Dynamic lv7;
+HXDLIN(1442)			int val7;
 HXDLIN(1442)			{
-HXLINE(1442)				int _g4 = 0;
-HXDLIN(1442)				int _g5 = h;
-HXDLIN(1442)				while((_g4 < _g5)){
-HXLINE(1442)					_g4 = (_g4 + 1);
-HXDLIN(1442)					int i = (_g4 - 1);
-HXDLIN(1442)					ti2 = (i * w);
-HXDLIN(1442)					li2 = ti2;
-HXDLIN(1442)					ri2 = (ti2 + bx1);
-HXDLIN(1442)					fv2 = ( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((ti2 * 4) + 2))) & 255);
-HXDLIN(1442)					lv2 = ( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((((ti2 + w) - 1) * 4) + 2))) & 255);
-HXDLIN(1442)					val2 = ((bx1 + 1) * ( (int)(fv2) ));
+HXLINE(1442)				int _g14 = 0;
+HXDLIN(1442)				int _g15 = w;
+HXDLIN(1442)				while((_g14 < _g15)){
+HXLINE(1442)					_g14 = (_g14 + 1);
+HXDLIN(1442)					int i = (_g14 - 1);
+HXDLIN(1442)					ti7 = ((i * 4) + 3);
+HXDLIN(1442)					li7 = ti7;
+HXDLIN(1442)					ri7 = (ti7 + (by1 * ws3));
+HXDLIN(1442)					fv7 = ( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ti7)) & 255);
+HXDLIN(1442)					lv7 = ( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + (ti7 + (ws3 * (h - 1))))) & 255);
+HXDLIN(1442)					val7 = ((by1 + 1) * ( (int)(fv7) ));
 HXDLIN(1442)					{
 HXLINE(1442)						int _g = 0;
-HXDLIN(1442)						int _g1 = bx1;
+HXDLIN(1442)						int _g1 = by1;
 HXDLIN(1442)						while((_g < _g1)){
 HXLINE(1442)							_g = (_g + 1);
 HXDLIN(1442)							int j = (_g - 1);
-HXDLIN(1442)							val2 = (val2 + ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + (((ti2 + j) * 4) + 2))) & 255)) ));
+HXDLIN(1442)							val7 = (val7 + ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + (ti7 + (j * ws3)))) & 255)) ));
             						}
             					}
 HXDLIN(1442)					{
 HXLINE(1442)						int _g2 = 0;
-HXDLIN(1442)						int _g3 = (bx1 + 1);
+HXDLIN(1442)						int _g3 = (by1 + 1);
 HXDLIN(1442)						while((_g2 < _g3)){
 HXLINE(1442)							_g2 = (_g2 + 1);
 HXDLIN(1442)							int j = (_g2 - 1);
-HXDLIN(1442)							val2 = (val2 + (( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((ri2 * 4) + 2))) & 255)) ) - ( (int)(fv2) )));
+HXDLIN(1442)							val7 = (val7 + (( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ri7)) & 255)) ) - ( (int)(fv7) )));
 HXDLIN(1442)							{
-HXLINE(1442)								int _hx_int = val2;
+HXLINE(1442)								int _hx_int = val7;
 HXDLIN(1442)								Float val;
 HXDLIN(1442)								if ((_hx_int < 0)) {
 HXLINE(1442)									val = (((Float)4294967296.0) + _hx_int);
@@ -5449,23 +5969,23 @@ HXLINE(1442)									val = (((Float)4294967296.0) + _hx_int);
             								else {
 HXLINE(1442)									val = (_hx_int + ((Float)0.0));
             								}
-HXDLIN(1442)								int val1 = ::Math_obj::round((val * iarr2));
-HXDLIN(1442)								 ::__hxcpp_memory_set_byte(imgA->buffer->b,(imgA->byteOffset + ((ti2 * 4) + 2)),val1);
+HXDLIN(1442)								int val1 = ::Math_obj::round((val * iarr7));
+HXDLIN(1442)								 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ti7),val1);
             							}
-HXDLIN(1442)							ri2 = (ri2 + 1);
-HXDLIN(1442)							ti2 = (ti2 + 1);
+HXDLIN(1442)							ri7 = (ri7 + ws3);
+HXDLIN(1442)							ti7 = (ti7 + ws3);
             						}
             					}
 HXDLIN(1442)					{
-HXLINE(1442)						int _g5 = (bx1 + 1);
-HXDLIN(1442)						int _g6 = (w - bx1);
-HXDLIN(1442)						while((_g5 < _g6)){
-HXLINE(1442)							_g5 = (_g5 + 1);
-HXDLIN(1442)							int j = (_g5 - 1);
-HXDLIN(1442)							int a = ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((ri2 * 4) + 2))) & 255)) );
-HXDLIN(1442)							val2 = (val2 + (a - ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((li2 * 4) + 2))) & 255)) )));
+HXLINE(1442)						int _g4 = (by1 + 1);
+HXDLIN(1442)						int _g5 = (h - by1);
+HXDLIN(1442)						while((_g4 < _g5)){
+HXLINE(1442)							_g4 = (_g4 + 1);
+HXDLIN(1442)							int j = (_g4 - 1);
+HXDLIN(1442)							int a = ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ri7)) & 255)) );
+HXDLIN(1442)							val7 = (val7 + (a - ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + li7)) & 255)) )));
 HXDLIN(1442)							{
-HXLINE(1442)								int _hx_int = val2;
+HXLINE(1442)								int _hx_int = val7;
 HXDLIN(1442)								Float val;
 HXDLIN(1442)								if ((_hx_int < 0)) {
 HXLINE(1442)									val = (((Float)4294967296.0) + _hx_int);
@@ -5473,23 +5993,23 @@ HXLINE(1442)									val = (((Float)4294967296.0) + _hx_int);
             								else {
 HXLINE(1442)									val = (_hx_int + ((Float)0.0));
             								}
-HXDLIN(1442)								int val1 = ::Math_obj::round((val * iarr2));
-HXDLIN(1442)								 ::__hxcpp_memory_set_byte(imgA->buffer->b,(imgA->byteOffset + ((ti2 * 4) + 2)),val1);
+HXDLIN(1442)								int val1 = ::Math_obj::round((val * iarr7));
+HXDLIN(1442)								 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ti7),val1);
             							}
-HXDLIN(1442)							ri2 = (ri2 + 1);
-HXDLIN(1442)							li2 = (li2 + 1);
-HXDLIN(1442)							ti2 = (ti2 + 1);
+HXDLIN(1442)							li7 = (li7 + ws3);
+HXDLIN(1442)							ri7 = (ri7 + ws3);
+HXDLIN(1442)							ti7 = (ti7 + ws3);
             						}
             					}
 HXDLIN(1442)					{
-HXLINE(1442)						int _g7 = (w - bx1);
-HXDLIN(1442)						int _g8 = w;
-HXDLIN(1442)						while((_g7 < _g8)){
-HXLINE(1442)							_g7 = (_g7 + 1);
-HXDLIN(1442)							int j = (_g7 - 1);
-HXDLIN(1442)							val2 = (val2 + (( (int)(lv2) ) - ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((li2 * 4) + 2))) & 255)) )));
+HXLINE(1442)						int _g6 = (h - by1);
+HXDLIN(1442)						int _g7 = h;
+HXDLIN(1442)						while((_g6 < _g7)){
+HXLINE(1442)							_g6 = (_g6 + 1);
+HXDLIN(1442)							int j = (_g6 - 1);
+HXDLIN(1442)							val7 = (val7 + (( (int)(lv7) ) - ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + li7)) & 255)) )));
 HXDLIN(1442)							{
-HXLINE(1442)								int _hx_int = val2;
+HXLINE(1442)								int _hx_int = val7;
 HXDLIN(1442)								Float val;
 HXDLIN(1442)								if ((_hx_int < 0)) {
 HXLINE(1442)									val = (((Float)4294967296.0) + _hx_int);
@@ -5497,530 +6017,11 @@ HXLINE(1442)									val = (((Float)4294967296.0) + _hx_int);
             								else {
 HXLINE(1442)									val = (_hx_int + ((Float)0.0));
             								}
-HXDLIN(1442)								int val1 = ::Math_obj::round((val * iarr2));
-HXDLIN(1442)								 ::__hxcpp_memory_set_byte(imgA->buffer->b,(imgA->byteOffset + ((ti2 * 4) + 2)),val1);
+HXDLIN(1442)								int val1 = ::Math_obj::round((val * iarr7));
+HXDLIN(1442)								 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ti7),val1);
             							}
-HXDLIN(1442)							li2 = (li2 + 1);
-HXDLIN(1442)							ti2 = (ti2 + 1);
-            						}
-            					}
-            				}
-            			}
-            		}
-HXLINE(1443)		{
-HXLINE(1443)			Float iarr3 = (( (Float)(1) ) / ( (Float)(((bx1 + bx1) + 1)) ));
-HXDLIN(1443)			int ti3;
-HXDLIN(1443)			int li3;
-HXDLIN(1443)			int ri3;
-HXDLIN(1443)			 ::Dynamic fv3;
-HXDLIN(1443)			 ::Dynamic lv3;
-HXDLIN(1443)			int val3;
-HXDLIN(1443)			{
-HXLINE(1443)				int _g6 = 0;
-HXDLIN(1443)				int _g7 = h;
-HXDLIN(1443)				while((_g6 < _g7)){
-HXLINE(1443)					_g6 = (_g6 + 1);
-HXDLIN(1443)					int i = (_g6 - 1);
-HXDLIN(1443)					ti3 = (i * w);
-HXDLIN(1443)					li3 = ti3;
-HXDLIN(1443)					ri3 = (ti3 + bx1);
-HXDLIN(1443)					fv3 = ( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((ti3 * 4) + 3))) & 255);
-HXDLIN(1443)					lv3 = ( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((((ti3 + w) - 1) * 4) + 3))) & 255);
-HXDLIN(1443)					val3 = ((bx1 + 1) * ( (int)(fv3) ));
-HXDLIN(1443)					{
-HXLINE(1443)						int _g = 0;
-HXDLIN(1443)						int _g1 = bx1;
-HXDLIN(1443)						while((_g < _g1)){
-HXLINE(1443)							_g = (_g + 1);
-HXDLIN(1443)							int j = (_g - 1);
-HXDLIN(1443)							val3 = (val3 + ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + (((ti3 + j) * 4) + 3))) & 255)) ));
-            						}
-            					}
-HXDLIN(1443)					{
-HXLINE(1443)						int _g2 = 0;
-HXDLIN(1443)						int _g3 = (bx1 + 1);
-HXDLIN(1443)						while((_g2 < _g3)){
-HXLINE(1443)							_g2 = (_g2 + 1);
-HXDLIN(1443)							int j = (_g2 - 1);
-HXDLIN(1443)							val3 = (val3 + (( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((ri3 * 4) + 3))) & 255)) ) - ( (int)(fv3) )));
-HXDLIN(1443)							{
-HXLINE(1443)								int _hx_int = val3;
-HXDLIN(1443)								Float val;
-HXDLIN(1443)								if ((_hx_int < 0)) {
-HXLINE(1443)									val = (((Float)4294967296.0) + _hx_int);
-            								}
-            								else {
-HXLINE(1443)									val = (_hx_int + ((Float)0.0));
-            								}
-HXDLIN(1443)								int val1 = ::Math_obj::round((val * iarr3));
-HXDLIN(1443)								 ::__hxcpp_memory_set_byte(imgA->buffer->b,(imgA->byteOffset + ((ti3 * 4) + 3)),val1);
-            							}
-HXDLIN(1443)							ri3 = (ri3 + 1);
-HXDLIN(1443)							ti3 = (ti3 + 1);
-            						}
-            					}
-HXDLIN(1443)					{
-HXLINE(1443)						int _g4 = (bx1 + 1);
-HXDLIN(1443)						int _g5 = (w - bx1);
-HXDLIN(1443)						while((_g4 < _g5)){
-HXLINE(1443)							_g4 = (_g4 + 1);
-HXDLIN(1443)							int j = (_g4 - 1);
-HXDLIN(1443)							int a = ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((ri3 * 4) + 3))) & 255)) );
-HXDLIN(1443)							val3 = (val3 + (a - ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((li3 * 4) + 3))) & 255)) )));
-HXDLIN(1443)							{
-HXLINE(1443)								int _hx_int = val3;
-HXDLIN(1443)								Float val;
-HXDLIN(1443)								if ((_hx_int < 0)) {
-HXLINE(1443)									val = (((Float)4294967296.0) + _hx_int);
-            								}
-            								else {
-HXLINE(1443)									val = (_hx_int + ((Float)0.0));
-            								}
-HXDLIN(1443)								int val1 = ::Math_obj::round((val * iarr3));
-HXDLIN(1443)								 ::__hxcpp_memory_set_byte(imgA->buffer->b,(imgA->byteOffset + ((ti3 * 4) + 3)),val1);
-            							}
-HXDLIN(1443)							ri3 = (ri3 + 1);
-HXDLIN(1443)							li3 = (li3 + 1);
-HXDLIN(1443)							ti3 = (ti3 + 1);
-            						}
-            					}
-HXDLIN(1443)					{
-HXLINE(1443)						int _g7 = (w - bx1);
-HXDLIN(1443)						int _g8 = w;
-HXDLIN(1443)						while((_g7 < _g8)){
-HXLINE(1443)							_g7 = (_g7 + 1);
-HXDLIN(1443)							int j = (_g7 - 1);
-HXDLIN(1443)							val3 = (val3 + (( (int)(lv3) ) - ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + ((li3 * 4) + 3))) & 255)) )));
-HXDLIN(1443)							{
-HXLINE(1443)								int _hx_int = val3;
-HXDLIN(1443)								Float val;
-HXDLIN(1443)								if ((_hx_int < 0)) {
-HXLINE(1443)									val = (((Float)4294967296.0) + _hx_int);
-            								}
-            								else {
-HXLINE(1443)									val = (_hx_int + ((Float)0.0));
-            								}
-HXDLIN(1443)								int val1 = ::Math_obj::round((val * iarr3));
-HXDLIN(1443)								 ::__hxcpp_memory_set_byte(imgA->buffer->b,(imgA->byteOffset + ((ti3 * 4) + 3)),val1);
-            							}
-HXDLIN(1443)							li3 = (li3 + 1);
-HXDLIN(1443)							ti3 = (ti3 + 1);
-            						}
-            					}
-            				}
-            			}
-            		}
-HXLINE(1445)		{
-HXLINE(1445)			Float iarr4 = (( (Float)(1) ) / ( (Float)(((by1 + by1) + 1)) ));
-HXDLIN(1445)			int ws = (w * 4);
-HXDLIN(1445)			int ti4;
-HXDLIN(1445)			int li4;
-HXDLIN(1445)			int ri4;
-HXDLIN(1445)			 ::Dynamic fv4;
-HXDLIN(1445)			 ::Dynamic lv4;
-HXDLIN(1445)			int val4;
-HXDLIN(1445)			{
-HXLINE(1445)				int _g8 = 0;
-HXDLIN(1445)				int _g9 = w;
-HXDLIN(1445)				while((_g8 < _g9)){
-HXLINE(1445)					_g8 = (_g8 + 1);
-HXDLIN(1445)					int i = (_g8 - 1);
-HXDLIN(1445)					ti4 = (i * 4);
-HXDLIN(1445)					li4 = ti4;
-HXDLIN(1445)					ri4 = (ti4 + (by1 * ws));
-HXDLIN(1445)					fv4 = ( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ti4)) & 255);
-HXDLIN(1445)					lv4 = ( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + (ti4 + (ws * (h - 1))))) & 255);
-HXDLIN(1445)					val4 = ((by1 + 1) * ( (int)(fv4) ));
-HXDLIN(1445)					{
-HXLINE(1445)						int _g = 0;
-HXDLIN(1445)						int _g1 = by1;
-HXDLIN(1445)						while((_g < _g1)){
-HXLINE(1445)							_g = (_g + 1);
-HXDLIN(1445)							int j = (_g - 1);
-HXDLIN(1445)							val4 = (val4 + ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + (ti4 + (j * ws)))) & 255)) ));
-            						}
-            					}
-HXDLIN(1445)					{
-HXLINE(1445)						int _g2 = 0;
-HXDLIN(1445)						int _g3 = (by1 + 1);
-HXDLIN(1445)						while((_g2 < _g3)){
-HXLINE(1445)							_g2 = (_g2 + 1);
-HXDLIN(1445)							int j = (_g2 - 1);
-HXDLIN(1445)							val4 = (val4 + (( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ri4)) & 255)) ) - ( (int)(fv4) )));
-HXDLIN(1445)							{
-HXLINE(1445)								int _hx_int = val4;
-HXDLIN(1445)								Float val;
-HXDLIN(1445)								if ((_hx_int < 0)) {
-HXLINE(1445)									val = (((Float)4294967296.0) + _hx_int);
-            								}
-            								else {
-HXLINE(1445)									val = (_hx_int + ((Float)0.0));
-            								}
-HXDLIN(1445)								int val1 = ::Math_obj::round((val * iarr4));
-HXDLIN(1445)								 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ti4),val1);
-            							}
-HXDLIN(1445)							ri4 = (ri4 + ws);
-HXDLIN(1445)							ti4 = (ti4 + ws);
-            						}
-            					}
-HXDLIN(1445)					{
-HXLINE(1445)						int _g4 = (by1 + 1);
-HXDLIN(1445)						int _g5 = (h - by1);
-HXDLIN(1445)						while((_g4 < _g5)){
-HXLINE(1445)							_g4 = (_g4 + 1);
-HXDLIN(1445)							int j = (_g4 - 1);
-HXDLIN(1445)							int a = ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ri4)) & 255)) );
-HXDLIN(1445)							val4 = (val4 + (a - ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + li4)) & 255)) )));
-HXDLIN(1445)							{
-HXLINE(1445)								int _hx_int = val4;
-HXDLIN(1445)								Float val;
-HXDLIN(1445)								if ((_hx_int < 0)) {
-HXLINE(1445)									val = (((Float)4294967296.0) + _hx_int);
-            								}
-            								else {
-HXLINE(1445)									val = (_hx_int + ((Float)0.0));
-            								}
-HXDLIN(1445)								int val1 = ::Math_obj::round((val * iarr4));
-HXDLIN(1445)								 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ti4),val1);
-            							}
-HXDLIN(1445)							li4 = (li4 + ws);
-HXDLIN(1445)							ri4 = (ri4 + ws);
-HXDLIN(1445)							ti4 = (ti4 + ws);
-            						}
-            					}
-HXDLIN(1445)					{
-HXLINE(1445)						int _g6 = (h - by1);
-HXDLIN(1445)						int _g7 = h;
-HXDLIN(1445)						while((_g6 < _g7)){
-HXLINE(1445)							_g6 = (_g6 + 1);
-HXDLIN(1445)							int j = (_g6 - 1);
-HXDLIN(1445)							val4 = (val4 + (( (int)(lv4) ) - ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + li4)) & 255)) )));
-HXDLIN(1445)							{
-HXLINE(1445)								int _hx_int = val4;
-HXDLIN(1445)								Float val;
-HXDLIN(1445)								if ((_hx_int < 0)) {
-HXLINE(1445)									val = (((Float)4294967296.0) + _hx_int);
-            								}
-            								else {
-HXLINE(1445)									val = (_hx_int + ((Float)0.0));
-            								}
-HXDLIN(1445)								int val1 = ::Math_obj::round((val * iarr4));
-HXDLIN(1445)								 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ti4),val1);
-            							}
-HXDLIN(1445)							li4 = (li4 + ws);
-HXDLIN(1445)							ti4 = (ti4 + ws);
-            						}
-            					}
-            				}
-            			}
-            		}
-HXLINE(1446)		{
-HXLINE(1446)			Float iarr5 = (( (Float)(1) ) / ( (Float)(((by1 + by1) + 1)) ));
-HXDLIN(1446)			int ws1 = (w * 4);
-HXDLIN(1446)			int ti5;
-HXDLIN(1446)			int li5;
-HXDLIN(1446)			int ri5;
-HXDLIN(1446)			 ::Dynamic fv5;
-HXDLIN(1446)			 ::Dynamic lv5;
-HXDLIN(1446)			int val5;
-HXDLIN(1446)			{
-HXLINE(1446)				int _g10 = 0;
-HXDLIN(1446)				int _g11 = w;
-HXDLIN(1446)				while((_g10 < _g11)){
-HXLINE(1446)					_g10 = (_g10 + 1);
-HXDLIN(1446)					int i = (_g10 - 1);
-HXDLIN(1446)					ti5 = ((i * 4) + 1);
-HXDLIN(1446)					li5 = ti5;
-HXDLIN(1446)					ri5 = (ti5 + (by1 * ws1));
-HXDLIN(1446)					fv5 = ( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ti5)) & 255);
-HXDLIN(1446)					lv5 = ( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + (ti5 + (ws1 * (h - 1))))) & 255);
-HXDLIN(1446)					val5 = ((by1 + 1) * ( (int)(fv5) ));
-HXDLIN(1446)					{
-HXLINE(1446)						int _g = 0;
-HXDLIN(1446)						int _g1 = by1;
-HXDLIN(1446)						while((_g < _g1)){
-HXLINE(1446)							_g = (_g + 1);
-HXDLIN(1446)							int j = (_g - 1);
-HXDLIN(1446)							val5 = (val5 + ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + (ti5 + (j * ws1)))) & 255)) ));
-            						}
-            					}
-HXDLIN(1446)					{
-HXLINE(1446)						int _g2 = 0;
-HXDLIN(1446)						int _g3 = (by1 + 1);
-HXDLIN(1446)						while((_g2 < _g3)){
-HXLINE(1446)							_g2 = (_g2 + 1);
-HXDLIN(1446)							int j = (_g2 - 1);
-HXDLIN(1446)							val5 = (val5 + (( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ri5)) & 255)) ) - ( (int)(fv5) )));
-HXDLIN(1446)							{
-HXLINE(1446)								int _hx_int = val5;
-HXDLIN(1446)								Float val;
-HXDLIN(1446)								if ((_hx_int < 0)) {
-HXLINE(1446)									val = (((Float)4294967296.0) + _hx_int);
-            								}
-            								else {
-HXLINE(1446)									val = (_hx_int + ((Float)0.0));
-            								}
-HXDLIN(1446)								int val1 = ::Math_obj::round((val * iarr5));
-HXDLIN(1446)								 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ti5),val1);
-            							}
-HXDLIN(1446)							ri5 = (ri5 + ws1);
-HXDLIN(1446)							ti5 = (ti5 + ws1);
-            						}
-            					}
-HXDLIN(1446)					{
-HXLINE(1446)						int _g4 = (by1 + 1);
-HXDLIN(1446)						int _g5 = (h - by1);
-HXDLIN(1446)						while((_g4 < _g5)){
-HXLINE(1446)							_g4 = (_g4 + 1);
-HXDLIN(1446)							int j = (_g4 - 1);
-HXDLIN(1446)							int a = ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ri5)) & 255)) );
-HXDLIN(1446)							val5 = (val5 + (a - ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + li5)) & 255)) )));
-HXDLIN(1446)							{
-HXLINE(1446)								int _hx_int = val5;
-HXDLIN(1446)								Float val;
-HXDLIN(1446)								if ((_hx_int < 0)) {
-HXLINE(1446)									val = (((Float)4294967296.0) + _hx_int);
-            								}
-            								else {
-HXLINE(1446)									val = (_hx_int + ((Float)0.0));
-            								}
-HXDLIN(1446)								int val1 = ::Math_obj::round((val * iarr5));
-HXDLIN(1446)								 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ti5),val1);
-            							}
-HXDLIN(1446)							li5 = (li5 + ws1);
-HXDLIN(1446)							ri5 = (ri5 + ws1);
-HXDLIN(1446)							ti5 = (ti5 + ws1);
-            						}
-            					}
-HXDLIN(1446)					{
-HXLINE(1446)						int _g6 = (h - by1);
-HXDLIN(1446)						int _g7 = h;
-HXDLIN(1446)						while((_g6 < _g7)){
-HXLINE(1446)							_g6 = (_g6 + 1);
-HXDLIN(1446)							int j = (_g6 - 1);
-HXDLIN(1446)							val5 = (val5 + (( (int)(lv5) ) - ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + li5)) & 255)) )));
-HXDLIN(1446)							{
-HXLINE(1446)								int _hx_int = val5;
-HXDLIN(1446)								Float val;
-HXDLIN(1446)								if ((_hx_int < 0)) {
-HXLINE(1446)									val = (((Float)4294967296.0) + _hx_int);
-            								}
-            								else {
-HXLINE(1446)									val = (_hx_int + ((Float)0.0));
-            								}
-HXDLIN(1446)								int val1 = ::Math_obj::round((val * iarr5));
-HXDLIN(1446)								 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ti5),val1);
-            							}
-HXDLIN(1446)							li5 = (li5 + ws1);
-HXDLIN(1446)							ti5 = (ti5 + ws1);
-            						}
-            					}
-            				}
-            			}
-            		}
-HXLINE(1447)		{
-HXLINE(1447)			Float iarr6 = (( (Float)(1) ) / ( (Float)(((by1 + by1) + 1)) ));
-HXDLIN(1447)			int ws2 = (w * 4);
-HXDLIN(1447)			int ti6;
-HXDLIN(1447)			int li6;
-HXDLIN(1447)			int ri6;
-HXDLIN(1447)			 ::Dynamic fv6;
-HXDLIN(1447)			 ::Dynamic lv6;
-HXDLIN(1447)			int val6;
-HXDLIN(1447)			{
-HXLINE(1447)				int _g12 = 0;
-HXDLIN(1447)				int _g13 = w;
-HXDLIN(1447)				while((_g12 < _g13)){
-HXLINE(1447)					_g12 = (_g12 + 1);
-HXDLIN(1447)					int i = (_g12 - 1);
-HXDLIN(1447)					ti6 = ((i * 4) + 2);
-HXDLIN(1447)					li6 = ti6;
-HXDLIN(1447)					ri6 = (ti6 + (by1 * ws2));
-HXDLIN(1447)					fv6 = ( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ti6)) & 255);
-HXDLIN(1447)					lv6 = ( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + (ti6 + (ws2 * (h - 1))))) & 255);
-HXDLIN(1447)					val6 = ((by1 + 1) * ( (int)(fv6) ));
-HXDLIN(1447)					{
-HXLINE(1447)						int _g = 0;
-HXDLIN(1447)						int _g1 = by1;
-HXDLIN(1447)						while((_g < _g1)){
-HXLINE(1447)							_g = (_g + 1);
-HXDLIN(1447)							int j = (_g - 1);
-HXDLIN(1447)							val6 = (val6 + ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + (ti6 + (j * ws2)))) & 255)) ));
-            						}
-            					}
-HXDLIN(1447)					{
-HXLINE(1447)						int _g2 = 0;
-HXDLIN(1447)						int _g3 = (by1 + 1);
-HXDLIN(1447)						while((_g2 < _g3)){
-HXLINE(1447)							_g2 = (_g2 + 1);
-HXDLIN(1447)							int j = (_g2 - 1);
-HXDLIN(1447)							val6 = (val6 + (( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ri6)) & 255)) ) - ( (int)(fv6) )));
-HXDLIN(1447)							{
-HXLINE(1447)								int _hx_int = val6;
-HXDLIN(1447)								Float val;
-HXDLIN(1447)								if ((_hx_int < 0)) {
-HXLINE(1447)									val = (((Float)4294967296.0) + _hx_int);
-            								}
-            								else {
-HXLINE(1447)									val = (_hx_int + ((Float)0.0));
-            								}
-HXDLIN(1447)								int val1 = ::Math_obj::round((val * iarr6));
-HXDLIN(1447)								 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ti6),val1);
-            							}
-HXDLIN(1447)							ri6 = (ri6 + ws2);
-HXDLIN(1447)							ti6 = (ti6 + ws2);
-            						}
-            					}
-HXDLIN(1447)					{
-HXLINE(1447)						int _g4 = (by1 + 1);
-HXDLIN(1447)						int _g5 = (h - by1);
-HXDLIN(1447)						while((_g4 < _g5)){
-HXLINE(1447)							_g4 = (_g4 + 1);
-HXDLIN(1447)							int j = (_g4 - 1);
-HXDLIN(1447)							int a = ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ri6)) & 255)) );
-HXDLIN(1447)							val6 = (val6 + (a - ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + li6)) & 255)) )));
-HXDLIN(1447)							{
-HXLINE(1447)								int _hx_int = val6;
-HXDLIN(1447)								Float val;
-HXDLIN(1447)								if ((_hx_int < 0)) {
-HXLINE(1447)									val = (((Float)4294967296.0) + _hx_int);
-            								}
-            								else {
-HXLINE(1447)									val = (_hx_int + ((Float)0.0));
-            								}
-HXDLIN(1447)								int val1 = ::Math_obj::round((val * iarr6));
-HXDLIN(1447)								 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ti6),val1);
-            							}
-HXDLIN(1447)							li6 = (li6 + ws2);
-HXDLIN(1447)							ri6 = (ri6 + ws2);
-HXDLIN(1447)							ti6 = (ti6 + ws2);
-            						}
-            					}
-HXDLIN(1447)					{
-HXLINE(1447)						int _g6 = (h - by1);
-HXDLIN(1447)						int _g7 = h;
-HXDLIN(1447)						while((_g6 < _g7)){
-HXLINE(1447)							_g6 = (_g6 + 1);
-HXDLIN(1447)							int j = (_g6 - 1);
-HXDLIN(1447)							val6 = (val6 + (( (int)(lv6) ) - ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + li6)) & 255)) )));
-HXDLIN(1447)							{
-HXLINE(1447)								int _hx_int = val6;
-HXDLIN(1447)								Float val;
-HXDLIN(1447)								if ((_hx_int < 0)) {
-HXLINE(1447)									val = (((Float)4294967296.0) + _hx_int);
-            								}
-            								else {
-HXLINE(1447)									val = (_hx_int + ((Float)0.0));
-            								}
-HXDLIN(1447)								int val1 = ::Math_obj::round((val * iarr6));
-HXDLIN(1447)								 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ti6),val1);
-            							}
-HXDLIN(1447)							li6 = (li6 + ws2);
-HXDLIN(1447)							ti6 = (ti6 + ws2);
-            						}
-            					}
-            				}
-            			}
-            		}
-HXLINE(1448)		{
-HXLINE(1448)			Float iarr7 = (( (Float)(1) ) / ( (Float)(((by1 + by1) + 1)) ));
-HXDLIN(1448)			int ws3 = (w * 4);
-HXDLIN(1448)			int ti7;
-HXDLIN(1448)			int li7;
-HXDLIN(1448)			int ri7;
-HXDLIN(1448)			 ::Dynamic fv7;
-HXDLIN(1448)			 ::Dynamic lv7;
-HXDLIN(1448)			int val7;
-HXDLIN(1448)			{
-HXLINE(1448)				int _g14 = 0;
-HXDLIN(1448)				int _g15 = w;
-HXDLIN(1448)				while((_g14 < _g15)){
-HXLINE(1448)					_g14 = (_g14 + 1);
-HXDLIN(1448)					int i = (_g14 - 1);
-HXDLIN(1448)					ti7 = ((i * 4) + 3);
-HXDLIN(1448)					li7 = ti7;
-HXDLIN(1448)					ri7 = (ti7 + (by1 * ws3));
-HXDLIN(1448)					fv7 = ( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ti7)) & 255);
-HXDLIN(1448)					lv7 = ( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + (ti7 + (ws3 * (h - 1))))) & 255);
-HXDLIN(1448)					val7 = ((by1 + 1) * ( (int)(fv7) ));
-HXDLIN(1448)					{
-HXLINE(1448)						int _g = 0;
-HXDLIN(1448)						int _g1 = by1;
-HXDLIN(1448)						while((_g < _g1)){
-HXLINE(1448)							_g = (_g + 1);
-HXDLIN(1448)							int j = (_g - 1);
-HXDLIN(1448)							val7 = (val7 + ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + (ti7 + (j * ws3)))) & 255)) ));
-            						}
-            					}
-HXDLIN(1448)					{
-HXLINE(1448)						int _g2 = 0;
-HXDLIN(1448)						int _g3 = (by1 + 1);
-HXDLIN(1448)						while((_g2 < _g3)){
-HXLINE(1448)							_g2 = (_g2 + 1);
-HXDLIN(1448)							int j = (_g2 - 1);
-HXDLIN(1448)							val7 = (val7 + (( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ri7)) & 255)) ) - ( (int)(fv7) )));
-HXDLIN(1448)							{
-HXLINE(1448)								int _hx_int = val7;
-HXDLIN(1448)								Float val;
-HXDLIN(1448)								if ((_hx_int < 0)) {
-HXLINE(1448)									val = (((Float)4294967296.0) + _hx_int);
-            								}
-            								else {
-HXLINE(1448)									val = (_hx_int + ((Float)0.0));
-            								}
-HXDLIN(1448)								int val1 = ::Math_obj::round((val * iarr7));
-HXDLIN(1448)								 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ti7),val1);
-            							}
-HXDLIN(1448)							ri7 = (ri7 + ws3);
-HXDLIN(1448)							ti7 = (ti7 + ws3);
-            						}
-            					}
-HXDLIN(1448)					{
-HXLINE(1448)						int _g4 = (by1 + 1);
-HXDLIN(1448)						int _g5 = (h - by1);
-HXDLIN(1448)						while((_g4 < _g5)){
-HXLINE(1448)							_g4 = (_g4 + 1);
-HXDLIN(1448)							int j = (_g4 - 1);
-HXDLIN(1448)							int a = ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ri7)) & 255)) );
-HXDLIN(1448)							val7 = (val7 + (a - ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + li7)) & 255)) )));
-HXDLIN(1448)							{
-HXLINE(1448)								int _hx_int = val7;
-HXDLIN(1448)								Float val;
-HXDLIN(1448)								if ((_hx_int < 0)) {
-HXLINE(1448)									val = (((Float)4294967296.0) + _hx_int);
-            								}
-            								else {
-HXLINE(1448)									val = (_hx_int + ((Float)0.0));
-            								}
-HXDLIN(1448)								int val1 = ::Math_obj::round((val * iarr7));
-HXDLIN(1448)								 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ti7),val1);
-            							}
-HXDLIN(1448)							li7 = (li7 + ws3);
-HXDLIN(1448)							ri7 = (ri7 + ws3);
-HXDLIN(1448)							ti7 = (ti7 + ws3);
-            						}
-            					}
-HXDLIN(1448)					{
-HXLINE(1448)						int _g6 = (h - by1);
-HXDLIN(1448)						int _g7 = h;
-HXDLIN(1448)						while((_g6 < _g7)){
-HXLINE(1448)							_g6 = (_g6 + 1);
-HXDLIN(1448)							int j = (_g6 - 1);
-HXDLIN(1448)							val7 = (val7 + (( (int)(lv7) ) - ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + li7)) & 255)) )));
-HXDLIN(1448)							{
-HXLINE(1448)								int _hx_int = val7;
-HXDLIN(1448)								Float val;
-HXDLIN(1448)								if ((_hx_int < 0)) {
-HXLINE(1448)									val = (((Float)4294967296.0) + _hx_int);
-            								}
-            								else {
-HXLINE(1448)									val = (_hx_int + ((Float)0.0));
-            								}
-HXDLIN(1448)								int val1 = ::Math_obj::round((val * iarr7));
-HXDLIN(1448)								 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ti7),val1);
-            							}
-HXDLIN(1448)							li7 = (li7 + ws3);
-HXDLIN(1448)							ti7 = (ti7 + ws3);
+HXDLIN(1442)							li7 = (li7 + ws3);
+HXDLIN(1442)							ti7 = (ti7 + ws3);
             						}
             					}
             				}
@@ -6032,104 +6033,104 @@ HXDLIN(1448)							ti7 = (ti7 + ws3);
 STATIC_HX_DEFINE_DYNAMIC_FUNC6(ImageDataUtil_obj,_hx___boxBlur,(void))
 
 void ImageDataUtil_obj::_hx___boxBlurH( ::lime::utils::ArrayBufferView imgA, ::lime::utils::ArrayBufferView imgB,int w,int h,int r,int off){
-            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_1452___boxBlurH)
-HXLINE(1453)		Float iarr = (( (Float)(1) ) / ( (Float)(((r + r) + 1)) ));
-HXLINE(1454)		int ti;
-HXDLIN(1454)		int li;
-HXDLIN(1454)		int ri;
-HXDLIN(1454)		 ::Dynamic fv;
-HXDLIN(1454)		 ::Dynamic lv;
-HXDLIN(1454)		int val;
-HXLINE(1456)		{
-HXLINE(1456)			int _g = 0;
-HXDLIN(1456)			int _g1 = h;
-HXDLIN(1456)			while((_g < _g1)){
-HXLINE(1456)				_g = (_g + 1);
-HXDLIN(1456)				int i = (_g - 1);
-HXLINE(1458)				ti = (i * w);
-HXLINE(1459)				li = ti;
-HXLINE(1460)				ri = (ti + r);
-HXLINE(1462)				fv = ( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ((ti * 4) + off))) & 255);
-HXLINE(1463)				lv = ( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ((((ti + w) - 1) * 4) + off))) & 255);
-HXLINE(1464)				val = ((r + 1) * ( (int)(fv) ));
-HXLINE(1466)				{
-HXLINE(1466)					int _g1 = 0;
-HXDLIN(1466)					int _g2 = r;
-HXDLIN(1466)					while((_g1 < _g2)){
-HXLINE(1466)						_g1 = (_g1 + 1);
-HXDLIN(1466)						int j = (_g1 - 1);
-HXLINE(1468)						val = (val + ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + (((ti + j) * 4) + off))) & 255)) ));
+            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_1446___boxBlurH)
+HXLINE(1447)		Float iarr = (( (Float)(1) ) / ( (Float)(((r + r) + 1)) ));
+HXLINE(1448)		int ti;
+HXDLIN(1448)		int li;
+HXDLIN(1448)		int ri;
+HXDLIN(1448)		 ::Dynamic fv;
+HXDLIN(1448)		 ::Dynamic lv;
+HXDLIN(1448)		int val;
+HXLINE(1450)		{
+HXLINE(1450)			int _g = 0;
+HXDLIN(1450)			int _g1 = h;
+HXDLIN(1450)			while((_g < _g1)){
+HXLINE(1450)				_g = (_g + 1);
+HXDLIN(1450)				int i = (_g - 1);
+HXLINE(1452)				ti = (i * w);
+HXLINE(1453)				li = ti;
+HXLINE(1454)				ri = (ti + r);
+HXLINE(1456)				fv = ( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ((ti * 4) + off))) & 255);
+HXLINE(1457)				lv = ( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ((((ti + w) - 1) * 4) + off))) & 255);
+HXLINE(1458)				val = ((r + 1) * ( (int)(fv) ));
+HXLINE(1460)				{
+HXLINE(1460)					int _g1 = 0;
+HXDLIN(1460)					int _g2 = r;
+HXDLIN(1460)					while((_g1 < _g2)){
+HXLINE(1460)						_g1 = (_g1 + 1);
+HXDLIN(1460)						int j = (_g1 - 1);
+HXLINE(1462)						val = (val + ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + (((ti + j) * 4) + off))) & 255)) ));
             					}
             				}
-HXLINE(1471)				{
-HXLINE(1471)					int _g3 = 0;
-HXDLIN(1471)					int _g4 = (r + 1);
-HXDLIN(1471)					while((_g3 < _g4)){
-HXLINE(1471)						_g3 = (_g3 + 1);
-HXDLIN(1471)						int j = (_g3 - 1);
-HXLINE(1473)						val = (val + (( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ((ri * 4) + off))) & 255)) ) - ( (int)(fv) )));
-HXLINE(1474)						{
-HXLINE(1474)							int _hx_int = val;
-HXDLIN(1474)							Float val1;
-HXDLIN(1474)							if ((_hx_int < 0)) {
-HXLINE(1474)								val1 = (((Float)4294967296.0) + _hx_int);
+HXLINE(1465)				{
+HXLINE(1465)					int _g3 = 0;
+HXDLIN(1465)					int _g4 = (r + 1);
+HXDLIN(1465)					while((_g3 < _g4)){
+HXLINE(1465)						_g3 = (_g3 + 1);
+HXDLIN(1465)						int j = (_g3 - 1);
+HXLINE(1467)						val = (val + (( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ((ri * 4) + off))) & 255)) ) - ( (int)(fv) )));
+HXLINE(1468)						{
+HXLINE(1468)							int _hx_int = val;
+HXDLIN(1468)							Float val1;
+HXDLIN(1468)							if ((_hx_int < 0)) {
+HXLINE(1468)								val1 = (((Float)4294967296.0) + _hx_int);
             							}
             							else {
-HXLINE(1474)								val1 = (_hx_int + ((Float)0.0));
+HXLINE(1468)								val1 = (_hx_int + ((Float)0.0));
             							}
-HXDLIN(1474)							int val2 = ::Math_obj::round((val1 * iarr));
-HXDLIN(1474)							 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ((ti * 4) + off)),val2);
+HXDLIN(1468)							int val2 = ::Math_obj::round((val1 * iarr));
+HXDLIN(1468)							 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ((ti * 4) + off)),val2);
             						}
-HXLINE(1475)						ri = (ri + 1);
-HXLINE(1476)						ti = (ti + 1);
+HXLINE(1469)						ri = (ri + 1);
+HXLINE(1470)						ti = (ti + 1);
             					}
             				}
-HXLINE(1479)				{
-HXLINE(1479)					int _g5 = (r + 1);
-HXDLIN(1479)					int _g6 = (w - r);
-HXDLIN(1479)					while((_g5 < _g6)){
-HXLINE(1479)						_g5 = (_g5 + 1);
-HXDLIN(1479)						int j = (_g5 - 1);
-HXLINE(1481)						int a = ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ((ri * 4) + off))) & 255)) );
-HXDLIN(1481)						val = (val + (a - ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ((li * 4) + off))) & 255)) )));
-HXLINE(1482)						{
-HXLINE(1482)							int _hx_int = val;
-HXDLIN(1482)							Float val1;
-HXDLIN(1482)							if ((_hx_int < 0)) {
-HXLINE(1482)								val1 = (((Float)4294967296.0) + _hx_int);
+HXLINE(1473)				{
+HXLINE(1473)					int _g5 = (r + 1);
+HXDLIN(1473)					int _g6 = (w - r);
+HXDLIN(1473)					while((_g5 < _g6)){
+HXLINE(1473)						_g5 = (_g5 + 1);
+HXDLIN(1473)						int j = (_g5 - 1);
+HXLINE(1475)						int a = ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ((ri * 4) + off))) & 255)) );
+HXDLIN(1475)						val = (val + (a - ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ((li * 4) + off))) & 255)) )));
+HXLINE(1476)						{
+HXLINE(1476)							int _hx_int = val;
+HXDLIN(1476)							Float val1;
+HXDLIN(1476)							if ((_hx_int < 0)) {
+HXLINE(1476)								val1 = (((Float)4294967296.0) + _hx_int);
             							}
             							else {
-HXLINE(1482)								val1 = (_hx_int + ((Float)0.0));
+HXLINE(1476)								val1 = (_hx_int + ((Float)0.0));
             							}
-HXDLIN(1482)							int val2 = ::Math_obj::round((val1 * iarr));
-HXDLIN(1482)							 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ((ti * 4) + off)),val2);
+HXDLIN(1476)							int val2 = ::Math_obj::round((val1 * iarr));
+HXDLIN(1476)							 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ((ti * 4) + off)),val2);
             						}
-HXLINE(1483)						ri = (ri + 1);
-HXLINE(1484)						li = (li + 1);
-HXLINE(1485)						ti = (ti + 1);
+HXLINE(1477)						ri = (ri + 1);
+HXLINE(1478)						li = (li + 1);
+HXLINE(1479)						ti = (ti + 1);
             					}
             				}
-HXLINE(1488)				{
-HXLINE(1488)					int _g7 = (w - r);
-HXDLIN(1488)					int _g8 = w;
-HXDLIN(1488)					while((_g7 < _g8)){
-HXLINE(1488)						_g7 = (_g7 + 1);
-HXDLIN(1488)						int j = (_g7 - 1);
-HXLINE(1490)						val = (val + (( (int)(lv) ) - ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ((li * 4) + off))) & 255)) )));
-HXLINE(1491)						{
-HXLINE(1491)							int _hx_int = val;
-HXDLIN(1491)							Float val1;
-HXDLIN(1491)							if ((_hx_int < 0)) {
-HXLINE(1491)								val1 = (((Float)4294967296.0) + _hx_int);
+HXLINE(1482)				{
+HXLINE(1482)					int _g7 = (w - r);
+HXDLIN(1482)					int _g8 = w;
+HXDLIN(1482)					while((_g7 < _g8)){
+HXLINE(1482)						_g7 = (_g7 + 1);
+HXDLIN(1482)						int j = (_g7 - 1);
+HXLINE(1484)						val = (val + (( (int)(lv) ) - ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ((li * 4) + off))) & 255)) )));
+HXLINE(1485)						{
+HXLINE(1485)							int _hx_int = val;
+HXDLIN(1485)							Float val1;
+HXDLIN(1485)							if ((_hx_int < 0)) {
+HXLINE(1485)								val1 = (((Float)4294967296.0) + _hx_int);
             							}
             							else {
-HXLINE(1491)								val1 = (_hx_int + ((Float)0.0));
+HXLINE(1485)								val1 = (_hx_int + ((Float)0.0));
             							}
-HXDLIN(1491)							int val2 = ::Math_obj::round((val1 * iarr));
-HXDLIN(1491)							 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ((ti * 4) + off)),val2);
+HXDLIN(1485)							int val2 = ::Math_obj::round((val1 * iarr));
+HXDLIN(1485)							 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ((ti * 4) + off)),val2);
             						}
-HXLINE(1492)						li = (li + 1);
-HXLINE(1493)						ti = (ti + 1);
+HXLINE(1486)						li = (li + 1);
+HXLINE(1487)						ti = (ti + 1);
             					}
             				}
             			}
@@ -6140,105 +6141,105 @@ HXLINE(1493)						ti = (ti + 1);
 STATIC_HX_DEFINE_DYNAMIC_FUNC6(ImageDataUtil_obj,_hx___boxBlurH,(void))
 
 void ImageDataUtil_obj::_hx___boxBlurT( ::lime::utils::ArrayBufferView imgA, ::lime::utils::ArrayBufferView imgB,int w,int h,int r,int off){
-            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_1499___boxBlurT)
-HXLINE(1500)		Float iarr = (( (Float)(1) ) / ( (Float)(((r + r) + 1)) ));
-HXLINE(1501)		int ws = (w * 4);
-HXLINE(1502)		int ti;
-HXDLIN(1502)		int li;
-HXDLIN(1502)		int ri;
-HXDLIN(1502)		 ::Dynamic fv;
-HXDLIN(1502)		 ::Dynamic lv;
-HXDLIN(1502)		int val;
-HXLINE(1504)		{
-HXLINE(1504)			int _g = 0;
-HXDLIN(1504)			int _g1 = w;
-HXDLIN(1504)			while((_g < _g1)){
-HXLINE(1504)				_g = (_g + 1);
-HXDLIN(1504)				int i = (_g - 1);
-HXLINE(1506)				ti = ((i * 4) + off);
-HXLINE(1507)				li = ti;
-HXLINE(1508)				ri = (ti + (r * ws));
-HXLINE(1510)				fv = ( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ti)) & 255);
-HXLINE(1511)				lv = ( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + (ti + (ws * (h - 1))))) & 255);
-HXLINE(1512)				val = ((r + 1) * ( (int)(fv) ));
-HXLINE(1514)				{
-HXLINE(1514)					int _g1 = 0;
-HXDLIN(1514)					int _g2 = r;
-HXDLIN(1514)					while((_g1 < _g2)){
-HXLINE(1514)						_g1 = (_g1 + 1);
-HXDLIN(1514)						int j = (_g1 - 1);
-HXLINE(1516)						val = (val + ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + (ti + (j * ws)))) & 255)) ));
+            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_1493___boxBlurT)
+HXLINE(1494)		Float iarr = (( (Float)(1) ) / ( (Float)(((r + r) + 1)) ));
+HXLINE(1495)		int ws = (w * 4);
+HXLINE(1496)		int ti;
+HXDLIN(1496)		int li;
+HXDLIN(1496)		int ri;
+HXDLIN(1496)		 ::Dynamic fv;
+HXDLIN(1496)		 ::Dynamic lv;
+HXDLIN(1496)		int val;
+HXLINE(1498)		{
+HXLINE(1498)			int _g = 0;
+HXDLIN(1498)			int _g1 = w;
+HXDLIN(1498)			while((_g < _g1)){
+HXLINE(1498)				_g = (_g + 1);
+HXDLIN(1498)				int i = (_g - 1);
+HXLINE(1500)				ti = ((i * 4) + off);
+HXLINE(1501)				li = ti;
+HXLINE(1502)				ri = (ti + (r * ws));
+HXLINE(1504)				fv = ( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ti)) & 255);
+HXLINE(1505)				lv = ( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + (ti + (ws * (h - 1))))) & 255);
+HXLINE(1506)				val = ((r + 1) * ( (int)(fv) ));
+HXLINE(1508)				{
+HXLINE(1508)					int _g1 = 0;
+HXDLIN(1508)					int _g2 = r;
+HXDLIN(1508)					while((_g1 < _g2)){
+HXLINE(1508)						_g1 = (_g1 + 1);
+HXDLIN(1508)						int j = (_g1 - 1);
+HXLINE(1510)						val = (val + ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + (ti + (j * ws)))) & 255)) ));
             					}
             				}
-HXLINE(1519)				{
-HXLINE(1519)					int _g3 = 0;
-HXDLIN(1519)					int _g4 = (r + 1);
-HXDLIN(1519)					while((_g3 < _g4)){
-HXLINE(1519)						_g3 = (_g3 + 1);
-HXDLIN(1519)						int j = (_g3 - 1);
-HXLINE(1521)						val = (val + (( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ri)) & 255)) ) - ( (int)(fv) )));
-HXLINE(1522)						{
-HXLINE(1522)							int _hx_int = val;
-HXDLIN(1522)							Float val1;
-HXDLIN(1522)							if ((_hx_int < 0)) {
-HXLINE(1522)								val1 = (((Float)4294967296.0) + _hx_int);
+HXLINE(1513)				{
+HXLINE(1513)					int _g3 = 0;
+HXDLIN(1513)					int _g4 = (r + 1);
+HXDLIN(1513)					while((_g3 < _g4)){
+HXLINE(1513)						_g3 = (_g3 + 1);
+HXDLIN(1513)						int j = (_g3 - 1);
+HXLINE(1515)						val = (val + (( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ri)) & 255)) ) - ( (int)(fv) )));
+HXLINE(1516)						{
+HXLINE(1516)							int _hx_int = val;
+HXDLIN(1516)							Float val1;
+HXDLIN(1516)							if ((_hx_int < 0)) {
+HXLINE(1516)								val1 = (((Float)4294967296.0) + _hx_int);
             							}
             							else {
-HXLINE(1522)								val1 = (_hx_int + ((Float)0.0));
+HXLINE(1516)								val1 = (_hx_int + ((Float)0.0));
             							}
-HXDLIN(1522)							int val2 = ::Math_obj::round((val1 * iarr));
-HXDLIN(1522)							 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ti),val2);
+HXDLIN(1516)							int val2 = ::Math_obj::round((val1 * iarr));
+HXDLIN(1516)							 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ti),val2);
             						}
-HXLINE(1523)						ri = (ri + ws);
-HXLINE(1524)						ti = (ti + ws);
+HXLINE(1517)						ri = (ri + ws);
+HXLINE(1518)						ti = (ti + ws);
             					}
             				}
-HXLINE(1527)				{
-HXLINE(1527)					int _g5 = (r + 1);
-HXDLIN(1527)					int _g6 = (h - r);
-HXDLIN(1527)					while((_g5 < _g6)){
-HXLINE(1527)						_g5 = (_g5 + 1);
-HXDLIN(1527)						int j = (_g5 - 1);
-HXLINE(1529)						int a = ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ri)) & 255)) );
-HXDLIN(1529)						val = (val + (a - ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + li)) & 255)) )));
-HXLINE(1530)						{
-HXLINE(1530)							int _hx_int = val;
-HXDLIN(1530)							Float val1;
-HXDLIN(1530)							if ((_hx_int < 0)) {
-HXLINE(1530)								val1 = (((Float)4294967296.0) + _hx_int);
+HXLINE(1521)				{
+HXLINE(1521)					int _g5 = (r + 1);
+HXDLIN(1521)					int _g6 = (h - r);
+HXDLIN(1521)					while((_g5 < _g6)){
+HXLINE(1521)						_g5 = (_g5 + 1);
+HXDLIN(1521)						int j = (_g5 - 1);
+HXLINE(1523)						int a = ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + ri)) & 255)) );
+HXDLIN(1523)						val = (val + (a - ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + li)) & 255)) )));
+HXLINE(1524)						{
+HXLINE(1524)							int _hx_int = val;
+HXDLIN(1524)							Float val1;
+HXDLIN(1524)							if ((_hx_int < 0)) {
+HXLINE(1524)								val1 = (((Float)4294967296.0) + _hx_int);
             							}
             							else {
-HXLINE(1530)								val1 = (_hx_int + ((Float)0.0));
+HXLINE(1524)								val1 = (_hx_int + ((Float)0.0));
             							}
-HXDLIN(1530)							int val2 = ::Math_obj::round((val1 * iarr));
-HXDLIN(1530)							 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ti),val2);
+HXDLIN(1524)							int val2 = ::Math_obj::round((val1 * iarr));
+HXDLIN(1524)							 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ti),val2);
             						}
-HXLINE(1531)						li = (li + ws);
-HXLINE(1532)						ri = (ri + ws);
-HXLINE(1533)						ti = (ti + ws);
+HXLINE(1525)						li = (li + ws);
+HXLINE(1526)						ri = (ri + ws);
+HXLINE(1527)						ti = (ti + ws);
             					}
             				}
-HXLINE(1536)				{
-HXLINE(1536)					int _g7 = (h - r);
-HXDLIN(1536)					int _g8 = h;
-HXDLIN(1536)					while((_g7 < _g8)){
-HXLINE(1536)						_g7 = (_g7 + 1);
-HXDLIN(1536)						int j = (_g7 - 1);
-HXLINE(1538)						val = (val + (( (int)(lv) ) - ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + li)) & 255)) )));
-HXLINE(1539)						{
-HXLINE(1539)							int _hx_int = val;
-HXDLIN(1539)							Float val1;
-HXDLIN(1539)							if ((_hx_int < 0)) {
-HXLINE(1539)								val1 = (((Float)4294967296.0) + _hx_int);
+HXLINE(1530)				{
+HXLINE(1530)					int _g7 = (h - r);
+HXDLIN(1530)					int _g8 = h;
+HXDLIN(1530)					while((_g7 < _g8)){
+HXLINE(1530)						_g7 = (_g7 + 1);
+HXDLIN(1530)						int j = (_g7 - 1);
+HXLINE(1532)						val = (val + (( (int)(lv) ) - ( (int)(( ::__hxcpp_memory_get_byte(imgA->buffer->b,(imgA->byteOffset + li)) & 255)) )));
+HXLINE(1533)						{
+HXLINE(1533)							int _hx_int = val;
+HXDLIN(1533)							Float val1;
+HXDLIN(1533)							if ((_hx_int < 0)) {
+HXLINE(1533)								val1 = (((Float)4294967296.0) + _hx_int);
             							}
             							else {
-HXLINE(1539)								val1 = (_hx_int + ((Float)0.0));
+HXLINE(1533)								val1 = (_hx_int + ((Float)0.0));
             							}
-HXDLIN(1539)							int val2 = ::Math_obj::round((val1 * iarr));
-HXDLIN(1539)							 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ti),val2);
+HXDLIN(1533)							int val2 = ::Math_obj::round((val1 * iarr));
+HXDLIN(1533)							 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + ti),val2);
             						}
-HXLINE(1540)						li = (li + ws);
-HXLINE(1541)						ti = (ti + ws);
+HXLINE(1534)						li = (li + ws);
+HXLINE(1535)						ti = (ti + ws);
             					}
             				}
             			}
@@ -6249,248 +6250,248 @@ HXLINE(1541)						ti = (ti + ws);
 STATIC_HX_DEFINE_DYNAMIC_FUNC6(ImageDataUtil_obj,_hx___boxBlurT,(void))
 
 int ImageDataUtil_obj::_hx___calculateSourceOffset( ::lime::math::Rectangle sourceRect, ::lime::math::Vector2 destPoint,int destX,int destY){
-            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_1551___calculateSourceOffset)
-HXLINE(1552)		int sourceX = (destX - ::Std_obj::_hx_int(destPoint->x));
-HXLINE(1553)		int sourceY = (destY - ::Std_obj::_hx_int(destPoint->y));
-HXLINE(1555)		int offset = 0;
-HXLINE(1557)		bool _hx_tmp;
-HXDLIN(1557)		bool _hx_tmp1;
-HXDLIN(1557)		bool _hx_tmp2;
-HXDLIN(1557)		if ((sourceX >= 0)) {
-HXLINE(1557)			_hx_tmp2 = (sourceY < 0);
+            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_1545___calculateSourceOffset)
+HXLINE(1546)		int sourceX = (destX - ::Std_obj::_hx_int(destPoint->x));
+HXLINE(1547)		int sourceY = (destY - ::Std_obj::_hx_int(destPoint->y));
+HXLINE(1549)		int offset = 0;
+HXLINE(1551)		bool _hx_tmp;
+HXDLIN(1551)		bool _hx_tmp1;
+HXDLIN(1551)		bool _hx_tmp2;
+HXDLIN(1551)		if ((sourceX >= 0)) {
+HXLINE(1551)			_hx_tmp2 = (sourceY < 0);
             		}
             		else {
-HXLINE(1557)			_hx_tmp2 = true;
+HXLINE(1551)			_hx_tmp2 = true;
             		}
-HXDLIN(1557)		if (!(_hx_tmp2)) {
-HXLINE(1557)			_hx_tmp1 = (sourceX >= sourceRect->width);
-            		}
-            		else {
-HXLINE(1557)			_hx_tmp1 = true;
-            		}
-HXDLIN(1557)		if (!(_hx_tmp1)) {
-HXLINE(1557)			_hx_tmp = (sourceY >= sourceRect->height);
+HXDLIN(1551)		if (!(_hx_tmp2)) {
+HXLINE(1551)			_hx_tmp1 = (sourceX >= sourceRect->width);
             		}
             		else {
-HXLINE(1557)			_hx_tmp = true;
+HXLINE(1551)			_hx_tmp1 = true;
             		}
-HXDLIN(1557)		if (_hx_tmp) {
-HXLINE(1559)			offset = -1;
+HXDLIN(1551)		if (!(_hx_tmp1)) {
+HXLINE(1551)			_hx_tmp = (sourceY >= sourceRect->height);
             		}
             		else {
-HXLINE(1563)			offset = (4 * ((sourceY * ::Std_obj::_hx_int(sourceRect->width)) + sourceX));
+HXLINE(1551)			_hx_tmp = true;
             		}
-HXLINE(1566)		return offset;
+HXDLIN(1551)		if (_hx_tmp) {
+HXLINE(1553)			offset = -1;
+            		}
+            		else {
+HXLINE(1557)			offset = (4 * ((sourceY * ::Std_obj::_hx_int(sourceRect->width)) + sourceX));
+            		}
+HXLINE(1560)		return offset;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC4(ImageDataUtil_obj,_hx___calculateSourceOffset,return )
 
 ::Array< Float > ImageDataUtil_obj::_hx___getBoxesForGaussianBlur(Float sigma,int n){
-            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_1570___getBoxesForGaussianBlur)
-HXLINE(1571)		Float wIdeal = ::Math_obj::sqrt(((((( (Float)(12) ) * sigma) * sigma) / ( (Float)(n) )) + 1));
-HXLINE(1572)		int wl = ::Math_obj::floor(wIdeal);
-HXLINE(1573)		if ((::hx::Mod(wl,2) == 0)) {
-HXLINE(1573)			wl = (wl - 1);
+            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_1564___getBoxesForGaussianBlur)
+HXLINE(1565)		Float wIdeal = ::Math_obj::sqrt(((((( (Float)(12) ) * sigma) * sigma) / ( (Float)(n) )) + 1));
+HXLINE(1566)		int wl = ::Math_obj::floor(wIdeal);
+HXLINE(1567)		if ((::hx::Mod(wl,2) == 0)) {
+HXLINE(1567)			wl = (wl - 1);
             		}
-HXLINE(1574)		int wu = (wl + 2);
-HXLINE(1576)		Float mIdeal = ((((((( (Float)(12) ) * sigma) * sigma) - ( (Float)(((n * wl) * wl)) )) - ( (Float)(((4 * n) * wl)) )) - ( (Float)((3 * n)) )) / ( (Float)(((-4 * wl) - 4)) ));
-HXLINE(1577)		int m = ::Math_obj::round(mIdeal);
-HXLINE(1578)		::Array< Float > sizes = ::Array_obj< Float >::__new(0);
-HXLINE(1580)		{
-HXLINE(1580)			int _g = 0;
-HXDLIN(1580)			int _g1 = n;
-HXDLIN(1580)			while((_g < _g1)){
-HXLINE(1580)				_g = (_g + 1);
-HXDLIN(1580)				int i = (_g - 1);
-HXLINE(1582)				Float _hx_tmp;
-HXDLIN(1582)				if ((i < m)) {
-HXLINE(1582)					_hx_tmp = ( (Float)(wl) );
+HXLINE(1568)		int wu = (wl + 2);
+HXLINE(1570)		Float mIdeal = ((((((( (Float)(12) ) * sigma) * sigma) - ( (Float)(((n * wl) * wl)) )) - ( (Float)(((4 * n) * wl)) )) - ( (Float)((3 * n)) )) / ( (Float)(((-4 * wl) - 4)) ));
+HXLINE(1571)		int m = ::Math_obj::round(mIdeal);
+HXLINE(1572)		::Array< Float > sizes = ::Array_obj< Float >::__new(0);
+HXLINE(1574)		{
+HXLINE(1574)			int _g = 0;
+HXDLIN(1574)			int _g1 = n;
+HXDLIN(1574)			while((_g < _g1)){
+HXLINE(1574)				_g = (_g + 1);
+HXDLIN(1574)				int i = (_g - 1);
+HXLINE(1576)				Float _hx_tmp;
+HXDLIN(1576)				if ((i < m)) {
+HXLINE(1576)					_hx_tmp = ( (Float)(wl) );
             				}
             				else {
-HXLINE(1582)					_hx_tmp = ( (Float)(wu) );
+HXLINE(1576)					_hx_tmp = ( (Float)(wu) );
             				}
-HXDLIN(1582)				sizes->push(_hx_tmp);
+HXDLIN(1576)				sizes->push(_hx_tmp);
             			}
             		}
-HXLINE(1585)		return sizes;
+HXLINE(1579)		return sizes;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(ImageDataUtil_obj,_hx___getBoxesForGaussianBlur,return )
 
 int ImageDataUtil_obj::_hx___pixelCompare(int n1,int n2){
-            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_1589___pixelCompare)
-HXLINE(1590)		int tmp1 = (::hx::UShr(n1,24) & 255);
-HXLINE(1591)		int tmp2 = (::hx::UShr(n2,24) & 255);
-HXLINE(1596)		if ((tmp1 != tmp2)) {
-HXLINE(1598)			bool aNeg = (tmp1 < 0);
-HXDLIN(1598)			bool bNeg = (tmp2 < 0);
-HXDLIN(1598)			bool _hx_tmp;
-HXDLIN(1598)			if ((aNeg != bNeg)) {
-HXLINE(1598)				_hx_tmp = aNeg;
+            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_1583___pixelCompare)
+HXLINE(1584)		int tmp1 = (::hx::UShr(n1,24) & 255);
+HXLINE(1585)		int tmp2 = (::hx::UShr(n2,24) & 255);
+HXLINE(1590)		if ((tmp1 != tmp2)) {
+HXLINE(1592)			bool aNeg = (tmp1 < 0);
+HXDLIN(1592)			bool bNeg = (tmp2 < 0);
+HXDLIN(1592)			bool _hx_tmp;
+HXDLIN(1592)			if ((aNeg != bNeg)) {
+HXLINE(1592)				_hx_tmp = aNeg;
             			}
             			else {
-HXLINE(1598)				_hx_tmp = (tmp1 > tmp2);
+HXLINE(1592)				_hx_tmp = (tmp1 > tmp2);
             			}
-HXDLIN(1598)			if (_hx_tmp) {
-HXLINE(1598)				return 1;
+HXDLIN(1592)			if (_hx_tmp) {
+HXLINE(1592)				return 1;
             			}
             			else {
-HXLINE(1598)				return -1;
+HXLINE(1592)				return -1;
             			}
             		}
             		else {
-HXLINE(1602)			tmp1 = (::hx::UShr(n1,16) & 255);
-HXLINE(1603)			tmp2 = (::hx::UShr(n2,16) & 255);
-HXLINE(1605)			if ((tmp1 != tmp2)) {
-HXLINE(1607)				bool aNeg = (tmp1 < 0);
-HXDLIN(1607)				bool bNeg = (tmp2 < 0);
-HXDLIN(1607)				bool _hx_tmp;
-HXDLIN(1607)				if ((aNeg != bNeg)) {
-HXLINE(1607)					_hx_tmp = aNeg;
+HXLINE(1596)			tmp1 = (::hx::UShr(n1,16) & 255);
+HXLINE(1597)			tmp2 = (::hx::UShr(n2,16) & 255);
+HXLINE(1599)			if ((tmp1 != tmp2)) {
+HXLINE(1601)				bool aNeg = (tmp1 < 0);
+HXDLIN(1601)				bool bNeg = (tmp2 < 0);
+HXDLIN(1601)				bool _hx_tmp;
+HXDLIN(1601)				if ((aNeg != bNeg)) {
+HXLINE(1601)					_hx_tmp = aNeg;
             				}
             				else {
-HXLINE(1607)					_hx_tmp = (tmp1 > tmp2);
+HXLINE(1601)					_hx_tmp = (tmp1 > tmp2);
             				}
-HXDLIN(1607)				if (_hx_tmp) {
-HXLINE(1607)					return 1;
+HXDLIN(1601)				if (_hx_tmp) {
+HXLINE(1601)					return 1;
             				}
             				else {
-HXLINE(1607)					return -1;
+HXLINE(1601)					return -1;
             				}
             			}
             			else {
-HXLINE(1611)				tmp1 = (::hx::UShr(n1,8) & 255);
-HXLINE(1612)				tmp2 = (::hx::UShr(n2,8) & 255);
-HXLINE(1614)				if ((tmp1 != tmp2)) {
-HXLINE(1616)					bool aNeg = (tmp1 < 0);
-HXDLIN(1616)					bool bNeg = (tmp2 < 0);
-HXDLIN(1616)					bool _hx_tmp;
-HXDLIN(1616)					if ((aNeg != bNeg)) {
-HXLINE(1616)						_hx_tmp = aNeg;
+HXLINE(1605)				tmp1 = (::hx::UShr(n1,8) & 255);
+HXLINE(1606)				tmp2 = (::hx::UShr(n2,8) & 255);
+HXLINE(1608)				if ((tmp1 != tmp2)) {
+HXLINE(1610)					bool aNeg = (tmp1 < 0);
+HXDLIN(1610)					bool bNeg = (tmp2 < 0);
+HXDLIN(1610)					bool _hx_tmp;
+HXDLIN(1610)					if ((aNeg != bNeg)) {
+HXLINE(1610)						_hx_tmp = aNeg;
             					}
             					else {
-HXLINE(1616)						_hx_tmp = (tmp1 > tmp2);
+HXLINE(1610)						_hx_tmp = (tmp1 > tmp2);
             					}
-HXDLIN(1616)					if (_hx_tmp) {
-HXLINE(1616)						return 1;
+HXDLIN(1610)					if (_hx_tmp) {
+HXLINE(1610)						return 1;
             					}
             					else {
-HXLINE(1616)						return -1;
+HXLINE(1610)						return -1;
             					}
             				}
             				else {
-HXLINE(1620)					tmp1 = (n1 & 255);
-HXLINE(1621)					tmp2 = (n2 & 255);
-HXLINE(1623)					if ((tmp1 != tmp2)) {
-HXLINE(1625)						bool aNeg = (tmp1 < 0);
-HXDLIN(1625)						bool bNeg = (tmp2 < 0);
-HXDLIN(1625)						bool _hx_tmp;
-HXDLIN(1625)						if ((aNeg != bNeg)) {
-HXLINE(1625)							_hx_tmp = aNeg;
+HXLINE(1614)					tmp1 = (n1 & 255);
+HXLINE(1615)					tmp2 = (n2 & 255);
+HXLINE(1617)					if ((tmp1 != tmp2)) {
+HXLINE(1619)						bool aNeg = (tmp1 < 0);
+HXDLIN(1619)						bool bNeg = (tmp2 < 0);
+HXDLIN(1619)						bool _hx_tmp;
+HXDLIN(1619)						if ((aNeg != bNeg)) {
+HXLINE(1619)							_hx_tmp = aNeg;
             						}
             						else {
-HXLINE(1625)							_hx_tmp = (tmp1 > tmp2);
+HXLINE(1619)							_hx_tmp = (tmp1 > tmp2);
             						}
-HXDLIN(1625)						if (_hx_tmp) {
-HXLINE(1625)							return 1;
+HXDLIN(1619)						if (_hx_tmp) {
+HXLINE(1619)							return 1;
             						}
             						else {
-HXLINE(1625)							return -1;
+HXLINE(1619)							return -1;
             						}
             					}
             					else {
-HXLINE(1629)						return 0;
+HXLINE(1623)						return 0;
             					}
             				}
             			}
             		}
-HXLINE(1596)		return 0;
+HXLINE(1590)		return 0;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(ImageDataUtil_obj,_hx___pixelCompare,return )
 
 void ImageDataUtil_obj::_hx___translatePixel( ::lime::utils::ArrayBufferView imgB, ::lime::math::Rectangle sourceRect, ::lime::math::Rectangle destRect, ::lime::math::Vector2 destPoint,int destX,int destY,Float strength){
-            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_1638___translatePixel)
-HXLINE(1639)		int d = (4 * ((destY * ::Std_obj::_hx_int(destRect->width)) + destX));
-HXLINE(1640)		int sourceX = (destX - ::Std_obj::_hx_int(destPoint->x));
-HXDLIN(1640)		int sourceY = (destY - ::Std_obj::_hx_int(destPoint->y));
-HXDLIN(1640)		int offset = 0;
-HXDLIN(1640)		bool _hx_tmp;
-HXDLIN(1640)		bool _hx_tmp1;
-HXDLIN(1640)		bool _hx_tmp2;
-HXDLIN(1640)		if ((sourceX >= 0)) {
-HXLINE(1640)			_hx_tmp2 = (sourceY < 0);
+            	HX_STACKFRAME(&_hx_pos_68d87270d4f7b5ed_1632___translatePixel)
+HXLINE(1633)		int d = (4 * ((destY * ::Std_obj::_hx_int(destRect->width)) + destX));
+HXLINE(1634)		int sourceX = (destX - ::Std_obj::_hx_int(destPoint->x));
+HXDLIN(1634)		int sourceY = (destY - ::Std_obj::_hx_int(destPoint->y));
+HXDLIN(1634)		int offset = 0;
+HXDLIN(1634)		bool _hx_tmp;
+HXDLIN(1634)		bool _hx_tmp1;
+HXDLIN(1634)		bool _hx_tmp2;
+HXDLIN(1634)		if ((sourceX >= 0)) {
+HXLINE(1634)			_hx_tmp2 = (sourceY < 0);
             		}
             		else {
-HXLINE(1640)			_hx_tmp2 = true;
+HXLINE(1634)			_hx_tmp2 = true;
             		}
-HXDLIN(1640)		if (!(_hx_tmp2)) {
-HXLINE(1640)			_hx_tmp1 = (sourceX >= sourceRect->width);
-            		}
-            		else {
-HXLINE(1640)			_hx_tmp1 = true;
-            		}
-HXDLIN(1640)		if (!(_hx_tmp1)) {
-HXLINE(1640)			_hx_tmp = (sourceY >= sourceRect->height);
+HXDLIN(1634)		if (!(_hx_tmp2)) {
+HXLINE(1634)			_hx_tmp1 = (sourceX >= sourceRect->width);
             		}
             		else {
-HXLINE(1640)			_hx_tmp = true;
+HXLINE(1634)			_hx_tmp1 = true;
             		}
-HXDLIN(1640)		if (_hx_tmp) {
-HXLINE(1640)			offset = -1;
-            		}
-            		else {
-HXLINE(1640)			offset = (4 * ((sourceY * ::Std_obj::_hx_int(sourceRect->width)) + sourceX));
-            		}
-HXDLIN(1640)		int s = offset;
-HXLINE(1642)		if ((s < 0)) {
-HXLINE(1644)			 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + (d + 3)),0);
-HXDLIN(1644)			int val = 0;
-HXDLIN(1644)			 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + (d + 2)),val);
-HXDLIN(1644)			int val1 = val;
-HXDLIN(1644)			 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + (d + 1)),val1);
-HXDLIN(1644)			int val2 = val1;
-HXDLIN(1644)			 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + d),val2);
+HXDLIN(1634)		if (!(_hx_tmp1)) {
+HXLINE(1634)			_hx_tmp = (sourceY >= sourceRect->height);
             		}
             		else {
-HXLINE(1648)			{
-HXLINE(1648)				int val = ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + s)) & 255)) );
-HXDLIN(1648)				 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + d),val);
+HXLINE(1634)			_hx_tmp = true;
+            		}
+HXDLIN(1634)		if (_hx_tmp) {
+HXLINE(1634)			offset = -1;
+            		}
+            		else {
+HXLINE(1634)			offset = (4 * ((sourceY * ::Std_obj::_hx_int(sourceRect->width)) + sourceX));
+            		}
+HXDLIN(1634)		int s = offset;
+HXLINE(1636)		if ((s < 0)) {
+HXLINE(1638)			 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + (d + 3)),0);
+HXDLIN(1638)			int val = 0;
+HXDLIN(1638)			 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + (d + 2)),val);
+HXDLIN(1638)			int val1 = val;
+HXDLIN(1638)			 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + (d + 1)),val1);
+HXDLIN(1638)			int val2 = val1;
+HXDLIN(1638)			 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + d),val2);
+            		}
+            		else {
+HXLINE(1642)			{
+HXLINE(1642)				int val = ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + s)) & 255)) );
+HXDLIN(1642)				 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + d),val);
             			}
-HXLINE(1649)			{
-HXLINE(1649)				int val1 = ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + (s + 1))) & 255)) );
-HXDLIN(1649)				 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + (d + 1)),val1);
+HXLINE(1643)			{
+HXLINE(1643)				int val1 = ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + (s + 1))) & 255)) );
+HXDLIN(1643)				 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + (d + 1)),val1);
             			}
-HXLINE(1650)			{
-HXLINE(1650)				int val2 = ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + (s + 2))) & 255)) );
-HXDLIN(1650)				 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + (d + 2)),val2);
+HXLINE(1644)			{
+HXLINE(1644)				int val2 = ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + (s + 2))) & 255)) );
+HXDLIN(1644)				 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + (d + 2)),val2);
             			}
-HXLINE(1652)			int _hx_int = ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + (s + 3))) & 255)) );
-HXDLIN(1652)			Float a;
-HXDLIN(1652)			if ((_hx_int < 0)) {
-HXLINE(1652)				a = (((Float)4294967296.0) + _hx_int);
+HXLINE(1646)			int _hx_int = ( (int)(( ::__hxcpp_memory_get_byte(imgB->buffer->b,(imgB->byteOffset + (s + 3))) & 255)) );
+HXDLIN(1646)			Float a;
+HXDLIN(1646)			if ((_hx_int < 0)) {
+HXLINE(1646)				a = (((Float)4294967296.0) + _hx_int);
             			}
             			else {
-HXLINE(1652)				a = (_hx_int + ((Float)0.0));
+HXLINE(1646)				a = (_hx_int + ((Float)0.0));
             			}
-HXDLIN(1652)			int a1 = ::Std_obj::_hx_int((a * strength));
-HXLINE(1653)			{
-HXLINE(1653)				int val3;
-HXDLIN(1653)				if ((a1 < 0)) {
-HXLINE(1653)					val3 = 0;
+HXDLIN(1646)			int a1 = ::Std_obj::_hx_int((a * strength));
+HXLINE(1647)			{
+HXLINE(1647)				int val3;
+HXDLIN(1647)				if ((a1 < 0)) {
+HXLINE(1647)					val3 = 0;
             				}
             				else {
-HXLINE(1653)					if ((a1 > 255)) {
-HXLINE(1653)						val3 = 255;
+HXLINE(1647)					if ((a1 > 255)) {
+HXLINE(1647)						val3 = 255;
             					}
             					else {
-HXLINE(1653)						val3 = a1;
+HXLINE(1647)						val3 = a1;
             					}
             				}
-HXDLIN(1653)				 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + (d + 3)),val3);
+HXDLIN(1647)				 ::__hxcpp_memory_set_byte(imgB->buffer->b,(imgB->byteOffset + (d + 3)),val3);
             			}
             		}
             	}

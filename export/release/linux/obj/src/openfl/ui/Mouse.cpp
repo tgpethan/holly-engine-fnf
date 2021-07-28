@@ -20,13 +20,13 @@
 #include <openfl/ui/Mouse.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_9dfd1f611dbbe53a_96_hide,"openfl.ui.Mouse","hide",0x974c7e47,"openfl.ui.Mouse.hide","openfl/ui/Mouse.hx",96,0xeac39ff5)
-HX_LOCAL_STACK_FRAME(_hx_pos_9dfd1f611dbbe53a_128_show,"openfl.ui.Mouse","show",0x9e911e82,"openfl.ui.Mouse.show","openfl/ui/Mouse.hx",128,0xeac39ff5)
-HX_LOCAL_STACK_FRAME(_hx_pos_9dfd1f611dbbe53a_147_get_cursor,"openfl.ui.Mouse","get_cursor",0xfdb1b9e4,"openfl.ui.Mouse.get_cursor","openfl/ui/Mouse.hx",147,0xeac39ff5)
-HX_LOCAL_STACK_FRAME(_hx_pos_9dfd1f611dbbe53a_151_set_cursor,"openfl.ui.Mouse","set_cursor",0x012f5858,"openfl.ui.Mouse.set_cursor","openfl/ui/Mouse.hx",151,0xeac39ff5)
-HX_LOCAL_STACK_FRAME(_hx_pos_9dfd1f611dbbe53a_61_boot,"openfl.ui.Mouse","boot",0x9359cdb7,"openfl.ui.Mouse.boot","openfl/ui/Mouse.hx",61,0xeac39ff5)
-HX_LOCAL_STACK_FRAME(_hx_pos_9dfd1f611dbbe53a_66_boot,"openfl.ui.Mouse","boot",0x9359cdb7,"openfl.ui.Mouse.boot","openfl/ui/Mouse.hx",66,0xeac39ff5)
-HX_LOCAL_STACK_FRAME(_hx_pos_9dfd1f611dbbe53a_68_boot,"openfl.ui.Mouse","boot",0x9359cdb7,"openfl.ui.Mouse.boot","openfl/ui/Mouse.hx",68,0xeac39ff5)
+HX_LOCAL_STACK_FRAME(_hx_pos_9dfd1f611dbbe53a_40_hide,"openfl.ui.Mouse","hide",0x974c7e47,"openfl.ui.Mouse.hide","openfl/ui/Mouse.hx",40,0xeac39ff5)
+HX_LOCAL_STACK_FRAME(_hx_pos_9dfd1f611dbbe53a_55_show,"openfl.ui.Mouse","show",0x9e911e82,"openfl.ui.Mouse.show","openfl/ui/Mouse.hx",55,0xeac39ff5)
+HX_LOCAL_STACK_FRAME(_hx_pos_9dfd1f611dbbe53a_69_get_cursor,"openfl.ui.Mouse","get_cursor",0xfdb1b9e4,"openfl.ui.Mouse.get_cursor","openfl/ui/Mouse.hx",69,0xeac39ff5)
+HX_LOCAL_STACK_FRAME(_hx_pos_9dfd1f611dbbe53a_73_set_cursor,"openfl.ui.Mouse","set_cursor",0x012f5858,"openfl.ui.Mouse.set_cursor","openfl/ui/Mouse.hx",73,0xeac39ff5)
+HX_LOCAL_STACK_FRAME(_hx_pos_9dfd1f611dbbe53a_17_boot,"openfl.ui.Mouse","boot",0x9359cdb7,"openfl.ui.Mouse.boot","openfl/ui/Mouse.hx",17,0xeac39ff5)
+HX_LOCAL_STACK_FRAME(_hx_pos_9dfd1f611dbbe53a_18_boot,"openfl.ui.Mouse","boot",0x9359cdb7,"openfl.ui.Mouse.boot","openfl/ui/Mouse.hx",18,0xeac39ff5)
+HX_LOCAL_STACK_FRAME(_hx_pos_9dfd1f611dbbe53a_20_boot,"openfl.ui.Mouse","boot",0x9359cdb7,"openfl.ui.Mouse.boot","openfl/ui/Mouse.hx",20,0xeac39ff5)
 namespace openfl{
 namespace ui{
 
@@ -56,15 +56,15 @@ bool Mouse_obj::supportsNativeCursor;
 bool Mouse_obj::_hx___hidden;
 
 void Mouse_obj::hide(){
-            	HX_STACKFRAME(&_hx_pos_9dfd1f611dbbe53a_96_hide)
-HXLINE(  97)		::openfl::ui::Mouse_obj::_hx___hidden = true;
-HXLINE( 100)		{
-HXLINE( 100)			int _g = 0;
-HXDLIN( 100)			::Array< ::Dynamic> _g1 = ::lime::app::Application_obj::current->_hx___windows;
-HXDLIN( 100)			while((_g < _g1->length)){
-HXLINE( 100)				 ::lime::ui::Window window = _g1->__get(_g).StaticCast<  ::lime::ui::Window >();
-HXDLIN( 100)				_g = (_g + 1);
-HXLINE( 102)				window->set_cursor(null());
+            	HX_STACKFRAME(&_hx_pos_9dfd1f611dbbe53a_40_hide)
+HXLINE(  41)		::openfl::ui::Mouse_obj::_hx___hidden = true;
+HXLINE(  44)		{
+HXLINE(  44)			int _g = 0;
+HXDLIN(  44)			::Array< ::Dynamic> _g1 = ::lime::app::Application_obj::current->_hx___windows;
+HXDLIN(  44)			while((_g < _g1->length)){
+HXLINE(  44)				 ::lime::ui::Window window = _g1->__get(_g).StaticCast<  ::lime::ui::Window >();
+HXDLIN(  44)				_g = (_g + 1);
+HXLINE(  46)				window->set_cursor(null());
             			}
             		}
             	}
@@ -73,99 +73,99 @@ HXLINE( 102)				window->set_cursor(null());
 STATIC_HX_DEFINE_DYNAMIC_FUNC0(Mouse_obj,hide,(void))
 
 void Mouse_obj::show(){
-            	HX_STACKFRAME(&_hx_pos_9dfd1f611dbbe53a_128_show)
-HXLINE( 129)		::openfl::ui::Mouse_obj::_hx___hidden = false;
-HXLINE( 131)		::String cacheCursor = ::openfl::ui::Mouse_obj::_hx___cursor;
-HXLINE( 132)		::openfl::ui::Mouse_obj::_hx___cursor = null();
-HXLINE( 133)		::openfl::ui::Mouse_obj::set_cursor(cacheCursor);
+            	HX_STACKFRAME(&_hx_pos_9dfd1f611dbbe53a_55_show)
+HXLINE(  56)		::openfl::ui::Mouse_obj::_hx___hidden = false;
+HXLINE(  58)		::String cacheCursor = ::openfl::ui::Mouse_obj::_hx___cursor;
+HXLINE(  59)		::openfl::ui::Mouse_obj::_hx___cursor = null();
+HXLINE(  60)		::openfl::ui::Mouse_obj::set_cursor(cacheCursor);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC0(Mouse_obj,show,(void))
 
 ::String Mouse_obj::get_cursor(){
-            	HX_STACKFRAME(&_hx_pos_9dfd1f611dbbe53a_147_get_cursor)
-HXDLIN( 147)		return ::openfl::ui::Mouse_obj::_hx___cursor;
+            	HX_STACKFRAME(&_hx_pos_9dfd1f611dbbe53a_69_get_cursor)
+HXDLIN(  69)		return ::openfl::ui::Mouse_obj::_hx___cursor;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC0(Mouse_obj,get_cursor,return )
 
 ::String Mouse_obj::set_cursor(::String value){
-            	HX_STACKFRAME(&_hx_pos_9dfd1f611dbbe53a_151_set_cursor)
-HXLINE( 152)		if (::hx::IsNull( value )) {
-HXLINE( 152)			value = HX_("auto",6f,df,76,40);
+            	HX_STACKFRAME(&_hx_pos_9dfd1f611dbbe53a_73_set_cursor)
+HXLINE(  74)		if (::hx::IsNull( value )) {
+HXLINE(  74)			value = HX_("auto",6f,df,76,40);
             		}
-HXLINE( 155)		 ::lime::ui::MouseCursor setCursor = null();
-HXLINE( 157)		::String _hx_switch_0 = value;
+HXLINE(  77)		 ::lime::ui::MouseCursor setCursor = null();
+HXLINE(  79)		::String _hx_switch_0 = value;
             		if (  (_hx_switch_0==HX_("arrow",c9,79,8f,25)) ){
-HXLINE( 160)			setCursor = ::lime::ui::MouseCursor_obj::ARROW_dyn();
-HXDLIN( 160)			goto _hx_goto_4;
+HXLINE(  82)			setCursor = ::lime::ui::MouseCursor_obj::ARROW_dyn();
+HXDLIN(  82)			goto _hx_goto_4;
             		}
             		if (  (_hx_switch_0==HX_("button",f2,61,e0,d9)) ){
-HXLINE( 162)			setCursor = ::lime::ui::MouseCursor_obj::POINTER_dyn();
-HXDLIN( 162)			goto _hx_goto_4;
+HXLINE(  84)			setCursor = ::lime::ui::MouseCursor_obj::POINTER_dyn();
+HXDLIN(  84)			goto _hx_goto_4;
             		}
             		if (  (_hx_switch_0==HX_("crosshair",a2,46,c8,8a)) ){
-HXLINE( 168)			setCursor = ::lime::ui::MouseCursor_obj::CROSSHAIR_dyn();
-HXDLIN( 168)			goto _hx_goto_4;
+HXLINE(  90)			setCursor = ::lime::ui::MouseCursor_obj::CROSSHAIR_dyn();
+HXDLIN(  90)			goto _hx_goto_4;
             		}
             		if (  (_hx_switch_0==HX_("custom",b1,87,92,3f)) ){
-HXLINE( 170)			setCursor = ::lime::ui::MouseCursor_obj::CUSTOM_dyn();
-HXDLIN( 170)			goto _hx_goto_4;
+HXLINE(  92)			setCursor = ::lime::ui::MouseCursor_obj::CUSTOM_dyn();
+HXDLIN(  92)			goto _hx_goto_4;
             		}
             		if (  (_hx_switch_0==HX_("hand",6f,2b,08,45)) ){
-HXLINE( 164)			setCursor = ::lime::ui::MouseCursor_obj::MOVE_dyn();
-HXDLIN( 164)			goto _hx_goto_4;
+HXLINE(  86)			setCursor = ::lime::ui::MouseCursor_obj::MOVE_dyn();
+HXDLIN(  86)			goto _hx_goto_4;
             		}
             		if (  (_hx_switch_0==HX_("ibeam",58,ca,26,b6)) ){
-HXLINE( 166)			setCursor = ::lime::ui::MouseCursor_obj::TEXT_dyn();
-HXDLIN( 166)			goto _hx_goto_4;
+HXLINE(  88)			setCursor = ::lime::ui::MouseCursor_obj::TEXT_dyn();
+HXDLIN(  88)			goto _hx_goto_4;
             		}
             		if (  (_hx_switch_0==HX_("resize_nesw",06,ae,e9,a7)) ){
-HXLINE( 172)			setCursor = ::lime::ui::MouseCursor_obj::RESIZE_NESW_dyn();
-HXDLIN( 172)			goto _hx_goto_4;
+HXLINE(  94)			setCursor = ::lime::ui::MouseCursor_obj::RESIZE_NESW_dyn();
+HXDLIN(  94)			goto _hx_goto_4;
             		}
             		if (  (_hx_switch_0==HX_("resize_ns",f0,cc,f2,ab)) ){
-HXLINE( 174)			setCursor = ::lime::ui::MouseCursor_obj::RESIZE_NS_dyn();
-HXDLIN( 174)			goto _hx_goto_4;
+HXLINE(  96)			setCursor = ::lime::ui::MouseCursor_obj::RESIZE_NS_dyn();
+HXDLIN(  96)			goto _hx_goto_4;
             		}
             		if (  (_hx_switch_0==HX_("resize_nwse",86,56,f7,a7)) ){
-HXLINE( 176)			setCursor = ::lime::ui::MouseCursor_obj::RESIZE_NWSE_dyn();
-HXDLIN( 176)			goto _hx_goto_4;
+HXLINE(  98)			setCursor = ::lime::ui::MouseCursor_obj::RESIZE_NWSE_dyn();
+HXDLIN(  98)			goto _hx_goto_4;
             		}
             		if (  (_hx_switch_0==HX_("resize_we",b9,d4,f2,ab)) ){
-HXLINE( 178)			setCursor = ::lime::ui::MouseCursor_obj::RESIZE_WE_dyn();
-HXDLIN( 178)			goto _hx_goto_4;
+HXLINE( 100)			setCursor = ::lime::ui::MouseCursor_obj::RESIZE_WE_dyn();
+HXDLIN( 100)			goto _hx_goto_4;
             		}
             		if (  (_hx_switch_0==HX_("wait",75,5a,f2,4e)) ){
-HXLINE( 180)			setCursor = ::lime::ui::MouseCursor_obj::WAIT_dyn();
-HXDLIN( 180)			goto _hx_goto_4;
+HXLINE( 102)			setCursor = ::lime::ui::MouseCursor_obj::WAIT_dyn();
+HXDLIN( 102)			goto _hx_goto_4;
             		}
             		if (  (_hx_switch_0==HX_("waitarrow",34,17,98,4f)) ){
-HXLINE( 182)			setCursor = ::lime::ui::MouseCursor_obj::WAIT_ARROW_dyn();
-HXDLIN( 182)			goto _hx_goto_4;
+HXLINE( 104)			setCursor = ::lime::ui::MouseCursor_obj::WAIT_ARROW_dyn();
+HXDLIN( 104)			goto _hx_goto_4;
             		}
             		/* default */{
             		}
             		_hx_goto_4:;
-HXLINE( 186)		bool _hx_tmp;
-HXDLIN( 186)		if (::hx::IsNotNull( setCursor )) {
-HXLINE( 186)			_hx_tmp = !(::openfl::ui::Mouse_obj::_hx___hidden);
+HXLINE( 108)		bool _hx_tmp;
+HXDLIN( 108)		if (::hx::IsNotNull( setCursor )) {
+HXLINE( 108)			_hx_tmp = !(::openfl::ui::Mouse_obj::_hx___hidden);
             		}
             		else {
-HXLINE( 186)			_hx_tmp = false;
+HXLINE( 108)			_hx_tmp = false;
             		}
-HXDLIN( 186)		if (_hx_tmp) {
-HXLINE( 188)			int _g = 0;
-HXDLIN( 188)			::Array< ::Dynamic> _g1 = ::lime::app::Application_obj::current->_hx___windows;
-HXDLIN( 188)			while((_g < _g1->length)){
-HXLINE( 188)				 ::lime::ui::Window window = _g1->__get(_g).StaticCast<  ::lime::ui::Window >();
-HXDLIN( 188)				_g = (_g + 1);
-HXLINE( 190)				window->set_cursor(setCursor);
+HXDLIN( 108)		if (_hx_tmp) {
+HXLINE( 110)			int _g = 0;
+HXDLIN( 110)			::Array< ::Dynamic> _g1 = ::lime::app::Application_obj::current->_hx___windows;
+HXDLIN( 110)			while((_g < _g1->length)){
+HXLINE( 110)				 ::lime::ui::Window window = _g1->__get(_g).StaticCast<  ::lime::ui::Window >();
+HXDLIN( 110)				_g = (_g + 1);
+HXLINE( 112)				window->set_cursor(setCursor);
             			}
             		}
-HXLINE( 195)		return (::openfl::ui::Mouse_obj::_hx___cursor = value);
+HXLINE( 117)		return (::openfl::ui::Mouse_obj::_hx___cursor = value);
             	}
 
 
@@ -294,16 +294,16 @@ void Mouse_obj::__register()
 void Mouse_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_9dfd1f611dbbe53a_61_boot)
-HXDLIN(  61)		supportsCursor = true;
+            	HX_STACKFRAME(&_hx_pos_9dfd1f611dbbe53a_17_boot)
+HXDLIN(  17)		supportsCursor = true;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_9dfd1f611dbbe53a_66_boot)
-HXDLIN(  66)		supportsNativeCursor = true;
+            	HX_STACKFRAME(&_hx_pos_9dfd1f611dbbe53a_18_boot)
+HXDLIN(  18)		supportsNativeCursor = true;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_9dfd1f611dbbe53a_68_boot)
-HXDLIN(  68)		_hx___cursor = HX_("auto",6f,df,76,40);
+            	HX_STACKFRAME(&_hx_pos_9dfd1f611dbbe53a_20_boot)
+HXDLIN(  20)		_hx___cursor = HX_("auto",6f,df,76,40);
             	}
 }
 

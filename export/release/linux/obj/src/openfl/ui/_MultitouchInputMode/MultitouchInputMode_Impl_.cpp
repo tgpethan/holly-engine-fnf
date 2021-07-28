@@ -5,11 +5,11 @@
 #include <openfl/ui/_MultitouchInputMode/MultitouchInputMode_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_db969e8eaa4463f9_36_fromString,"openfl.ui._MultitouchInputMode.MultitouchInputMode_Impl_","fromString",0x1bb65d6c,"openfl.ui._MultitouchInputMode.MultitouchInputMode_Impl_.fromString","openfl/ui/MultitouchInputMode.hx",36,0x44de2b53)
-HX_LOCAL_STACK_FRAME(_hx_pos_db969e8eaa4463f9_47_toString,"openfl.ui._MultitouchInputMode.MultitouchInputMode_Impl_","toString",0xaea349fd,"openfl.ui._MultitouchInputMode.MultitouchInputMode_Impl_.toString","openfl/ui/MultitouchInputMode.hx",47,0x44de2b53)
-HX_LOCAL_STACK_FRAME(_hx_pos_db969e8eaa4463f9_20_boot,"openfl.ui._MultitouchInputMode.MultitouchInputMode_Impl_","boot",0x3642c103,"openfl.ui._MultitouchInputMode.MultitouchInputMode_Impl_.boot","openfl/ui/MultitouchInputMode.hx",20,0x44de2b53)
-HX_LOCAL_STACK_FRAME(_hx_pos_db969e8eaa4463f9_26_boot,"openfl.ui._MultitouchInputMode.MultitouchInputMode_Impl_","boot",0x3642c103,"openfl.ui._MultitouchInputMode.MultitouchInputMode_Impl_.boot","openfl/ui/MultitouchInputMode.hx",26,0x44de2b53)
-HX_LOCAL_STACK_FRAME(_hx_pos_db969e8eaa4463f9_32_boot,"openfl.ui._MultitouchInputMode.MultitouchInputMode_Impl_","boot",0x3642c103,"openfl.ui._MultitouchInputMode.MultitouchInputMode_Impl_.boot","openfl/ui/MultitouchInputMode.hx",32,0x44de2b53)
+HX_LOCAL_STACK_FRAME(_hx_pos_db969e8eaa4463f9_13_fromString,"openfl.ui._MultitouchInputMode.MultitouchInputMode_Impl_","fromString",0x1bb65d6c,"openfl.ui._MultitouchInputMode.MultitouchInputMode_Impl_.fromString","openfl/ui/MultitouchInputMode.hx",13,0x44de2b53)
+HX_LOCAL_STACK_FRAME(_hx_pos_db969e8eaa4463f9_24_toString,"openfl.ui._MultitouchInputMode.MultitouchInputMode_Impl_","toString",0xaea349fd,"openfl.ui._MultitouchInputMode.MultitouchInputMode_Impl_.toString","openfl/ui/MultitouchInputMode.hx",24,0x44de2b53)
+HX_LOCAL_STACK_FRAME(_hx_pos_db969e8eaa4463f9_7_boot,"openfl.ui._MultitouchInputMode.MultitouchInputMode_Impl_","boot",0x3642c103,"openfl.ui._MultitouchInputMode.MultitouchInputMode_Impl_.boot","openfl/ui/MultitouchInputMode.hx",7,0x44de2b53)
+HX_LOCAL_STACK_FRAME(_hx_pos_db969e8eaa4463f9_8_boot,"openfl.ui._MultitouchInputMode.MultitouchInputMode_Impl_","boot",0x3642c103,"openfl.ui._MultitouchInputMode.MultitouchInputMode_Impl_.boot","openfl/ui/MultitouchInputMode.hx",8,0x44de2b53)
+HX_LOCAL_STACK_FRAME(_hx_pos_db969e8eaa4463f9_9_boot,"openfl.ui._MultitouchInputMode.MultitouchInputMode_Impl_","boot",0x3642c103,"openfl.ui._MultitouchInputMode.MultitouchInputMode_Impl_.boot","openfl/ui/MultitouchInputMode.hx",9,0x44de2b53)
 namespace openfl{
 namespace ui{
 namespace _MultitouchInputMode{
@@ -38,50 +38,50 @@ bool MultitouchInputMode_Impl__obj::_hx_isInstanceOf(int inClassId) {
  ::Dynamic MultitouchInputMode_Impl__obj::TOUCH_POINT;
 
  ::Dynamic MultitouchInputMode_Impl__obj::fromString(::String value){
-            	HX_STACKFRAME(&_hx_pos_db969e8eaa4463f9_36_fromString)
-HXDLIN(  36)		::String _hx_switch_0 = value;
+            	HX_STACKFRAME(&_hx_pos_db969e8eaa4463f9_13_fromString)
+HXDLIN(  13)		::String _hx_switch_0 = value;
             		if (  (_hx_switch_0==HX_("gesture",89,da,48,a1)) ){
-HXLINE(  38)			return 0;
-HXDLIN(  38)			goto _hx_goto_0;
+HXLINE(  15)			return 0;
+HXDLIN(  15)			goto _hx_goto_0;
             		}
             		if (  (_hx_switch_0==HX_("none",b8,12,0a,49)) ){
-HXLINE(  39)			return 1;
-HXDLIN(  39)			goto _hx_goto_0;
+HXLINE(  16)			return 1;
+HXDLIN(  16)			goto _hx_goto_0;
             		}
             		if (  (_hx_switch_0==HX_("touchPoint",11,98,20,c0)) ){
-HXLINE(  40)			return 2;
-HXDLIN(  40)			goto _hx_goto_0;
+HXLINE(  17)			return 2;
+HXDLIN(  17)			goto _hx_goto_0;
             		}
             		/* default */{
-HXLINE(  41)			return null();
+HXLINE(  18)			return null();
             		}
             		_hx_goto_0:;
-HXLINE(  36)		return null();
+HXLINE(  13)		return null();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(MultitouchInputMode_Impl__obj,fromString,return )
 
 ::String MultitouchInputMode_Impl__obj::toString( ::Dynamic this1){
-            	HX_STACKFRAME(&_hx_pos_db969e8eaa4463f9_47_toString)
-HXDLIN(  47)		 ::Dynamic _hx_switch_0 = this1;
+            	HX_STACKFRAME(&_hx_pos_db969e8eaa4463f9_24_toString)
+HXDLIN(  24)		 ::Dynamic _hx_switch_0 = this1;
             		if (  (_hx_switch_0==0) ){
-HXLINE(  49)			return HX_("gesture",89,da,48,a1);
-HXDLIN(  49)			goto _hx_goto_2;
+HXLINE(  26)			return HX_("gesture",89,da,48,a1);
+HXDLIN(  26)			goto _hx_goto_2;
             		}
             		if (  (_hx_switch_0==1) ){
-HXLINE(  50)			return HX_("none",b8,12,0a,49);
-HXDLIN(  50)			goto _hx_goto_2;
+HXLINE(  27)			return HX_("none",b8,12,0a,49);
+HXDLIN(  27)			goto _hx_goto_2;
             		}
             		if (  (_hx_switch_0==2) ){
-HXLINE(  51)			return HX_("touchPoint",11,98,20,c0);
-HXDLIN(  51)			goto _hx_goto_2;
+HXLINE(  28)			return HX_("touchPoint",11,98,20,c0);
+HXDLIN(  28)			goto _hx_goto_2;
             		}
             		/* default */{
-HXLINE(  52)			return null();
+HXLINE(  29)			return null();
             		}
             		_hx_goto_2:;
-HXLINE(  47)		return null();
+HXLINE(  24)		return null();
             	}
 
 
@@ -170,16 +170,16 @@ void MultitouchInputMode_Impl__obj::__register()
 void MultitouchInputMode_Impl__obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_db969e8eaa4463f9_20_boot)
-HXDLIN(  20)		GESTURE = 0;
+            	HX_STACKFRAME(&_hx_pos_db969e8eaa4463f9_7_boot)
+HXDLIN(   7)		GESTURE = 0;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_db969e8eaa4463f9_26_boot)
-HXDLIN(  26)		NONE = 1;
+            	HX_STACKFRAME(&_hx_pos_db969e8eaa4463f9_8_boot)
+HXDLIN(   8)		NONE = 1;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_db969e8eaa4463f9_32_boot)
-HXDLIN(  32)		TOUCH_POINT = 2;
+            	HX_STACKFRAME(&_hx_pos_db969e8eaa4463f9_9_boot)
+HXDLIN(   9)		TOUCH_POINT = 2;
             	}
 }
 

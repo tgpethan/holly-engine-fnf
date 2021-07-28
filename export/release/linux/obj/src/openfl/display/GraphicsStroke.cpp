@@ -18,7 +18,7 @@
 #include <openfl/display/IGraphicsStroke.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_55614d7317440053_216_new,"openfl.display.GraphicsStroke","new",0x5684f03f,"openfl.display.GraphicsStroke.new","openfl/display/GraphicsStroke.hx",216,0x5e4870cf)
+HX_DEFINE_STACK_FRAME(_hx_pos_55614d7317440053_24_new,"openfl.display.GraphicsStroke","new",0x5684f03f,"openfl.display.GraphicsStroke.new","openfl/display/GraphicsStroke.hx",24,0x5e4870cf)
 namespace openfl{
 namespace display{
 
@@ -31,18 +31,18 @@ void GraphicsStroke_obj::__construct( ::Dynamic thickness,::hx::Null< bool >  __
             		 ::Dynamic joints = __o_joints;
             		if (::hx::IsNull(__o_joints)) joints = 2;
             		Float miterLimit = __o_miterLimit.Default(3);
-            	HX_STACKFRAME(&_hx_pos_55614d7317440053_216_new)
-HXLINE( 217)		if (::hx::IsNull( thickness )) {
-HXLINE( 217)			thickness = ::Math_obj::NaN;
+            	HX_STACKFRAME(&_hx_pos_55614d7317440053_24_new)
+HXLINE(  25)		if (::hx::IsNull( thickness )) {
+HXLINE(  25)			thickness = ::Math_obj::NaN;
             		}
-HXLINE( 219)		this->caps = caps;
-HXLINE( 220)		this->fill = fill;
-HXLINE( 221)		this->joints = joints;
-HXLINE( 222)		this->miterLimit = miterLimit;
-HXLINE( 223)		this->pixelHinting = pixelHinting;
-HXLINE( 224)		this->scaleMode = scaleMode;
-HXLINE( 225)		this->thickness = ( (Float)(thickness) );
-HXLINE( 226)		this->_hx___graphicsDataType = 0;
+HXLINE(  27)		this->caps = caps;
+HXLINE(  28)		this->fill = fill;
+HXLINE(  29)		this->joints = joints;
+HXLINE(  30)		this->miterLimit = miterLimit;
+HXLINE(  31)		this->pixelHinting = pixelHinting;
+HXLINE(  32)		this->scaleMode = scaleMode;
+HXLINE(  33)		this->thickness = ( (Float)(thickness) );
+HXLINE(  34)		this->_hx___graphicsDataType = 0;
             	}
 
 Dynamic GraphicsStroke_obj::__CreateEmpty() { return new GraphicsStroke_obj; }

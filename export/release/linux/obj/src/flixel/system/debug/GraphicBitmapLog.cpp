@@ -32,7 +32,7 @@
 #include <openfl/utils/_ByteArray/ByteArray_Impl_.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_d3ebbc551fe38df3_47_new,"flixel.system.debug.GraphicBitmapLog","new",0xf8da4027,"flixel.system.debug.GraphicBitmapLog.new","openfl/utils/_internal/AssetsMacro.hx",47,0xfdd54705)
+HX_DEFINE_STACK_FRAME(_hx_pos_fc7225994009fbb7_47_new,"flixel.system.debug.GraphicBitmapLog","new",0xf8da4027,"flixel.system.debug.GraphicBitmapLog.new","openfl/_internal/macros/AssetsMacro.hx",47,0xf7db08ab)
 HX_LOCAL_STACK_FRAME(_hx_pos_bb31c4552e01719c_43_boot,"flixel.system.debug.GraphicBitmapLog","boot",0xbe36e28b,"flixel.system.debug.GraphicBitmapLog.boot","flixel/system/debug/FlxDebugger.hx",43,0xd9fc0a74)
 namespace flixel{
 namespace _hx_system{
@@ -43,7 +43,7 @@ void GraphicBitmapLog_obj::__construct(int width,int height, ::Dynamic __o_trans
             		if (::hx::IsNull(__o_transparent)) transparent = true;
             		 ::Dynamic fillRGBA = __o_fillRGBA;
             		if (::hx::IsNull(__o_fillRGBA)) fillRGBA = -1;
-            	HX_STACKFRAME(&_hx_pos_d3ebbc551fe38df3_47_new)
+            	HX_STACKFRAME(&_hx_pos_fc7225994009fbb7_47_new)
 HXLINE(  71)		super::__construct(0,0,transparent,fillRGBA);
 HXLINE(  73)		 ::openfl::utils::ByteArrayData byteArray = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(::haxe::Resource_obj::getBytes(::flixel::_hx_system::debug::GraphicBitmapLog_obj::resourceName));
 HXLINE(  74)		{

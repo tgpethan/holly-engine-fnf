@@ -8,23 +8,23 @@
 #include <openfl/events/_EventDispatcher/Listener.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_eed9e911a94343be_464_new,"openfl.events._EventDispatcher.DispatchIterator","new",0x76c2678f,"openfl.events._EventDispatcher.DispatchIterator.new","openfl/events/EventDispatcher.hx",464,0xe2270714)
-HX_LOCAL_STACK_FRAME(_hx_pos_eed9e911a94343be_471_copy,"openfl.events._EventDispatcher.DispatchIterator","copy",0x6c1a6da6,"openfl.events._EventDispatcher.DispatchIterator.copy","openfl/events/EventDispatcher.hx",471,0xe2270714)
-HX_LOCAL_STACK_FRAME(_hx_pos_eed9e911a94343be_480_hasNext,"openfl.events._EventDispatcher.DispatchIterator","hasNext",0xef22001c,"openfl.events._EventDispatcher.DispatchIterator.hasNext","openfl/events/EventDispatcher.hx",480,0xe2270714)
-HX_LOCAL_STACK_FRAME(_hx_pos_eed9e911a94343be_485_next,"openfl.events._EventDispatcher.DispatchIterator","next",0x735836e4,"openfl.events._EventDispatcher.DispatchIterator.next","openfl/events/EventDispatcher.hx",485,0xe2270714)
-HX_LOCAL_STACK_FRAME(_hx_pos_eed9e911a94343be_490_remove,"openfl.events._EventDispatcher.DispatchIterator","remove",0xb5236c75,"openfl.events._EventDispatcher.DispatchIterator.remove","openfl/events/EventDispatcher.hx",490,0xe2270714)
-HX_LOCAL_STACK_FRAME(_hx_pos_eed9e911a94343be_514_reset,"openfl.events._EventDispatcher.DispatchIterator","reset",0xc76e4abe,"openfl.events._EventDispatcher.DispatchIterator.reset","openfl/events/EventDispatcher.hx",514,0xe2270714)
-HX_LOCAL_STACK_FRAME(_hx_pos_eed9e911a94343be_523_start,"openfl.events._EventDispatcher.DispatchIterator","start",0x64b17551,"openfl.events._EventDispatcher.DispatchIterator.start","openfl/events/EventDispatcher.hx",523,0xe2270714)
-HX_LOCAL_STACK_FRAME(_hx_pos_eed9e911a94343be_528_stop,"openfl.events._EventDispatcher.DispatchIterator","stop",0x76b1a1f3,"openfl.events._EventDispatcher.DispatchIterator.stop","openfl/events/EventDispatcher.hx",528,0xe2270714)
-HX_LOCAL_STACK_FRAME(_hx_pos_eed9e911a94343be_455_boot,"openfl.events._EventDispatcher.DispatchIterator","boot",0x6b713623,"openfl.events._EventDispatcher.DispatchIterator.boot","openfl/events/EventDispatcher.hx",455,0xe2270714)
+HX_DEFINE_STACK_FRAME(_hx_pos_eed9e911a94343be_240_new,"openfl.events._EventDispatcher.DispatchIterator","new",0x76c2678f,"openfl.events._EventDispatcher.DispatchIterator.new","openfl/events/EventDispatcher.hx",240,0xe2270714)
+HX_LOCAL_STACK_FRAME(_hx_pos_eed9e911a94343be_247_copy,"openfl.events._EventDispatcher.DispatchIterator","copy",0x6c1a6da6,"openfl.events._EventDispatcher.DispatchIterator.copy","openfl/events/EventDispatcher.hx",247,0xe2270714)
+HX_LOCAL_STACK_FRAME(_hx_pos_eed9e911a94343be_256_hasNext,"openfl.events._EventDispatcher.DispatchIterator","hasNext",0xef22001c,"openfl.events._EventDispatcher.DispatchIterator.hasNext","openfl/events/EventDispatcher.hx",256,0xe2270714)
+HX_LOCAL_STACK_FRAME(_hx_pos_eed9e911a94343be_261_next,"openfl.events._EventDispatcher.DispatchIterator","next",0x735836e4,"openfl.events._EventDispatcher.DispatchIterator.next","openfl/events/EventDispatcher.hx",261,0xe2270714)
+HX_LOCAL_STACK_FRAME(_hx_pos_eed9e911a94343be_266_remove,"openfl.events._EventDispatcher.DispatchIterator","remove",0xb5236c75,"openfl.events._EventDispatcher.DispatchIterator.remove","openfl/events/EventDispatcher.hx",266,0xe2270714)
+HX_LOCAL_STACK_FRAME(_hx_pos_eed9e911a94343be_290_reset,"openfl.events._EventDispatcher.DispatchIterator","reset",0xc76e4abe,"openfl.events._EventDispatcher.DispatchIterator.reset","openfl/events/EventDispatcher.hx",290,0xe2270714)
+HX_LOCAL_STACK_FRAME(_hx_pos_eed9e911a94343be_299_start,"openfl.events._EventDispatcher.DispatchIterator","start",0x64b17551,"openfl.events._EventDispatcher.DispatchIterator.start","openfl/events/EventDispatcher.hx",299,0xe2270714)
+HX_LOCAL_STACK_FRAME(_hx_pos_eed9e911a94343be_304_stop,"openfl.events._EventDispatcher.DispatchIterator","stop",0x76b1a1f3,"openfl.events._EventDispatcher.DispatchIterator.stop","openfl/events/EventDispatcher.hx",304,0xe2270714)
+HX_LOCAL_STACK_FRAME(_hx_pos_eed9e911a94343be_231_boot,"openfl.events._EventDispatcher.DispatchIterator","boot",0x6b713623,"openfl.events._EventDispatcher.DispatchIterator.boot","openfl/events/EventDispatcher.hx",231,0xe2270714)
 namespace openfl{
 namespace events{
 namespace _EventDispatcher{
 
 void DispatchIterator_obj::__construct(::Array< ::Dynamic> list){
-            	HX_STACKFRAME(&_hx_pos_eed9e911a94343be_464_new)
-HXLINE( 465)		this->active = false;
-HXLINE( 466)		this->reset(list);
+            	HX_STACKFRAME(&_hx_pos_eed9e911a94343be_240_new)
+HXLINE( 241)		this->active = false;
+HXLINE( 242)		this->reset(list);
             	}
 
 Dynamic DispatchIterator_obj::__CreateEmpty() { return new DispatchIterator_obj; }
@@ -43,10 +43,10 @@ bool DispatchIterator_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void DispatchIterator_obj::copy(){
-            	HX_STACKFRAME(&_hx_pos_eed9e911a94343be_471_copy)
-HXDLIN( 471)		if (!(this->isCopy)) {
-HXLINE( 473)			this->list = this->list->copy();
-HXLINE( 474)			this->isCopy = true;
+            	HX_STACKFRAME(&_hx_pos_eed9e911a94343be_247_copy)
+HXDLIN( 247)		if (!(this->isCopy)) {
+HXLINE( 249)			this->list = this->list->copy();
+HXLINE( 250)			this->isCopy = true;
             		}
             	}
 
@@ -54,38 +54,38 @@ HXLINE( 474)			this->isCopy = true;
 HX_DEFINE_DYNAMIC_FUNC0(DispatchIterator_obj,copy,(void))
 
 bool DispatchIterator_obj::hasNext(){
-            	HX_STACKFRAME(&_hx_pos_eed9e911a94343be_480_hasNext)
-HXDLIN( 480)		return (this->index < this->list->length);
+            	HX_STACKFRAME(&_hx_pos_eed9e911a94343be_256_hasNext)
+HXDLIN( 256)		return (this->index < this->list->length);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(DispatchIterator_obj,hasNext,return )
 
  ::openfl::events::_EventDispatcher::Listener DispatchIterator_obj::next(){
-            	HX_STACKFRAME(&_hx_pos_eed9e911a94343be_485_next)
-HXDLIN( 485)		return this->list->__get(this->index++).StaticCast<  ::openfl::events::_EventDispatcher::Listener >();
+            	HX_STACKFRAME(&_hx_pos_eed9e911a94343be_261_next)
+HXDLIN( 261)		return this->list->__get(this->index++).StaticCast<  ::openfl::events::_EventDispatcher::Listener >();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(DispatchIterator_obj,next,return )
 
 void DispatchIterator_obj::remove( ::openfl::events::_EventDispatcher::Listener listener,int listIndex){
-            	HX_STACKFRAME(&_hx_pos_eed9e911a94343be_490_remove)
-HXDLIN( 490)		if (this->active) {
-HXLINE( 492)			if (!(this->isCopy)) {
-HXLINE( 494)				if ((listIndex < this->index)) {
-HXLINE( 496)					this->index--;
+            	HX_STACKFRAME(&_hx_pos_eed9e911a94343be_266_remove)
+HXDLIN( 266)		if (this->active) {
+HXLINE( 268)			if (!(this->isCopy)) {
+HXLINE( 270)				if ((listIndex < this->index)) {
+HXLINE( 272)					this->index--;
             				}
             			}
             			else {
-HXLINE( 501)				int _g = this->index;
-HXDLIN( 501)				int _g1 = this->list->length;
-HXDLIN( 501)				while((_g < _g1)){
-HXLINE( 501)					_g = (_g + 1);
-HXDLIN( 501)					int i = (_g - 1);
-HXLINE( 503)					if (::hx::IsEq( this->list->__get(i).StaticCast<  ::openfl::events::_EventDispatcher::Listener >(),listener )) {
-HXLINE( 505)						this->list->removeRange(i,1);
-HXLINE( 506)						goto _hx_goto_4;
+HXLINE( 277)				int _g = this->index;
+HXDLIN( 277)				int _g1 = this->list->length;
+HXDLIN( 277)				while((_g < _g1)){
+HXLINE( 277)					_g = (_g + 1);
+HXDLIN( 277)					int i = (_g - 1);
+HXLINE( 279)					if (::hx::IsEq( this->list->__get(i).StaticCast<  ::openfl::events::_EventDispatcher::Listener >(),listener )) {
+HXLINE( 281)						this->list->removeRange(i,1);
+HXLINE( 282)						goto _hx_goto_4;
             					}
             				}
             				_hx_goto_4:;
@@ -97,26 +97,26 @@ HXLINE( 506)						goto _hx_goto_4;
 HX_DEFINE_DYNAMIC_FUNC2(DispatchIterator_obj,remove,(void))
 
 void DispatchIterator_obj::reset(::Array< ::Dynamic> list){
-            	HX_STACKFRAME(&_hx_pos_eed9e911a94343be_514_reset)
-HXLINE( 515)		this->list = list;
-HXLINE( 517)		this->isCopy = false;
-HXLINE( 518)		this->index = 0;
+            	HX_STACKFRAME(&_hx_pos_eed9e911a94343be_290_reset)
+HXLINE( 291)		this->list = list;
+HXLINE( 293)		this->isCopy = false;
+HXLINE( 294)		this->index = 0;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(DispatchIterator_obj,reset,(void))
 
 void DispatchIterator_obj::start(){
-            	HX_STACKFRAME(&_hx_pos_eed9e911a94343be_523_start)
-HXDLIN( 523)		this->active = true;
+            	HX_STACKFRAME(&_hx_pos_eed9e911a94343be_299_start)
+HXDLIN( 299)		this->active = true;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(DispatchIterator_obj,start,(void))
 
 void DispatchIterator_obj::stop(){
-            	HX_STACKFRAME(&_hx_pos_eed9e911a94343be_528_stop)
-HXDLIN( 528)		this->active = false;
+            	HX_STACKFRAME(&_hx_pos_eed9e911a94343be_304_stop)
+HXDLIN( 304)		this->active = false;
             	}
 
 
@@ -261,8 +261,8 @@ void DispatchIterator_obj::__register()
 void DispatchIterator_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_eed9e911a94343be_455_boot)
-HXDLIN( 455)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
+            	HX_STACKFRAME(&_hx_pos_eed9e911a94343be_231_boot)
+HXDLIN( 231)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
             			->setFixed(0,HX_("obj",f7,8f,54,00), ::Dynamic(::hx::Anon_obj::Create(1)
             				->setFixed(0,HX_("SuppressWarnings",0c,d3,d2,00),::cpp::VirtualArray_obj::__new(1)->init(0,HX_("checkstyle:FieldDocComment",70,56,1b,20))))));
             	}

@@ -5,11 +5,11 @@
 #include <openfl/geom/_Orientation3D/Orientation3D_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_dbfa7e5fc0c22ef6_63_fromString,"openfl.geom._Orientation3D.Orientation3D_Impl_","fromString",0xa47116a0,"openfl.geom._Orientation3D.Orientation3D_Impl_.fromString","openfl/geom/Orientation3D.hx",63,0xf4ac08f1)
-HX_LOCAL_STACK_FRAME(_hx_pos_dbfa7e5fc0c22ef6_74_toString,"openfl.geom._Orientation3D.Orientation3D_Impl_","toString",0xf11d8e31,"openfl.geom._Orientation3D.Orientation3D_Impl_.toString","openfl/geom/Orientation3D.hx",74,0xf4ac08f1)
-HX_LOCAL_STACK_FRAME(_hx_pos_dbfa7e5fc0c22ef6_31_boot,"openfl.geom._Orientation3D.Orientation3D_Impl_","boot",0xe951db37,"openfl.geom._Orientation3D.Orientation3D_Impl_.boot","openfl/geom/Orientation3D.hx",31,0xf4ac08f1)
-HX_LOCAL_STACK_FRAME(_hx_pos_dbfa7e5fc0c22ef6_47_boot,"openfl.geom._Orientation3D.Orientation3D_Impl_","boot",0xe951db37,"openfl.geom._Orientation3D.Orientation3D_Impl_.boot","openfl/geom/Orientation3D.hx",47,0xf4ac08f1)
-HX_LOCAL_STACK_FRAME(_hx_pos_dbfa7e5fc0c22ef6_59_boot,"openfl.geom._Orientation3D.Orientation3D_Impl_","boot",0xe951db37,"openfl.geom._Orientation3D.Orientation3D_Impl_.boot","openfl/geom/Orientation3D.hx",59,0xf4ac08f1)
+HX_LOCAL_STACK_FRAME(_hx_pos_dbfa7e5fc0c22ef6_13_fromString,"openfl.geom._Orientation3D.Orientation3D_Impl_","fromString",0xa47116a0,"openfl.geom._Orientation3D.Orientation3D_Impl_.fromString","openfl/geom/Orientation3D.hx",13,0xf4ac08f1)
+HX_LOCAL_STACK_FRAME(_hx_pos_dbfa7e5fc0c22ef6_24_toString,"openfl.geom._Orientation3D.Orientation3D_Impl_","toString",0xf11d8e31,"openfl.geom._Orientation3D.Orientation3D_Impl_.toString","openfl/geom/Orientation3D.hx",24,0xf4ac08f1)
+HX_LOCAL_STACK_FRAME(_hx_pos_dbfa7e5fc0c22ef6_7_boot,"openfl.geom._Orientation3D.Orientation3D_Impl_","boot",0xe951db37,"openfl.geom._Orientation3D.Orientation3D_Impl_.boot","openfl/geom/Orientation3D.hx",7,0xf4ac08f1)
+HX_LOCAL_STACK_FRAME(_hx_pos_dbfa7e5fc0c22ef6_8_boot,"openfl.geom._Orientation3D.Orientation3D_Impl_","boot",0xe951db37,"openfl.geom._Orientation3D.Orientation3D_Impl_.boot","openfl/geom/Orientation3D.hx",8,0xf4ac08f1)
+HX_LOCAL_STACK_FRAME(_hx_pos_dbfa7e5fc0c22ef6_9_boot,"openfl.geom._Orientation3D.Orientation3D_Impl_","boot",0xe951db37,"openfl.geom._Orientation3D.Orientation3D_Impl_.boot","openfl/geom/Orientation3D.hx",9,0xf4ac08f1)
 namespace openfl{
 namespace geom{
 namespace _Orientation3D{
@@ -38,50 +38,50 @@ bool Orientation3D_Impl__obj::_hx_isInstanceOf(int inClassId) {
  ::Dynamic Orientation3D_Impl__obj::QUATERNION;
 
  ::Dynamic Orientation3D_Impl__obj::fromString(::String value){
-            	HX_STACKFRAME(&_hx_pos_dbfa7e5fc0c22ef6_63_fromString)
-HXDLIN(  63)		::String _hx_switch_0 = value;
+            	HX_STACKFRAME(&_hx_pos_dbfa7e5fc0c22ef6_13_fromString)
+HXDLIN(  13)		::String _hx_switch_0 = value;
             		if (  (_hx_switch_0==HX_("axisAngle",72,2f,86,7c)) ){
-HXLINE(  65)			return 0;
-HXDLIN(  65)			goto _hx_goto_0;
+HXLINE(  15)			return 0;
+HXDLIN(  15)			goto _hx_goto_0;
             		}
             		if (  (_hx_switch_0==HX_("eulerAngles",89,d7,c4,64)) ){
-HXLINE(  66)			return 1;
-HXDLIN(  66)			goto _hx_goto_0;
+HXLINE(  16)			return 1;
+HXDLIN(  16)			goto _hx_goto_0;
             		}
             		if (  (_hx_switch_0==HX_("quaternion",1e,0d,ca,1b)) ){
-HXLINE(  67)			return 2;
-HXDLIN(  67)			goto _hx_goto_0;
+HXLINE(  17)			return 2;
+HXDLIN(  17)			goto _hx_goto_0;
             		}
             		/* default */{
-HXLINE(  68)			return null();
+HXLINE(  18)			return null();
             		}
             		_hx_goto_0:;
-HXLINE(  63)		return null();
+HXLINE(  13)		return null();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Orientation3D_Impl__obj,fromString,return )
 
 ::String Orientation3D_Impl__obj::toString( ::Dynamic this1){
-            	HX_STACKFRAME(&_hx_pos_dbfa7e5fc0c22ef6_74_toString)
-HXDLIN(  74)		 ::Dynamic _hx_switch_0 = this1;
+            	HX_STACKFRAME(&_hx_pos_dbfa7e5fc0c22ef6_24_toString)
+HXDLIN(  24)		 ::Dynamic _hx_switch_0 = this1;
             		if (  (_hx_switch_0==0) ){
-HXLINE(  76)			return HX_("axisAngle",72,2f,86,7c);
-HXDLIN(  76)			goto _hx_goto_2;
+HXLINE(  26)			return HX_("axisAngle",72,2f,86,7c);
+HXDLIN(  26)			goto _hx_goto_2;
             		}
             		if (  (_hx_switch_0==1) ){
-HXLINE(  77)			return HX_("eulerAngles",89,d7,c4,64);
-HXDLIN(  77)			goto _hx_goto_2;
+HXLINE(  27)			return HX_("eulerAngles",89,d7,c4,64);
+HXDLIN(  27)			goto _hx_goto_2;
             		}
             		if (  (_hx_switch_0==2) ){
-HXLINE(  78)			return HX_("quaternion",1e,0d,ca,1b);
-HXDLIN(  78)			goto _hx_goto_2;
+HXLINE(  28)			return HX_("quaternion",1e,0d,ca,1b);
+HXDLIN(  28)			goto _hx_goto_2;
             		}
             		/* default */{
-HXLINE(  79)			return null();
+HXLINE(  29)			return null();
             		}
             		_hx_goto_2:;
-HXLINE(  74)		return null();
+HXLINE(  24)		return null();
             	}
 
 
@@ -170,16 +170,16 @@ void Orientation3D_Impl__obj::__register()
 void Orientation3D_Impl__obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_dbfa7e5fc0c22ef6_31_boot)
-HXDLIN(  31)		AXIS_ANGLE = 0;
+            	HX_STACKFRAME(&_hx_pos_dbfa7e5fc0c22ef6_7_boot)
+HXDLIN(   7)		AXIS_ANGLE = 0;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_dbfa7e5fc0c22ef6_47_boot)
-HXDLIN(  47)		EULER_ANGLES = 1;
+            	HX_STACKFRAME(&_hx_pos_dbfa7e5fc0c22ef6_8_boot)
+HXDLIN(   8)		EULER_ANGLES = 1;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_dbfa7e5fc0c22ef6_59_boot)
-HXDLIN(  59)		QUATERNION = 2;
+            	HX_STACKFRAME(&_hx_pos_dbfa7e5fc0c22ef6_9_boot)
+HXDLIN(   9)		QUATERNION = 2;
             	}
 }
 

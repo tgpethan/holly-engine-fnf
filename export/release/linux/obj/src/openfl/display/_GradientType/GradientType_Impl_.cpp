@@ -5,12 +5,12 @@
 #include <openfl/display/_GradientType/GradientType_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_b8cb0a95bea7ff48_26_fromInt,"openfl.display._GradientType.GradientType_Impl_","fromInt",0xbb719b10,"openfl.display._GradientType.GradientType_Impl_.fromInt","openfl/display/GradientType.hx",26,0xadf6e848)
-HX_LOCAL_STACK_FRAME(_hx_pos_b8cb0a95bea7ff48_31_fromString,"openfl.display._GradientType.GradientType_Impl_","fromString",0x32cb6550,"openfl.display._GradientType.GradientType_Impl_.fromString","openfl/display/GradientType.hx",31,0xadf6e848)
-HX_LOCAL_STACK_FRAME(_hx_pos_b8cb0a95bea7ff48_41_toInt,"openfl.display._GradientType.GradientType_Impl_","toInt",0x5e8fbadf,"openfl.display._GradientType.GradientType_Impl_.toInt","openfl/display/GradientType.hx",41,0xadf6e848)
-HX_LOCAL_STACK_FRAME(_hx_pos_b8cb0a95bea7ff48_46_toString,"openfl.display._GradientType.GradientType_Impl_","toString",0xdcddd0e1,"openfl.display._GradientType.GradientType_Impl_.toString","openfl/display/GradientType.hx",46,0xadf6e848)
-HX_LOCAL_STACK_FRAME(_hx_pos_b8cb0a95bea7ff48_17_boot,"openfl.display._GradientType.GradientType_Impl_","boot",0xb7af05e7,"openfl.display._GradientType.GradientType_Impl_.boot","openfl/display/GradientType.hx",17,0xadf6e848)
-HX_LOCAL_STACK_FRAME(_hx_pos_b8cb0a95bea7ff48_22_boot,"openfl.display._GradientType.GradientType_Impl_","boot",0xb7af05e7,"openfl.display._GradientType.GradientType_Impl_.boot","openfl/display/GradientType.hx",22,0xadf6e848)
+HX_LOCAL_STACK_FRAME(_hx_pos_b8cb0a95bea7ff48_12_fromInt,"openfl.display._GradientType.GradientType_Impl_","fromInt",0xbb719b10,"openfl.display._GradientType.GradientType_Impl_.fromInt","openfl/display/GradientType.hx",12,0xadf6e848)
+HX_LOCAL_STACK_FRAME(_hx_pos_b8cb0a95bea7ff48_17_fromString,"openfl.display._GradientType.GradientType_Impl_","fromString",0x32cb6550,"openfl.display._GradientType.GradientType_Impl_.fromString","openfl/display/GradientType.hx",17,0xadf6e848)
+HX_LOCAL_STACK_FRAME(_hx_pos_b8cb0a95bea7ff48_27_toInt,"openfl.display._GradientType.GradientType_Impl_","toInt",0x5e8fbadf,"openfl.display._GradientType.GradientType_Impl_.toInt","openfl/display/GradientType.hx",27,0xadf6e848)
+HX_LOCAL_STACK_FRAME(_hx_pos_b8cb0a95bea7ff48_32_toString,"openfl.display._GradientType.GradientType_Impl_","toString",0xdcddd0e1,"openfl.display._GradientType.GradientType_Impl_.toString","openfl/display/GradientType.hx",32,0xadf6e848)
+HX_LOCAL_STACK_FRAME(_hx_pos_b8cb0a95bea7ff48_7_boot,"openfl.display._GradientType.GradientType_Impl_","boot",0xb7af05e7,"openfl.display._GradientType.GradientType_Impl_.boot","openfl/display/GradientType.hx",7,0xadf6e848)
+HX_LOCAL_STACK_FRAME(_hx_pos_b8cb0a95bea7ff48_8_boot,"openfl.display._GradientType.GradientType_Impl_","boot",0xb7af05e7,"openfl.display._GradientType.GradientType_Impl_.boot","openfl/display/GradientType.hx",8,0xadf6e848)
 namespace openfl{
 namespace display{
 namespace _GradientType{
@@ -37,58 +37,58 @@ bool GradientType_Impl__obj::_hx_isInstanceOf(int inClassId) {
  ::Dynamic GradientType_Impl__obj::RADIAL;
 
  ::Dynamic GradientType_Impl__obj::fromInt( ::Dynamic value){
-            	HX_STACKFRAME(&_hx_pos_b8cb0a95bea7ff48_26_fromInt)
-HXDLIN(  26)		return value;
+            	HX_STACKFRAME(&_hx_pos_b8cb0a95bea7ff48_12_fromInt)
+HXDLIN(  12)		return value;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(GradientType_Impl__obj,fromInt,return )
 
  ::Dynamic GradientType_Impl__obj::fromString(::String value){
-            	HX_STACKFRAME(&_hx_pos_b8cb0a95bea7ff48_31_fromString)
-HXDLIN(  31)		::String _hx_switch_0 = value;
+            	HX_STACKFRAME(&_hx_pos_b8cb0a95bea7ff48_17_fromString)
+HXDLIN(  17)		::String _hx_switch_0 = value;
             		if (  (_hx_switch_0==HX_("linear",e5,51,a0,ec)) ){
-HXLINE(  33)			return 0;
-HXDLIN(  33)			goto _hx_goto_1;
+HXLINE(  19)			return 0;
+HXDLIN(  19)			goto _hx_goto_1;
             		}
             		if (  (_hx_switch_0==HX_("radial",df,be,f6,b0)) ){
-HXLINE(  34)			return 1;
-HXDLIN(  34)			goto _hx_goto_1;
+HXLINE(  20)			return 1;
+HXDLIN(  20)			goto _hx_goto_1;
             		}
             		/* default */{
-HXLINE(  35)			return null();
+HXLINE(  21)			return null();
             		}
             		_hx_goto_1:;
-HXLINE(  31)		return null();
+HXLINE(  17)		return null();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(GradientType_Impl__obj,fromString,return )
 
  ::Dynamic GradientType_Impl__obj::toInt( ::Dynamic this1){
-            	HX_STACKFRAME(&_hx_pos_b8cb0a95bea7ff48_41_toInt)
-HXDLIN(  41)		return this1;
+            	HX_STACKFRAME(&_hx_pos_b8cb0a95bea7ff48_27_toInt)
+HXDLIN(  27)		return this1;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(GradientType_Impl__obj,toInt,return )
 
 ::String GradientType_Impl__obj::toString( ::Dynamic this1){
-            	HX_STACKFRAME(&_hx_pos_b8cb0a95bea7ff48_46_toString)
-HXDLIN(  46)		 ::Dynamic _hx_switch_0 = this1;
+            	HX_STACKFRAME(&_hx_pos_b8cb0a95bea7ff48_32_toString)
+HXDLIN(  32)		 ::Dynamic _hx_switch_0 = this1;
             		if (  (_hx_switch_0==0) ){
-HXLINE(  48)			return HX_("linear",e5,51,a0,ec);
-HXDLIN(  48)			goto _hx_goto_4;
+HXLINE(  34)			return HX_("linear",e5,51,a0,ec);
+HXDLIN(  34)			goto _hx_goto_4;
             		}
             		if (  (_hx_switch_0==1) ){
-HXLINE(  49)			return HX_("radial",df,be,f6,b0);
-HXDLIN(  49)			goto _hx_goto_4;
+HXLINE(  35)			return HX_("radial",df,be,f6,b0);
+HXDLIN(  35)			goto _hx_goto_4;
             		}
             		/* default */{
-HXLINE(  50)			return null();
+HXLINE(  36)			return null();
             		}
             		_hx_goto_4:;
-HXLINE(  46)		return null();
+HXLINE(  32)		return null();
             	}
 
 
@@ -181,12 +181,12 @@ void GradientType_Impl__obj::__register()
 void GradientType_Impl__obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_b8cb0a95bea7ff48_17_boot)
-HXDLIN(  17)		LINEAR = 0;
+            	HX_STACKFRAME(&_hx_pos_b8cb0a95bea7ff48_7_boot)
+HXDLIN(   7)		LINEAR = 0;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_b8cb0a95bea7ff48_22_boot)
-HXDLIN(  22)		RADIAL = 1;
+            	HX_STACKFRAME(&_hx_pos_b8cb0a95bea7ff48_8_boot)
+HXDLIN(   8)		RADIAL = 1;
             	}
 }
 

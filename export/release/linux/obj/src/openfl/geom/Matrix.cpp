@@ -39,43 +39,43 @@
 #include <openfl/geom/Vector3D.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_99143fe9fb0bb031_152_new,"openfl.geom.Matrix","new",0xd1b9ff67,"openfl.geom.Matrix.new","openfl/geom/Matrix.hx",152,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_169_clone,"openfl.geom.Matrix","clone",0xe2f85224,"openfl.geom.Matrix.clone","openfl/geom/Matrix.hx",169,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_191_concat,"openfl.geom.Matrix","concat",0x6fd1b86d,"openfl.geom.Matrix.concat","openfl/geom/Matrix.hx",191,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_215_copyColumnFrom,"openfl.geom.Matrix","copyColumnFrom",0xa86bc7ce,"openfl.geom.Matrix.copyColumnFrom","openfl/geom/Matrix.hx",215,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_245_copyColumnTo,"openfl.geom.Matrix","copyColumnTo",0xb6db66df,"openfl.geom.Matrix.copyColumnTo","openfl/geom/Matrix.hx",245,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_276_copyFrom,"openfl.geom.Matrix","copyFrom",0xb7b00358,"openfl.geom.Matrix.copyFrom","openfl/geom/Matrix.hx",276,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_293_copyRowFrom,"openfl.geom.Matrix","copyRowFrom",0xadd25376,"openfl.geom.Matrix.copyRowFrom","openfl/geom/Matrix.hx",293,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_320_copyRowTo,"openfl.geom.Matrix","copyRowTo",0xe92c3887,"openfl.geom.Matrix.copyRowTo","openfl/geom/Matrix.hx",320,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_371_createBox,"openfl.geom.Matrix","createBox",0xbfa242b6,"openfl.geom.Matrix.createBox","openfl/geom/Matrix.hx",371,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_434_createGradientBox,"openfl.geom.Matrix","createGradientBox",0xa2dcb9a6,"openfl.geom.Matrix.createGradientBox","openfl/geom/Matrix.hx",434,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_473_deltaTransformPoint,"openfl.geom.Matrix","deltaTransformPoint",0xeb963a63,"openfl.geom.Matrix.deltaTransformPoint","openfl/geom/Matrix.hx",473,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_478_equals,"openfl.geom.Matrix","equals",0x67f49d98,"openfl.geom.Matrix.equals","openfl/geom/Matrix.hx",478,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_493_identity,"openfl.geom.Matrix","identity",0xa87e3cd7,"openfl.geom.Matrix.identity","openfl/geom/Matrix.hx",493,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_509_invert,"openfl.geom.Matrix","invert",0x47da966f,"openfl.geom.Matrix.invert","openfl/geom/Matrix.hx",509,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_548_rotate,"openfl.geom.Matrix","rotate",0x7321f5b4,"openfl.geom.Matrix.rotate","openfl/geom/Matrix.hx",548,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_594_scale,"openfl.geom.Matrix","scale",0x13640d51,"openfl.geom.Matrix.scale","openfl/geom/Matrix.hx",594,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_615_setRotation,"openfl.geom.Matrix","setRotation",0xf72e1507,"openfl.geom.Matrix.setRotation","openfl/geom/Matrix.hx",615,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_635_setTo,"openfl.geom.Matrix","setTo",0x14c4d084,"openfl.geom.Matrix.setTo","openfl/geom/Matrix.hx",635,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_647_to3DString,"openfl.geom.Matrix","to3DString",0xe99e8cb6,"openfl.geom.Matrix.to3DString","openfl/geom/Matrix.hx",647,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_660_toMozString,"openfl.geom.Matrix","toMozString",0xd9d4e6d5,"openfl.geom.Matrix.toMozString","openfl/geom/Matrix.hx",660,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_672_toString,"openfl.geom.Matrix","toString",0x27bdc845,"openfl.geom.Matrix.toString","openfl/geom/Matrix.hx",672,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_685_transformPoint,"openfl.geom.Matrix","transformPoint",0xaac7ff9d,"openfl.geom.Matrix.transformPoint","openfl/geom/Matrix.hx",685,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_697_translate,"openfl.geom.Matrix","translate",0xbf498595,"openfl.geom.Matrix.translate","openfl/geom/Matrix.hx",697,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_704_toArray,"openfl.geom.Matrix","toArray",0x4b8b78a5,"openfl.geom.Matrix.toArray","openfl/geom/Matrix.hx",704,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_740___cleanValues,"openfl.geom.Matrix","__cleanValues",0xae7254f2,"openfl.geom.Matrix.__cleanValues","openfl/geom/Matrix.hx",740,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_751___toMatrix3,"openfl.geom.Matrix","__toMatrix3",0xaf6ed17e,"openfl.geom.Matrix.__toMatrix3","openfl/geom/Matrix.hx",751,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_758___transformInversePoint,"openfl.geom.Matrix","__transformInversePoint",0xde42fb73,"openfl.geom.Matrix.__transformInversePoint","openfl/geom/Matrix.hx",758,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_775___transformInverseX,"openfl.geom.Matrix","__transformInverseX",0x55523a1b,"openfl.geom.Matrix.__transformInverseX","openfl/geom/Matrix.hx",775,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_789___transformInverseY,"openfl.geom.Matrix","__transformInverseY",0x55523a1c,"openfl.geom.Matrix.__transformInverseY","openfl/geom/Matrix.hx",789,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_803___transformPoint,"openfl.geom.Matrix","__transformPoint",0x5d3712fd,"openfl.geom.Matrix.__transformPoint","openfl/geom/Matrix.hx",803,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_813___transformX,"openfl.geom.Matrix","__transformX",0x93ad44a5,"openfl.geom.Matrix.__transformX","openfl/geom/Matrix.hx",813,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_818___transformY,"openfl.geom.Matrix","__transformY",0x93ad44a6,"openfl.geom.Matrix.__transformY","openfl/geom/Matrix.hx",818,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_822___translateTransformed,"openfl.geom.Matrix","__translateTransformed",0x123e9496,"openfl.geom.Matrix.__translateTransformed","openfl/geom/Matrix.hx",822,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_74_boot,"openfl.geom.Matrix","boot",0xa91e7b4b,"openfl.geom.Matrix.boot","openfl/geom/Matrix.hx",74,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_76_boot,"openfl.geom.Matrix","boot",0xa91e7b4b,"openfl.geom.Matrix.boot","openfl/geom/Matrix.hx",76,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_77_boot,"openfl.geom.Matrix","boot",0xa91e7b4b,"openfl.geom.Matrix.boot","openfl/geom/Matrix.hx",77,0xa0d54189)
-HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_79_boot,"openfl.geom.Matrix","boot",0xa91e7b4b,"openfl.geom.Matrix.boot","openfl/geom/Matrix.hx",79,0xa0d54189)
+HX_DEFINE_STACK_FRAME(_hx_pos_99143fe9fb0bb031_34_new,"openfl.geom.Matrix","new",0xd1b9ff67,"openfl.geom.Matrix.new","openfl/geom/Matrix.hx",34,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_45_clone,"openfl.geom.Matrix","clone",0xe2f85224,"openfl.geom.Matrix.clone","openfl/geom/Matrix.hx",45,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_49_concat,"openfl.geom.Matrix","concat",0x6fd1b86d,"openfl.geom.Matrix.concat","openfl/geom/Matrix.hx",49,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_67_copyColumnFrom,"openfl.geom.Matrix","copyColumnFrom",0xa86bc7ce,"openfl.geom.Matrix.copyColumnFrom","openfl/geom/Matrix.hx",67,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_90_copyColumnTo,"openfl.geom.Matrix","copyColumnTo",0xb6db66df,"openfl.geom.Matrix.copyColumnTo","openfl/geom/Matrix.hx",90,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_115_copyFrom,"openfl.geom.Matrix","copyFrom",0xb7b00358,"openfl.geom.Matrix.copyFrom","openfl/geom/Matrix.hx",115,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_126_copyRowFrom,"openfl.geom.Matrix","copyRowFrom",0xadd25376,"openfl.geom.Matrix.copyRowFrom","openfl/geom/Matrix.hx",126,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_146_copyRowTo,"openfl.geom.Matrix","copyRowTo",0xe92c3887,"openfl.geom.Matrix.copyRowTo","openfl/geom/Matrix.hx",146,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_169_createBox,"openfl.geom.Matrix","createBox",0xbfa242b6,"openfl.geom.Matrix.createBox","openfl/geom/Matrix.hx",169,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_198_createGradientBox,"openfl.geom.Matrix","createGradientBox",0xa2dcb9a6,"openfl.geom.Matrix.createGradientBox","openfl/geom/Matrix.hx",198,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_225_deltaTransformPoint,"openfl.geom.Matrix","deltaTransformPoint",0xeb963a63,"openfl.geom.Matrix.deltaTransformPoint","openfl/geom/Matrix.hx",225,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_230_equals,"openfl.geom.Matrix","equals",0x67f49d98,"openfl.geom.Matrix.equals","openfl/geom/Matrix.hx",230,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_234_identity,"openfl.geom.Matrix","identity",0xa87e3cd7,"openfl.geom.Matrix.identity","openfl/geom/Matrix.hx",234,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_244_invert,"openfl.geom.Matrix","invert",0x47da966f,"openfl.geom.Matrix.invert","openfl/geom/Matrix.hx",244,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_273_rotate,"openfl.geom.Matrix","rotate",0x7321f5b4,"openfl.geom.Matrix.rotate","openfl/geom/Matrix.hx",273,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_307_scale,"openfl.geom.Matrix","scale",0x13640d51,"openfl.geom.Matrix.scale","openfl/geom/Matrix.hx",307,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_328_setRotation,"openfl.geom.Matrix","setRotation",0xf72e1507,"openfl.geom.Matrix.setRotation","openfl/geom/Matrix.hx",328,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_338_setTo,"openfl.geom.Matrix","setTo",0x14c4d084,"openfl.geom.Matrix.setTo","openfl/geom/Matrix.hx",338,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_350_to3DString,"openfl.geom.Matrix","to3DString",0xe99e8cb6,"openfl.geom.Matrix.to3DString","openfl/geom/Matrix.hx",350,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_363_toMozString,"openfl.geom.Matrix","toMozString",0xd9d4e6d5,"openfl.geom.Matrix.toMozString","openfl/geom/Matrix.hx",363,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_368_toString,"openfl.geom.Matrix","toString",0x27bdc845,"openfl.geom.Matrix.toString","openfl/geom/Matrix.hx",368,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_373_transformPoint,"openfl.geom.Matrix","transformPoint",0xaac7ff9d,"openfl.geom.Matrix.transformPoint","openfl/geom/Matrix.hx",373,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_377_translate,"openfl.geom.Matrix","translate",0xbf498595,"openfl.geom.Matrix.translate","openfl/geom/Matrix.hx",377,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_384_toArray,"openfl.geom.Matrix","toArray",0x4b8b78a5,"openfl.geom.Matrix.toArray","openfl/geom/Matrix.hx",384,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_420___cleanValues,"openfl.geom.Matrix","__cleanValues",0xae7254f2,"openfl.geom.Matrix.__cleanValues","openfl/geom/Matrix.hx",420,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_431___toMatrix3,"openfl.geom.Matrix","__toMatrix3",0xaf6ed17e,"openfl.geom.Matrix.__toMatrix3","openfl/geom/Matrix.hx",431,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_438___transformInversePoint,"openfl.geom.Matrix","__transformInversePoint",0xde42fb73,"openfl.geom.Matrix.__transformInversePoint","openfl/geom/Matrix.hx",438,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_455___transformInverseX,"openfl.geom.Matrix","__transformInverseX",0x55523a1b,"openfl.geom.Matrix.__transformInverseX","openfl/geom/Matrix.hx",455,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_469___transformInverseY,"openfl.geom.Matrix","__transformInverseY",0x55523a1c,"openfl.geom.Matrix.__transformInverseY","openfl/geom/Matrix.hx",469,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_483___transformPoint,"openfl.geom.Matrix","__transformPoint",0x5d3712fd,"openfl.geom.Matrix.__transformPoint","openfl/geom/Matrix.hx",483,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_493___transformX,"openfl.geom.Matrix","__transformX",0x93ad44a5,"openfl.geom.Matrix.__transformX","openfl/geom/Matrix.hx",493,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_498___transformY,"openfl.geom.Matrix","__transformY",0x93ad44a6,"openfl.geom.Matrix.__transformY","openfl/geom/Matrix.hx",498,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_502___translateTransformed,"openfl.geom.Matrix","__translateTransformed",0x123e9496,"openfl.geom.Matrix.__translateTransformed","openfl/geom/Matrix.hx",502,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_14_boot,"openfl.geom.Matrix","boot",0xa91e7b4b,"openfl.geom.Matrix.boot","openfl/geom/Matrix.hx",14,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_16_boot,"openfl.geom.Matrix","boot",0xa91e7b4b,"openfl.geom.Matrix.boot","openfl/geom/Matrix.hx",16,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_17_boot,"openfl.geom.Matrix","boot",0xa91e7b4b,"openfl.geom.Matrix.boot","openfl/geom/Matrix.hx",17,0xa0d54189)
+HX_LOCAL_STACK_FRAME(_hx_pos_99143fe9fb0bb031_19_boot,"openfl.geom.Matrix","boot",0xa91e7b4b,"openfl.geom.Matrix.boot","openfl/geom/Matrix.hx",19,0xa0d54189)
 namespace openfl{
 namespace geom{
 
@@ -86,13 +86,13 @@ void Matrix_obj::__construct(::hx::Null< Float >  __o_a,::hx::Null< Float >  __o
             		Float d = __o_d.Default(1);
             		Float tx = __o_tx.Default(0);
             		Float ty = __o_ty.Default(0);
-            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_152_new)
-HXLINE( 153)		this->a = a;
-HXLINE( 154)		this->b = b;
-HXLINE( 155)		this->c = c;
-HXLINE( 156)		this->d = d;
-HXLINE( 157)		this->tx = tx;
-HXLINE( 158)		this->ty = ty;
+            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_34_new)
+HXLINE(  35)		this->a = a;
+HXLINE(  36)		this->b = b;
+HXLINE(  37)		this->c = c;
+HXLINE(  38)		this->d = d;
+HXLINE(  39)		this->tx = tx;
+HXLINE(  40)		this->ty = ty;
             	}
 
 Dynamic Matrix_obj::__CreateEmpty() { return new Matrix_obj; }
@@ -111,47 +111,47 @@ bool Matrix_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::openfl::geom::Matrix Matrix_obj::clone(){
-            	HX_GC_STACKFRAME(&_hx_pos_99143fe9fb0bb031_169_clone)
-HXDLIN( 169)		return  ::openfl::geom::Matrix_obj::__alloc( HX_CTX ,this->a,this->b,this->c,this->d,this->tx,this->ty);
+            	HX_GC_STACKFRAME(&_hx_pos_99143fe9fb0bb031_45_clone)
+HXDLIN(  45)		return  ::openfl::geom::Matrix_obj::__alloc( HX_CTX ,this->a,this->b,this->c,this->d,this->tx,this->ty);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Matrix_obj,clone,return )
 
 void Matrix_obj::concat( ::openfl::geom::Matrix m){
-            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_191_concat)
-HXLINE( 192)		Float a1 = ((this->a * m->a) + (this->b * m->c));
-HXLINE( 193)		this->b = ((this->a * m->b) + (this->b * m->d));
-HXLINE( 194)		this->a = a1;
-HXLINE( 196)		Float c1 = ((this->c * m->a) + (this->d * m->c));
-HXLINE( 197)		this->d = ((this->c * m->b) + (this->d * m->d));
-HXLINE( 198)		this->c = c1;
-HXLINE( 200)		Float tx1 = (((this->tx * m->a) + (this->ty * m->c)) + m->tx);
-HXLINE( 201)		this->ty = (((this->tx * m->b) + (this->ty * m->d)) + m->ty);
-HXLINE( 202)		this->tx = tx1;
+            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_49_concat)
+HXLINE(  50)		Float a1 = ((this->a * m->a) + (this->b * m->c));
+HXLINE(  51)		this->b = ((this->a * m->b) + (this->b * m->d));
+HXLINE(  52)		this->a = a1;
+HXLINE(  54)		Float c1 = ((this->c * m->a) + (this->d * m->c));
+HXLINE(  55)		this->d = ((this->c * m->b) + (this->d * m->d));
+HXLINE(  56)		this->c = c1;
+HXLINE(  58)		Float tx1 = (((this->tx * m->a) + (this->ty * m->c)) + m->tx);
+HXLINE(  59)		this->ty = (((this->tx * m->b) + (this->ty * m->d)) + m->ty);
+HXLINE(  60)		this->tx = tx1;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Matrix_obj,concat,(void))
 
 void Matrix_obj::copyColumnFrom(int column, ::openfl::geom::Vector3D vector3D){
-            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_215_copyColumnFrom)
-HXDLIN( 215)		if ((column > 2)) {
-HXLINE( 217)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(((HX_("Column ",6a,d4,aa,c0) + column) + HX_(" out of bounds (2)",eb,c3,f0,de))));
+            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_67_copyColumnFrom)
+HXDLIN(  67)		if ((column > 2)) {
+HXLINE(  69)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(((HX_("Column ",6a,d4,aa,c0) + column) + HX_(" out of bounds (2)",eb,c3,f0,de))));
             		}
             		else {
-HXLINE( 219)			if ((column == 0)) {
-HXLINE( 221)				this->a = vector3D->x;
-HXLINE( 222)				this->b = vector3D->y;
+HXLINE(  71)			if ((column == 0)) {
+HXLINE(  73)				this->a = vector3D->x;
+HXLINE(  74)				this->b = vector3D->y;
             			}
             			else {
-HXLINE( 224)				if ((column == 1)) {
-HXLINE( 226)					this->c = vector3D->x;
-HXLINE( 227)					this->d = vector3D->y;
+HXLINE(  76)				if ((column == 1)) {
+HXLINE(  78)					this->c = vector3D->x;
+HXLINE(  79)					this->d = vector3D->y;
             				}
             				else {
-HXLINE( 231)					this->tx = vector3D->x;
-HXLINE( 232)					this->ty = vector3D->y;
+HXLINE(  83)					this->tx = vector3D->x;
+HXLINE(  84)					this->ty = vector3D->y;
             				}
             			}
             		}
@@ -161,26 +161,26 @@ HXLINE( 232)					this->ty = vector3D->y;
 HX_DEFINE_DYNAMIC_FUNC2(Matrix_obj,copyColumnFrom,(void))
 
 void Matrix_obj::copyColumnTo(int column, ::openfl::geom::Vector3D vector3D){
-            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_245_copyColumnTo)
-HXDLIN( 245)		if ((column > 2)) {
-HXLINE( 247)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(((HX_("Column ",6a,d4,aa,c0) + column) + HX_(" out of bounds (2)",eb,c3,f0,de))));
+            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_90_copyColumnTo)
+HXDLIN(  90)		if ((column > 2)) {
+HXLINE(  92)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(((HX_("Column ",6a,d4,aa,c0) + column) + HX_(" out of bounds (2)",eb,c3,f0,de))));
             		}
             		else {
-HXLINE( 249)			if ((column == 0)) {
-HXLINE( 251)				vector3D->x = this->a;
-HXLINE( 252)				vector3D->y = this->b;
-HXLINE( 253)				vector3D->z = ( (Float)(0) );
+HXLINE(  94)			if ((column == 0)) {
+HXLINE(  96)				vector3D->x = this->a;
+HXLINE(  97)				vector3D->y = this->b;
+HXLINE(  98)				vector3D->z = ( (Float)(0) );
             			}
             			else {
-HXLINE( 255)				if ((column == 1)) {
-HXLINE( 257)					vector3D->x = this->c;
-HXLINE( 258)					vector3D->y = this->d;
-HXLINE( 259)					vector3D->z = ( (Float)(0) );
+HXLINE( 100)				if ((column == 1)) {
+HXLINE( 102)					vector3D->x = this->c;
+HXLINE( 103)					vector3D->y = this->d;
+HXLINE( 104)					vector3D->z = ( (Float)(0) );
             				}
             				else {
-HXLINE( 263)					vector3D->x = this->tx;
-HXLINE( 264)					vector3D->y = this->ty;
-HXLINE( 265)					vector3D->z = ( (Float)(1) );
+HXLINE( 108)					vector3D->x = this->tx;
+HXLINE( 109)					vector3D->y = this->ty;
+HXLINE( 110)					vector3D->z = ( (Float)(1) );
             				}
             			}
             		}
@@ -190,34 +190,34 @@ HXLINE( 265)					vector3D->z = ( (Float)(1) );
 HX_DEFINE_DYNAMIC_FUNC2(Matrix_obj,copyColumnTo,(void))
 
 void Matrix_obj::copyFrom( ::openfl::geom::Matrix sourceMatrix){
-            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_276_copyFrom)
-HXLINE( 277)		this->a = sourceMatrix->a;
-HXLINE( 278)		this->b = sourceMatrix->b;
-HXLINE( 279)		this->c = sourceMatrix->c;
-HXLINE( 280)		this->d = sourceMatrix->d;
-HXLINE( 281)		this->tx = sourceMatrix->tx;
-HXLINE( 282)		this->ty = sourceMatrix->ty;
+            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_115_copyFrom)
+HXLINE( 116)		this->a = sourceMatrix->a;
+HXLINE( 117)		this->b = sourceMatrix->b;
+HXLINE( 118)		this->c = sourceMatrix->c;
+HXLINE( 119)		this->d = sourceMatrix->d;
+HXLINE( 120)		this->tx = sourceMatrix->tx;
+HXLINE( 121)		this->ty = sourceMatrix->ty;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Matrix_obj,copyFrom,(void))
 
 void Matrix_obj::copyRowFrom(int row, ::openfl::geom::Vector3D vector3D){
-            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_293_copyRowFrom)
-HXDLIN( 293)		if ((row > 2)) {
-HXLINE( 295)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(((HX_("Row ",e6,20,88,36) + row) + HX_(" out of bounds (2)",eb,c3,f0,de))));
+            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_126_copyRowFrom)
+HXDLIN( 126)		if ((row > 2)) {
+HXLINE( 128)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(((HX_("Row ",e6,20,88,36) + row) + HX_(" out of bounds (2)",eb,c3,f0,de))));
             		}
             		else {
-HXLINE( 297)			if ((row == 0)) {
-HXLINE( 299)				this->a = vector3D->x;
-HXLINE( 300)				this->c = vector3D->y;
-HXLINE( 301)				this->tx = vector3D->z;
+HXLINE( 130)			if ((row == 0)) {
+HXLINE( 132)				this->a = vector3D->x;
+HXLINE( 133)				this->c = vector3D->y;
+HXLINE( 134)				this->tx = vector3D->z;
             			}
             			else {
-HXLINE( 303)				if ((row == 1)) {
-HXLINE( 305)					this->b = vector3D->x;
-HXLINE( 306)					this->d = vector3D->y;
-HXLINE( 307)					this->ty = vector3D->z;
+HXLINE( 136)				if ((row == 1)) {
+HXLINE( 138)					this->b = vector3D->x;
+HXLINE( 139)					this->d = vector3D->y;
+HXLINE( 140)					this->ty = vector3D->z;
             				}
             			}
             		}
@@ -227,24 +227,24 @@ HXLINE( 307)					this->ty = vector3D->z;
 HX_DEFINE_DYNAMIC_FUNC2(Matrix_obj,copyRowFrom,(void))
 
 void Matrix_obj::copyRowTo(int row, ::openfl::geom::Vector3D vector3D){
-            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_320_copyRowTo)
-HXDLIN( 320)		if ((row > 2)) {
-HXLINE( 322)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(((HX_("Row ",e6,20,88,36) + row) + HX_(" out of bounds (2)",eb,c3,f0,de))));
+            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_146_copyRowTo)
+HXDLIN( 146)		if ((row > 2)) {
+HXLINE( 148)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(((HX_("Row ",e6,20,88,36) + row) + HX_(" out of bounds (2)",eb,c3,f0,de))));
             		}
             		else {
-HXLINE( 324)			if ((row == 0)) {
-HXLINE( 326)				vector3D->x = this->a;
-HXLINE( 327)				vector3D->y = this->c;
-HXLINE( 328)				vector3D->z = this->tx;
+HXLINE( 150)			if ((row == 0)) {
+HXLINE( 152)				vector3D->x = this->a;
+HXLINE( 153)				vector3D->y = this->c;
+HXLINE( 154)				vector3D->z = this->tx;
             			}
             			else {
-HXLINE( 330)				if ((row == 1)) {
-HXLINE( 332)					vector3D->x = this->b;
-HXLINE( 333)					vector3D->y = this->d;
-HXLINE( 334)					vector3D->z = this->ty;
+HXLINE( 156)				if ((row == 1)) {
+HXLINE( 158)					vector3D->x = this->b;
+HXLINE( 159)					vector3D->y = this->d;
+HXLINE( 160)					vector3D->z = this->ty;
             				}
             				else {
-HXLINE( 338)					vector3D->setTo(( (Float)(0) ),( (Float)(0) ),( (Float)(1) ));
+HXLINE( 164)					vector3D->setTo(( (Float)(0) ),( (Float)(0) ),( (Float)(1) ));
             				}
             			}
             		}
@@ -257,23 +257,23 @@ void Matrix_obj::createBox(Float scaleX,Float scaleY,::hx::Null< Float >  __o_ro
             		Float rotation = __o_rotation.Default(0);
             		Float tx = __o_tx.Default(0);
             		Float ty = __o_ty.Default(0);
-            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_371_createBox)
-HXLINE( 377)		if ((rotation != 0)) {
-HXLINE( 379)			Float cos = ::Math_obj::cos(rotation);
-HXLINE( 380)			Float sin = ::Math_obj::sin(rotation);
-HXLINE( 382)			this->a = (cos * scaleX);
-HXLINE( 383)			this->b = (sin * scaleY);
-HXLINE( 384)			this->c = (-(sin) * scaleX);
-HXLINE( 385)			this->d = (cos * scaleY);
+            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_169_createBox)
+HXLINE( 175)		if ((rotation != 0)) {
+HXLINE( 177)			Float cos = ::Math_obj::cos(rotation);
+HXLINE( 178)			Float sin = ::Math_obj::sin(rotation);
+HXLINE( 180)			this->a = (cos * scaleX);
+HXLINE( 181)			this->b = (sin * scaleY);
+HXLINE( 182)			this->c = (-(sin) * scaleX);
+HXLINE( 183)			this->d = (cos * scaleY);
             		}
             		else {
-HXLINE( 389)			this->a = scaleX;
-HXLINE( 390)			this->b = ( (Float)(0) );
-HXLINE( 391)			this->c = ( (Float)(0) );
-HXLINE( 392)			this->d = scaleY;
+HXLINE( 187)			this->a = scaleX;
+HXLINE( 188)			this->b = ( (Float)(0) );
+HXLINE( 189)			this->c = ( (Float)(0) );
+HXLINE( 190)			this->d = scaleY;
             		}
-HXLINE( 395)		this->tx = tx;
-HXLINE( 396)		this->ty = ty;
+HXLINE( 193)		this->tx = tx;
+HXLINE( 194)		this->ty = ty;
             	}
 
 
@@ -283,159 +283,159 @@ void Matrix_obj::createGradientBox(Float width,Float height,::hx::Null< Float > 
             		Float rotation = __o_rotation.Default(0);
             		Float tx = __o_tx.Default(0);
             		Float ty = __o_ty.Default(0);
-            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_434_createGradientBox)
-HXLINE( 435)		this->a = (width / ((Float)1638.4));
-HXLINE( 436)		this->d = (height / ((Float)1638.4));
-HXLINE( 439)		if ((rotation != 0)) {
-HXLINE( 441)			Float cos = ::Math_obj::cos(rotation);
-HXLINE( 442)			Float sin = ::Math_obj::sin(rotation);
-HXLINE( 444)			this->b = (sin * this->d);
-HXLINE( 445)			this->c = (-(sin) * this->a);
-HXLINE( 446)			 ::openfl::geom::Matrix _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 446)			_hx_tmp->a = (_hx_tmp->a * cos);
-HXLINE( 447)			 ::openfl::geom::Matrix _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 447)			_hx_tmp1->d = (_hx_tmp1->d * cos);
+            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_198_createGradientBox)
+HXLINE( 199)		this->a = (width / ((Float)1638.4));
+HXLINE( 200)		this->d = (height / ((Float)1638.4));
+HXLINE( 203)		if ((rotation != 0)) {
+HXLINE( 205)			Float cos = ::Math_obj::cos(rotation);
+HXLINE( 206)			Float sin = ::Math_obj::sin(rotation);
+HXLINE( 208)			this->b = (sin * this->d);
+HXLINE( 209)			this->c = (-(sin) * this->a);
+HXLINE( 210)			 ::openfl::geom::Matrix _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 210)			_hx_tmp->a = (_hx_tmp->a * cos);
+HXLINE( 211)			 ::openfl::geom::Matrix _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 211)			_hx_tmp1->d = (_hx_tmp1->d * cos);
             		}
             		else {
-HXLINE( 451)			this->b = ( (Float)(0) );
-HXLINE( 452)			this->c = ( (Float)(0) );
+HXLINE( 215)			this->b = ( (Float)(0) );
+HXLINE( 216)			this->c = ( (Float)(0) );
             		}
-HXLINE( 455)		this->tx = (tx + (width / ( (Float)(2) )));
-HXLINE( 456)		this->ty = (ty + (height / ( (Float)(2) )));
+HXLINE( 219)		this->tx = (tx + (width / ( (Float)(2) )));
+HXLINE( 220)		this->ty = (ty + (height / ( (Float)(2) )));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC5(Matrix_obj,createGradientBox,(void))
 
  ::openfl::geom::Point Matrix_obj::deltaTransformPoint( ::openfl::geom::Point point){
-            	HX_GC_STACKFRAME(&_hx_pos_99143fe9fb0bb031_473_deltaTransformPoint)
-HXDLIN( 473)		return  ::openfl::geom::Point_obj::__alloc( HX_CTX ,((point->x * this->a) + (point->y * this->c)),((point->x * this->b) + (point->y * this->d)));
+            	HX_GC_STACKFRAME(&_hx_pos_99143fe9fb0bb031_225_deltaTransformPoint)
+HXDLIN( 225)		return  ::openfl::geom::Point_obj::__alloc( HX_CTX ,((point->x * this->a) + (point->y * this->c)),((point->x * this->b) + (point->y * this->d)));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Matrix_obj,deltaTransformPoint,return )
 
 bool Matrix_obj::equals( ::openfl::geom::Matrix matrix){
-            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_478_equals)
-HXDLIN( 478)		bool _hx_tmp;
-HXDLIN( 478)		bool _hx_tmp1;
-HXDLIN( 478)		bool _hx_tmp2;
-HXDLIN( 478)		bool _hx_tmp3;
-HXDLIN( 478)		bool _hx_tmp4;
-HXDLIN( 478)		if (::hx::IsNotNull( matrix )) {
-HXDLIN( 478)			_hx_tmp4 = (this->tx == matrix->tx);
+            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_230_equals)
+HXDLIN( 230)		bool _hx_tmp;
+HXDLIN( 230)		bool _hx_tmp1;
+HXDLIN( 230)		bool _hx_tmp2;
+HXDLIN( 230)		bool _hx_tmp3;
+HXDLIN( 230)		bool _hx_tmp4;
+HXDLIN( 230)		if (::hx::IsNotNull( matrix )) {
+HXDLIN( 230)			_hx_tmp4 = (this->tx == matrix->tx);
             		}
             		else {
-HXDLIN( 478)			_hx_tmp4 = false;
+HXDLIN( 230)			_hx_tmp4 = false;
             		}
-HXDLIN( 478)		if (_hx_tmp4) {
-HXDLIN( 478)			_hx_tmp3 = (this->ty == matrix->ty);
-            		}
-            		else {
-HXDLIN( 478)			_hx_tmp3 = false;
-            		}
-HXDLIN( 478)		if (_hx_tmp3) {
-HXDLIN( 478)			_hx_tmp2 = (this->a == matrix->a);
+HXDLIN( 230)		if (_hx_tmp4) {
+HXDLIN( 230)			_hx_tmp3 = (this->ty == matrix->ty);
             		}
             		else {
-HXDLIN( 478)			_hx_tmp2 = false;
+HXDLIN( 230)			_hx_tmp3 = false;
             		}
-HXDLIN( 478)		if (_hx_tmp2) {
-HXDLIN( 478)			_hx_tmp1 = (this->b == matrix->b);
-            		}
-            		else {
-HXDLIN( 478)			_hx_tmp1 = false;
-            		}
-HXDLIN( 478)		if (_hx_tmp1) {
-HXDLIN( 478)			_hx_tmp = (this->c == matrix->c);
+HXDLIN( 230)		if (_hx_tmp3) {
+HXDLIN( 230)			_hx_tmp2 = (this->a == matrix->a);
             		}
             		else {
-HXDLIN( 478)			_hx_tmp = false;
+HXDLIN( 230)			_hx_tmp2 = false;
             		}
-HXDLIN( 478)		if (_hx_tmp) {
-HXDLIN( 478)			return (this->d == matrix->d);
+HXDLIN( 230)		if (_hx_tmp2) {
+HXDLIN( 230)			_hx_tmp1 = (this->b == matrix->b);
             		}
             		else {
-HXDLIN( 478)			return false;
+HXDLIN( 230)			_hx_tmp1 = false;
             		}
-HXDLIN( 478)		return false;
+HXDLIN( 230)		if (_hx_tmp1) {
+HXDLIN( 230)			_hx_tmp = (this->c == matrix->c);
+            		}
+            		else {
+HXDLIN( 230)			_hx_tmp = false;
+            		}
+HXDLIN( 230)		if (_hx_tmp) {
+HXDLIN( 230)			return (this->d == matrix->d);
+            		}
+            		else {
+HXDLIN( 230)			return false;
+            		}
+HXDLIN( 230)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Matrix_obj,equals,return )
 
 void Matrix_obj::identity(){
-            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_493_identity)
-HXLINE( 494)		this->a = ( (Float)(1) );
-HXLINE( 495)		this->b = ( (Float)(0) );
-HXLINE( 496)		this->c = ( (Float)(0) );
-HXLINE( 497)		this->d = ( (Float)(1) );
-HXLINE( 498)		this->tx = ( (Float)(0) );
-HXLINE( 499)		this->ty = ( (Float)(0) );
+            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_234_identity)
+HXLINE( 235)		this->a = ( (Float)(1) );
+HXLINE( 236)		this->b = ( (Float)(0) );
+HXLINE( 237)		this->c = ( (Float)(0) );
+HXLINE( 238)		this->d = ( (Float)(1) );
+HXLINE( 239)		this->tx = ( (Float)(0) );
+HXLINE( 240)		this->ty = ( (Float)(0) );
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Matrix_obj,identity,(void))
 
  ::openfl::geom::Matrix Matrix_obj::invert(){
-            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_509_invert)
-HXLINE( 510)		Float norm = ((this->a * this->d) - (this->b * this->c));
-HXLINE( 512)		if ((norm == 0)) {
-HXLINE( 514)			this->a = (this->b = (this->c = (this->d = ( (Float)(0) ))));
-HXLINE( 515)			this->tx = -(this->tx);
-HXLINE( 516)			this->ty = -(this->ty);
+            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_244_invert)
+HXLINE( 245)		Float norm = ((this->a * this->d) - (this->b * this->c));
+HXLINE( 247)		if ((norm == 0)) {
+HXLINE( 249)			this->a = (this->b = (this->c = (this->d = ( (Float)(0) ))));
+HXLINE( 250)			this->tx = -(this->tx);
+HXLINE( 251)			this->ty = -(this->ty);
             		}
             		else {
-HXLINE( 520)			norm = (((Float)1.0) / norm);
-HXLINE( 521)			Float a1 = (this->d * norm);
-HXLINE( 522)			this->d = (this->a * norm);
-HXLINE( 523)			this->a = a1;
-HXLINE( 524)			 ::openfl::geom::Matrix _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 524)			_hx_tmp->b = (_hx_tmp->b * -(norm));
-HXLINE( 525)			 ::openfl::geom::Matrix _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 525)			_hx_tmp1->c = (_hx_tmp1->c * -(norm));
-HXLINE( 527)			Float tx1 = ((-(this->a) * this->tx) - (this->c * this->ty));
-HXLINE( 528)			this->ty = ((-(this->b) * this->tx) - (this->d * this->ty));
-HXLINE( 529)			this->tx = tx1;
+HXLINE( 255)			norm = (((Float)1.0) / norm);
+HXLINE( 256)			Float a1 = (this->d * norm);
+HXLINE( 257)			this->d = (this->a * norm);
+HXLINE( 258)			this->a = a1;
+HXLINE( 259)			 ::openfl::geom::Matrix _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 259)			_hx_tmp->b = (_hx_tmp->b * -(norm));
+HXLINE( 260)			 ::openfl::geom::Matrix _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 260)			_hx_tmp1->c = (_hx_tmp1->c * -(norm));
+HXLINE( 262)			Float tx1 = ((-(this->a) * this->tx) - (this->c * this->ty));
+HXLINE( 263)			this->ty = ((-(this->b) * this->tx) - (this->d * this->ty));
+HXLINE( 264)			this->tx = tx1;
             		}
-HXLINE( 534)		return ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 269)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Matrix_obj,invert,return )
 
 void Matrix_obj::rotate(Float theta){
-            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_548_rotate)
-HXLINE( 562)		Float cos = ::Math_obj::cos(theta);
-HXLINE( 564)		Float sin = ::Math_obj::sin(theta);
-HXLINE( 566)		Float a1 = ((this->a * cos) - (this->b * sin));
-HXLINE( 567)		this->b = ((this->a * sin) + (this->b * cos));
-HXLINE( 568)		this->a = a1;
-HXLINE( 570)		Float c1 = ((this->c * cos) - (this->d * sin));
-HXLINE( 571)		this->d = ((this->c * sin) + (this->d * cos));
-HXLINE( 572)		this->c = c1;
-HXLINE( 574)		Float tx1 = ((this->tx * cos) - (this->ty * sin));
-HXLINE( 575)		this->ty = ((this->tx * sin) + (this->ty * cos));
-HXLINE( 576)		this->tx = tx1;
+            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_273_rotate)
+HXLINE( 287)		Float cos = ::Math_obj::cos(theta);
+HXLINE( 289)		Float sin = ::Math_obj::sin(theta);
+HXLINE( 291)		Float a1 = ((this->a * cos) - (this->b * sin));
+HXLINE( 292)		this->b = ((this->a * sin) + (this->b * cos));
+HXLINE( 293)		this->a = a1;
+HXLINE( 295)		Float c1 = ((this->c * cos) - (this->d * sin));
+HXLINE( 296)		this->d = ((this->c * sin) + (this->d * cos));
+HXLINE( 297)		this->c = c1;
+HXLINE( 299)		Float tx1 = ((this->tx * cos) - (this->ty * sin));
+HXLINE( 300)		this->ty = ((this->tx * sin) + (this->ty * cos));
+HXLINE( 301)		this->tx = tx1;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Matrix_obj,rotate,(void))
 
 void Matrix_obj::scale(Float sx,Float sy){
-            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_594_scale)
-HXLINE( 604)		 ::openfl::geom::Matrix _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 604)		_hx_tmp->a = (_hx_tmp->a * sx);
-HXLINE( 605)		 ::openfl::geom::Matrix _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 605)		_hx_tmp1->b = (_hx_tmp1->b * sy);
-HXLINE( 606)		 ::openfl::geom::Matrix _hx_tmp2 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 606)		_hx_tmp2->c = (_hx_tmp2->c * sx);
-HXLINE( 607)		 ::openfl::geom::Matrix _hx_tmp3 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 607)		_hx_tmp3->d = (_hx_tmp3->d * sy);
-HXLINE( 608)		 ::openfl::geom::Matrix _hx_tmp4 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 608)		_hx_tmp4->tx = (_hx_tmp4->tx * sx);
-HXLINE( 609)		 ::openfl::geom::Matrix _hx_tmp5 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 609)		_hx_tmp5->ty = (_hx_tmp5->ty * sy);
+            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_307_scale)
+HXLINE( 317)		 ::openfl::geom::Matrix _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 317)		_hx_tmp->a = (_hx_tmp->a * sx);
+HXLINE( 318)		 ::openfl::geom::Matrix _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 318)		_hx_tmp1->b = (_hx_tmp1->b * sy);
+HXLINE( 319)		 ::openfl::geom::Matrix _hx_tmp2 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 319)		_hx_tmp2->c = (_hx_tmp2->c * sx);
+HXLINE( 320)		 ::openfl::geom::Matrix _hx_tmp3 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 320)		_hx_tmp3->d = (_hx_tmp3->d * sy);
+HXLINE( 321)		 ::openfl::geom::Matrix _hx_tmp4 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 321)		_hx_tmp4->tx = (_hx_tmp4->tx * sx);
+HXLINE( 322)		 ::openfl::geom::Matrix _hx_tmp5 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 322)		_hx_tmp5->ty = (_hx_tmp5->ty * sy);
             	}
 
 
@@ -443,24 +443,24 @@ HX_DEFINE_DYNAMIC_FUNC2(Matrix_obj,scale,(void))
 
 void Matrix_obj::setRotation(Float theta,::hx::Null< Float >  __o_scale){
             		Float scale = __o_scale.Default(1);
-            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_615_setRotation)
-HXLINE( 616)		this->a = (::Math_obj::cos(theta) * scale);
-HXLINE( 617)		this->c = (::Math_obj::sin(theta) * scale);
-HXLINE( 618)		this->b = -(this->c);
-HXLINE( 619)		this->d = this->a;
+            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_328_setRotation)
+HXLINE( 329)		this->a = (::Math_obj::cos(theta) * scale);
+HXLINE( 330)		this->c = (::Math_obj::sin(theta) * scale);
+HXLINE( 331)		this->b = -(this->c);
+HXLINE( 332)		this->d = this->a;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Matrix_obj,setRotation,(void))
 
 void Matrix_obj::setTo(Float a,Float b,Float c,Float d,Float tx,Float ty){
-            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_635_setTo)
-HXLINE( 636)		this->a = a;
-HXLINE( 637)		this->b = b;
-HXLINE( 638)		this->c = c;
-HXLINE( 639)		this->d = d;
-HXLINE( 640)		this->tx = tx;
-HXLINE( 641)		this->ty = ty;
+            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_338_setTo)
+HXLINE( 339)		this->a = a;
+HXLINE( 340)		this->b = b;
+HXLINE( 341)		this->c = c;
+HXLINE( 342)		this->d = d;
+HXLINE( 343)		this->tx = tx;
+HXLINE( 344)		this->ty = ty;
             	}
 
 
@@ -468,51 +468,51 @@ HX_DEFINE_DYNAMIC_FUNC6(Matrix_obj,setTo,(void))
 
 ::String Matrix_obj::to3DString(::hx::Null< bool >  __o_roundPixels){
             		bool roundPixels = __o_roundPixels.Default(false);
-            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_647_to3DString)
-HXDLIN( 647)		if (roundPixels) {
-HXLINE( 649)			::String _hx_tmp = ((((((((HX_("matrix3d(",96,72,db,ad) + this->a) + HX_(", ",74,26,00,00)) + this->b) + HX_(", 0, 0, ",f4,b3,68,a3)) + this->c) + HX_(", ",74,26,00,00)) + this->d) + HX_(", 0, 0, 0, 0, 1, 0, ",53,8b,16,4d));
-HXDLIN( 649)			::String _hx_tmp1 = ((_hx_tmp + ::Std_obj::_hx_int(this->tx)) + HX_(", ",74,26,00,00));
-HXDLIN( 649)			return ((_hx_tmp1 + ::Std_obj::_hx_int(this->ty)) + HX_(", 0, 1)",88,a3,85,b1));
+            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_350_to3DString)
+HXDLIN( 350)		if (roundPixels) {
+HXLINE( 352)			::String _hx_tmp = ((((((((HX_("matrix3d(",96,72,db,ad) + this->a) + HX_(", ",74,26,00,00)) + this->b) + HX_(", 0, 0, ",f4,b3,68,a3)) + this->c) + HX_(", ",74,26,00,00)) + this->d) + HX_(", 0, 0, 0, 0, 1, 0, ",53,8b,16,4d));
+HXDLIN( 352)			::String _hx_tmp1 = ((_hx_tmp + ::Std_obj::_hx_int(this->tx)) + HX_(", ",74,26,00,00));
+HXDLIN( 352)			return ((_hx_tmp1 + ::Std_obj::_hx_int(this->ty)) + HX_(", 0, 1)",88,a3,85,b1));
             		}
             		else {
-HXLINE( 653)			return ((((((((((((HX_("matrix3d(",96,72,db,ad) + this->a) + HX_(", ",74,26,00,00)) + this->b) + HX_(", 0, 0, ",f4,b3,68,a3)) + this->c) + HX_(", ",74,26,00,00)) + this->d) + HX_(", 0, 0, 0, 0, 1, 0, ",53,8b,16,4d)) + this->tx) + HX_(", ",74,26,00,00)) + this->ty) + HX_(", 0, 1)",88,a3,85,b1));
+HXLINE( 356)			return ((((((((((((HX_("matrix3d(",96,72,db,ad) + this->a) + HX_(", ",74,26,00,00)) + this->b) + HX_(", 0, 0, ",f4,b3,68,a3)) + this->c) + HX_(", ",74,26,00,00)) + this->d) + HX_(", 0, 0, 0, 0, 1, 0, ",53,8b,16,4d)) + this->tx) + HX_(", ",74,26,00,00)) + this->ty) + HX_(", 0, 1)",88,a3,85,b1));
             		}
-HXLINE( 647)		return null();
+HXLINE( 350)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Matrix_obj,to3DString,return )
 
 ::String Matrix_obj::toMozString(){
-            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_660_toMozString)
-HXDLIN( 660)		return ((((((((((((HX_("matrix(",c7,42,67,93) + this->a) + HX_(", ",74,26,00,00)) + this->b) + HX_(", ",74,26,00,00)) + this->c) + HX_(", ",74,26,00,00)) + this->d) + HX_(", ",74,26,00,00)) + this->tx) + HX_("px, ",7c,1a,63,4a)) + this->ty) + HX_("px)",21,65,55,00));
+            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_363_toMozString)
+HXDLIN( 363)		return ((((((((((((HX_("matrix(",c7,42,67,93) + this->a) + HX_(", ",74,26,00,00)) + this->b) + HX_(", ",74,26,00,00)) + this->c) + HX_(", ",74,26,00,00)) + this->d) + HX_(", ",74,26,00,00)) + this->tx) + HX_("px, ",7c,1a,63,4a)) + this->ty) + HX_("px)",21,65,55,00));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Matrix_obj,toMozString,return )
 
 ::String Matrix_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_672_toString)
-HXDLIN( 672)		return ((((((((((((HX_("matrix(",c7,42,67,93) + this->a) + HX_(", ",74,26,00,00)) + this->b) + HX_(", ",74,26,00,00)) + this->c) + HX_(", ",74,26,00,00)) + this->d) + HX_(", ",74,26,00,00)) + this->tx) + HX_(", ",74,26,00,00)) + this->ty) + HX_(")",29,00,00,00));
+            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_368_toString)
+HXDLIN( 368)		return ((((((((((((HX_("matrix(",c7,42,67,93) + this->a) + HX_(", ",74,26,00,00)) + this->b) + HX_(", ",74,26,00,00)) + this->c) + HX_(", ",74,26,00,00)) + this->d) + HX_(", ",74,26,00,00)) + this->tx) + HX_(", ",74,26,00,00)) + this->ty) + HX_(")",29,00,00,00));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Matrix_obj,toString,return )
 
  ::openfl::geom::Point Matrix_obj::transformPoint( ::openfl::geom::Point pos){
-            	HX_GC_STACKFRAME(&_hx_pos_99143fe9fb0bb031_685_transformPoint)
-HXDLIN( 685)		return  ::openfl::geom::Point_obj::__alloc( HX_CTX ,(((pos->x * this->a) + (pos->y * this->c)) + this->tx),(((pos->x * this->b) + (pos->y * this->d)) + this->ty));
+            	HX_GC_STACKFRAME(&_hx_pos_99143fe9fb0bb031_373_transformPoint)
+HXDLIN( 373)		return  ::openfl::geom::Point_obj::__alloc( HX_CTX ,(((pos->x * this->a) + (pos->y * this->c)) + this->tx),(((pos->x * this->b) + (pos->y * this->d)) + this->ty));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Matrix_obj,transformPoint,return )
 
 void Matrix_obj::translate(Float dx,Float dy){
-            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_697_translate)
-HXLINE( 698)		 ::openfl::geom::Matrix _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 698)		_hx_tmp->tx = (_hx_tmp->tx + dx);
-HXLINE( 699)		 ::openfl::geom::Matrix _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 699)		_hx_tmp1->ty = (_hx_tmp1->ty + dy);
+            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_377_translate)
+HXLINE( 378)		 ::openfl::geom::Matrix _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 378)		_hx_tmp->tx = (_hx_tmp->tx + dx);
+HXLINE( 379)		 ::openfl::geom::Matrix _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 379)		_hx_tmp1->ty = (_hx_tmp1->ty + dy);
             	}
 
 
@@ -520,151 +520,151 @@ HX_DEFINE_DYNAMIC_FUNC2(Matrix_obj,translate,(void))
 
  ::lime::utils::ArrayBufferView Matrix_obj::toArray(::hx::Null< bool >  __o_transpose){
             		bool transpose = __o_transpose.Default(false);
-            	HX_GC_STACKFRAME(&_hx_pos_99143fe9fb0bb031_704_toArray)
-HXLINE( 705)		if (::hx::IsNull( this->_hx___array )) {
-HXLINE( 707)			 ::haxe::io::Bytes buffer = null();
-HXDLIN( 707)			::cpp::VirtualArray array = null();
-HXDLIN( 707)			 ::openfl::_Vector::FloatVector vector = null();
-HXDLIN( 707)			 ::lime::utils::ArrayBufferView view = null();
-HXDLIN( 707)			 ::Dynamic len = null();
-HXDLIN( 707)			 ::lime::utils::ArrayBufferView this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,9,8);
-HXDLIN( 707)			this->_hx___array = this1;
+            	HX_GC_STACKFRAME(&_hx_pos_99143fe9fb0bb031_384_toArray)
+HXLINE( 385)		if (::hx::IsNull( this->_hx___array )) {
+HXLINE( 387)			 ::haxe::io::Bytes buffer = null();
+HXDLIN( 387)			::cpp::VirtualArray array = null();
+HXDLIN( 387)			 ::openfl::_Vector::FloatVector vector = null();
+HXDLIN( 387)			 ::lime::utils::ArrayBufferView view = null();
+HXDLIN( 387)			 ::Dynamic len = null();
+HXDLIN( 387)			 ::lime::utils::ArrayBufferView this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,9,8);
+HXDLIN( 387)			this->_hx___array = this1;
             		}
-HXLINE( 710)		if (transpose) {
-HXLINE( 712)			{
-HXLINE( 712)				 ::lime::utils::ArrayBufferView this1 = this->_hx___array;
-HXDLIN( 712)				Float val = this->a;
-HXDLIN( 712)				 ::__hxcpp_memory_set_float(this1->buffer->b,this1->byteOffset,val);
+HXLINE( 390)		if (transpose) {
+HXLINE( 392)			{
+HXLINE( 392)				 ::lime::utils::ArrayBufferView this1 = this->_hx___array;
+HXDLIN( 392)				Float val = this->a;
+HXDLIN( 392)				 ::__hxcpp_memory_set_float(this1->buffer->b,this1->byteOffset,val);
             			}
-HXLINE( 713)			{
-HXLINE( 713)				 ::lime::utils::ArrayBufferView this2 = this->_hx___array;
-HXDLIN( 713)				Float val1 = this->b;
-HXDLIN( 713)				 ::__hxcpp_memory_set_float(this2->buffer->b,(this2->byteOffset + 4),val1);
+HXLINE( 393)			{
+HXLINE( 393)				 ::lime::utils::ArrayBufferView this2 = this->_hx___array;
+HXDLIN( 393)				Float val1 = this->b;
+HXDLIN( 393)				 ::__hxcpp_memory_set_float(this2->buffer->b,(this2->byteOffset + 4),val1);
             			}
-HXLINE( 714)			{
-HXLINE( 714)				 ::lime::utils::ArrayBufferView this3 = this->_hx___array;
-HXDLIN( 714)				 ::__hxcpp_memory_set_float(this3->buffer->b,(this3->byteOffset + 8),0);
+HXLINE( 394)			{
+HXLINE( 394)				 ::lime::utils::ArrayBufferView this3 = this->_hx___array;
+HXDLIN( 394)				 ::__hxcpp_memory_set_float(this3->buffer->b,(this3->byteOffset + 8),0);
             			}
-HXLINE( 715)			{
-HXLINE( 715)				 ::lime::utils::ArrayBufferView this4 = this->_hx___array;
-HXDLIN( 715)				Float val2 = this->c;
-HXDLIN( 715)				 ::__hxcpp_memory_set_float(this4->buffer->b,(this4->byteOffset + 12),val2);
+HXLINE( 395)			{
+HXLINE( 395)				 ::lime::utils::ArrayBufferView this4 = this->_hx___array;
+HXDLIN( 395)				Float val2 = this->c;
+HXDLIN( 395)				 ::__hxcpp_memory_set_float(this4->buffer->b,(this4->byteOffset + 12),val2);
             			}
-HXLINE( 716)			{
-HXLINE( 716)				 ::lime::utils::ArrayBufferView this5 = this->_hx___array;
-HXDLIN( 716)				Float val3 = this->d;
-HXDLIN( 716)				 ::__hxcpp_memory_set_float(this5->buffer->b,(this5->byteOffset + 16),val3);
+HXLINE( 396)			{
+HXLINE( 396)				 ::lime::utils::ArrayBufferView this5 = this->_hx___array;
+HXDLIN( 396)				Float val3 = this->d;
+HXDLIN( 396)				 ::__hxcpp_memory_set_float(this5->buffer->b,(this5->byteOffset + 16),val3);
             			}
-HXLINE( 717)			{
-HXLINE( 717)				 ::lime::utils::ArrayBufferView this6 = this->_hx___array;
-HXDLIN( 717)				 ::__hxcpp_memory_set_float(this6->buffer->b,(this6->byteOffset + 20),0);
+HXLINE( 397)			{
+HXLINE( 397)				 ::lime::utils::ArrayBufferView this6 = this->_hx___array;
+HXDLIN( 397)				 ::__hxcpp_memory_set_float(this6->buffer->b,(this6->byteOffset + 20),0);
             			}
-HXLINE( 718)			{
-HXLINE( 718)				 ::lime::utils::ArrayBufferView this7 = this->_hx___array;
-HXDLIN( 718)				Float val4 = this->tx;
-HXDLIN( 718)				 ::__hxcpp_memory_set_float(this7->buffer->b,(this7->byteOffset + 24),val4);
+HXLINE( 398)			{
+HXLINE( 398)				 ::lime::utils::ArrayBufferView this7 = this->_hx___array;
+HXDLIN( 398)				Float val4 = this->tx;
+HXDLIN( 398)				 ::__hxcpp_memory_set_float(this7->buffer->b,(this7->byteOffset + 24),val4);
             			}
-HXLINE( 719)			{
-HXLINE( 719)				 ::lime::utils::ArrayBufferView this8 = this->_hx___array;
-HXDLIN( 719)				Float val5 = this->ty;
-HXDLIN( 719)				 ::__hxcpp_memory_set_float(this8->buffer->b,(this8->byteOffset + 28),val5);
+HXLINE( 399)			{
+HXLINE( 399)				 ::lime::utils::ArrayBufferView this8 = this->_hx___array;
+HXDLIN( 399)				Float val5 = this->ty;
+HXDLIN( 399)				 ::__hxcpp_memory_set_float(this8->buffer->b,(this8->byteOffset + 28),val5);
             			}
-HXLINE( 720)			{
-HXLINE( 720)				 ::lime::utils::ArrayBufferView this9 = this->_hx___array;
-HXDLIN( 720)				 ::__hxcpp_memory_set_float(this9->buffer->b,(this9->byteOffset + 32),1);
+HXLINE( 400)			{
+HXLINE( 400)				 ::lime::utils::ArrayBufferView this9 = this->_hx___array;
+HXDLIN( 400)				 ::__hxcpp_memory_set_float(this9->buffer->b,(this9->byteOffset + 32),1);
             			}
             		}
             		else {
-HXLINE( 724)			{
-HXLINE( 724)				 ::lime::utils::ArrayBufferView this1 = this->_hx___array;
-HXDLIN( 724)				Float val = this->a;
-HXDLIN( 724)				 ::__hxcpp_memory_set_float(this1->buffer->b,this1->byteOffset,val);
+HXLINE( 404)			{
+HXLINE( 404)				 ::lime::utils::ArrayBufferView this1 = this->_hx___array;
+HXDLIN( 404)				Float val = this->a;
+HXDLIN( 404)				 ::__hxcpp_memory_set_float(this1->buffer->b,this1->byteOffset,val);
             			}
-HXLINE( 725)			{
-HXLINE( 725)				 ::lime::utils::ArrayBufferView this2 = this->_hx___array;
-HXDLIN( 725)				Float val1 = this->c;
-HXDLIN( 725)				 ::__hxcpp_memory_set_float(this2->buffer->b,(this2->byteOffset + 4),val1);
+HXLINE( 405)			{
+HXLINE( 405)				 ::lime::utils::ArrayBufferView this2 = this->_hx___array;
+HXDLIN( 405)				Float val1 = this->c;
+HXDLIN( 405)				 ::__hxcpp_memory_set_float(this2->buffer->b,(this2->byteOffset + 4),val1);
             			}
-HXLINE( 726)			{
-HXLINE( 726)				 ::lime::utils::ArrayBufferView this3 = this->_hx___array;
-HXDLIN( 726)				Float val2 = this->tx;
-HXDLIN( 726)				 ::__hxcpp_memory_set_float(this3->buffer->b,(this3->byteOffset + 8),val2);
+HXLINE( 406)			{
+HXLINE( 406)				 ::lime::utils::ArrayBufferView this3 = this->_hx___array;
+HXDLIN( 406)				Float val2 = this->tx;
+HXDLIN( 406)				 ::__hxcpp_memory_set_float(this3->buffer->b,(this3->byteOffset + 8),val2);
             			}
-HXLINE( 727)			{
-HXLINE( 727)				 ::lime::utils::ArrayBufferView this4 = this->_hx___array;
-HXDLIN( 727)				Float val3 = this->b;
-HXDLIN( 727)				 ::__hxcpp_memory_set_float(this4->buffer->b,(this4->byteOffset + 12),val3);
+HXLINE( 407)			{
+HXLINE( 407)				 ::lime::utils::ArrayBufferView this4 = this->_hx___array;
+HXDLIN( 407)				Float val3 = this->b;
+HXDLIN( 407)				 ::__hxcpp_memory_set_float(this4->buffer->b,(this4->byteOffset + 12),val3);
             			}
-HXLINE( 728)			{
-HXLINE( 728)				 ::lime::utils::ArrayBufferView this5 = this->_hx___array;
-HXDLIN( 728)				Float val4 = this->d;
-HXDLIN( 728)				 ::__hxcpp_memory_set_float(this5->buffer->b,(this5->byteOffset + 16),val4);
+HXLINE( 408)			{
+HXLINE( 408)				 ::lime::utils::ArrayBufferView this5 = this->_hx___array;
+HXDLIN( 408)				Float val4 = this->d;
+HXDLIN( 408)				 ::__hxcpp_memory_set_float(this5->buffer->b,(this5->byteOffset + 16),val4);
             			}
-HXLINE( 729)			{
-HXLINE( 729)				 ::lime::utils::ArrayBufferView this6 = this->_hx___array;
-HXDLIN( 729)				Float val5 = this->ty;
-HXDLIN( 729)				 ::__hxcpp_memory_set_float(this6->buffer->b,(this6->byteOffset + 20),val5);
+HXLINE( 409)			{
+HXLINE( 409)				 ::lime::utils::ArrayBufferView this6 = this->_hx___array;
+HXDLIN( 409)				Float val5 = this->ty;
+HXDLIN( 409)				 ::__hxcpp_memory_set_float(this6->buffer->b,(this6->byteOffset + 20),val5);
             			}
-HXLINE( 730)			{
-HXLINE( 730)				 ::lime::utils::ArrayBufferView this7 = this->_hx___array;
-HXDLIN( 730)				 ::__hxcpp_memory_set_float(this7->buffer->b,(this7->byteOffset + 24),0);
+HXLINE( 410)			{
+HXLINE( 410)				 ::lime::utils::ArrayBufferView this7 = this->_hx___array;
+HXDLIN( 410)				 ::__hxcpp_memory_set_float(this7->buffer->b,(this7->byteOffset + 24),0);
             			}
-HXLINE( 731)			{
-HXLINE( 731)				 ::lime::utils::ArrayBufferView this8 = this->_hx___array;
-HXDLIN( 731)				 ::__hxcpp_memory_set_float(this8->buffer->b,(this8->byteOffset + 28),0);
+HXLINE( 411)			{
+HXLINE( 411)				 ::lime::utils::ArrayBufferView this8 = this->_hx___array;
+HXDLIN( 411)				 ::__hxcpp_memory_set_float(this8->buffer->b,(this8->byteOffset + 28),0);
             			}
-HXLINE( 732)			{
-HXLINE( 732)				 ::lime::utils::ArrayBufferView this9 = this->_hx___array;
-HXDLIN( 732)				 ::__hxcpp_memory_set_float(this9->buffer->b,(this9->byteOffset + 32),1);
+HXLINE( 412)			{
+HXLINE( 412)				 ::lime::utils::ArrayBufferView this9 = this->_hx___array;
+HXDLIN( 412)				 ::__hxcpp_memory_set_float(this9->buffer->b,(this9->byteOffset + 32),1);
             			}
             		}
-HXLINE( 735)		return this->_hx___array;
+HXLINE( 415)		return this->_hx___array;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Matrix_obj,toArray,return )
 
 void Matrix_obj::_hx___cleanValues(){
-            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_740___cleanValues)
-HXLINE( 741)		this->a = (( (Float)(::Math_obj::round((this->a * ( (Float)(1000) )))) ) / ( (Float)(1000) ));
-HXLINE( 742)		this->b = (( (Float)(::Math_obj::round((this->b * ( (Float)(1000) )))) ) / ( (Float)(1000) ));
-HXLINE( 743)		this->c = (( (Float)(::Math_obj::round((this->c * ( (Float)(1000) )))) ) / ( (Float)(1000) ));
-HXLINE( 744)		this->d = (( (Float)(::Math_obj::round((this->d * ( (Float)(1000) )))) ) / ( (Float)(1000) ));
-HXLINE( 745)		this->tx = (( (Float)(::Math_obj::round((this->tx * ( (Float)(10) )))) ) / ( (Float)(10) ));
-HXLINE( 746)		this->ty = (( (Float)(::Math_obj::round((this->ty * ( (Float)(10) )))) ) / ( (Float)(10) ));
+            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_420___cleanValues)
+HXLINE( 421)		this->a = (( (Float)(::Math_obj::round((this->a * ( (Float)(1000) )))) ) / ( (Float)(1000) ));
+HXLINE( 422)		this->b = (( (Float)(::Math_obj::round((this->b * ( (Float)(1000) )))) ) / ( (Float)(1000) ));
+HXLINE( 423)		this->c = (( (Float)(::Math_obj::round((this->c * ( (Float)(1000) )))) ) / ( (Float)(1000) ));
+HXLINE( 424)		this->d = (( (Float)(::Math_obj::round((this->d * ( (Float)(1000) )))) ) / ( (Float)(1000) ));
+HXLINE( 425)		this->tx = (( (Float)(::Math_obj::round((this->tx * ( (Float)(10) )))) ) / ( (Float)(10) ));
+HXLINE( 426)		this->ty = (( (Float)(::Math_obj::round((this->ty * ( (Float)(10) )))) ) / ( (Float)(10) ));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Matrix_obj,_hx___cleanValues,(void))
 
  ::lime::math::Matrix3 Matrix_obj::_hx___toMatrix3(){
-            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_751___toMatrix3)
-HXLINE( 752)		{
-HXLINE( 752)			 ::lime::math::Matrix3 _this = ::openfl::geom::Matrix_obj::_hx___matrix3;
-HXDLIN( 752)			_this->a = this->a;
-HXDLIN( 752)			_this->b = this->b;
-HXDLIN( 752)			_this->c = this->c;
-HXDLIN( 752)			_this->d = this->d;
-HXDLIN( 752)			_this->tx = this->tx;
-HXDLIN( 752)			_this->ty = this->ty;
+            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_431___toMatrix3)
+HXLINE( 432)		{
+HXLINE( 432)			 ::lime::math::Matrix3 _this = ::openfl::geom::Matrix_obj::_hx___matrix3;
+HXDLIN( 432)			_this->a = this->a;
+HXDLIN( 432)			_this->b = this->b;
+HXDLIN( 432)			_this->c = this->c;
+HXDLIN( 432)			_this->d = this->d;
+HXDLIN( 432)			_this->tx = this->tx;
+HXDLIN( 432)			_this->ty = this->ty;
             		}
-HXLINE( 753)		return ::openfl::geom::Matrix_obj::_hx___matrix3;
+HXLINE( 433)		return ::openfl::geom::Matrix_obj::_hx___matrix3;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Matrix_obj,_hx___toMatrix3,return )
 
 void Matrix_obj::_hx___transformInversePoint( ::openfl::geom::Point point){
-            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_758___transformInversePoint)
-HXLINE( 759)		Float norm = ((this->a * this->d) - (this->b * this->c));
-HXLINE( 761)		if ((norm == 0)) {
-HXLINE( 763)			point->x = -(this->tx);
-HXLINE( 764)			point->y = -(this->ty);
+            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_438___transformInversePoint)
+HXLINE( 439)		Float norm = ((this->a * this->d) - (this->b * this->c));
+HXLINE( 441)		if ((norm == 0)) {
+HXLINE( 443)			point->x = -(this->tx);
+HXLINE( 444)			point->y = -(this->ty);
             		}
             		else {
-HXLINE( 768)			Float px = ((((Float)1.0) / norm) * ((this->c * (this->ty - point->y)) + (this->d * (point->x - this->tx))));
-HXLINE( 769)			point->y = ((((Float)1.0) / norm) * ((this->a * (point->y - this->ty)) + (this->b * (this->tx - point->x))));
-HXLINE( 770)			point->x = px;
+HXLINE( 448)			Float px = ((((Float)1.0) / norm) * ((this->c * (this->ty - point->y)) + (this->d * (point->x - this->tx))));
+HXLINE( 449)			point->y = ((((Float)1.0) / norm) * ((this->a * (point->y - this->ty)) + (this->b * (this->tx - point->x))));
+HXLINE( 450)			point->x = px;
             		}
             	}
 
@@ -672,66 +672,66 @@ HXLINE( 770)			point->x = px;
 HX_DEFINE_DYNAMIC_FUNC1(Matrix_obj,_hx___transformInversePoint,(void))
 
 Float Matrix_obj::_hx___transformInverseX(Float px,Float py){
-            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_775___transformInverseX)
-HXLINE( 776)		Float norm = ((this->a * this->d) - (this->b * this->c));
-HXLINE( 778)		if ((norm == 0)) {
-HXLINE( 780)			return -(this->tx);
+            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_455___transformInverseX)
+HXLINE( 456)		Float norm = ((this->a * this->d) - (this->b * this->c));
+HXLINE( 458)		if ((norm == 0)) {
+HXLINE( 460)			return -(this->tx);
             		}
             		else {
-HXLINE( 784)			return ((((Float)1.0) / norm) * ((this->c * (this->ty - py)) + (this->d * (px - this->tx))));
+HXLINE( 464)			return ((((Float)1.0) / norm) * ((this->c * (this->ty - py)) + (this->d * (px - this->tx))));
             		}
-HXLINE( 778)		return ((Float)0.);
+HXLINE( 458)		return ((Float)0.);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Matrix_obj,_hx___transformInverseX,return )
 
 Float Matrix_obj::_hx___transformInverseY(Float px,Float py){
-            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_789___transformInverseY)
-HXLINE( 790)		Float norm = ((this->a * this->d) - (this->b * this->c));
-HXLINE( 792)		if ((norm == 0)) {
-HXLINE( 794)			return -(this->ty);
+            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_469___transformInverseY)
+HXLINE( 470)		Float norm = ((this->a * this->d) - (this->b * this->c));
+HXLINE( 472)		if ((norm == 0)) {
+HXLINE( 474)			return -(this->ty);
             		}
             		else {
-HXLINE( 798)			return ((((Float)1.0) / norm) * ((this->a * (py - this->ty)) + (this->b * (this->tx - px))));
+HXLINE( 478)			return ((((Float)1.0) / norm) * ((this->a * (py - this->ty)) + (this->b * (this->tx - px))));
             		}
-HXLINE( 792)		return ((Float)0.);
+HXLINE( 472)		return ((Float)0.);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Matrix_obj,_hx___transformInverseY,return )
 
 void Matrix_obj::_hx___transformPoint( ::openfl::geom::Point point){
-            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_803___transformPoint)
-HXLINE( 804)		Float px = point->x;
-HXLINE( 805)		Float py = point->y;
-HXLINE( 807)		point->x = (((px * this->a) + (py * this->c)) + this->tx);
-HXLINE( 808)		point->y = (((px * this->b) + (py * this->d)) + this->ty);
+            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_483___transformPoint)
+HXLINE( 484)		Float px = point->x;
+HXLINE( 485)		Float py = point->y;
+HXLINE( 487)		point->x = (((px * this->a) + (py * this->c)) + this->tx);
+HXLINE( 488)		point->y = (((px * this->b) + (py * this->d)) + this->ty);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Matrix_obj,_hx___transformPoint,(void))
 
 Float Matrix_obj::_hx___transformX(Float px,Float py){
-            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_813___transformX)
-HXDLIN( 813)		return (((px * this->a) + (py * this->c)) + this->tx);
+            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_493___transformX)
+HXDLIN( 493)		return (((px * this->a) + (py * this->c)) + this->tx);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Matrix_obj,_hx___transformX,return )
 
 Float Matrix_obj::_hx___transformY(Float px,Float py){
-            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_818___transformY)
-HXDLIN( 818)		return (((px * this->b) + (py * this->d)) + this->ty);
+            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_498___transformY)
+HXDLIN( 498)		return (((px * this->b) + (py * this->d)) + this->ty);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Matrix_obj,_hx___transformY,return )
 
 void Matrix_obj::_hx___translateTransformed(Float px,Float py){
-            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_822___translateTransformed)
-HXLINE( 823)		this->tx = (((px * this->a) + (py * this->c)) + this->tx);
-HXLINE( 824)		this->ty = (((px * this->b) + (py * this->d)) + this->ty);
+            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_502___translateTransformed)
+HXLINE( 503)		this->tx = (((px * this->a) + (py * this->c)) + this->tx);
+HXLINE( 504)		this->ty = (((px * this->b) + (py * this->d)) + this->ty);
             	}
 
 
@@ -1040,8 +1040,8 @@ void Matrix_obj::__register()
 void Matrix_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_74_boot)
-HXDLIN(  74)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
+            	HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_14_boot)
+HXDLIN(  14)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
             			->setFixed(0,HX_("fields",79,8e,8e,80), ::Dynamic(::hx::Anon_obj::Create(3)
             				->setFixed(0,HX_("equals",3f,ee,f2,bf), ::Dynamic(::hx::Anon_obj::Create(1)
             					->setFixed(0,HX_("SuppressWarnings",0c,d3,d2,00),::cpp::VirtualArray_obj::__new(1)->init(0,HX_("checkstyle:FieldDocComment",70,56,1b,20)))))
@@ -1051,30 +1051,30 @@ HXDLIN(  74)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
             					->setFixed(0,HX_("SuppressWarnings",0c,d3,d2,00),::cpp::VirtualArray_obj::__new(1)->init(0,HX_("checkstyle:FieldDocComment",70,56,1b,20))))))));
             	}
 {
-            	HX_GC_STACKFRAME(&_hx_pos_99143fe9fb0bb031_76_boot)
-HXDLIN(  76)		_hx___identity =  ::openfl::geom::Matrix_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+            	HX_GC_STACKFRAME(&_hx_pos_99143fe9fb0bb031_16_boot)
+HXDLIN(  16)		_hx___identity =  ::openfl::geom::Matrix_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
             	}
 {
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_0) HXARGC(0)
             		 ::openfl::geom::Matrix _hx_run(){
-            			HX_GC_STACKFRAME(&_hx_pos_99143fe9fb0bb031_77_boot)
-HXDLIN(  77)			return  ::openfl::geom::Matrix_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+            			HX_GC_STACKFRAME(&_hx_pos_99143fe9fb0bb031_17_boot)
+HXDLIN(  17)			return  ::openfl::geom::Matrix_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
             		}
             		HX_END_LOCAL_FUNC0(return)
 
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_1) HXARGC(1)
             		void _hx_run( ::openfl::geom::Matrix m){
-            			HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_77_boot)
-HXDLIN(  77)			m->identity();
+            			HX_STACKFRAME(&_hx_pos_99143fe9fb0bb031_17_boot)
+HXDLIN(  17)			m->identity();
             		}
             		HX_END_LOCAL_FUNC1((void))
 
-            	HX_GC_STACKFRAME(&_hx_pos_99143fe9fb0bb031_77_boot)
-HXDLIN(  77)		_hx___pool =  ::lime::utils::ObjectPool_obj::__alloc( HX_CTX , ::Dynamic(new _hx_Closure_0()), ::Dynamic(new _hx_Closure_1()),null());
+            	HX_GC_STACKFRAME(&_hx_pos_99143fe9fb0bb031_17_boot)
+HXDLIN(  17)		_hx___pool =  ::lime::utils::ObjectPool_obj::__alloc( HX_CTX , ::Dynamic(new _hx_Closure_0()), ::Dynamic(new _hx_Closure_1()),null());
             	}
 {
-            	HX_GC_STACKFRAME(&_hx_pos_99143fe9fb0bb031_79_boot)
-HXDLIN(  79)		_hx___matrix3 =  ::lime::math::Matrix3_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+            	HX_GC_STACKFRAME(&_hx_pos_99143fe9fb0bb031_19_boot)
+HXDLIN(  19)		_hx___matrix3 =  ::lime::math::Matrix3_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
             	}
 }
 

@@ -8,15 +8,15 @@
 #include <openfl/events/KeyboardEvent.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_c70c2341539e31f3_169_new,"openfl.events.KeyboardEvent","new",0xa9982e4e,"openfl.events.KeyboardEvent.new","openfl/events/KeyboardEvent.hx",169,0xce5f4702)
-HX_LOCAL_STACK_FRAME(_hx_pos_c70c2341539e31f3_186_clone,"openfl.events.KeyboardEvent","clone",0x11ed48cb,"openfl.events.KeyboardEvent.clone","openfl/events/KeyboardEvent.hx",186,0xce5f4702)
-HX_LOCAL_STACK_FRAME(_hx_pos_c70c2341539e31f3_198_toString,"openfl.events.KeyboardEvent","toString",0xd22933fe,"openfl.events.KeyboardEvent.toString","openfl/events/KeyboardEvent.hx",198,0xce5f4702)
+HX_DEFINE_STACK_FRAME(_hx_pos_c70c2341539e31f3_33_new,"openfl.events.KeyboardEvent","new",0xa9982e4e,"openfl.events.KeyboardEvent.new","openfl/events/KeyboardEvent.hx",33,0xce5f4702)
+HX_LOCAL_STACK_FRAME(_hx_pos_c70c2341539e31f3_50_clone,"openfl.events.KeyboardEvent","clone",0x11ed48cb,"openfl.events.KeyboardEvent.clone","openfl/events/KeyboardEvent.hx",50,0xce5f4702)
+HX_LOCAL_STACK_FRAME(_hx_pos_c70c2341539e31f3_62_toString,"openfl.events.KeyboardEvent","toString",0xd22933fe,"openfl.events.KeyboardEvent.toString","openfl/events/KeyboardEvent.hx",62,0xce5f4702)
 static const ::String _hx_array_data_d8fbaf5c_3[] = {
 	HX_("type",ba,f2,08,4d),HX_("bubbles",67,bb,56,61),HX_("cancelable",14,a0,79,c4),HX_("charCode",23,5f,24,9c),HX_("keyCode",6c,22,9e,9b),HX_("keyLocation",f4,ea,6a,2d),HX_("ctrlKey",b4,35,7d,61),HX_("altKey",f6,a7,ca,44),HX_("shiftKey",3d,92,9f,99),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_c70c2341539e31f3_212___init,"openfl.events.KeyboardEvent","__init",0x84182902,"openfl.events.KeyboardEvent.__init","openfl/events/KeyboardEvent.hx",212,0xce5f4702)
-HX_LOCAL_STACK_FRAME(_hx_pos_c70c2341539e31f3_44_boot,"openfl.events.KeyboardEvent","boot",0xb3a95684,"openfl.events.KeyboardEvent.boot","openfl/events/KeyboardEvent.hx",44,0xce5f4702)
-HX_LOCAL_STACK_FRAME(_hx_pos_c70c2341539e31f3_65_boot,"openfl.events.KeyboardEvent","boot",0xb3a95684,"openfl.events.KeyboardEvent.boot","openfl/events/KeyboardEvent.hx",65,0xce5f4702)
+HX_LOCAL_STACK_FRAME(_hx_pos_c70c2341539e31f3_76___init,"openfl.events.KeyboardEvent","__init",0x84182902,"openfl.events.KeyboardEvent.__init","openfl/events/KeyboardEvent.hx",76,0xce5f4702)
+HX_LOCAL_STACK_FRAME(_hx_pos_c70c2341539e31f3_13_boot,"openfl.events.KeyboardEvent","boot",0xb3a95684,"openfl.events.KeyboardEvent.boot","openfl/events/KeyboardEvent.hx",13,0xce5f4702)
+HX_LOCAL_STACK_FRAME(_hx_pos_c70c2341539e31f3_14_boot,"openfl.events.KeyboardEvent","boot",0xb3a95684,"openfl.events.KeyboardEvent.boot","openfl/events/KeyboardEvent.hx",14,0xce5f4702)
 namespace openfl{
 namespace events{
 
@@ -30,23 +30,23 @@ void KeyboardEvent_obj::__construct(::String type,::hx::Null< bool >  __o_bubble
             		bool shiftKeyValue = __o_shiftKeyValue.Default(false);
             		bool controlKeyValue = __o_controlKeyValue.Default(false);
             		bool commandKeyValue = __o_commandKeyValue.Default(false);
-            	HX_STACKFRAME(&_hx_pos_c70c2341539e31f3_169_new)
-HXLINE( 170)		super::__construct(type,bubbles,cancelable);
-HXLINE( 172)		this->charCode = charCodeValue;
-HXLINE( 173)		this->keyCode = keyCodeValue;
-HXLINE( 174)		int _hx_tmp;
-HXDLIN( 174)		if (::hx::IsNotNull( keyLocationValue )) {
-HXLINE( 174)			_hx_tmp = ( (int)(keyLocationValue) );
+            	HX_STACKFRAME(&_hx_pos_c70c2341539e31f3_33_new)
+HXLINE(  34)		super::__construct(type,bubbles,cancelable);
+HXLINE(  36)		this->charCode = charCodeValue;
+HXLINE(  37)		this->keyCode = keyCodeValue;
+HXLINE(  38)		int _hx_tmp;
+HXDLIN(  38)		if (::hx::IsNotNull( keyLocationValue )) {
+HXLINE(  38)			_hx_tmp = ( (int)(keyLocationValue) );
             		}
             		else {
-HXLINE( 174)			_hx_tmp = 0;
+HXLINE(  38)			_hx_tmp = 0;
             		}
-HXDLIN( 174)		this->keyLocation = _hx_tmp;
-HXLINE( 175)		this->ctrlKey = ctrlKeyValue;
-HXLINE( 176)		this->altKey = altKeyValue;
-HXLINE( 177)		this->shiftKey = shiftKeyValue;
-HXLINE( 180)		this->controlKey = controlKeyValue;
-HXLINE( 181)		this->commandKey = commandKeyValue;
+HXDLIN(  38)		this->keyLocation = _hx_tmp;
+HXLINE(  39)		this->ctrlKey = ctrlKeyValue;
+HXLINE(  40)		this->altKey = altKeyValue;
+HXLINE(  41)		this->shiftKey = shiftKeyValue;
+HXLINE(  44)		this->controlKey = controlKeyValue;
+HXLINE(  45)		this->commandKey = commandKeyValue;
             	}
 
 Dynamic KeyboardEvent_obj::__CreateEmpty() { return new KeyboardEvent_obj; }
@@ -69,32 +69,32 @@ bool KeyboardEvent_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::openfl::events::Event KeyboardEvent_obj::clone(){
-            	HX_GC_STACKFRAME(&_hx_pos_c70c2341539e31f3_186_clone)
-HXLINE( 187)		 ::openfl::events::KeyboardEvent event =  ::openfl::events::KeyboardEvent_obj::__alloc( HX_CTX ,this->type,this->bubbles,this->cancelable,this->charCode,this->keyCode,this->keyLocation,this->ctrlKey,this->altKey,this->shiftKey,this->controlKey,this->commandKey);
-HXLINE( 190)		event->target = this->target;
-HXLINE( 191)		event->currentTarget = this->currentTarget;
-HXLINE( 192)		event->eventPhase = this->eventPhase;
-HXLINE( 193)		return event;
+            	HX_GC_STACKFRAME(&_hx_pos_c70c2341539e31f3_50_clone)
+HXLINE(  51)		 ::openfl::events::KeyboardEvent event =  ::openfl::events::KeyboardEvent_obj::__alloc( HX_CTX ,this->type,this->bubbles,this->cancelable,this->charCode,this->keyCode,this->keyLocation,this->ctrlKey,this->altKey,this->shiftKey,this->controlKey,this->commandKey);
+HXLINE(  54)		event->target = this->target;
+HXLINE(  55)		event->currentTarget = this->currentTarget;
+HXLINE(  56)		event->eventPhase = this->eventPhase;
+HXLINE(  57)		return event;
             	}
 
 
 ::String KeyboardEvent_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_c70c2341539e31f3_198_toString)
-HXDLIN( 198)		return this->_hx___formatToString(HX_("KeyboardEvent",d3,8d,88,91),::Array_obj< ::String >::fromData( _hx_array_data_d8fbaf5c_3,9));
+            	HX_STACKFRAME(&_hx_pos_c70c2341539e31f3_62_toString)
+HXDLIN(  62)		return this->_hx___formatToString(HX_("KeyboardEvent",d3,8d,88,91),::Array_obj< ::String >::fromData( _hx_array_data_d8fbaf5c_3,9));
             	}
 
 
 void KeyboardEvent_obj::_hx___init(){
-            	HX_STACKFRAME(&_hx_pos_c70c2341539e31f3_212___init)
-HXLINE( 213)		this->super::_hx___init();
-HXLINE( 214)		this->charCode = 0;
-HXLINE( 215)		this->keyCode = 0;
-HXLINE( 216)		this->keyLocation = 0;
-HXLINE( 217)		this->ctrlKey = false;
-HXLINE( 218)		this->altKey = false;
-HXLINE( 219)		this->shiftKey = false;
-HXLINE( 222)		this->controlKey = false;
-HXLINE( 223)		this->commandKey = false;
+            	HX_STACKFRAME(&_hx_pos_c70c2341539e31f3_76___init)
+HXLINE(  77)		this->super::_hx___init();
+HXLINE(  78)		this->charCode = 0;
+HXLINE(  79)		this->keyCode = 0;
+HXLINE(  80)		this->keyLocation = 0;
+HXLINE(  81)		this->ctrlKey = false;
+HXLINE(  82)		this->altKey = false;
+HXLINE(  83)		this->shiftKey = false;
+HXLINE(  86)		this->controlKey = false;
+HXLINE(  87)		this->commandKey = false;
             	}
 
 
@@ -270,12 +270,12 @@ void KeyboardEvent_obj::__register()
 void KeyboardEvent_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_c70c2341539e31f3_44_boot)
-HXDLIN(  44)		KEY_DOWN = HX_("keyDown",a1,69,47,9c);
+            	HX_STACKFRAME(&_hx_pos_c70c2341539e31f3_13_boot)
+HXDLIN(  13)		KEY_DOWN = HX_("keyDown",a1,69,47,9c);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_c70c2341539e31f3_65_boot)
-HXDLIN(  65)		KEY_UP = HX_("keyUp",da,b9,fe,de);
+            	HX_STACKFRAME(&_hx_pos_c70c2341539e31f3_14_boot)
+HXDLIN(  14)		KEY_UP = HX_("keyUp",da,b9,fe,de);
             	}
 }
 

@@ -5,10 +5,10 @@
 #include <openfl/display/_GraphicsPathWinding/GraphicsPathWinding_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_e291141470723f52_42_fromString,"openfl.display._GraphicsPathWinding.GraphicsPathWinding_Impl_","fromString",0x5431d0d8,"openfl.display._GraphicsPathWinding.GraphicsPathWinding_Impl_.fromString","openfl/display/GraphicsPathWinding.hx",42,0xa8467880)
-HX_LOCAL_STACK_FRAME(_hx_pos_e291141470723f52_52_toString,"openfl.display._GraphicsPathWinding.GraphicsPathWinding_Impl_","toString",0x816cca69,"openfl.display._GraphicsPathWinding.GraphicsPathWinding_Impl_.toString","openfl/display/GraphicsPathWinding.hx",52,0xa8467880)
-HX_LOCAL_STACK_FRAME(_hx_pos_e291141470723f52_30_boot,"openfl.display._GraphicsPathWinding.GraphicsPathWinding_Impl_","boot",0xb4d09b6f,"openfl.display._GraphicsPathWinding.GraphicsPathWinding_Impl_.boot","openfl/display/GraphicsPathWinding.hx",30,0xa8467880)
-HX_LOCAL_STACK_FRAME(_hx_pos_e291141470723f52_38_boot,"openfl.display._GraphicsPathWinding.GraphicsPathWinding_Impl_","boot",0xb4d09b6f,"openfl.display._GraphicsPathWinding.GraphicsPathWinding_Impl_.boot","openfl/display/GraphicsPathWinding.hx",38,0xa8467880)
+HX_LOCAL_STACK_FRAME(_hx_pos_e291141470723f52_12_fromString,"openfl.display._GraphicsPathWinding.GraphicsPathWinding_Impl_","fromString",0x5431d0d8,"openfl.display._GraphicsPathWinding.GraphicsPathWinding_Impl_.fromString","openfl/display/GraphicsPathWinding.hx",12,0xa8467880)
+HX_LOCAL_STACK_FRAME(_hx_pos_e291141470723f52_22_toString,"openfl.display._GraphicsPathWinding.GraphicsPathWinding_Impl_","toString",0x816cca69,"openfl.display._GraphicsPathWinding.GraphicsPathWinding_Impl_.toString","openfl/display/GraphicsPathWinding.hx",22,0xa8467880)
+HX_LOCAL_STACK_FRAME(_hx_pos_e291141470723f52_7_boot,"openfl.display._GraphicsPathWinding.GraphicsPathWinding_Impl_","boot",0xb4d09b6f,"openfl.display._GraphicsPathWinding.GraphicsPathWinding_Impl_.boot","openfl/display/GraphicsPathWinding.hx",7,0xa8467880)
+HX_LOCAL_STACK_FRAME(_hx_pos_e291141470723f52_8_boot,"openfl.display._GraphicsPathWinding.GraphicsPathWinding_Impl_","boot",0xb4d09b6f,"openfl.display._GraphicsPathWinding.GraphicsPathWinding_Impl_.boot","openfl/display/GraphicsPathWinding.hx",8,0xa8467880)
 namespace openfl{
 namespace display{
 namespace _GraphicsPathWinding{
@@ -35,42 +35,42 @@ bool GraphicsPathWinding_Impl__obj::_hx_isInstanceOf(int inClassId) {
  ::Dynamic GraphicsPathWinding_Impl__obj::NON_ZERO;
 
  ::Dynamic GraphicsPathWinding_Impl__obj::fromString(::String value){
-            	HX_STACKFRAME(&_hx_pos_e291141470723f52_42_fromString)
-HXDLIN(  42)		::String _hx_switch_0 = value;
+            	HX_STACKFRAME(&_hx_pos_e291141470723f52_12_fromString)
+HXDLIN(  12)		::String _hx_switch_0 = value;
             		if (  (_hx_switch_0==HX_("evenOdd",b5,c6,7e,06)) ){
-HXLINE(  44)			return 0;
-HXDLIN(  44)			goto _hx_goto_0;
+HXLINE(  14)			return 0;
+HXDLIN(  14)			goto _hx_goto_0;
             		}
             		if (  (_hx_switch_0==HX_("nonZero",d5,1e,b4,d1)) ){
-HXLINE(  45)			return 1;
-HXDLIN(  45)			goto _hx_goto_0;
+HXLINE(  15)			return 1;
+HXDLIN(  15)			goto _hx_goto_0;
             		}
             		/* default */{
-HXLINE(  46)			return null();
+HXLINE(  16)			return null();
             		}
             		_hx_goto_0:;
-HXLINE(  42)		return null();
+HXLINE(  12)		return null();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(GraphicsPathWinding_Impl__obj,fromString,return )
 
 ::String GraphicsPathWinding_Impl__obj::toString( ::Dynamic this1){
-            	HX_STACKFRAME(&_hx_pos_e291141470723f52_52_toString)
-HXDLIN(  52)		 ::Dynamic _hx_switch_0 = this1;
+            	HX_STACKFRAME(&_hx_pos_e291141470723f52_22_toString)
+HXDLIN(  22)		 ::Dynamic _hx_switch_0 = this1;
             		if (  (_hx_switch_0==0) ){
-HXLINE(  54)			return HX_("evenOdd",b5,c6,7e,06);
-HXDLIN(  54)			goto _hx_goto_2;
+HXLINE(  24)			return HX_("evenOdd",b5,c6,7e,06);
+HXDLIN(  24)			goto _hx_goto_2;
             		}
             		if (  (_hx_switch_0==1) ){
-HXLINE(  55)			return HX_("nonZero",d5,1e,b4,d1);
-HXDLIN(  55)			goto _hx_goto_2;
+HXLINE(  25)			return HX_("nonZero",d5,1e,b4,d1);
+HXDLIN(  25)			goto _hx_goto_2;
             		}
             		/* default */{
-HXLINE(  56)			return null();
+HXLINE(  26)			return null();
             		}
             		_hx_goto_2:;
-HXLINE(  52)		return null();
+HXLINE(  22)		return null();
             	}
 
 
@@ -155,12 +155,12 @@ void GraphicsPathWinding_Impl__obj::__register()
 void GraphicsPathWinding_Impl__obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_e291141470723f52_30_boot)
-HXDLIN(  30)		EVEN_ODD = 0;
+            	HX_STACKFRAME(&_hx_pos_e291141470723f52_7_boot)
+HXDLIN(   7)		EVEN_ODD = 0;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_e291141470723f52_38_boot)
-HXDLIN(  38)		NON_ZERO = 1;
+            	HX_STACKFRAME(&_hx_pos_e291141470723f52_8_boot)
+HXDLIN(   8)		NON_ZERO = 1;
             	}
 }
 

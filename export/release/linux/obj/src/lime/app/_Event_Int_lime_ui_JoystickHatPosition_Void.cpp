@@ -13,7 +13,6 @@ HX_LOCAL_STACK_FRAME(_hx_pos_99d023c3fed87873_58_add,"lime.app._Event_Int_lime_u
 HX_LOCAL_STACK_FRAME(_hx_pos_99d023c3fed87873_82_cancel,"lime.app._Event_Int_lime_ui_JoystickHatPosition_Void","cancel",0xa606b6ce,"lime.app._Event_Int_lime_ui_JoystickHatPosition_Void.cancel","lime/app/Event.hx",82,0xbda45bec)
 HX_LOCAL_STACK_FRAME(_hx_pos_99d023c3fed87873_127_has,"lime.app._Event_Int_lime_ui_JoystickHatPosition_Void","has",0x3fd61986,"lime.app._Event_Int_lime_ui_JoystickHatPosition_Void.has","lime/app/Event.hx",127,0xbda45bec)
 HX_LOCAL_STACK_FRAME(_hx_pos_99d023c3fed87873_143_remove,"lime.app._Event_Int_lime_ui_JoystickHatPosition_Void","remove",0xf25b6598,"lime.app._Event_Int_lime_ui_JoystickHatPosition_Void.remove","lime/app/Event.hx",143,0xbda45bec)
-HX_LOCAL_STACK_FRAME(_hx_pos_99d023c3fed87873_163_removeAll,"lime.app._Event_Int_lime_ui_JoystickHatPosition_Void","removeAll",0xdfbbda69,"lime.app._Event_Int_lime_ui_JoystickHatPosition_Void.removeAll","lime/app/Event.hx",163,0xbda45bec)
 HX_LOCAL_STACK_FRAME(_hx_pos_e988052ebe5f17da_82_dispatch,"lime.app._Event_Int_lime_ui_JoystickHatPosition_Void","dispatch",0x3d7a950e,"lime.app._Event_Int_lime_ui_JoystickHatPosition_Void.dispatch","lime/_internal/macros/EventMacro.hx",82,0xc5a10671)
 namespace lime{
 namespace app{
@@ -114,17 +113,6 @@ HXLINE( 153)				this->_hx___repeat->removeRange(i,1);
 
 HX_DEFINE_DYNAMIC_FUNC1(_Event_Int_lime_ui_JoystickHatPosition_Void_obj,remove,(void))
 
-void _Event_Int_lime_ui_JoystickHatPosition_Void_obj::removeAll(){
-            	HX_STACKFRAME(&_hx_pos_99d023c3fed87873_163_removeAll)
-HXLINE( 165)		int len = this->_hx___listeners->length;
-HXLINE( 167)		this->_hx___listeners->removeRange(0,len);
-HXLINE( 168)		this->_hx___priorities->removeRange(0,len);
-HXLINE( 169)		this->_hx___repeat->removeRange(0,len);
-            	}
-
-
-HX_DEFINE_DYNAMIC_FUNC0(_Event_Int_lime_ui_JoystickHatPosition_Void_obj,removeAll,(void))
-
 void _Event_Int_lime_ui_JoystickHatPosition_Void_obj::dispatch(int a,int a1){
             	HX_STACKFRAME(&_hx_pos_e988052ebe5f17da_82_dispatch)
 HXLINE(  83)		this->canceled = false;
@@ -140,10 +128,10 @@ HXLINE(  95)				this->remove(listeners->__get(i));
 HXLINE(  99)				i = (i + 1);
             			}
 HXLINE( 102)			if (this->canceled) {
-HXLINE( 104)				goto _hx_goto_9;
+HXLINE( 104)				goto _hx_goto_8;
             			}
             		}
-            		_hx_goto_9:;
+            		_hx_goto_8:;
             	}
 
 
@@ -201,9 +189,6 @@ void _Event_Int_lime_ui_JoystickHatPosition_Void_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"__repeat") ) { return ::hx::Val( _hx___repeat ); }
 		if (HX_FIELD_EQ(inName,"dispatch") ) { return ::hx::Val( dispatch_dyn() ); }
 		break;
-	case 9:
-		if (HX_FIELD_EQ(inName,"removeAll") ) { return ::hx::Val( removeAll_dyn() ); }
-		break;
 	case 11:
 		if (HX_FIELD_EQ(inName,"__listeners") ) { return ::hx::Val( _hx___listeners ); }
 		break;
@@ -257,7 +242,6 @@ static ::String _Event_Int_lime_ui_JoystickHatPosition_Void_obj_sMemberFields[] 
 	HX_("cancel",7a,ed,33,b8),
 	HX_("has",5a,3f,4f,00),
 	HX_("remove",44,9c,88,04),
-	HX_("removeAll",3d,17,e5,ca),
 	HX_("__listeners",5f,ae,ba,21),
 	HX_("dispatch",ba,ce,63,1e),
 	::String(null()) };

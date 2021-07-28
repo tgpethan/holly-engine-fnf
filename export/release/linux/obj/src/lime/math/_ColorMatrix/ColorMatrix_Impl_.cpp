@@ -364,23 +364,22 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC2(ColorMatrix_Impl__obj,concat,(void))
 
 void ColorMatrix_Impl__obj::copyFrom( ::lime::utils::ArrayBufferView this1, ::lime::utils::ArrayBufferView other){
             	HX_STACKFRAME(&_hx_pos_855a2747f55db411_117_copyFrom)
-HXDLIN( 117)		 ::lime::utils::ArrayBufferView view = other;
 HXDLIN( 117)		::cpp::VirtualArray array = null();
 HXDLIN( 117)		int offset = 0;
 HXDLIN( 117)		bool _hx_tmp;
-HXDLIN( 117)		if (::hx::IsNotNull( view )) {
+HXDLIN( 117)		if (::hx::IsNotNull( other )) {
 HXDLIN( 117)			_hx_tmp = ::hx::IsNull( array );
             		}
             		else {
 HXDLIN( 117)			_hx_tmp = false;
             		}
 HXDLIN( 117)		if (_hx_tmp) {
-HXDLIN( 117)			this1->buffer->blit((offset * this1->bytesPerElement),view->buffer,view->byteOffset,view->byteLength);
+HXDLIN( 117)			this1->buffer->blit((offset * this1->bytesPerElement),other->buffer,other->byteOffset,other->byteLength);
             		}
             		else {
 HXDLIN( 117)			bool _hx_tmp;
 HXDLIN( 117)			if (::hx::IsNotNull( array )) {
-HXDLIN( 117)				_hx_tmp = ::hx::IsNull( view );
+HXDLIN( 117)				_hx_tmp = ::hx::IsNull( other );
             			}
             			else {
 HXDLIN( 117)				_hx_tmp = false;

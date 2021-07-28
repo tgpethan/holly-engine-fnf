@@ -20,19 +20,19 @@
 #include <openfl/display/IGraphicsPath.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_a26b1fc0d062e909_81_new,"openfl.display.GraphicsTrianglePath","new",0x6d94fd54,"openfl.display.GraphicsTrianglePath.new","openfl/display/GraphicsTrianglePath.hx",81,0x122c7fda)
+HX_DEFINE_STACK_FRAME(_hx_pos_a26b1fc0d062e909_21_new,"openfl.display.GraphicsTrianglePath","new",0x6d94fd54,"openfl.display.GraphicsTrianglePath.new","openfl/display/GraphicsTrianglePath.hx",21,0x122c7fda)
 namespace openfl{
 namespace display{
 
 void GraphicsTrianglePath_obj::__construct( ::openfl::_Vector::FloatVector vertices, ::openfl::_Vector::IntVector indices, ::openfl::_Vector::FloatVector uvtData, ::Dynamic __o_culling){
             		 ::Dynamic culling = __o_culling;
             		if (::hx::IsNull(__o_culling)) culling = 1;
-            	HX_STACKFRAME(&_hx_pos_a26b1fc0d062e909_81_new)
-HXLINE(  82)		this->vertices = vertices;
-HXLINE(  83)		this->indices = indices;
-HXLINE(  84)		this->uvtData = uvtData;
-HXLINE(  85)		this->culling = culling;
-HXLINE(  86)		this->_hx___graphicsDataType = 7;
+            	HX_STACKFRAME(&_hx_pos_a26b1fc0d062e909_21_new)
+HXLINE(  22)		this->vertices = vertices;
+HXLINE(  23)		this->indices = indices;
+HXLINE(  24)		this->uvtData = uvtData;
+HXLINE(  25)		this->culling = culling;
+HXLINE(  26)		this->_hx___graphicsDataType = 7;
             	}
 
 Dynamic GraphicsTrianglePath_obj::__CreateEmpty() { return new GraphicsTrianglePath_obj; }

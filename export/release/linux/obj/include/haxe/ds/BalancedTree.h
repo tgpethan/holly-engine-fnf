@@ -41,7 +41,6 @@ class HXCPP_CLASS_ATTRIBUTES BalancedTree_obj : public ::hx::Object
 
 		HX_DO_RTTI_ALL;
 		::hx::Val __Field(const ::String &inString, ::hx::PropertyAccess inCallProp);
-		static bool __GetStatic(const ::String &inString, Dynamic &outValue, ::hx::PropertyAccess inCallProp);
 		::hx::Val __SetField(const ::String &inString,const ::hx::Val &inValue, ::hx::PropertyAccess inCallProp);
 		void __GetFields(Array< ::String> &outFields);
 		static void __register();
@@ -51,9 +50,6 @@ class HXCPP_CLASS_ATTRIBUTES BalancedTree_obj : public ::hx::Object
 		void *_hx_getInterface(int inHash);
 		void set_dca24b06( ::Dynamic k, ::Dynamic v);
 		::String __ToString() const { return HX_("BalancedTree",66,71,f8,aa); }
-
-		static void iteratorLoop( ::haxe::ds::TreeNode node,::cpp::VirtualArray acc);
-		static ::Dynamic iteratorLoop_dyn();
 
 		 ::haxe::ds::TreeNode root;
 		void set( ::Dynamic key, ::Dynamic value);
@@ -67,12 +63,6 @@ class HXCPP_CLASS_ATTRIBUTES BalancedTree_obj : public ::hx::Object
 
 		bool exists( ::Dynamic key);
 		::Dynamic exists_dyn();
-
-		 ::Dynamic iterator();
-		::Dynamic iterator_dyn();
-
-		 ::Dynamic keyValueIterator();
-		::Dynamic keyValueIterator_dyn();
 
 		 ::Dynamic keys();
 		::Dynamic keys_dyn();

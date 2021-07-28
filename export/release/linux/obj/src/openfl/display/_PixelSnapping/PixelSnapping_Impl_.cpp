@@ -5,11 +5,11 @@
 #include <openfl/display/_PixelSnapping/PixelSnapping_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_0f3cf3c73141d162_39_fromString,"openfl.display._PixelSnapping.PixelSnapping_Impl_","fromString",0xc7730368,"openfl.display._PixelSnapping.PixelSnapping_Impl_.fromString","openfl/display/PixelSnapping.hx",39,0x71d03308)
-HX_LOCAL_STACK_FRAME(_hx_pos_0f3cf3c73141d162_50_toString,"openfl.display._PixelSnapping.PixelSnapping_Impl_","toString",0xd1c938f9,"openfl.display._PixelSnapping.PixelSnapping_Impl_.toString","openfl/display/PixelSnapping.hx",50,0x71d03308)
-HX_LOCAL_STACK_FRAME(_hx_pos_0f3cf3c73141d162_18_boot,"openfl.display._PixelSnapping.PixelSnapping_Impl_","boot",0x4f8e81ff,"openfl.display._PixelSnapping.PixelSnapping_Impl_.boot","openfl/display/PixelSnapping.hx",18,0x71d03308)
-HX_LOCAL_STACK_FRAME(_hx_pos_0f3cf3c73141d162_29_boot,"openfl.display._PixelSnapping.PixelSnapping_Impl_","boot",0x4f8e81ff,"openfl.display._PixelSnapping.PixelSnapping_Impl_.boot","openfl/display/PixelSnapping.hx",29,0x71d03308)
-HX_LOCAL_STACK_FRAME(_hx_pos_0f3cf3c73141d162_35_boot,"openfl.display._PixelSnapping.PixelSnapping_Impl_","boot",0x4f8e81ff,"openfl.display._PixelSnapping.PixelSnapping_Impl_.boot","openfl/display/PixelSnapping.hx",35,0x71d03308)
+HX_LOCAL_STACK_FRAME(_hx_pos_0f3cf3c73141d162_13_fromString,"openfl.display._PixelSnapping.PixelSnapping_Impl_","fromString",0xc7730368,"openfl.display._PixelSnapping.PixelSnapping_Impl_.fromString","openfl/display/PixelSnapping.hx",13,0x71d03308)
+HX_LOCAL_STACK_FRAME(_hx_pos_0f3cf3c73141d162_24_toString,"openfl.display._PixelSnapping.PixelSnapping_Impl_","toString",0xd1c938f9,"openfl.display._PixelSnapping.PixelSnapping_Impl_.toString","openfl/display/PixelSnapping.hx",24,0x71d03308)
+HX_LOCAL_STACK_FRAME(_hx_pos_0f3cf3c73141d162_7_boot,"openfl.display._PixelSnapping.PixelSnapping_Impl_","boot",0x4f8e81ff,"openfl.display._PixelSnapping.PixelSnapping_Impl_.boot","openfl/display/PixelSnapping.hx",7,0x71d03308)
+HX_LOCAL_STACK_FRAME(_hx_pos_0f3cf3c73141d162_8_boot,"openfl.display._PixelSnapping.PixelSnapping_Impl_","boot",0x4f8e81ff,"openfl.display._PixelSnapping.PixelSnapping_Impl_.boot","openfl/display/PixelSnapping.hx",8,0x71d03308)
+HX_LOCAL_STACK_FRAME(_hx_pos_0f3cf3c73141d162_9_boot,"openfl.display._PixelSnapping.PixelSnapping_Impl_","boot",0x4f8e81ff,"openfl.display._PixelSnapping.PixelSnapping_Impl_.boot","openfl/display/PixelSnapping.hx",9,0x71d03308)
 namespace openfl{
 namespace display{
 namespace _PixelSnapping{
@@ -38,50 +38,50 @@ bool PixelSnapping_Impl__obj::_hx_isInstanceOf(int inClassId) {
  ::Dynamic PixelSnapping_Impl__obj::NEVER;
 
  ::Dynamic PixelSnapping_Impl__obj::fromString(::String value){
-            	HX_STACKFRAME(&_hx_pos_0f3cf3c73141d162_39_fromString)
-HXDLIN(  39)		::String _hx_switch_0 = value;
+            	HX_STACKFRAME(&_hx_pos_0f3cf3c73141d162_13_fromString)
+HXDLIN(  13)		::String _hx_switch_0 = value;
             		if (  (_hx_switch_0==HX_("always",cf,0e,d7,46)) ){
-HXLINE(  41)			return 0;
-HXDLIN(  41)			goto _hx_goto_0;
+HXLINE(  15)			return 0;
+HXDLIN(  15)			goto _hx_goto_0;
             		}
             		if (  (_hx_switch_0==HX_("auto",6f,df,76,40)) ){
-HXLINE(  42)			return 1;
-HXDLIN(  42)			goto _hx_goto_0;
+HXLINE(  16)			return 1;
+HXDLIN(  16)			goto _hx_goto_0;
             		}
             		if (  (_hx_switch_0==HX_("never",8c,3e,30,99)) ){
-HXLINE(  43)			return 2;
-HXDLIN(  43)			goto _hx_goto_0;
+HXLINE(  17)			return 2;
+HXDLIN(  17)			goto _hx_goto_0;
             		}
             		/* default */{
-HXLINE(  44)			return null();
+HXLINE(  18)			return null();
             		}
             		_hx_goto_0:;
-HXLINE(  39)		return null();
+HXLINE(  13)		return null();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(PixelSnapping_Impl__obj,fromString,return )
 
 ::String PixelSnapping_Impl__obj::toString( ::Dynamic this1){
-            	HX_STACKFRAME(&_hx_pos_0f3cf3c73141d162_50_toString)
-HXDLIN(  50)		 ::Dynamic _hx_switch_0 = this1;
+            	HX_STACKFRAME(&_hx_pos_0f3cf3c73141d162_24_toString)
+HXDLIN(  24)		 ::Dynamic _hx_switch_0 = this1;
             		if (  (_hx_switch_0==0) ){
-HXLINE(  52)			return HX_("always",cf,0e,d7,46);
-HXDLIN(  52)			goto _hx_goto_2;
+HXLINE(  26)			return HX_("always",cf,0e,d7,46);
+HXDLIN(  26)			goto _hx_goto_2;
             		}
             		if (  (_hx_switch_0==1) ){
-HXLINE(  53)			return HX_("auto",6f,df,76,40);
-HXDLIN(  53)			goto _hx_goto_2;
+HXLINE(  27)			return HX_("auto",6f,df,76,40);
+HXDLIN(  27)			goto _hx_goto_2;
             		}
             		if (  (_hx_switch_0==2) ){
-HXLINE(  54)			return HX_("never",8c,3e,30,99);
-HXDLIN(  54)			goto _hx_goto_2;
+HXLINE(  28)			return HX_("never",8c,3e,30,99);
+HXDLIN(  28)			goto _hx_goto_2;
             		}
             		/* default */{
-HXLINE(  55)			return null();
+HXLINE(  29)			return null();
             		}
             		_hx_goto_2:;
-HXLINE(  50)		return null();
+HXLINE(  24)		return null();
             	}
 
 
@@ -170,16 +170,16 @@ void PixelSnapping_Impl__obj::__register()
 void PixelSnapping_Impl__obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_0f3cf3c73141d162_18_boot)
-HXDLIN(  18)		ALWAYS = 0;
+            	HX_STACKFRAME(&_hx_pos_0f3cf3c73141d162_7_boot)
+HXDLIN(   7)		ALWAYS = 0;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_0f3cf3c73141d162_29_boot)
-HXDLIN(  29)		AUTO = 1;
+            	HX_STACKFRAME(&_hx_pos_0f3cf3c73141d162_8_boot)
+HXDLIN(   8)		AUTO = 1;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_0f3cf3c73141d162_35_boot)
-HXDLIN(  35)		NEVER = 2;
+            	HX_STACKFRAME(&_hx_pos_0f3cf3c73141d162_9_boot)
+HXDLIN(   9)		NEVER = 2;
             	}
 }
 

@@ -183,74 +183,74 @@
 #include <openfl/geom/Rectangle.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_39_new,"flixel.system.debug.interaction.Interaction","new",0xfa21d580,"flixel.system.debug.interaction.Interaction.new","flixel/system/debug/interaction/Interaction.hx",39,0x4548a912)
-HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_98_handleDebuggerVisibilityChanged,"flixel.system.debug.interaction.Interaction","handleDebuggerVisibilityChanged",0x3dea5c39,"flixel.system.debug.interaction.Interaction.handleDebuggerVisibilityChanged","flixel/system/debug/interaction/Interaction.hx",98,0x4548a912)
-HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_105_updateMouse,"flixel.system.debug.interaction.Interaction","updateMouse",0x7f05a47c,"flixel.system.debug.interaction.Interaction.updateMouse","flixel/system/debug/interaction/Interaction.hx",105,0x4548a912)
-HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_141_handleMouseClick,"flixel.system.debug.interaction.Interaction","handleMouseClick",0x6baf608b,"flixel.system.debug.interaction.Interaction.handleMouseClick","flixel/system/debug/interaction/Interaction.hx",141,0x4548a912)
-HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_157_belongsToDebugger,"flixel.system.debug.interaction.Interaction","belongsToDebugger",0x14e3d9d0,"flixel.system.debug.interaction.Interaction.belongsToDebugger","flixel/system/debug/interaction/Interaction.hx",157,0x4548a912)
-HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_166_handleMouseInDebugger,"flixel.system.debug.interaction.Interaction","handleMouseInDebugger",0xefc0f203,"flixel.system.debug.interaction.Interaction.handleMouseInDebugger","flixel/system/debug/interaction/Interaction.hx",166,0x4548a912)
-HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_182_handleKeyEvent,"flixel.system.debug.interaction.Interaction","handleKeyEvent",0xda0964a3,"flixel.system.debug.interaction.Interaction.handleKeyEvent","flixel/system/debug/interaction/Interaction.hx",182,0x4548a912)
-HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_192_countToolsWithUIButton,"flixel.system.debug.interaction.Interaction","countToolsWithUIButton",0x77bd6f38,"flixel.system.debug.interaction.Interaction.countToolsWithUIButton","flixel/system/debug/interaction/Interaction.hx",192,0x4548a912)
-HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_213_addTool,"flixel.system.debug.interaction.Interaction","addTool",0xefc5b339,"flixel.system.debug.interaction.Interaction.addTool","flixel/system/debug/interaction/Interaction.hx",213,0x4548a912)
-HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_238_destroy,"flixel.system.debug.interaction.Interaction","destroy",0x8b0d421a,"flixel.system.debug.interaction.Interaction.destroy","flixel/system/debug/interaction/Interaction.hx",238,0x4548a912)
-HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_270_isActive,"flixel.system.debug.interaction.Interaction","isActive",0xbe5b4430,"flixel.system.debug.interaction.Interaction.isActive","flixel/system/debug/interaction/Interaction.hx",270,0x4548a912)
-HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_274_update,"flixel.system.debug.interaction.Interaction","update",0x852f74e9,"flixel.system.debug.interaction.Interaction.update","flixel/system/debug/interaction/Interaction.hx",274,0x4548a912)
-HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_292_postDraw,"flixel.system.debug.interaction.Interaction","postDraw",0x505af364,"flixel.system.debug.interaction.Interaction.postDraw","flixel/system/debug/interaction/Interaction.hx",292,0x4548a912)
-HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_304_getDebugGraphics,"flixel.system.debug.interaction.Interaction","getDebugGraphics",0xd1fe02a8,"flixel.system.debug.interaction.Interaction.getDebugGraphics","flixel/system/debug/interaction/Interaction.hx",304,0x4548a912)
-HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_319_drawItemsSelection,"flixel.system.debug.interaction.Interaction","drawItemsSelection",0xcdd9aa30,"flixel.system.debug.interaction.Interaction.drawItemsSelection","flixel/system/debug/interaction/Interaction.hx",319,0x4548a912)
-HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_348_getTool,"flixel.system.debug.interaction.Interaction","getTool",0x860b202e,"flixel.system.debug.interaction.Interaction.getTool","flixel/system/debug/interaction/Interaction.hx",348,0x4548a912)
-HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_356_toggleVisible,"flixel.system.debug.interaction.Interaction","toggleVisible",0x4f15685e,"flixel.system.debug.interaction.Interaction.toggleVisible","flixel/system/debug/interaction/Interaction.hx",356,0x4548a912)
-HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_368_registerCustomCursor,"flixel.system.debug.interaction.Interaction","registerCustomCursor",0xf323974a,"flixel.system.debug.interaction.Interaction.registerCustomCursor","flixel/system/debug/interaction/Interaction.hx",368,0x4548a912)
-HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_389_updateCustomCursors,"flixel.system.debug.interaction.Interaction","updateCustomCursors",0x218c1283,"flixel.system.debug.interaction.Interaction.updateCustomCursors","flixel/system/debug/interaction/Interaction.hx",389,0x4548a912)
-HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_429_saveSystemCursorInfo,"flixel.system.debug.interaction.Interaction","saveSystemCursorInfo",0x622efa70,"flixel.system.debug.interaction.Interaction.saveSystemCursorInfo","flixel/system/debug/interaction/Interaction.hx",429,0x4548a912)
-HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_437_restoreSystemCursor,"flixel.system.debug.interaction.Interaction","restoreSystemCursor",0x6747acb3,"flixel.system.debug.interaction.Interaction.restoreSystemCursor","flixel/system/debug/interaction/Interaction.hx",437,0x4548a912)
-HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_446_setActiveTool,"flixel.system.debug.interaction.Interaction","setActiveTool",0x92d80fa0,"flixel.system.debug.interaction.Interaction.setActiveTool","flixel/system/debug/interaction/Interaction.hx",446,0x4548a912)
-HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_484_setSystemCursorVisibility,"flixel.system.debug.interaction.Interaction","setSystemCursorVisibility",0x3bad5fb9,"flixel.system.debug.interaction.Interaction.setSystemCursorVisibility","flixel/system/debug/interaction/Interaction.hx",484,0x4548a912)
-HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_492_setToolsCursorVisibility,"flixel.system.debug.interaction.Interaction","setToolsCursorVisibility",0x9dd4e861,"flixel.system.debug.interaction.Interaction.setToolsCursorVisibility","flixel/system/debug/interaction/Interaction.hx",492,0x4548a912)
-HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_510_clearSelection,"flixel.system.debug.interaction.Interaction","clearSelection",0x1e241bdf,"flixel.system.debug.interaction.Interaction.clearSelection","flixel/system/debug/interaction/Interaction.hx",510,0x4548a912)
-HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_515_keyPressed,"flixel.system.debug.interaction.Interaction","keyPressed",0xc6e951a3,"flixel.system.debug.interaction.Interaction.keyPressed","flixel/system/debug/interaction/Interaction.hx",515,0x4548a912)
-HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_519_keyJustPressed,"flixel.system.debug.interaction.Interaction","keyJustPressed",0x9fbba157,"flixel.system.debug.interaction.Interaction.keyJustPressed","flixel/system/debug/interaction/Interaction.hx",519,0x4548a912)
-HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_532_isInUse,"flixel.system.debug.interaction.Interaction","isInUse",0xc115fe38,"flixel.system.debug.interaction.Interaction.isInUse","flixel/system/debug/interaction/Interaction.hx",532,0x4548a912)
-HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_536_findItemsWithinState,"flixel.system.debug.interaction.Interaction","findItemsWithinState",0x412153bf,"flixel.system.debug.interaction.Interaction.findItemsWithinState","flixel/system/debug/interaction/Interaction.hx",536,0x4548a912)
-HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_554_findItemsWithinArea,"flixel.system.debug.interaction.Interaction","findItemsWithinArea",0xfd927d9f,"flixel.system.debug.interaction.Interaction.findItemsWithinArea","flixel/system/debug/interaction/Interaction.hx",554,0x4548a912)
+HX_DEFINE_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_34_new,"flixel.system.debug.interaction.Interaction","new",0xfa21d580,"flixel.system.debug.interaction.Interaction.new","flixel/system/debug/interaction/Interaction.hx",34,0x4548a912)
+HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_93_handleDebuggerVisibilityChanged,"flixel.system.debug.interaction.Interaction","handleDebuggerVisibilityChanged",0x3dea5c39,"flixel.system.debug.interaction.Interaction.handleDebuggerVisibilityChanged","flixel/system/debug/interaction/Interaction.hx",93,0x4548a912)
+HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_100_updateMouse,"flixel.system.debug.interaction.Interaction","updateMouse",0x7f05a47c,"flixel.system.debug.interaction.Interaction.updateMouse","flixel/system/debug/interaction/Interaction.hx",100,0x4548a912)
+HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_136_handleMouseClick,"flixel.system.debug.interaction.Interaction","handleMouseClick",0x6baf608b,"flixel.system.debug.interaction.Interaction.handleMouseClick","flixel/system/debug/interaction/Interaction.hx",136,0x4548a912)
+HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_152_belongsToDebugger,"flixel.system.debug.interaction.Interaction","belongsToDebugger",0x14e3d9d0,"flixel.system.debug.interaction.Interaction.belongsToDebugger","flixel/system/debug/interaction/Interaction.hx",152,0x4548a912)
+HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_161_handleMouseInDebugger,"flixel.system.debug.interaction.Interaction","handleMouseInDebugger",0xefc0f203,"flixel.system.debug.interaction.Interaction.handleMouseInDebugger","flixel/system/debug/interaction/Interaction.hx",161,0x4548a912)
+HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_177_handleKeyEvent,"flixel.system.debug.interaction.Interaction","handleKeyEvent",0xda0964a3,"flixel.system.debug.interaction.Interaction.handleKeyEvent","flixel/system/debug/interaction/Interaction.hx",177,0x4548a912)
+HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_187_countToolsWithUIButton,"flixel.system.debug.interaction.Interaction","countToolsWithUIButton",0x77bd6f38,"flixel.system.debug.interaction.Interaction.countToolsWithUIButton","flixel/system/debug/interaction/Interaction.hx",187,0x4548a912)
+HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_208_addTool,"flixel.system.debug.interaction.Interaction","addTool",0xefc5b339,"flixel.system.debug.interaction.Interaction.addTool","flixel/system/debug/interaction/Interaction.hx",208,0x4548a912)
+HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_233_destroy,"flixel.system.debug.interaction.Interaction","destroy",0x8b0d421a,"flixel.system.debug.interaction.Interaction.destroy","flixel/system/debug/interaction/Interaction.hx",233,0x4548a912)
+HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_265_isActive,"flixel.system.debug.interaction.Interaction","isActive",0xbe5b4430,"flixel.system.debug.interaction.Interaction.isActive","flixel/system/debug/interaction/Interaction.hx",265,0x4548a912)
+HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_269_update,"flixel.system.debug.interaction.Interaction","update",0x852f74e9,"flixel.system.debug.interaction.Interaction.update","flixel/system/debug/interaction/Interaction.hx",269,0x4548a912)
+HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_287_postDraw,"flixel.system.debug.interaction.Interaction","postDraw",0x505af364,"flixel.system.debug.interaction.Interaction.postDraw","flixel/system/debug/interaction/Interaction.hx",287,0x4548a912)
+HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_299_getDebugGraphics,"flixel.system.debug.interaction.Interaction","getDebugGraphics",0xd1fe02a8,"flixel.system.debug.interaction.Interaction.getDebugGraphics","flixel/system/debug/interaction/Interaction.hx",299,0x4548a912)
+HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_314_drawItemsSelection,"flixel.system.debug.interaction.Interaction","drawItemsSelection",0xcdd9aa30,"flixel.system.debug.interaction.Interaction.drawItemsSelection","flixel/system/debug/interaction/Interaction.hx",314,0x4548a912)
+HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_343_getTool,"flixel.system.debug.interaction.Interaction","getTool",0x860b202e,"flixel.system.debug.interaction.Interaction.getTool","flixel/system/debug/interaction/Interaction.hx",343,0x4548a912)
+HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_351_toggleVisible,"flixel.system.debug.interaction.Interaction","toggleVisible",0x4f15685e,"flixel.system.debug.interaction.Interaction.toggleVisible","flixel/system/debug/interaction/Interaction.hx",351,0x4548a912)
+HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_363_registerCustomCursor,"flixel.system.debug.interaction.Interaction","registerCustomCursor",0xf323974a,"flixel.system.debug.interaction.Interaction.registerCustomCursor","flixel/system/debug/interaction/Interaction.hx",363,0x4548a912)
+HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_384_updateCustomCursors,"flixel.system.debug.interaction.Interaction","updateCustomCursors",0x218c1283,"flixel.system.debug.interaction.Interaction.updateCustomCursors","flixel/system/debug/interaction/Interaction.hx",384,0x4548a912)
+HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_424_saveSystemCursorInfo,"flixel.system.debug.interaction.Interaction","saveSystemCursorInfo",0x622efa70,"flixel.system.debug.interaction.Interaction.saveSystemCursorInfo","flixel/system/debug/interaction/Interaction.hx",424,0x4548a912)
+HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_432_restoreSystemCursor,"flixel.system.debug.interaction.Interaction","restoreSystemCursor",0x6747acb3,"flixel.system.debug.interaction.Interaction.restoreSystemCursor","flixel/system/debug/interaction/Interaction.hx",432,0x4548a912)
+HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_441_setActiveTool,"flixel.system.debug.interaction.Interaction","setActiveTool",0x92d80fa0,"flixel.system.debug.interaction.Interaction.setActiveTool","flixel/system/debug/interaction/Interaction.hx",441,0x4548a912)
+HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_479_setSystemCursorVisibility,"flixel.system.debug.interaction.Interaction","setSystemCursorVisibility",0x3bad5fb9,"flixel.system.debug.interaction.Interaction.setSystemCursorVisibility","flixel/system/debug/interaction/Interaction.hx",479,0x4548a912)
+HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_487_setToolsCursorVisibility,"flixel.system.debug.interaction.Interaction","setToolsCursorVisibility",0x9dd4e861,"flixel.system.debug.interaction.Interaction.setToolsCursorVisibility","flixel/system/debug/interaction/Interaction.hx",487,0x4548a912)
+HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_505_clearSelection,"flixel.system.debug.interaction.Interaction","clearSelection",0x1e241bdf,"flixel.system.debug.interaction.Interaction.clearSelection","flixel/system/debug/interaction/Interaction.hx",505,0x4548a912)
+HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_510_keyPressed,"flixel.system.debug.interaction.Interaction","keyPressed",0xc6e951a3,"flixel.system.debug.interaction.Interaction.keyPressed","flixel/system/debug/interaction/Interaction.hx",510,0x4548a912)
+HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_514_keyJustPressed,"flixel.system.debug.interaction.Interaction","keyJustPressed",0x9fbba157,"flixel.system.debug.interaction.Interaction.keyJustPressed","flixel/system/debug/interaction/Interaction.hx",514,0x4548a912)
+HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_527_isInUse,"flixel.system.debug.interaction.Interaction","isInUse",0xc115fe38,"flixel.system.debug.interaction.Interaction.isInUse","flixel/system/debug/interaction/Interaction.hx",527,0x4548a912)
+HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_531_findItemsWithinState,"flixel.system.debug.interaction.Interaction","findItemsWithinState",0x412153bf,"flixel.system.debug.interaction.Interaction.findItemsWithinState","flixel/system/debug/interaction/Interaction.hx",531,0x4548a912)
+HX_LOCAL_STACK_FRAME(_hx_pos_b2dd90bb9bc9fb13_549_findItemsWithinArea,"flixel.system.debug.interaction.Interaction","findItemsWithinArea",0xfd927d9f,"flixel.system.debug.interaction.Interaction.findItemsWithinArea","flixel/system/debug/interaction/Interaction.hx",549,0x4548a912)
 namespace flixel{
 namespace _hx_system{
 namespace debug{
 namespace interaction{
 
 void Interaction_obj::__construct( ::openfl::display::Sprite container){
-            	HX_GC_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_39_new)
-HXLINE(  65)		this->_flixelPointer =  ::flixel::input::FlxPointer_obj::__alloc( HX_CTX );
-HXLINE(  64)		this->_debuggerInteraction = false;
-HXLINE(  61)		this->_keysUp =  ::haxe::ds::IntMap_obj::__alloc( HX_CTX );
-HXLINE(  60)		this->_keysDown =  ::haxe::ds::IntMap_obj::__alloc( HX_CTX );
-HXLINE(  59)		this->_turn = 2;
-HXLINE(  58)		this->_tools = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE(  54)		this->shouldDrawItemsSelection = true;
-HXLINE(  47)		this->pointerPressed = false;
-HXLINE(  46)		this->pointerJustReleased = false;
-HXLINE(  45)		this->pointerJustPressed = false;
-HXLINE(  44)		this->flixelPointer =  ::flixel::math::FlxPoint_obj::__alloc( HX_CTX ,null(),null());
-HXLINE(  42)		this->selectedItems =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
-HXLINE(  69)		super::__construct(HX_("Tools",fb,01,5c,a7), ::flixel::_hx_system::debug::GraphicInteractive_obj::__alloc( HX_CTX ,0,0,null(),null()),40,25,false,null(),null(),null());
-HXLINE(  70)		this->reposition(( (Float)(2) ),( (Float)(100) ));
-HXLINE(  71)		this->_container = container;
-HXLINE(  73)		this->_customCursor =  ::openfl::display::Sprite_obj::__alloc( HX_CTX );
-HXLINE(  74)		this->_customCursor->mouseEnabled = false;
-HXLINE(  75)		this->_container->addChild(this->_customCursor);
-HXLINE(  78)		this->addTool( ::flixel::_hx_system::debug::interaction::tools::Pointer_obj::__alloc( HX_CTX ));
-HXLINE(  79)		this->addTool( ::flixel::_hx_system::debug::interaction::tools::Mover_obj::__alloc( HX_CTX ));
-HXLINE(  80)		this->addTool( ::flixel::_hx_system::debug::interaction::tools::Eraser_obj::__alloc( HX_CTX ));
-HXLINE(  81)		this->addTool( ::flixel::_hx_system::debug::interaction::tools::Transform_obj::__alloc( HX_CTX ));
-HXLINE(  83)		::flixel::FlxG_obj::signals->postDraw->add(this->postDraw_dyn());
-HXLINE(  84)		::flixel::FlxG_obj::debugger->visibilityChanged->add(this->handleDebuggerVisibilityChanged_dyn());
-HXLINE(  86)		::openfl::Lib_obj::get_current()->stage->addEventListener(HX_("mouseMove",d6,9b,b5,f4),this->updateMouse_dyn(),null(),null(),null());
-HXLINE(  87)		::openfl::Lib_obj::get_current()->stage->addEventListener(HX_("mouseDown",27,b1,c2,ee),this->handleMouseClick_dyn(),null(),null(),null());
-HXLINE(  88)		::openfl::Lib_obj::get_current()->stage->addEventListener(HX_("mouseUp",e0,f3,72,c0),this->handleMouseClick_dyn(),null(),null(),null());
-HXLINE(  89)		::openfl::Lib_obj::get_current()->stage->addEventListener(HX_("keyDown",a1,69,47,9c),this->handleKeyEvent_dyn(),null(),null(),null());
-HXLINE(  90)		::openfl::Lib_obj::get_current()->stage->addEventListener(HX_("keyUp",da,b9,fe,de),this->handleKeyEvent_dyn(),null(),null(),null());
-HXLINE(  92)		this->_container->addEventListener(HX_("mouseOver",19,4a,0d,f6),this->handleMouseInDebugger_dyn(),null(),null(),null());
-HXLINE(  93)		this->_container->addEventListener(HX_("mouseOut",69,e7,1d,a4),this->handleMouseInDebugger_dyn(),null(),null(),null());
+            	HX_GC_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_34_new)
+HXLINE(  60)		this->_flixelPointer =  ::flixel::input::FlxPointer_obj::__alloc( HX_CTX );
+HXLINE(  59)		this->_debuggerInteraction = false;
+HXLINE(  56)		this->_keysUp =  ::haxe::ds::IntMap_obj::__alloc( HX_CTX );
+HXLINE(  55)		this->_keysDown =  ::haxe::ds::IntMap_obj::__alloc( HX_CTX );
+HXLINE(  54)		this->_turn = 2;
+HXLINE(  53)		this->_tools = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(  49)		this->shouldDrawItemsSelection = true;
+HXLINE(  42)		this->pointerPressed = false;
+HXLINE(  41)		this->pointerJustReleased = false;
+HXLINE(  40)		this->pointerJustPressed = false;
+HXLINE(  39)		this->flixelPointer =  ::flixel::math::FlxPoint_obj::__alloc( HX_CTX ,null(),null());
+HXLINE(  37)		this->selectedItems =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
+HXLINE(  64)		super::__construct(HX_("Tools",fb,01,5c,a7), ::flixel::_hx_system::debug::GraphicInteractive_obj::__alloc( HX_CTX ,0,0,null(),null()),40,25,false,null(),null(),null());
+HXLINE(  65)		this->reposition(( (Float)(2) ),( (Float)(100) ));
+HXLINE(  66)		this->_container = container;
+HXLINE(  68)		this->_customCursor =  ::openfl::display::Sprite_obj::__alloc( HX_CTX );
+HXLINE(  69)		this->_customCursor->mouseEnabled = false;
+HXLINE(  70)		this->_container->addChild(this->_customCursor);
+HXLINE(  73)		this->addTool( ::flixel::_hx_system::debug::interaction::tools::Pointer_obj::__alloc( HX_CTX ));
+HXLINE(  74)		this->addTool( ::flixel::_hx_system::debug::interaction::tools::Mover_obj::__alloc( HX_CTX ));
+HXLINE(  75)		this->addTool( ::flixel::_hx_system::debug::interaction::tools::Eraser_obj::__alloc( HX_CTX ));
+HXLINE(  76)		this->addTool( ::flixel::_hx_system::debug::interaction::tools::Transform_obj::__alloc( HX_CTX ));
+HXLINE(  78)		::flixel::FlxG_obj::signals->postDraw->add(this->postDraw_dyn());
+HXLINE(  79)		::flixel::FlxG_obj::debugger->visibilityChanged->add(this->handleDebuggerVisibilityChanged_dyn());
+HXLINE(  81)		::openfl::Lib_obj::get_current()->stage->addEventListener(HX_("mouseMove",d6,9b,b5,f4),this->updateMouse_dyn(),null(),null(),null());
+HXLINE(  82)		::openfl::Lib_obj::get_current()->stage->addEventListener(HX_("mouseDown",27,b1,c2,ee),this->handleMouseClick_dyn(),null(),null(),null());
+HXLINE(  83)		::openfl::Lib_obj::get_current()->stage->addEventListener(HX_("mouseUp",e0,f3,72,c0),this->handleMouseClick_dyn(),null(),null(),null());
+HXLINE(  84)		::openfl::Lib_obj::get_current()->stage->addEventListener(HX_("keyDown",a1,69,47,9c),this->handleKeyEvent_dyn(),null(),null(),null());
+HXLINE(  85)		::openfl::Lib_obj::get_current()->stage->addEventListener(HX_("keyUp",da,b9,fe,de),this->handleKeyEvent_dyn(),null(),null(),null());
+HXLINE(  87)		this->_container->addEventListener(HX_("mouseOver",19,4a,0d,f6),this->handleMouseInDebugger_dyn(),null(),null(),null());
+HXLINE(  88)		this->_container->addEventListener(HX_("mouseOut",69,e7,1d,a4),this->handleMouseInDebugger_dyn(),null(),null(),null());
             	}
 
 Dynamic Interaction_obj::__CreateEmpty() { return new Interaction_obj; }
@@ -285,12 +285,12 @@ bool Interaction_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void Interaction_obj::handleDebuggerVisibilityChanged(){
-            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_98_handleDebuggerVisibilityChanged)
-HXDLIN(  98)		if (::flixel::FlxG_obj::debugger->visible) {
-HXLINE(  99)			this->saveSystemCursorInfo();
+            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_93_handleDebuggerVisibilityChanged)
+HXDLIN(  93)		if (::flixel::FlxG_obj::debugger->visible) {
+HXLINE(  94)			this->saveSystemCursorInfo();
             		}
             		else {
-HXLINE( 101)			this->restoreSystemCursor();
+HXLINE(  96)			this->restoreSystemCursor();
             		}
             	}
 
@@ -298,52 +298,52 @@ HXLINE( 101)			this->restoreSystemCursor();
 HX_DEFINE_DYNAMIC_FUNC0(Interaction_obj,handleDebuggerVisibilityChanged,(void))
 
 void Interaction_obj::updateMouse( ::openfl::events::MouseEvent event){
-            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_105_updateMouse)
-HXLINE( 111)		Float offsetX = ((Float)0.0);
-HXLINE( 112)		Float offsetY = ((Float)0.0);
-HXLINE( 116)		if (::hx::IsNotNull( this->activeTool )) {
-HXLINE( 118)			 ::openfl::display::BitmapData cursorIcon = this->activeTool->cursor;
-HXLINE( 119)			if (::hx::IsNotNull( cursorIcon )) {
-HXLINE( 121)				offsetX = ((( (Float)(cursorIcon->width) ) / ::flixel::FlxG_obj::scaleMode->scale->x) / ( (Float)(2) ));
-HXLINE( 122)				offsetY = ((( (Float)(cursorIcon->height) ) / ::flixel::FlxG_obj::scaleMode->scale->y) / ( (Float)(2) ));
+            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_100_updateMouse)
+HXLINE( 106)		Float offsetX = ((Float)0.0);
+HXLINE( 107)		Float offsetY = ((Float)0.0);
+HXLINE( 111)		if (::hx::IsNotNull( this->activeTool )) {
+HXLINE( 113)			 ::openfl::display::BitmapData cursorIcon = this->activeTool->cursor;
+HXLINE( 114)			if (::hx::IsNotNull( cursorIcon )) {
+HXLINE( 116)				offsetX = ((( (Float)(cursorIcon->width) ) / ::flixel::FlxG_obj::scaleMode->scale->x) / ( (Float)(2) ));
+HXLINE( 117)				offsetY = ((( (Float)(cursorIcon->height) ) / ::flixel::FlxG_obj::scaleMode->scale->y) / ( (Float)(2) ));
             			}
             		}
-HXLINE( 126)		this->_customCursor->set_x((event->stageX + offsetX));
-HXLINE( 127)		this->_customCursor->set_y((event->stageY + offsetY));
-HXLINE( 131)		{
-HXLINE( 131)			 ::flixel::input::FlxPointer _this = this->_flixelPointer;
-HXDLIN( 131)			Float newY = event->stageY;
-HXDLIN( 131)			_this->_globalScreenX = ::Std_obj::_hx_int((event->stageX / ::flixel::FlxG_obj::scaleMode->scale->x));
-HXDLIN( 131)			_this->_globalScreenY = ::Std_obj::_hx_int((newY / ::flixel::FlxG_obj::scaleMode->scale->y));
-HXDLIN( 131)			_this->updatePositions();
+HXLINE( 121)		this->_customCursor->set_x((event->stageX + offsetX));
+HXLINE( 122)		this->_customCursor->set_y((event->stageY + offsetY));
+HXLINE( 126)		{
+HXLINE( 126)			 ::flixel::input::FlxPointer _this = this->_flixelPointer;
+HXDLIN( 126)			Float newY = event->stageY;
+HXDLIN( 126)			_this->_globalScreenX = ::Std_obj::_hx_int((event->stageX / ::flixel::FlxG_obj::scaleMode->scale->x));
+HXDLIN( 126)			_this->_globalScreenY = ::Std_obj::_hx_int((newY / ::flixel::FlxG_obj::scaleMode->scale->y));
+HXDLIN( 126)			_this->updatePositions();
             		}
-HXLINE( 135)		this->flixelPointer->set_x((this->_flixelPointer->x + offsetX));
-HXLINE( 136)		this->flixelPointer->set_y((this->_flixelPointer->y + offsetY));
+HXLINE( 130)		this->flixelPointer->set_x((this->_flixelPointer->x + offsetX));
+HXLINE( 131)		this->flixelPointer->set_y((this->_flixelPointer->y + offsetY));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Interaction_obj,updateMouse,(void))
 
 void Interaction_obj::handleMouseClick( ::openfl::events::MouseEvent event){
-            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_141_handleMouseClick)
-HXLINE( 144)		bool _hx_tmp;
-HXDLIN( 144)		if ((event->type == HX_("mouseDown",27,b1,c2,ee))) {
-HXLINE( 144)			_hx_tmp = this->belongsToDebugger(( ( ::openfl::display::DisplayObject)(event->target) ));
+            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_136_handleMouseClick)
+HXLINE( 139)		bool _hx_tmp;
+HXDLIN( 139)		if ((event->type == HX_("mouseDown",27,b1,c2,ee))) {
+HXLINE( 139)			_hx_tmp = this->belongsToDebugger(( ( ::openfl::display::DisplayObject)(event->target) ));
             		}
             		else {
-HXLINE( 144)			_hx_tmp = false;
+HXLINE( 139)			_hx_tmp = false;
             		}
-HXDLIN( 144)		if (_hx_tmp) {
-HXLINE( 145)			return;
+HXDLIN( 139)		if (_hx_tmp) {
+HXLINE( 140)			return;
             		}
-HXLINE( 147)		this->pointerJustPressed = (event->type == HX_("mouseDown",27,b1,c2,ee));
-HXLINE( 148)		this->pointerJustReleased = (event->type == HX_("mouseUp",e0,f3,72,c0));
-HXLINE( 150)		if (this->pointerJustPressed) {
-HXLINE( 151)			this->pointerPressed = true;
+HXLINE( 142)		this->pointerJustPressed = (event->type == HX_("mouseDown",27,b1,c2,ee));
+HXLINE( 143)		this->pointerJustReleased = (event->type == HX_("mouseUp",e0,f3,72,c0));
+HXLINE( 145)		if (this->pointerJustPressed) {
+HXLINE( 146)			this->pointerPressed = true;
             		}
             		else {
-HXLINE( 152)			if (this->pointerJustReleased) {
-HXLINE( 153)				this->pointerPressed = false;
+HXLINE( 147)			if (this->pointerJustReleased) {
+HXLINE( 148)				this->pointerPressed = false;
             			}
             		}
             	}
@@ -352,49 +352,49 @@ HXLINE( 153)				this->pointerPressed = false;
 HX_DEFINE_DYNAMIC_FUNC1(Interaction_obj,handleMouseClick,(void))
 
 bool Interaction_obj::belongsToDebugger( ::openfl::display::DisplayObject object){
-            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_157_belongsToDebugger)
-HXLINE( 158)		if (::hx::IsNull( object )) {
-HXLINE( 159)			return false;
+            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_152_belongsToDebugger)
+HXLINE( 153)		if (::hx::IsNull( object )) {
+HXLINE( 154)			return false;
             		}
             		else {
-HXLINE( 160)			if (::Std_obj::isOfType(object,::hx::ClassOf< ::flixel::_hx_system::debug::FlxDebugger >())) {
-HXLINE( 161)				return true;
+HXLINE( 155)			if (::Std_obj::isOfType(object,::hx::ClassOf< ::flixel::_hx_system::debug::FlxDebugger >())) {
+HXLINE( 156)				return true;
             			}
             		}
-HXLINE( 162)		return this->belongsToDebugger(object->parent);
+HXLINE( 157)		return this->belongsToDebugger(object->parent);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Interaction_obj,belongsToDebugger,return )
 
 void Interaction_obj::handleMouseInDebugger( ::openfl::events::MouseEvent event){
-            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_166_handleMouseInDebugger)
-HXLINE( 169)		if (!(this->isActive())) {
-HXLINE( 170)			return;
+            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_161_handleMouseInDebugger)
+HXLINE( 164)		if (!(this->isActive())) {
+HXLINE( 165)			return;
             		}
-HXLINE( 172)		if ((event->type == HX_("mouseOver",19,4a,0d,f6))) {
-HXLINE( 173)			this->_debuggerInteraction = true;
+HXLINE( 167)		if ((event->type == HX_("mouseOver",19,4a,0d,f6))) {
+HXLINE( 168)			this->_debuggerInteraction = true;
             		}
             		else {
-HXLINE( 174)			if ((event->type == HX_("mouseOut",69,e7,1d,a4))) {
-HXLINE( 175)				this->_debuggerInteraction = false;
+HXLINE( 169)			if ((event->type == HX_("mouseOut",69,e7,1d,a4))) {
+HXLINE( 170)				this->_debuggerInteraction = false;
             			}
             		}
-HXLINE( 177)		event->stopPropagation();
+HXLINE( 172)		event->stopPropagation();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Interaction_obj,handleMouseInDebugger,(void))
 
 void Interaction_obj::handleKeyEvent( ::openfl::events::KeyboardEvent event){
-            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_182_handleKeyEvent)
-HXDLIN( 182)		if ((event->type == HX_("keyDown",a1,69,47,9c))) {
-HXLINE( 183)			this->_keysDown->set(event->keyCode,true);
+            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_177_handleKeyEvent)
+HXDLIN( 177)		if ((event->type == HX_("keyDown",a1,69,47,9c))) {
+HXLINE( 178)			this->_keysDown->set(event->keyCode,true);
             		}
             		else {
-HXLINE( 184)			if ((event->type == HX_("keyUp",da,b9,fe,de))) {
-HXLINE( 186)				this->_keysDown->set(event->keyCode,false);
-HXLINE( 187)				this->_keysUp->set(event->keyCode,this->_turn);
+HXLINE( 179)			if ((event->type == HX_("keyUp",da,b9,fe,de))) {
+HXLINE( 181)				this->_keysDown->set(event->keyCode,false);
+HXLINE( 182)				this->_keysUp->set(event->keyCode,this->_turn);
             			}
             		}
             	}
@@ -403,122 +403,122 @@ HXLINE( 187)				this->_keysUp->set(event->keyCode,this->_turn);
 HX_DEFINE_DYNAMIC_FUNC1(Interaction_obj,handleKeyEvent,(void))
 
 int Interaction_obj::countToolsWithUIButton(){
-            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_192_countToolsWithUIButton)
-HXLINE( 193)		int count = 0;
-HXLINE( 194)		{
-HXLINE( 194)			int _g = 0;
-HXDLIN( 194)			::Array< ::Dynamic> _g1 = this->_tools;
-HXDLIN( 194)			while((_g < _g1->length)){
-HXLINE( 194)				 ::flixel::_hx_system::debug::interaction::tools::Tool tool = _g1->__get(_g).StaticCast<  ::flixel::_hx_system::debug::interaction::tools::Tool >();
-HXDLIN( 194)				_g = (_g + 1);
-HXLINE( 195)				if (::hx::IsNotNull( tool->button )) {
-HXLINE( 196)					count = (count + 1);
+            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_187_countToolsWithUIButton)
+HXLINE( 188)		int count = 0;
+HXLINE( 189)		{
+HXLINE( 189)			int _g = 0;
+HXDLIN( 189)			::Array< ::Dynamic> _g1 = this->_tools;
+HXDLIN( 189)			while((_g < _g1->length)){
+HXLINE( 189)				 ::flixel::_hx_system::debug::interaction::tools::Tool tool = _g1->__get(_g).StaticCast<  ::flixel::_hx_system::debug::interaction::tools::Tool >();
+HXDLIN( 189)				_g = (_g + 1);
+HXLINE( 190)				if (::hx::IsNotNull( tool->button )) {
+HXLINE( 191)					count = (count + 1);
             				}
             			}
             		}
-HXLINE( 197)		return count;
+HXLINE( 192)		return count;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Interaction_obj,countToolsWithUIButton,return )
 
 void Interaction_obj::addTool( ::flixel::_hx_system::debug::interaction::tools::Tool tool){
-            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_213_addTool)
-HXLINE( 214)		tool->init(::hx::ObjectPtr<OBJ_>(this));
-HXLINE( 215)		this->_tools->push(tool);
-HXLINE( 218)		 ::flixel::_hx_system::ui::FlxSystemButton button = tool->button;
-HXLINE( 219)		if (::hx::IsNull( button )) {
-HXLINE( 220)			return;
+            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_208_addTool)
+HXLINE( 209)		tool->init(::hx::ObjectPtr<OBJ_>(this));
+HXLINE( 210)		this->_tools->push(tool);
+HXLINE( 213)		 ::flixel::_hx_system::ui::FlxSystemButton button = tool->button;
+HXLINE( 214)		if (::hx::IsNull( button )) {
+HXLINE( 215)			return;
             		}
-HXLINE( 222)		int buttonsPerLine = 2;
-HXLINE( 223)		int buttons = this->countToolsWithUIButton();
-HXLINE( 224)		int lines = ::Std_obj::_hx_int(( (Float)(::Math_obj::ceil((( (Float)(buttons) ) / ( (Float)(buttonsPerLine) )))) ));
-HXLINE( 225)		int slot = ::Std_obj::_hx_int((( (Float)(buttons) ) / ( (Float)(lines) )));
-HXLINE( 227)		button->set_x(( (Float)((-15 + (slot * 25))) ));
-HXLINE( 228)		button->set_y(( (Float)((20 * lines)) ));
-HXLINE( 230)		this->addChild(button);
-HXLINE( 231)		this->resize(((( (Float)(25) ) * ::Math_obj::min(( (Float)(buttons) ),( (Float)(buttonsPerLine) ))) + 10),( (Float)(((25 * lines) + 10)) ));
+HXLINE( 217)		int buttonsPerLine = 2;
+HXLINE( 218)		int buttons = this->countToolsWithUIButton();
+HXLINE( 219)		int lines = ::Std_obj::_hx_int(( (Float)(::Math_obj::ceil((( (Float)(buttons) ) / ( (Float)(buttonsPerLine) )))) ));
+HXLINE( 220)		int slot = ::Std_obj::_hx_int((( (Float)(buttons) ) / ( (Float)(lines) )));
+HXLINE( 222)		button->set_x(( (Float)((-15 + (slot * 25))) ));
+HXLINE( 223)		button->set_y(( (Float)((20 * lines)) ));
+HXLINE( 225)		this->addChild(button);
+HXLINE( 226)		this->resize(((( (Float)(25) ) * ::Math_obj::min(( (Float)(buttons) ),( (Float)(buttonsPerLine) ))) + 10),( (Float)(((25 * lines) + 10)) ));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Interaction_obj,addTool,(void))
 
 void Interaction_obj::destroy(){
-            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_238_destroy)
-HXLINE( 239)		::flixel::FlxG_obj::signals->postDraw->remove(this->postDraw_dyn());
-HXLINE( 240)		::flixel::FlxG_obj::debugger->visibilityChanged->remove(this->handleDebuggerVisibilityChanged_dyn());
-HXLINE( 242)		::openfl::Lib_obj::get_current()->stage->removeEventListener(HX_("mouseMove",d6,9b,b5,f4),this->updateMouse_dyn(),null());
-HXLINE( 243)		::openfl::Lib_obj::get_current()->stage->removeEventListener(HX_("mouseDown",27,b1,c2,ee),this->handleMouseClick_dyn(),null());
-HXLINE( 244)		::openfl::Lib_obj::get_current()->stage->removeEventListener(HX_("mouseUp",e0,f3,72,c0),this->handleMouseClick_dyn(),null());
-HXLINE( 245)		::openfl::Lib_obj::get_current()->stage->removeEventListener(HX_("keyDown",a1,69,47,9c),this->handleKeyEvent_dyn(),null());
-HXLINE( 246)		::openfl::Lib_obj::get_current()->stage->removeEventListener(HX_("keyUp",da,b9,fe,de),this->handleKeyEvent_dyn(),null());
-HXLINE( 248)		if (::hx::IsNotNull( this->_container )) {
-HXLINE( 250)			this->_container->removeEventListener(HX_("mouseOver",19,4a,0d,f6),this->handleMouseInDebugger_dyn(),null());
-HXLINE( 251)			this->_container->removeEventListener(HX_("mouseOut",69,e7,1d,a4),this->handleMouseInDebugger_dyn(),null());
+            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_233_destroy)
+HXLINE( 234)		::flixel::FlxG_obj::signals->postDraw->remove(this->postDraw_dyn());
+HXLINE( 235)		::flixel::FlxG_obj::debugger->visibilityChanged->remove(this->handleDebuggerVisibilityChanged_dyn());
+HXLINE( 237)		::openfl::Lib_obj::get_current()->stage->removeEventListener(HX_("mouseMove",d6,9b,b5,f4),this->updateMouse_dyn(),null());
+HXLINE( 238)		::openfl::Lib_obj::get_current()->stage->removeEventListener(HX_("mouseDown",27,b1,c2,ee),this->handleMouseClick_dyn(),null());
+HXLINE( 239)		::openfl::Lib_obj::get_current()->stage->removeEventListener(HX_("mouseUp",e0,f3,72,c0),this->handleMouseClick_dyn(),null());
+HXLINE( 240)		::openfl::Lib_obj::get_current()->stage->removeEventListener(HX_("keyDown",a1,69,47,9c),this->handleKeyEvent_dyn(),null());
+HXLINE( 241)		::openfl::Lib_obj::get_current()->stage->removeEventListener(HX_("keyUp",da,b9,fe,de),this->handleKeyEvent_dyn(),null());
+HXLINE( 243)		if (::hx::IsNotNull( this->_container )) {
+HXLINE( 245)			this->_container->removeEventListener(HX_("mouseOver",19,4a,0d,f6),this->handleMouseInDebugger_dyn(),null());
+HXLINE( 246)			this->_container->removeEventListener(HX_("mouseOut",69,e7,1d,a4),this->handleMouseInDebugger_dyn(),null());
             		}
-HXLINE( 254)		if (::hx::IsNotNull( this->_customCursor )) {
-HXLINE( 256)			this->_customCursor->parent->removeChild(this->_customCursor);
-HXLINE( 257)			this->_customCursor = null();
+HXLINE( 249)		if (::hx::IsNotNull( this->_customCursor )) {
+HXLINE( 251)			this->_customCursor->parent->removeChild(this->_customCursor);
+HXLINE( 252)			this->_customCursor = null();
             		}
-HXLINE( 260)		this->_tools = ::flixel::util::FlxDestroyUtil_obj::destroyArray(this->_tools);
-HXLINE( 261)		this->selectedItems = ( ( ::flixel::group::FlxTypedGroup)(::flixel::util::FlxDestroyUtil_obj::destroy(this->selectedItems)) );
-HXLINE( 262)		this->flixelPointer = ( ( ::flixel::math::FlxPoint)(::flixel::util::FlxDestroyUtil_obj::destroy(this->flixelPointer)) );
-HXLINE( 264)		this->_keysDown = null();
-HXLINE( 265)		this->_keysUp = null();
+HXLINE( 255)		this->_tools = ::flixel::util::FlxDestroyUtil_obj::destroyArray(this->_tools);
+HXLINE( 256)		this->selectedItems = ( ( ::flixel::group::FlxTypedGroup)(::flixel::util::FlxDestroyUtil_obj::destroy(this->selectedItems)) );
+HXLINE( 257)		this->flixelPointer = ( ( ::flixel::math::FlxPoint)(::flixel::util::FlxDestroyUtil_obj::destroy(this->flixelPointer)) );
+HXLINE( 259)		this->_keysDown = null();
+HXLINE( 260)		this->_keysUp = null();
             	}
 
 
 bool Interaction_obj::isActive(){
-            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_270_isActive)
-HXDLIN( 270)		if (::flixel::FlxG_obj::debugger->visible) {
-HXDLIN( 270)			return this->get_visible();
+            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_265_isActive)
+HXDLIN( 265)		if (::flixel::FlxG_obj::debugger->visible) {
+HXDLIN( 265)			return this->get_visible();
             		}
             		else {
-HXDLIN( 270)			return false;
+HXDLIN( 265)			return false;
             		}
-HXDLIN( 270)		return false;
+HXDLIN( 265)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Interaction_obj,isActive,return )
 
 void Interaction_obj::update(){
-            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_274_update)
-HXLINE( 275)		if (!(this->isActive())) {
-HXLINE( 276)			return;
+            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_269_update)
+HXLINE( 270)		if (!(this->isActive())) {
+HXLINE( 271)			return;
             		}
-HXLINE( 278)		this->updateCustomCursors();
-HXLINE( 280)		{
-HXLINE( 280)			int _g = 0;
-HXDLIN( 280)			::Array< ::Dynamic> _g1 = this->_tools;
-HXDLIN( 280)			while((_g < _g1->length)){
-HXLINE( 280)				 ::flixel::_hx_system::debug::interaction::tools::Tool tool = _g1->__get(_g).StaticCast<  ::flixel::_hx_system::debug::interaction::tools::Tool >();
-HXDLIN( 280)				_g = (_g + 1);
-HXLINE( 281)				tool->update();
+HXLINE( 273)		this->updateCustomCursors();
+HXLINE( 275)		{
+HXLINE( 275)			int _g = 0;
+HXDLIN( 275)			::Array< ::Dynamic> _g1 = this->_tools;
+HXDLIN( 275)			while((_g < _g1->length)){
+HXLINE( 275)				 ::flixel::_hx_system::debug::interaction::tools::Tool tool = _g1->__get(_g).StaticCast<  ::flixel::_hx_system::debug::interaction::tools::Tool >();
+HXDLIN( 275)				_g = (_g + 1);
+HXLINE( 276)				tool->update();
             			}
             		}
-HXLINE( 283)		this->pointerJustPressed = false;
-HXLINE( 284)		this->pointerJustReleased = false;
-HXLINE( 285)		this->_turn++;
+HXLINE( 278)		this->pointerJustPressed = false;
+HXLINE( 279)		this->pointerJustReleased = false;
+HXLINE( 280)		this->_turn++;
             	}
 
 
 void Interaction_obj::postDraw(){
-            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_292_postDraw)
-HXLINE( 293)		if (!(this->isActive())) {
-HXLINE( 294)			return;
+            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_287_postDraw)
+HXLINE( 288)		if (!(this->isActive())) {
+HXLINE( 289)			return;
             		}
-HXLINE( 296)		{
-HXLINE( 296)			int _g = 0;
-HXDLIN( 296)			::Array< ::Dynamic> _g1 = this->_tools;
-HXDLIN( 296)			while((_g < _g1->length)){
-HXLINE( 296)				 ::flixel::_hx_system::debug::interaction::tools::Tool tool = _g1->__get(_g).StaticCast<  ::flixel::_hx_system::debug::interaction::tools::Tool >();
-HXDLIN( 296)				_g = (_g + 1);
-HXLINE( 297)				tool->draw();
+HXLINE( 291)		{
+HXLINE( 291)			int _g = 0;
+HXDLIN( 291)			::Array< ::Dynamic> _g1 = this->_tools;
+HXDLIN( 291)			while((_g < _g1->length)){
+HXLINE( 291)				 ::flixel::_hx_system::debug::interaction::tools::Tool tool = _g1->__get(_g).StaticCast<  ::flixel::_hx_system::debug::interaction::tools::Tool >();
+HXDLIN( 291)				_g = (_g + 1);
+HXLINE( 292)				tool->draw();
             			}
             		}
-HXLINE( 299)		if (this->shouldDrawItemsSelection) {
-HXLINE( 300)			this->drawItemsSelection();
+HXLINE( 294)		if (this->shouldDrawItemsSelection) {
+HXLINE( 295)			this->drawItemsSelection();
             		}
             	}
 
@@ -526,53 +526,53 @@ HXLINE( 300)			this->drawItemsSelection();
 HX_DEFINE_DYNAMIC_FUNC0(Interaction_obj,postDraw,(void))
 
  ::openfl::display::Graphics Interaction_obj::getDebugGraphics(){
-            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_304_getDebugGraphics)
-HXLINE( 305)		if (::flixel::FlxG_obj::renderBlit) {
-HXLINE( 307)			::flixel::util::FlxSpriteUtil_obj::flashGfx->clear();
-HXLINE( 308)			return ::flixel::util::FlxSpriteUtil_obj::flashGfx;
+            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_299_getDebugGraphics)
+HXLINE( 300)		if (::flixel::FlxG_obj::renderBlit) {
+HXLINE( 302)			::flixel::util::FlxSpriteUtil_obj::flashGfx->clear();
+HXLINE( 303)			return ::flixel::util::FlxSpriteUtil_obj::flashGfx;
             		}
-HXLINE( 315)		return null();
+HXLINE( 310)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Interaction_obj,getDebugGraphics,return )
 
 void Interaction_obj::drawItemsSelection(){
-            	HX_GC_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_319_drawItemsSelection)
-HXLINE( 320)		 ::openfl::display::Graphics gfx = this->getDebugGraphics();
-HXLINE( 321)		if (::hx::IsNull( gfx )) {
-HXLINE( 322)			return;
+            	HX_GC_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_314_drawItemsSelection)
+HXLINE( 315)		 ::openfl::display::Graphics gfx = this->getDebugGraphics();
+HXLINE( 316)		if (::hx::IsNull( gfx )) {
+HXLINE( 317)			return;
             		}
-HXLINE( 324)		{
-HXLINE( 324)			 ::Dynamic filter = null();
-HXDLIN( 324)			 ::flixel::group::FlxTypedGroupIterator member =  ::flixel::group::FlxTypedGroupIterator_obj::__alloc( HX_CTX ,this->selectedItems->members,filter);
-HXDLIN( 324)			while(member->hasNext()){
-HXLINE( 324)				 ::flixel::FlxObject member1 = member->next().StaticCast<  ::flixel::FlxObject >();
-HXLINE( 326)				bool _hx_tmp;
-HXDLIN( 326)				bool _hx_tmp1;
-HXDLIN( 326)				if (::hx::IsNotNull( member1 )) {
-HXLINE( 326)					_hx_tmp1 = ::hx::IsNotNull( member1->scrollFactor );
+HXLINE( 319)		{
+HXLINE( 319)			 ::Dynamic filter = null();
+HXDLIN( 319)			 ::flixel::group::FlxTypedGroupIterator member =  ::flixel::group::FlxTypedGroupIterator_obj::__alloc( HX_CTX ,this->selectedItems->members,filter);
+HXDLIN( 319)			while(member->hasNext()){
+HXLINE( 319)				 ::flixel::FlxObject member1 = member->next().StaticCast<  ::flixel::FlxObject >();
+HXLINE( 321)				bool _hx_tmp;
+HXDLIN( 321)				bool _hx_tmp1;
+HXDLIN( 321)				if (::hx::IsNotNull( member1 )) {
+HXLINE( 321)					_hx_tmp1 = ::hx::IsNotNull( member1->scrollFactor );
             				}
             				else {
-HXLINE( 326)					_hx_tmp1 = false;
+HXLINE( 321)					_hx_tmp1 = false;
             				}
-HXDLIN( 326)				if (_hx_tmp1) {
-HXLINE( 326)					_hx_tmp = member1->isOnScreen(null());
+HXDLIN( 321)				if (_hx_tmp1) {
+HXLINE( 321)					_hx_tmp = member1->isOnScreen(null());
             				}
             				else {
-HXLINE( 326)					_hx_tmp = false;
+HXLINE( 321)					_hx_tmp = false;
             				}
-HXDLIN( 326)				if (_hx_tmp) {
-HXLINE( 329)					gfx->lineStyle(((Float)0.9),16711680,null(),null(),null(),null(),null(),null());
-HXLINE( 330)					Float _hx_tmp = (member1->x - ::flixel::FlxG_obj::camera->scroll->x);
-HXDLIN( 330)					Float _hx_tmp1 = (member1->y - ::flixel::FlxG_obj::camera->scroll->y);
-HXDLIN( 330)					Float _hx_tmp2 = member1->get_width();
-HXDLIN( 330)					gfx->drawRect(_hx_tmp,_hx_tmp1,_hx_tmp2,member1->get_height());
+HXDLIN( 321)				if (_hx_tmp) {
+HXLINE( 324)					gfx->lineStyle(((Float)0.9),16711680,null(),null(),null(),null(),null(),null());
+HXLINE( 325)					Float _hx_tmp = (member1->x - ::flixel::FlxG_obj::camera->scroll->x);
+HXDLIN( 325)					Float _hx_tmp1 = (member1->y - ::flixel::FlxG_obj::camera->scroll->y);
+HXDLIN( 325)					Float _hx_tmp2 = member1->get_width();
+HXDLIN( 325)					gfx->drawRect(_hx_tmp,_hx_tmp1,_hx_tmp2,member1->get_height());
             				}
             			}
             		}
-HXLINE( 335)		if (::flixel::FlxG_obj::renderBlit) {
-HXLINE( 336)			::flixel::FlxG_obj::camera->buffer->draw(::flixel::util::FlxSpriteUtil_obj::flashGfxSprite,null(),null(),null(),null(),null());
+HXLINE( 330)		if (::flixel::FlxG_obj::renderBlit) {
+HXLINE( 331)			::flixel::FlxG_obj::camera->buffer->draw(::flixel::util::FlxSpriteUtil_obj::flashGfxSprite,null(),null(),null(),null(),null());
             		}
             	}
 
@@ -580,87 +580,87 @@ HXLINE( 336)			::flixel::FlxG_obj::camera->buffer->draw(::flixel::util::FlxSprit
 HX_DEFINE_DYNAMIC_FUNC0(Interaction_obj,drawItemsSelection,(void))
 
  ::flixel::_hx_system::debug::interaction::tools::Tool Interaction_obj::getTool(::hx::Class className){
-            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_348_getTool)
-HXLINE( 349)		{
-HXLINE( 349)			int _g = 0;
-HXDLIN( 349)			::Array< ::Dynamic> _g1 = this->_tools;
-HXDLIN( 349)			while((_g < _g1->length)){
-HXLINE( 349)				 ::flixel::_hx_system::debug::interaction::tools::Tool tool = _g1->__get(_g).StaticCast<  ::flixel::_hx_system::debug::interaction::tools::Tool >();
-HXDLIN( 349)				_g = (_g + 1);
-HXLINE( 350)				if (::Std_obj::isOfType(tool,( ( ::Dynamic)(className) ))) {
-HXLINE( 351)					return tool;
+            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_343_getTool)
+HXLINE( 344)		{
+HXLINE( 344)			int _g = 0;
+HXDLIN( 344)			::Array< ::Dynamic> _g1 = this->_tools;
+HXDLIN( 344)			while((_g < _g1->length)){
+HXLINE( 344)				 ::flixel::_hx_system::debug::interaction::tools::Tool tool = _g1->__get(_g).StaticCast<  ::flixel::_hx_system::debug::interaction::tools::Tool >();
+HXDLIN( 344)				_g = (_g + 1);
+HXLINE( 345)				if (::Std_obj::isOfType(tool,( ( ::Dynamic)(className) ))) {
+HXLINE( 346)					return tool;
             				}
             			}
             		}
-HXLINE( 352)		return null();
+HXLINE( 347)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Interaction_obj,getTool,return )
 
 void Interaction_obj::toggleVisible(){
-            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_356_toggleVisible)
-HXLINE( 357)		this->super::toggleVisible();
-HXLINE( 359)		if (!(this->get_visible())) {
-HXLINE( 362)			this->setActiveTool(null());
-HXLINE( 363)			this->restoreSystemCursor();
+            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_351_toggleVisible)
+HXLINE( 352)		this->super::toggleVisible();
+HXLINE( 354)		if (!(this->get_visible())) {
+HXLINE( 357)			this->setActiveTool(null());
+HXLINE( 358)			this->restoreSystemCursor();
             		}
             	}
 
 
 void Interaction_obj::registerCustomCursor(::String name, ::openfl::display::BitmapData icon){
-            	HX_GC_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_368_registerCustomCursor)
-HXLINE( 369)		if (::hx::IsNull( icon )) {
-HXLINE( 370)			return;
+            	HX_GC_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_363_registerCustomCursor)
+HXLINE( 364)		if (::hx::IsNull( icon )) {
+HXLINE( 365)			return;
             		}
-HXLINE( 375)		 ::openfl::display::Sprite sprite =  ::openfl::display::Sprite_obj::__alloc( HX_CTX );
-HXLINE( 376)		sprite->set_visible(false);
-HXLINE( 377)		sprite->set_name(name);
-HXLINE( 378)		sprite->addChild( ::openfl::display::Bitmap_obj::__alloc( HX_CTX ,icon,null(),null()));
-HXLINE( 379)		this->_customCursor->addChild(sprite);
+HXLINE( 370)		 ::openfl::display::Sprite sprite =  ::openfl::display::Sprite_obj::__alloc( HX_CTX );
+HXLINE( 371)		sprite->set_visible(false);
+HXLINE( 372)		sprite->set_name(name);
+HXLINE( 373)		sprite->addChild( ::openfl::display::Bitmap_obj::__alloc( HX_CTX ,icon,null(),null()));
+HXLINE( 374)		this->_customCursor->addChild(sprite);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Interaction_obj,registerCustomCursor,(void))
 
 void Interaction_obj::updateCustomCursors(){
-            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_389_updateCustomCursors)
-HXDLIN( 389)		bool _hx_tmp;
-HXDLIN( 389)		if (::hx::IsNotNull( this->activeTool )) {
-HXDLIN( 389)			_hx_tmp = !(this->_debuggerInteraction);
+            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_384_updateCustomCursors)
+HXDLIN( 384)		bool _hx_tmp;
+HXDLIN( 384)		if (::hx::IsNotNull( this->activeTool )) {
+HXDLIN( 384)			_hx_tmp = !(this->_debuggerInteraction);
             		}
             		else {
-HXDLIN( 389)			_hx_tmp = false;
+HXDLIN( 384)			_hx_tmp = false;
             		}
-HXDLIN( 389)		if (_hx_tmp) {
-HXLINE( 392)			if (::hx::IsNotNull( this->activeTool->cursor )) {
-HXLINE( 395)				::String cursorInUse;
-HXDLIN( 395)				if ((this->activeTool->cursorInUse == HX_("",00,00,00,00))) {
-HXLINE( 395)					cursorInUse = this->activeTool->getName();
+HXDLIN( 384)		if (_hx_tmp) {
+HXLINE( 387)			if (::hx::IsNotNull( this->activeTool->cursor )) {
+HXLINE( 390)				::String cursorInUse;
+HXDLIN( 390)				if ((this->activeTool->cursorInUse == HX_("",00,00,00,00))) {
+HXLINE( 390)					cursorInUse = this->activeTool->getName();
             				}
             				else {
-HXLINE( 395)					cursorInUse = this->activeTool->cursorInUse;
+HXLINE( 390)					cursorInUse = this->activeTool->cursorInUse;
             				}
-HXLINE( 403)				{
-HXLINE( 403)					int _g = 0;
-HXDLIN( 403)					int _g1 = this->_customCursor->get_numChildren();
-HXDLIN( 403)					while((_g < _g1)){
-HXLINE( 403)						_g = (_g + 1);
-HXDLIN( 403)						int i = (_g - 1);
-HXLINE( 405)						 ::openfl::display::DisplayObject sprite = this->_customCursor->getChildAt(i);
-HXLINE( 406)						sprite->set_visible((sprite->get_name() == cursorInUse));
+HXLINE( 398)				{
+HXLINE( 398)					int _g = 0;
+HXDLIN( 398)					int _g1 = this->_customCursor->get_numChildren();
+HXDLIN( 398)					while((_g < _g1)){
+HXLINE( 398)						_g = (_g + 1);
+HXDLIN( 398)						int i = (_g - 1);
+HXLINE( 400)						 ::openfl::display::DisplayObject sprite = this->_customCursor->getChildAt(i);
+HXLINE( 401)						sprite->set_visible((sprite->get_name() == cursorInUse));
             					}
             				}
-HXLINE( 408)				if (::flixel::FlxG_obj::mouse->visible) {
-HXLINE( 409)					::flixel::FlxG_obj::mouse->set_visible(false);
+HXLINE( 403)				if (::flixel::FlxG_obj::mouse->visible) {
+HXLINE( 404)					::flixel::FlxG_obj::mouse->set_visible(false);
             				}
             			}
             			else {
-HXLINE( 416)				::flixel::FlxG_obj::mouse->set_useSystemCursor(true);
+HXLINE( 411)				::flixel::FlxG_obj::mouse->set_useSystemCursor(true);
             			}
             		}
             		else {
-HXLINE( 423)			::flixel::FlxG_obj::mouse->set_useSystemCursor(true);
+HXLINE( 418)			::flixel::FlxG_obj::mouse->set_useSystemCursor(true);
             		}
             	}
 
@@ -668,72 +668,72 @@ HXLINE( 423)			::flixel::FlxG_obj::mouse->set_useSystemCursor(true);
 HX_DEFINE_DYNAMIC_FUNC0(Interaction_obj,updateCustomCursors,(void))
 
 void Interaction_obj::saveSystemCursorInfo(){
-            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_429_saveSystemCursorInfo)
-HXLINE( 431)		this->_wasMouseVisible = ::flixel::FlxG_obj::mouse->visible;
-HXLINE( 432)		this->_wasUsingSystemCursor = ::flixel::FlxG_obj::mouse->useSystemCursor;
+            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_424_saveSystemCursorInfo)
+HXLINE( 426)		this->_wasMouseVisible = ::flixel::FlxG_obj::mouse->visible;
+HXLINE( 427)		this->_wasUsingSystemCursor = ::flixel::FlxG_obj::mouse->useSystemCursor;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Interaction_obj,saveSystemCursorInfo,(void))
 
 void Interaction_obj::restoreSystemCursor(){
-            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_437_restoreSystemCursor)
-HXLINE( 439)		::flixel::FlxG_obj::mouse->set_useSystemCursor(this->_wasUsingSystemCursor);
-HXLINE( 440)		::flixel::FlxG_obj::mouse->set_visible(this->_wasMouseVisible);
-HXLINE( 441)		this->_customCursor->set_visible(false);
+            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_432_restoreSystemCursor)
+HXLINE( 434)		::flixel::FlxG_obj::mouse->set_useSystemCursor(this->_wasUsingSystemCursor);
+HXLINE( 435)		::flixel::FlxG_obj::mouse->set_visible(this->_wasMouseVisible);
+HXLINE( 436)		this->_customCursor->set_visible(false);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Interaction_obj,restoreSystemCursor,(void))
 
 void Interaction_obj::setActiveTool( ::flixel::_hx_system::debug::interaction::tools::Tool value){
-            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_446_setActiveTool)
-HXLINE( 447)		if (::hx::IsNotNull( this->activeTool )) {
-HXLINE( 449)			this->activeTool->deactivate();
-HXLINE( 450)			this->activeTool->button->set_toggled(true);
+            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_441_setActiveTool)
+HXLINE( 442)		if (::hx::IsNotNull( this->activeTool )) {
+HXLINE( 444)			this->activeTool->deactivate();
+HXLINE( 445)			this->activeTool->button->set_toggled(true);
             		}
-HXLINE( 455)		if (::hx::IsEq( this->activeTool,value )) {
-HXLINE( 456)			value = null();
+HXLINE( 450)		if (::hx::IsEq( this->activeTool,value )) {
+HXLINE( 451)			value = null();
             		}
-HXLINE( 458)		this->activeTool = value;
-HXLINE( 460)		if (::hx::IsNotNull( this->activeTool )) {
-HXLINE( 463)			this->setToolsCursorVisibility(true);
-HXLINE( 465)			this->activeTool->button->set_toggled(false);
-HXLINE( 466)			this->activeTool->activate();
-HXLINE( 467)			this->updateCustomCursors();
+HXLINE( 453)		this->activeTool = value;
+HXLINE( 455)		if (::hx::IsNotNull( this->activeTool )) {
+HXLINE( 458)			this->setToolsCursorVisibility(true);
+HXLINE( 460)			this->activeTool->button->set_toggled(false);
+HXLINE( 461)			this->activeTool->activate();
+HXLINE( 462)			this->updateCustomCursors();
             		}
             		else {
-HXLINE( 473)			this->setSystemCursorVisibility(true);
+HXLINE( 468)			this->setSystemCursorVisibility(true);
             		}
-HXLINE( 479)		::flixel::FlxG_obj::mouse->enabled = !(this->isInUse());
+HXLINE( 474)		::flixel::FlxG_obj::mouse->enabled = !(this->isInUse());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Interaction_obj,setActiveTool,(void))
 
 void Interaction_obj::setSystemCursorVisibility(bool status){
-            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_484_setSystemCursorVisibility)
-HXLINE( 486)		::flixel::FlxG_obj::mouse->set_useSystemCursor(status);
-HXLINE( 488)		this->_customCursor->set_visible(!(status));
+            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_479_setSystemCursorVisibility)
+HXLINE( 481)		::flixel::FlxG_obj::mouse->set_useSystemCursor(status);
+HXLINE( 483)		this->_customCursor->set_visible(!(status));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Interaction_obj,setSystemCursorVisibility,(void))
 
 void Interaction_obj::setToolsCursorVisibility(bool status){
-            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_492_setToolsCursorVisibility)
-HXLINE( 494)		::flixel::FlxG_obj::mouse->set_useSystemCursor(false);
-HXLINE( 496)		this->_customCursor->set_visible(status);
-HXLINE( 498)		if (status) {
-HXLINE( 499)			return;
+            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_487_setToolsCursorVisibility)
+HXLINE( 489)		::flixel::FlxG_obj::mouse->set_useSystemCursor(false);
+HXLINE( 491)		this->_customCursor->set_visible(status);
+HXLINE( 493)		if (status) {
+HXLINE( 494)			return;
             		}
-HXLINE( 504)		{
-HXLINE( 504)			int _g = 0;
-HXDLIN( 504)			int _g1 = this->_customCursor->get_numChildren();
-HXDLIN( 504)			while((_g < _g1)){
-HXLINE( 504)				_g = (_g + 1);
-HXDLIN( 504)				int i = (_g - 1);
-HXLINE( 505)				this->_customCursor->getChildAt(i)->set_visible(false);
+HXLINE( 499)		{
+HXLINE( 499)			int _g = 0;
+HXDLIN( 499)			int _g1 = this->_customCursor->get_numChildren();
+HXDLIN( 499)			while((_g < _g1)){
+HXLINE( 499)				_g = (_g + 1);
+HXDLIN( 499)				int i = (_g - 1);
+HXLINE( 500)				this->_customCursor->getChildAt(i)->set_visible(false);
             			}
             		}
             	}
@@ -742,62 +742,62 @@ HXLINE( 505)				this->_customCursor->getChildAt(i)->set_visible(false);
 HX_DEFINE_DYNAMIC_FUNC1(Interaction_obj,setToolsCursorVisibility,(void))
 
 void Interaction_obj::clearSelection(){
-            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_510_clearSelection)
-HXDLIN( 510)		this->selectedItems->clear();
+            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_505_clearSelection)
+HXDLIN( 505)		this->selectedItems->clear();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Interaction_obj,clearSelection,(void))
 
 bool Interaction_obj::keyPressed(int key){
-            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_515_keyPressed)
-HXDLIN( 515)		return this->_keysDown->get_bool(key);
+            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_510_keyPressed)
+HXDLIN( 510)		return this->_keysDown->get_bool(key);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Interaction_obj,keyPressed,return )
 
 bool Interaction_obj::keyJustPressed(int key){
-            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_519_keyJustPressed)
-HXLINE( 520)		int value;
-HXDLIN( 520)		if (::hx::IsNull( this->_keysUp->get(key) )) {
-HXLINE( 520)			value = 0;
+            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_514_keyJustPressed)
+HXLINE( 515)		int value;
+HXDLIN( 515)		if (::hx::IsNull( this->_keysUp->get(key) )) {
+HXLINE( 515)			value = 0;
             		}
             		else {
-HXLINE( 520)			value = this->_keysUp->get_int(key);
+HXLINE( 515)			value = this->_keysUp->get_int(key);
             		}
-HXLINE( 521)		return ((this->_turn - value) == 1);
+HXLINE( 516)		return ((this->_turn - value) == 1);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Interaction_obj,keyJustPressed,return )
 
 bool Interaction_obj::isInUse(){
-            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_532_isInUse)
-HXDLIN( 532)		bool _hx_tmp;
-HXDLIN( 532)		if (::flixel::FlxG_obj::debugger->visible) {
-HXDLIN( 532)			_hx_tmp = this->get_visible();
+            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_527_isInUse)
+HXDLIN( 527)		bool _hx_tmp;
+HXDLIN( 527)		if (::flixel::FlxG_obj::debugger->visible) {
+HXDLIN( 527)			_hx_tmp = this->get_visible();
             		}
             		else {
-HXDLIN( 532)			_hx_tmp = false;
+HXDLIN( 527)			_hx_tmp = false;
             		}
-HXDLIN( 532)		if (_hx_tmp) {
-HXDLIN( 532)			return ::hx::IsNotNull( this->activeTool );
+HXDLIN( 527)		if (_hx_tmp) {
+HXDLIN( 527)			return ::hx::IsNotNull( this->activeTool );
             		}
             		else {
-HXDLIN( 532)			return false;
+HXDLIN( 527)			return false;
             		}
-HXDLIN( 532)		return false;
+HXDLIN( 527)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Interaction_obj,isInUse,return )
 
 void Interaction_obj::findItemsWithinState(::Array< ::Dynamic> items, ::flixel::FlxState state, ::flixel::math::FlxRect area){
-            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_536_findItemsWithinState)
-HXLINE( 537)		this->findItemsWithinArea(items,state->members,area);
-HXLINE( 538)		if (::hx::IsNotNull( state->subState )) {
-HXLINE( 539)			this->findItemsWithinState(items,state->subState,area);
+            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_531_findItemsWithinState)
+HXLINE( 532)		this->findItemsWithinArea(items,state->members,area);
+HXLINE( 533)		if (::hx::IsNotNull( state->subState )) {
+HXLINE( 534)			this->findItemsWithinState(items,state->subState,area);
             		}
             	}
 
@@ -805,74 +805,74 @@ HXLINE( 539)			this->findItemsWithinState(items,state->subState,area);
 HX_DEFINE_DYNAMIC_FUNC3(Interaction_obj,findItemsWithinState,(void))
 
 void Interaction_obj::findItemsWithinArea(::Array< ::Dynamic> items,::Array< ::Dynamic> members, ::flixel::math::FlxRect area){
-            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_554_findItemsWithinArea)
-HXLINE( 556)		int i = members->length;
-HXLINE( 557)		while(true){
-HXLINE( 557)			i = (i - 1);
-HXDLIN( 557)			if (!(((i + 1) > 0))) {
-HXLINE( 557)				goto _hx_goto_36;
+            	HX_STACKFRAME(&_hx_pos_b2dd90bb9bc9fb13_549_findItemsWithinArea)
+HXLINE( 551)		int i = members->length;
+HXLINE( 552)		while(true){
+HXLINE( 552)			i = (i - 1);
+HXDLIN( 552)			if (!(((i + 1) > 0))) {
+HXLINE( 552)				goto _hx_goto_36;
             			}
-HXLINE( 559)			 ::flixel::FlxBasic member = members->__get(i).StaticCast<  ::flixel::FlxBasic >();
-HXLINE( 561)			bool _hx_tmp;
-HXDLIN( 561)			bool _hx_tmp1;
-HXDLIN( 561)			if (::hx::IsNotNull( member )) {
-HXLINE( 561)				_hx_tmp1 = !(member->visible);
-            			}
-            			else {
-HXLINE( 561)				_hx_tmp1 = true;
-            			}
-HXDLIN( 561)			if (!(_hx_tmp1)) {
-HXLINE( 561)				_hx_tmp = !(member->exists);
+HXLINE( 554)			 ::flixel::FlxBasic member = members->__get(i).StaticCast<  ::flixel::FlxBasic >();
+HXLINE( 556)			bool _hx_tmp;
+HXDLIN( 556)			bool _hx_tmp1;
+HXDLIN( 556)			if (::hx::IsNotNull( member )) {
+HXLINE( 556)				_hx_tmp1 = !(member->visible);
             			}
             			else {
-HXLINE( 561)				_hx_tmp = true;
+HXLINE( 556)				_hx_tmp1 = true;
             			}
-HXDLIN( 561)			if (_hx_tmp) {
-HXLINE( 562)				continue;
-            			}
-HXLINE( 564)			 ::flixel::group::FlxTypedGroup group = ::flixel::group::FlxTypedGroup_obj::resolveGroup(member);
-HXLINE( 565)			if (::hx::IsNotNull( group )) {
-HXLINE( 566)				this->findItemsWithinArea(items,group->members,area);
+HXDLIN( 556)			if (!(_hx_tmp1)) {
+HXLINE( 556)				_hx_tmp = !(member->exists);
             			}
             			else {
-HXLINE( 567)				bool _hx_tmp;
-HXDLIN( 567)				if (::Std_obj::isOfType(member,::hx::ClassOf< ::flixel::FlxSprite >())) {
-HXLINE( 567)					 ::flixel::math::FlxRect Rect = ::hx::TCast<  ::flixel::FlxObject >::cast(member)->getHitbox(null());
-HXDLIN( 567)					bool result;
-HXDLIN( 567)					bool result1;
-HXDLIN( 567)					bool result2;
-HXDLIN( 567)					if (((Rect->x + Rect->width) > area->x)) {
-HXLINE( 567)						result2 = (Rect->x < (area->x + area->width));
+HXLINE( 556)				_hx_tmp = true;
+            			}
+HXDLIN( 556)			if (_hx_tmp) {
+HXLINE( 557)				continue;
+            			}
+HXLINE( 559)			 ::flixel::group::FlxTypedGroup group = ::flixel::group::FlxTypedGroup_obj::resolveGroup(member);
+HXLINE( 560)			if (::hx::IsNotNull( group )) {
+HXLINE( 561)				this->findItemsWithinArea(items,group->members,area);
+            			}
+            			else {
+HXLINE( 562)				bool _hx_tmp;
+HXDLIN( 562)				if (::Std_obj::isOfType(member,::hx::ClassOf< ::flixel::FlxSprite >())) {
+HXLINE( 562)					 ::flixel::math::FlxRect Rect = ::hx::TCast<  ::flixel::FlxObject >::cast(member)->getHitbox(null());
+HXDLIN( 562)					bool result;
+HXDLIN( 562)					bool result1;
+HXDLIN( 562)					bool result2;
+HXDLIN( 562)					if (((Rect->x + Rect->width) > area->x)) {
+HXLINE( 562)						result2 = (Rect->x < (area->x + area->width));
             					}
             					else {
-HXLINE( 567)						result2 = false;
+HXLINE( 562)						result2 = false;
             					}
-HXDLIN( 567)					if (result2) {
-HXLINE( 567)						result1 = ((Rect->y + Rect->height) > area->y);
-            					}
-            					else {
-HXLINE( 567)						result1 = false;
-            					}
-HXDLIN( 567)					if (result1) {
-HXLINE( 567)						result = (Rect->y < (area->y + area->height));
+HXDLIN( 562)					if (result2) {
+HXLINE( 562)						result1 = ((Rect->y + Rect->height) > area->y);
             					}
             					else {
-HXLINE( 567)						result = false;
+HXLINE( 562)						result1 = false;
             					}
-HXDLIN( 567)					if (Rect->_weak) {
-HXLINE( 567)						if (!(Rect->_inPool)) {
-HXLINE( 567)							Rect->_inPool = true;
-HXDLIN( 567)							Rect->_weak = false;
-HXDLIN( 567)							::flixel::math::FlxRect_obj::_pool->putUnsafe(Rect);
+HXDLIN( 562)					if (result1) {
+HXLINE( 562)						result = (Rect->y < (area->y + area->height));
+            					}
+            					else {
+HXLINE( 562)						result = false;
+            					}
+HXDLIN( 562)					if (Rect->_weak) {
+HXLINE( 562)						if (!(Rect->_inPool)) {
+HXLINE( 562)							Rect->_inPool = true;
+HXDLIN( 562)							Rect->_weak = false;
+HXDLIN( 562)							::flixel::math::FlxRect_obj::_pool->putUnsafe(Rect);
             						}
             					}
-HXDLIN( 567)					_hx_tmp = result;
+HXDLIN( 562)					_hx_tmp = result;
             				}
             				else {
-HXLINE( 567)					_hx_tmp = false;
+HXLINE( 562)					_hx_tmp = false;
             				}
-HXDLIN( 567)				if (_hx_tmp) {
-HXLINE( 568)					items->push(member);
+HXDLIN( 562)				if (_hx_tmp) {
+HXLINE( 563)					items->push(member);
             				}
             			}
             		}

@@ -16,7 +16,6 @@ HX_LOCAL_STACK_FRAME(_hx_pos_7624a932d5e76cd0_58_add,"lime.app._Event_lime_ui_Jo
 HX_LOCAL_STACK_FRAME(_hx_pos_7624a932d5e76cd0_82_cancel,"lime.app._Event_lime_ui_Joystick_Void","cancel",0x4a1536d0,"lime.app._Event_lime_ui_Joystick_Void.cancel","lime/app/Event.hx",82,0xbda45bec)
 HX_LOCAL_STACK_FRAME(_hx_pos_7624a932d5e76cd0_127_has,"lime.app._Event_lime_ui_Joystick_Void","has",0x6a686444,"lime.app._Event_lime_ui_Joystick_Void.has","lime/app/Event.hx",127,0xbda45bec)
 HX_LOCAL_STACK_FRAME(_hx_pos_7624a932d5e76cd0_143_remove,"lime.app._Event_lime_ui_Joystick_Void","remove",0x9669e59a,"lime.app._Event_lime_ui_Joystick_Void.remove","lime/app/Event.hx",143,0xbda45bec)
-HX_LOCAL_STACK_FRAME(_hx_pos_7624a932d5e76cd0_163_removeAll,"lime.app._Event_lime_ui_Joystick_Void","removeAll",0x550fc7a7,"lime.app._Event_lime_ui_Joystick_Void.removeAll","lime/app/Event.hx",163,0xbda45bec)
 HX_LOCAL_STACK_FRAME(_hx_pos_eee134e8c5214222_82_dispatch,"lime.app._Event_lime_ui_Joystick_Void","dispatch",0xe22a9990,"lime.app._Event_lime_ui_Joystick_Void.dispatch","lime/_internal/macros/EventMacro.hx",82,0xc5a10671)
 namespace lime{
 namespace app{
@@ -117,17 +116,6 @@ HXLINE( 153)				this->_hx___repeat->removeRange(i,1);
 
 HX_DEFINE_DYNAMIC_FUNC1(_Event_lime_ui_Joystick_Void_obj,remove,(void))
 
-void _Event_lime_ui_Joystick_Void_obj::removeAll(){
-            	HX_STACKFRAME(&_hx_pos_7624a932d5e76cd0_163_removeAll)
-HXLINE( 165)		int len = this->_hx___listeners->length;
-HXLINE( 167)		this->_hx___listeners->removeRange(0,len);
-HXLINE( 168)		this->_hx___priorities->removeRange(0,len);
-HXLINE( 169)		this->_hx___repeat->removeRange(0,len);
-            	}
-
-
-HX_DEFINE_DYNAMIC_FUNC0(_Event_lime_ui_Joystick_Void_obj,removeAll,(void))
-
 void _Event_lime_ui_Joystick_Void_obj::dispatch( ::lime::ui::Joystick a){
             	HX_STACKFRAME(&_hx_pos_eee134e8c5214222_82_dispatch)
 HXLINE(  83)		this->canceled = false;
@@ -143,10 +131,10 @@ HXLINE(  95)				this->remove(listeners->__get(i));
 HXLINE(  99)				i = (i + 1);
             			}
 HXLINE( 102)			if (this->canceled) {
-HXLINE( 104)				goto _hx_goto_9;
+HXLINE( 104)				goto _hx_goto_8;
             			}
             		}
-            		_hx_goto_9:;
+            		_hx_goto_8:;
             	}
 
 
@@ -204,9 +192,6 @@ void _Event_lime_ui_Joystick_Void_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"__repeat") ) { return ::hx::Val( _hx___repeat ); }
 		if (HX_FIELD_EQ(inName,"dispatch") ) { return ::hx::Val( dispatch_dyn() ); }
 		break;
-	case 9:
-		if (HX_FIELD_EQ(inName,"removeAll") ) { return ::hx::Val( removeAll_dyn() ); }
-		break;
 	case 11:
 		if (HX_FIELD_EQ(inName,"__listeners") ) { return ::hx::Val( _hx___listeners ); }
 		break;
@@ -260,7 +245,6 @@ static ::String _Event_lime_ui_Joystick_Void_obj_sMemberFields[] = {
 	HX_("cancel",7a,ed,33,b8),
 	HX_("has",5a,3f,4f,00),
 	HX_("remove",44,9c,88,04),
-	HX_("removeAll",3d,17,e5,ca),
 	HX_("__listeners",5f,ae,ba,21),
 	HX_("dispatch",ba,ce,63,1e),
 	::String(null()) };

@@ -7,9 +7,6 @@
 #ifndef INCLUDED_StringTools
 #include <StringTools.h>
 #endif
-#ifndef INCLUDED_haxe_Exception
-#include <haxe/Exception.h>
-#endif
 #ifndef INCLUDED_haxe_io_Bytes
 #include <haxe/io/Bytes.h>
 #endif
@@ -27,6 +24,9 @@
 #endif
 #ifndef INCLUDED_openfl_Lib
 #include <openfl/Lib.h>
+#endif
+#ifndef INCLUDED_openfl__internal_Lib
+#include <openfl/_internal/Lib.h>
 #endif
 #ifndef INCLUDED_openfl_display_Bitmap
 #include <openfl/display/Bitmap.h>
@@ -57,9 +57,6 @@
 #endif
 #ifndef INCLUDED_openfl_display_Sprite
 #include <openfl/display/Sprite.h>
-#endif
-#ifndef INCLUDED_openfl_errors_Error
-#include <openfl/errors/Error.h>
 #endif
 #ifndef INCLUDED_openfl_events_ErrorEvent
 #include <openfl/events/ErrorEvent.h>
@@ -109,42 +106,33 @@
 #ifndef INCLUDED_openfl_utils_IDataOutput
 #include <openfl/utils/IDataOutput.h>
 #endif
-#ifndef INCLUDED_openfl_utils__internal_Lib
-#include <openfl/utils/_internal/Lib.h>
-#endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_198_new,"openfl.display.Loader","new",0x0b8c4b6f,"openfl.display.Loader.new","openfl/display/Loader.hx",198,0x7a569d9f)
-HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_210_addChild,"openfl.display.Loader","addChild",0xed9ade4c,"openfl.display.Loader.addChild","openfl/display/Loader.hx",210,0x7a569d9f)
-HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_216_addChildAt,"openfl.display.Loader","addChildAt",0xb0c8425f,"openfl.display.Loader.addChildAt","openfl/display/Loader.hx",216,0x7a569d9f)
-HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_228_close,"openfl.display.Loader","close",0xeefbb487,"openfl.display.Loader.close","openfl/display/Loader.hx",228,0x7a569d9f)
-HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_388_load,"openfl.display.Loader","load",0x0deacc37,"openfl.display.Loader.load","openfl/display/Loader.hx",388,0x7a569d9f)
-HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_564_loadBytes,"openfl.display.Loader","loadBytes",0x5dd804b4,"openfl.display.Loader.loadBytes","openfl/display/Loader.hx",564,0x7a569d9f)
-HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_571_removeChild,"openfl.display.Loader","removeChild",0xa0be28c7,"openfl.display.Loader.removeChild","openfl/display/Loader.hx",571,0x7a569d9f)
-HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_584_removeChildAt,"openfl.display.Loader","removeChildAt",0xeb2f619a,"openfl.display.Loader.removeChildAt","openfl/display/Loader.hx",584,0x7a569d9f)
-HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_590_setChildIndex,"openfl.display.Loader","setChildIndex",0xa9d0cde7,"openfl.display.Loader.setChildIndex","openfl/display/Loader.hx",590,0x7a569d9f)
-HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_623_unload,"openfl.display.Loader","unload",0x847d3950,"openfl.display.Loader.unload","openfl/display/Loader.hx",623,0x7a569d9f)
-HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_678_unloadAndStop,"openfl.display.Loader","unloadAndStop",0x25cb8709,"openfl.display.Loader.unloadAndStop","openfl/display/Loader.hx",678,0x7a569d9f)
-HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_702___dispatchError,"openfl.display.Loader","__dispatchError",0xdd48591d,"openfl.display.Loader.__dispatchError","openfl/display/Loader.hx",702,0x7a569d9f)
-HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_709___setContent,"openfl.display.Loader","__setContent",0x7ea757e8,"openfl.display.Loader.__setContent","openfl/display/Loader.hx",709,0x7a569d9f)
-HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_729_BitmapData_onError,"openfl.display.Loader","BitmapData_onError",0x2d70cc54,"openfl.display.Loader.BitmapData_onError","openfl/display/Loader.hx",729,0x7a569d9f)
-HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_733_BitmapData_onLoad,"openfl.display.Loader","BitmapData_onLoad",0x9c5aef1a,"openfl.display.Loader.BitmapData_onLoad","openfl/display/Loader.hx",733,0x7a569d9f)
-HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_748_BitmapData_onProgress,"openfl.display.Loader","BitmapData_onProgress",0x8ecdd6a1,"openfl.display.Loader.BitmapData_onProgress","openfl/display/Loader.hx",748,0x7a569d9f)
-HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_756_loader_onComplete,"openfl.display.Loader","loader_onComplete",0xf5bb9433,"openfl.display.Loader.loader_onComplete","openfl/display/Loader.hx",756,0x7a569d9f)
-HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_783_loader_onComplete,"openfl.display.Loader","loader_onComplete",0xf5bb9433,"openfl.display.Loader.loader_onComplete","openfl/display/Loader.hx",783,0x7a569d9f)
-HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_798_loader_onComplete,"openfl.display.Loader","loader_onComplete",0xf5bb9433,"openfl.display.Loader.loader_onComplete","openfl/display/Loader.hx",798,0x7a569d9f)
-HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_827_loader_onError,"openfl.display.Loader","loader_onError",0x53aca80e,"openfl.display.Loader.loader_onError","openfl/display/Loader.hx",827,0x7a569d9f)
-HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_835_loader_onProgress,"openfl.display.Loader","loader_onProgress",0xfc1e8b27,"openfl.display.Loader.loader_onProgress","openfl/display/Loader.hx",835,0x7a569d9f)
-HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_89_boot,"openfl.display.Loader","boot",0x074eb643,"openfl.display.Loader.boot","openfl/display/Loader.hx",89,0x7a569d9f)
+HX_DEFINE_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_40_new,"openfl.display.Loader","new",0x0b8c4b6f,"openfl.display.Loader.new","openfl/display/Loader.hx",40,0x7a569d9f)
+HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_66_close,"openfl.display.Loader","close",0xeefbb487,"openfl.display.Loader.close","openfl/display/Loader.hx",66,0x7a569d9f)
+HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_71_load,"openfl.display.Loader","load",0x0deacc37,"openfl.display.Loader.load","openfl/display/Loader.hx",71,0x7a569d9f)
+HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_163_loadBytes,"openfl.display.Loader","loadBytes",0x5dd804b4,"openfl.display.Loader.loadBytes","openfl/display/Loader.hx",163,0x7a569d9f)
+HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_187_unload,"openfl.display.Loader","unload",0x847d3950,"openfl.display.Loader.unload","openfl/display/Loader.hx",187,0x7a569d9f)
+HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_215_unloadAndStop,"openfl.display.Loader","unloadAndStop",0x25cb8709,"openfl.display.Loader.unloadAndStop","openfl/display/Loader.hx",215,0x7a569d9f)
+HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_239___dispatchError,"openfl.display.Loader","__dispatchError",0xdd48591d,"openfl.display.Loader.__dispatchError","openfl/display/Loader.hx",239,0x7a569d9f)
+HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_246___setContent,"openfl.display.Loader","__setContent",0x7ea757e8,"openfl.display.Loader.__setContent","openfl/display/Loader.hx",246,0x7a569d9f)
+HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_266_BitmapData_onError,"openfl.display.Loader","BitmapData_onError",0x2d70cc54,"openfl.display.Loader.BitmapData_onError","openfl/display/Loader.hx",266,0x7a569d9f)
+HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_270_BitmapData_onLoad,"openfl.display.Loader","BitmapData_onLoad",0x9c5aef1a,"openfl.display.Loader.BitmapData_onLoad","openfl/display/Loader.hx",270,0x7a569d9f)
+HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_285_BitmapData_onProgress,"openfl.display.Loader","BitmapData_onProgress",0x8ecdd6a1,"openfl.display.Loader.BitmapData_onProgress","openfl/display/Loader.hx",285,0x7a569d9f)
+HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_293_loader_onComplete,"openfl.display.Loader","loader_onComplete",0xf5bb9433,"openfl.display.Loader.loader_onComplete","openfl/display/Loader.hx",293,0x7a569d9f)
+HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_320_loader_onComplete,"openfl.display.Loader","loader_onComplete",0xf5bb9433,"openfl.display.Loader.loader_onComplete","openfl/display/Loader.hx",320,0x7a569d9f)
+HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_335_loader_onComplete,"openfl.display.Loader","loader_onComplete",0xf5bb9433,"openfl.display.Loader.loader_onComplete","openfl/display/Loader.hx",335,0x7a569d9f)
+HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_364_loader_onError,"openfl.display.Loader","loader_onError",0x53aca80e,"openfl.display.Loader.loader_onError","openfl/display/Loader.hx",364,0x7a569d9f)
+HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_372_loader_onProgress,"openfl.display.Loader","loader_onProgress",0xfc1e8b27,"openfl.display.Loader.loader_onProgress","openfl/display/Loader.hx",372,0x7a569d9f)
+HX_LOCAL_STACK_FRAME(_hx_pos_1b7c318d3e4ffa4a_29_boot,"openfl.display.Loader","boot",0x074eb643,"openfl.display.Loader.boot","openfl/display/Loader.hx",29,0x7a569d9f)
 namespace openfl{
 namespace display{
 
 void Loader_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_198_new)
-HXLINE( 199)		super::__construct();
-HXLINE( 202)		this->_hx___drawableType = 4;
-HXLINE( 203)		this->contentLoaderInfo = ::openfl::display::LoaderInfo_obj::create(::hx::ObjectPtr<OBJ_>(this));
-HXLINE( 204)		this->uncaughtErrorEvents = this->contentLoaderInfo->uncaughtErrorEvents;
-HXLINE( 205)		this->_hx___unloaded = true;
+            	HX_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_40_new)
+HXLINE(  41)		super::__construct();
+HXLINE(  43)		this->contentLoaderInfo = ::openfl::display::LoaderInfo_obj::create(::hx::ObjectPtr<OBJ_>(this));
+HXLINE(  44)		this->uncaughtErrorEvents = this->contentLoaderInfo->uncaughtErrorEvents;
+HXLINE(  45)		this->_hx___unloaded = true;
             	}
 
 Dynamic Loader_obj::__CreateEmpty() { return new Loader_obj; }
@@ -174,190 +162,151 @@ bool Loader_obj::_hx_isInstanceOf(int inClassId) {
 	}
 }
 
- ::openfl::display::DisplayObject Loader_obj::addChild( ::openfl::display::DisplayObject child){
-            	HX_GC_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_210_addChild)
-HXDLIN( 210)		HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::Error_obj::__alloc( HX_CTX ,HX_("Error #2069: The Loader class does not implement this method.",68,cb,24,3e),2069)));
-HXDLIN( 210)		return null();
-            	}
-
-
- ::openfl::display::DisplayObject Loader_obj::addChildAt( ::openfl::display::DisplayObject child,int index){
-            	HX_GC_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_216_addChildAt)
-HXDLIN( 216)		HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::Error_obj::__alloc( HX_CTX ,HX_("Error #2069: The Loader class does not implement this method.",68,cb,24,3e),2069)));
-HXDLIN( 216)		return null();
-            	}
-
-
 void Loader_obj::close(){
-            	HX_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_228_close)
-HXDLIN( 228)		::openfl::utils::_internal::Lib_obj::notImplemented(::hx::SourceInfo(HX_("openfl/display/Loader.hx",9f,9d,56,7a),228,HX_("openfl.display.Loader",fd,67,b0,e2),HX_("close",b8,17,63,48)));
+            	HX_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_66_close)
+HXDLIN(  66)		::openfl::_internal::Lib_obj::notImplemented(::hx::SourceInfo(HX_("openfl/display/Loader.hx",9f,9d,56,7a),66,HX_("openfl.display.Loader",fd,67,b0,e2),HX_("close",b8,17,63,48)));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Loader_obj,close,(void))
 
 void Loader_obj::load( ::openfl::net::URLRequest request, ::openfl::_hx_system::LoaderContext context){
-            	HX_GC_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_388_load)
-HXLINE( 389)		this->unload();
-HXLINE( 391)		this->contentLoaderInfo->loaderURL = ::openfl::Lib_obj::get_current()->get_loaderInfo()->url;
-HXLINE( 392)		this->contentLoaderInfo->url = request->url;
-HXLINE( 393)		this->_hx___unloaded = false;
-HXLINE( 395)		bool _hx_tmp;
-HXDLIN( 395)		if (::hx::IsNotNull( request->contentType )) {
-HXLINE( 395)			_hx_tmp = (request->contentType == HX_("",00,00,00,00));
+            	HX_GC_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_71_load)
+HXLINE(  72)		this->unload();
+HXLINE(  74)		this->contentLoaderInfo->loaderURL = ::openfl::Lib_obj::get_current()->get_loaderInfo()->url;
+HXLINE(  75)		this->contentLoaderInfo->url = request->url;
+HXLINE(  76)		this->_hx___unloaded = false;
+HXLINE(  78)		bool _hx_tmp;
+HXDLIN(  78)		if (::hx::IsNotNull( request->contentType )) {
+HXLINE(  78)			_hx_tmp = (request->contentType == HX_("",00,00,00,00));
             		}
             		else {
-HXLINE( 395)			_hx_tmp = true;
+HXLINE(  78)			_hx_tmp = true;
             		}
-HXDLIN( 395)		if (_hx_tmp) {
-HXLINE( 397)			::String extension = HX_("",00,00,00,00);
-HXLINE( 398)			this->_hx___path = request->url;
-HXLINE( 400)			int queryIndex = this->_hx___path.indexOf(HX_("?",3f,00,00,00),null());
-HXLINE( 401)			if ((queryIndex > -1)) {
-HXLINE( 403)				this->_hx___path = this->_hx___path.substring(0,queryIndex);
+HXDLIN(  78)		if (_hx_tmp) {
+HXLINE(  80)			::String extension = HX_("",00,00,00,00);
+HXLINE(  81)			this->_hx___path = request->url;
+HXLINE(  83)			int queryIndex = this->_hx___path.indexOf(HX_("?",3f,00,00,00),null());
+HXLINE(  84)			if ((queryIndex > -1)) {
+HXLINE(  86)				this->_hx___path = this->_hx___path.substring(0,queryIndex);
             			}
-HXLINE( 406)			while(::StringTools_obj::endsWith(this->_hx___path,HX_("/",2f,00,00,00))){
-HXLINE( 408)				this->_hx___path = this->_hx___path.substring(0,(this->_hx___path.length - 1));
+HXLINE(  89)			while(::StringTools_obj::endsWith(this->_hx___path,HX_("/",2f,00,00,00))){
+HXLINE(  91)				this->_hx___path = this->_hx___path.substring(0,(this->_hx___path.length - 1));
             			}
-HXLINE( 411)			if (::StringTools_obj::endsWith(this->_hx___path,HX_(".bundle",30,4a,b8,4e))) {
-HXLINE( 413)				 ::openfl::display::Loader _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 413)				_hx_tmp->_hx___path = (_hx_tmp->_hx___path + HX_("/library.json",2a,a7,07,47));
-HXLINE( 415)				if ((queryIndex > -1)) {
-HXLINE( 417)					::String _hx_tmp = this->_hx___path;
-HXDLIN( 417)					request->url = (_hx_tmp + request->url.substring(queryIndex,null()));
+HXLINE(  94)			if (::StringTools_obj::endsWith(this->_hx___path,HX_(".bundle",30,4a,b8,4e))) {
+HXLINE(  96)				 ::openfl::display::Loader _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(  96)				_hx_tmp->_hx___path = (_hx_tmp->_hx___path + HX_("/library.json",2a,a7,07,47));
+HXLINE(  98)				if ((queryIndex > -1)) {
+HXLINE( 100)					::String _hx_tmp = this->_hx___path;
+HXDLIN( 100)					request->url = (_hx_tmp + request->url.substring(queryIndex,null()));
             				}
             				else {
-HXLINE( 421)					request->url = this->_hx___path;
+HXLINE( 104)					request->url = this->_hx___path;
             				}
             			}
-HXLINE( 425)			int extIndex = this->_hx___path.lastIndexOf(HX_(".",2e,00,00,00),null());
-HXLINE( 426)			if ((extIndex > -1)) {
-HXLINE( 428)				extension = this->_hx___path.substring((extIndex + 1),null());
+HXLINE( 108)			int extIndex = this->_hx___path.lastIndexOf(HX_(".",2e,00,00,00),null());
+HXLINE( 109)			if ((extIndex > -1)) {
+HXLINE( 111)				extension = this->_hx___path.substring((extIndex + 1),null());
             			}
-HXLINE( 431)			::String _hx_tmp;
-HXDLIN( 431)			::String _hx_switch_0 = extension;
+HXLINE( 114)			::String _hx_tmp;
+HXDLIN( 114)			::String _hx_switch_0 = extension;
             			if (  (_hx_switch_0==HX_("gif",04,84,4e,00)) ){
-HXLINE( 431)				_hx_tmp = HX_("image/gif",10,f4,ba,16);
-HXDLIN( 431)				goto _hx_goto_5;
+HXLINE( 114)				_hx_tmp = HX_("image/gif",10,f4,ba,16);
+HXDLIN( 114)				goto _hx_goto_3;
             			}
             			if (  (_hx_switch_0==HX_("jpeg",a8,f2,65,46)) ||  (_hx_switch_0==HX_("jpg",e1,d0,50,00)) ){
-HXLINE( 431)				_hx_tmp = HX_("image/jpeg",1c,8d,db,ce);
-HXDLIN( 431)				goto _hx_goto_5;
+HXLINE( 114)				_hx_tmp = HX_("image/jpeg",1c,8d,db,ce);
+HXDLIN( 114)				goto _hx_goto_3;
             			}
             			if (  (_hx_switch_0==HX_("js",c9,5c,00,00)) ){
-HXLINE( 431)				_hx_tmp = HX_("application/javascript",cc,7a,f4,a7);
-HXDLIN( 431)				goto _hx_goto_5;
+HXLINE( 114)				_hx_tmp = HX_("application/javascript",cc,7a,f4,a7);
+HXDLIN( 114)				goto _hx_goto_3;
             			}
             			if (  (_hx_switch_0==HX_("json",28,42,68,46)) ){
-HXLINE( 431)				_hx_tmp = HX_("application/json",87,d8,7f,4e);
-HXDLIN( 431)				goto _hx_goto_5;
+HXLINE( 114)				_hx_tmp = HX_("application/json",87,d8,7f,4e);
+HXDLIN( 114)				goto _hx_goto_3;
             			}
             			if (  (_hx_switch_0==HX_("png",a9,5c,55,00)) ){
-HXLINE( 431)				_hx_tmp = HX_("image/png",b5,cc,c1,16);
-HXDLIN( 431)				goto _hx_goto_5;
+HXLINE( 114)				_hx_tmp = HX_("image/png",b5,cc,c1,16);
+HXDLIN( 114)				goto _hx_goto_3;
             			}
             			if (  (_hx_switch_0==HX_("swf",42,ab,57,00)) ){
-HXLINE( 431)				_hx_tmp = HX_("application/x-shockwave-flash",ea,f3,47,4a);
-HXDLIN( 431)				goto _hx_goto_5;
+HXLINE( 114)				_hx_tmp = HX_("application/x-shockwave-flash",ea,f3,47,4a);
+HXDLIN( 114)				goto _hx_goto_3;
             			}
             			/* default */{
-HXLINE( 431)				_hx_tmp = HX_("application/x-www-form-urlencoded",9e,61,91,fa);
+HXLINE( 114)				_hx_tmp = HX_("application/x-www-form-urlencoded",9e,61,91,fa);
             			}
-            			_hx_goto_5:;
-HXDLIN( 431)			this->contentLoaderInfo->contentType = _hx_tmp;
+            			_hx_goto_3:;
+HXDLIN( 114)			this->contentLoaderInfo->contentType = _hx_tmp;
             		}
             		else {
-HXLINE( 445)			this->contentLoaderInfo->contentType = request->contentType;
+HXLINE( 128)			this->contentLoaderInfo->contentType = request->contentType;
             		}
-HXLINE( 462)		 ::openfl::net::URLLoader loader =  ::openfl::net::URLLoader_obj::__alloc( HX_CTX ,null());
-HXLINE( 463)		loader->dataFormat = 0;
-HXLINE( 465)		bool _hx_tmp1;
-HXDLIN( 465)		bool _hx_tmp2;
-HXDLIN( 465)		if ((this->contentLoaderInfo->contentType.indexOf(HX_("/json",d7,85,3d,56),null()) <= -1)) {
-HXLINE( 465)			_hx_tmp2 = (this->contentLoaderInfo->contentType.indexOf(HX_("/javascript",1c,04,67,9b),null()) > -1);
-            		}
-            		else {
-HXLINE( 465)			_hx_tmp2 = true;
-            		}
-HXDLIN( 465)		if (!(_hx_tmp2)) {
-HXLINE( 465)			_hx_tmp1 = (this->contentLoaderInfo->contentType.indexOf(HX_("/ecmascript",ac,7b,0f,7d),null()) > -1);
+HXLINE( 145)		 ::openfl::net::URLLoader loader =  ::openfl::net::URLLoader_obj::__alloc( HX_CTX ,null());
+HXLINE( 146)		loader->dataFormat = 0;
+HXLINE( 148)		bool _hx_tmp1;
+HXDLIN( 148)		bool _hx_tmp2;
+HXDLIN( 148)		if ((this->contentLoaderInfo->contentType.indexOf(HX_("/json",d7,85,3d,56),null()) <= -1)) {
+HXLINE( 148)			_hx_tmp2 = (this->contentLoaderInfo->contentType.indexOf(HX_("/javascript",1c,04,67,9b),null()) > -1);
             		}
             		else {
-HXLINE( 465)			_hx_tmp1 = true;
+HXLINE( 148)			_hx_tmp2 = true;
             		}
-HXDLIN( 465)		if (_hx_tmp1) {
-HXLINE( 469)			loader->dataFormat = 1;
+HXDLIN( 148)		if (!(_hx_tmp2)) {
+HXLINE( 148)			_hx_tmp1 = (this->contentLoaderInfo->contentType.indexOf(HX_("/ecmascript",ac,7b,0f,7d),null()) > -1);
             		}
-HXLINE( 472)		loader->addEventListener(HX_("complete",b9,00,c8,7f),this->loader_onComplete_dyn(),null(),null(),null());
-HXLINE( 473)		loader->addEventListener(HX_("ioError",02,fe,41,76),this->loader_onError_dyn(),null(),null(),null());
-HXLINE( 474)		loader->addEventListener(HX_("progress",ad,f7,2a,86),this->loader_onProgress_dyn(),null(),null(),null());
-HXLINE( 475)		loader->load(request);
+            		else {
+HXLINE( 148)			_hx_tmp1 = true;
+            		}
+HXDLIN( 148)		if (_hx_tmp1) {
+HXLINE( 152)			loader->dataFormat = 1;
+            		}
+HXLINE( 155)		loader->addEventListener(HX_("complete",b9,00,c8,7f),this->loader_onComplete_dyn(),null(),null(),null());
+HXLINE( 156)		loader->addEventListener(HX_("ioError",02,fe,41,76),this->loader_onError_dyn(),null(),null(),null());
+HXLINE( 157)		loader->addEventListener(HX_("progress",ad,f7,2a,86),this->loader_onProgress_dyn(),null(),null(),null());
+HXLINE( 158)		loader->load(request);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Loader_obj,load,(void))
 
 void Loader_obj::loadBytes( ::openfl::utils::ByteArrayData buffer, ::openfl::_hx_system::LoaderContext context){
-            	HX_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_564_loadBytes)
-HXDLIN( 564)		::openfl::display::BitmapData_obj::loadFromBytes(buffer,null())->onComplete(this->BitmapData_onLoad_dyn())->onError(this->BitmapData_onError_dyn());
+            	HX_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_163_loadBytes)
+HXDLIN( 163)		::openfl::display::BitmapData_obj::loadFromBytes(buffer,null())->onComplete(this->BitmapData_onLoad_dyn())->onError(this->BitmapData_onError_dyn());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Loader_obj,loadBytes,(void))
 
- ::openfl::display::DisplayObject Loader_obj::removeChild( ::openfl::display::DisplayObject child){
-            	HX_GC_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_571_removeChild)
-HXDLIN( 571)		if (::hx::IsEq( child,this->content )) {
-HXLINE( 573)			return this->super::removeChild(this->content);
-            		}
-            		else {
-HXLINE( 577)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::Error_obj::__alloc( HX_CTX ,HX_("Error #2069: The Loader class does not implement this method.",68,cb,24,3e),2069)));
-            		}
-HXLINE( 571)		return null();
-            	}
-
-
- ::openfl::display::DisplayObject Loader_obj::removeChildAt(int index){
-            	HX_GC_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_584_removeChildAt)
-HXDLIN( 584)		HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::Error_obj::__alloc( HX_CTX ,HX_("Error #2069: The Loader class does not implement this method.",68,cb,24,3e),2069)));
-HXDLIN( 584)		return null();
-            	}
-
-
-void Loader_obj::setChildIndex( ::openfl::display::DisplayObject child,int index){
-            	HX_GC_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_590_setChildIndex)
-HXDLIN( 590)		HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::Error_obj::__alloc( HX_CTX ,HX_("Error #2069: The Loader class does not implement this method.",68,cb,24,3e),2069)));
-            	}
-
-
 void Loader_obj::unload(){
-            	HX_GC_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_623_unload)
-HXDLIN( 623)		if (!(this->_hx___unloaded)) {
-HXLINE( 625)			bool _hx_tmp;
-HXDLIN( 625)			if (::hx::IsNotNull( this->content )) {
-HXLINE( 625)				_hx_tmp = ::hx::IsEq( this->content->parent,::hx::ObjectPtr<OBJ_>(this) );
+            	HX_GC_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_187_unload)
+HXDLIN( 187)		if (!(this->_hx___unloaded)) {
+HXLINE( 189)			bool _hx_tmp;
+HXDLIN( 189)			if (::hx::IsNotNull( this->content )) {
+HXLINE( 189)				_hx_tmp = ::hx::IsEq( this->content->parent,::hx::ObjectPtr<OBJ_>(this) );
             			}
             			else {
-HXLINE( 625)				_hx_tmp = false;
+HXLINE( 189)				_hx_tmp = false;
             			}
-HXDLIN( 625)			if (_hx_tmp) {
-HXLINE( 627)				this->super::removeChild(this->content);
+HXDLIN( 189)			if (_hx_tmp) {
+HXLINE( 191)				this->super::removeChild(this->content);
             			}
-HXLINE( 630)			if (::hx::IsNotNull( this->_hx___library )) {
-HXLINE( 632)				::openfl::utils::Assets_obj::unloadLibrary(this->contentLoaderInfo->url);
-HXLINE( 633)				this->_hx___library = null();
+HXLINE( 194)			if (::hx::IsNotNull( this->_hx___library )) {
+HXLINE( 196)				::openfl::utils::Assets_obj::unloadLibrary(this->contentLoaderInfo->url);
+HXLINE( 197)				this->_hx___library = null();
             			}
-HXLINE( 636)			this->content = null();
-HXLINE( 637)			this->contentLoaderInfo->url = null();
-HXLINE( 638)			this->contentLoaderInfo->contentType = null();
-HXLINE( 639)			this->contentLoaderInfo->content = null();
-HXLINE( 640)			this->contentLoaderInfo->bytesLoaded = 0;
-HXLINE( 641)			this->contentLoaderInfo->bytesTotal = 0;
-HXLINE( 642)			this->contentLoaderInfo->width = 0;
-HXLINE( 643)			this->contentLoaderInfo->height = 0;
-HXLINE( 644)			this->_hx___unloaded = true;
-HXLINE( 646)			 ::openfl::display::LoaderInfo _hx_tmp1 = this->contentLoaderInfo;
-HXDLIN( 646)			_hx_tmp1->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("unload",ff,a0,8c,65),null(),null()));
+HXLINE( 200)			this->content = null();
+HXLINE( 201)			this->contentLoaderInfo->url = null();
+HXLINE( 202)			this->contentLoaderInfo->contentType = null();
+HXLINE( 203)			this->contentLoaderInfo->content = null();
+HXLINE( 204)			this->contentLoaderInfo->bytesLoaded = 0;
+HXLINE( 205)			this->contentLoaderInfo->bytesTotal = 0;
+HXLINE( 206)			this->contentLoaderInfo->width = 0;
+HXLINE( 207)			this->contentLoaderInfo->height = 0;
+HXLINE( 208)			this->_hx___unloaded = true;
+HXLINE( 210)			 ::openfl::display::LoaderInfo _hx_tmp1 = this->contentLoaderInfo;
+HXDLIN( 210)			_hx_tmp1->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("unload",ff,a0,8c,65),null(),null()));
             		}
             	}
 
@@ -366,22 +315,22 @@ HX_DEFINE_DYNAMIC_FUNC0(Loader_obj,unload,(void))
 
 void Loader_obj::unloadAndStop(::hx::Null< bool >  __o_gc){
             		bool gc = __o_gc.Default(true);
-            	HX_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_678_unloadAndStop)
-HXLINE( 679)		if (::hx::IsNotNull( this->content )) {
-HXLINE( 681)			this->content->_hx___stopAllMovieClips();
+            	HX_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_215_unloadAndStop)
+HXLINE( 216)		if (::hx::IsNotNull( this->content )) {
+HXLINE( 218)			this->content->_hx___stopAllMovieClips();
             		}
-HXLINE( 684)		{
-HXLINE( 684)			int _g = 0;
-HXDLIN( 684)			int _g1 = this->get_numChildren();
-HXDLIN( 684)			while((_g < _g1)){
-HXLINE( 684)				_g = (_g + 1);
-HXDLIN( 684)				int i = (_g - 1);
-HXLINE( 686)				this->getChildAt(i)->_hx___stopAllMovieClips();
+HXLINE( 221)		{
+HXLINE( 221)			int _g = 0;
+HXDLIN( 221)			int _g1 = this->get_numChildren();
+HXDLIN( 221)			while((_g < _g1)){
+HXLINE( 221)				_g = (_g + 1);
+HXDLIN( 221)				int i = (_g - 1);
+HXLINE( 223)				this->getChildAt(i)->_hx___stopAllMovieClips();
             			}
             		}
-HXLINE( 689)		this->unload();
-HXLINE( 691)		if (gc) {
-HXLINE( 694)			__hxcpp_collect(false);
+HXLINE( 226)		this->unload();
+HXLINE( 228)		if (gc) {
+HXLINE( 231)			__hxcpp_collect(false);
             		}
             	}
 
@@ -389,23 +338,23 @@ HXLINE( 694)			__hxcpp_collect(false);
 HX_DEFINE_DYNAMIC_FUNC1(Loader_obj,unloadAndStop,(void))
 
 void Loader_obj::_hx___dispatchError(::String text){
-            	HX_GC_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_702___dispatchError)
-HXLINE( 703)		 ::openfl::events::IOErrorEvent event =  ::openfl::events::IOErrorEvent_obj::__alloc( HX_CTX ,HX_("ioError",02,fe,41,76),null(),null(),null(),null());
-HXLINE( 704)		event->text = text;
-HXLINE( 705)		this->contentLoaderInfo->dispatchEvent(event);
+            	HX_GC_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_239___dispatchError)
+HXLINE( 240)		 ::openfl::events::IOErrorEvent event =  ::openfl::events::IOErrorEvent_obj::__alloc( HX_CTX ,HX_("ioError",02,fe,41,76),null(),null(),null(),null());
+HXLINE( 241)		event->text = text;
+HXLINE( 242)		this->contentLoaderInfo->dispatchEvent(event);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Loader_obj,_hx___dispatchError,(void))
 
 void Loader_obj::_hx___setContent( ::openfl::display::DisplayObject content,int width,int height){
-            	HX_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_709___setContent)
-HXLINE( 710)		this->content = content;
-HXLINE( 712)		this->contentLoaderInfo->content = content;
-HXLINE( 713)		this->contentLoaderInfo->width = width;
-HXLINE( 714)		this->contentLoaderInfo->height = height;
-HXLINE( 716)		if (::hx::IsNotNull( content )) {
-HXLINE( 718)			this->super::addChildAt(content,0);
+            	HX_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_246___setContent)
+HXLINE( 247)		this->content = content;
+HXLINE( 249)		this->contentLoaderInfo->content = content;
+HXLINE( 250)		this->contentLoaderInfo->width = width;
+HXLINE( 251)		this->contentLoaderInfo->height = height;
+HXLINE( 253)		if (::hx::IsNotNull( content )) {
+HXLINE( 255)			this->super::addChildAt(content,0);
             		}
             	}
 
@@ -413,117 +362,117 @@ HXLINE( 718)			this->super::addChildAt(content,0);
 HX_DEFINE_DYNAMIC_FUNC3(Loader_obj,_hx___setContent,(void))
 
 void Loader_obj::BitmapData_onError( ::Dynamic error){
-            	HX_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_729_BitmapData_onError)
-HXDLIN( 729)		this->_hx___dispatchError(::Std_obj::string(error));
+            	HX_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_266_BitmapData_onError)
+HXDLIN( 266)		this->_hx___dispatchError(::Std_obj::string(error));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Loader_obj,BitmapData_onError,(void))
 
 void Loader_obj::BitmapData_onLoad( ::openfl::display::BitmapData bitmapData){
-            	HX_GC_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_733_BitmapData_onLoad)
-HXLINE( 736)		if (::hx::IsNull( bitmapData )) {
-HXLINE( 738)			this->_hx___dispatchError(HX_("Unknown error",92,0e,0f,10));
-HXLINE( 739)			return;
+            	HX_GC_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_270_BitmapData_onLoad)
+HXLINE( 273)		if (::hx::IsNull( bitmapData )) {
+HXLINE( 275)			this->_hx___dispatchError(HX_("Unknown error",92,0e,0f,10));
+HXLINE( 276)			return;
             		}
-HXLINE( 742)		this->_hx___setContent( ::openfl::display::Bitmap_obj::__alloc( HX_CTX ,bitmapData,null(),null()),bitmapData->width,bitmapData->height);
-HXLINE( 744)		 ::openfl::display::LoaderInfo _hx_tmp = this->contentLoaderInfo;
-HXDLIN( 744)		_hx_tmp->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("complete",b9,00,c8,7f),null(),null()));
+HXLINE( 279)		this->_hx___setContent( ::openfl::display::Bitmap_obj::__alloc( HX_CTX ,bitmapData,null(),null()),bitmapData->width,bitmapData->height);
+HXLINE( 281)		 ::openfl::display::LoaderInfo _hx_tmp = this->contentLoaderInfo;
+HXDLIN( 281)		_hx_tmp->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("complete",b9,00,c8,7f),null(),null()));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Loader_obj,BitmapData_onLoad,(void))
 
 void Loader_obj::BitmapData_onProgress(int bytesLoaded,int bytesTotal){
-            	HX_GC_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_748_BitmapData_onProgress)
-HXLINE( 749)		 ::openfl::events::ProgressEvent event =  ::openfl::events::ProgressEvent_obj::__alloc( HX_CTX ,HX_("progress",ad,f7,2a,86),null(),null(),null(),null());
-HXLINE( 750)		event->bytesLoaded = ( (Float)(bytesLoaded) );
-HXLINE( 751)		event->bytesTotal = ( (Float)(bytesTotal) );
-HXLINE( 752)		this->contentLoaderInfo->dispatchEvent(event);
+            	HX_GC_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_285_BitmapData_onProgress)
+HXLINE( 286)		 ::openfl::events::ProgressEvent event =  ::openfl::events::ProgressEvent_obj::__alloc( HX_CTX ,HX_("progress",ad,f7,2a,86),null(),null(),null(),null());
+HXLINE( 287)		event->bytesLoaded = ( (Float)(bytesLoaded) );
+HXLINE( 288)		event->bytesTotal = ( (Float)(bytesTotal) );
+HXLINE( 289)		this->contentLoaderInfo->dispatchEvent(event);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Loader_obj,BitmapData_onProgress,(void))
 
 void Loader_obj::loader_onComplete( ::openfl::events::Event event){
-            	HX_GC_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_756_loader_onComplete)
-HXLINE( 755)		 ::openfl::display::Loader _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE( 759)		 ::openfl::net::URLLoader loader = ( ( ::openfl::net::URLLoader)(event->target) );
-HXLINE( 762)		bool _hx_tmp;
-HXDLIN( 762)		if (::hx::IsNotNull( this->contentLoaderInfo->contentType )) {
-HXLINE( 762)			_hx_tmp = (this->contentLoaderInfo->contentType.indexOf(HX_("/json",d7,85,3d,56),null()) > -1);
+            	HX_GC_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_293_loader_onComplete)
+HXLINE( 292)		 ::openfl::display::Loader _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 296)		 ::openfl::net::URLLoader loader = ( ( ::openfl::net::URLLoader)(event->target) );
+HXLINE( 299)		bool _hx_tmp;
+HXDLIN( 299)		if (::hx::IsNotNull( this->contentLoaderInfo->contentType )) {
+HXLINE( 299)			_hx_tmp = (this->contentLoaderInfo->contentType.indexOf(HX_("/json",d7,85,3d,56),null()) > -1);
             		}
             		else {
-HXLINE( 762)			_hx_tmp = false;
+HXLINE( 299)			_hx_tmp = false;
             		}
-HXDLIN( 762)		if (_hx_tmp) {
-HXLINE( 764)			 ::Dynamic loader1 = loader->data;
-HXDLIN( 764)			 ::lime::utils::AssetManifest manifest = ::lime::utils::AssetManifest_obj::parse(( (::String)(loader1) ),::haxe::io::Path_obj::directory(this->_hx___path));
-HXLINE( 766)			if (::hx::IsNull( manifest )) {
-HXLINE( 768)				this->_hx___dispatchError(HX_("Cannot parse asset manifest",49,e5,68,e9));
-HXLINE( 769)				return;
+HXDLIN( 299)		if (_hx_tmp) {
+HXLINE( 301)			 ::Dynamic loader1 = loader->data;
+HXDLIN( 301)			 ::lime::utils::AssetManifest manifest = ::lime::utils::AssetManifest_obj::parse(( (::String)(loader1) ),::haxe::io::Path_obj::directory(this->_hx___path));
+HXLINE( 303)			if (::hx::IsNull( manifest )) {
+HXLINE( 305)				this->_hx___dispatchError(HX_("Cannot parse asset manifest",49,e5,68,e9));
+HXLINE( 306)				return;
             			}
-HXLINE( 772)			 ::lime::utils::AssetLibrary library = ::lime::utils::AssetLibrary_obj::fromManifest(manifest);
-HXLINE( 774)			if (::hx::IsNull( library )) {
-HXLINE( 776)				this->_hx___dispatchError(HX_("Cannot open library",c2,bb,9d,77));
-HXLINE( 777)				return;
+HXLINE( 309)			 ::lime::utils::AssetLibrary library = ::lime::utils::AssetLibrary_obj::fromManifest(manifest);
+HXLINE( 311)			if (::hx::IsNull( library )) {
+HXLINE( 313)				this->_hx___dispatchError(HX_("Cannot open library",c2,bb,9d,77));
+HXLINE( 314)				return;
             			}
-HXLINE( 780)			if (::Std_obj::isOfType(library,::hx::ClassOf< ::openfl::utils::AssetLibrary >())) {
+HXLINE( 317)			if (::Std_obj::isOfType(library,::hx::ClassOf< ::openfl::utils::AssetLibrary >())) {
             				HX_BEGIN_LOCAL_FUNC_S3(::hx::LocalFunc,_hx_Closure_0, ::lime::utils::AssetManifest,manifest, ::openfl::display::Loader,_gthis, ::lime::utils::AssetLibrary,library) HXARGC(1)
             				void _hx_run( ::lime::utils::AssetLibrary _){
-            					HX_GC_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_783_loader_onComplete)
-HXLINE( 784)					_gthis->_hx___library = ( ( ::openfl::utils::AssetLibrary)(library) );
-HXLINE( 785)					::openfl::utils::Assets_obj::registerLibrary(_gthis->contentLoaderInfo->url,_gthis->_hx___library);
-HXLINE( 787)					bool _hx_tmp;
-HXDLIN( 787)					if (::hx::IsNotNull( manifest->name )) {
-HXLINE( 787)						_hx_tmp = !(::openfl::utils::Assets_obj::hasLibrary(manifest->name));
+            					HX_GC_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_320_loader_onComplete)
+HXLINE( 321)					_gthis->_hx___library = ( ( ::openfl::utils::AssetLibrary)(library) );
+HXLINE( 322)					::openfl::utils::Assets_obj::registerLibrary(_gthis->contentLoaderInfo->url,_gthis->_hx___library);
+HXLINE( 324)					bool _hx_tmp;
+HXDLIN( 324)					if (::hx::IsNotNull( manifest->name )) {
+HXLINE( 324)						_hx_tmp = !(::openfl::utils::Assets_obj::hasLibrary(manifest->name));
             					}
             					else {
-HXLINE( 787)						_hx_tmp = false;
+HXLINE( 324)						_hx_tmp = false;
             					}
-HXDLIN( 787)					if (_hx_tmp) {
-HXLINE( 789)						::openfl::utils::Assets_obj::registerLibrary(manifest->name,_gthis->_hx___library);
+HXDLIN( 324)					if (_hx_tmp) {
+HXLINE( 326)						::openfl::utils::Assets_obj::registerLibrary(manifest->name,_gthis->_hx___library);
             					}
-HXLINE( 792)					 ::openfl::display::MovieClip clip = _gthis->_hx___library->getMovieClip(HX_("",00,00,00,00));
-HXLINE( 793)					 ::openfl::display::Loader _gthis1 = _gthis;
-HXDLIN( 793)					int _hx_tmp1 = ::Std_obj::_hx_int(clip->get_width());
-HXDLIN( 793)					_gthis1->_hx___setContent(clip,_hx_tmp1,::Std_obj::_hx_int(clip->get_height()));
-HXLINE( 795)					 ::openfl::display::LoaderInfo _gthis2 = _gthis->contentLoaderInfo;
-HXDLIN( 795)					_gthis2->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("complete",b9,00,c8,7f),null(),null()));
+HXLINE( 329)					 ::openfl::display::MovieClip clip = _gthis->_hx___library->getMovieClip(HX_("",00,00,00,00));
+HXLINE( 330)					 ::openfl::display::Loader _gthis1 = _gthis;
+HXDLIN( 330)					int _hx_tmp1 = ::Std_obj::_hx_int(clip->get_width());
+HXDLIN( 330)					_gthis1->_hx___setContent(clip,_hx_tmp1,::Std_obj::_hx_int(clip->get_height()));
+HXLINE( 332)					 ::openfl::display::LoaderInfo _gthis2 = _gthis->contentLoaderInfo;
+HXDLIN( 332)					_gthis2->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("complete",b9,00,c8,7f),null(),null()));
             				}
             				HX_END_LOCAL_FUNC1((void))
 
             				HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_1, ::openfl::display::Loader,_gthis) HXARGC(1)
             				void _hx_run(::String e){
-            					HX_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_798_loader_onComplete)
-HXLINE( 798)					_gthis->_hx___dispatchError(e);
+            					HX_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_335_loader_onComplete)
+HXLINE( 335)					_gthis->_hx___dispatchError(e);
             				}
             				HX_END_LOCAL_FUNC1((void))
 
-HXLINE( 782)				library->load()->onComplete( ::Dynamic(new _hx_Closure_0(manifest,_gthis,library)))->onError( ::Dynamic(new _hx_Closure_1(_gthis)));
+HXLINE( 319)				library->load()->onComplete( ::Dynamic(new _hx_Closure_0(manifest,_gthis,library)))->onError( ::Dynamic(new _hx_Closure_1(_gthis)));
             			}
             		}
             		else {
-HXLINE( 804)			bool _hx_tmp;
-HXDLIN( 804)			if (::hx::IsNotNull( this->contentLoaderInfo->contentType )) {
-HXLINE( 805)				if ((this->contentLoaderInfo->contentType.indexOf(HX_("/javascript",1c,04,67,9b),null()) <= -1)) {
-HXLINE( 804)					_hx_tmp = (this->contentLoaderInfo->contentType.indexOf(HX_("/ecmascript",ac,7b,0f,7d),null()) > -1);
+HXLINE( 341)			bool _hx_tmp;
+HXDLIN( 341)			if (::hx::IsNotNull( this->contentLoaderInfo->contentType )) {
+HXLINE( 342)				if ((this->contentLoaderInfo->contentType.indexOf(HX_("/javascript",1c,04,67,9b),null()) <= -1)) {
+HXLINE( 341)					_hx_tmp = (this->contentLoaderInfo->contentType.indexOf(HX_("/ecmascript",ac,7b,0f,7d),null()) > -1);
             				}
             				else {
-HXLINE( 804)					_hx_tmp = true;
+HXLINE( 341)					_hx_tmp = true;
             				}
             			}
             			else {
-HXLINE( 804)				_hx_tmp = false;
+HXLINE( 341)				_hx_tmp = false;
             			}
-HXDLIN( 804)			if (_hx_tmp) {
-HXLINE( 807)				this->_hx___setContent( ::openfl::display::Sprite_obj::__alloc( HX_CTX ),0,0);
-HXLINE( 817)				 ::openfl::display::LoaderInfo _hx_tmp = this->contentLoaderInfo;
-HXDLIN( 817)				_hx_tmp->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("complete",b9,00,c8,7f),null(),null()));
+HXDLIN( 341)			if (_hx_tmp) {
+HXLINE( 344)				this->_hx___setContent( ::openfl::display::Sprite_obj::__alloc( HX_CTX ),0,0);
+HXLINE( 354)				 ::openfl::display::LoaderInfo _hx_tmp = this->contentLoaderInfo;
+HXDLIN( 354)				_hx_tmp->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("complete",b9,00,c8,7f),null(),null()));
             			}
             			else {
-HXLINE( 821)				this->contentLoaderInfo->bytes = ( ( ::openfl::utils::ByteArrayData)(loader->data) );
-HXLINE( 822)				::openfl::display::BitmapData_obj::loadFromBytes(( ( ::openfl::utils::ByteArrayData)(loader->data) ),null())->onComplete(this->BitmapData_onLoad_dyn())->onError(this->BitmapData_onError_dyn());
+HXLINE( 358)				this->contentLoaderInfo->bytes = ( ( ::openfl::utils::ByteArrayData)(loader->data) );
+HXLINE( 359)				::openfl::display::BitmapData_obj::loadFromBytes(( ( ::openfl::utils::ByteArrayData)(loader->data) ),null())->onComplete(this->BitmapData_onLoad_dyn())->onError(this->BitmapData_onError_dyn());
             			}
             		}
             	}
@@ -532,18 +481,18 @@ HXLINE( 822)				::openfl::display::BitmapData_obj::loadFromBytes(( ( ::openfl::u
 HX_DEFINE_DYNAMIC_FUNC1(Loader_obj,loader_onComplete,(void))
 
 void Loader_obj::loader_onError( ::openfl::events::IOErrorEvent event){
-            	HX_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_827_loader_onError)
-HXLINE( 830)		event->target = this->contentLoaderInfo;
-HXLINE( 831)		this->contentLoaderInfo->dispatchEvent(event);
+            	HX_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_364_loader_onError)
+HXLINE( 367)		event->target = this->contentLoaderInfo;
+HXLINE( 368)		this->contentLoaderInfo->dispatchEvent(event);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Loader_obj,loader_onError,(void))
 
 void Loader_obj::loader_onProgress( ::openfl::events::ProgressEvent event){
-            	HX_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_835_loader_onProgress)
-HXLINE( 836)		event->target = this->contentLoaderInfo;
-HXLINE( 837)		this->contentLoaderInfo->dispatchEvent(event);
+            	HX_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_372_loader_onProgress)
+HXLINE( 373)		event->target = this->contentLoaderInfo;
+HXLINE( 374)		this->contentLoaderInfo->dispatchEvent(event);
             	}
 
 
@@ -607,26 +556,17 @@ void Loader_obj::__Visit(HX_VISIT_PARAMS)
 	case 7:
 		if (HX_FIELD_EQ(inName,"content") ) { return ::hx::Val( content ); }
 		break;
-	case 8:
-		if (HX_FIELD_EQ(inName,"addChild") ) { return ::hx::Val( addChild_dyn() ); }
-		break;
 	case 9:
 		if (HX_FIELD_EQ(inName,"__library") ) { return ::hx::Val( _hx___library ); }
 		if (HX_FIELD_EQ(inName,"loadBytes") ) { return ::hx::Val( loadBytes_dyn() ); }
 		break;
 	case 10:
 		if (HX_FIELD_EQ(inName,"__unloaded") ) { return ::hx::Val( _hx___unloaded ); }
-		if (HX_FIELD_EQ(inName,"addChildAt") ) { return ::hx::Val( addChildAt_dyn() ); }
-		break;
-	case 11:
-		if (HX_FIELD_EQ(inName,"removeChild") ) { return ::hx::Val( removeChild_dyn() ); }
 		break;
 	case 12:
 		if (HX_FIELD_EQ(inName,"__setContent") ) { return ::hx::Val( _hx___setContent_dyn() ); }
 		break;
 	case 13:
-		if (HX_FIELD_EQ(inName,"removeChildAt") ) { return ::hx::Val( removeChildAt_dyn() ); }
-		if (HX_FIELD_EQ(inName,"setChildIndex") ) { return ::hx::Val( setChildIndex_dyn() ); }
 		if (HX_FIELD_EQ(inName,"unloadAndStop") ) { return ::hx::Val( unloadAndStop_dyn() ); }
 		break;
 	case 14:
@@ -708,14 +648,9 @@ static ::String Loader_obj_sMemberFields[] = {
 	HX_("__library",db,77,be,c0),
 	HX_("__path",c5,48,4a,f9),
 	HX_("__unloaded",3e,ea,ee,fd),
-	HX_("addChild",bb,cf,16,bf),
-	HX_("addChildAt",8e,ad,36,ce),
 	HX_("close",b8,17,63,48),
 	HX_("load",26,9a,b7,47),
 	HX_("loadBytes",65,54,cf,d8),
-	HX_("removeChild",b8,86,ed,43),
-	HX_("removeChildAt",cb,dd,66,3f),
-	HX_("setChildIndex",18,4a,08,fe),
 	HX_("unload",ff,a0,8c,65),
 	HX_("unloadAndStop",3a,03,03,7a),
 	HX_("__dispatchError",8e,03,7c,4b),
@@ -756,8 +691,8 @@ void Loader_obj::__register()
 void Loader_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_89_boot)
-HXDLIN(  89)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
+            	HX_STACKFRAME(&_hx_pos_1b7c318d3e4ffa4a_29_boot)
+HXDLIN(  29)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
             			->setFixed(0,HX_("fields",79,8e,8e,80), ::Dynamic(::hx::Anon_obj::Create(1)
             				->setFixed(0,HX_("BitmapData_onError",83,7e,14,0a), ::Dynamic(::hx::Anon_obj::Create(1)
             					->setFixed(0,HX_("SuppressWarnings",0c,d3,d2,00),::cpp::VirtualArray_obj::__new(1)->init(0,HX_("checkstyle:Dynamic",ce,ea,47,3c))))))));

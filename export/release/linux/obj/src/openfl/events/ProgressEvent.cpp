@@ -8,15 +8,15 @@
 #include <openfl/events/ProgressEvent.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_b09527e17bebd012_89_new,"openfl.events.ProgressEvent","new",0xeed66288,"openfl.events.ProgressEvent.new","openfl/events/ProgressEvent.hx",89,0xea3bf808)
-HX_LOCAL_STACK_FRAME(_hx_pos_b09527e17bebd012_97_clone,"openfl.events.ProgressEvent","clone",0xca4c7f85,"openfl.events.ProgressEvent.clone","openfl/events/ProgressEvent.hx",97,0xea3bf808)
-HX_LOCAL_STACK_FRAME(_hx_pos_b09527e17bebd012_107_toString,"openfl.events.ProgressEvent","toString",0x8ba16d84,"openfl.events.ProgressEvent.toString","openfl/events/ProgressEvent.hx",107,0xea3bf808)
+HX_DEFINE_STACK_FRAME(_hx_pos_b09527e17bebd012_21_new,"openfl.events.ProgressEvent","new",0xeed66288,"openfl.events.ProgressEvent.new","openfl/events/ProgressEvent.hx",21,0xea3bf808)
+HX_LOCAL_STACK_FRAME(_hx_pos_b09527e17bebd012_29_clone,"openfl.events.ProgressEvent","clone",0xca4c7f85,"openfl.events.ProgressEvent.clone","openfl/events/ProgressEvent.hx",29,0xea3bf808)
+HX_LOCAL_STACK_FRAME(_hx_pos_b09527e17bebd012_39_toString,"openfl.events.ProgressEvent","toString",0x8ba16d84,"openfl.events.ProgressEvent.toString","openfl/events/ProgressEvent.hx",39,0xea3bf808)
 static const ::String _hx_array_data_cbc8be96_3[] = {
 	HX_("type",ba,f2,08,4d),HX_("bubbles",67,bb,56,61),HX_("cancelable",14,a0,79,c4),HX_("bytesLoaded",d0,66,ca,99),HX_("bytesTotal",59,57,da,45),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_b09527e17bebd012_111___init,"openfl.events.ProgressEvent","__init",0x1f08d508,"openfl.events.ProgressEvent.__init","openfl/events/ProgressEvent.hx",111,0xea3bf808)
-HX_LOCAL_STACK_FRAME(_hx_pos_b09527e17bebd012_35_boot,"openfl.events.ProgressEvent","boot",0x04d8d50a,"openfl.events.ProgressEvent.boot","openfl/events/ProgressEvent.hx",35,0xea3bf808)
-HX_LOCAL_STACK_FRAME(_hx_pos_b09527e17bebd012_51_boot,"openfl.events.ProgressEvent","boot",0x04d8d50a,"openfl.events.ProgressEvent.boot","openfl/events/ProgressEvent.hx",51,0xea3bf808)
+HX_LOCAL_STACK_FRAME(_hx_pos_b09527e17bebd012_43___init,"openfl.events.ProgressEvent","__init",0x1f08d508,"openfl.events.ProgressEvent.__init","openfl/events/ProgressEvent.hx",43,0xea3bf808)
+HX_LOCAL_STACK_FRAME(_hx_pos_b09527e17bebd012_11_boot,"openfl.events.ProgressEvent","boot",0x04d8d50a,"openfl.events.ProgressEvent.boot","openfl/events/ProgressEvent.hx",11,0xea3bf808)
+HX_LOCAL_STACK_FRAME(_hx_pos_b09527e17bebd012_12_boot,"openfl.events.ProgressEvent","boot",0x04d8d50a,"openfl.events.ProgressEvent.boot","openfl/events/ProgressEvent.hx",12,0xea3bf808)
 namespace openfl{
 namespace events{
 
@@ -25,10 +25,10 @@ void ProgressEvent_obj::__construct(::String type,::hx::Null< bool >  __o_bubble
             		bool cancelable = __o_cancelable.Default(false);
             		Float bytesLoaded = __o_bytesLoaded.Default(0);
             		Float bytesTotal = __o_bytesTotal.Default(0);
-            	HX_STACKFRAME(&_hx_pos_b09527e17bebd012_89_new)
-HXLINE(  90)		super::__construct(type,bubbles,cancelable);
-HXLINE(  92)		this->bytesLoaded = bytesLoaded;
-HXLINE(  93)		this->bytesTotal = bytesTotal;
+            	HX_STACKFRAME(&_hx_pos_b09527e17bebd012_21_new)
+HXLINE(  22)		super::__construct(type,bubbles,cancelable);
+HXLINE(  24)		this->bytesLoaded = bytesLoaded;
+HXLINE(  25)		this->bytesTotal = bytesTotal;
             	}
 
 Dynamic ProgressEvent_obj::__CreateEmpty() { return new ProgressEvent_obj; }
@@ -51,26 +51,26 @@ bool ProgressEvent_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::openfl::events::Event ProgressEvent_obj::clone(){
-            	HX_GC_STACKFRAME(&_hx_pos_b09527e17bebd012_97_clone)
-HXLINE(  98)		 ::openfl::events::ProgressEvent event =  ::openfl::events::ProgressEvent_obj::__alloc( HX_CTX ,this->type,this->bubbles,this->cancelable,this->bytesLoaded,this->bytesTotal);
-HXLINE(  99)		event->target = this->target;
-HXLINE( 100)		event->currentTarget = this->currentTarget;
-HXLINE( 101)		event->eventPhase = this->eventPhase;
-HXLINE( 102)		return event;
+            	HX_GC_STACKFRAME(&_hx_pos_b09527e17bebd012_29_clone)
+HXLINE(  30)		 ::openfl::events::ProgressEvent event =  ::openfl::events::ProgressEvent_obj::__alloc( HX_CTX ,this->type,this->bubbles,this->cancelable,this->bytesLoaded,this->bytesTotal);
+HXLINE(  31)		event->target = this->target;
+HXLINE(  32)		event->currentTarget = this->currentTarget;
+HXLINE(  33)		event->eventPhase = this->eventPhase;
+HXLINE(  34)		return event;
             	}
 
 
 ::String ProgressEvent_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_b09527e17bebd012_107_toString)
-HXDLIN( 107)		return this->_hx___formatToString(HX_("ProgressEvent",0d,9d,55,84),::Array_obj< ::String >::fromData( _hx_array_data_cbc8be96_3,5));
+            	HX_STACKFRAME(&_hx_pos_b09527e17bebd012_39_toString)
+HXDLIN(  39)		return this->_hx___formatToString(HX_("ProgressEvent",0d,9d,55,84),::Array_obj< ::String >::fromData( _hx_array_data_cbc8be96_3,5));
             	}
 
 
 void ProgressEvent_obj::_hx___init(){
-            	HX_STACKFRAME(&_hx_pos_b09527e17bebd012_111___init)
-HXLINE( 112)		this->super::_hx___init();
-HXLINE( 113)		this->bytesLoaded = ( (Float)(0) );
-HXLINE( 114)		this->bytesTotal = ( (Float)(0) );
+            	HX_STACKFRAME(&_hx_pos_b09527e17bebd012_43___init)
+HXLINE(  44)		this->super::_hx___init();
+HXLINE(  45)		this->bytesLoaded = ( (Float)(0) );
+HXLINE(  46)		this->bytesTotal = ( (Float)(0) );
             	}
 
 
@@ -208,12 +208,12 @@ void ProgressEvent_obj::__register()
 void ProgressEvent_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_b09527e17bebd012_35_boot)
-HXDLIN(  35)		PROGRESS = HX_("progress",ad,f7,2a,86);
+            	HX_STACKFRAME(&_hx_pos_b09527e17bebd012_11_boot)
+HXDLIN(  11)		PROGRESS = HX_("progress",ad,f7,2a,86);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_b09527e17bebd012_51_boot)
-HXDLIN(  51)		SOCKET_DATA = HX_("socketData",7d,63,de,b1);
+            	HX_STACKFRAME(&_hx_pos_b09527e17bebd012_12_boot)
+HXDLIN(  12)		SOCKET_DATA = HX_("socketData",7d,63,de,b1);
             	}
 }
 

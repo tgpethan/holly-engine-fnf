@@ -5,15 +5,15 @@
 #include <openfl/net/FileFilter.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_0860c5b2df24b64b_102_new,"openfl.net.FileFilter","new",0x526a6575,"openfl.net.FileFilter.new","openfl/net/FileFilter.hx",102,0x403301d9)
+HX_DEFINE_STACK_FRAME(_hx_pos_0860c5b2df24b64b_15_new,"openfl.net.FileFilter","new",0x526a6575,"openfl.net.FileFilter.new","openfl/net/FileFilter.hx",15,0x403301d9)
 namespace openfl{
 namespace net{
 
 void FileFilter_obj::__construct(::String description,::String extension,::String macType){
-            	HX_STACKFRAME(&_hx_pos_0860c5b2df24b64b_102_new)
-HXLINE( 103)		this->description = description;
-HXLINE( 104)		this->extension = extension;
-HXLINE( 105)		this->macType = macType;
+            	HX_STACKFRAME(&_hx_pos_0860c5b2df24b64b_15_new)
+HXLINE(  16)		this->description = description;
+HXLINE(  17)		this->extension = extension;
+HXLINE(  18)		this->macType = macType;
             	}
 
 Dynamic FileFilter_obj::__CreateEmpty() { return new FileFilter_obj; }

@@ -30,8 +30,8 @@
 #include <openfl/text/TextFormat.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_a7e04a5c6176ce66_35_new,"openfl.display.FPS","new",0xe5d2c231,"openfl.display.FPS.new","openfl/display/FPS.hx",35,0x584764e1)
-HX_LOCAL_STACK_FRAME(_hx_pos_a7e04a5c6176ce66_63___enterFrame,"openfl.display.FPS","__enterFrame",0xcd4a4b24,"openfl.display.FPS.__enterFrame","openfl/display/FPS.hx",63,0x584764e1)
+HX_DEFINE_STACK_FRAME(_hx_pos_a7e04a5c6176ce66_28_new,"openfl.display.FPS","new",0xe5d2c231,"openfl.display.FPS.new","openfl/display/FPS.hx",28,0x584764e1)
+HX_LOCAL_STACK_FRAME(_hx_pos_a7e04a5c6176ce66_56___enterFrame,"openfl.display.FPS","__enterFrame",0xcd4a4b24,"openfl.display.FPS.__enterFrame","openfl/display/FPS.hx",56,0x584764e1)
 namespace openfl{
 namespace display{
 
@@ -39,18 +39,18 @@ void FPS_obj::__construct(::hx::Null< Float >  __o_x,::hx::Null< Float >  __o_y,
             		Float x = __o_x.Default(10);
             		Float y = __o_y.Default(10);
             		int color = __o_color.Default(0);
-            	HX_GC_STACKFRAME(&_hx_pos_a7e04a5c6176ce66_35_new)
-HXLINE(  36)		super::__construct();
-HXLINE(  38)		this->set_x(x);
-HXLINE(  39)		this->set_y(y);
-HXLINE(  41)		this->currentFPS = 0;
-HXLINE(  42)		this->set_selectable(false);
-HXLINE(  43)		this->mouseEnabled = false;
-HXLINE(  44)		this->set_defaultTextFormat( ::openfl::text::TextFormat_obj::__alloc( HX_CTX ,HX_("_sans",32,a0,5e,ff),12,color,null(),null(),null(),null(),null(),null(),null(),null(),null(),null()));
-HXLINE(  45)		this->set_text(HX_("FPS: ",af,da,2c,83));
-HXLINE(  47)		this->cacheCount = 0;
-HXLINE(  48)		this->currentTime = ( (Float)(0) );
-HXLINE(  49)		this->times = ::Array_obj< Float >::__new(0);
+            	HX_GC_STACKFRAME(&_hx_pos_a7e04a5c6176ce66_28_new)
+HXLINE(  29)		super::__construct();
+HXLINE(  31)		this->set_x(x);
+HXLINE(  32)		this->set_y(y);
+HXLINE(  34)		this->currentFPS = 0;
+HXLINE(  35)		this->set_selectable(false);
+HXLINE(  36)		this->mouseEnabled = false;
+HXLINE(  37)		this->set_defaultTextFormat( ::openfl::text::TextFormat_obj::__alloc( HX_CTX ,HX_("_sans",32,a0,5e,ff),12,color,null(),null(),null(),null(),null(),null(),null(),null(),null(),null()));
+HXLINE(  38)		this->set_text(HX_("FPS: ",af,da,2c,83));
+HXLINE(  40)		this->cacheCount = 0;
+HXLINE(  41)		this->currentTime = ( (Float)(0) );
+HXLINE(  42)		this->times = ::Array_obj< Float >::__new(0);
             	}
 
 Dynamic FPS_obj::__CreateEmpty() { return new FPS_obj; }
@@ -81,20 +81,20 @@ bool FPS_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void FPS_obj::_hx___enterFrame(int _tmp_deltaTime){
-            	HX_STACKFRAME(&_hx_pos_a7e04a5c6176ce66_63___enterFrame)
-HXLINE(  64)		Float deltaTime = ( (Float)(_tmp_deltaTime) );
-HXDLIN(  64)		 ::openfl::display::FPS _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(  64)		_hx_tmp->currentTime = (_hx_tmp->currentTime + deltaTime);
-HXLINE(  65)		this->times->push(this->currentTime);
-HXLINE(  67)		while((this->times->__get(0) < (this->currentTime - ( (Float)(1000) )))){
-HXLINE(  69)			this->times->shift();
+            	HX_STACKFRAME(&_hx_pos_a7e04a5c6176ce66_56___enterFrame)
+HXLINE(  57)		Float deltaTime = ( (Float)(_tmp_deltaTime) );
+HXDLIN(  57)		 ::openfl::display::FPS _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(  57)		_hx_tmp->currentTime = (_hx_tmp->currentTime + deltaTime);
+HXLINE(  58)		this->times->push(this->currentTime);
+HXLINE(  60)		while((this->times->__get(0) < (this->currentTime - ( (Float)(1000) )))){
+HXLINE(  62)			this->times->shift();
             		}
-HXLINE(  72)		int currentCount = this->times->length;
-HXLINE(  73)		this->currentFPS = ::Math_obj::round((( (Float)((currentCount + this->cacheCount)) ) / ( (Float)(2) )));
-HXLINE(  75)		if ((currentCount != this->cacheCount)) {
-HXLINE(  77)			this->set_text((HX_("FPS: ",af,da,2c,83) + this->currentFPS));
+HXLINE(  65)		int currentCount = this->times->length;
+HXLINE(  66)		this->currentFPS = ::Math_obj::round((( (Float)((currentCount + this->cacheCount)) ) / ( (Float)(2) )));
+HXLINE(  68)		if ((currentCount != this->cacheCount)) {
+HXLINE(  70)			this->set_text((HX_("FPS: ",af,da,2c,83) + this->currentFPS));
             		}
-HXLINE(  86)		this->cacheCount = currentCount;
+HXLINE(  79)		this->cacheCount = currentCount;
             	}
 
 

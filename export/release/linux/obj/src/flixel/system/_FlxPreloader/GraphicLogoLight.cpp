@@ -32,7 +32,7 @@
 #include <openfl/utils/_ByteArray/ByteArray_Impl_.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_1650a94bdf7fa7ef_47_new,"flixel.system._FlxPreloader.GraphicLogoLight","new",0xeb15e96d,"flixel.system._FlxPreloader.GraphicLogoLight.new","openfl/utils/_internal/AssetsMacro.hx",47,0xfdd54705)
+HX_DEFINE_STACK_FRAME(_hx_pos_abdce87bcbe20abd_47_new,"flixel.system._FlxPreloader.GraphicLogoLight","new",0xeb15e96d,"flixel.system._FlxPreloader.GraphicLogoLight.new","openfl/_internal/macros/AssetsMacro.hx",47,0xf7db08ab)
 HX_LOCAL_STACK_FRAME(_hx_pos_2c59a9ade474181c_13_boot,"flixel.system._FlxPreloader.GraphicLogoLight","boot",0xc02f5685,"flixel.system._FlxPreloader.GraphicLogoLight.boot","flixel/system/FlxPreloader.hx",13,0xf0599dad)
 namespace flixel{
 namespace _hx_system{
@@ -43,7 +43,7 @@ void GraphicLogoLight_obj::__construct(int width,int height, ::Dynamic __o_trans
             		if (::hx::IsNull(__o_transparent)) transparent = true;
             		 ::Dynamic fillRGBA = __o_fillRGBA;
             		if (::hx::IsNull(__o_fillRGBA)) fillRGBA = -1;
-            	HX_STACKFRAME(&_hx_pos_1650a94bdf7fa7ef_47_new)
+            	HX_STACKFRAME(&_hx_pos_abdce87bcbe20abd_47_new)
 HXLINE(  71)		super::__construct(0,0,transparent,fillRGBA);
 HXLINE(  73)		 ::openfl::utils::ByteArrayData byteArray = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(::haxe::Resource_obj::getBytes(::flixel::_hx_system::_FlxPreloader::GraphicLogoLight_obj::resourceName));
 HXLINE(  74)		{

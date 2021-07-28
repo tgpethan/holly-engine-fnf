@@ -17,16 +17,16 @@
 #include <openfl/geom/Matrix.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_79031d3822cc8bac_67_new,"openfl.display.GraphicsShaderFill","new",0x84d6634f,"openfl.display.GraphicsShaderFill.new","openfl/display/GraphicsShaderFill.hx",67,0xed3e46bf)
+HX_DEFINE_STACK_FRAME(_hx_pos_79031d3822cc8bac_21_new,"openfl.display.GraphicsShaderFill","new",0x84d6634f,"openfl.display.GraphicsShaderFill.new","openfl/display/GraphicsShaderFill.hx",21,0xed3e46bf)
 namespace openfl{
 namespace display{
 
 void GraphicsShaderFill_obj::__construct( ::openfl::display::Shader shader, ::openfl::geom::Matrix matrix){
-            	HX_STACKFRAME(&_hx_pos_79031d3822cc8bac_67_new)
-HXLINE(  68)		this->shader = shader;
-HXLINE(  69)		this->matrix = matrix;
-HXLINE(  71)		this->_hx___graphicsDataType = 8;
-HXLINE(  72)		this->_hx___graphicsFillType = 4;
+            	HX_STACKFRAME(&_hx_pos_79031d3822cc8bac_21_new)
+HXLINE(  22)		this->shader = shader;
+HXLINE(  23)		this->matrix = matrix;
+HXLINE(  25)		this->_hx___graphicsDataType = 8;
+HXLINE(  26)		this->_hx___graphicsFillType = 4;
             	}
 
 Dynamic GraphicsShaderFill_obj::__CreateEmpty() { return new GraphicsShaderFill_obj; }

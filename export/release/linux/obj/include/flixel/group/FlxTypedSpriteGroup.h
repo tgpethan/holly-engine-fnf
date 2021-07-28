@@ -119,7 +119,7 @@ class HXCPP_CLASS_ATTRIBUTES FlxTypedSpriteGroup_obj : public  ::flixel::FlxSpri
 		void preAdd( ::Dynamic Sprite);
 		::Dynamic preAdd_dyn();
 
-		 ::Dynamic recycle(::hx::Class ObjectClass, ::Dynamic ObjectFactory,::hx::Null< bool >  Force,::hx::Null< bool >  Revive);
+		 ::Dynamic recycle(::hx::Class ObjectClass, ::Dynamic ObjectFactory,::hx::Null< bool >  Force);
 		::Dynamic recycle_dyn();
 
 		virtual  ::Dynamic remove( ::Dynamic Sprite,::hx::Null< bool >  Splice);

@@ -105,12 +105,6 @@ class HXCPP_CLASS_ATTRIBUTES FlxTween_obj : public ::hx::Object
 		static  ::flixel::tweens::motion::QuadPath quadPath( ::flixel::FlxObject Object,::Array< ::Dynamic> Points,::hx::Null< Float >  DurationOrSpeed,::hx::Null< bool >  UseDuration, ::Dynamic Options);
 		static ::Dynamic quadPath_dyn();
 
-		static void cancelTweensOf( ::Dynamic Object,::Array< ::String > FieldPaths);
-		static ::Dynamic cancelTweensOf_dyn();
-
-		static void completeTweensOf( ::Dynamic Object,::Array< ::String > FieldPaths);
-		static ::Dynamic completeTweensOf_dyn();
-
 		 ::flixel::tweens::FlxTweenManager manager;
 		bool active;
 		Float duration;
@@ -182,9 +176,6 @@ class HXCPP_CLASS_ATTRIBUTES FlxTween_obj : public ::hx::Object
 
 		void restart();
 		::Dynamic restart_dyn();
-
-		virtual bool isTweenOf( ::Dynamic Object,::String Field);
-		::Dynamic isTweenOf_dyn();
 
 		 ::flixel::tweens::FlxTween setDelays( ::Dynamic StartDelay, ::Dynamic LoopDelay);
 		::Dynamic setDelays_dyn();

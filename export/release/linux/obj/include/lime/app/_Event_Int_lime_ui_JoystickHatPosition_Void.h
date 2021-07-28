@@ -59,9 +59,6 @@ class HXCPP_CLASS_ATTRIBUTES _Event_Int_lime_ui_JoystickHatPosition_Void_obj : p
 		void remove( ::Dynamic listener);
 		::Dynamic remove_dyn();
 
-		void removeAll();
-		::Dynamic removeAll_dyn();
-
 		::Array< ::Dynamic> _hx___listeners;
 		void dispatch(int a,int a1);
 		::Dynamic dispatch_dyn();

@@ -166,7 +166,7 @@ HXLINE( 116)			::ApplicationMain_obj::start(stage);
             	HX_GC_STACKFRAME(&_hx_pos_6fcf922b66429816_30_create)
 HXLINE(  31)		 ::openfl::display::Application app =  ::openfl::display::Application_obj::__alloc( HX_CTX );
 HXLINE(  33)		::ManifestResources_obj::init(config);
-HXLINE(  35)		app->meta->set(HX_("build",2e,db,ea,ba),HX_("1",31,00,00,00));
+HXLINE(  35)		app->meta->set(HX_("build",2e,db,ea,ba),HX_("3",33,00,00,00));
 HXLINE(  36)		app->meta->set(HX_("company",3d,15,69,83),HX_("ninjamuffin99",f7,4c,e5,00));
 HXLINE(  37)		app->meta->set(HX_("file",7c,ce,bb,43),HX_("Funkin",51,26,e4,a3));
 HXLINE(  38)		app->meta->set(HX_("name",4b,72,ff,48),HX_("Friday Night Funkin'",6d,d3,c2,da));
@@ -222,7 +222,7 @@ HXLINE(  99)		Dynamic( app->createWindow(attributes)).StaticCast<  ::openfl::dis
 HXLINE( 106)		 ::openfl::display::Preloader preloader =  ::openfl::display::Preloader_obj::__alloc( HX_CTX , ::flixel::_hx_system::FlxPreloader_obj::__alloc( HX_CTX ,null(),null()));
 HXLINE( 107)		app->_hx___preloader->onProgress->add( ::Dynamic(new _hx_Closure_0(preloader)),null(),null());
 HXLINE( 111)		app->_hx___preloader->onComplete->add( ::Dynamic(new _hx_Closure_1(preloader)),null(),null());
-HXLINE( 116)		 ::openfl::display::Stage stage = ( ( ::openfl::display::Window)(app->_hx___window) )->stage;
+HXLINE( 116)		 ::openfl::display::Stage stage = app->_hx___window->stage;
 HXDLIN( 116)		 ::Dynamic _hx_tmp =  ::Dynamic(new _hx_Closure_2(stage));
 HXDLIN( 116)		preloader->onComplete->add(_hx_tmp,null(),null());
 HXLINE( 118)		{

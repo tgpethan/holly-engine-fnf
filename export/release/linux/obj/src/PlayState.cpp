@@ -519,8 +519,8 @@ HXDLIN( 125)			 ::flixel::FlxCamera _hx_tmp1 = this->camHUD;
 HXDLIN( 125)			_hx_tmp1->bgColor = (_hx_tmp1->bgColor | 0);
             		}
 HXLINE( 127)		::flixel::FlxG_obj::cameras->reset(this->camGame);
-HXLINE( 128)		::flixel::FlxG_obj::cameras->add(this->camHUD,null()).StaticCast<  ::flixel::FlxCamera >();
-HXLINE( 131)		::flixel::FlxCamera_obj::_defaultCameras = ::Array_obj< ::Dynamic>::__new(1)->init(0,this->camGame);
+HXLINE( 128)		::flixel::FlxG_obj::cameras->add(this->camHUD).StaticCast<  ::flixel::FlxCamera >();
+HXLINE( 131)		::flixel::FlxCamera_obj::defaultCameras = ::Array_obj< ::Dynamic>::__new(1)->init(0,this->camGame);
 HXLINE( 133)		this->persistentUpdate = true;
 HXLINE( 134)		this->persistentDraw = true;
 HXLINE( 136)		if (::hx::IsNull( ::PlayState_obj::SONG )) {

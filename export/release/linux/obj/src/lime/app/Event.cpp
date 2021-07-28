@@ -13,7 +13,6 @@ HX_LOCAL_STACK_FRAME(_hx_pos_0b5c7580c5ba99fe_58_add,"lime.app.Event","add",0xaf
 HX_LOCAL_STACK_FRAME(_hx_pos_0b5c7580c5ba99fe_82_cancel,"lime.app.Event","cancel",0xfb4b3cd4,"lime.app.Event.cancel","lime/app/Event.hx",82,0xbda45bec)
 HX_LOCAL_STACK_FRAME(_hx_pos_0b5c7580c5ba99fe_127_has,"lime.app.Event","has",0xaf3433c0,"lime.app.Event.has","lime/app/Event.hx",127,0xbda45bec)
 HX_LOCAL_STACK_FRAME(_hx_pos_0b5c7580c5ba99fe_143_remove,"lime.app.Event","remove",0x479feb9e,"lime.app.Event.remove","lime/app/Event.hx",143,0xbda45bec)
-HX_LOCAL_STACK_FRAME(_hx_pos_0b5c7580c5ba99fe_163_removeAll,"lime.app.Event","removeAll",0xc3865c23,"lime.app.Event.removeAll","lime/app/Event.hx",163,0xbda45bec)
 namespace lime{
 namespace app{
 
@@ -113,17 +112,6 @@ HXLINE( 153)				this->_hx___repeat->removeRange(i,1);
 
 HX_DEFINE_DYNAMIC_FUNC1(Event_obj,remove,(void))
 
-void Event_obj::removeAll(){
-            	HX_STACKFRAME(&_hx_pos_0b5c7580c5ba99fe_163_removeAll)
-HXLINE( 165)		int len = this->_hx___listeners->get_length();
-HXLINE( 167)		this->_hx___listeners->splice(0,len);
-HXLINE( 168)		this->_hx___priorities->removeRange(0,len);
-HXLINE( 169)		this->_hx___repeat->removeRange(0,len);
-            	}
-
-
-HX_DEFINE_DYNAMIC_FUNC0(Event_obj,removeAll,(void))
-
 
 ::hx::ObjectPtr< Event_obj > Event_obj::__new() {
 	::hx::ObjectPtr< Event_obj > __this = new Event_obj();
@@ -177,9 +165,6 @@ void Event_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"canceled") ) { return ::hx::Val( canceled ); }
 		if (HX_FIELD_EQ(inName,"__repeat") ) { return ::hx::Val( _hx___repeat ); }
 		if (HX_FIELD_EQ(inName,"dispatch") ) { return ::hx::Val( dispatch ); }
-		break;
-	case 9:
-		if (HX_FIELD_EQ(inName,"removeAll") ) { return ::hx::Val( removeAll_dyn() ); }
 		break;
 	case 11:
 		if (HX_FIELD_EQ(inName,"__listeners") ) { return ::hx::Val( _hx___listeners ); }
@@ -239,7 +224,6 @@ static ::String Event_obj_sMemberFields[] = {
 	HX_("dispatch",ba,ce,63,1e),
 	HX_("has",5a,3f,4f,00),
 	HX_("remove",44,9c,88,04),
-	HX_("removeAll",3d,17,e5,ca),
 	::String(null()) };
 
 ::hx::Class Event_obj::__mClass;

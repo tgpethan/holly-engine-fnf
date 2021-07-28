@@ -14,9 +14,6 @@ HX_DECLARE_CLASS1(flixel,FlxState)
 HX_DECLARE_CLASS1(flixel,FlxSubState)
 HX_DECLARE_CLASS2(flixel,group,FlxTypedGroup)
 HX_DECLARE_CLASS2(flixel,util,IFlxDestroyable)
-HX_DECLARE_CLASS2(flixel,util,IFlxSignal)
-HX_DECLARE_CLASS3(flixel,util,_FlxSignal,FlxBaseSignal)
-HX_DECLARE_CLASS3(flixel,util,_FlxSignal,FlxSignal1)
 
 namespace flixel{
 
@@ -59,8 +56,6 @@ class HXCPP_CLASS_ATTRIBUTES FlxState_obj : public  ::flixel::group::FlxTypedGro
 		 ::flixel::FlxSubState subState;
 		 ::flixel::FlxSubState _requestedSubState;
 		bool _requestSubStateReset;
-		 ::flixel::util::_FlxSignal::FlxSignal1 _subStateOpened;
-		 ::flixel::util::_FlxSignal::FlxSignal1 _subStateClosed;
 		virtual void create();
 		::Dynamic create_dyn();
 
@@ -97,12 +92,6 @@ class HXCPP_CLASS_ATTRIBUTES FlxState_obj : public  ::flixel::group::FlxTypedGro
 
 		virtual int set_bgColor(int Value);
 		::Dynamic set_bgColor_dyn();
-
-		 ::flixel::util::_FlxSignal::FlxSignal1 get_subStateOpened();
-		::Dynamic get_subStateOpened_dyn();
-
-		 ::flixel::util::_FlxSignal::FlxSignal1 get_subStateClosed();
-		::Dynamic get_subStateClosed_dyn();
 
 };
 

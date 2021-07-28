@@ -86,19 +86,13 @@ class HXCPP_CLASS_ATTRIBUTES FlxCamera_obj : public  ::flixel::FlxBasic_obj
 
 		static void __boot();
 		static Float defaultZoom;
-		static ::Array< ::Dynamic> _defaultCameras;
+		static ::Array< ::Dynamic> defaultCameras;
 		static  ::flixel::graphics::tile::FlxDrawQuadsItem _storageTilesHead;
 		static  ::flixel::graphics::tile::FlxDrawTrianglesItem _storageTrianglesHead;
 		static  ::openfl::_Vector::FloatVector drawVertices;
 		static  ::openfl::display::Sprite trianglesSprite;
 		static  ::flixel::math::FlxPoint renderPoint;
 		static  ::flixel::math::FlxRect renderRect;
-		static ::Array< ::Dynamic> get_defaultCameras();
-		static ::Dynamic get_defaultCameras_dyn();
-
-		static ::Array< ::Dynamic> set_defaultCameras(::Array< ::Dynamic> value);
-		static ::Dynamic set_defaultCameras_dyn();
-
 		Float x;
 		Float y;
 		Float scaleX;

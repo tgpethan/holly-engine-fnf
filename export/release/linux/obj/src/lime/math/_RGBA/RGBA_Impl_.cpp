@@ -21,24 +21,24 @@
 #include <openfl/_Vector/IntVector.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_7fcfbbd74e9c398a_51___init__,"::lime::math::_RGBA::RGBA_Impl__obj","__init__",0x1ae221dc,"::lime::math::_RGBA::RGBA_Impl__obj.__init__","lime/math/RGBA.hx",51,0x0518ba7d)
-HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_104__new,"lime.math._RGBA.RGBA_Impl_","_new",0x44207173,"lime.math._RGBA.RGBA_Impl_._new","lime/math/RGBA.hx",104,0x0518ba7d)
-HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_118_create,"lime.math._RGBA.RGBA_Impl_","create",0xc92d6b8e,"lime.math._RGBA.RGBA_Impl_.create","lime/math/RGBA.hx",118,0x0518ba7d)
-HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_129_multiplyAlpha,"lime.math._RGBA.RGBA_Impl_","multiplyAlpha",0x864c8448,"lime.math._RGBA.RGBA_Impl_.multiplyAlpha","lime/math/RGBA.hx",129,0x0518ba7d)
-HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_151_readUInt8,"lime.math._RGBA.RGBA_Impl_","readUInt8",0x9e5b3ef6,"lime.math._RGBA.RGBA_Impl_.readUInt8","lime/math/RGBA.hx",151,0x0518ba7d)
-HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_179_set,"lime.math._RGBA.RGBA_Impl_","set",0x1878e7d0,"lime.math._RGBA.RGBA_Impl_.set","lime/math/RGBA.hx",179,0x0518ba7d)
-HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_187_unmultiplyAlpha,"lime.math._RGBA.RGBA_Impl_","unmultiplyAlpha",0x1c10a1cf,"lime.math._RGBA.RGBA_Impl_.unmultiplyAlpha","lime/math/RGBA.hx",187,0x0518ba7d)
-HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_202_writeUInt8,"lime.math._RGBA.RGBA_Impl_","writeUInt8",0x0228ffb1,"lime.math._RGBA.RGBA_Impl_.writeUInt8","lime/math/RGBA.hx",202,0x0518ba7d)
-HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_232___fromARGB,"lime.math._RGBA.RGBA_Impl_","__fromARGB",0x20512068,"lime.math._RGBA.RGBA_Impl_.__fromARGB","lime/math/RGBA.hx",232,0x0518ba7d)
-HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_237___fromBGRA,"lime.math._RGBA.RGBA_Impl_","__fromBGRA",0x20f207d0,"lime.math._RGBA.RGBA_Impl_.__fromBGRA","lime/math/RGBA.hx",237,0x0518ba7d)
-HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_243_get_a,"lime.math._RGBA.RGBA_Impl_","get_a",0xed8fd8e6,"lime.math._RGBA.RGBA_Impl_.get_a","lime/math/RGBA.hx",243,0x0518ba7d)
-HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_247_set_a,"lime.math._RGBA.RGBA_Impl_","set_a",0xd65ecef2,"lime.math._RGBA.RGBA_Impl_.set_a","lime/math/RGBA.hx",247,0x0518ba7d)
-HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_254_get_b,"lime.math._RGBA.RGBA_Impl_","get_b",0xed8fd8e7,"lime.math._RGBA.RGBA_Impl_.get_b","lime/math/RGBA.hx",254,0x0518ba7d)
-HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_258_set_b,"lime.math._RGBA.RGBA_Impl_","set_b",0xd65ecef3,"lime.math._RGBA.RGBA_Impl_.set_b","lime/math/RGBA.hx",258,0x0518ba7d)
-HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_265_get_g,"lime.math._RGBA.RGBA_Impl_","get_g",0xed8fd8ec,"lime.math._RGBA.RGBA_Impl_.get_g","lime/math/RGBA.hx",265,0x0518ba7d)
-HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_269_set_g,"lime.math._RGBA.RGBA_Impl_","set_g",0xd65ecef8,"lime.math._RGBA.RGBA_Impl_.set_g","lime/math/RGBA.hx",269,0x0518ba7d)
-HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_276_get_r,"lime.math._RGBA.RGBA_Impl_","get_r",0xed8fd8f7,"lime.math._RGBA.RGBA_Impl_.get_r","lime/math/RGBA.hx",276,0x0518ba7d)
-HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_280_set_r,"lime.math._RGBA.RGBA_Impl_","set_r",0xd65ecf03,"lime.math._RGBA.RGBA_Impl_.set_r","lime/math/RGBA.hx",280,0x0518ba7d)
+HX_LOCAL_STACK_FRAME(_hx_pos_7fcfbbd74e9c398a_50___init__,"::lime::math::_RGBA::RGBA_Impl__obj","__init__",0x1ae221dc,"::lime::math::_RGBA::RGBA_Impl__obj.__init__","lime/math/RGBA.hx",50,0x0518ba7d)
+HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_103__new,"lime.math._RGBA.RGBA_Impl_","_new",0x44207173,"lime.math._RGBA.RGBA_Impl_._new","lime/math/RGBA.hx",103,0x0518ba7d)
+HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_117_create,"lime.math._RGBA.RGBA_Impl_","create",0xc92d6b8e,"lime.math._RGBA.RGBA_Impl_.create","lime/math/RGBA.hx",117,0x0518ba7d)
+HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_128_multiplyAlpha,"lime.math._RGBA.RGBA_Impl_","multiplyAlpha",0x864c8448,"lime.math._RGBA.RGBA_Impl_.multiplyAlpha","lime/math/RGBA.hx",128,0x0518ba7d)
+HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_150_readUInt8,"lime.math._RGBA.RGBA_Impl_","readUInt8",0x9e5b3ef6,"lime.math._RGBA.RGBA_Impl_.readUInt8","lime/math/RGBA.hx",150,0x0518ba7d)
+HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_178_set,"lime.math._RGBA.RGBA_Impl_","set",0x1878e7d0,"lime.math._RGBA.RGBA_Impl_.set","lime/math/RGBA.hx",178,0x0518ba7d)
+HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_186_unmultiplyAlpha,"lime.math._RGBA.RGBA_Impl_","unmultiplyAlpha",0x1c10a1cf,"lime.math._RGBA.RGBA_Impl_.unmultiplyAlpha","lime/math/RGBA.hx",186,0x0518ba7d)
+HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_201_writeUInt8,"lime.math._RGBA.RGBA_Impl_","writeUInt8",0x0228ffb1,"lime.math._RGBA.RGBA_Impl_.writeUInt8","lime/math/RGBA.hx",201,0x0518ba7d)
+HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_231___fromARGB,"lime.math._RGBA.RGBA_Impl_","__fromARGB",0x20512068,"lime.math._RGBA.RGBA_Impl_.__fromARGB","lime/math/RGBA.hx",231,0x0518ba7d)
+HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_236___fromBGRA,"lime.math._RGBA.RGBA_Impl_","__fromBGRA",0x20f207d0,"lime.math._RGBA.RGBA_Impl_.__fromBGRA","lime/math/RGBA.hx",236,0x0518ba7d)
+HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_242_get_a,"lime.math._RGBA.RGBA_Impl_","get_a",0xed8fd8e6,"lime.math._RGBA.RGBA_Impl_.get_a","lime/math/RGBA.hx",242,0x0518ba7d)
+HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_246_set_a,"lime.math._RGBA.RGBA_Impl_","set_a",0xd65ecef2,"lime.math._RGBA.RGBA_Impl_.set_a","lime/math/RGBA.hx",246,0x0518ba7d)
+HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_253_get_b,"lime.math._RGBA.RGBA_Impl_","get_b",0xed8fd8e7,"lime.math._RGBA.RGBA_Impl_.get_b","lime/math/RGBA.hx",253,0x0518ba7d)
+HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_257_set_b,"lime.math._RGBA.RGBA_Impl_","set_b",0xd65ecef3,"lime.math._RGBA.RGBA_Impl_.set_b","lime/math/RGBA.hx",257,0x0518ba7d)
+HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_264_get_g,"lime.math._RGBA.RGBA_Impl_","get_g",0xed8fd8ec,"lime.math._RGBA.RGBA_Impl_.get_g","lime/math/RGBA.hx",264,0x0518ba7d)
+HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_268_set_g,"lime.math._RGBA.RGBA_Impl_","set_g",0xd65ecef8,"lime.math._RGBA.RGBA_Impl_.set_g","lime/math/RGBA.hx",268,0x0518ba7d)
+HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_275_get_r,"lime.math._RGBA.RGBA_Impl_","get_r",0xed8fd8f7,"lime.math._RGBA.RGBA_Impl_.get_r","lime/math/RGBA.hx",275,0x0518ba7d)
+HX_LOCAL_STACK_FRAME(_hx_pos_d0d9611196b7dff8_279_set_r,"lime.math._RGBA.RGBA_Impl_","set_r",0xd65ecf03,"lime.math._RGBA.RGBA_Impl_.set_r","lime/math/RGBA.hx",279,0x0518ba7d)
 namespace lime{
 namespace math{
 namespace _RGBA{
@@ -61,53 +61,53 @@ bool RGBA_Impl__obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void RGBA_Impl__obj::__init__(){
-            	HX_GC_STACKFRAME(&_hx_pos_7fcfbbd74e9c398a_51___init__)
-HXLINE(  55)		 ::haxe::io::Bytes buffer = null();
-HXDLIN(  55)		::cpp::VirtualArray array = null();
-HXDLIN(  55)		 ::openfl::_Vector::IntVector vector = null();
-HXDLIN(  55)		 ::lime::utils::ArrayBufferView view = null();
-HXDLIN(  55)		 ::Dynamic len = null();
-HXDLIN(  55)		 ::lime::utils::ArrayBufferView this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,256,7);
-HXDLIN(  55)		::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16 = this1;
-HXLINE(  57)		{
-HXLINE(  57)			int _g = 0;
-HXDLIN(  57)			while((_g < 256)){
-HXLINE(  57)				_g = (_g + 1);
-HXDLIN(  57)				int i = (_g - 1);
-HXLINE(  59)				{
-HXLINE(  59)					 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
-HXDLIN(  59)					int val = ::Math_obj::ceil((( (Float)(i) ) * ((Float)257.003921568627447)));
-HXDLIN(  59)					 ::__hxcpp_memory_set_ui32(this1->buffer->b,(this1->byteOffset + (i * 4)),val);
+            	HX_GC_STACKFRAME(&_hx_pos_7fcfbbd74e9c398a_50___init__)
+HXLINE(  54)		 ::haxe::io::Bytes buffer = null();
+HXDLIN(  54)		::cpp::VirtualArray array = null();
+HXDLIN(  54)		 ::openfl::_Vector::IntVector vector = null();
+HXDLIN(  54)		 ::lime::utils::ArrayBufferView view = null();
+HXDLIN(  54)		 ::Dynamic len = null();
+HXDLIN(  54)		 ::lime::utils::ArrayBufferView this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,256,7);
+HXDLIN(  54)		::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16 = this1;
+HXLINE(  56)		{
+HXLINE(  56)			int _g = 0;
+HXDLIN(  56)			while((_g < 256)){
+HXLINE(  56)				_g = (_g + 1);
+HXDLIN(  56)				int i = (_g - 1);
+HXLINE(  58)				{
+HXLINE(  58)					 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
+HXDLIN(  58)					int val = ::Math_obj::ceil((( (Float)(i) ) * ((Float)257.003921568627447)));
+HXDLIN(  58)					 ::__hxcpp_memory_set_ui32(this1->buffer->b,(this1->byteOffset + (i * 4)),val);
             				}
             			}
             		}
-HXLINE(  62)		 ::haxe::io::Bytes buffer1 = null();
-HXDLIN(  62)		::cpp::VirtualArray array1 = null();
-HXDLIN(  62)		 ::openfl::_Vector::IntVector vector1 = null();
-HXDLIN(  62)		 ::lime::utils::ArrayBufferView view1 = null();
-HXDLIN(  62)		 ::Dynamic len1 = null();
-HXDLIN(  62)		 ::lime::utils::ArrayBufferView this2 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,511,4);
-HXDLIN(  62)		::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp = this2;
-HXLINE(  64)		{
-HXLINE(  64)			int _g1 = 0;
-HXDLIN(  64)			while((_g1 < 255)){
-HXLINE(  64)				_g1 = (_g1 + 1);
-HXDLIN(  64)				int i = (_g1 - 1);
-HXLINE(  66)				{
-HXLINE(  66)					 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN(  66)					 ::__hxcpp_memory_set_byte(this1->buffer->b,(this1->byteOffset + i),i);
+HXLINE(  61)		 ::haxe::io::Bytes buffer1 = null();
+HXDLIN(  61)		::cpp::VirtualArray array1 = null();
+HXDLIN(  61)		 ::openfl::_Vector::IntVector vector1 = null();
+HXDLIN(  61)		 ::lime::utils::ArrayBufferView view1 = null();
+HXDLIN(  61)		 ::Dynamic len1 = null();
+HXDLIN(  61)		 ::lime::utils::ArrayBufferView this2 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,511,4);
+HXDLIN(  61)		::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp = this2;
+HXLINE(  63)		{
+HXLINE(  63)			int _g1 = 0;
+HXDLIN(  63)			while((_g1 < 255)){
+HXLINE(  63)				_g1 = (_g1 + 1);
+HXDLIN(  63)				int i = (_g1 - 1);
+HXLINE(  65)				{
+HXLINE(  65)					 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN(  65)					 ::__hxcpp_memory_set_byte(this1->buffer->b,(this1->byteOffset + i),i);
             				}
             			}
             		}
-HXLINE(  69)		{
-HXLINE(  69)			int _g2 = 255;
-HXDLIN(  69)			int _g3 = 511;
-HXDLIN(  69)			while((_g2 < _g3)){
-HXLINE(  69)				_g2 = (_g2 + 1);
-HXDLIN(  69)				int i = (_g2 - 1);
-HXLINE(  71)				{
-HXLINE(  71)					 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN(  71)					 ::__hxcpp_memory_set_byte(this1->buffer->b,(this1->byteOffset + i),255);
+HXLINE(  68)		{
+HXLINE(  68)			int _g2 = 255;
+HXDLIN(  68)			int _g3 = 511;
+HXDLIN(  68)			while((_g2 < _g3)){
+HXLINE(  68)				_g2 = (_g2 + 1);
+HXDLIN(  68)				int i = (_g2 - 1);
+HXLINE(  70)				{
+HXLINE(  70)					 ::lime::utils::ArrayBufferView this1 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN(  70)					 ::__hxcpp_memory_set_byte(this1->buffer->b,(this1->byteOffset + i),255);
             				}
             			}
             		}
@@ -124,37 +124,37 @@ Float RGBA_Impl__obj::unmult;
 
 int RGBA_Impl__obj::_new(::hx::Null< int >  __o_rgba){
             		int rgba = __o_rgba.Default(0);
-            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_104__new)
-HXDLIN( 104)		int this1 = rgba;
-HXDLIN( 104)		return this1;
+            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_103__new)
+HXDLIN( 103)		int this1 = rgba;
+HXDLIN( 103)		return this1;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(RGBA_Impl__obj,_new,return )
 
 int RGBA_Impl__obj::create(int r,int g,int b,int a){
-            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_118_create)
-HXLINE( 119)		int this1 = 0;
-HXDLIN( 119)		int rgba = this1;
-HXLINE( 120)		rgba = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (a & 255));
-HXLINE( 121)		return rgba;
+            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_117_create)
+HXLINE( 118)		int this1 = 0;
+HXDLIN( 118)		int rgba = this1;
+HXLINE( 119)		rgba = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (a & 255));
+HXLINE( 120)		return rgba;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC4(RGBA_Impl__obj,create,return )
 
 void RGBA_Impl__obj::multiplyAlpha(int this1){
-            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_129_multiplyAlpha)
-HXDLIN( 129)		if (((this1 & 255) == 0)) {
-HXLINE( 131)			if ((this1 != 0)) {
-HXLINE( 133)				this1 = 0;
+            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_128_multiplyAlpha)
+HXDLIN( 128)		if (((this1 & 255) == 0)) {
+HXLINE( 130)			if ((this1 != 0)) {
+HXLINE( 132)				this1 = 0;
             			}
             		}
             		else {
-HXLINE( 136)			if (((this1 & 255) != 255)) {
-HXLINE( 138)				 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
-HXDLIN( 138)				::lime::math::_RGBA::RGBA_Impl__obj::a16 = ( (int)( ::__hxcpp_memory_get_ui32(this2->buffer->b,(this2->byteOffset + ((this1 & 255) * 4)))) );
-HXLINE( 139)				this1 = ((((((((::hx::UShr(this1,24) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 24) | (((((::hx::UShr(this1,16) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 16)) | (((((::hx::UShr(this1,8) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 8)) | ((this1 & 255) & 255));
+HXLINE( 135)			if (((this1 & 255) != 255)) {
+HXLINE( 137)				 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
+HXDLIN( 137)				::lime::math::_RGBA::RGBA_Impl__obj::a16 = ( (int)( ::__hxcpp_memory_get_ui32(this2->buffer->b,(this2->byteOffset + ((this1 & 255) * 4)))) );
+HXLINE( 138)				this1 = ((((((((::hx::UShr(this1,24) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 24) | (((((::hx::UShr(this1,16) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 16)) | (((((::hx::UShr(this1,8) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 8)) | ((this1 & 255) & 255));
             			}
             		}
             	}
@@ -165,47 +165,47 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC1(RGBA_Impl__obj,multiplyAlpha,(void))
 void RGBA_Impl__obj::readUInt8(int this1, ::lime::utils::ArrayBufferView data,int offset,::hx::Null< int >  __o_format,::hx::Null< bool >  __o_premultiplied){
             		int format = __o_format.Default(0);
             		bool premultiplied = __o_premultiplied.Default(false);
-            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_151_readUInt8)
-HXLINE( 152)		switch((int)(format)){
+            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_150_readUInt8)
+HXLINE( 151)		switch((int)(format)){
             			case (int)0: {
-HXLINE( 158)				int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) );
-HXDLIN( 158)				int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
-HXDLIN( 158)				int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
-HXDLIN( 158)				this1 = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) ) & 255));
+HXLINE( 157)				int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) );
+HXDLIN( 157)				int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
+HXDLIN( 157)				int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
+HXDLIN( 157)				this1 = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) ) & 255));
             			}
             			break;
             			case (int)1: {
-HXLINE( 161)				int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
-HXDLIN( 161)				int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
-HXDLIN( 161)				int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) );
-HXDLIN( 161)				this1 = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) ) & 255));
+HXLINE( 160)				int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
+HXDLIN( 160)				int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
+HXDLIN( 160)				int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) );
+HXDLIN( 160)				this1 = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) ) & 255));
             			}
             			break;
             			case (int)2: {
-HXLINE( 155)				int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
-HXDLIN( 155)				int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
-HXDLIN( 155)				int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) );
-HXDLIN( 155)				this1 = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) ) & 255));
+HXLINE( 154)				int r = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 2))) & 255)) );
+HXDLIN( 154)				int g = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 1))) & 255)) );
+HXDLIN( 154)				int b = ( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + offset)) & 255)) );
+HXDLIN( 154)				this1 = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (( (int)(( ::__hxcpp_memory_get_byte(data->buffer->b,(data->byteOffset + (offset + 3))) & 255)) ) & 255));
             			}
             			break;
             		}
-HXLINE( 164)		if (premultiplied) {
-HXLINE( 166)			bool _hx_tmp;
-HXDLIN( 166)			if (((this1 & 255) != 0)) {
-HXLINE( 166)				_hx_tmp = ((this1 & 255) != 255);
+HXLINE( 163)		if (premultiplied) {
+HXLINE( 165)			bool _hx_tmp;
+HXDLIN( 165)			if (((this1 & 255) != 0)) {
+HXLINE( 165)				_hx_tmp = ((this1 & 255) != 255);
             			}
             			else {
-HXLINE( 166)				_hx_tmp = false;
+HXLINE( 165)				_hx_tmp = false;
             			}
-HXDLIN( 166)			if (_hx_tmp) {
-HXLINE( 166)				::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((this1 & 255)) ));
-HXDLIN( 166)				{
-HXLINE( 166)					 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 166)					int r = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(this1,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN( 166)					 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 166)					int g = ( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(this1,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN( 166)					 ::lime::utils::ArrayBufferView this4 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 166)					this1 = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this4->buffer->b,(this4->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(this1,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((this1 & 255) & 255));
+HXDLIN( 165)			if (_hx_tmp) {
+HXLINE( 165)				::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((this1 & 255)) ));
+HXDLIN( 165)				{
+HXLINE( 165)					 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 165)					int r = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(this1,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN( 165)					 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 165)					int g = ( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(this1,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN( 165)					 ::lime::utils::ArrayBufferView this4 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 165)					this1 = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this4->buffer->b,(this4->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(this1,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((this1 & 255) & 255));
             				}
             			}
             		}
@@ -215,31 +215,31 @@ HXDLIN( 166)					this1 = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)((
 STATIC_HX_DEFINE_DYNAMIC_FUNC5(RGBA_Impl__obj,readUInt8,(void))
 
 void RGBA_Impl__obj::set(int this1,int r,int g,int b,int a){
-            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_179_set)
-HXDLIN( 179)		this1 = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (a & 255));
+            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_178_set)
+HXDLIN( 178)		this1 = (((((r & 255) << 24) | ((g & 255) << 16)) | ((b & 255) << 8)) | (a & 255));
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC5(RGBA_Impl__obj,set,(void))
 
 void RGBA_Impl__obj::unmultiplyAlpha(int this1){
-            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_187_unmultiplyAlpha)
-HXDLIN( 187)		bool _hx_tmp;
-HXDLIN( 187)		if (((this1 & 255) != 0)) {
-HXDLIN( 187)			_hx_tmp = ((this1 & 255) != 255);
+            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_186_unmultiplyAlpha)
+HXDLIN( 186)		bool _hx_tmp;
+HXDLIN( 186)		if (((this1 & 255) != 0)) {
+HXDLIN( 186)			_hx_tmp = ((this1 & 255) != 255);
             		}
             		else {
-HXDLIN( 187)			_hx_tmp = false;
+HXDLIN( 186)			_hx_tmp = false;
             		}
-HXDLIN( 187)		if (_hx_tmp) {
-HXLINE( 189)			::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((this1 & 255)) ));
-HXLINE( 190)			{
-HXLINE( 190)				 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 190)				int r = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(this1,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN( 190)				 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 190)				int g = ( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(this1,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
-HXDLIN( 190)				 ::lime::utils::ArrayBufferView this4 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
-HXDLIN( 190)				this1 = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this4->buffer->b,(this4->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(this1,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((this1 & 255) & 255));
+HXDLIN( 186)		if (_hx_tmp) {
+HXLINE( 188)			::lime::math::_RGBA::RGBA_Impl__obj::unmult = (((Float)255.0) / ( (Float)((this1 & 255)) ));
+HXLINE( 189)			{
+HXLINE( 189)				 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 189)				int r = ( (int)(( ::__hxcpp_memory_get_byte(this2->buffer->b,(this2->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(this1,24) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN( 189)				 ::lime::utils::ArrayBufferView this3 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 189)				int g = ( (int)(( ::__hxcpp_memory_get_byte(this3->buffer->b,(this3->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(this1,16) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) );
+HXDLIN( 189)				 ::lime::utils::ArrayBufferView this4 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___clamp;
+HXDLIN( 189)				this1 = (((((r & 255) << 24) | ((g & 255) << 16)) | ((( (int)(( ::__hxcpp_memory_get_byte(this4->buffer->b,(this4->byteOffset + ::Math_obj::round((( (Float)((::hx::UShr(this1,8) & 255)) ) * ::lime::math::_RGBA::RGBA_Impl__obj::unmult)))) & 255)) ) & 255) << 8)) | ((this1 & 255) & 255));
             			}
             		}
             	}
@@ -250,76 +250,76 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC1(RGBA_Impl__obj,unmultiplyAlpha,(void))
 void RGBA_Impl__obj::writeUInt8(int this1, ::lime::utils::ArrayBufferView data,int offset,::hx::Null< int >  __o_format,::hx::Null< bool >  __o_premultiplied){
             		int format = __o_format.Default(0);
             		bool premultiplied = __o_premultiplied.Default(false);
-            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_202_writeUInt8)
-HXLINE( 203)		if (premultiplied) {
-HXLINE( 205)			if (((this1 & 255) == 0)) {
-HXLINE( 205)				if ((this1 != 0)) {
-HXLINE( 205)					this1 = 0;
+            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_201_writeUInt8)
+HXLINE( 202)		if (premultiplied) {
+HXLINE( 204)			if (((this1 & 255) == 0)) {
+HXLINE( 204)				if ((this1 != 0)) {
+HXLINE( 204)					this1 = 0;
             				}
             			}
             			else {
-HXLINE( 205)				if (((this1 & 255) != 255)) {
-HXLINE( 205)					 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
-HXDLIN( 205)					::lime::math::_RGBA::RGBA_Impl__obj::a16 = ( (int)( ::__hxcpp_memory_get_ui32(this2->buffer->b,(this2->byteOffset + ((this1 & 255) * 4)))) );
-HXDLIN( 205)					this1 = ((((((((::hx::UShr(this1,24) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 24) | (((((::hx::UShr(this1,16) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 16)) | (((((::hx::UShr(this1,8) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 8)) | ((this1 & 255) & 255));
+HXLINE( 204)				if (((this1 & 255) != 255)) {
+HXLINE( 204)					 ::lime::utils::ArrayBufferView this2 = ::lime::math::_RGBA::RGBA_Impl__obj::_hx___alpha16;
+HXDLIN( 204)					::lime::math::_RGBA::RGBA_Impl__obj::a16 = ( (int)( ::__hxcpp_memory_get_ui32(this2->buffer->b,(this2->byteOffset + ((this1 & 255) * 4)))) );
+HXDLIN( 204)					this1 = ((((((((::hx::UShr(this1,24) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 24) | (((((::hx::UShr(this1,16) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 16)) | (((((::hx::UShr(this1,8) & 255) * ::lime::math::_RGBA::RGBA_Impl__obj::a16) >> 16) & 255) << 8)) | ((this1 & 255) & 255));
             				}
             			}
             		}
-HXLINE( 208)		switch((int)(format)){
+HXLINE( 207)		switch((int)(format)){
             			case (int)0: {
+HXLINE( 216)				{
+HXLINE( 216)					int val = (::hx::UShr(this1,24) & 255);
+HXDLIN( 216)					 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset),val);
+            				}
 HXLINE( 217)				{
-HXLINE( 217)					int val = (::hx::UShr(this1,24) & 255);
-HXDLIN( 217)					 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset),val);
+HXLINE( 217)					int val1 = (::hx::UShr(this1,16) & 255);
+HXDLIN( 217)					 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 1)),val1);
             				}
 HXLINE( 218)				{
-HXLINE( 218)					int val1 = (::hx::UShr(this1,16) & 255);
-HXDLIN( 218)					 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 1)),val1);
+HXLINE( 218)					int val2 = (::hx::UShr(this1,8) & 255);
+HXDLIN( 218)					 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 2)),val2);
             				}
 HXLINE( 219)				{
-HXLINE( 219)					int val2 = (::hx::UShr(this1,8) & 255);
-HXDLIN( 219)					 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 2)),val2);
-            				}
-HXLINE( 220)				{
-HXLINE( 220)					int val3 = (this1 & 255);
-HXDLIN( 220)					 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 3)),val3);
+HXLINE( 219)					int val3 = (this1 & 255);
+HXDLIN( 219)					 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 3)),val3);
             				}
             			}
             			break;
             			case (int)1: {
+HXLINE( 222)				{
+HXLINE( 222)					int val = (this1 & 255);
+HXDLIN( 222)					 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset),val);
+            				}
 HXLINE( 223)				{
-HXLINE( 223)					int val = (this1 & 255);
-HXDLIN( 223)					 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset),val);
+HXLINE( 223)					int val1 = (::hx::UShr(this1,24) & 255);
+HXDLIN( 223)					 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 1)),val1);
             				}
 HXLINE( 224)				{
-HXLINE( 224)					int val1 = (::hx::UShr(this1,24) & 255);
-HXDLIN( 224)					 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 1)),val1);
+HXLINE( 224)					int val2 = (::hx::UShr(this1,16) & 255);
+HXDLIN( 224)					 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 2)),val2);
             				}
 HXLINE( 225)				{
-HXLINE( 225)					int val2 = (::hx::UShr(this1,16) & 255);
-HXDLIN( 225)					 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 2)),val2);
-            				}
-HXLINE( 226)				{
-HXLINE( 226)					int val3 = (::hx::UShr(this1,8) & 255);
-HXDLIN( 226)					 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 3)),val3);
+HXLINE( 225)					int val3 = (::hx::UShr(this1,8) & 255);
+HXDLIN( 225)					 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 3)),val3);
             				}
             			}
             			break;
             			case (int)2: {
+HXLINE( 210)				{
+HXLINE( 210)					int val = (::hx::UShr(this1,8) & 255);
+HXDLIN( 210)					 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset),val);
+            				}
 HXLINE( 211)				{
-HXLINE( 211)					int val = (::hx::UShr(this1,8) & 255);
-HXDLIN( 211)					 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + offset),val);
+HXLINE( 211)					int val1 = (::hx::UShr(this1,16) & 255);
+HXDLIN( 211)					 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 1)),val1);
             				}
 HXLINE( 212)				{
-HXLINE( 212)					int val1 = (::hx::UShr(this1,16) & 255);
-HXDLIN( 212)					 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 1)),val1);
+HXLINE( 212)					int val2 = (::hx::UShr(this1,24) & 255);
+HXDLIN( 212)					 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 2)),val2);
             				}
 HXLINE( 213)				{
-HXLINE( 213)					int val2 = (::hx::UShr(this1,24) & 255);
-HXDLIN( 213)					 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 2)),val2);
-            				}
-HXLINE( 214)				{
-HXLINE( 214)					int val3 = (this1 & 255);
-HXDLIN( 214)					 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 3)),val3);
+HXLINE( 213)					int val3 = (this1 & 255);
+HXDLIN( 213)					 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + (offset + 3)),val3);
             				}
             			}
             			break;
@@ -330,90 +330,90 @@ HXDLIN( 214)					 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + 
 STATIC_HX_DEFINE_DYNAMIC_FUNC5(RGBA_Impl__obj,writeUInt8,(void))
 
 int RGBA_Impl__obj::_hx___fromARGB(int argb){
-            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_232___fromARGB)
-HXDLIN( 232)		int this1 = 0;
-HXDLIN( 232)		int rgba = this1;
-HXDLIN( 232)		rgba = ((((((::hx::UShr(argb,16) & 255) & 255) << 24) | (((::hx::UShr(argb,8) & 255) & 255) << 16)) | (((argb & 255) & 255) << 8)) | ((::hx::UShr(argb,24) & 255) & 255));
-HXDLIN( 232)		return rgba;
+            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_231___fromARGB)
+HXDLIN( 231)		int this1 = 0;
+HXDLIN( 231)		int rgba = this1;
+HXDLIN( 231)		rgba = ((((((::hx::UShr(argb,16) & 255) & 255) << 24) | (((::hx::UShr(argb,8) & 255) & 255) << 16)) | (((argb & 255) & 255) << 8)) | ((::hx::UShr(argb,24) & 255) & 255));
+HXDLIN( 231)		return rgba;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(RGBA_Impl__obj,_hx___fromARGB,return )
 
 int RGBA_Impl__obj::_hx___fromBGRA(int bgra){
-            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_237___fromBGRA)
-HXDLIN( 237)		int this1 = 0;
-HXDLIN( 237)		int rgba = this1;
-HXDLIN( 237)		rgba = ((((((::hx::UShr(bgra,8) & 255) & 255) << 24) | (((::hx::UShr(bgra,16) & 255) & 255) << 16)) | (((::hx::UShr(bgra,24) & 255) & 255) << 8)) | ((bgra & 255) & 255));
-HXDLIN( 237)		return rgba;
+            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_236___fromBGRA)
+HXDLIN( 236)		int this1 = 0;
+HXDLIN( 236)		int rgba = this1;
+HXDLIN( 236)		rgba = ((((((::hx::UShr(bgra,8) & 255) & 255) << 24) | (((::hx::UShr(bgra,16) & 255) & 255) << 16)) | (((::hx::UShr(bgra,24) & 255) & 255) << 8)) | ((bgra & 255) & 255));
+HXDLIN( 236)		return rgba;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(RGBA_Impl__obj,_hx___fromBGRA,return )
 
 int RGBA_Impl__obj::get_a(int this1){
-            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_243_get_a)
-HXDLIN( 243)		return (this1 & 255);
+            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_242_get_a)
+HXDLIN( 242)		return (this1 & 255);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(RGBA_Impl__obj,get_a,return )
 
 int RGBA_Impl__obj::set_a(int this1,int value){
-            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_247_set_a)
-HXLINE( 248)		this1 = ((((((::hx::UShr(this1,24) & 255) & 255) << 24) | (((::hx::UShr(this1,16) & 255) & 255) << 16)) | (((::hx::UShr(this1,8) & 255) & 255) << 8)) | (value & 255));
-HXLINE( 249)		return value;
+            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_246_set_a)
+HXLINE( 247)		this1 = ((((((::hx::UShr(this1,24) & 255) & 255) << 24) | (((::hx::UShr(this1,16) & 255) & 255) << 16)) | (((::hx::UShr(this1,8) & 255) & 255) << 8)) | (value & 255));
+HXLINE( 248)		return value;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(RGBA_Impl__obj,set_a,return )
 
 int RGBA_Impl__obj::get_b(int this1){
-            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_254_get_b)
-HXDLIN( 254)		return (::hx::UShr(this1,8) & 255);
+            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_253_get_b)
+HXDLIN( 253)		return (::hx::UShr(this1,8) & 255);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(RGBA_Impl__obj,get_b,return )
 
 int RGBA_Impl__obj::set_b(int this1,int value){
-            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_258_set_b)
-HXLINE( 259)		this1 = ((((((::hx::UShr(this1,24) & 255) & 255) << 24) | (((::hx::UShr(this1,16) & 255) & 255) << 16)) | ((value & 255) << 8)) | ((this1 & 255) & 255));
-HXLINE( 260)		return value;
+            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_257_set_b)
+HXLINE( 258)		this1 = ((((((::hx::UShr(this1,24) & 255) & 255) << 24) | (((::hx::UShr(this1,16) & 255) & 255) << 16)) | ((value & 255) << 8)) | ((this1 & 255) & 255));
+HXLINE( 259)		return value;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(RGBA_Impl__obj,set_b,return )
 
 int RGBA_Impl__obj::get_g(int this1){
-            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_265_get_g)
-HXDLIN( 265)		return (::hx::UShr(this1,16) & 255);
+            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_264_get_g)
+HXDLIN( 264)		return (::hx::UShr(this1,16) & 255);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(RGBA_Impl__obj,get_g,return )
 
 int RGBA_Impl__obj::set_g(int this1,int value){
-            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_269_set_g)
-HXLINE( 270)		this1 = ((((((::hx::UShr(this1,24) & 255) & 255) << 24) | ((value & 255) << 16)) | (((::hx::UShr(this1,8) & 255) & 255) << 8)) | ((this1 & 255) & 255));
-HXLINE( 271)		return value;
+            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_268_set_g)
+HXLINE( 269)		this1 = ((((((::hx::UShr(this1,24) & 255) & 255) << 24) | ((value & 255) << 16)) | (((::hx::UShr(this1,8) & 255) & 255) << 8)) | ((this1 & 255) & 255));
+HXLINE( 270)		return value;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(RGBA_Impl__obj,set_g,return )
 
 int RGBA_Impl__obj::get_r(int this1){
-            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_276_get_r)
-HXDLIN( 276)		return (::hx::UShr(this1,24) & 255);
+            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_275_get_r)
+HXDLIN( 275)		return (::hx::UShr(this1,24) & 255);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(RGBA_Impl__obj,get_r,return )
 
 int RGBA_Impl__obj::set_r(int this1,int value){
-            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_280_set_r)
-HXLINE( 281)		this1 = (((((value & 255) << 24) | (((::hx::UShr(this1,16) & 255) & 255) << 16)) | (((::hx::UShr(this1,8) & 255) & 255) << 8)) | ((this1 & 255) & 255));
-HXLINE( 282)		return value;
+            	HX_STACKFRAME(&_hx_pos_d0d9611196b7dff8_279_set_r)
+HXLINE( 280)		this1 = (((((value & 255) << 24) | (((::hx::UShr(this1,16) & 255) & 255) << 16)) | (((::hx::UShr(this1,8) & 255) & 255) << 8)) | ((this1 & 255) & 255));
+HXLINE( 281)		return value;
             	}
 
 

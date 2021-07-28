@@ -9,30 +9,30 @@
 #include <openfl/geom/Vector3D.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_272ec68939e03fc6_147_new,"openfl.geom.Vector3D","new",0x722c67da,"openfl.geom.Vector3D.new","openfl/geom/Vector3D.hx",147,0xc7821076)
-HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_174_add,"openfl.geom.Vector3D","add",0x7222899b,"openfl.geom.Vector3D.add","openfl/geom/Vector3D.hx",174,0xc7821076)
-HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_222_clone,"openfl.geom.Vector3D","clone",0x532bfd57,"openfl.geom.Vector3D.clone","openfl/geom/Vector3D.hx",222,0xc7821076)
-HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_232_copyFrom,"openfl.geom.Vector3D","copyFrom",0x528f1a05,"openfl.geom.Vector3D.copyFrom","openfl/geom/Vector3D.hx",232,0xc7821076)
-HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_256_crossProduct,"openfl.geom.Vector3D","crossProduct",0x872350d5,"openfl.geom.Vector3D.crossProduct","openfl/geom/Vector3D.hx",256,0xc7821076)
-HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_269_decrementBy,"openfl.geom.Vector3D","decrementBy",0xa34dbc44,"openfl.geom.Vector3D.decrementBy","openfl/geom/Vector3D.hx",269,0xc7821076)
-HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_315_dotProduct,"openfl.geom.Vector3D","dotProduct",0x3a72d36c,"openfl.geom.Vector3D.dotProduct","openfl/geom/Vector3D.hx",315,0xc7821076)
-HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_333_equals,"openfl.geom.Vector3D","equals",0x24f6bf05,"openfl.geom.Vector3D.equals","openfl/geom/Vector3D.hx",333,0xc7821076)
-HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_345_incrementBy,"openfl.geom.Vector3D","incrementBy",0xea440b60,"openfl.geom.Vector3D.incrementBy","openfl/geom/Vector3D.hx",345,0xc7821076)
-HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_373_nearEquals,"openfl.geom.Vector3D","nearEquals",0xfaf41d0d,"openfl.geom.Vector3D.nearEquals","openfl/geom/Vector3D.hx",373,0xc7821076)
-HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_385_negate,"openfl.geom.Vector3D","negate",0xcc1d1288,"openfl.geom.Vector3D.negate","openfl/geom/Vector3D.hx",385,0xc7821076)
-HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_399_normalize,"openfl.geom.Vector3D","normalize",0x09bfa687,"openfl.geom.Vector3D.normalize","openfl/geom/Vector3D.hx",399,0xc7821076)
-HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_423_project,"openfl.geom.Vector3D","project",0xf43def53,"openfl.geom.Vector3D.project","openfl/geom/Vector3D.hx",423,0xc7821076)
-HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_439_scaleBy,"openfl.geom.Vector3D","scaleBy",0x635a1b7b,"openfl.geom.Vector3D.scaleBy","openfl/geom/Vector3D.hx",439,0xc7821076)
-HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_453_setTo,"openfl.geom.Vector3D","setTo",0x84f87bb7,"openfl.geom.Vector3D.setTo","openfl/geom/Vector3D.hx",453,0xc7821076)
-HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_471_subtract,"openfl.geom.Vector3D","subtract",0x823f835a,"openfl.geom.Vector3D.subtract","openfl/geom/Vector3D.hx",471,0xc7821076)
-HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_482_toString,"openfl.geom.Vector3D","toString",0xc29cdef2,"openfl.geom.Vector3D.toString","openfl/geom/Vector3D.hx",482,0xc7821076)
-HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_488_get_length,"openfl.geom.Vector3D","get_length",0x8c11b075,"openfl.geom.Vector3D.get_length","openfl/geom/Vector3D.hx",488,0xc7821076)
-HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_493_get_lengthSquared,"openfl.geom.Vector3D","get_lengthSquared",0xa2b22932,"openfl.geom.Vector3D.get_lengthSquared","openfl/geom/Vector3D.hx",493,0xc7821076)
-HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_197_angleBetween,"openfl.geom.Vector3D","angleBetween",0x8d2e8f7b,"openfl.geom.Vector3D.angleBetween","openfl/geom/Vector3D.hx",197,0xc7821076)
-HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_285_distance,"openfl.geom.Vector3D","distance",0xf627a17b,"openfl.geom.Vector3D.distance","openfl/geom/Vector3D.hx",285,0xc7821076)
-HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_498_get_X_AXIS,"openfl.geom.Vector3D","get_X_AXIS",0xfabcdcb7,"openfl.geom.Vector3D.get_X_AXIS","openfl/geom/Vector3D.hx",498,0xc7821076)
-HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_503_get_Y_AXIS,"openfl.geom.Vector3D","get_Y_AXIS",0x61183916,"openfl.geom.Vector3D.get_Y_AXIS","openfl/geom/Vector3D.hx",503,0xc7821076)
-HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_508_get_Z_AXIS,"openfl.geom.Vector3D","get_Z_AXIS",0xc7739575,"openfl.geom.Vector3D.get_Z_AXIS","openfl/geom/Vector3D.hx",508,0xc7821076)
+HX_DEFINE_STACK_FRAME(_hx_pos_272ec68939e03fc6_53_new,"openfl.geom.Vector3D","new",0x722c67da,"openfl.geom.Vector3D.new","openfl/geom/Vector3D.hx",53,0xc7821076)
+HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_62_add,"openfl.geom.Vector3D","add",0x7222899b,"openfl.geom.Vector3D.add","openfl/geom/Vector3D.hx",62,0xc7821076)
+HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_86_clone,"openfl.geom.Vector3D","clone",0x532bfd57,"openfl.geom.Vector3D.clone","openfl/geom/Vector3D.hx",86,0xc7821076)
+HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_90_copyFrom,"openfl.geom.Vector3D","copyFrom",0x528f1a05,"openfl.geom.Vector3D.copyFrom","openfl/geom/Vector3D.hx",90,0xc7821076)
+HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_98_crossProduct,"openfl.geom.Vector3D","crossProduct",0x872350d5,"openfl.geom.Vector3D.crossProduct","openfl/geom/Vector3D.hx",98,0xc7821076)
+HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_102_decrementBy,"openfl.geom.Vector3D","decrementBy",0xa34dbc44,"openfl.geom.Vector3D.decrementBy","openfl/geom/Vector3D.hx",102,0xc7821076)
+HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_119_dotProduct,"openfl.geom.Vector3D","dotProduct",0x3a72d36c,"openfl.geom.Vector3D.dotProduct","openfl/geom/Vector3D.hx",119,0xc7821076)
+HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_124_equals,"openfl.geom.Vector3D","equals",0x24f6bf05,"openfl.geom.Vector3D.equals","openfl/geom/Vector3D.hx",124,0xc7821076)
+HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_128_incrementBy,"openfl.geom.Vector3D","incrementBy",0xea440b60,"openfl.geom.Vector3D.incrementBy","openfl/geom/Vector3D.hx",128,0xc7821076)
+HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_136_nearEquals,"openfl.geom.Vector3D","nearEquals",0xfaf41d0d,"openfl.geom.Vector3D.nearEquals","openfl/geom/Vector3D.hx",136,0xc7821076)
+HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_143_negate,"openfl.geom.Vector3D","negate",0xcc1d1288,"openfl.geom.Vector3D.negate","openfl/geom/Vector3D.hx",143,0xc7821076)
+HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_150_normalize,"openfl.geom.Vector3D","normalize",0x09bfa687,"openfl.geom.Vector3D.normalize","openfl/geom/Vector3D.hx",150,0xc7821076)
+HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_164_project,"openfl.geom.Vector3D","project",0xf43def53,"openfl.geom.Vector3D.project","openfl/geom/Vector3D.hx",164,0xc7821076)
+HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_171_scaleBy,"openfl.geom.Vector3D","scaleBy",0x635a1b7b,"openfl.geom.Vector3D.scaleBy","openfl/geom/Vector3D.hx",171,0xc7821076)
+HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_178_setTo,"openfl.geom.Vector3D","setTo",0x84f87bb7,"openfl.geom.Vector3D.setTo","openfl/geom/Vector3D.hx",178,0xc7821076)
+HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_186_subtract,"openfl.geom.Vector3D","subtract",0x823f835a,"openfl.geom.Vector3D.subtract","openfl/geom/Vector3D.hx",186,0xc7821076)
+HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_191_toString,"openfl.geom.Vector3D","toString",0xc29cdef2,"openfl.geom.Vector3D.toString","openfl/geom/Vector3D.hx",191,0xc7821076)
+HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_197_get_length,"openfl.geom.Vector3D","get_length",0x8c11b075,"openfl.geom.Vector3D.get_length","openfl/geom/Vector3D.hx",197,0xc7821076)
+HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_202_get_lengthSquared,"openfl.geom.Vector3D","get_lengthSquared",0xa2b22932,"openfl.geom.Vector3D.get_lengthSquared","openfl/geom/Vector3D.hx",202,0xc7821076)
+HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_66_angleBetween,"openfl.geom.Vector3D","angleBetween",0x8d2e8f7b,"openfl.geom.Vector3D.angleBetween","openfl/geom/Vector3D.hx",66,0xc7821076)
+HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_109_distance,"openfl.geom.Vector3D","distance",0xf627a17b,"openfl.geom.Vector3D.distance","openfl/geom/Vector3D.hx",109,0xc7821076)
+HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_207_get_X_AXIS,"openfl.geom.Vector3D","get_X_AXIS",0xfabcdcb7,"openfl.geom.Vector3D.get_X_AXIS","openfl/geom/Vector3D.hx",207,0xc7821076)
+HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_212_get_Y_AXIS,"openfl.geom.Vector3D","get_Y_AXIS",0x61183916,"openfl.geom.Vector3D.get_Y_AXIS","openfl/geom/Vector3D.hx",212,0xc7821076)
+HX_LOCAL_STACK_FRAME(_hx_pos_272ec68939e03fc6_217_get_Z_AXIS,"openfl.geom.Vector3D","get_Z_AXIS",0xc7739575,"openfl.geom.Vector3D.get_Z_AXIS","openfl/geom/Vector3D.hx",217,0xc7821076)
 namespace openfl{
 namespace geom{
 
@@ -41,11 +41,11 @@ void Vector3D_obj::__construct(::hx::Null< Float >  __o_x,::hx::Null< Float >  _
             		Float y = __o_y.Default(0);
             		Float z = __o_z.Default(0);
             		Float w = __o_w.Default(0);
-            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_147_new)
-HXLINE( 148)		this->w = w;
-HXLINE( 149)		this->x = x;
-HXLINE( 150)		this->y = y;
-HXLINE( 151)		this->z = z;
+            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_53_new)
+HXLINE(  54)		this->w = w;
+HXLINE(  55)		this->x = x;
+HXLINE(  56)		this->y = y;
+HXLINE(  57)		this->z = z;
             	}
 
 Dynamic Vector3D_obj::__CreateEmpty() { return new Vector3D_obj; }
@@ -64,55 +64,55 @@ bool Vector3D_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::openfl::geom::Vector3D Vector3D_obj::add( ::openfl::geom::Vector3D a){
-            	HX_GC_STACKFRAME(&_hx_pos_272ec68939e03fc6_174_add)
-HXDLIN( 174)		return  ::openfl::geom::Vector3D_obj::__alloc( HX_CTX ,(this->x + a->x),(this->y + a->y),(this->z + a->z),null());
+            	HX_GC_STACKFRAME(&_hx_pos_272ec68939e03fc6_62_add)
+HXDLIN(  62)		return  ::openfl::geom::Vector3D_obj::__alloc( HX_CTX ,(this->x + a->x),(this->y + a->y),(this->z + a->z),null());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Vector3D_obj,add,return )
 
  ::openfl::geom::Vector3D Vector3D_obj::clone(){
-            	HX_GC_STACKFRAME(&_hx_pos_272ec68939e03fc6_222_clone)
-HXDLIN( 222)		return  ::openfl::geom::Vector3D_obj::__alloc( HX_CTX ,this->x,this->y,this->z,this->w);
+            	HX_GC_STACKFRAME(&_hx_pos_272ec68939e03fc6_86_clone)
+HXDLIN(  86)		return  ::openfl::geom::Vector3D_obj::__alloc( HX_CTX ,this->x,this->y,this->z,this->w);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Vector3D_obj,clone,return )
 
 void Vector3D_obj::copyFrom( ::openfl::geom::Vector3D sourceVector3D){
-            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_232_copyFrom)
-HXLINE( 233)		this->x = sourceVector3D->x;
-HXLINE( 234)		this->y = sourceVector3D->y;
-HXLINE( 235)		this->z = sourceVector3D->z;
+            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_90_copyFrom)
+HXLINE(  91)		this->x = sourceVector3D->x;
+HXLINE(  92)		this->y = sourceVector3D->y;
+HXLINE(  93)		this->z = sourceVector3D->z;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Vector3D_obj,copyFrom,(void))
 
  ::openfl::geom::Vector3D Vector3D_obj::crossProduct( ::openfl::geom::Vector3D a){
-            	HX_GC_STACKFRAME(&_hx_pos_272ec68939e03fc6_256_crossProduct)
-HXDLIN( 256)		return  ::openfl::geom::Vector3D_obj::__alloc( HX_CTX ,((this->y * a->z) - (this->z * a->y)),((this->z * a->x) - (this->x * a->z)),((this->x * a->y) - (this->y * a->x)),1);
+            	HX_GC_STACKFRAME(&_hx_pos_272ec68939e03fc6_98_crossProduct)
+HXDLIN(  98)		return  ::openfl::geom::Vector3D_obj::__alloc( HX_CTX ,((this->y * a->z) - (this->z * a->y)),((this->z * a->x) - (this->x * a->z)),((this->x * a->y) - (this->y * a->x)),1);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Vector3D_obj,crossProduct,return )
 
 void Vector3D_obj::decrementBy( ::openfl::geom::Vector3D a){
-            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_269_decrementBy)
-HXLINE( 270)		 ::openfl::geom::Vector3D _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 270)		_hx_tmp->x = (_hx_tmp->x - a->x);
-HXLINE( 271)		 ::openfl::geom::Vector3D _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 271)		_hx_tmp1->y = (_hx_tmp1->y - a->y);
-HXLINE( 272)		 ::openfl::geom::Vector3D _hx_tmp2 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 272)		_hx_tmp2->z = (_hx_tmp2->z - a->z);
+            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_102_decrementBy)
+HXLINE( 103)		 ::openfl::geom::Vector3D _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 103)		_hx_tmp->x = (_hx_tmp->x - a->x);
+HXLINE( 104)		 ::openfl::geom::Vector3D _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 104)		_hx_tmp1->y = (_hx_tmp1->y - a->y);
+HXLINE( 105)		 ::openfl::geom::Vector3D _hx_tmp2 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 105)		_hx_tmp2->z = (_hx_tmp2->z - a->z);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Vector3D_obj,decrementBy,(void))
 
 Float Vector3D_obj::dotProduct( ::openfl::geom::Vector3D a){
-            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_315_dotProduct)
-HXDLIN( 315)		return (((this->x * a->x) + (this->y * a->y)) + (this->z * a->z));
+            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_119_dotProduct)
+HXDLIN( 119)		return (((this->x * a->x) + (this->y * a->y)) + (this->z * a->z));
             	}
 
 
@@ -120,46 +120,46 @@ HX_DEFINE_DYNAMIC_FUNC1(Vector3D_obj,dotProduct,return )
 
 bool Vector3D_obj::equals( ::openfl::geom::Vector3D toCompare,::hx::Null< bool >  __o_allFour){
             		bool allFour = __o_allFour.Default(false);
-            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_333_equals)
-HXDLIN( 333)		bool _hx_tmp;
-HXDLIN( 333)		bool _hx_tmp1;
-HXDLIN( 333)		if ((this->x == toCompare->x)) {
-HXDLIN( 333)			_hx_tmp1 = (this->y == toCompare->y);
+            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_124_equals)
+HXDLIN( 124)		bool _hx_tmp;
+HXDLIN( 124)		bool _hx_tmp1;
+HXDLIN( 124)		if ((this->x == toCompare->x)) {
+HXDLIN( 124)			_hx_tmp1 = (this->y == toCompare->y);
             		}
             		else {
-HXDLIN( 333)			_hx_tmp1 = false;
+HXDLIN( 124)			_hx_tmp1 = false;
             		}
-HXDLIN( 333)		if (_hx_tmp1) {
-HXDLIN( 333)			_hx_tmp = (this->z == toCompare->z);
+HXDLIN( 124)		if (_hx_tmp1) {
+HXDLIN( 124)			_hx_tmp = (this->z == toCompare->z);
             		}
             		else {
-HXDLIN( 333)			_hx_tmp = false;
+HXDLIN( 124)			_hx_tmp = false;
             		}
-HXDLIN( 333)		if (_hx_tmp) {
-HXDLIN( 333)			if (allFour) {
-HXDLIN( 333)				return (this->w == toCompare->w);
+HXDLIN( 124)		if (_hx_tmp) {
+HXDLIN( 124)			if (allFour) {
+HXDLIN( 124)				return (this->w == toCompare->w);
             			}
             			else {
-HXDLIN( 333)				return true;
+HXDLIN( 124)				return true;
             			}
             		}
             		else {
-HXDLIN( 333)			return false;
+HXDLIN( 124)			return false;
             		}
-HXDLIN( 333)		return false;
+HXDLIN( 124)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Vector3D_obj,equals,return )
 
 void Vector3D_obj::incrementBy( ::openfl::geom::Vector3D a){
-            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_345_incrementBy)
-HXLINE( 346)		 ::openfl::geom::Vector3D _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 346)		_hx_tmp->x = (_hx_tmp->x + a->x);
-HXLINE( 347)		 ::openfl::geom::Vector3D _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 347)		_hx_tmp1->y = (_hx_tmp1->y + a->y);
-HXLINE( 348)		 ::openfl::geom::Vector3D _hx_tmp2 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 348)		_hx_tmp2->z = (_hx_tmp2->z + a->z);
+            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_128_incrementBy)
+HXLINE( 129)		 ::openfl::geom::Vector3D _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 129)		_hx_tmp->x = (_hx_tmp->x + a->x);
+HXLINE( 130)		 ::openfl::geom::Vector3D _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 130)		_hx_tmp1->y = (_hx_tmp1->y + a->y);
+HXLINE( 131)		 ::openfl::geom::Vector3D _hx_tmp2 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 131)		_hx_tmp2->z = (_hx_tmp2->z + a->z);
             	}
 
 
@@ -168,183 +168,183 @@ HX_DEFINE_DYNAMIC_FUNC1(Vector3D_obj,incrementBy,(void))
 bool Vector3D_obj::nearEquals( ::openfl::geom::Vector3D toCompare,Float tolerance, ::Dynamic __o_allFour){
             		 ::Dynamic allFour = __o_allFour;
             		if (::hx::IsNull(__o_allFour)) allFour = false;
-            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_373_nearEquals)
-HXDLIN( 373)		bool _hx_tmp;
-HXDLIN( 373)		bool _hx_tmp1;
-HXDLIN( 373)		if ((::Math_obj::abs((this->x - toCompare->x)) < tolerance)) {
-HXDLIN( 373)			_hx_tmp1 = (::Math_obj::abs((this->y - toCompare->y)) < tolerance);
+            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_136_nearEquals)
+HXDLIN( 136)		bool _hx_tmp;
+HXDLIN( 136)		bool _hx_tmp1;
+HXDLIN( 136)		if ((::Math_obj::abs((this->x - toCompare->x)) < tolerance)) {
+HXDLIN( 136)			_hx_tmp1 = (::Math_obj::abs((this->y - toCompare->y)) < tolerance);
             		}
             		else {
-HXDLIN( 373)			_hx_tmp1 = false;
+HXDLIN( 136)			_hx_tmp1 = false;
             		}
-HXDLIN( 373)		if (_hx_tmp1) {
-HXDLIN( 373)			_hx_tmp = (::Math_obj::abs((this->z - toCompare->z)) < tolerance);
+HXDLIN( 136)		if (_hx_tmp1) {
+HXDLIN( 136)			_hx_tmp = (::Math_obj::abs((this->z - toCompare->z)) < tolerance);
             		}
             		else {
-HXDLIN( 373)			_hx_tmp = false;
+HXDLIN( 136)			_hx_tmp = false;
             		}
-HXDLIN( 373)		if (_hx_tmp) {
-HXLINE( 376)			if (!(!(( (bool)(allFour) )))) {
-HXLINE( 376)				return (::Math_obj::abs((this->w - toCompare->w)) < tolerance);
+HXDLIN( 136)		if (_hx_tmp) {
+HXLINE( 139)			if (!(!(( (bool)(allFour) )))) {
+HXLINE( 139)				return (::Math_obj::abs((this->w - toCompare->w)) < tolerance);
             			}
             			else {
-HXLINE( 376)				return true;
+HXLINE( 139)				return true;
             			}
             		}
             		else {
-HXDLIN( 373)			return false;
+HXDLIN( 136)			return false;
             		}
-HXDLIN( 373)		return false;
+HXDLIN( 136)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(Vector3D_obj,nearEquals,return )
 
 void Vector3D_obj::negate(){
-            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_385_negate)
-HXLINE( 386)		 ::openfl::geom::Vector3D _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 386)		_hx_tmp->x = (_hx_tmp->x * ( (Float)(-1) ));
-HXLINE( 387)		 ::openfl::geom::Vector3D _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 387)		_hx_tmp1->y = (_hx_tmp1->y * ( (Float)(-1) ));
-HXLINE( 388)		 ::openfl::geom::Vector3D _hx_tmp2 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 388)		_hx_tmp2->z = (_hx_tmp2->z * ( (Float)(-1) ));
+            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_143_negate)
+HXLINE( 144)		 ::openfl::geom::Vector3D _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 144)		_hx_tmp->x = (_hx_tmp->x * ( (Float)(-1) ));
+HXLINE( 145)		 ::openfl::geom::Vector3D _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 145)		_hx_tmp1->y = (_hx_tmp1->y * ( (Float)(-1) ));
+HXLINE( 146)		 ::openfl::geom::Vector3D _hx_tmp2 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 146)		_hx_tmp2->z = (_hx_tmp2->z * ( (Float)(-1) ));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Vector3D_obj,negate,(void))
 
 Float Vector3D_obj::normalize(){
-            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_399_normalize)
-HXLINE( 400)		Float l = this->get_length();
-HXLINE( 402)		if ((l != 0)) {
-HXLINE( 404)			 ::openfl::geom::Vector3D _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 404)			_hx_tmp->x = (_hx_tmp->x / l);
-HXLINE( 405)			 ::openfl::geom::Vector3D _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 405)			_hx_tmp1->y = (_hx_tmp1->y / l);
-HXLINE( 406)			 ::openfl::geom::Vector3D _hx_tmp2 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 406)			_hx_tmp2->z = (_hx_tmp2->z / l);
+            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_150_normalize)
+HXLINE( 151)		Float l = this->get_length();
+HXLINE( 153)		if ((l != 0)) {
+HXLINE( 155)			 ::openfl::geom::Vector3D _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 155)			_hx_tmp->x = (_hx_tmp->x / l);
+HXLINE( 156)			 ::openfl::geom::Vector3D _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 156)			_hx_tmp1->y = (_hx_tmp1->y / l);
+HXLINE( 157)			 ::openfl::geom::Vector3D _hx_tmp2 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 157)			_hx_tmp2->z = (_hx_tmp2->z / l);
             		}
-HXLINE( 409)		return l;
+HXLINE( 160)		return l;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Vector3D_obj,normalize,return )
 
 void Vector3D_obj::project(){
-            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_423_project)
-HXLINE( 424)		 ::openfl::geom::Vector3D _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 424)		_hx_tmp->x = (_hx_tmp->x / this->w);
-HXLINE( 425)		 ::openfl::geom::Vector3D _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 425)		_hx_tmp1->y = (_hx_tmp1->y / this->w);
-HXLINE( 426)		 ::openfl::geom::Vector3D _hx_tmp2 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 426)		_hx_tmp2->z = (_hx_tmp2->z / this->w);
+            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_164_project)
+HXLINE( 165)		 ::openfl::geom::Vector3D _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 165)		_hx_tmp->x = (_hx_tmp->x / this->w);
+HXLINE( 166)		 ::openfl::geom::Vector3D _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 166)		_hx_tmp1->y = (_hx_tmp1->y / this->w);
+HXLINE( 167)		 ::openfl::geom::Vector3D _hx_tmp2 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 167)		_hx_tmp2->z = (_hx_tmp2->z / this->w);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Vector3D_obj,project,(void))
 
 void Vector3D_obj::scaleBy(Float s){
-            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_439_scaleBy)
-HXLINE( 440)		 ::openfl::geom::Vector3D _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 440)		_hx_tmp->x = (_hx_tmp->x * s);
-HXLINE( 441)		 ::openfl::geom::Vector3D _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 441)		_hx_tmp1->y = (_hx_tmp1->y * s);
-HXLINE( 442)		 ::openfl::geom::Vector3D _hx_tmp2 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 442)		_hx_tmp2->z = (_hx_tmp2->z * s);
+            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_171_scaleBy)
+HXLINE( 172)		 ::openfl::geom::Vector3D _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 172)		_hx_tmp->x = (_hx_tmp->x * s);
+HXLINE( 173)		 ::openfl::geom::Vector3D _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 173)		_hx_tmp1->y = (_hx_tmp1->y * s);
+HXLINE( 174)		 ::openfl::geom::Vector3D _hx_tmp2 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 174)		_hx_tmp2->z = (_hx_tmp2->z * s);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Vector3D_obj,scaleBy,(void))
 
 void Vector3D_obj::setTo(Float xa,Float ya,Float za){
-            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_453_setTo)
-HXLINE( 454)		this->x = xa;
-HXLINE( 455)		this->y = ya;
-HXLINE( 456)		this->z = za;
+            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_178_setTo)
+HXLINE( 179)		this->x = xa;
+HXLINE( 180)		this->y = ya;
+HXLINE( 181)		this->z = za;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(Vector3D_obj,setTo,(void))
 
  ::openfl::geom::Vector3D Vector3D_obj::subtract( ::openfl::geom::Vector3D a){
-            	HX_GC_STACKFRAME(&_hx_pos_272ec68939e03fc6_471_subtract)
-HXDLIN( 471)		return  ::openfl::geom::Vector3D_obj::__alloc( HX_CTX ,(this->x - a->x),(this->y - a->y),(this->z - a->z),null());
+            	HX_GC_STACKFRAME(&_hx_pos_272ec68939e03fc6_186_subtract)
+HXDLIN( 186)		return  ::openfl::geom::Vector3D_obj::__alloc( HX_CTX ,(this->x - a->x),(this->y - a->y),(this->z - a->z),null());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Vector3D_obj,subtract,return )
 
 ::String Vector3D_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_482_toString)
-HXDLIN( 482)		return ((((((HX_("Vector3D(",54,b9,2e,19) + this->x) + HX_(", ",74,26,00,00)) + this->y) + HX_(", ",74,26,00,00)) + this->z) + HX_(")",29,00,00,00));
+            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_191_toString)
+HXDLIN( 191)		return ((((((HX_("Vector3D(",54,b9,2e,19) + this->x) + HX_(", ",74,26,00,00)) + this->y) + HX_(", ",74,26,00,00)) + this->z) + HX_(")",29,00,00,00));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Vector3D_obj,toString,return )
 
 Float Vector3D_obj::get_length(){
-            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_488_get_length)
-HXDLIN( 488)		return ::Math_obj::sqrt((((this->x * this->x) + (this->y * this->y)) + (this->z * this->z)));
+            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_197_get_length)
+HXDLIN( 197)		return ::Math_obj::sqrt((((this->x * this->x) + (this->y * this->y)) + (this->z * this->z)));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Vector3D_obj,get_length,return )
 
 Float Vector3D_obj::get_lengthSquared(){
-            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_493_get_lengthSquared)
-HXDLIN( 493)		return (((this->x * this->x) + (this->y * this->y)) + (this->z * this->z));
+            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_202_get_lengthSquared)
+HXDLIN( 202)		return (((this->x * this->x) + (this->y * this->y)) + (this->z * this->z));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Vector3D_obj,get_lengthSquared,return )
 
 Float Vector3D_obj::angleBetween( ::openfl::geom::Vector3D a, ::openfl::geom::Vector3D b){
-            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_197_angleBetween)
-HXLINE( 198)		Float la = a->get_length();
-HXLINE( 199)		Float lb = b->get_length();
-HXLINE( 200)		Float dot = a->dotProduct(b);
-HXLINE( 202)		if ((la != 0)) {
-HXLINE( 204)			dot = (dot / la);
+            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_66_angleBetween)
+HXLINE(  67)		Float la = a->get_length();
+HXLINE(  68)		Float lb = b->get_length();
+HXLINE(  69)		Float dot = a->dotProduct(b);
+HXLINE(  71)		if ((la != 0)) {
+HXLINE(  73)			dot = (dot / la);
             		}
-HXLINE( 207)		if ((lb != 0)) {
-HXLINE( 209)			dot = (dot / lb);
+HXLINE(  76)		if ((lb != 0)) {
+HXLINE(  78)			dot = (dot / lb);
             		}
-HXLINE( 212)		return ::Math_obj::acos(dot);
+HXLINE(  81)		return ::Math_obj::acos(dot);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Vector3D_obj,angleBetween,return )
 
 Float Vector3D_obj::distance( ::openfl::geom::Vector3D pt1, ::openfl::geom::Vector3D pt2){
-            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_285_distance)
-HXLINE( 286)		Float x = (pt2->x - pt1->x);
-HXLINE( 287)		Float y = (pt2->y - pt1->y);
-HXLINE( 288)		Float z = (pt2->z - pt1->z);
-HXLINE( 290)		return ::Math_obj::sqrt((((x * x) + (y * y)) + (z * z)));
+            	HX_STACKFRAME(&_hx_pos_272ec68939e03fc6_109_distance)
+HXLINE( 110)		Float x = (pt2->x - pt1->x);
+HXLINE( 111)		Float y = (pt2->y - pt1->y);
+HXLINE( 112)		Float z = (pt2->z - pt1->z);
+HXLINE( 114)		return ::Math_obj::sqrt((((x * x) + (y * y)) + (z * z)));
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Vector3D_obj,distance,return )
 
  ::openfl::geom::Vector3D Vector3D_obj::get_X_AXIS(){
-            	HX_GC_STACKFRAME(&_hx_pos_272ec68939e03fc6_498_get_X_AXIS)
-HXDLIN( 498)		return  ::openfl::geom::Vector3D_obj::__alloc( HX_CTX ,1,0,0,null());
+            	HX_GC_STACKFRAME(&_hx_pos_272ec68939e03fc6_207_get_X_AXIS)
+HXDLIN( 207)		return  ::openfl::geom::Vector3D_obj::__alloc( HX_CTX ,1,0,0,null());
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC0(Vector3D_obj,get_X_AXIS,return )
 
  ::openfl::geom::Vector3D Vector3D_obj::get_Y_AXIS(){
-            	HX_GC_STACKFRAME(&_hx_pos_272ec68939e03fc6_503_get_Y_AXIS)
-HXDLIN( 503)		return  ::openfl::geom::Vector3D_obj::__alloc( HX_CTX ,0,1,0,null());
+            	HX_GC_STACKFRAME(&_hx_pos_272ec68939e03fc6_212_get_Y_AXIS)
+HXDLIN( 212)		return  ::openfl::geom::Vector3D_obj::__alloc( HX_CTX ,0,1,0,null());
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC0(Vector3D_obj,get_Y_AXIS,return )
 
  ::openfl::geom::Vector3D Vector3D_obj::get_Z_AXIS(){
-            	HX_GC_STACKFRAME(&_hx_pos_272ec68939e03fc6_508_get_Z_AXIS)
-HXDLIN( 508)		return  ::openfl::geom::Vector3D_obj::__alloc( HX_CTX ,0,0,1,null());
+            	HX_GC_STACKFRAME(&_hx_pos_272ec68939e03fc6_217_get_Z_AXIS)
+HXDLIN( 217)		return  ::openfl::geom::Vector3D_obj::__alloc( HX_CTX ,0,0,1,null());
             	}
 
 

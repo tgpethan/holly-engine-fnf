@@ -25,7 +25,6 @@ HX_DECLARE_CLASS2(openfl,geom,Rectangle)
 HX_DECLARE_CLASS2(openfl,text,Font)
 HX_DECLARE_CLASS2(openfl,text,TextField)
 HX_DECLARE_CLASS2(openfl,text,TextFormat)
-HX_DECLARE_CLASS3(openfl,text,_internal,ShapeCache)
 HX_DECLARE_CLASS3(openfl,text,_internal,TextEngine)
 HX_DECLARE_CLASS3(openfl,text,_internal,TextLayout)
 
@@ -136,7 +135,6 @@ class HXCPP_CLASS_ATTRIBUTES TextEngine_obj : public ::hx::Object
 		int _hx___measuredWidth;
 		 ::EReg _hx___restrictRegexp;
 		int _hx___selectionStart;
-		 ::openfl::text::_internal::ShapeCache _hx___shapeCache;
 		bool _hx___showCursor;
 		 ::openfl::text::TextFormat _hx___textFormat;
 		 ::openfl::text::_internal::TextLayout _hx___textLayout;
@@ -152,9 +150,6 @@ class HXCPP_CLASS_ATTRIBUTES TextEngine_obj : public ::hx::Object
 
 		::String getLine(int index);
 		::Dynamic getLine_dyn();
-
-		void getLineBreaks();
-		::Dynamic getLineBreaks_dyn();
 
 		int getLineBreakIndex(::hx::Null< int >  startIndex);
 		::Dynamic getLineBreakIndex_dyn();

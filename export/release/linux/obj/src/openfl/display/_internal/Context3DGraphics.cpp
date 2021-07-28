@@ -123,9 +123,9 @@
 HX_LOCAL_STACK_FRAME(_hx_pos_14098afca734a8c3_41_buildBuffer,"openfl.display._internal.Context3DGraphics","buildBuffer",0x4d7a46af,"openfl.display._internal.Context3DGraphics.buildBuffer","openfl/display/_internal/Context3DGraphics.hx",41,0x8e8e2a52)
 HX_LOCAL_STACK_FRAME(_hx_pos_14098afca734a8c3_370_isCompatible,"openfl.display._internal.Context3DGraphics","isCompatible",0xc3dcc4dd,"openfl.display._internal.Context3DGraphics.isCompatible","openfl/display/_internal/Context3DGraphics.hx",370,0x8e8e2a52)
 HX_LOCAL_STACK_FRAME(_hx_pos_14098afca734a8c3_463_render,"openfl.display._internal.Context3DGraphics","render",0x6cd95315,"openfl.display._internal.Context3DGraphics.render","openfl/display/_internal/Context3DGraphics.hx",463,0x8e8e2a52)
-HX_LOCAL_STACK_FRAME(_hx_pos_14098afca734a8c3_821_renderMask,"openfl.display._internal.Context3DGraphics","renderMask",0xda186ea1,"openfl.display._internal.Context3DGraphics.renderMask","openfl/display/_internal/Context3DGraphics.hx",821,0x8e8e2a52)
-HX_LOCAL_STACK_FRAME(_hx_pos_14098afca734a8c3_830_resizeIndexBuffer,"openfl.display._internal.Context3DGraphics","resizeIndexBuffer",0x673d02bf,"openfl.display._internal.Context3DGraphics.resizeIndexBuffer","openfl/display/_internal/Context3DGraphics.hx",830,0x8e8e2a52)
-HX_LOCAL_STACK_FRAME(_hx_pos_14098afca734a8c3_878_resizeVertexBuffer,"openfl.display._internal.Context3DGraphics","resizeVertexBuffer",0x62dc7dd7,"openfl.display._internal.Context3DGraphics.resizeVertexBuffer","openfl/display/_internal/Context3DGraphics.hx",878,0x8e8e2a52)
+HX_LOCAL_STACK_FRAME(_hx_pos_14098afca734a8c3_820_renderMask,"openfl.display._internal.Context3DGraphics","renderMask",0xda186ea1,"openfl.display._internal.Context3DGraphics.renderMask","openfl/display/_internal/Context3DGraphics.hx",820,0x8e8e2a52)
+HX_LOCAL_STACK_FRAME(_hx_pos_14098afca734a8c3_829_resizeIndexBuffer,"openfl.display._internal.Context3DGraphics","resizeIndexBuffer",0x673d02bf,"openfl.display._internal.Context3DGraphics.resizeIndexBuffer","openfl/display/_internal/Context3DGraphics.hx",829,0x8e8e2a52)
+HX_LOCAL_STACK_FRAME(_hx_pos_14098afca734a8c3_877_resizeVertexBuffer,"openfl.display._internal.Context3DGraphics","resizeVertexBuffer",0x62dc7dd7,"openfl.display._internal.Context3DGraphics.resizeVertexBuffer","openfl/display/_internal/Context3DGraphics.hx",877,0x8e8e2a52)
 HX_LOCAL_STACK_FRAME(_hx_pos_14098afca734a8c3_34_boot,"openfl.display._internal.Context3DGraphics","boot",0x906dae31,"openfl.display._internal.Context3DGraphics.boot","openfl/display/_internal/Context3DGraphics.hx",34,0x8e8e2a52)
 HX_LOCAL_STACK_FRAME(_hx_pos_14098afca734a8c3_36_boot,"openfl.display._internal.Context3DGraphics","boot",0x906dae31,"openfl.display._internal.Context3DGraphics.boot","openfl/display/_internal/Context3DGraphics.hx",36,0x8e8e2a52)
 HX_LOCAL_STACK_FRAME(_hx_pos_14098afca734a8c3_38_boot,"openfl.display._internal.Context3DGraphics","boot",0x906dae31,"openfl.display._internal.Context3DGraphics.boot","openfl/display/_internal/Context3DGraphics.hx",38,0x8e8e2a52)
@@ -4027,133 +4027,132 @@ HXDLIN( 795)											data1->oPos = (data1->oPos + 1);
             									}
 HXLINE( 795)									data->prev = type;
             								}
-HXLINE( 796)								context->setCulling(3);
             							}
             							break;
             							case (int)18: {
-HXLINE( 799)								switch((int)(data->prev->_hx_getIndex())){
+HXLINE( 798)								switch((int)(data->prev->_hx_getIndex())){
             									case (int)0: {
-HXLINE( 799)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 799)										data1->oPos = (data1->oPos + 2);
-HXDLIN( 799)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN( 799)										data2->bPos = (data2->bPos + 2);
+HXLINE( 798)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 798)										data1->oPos = (data1->oPos + 2);
+HXDLIN( 798)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 798)										data2->bPos = (data2->bPos + 2);
             									}
             									break;
             									case (int)1: {
-HXLINE( 799)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 799)										data1->iPos = (data1->iPos + 1);
-HXDLIN( 799)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN( 799)										data2->fPos = (data2->fPos + 1);
+HXLINE( 798)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 798)										data1->iPos = (data1->iPos + 1);
+HXDLIN( 798)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 798)										data2->fPos = (data2->fPos + 1);
             									}
             									break;
             									case (int)2: {
-HXLINE( 799)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 799)										data1->oPos = (data1->oPos + 4);
-HXDLIN( 799)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN( 799)										data2->iiPos = (data2->iiPos + 2);
-HXDLIN( 799)										 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN( 799)										data3->ffPos = (data3->ffPos + 1);
-HXDLIN( 799)										 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN( 799)										data4->fPos = (data4->fPos + 1);
+HXLINE( 798)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 798)										data1->oPos = (data1->oPos + 4);
+HXDLIN( 798)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 798)										data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 798)										 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 798)										data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 798)										 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 798)										data4->fPos = (data4->fPos + 1);
             									}
             									break;
             									case (int)3: {
-HXLINE( 799)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 799)										data1->oPos = (data1->oPos + 1);
+HXLINE( 798)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 798)										data1->oPos = (data1->oPos + 1);
             									}
             									break;
             									case (int)4: {
-HXLINE( 799)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 799)										data1->fPos = (data1->fPos + 6);
+HXLINE( 798)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 798)										data1->fPos = (data1->fPos + 6);
             									}
             									break;
             									case (int)5: {
-HXLINE( 799)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 799)										data1->fPos = (data1->fPos + 4);
+HXLINE( 798)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 798)										data1->fPos = (data1->fPos + 4);
             									}
             									break;
             									case (int)6: {
-HXLINE( 799)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 799)										data1->fPos = (data1->fPos + 3);
+HXLINE( 798)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 798)										data1->fPos = (data1->fPos + 3);
             									}
             									break;
             									case (int)7: {
-HXLINE( 799)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 799)										data1->fPos = (data1->fPos + 4);
+HXLINE( 798)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 798)										data1->fPos = (data1->fPos + 4);
             									}
             									break;
             									case (int)8: {
-HXLINE( 799)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 799)										data1->oPos = (data1->oPos + 3);
+HXLINE( 798)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 798)										data1->oPos = (data1->oPos + 3);
             									}
             									break;
             									case (int)9: {
-HXLINE( 799)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 799)										data1->fPos = (data1->fPos + 4);
+HXLINE( 798)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 798)										data1->fPos = (data1->fPos + 4);
             									}
             									break;
             									case (int)10: {
-HXLINE( 799)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 799)										data1->fPos = (data1->fPos + 5);
-HXDLIN( 799)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN( 799)										data2->oPos = (data2->oPos + 1);
+HXLINE( 798)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 798)										data1->fPos = (data1->fPos + 5);
+HXDLIN( 798)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 798)										data2->oPos = (data2->oPos + 1);
             									}
             									break;
             									case (int)12: {
-HXLINE( 799)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 799)										data1->oPos = (data1->oPos + 4);
+HXLINE( 798)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 798)										data1->oPos = (data1->oPos + 4);
             									}
             									break;
             									case (int)13: {
             									}
             									break;
             									case (int)14: {
-HXLINE( 799)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 799)										data1->oPos = (data1->oPos + 2);
-HXDLIN( 799)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN( 799)										data2->bPos = (data2->bPos + 2);
+HXLINE( 798)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 798)										data1->oPos = (data1->oPos + 2);
+HXDLIN( 798)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 798)										data2->bPos = (data2->bPos + 2);
             									}
             									break;
             									case (int)15: {
-HXLINE( 799)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 799)										data1->oPos = (data1->oPos + 4);
-HXDLIN( 799)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN( 799)										data2->iiPos = (data2->iiPos + 2);
-HXDLIN( 799)										 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN( 799)										data3->ffPos = (data3->ffPos + 1);
-HXDLIN( 799)										 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN( 799)										data4->fPos = (data4->fPos + 1);
+HXLINE( 798)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 798)										data1->oPos = (data1->oPos + 4);
+HXDLIN( 798)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 798)										data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 798)										 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 798)										data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 798)										 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 798)										data4->fPos = (data4->fPos + 1);
             									}
             									break;
             									case (int)16: {
-HXLINE( 799)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 799)										data1->oPos = (data1->oPos + 4);
-HXDLIN( 799)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN( 799)										data2->iPos = (data2->iPos + 1);
-HXDLIN( 799)										 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN( 799)										data3->fPos = (data3->fPos + 2);
-HXDLIN( 799)										 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN( 799)										data4->bPos = (data4->bPos + 1);
+HXLINE( 798)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 798)										data1->oPos = (data1->oPos + 4);
+HXDLIN( 798)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 798)										data2->iPos = (data2->iPos + 1);
+HXDLIN( 798)										 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 798)										data3->fPos = (data3->fPos + 2);
+HXDLIN( 798)										 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 798)										data4->bPos = (data4->bPos + 1);
             									}
             									break;
             									case (int)17: {
-HXLINE( 799)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 799)										data1->fPos = (data1->fPos + 2);
+HXLINE( 798)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 798)										data1->fPos = (data1->fPos + 2);
             									}
             									break;
             									case (int)18: {
-HXLINE( 799)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 799)										data1->fPos = (data1->fPos + 2);
+HXLINE( 798)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 798)										data1->fPos = (data1->fPos + 2);
             									}
             									break;
             									case (int)19: {
-HXLINE( 799)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 799)										data1->oPos = (data1->oPos + 1);
+HXLINE( 798)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 798)										data1->oPos = (data1->oPos + 1);
             									}
             									break;
             									case (int)20: {
-HXLINE( 799)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 799)										data1->oPos = (data1->oPos + 1);
+HXLINE( 798)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 798)										data1->oPos = (data1->oPos + 1);
             									}
             									break;
             									case (int)21: case (int)22: {
@@ -4162,137 +4161,137 @@ HXDLIN( 799)										data1->oPos = (data1->oPos + 1);
             									default:{
             									}
             								}
-HXLINE( 799)								data->prev = ::openfl::display::_internal::DrawCommandType_obj::MOVE_TO_dyn();
-HXDLIN( 799)								 ::openfl::display::_internal::DrawCommandReader this1 = data;
-HXDLIN( 799)								 ::openfl::display::_internal::DrawCommandReader c = this1;
-HXLINE( 800)								positionX = c->buffer->f->__get(c->fPos);
-HXLINE( 801)								positionY = c->buffer->f->__get((c->fPos + 1));
+HXLINE( 798)								data->prev = ::openfl::display::_internal::DrawCommandType_obj::MOVE_TO_dyn();
+HXDLIN( 798)								 ::openfl::display::_internal::DrawCommandReader this1 = data;
+HXDLIN( 798)								 ::openfl::display::_internal::DrawCommandReader c = this1;
+HXLINE( 799)								positionX = c->buffer->f->__get(c->fPos);
+HXLINE( 800)								positionY = c->buffer->f->__get((c->fPos + 1));
             							}
             							break;
             							case (int)19: {
-HXLINE( 804)								switch((int)(data->prev->_hx_getIndex())){
+HXLINE( 803)								switch((int)(data->prev->_hx_getIndex())){
             									case (int)0: {
-HXLINE( 804)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 804)										data1->oPos = (data1->oPos + 2);
-HXDLIN( 804)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN( 804)										data2->bPos = (data2->bPos + 2);
+HXLINE( 803)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 803)										data1->oPos = (data1->oPos + 2);
+HXDLIN( 803)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 803)										data2->bPos = (data2->bPos + 2);
             									}
             									break;
             									case (int)1: {
-HXLINE( 804)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 804)										data1->iPos = (data1->iPos + 1);
-HXDLIN( 804)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN( 804)										data2->fPos = (data2->fPos + 1);
+HXLINE( 803)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 803)										data1->iPos = (data1->iPos + 1);
+HXDLIN( 803)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 803)										data2->fPos = (data2->fPos + 1);
             									}
             									break;
             									case (int)2: {
-HXLINE( 804)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 804)										data1->oPos = (data1->oPos + 4);
-HXDLIN( 804)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN( 804)										data2->iiPos = (data2->iiPos + 2);
-HXDLIN( 804)										 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN( 804)										data3->ffPos = (data3->ffPos + 1);
-HXDLIN( 804)										 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN( 804)										data4->fPos = (data4->fPos + 1);
+HXLINE( 803)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 803)										data1->oPos = (data1->oPos + 4);
+HXDLIN( 803)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 803)										data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 803)										 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 803)										data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 803)										 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 803)										data4->fPos = (data4->fPos + 1);
             									}
             									break;
             									case (int)3: {
-HXLINE( 804)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 804)										data1->oPos = (data1->oPos + 1);
+HXLINE( 803)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 803)										data1->oPos = (data1->oPos + 1);
             									}
             									break;
             									case (int)4: {
-HXLINE( 804)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 804)										data1->fPos = (data1->fPos + 6);
+HXLINE( 803)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 803)										data1->fPos = (data1->fPos + 6);
             									}
             									break;
             									case (int)5: {
-HXLINE( 804)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 804)										data1->fPos = (data1->fPos + 4);
+HXLINE( 803)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 803)										data1->fPos = (data1->fPos + 4);
             									}
             									break;
             									case (int)6: {
-HXLINE( 804)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 804)										data1->fPos = (data1->fPos + 3);
+HXLINE( 803)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 803)										data1->fPos = (data1->fPos + 3);
             									}
             									break;
             									case (int)7: {
-HXLINE( 804)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 804)										data1->fPos = (data1->fPos + 4);
+HXLINE( 803)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 803)										data1->fPos = (data1->fPos + 4);
             									}
             									break;
             									case (int)8: {
-HXLINE( 804)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 804)										data1->oPos = (data1->oPos + 3);
+HXLINE( 803)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 803)										data1->oPos = (data1->oPos + 3);
             									}
             									break;
             									case (int)9: {
-HXLINE( 804)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 804)										data1->fPos = (data1->fPos + 4);
+HXLINE( 803)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 803)										data1->fPos = (data1->fPos + 4);
             									}
             									break;
             									case (int)10: {
-HXLINE( 804)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 804)										data1->fPos = (data1->fPos + 5);
-HXDLIN( 804)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN( 804)										data2->oPos = (data2->oPos + 1);
+HXLINE( 803)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 803)										data1->fPos = (data1->fPos + 5);
+HXDLIN( 803)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 803)										data2->oPos = (data2->oPos + 1);
             									}
             									break;
             									case (int)12: {
-HXLINE( 804)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 804)										data1->oPos = (data1->oPos + 4);
+HXLINE( 803)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 803)										data1->oPos = (data1->oPos + 4);
             									}
             									break;
             									case (int)13: {
             									}
             									break;
             									case (int)14: {
-HXLINE( 804)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 804)										data1->oPos = (data1->oPos + 2);
-HXDLIN( 804)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN( 804)										data2->bPos = (data2->bPos + 2);
+HXLINE( 803)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 803)										data1->oPos = (data1->oPos + 2);
+HXDLIN( 803)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 803)										data2->bPos = (data2->bPos + 2);
             									}
             									break;
             									case (int)15: {
-HXLINE( 804)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 804)										data1->oPos = (data1->oPos + 4);
-HXDLIN( 804)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN( 804)										data2->iiPos = (data2->iiPos + 2);
-HXDLIN( 804)										 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN( 804)										data3->ffPos = (data3->ffPos + 1);
-HXDLIN( 804)										 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN( 804)										data4->fPos = (data4->fPos + 1);
+HXLINE( 803)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 803)										data1->oPos = (data1->oPos + 4);
+HXDLIN( 803)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 803)										data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 803)										 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 803)										data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 803)										 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 803)										data4->fPos = (data4->fPos + 1);
             									}
             									break;
             									case (int)16: {
-HXLINE( 804)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 804)										data1->oPos = (data1->oPos + 4);
-HXDLIN( 804)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN( 804)										data2->iPos = (data2->iPos + 1);
-HXDLIN( 804)										 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN( 804)										data3->fPos = (data3->fPos + 2);
-HXDLIN( 804)										 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN( 804)										data4->bPos = (data4->bPos + 1);
+HXLINE( 803)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 803)										data1->oPos = (data1->oPos + 4);
+HXDLIN( 803)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 803)										data2->iPos = (data2->iPos + 1);
+HXDLIN( 803)										 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 803)										data3->fPos = (data3->fPos + 2);
+HXDLIN( 803)										 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 803)										data4->bPos = (data4->bPos + 1);
             									}
             									break;
             									case (int)17: {
-HXLINE( 804)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 804)										data1->fPos = (data1->fPos + 2);
+HXLINE( 803)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 803)										data1->fPos = (data1->fPos + 2);
             									}
             									break;
             									case (int)18: {
-HXLINE( 804)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 804)										data1->fPos = (data1->fPos + 2);
+HXLINE( 803)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 803)										data1->fPos = (data1->fPos + 2);
             									}
             									break;
             									case (int)19: {
-HXLINE( 804)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 804)										data1->oPos = (data1->oPos + 1);
+HXLINE( 803)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 803)										data1->oPos = (data1->oPos + 1);
             									}
             									break;
             									case (int)20: {
-HXLINE( 804)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 804)										data1->oPos = (data1->oPos + 1);
+HXLINE( 803)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 803)										data1->oPos = (data1->oPos + 1);
             									}
             									break;
             									case (int)21: case (int)22: {
@@ -4301,136 +4300,136 @@ HXDLIN( 804)										data1->oPos = (data1->oPos + 1);
             									default:{
             									}
             								}
-HXLINE( 804)								data->prev = ::openfl::display::_internal::DrawCommandType_obj::OVERRIDE_BLEND_MODE_dyn();
-HXDLIN( 804)								 ::openfl::display::_internal::DrawCommandReader this1 = data;
-HXDLIN( 804)								 ::openfl::display::_internal::DrawCommandReader c = this1;
-HXLINE( 805)								renderer->_hx___setBlendMode(c->buffer->o->__get(c->oPos));
+HXLINE( 803)								data->prev = ::openfl::display::_internal::DrawCommandType_obj::OVERRIDE_BLEND_MODE_dyn();
+HXDLIN( 803)								 ::openfl::display::_internal::DrawCommandReader this1 = data;
+HXDLIN( 803)								 ::openfl::display::_internal::DrawCommandReader c = this1;
+HXLINE( 804)								renderer->_hx___setBlendMode(c->buffer->o->__get(c->oPos));
             							}
             							break;
             							default:{
-HXLINE( 808)								switch((int)(data->prev->_hx_getIndex())){
+HXLINE( 807)								switch((int)(data->prev->_hx_getIndex())){
             									case (int)0: {
-HXLINE( 808)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 808)										data1->oPos = (data1->oPos + 2);
-HXDLIN( 808)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN( 808)										data2->bPos = (data2->bPos + 2);
+HXLINE( 807)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 807)										data1->oPos = (data1->oPos + 2);
+HXDLIN( 807)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 807)										data2->bPos = (data2->bPos + 2);
             									}
             									break;
             									case (int)1: {
-HXLINE( 808)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 808)										data1->iPos = (data1->iPos + 1);
-HXDLIN( 808)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN( 808)										data2->fPos = (data2->fPos + 1);
+HXLINE( 807)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 807)										data1->iPos = (data1->iPos + 1);
+HXDLIN( 807)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 807)										data2->fPos = (data2->fPos + 1);
             									}
             									break;
             									case (int)2: {
-HXLINE( 808)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 808)										data1->oPos = (data1->oPos + 4);
-HXDLIN( 808)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN( 808)										data2->iiPos = (data2->iiPos + 2);
-HXDLIN( 808)										 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN( 808)										data3->ffPos = (data3->ffPos + 1);
-HXDLIN( 808)										 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN( 808)										data4->fPos = (data4->fPos + 1);
+HXLINE( 807)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 807)										data1->oPos = (data1->oPos + 4);
+HXDLIN( 807)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 807)										data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 807)										 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 807)										data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 807)										 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 807)										data4->fPos = (data4->fPos + 1);
             									}
             									break;
             									case (int)3: {
-HXLINE( 808)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 808)										data1->oPos = (data1->oPos + 1);
+HXLINE( 807)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 807)										data1->oPos = (data1->oPos + 1);
             									}
             									break;
             									case (int)4: {
-HXLINE( 808)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 808)										data1->fPos = (data1->fPos + 6);
+HXLINE( 807)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 807)										data1->fPos = (data1->fPos + 6);
             									}
             									break;
             									case (int)5: {
-HXLINE( 808)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 808)										data1->fPos = (data1->fPos + 4);
+HXLINE( 807)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 807)										data1->fPos = (data1->fPos + 4);
             									}
             									break;
             									case (int)6: {
-HXLINE( 808)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 808)										data1->fPos = (data1->fPos + 3);
+HXLINE( 807)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 807)										data1->fPos = (data1->fPos + 3);
             									}
             									break;
             									case (int)7: {
-HXLINE( 808)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 808)										data1->fPos = (data1->fPos + 4);
+HXLINE( 807)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 807)										data1->fPos = (data1->fPos + 4);
             									}
             									break;
             									case (int)8: {
-HXLINE( 808)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 808)										data1->oPos = (data1->oPos + 3);
+HXLINE( 807)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 807)										data1->oPos = (data1->oPos + 3);
             									}
             									break;
             									case (int)9: {
-HXLINE( 808)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 808)										data1->fPos = (data1->fPos + 4);
+HXLINE( 807)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 807)										data1->fPos = (data1->fPos + 4);
             									}
             									break;
             									case (int)10: {
-HXLINE( 808)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 808)										data1->fPos = (data1->fPos + 5);
-HXDLIN( 808)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN( 808)										data2->oPos = (data2->oPos + 1);
+HXLINE( 807)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 807)										data1->fPos = (data1->fPos + 5);
+HXDLIN( 807)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 807)										data2->oPos = (data2->oPos + 1);
             									}
             									break;
             									case (int)12: {
-HXLINE( 808)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 808)										data1->oPos = (data1->oPos + 4);
+HXLINE( 807)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 807)										data1->oPos = (data1->oPos + 4);
             									}
             									break;
             									case (int)13: {
             									}
             									break;
             									case (int)14: {
-HXLINE( 808)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 808)										data1->oPos = (data1->oPos + 2);
-HXDLIN( 808)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN( 808)										data2->bPos = (data2->bPos + 2);
+HXLINE( 807)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 807)										data1->oPos = (data1->oPos + 2);
+HXDLIN( 807)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 807)										data2->bPos = (data2->bPos + 2);
             									}
             									break;
             									case (int)15: {
-HXLINE( 808)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 808)										data1->oPos = (data1->oPos + 4);
-HXDLIN( 808)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN( 808)										data2->iiPos = (data2->iiPos + 2);
-HXDLIN( 808)										 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN( 808)										data3->ffPos = (data3->ffPos + 1);
-HXDLIN( 808)										 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN( 808)										data4->fPos = (data4->fPos + 1);
+HXLINE( 807)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 807)										data1->oPos = (data1->oPos + 4);
+HXDLIN( 807)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 807)										data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 807)										 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 807)										data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 807)										 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 807)										data4->fPos = (data4->fPos + 1);
             									}
             									break;
             									case (int)16: {
-HXLINE( 808)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 808)										data1->oPos = (data1->oPos + 4);
-HXDLIN( 808)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN( 808)										data2->iPos = (data2->iPos + 1);
-HXDLIN( 808)										 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN( 808)										data3->fPos = (data3->fPos + 2);
-HXDLIN( 808)										 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN( 808)										data4->bPos = (data4->bPos + 1);
+HXLINE( 807)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 807)										data1->oPos = (data1->oPos + 4);
+HXDLIN( 807)										 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 807)										data2->iPos = (data2->iPos + 1);
+HXDLIN( 807)										 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 807)										data3->fPos = (data3->fPos + 2);
+HXDLIN( 807)										 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 807)										data4->bPos = (data4->bPos + 1);
             									}
             									break;
             									case (int)17: {
-HXLINE( 808)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 808)										data1->fPos = (data1->fPos + 2);
+HXLINE( 807)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 807)										data1->fPos = (data1->fPos + 2);
             									}
             									break;
             									case (int)18: {
-HXLINE( 808)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 808)										data1->fPos = (data1->fPos + 2);
+HXLINE( 807)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 807)										data1->fPos = (data1->fPos + 2);
             									}
             									break;
             									case (int)19: {
-HXLINE( 808)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 808)										data1->oPos = (data1->oPos + 1);
+HXLINE( 807)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 807)										data1->oPos = (data1->oPos + 1);
             									}
             									break;
             									case (int)20: {
-HXLINE( 808)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN( 808)										data1->oPos = (data1->oPos + 1);
+HXLINE( 807)										 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 807)										data1->oPos = (data1->oPos + 1);
             									}
             									break;
             									case (int)21: case (int)22: {
@@ -4439,15 +4438,15 @@ HXDLIN( 808)										data1->oPos = (data1->oPos + 1);
             									default:{
             									}
             								}
-HXLINE( 808)								data->prev = type;
+HXLINE( 807)								data->prev = type;
             							}
             						}
             					}
             				}
-HXLINE( 812)				::openfl::geom::Matrix_obj::_hx___pool->release(matrix);
+HXLINE( 811)				::openfl::geom::Matrix_obj::_hx___pool->release(matrix);
             			}
-HXLINE( 815)			graphics->_hx___hardwareDirty = false;
-HXLINE( 816)			graphics->set___dirty(false);
+HXLINE( 814)			graphics->_hx___hardwareDirty = false;
+HXLINE( 815)			graphics->set___dirty(false);
             		}
             	}
 
@@ -4455,264 +4454,264 @@ HXLINE( 816)			graphics->set___dirty(false);
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Context3DGraphics_obj,render,(void))
 
 void Context3DGraphics_obj::renderMask( ::openfl::display::Graphics graphics, ::openfl::display::OpenGLRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_14098afca734a8c3_821_renderMask)
-HXLINE( 824)		::openfl::display::_internal::Context3DGraphics_obj::maskRender = true;
-HXLINE( 825)		::openfl::display::_internal::Context3DGraphics_obj::render(graphics,renderer);
-HXLINE( 826)		::openfl::display::_internal::Context3DGraphics_obj::maskRender = false;
+            	HX_STACKFRAME(&_hx_pos_14098afca734a8c3_820_renderMask)
+HXLINE( 823)		::openfl::display::_internal::Context3DGraphics_obj::maskRender = true;
+HXLINE( 824)		::openfl::display::_internal::Context3DGraphics_obj::render(graphics,renderer);
+HXLINE( 825)		::openfl::display::_internal::Context3DGraphics_obj::maskRender = false;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Context3DGraphics_obj,renderMask,(void))
 
 void Context3DGraphics_obj::resizeIndexBuffer( ::openfl::display::Graphics graphics,bool isQuad,int length){
-            	HX_GC_STACKFRAME(&_hx_pos_14098afca734a8c3_830_resizeIndexBuffer)
-HXLINE( 831)		if (isQuad) {
-HXLINE( 831)			return;
+            	HX_GC_STACKFRAME(&_hx_pos_14098afca734a8c3_829_resizeIndexBuffer)
+HXLINE( 830)		if (isQuad) {
+HXLINE( 830)			return;
             		}
-HXLINE( 833)		 ::lime::utils::ArrayBufferView buffer;
-HXDLIN( 833)		if (isQuad) {
-HXLINE( 833)			buffer = null();
+HXLINE( 832)		 ::lime::utils::ArrayBufferView buffer;
+HXDLIN( 832)		if (isQuad) {
+HXLINE( 832)			buffer = null();
             		}
             		else {
-HXLINE( 833)			buffer = graphics->_hx___triangleIndexBufferData;
+HXLINE( 832)			buffer = graphics->_hx___triangleIndexBufferData;
             		}
-HXLINE( 834)		int position = 0;
-HXDLIN( 834)		 ::lime::utils::ArrayBufferView newBuffer = null();
-HXLINE( 837)		if (::hx::IsNull( buffer )) {
-HXLINE( 839)			 ::haxe::io::Bytes buffer = null();
-HXDLIN( 839)			::cpp::VirtualArray array = null();
-HXDLIN( 839)			 ::openfl::_Vector::IntVector vector = null();
-HXDLIN( 839)			 ::lime::utils::ArrayBufferView view = null();
-HXDLIN( 839)			 ::Dynamic len = null();
-HXDLIN( 839)			 ::lime::utils::ArrayBufferView this1;
-HXDLIN( 839)			if (::hx::IsNotNull( length )) {
-HXLINE( 839)				this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,length,6);
+HXLINE( 833)		int position = 0;
+HXDLIN( 833)		 ::lime::utils::ArrayBufferView newBuffer = null();
+HXLINE( 836)		if (::hx::IsNull( buffer )) {
+HXLINE( 838)			 ::haxe::io::Bytes buffer = null();
+HXDLIN( 838)			::cpp::VirtualArray array = null();
+HXDLIN( 838)			 ::openfl::_Vector::IntVector vector = null();
+HXDLIN( 838)			 ::lime::utils::ArrayBufferView view = null();
+HXDLIN( 838)			 ::Dynamic len = null();
+HXDLIN( 838)			 ::lime::utils::ArrayBufferView this1;
+HXDLIN( 838)			if (::hx::IsNotNull( length )) {
+HXLINE( 838)				this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,length,6);
             			}
             			else {
-HXLINE( 839)				if (::hx::IsNotNull( array )) {
-HXLINE( 839)					 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,6);
-HXDLIN( 839)					_this->byteOffset = 0;
-HXDLIN( 839)					_this->length = array->get_length();
-HXDLIN( 839)					_this->byteLength = (_this->length * _this->bytesPerElement);
-HXDLIN( 839)					 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
-HXDLIN( 839)					_this->buffer = this2;
-HXDLIN( 839)					_this->copyFromArray(array,null());
-HXDLIN( 839)					this1 = _this;
+HXLINE( 838)				if (::hx::IsNotNull( array )) {
+HXLINE( 838)					 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,6);
+HXDLIN( 838)					_this->byteOffset = 0;
+HXDLIN( 838)					_this->length = array->get_length();
+HXDLIN( 838)					_this->byteLength = (_this->length * _this->bytesPerElement);
+HXDLIN( 838)					 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
+HXDLIN( 838)					_this->buffer = this2;
+HXDLIN( 838)					_this->copyFromArray(array,null());
+HXDLIN( 838)					this1 = _this;
             				}
             				else {
-HXLINE( 839)					if (::hx::IsNotNull( vector )) {
-HXLINE( 839)						 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,6);
-HXDLIN( 839)						::cpp::VirtualArray array = ( (::cpp::VirtualArray)(vector->__Field(HX_("__array",79,c6,ed,8f),::hx::paccDynamic)) );
-HXDLIN( 839)						_this->byteOffset = 0;
-HXDLIN( 839)						_this->length = array->get_length();
-HXDLIN( 839)						_this->byteLength = (_this->length * _this->bytesPerElement);
-HXDLIN( 839)						 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
-HXDLIN( 839)						_this->buffer = this2;
-HXDLIN( 839)						_this->copyFromArray(array,null());
-HXDLIN( 839)						this1 = _this;
+HXLINE( 838)					if (::hx::IsNotNull( vector )) {
+HXLINE( 838)						 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,6);
+HXDLIN( 838)						::cpp::VirtualArray array = ( (::cpp::VirtualArray)(vector->__Field(HX_("__array",79,c6,ed,8f),::hx::paccDynamic)) );
+HXDLIN( 838)						_this->byteOffset = 0;
+HXDLIN( 838)						_this->length = array->get_length();
+HXDLIN( 838)						_this->byteLength = (_this->length * _this->bytesPerElement);
+HXDLIN( 838)						 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
+HXDLIN( 838)						_this->buffer = this2;
+HXDLIN( 838)						_this->copyFromArray(array,null());
+HXDLIN( 838)						this1 = _this;
             					}
             					else {
-HXLINE( 839)						if (::hx::IsNotNull( view )) {
-HXLINE( 839)							 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,6);
-HXDLIN( 839)							 ::haxe::io::Bytes srcData = view->buffer;
-HXDLIN( 839)							int srcLength = view->length;
-HXDLIN( 839)							int srcByteOffset = view->byteOffset;
-HXDLIN( 839)							int srcElementSize = view->bytesPerElement;
-HXDLIN( 839)							int elementSize = _this->bytesPerElement;
-HXDLIN( 839)							if ((view->type == _this->type)) {
-HXLINE( 839)								int srcLength = srcData->length;
-HXDLIN( 839)								int cloneLength = (srcLength - srcByteOffset);
-HXDLIN( 839)								 ::haxe::io::Bytes this1 = ::haxe::io::Bytes_obj::alloc(cloneLength);
-HXDLIN( 839)								_this->buffer = this1;
-HXDLIN( 839)								_this->buffer->blit(0,srcData,srcByteOffset,cloneLength);
+HXLINE( 838)						if (::hx::IsNotNull( view )) {
+HXLINE( 838)							 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,6);
+HXDLIN( 838)							 ::haxe::io::Bytes srcData = view->buffer;
+HXDLIN( 838)							int srcLength = view->length;
+HXDLIN( 838)							int srcByteOffset = view->byteOffset;
+HXDLIN( 838)							int srcElementSize = view->bytesPerElement;
+HXDLIN( 838)							int elementSize = _this->bytesPerElement;
+HXDLIN( 838)							if ((view->type == _this->type)) {
+HXLINE( 838)								int srcLength = srcData->length;
+HXDLIN( 838)								int cloneLength = (srcLength - srcByteOffset);
+HXDLIN( 838)								 ::haxe::io::Bytes this1 = ::haxe::io::Bytes_obj::alloc(cloneLength);
+HXDLIN( 838)								_this->buffer = this1;
+HXDLIN( 838)								_this->buffer->blit(0,srcData,srcByteOffset,cloneLength);
             							}
             							else {
-HXLINE( 839)								HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("unimplemented",09,2f,74,b4)));
+HXLINE( 838)								HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("unimplemented",09,2f,74,b4)));
             							}
-HXDLIN( 839)							_this->byteLength = (_this->bytesPerElement * srcLength);
-HXDLIN( 839)							_this->byteOffset = 0;
-HXDLIN( 839)							_this->length = srcLength;
-HXDLIN( 839)							this1 = _this;
+HXDLIN( 838)							_this->byteLength = (_this->bytesPerElement * srcLength);
+HXDLIN( 838)							_this->byteOffset = 0;
+HXDLIN( 838)							_this->length = srcLength;
+HXDLIN( 838)							this1 = _this;
             						}
             						else {
-HXLINE( 839)							if (::hx::IsNotNull( buffer )) {
-HXLINE( 839)								 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,6);
-HXDLIN( 839)								int in_byteOffset = 0;
-HXDLIN( 839)								if ((in_byteOffset < 0)) {
-HXLINE( 839)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXLINE( 838)							if (::hx::IsNotNull( buffer )) {
+HXLINE( 838)								 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,6);
+HXDLIN( 838)								int in_byteOffset = 0;
+HXDLIN( 838)								if ((in_byteOffset < 0)) {
+HXLINE( 838)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             								}
-HXDLIN( 839)								if ((::hx::Mod(in_byteOffset,_this->bytesPerElement) != 0)) {
-HXLINE( 839)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXDLIN( 838)								if ((::hx::Mod(in_byteOffset,_this->bytesPerElement) != 0)) {
+HXLINE( 838)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             								}
-HXDLIN( 839)								int bufferByteLength = buffer->length;
-HXDLIN( 839)								int elementSize = _this->bytesPerElement;
-HXDLIN( 839)								int newByteLength = bufferByteLength;
-HXDLIN( 839)								if (::hx::IsNull( len )) {
-HXLINE( 839)									newByteLength = (bufferByteLength - in_byteOffset);
-HXDLIN( 839)									if ((::hx::Mod(bufferByteLength,_this->bytesPerElement) != 0)) {
-HXLINE( 839)										HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXDLIN( 838)								int bufferByteLength = buffer->length;
+HXDLIN( 838)								int elementSize = _this->bytesPerElement;
+HXDLIN( 838)								int newByteLength = bufferByteLength;
+HXDLIN( 838)								if (::hx::IsNull( len )) {
+HXLINE( 838)									newByteLength = (bufferByteLength - in_byteOffset);
+HXDLIN( 838)									if ((::hx::Mod(bufferByteLength,_this->bytesPerElement) != 0)) {
+HXLINE( 838)										HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             									}
-HXDLIN( 839)									if ((newByteLength < 0)) {
-HXLINE( 839)										HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXDLIN( 838)									if ((newByteLength < 0)) {
+HXLINE( 838)										HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             									}
             								}
             								else {
-HXLINE( 839)									newByteLength = (( (int)(len) ) * _this->bytesPerElement);
-HXDLIN( 839)									int newRange = (in_byteOffset + newByteLength);
-HXDLIN( 839)									if ((newRange > bufferByteLength)) {
-HXLINE( 839)										HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXLINE( 838)									newByteLength = (( (int)(len) ) * _this->bytesPerElement);
+HXDLIN( 838)									int newRange = (in_byteOffset + newByteLength);
+HXDLIN( 838)									if ((newRange > bufferByteLength)) {
+HXLINE( 838)										HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             									}
             								}
-HXDLIN( 839)								_this->buffer = buffer;
-HXDLIN( 839)								_this->byteOffset = in_byteOffset;
-HXDLIN( 839)								_this->byteLength = newByteLength;
-HXDLIN( 839)								_this->length = ::Std_obj::_hx_int((( (Float)(newByteLength) ) / ( (Float)(_this->bytesPerElement) )));
-HXDLIN( 839)								this1 = _this;
+HXDLIN( 838)								_this->buffer = buffer;
+HXDLIN( 838)								_this->byteOffset = in_byteOffset;
+HXDLIN( 838)								_this->byteLength = newByteLength;
+HXDLIN( 838)								_this->length = ::Std_obj::_hx_int((( (Float)(newByteLength) ) / ( (Float)(_this->bytesPerElement) )));
+HXDLIN( 838)								this1 = _this;
             							}
             							else {
-HXLINE( 839)								HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("Invalid constructor arguments for UInt16Array",0a,c7,2d,d5)));
+HXLINE( 838)								HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("Invalid constructor arguments for UInt16Array",0a,c7,2d,d5)));
             							}
             						}
             					}
             				}
             			}
-HXDLIN( 839)			newBuffer = this1;
+HXDLIN( 838)			newBuffer = this1;
             		}
             		else {
-HXLINE( 841)			if ((length > buffer->length)) {
-HXLINE( 843)				 ::haxe::io::Bytes buffer1 = null();
-HXDLIN( 843)				::cpp::VirtualArray array = null();
-HXDLIN( 843)				 ::openfl::_Vector::IntVector vector = null();
-HXDLIN( 843)				 ::lime::utils::ArrayBufferView view = null();
-HXDLIN( 843)				 ::Dynamic len = null();
-HXDLIN( 843)				 ::lime::utils::ArrayBufferView this1;
-HXDLIN( 843)				if (::hx::IsNotNull( length )) {
-HXLINE( 843)					this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,length,6);
+HXLINE( 840)			if ((length > buffer->length)) {
+HXLINE( 842)				 ::haxe::io::Bytes buffer1 = null();
+HXDLIN( 842)				::cpp::VirtualArray array = null();
+HXDLIN( 842)				 ::openfl::_Vector::IntVector vector = null();
+HXDLIN( 842)				 ::lime::utils::ArrayBufferView view = null();
+HXDLIN( 842)				 ::Dynamic len = null();
+HXDLIN( 842)				 ::lime::utils::ArrayBufferView this1;
+HXDLIN( 842)				if (::hx::IsNotNull( length )) {
+HXLINE( 842)					this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,length,6);
             				}
             				else {
-HXLINE( 843)					if (::hx::IsNotNull( array )) {
-HXLINE( 843)						 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,6);
-HXDLIN( 843)						_this->byteOffset = 0;
-HXDLIN( 843)						_this->length = array->get_length();
-HXDLIN( 843)						_this->byteLength = (_this->length * _this->bytesPerElement);
-HXDLIN( 843)						 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
-HXDLIN( 843)						_this->buffer = this2;
-HXDLIN( 843)						_this->copyFromArray(array,null());
-HXDLIN( 843)						this1 = _this;
+HXLINE( 842)					if (::hx::IsNotNull( array )) {
+HXLINE( 842)						 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,6);
+HXDLIN( 842)						_this->byteOffset = 0;
+HXDLIN( 842)						_this->length = array->get_length();
+HXDLIN( 842)						_this->byteLength = (_this->length * _this->bytesPerElement);
+HXDLIN( 842)						 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
+HXDLIN( 842)						_this->buffer = this2;
+HXDLIN( 842)						_this->copyFromArray(array,null());
+HXDLIN( 842)						this1 = _this;
             					}
             					else {
-HXLINE( 843)						if (::hx::IsNotNull( vector )) {
-HXLINE( 843)							 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,6);
-HXDLIN( 843)							::cpp::VirtualArray array = ( (::cpp::VirtualArray)(vector->__Field(HX_("__array",79,c6,ed,8f),::hx::paccDynamic)) );
-HXDLIN( 843)							_this->byteOffset = 0;
-HXDLIN( 843)							_this->length = array->get_length();
-HXDLIN( 843)							_this->byteLength = (_this->length * _this->bytesPerElement);
-HXDLIN( 843)							 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
-HXDLIN( 843)							_this->buffer = this2;
-HXDLIN( 843)							_this->copyFromArray(array,null());
-HXDLIN( 843)							this1 = _this;
+HXLINE( 842)						if (::hx::IsNotNull( vector )) {
+HXLINE( 842)							 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,6);
+HXDLIN( 842)							::cpp::VirtualArray array = ( (::cpp::VirtualArray)(vector->__Field(HX_("__array",79,c6,ed,8f),::hx::paccDynamic)) );
+HXDLIN( 842)							_this->byteOffset = 0;
+HXDLIN( 842)							_this->length = array->get_length();
+HXDLIN( 842)							_this->byteLength = (_this->length * _this->bytesPerElement);
+HXDLIN( 842)							 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
+HXDLIN( 842)							_this->buffer = this2;
+HXDLIN( 842)							_this->copyFromArray(array,null());
+HXDLIN( 842)							this1 = _this;
             						}
             						else {
-HXLINE( 843)							if (::hx::IsNotNull( view )) {
-HXLINE( 843)								 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,6);
-HXDLIN( 843)								 ::haxe::io::Bytes srcData = view->buffer;
-HXDLIN( 843)								int srcLength = view->length;
-HXDLIN( 843)								int srcByteOffset = view->byteOffset;
-HXDLIN( 843)								int srcElementSize = view->bytesPerElement;
-HXDLIN( 843)								int elementSize = _this->bytesPerElement;
-HXDLIN( 843)								if ((view->type == _this->type)) {
-HXLINE( 843)									int srcLength = srcData->length;
-HXDLIN( 843)									int cloneLength = (srcLength - srcByteOffset);
-HXDLIN( 843)									 ::haxe::io::Bytes this1 = ::haxe::io::Bytes_obj::alloc(cloneLength);
-HXDLIN( 843)									_this->buffer = this1;
-HXDLIN( 843)									_this->buffer->blit(0,srcData,srcByteOffset,cloneLength);
+HXLINE( 842)							if (::hx::IsNotNull( view )) {
+HXLINE( 842)								 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,6);
+HXDLIN( 842)								 ::haxe::io::Bytes srcData = view->buffer;
+HXDLIN( 842)								int srcLength = view->length;
+HXDLIN( 842)								int srcByteOffset = view->byteOffset;
+HXDLIN( 842)								int srcElementSize = view->bytesPerElement;
+HXDLIN( 842)								int elementSize = _this->bytesPerElement;
+HXDLIN( 842)								if ((view->type == _this->type)) {
+HXLINE( 842)									int srcLength = srcData->length;
+HXDLIN( 842)									int cloneLength = (srcLength - srcByteOffset);
+HXDLIN( 842)									 ::haxe::io::Bytes this1 = ::haxe::io::Bytes_obj::alloc(cloneLength);
+HXDLIN( 842)									_this->buffer = this1;
+HXDLIN( 842)									_this->buffer->blit(0,srcData,srcByteOffset,cloneLength);
             								}
             								else {
-HXLINE( 843)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("unimplemented",09,2f,74,b4)));
+HXLINE( 842)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("unimplemented",09,2f,74,b4)));
             								}
-HXDLIN( 843)								_this->byteLength = (_this->bytesPerElement * srcLength);
-HXDLIN( 843)								_this->byteOffset = 0;
-HXDLIN( 843)								_this->length = srcLength;
-HXDLIN( 843)								this1 = _this;
+HXDLIN( 842)								_this->byteLength = (_this->bytesPerElement * srcLength);
+HXDLIN( 842)								_this->byteOffset = 0;
+HXDLIN( 842)								_this->length = srcLength;
+HXDLIN( 842)								this1 = _this;
             							}
             							else {
-HXLINE( 843)								if (::hx::IsNotNull( buffer1 )) {
-HXLINE( 843)									 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,6);
-HXDLIN( 843)									int in_byteOffset = 0;
-HXDLIN( 843)									if ((in_byteOffset < 0)) {
-HXLINE( 843)										HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXLINE( 842)								if (::hx::IsNotNull( buffer1 )) {
+HXLINE( 842)									 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,6);
+HXDLIN( 842)									int in_byteOffset = 0;
+HXDLIN( 842)									if ((in_byteOffset < 0)) {
+HXLINE( 842)										HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             									}
-HXDLIN( 843)									if ((::hx::Mod(in_byteOffset,_this->bytesPerElement) != 0)) {
-HXLINE( 843)										HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXDLIN( 842)									if ((::hx::Mod(in_byteOffset,_this->bytesPerElement) != 0)) {
+HXLINE( 842)										HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             									}
-HXDLIN( 843)									int bufferByteLength = buffer1->length;
-HXDLIN( 843)									int elementSize = _this->bytesPerElement;
-HXDLIN( 843)									int newByteLength = bufferByteLength;
-HXDLIN( 843)									if (::hx::IsNull( len )) {
-HXLINE( 843)										newByteLength = (bufferByteLength - in_byteOffset);
-HXDLIN( 843)										if ((::hx::Mod(bufferByteLength,_this->bytesPerElement) != 0)) {
-HXLINE( 843)											HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXDLIN( 842)									int bufferByteLength = buffer1->length;
+HXDLIN( 842)									int elementSize = _this->bytesPerElement;
+HXDLIN( 842)									int newByteLength = bufferByteLength;
+HXDLIN( 842)									if (::hx::IsNull( len )) {
+HXLINE( 842)										newByteLength = (bufferByteLength - in_byteOffset);
+HXDLIN( 842)										if ((::hx::Mod(bufferByteLength,_this->bytesPerElement) != 0)) {
+HXLINE( 842)											HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             										}
-HXDLIN( 843)										if ((newByteLength < 0)) {
-HXLINE( 843)											HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXDLIN( 842)										if ((newByteLength < 0)) {
+HXLINE( 842)											HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             										}
             									}
             									else {
-HXLINE( 843)										newByteLength = (( (int)(len) ) * _this->bytesPerElement);
-HXDLIN( 843)										int newRange = (in_byteOffset + newByteLength);
-HXDLIN( 843)										if ((newRange > bufferByteLength)) {
-HXLINE( 843)											HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXLINE( 842)										newByteLength = (( (int)(len) ) * _this->bytesPerElement);
+HXDLIN( 842)										int newRange = (in_byteOffset + newByteLength);
+HXDLIN( 842)										if ((newRange > bufferByteLength)) {
+HXLINE( 842)											HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             										}
             									}
-HXDLIN( 843)									_this->buffer = buffer1;
-HXDLIN( 843)									_this->byteOffset = in_byteOffset;
-HXDLIN( 843)									_this->byteLength = newByteLength;
-HXDLIN( 843)									_this->length = ::Std_obj::_hx_int((( (Float)(newByteLength) ) / ( (Float)(_this->bytesPerElement) )));
-HXDLIN( 843)									this1 = _this;
+HXDLIN( 842)									_this->buffer = buffer1;
+HXDLIN( 842)									_this->byteOffset = in_byteOffset;
+HXDLIN( 842)									_this->byteLength = newByteLength;
+HXDLIN( 842)									_this->length = ::Std_obj::_hx_int((( (Float)(newByteLength) ) / ( (Float)(_this->bytesPerElement) )));
+HXDLIN( 842)									this1 = _this;
             								}
             								else {
-HXLINE( 843)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("Invalid constructor arguments for UInt16Array",0a,c7,2d,d5)));
+HXLINE( 842)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("Invalid constructor arguments for UInt16Array",0a,c7,2d,d5)));
             								}
             							}
             						}
             					}
             				}
-HXDLIN( 843)				newBuffer = this1;
-HXLINE( 844)				{
-HXLINE( 844)					::cpp::VirtualArray array1 = null();
-HXDLIN( 844)					int offset = 0;
-HXDLIN( 844)					bool _hx_tmp;
-HXDLIN( 844)					if (::hx::IsNotNull( buffer )) {
-HXLINE( 844)						_hx_tmp = ::hx::IsNull( array1 );
+HXDLIN( 842)				newBuffer = this1;
+HXLINE( 843)				{
+HXLINE( 843)					::cpp::VirtualArray array1 = null();
+HXDLIN( 843)					int offset = 0;
+HXDLIN( 843)					bool _hx_tmp;
+HXDLIN( 843)					if (::hx::IsNotNull( buffer )) {
+HXLINE( 843)						_hx_tmp = ::hx::IsNull( array1 );
             					}
             					else {
-HXLINE( 844)						_hx_tmp = false;
+HXLINE( 843)						_hx_tmp = false;
             					}
-HXDLIN( 844)					if (_hx_tmp) {
-HXLINE( 844)						newBuffer->buffer->blit((offset * newBuffer->bytesPerElement),buffer->buffer,buffer->byteOffset,buffer->byteLength);
+HXDLIN( 843)					if (_hx_tmp) {
+HXLINE( 843)						newBuffer->buffer->blit((offset * newBuffer->bytesPerElement),buffer->buffer,buffer->byteOffset,buffer->byteLength);
             					}
             					else {
-HXLINE( 844)						bool _hx_tmp;
-HXDLIN( 844)						if (::hx::IsNotNull( array1 )) {
-HXLINE( 844)							_hx_tmp = ::hx::IsNull( buffer );
+HXLINE( 843)						bool _hx_tmp;
+HXDLIN( 843)						if (::hx::IsNotNull( array1 )) {
+HXLINE( 843)							_hx_tmp = ::hx::IsNull( buffer );
             						}
             						else {
-HXLINE( 844)							_hx_tmp = false;
+HXLINE( 843)							_hx_tmp = false;
             						}
-HXDLIN( 844)						if (_hx_tmp) {
-HXLINE( 844)							newBuffer->copyFromArray(array1,offset);
+HXDLIN( 843)						if (_hx_tmp) {
+HXLINE( 843)							newBuffer->copyFromArray(array1,offset);
             						}
             						else {
-HXLINE( 844)							HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("Invalid .set call. either view, or array must be not-null.",64,ba,b7,6c)));
+HXLINE( 843)							HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("Invalid .set call. either view, or array must be not-null.",64,ba,b7,6c)));
             						}
             					}
             				}
-HXLINE( 845)				position = buffer->length;
+HXLINE( 844)				position = buffer->length;
             			}
             		}
-HXLINE( 849)		if (::hx::IsNotNull( newBuffer )) {
-HXLINE( 851)			if (!(isQuad)) {
-HXLINE( 872)				graphics->_hx___triangleIndexBufferData = newBuffer;
+HXLINE( 848)		if (::hx::IsNotNull( newBuffer )) {
+HXLINE( 850)			if (!(isQuad)) {
+HXLINE( 871)				graphics->_hx___triangleIndexBufferData = newBuffer;
             			}
             		}
             	}
@@ -4721,252 +4720,252 @@ HXLINE( 872)				graphics->_hx___triangleIndexBufferData = newBuffer;
 STATIC_HX_DEFINE_DYNAMIC_FUNC3(Context3DGraphics_obj,resizeIndexBuffer,(void))
 
 void Context3DGraphics_obj::resizeVertexBuffer( ::openfl::display::Graphics graphics,bool hasUVTData,int length){
-            	HX_GC_STACKFRAME(&_hx_pos_14098afca734a8c3_878_resizeVertexBuffer)
-HXLINE( 879)		 ::lime::utils::ArrayBufferView buffer;
-HXDLIN( 879)		if (hasUVTData) {
-HXLINE( 879)			buffer = graphics->_hx___vertexBufferDataUVT;
+            	HX_GC_STACKFRAME(&_hx_pos_14098afca734a8c3_877_resizeVertexBuffer)
+HXLINE( 878)		 ::lime::utils::ArrayBufferView buffer;
+HXDLIN( 878)		if (hasUVTData) {
+HXLINE( 878)			buffer = graphics->_hx___vertexBufferDataUVT;
             		}
             		else {
-HXLINE( 879)			buffer = graphics->_hx___vertexBufferData;
+HXLINE( 878)			buffer = graphics->_hx___vertexBufferData;
             		}
-HXLINE( 880)		 ::lime::utils::ArrayBufferView newBuffer = null();
-HXLINE( 883)		if (::hx::IsNull( buffer )) {
-HXLINE( 885)			 ::haxe::io::Bytes buffer = null();
-HXDLIN( 885)			::cpp::VirtualArray array = null();
-HXDLIN( 885)			 ::openfl::_Vector::FloatVector vector = null();
-HXDLIN( 885)			 ::lime::utils::ArrayBufferView view = null();
-HXDLIN( 885)			 ::Dynamic len = null();
-HXDLIN( 885)			 ::lime::utils::ArrayBufferView this1;
-HXDLIN( 885)			if (::hx::IsNotNull( length )) {
-HXLINE( 885)				this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,length,8);
+HXLINE( 879)		 ::lime::utils::ArrayBufferView newBuffer = null();
+HXLINE( 882)		if (::hx::IsNull( buffer )) {
+HXLINE( 884)			 ::haxe::io::Bytes buffer = null();
+HXDLIN( 884)			::cpp::VirtualArray array = null();
+HXDLIN( 884)			 ::openfl::_Vector::FloatVector vector = null();
+HXDLIN( 884)			 ::lime::utils::ArrayBufferView view = null();
+HXDLIN( 884)			 ::Dynamic len = null();
+HXDLIN( 884)			 ::lime::utils::ArrayBufferView this1;
+HXDLIN( 884)			if (::hx::IsNotNull( length )) {
+HXLINE( 884)				this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,length,8);
             			}
             			else {
-HXLINE( 885)				if (::hx::IsNotNull( array )) {
-HXLINE( 885)					 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,8);
-HXDLIN( 885)					_this->byteOffset = 0;
-HXDLIN( 885)					_this->length = array->get_length();
-HXDLIN( 885)					_this->byteLength = (_this->length * _this->bytesPerElement);
-HXDLIN( 885)					 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
-HXDLIN( 885)					_this->buffer = this2;
-HXDLIN( 885)					_this->copyFromArray(array,null());
-HXDLIN( 885)					this1 = _this;
+HXLINE( 884)				if (::hx::IsNotNull( array )) {
+HXLINE( 884)					 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,8);
+HXDLIN( 884)					_this->byteOffset = 0;
+HXDLIN( 884)					_this->length = array->get_length();
+HXDLIN( 884)					_this->byteLength = (_this->length * _this->bytesPerElement);
+HXDLIN( 884)					 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
+HXDLIN( 884)					_this->buffer = this2;
+HXDLIN( 884)					_this->copyFromArray(array,null());
+HXDLIN( 884)					this1 = _this;
             				}
             				else {
-HXLINE( 885)					if (::hx::IsNotNull( vector )) {
-HXLINE( 885)						 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,8);
-HXDLIN( 885)						::cpp::VirtualArray array = ( (::cpp::VirtualArray)(vector->__Field(HX_("__array",79,c6,ed,8f),::hx::paccDynamic)) );
-HXDLIN( 885)						_this->byteOffset = 0;
-HXDLIN( 885)						_this->length = array->get_length();
-HXDLIN( 885)						_this->byteLength = (_this->length * _this->bytesPerElement);
-HXDLIN( 885)						 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
-HXDLIN( 885)						_this->buffer = this2;
-HXDLIN( 885)						_this->copyFromArray(array,null());
-HXDLIN( 885)						this1 = _this;
+HXLINE( 884)					if (::hx::IsNotNull( vector )) {
+HXLINE( 884)						 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,8);
+HXDLIN( 884)						::cpp::VirtualArray array = ( (::cpp::VirtualArray)(vector->__Field(HX_("__array",79,c6,ed,8f),::hx::paccDynamic)) );
+HXDLIN( 884)						_this->byteOffset = 0;
+HXDLIN( 884)						_this->length = array->get_length();
+HXDLIN( 884)						_this->byteLength = (_this->length * _this->bytesPerElement);
+HXDLIN( 884)						 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
+HXDLIN( 884)						_this->buffer = this2;
+HXDLIN( 884)						_this->copyFromArray(array,null());
+HXDLIN( 884)						this1 = _this;
             					}
             					else {
-HXLINE( 885)						if (::hx::IsNotNull( view )) {
-HXLINE( 885)							 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,8);
-HXDLIN( 885)							 ::haxe::io::Bytes srcData = view->buffer;
-HXDLIN( 885)							int srcLength = view->length;
-HXDLIN( 885)							int srcByteOffset = view->byteOffset;
-HXDLIN( 885)							int srcElementSize = view->bytesPerElement;
-HXDLIN( 885)							int elementSize = _this->bytesPerElement;
-HXDLIN( 885)							if ((view->type == _this->type)) {
-HXLINE( 885)								int srcLength = srcData->length;
-HXDLIN( 885)								int cloneLength = (srcLength - srcByteOffset);
-HXDLIN( 885)								 ::haxe::io::Bytes this1 = ::haxe::io::Bytes_obj::alloc(cloneLength);
-HXDLIN( 885)								_this->buffer = this1;
-HXDLIN( 885)								_this->buffer->blit(0,srcData,srcByteOffset,cloneLength);
+HXLINE( 884)						if (::hx::IsNotNull( view )) {
+HXLINE( 884)							 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,8);
+HXDLIN( 884)							 ::haxe::io::Bytes srcData = view->buffer;
+HXDLIN( 884)							int srcLength = view->length;
+HXDLIN( 884)							int srcByteOffset = view->byteOffset;
+HXDLIN( 884)							int srcElementSize = view->bytesPerElement;
+HXDLIN( 884)							int elementSize = _this->bytesPerElement;
+HXDLIN( 884)							if ((view->type == _this->type)) {
+HXLINE( 884)								int srcLength = srcData->length;
+HXDLIN( 884)								int cloneLength = (srcLength - srcByteOffset);
+HXDLIN( 884)								 ::haxe::io::Bytes this1 = ::haxe::io::Bytes_obj::alloc(cloneLength);
+HXDLIN( 884)								_this->buffer = this1;
+HXDLIN( 884)								_this->buffer->blit(0,srcData,srcByteOffset,cloneLength);
             							}
             							else {
-HXLINE( 885)								HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("unimplemented",09,2f,74,b4)));
+HXLINE( 884)								HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("unimplemented",09,2f,74,b4)));
             							}
-HXDLIN( 885)							_this->byteLength = (_this->bytesPerElement * srcLength);
-HXDLIN( 885)							_this->byteOffset = 0;
-HXDLIN( 885)							_this->length = srcLength;
-HXDLIN( 885)							this1 = _this;
+HXDLIN( 884)							_this->byteLength = (_this->bytesPerElement * srcLength);
+HXDLIN( 884)							_this->byteOffset = 0;
+HXDLIN( 884)							_this->length = srcLength;
+HXDLIN( 884)							this1 = _this;
             						}
             						else {
-HXLINE( 885)							if (::hx::IsNotNull( buffer )) {
-HXLINE( 885)								 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,8);
-HXDLIN( 885)								int in_byteOffset = 0;
-HXDLIN( 885)								if ((in_byteOffset < 0)) {
-HXLINE( 885)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXLINE( 884)							if (::hx::IsNotNull( buffer )) {
+HXLINE( 884)								 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,8);
+HXDLIN( 884)								int in_byteOffset = 0;
+HXDLIN( 884)								if ((in_byteOffset < 0)) {
+HXLINE( 884)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             								}
-HXDLIN( 885)								if ((::hx::Mod(in_byteOffset,_this->bytesPerElement) != 0)) {
-HXLINE( 885)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXDLIN( 884)								if ((::hx::Mod(in_byteOffset,_this->bytesPerElement) != 0)) {
+HXLINE( 884)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             								}
-HXDLIN( 885)								int bufferByteLength = buffer->length;
-HXDLIN( 885)								int elementSize = _this->bytesPerElement;
-HXDLIN( 885)								int newByteLength = bufferByteLength;
-HXDLIN( 885)								if (::hx::IsNull( len )) {
-HXLINE( 885)									newByteLength = (bufferByteLength - in_byteOffset);
-HXDLIN( 885)									if ((::hx::Mod(bufferByteLength,_this->bytesPerElement) != 0)) {
-HXLINE( 885)										HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXDLIN( 884)								int bufferByteLength = buffer->length;
+HXDLIN( 884)								int elementSize = _this->bytesPerElement;
+HXDLIN( 884)								int newByteLength = bufferByteLength;
+HXDLIN( 884)								if (::hx::IsNull( len )) {
+HXLINE( 884)									newByteLength = (bufferByteLength - in_byteOffset);
+HXDLIN( 884)									if ((::hx::Mod(bufferByteLength,_this->bytesPerElement) != 0)) {
+HXLINE( 884)										HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             									}
-HXDLIN( 885)									if ((newByteLength < 0)) {
-HXLINE( 885)										HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXDLIN( 884)									if ((newByteLength < 0)) {
+HXLINE( 884)										HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             									}
             								}
             								else {
-HXLINE( 885)									newByteLength = (( (int)(len) ) * _this->bytesPerElement);
-HXDLIN( 885)									int newRange = (in_byteOffset + newByteLength);
-HXDLIN( 885)									if ((newRange > bufferByteLength)) {
-HXLINE( 885)										HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXLINE( 884)									newByteLength = (( (int)(len) ) * _this->bytesPerElement);
+HXDLIN( 884)									int newRange = (in_byteOffset + newByteLength);
+HXDLIN( 884)									if ((newRange > bufferByteLength)) {
+HXLINE( 884)										HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             									}
             								}
-HXDLIN( 885)								_this->buffer = buffer;
-HXDLIN( 885)								_this->byteOffset = in_byteOffset;
-HXDLIN( 885)								_this->byteLength = newByteLength;
-HXDLIN( 885)								_this->length = ::Std_obj::_hx_int((( (Float)(newByteLength) ) / ( (Float)(_this->bytesPerElement) )));
-HXDLIN( 885)								this1 = _this;
+HXDLIN( 884)								_this->buffer = buffer;
+HXDLIN( 884)								_this->byteOffset = in_byteOffset;
+HXDLIN( 884)								_this->byteLength = newByteLength;
+HXDLIN( 884)								_this->length = ::Std_obj::_hx_int((( (Float)(newByteLength) ) / ( (Float)(_this->bytesPerElement) )));
+HXDLIN( 884)								this1 = _this;
             							}
             							else {
-HXLINE( 885)								HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("Invalid constructor arguments for Float32Array",8e,c1,f4,d4)));
+HXLINE( 884)								HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("Invalid constructor arguments for Float32Array",8e,c1,f4,d4)));
             							}
             						}
             					}
             				}
             			}
-HXDLIN( 885)			newBuffer = this1;
+HXDLIN( 884)			newBuffer = this1;
             		}
             		else {
-HXLINE( 887)			if ((length > buffer->length)) {
-HXLINE( 889)				 ::haxe::io::Bytes buffer1 = null();
-HXDLIN( 889)				::cpp::VirtualArray array = null();
-HXDLIN( 889)				 ::openfl::_Vector::FloatVector vector = null();
-HXDLIN( 889)				 ::lime::utils::ArrayBufferView view = null();
-HXDLIN( 889)				 ::Dynamic len = null();
-HXDLIN( 889)				 ::lime::utils::ArrayBufferView this1;
-HXDLIN( 889)				if (::hx::IsNotNull( length )) {
-HXLINE( 889)					this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,length,8);
+HXLINE( 886)			if ((length > buffer->length)) {
+HXLINE( 888)				 ::haxe::io::Bytes buffer1 = null();
+HXDLIN( 888)				::cpp::VirtualArray array = null();
+HXDLIN( 888)				 ::openfl::_Vector::FloatVector vector = null();
+HXDLIN( 888)				 ::lime::utils::ArrayBufferView view = null();
+HXDLIN( 888)				 ::Dynamic len = null();
+HXDLIN( 888)				 ::lime::utils::ArrayBufferView this1;
+HXDLIN( 888)				if (::hx::IsNotNull( length )) {
+HXLINE( 888)					this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,length,8);
             				}
             				else {
-HXLINE( 889)					if (::hx::IsNotNull( array )) {
-HXLINE( 889)						 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,8);
-HXDLIN( 889)						_this->byteOffset = 0;
-HXDLIN( 889)						_this->length = array->get_length();
-HXDLIN( 889)						_this->byteLength = (_this->length * _this->bytesPerElement);
-HXDLIN( 889)						 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
-HXDLIN( 889)						_this->buffer = this2;
-HXDLIN( 889)						_this->copyFromArray(array,null());
-HXDLIN( 889)						this1 = _this;
+HXLINE( 888)					if (::hx::IsNotNull( array )) {
+HXLINE( 888)						 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,8);
+HXDLIN( 888)						_this->byteOffset = 0;
+HXDLIN( 888)						_this->length = array->get_length();
+HXDLIN( 888)						_this->byteLength = (_this->length * _this->bytesPerElement);
+HXDLIN( 888)						 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
+HXDLIN( 888)						_this->buffer = this2;
+HXDLIN( 888)						_this->copyFromArray(array,null());
+HXDLIN( 888)						this1 = _this;
             					}
             					else {
-HXLINE( 889)						if (::hx::IsNotNull( vector )) {
-HXLINE( 889)							 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,8);
-HXDLIN( 889)							::cpp::VirtualArray array = ( (::cpp::VirtualArray)(vector->__Field(HX_("__array",79,c6,ed,8f),::hx::paccDynamic)) );
-HXDLIN( 889)							_this->byteOffset = 0;
-HXDLIN( 889)							_this->length = array->get_length();
-HXDLIN( 889)							_this->byteLength = (_this->length * _this->bytesPerElement);
-HXDLIN( 889)							 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
-HXDLIN( 889)							_this->buffer = this2;
-HXDLIN( 889)							_this->copyFromArray(array,null());
-HXDLIN( 889)							this1 = _this;
+HXLINE( 888)						if (::hx::IsNotNull( vector )) {
+HXLINE( 888)							 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,8);
+HXDLIN( 888)							::cpp::VirtualArray array = ( (::cpp::VirtualArray)(vector->__Field(HX_("__array",79,c6,ed,8f),::hx::paccDynamic)) );
+HXDLIN( 888)							_this->byteOffset = 0;
+HXDLIN( 888)							_this->length = array->get_length();
+HXDLIN( 888)							_this->byteLength = (_this->length * _this->bytesPerElement);
+HXDLIN( 888)							 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
+HXDLIN( 888)							_this->buffer = this2;
+HXDLIN( 888)							_this->copyFromArray(array,null());
+HXDLIN( 888)							this1 = _this;
             						}
             						else {
-HXLINE( 889)							if (::hx::IsNotNull( view )) {
-HXLINE( 889)								 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,8);
-HXDLIN( 889)								 ::haxe::io::Bytes srcData = view->buffer;
-HXDLIN( 889)								int srcLength = view->length;
-HXDLIN( 889)								int srcByteOffset = view->byteOffset;
-HXDLIN( 889)								int srcElementSize = view->bytesPerElement;
-HXDLIN( 889)								int elementSize = _this->bytesPerElement;
-HXDLIN( 889)								if ((view->type == _this->type)) {
-HXLINE( 889)									int srcLength = srcData->length;
-HXDLIN( 889)									int cloneLength = (srcLength - srcByteOffset);
-HXDLIN( 889)									 ::haxe::io::Bytes this1 = ::haxe::io::Bytes_obj::alloc(cloneLength);
-HXDLIN( 889)									_this->buffer = this1;
-HXDLIN( 889)									_this->buffer->blit(0,srcData,srcByteOffset,cloneLength);
+HXLINE( 888)							if (::hx::IsNotNull( view )) {
+HXLINE( 888)								 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,8);
+HXDLIN( 888)								 ::haxe::io::Bytes srcData = view->buffer;
+HXDLIN( 888)								int srcLength = view->length;
+HXDLIN( 888)								int srcByteOffset = view->byteOffset;
+HXDLIN( 888)								int srcElementSize = view->bytesPerElement;
+HXDLIN( 888)								int elementSize = _this->bytesPerElement;
+HXDLIN( 888)								if ((view->type == _this->type)) {
+HXLINE( 888)									int srcLength = srcData->length;
+HXDLIN( 888)									int cloneLength = (srcLength - srcByteOffset);
+HXDLIN( 888)									 ::haxe::io::Bytes this1 = ::haxe::io::Bytes_obj::alloc(cloneLength);
+HXDLIN( 888)									_this->buffer = this1;
+HXDLIN( 888)									_this->buffer->blit(0,srcData,srcByteOffset,cloneLength);
             								}
             								else {
-HXLINE( 889)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("unimplemented",09,2f,74,b4)));
+HXLINE( 888)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("unimplemented",09,2f,74,b4)));
             								}
-HXDLIN( 889)								_this->byteLength = (_this->bytesPerElement * srcLength);
-HXDLIN( 889)								_this->byteOffset = 0;
-HXDLIN( 889)								_this->length = srcLength;
-HXDLIN( 889)								this1 = _this;
+HXDLIN( 888)								_this->byteLength = (_this->bytesPerElement * srcLength);
+HXDLIN( 888)								_this->byteOffset = 0;
+HXDLIN( 888)								_this->length = srcLength;
+HXDLIN( 888)								this1 = _this;
             							}
             							else {
-HXLINE( 889)								if (::hx::IsNotNull( buffer1 )) {
-HXLINE( 889)									 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,8);
-HXDLIN( 889)									int in_byteOffset = 0;
-HXDLIN( 889)									if ((in_byteOffset < 0)) {
-HXLINE( 889)										HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXLINE( 888)								if (::hx::IsNotNull( buffer1 )) {
+HXLINE( 888)									 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,8);
+HXDLIN( 888)									int in_byteOffset = 0;
+HXDLIN( 888)									if ((in_byteOffset < 0)) {
+HXLINE( 888)										HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             									}
-HXDLIN( 889)									if ((::hx::Mod(in_byteOffset,_this->bytesPerElement) != 0)) {
-HXLINE( 889)										HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXDLIN( 888)									if ((::hx::Mod(in_byteOffset,_this->bytesPerElement) != 0)) {
+HXLINE( 888)										HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             									}
-HXDLIN( 889)									int bufferByteLength = buffer1->length;
-HXDLIN( 889)									int elementSize = _this->bytesPerElement;
-HXDLIN( 889)									int newByteLength = bufferByteLength;
-HXDLIN( 889)									if (::hx::IsNull( len )) {
-HXLINE( 889)										newByteLength = (bufferByteLength - in_byteOffset);
-HXDLIN( 889)										if ((::hx::Mod(bufferByteLength,_this->bytesPerElement) != 0)) {
-HXLINE( 889)											HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXDLIN( 888)									int bufferByteLength = buffer1->length;
+HXDLIN( 888)									int elementSize = _this->bytesPerElement;
+HXDLIN( 888)									int newByteLength = bufferByteLength;
+HXDLIN( 888)									if (::hx::IsNull( len )) {
+HXLINE( 888)										newByteLength = (bufferByteLength - in_byteOffset);
+HXDLIN( 888)										if ((::hx::Mod(bufferByteLength,_this->bytesPerElement) != 0)) {
+HXLINE( 888)											HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             										}
-HXDLIN( 889)										if ((newByteLength < 0)) {
-HXLINE( 889)											HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXDLIN( 888)										if ((newByteLength < 0)) {
+HXLINE( 888)											HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             										}
             									}
             									else {
-HXLINE( 889)										newByteLength = (( (int)(len) ) * _this->bytesPerElement);
-HXDLIN( 889)										int newRange = (in_byteOffset + newByteLength);
-HXDLIN( 889)										if ((newRange > bufferByteLength)) {
-HXLINE( 889)											HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXLINE( 888)										newByteLength = (( (int)(len) ) * _this->bytesPerElement);
+HXDLIN( 888)										int newRange = (in_byteOffset + newByteLength);
+HXDLIN( 888)										if ((newRange > bufferByteLength)) {
+HXLINE( 888)											HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             										}
             									}
-HXDLIN( 889)									_this->buffer = buffer1;
-HXDLIN( 889)									_this->byteOffset = in_byteOffset;
-HXDLIN( 889)									_this->byteLength = newByteLength;
-HXDLIN( 889)									_this->length = ::Std_obj::_hx_int((( (Float)(newByteLength) ) / ( (Float)(_this->bytesPerElement) )));
-HXDLIN( 889)									this1 = _this;
+HXDLIN( 888)									_this->buffer = buffer1;
+HXDLIN( 888)									_this->byteOffset = in_byteOffset;
+HXDLIN( 888)									_this->byteLength = newByteLength;
+HXDLIN( 888)									_this->length = ::Std_obj::_hx_int((( (Float)(newByteLength) ) / ( (Float)(_this->bytesPerElement) )));
+HXDLIN( 888)									this1 = _this;
             								}
             								else {
-HXLINE( 889)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("Invalid constructor arguments for Float32Array",8e,c1,f4,d4)));
+HXLINE( 888)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("Invalid constructor arguments for Float32Array",8e,c1,f4,d4)));
             								}
             							}
             						}
             					}
             				}
-HXDLIN( 889)				newBuffer = this1;
-HXLINE( 890)				{
-HXLINE( 890)					::cpp::VirtualArray array1 = null();
-HXDLIN( 890)					int offset = 0;
-HXDLIN( 890)					bool _hx_tmp;
-HXDLIN( 890)					if (::hx::IsNotNull( buffer )) {
-HXLINE( 890)						_hx_tmp = ::hx::IsNull( array1 );
+HXDLIN( 888)				newBuffer = this1;
+HXLINE( 889)				{
+HXLINE( 889)					::cpp::VirtualArray array1 = null();
+HXDLIN( 889)					int offset = 0;
+HXDLIN( 889)					bool _hx_tmp;
+HXDLIN( 889)					if (::hx::IsNotNull( buffer )) {
+HXLINE( 889)						_hx_tmp = ::hx::IsNull( array1 );
             					}
             					else {
-HXLINE( 890)						_hx_tmp = false;
+HXLINE( 889)						_hx_tmp = false;
             					}
-HXDLIN( 890)					if (_hx_tmp) {
-HXLINE( 890)						newBuffer->buffer->blit((offset * newBuffer->bytesPerElement),buffer->buffer,buffer->byteOffset,buffer->byteLength);
+HXDLIN( 889)					if (_hx_tmp) {
+HXLINE( 889)						newBuffer->buffer->blit((offset * newBuffer->bytesPerElement),buffer->buffer,buffer->byteOffset,buffer->byteLength);
             					}
             					else {
-HXLINE( 890)						bool _hx_tmp;
-HXDLIN( 890)						if (::hx::IsNotNull( array1 )) {
-HXLINE( 890)							_hx_tmp = ::hx::IsNull( buffer );
+HXLINE( 889)						bool _hx_tmp;
+HXDLIN( 889)						if (::hx::IsNotNull( array1 )) {
+HXLINE( 889)							_hx_tmp = ::hx::IsNull( buffer );
             						}
             						else {
-HXLINE( 890)							_hx_tmp = false;
+HXLINE( 889)							_hx_tmp = false;
             						}
-HXDLIN( 890)						if (_hx_tmp) {
-HXLINE( 890)							newBuffer->copyFromArray(array1,offset);
+HXDLIN( 889)						if (_hx_tmp) {
+HXLINE( 889)							newBuffer->copyFromArray(array1,offset);
             						}
             						else {
-HXLINE( 890)							HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("Invalid .set call. either view, or array must be not-null.",64,ba,b7,6c)));
+HXLINE( 889)							HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("Invalid .set call. either view, or array must be not-null.",64,ba,b7,6c)));
             						}
             					}
             				}
             			}
             		}
-HXLINE( 894)		if (::hx::IsNotNull( newBuffer )) {
-HXLINE( 896)			if (hasUVTData) {
-HXLINE( 896)				graphics->_hx___vertexBufferDataUVT = newBuffer;
+HXLINE( 893)		if (::hx::IsNotNull( newBuffer )) {
+HXLINE( 895)			if (hasUVTData) {
+HXLINE( 895)				graphics->_hx___vertexBufferDataUVT = newBuffer;
             			}
             			else {
-HXLINE( 896)				graphics->_hx___vertexBufferData = newBuffer;
+HXLINE( 895)				graphics->_hx___vertexBufferData = newBuffer;
             			}
             		}
             	}

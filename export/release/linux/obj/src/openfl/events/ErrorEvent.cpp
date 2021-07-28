@@ -11,14 +11,14 @@
 #include <openfl/events/TextEvent.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_0aefc26d1b1b4062_76_new,"openfl.events.ErrorEvent","new",0x1354a39b,"openfl.events.ErrorEvent.new","openfl/events/ErrorEvent.hx",76,0x9d2fc215)
-HX_LOCAL_STACK_FRAME(_hx_pos_0aefc26d1b1b4062_82_clone,"openfl.events.ErrorEvent","clone",0xbbab6b58,"openfl.events.ErrorEvent.clone","openfl/events/ErrorEvent.hx",82,0x9d2fc215)
-HX_LOCAL_STACK_FRAME(_hx_pos_0aefc26d1b1b4062_92_toString,"openfl.events.ErrorEvent","toString",0x299f6791,"openfl.events.ErrorEvent.toString","openfl/events/ErrorEvent.hx",92,0x9d2fc215)
+HX_DEFINE_STACK_FRAME(_hx_pos_0aefc26d1b1b4062_21_new,"openfl.events.ErrorEvent","new",0x1354a39b,"openfl.events.ErrorEvent.new","openfl/events/ErrorEvent.hx",21,0x9d2fc215)
+HX_LOCAL_STACK_FRAME(_hx_pos_0aefc26d1b1b4062_27_clone,"openfl.events.ErrorEvent","clone",0xbbab6b58,"openfl.events.ErrorEvent.clone","openfl/events/ErrorEvent.hx",27,0x9d2fc215)
+HX_LOCAL_STACK_FRAME(_hx_pos_0aefc26d1b1b4062_37_toString,"openfl.events.ErrorEvent","toString",0x299f6791,"openfl.events.ErrorEvent.toString","openfl/events/ErrorEvent.hx",37,0x9d2fc215)
 static const ::String _hx_array_data_60863a29_3[] = {
 	HX_("type",ba,f2,08,4d),HX_("bubbles",67,bb,56,61),HX_("cancelable",14,a0,79,c4),HX_("text",ad,cc,f9,4c),HX_("errorID",a3,8d,0a,ea),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_0aefc26d1b1b4062_96___init,"openfl.events.ErrorEvent","__init",0x60b841d5,"openfl.events.ErrorEvent.__init","openfl/events/ErrorEvent.hx",96,0x9d2fc215)
-HX_LOCAL_STACK_FRAME(_hx_pos_0aefc26d1b1b4062_43_boot,"openfl.events.ErrorEvent","boot",0xced38497,"openfl.events.ErrorEvent.boot","openfl/events/ErrorEvent.hx",43,0x9d2fc215)
+HX_LOCAL_STACK_FRAME(_hx_pos_0aefc26d1b1b4062_41___init,"openfl.events.ErrorEvent","__init",0x60b841d5,"openfl.events.ErrorEvent.__init","openfl/events/ErrorEvent.hx",41,0x9d2fc215)
+HX_LOCAL_STACK_FRAME(_hx_pos_0aefc26d1b1b4062_13_boot,"openfl.events.ErrorEvent","boot",0xced38497,"openfl.events.ErrorEvent.boot","openfl/events/ErrorEvent.hx",13,0x9d2fc215)
 namespace openfl{
 namespace events{
 
@@ -28,9 +28,9 @@ void ErrorEvent_obj::__construct(::String type,::hx::Null< bool >  __o_bubbles,:
             		::String text = __o_text;
             		if (::hx::IsNull(__o_text)) text = HX_("",00,00,00,00);
             		int id = __o_id.Default(0);
-            	HX_STACKFRAME(&_hx_pos_0aefc26d1b1b4062_76_new)
-HXLINE(  77)		super::__construct(type,bubbles,cancelable,text);
-HXLINE(  78)		this->errorID = id;
+            	HX_STACKFRAME(&_hx_pos_0aefc26d1b1b4062_21_new)
+HXLINE(  22)		super::__construct(type,bubbles,cancelable,text);
+HXLINE(  23)		this->errorID = id;
             	}
 
 Dynamic ErrorEvent_obj::__CreateEmpty() { return new ErrorEvent_obj; }
@@ -57,25 +57,25 @@ bool ErrorEvent_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::openfl::events::Event ErrorEvent_obj::clone(){
-            	HX_GC_STACKFRAME(&_hx_pos_0aefc26d1b1b4062_82_clone)
-HXLINE(  83)		 ::openfl::events::ErrorEvent event =  ::openfl::events::ErrorEvent_obj::__alloc( HX_CTX ,this->type,this->bubbles,this->cancelable,this->text,this->errorID);
-HXLINE(  84)		event->target = this->target;
-HXLINE(  85)		event->currentTarget = this->currentTarget;
-HXLINE(  86)		event->eventPhase = this->eventPhase;
-HXLINE(  87)		return event;
+            	HX_GC_STACKFRAME(&_hx_pos_0aefc26d1b1b4062_27_clone)
+HXLINE(  28)		 ::openfl::events::ErrorEvent event =  ::openfl::events::ErrorEvent_obj::__alloc( HX_CTX ,this->type,this->bubbles,this->cancelable,this->text,this->errorID);
+HXLINE(  29)		event->target = this->target;
+HXLINE(  30)		event->currentTarget = this->currentTarget;
+HXLINE(  31)		event->eventPhase = this->eventPhase;
+HXLINE(  32)		return event;
             	}
 
 
 ::String ErrorEvent_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_0aefc26d1b1b4062_92_toString)
-HXDLIN(  92)		return this->_hx___formatToString(HX_("ErrorEvent",52,bb,79,e1),::Array_obj< ::String >::fromData( _hx_array_data_60863a29_3,5));
+            	HX_STACKFRAME(&_hx_pos_0aefc26d1b1b4062_37_toString)
+HXDLIN(  37)		return this->_hx___formatToString(HX_("ErrorEvent",52,bb,79,e1),::Array_obj< ::String >::fromData( _hx_array_data_60863a29_3,5));
             	}
 
 
 void ErrorEvent_obj::_hx___init(){
-            	HX_STACKFRAME(&_hx_pos_0aefc26d1b1b4062_96___init)
-HXLINE(  97)		this->super::_hx___init();
-HXLINE(  98)		this->errorID = 0;
+            	HX_STACKFRAME(&_hx_pos_0aefc26d1b1b4062_41___init)
+HXLINE(  42)		this->super::_hx___init();
+HXLINE(  43)		this->errorID = 0;
             	}
 
 
@@ -198,8 +198,8 @@ void ErrorEvent_obj::__register()
 void ErrorEvent_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_0aefc26d1b1b4062_43_boot)
-HXDLIN(  43)		ERROR = HX_("error",c8,cb,29,73);
+            	HX_STACKFRAME(&_hx_pos_0aefc26d1b1b4062_13_boot)
+HXDLIN(  13)		ERROR = HX_("error",c8,cb,29,73);
             	}
 }
 

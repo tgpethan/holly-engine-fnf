@@ -603,7 +603,7 @@ HX_DEFINE_DYNAMIC_FUNC0(FlxTypeText_obj,skip,(void))
 void FlxTypeText_obj::loadDefaultSound(){
             	HX_GC_STACKFRAME(&_hx_pos_09182b6b580f8cf2_542_loadDefaultSound)
 HXDLIN( 542)		 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
-HXDLIN( 542)		this->_sound = _hx_tmp->load( ::flixel::addons::text::TypeSound_obj::__alloc( HX_CTX ,null(),null()),null(),null(),null(),null(),null(),null(),null(),null());
+HXDLIN( 542)		this->_sound = _hx_tmp->load( ::flixel::addons::text::TypeSound_obj::__alloc( HX_CTX ,null(),null()),null(),null(),null(),null(),null(),null(),null());
             	}
 
 

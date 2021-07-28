@@ -33,7 +33,6 @@ static const ::String _hx_array_data_0363db6a_7[] = {
 static const ::String _hx_array_data_0363db6a_8[] = {
 	HX_("&gt;",08,a9,6c,19),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_0b3aba623971508c_194_htmlUnescape,"StringTools","htmlUnescape",0x7457fea9,"StringTools.htmlUnescape","/usr/share/haxe/std/StringTools.hx",194,0xd8cfb08f)
 HX_LOCAL_STACK_FRAME(_hx_pos_0b3aba623971508c_222_startsWith,"StringTools","startsWith",0x5f4e6efb,"StringTools.startsWith","/usr/share/haxe/std/StringTools.hx",222,0xd8cfb08f)
 HX_LOCAL_STACK_FRAME(_hx_pos_0b3aba623971508c_252_endsWith,"StringTools","endsWith",0x0eb5bfe2,"StringTools.endsWith","/usr/share/haxe/std/StringTools.hx",252,0xd8cfb08f)
 HX_LOCAL_STACK_FRAME(_hx_pos_0b3aba623971508c_279_isSpace,"StringTools","isSpace",0xe0290778,"StringTools.isSpace","/usr/share/haxe/std/StringTools.hx",279,0xd8cfb08f)
@@ -240,14 +239,6 @@ HXLINE( 176)		return buf->toString();
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(StringTools_obj,htmlEscape,return )
 
-::String StringTools_obj::htmlUnescape(::String s){
-            	HX_STACKFRAME(&_hx_pos_0b3aba623971508c_194_htmlUnescape)
-HXDLIN( 194)		return s.split(HX_("&gt;",08,a9,6c,19))->join(HX_(">",3e,00,00,00)).split(HX_("&lt;",4d,74,70,19))->join(HX_("<",3c,00,00,00)).split(HX_("&quot;",2c,d9,81,8f))->join(HX_("\"",22,00,00,00)).split(HX_("&#039;",62,26,77,78))->join(HX_("'",27,00,00,00)).split(HX_("&amp;",dd,d4,aa,21))->join(HX_("&",26,00,00,00));
-            	}
-
-
-STATIC_HX_DEFINE_DYNAMIC_FUNC1(StringTools_obj,htmlUnescape,return )
-
 bool StringTools_obj::startsWith(::String s,::String start){
             	HX_STACKFRAME(&_hx_pos_0b3aba623971508c_222_startsWith)
 HXLINE( 228)		if ((s.length < start.length)) {
@@ -325,11 +316,11 @@ HXLINE( 303)				_hx_tmp = ::StringTools_obj::isSpace(s,r);
 HXLINE( 303)				_hx_tmp = false;
             			}
 HXDLIN( 303)			if (!(_hx_tmp)) {
-HXLINE( 303)				goto _hx_goto_14;
+HXLINE( 303)				goto _hx_goto_13;
             			}
 HXLINE( 304)			r = (r + 1);
             		}
-            		_hx_goto_14:;
+            		_hx_goto_13:;
 HXLINE( 306)		if ((r > 0)) {
 HXLINE( 307)			return s.substr(r,(l - r));
             		}
@@ -355,11 +346,11 @@ HXLINE( 328)				_hx_tmp = ::StringTools_obj::isSpace(s,((l - r) - 1));
 HXLINE( 328)				_hx_tmp = false;
             			}
 HXDLIN( 328)			if (!(_hx_tmp)) {
-HXLINE( 328)				goto _hx_goto_16;
+HXLINE( 328)				goto _hx_goto_15;
             			}
 HXLINE( 329)			r = (r + 1);
             		}
-            		_hx_goto_16:;
+            		_hx_goto_15:;
 HXLINE( 331)		if ((r > 0)) {
 HXLINE( 332)			return s.substr(0,(l - r));
             		}
@@ -433,10 +424,10 @@ HXLINE( 443)		while(true){
 HXLINE( 444)			s = (hexChars.charAt((n & 15)) + s);
 HXLINE( 445)			n = ::hx::UShr(n,4);
 HXLINE( 443)			if (!((n > 0))) {
-HXLINE( 443)				goto _hx_goto_22;
+HXLINE( 443)				goto _hx_goto_21;
             			}
             		}
-            		_hx_goto_22:;
+            		_hx_goto_21:;
 HXLINE( 456)		if (::hx::IsNotNull( digits )) {
 HXLINE( 457)			while(::hx::IsLess( s.length,digits )){
 HXLINE( 458)				s = (HX_("0",30,00,00,00) + s);
@@ -481,9 +472,6 @@ bool StringTools_obj::__GetStatic(const ::String &inName, Dynamic &outValue, ::h
 	case 10:
 		if (HX_FIELD_EQ(inName,"htmlEscape") ) { outValue = htmlEscape_dyn(); return true; }
 		if (HX_FIELD_EQ(inName,"startsWith") ) { outValue = startsWith_dyn(); return true; }
-		break;
-	case 12:
-		if (HX_FIELD_EQ(inName,"htmlUnescape") ) { outValue = htmlUnescape_dyn(); return true; }
 	}
 	return false;
 }
@@ -499,7 +487,6 @@ static ::String StringTools_obj_sStaticFields[] = {
 	HX_("urlEncode",e5,4e,52,9a),
 	HX_("urlDecode",fd,b9,5b,05),
 	HX_("htmlEscape",4c,af,9b,a8),
-	HX_("htmlUnescape",25,a7,ed,ae),
 	HX_("startsWith",77,c0,cf,f9),
 	HX_("endsWith",5e,7a,b6,db),
 	HX_("isSpace",7c,30,ec,1d),

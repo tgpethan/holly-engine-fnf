@@ -57,8 +57,6 @@ static ::haxe::IMap_obj _hx_haxe_ds_EnumValueMap__hx_haxe_IMap= {
 	( bool (::hx::Object::*)( ::Dynamic))&::haxe::ds::EnumValueMap_obj::exists,
 	( bool (::hx::Object::*)( ::Dynamic))&::haxe::ds::EnumValueMap_obj::remove,
 	(  ::Dynamic (::hx::Object::*)())&::haxe::ds::EnumValueMap_obj::keys,
-	(  ::Dynamic (::hx::Object::*)())&::haxe::ds::EnumValueMap_obj::iterator,
-	(  ::Dynamic (::hx::Object::*)())&::haxe::ds::EnumValueMap_obj::keyValueIterator,
 };
 
 void EnumValueMap_obj::set_dca24b06( ::Dynamic k, ::Dynamic v) {

@@ -96,23 +96,23 @@
 #include <openfl/utils/Assets.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_d294561f5bda5770_28_new,"flixel.graphics.frames.FlxAtlasFrames","new",0xed20cbc8,"flixel.graphics.frames.FlxAtlasFrames.new","flixel/graphics/frames/FlxAtlasFrames.hx",28,0x501ecb67)
-HX_LOCAL_STACK_FRAME(_hx_pos_d294561f5bda5770_409_addBorder,"flixel.graphics.frames.FlxAtlasFrames","addBorder",0x1a31fb55,"flixel.graphics.frames.FlxAtlasFrames.addBorder","flixel/graphics/frames/FlxAtlasFrames.hx",409,0x501ecb67)
-HX_LOCAL_STACK_FRAME(_hx_pos_d294561f5bda5770_42_fromTexturePackerJson,"flixel.graphics.frames.FlxAtlasFrames","fromTexturePackerJson",0xae76e627,"flixel.graphics.frames.FlxAtlasFrames.fromTexturePackerJson","flixel/graphics/frames/FlxAtlasFrames.hx",42,0x501ecb67)
-HX_LOCAL_STACK_FRAME(_hx_pos_d294561f5bda5770_101_texturePackerHelper,"flixel.graphics.frames.FlxAtlasFrames","texturePackerHelper",0x397d6e77,"flixel.graphics.frames.FlxAtlasFrames.texturePackerHelper","flixel/graphics/frames/FlxAtlasFrames.hx",101,0x501ecb67)
-HX_LOCAL_STACK_FRAME(_hx_pos_d294561f5bda5770_132_fromLibGdx,"flixel.graphics.frames.FlxAtlasFrames","fromLibGdx",0x5ef5c818,"flixel.graphics.frames.FlxAtlasFrames.fromLibGdx","flixel/graphics/frames/FlxAtlasFrames.hx",132,0x501ecb67)
-HX_LOCAL_STACK_FRAME(_hx_pos_d294561f5bda5770_211_getDimensions,"flixel.graphics.frames.FlxAtlasFrames","getDimensions",0x0a6267eb,"flixel.graphics.frames.FlxAtlasFrames.getDimensions","flixel/graphics/frames/FlxAtlasFrames.hx",211,0x501ecb67)
-HX_LOCAL_STACK_FRAME(_hx_pos_d294561f5bda5770_232_fromSparrow,"flixel.graphics.frames.FlxAtlasFrames","fromSparrow",0x30bf432a,"flixel.graphics.frames.FlxAtlasFrames.fromSparrow","flixel/graphics/frames/FlxAtlasFrames.hx",232,0x501ecb67)
-HX_LOCAL_STACK_FRAME(_hx_pos_d294561f5bda5770_297_fromTexturePackerXml,"flixel.graphics.frames.FlxAtlasFrames","fromTexturePackerXml",0x5ca98eb8,"flixel.graphics.frames.FlxAtlasFrames.fromTexturePackerXml","flixel/graphics/frames/FlxAtlasFrames.hx",297,0x501ecb67)
-HX_LOCAL_STACK_FRAME(_hx_pos_d294561f5bda5770_349_fromSpriteSheetPacker,"flixel.graphics.frames.FlxAtlasFrames","fromSpriteSheetPacker",0x4fb8a81e,"flixel.graphics.frames.FlxAtlasFrames.fromSpriteSheetPacker","flixel/graphics/frames/FlxAtlasFrames.hx",349,0x501ecb67)
-HX_LOCAL_STACK_FRAME(_hx_pos_d294561f5bda5770_395_findFrame,"flixel.graphics.frames.FlxAtlasFrames","findFrame",0xf36e229c,"flixel.graphics.frames.FlxAtlasFrames.findFrame","flixel/graphics/frames/FlxAtlasFrames.hx",395,0x501ecb67)
+HX_DEFINE_STACK_FRAME(_hx_pos_d294561f5bda5770_29_new,"flixel.graphics.frames.FlxAtlasFrames","new",0xed20cbc8,"flixel.graphics.frames.FlxAtlasFrames.new","flixel/graphics/frames/FlxAtlasFrames.hx",29,0x501ecb67)
+HX_LOCAL_STACK_FRAME(_hx_pos_d294561f5bda5770_418_addBorder,"flixel.graphics.frames.FlxAtlasFrames","addBorder",0x1a31fb55,"flixel.graphics.frames.FlxAtlasFrames.addBorder","flixel/graphics/frames/FlxAtlasFrames.hx",418,0x501ecb67)
+HX_LOCAL_STACK_FRAME(_hx_pos_d294561f5bda5770_43_fromTexturePackerJson,"flixel.graphics.frames.FlxAtlasFrames","fromTexturePackerJson",0xae76e627,"flixel.graphics.frames.FlxAtlasFrames.fromTexturePackerJson","flixel/graphics/frames/FlxAtlasFrames.hx",43,0x501ecb67)
+HX_LOCAL_STACK_FRAME(_hx_pos_d294561f5bda5770_102_texturePackerHelper,"flixel.graphics.frames.FlxAtlasFrames","texturePackerHelper",0x397d6e77,"flixel.graphics.frames.FlxAtlasFrames.texturePackerHelper","flixel/graphics/frames/FlxAtlasFrames.hx",102,0x501ecb67)
+HX_LOCAL_STACK_FRAME(_hx_pos_d294561f5bda5770_133_fromLibGdx,"flixel.graphics.frames.FlxAtlasFrames","fromLibGdx",0x5ef5c818,"flixel.graphics.frames.FlxAtlasFrames.fromLibGdx","flixel/graphics/frames/FlxAtlasFrames.hx",133,0x501ecb67)
+HX_LOCAL_STACK_FRAME(_hx_pos_d294561f5bda5770_220_getDimensions,"flixel.graphics.frames.FlxAtlasFrames","getDimensions",0x0a6267eb,"flixel.graphics.frames.FlxAtlasFrames.getDimensions","flixel/graphics/frames/FlxAtlasFrames.hx",220,0x501ecb67)
+HX_LOCAL_STACK_FRAME(_hx_pos_d294561f5bda5770_241_fromSparrow,"flixel.graphics.frames.FlxAtlasFrames","fromSparrow",0x30bf432a,"flixel.graphics.frames.FlxAtlasFrames.fromSparrow","flixel/graphics/frames/FlxAtlasFrames.hx",241,0x501ecb67)
+HX_LOCAL_STACK_FRAME(_hx_pos_d294561f5bda5770_306_fromTexturePackerXml,"flixel.graphics.frames.FlxAtlasFrames","fromTexturePackerXml",0x5ca98eb8,"flixel.graphics.frames.FlxAtlasFrames.fromTexturePackerXml","flixel/graphics/frames/FlxAtlasFrames.hx",306,0x501ecb67)
+HX_LOCAL_STACK_FRAME(_hx_pos_d294561f5bda5770_358_fromSpriteSheetPacker,"flixel.graphics.frames.FlxAtlasFrames","fromSpriteSheetPacker",0x4fb8a81e,"flixel.graphics.frames.FlxAtlasFrames.fromSpriteSheetPacker","flixel/graphics/frames/FlxAtlasFrames.hx",358,0x501ecb67)
+HX_LOCAL_STACK_FRAME(_hx_pos_d294561f5bda5770_404_findFrame,"flixel.graphics.frames.FlxAtlasFrames","findFrame",0xf36e229c,"flixel.graphics.frames.FlxAtlasFrames.findFrame","flixel/graphics/frames/FlxAtlasFrames.hx",404,0x501ecb67)
 namespace flixel{
 namespace graphics{
 namespace frames{
 
 void FlxAtlasFrames_obj::__construct( ::flixel::graphics::FlxGraphic parent, ::flixel::math::FlxPoint border){
-            	HX_STACKFRAME(&_hx_pos_d294561f5bda5770_28_new)
-HXDLIN(  28)		super::__construct(parent,::flixel::graphics::frames::FlxFrameCollectionType_obj::ATLAS_dyn(),border);
+            	HX_STACKFRAME(&_hx_pos_d294561f5bda5770_29_new)
+HXDLIN(  29)		super::__construct(parent,::flixel::graphics::frames::FlxFrameCollectionType_obj::ATLAS_dyn(),border);
             	}
 
 Dynamic FlxAtlasFrames_obj::__CreateEmpty() { return new FlxAtlasFrames_obj; }
@@ -135,565 +135,566 @@ bool FlxAtlasFrames_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::flixel::graphics::frames::FlxFramesCollection FlxAtlasFrames_obj::addBorder( ::flixel::math::FlxPoint border){
-            	HX_GC_STACKFRAME(&_hx_pos_d294561f5bda5770_409_addBorder)
-HXLINE( 410)		 ::flixel::math::FlxPoint point = ::flixel::math::FlxPoint_obj::_pool->get()->set(( (Float)(0) ),( (Float)(0) ));
-HXDLIN( 410)		point->_inPool = false;
-HXDLIN( 410)		 ::flixel::math::FlxPoint point1 = point;
-HXDLIN( 410)		point1->_weak = true;
-HXDLIN( 410)		 ::flixel::math::FlxPoint resultBorder = point1->addPoint(this->border)->addPoint(border);
-HXLINE( 411)		 ::flixel::graphics::frames::FlxAtlasFrames atlasFrames = ::flixel::graphics::frames::FlxAtlasFrames_obj::findFrame(this->parent,resultBorder);
-HXLINE( 412)		if (::hx::IsNotNull( atlasFrames )) {
-HXLINE( 413)			return atlasFrames;
+            	HX_GC_STACKFRAME(&_hx_pos_d294561f5bda5770_418_addBorder)
+HXLINE( 419)		 ::flixel::math::FlxPoint point = ::flixel::math::FlxPoint_obj::_pool->get()->set(( (Float)(0) ),( (Float)(0) ));
+HXDLIN( 419)		point->_inPool = false;
+HXDLIN( 419)		 ::flixel::math::FlxPoint point1 = point;
+HXDLIN( 419)		point1->_weak = true;
+HXDLIN( 419)		 ::flixel::math::FlxPoint resultBorder = point1->addPoint(this->border)->addPoint(border);
+HXLINE( 420)		 ::flixel::graphics::frames::FlxAtlasFrames atlasFrames = ::flixel::graphics::frames::FlxAtlasFrames_obj::findFrame(this->parent,resultBorder);
+HXLINE( 421)		if (::hx::IsNotNull( atlasFrames )) {
+HXLINE( 422)			return atlasFrames;
             		}
-HXLINE( 415)		atlasFrames =  ::flixel::graphics::frames::FlxAtlasFrames_obj::__alloc( HX_CTX ,this->parent,resultBorder);
-HXLINE( 417)		{
-HXLINE( 417)			int _g = 0;
-HXDLIN( 417)			::Array< ::Dynamic> _g1 = this->frames;
-HXDLIN( 417)			while((_g < _g1->length)){
-HXLINE( 417)				 ::flixel::graphics::frames::FlxFrame frame = _g1->__get(_g).StaticCast<  ::flixel::graphics::frames::FlxFrame >();
-HXDLIN( 417)				_g = (_g + 1);
-HXLINE( 418)				atlasFrames->pushFrame(frame->setBorderTo(border,null()));
+HXLINE( 424)		atlasFrames =  ::flixel::graphics::frames::FlxAtlasFrames_obj::__alloc( HX_CTX ,this->parent,resultBorder);
+HXLINE( 426)		{
+HXLINE( 426)			int _g = 0;
+HXDLIN( 426)			::Array< ::Dynamic> _g1 = this->frames;
+HXDLIN( 426)			while((_g < _g1->length)){
+HXLINE( 426)				 ::flixel::graphics::frames::FlxFrame frame = _g1->__get(_g).StaticCast<  ::flixel::graphics::frames::FlxFrame >();
+HXDLIN( 426)				_g = (_g + 1);
+HXLINE( 427)				atlasFrames->pushFrame(frame->setBorderTo(border,null()));
             			}
             		}
-HXLINE( 420)		return atlasFrames;
+HXLINE( 429)		return atlasFrames;
             	}
 
 
  ::flixel::graphics::frames::FlxAtlasFrames FlxAtlasFrames_obj::fromTexturePackerJson( ::Dynamic Source, ::Dynamic Description){
-            	HX_GC_STACKFRAME(&_hx_pos_d294561f5bda5770_42_fromTexturePackerJson)
-HXLINE(  43)		 ::flixel::graphics::FlxGraphic graphic = ::flixel::FlxG_obj::bitmap->add(Source,false,null());
-HXLINE(  44)		if (::hx::IsNull( graphic )) {
-HXLINE(  45)			return null();
+            	HX_GC_STACKFRAME(&_hx_pos_d294561f5bda5770_43_fromTexturePackerJson)
+HXLINE(  44)		 ::flixel::graphics::FlxGraphic graphic = ::flixel::FlxG_obj::bitmap->add(Source,false,null());
+HXLINE(  45)		if (::hx::IsNull( graphic )) {
+HXLINE(  46)			return null();
             		}
-HXLINE(  48)		 ::flixel::graphics::frames::FlxAtlasFrames frames = ::flixel::graphics::frames::FlxAtlasFrames_obj::findFrame(graphic,null());
-HXLINE(  49)		if (::hx::IsNotNull( frames )) {
-HXLINE(  50)			return frames;
+HXLINE(  49)		 ::flixel::graphics::frames::FlxAtlasFrames frames = ::flixel::graphics::frames::FlxAtlasFrames_obj::findFrame(graphic,null());
+HXLINE(  50)		if (::hx::IsNotNull( frames )) {
+HXLINE(  51)			return frames;
             		}
-HXLINE(  52)		bool _hx_tmp;
-HXDLIN(  52)		if (::hx::IsNotNull( graphic )) {
-HXLINE(  52)			_hx_tmp = ::hx::IsNull( Description );
-            		}
-            		else {
-HXLINE(  52)			_hx_tmp = true;
-            		}
-HXDLIN(  52)		if (_hx_tmp) {
-HXLINE(  53)			return null();
-            		}
-HXLINE(  55)		frames =  ::flixel::graphics::frames::FlxAtlasFrames_obj::__alloc( HX_CTX ,graphic,null());
-HXLINE(  57)		 ::Dynamic data;
-HXLINE(  59)		if (::Std_obj::isOfType(Description,::hx::ClassOf< ::String >())) {
-HXLINE(  61)			::String json = ( (::String)(Description) );
-HXLINE(  63)			if (::openfl::utils::Assets_obj::exists(json,null())) {
-HXLINE(  64)				json = ::openfl::utils::Assets_obj::getText(json);
-            			}
-HXLINE(  66)			data =  ::haxe::format::JsonParser_obj::__alloc( HX_CTX ,json)->doParse();
+HXLINE(  53)		bool _hx_tmp;
+HXDLIN(  53)		if (::hx::IsNotNull( graphic )) {
+HXLINE(  53)			_hx_tmp = ::hx::IsNull( Description );
             		}
             		else {
-HXLINE(  70)			data = Description;
+HXLINE(  53)			_hx_tmp = true;
             		}
-HXLINE(  74)		if (::Std_obj::isOfType( ::Dynamic(data->__Field(HX_("frames",a6,af,85,ac),::hx::paccDynamic)),::hx::ArrayBase::__mClass)) {
-HXLINE(  76)			int _g = 0;
-HXDLIN(  76)			::Array< ::Dynamic> _g1 = ::Lambda_obj::array(data->__Field(HX_("frames",a6,af,85,ac),::hx::paccDynamic));
-HXDLIN(  76)			while((_g < _g1->length)){
-HXLINE(  76)				 ::Dynamic frame = _g1->__get(_g);
-HXDLIN(  76)				_g = (_g + 1);
-HXLINE(  78)				::flixel::graphics::frames::FlxAtlasFrames_obj::texturePackerHelper(( (::String)(frame->__Field(HX_("filename",c7,2e,6a,77),::hx::paccDynamic)) ),frame,frames);
+HXDLIN(  53)		if (_hx_tmp) {
+HXLINE(  54)			return null();
+            		}
+HXLINE(  56)		frames =  ::flixel::graphics::frames::FlxAtlasFrames_obj::__alloc( HX_CTX ,graphic,null());
+HXLINE(  58)		 ::Dynamic data;
+HXLINE(  60)		if (::Std_obj::isOfType(Description,::hx::ClassOf< ::String >())) {
+HXLINE(  62)			::String json = ( (::String)(Description) );
+HXLINE(  64)			if (::openfl::utils::Assets_obj::exists(json,null())) {
+HXLINE(  65)				json = ::openfl::utils::Assets_obj::getText(json);
+            			}
+HXLINE(  67)			data =  ::haxe::format::JsonParser_obj::__alloc( HX_CTX ,json)->doParse();
+            		}
+            		else {
+HXLINE(  71)			data = Description;
+            		}
+HXLINE(  75)		if (::Std_obj::isOfType( ::Dynamic(data->__Field(HX_("frames",a6,af,85,ac),::hx::paccDynamic)),::hx::ArrayBase::__mClass)) {
+HXLINE(  77)			int _g = 0;
+HXDLIN(  77)			::Array< ::Dynamic> _g1 = ::Lambda_obj::array(data->__Field(HX_("frames",a6,af,85,ac),::hx::paccDynamic));
+HXDLIN(  77)			while((_g < _g1->length)){
+HXLINE(  77)				 ::Dynamic frame = _g1->__get(_g);
+HXDLIN(  77)				_g = (_g + 1);
+HXLINE(  79)				::flixel::graphics::frames::FlxAtlasFrames_obj::texturePackerHelper(( (::String)(frame->__Field(HX_("filename",c7,2e,6a,77),::hx::paccDynamic)) ),frame,frames);
             			}
             		}
             		else {
-HXLINE(  84)			int _g = 0;
-HXDLIN(  84)			::Array< ::String > _g1 = ::Reflect_obj::fields( ::Dynamic(data->__Field(HX_("frames",a6,af,85,ac),::hx::paccDynamic)));
-HXDLIN(  84)			while((_g < _g1->length)){
-HXLINE(  84)				::String frameName = _g1->__get(_g);
-HXDLIN(  84)				_g = (_g + 1);
-HXLINE(  86)				::flixel::graphics::frames::FlxAtlasFrames_obj::texturePackerHelper(frameName,::Reflect_obj::field( ::Dynamic(data->__Field(HX_("frames",a6,af,85,ac),::hx::paccDynamic)),frameName),frames);
+HXLINE(  85)			int _g = 0;
+HXDLIN(  85)			::Array< ::String > _g1 = ::Reflect_obj::fields( ::Dynamic(data->__Field(HX_("frames",a6,af,85,ac),::hx::paccDynamic)));
+HXDLIN(  85)			while((_g < _g1->length)){
+HXLINE(  85)				::String frameName = _g1->__get(_g);
+HXDLIN(  85)				_g = (_g + 1);
+HXLINE(  87)				::flixel::graphics::frames::FlxAtlasFrames_obj::texturePackerHelper(frameName,::Reflect_obj::field( ::Dynamic(data->__Field(HX_("frames",a6,af,85,ac),::hx::paccDynamic)),frameName),frames);
             			}
             		}
-HXLINE(  90)		return frames;
+HXLINE(  91)		return frames;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(FlxAtlasFrames_obj,fromTexturePackerJson,return )
 
 void FlxAtlasFrames_obj::texturePackerHelper(::String FrameName, ::Dynamic FrameData, ::flixel::graphics::frames::FlxAtlasFrames Frames){
-            	HX_STACKFRAME(&_hx_pos_d294561f5bda5770_101_texturePackerHelper)
-HXLINE( 102)		bool rotated = ( (bool)(FrameData->__Field(HX_("rotated",a9,49,1d,f1),::hx::paccDynamic)) );
-HXLINE( 103)		::String name = FrameName;
-HXLINE( 104)		Float X = ( (Float)( ::Dynamic(FrameData->__Field(HX_("sourceSize",3c,87,b7,74),::hx::paccDynamic))->__Field(HX_("w",77,00,00,00),::hx::paccDynamic)) );
-HXDLIN( 104)		Float Y = ( (Float)( ::Dynamic(FrameData->__Field(HX_("sourceSize",3c,87,b7,74),::hx::paccDynamic))->__Field(HX_("h",68,00,00,00),::hx::paccDynamic)) );
-HXDLIN( 104)		 ::flixel::math::FlxPoint point = ::flixel::math::FlxPoint_obj::_pool->get()->set(X,Y);
-HXDLIN( 104)		point->_inPool = false;
-HXDLIN( 104)		 ::flixel::math::FlxPoint sourceSize = point;
-HXLINE( 105)		Float X1 = ( (Float)( ::Dynamic(FrameData->__Field(HX_("spriteSourceSize",a1,7f,c1,03),::hx::paccDynamic))->__Field(HX_("x",78,00,00,00),::hx::paccDynamic)) );
-HXDLIN( 105)		Float Y1 = ( (Float)( ::Dynamic(FrameData->__Field(HX_("spriteSourceSize",a1,7f,c1,03),::hx::paccDynamic))->__Field(HX_("y",79,00,00,00),::hx::paccDynamic)) );
-HXDLIN( 105)		 ::flixel::math::FlxPoint point1 = ::flixel::math::FlxPoint_obj::_pool->get()->set(X1,Y1);
-HXDLIN( 105)		point1->_inPool = false;
-HXDLIN( 105)		 ::flixel::math::FlxPoint offset = point1;
-HXLINE( 106)		int angle = 0;
-HXLINE( 107)		 ::flixel::math::FlxRect frameRect = null();
-HXLINE( 109)		if (rotated) {
-HXLINE( 111)			Float X = ( (Float)( ::Dynamic(FrameData->__Field(HX_("frame",2d,78,83,06),::hx::paccDynamic))->__Field(HX_("x",78,00,00,00),::hx::paccDynamic)) );
-HXDLIN( 111)			Float Y = ( (Float)( ::Dynamic(FrameData->__Field(HX_("frame",2d,78,83,06),::hx::paccDynamic))->__Field(HX_("y",79,00,00,00),::hx::paccDynamic)) );
-HXDLIN( 111)			Float Width = ( (Float)( ::Dynamic(FrameData->__Field(HX_("frame",2d,78,83,06),::hx::paccDynamic))->__Field(HX_("h",68,00,00,00),::hx::paccDynamic)) );
-HXDLIN( 111)			Float Height = ( (Float)( ::Dynamic(FrameData->__Field(HX_("frame",2d,78,83,06),::hx::paccDynamic))->__Field(HX_("w",77,00,00,00),::hx::paccDynamic)) );
-HXDLIN( 111)			 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get();
-HXDLIN( 111)			_this->x = X;
-HXDLIN( 111)			_this->y = Y;
-HXDLIN( 111)			_this->width = Width;
-HXDLIN( 111)			_this->height = Height;
-HXDLIN( 111)			 ::flixel::math::FlxRect rect = _this;
-HXDLIN( 111)			rect->_inPool = false;
-HXDLIN( 111)			frameRect = rect;
-HXLINE( 112)			angle = -90;
+            	HX_STACKFRAME(&_hx_pos_d294561f5bda5770_102_texturePackerHelper)
+HXLINE( 103)		bool rotated = ( (bool)(FrameData->__Field(HX_("rotated",a9,49,1d,f1),::hx::paccDynamic)) );
+HXLINE( 104)		::String name = FrameName;
+HXLINE( 105)		Float X = ( (Float)( ::Dynamic(FrameData->__Field(HX_("sourceSize",3c,87,b7,74),::hx::paccDynamic))->__Field(HX_("w",77,00,00,00),::hx::paccDynamic)) );
+HXDLIN( 105)		Float Y = ( (Float)( ::Dynamic(FrameData->__Field(HX_("sourceSize",3c,87,b7,74),::hx::paccDynamic))->__Field(HX_("h",68,00,00,00),::hx::paccDynamic)) );
+HXDLIN( 105)		 ::flixel::math::FlxPoint point = ::flixel::math::FlxPoint_obj::_pool->get()->set(X,Y);
+HXDLIN( 105)		point->_inPool = false;
+HXDLIN( 105)		 ::flixel::math::FlxPoint sourceSize = point;
+HXLINE( 106)		Float X1 = ( (Float)( ::Dynamic(FrameData->__Field(HX_("spriteSourceSize",a1,7f,c1,03),::hx::paccDynamic))->__Field(HX_("x",78,00,00,00),::hx::paccDynamic)) );
+HXDLIN( 106)		Float Y1 = ( (Float)( ::Dynamic(FrameData->__Field(HX_("spriteSourceSize",a1,7f,c1,03),::hx::paccDynamic))->__Field(HX_("y",79,00,00,00),::hx::paccDynamic)) );
+HXDLIN( 106)		 ::flixel::math::FlxPoint point1 = ::flixel::math::FlxPoint_obj::_pool->get()->set(X1,Y1);
+HXDLIN( 106)		point1->_inPool = false;
+HXDLIN( 106)		 ::flixel::math::FlxPoint offset = point1;
+HXLINE( 107)		int angle = 0;
+HXLINE( 108)		 ::flixel::math::FlxRect frameRect = null();
+HXLINE( 110)		if (rotated) {
+HXLINE( 112)			Float X = ( (Float)( ::Dynamic(FrameData->__Field(HX_("frame",2d,78,83,06),::hx::paccDynamic))->__Field(HX_("x",78,00,00,00),::hx::paccDynamic)) );
+HXDLIN( 112)			Float Y = ( (Float)( ::Dynamic(FrameData->__Field(HX_("frame",2d,78,83,06),::hx::paccDynamic))->__Field(HX_("y",79,00,00,00),::hx::paccDynamic)) );
+HXDLIN( 112)			Float Width = ( (Float)( ::Dynamic(FrameData->__Field(HX_("frame",2d,78,83,06),::hx::paccDynamic))->__Field(HX_("h",68,00,00,00),::hx::paccDynamic)) );
+HXDLIN( 112)			Float Height = ( (Float)( ::Dynamic(FrameData->__Field(HX_("frame",2d,78,83,06),::hx::paccDynamic))->__Field(HX_("w",77,00,00,00),::hx::paccDynamic)) );
+HXDLIN( 112)			 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get();
+HXDLIN( 112)			_this->x = X;
+HXDLIN( 112)			_this->y = Y;
+HXDLIN( 112)			_this->width = Width;
+HXDLIN( 112)			_this->height = Height;
+HXDLIN( 112)			 ::flixel::math::FlxRect rect = _this;
+HXDLIN( 112)			rect->_inPool = false;
+HXDLIN( 112)			frameRect = rect;
+HXLINE( 113)			angle = -90;
             		}
             		else {
-HXLINE( 116)			Float X = ( (Float)( ::Dynamic(FrameData->__Field(HX_("frame",2d,78,83,06),::hx::paccDynamic))->__Field(HX_("x",78,00,00,00),::hx::paccDynamic)) );
-HXDLIN( 116)			Float Y = ( (Float)( ::Dynamic(FrameData->__Field(HX_("frame",2d,78,83,06),::hx::paccDynamic))->__Field(HX_("y",79,00,00,00),::hx::paccDynamic)) );
-HXDLIN( 116)			Float Width = ( (Float)( ::Dynamic(FrameData->__Field(HX_("frame",2d,78,83,06),::hx::paccDynamic))->__Field(HX_("w",77,00,00,00),::hx::paccDynamic)) );
-HXDLIN( 116)			Float Height = ( (Float)( ::Dynamic(FrameData->__Field(HX_("frame",2d,78,83,06),::hx::paccDynamic))->__Field(HX_("h",68,00,00,00),::hx::paccDynamic)) );
-HXDLIN( 116)			 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get();
-HXDLIN( 116)			_this->x = X;
-HXDLIN( 116)			_this->y = Y;
-HXDLIN( 116)			_this->width = Width;
-HXDLIN( 116)			_this->height = Height;
-HXDLIN( 116)			 ::flixel::math::FlxRect rect = _this;
-HXDLIN( 116)			rect->_inPool = false;
-HXDLIN( 116)			frameRect = rect;
+HXLINE( 117)			Float X = ( (Float)( ::Dynamic(FrameData->__Field(HX_("frame",2d,78,83,06),::hx::paccDynamic))->__Field(HX_("x",78,00,00,00),::hx::paccDynamic)) );
+HXDLIN( 117)			Float Y = ( (Float)( ::Dynamic(FrameData->__Field(HX_("frame",2d,78,83,06),::hx::paccDynamic))->__Field(HX_("y",79,00,00,00),::hx::paccDynamic)) );
+HXDLIN( 117)			Float Width = ( (Float)( ::Dynamic(FrameData->__Field(HX_("frame",2d,78,83,06),::hx::paccDynamic))->__Field(HX_("w",77,00,00,00),::hx::paccDynamic)) );
+HXDLIN( 117)			Float Height = ( (Float)( ::Dynamic(FrameData->__Field(HX_("frame",2d,78,83,06),::hx::paccDynamic))->__Field(HX_("h",68,00,00,00),::hx::paccDynamic)) );
+HXDLIN( 117)			 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get();
+HXDLIN( 117)			_this->x = X;
+HXDLIN( 117)			_this->y = Y;
+HXDLIN( 117)			_this->width = Width;
+HXDLIN( 117)			_this->height = Height;
+HXDLIN( 117)			 ::flixel::math::FlxRect rect = _this;
+HXDLIN( 117)			rect->_inPool = false;
+HXDLIN( 117)			frameRect = rect;
             		}
-HXLINE( 119)		Frames->addAtlasFrame(frameRect,sourceSize,offset,name,angle,null(),null());
+HXLINE( 120)		Frames->addAtlasFrame(frameRect,sourceSize,offset,name,angle,null(),null());
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC3(FlxAtlasFrames_obj,texturePackerHelper,(void))
 
- ::flixel::graphics::frames::FlxAtlasFrames FlxAtlasFrames_obj::fromLibGdx( ::Dynamic source,::String description){
-            	HX_GC_STACKFRAME(&_hx_pos_d294561f5bda5770_132_fromLibGdx)
-HXLINE( 133)		 ::flixel::graphics::FlxGraphic graphic = ::flixel::FlxG_obj::bitmap->add(source,null(),null());
-HXLINE( 134)		if (::hx::IsNull( graphic )) {
-HXLINE( 135)			return null();
+ ::flixel::graphics::frames::FlxAtlasFrames FlxAtlasFrames_obj::fromLibGdx( ::Dynamic Source,::String Description){
+            	HX_GC_STACKFRAME(&_hx_pos_d294561f5bda5770_133_fromLibGdx)
+HXLINE( 134)		 ::flixel::graphics::FlxGraphic graphic = ::flixel::FlxG_obj::bitmap->add(Source,null(),null());
+HXLINE( 135)		if (::hx::IsNull( graphic )) {
+HXLINE( 136)			return null();
             		}
-HXLINE( 138)		 ::flixel::graphics::frames::FlxAtlasFrames frames = ::flixel::graphics::frames::FlxAtlasFrames_obj::findFrame(graphic,null());
-HXLINE( 139)		if (::hx::IsNotNull( frames )) {
-HXLINE( 140)			return frames;
+HXLINE( 139)		 ::flixel::graphics::frames::FlxAtlasFrames frames = ::flixel::graphics::frames::FlxAtlasFrames_obj::findFrame(graphic,null());
+HXLINE( 140)		if (::hx::IsNotNull( frames )) {
+HXLINE( 141)			return frames;
             		}
-HXLINE( 142)		bool _hx_tmp;
-HXDLIN( 142)		if (::hx::IsNotNull( graphic )) {
-HXLINE( 142)			_hx_tmp = ::hx::IsNull( description );
-            		}
-            		else {
-HXLINE( 142)			_hx_tmp = true;
-            		}
-HXDLIN( 142)		if (_hx_tmp) {
-HXLINE( 143)			return null();
-            		}
-HXLINE( 145)		frames =  ::flixel::graphics::frames::FlxAtlasFrames_obj::__alloc( HX_CTX ,graphic,null());
-HXLINE( 147)		if (::openfl::utils::Assets_obj::exists(description,null())) {
-HXLINE( 148)			description = ::openfl::utils::Assets_obj::getText(description);
-            		}
-HXLINE( 150)		::String pack = ::StringTools_obj::trim(description);
-HXLINE( 151)		::Array< ::String > lines = pack.split(HX_("\n",0a,00,00,00));
-HXLINE( 154)		int repeatLine;
-HXDLIN( 154)		if ((lines->__get(3).indexOf(HX_("repeat:",7f,d8,87,a6),null()) > -1)) {
-HXLINE( 154)			repeatLine = 3;
+HXLINE( 143)		bool _hx_tmp;
+HXDLIN( 143)		if (::hx::IsNotNull( graphic )) {
+HXLINE( 143)			_hx_tmp = ::hx::IsNull( Description );
             		}
             		else {
-HXLINE( 154)			repeatLine = 4;
+HXLINE( 143)			_hx_tmp = true;
             		}
-HXLINE( 155)		lines->removeRange(0,(repeatLine + 1));
-HXLINE( 157)		int numElementsPerImage = 7;
-HXLINE( 158)		int numImages = ::Std_obj::_hx_int((( (Float)(lines->length) ) / ( (Float)(numElementsPerImage) )));
-HXLINE( 160)		{
-HXLINE( 160)			int _g = 0;
-HXDLIN( 160)			int _g1 = numImages;
-HXDLIN( 160)			while((_g < _g1)){
-HXLINE( 160)				_g = (_g + 1);
-HXDLIN( 160)				int i = (_g - 1);
-HXLINE( 162)				int curIndex = (i * numElementsPerImage);
-HXLINE( 164)				curIndex = (curIndex + 1);
-HXDLIN( 164)				::String name = lines->__get((curIndex - 1));
-HXLINE( 165)				curIndex = (curIndex + 1);
-HXDLIN( 165)				bool rotated = (lines->__get((curIndex - 1)).indexOf(HX_("true",4e,a7,03,4d),null()) >= 0);
-HXLINE( 166)				int angle;
-HXDLIN( 166)				if (rotated) {
-HXLINE( 166)					angle = 90;
+HXDLIN( 143)		if (_hx_tmp) {
+HXLINE( 144)			return null();
+            		}
+HXLINE( 146)		frames =  ::flixel::graphics::frames::FlxAtlasFrames_obj::__alloc( HX_CTX ,graphic,null());
+HXLINE( 148)		if (::openfl::utils::Assets_obj::exists(Description,null())) {
+HXLINE( 149)			Description = ::openfl::utils::Assets_obj::getText(Description);
+            		}
+HXLINE( 151)		::String pack = ::StringTools_obj::trim(Description);
+HXLINE( 152)		::Array< ::String > lines = pack.split(HX_("\n",0a,00,00,00));
+HXLINE( 155)		int repeatLine;
+HXDLIN( 155)		if ((lines->__get(3).indexOf(HX_("repeat:",7f,d8,87,a6),null()) > -1)) {
+HXLINE( 155)			repeatLine = 3;
+            		}
+            		else {
+HXLINE( 155)			repeatLine = 4;
+            		}
+HXLINE( 156)		lines->removeRange(0,(repeatLine + 1));
+HXLINE( 158)		int numElementsPerImage = 7;
+HXLINE( 159)		int numImages = ::Std_obj::_hx_int((( (Float)(lines->length) ) / ( (Float)(numElementsPerImage) )));
+HXLINE( 160)		::Array< int > size = ::Array_obj< int >::__new(0);
+HXLINE( 162)		{
+HXLINE( 162)			int _g = 0;
+HXDLIN( 162)			int _g1 = numImages;
+HXDLIN( 162)			while((_g < _g1)){
+HXLINE( 162)				_g = (_g + 1);
+HXDLIN( 162)				int i = (_g - 1);
+HXLINE( 164)				int curIndex = (i * numElementsPerImage);
+HXLINE( 166)				curIndex = (curIndex + 1);
+HXDLIN( 166)				::String name = lines->__get((curIndex - 1));
+HXLINE( 167)				curIndex = (curIndex + 1);
+HXDLIN( 167)				bool rotated = (lines->__get((curIndex - 1)).indexOf(HX_("true",4e,a7,03,4d),null()) >= 0);
+HXLINE( 168)				int angle = 0;
+HXLINE( 170)				curIndex = (curIndex + 1);
+HXDLIN( 170)				::String tempString = lines->__get((curIndex - 1));
+HXLINE( 171)				::Array< int > size1 = ::flixel::graphics::frames::FlxAtlasFrames_obj::getDimensions(tempString,size);
+HXLINE( 173)				int imageX = size1->__get(0);
+HXLINE( 174)				int imageY = size1->__get(1);
+HXLINE( 176)				curIndex = (curIndex + 1);
+HXDLIN( 176)				tempString = lines->__get((curIndex - 1));
+HXLINE( 177)				size1 = ::flixel::graphics::frames::FlxAtlasFrames_obj::getDimensions(tempString,size1);
+HXLINE( 179)				int imageWidth = size1->__get(0);
+HXLINE( 180)				int imageHeight = size1->__get(1);
+HXLINE( 182)				 ::flixel::math::FlxRect rect = null();
+HXLINE( 183)				if (rotated) {
+HXLINE( 185)					 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get();
+HXDLIN( 185)					_this->x = ( (Float)(imageX) );
+HXDLIN( 185)					_this->y = ( (Float)(imageY) );
+HXDLIN( 185)					_this->width = ( (Float)(imageHeight) );
+HXDLIN( 185)					_this->height = ( (Float)(imageWidth) );
+HXDLIN( 185)					 ::flixel::math::FlxRect rect1 = _this;
+HXDLIN( 185)					rect1->_inPool = false;
+HXDLIN( 185)					rect = rect1;
+HXLINE( 186)					angle = 90;
             				}
             				else {
-HXLINE( 166)					angle = 0;
+HXLINE( 190)					 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get();
+HXDLIN( 190)					_this->x = ( (Float)(imageX) );
+HXDLIN( 190)					_this->y = ( (Float)(imageY) );
+HXDLIN( 190)					_this->width = ( (Float)(imageWidth) );
+HXDLIN( 190)					_this->height = ( (Float)(imageHeight) );
+HXDLIN( 190)					 ::flixel::math::FlxRect rect1 = _this;
+HXDLIN( 190)					rect1->_inPool = false;
+HXDLIN( 190)					rect = rect1;
             				}
-HXLINE( 168)				curIndex = (curIndex + 1);
-HXDLIN( 168)				::String tempString = lines->__get((curIndex - 1));
-HXLINE( 169)				 ::Dynamic size = ::flixel::graphics::frames::FlxAtlasFrames_obj::getDimensions(tempString);
-HXLINE( 171)				int imageX = ( (int)(size->__Field(HX_("x",78,00,00,00),::hx::paccDynamic)) );
-HXLINE( 172)				int imageY = ( (int)(size->__Field(HX_("y",79,00,00,00),::hx::paccDynamic)) );
-HXLINE( 174)				curIndex = (curIndex + 1);
-HXDLIN( 174)				tempString = lines->__get((curIndex - 1));
-HXLINE( 175)				size = ::flixel::graphics::frames::FlxAtlasFrames_obj::getDimensions(tempString);
-HXLINE( 177)				int imageWidth = ( (int)(size->__Field(HX_("x",78,00,00,00),::hx::paccDynamic)) );
-HXLINE( 178)				int imageHeight = ( (int)(size->__Field(HX_("y",79,00,00,00),::hx::paccDynamic)) );
-HXLINE( 180)				 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get();
-HXDLIN( 180)				_this->x = ( (Float)(imageX) );
-HXDLIN( 180)				_this->y = ( (Float)(imageY) );
-HXDLIN( 180)				_this->width = ( (Float)(imageWidth) );
-HXDLIN( 180)				_this->height = ( (Float)(imageHeight) );
-HXDLIN( 180)				 ::flixel::math::FlxRect rect = _this;
-HXDLIN( 180)				rect->_inPool = false;
-HXDLIN( 180)				 ::flixel::math::FlxRect rect1 = rect;
-HXLINE( 182)				curIndex = (curIndex + 1);
-HXDLIN( 182)				tempString = lines->__get((curIndex - 1));
-HXLINE( 183)				size = ::flixel::graphics::frames::FlxAtlasFrames_obj::getDimensions(tempString);
-HXLINE( 185)				Float X = ( (Float)(size->__Field(HX_("x",78,00,00,00),::hx::paccDynamic)) );
-HXDLIN( 185)				Float Y = ( (Float)(size->__Field(HX_("y",79,00,00,00),::hx::paccDynamic)) );
-HXDLIN( 185)				 ::flixel::math::FlxPoint point = ::flixel::math::FlxPoint_obj::_pool->get()->set(X,Y);
-HXDLIN( 185)				point->_inPool = false;
-HXDLIN( 185)				 ::flixel::math::FlxPoint sourceSize = point;
-HXLINE( 187)				curIndex = (curIndex + 1);
-HXDLIN( 187)				tempString = lines->__get((curIndex - 1));
-HXLINE( 188)				size = ::flixel::graphics::frames::FlxAtlasFrames_obj::getDimensions(tempString);
-HXLINE( 190)				curIndex = (curIndex + 1);
-HXDLIN( 190)				tempString = lines->__get((curIndex - 1));
-HXLINE( 191)				 ::Dynamic index = ::Std_obj::parseInt(tempString.split(HX_(":",3a,00,00,00))->__get(1));
-HXLINE( 193)				if (::hx::IsNotEq( index,-1 )) {
-HXLINE( 194)					name = (name + (HX_("_",5f,00,00,00) + index));
-            				}
-HXLINE( 200)				Float X1 = ( (Float)(size->__Field(HX_("x",78,00,00,00),::hx::paccDynamic)) );
-HXDLIN( 200)				Float Y1 = ((sourceSize->y - ( (Float)(size->__Field(HX_("y",79,00,00,00),::hx::paccDynamic)) )) - ( (Float)(imageHeight) ));
-HXDLIN( 200)				 ::flixel::math::FlxPoint point1 = ::flixel::math::FlxPoint_obj::_pool->get()->set(X1,Y1);
-HXDLIN( 200)				point1->_inPool = false;
-HXDLIN( 200)				 ::flixel::math::FlxPoint offset = point1;
-HXLINE( 201)				frames->addAtlasFrame(rect1,sourceSize,offset,name,angle,null(),null());
+HXLINE( 193)				curIndex = (curIndex + 1);
+HXDLIN( 193)				tempString = lines->__get((curIndex - 1));
+HXLINE( 194)				size1 = ::flixel::graphics::frames::FlxAtlasFrames_obj::getDimensions(tempString,size1);
+HXLINE( 196)				 ::flixel::math::FlxPoint point = ::flixel::math::FlxPoint_obj::_pool->get();
+HXDLIN( 196)				 ::flixel::math::FlxPoint point1 = point->set(size1->__get(0),size1->__get(1));
+HXDLIN( 196)				point1->_inPool = false;
+HXDLIN( 196)				 ::flixel::math::FlxPoint sourceSize = point1;
+HXLINE( 198)				curIndex = (curIndex + 1);
+HXDLIN( 198)				tempString = lines->__get((curIndex - 1));
+HXLINE( 199)				size1 = ::flixel::graphics::frames::FlxAtlasFrames_obj::getDimensions(tempString,size1);
+HXLINE( 205)				Float Y = ((sourceSize->y - ( (Float)(size1->__get(1)) )) - ( (Float)(imageHeight) ));
+HXDLIN( 205)				 ::flixel::math::FlxPoint point2 = ::flixel::math::FlxPoint_obj::_pool->get();
+HXDLIN( 205)				 ::flixel::math::FlxPoint point3 = point2->set(size1->__get(0),Y);
+HXDLIN( 205)				point3->_inPool = false;
+HXDLIN( 205)				 ::flixel::math::FlxPoint offset = point3;
+HXLINE( 206)				frames->addAtlasFrame(rect,sourceSize,offset,name,angle,null(),null());
             			}
             		}
-HXLINE( 204)		return frames;
+HXLINE( 209)		return frames;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(FlxAtlasFrames_obj,fromLibGdx,return )
 
- ::Dynamic FlxAtlasFrames_obj::getDimensions(::String line){
-            	HX_STACKFRAME(&_hx_pos_d294561f5bda5770_211_getDimensions)
-HXLINE( 212)		int colonPosition = line.indexOf(HX_(":",3a,00,00,00),null());
-HXLINE( 213)		int comaPosition = line.indexOf(HX_(",",2c,00,00,00),null());
-HXLINE( 216)		 ::Dynamic _hx_tmp = ::Std_obj::parseInt(line.substring((colonPosition + 1),comaPosition));
-HXLINE( 215)		return  ::Dynamic(::hx::Anon_obj::Create(2)
-            			->setFixed(0,HX_("x",78,00,00,00),_hx_tmp)
-            			->setFixed(1,HX_("y",79,00,00,00),::Std_obj::parseInt(line.substring((comaPosition + 1),line.length))));
+::Array< int > FlxAtlasFrames_obj::getDimensions(::String line,::Array< int > size){
+            	HX_STACKFRAME(&_hx_pos_d294561f5bda5770_220_getDimensions)
+HXLINE( 221)		int colonPosition = line.indexOf(HX_(":",3a,00,00,00),null());
+HXLINE( 222)		int comaPosition = line.indexOf(HX_(",",2c,00,00,00),null());
+HXLINE( 224)		size[0] = ( (int)(::Std_obj::parseInt(line.substring((colonPosition + 1),comaPosition))) );
+HXLINE( 225)		size[1] = ( (int)(::Std_obj::parseInt(line.substring((comaPosition + 1),line.length))) );
+HXLINE( 227)		return size;
             	}
 
 
-STATIC_HX_DEFINE_DYNAMIC_FUNC1(FlxAtlasFrames_obj,getDimensions,return )
+STATIC_HX_DEFINE_DYNAMIC_FUNC2(FlxAtlasFrames_obj,getDimensions,return )
 
  ::flixel::graphics::frames::FlxAtlasFrames FlxAtlasFrames_obj::fromSparrow( ::Dynamic Source,::String Description){
-            	HX_GC_STACKFRAME(&_hx_pos_d294561f5bda5770_232_fromSparrow)
-HXLINE( 233)		 ::flixel::graphics::FlxGraphic graphic = ::flixel::FlxG_obj::bitmap->add(Source,null(),null());
-HXLINE( 234)		if (::hx::IsNull( graphic )) {
-HXLINE( 235)			return null();
+            	HX_GC_STACKFRAME(&_hx_pos_d294561f5bda5770_241_fromSparrow)
+HXLINE( 242)		 ::flixel::graphics::FlxGraphic graphic = ::flixel::FlxG_obj::bitmap->add(Source,null(),null());
+HXLINE( 243)		if (::hx::IsNull( graphic )) {
+HXLINE( 244)			return null();
             		}
-HXLINE( 238)		 ::flixel::graphics::frames::FlxAtlasFrames frames = ::flixel::graphics::frames::FlxAtlasFrames_obj::findFrame(graphic,null());
-HXLINE( 239)		if (::hx::IsNotNull( frames )) {
-HXLINE( 240)			return frames;
+HXLINE( 247)		 ::flixel::graphics::frames::FlxAtlasFrames frames = ::flixel::graphics::frames::FlxAtlasFrames_obj::findFrame(graphic,null());
+HXLINE( 248)		if (::hx::IsNotNull( frames )) {
+HXLINE( 249)			return frames;
             		}
-HXLINE( 242)		bool _hx_tmp;
-HXDLIN( 242)		if (::hx::IsNotNull( graphic )) {
-HXLINE( 242)			_hx_tmp = ::hx::IsNull( Description );
-            		}
-            		else {
-HXLINE( 242)			_hx_tmp = true;
-            		}
-HXDLIN( 242)		if (_hx_tmp) {
-HXLINE( 243)			return null();
-            		}
-HXLINE( 245)		frames =  ::flixel::graphics::frames::FlxAtlasFrames_obj::__alloc( HX_CTX ,graphic,null());
-HXLINE( 247)		if (::openfl::utils::Assets_obj::exists(Description,null())) {
-HXLINE( 248)			Description = ::openfl::utils::Assets_obj::getText(Description);
-            		}
-HXLINE( 250)		 ::Xml x = ::Xml_obj::parse(Description)->firstElement();
-HXDLIN( 250)		bool _hx_tmp1;
-HXDLIN( 250)		if ((x->nodeType != ::Xml_obj::Document)) {
-HXLINE( 250)			_hx_tmp1 = (x->nodeType != ::Xml_obj::Element);
+HXLINE( 251)		bool _hx_tmp;
+HXDLIN( 251)		if (::hx::IsNotNull( graphic )) {
+HXLINE( 251)			_hx_tmp = ::hx::IsNull( Description );
             		}
             		else {
-HXLINE( 250)			_hx_tmp1 = false;
+HXLINE( 251)			_hx_tmp = true;
             		}
-HXDLIN( 250)		if (_hx_tmp1) {
-HXLINE( 250)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown((HX_("Invalid nodeType ",3b,e0,cb,e1) + ::_Xml::XmlType_Impl__obj::toString(x->nodeType))));
+HXDLIN( 251)		if (_hx_tmp) {
+HXLINE( 252)			return null();
             		}
-HXDLIN( 250)		 ::Xml this1 = x;
-HXDLIN( 250)		 ::Xml data = this1;
-HXLINE( 252)		{
-HXLINE( 252)			int _g = 0;
-HXDLIN( 252)			::Array< ::Dynamic> _g1 = ::haxe::xml::_Access::NodeListAccess_Impl__obj::resolve(data,HX_("SubTexture",5b,7b,fb,11));
-HXDLIN( 252)			while((_g < _g1->length)){
-HXLINE( 252)				 ::Xml texture = _g1->__get(_g).StaticCast<  ::Xml >();
-HXDLIN( 252)				_g = (_g + 1);
-HXLINE( 254)				::String name = ::haxe::xml::_Access::AttribAccess_Impl__obj::resolve(texture,HX_("name",4b,72,ff,48));
-HXLINE( 255)				bool trimmed = ::haxe::xml::_Access::HasAttribAccess_Impl__obj::resolve(texture,HX_("frameX",8b,af,85,ac));
-HXLINE( 256)				bool rotated;
-HXDLIN( 256)				if (::haxe::xml::_Access::HasAttribAccess_Impl__obj::resolve(texture,HX_("rotated",a9,49,1d,f1))) {
-HXLINE( 256)					rotated = (::haxe::xml::_Access::AttribAccess_Impl__obj::resolve(texture,HX_("rotated",a9,49,1d,f1)) == HX_("true",4e,a7,03,4d));
+HXLINE( 254)		frames =  ::flixel::graphics::frames::FlxAtlasFrames_obj::__alloc( HX_CTX ,graphic,null());
+HXLINE( 256)		if (::openfl::utils::Assets_obj::exists(Description,null())) {
+HXLINE( 257)			Description = ::openfl::utils::Assets_obj::getText(Description);
+            		}
+HXLINE( 259)		 ::Xml x = ::Xml_obj::parse(Description)->firstElement();
+HXDLIN( 259)		bool _hx_tmp1;
+HXDLIN( 259)		if ((x->nodeType != ::Xml_obj::Document)) {
+HXLINE( 259)			_hx_tmp1 = (x->nodeType != ::Xml_obj::Element);
+            		}
+            		else {
+HXLINE( 259)			_hx_tmp1 = false;
+            		}
+HXDLIN( 259)		if (_hx_tmp1) {
+HXLINE( 259)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown((HX_("Invalid nodeType ",3b,e0,cb,e1) + ::_Xml::XmlType_Impl__obj::toString(x->nodeType))));
+            		}
+HXDLIN( 259)		 ::Xml this1 = x;
+HXDLIN( 259)		 ::Xml data = this1;
+HXLINE( 261)		{
+HXLINE( 261)			int _g = 0;
+HXDLIN( 261)			::Array< ::Dynamic> _g1 = ::haxe::xml::_Access::NodeListAccess_Impl__obj::resolve(data,HX_("SubTexture",5b,7b,fb,11));
+HXDLIN( 261)			while((_g < _g1->length)){
+HXLINE( 261)				 ::Xml texture = _g1->__get(_g).StaticCast<  ::Xml >();
+HXDLIN( 261)				_g = (_g + 1);
+HXLINE( 263)				::String name = ::haxe::xml::_Access::AttribAccess_Impl__obj::resolve(texture,HX_("name",4b,72,ff,48));
+HXLINE( 264)				bool trimmed = ::haxe::xml::_Access::HasAttribAccess_Impl__obj::resolve(texture,HX_("frameX",8b,af,85,ac));
+HXLINE( 265)				bool rotated;
+HXDLIN( 265)				if (::haxe::xml::_Access::HasAttribAccess_Impl__obj::resolve(texture,HX_("rotated",a9,49,1d,f1))) {
+HXLINE( 265)					rotated = (::haxe::xml::_Access::AttribAccess_Impl__obj::resolve(texture,HX_("rotated",a9,49,1d,f1)) == HX_("true",4e,a7,03,4d));
             				}
             				else {
-HXLINE( 256)					rotated = false;
+HXLINE( 265)					rotated = false;
             				}
-HXLINE( 257)				bool flipX;
-HXDLIN( 257)				if (::haxe::xml::_Access::HasAttribAccess_Impl__obj::resolve(texture,HX_("flipX",0b,45,92,02))) {
-HXLINE( 257)					flipX = (::haxe::xml::_Access::AttribAccess_Impl__obj::resolve(texture,HX_("flipX",0b,45,92,02)) == HX_("true",4e,a7,03,4d));
-            				}
-            				else {
-HXLINE( 257)					flipX = false;
-            				}
-HXLINE( 258)				bool flipY;
-HXDLIN( 258)				if (::haxe::xml::_Access::HasAttribAccess_Impl__obj::resolve(texture,HX_("flipY",0c,45,92,02))) {
-HXLINE( 258)					flipY = (::haxe::xml::_Access::AttribAccess_Impl__obj::resolve(texture,HX_("flipY",0c,45,92,02)) == HX_("true",4e,a7,03,4d));
+HXLINE( 266)				bool flipX;
+HXDLIN( 266)				if (::haxe::xml::_Access::HasAttribAccess_Impl__obj::resolve(texture,HX_("flipX",0b,45,92,02))) {
+HXLINE( 266)					flipX = (::haxe::xml::_Access::AttribAccess_Impl__obj::resolve(texture,HX_("flipX",0b,45,92,02)) == HX_("true",4e,a7,03,4d));
             				}
             				else {
-HXLINE( 258)					flipY = false;
+HXLINE( 266)					flipX = false;
             				}
-HXLINE( 260)				Float X = ::Std_obj::parseFloat(::haxe::xml::_Access::AttribAccess_Impl__obj::resolve(texture,HX_("x",78,00,00,00)));
-HXDLIN( 260)				Float Y = ::Std_obj::parseFloat(::haxe::xml::_Access::AttribAccess_Impl__obj::resolve(texture,HX_("y",79,00,00,00)));
-HXDLIN( 260)				Float Width = ::Std_obj::parseFloat(::haxe::xml::_Access::AttribAccess_Impl__obj::resolve(texture,HX_("width",06,b6,62,ca)));
-HXDLIN( 260)				Float Height = ::Std_obj::parseFloat(::haxe::xml::_Access::AttribAccess_Impl__obj::resolve(texture,HX_("height",e7,07,4c,02)));
-HXDLIN( 260)				 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get();
-HXDLIN( 260)				_this->x = X;
-HXDLIN( 260)				_this->y = Y;
-HXDLIN( 260)				_this->width = Width;
-HXDLIN( 260)				_this->height = Height;
-HXDLIN( 260)				 ::flixel::math::FlxRect rect = _this;
-HXDLIN( 260)				rect->_inPool = false;
-HXDLIN( 260)				 ::flixel::math::FlxRect rect1 = rect;
-HXLINE( 263)				 ::openfl::geom::Rectangle size;
-HXDLIN( 263)				if (trimmed) {
-HXLINE( 265)					 ::Dynamic size1 = ::Std_obj::parseInt(::haxe::xml::_Access::AttribAccess_Impl__obj::resolve(texture,HX_("frameX",8b,af,85,ac)));
-HXDLIN( 265)					 ::Dynamic size2 = ::Std_obj::parseInt(::haxe::xml::_Access::AttribAccess_Impl__obj::resolve(texture,HX_("frameY",8c,af,85,ac)));
-HXDLIN( 265)					 ::Dynamic size3 = ::Std_obj::parseInt(::haxe::xml::_Access::AttribAccess_Impl__obj::resolve(texture,HX_("frameWidth",99,ea,88,ad)));
-HXLINE( 263)					size =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,size1,size2,size3,::Std_obj::parseInt(::haxe::xml::_Access::AttribAccess_Impl__obj::resolve(texture,HX_("frameHeight",f4,d3,93,e0))));
+HXLINE( 267)				bool flipY;
+HXDLIN( 267)				if (::haxe::xml::_Access::HasAttribAccess_Impl__obj::resolve(texture,HX_("flipY",0c,45,92,02))) {
+HXLINE( 267)					flipY = (::haxe::xml::_Access::AttribAccess_Impl__obj::resolve(texture,HX_("flipY",0c,45,92,02)) == HX_("true",4e,a7,03,4d));
             				}
             				else {
-HXLINE( 263)					size =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,0,0,rect1->width,rect1->height);
+HXLINE( 267)					flipY = false;
             				}
-HXLINE( 273)				int angle;
-HXDLIN( 273)				if (rotated) {
-HXLINE( 273)					angle = -90;
-            				}
-            				else {
-HXLINE( 273)					angle = 0;
-            				}
-HXLINE( 275)				Float X1 = -(size->get_left());
-HXDLIN( 275)				Float Y1 = -(size->get_top());
-HXDLIN( 275)				 ::flixel::math::FlxPoint point = ::flixel::math::FlxPoint_obj::_pool->get()->set(X1,Y1);
-HXDLIN( 275)				point->_inPool = false;
-HXDLIN( 275)				 ::flixel::math::FlxPoint offset = point;
-HXLINE( 276)				Float X2 = size->width;
-HXDLIN( 276)				Float Y2 = size->height;
-HXDLIN( 276)				 ::flixel::math::FlxPoint point1 = ::flixel::math::FlxPoint_obj::_pool->get()->set(X2,Y2);
-HXDLIN( 276)				point1->_inPool = false;
-HXDLIN( 276)				 ::flixel::math::FlxPoint sourceSize = point1;
-HXLINE( 278)				bool _hx_tmp;
-HXDLIN( 278)				if (rotated) {
-HXLINE( 278)					_hx_tmp = !(trimmed);
+HXLINE( 269)				Float X = ::Std_obj::parseFloat(::haxe::xml::_Access::AttribAccess_Impl__obj::resolve(texture,HX_("x",78,00,00,00)));
+HXDLIN( 269)				Float Y = ::Std_obj::parseFloat(::haxe::xml::_Access::AttribAccess_Impl__obj::resolve(texture,HX_("y",79,00,00,00)));
+HXDLIN( 269)				Float Width = ::Std_obj::parseFloat(::haxe::xml::_Access::AttribAccess_Impl__obj::resolve(texture,HX_("width",06,b6,62,ca)));
+HXDLIN( 269)				Float Height = ::Std_obj::parseFloat(::haxe::xml::_Access::AttribAccess_Impl__obj::resolve(texture,HX_("height",e7,07,4c,02)));
+HXDLIN( 269)				 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get();
+HXDLIN( 269)				_this->x = X;
+HXDLIN( 269)				_this->y = Y;
+HXDLIN( 269)				_this->width = Width;
+HXDLIN( 269)				_this->height = Height;
+HXDLIN( 269)				 ::flixel::math::FlxRect rect = _this;
+HXDLIN( 269)				rect->_inPool = false;
+HXDLIN( 269)				 ::flixel::math::FlxRect rect1 = rect;
+HXLINE( 272)				 ::openfl::geom::Rectangle size;
+HXDLIN( 272)				if (trimmed) {
+HXLINE( 274)					 ::Dynamic size1 = ::Std_obj::parseInt(::haxe::xml::_Access::AttribAccess_Impl__obj::resolve(texture,HX_("frameX",8b,af,85,ac)));
+HXDLIN( 274)					 ::Dynamic size2 = ::Std_obj::parseInt(::haxe::xml::_Access::AttribAccess_Impl__obj::resolve(texture,HX_("frameY",8c,af,85,ac)));
+HXDLIN( 274)					 ::Dynamic size3 = ::Std_obj::parseInt(::haxe::xml::_Access::AttribAccess_Impl__obj::resolve(texture,HX_("frameWidth",99,ea,88,ad)));
+HXLINE( 272)					size =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,size1,size2,size3,::Std_obj::parseInt(::haxe::xml::_Access::AttribAccess_Impl__obj::resolve(texture,HX_("frameHeight",f4,d3,93,e0))));
             				}
             				else {
-HXLINE( 278)					_hx_tmp = false;
+HXLINE( 272)					size =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,0,0,rect1->width,rect1->height);
             				}
-HXDLIN( 278)				if (_hx_tmp) {
-HXLINE( 279)					sourceSize->set(size->height,size->width);
+HXLINE( 282)				int angle;
+HXDLIN( 282)				if (rotated) {
+HXLINE( 282)					angle = -90;
             				}
-HXLINE( 281)				frames->addAtlasFrame(rect1,sourceSize,offset,name,angle,flipX,flipY);
+            				else {
+HXLINE( 282)					angle = 0;
+            				}
+HXLINE( 284)				Float X1 = -(size->get_left());
+HXDLIN( 284)				Float Y1 = -(size->get_top());
+HXDLIN( 284)				 ::flixel::math::FlxPoint point = ::flixel::math::FlxPoint_obj::_pool->get()->set(X1,Y1);
+HXDLIN( 284)				point->_inPool = false;
+HXDLIN( 284)				 ::flixel::math::FlxPoint offset = point;
+HXLINE( 285)				Float X2 = size->width;
+HXDLIN( 285)				Float Y2 = size->height;
+HXDLIN( 285)				 ::flixel::math::FlxPoint point1 = ::flixel::math::FlxPoint_obj::_pool->get()->set(X2,Y2);
+HXDLIN( 285)				point1->_inPool = false;
+HXDLIN( 285)				 ::flixel::math::FlxPoint sourceSize = point1;
+HXLINE( 287)				bool _hx_tmp;
+HXDLIN( 287)				if (rotated) {
+HXLINE( 287)					_hx_tmp = !(trimmed);
+            				}
+            				else {
+HXLINE( 287)					_hx_tmp = false;
+            				}
+HXDLIN( 287)				if (_hx_tmp) {
+HXLINE( 288)					sourceSize->set(size->height,size->width);
+            				}
+HXLINE( 290)				frames->addAtlasFrame(rect1,sourceSize,offset,name,angle,flipX,flipY);
             			}
             		}
-HXLINE( 284)		return frames;
+HXLINE( 293)		return frames;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(FlxAtlasFrames_obj,fromSparrow,return )
 
  ::flixel::graphics::frames::FlxAtlasFrames FlxAtlasFrames_obj::fromTexturePackerXml( ::Dynamic Source,::String Description){
-            	HX_GC_STACKFRAME(&_hx_pos_d294561f5bda5770_297_fromTexturePackerXml)
-HXLINE( 298)		 ::flixel::graphics::FlxGraphic graphic = ::flixel::FlxG_obj::bitmap->add(Source,false,null());
-HXLINE( 299)		if (::hx::IsNull( graphic )) {
-HXLINE( 300)			return null();
+            	HX_GC_STACKFRAME(&_hx_pos_d294561f5bda5770_306_fromTexturePackerXml)
+HXLINE( 307)		 ::flixel::graphics::FlxGraphic graphic = ::flixel::FlxG_obj::bitmap->add(Source,false,null());
+HXLINE( 308)		if (::hx::IsNull( graphic )) {
+HXLINE( 309)			return null();
             		}
-HXLINE( 303)		 ::flixel::graphics::frames::FlxAtlasFrames frames = ::flixel::graphics::frames::FlxAtlasFrames_obj::findFrame(graphic,null());
-HXLINE( 304)		if (::hx::IsNotNull( frames )) {
-HXLINE( 305)			return frames;
+HXLINE( 312)		 ::flixel::graphics::frames::FlxAtlasFrames frames = ::flixel::graphics::frames::FlxAtlasFrames_obj::findFrame(graphic,null());
+HXLINE( 313)		if (::hx::IsNotNull( frames )) {
+HXLINE( 314)			return frames;
             		}
-HXLINE( 307)		bool _hx_tmp;
-HXDLIN( 307)		if (::hx::IsNotNull( graphic )) {
-HXLINE( 307)			_hx_tmp = ::hx::IsNull( Description );
+HXLINE( 316)		bool _hx_tmp;
+HXDLIN( 316)		if (::hx::IsNotNull( graphic )) {
+HXLINE( 316)			_hx_tmp = ::hx::IsNull( Description );
             		}
             		else {
-HXLINE( 307)			_hx_tmp = true;
+HXLINE( 316)			_hx_tmp = true;
             		}
-HXDLIN( 307)		if (_hx_tmp) {
-HXLINE( 308)			return null();
+HXDLIN( 316)		if (_hx_tmp) {
+HXLINE( 317)			return null();
             		}
-HXLINE( 310)		frames =  ::flixel::graphics::frames::FlxAtlasFrames_obj::__alloc( HX_CTX ,graphic,null());
-HXLINE( 312)		if (::openfl::utils::Assets_obj::exists(Description,null())) {
-HXLINE( 313)			Description = ::openfl::utils::Assets_obj::getText(Description);
+HXLINE( 319)		frames =  ::flixel::graphics::frames::FlxAtlasFrames_obj::__alloc( HX_CTX ,graphic,null());
+HXLINE( 321)		if (::openfl::utils::Assets_obj::exists(Description,null())) {
+HXLINE( 322)			Description = ::openfl::utils::Assets_obj::getText(Description);
             		}
-HXLINE( 315)		 ::Xml xml = ::Xml_obj::parse(Description);
-HXLINE( 317)		{
-HXLINE( 317)			 ::Dynamic sprite = xml->firstElement()->elements();
-HXDLIN( 317)			while(( (bool)(sprite->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE( 317)				 ::Xml sprite1 = ( ( ::Xml)(sprite->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE( 319)				bool trimmed;
-HXDLIN( 319)				if (!(sprite1->exists(HX_("oX",09,61,00,00)))) {
-HXLINE( 319)					trimmed = sprite1->exists(HX_("oY",0a,61,00,00));
+HXLINE( 324)		 ::Xml xml = ::Xml_obj::parse(Description);
+HXLINE( 326)		{
+HXLINE( 326)			 ::Dynamic sprite = xml->firstElement()->elements();
+HXDLIN( 326)			while(( (bool)(sprite->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE( 326)				 ::Xml sprite1 = ( ( ::Xml)(sprite->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE( 328)				bool trimmed;
+HXDLIN( 328)				if (!(sprite1->exists(HX_("oX",09,61,00,00)))) {
+HXLINE( 328)					trimmed = sprite1->exists(HX_("oY",0a,61,00,00));
             				}
             				else {
-HXLINE( 319)					trimmed = true;
+HXLINE( 328)					trimmed = true;
             				}
-HXLINE( 320)				bool rotated;
-HXDLIN( 320)				if (sprite1->exists(HX_("r",72,00,00,00))) {
-HXLINE( 320)					rotated = (sprite1->get(HX_("r",72,00,00,00)) == HX_("y",79,00,00,00));
-            				}
-            				else {
-HXLINE( 320)					rotated = false;
-            				}
-HXLINE( 321)				int angle;
-HXDLIN( 321)				if (rotated) {
-HXLINE( 321)					angle = -90;
+HXLINE( 329)				bool rotated;
+HXDLIN( 329)				if (sprite1->exists(HX_("r",72,00,00,00))) {
+HXLINE( 329)					rotated = (sprite1->get(HX_("r",72,00,00,00)) == HX_("y",79,00,00,00));
             				}
             				else {
-HXLINE( 321)					angle = 0;
+HXLINE( 329)					rotated = false;
             				}
-HXLINE( 322)				::String name = sprite1->get(HX_("n",6e,00,00,00));
-HXLINE( 323)				 ::flixel::math::FlxPoint point = ::flixel::math::FlxPoint_obj::_pool->get()->set(0,0);
-HXDLIN( 323)				point->_inPool = false;
-HXDLIN( 323)				 ::flixel::math::FlxPoint offset = point;
-HXLINE( 324)				Float X = ( (Float)(::Std_obj::parseInt(sprite1->get(HX_("x",78,00,00,00)))) );
-HXDLIN( 324)				Float Y = ( (Float)(::Std_obj::parseInt(sprite1->get(HX_("y",79,00,00,00)))) );
-HXDLIN( 324)				Float Width = ( (Float)(::Std_obj::parseInt(sprite1->get(HX_("w",77,00,00,00)))) );
-HXDLIN( 324)				Float Height = ( (Float)(::Std_obj::parseInt(sprite1->get(HX_("h",68,00,00,00)))) );
-HXDLIN( 324)				 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get();
-HXDLIN( 324)				_this->x = X;
-HXDLIN( 324)				_this->y = Y;
-HXDLIN( 324)				_this->width = Width;
-HXDLIN( 324)				_this->height = Height;
-HXDLIN( 324)				 ::flixel::math::FlxRect rect = _this;
-HXDLIN( 324)				rect->_inPool = false;
-HXDLIN( 324)				 ::flixel::math::FlxRect rect1 = rect;
-HXLINE( 325)				Float X1 = rect1->width;
-HXDLIN( 325)				Float Y1 = rect1->height;
-HXDLIN( 325)				 ::flixel::math::FlxPoint point1 = ::flixel::math::FlxPoint_obj::_pool->get()->set(X1,Y1);
-HXDLIN( 325)				point1->_inPool = false;
-HXDLIN( 325)				 ::flixel::math::FlxPoint sourceSize = point1;
-HXLINE( 327)				if (trimmed) {
-HXLINE( 329)					 ::Dynamic _hx_tmp = ::Std_obj::parseInt(sprite1->get(HX_("oX",09,61,00,00)));
-HXDLIN( 329)					offset->set(_hx_tmp,::Std_obj::parseInt(sprite1->get(HX_("oY",0a,61,00,00))));
-HXLINE( 330)					 ::Dynamic _hx_tmp1 = ::Std_obj::parseInt(sprite1->get(HX_("oW",08,61,00,00)));
-HXDLIN( 330)					sourceSize->set(_hx_tmp1,::Std_obj::parseInt(sprite1->get(HX_("oH",f9,60,00,00))));
+HXLINE( 330)				int angle;
+HXDLIN( 330)				if (rotated) {
+HXLINE( 330)					angle = -90;
             				}
-HXLINE( 333)				frames->addAtlasFrame(rect1,sourceSize,offset,name,angle,null(),null());
+            				else {
+HXLINE( 330)					angle = 0;
+            				}
+HXLINE( 331)				::String name = sprite1->get(HX_("n",6e,00,00,00));
+HXLINE( 332)				 ::flixel::math::FlxPoint point = ::flixel::math::FlxPoint_obj::_pool->get()->set(0,0);
+HXDLIN( 332)				point->_inPool = false;
+HXDLIN( 332)				 ::flixel::math::FlxPoint offset = point;
+HXLINE( 333)				Float X = ( (Float)(::Std_obj::parseInt(sprite1->get(HX_("x",78,00,00,00)))) );
+HXDLIN( 333)				Float Y = ( (Float)(::Std_obj::parseInt(sprite1->get(HX_("y",79,00,00,00)))) );
+HXDLIN( 333)				Float Width = ( (Float)(::Std_obj::parseInt(sprite1->get(HX_("w",77,00,00,00)))) );
+HXDLIN( 333)				Float Height = ( (Float)(::Std_obj::parseInt(sprite1->get(HX_("h",68,00,00,00)))) );
+HXDLIN( 333)				 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get();
+HXDLIN( 333)				_this->x = X;
+HXDLIN( 333)				_this->y = Y;
+HXDLIN( 333)				_this->width = Width;
+HXDLIN( 333)				_this->height = Height;
+HXDLIN( 333)				 ::flixel::math::FlxRect rect = _this;
+HXDLIN( 333)				rect->_inPool = false;
+HXDLIN( 333)				 ::flixel::math::FlxRect rect1 = rect;
+HXLINE( 334)				Float X1 = rect1->width;
+HXDLIN( 334)				Float Y1 = rect1->height;
+HXDLIN( 334)				 ::flixel::math::FlxPoint point1 = ::flixel::math::FlxPoint_obj::_pool->get()->set(X1,Y1);
+HXDLIN( 334)				point1->_inPool = false;
+HXDLIN( 334)				 ::flixel::math::FlxPoint sourceSize = point1;
+HXLINE( 336)				if (trimmed) {
+HXLINE( 338)					 ::Dynamic _hx_tmp = ::Std_obj::parseInt(sprite1->get(HX_("oX",09,61,00,00)));
+HXDLIN( 338)					offset->set(_hx_tmp,::Std_obj::parseInt(sprite1->get(HX_("oY",0a,61,00,00))));
+HXLINE( 339)					 ::Dynamic _hx_tmp1 = ::Std_obj::parseInt(sprite1->get(HX_("oW",08,61,00,00)));
+HXDLIN( 339)					sourceSize->set(_hx_tmp1,::Std_obj::parseInt(sprite1->get(HX_("oH",f9,60,00,00))));
+            				}
+HXLINE( 342)				frames->addAtlasFrame(rect1,sourceSize,offset,name,angle,null(),null());
             			}
             		}
-HXLINE( 336)		return frames;
+HXLINE( 345)		return frames;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(FlxAtlasFrames_obj,fromTexturePackerXml,return )
 
  ::flixel::graphics::frames::FlxAtlasFrames FlxAtlasFrames_obj::fromSpriteSheetPacker( ::Dynamic Source,::String Description){
-            	HX_GC_STACKFRAME(&_hx_pos_d294561f5bda5770_349_fromSpriteSheetPacker)
-HXLINE( 350)		 ::flixel::graphics::FlxGraphic graphic = ::flixel::FlxG_obj::bitmap->add(Source,null(),null());
-HXLINE( 351)		if (::hx::IsNull( graphic )) {
-HXLINE( 352)			return null();
+            	HX_GC_STACKFRAME(&_hx_pos_d294561f5bda5770_358_fromSpriteSheetPacker)
+HXLINE( 359)		 ::flixel::graphics::FlxGraphic graphic = ::flixel::FlxG_obj::bitmap->add(Source,null(),null());
+HXLINE( 360)		if (::hx::IsNull( graphic )) {
+HXLINE( 361)			return null();
             		}
-HXLINE( 355)		 ::flixel::graphics::frames::FlxAtlasFrames frames = ::flixel::graphics::frames::FlxAtlasFrames_obj::findFrame(graphic,null());
-HXLINE( 356)		if (::hx::IsNotNull( frames )) {
-HXLINE( 357)			return frames;
+HXLINE( 364)		 ::flixel::graphics::frames::FlxAtlasFrames frames = ::flixel::graphics::frames::FlxAtlasFrames_obj::findFrame(graphic,null());
+HXLINE( 365)		if (::hx::IsNotNull( frames )) {
+HXLINE( 366)			return frames;
             		}
-HXLINE( 359)		bool _hx_tmp;
-HXDLIN( 359)		if (::hx::IsNotNull( graphic )) {
-HXLINE( 359)			_hx_tmp = ::hx::IsNull( Description );
+HXLINE( 368)		bool _hx_tmp;
+HXDLIN( 368)		if (::hx::IsNotNull( graphic )) {
+HXLINE( 368)			_hx_tmp = ::hx::IsNull( Description );
             		}
             		else {
-HXLINE( 359)			_hx_tmp = true;
+HXLINE( 368)			_hx_tmp = true;
             		}
-HXDLIN( 359)		if (_hx_tmp) {
-HXLINE( 360)			return null();
+HXDLIN( 368)		if (_hx_tmp) {
+HXLINE( 369)			return null();
             		}
-HXLINE( 362)		frames =  ::flixel::graphics::frames::FlxAtlasFrames_obj::__alloc( HX_CTX ,graphic,null());
-HXLINE( 364)		if (::openfl::utils::Assets_obj::exists(Description,null())) {
-HXLINE( 365)			Description = ::openfl::utils::Assets_obj::getText(Description);
+HXLINE( 371)		frames =  ::flixel::graphics::frames::FlxAtlasFrames_obj::__alloc( HX_CTX ,graphic,null());
+HXLINE( 373)		if (::openfl::utils::Assets_obj::exists(Description,null())) {
+HXLINE( 374)			Description = ::openfl::utils::Assets_obj::getText(Description);
             		}
-HXLINE( 367)		::String pack = ::StringTools_obj::trim(Description);
-HXLINE( 368)		::Array< ::String > lines = pack.split(HX_("\n",0a,00,00,00));
-HXLINE( 370)		{
-HXLINE( 370)			int _g = 0;
-HXDLIN( 370)			int _g1 = lines->length;
-HXDLIN( 370)			while((_g < _g1)){
-HXLINE( 370)				_g = (_g + 1);
-HXDLIN( 370)				int i = (_g - 1);
-HXLINE( 372)				::Array< ::String > currImageData = lines->__get(i).split(HX_("=",3d,00,00,00));
-HXLINE( 373)				::String name = ::StringTools_obj::trim(currImageData->__get(0));
-HXLINE( 374)				::Array< ::String > currImageRegion = ::StringTools_obj::trim(currImageData->__get(1)).split(HX_(" ",20,00,00,00));
-HXLINE( 376)				Float X = ( (Float)(::Std_obj::parseInt(currImageRegion->__get(0))) );
-HXDLIN( 376)				Float Y = ( (Float)(::Std_obj::parseInt(currImageRegion->__get(1))) );
-HXDLIN( 376)				Float Width = ( (Float)(::Std_obj::parseInt(currImageRegion->__get(2))) );
-HXDLIN( 376)				Float Height = ( (Float)(::Std_obj::parseInt(currImageRegion->__get(3))) );
-HXDLIN( 376)				 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get();
-HXDLIN( 376)				_this->x = X;
-HXDLIN( 376)				_this->y = Y;
-HXDLIN( 376)				_this->width = Width;
-HXDLIN( 376)				_this->height = Height;
-HXDLIN( 376)				 ::flixel::math::FlxRect rect = _this;
-HXDLIN( 376)				rect->_inPool = false;
-HXDLIN( 376)				 ::flixel::math::FlxRect rect1 = rect;
-HXLINE( 378)				Float X1 = rect1->width;
-HXDLIN( 378)				Float Y1 = rect1->height;
-HXDLIN( 378)				 ::flixel::math::FlxPoint point = ::flixel::math::FlxPoint_obj::_pool->get()->set(X1,Y1);
-HXDLIN( 378)				point->_inPool = false;
-HXDLIN( 378)				 ::flixel::math::FlxPoint sourceSize = point;
-HXLINE( 379)				 ::flixel::math::FlxPoint point1 = ::flixel::math::FlxPoint_obj::_pool->get()->set(( (Float)(0) ),( (Float)(0) ));
-HXDLIN( 379)				point1->_inPool = false;
-HXDLIN( 379)				 ::flixel::math::FlxPoint offset = point1;
-HXLINE( 381)				frames->addAtlasFrame(rect1,sourceSize,offset,name,0,null(),null());
+HXLINE( 376)		::String pack = ::StringTools_obj::trim(Description);
+HXLINE( 377)		::Array< ::String > lines = pack.split(HX_("\n",0a,00,00,00));
+HXLINE( 379)		{
+HXLINE( 379)			int _g = 0;
+HXDLIN( 379)			int _g1 = lines->length;
+HXDLIN( 379)			while((_g < _g1)){
+HXLINE( 379)				_g = (_g + 1);
+HXDLIN( 379)				int i = (_g - 1);
+HXLINE( 381)				::Array< ::String > currImageData = lines->__get(i).split(HX_("=",3d,00,00,00));
+HXLINE( 382)				::String name = ::StringTools_obj::trim(currImageData->__get(0));
+HXLINE( 383)				::Array< ::String > currImageRegion = ::StringTools_obj::trim(currImageData->__get(1)).split(HX_(" ",20,00,00,00));
+HXLINE( 385)				Float X = ( (Float)(::Std_obj::parseInt(currImageRegion->__get(0))) );
+HXDLIN( 385)				Float Y = ( (Float)(::Std_obj::parseInt(currImageRegion->__get(1))) );
+HXDLIN( 385)				Float Width = ( (Float)(::Std_obj::parseInt(currImageRegion->__get(2))) );
+HXDLIN( 385)				Float Height = ( (Float)(::Std_obj::parseInt(currImageRegion->__get(3))) );
+HXDLIN( 385)				 ::flixel::math::FlxRect _this = ::flixel::math::FlxRect_obj::_pool->get();
+HXDLIN( 385)				_this->x = X;
+HXDLIN( 385)				_this->y = Y;
+HXDLIN( 385)				_this->width = Width;
+HXDLIN( 385)				_this->height = Height;
+HXDLIN( 385)				 ::flixel::math::FlxRect rect = _this;
+HXDLIN( 385)				rect->_inPool = false;
+HXDLIN( 385)				 ::flixel::math::FlxRect rect1 = rect;
+HXLINE( 387)				Float X1 = rect1->width;
+HXDLIN( 387)				Float Y1 = rect1->height;
+HXDLIN( 387)				 ::flixel::math::FlxPoint point = ::flixel::math::FlxPoint_obj::_pool->get()->set(X1,Y1);
+HXDLIN( 387)				point->_inPool = false;
+HXDLIN( 387)				 ::flixel::math::FlxPoint sourceSize = point;
+HXLINE( 388)				 ::flixel::math::FlxPoint point1 = ::flixel::math::FlxPoint_obj::_pool->get()->set(( (Float)(0) ),( (Float)(0) ));
+HXDLIN( 388)				point1->_inPool = false;
+HXDLIN( 388)				 ::flixel::math::FlxPoint offset = point1;
+HXLINE( 390)				frames->addAtlasFrame(rect1,sourceSize,offset,name,0,null(),null());
             			}
             		}
-HXLINE( 384)		return frames;
+HXLINE( 393)		return frames;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(FlxAtlasFrames_obj,fromSpriteSheetPacker,return )
 
  ::flixel::graphics::frames::FlxAtlasFrames FlxAtlasFrames_obj::findFrame( ::flixel::graphics::FlxGraphic graphic, ::flixel::math::FlxPoint border){
-            	HX_STACKFRAME(&_hx_pos_d294561f5bda5770_395_findFrame)
-HXLINE( 396)		if (::hx::IsNull( border )) {
-HXLINE( 397)			 ::flixel::math::FlxPoint point = ::flixel::math::FlxPoint_obj::_pool->get()->set(( (Float)(0) ),( (Float)(0) ));
-HXDLIN( 397)			point->_inPool = false;
-HXDLIN( 397)			 ::flixel::math::FlxPoint point1 = point;
-HXDLIN( 397)			point1->_weak = true;
-HXDLIN( 397)			border = point1;
+            	HX_STACKFRAME(&_hx_pos_d294561f5bda5770_404_findFrame)
+HXLINE( 405)		if (::hx::IsNull( border )) {
+HXLINE( 406)			 ::flixel::math::FlxPoint point = ::flixel::math::FlxPoint_obj::_pool->get()->set(( (Float)(0) ),( (Float)(0) ));
+HXDLIN( 406)			point->_inPool = false;
+HXDLIN( 406)			 ::flixel::math::FlxPoint point1 = point;
+HXDLIN( 406)			point1->_weak = true;
+HXDLIN( 406)			border = point1;
             		}
-HXLINE( 399)		 ::flixel::graphics::frames::FlxFrameCollectionType type = ::flixel::graphics::frames::FlxFrameCollectionType_obj::ATLAS_dyn();
-HXDLIN( 399)		::cpp::VirtualArray collections = ( (::cpp::VirtualArray)(graphic->frameCollections->get(type)) );
-HXDLIN( 399)		if (::hx::IsNull( collections )) {
-HXLINE( 399)			collections = ::Array_obj< ::Dynamic>::__new();
-HXDLIN( 399)			graphic->frameCollections->set(type,collections);
+HXLINE( 408)		 ::flixel::graphics::frames::FlxFrameCollectionType type = ::flixel::graphics::frames::FlxFrameCollectionType_obj::ATLAS_dyn();
+HXDLIN( 408)		::cpp::VirtualArray collections = ( (::cpp::VirtualArray)(graphic->frameCollections->get(type)) );
+HXDLIN( 408)		if (::hx::IsNull( collections )) {
+HXLINE( 408)			collections = ::Array_obj< ::Dynamic>::__new();
+HXDLIN( 408)			graphic->frameCollections->set(type,collections);
             		}
-HXDLIN( 399)		::Array< ::Dynamic> atlasFrames = collections;
-HXLINE( 401)		{
-HXLINE( 401)			int _g = 0;
-HXDLIN( 401)			while((_g < atlasFrames->length)){
-HXLINE( 401)				 ::flixel::graphics::frames::FlxAtlasFrames atlas = atlasFrames->__get(_g).StaticCast<  ::flixel::graphics::frames::FlxAtlasFrames >();
-HXDLIN( 401)				_g = (_g + 1);
-HXLINE( 402)				 ::flixel::math::FlxPoint _this = atlas->border;
-HXDLIN( 402)				bool result;
-HXDLIN( 402)				if ((::Math_obj::abs((_this->x - border->x)) <= ((Float)0.0000001))) {
-HXLINE( 402)					result = (::Math_obj::abs((_this->y - border->y)) <= ((Float)0.0000001));
+HXDLIN( 408)		::Array< ::Dynamic> atlasFrames = collections;
+HXLINE( 410)		{
+HXLINE( 410)			int _g = 0;
+HXDLIN( 410)			while((_g < atlasFrames->length)){
+HXLINE( 410)				 ::flixel::graphics::frames::FlxAtlasFrames atlas = atlasFrames->__get(_g).StaticCast<  ::flixel::graphics::frames::FlxAtlasFrames >();
+HXDLIN( 410)				_g = (_g + 1);
+HXLINE( 411)				 ::flixel::math::FlxPoint _this = atlas->border;
+HXDLIN( 411)				bool result;
+HXDLIN( 411)				if ((::Math_obj::abs((_this->x - border->x)) <= ((Float)0.0000001))) {
+HXLINE( 411)					result = (::Math_obj::abs((_this->y - border->y)) <= ((Float)0.0000001));
             				}
             				else {
-HXLINE( 402)					result = false;
+HXLINE( 411)					result = false;
             				}
-HXDLIN( 402)				if (border->_weak) {
-HXLINE( 402)					border->put();
+HXDLIN( 411)				if (border->_weak) {
+HXLINE( 411)					border->put();
             				}
-HXDLIN( 402)				if (result) {
-HXLINE( 403)					return atlas;
+HXDLIN( 411)				if (result) {
+HXLINE( 412)					return atlas;
             				}
             			}
             		}
-HXLINE( 405)		return null();
+HXLINE( 414)		return null();
             	}
 
 

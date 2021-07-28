@@ -63,12 +63,6 @@ class HXCPP_CLASS_ATTRIBUTES CairoDisplayObject_obj : public ::hx::Object
 		static void render( ::openfl::display::DisplayObject displayObject, ::openfl::display::CairoRenderer renderer);
 		static ::Dynamic render_dyn();
 
-		static void renderDrawable( ::openfl::display::DisplayObject displayObject, ::openfl::display::CairoRenderer renderer);
-		static ::Dynamic renderDrawable_dyn();
-
-		static void renderDrawableMask( ::openfl::display::DisplayObject displayObject, ::openfl::display::CairoRenderer renderer);
-		static ::Dynamic renderDrawableMask_dyn();
-
 };
 
 } // end namespace openfl

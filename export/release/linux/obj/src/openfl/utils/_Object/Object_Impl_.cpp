@@ -28,10 +28,8 @@ HX_LOCAL_STACK_FRAME(_hx_pos_c98f1d3e0b4ce330_38_propertyIsEnumerable,"openfl.ut
 HX_LOCAL_STACK_FRAME(_hx_pos_c98f1d3e0b4ce330_45_toLocaleString,"openfl.utils._Object.Object_Impl_","toLocaleString",0x947c7aea,"openfl.utils._Object.Object_Impl_.toLocaleString","openfl/utils/Object.hx",45,0xcbd6e8e2)
 HX_LOCAL_STACK_FRAME(_hx_pos_c98f1d3e0b4ce330_50_toString,"openfl.utils._Object.Object_Impl_","toString",0x3ea16170,"openfl.utils._Object.Object_Impl_.toString","openfl/utils/Object.hx",50,0xcbd6e8e2)
 HX_LOCAL_STACK_FRAME(_hx_pos_c98f1d3e0b4ce330_55_valueOf,"openfl.utils._Object.Object_Impl_","valueOf",0xaf96f6a4,"openfl.utils._Object.Object_Impl_.valueOf","openfl/utils/Object.hx",55,0xcbd6e8e2)
-HX_LOCAL_STACK_FRAME(_hx_pos_c98f1d3e0b4ce330_61___fieldRead,"openfl.utils._Object.Object_Impl_","__fieldRead",0x26777bcc,"openfl.utils._Object.Object_Impl_.__fieldRead","openfl/utils/Object.hx",61,0xcbd6e8e2)
-HX_LOCAL_STACK_FRAME(_hx_pos_c98f1d3e0b4ce330_68___fieldWrite,"openfl.utils._Object.Object_Impl_","__fieldWrite",0x6bb3a3a9,"openfl.utils._Object.Object_Impl_.__fieldWrite","openfl/utils/Object.hx",68,0xcbd6e8e2)
-HX_LOCAL_STACK_FRAME(_hx_pos_c98f1d3e0b4ce330_75___get,"openfl.utils._Object.Object_Impl_","__get",0x156bee32,"openfl.utils._Object.Object_Impl_.__get","openfl/utils/Object.hx",75,0xcbd6e8e2)
-HX_LOCAL_STACK_FRAME(_hx_pos_c98f1d3e0b4ce330_80___set,"openfl.utils._Object.Object_Impl_","__set",0x1575093e,"openfl.utils._Object.Object_Impl_.__set","openfl/utils/Object.hx",80,0xcbd6e8e2)
+HX_LOCAL_STACK_FRAME(_hx_pos_c98f1d3e0b4ce330_61___get,"openfl.utils._Object.Object_Impl_","__get",0x156bee32,"openfl.utils._Object.Object_Impl_.__get","openfl/utils/Object.hx",61,0xcbd6e8e2)
+HX_LOCAL_STACK_FRAME(_hx_pos_c98f1d3e0b4ce330_66___set,"openfl.utils._Object.Object_Impl_","__set",0x1575093e,"openfl.utils._Object.Object_Impl_.__set","openfl/utils/Object.hx",66,0xcbd6e8e2)
 HX_LOCAL_STACK_FRAME(_hx_pos_c98f1d3e0b4ce330_3_boot,"openfl.utils._Object.Object_Impl_","boot",0x337d62f6,"openfl.utils._Object.Object_Impl_.boot","openfl/utils/Object.hx",3,0xcbd6e8e2)
 namespace openfl{
 namespace utils{
@@ -149,35 +147,18 @@ HXDLIN(  55)		return this1;
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Object_Impl__obj,valueOf,return )
 
- ::Dynamic Object_Impl__obj::_hx___fieldRead( ::Dynamic this1,::String name){
-            	HX_STACKFRAME(&_hx_pos_c98f1d3e0b4ce330_61___fieldRead)
-HXDLIN(  61)		return ::Reflect_obj::getProperty(this1,name);
-            	}
-
-
-STATIC_HX_DEFINE_DYNAMIC_FUNC2(Object_Impl__obj,_hx___fieldRead,return )
-
- ::Dynamic Object_Impl__obj::_hx___fieldWrite( ::Dynamic this1,::String name, ::Dynamic value){
-            	HX_STACKFRAME(&_hx_pos_c98f1d3e0b4ce330_68___fieldWrite)
-HXDLIN(  68)		::Reflect_obj::setProperty(this1,name,value);
-HXDLIN(  68)		return value;
-            	}
-
-
-STATIC_HX_DEFINE_DYNAMIC_FUNC3(Object_Impl__obj,_hx___fieldWrite,return )
-
  ::Dynamic Object_Impl__obj::__get( ::Dynamic this1,::String key){
-            	HX_STACKFRAME(&_hx_pos_c98f1d3e0b4ce330_75___get)
-HXDLIN(  75)		return ::Reflect_obj::getProperty(this1,key);
+            	HX_STACKFRAME(&_hx_pos_c98f1d3e0b4ce330_61___get)
+HXDLIN(  61)		return ::Reflect_obj::field(this1,key);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Object_Impl__obj,__get,return )
 
  ::Dynamic Object_Impl__obj::__set( ::Dynamic this1,::String key, ::Dynamic value){
-            	HX_STACKFRAME(&_hx_pos_c98f1d3e0b4ce330_80___set)
-HXLINE(  81)		::Reflect_obj::setProperty(this1,key,value);
-HXLINE(  82)		return value;
+            	HX_STACKFRAME(&_hx_pos_c98f1d3e0b4ce330_66___set)
+HXLINE(  67)		::Reflect_obj::setField(this1,key,value);
+HXLINE(  68)		return value;
             	}
 
 
@@ -204,12 +185,6 @@ bool Object_Impl__obj::__GetStatic(const ::String &inName, Dynamic &outValue, ::
 	case 8:
 		if (HX_FIELD_EQ(inName,"iterator") ) { outValue = iterator_dyn(); return true; }
 		if (HX_FIELD_EQ(inName,"toString") ) { outValue = toString_dyn(); return true; }
-		break;
-	case 11:
-		if (HX_FIELD_EQ(inName,"__fieldRead") ) { outValue = _hx___fieldRead_dyn(); return true; }
-		break;
-	case 12:
-		if (HX_FIELD_EQ(inName,"__fieldWrite") ) { outValue = _hx___fieldWrite_dyn(); return true; }
 		break;
 	case 13:
 		if (HX_FIELD_EQ(inName,"isPrototypeOf") ) { outValue = isPrototypeOf_dyn(); return true; }
@@ -240,8 +215,6 @@ static ::String Object_Impl__obj_sStaticFields[] = {
 	HX_("toLocaleString",26,ff,8e,f3),
 	HX_("toString",ac,d0,6e,38),
 	HX_("valueOf",e8,42,6c,70),
-	HX_("__fieldRead",10,3a,22,11),
-	HX_("__fieldWrite",e5,60,6f,d6),
 	HX_("__get",76,e1,2a,f2),
 	HX_("__set",82,fc,33,f2),
 	::String(null())

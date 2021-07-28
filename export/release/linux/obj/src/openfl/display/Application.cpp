@@ -58,6 +58,9 @@
 #ifndef INCLUDED_lime_ui_Window
 #include <lime/ui/Window.h>
 #endif
+#ifndef INCLUDED_openfl__internal_Lib
+#include <openfl/_internal/Lib.h>
+#endif
 #ifndef INCLUDED_openfl_display_Application
 #include <openfl/display/Application.h>
 #endif
@@ -94,9 +97,6 @@
 #ifndef INCLUDED_openfl_events_IEventDispatcher
 #include <openfl/events/IEventDispatcher.h>
 #endif
-#ifndef INCLUDED_openfl_utils__internal_Lib
-#include <openfl/utils/_internal/Lib.h>
-#endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_548c78caa19a1a14_30_new,"openfl.display.Application","new",0x436ec718,"openfl.display.Application.new","openfl/display/Application.hx",30,0xe1d30bda)
 HX_LOCAL_STACK_FRAME(_hx_pos_548c78caa19a1a14_55_createWindow,"openfl.display.Application","createWindow",0xc33e4654,"openfl.display.Application.createWindow","openfl/display/Application.hx",55,0xe1d30bda)
@@ -108,14 +108,14 @@ namespace display{
 void Application_obj::__construct(){
             	HX_GC_STACKFRAME(&_hx_pos_548c78caa19a1a14_30_new)
 HXLINE(  32)		super::__construct();
-HXLINE(  35)		if (::hx::IsNull( ::openfl::utils::_internal::Lib_obj::application )) {
-HXLINE(  37)			::openfl::utils::_internal::Lib_obj::application = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(  35)		if (::hx::IsNull( ::openfl::_internal::Lib_obj::application )) {
+HXLINE(  37)			::openfl::_internal::Lib_obj::application = ::hx::ObjectPtr<OBJ_>(this);
             		}
-HXLINE(  41)		if (::hx::IsNull( ::openfl::utils::_internal::Lib_obj::current )) {
-HXLINE(  41)			::openfl::utils::_internal::Lib_obj::current =  ::openfl::display::MovieClip_obj::__alloc( HX_CTX );
+HXLINE(  41)		if (::hx::IsNull( ::openfl::_internal::Lib_obj::current )) {
+HXLINE(  41)			::openfl::_internal::Lib_obj::current =  ::openfl::display::MovieClip_obj::__alloc( HX_CTX );
             		}
-HXLINE(  42)		::openfl::utils::_internal::Lib_obj::current->_hx___loaderInfo = ::openfl::display::LoaderInfo_obj::create(null());
-HXLINE(  43)		::openfl::utils::_internal::Lib_obj::current->_hx___loaderInfo->content = ::openfl::utils::_internal::Lib_obj::current;
+HXLINE(  42)		::openfl::_internal::Lib_obj::current->_hx___loaderInfo = ::openfl::display::LoaderInfo_obj::create(null());
+HXLINE(  43)		::openfl::_internal::Lib_obj::current->_hx___loaderInfo->content = ::openfl::_internal::Lib_obj::current;
             	}
 
 Dynamic Application_obj::__CreateEmpty() { return new Application_obj; }

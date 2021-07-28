@@ -14,8 +14,8 @@
 #include <lime/graphics/opengl/GL.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_11e6e6e4d8d36b5a_87_fromGL,"lime.graphics._OpenGLES2RenderContext.OpenGLES2RenderContext_Impl_","fromGL",0xe3cfdd24,"lime.graphics._OpenGLES2RenderContext.OpenGLES2RenderContext_Impl_.fromGL","lime/graphics/OpenGLES2RenderContext.hx",87,0x049dd890)
-HX_LOCAL_STACK_FRAME(_hx_pos_11e6e6e4d8d36b5a_92_fromRenderContext,"lime.graphics._OpenGLES2RenderContext.OpenGLES2RenderContext_Impl_","fromRenderContext",0xa13cac7a,"lime.graphics._OpenGLES2RenderContext.OpenGLES2RenderContext_Impl_.fromRenderContext","lime/graphics/OpenGLES2RenderContext.hx",92,0x049dd890)
+HX_LOCAL_STACK_FRAME(_hx_pos_11e6e6e4d8d36b5a_86_fromGL,"lime.graphics._OpenGLES2RenderContext.OpenGLES2RenderContext_Impl_","fromGL",0xe3cfdd24,"lime.graphics._OpenGLES2RenderContext.OpenGLES2RenderContext_Impl_.fromGL","lime/graphics/OpenGLES2RenderContext.hx",86,0x049dd890)
+HX_LOCAL_STACK_FRAME(_hx_pos_11e6e6e4d8d36b5a_91_fromRenderContext,"lime.graphics._OpenGLES2RenderContext.OpenGLES2RenderContext_Impl_","fromRenderContext",0xa13cac7a,"lime.graphics._OpenGLES2RenderContext.OpenGLES2RenderContext_Impl_.fromRenderContext","lime/graphics/OpenGLES2RenderContext.hx",91,0x049dd890)
 namespace lime{
 namespace graphics{
 namespace _OpenGLES2RenderContext{
@@ -38,16 +38,16 @@ bool OpenGLES2RenderContext_Impl__obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::lime::_internal::backend::native::NativeOpenGLRenderContext OpenGLES2RenderContext_Impl__obj::fromGL(::hx::Class gl){
-            	HX_STACKFRAME(&_hx_pos_11e6e6e4d8d36b5a_87_fromGL)
-HXDLIN(  87)		return ::lime::graphics::opengl::GL_obj::context;
+            	HX_STACKFRAME(&_hx_pos_11e6e6e4d8d36b5a_86_fromGL)
+HXDLIN(  86)		return ::lime::graphics::opengl::GL_obj::context;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(OpenGLES2RenderContext_Impl__obj,fromGL,return )
 
  ::lime::_internal::backend::native::NativeOpenGLRenderContext OpenGLES2RenderContext_Impl__obj::fromRenderContext( ::lime::graphics::RenderContext context){
-            	HX_STACKFRAME(&_hx_pos_11e6e6e4d8d36b5a_92_fromRenderContext)
-HXDLIN(  92)		return context->gles2;
+            	HX_STACKFRAME(&_hx_pos_11e6e6e4d8d36b5a_91_fromRenderContext)
+HXDLIN(  91)		return context->gles2;
             	}
 
 

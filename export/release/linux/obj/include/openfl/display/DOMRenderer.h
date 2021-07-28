@@ -90,12 +90,6 @@ class HXCPP_CLASS_ATTRIBUTES DOMRenderer_obj : public  ::openfl::display::Displa
 
 		void _hx___render(::Dynamic object);
 
-		void _hx___renderDrawable(::Dynamic object);
-		::Dynamic _hx___renderDrawable_dyn();
-
-		void _hx___renderDrawableClear(::Dynamic object);
-		::Dynamic _hx___renderDrawableClear_dyn();
-
 		void _hx___setBlendMode( ::Dynamic value);
 
 		void _hx___updateClip( ::openfl::display::DisplayObject displayObject);

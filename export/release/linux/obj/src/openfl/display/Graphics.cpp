@@ -138,69 +138,69 @@
 #include <openfl/geom/Rectangle.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_043516e11ce5c7d5_108_new,"openfl.display.Graphics","new",0x7fd846a7,"openfl.display.Graphics.new","openfl/display/Graphics.hx",108,0x8d299ce7)
-HX_DEFINE_STACK_FRAME(_hx_pos_043516e11ce5c7d5_52_new,"openfl.display.Graphics","new",0x7fd846a7,"openfl.display.Graphics.new","openfl/display/Graphics.hx",52,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_165_beginBitmapFill,"openfl.display.Graphics","beginBitmapFill",0x31c80e62,"openfl.display.Graphics.beginBitmapFill","openfl/display/Graphics.hx",165,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_186_beginFill,"openfl.display.Graphics","beginFill",0xf44a92d3,"openfl.display.Graphics.beginFill","openfl/display/Graphics.hx",186,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_287_beginGradientFill,"openfl.display.Graphics","beginGradientFill",0x99f380e3,"openfl.display.Graphics.beginGradientFill","openfl/display/Graphics.hx",287,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_378_beginShaderFill,"openfl.display.Graphics","beginShaderFill",0x2f039098,"openfl.display.Graphics.beginShaderFill","openfl/display/Graphics.hx",378,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_396_clear,"openfl.display.Graphics","clear",0x0a9f4794,"openfl.display.Graphics.clear","openfl/display/Graphics.hx",396,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_432_copyFrom,"openfl.display.Graphics","copyFrom",0x0a477418,"openfl.display.Graphics.copyFrom","openfl/display/Graphics.hx",432,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_483_cubicCurveTo,"openfl.display.Graphics","cubicCurveTo",0x467410b9,"openfl.display.Graphics.cubicCurveTo","openfl/display/Graphics.hx",483,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_586_curveTo,"openfl.display.Graphics","curveTo",0x89f305d1,"openfl.display.Graphics.curveTo","openfl/display/Graphics.hx",586,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_624_drawCircle,"openfl.display.Graphics","drawCircle",0xee64ddcd,"openfl.display.Graphics.drawCircle","openfl/display/Graphics.hx",624,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_652_drawEllipse,"openfl.display.Graphics","drawEllipse",0xbfad1a81,"openfl.display.Graphics.drawEllipse","openfl/display/Graphics.hx",652,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_676_drawGraphicsData,"openfl.display.Graphics","drawGraphicsData",0x60ea9412,"openfl.display.Graphics.drawGraphicsData","openfl/display/Graphics.hx",676,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_807_drawPath,"openfl.display.Graphics","drawPath",0xa0a1f822,"openfl.display.Graphics.drawPath","openfl/display/Graphics.hx",807,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_880_drawQuads,"openfl.display.Graphics","drawQuads",0x8da790af,"openfl.display.Graphics.drawQuads","openfl/display/Graphics.hx",880,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_987_drawRect,"openfl.display.Graphics","drawRect",0xa1f75fa1,"openfl.display.Graphics.drawRect","openfl/display/Graphics.hx",987,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_1028_drawRoundRect,"openfl.display.Graphics","drawRoundRect",0xb24e78f5,"openfl.display.Graphics.drawRoundRect","openfl/display/Graphics.hx",1028,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_1047_drawRoundRectComplex,"openfl.display.Graphics","drawRoundRectComplex",0x06fa4dbb,"openfl.display.Graphics.drawRoundRectComplex","openfl/display/Graphics.hx",1047,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_1112_drawTriangles,"openfl.display.Graphics","drawTriangles",0xae0bf90e,"openfl.display.Graphics.drawTriangles","openfl/display/Graphics.hx",1112,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_1178_endFill,"openfl.display.Graphics","endFill",0xe14b2dc5,"openfl.display.Graphics.endFill","openfl/display/Graphics.hx",1178,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_1212_lineBitmapStyle,"openfl.display.Graphics","lineBitmapStyle",0x0ce183f5,"openfl.display.Graphics.lineBitmapStyle","openfl/display/Graphics.hx",1212,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_1291_lineGradientStyle,"openfl.display.Graphics","lineGradientStyle",0x2de26914,"openfl.display.Graphics.lineGradientStyle","openfl/display/Graphics.hx",1291,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_1473_lineStyle,"openfl.display.Graphics","lineStyle",0x32cd8e24,"openfl.display.Graphics.lineStyle","openfl/display/Graphics.hx",1473,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_1508_lineTo,"openfl.display.Graphics","lineTo",0x25b7b6a8,"openfl.display.Graphics.lineTo","openfl/display/Graphics.hx",1508,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_1541_moveTo,"openfl.display.Graphics","moveTo",0x05c44305,"openfl.display.Graphics.moveTo","openfl/display/Graphics.hx",1541,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_1550_overrideBlendMode,"openfl.display.Graphics","overrideBlendMode",0x65da3cef,"openfl.display.Graphics.overrideBlendMode","openfl/display/Graphics.hx",1550,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_1607_readGraphicsData,"openfl.display.Graphics","readGraphicsData",0x877c6664,"openfl.display.Graphics.readGraphicsData","openfl/display/Graphics.hx",1607,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_1615___calculateBezierCubicPoint,"openfl.display.Graphics","__calculateBezierCubicPoint",0xb6679552,"openfl.display.Graphics.__calculateBezierCubicPoint","openfl/display/Graphics.hx",1615,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_1622___calculateBezierQuadPoint,"openfl.display.Graphics","__calculateBezierQuadPoint",0x2414b8dd,"openfl.display.Graphics.__calculateBezierQuadPoint","openfl/display/Graphics.hx",1622,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_1628___cleanup,"openfl.display.Graphics","__cleanup",0x9445428b,"openfl.display.Graphics.__cleanup","openfl/display/Graphics.hx",1628,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_1654___getBounds,"openfl.display.Graphics","__getBounds",0x7b7eedd2,"openfl.display.Graphics.__getBounds","openfl/display/Graphics.hx",1654,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_1664___hitTest,"openfl.display.Graphics","__hitTest",0xcb8296ac,"openfl.display.Graphics.__hitTest","openfl/display/Graphics.hx",1664,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_1688___inflateBounds,"openfl.display.Graphics","__inflateBounds",0x7eaeb403,"openfl.display.Graphics.__inflateBounds","openfl/display/Graphics.hx",1688,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_1722___readGraphicsData,"openfl.display.Graphics","__readGraphicsData",0xf8dcc1c4,"openfl.display.Graphics.__readGraphicsData","openfl/display/Graphics.hx",1722,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_1832___update,"openfl.display.Graphics","__update",0x711b5982,"openfl.display.Graphics.__update","openfl/display/Graphics.hx",1832,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_1957_set___dirty,"openfl.display.Graphics","set___dirty",0x3f74a55c,"openfl.display.Graphics.set___dirty","openfl/display/Graphics.hx",1957,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_52_boot,"openfl.display.Graphics","boot",0x557e8c0b,"openfl.display.Graphics.boot","openfl/display/Graphics.hx",52,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_54_boot,"openfl.display.Graphics","boot",0x557e8c0b,"openfl.display.Graphics.boot","openfl/display/Graphics.hx",54,0x8d299ce7)
-HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_55_boot,"openfl.display.Graphics","boot",0x557e8c0b,"openfl.display.Graphics.boot","openfl/display/Graphics.hx",55,0x8d299ce7)
+HX_DEFINE_STACK_FRAME(_hx_pos_043516e11ce5c7d5_94_new,"openfl.display.Graphics","new",0x7fd846a7,"openfl.display.Graphics.new","openfl/display/Graphics.hx",94,0x8d299ce7)
+HX_DEFINE_STACK_FRAME(_hx_pos_043516e11ce5c7d5_38_new,"openfl.display.Graphics","new",0x7fd846a7,"openfl.display.Graphics.new","openfl/display/Graphics.hx",38,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_102_beginBitmapFill,"openfl.display.Graphics","beginBitmapFill",0x31c80e62,"openfl.display.Graphics.beginBitmapFill","openfl/display/Graphics.hx",102,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_109_beginFill,"openfl.display.Graphics","beginFill",0xf44a92d3,"openfl.display.Graphics.beginFill","openfl/display/Graphics.hx",109,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_117_beginGradientFill,"openfl.display.Graphics","beginGradientFill",0x99f380e3,"openfl.display.Graphics.beginGradientFill","openfl/display/Graphics.hx",117,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_156_beginShaderFill,"openfl.display.Graphics","beginShaderFill",0x2f039098,"openfl.display.Graphics.beginShaderFill","openfl/display/Graphics.hx",156,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_169_clear,"openfl.display.Graphics","clear",0x0a9f4794,"openfl.display.Graphics.clear","openfl/display/Graphics.hx",169,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_198_copyFrom,"openfl.display.Graphics","copyFrom",0x0a477418,"openfl.display.Graphics.copyFrom","openfl/display/Graphics.hx",198,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_210_cubicCurveTo,"openfl.display.Graphics","cubicCurveTo",0x467410b9,"openfl.display.Graphics.cubicCurveTo","openfl/display/Graphics.hx",210,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_281_curveTo,"openfl.display.Graphics","curveTo",0x89f305d1,"openfl.display.Graphics.curveTo","openfl/display/Graphics.hx",281,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_319_drawCircle,"openfl.display.Graphics","drawCircle",0xee64ddcd,"openfl.display.Graphics.drawCircle","openfl/display/Graphics.hx",319,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_331_drawEllipse,"openfl.display.Graphics","drawEllipse",0xbfad1a81,"openfl.display.Graphics.drawEllipse","openfl/display/Graphics.hx",331,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_343_drawGraphicsData,"openfl.display.Graphics","drawGraphicsData",0x60ea9412,"openfl.display.Graphics.drawGraphicsData","openfl/display/Graphics.hx",343,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_431_drawPath,"openfl.display.Graphics","drawPath",0xa0a1f822,"openfl.display.Graphics.drawPath","openfl/display/Graphics.hx",431,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_475_drawQuads,"openfl.display.Graphics","drawQuads",0x8da790af,"openfl.display.Graphics.drawQuads","openfl/display/Graphics.hx",475,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_565_drawRect,"openfl.display.Graphics","drawRect",0xa1f75fa1,"openfl.display.Graphics.drawRect","openfl/display/Graphics.hx",565,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_580_drawRoundRect,"openfl.display.Graphics","drawRoundRect",0xb24e78f5,"openfl.display.Graphics.drawRoundRect","openfl/display/Graphics.hx",580,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_596_drawRoundRectComplex,"openfl.display.Graphics","drawRoundRectComplex",0x06fa4dbb,"openfl.display.Graphics.drawRoundRectComplex","openfl/display/Graphics.hx",596,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_643_drawTriangles,"openfl.display.Graphics","drawTriangles",0xae0bf90e,"openfl.display.Graphics.drawTriangles","openfl/display/Graphics.hx",643,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_698_endFill,"openfl.display.Graphics","endFill",0xe14b2dc5,"openfl.display.Graphics.endFill","openfl/display/Graphics.hx",698,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_703_lineBitmapStyle,"openfl.display.Graphics","lineBitmapStyle",0x0ce183f5,"openfl.display.Graphics.lineBitmapStyle","openfl/display/Graphics.hx",703,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_709_lineGradientStyle,"openfl.display.Graphics","lineGradientStyle",0x2de26914,"openfl.display.Graphics.lineGradientStyle","openfl/display/Graphics.hx",709,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_714_lineStyle,"openfl.display.Graphics","lineStyle",0x32cd8e24,"openfl.display.Graphics.lineStyle","openfl/display/Graphics.hx",714,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_733_lineTo,"openfl.display.Graphics","lineTo",0x25b7b6a8,"openfl.display.Graphics.lineTo","openfl/display/Graphics.hx",733,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_756_moveTo,"openfl.display.Graphics","moveTo",0x05c44305,"openfl.display.Graphics.moveTo","openfl/display/Graphics.hx",756,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_765_overrideBlendMode,"openfl.display.Graphics","overrideBlendMode",0x65da3cef,"openfl.display.Graphics.overrideBlendMode","openfl/display/Graphics.hx",765,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_771_readGraphicsData,"openfl.display.Graphics","readGraphicsData",0x877c6664,"openfl.display.Graphics.readGraphicsData","openfl/display/Graphics.hx",771,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_779___calculateBezierCubicPoint,"openfl.display.Graphics","__calculateBezierCubicPoint",0xb6679552,"openfl.display.Graphics.__calculateBezierCubicPoint","openfl/display/Graphics.hx",779,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_786___calculateBezierQuadPoint,"openfl.display.Graphics","__calculateBezierQuadPoint",0x2414b8dd,"openfl.display.Graphics.__calculateBezierQuadPoint","openfl/display/Graphics.hx",786,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_792___cleanup,"openfl.display.Graphics","__cleanup",0x9445428b,"openfl.display.Graphics.__cleanup","openfl/display/Graphics.hx",792,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_818___getBounds,"openfl.display.Graphics","__getBounds",0x7b7eedd2,"openfl.display.Graphics.__getBounds","openfl/display/Graphics.hx",818,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_828___hitTest,"openfl.display.Graphics","__hitTest",0xcb8296ac,"openfl.display.Graphics.__hitTest","openfl/display/Graphics.hx",828,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_852___inflateBounds,"openfl.display.Graphics","__inflateBounds",0x7eaeb403,"openfl.display.Graphics.__inflateBounds","openfl/display/Graphics.hx",852,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_886___readGraphicsData,"openfl.display.Graphics","__readGraphicsData",0xf8dcc1c4,"openfl.display.Graphics.__readGraphicsData","openfl/display/Graphics.hx",886,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_996___update,"openfl.display.Graphics","__update",0x711b5982,"openfl.display.Graphics.__update","openfl/display/Graphics.hx",996,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_1121_set___dirty,"openfl.display.Graphics","set___dirty",0x3f74a55c,"openfl.display.Graphics.set___dirty","openfl/display/Graphics.hx",1121,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_38_boot,"openfl.display.Graphics","boot",0x557e8c0b,"openfl.display.Graphics.boot","openfl/display/Graphics.hx",38,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_40_boot,"openfl.display.Graphics","boot",0x557e8c0b,"openfl.display.Graphics.boot","openfl/display/Graphics.hx",40,0x8d299ce7)
+HX_LOCAL_STACK_FRAME(_hx_pos_043516e11ce5c7d5_41_boot,"openfl.display.Graphics","boot",0x557e8c0b,"openfl.display.Graphics.boot","openfl/display/Graphics.hx",41,0x8d299ce7)
 namespace openfl{
 namespace display{
 
 void Graphics_obj::__construct( ::openfl::display::DisplayObject owner){
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_0) HXARGC(0)
             		 ::openfl::display::_internal::ShaderBuffer _hx_run(){
-            			HX_GC_STACKFRAME(&_hx_pos_043516e11ce5c7d5_108_new)
-HXLINE( 108)			return  ::openfl::display::_internal::ShaderBuffer_obj::__alloc( HX_CTX );
+            			HX_GC_STACKFRAME(&_hx_pos_043516e11ce5c7d5_94_new)
+HXLINE(  94)			return  ::openfl::display::_internal::ShaderBuffer_obj::__alloc( HX_CTX );
             		}
             		HX_END_LOCAL_FUNC0(return)
 
-            	HX_GC_STACKFRAME(&_hx_pos_043516e11ce5c7d5_52_new)
-HXLINE(  59)		this->_hx___dirty = true;
-HXLINE(  96)		this->_hx___owner = owner;
-HXLINE(  98)		this->_hx___commands =  ::openfl::display::_internal::DrawCommandBuffer_obj::__alloc( HX_CTX );
-HXLINE(  99)		this->_hx___strokePadding = ( (Float)(0) );
-HXLINE( 100)		this->_hx___positionX = ( (Float)(0) );
-HXLINE( 101)		this->_hx___positionY = ( (Float)(0) );
-HXLINE( 102)		this->_hx___renderTransform =  ::openfl::geom::Matrix_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-HXLINE( 103)		this->_hx___usedShaderBuffers =  ::haxe::ds::List_obj::__alloc( HX_CTX );
-HXLINE( 104)		this->_hx___worldTransform =  ::openfl::geom::Matrix_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-HXLINE( 105)		this->_hx___width = 0;
-HXLINE( 106)		this->_hx___height = 0;
-HXLINE( 108)		this->_hx___shaderBufferPool =  ::lime::utils::ObjectPool_obj::__alloc( HX_CTX , ::Dynamic(new _hx_Closure_0()),null(),null());
+            	HX_GC_STACKFRAME(&_hx_pos_043516e11ce5c7d5_38_new)
+HXLINE(  45)		this->_hx___dirty = true;
+HXLINE(  82)		this->_hx___owner = owner;
+HXLINE(  84)		this->_hx___commands =  ::openfl::display::_internal::DrawCommandBuffer_obj::__alloc( HX_CTX );
+HXLINE(  85)		this->_hx___strokePadding = ( (Float)(0) );
+HXLINE(  86)		this->_hx___positionX = ( (Float)(0) );
+HXLINE(  87)		this->_hx___positionY = ( (Float)(0) );
+HXLINE(  88)		this->_hx___renderTransform =  ::openfl::geom::Matrix_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE(  89)		this->_hx___usedShaderBuffers =  ::haxe::ds::List_obj::__alloc( HX_CTX );
+HXLINE(  90)		this->_hx___worldTransform =  ::openfl::geom::Matrix_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE(  91)		this->_hx___width = 0;
+HXLINE(  92)		this->_hx___height = 0;
+HXLINE(  94)		this->_hx___shaderBufferPool =  ::lime::utils::ObjectPool_obj::__alloc( HX_CTX , ::Dynamic(new _hx_Closure_0()),null(),null());
             	}
 
 Dynamic Graphics_obj::__CreateEmpty() { return new Graphics_obj; }
@@ -221,17 +221,17 @@ bool Graphics_obj::_hx_isInstanceOf(int inClassId) {
 void Graphics_obj::beginBitmapFill( ::openfl::display::BitmapData bitmap, ::openfl::geom::Matrix matrix,::hx::Null< bool >  __o_repeat,::hx::Null< bool >  __o_smooth){
             		bool repeat = __o_repeat.Default(true);
             		bool smooth = __o_smooth.Default(false);
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_165_beginBitmapFill)
-HXLINE( 166)		 ::openfl::display::_internal::DrawCommandBuffer _hx_tmp = this->_hx___commands;
-HXDLIN( 166)		 ::openfl::geom::Matrix _hx_tmp1;
-HXDLIN( 166)		if (::hx::IsNotNull( matrix )) {
-HXLINE( 166)			_hx_tmp1 = matrix->clone();
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_102_beginBitmapFill)
+HXLINE( 103)		 ::openfl::display::_internal::DrawCommandBuffer _hx_tmp = this->_hx___commands;
+HXDLIN( 103)		 ::openfl::geom::Matrix _hx_tmp1;
+HXDLIN( 103)		if (::hx::IsNotNull( matrix )) {
+HXLINE( 103)			_hx_tmp1 = matrix->clone();
             		}
             		else {
-HXLINE( 166)			_hx_tmp1 = null();
+HXLINE( 103)			_hx_tmp1 = null();
             		}
-HXDLIN( 166)		_hx_tmp->beginBitmapFill(bitmap,_hx_tmp1,repeat,smooth);
-HXLINE( 168)		this->_hx___visible = true;
+HXDLIN( 103)		_hx_tmp->beginBitmapFill(bitmap,_hx_tmp1,repeat,smooth);
+HXLINE( 105)		this->_hx___visible = true;
             	}
 
 
@@ -240,10 +240,10 @@ HX_DEFINE_DYNAMIC_FUNC4(Graphics_obj,beginBitmapFill,(void))
 void Graphics_obj::beginFill(::hx::Null< int >  __o_color,::hx::Null< Float >  __o_alpha){
             		int color = __o_color.Default(0);
             		Float alpha = __o_alpha.Default(1);
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_186_beginFill)
-HXLINE( 187)		this->_hx___commands->beginFill((color & 16777215),alpha);
-HXLINE( 189)		if ((alpha > 0)) {
-HXLINE( 189)			this->_hx___visible = true;
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_109_beginFill)
+HXLINE( 110)		this->_hx___commands->beginFill((color & 16777215),alpha);
+HXLINE( 112)		if ((alpha > 0)) {
+HXLINE( 112)			this->_hx___visible = true;
             		}
             	}
 
@@ -256,60 +256,60 @@ void Graphics_obj::beginGradientFill( ::Dynamic type,::Array< int > colors,::Arr
             		 ::Dynamic interpolationMethod = __o_interpolationMethod;
             		if (::hx::IsNull(__o_interpolationMethod)) interpolationMethod = 1;
             		Float focalPointRatio = __o_focalPointRatio.Default(0);
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_287_beginGradientFill)
-HXLINE( 288)		bool _hx_tmp;
-HXDLIN( 288)		if (::hx::IsNotNull( colors )) {
-HXLINE( 288)			_hx_tmp = (colors->length == 0);
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_117_beginGradientFill)
+HXLINE( 118)		bool _hx_tmp;
+HXDLIN( 118)		if (::hx::IsNotNull( colors )) {
+HXLINE( 118)			_hx_tmp = (colors->length == 0);
             		}
             		else {
-HXLINE( 288)			_hx_tmp = true;
+HXLINE( 118)			_hx_tmp = true;
             		}
-HXDLIN( 288)		if (_hx_tmp) {
-HXLINE( 288)			return;
+HXDLIN( 118)		if (_hx_tmp) {
+HXLINE( 118)			return;
             		}
-HXLINE( 290)		if (::hx::IsNull( alphas )) {
-HXLINE( 292)			alphas = ::Array_obj< Float >::__new(0);
-HXLINE( 294)			{
-HXLINE( 294)				int _g = 0;
-HXDLIN( 294)				int _g1 = colors->length;
-HXDLIN( 294)				while((_g < _g1)){
-HXLINE( 294)					_g = (_g + 1);
-HXDLIN( 294)					int i = (_g - 1);
-HXLINE( 296)					alphas->push(1);
+HXLINE( 120)		if (::hx::IsNull( alphas )) {
+HXLINE( 122)			alphas = ::Array_obj< Float >::__new(0);
+HXLINE( 124)			{
+HXLINE( 124)				int _g = 0;
+HXDLIN( 124)				int _g1 = colors->length;
+HXDLIN( 124)				while((_g < _g1)){
+HXLINE( 124)					_g = (_g + 1);
+HXDLIN( 124)					int i = (_g - 1);
+HXLINE( 126)					alphas->push(1);
             				}
             			}
             		}
-HXLINE( 300)		if (::hx::IsNull( ratios )) {
-HXLINE( 302)			ratios = ::Array_obj< int >::__new(0);
-HXLINE( 304)			{
-HXLINE( 304)				int _g = 0;
-HXDLIN( 304)				int _g1 = colors->length;
-HXDLIN( 304)				while((_g < _g1)){
-HXLINE( 304)					_g = (_g + 1);
-HXDLIN( 304)					int i = (_g - 1);
-HXLINE( 306)					ratios->push(::Math_obj::ceil(((( (Float)(i) ) / ( (Float)(colors->length) )) * ( (Float)(255) ))));
+HXLINE( 130)		if (::hx::IsNull( ratios )) {
+HXLINE( 132)			ratios = ::Array_obj< int >::__new(0);
+HXLINE( 134)			{
+HXLINE( 134)				int _g = 0;
+HXDLIN( 134)				int _g1 = colors->length;
+HXDLIN( 134)				while((_g < _g1)){
+HXLINE( 134)					_g = (_g + 1);
+HXDLIN( 134)					int i = (_g - 1);
+HXLINE( 136)					ratios->push(::Math_obj::ceil(((( (Float)(i) ) / ( (Float)(colors->length) )) * ( (Float)(255) ))));
             				}
             			}
             		}
-HXLINE( 310)		bool _hx_tmp1;
-HXDLIN( 310)		if ((alphas->length >= colors->length)) {
-HXLINE( 310)			_hx_tmp1 = (ratios->length < colors->length);
+HXLINE( 140)		bool _hx_tmp1;
+HXDLIN( 140)		if ((alphas->length >= colors->length)) {
+HXLINE( 140)			_hx_tmp1 = (ratios->length < colors->length);
             		}
             		else {
-HXLINE( 310)			_hx_tmp1 = true;
+HXLINE( 140)			_hx_tmp1 = true;
             		}
-HXDLIN( 310)		if (_hx_tmp1) {
-HXLINE( 310)			return;
+HXDLIN( 140)		if (_hx_tmp1) {
+HXLINE( 140)			return;
             		}
-HXLINE( 312)		this->_hx___commands->beginGradientFill(type,colors,alphas,ratios,matrix,spreadMethod,interpolationMethod,focalPointRatio);
-HXLINE( 314)		{
-HXLINE( 314)			int _g = 0;
-HXDLIN( 314)			while((_g < alphas->length)){
-HXLINE( 314)				Float alpha = alphas->__get(_g);
-HXDLIN( 314)				_g = (_g + 1);
-HXLINE( 316)				if ((alpha > 0)) {
-HXLINE( 318)					this->_hx___visible = true;
-HXLINE( 319)					goto _hx_goto_6;
+HXLINE( 142)		this->_hx___commands->beginGradientFill(type,colors,alphas,ratios,matrix,spreadMethod,interpolationMethod,focalPointRatio);
+HXLINE( 144)		{
+HXLINE( 144)			int _g = 0;
+HXDLIN( 144)			while((_g < alphas->length)){
+HXLINE( 144)				Float alpha = alphas->__get(_g);
+HXDLIN( 144)				_g = (_g + 1);
+HXLINE( 146)				if ((alpha > 0)) {
+HXLINE( 148)					this->_hx___visible = true;
+HXLINE( 149)					goto _hx_goto_6;
             				}
             			}
             			_hx_goto_6:;
@@ -320,12 +320,12 @@ HXLINE( 319)					goto _hx_goto_6;
 HX_DEFINE_DYNAMIC_FUNC8(Graphics_obj,beginGradientFill,(void))
 
 void Graphics_obj::beginShaderFill( ::openfl::display::Shader shader, ::openfl::geom::Matrix matrix){
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_378_beginShaderFill)
-HXDLIN( 378)		if (::hx::IsNotNull( shader )) {
-HXLINE( 381)			 ::openfl::display::_internal::ShaderBuffer shaderBuffer = this->_hx___shaderBufferPool->get().StaticCast<  ::openfl::display::_internal::ShaderBuffer >();
-HXLINE( 382)			this->_hx___usedShaderBuffers->add(shaderBuffer);
-HXLINE( 383)			shaderBuffer->update(( ( ::openfl::display::GraphicsShader)(shader) ));
-HXLINE( 385)			this->_hx___commands->beginShaderFill(shaderBuffer);
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_156_beginShaderFill)
+HXDLIN( 156)		if (::hx::IsNotNull( shader )) {
+HXLINE( 159)			 ::openfl::display::_internal::ShaderBuffer shaderBuffer = this->_hx___shaderBufferPool->get().StaticCast<  ::openfl::display::_internal::ShaderBuffer >();
+HXLINE( 160)			this->_hx___usedShaderBuffers->add(shaderBuffer);
+HXLINE( 161)			shaderBuffer->update(( ( ::openfl::display::GraphicsShader)(shader) ));
+HXLINE( 163)			this->_hx___commands->beginShaderFill(shaderBuffer);
             		}
             	}
 
@@ -333,365 +333,365 @@ HXLINE( 385)			this->_hx___commands->beginShaderFill(shaderBuffer);
 HX_DEFINE_DYNAMIC_FUNC2(Graphics_obj,beginShaderFill,(void))
 
 void Graphics_obj::clear(){
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_396_clear)
-HXLINE( 398)		{
-HXLINE( 398)			 ::haxe::ds::_List::ListNode _g_head = this->_hx___usedShaderBuffers->h;
-HXDLIN( 398)			while(::hx::IsNotNull( _g_head )){
-HXLINE( 398)				 ::openfl::display::_internal::ShaderBuffer val = ( ( ::openfl::display::_internal::ShaderBuffer)(_g_head->item) );
-HXDLIN( 398)				_g_head = _g_head->next;
-HXDLIN( 398)				 ::openfl::display::_internal::ShaderBuffer shaderBuffer = val;
-HXLINE( 400)				this->_hx___shaderBufferPool->release(shaderBuffer);
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_169_clear)
+HXLINE( 171)		{
+HXLINE( 171)			 ::haxe::ds::_List::ListNode _g_head = this->_hx___usedShaderBuffers->h;
+HXDLIN( 171)			while(::hx::IsNotNull( _g_head )){
+HXLINE( 171)				 ::openfl::display::_internal::ShaderBuffer val = ( ( ::openfl::display::_internal::ShaderBuffer)(_g_head->item) );
+HXDLIN( 171)				_g_head = _g_head->next;
+HXDLIN( 171)				 ::openfl::display::_internal::ShaderBuffer shaderBuffer = val;
+HXLINE( 173)				this->_hx___shaderBufferPool->release(shaderBuffer);
             			}
             		}
-HXLINE( 404)		this->_hx___usedShaderBuffers->clear();
-HXLINE( 405)		this->_hx___commands->clear();
-HXLINE( 406)		this->_hx___strokePadding = ( (Float)(0) );
-HXLINE( 408)		if (::hx::IsNotNull( this->_hx___bounds )) {
-HXLINE( 410)			this->set___dirty(true);
-HXLINE( 411)			this->_hx___transformDirty = true;
-HXLINE( 412)			this->_hx___bounds = null();
+HXLINE( 177)		this->_hx___usedShaderBuffers->clear();
+HXLINE( 178)		this->_hx___commands->clear();
+HXLINE( 179)		this->_hx___strokePadding = ( (Float)(0) );
+HXLINE( 181)		if (::hx::IsNotNull( this->_hx___bounds )) {
+HXLINE( 183)			this->set___dirty(true);
+HXLINE( 184)			this->_hx___transformDirty = true;
+HXLINE( 185)			this->_hx___bounds = null();
             		}
-HXLINE( 415)		this->_hx___visible = false;
-HXLINE( 416)		this->_hx___positionX = ( (Float)(0) );
-HXLINE( 417)		this->_hx___positionY = ( (Float)(0) );
+HXLINE( 188)		this->_hx___visible = false;
+HXLINE( 189)		this->_hx___positionX = ( (Float)(0) );
+HXLINE( 190)		this->_hx___positionY = ( (Float)(0) );
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Graphics_obj,clear,(void))
 
 void Graphics_obj::copyFrom( ::openfl::display::Graphics sourceGraphics){
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_432_copyFrom)
-HXLINE( 433)		 ::openfl::geom::Rectangle _hx_tmp;
-HXDLIN( 433)		if (::hx::IsNotNull( sourceGraphics->_hx___bounds )) {
-HXLINE( 433)			_hx_tmp = sourceGraphics->_hx___bounds->clone();
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_198_copyFrom)
+HXLINE( 199)		 ::openfl::geom::Rectangle _hx_tmp;
+HXDLIN( 199)		if (::hx::IsNotNull( sourceGraphics->_hx___bounds )) {
+HXLINE( 199)			_hx_tmp = sourceGraphics->_hx___bounds->clone();
             		}
             		else {
-HXLINE( 433)			_hx_tmp = null();
+HXLINE( 199)			_hx_tmp = null();
             		}
-HXDLIN( 433)		this->_hx___bounds = _hx_tmp;
-HXLINE( 434)		this->_hx___commands = sourceGraphics->_hx___commands->copy();
-HXLINE( 435)		this->set___dirty(true);
-HXLINE( 436)		this->_hx___strokePadding = sourceGraphics->_hx___strokePadding;
-HXLINE( 437)		this->_hx___positionX = sourceGraphics->_hx___positionX;
-HXLINE( 438)		this->_hx___positionY = sourceGraphics->_hx___positionY;
-HXLINE( 439)		this->_hx___transformDirty = true;
-HXLINE( 440)		this->_hx___visible = sourceGraphics->_hx___visible;
+HXDLIN( 199)		this->_hx___bounds = _hx_tmp;
+HXLINE( 200)		this->_hx___commands = sourceGraphics->_hx___commands->copy();
+HXLINE( 201)		this->set___dirty(true);
+HXLINE( 202)		this->_hx___strokePadding = sourceGraphics->_hx___strokePadding;
+HXLINE( 203)		this->_hx___positionX = sourceGraphics->_hx___positionX;
+HXLINE( 204)		this->_hx___positionY = sourceGraphics->_hx___positionY;
+HXLINE( 205)		this->_hx___transformDirty = true;
+HXLINE( 206)		this->_hx___visible = sourceGraphics->_hx___visible;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Graphics_obj,copyFrom,(void))
 
 void Graphics_obj::cubicCurveTo(Float controlX1,Float controlY1,Float controlX2,Float controlY2,Float anchorX,Float anchorY){
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_483_cubicCurveTo)
-HXLINE( 484)		this->_hx___inflateBounds((this->_hx___positionX - this->_hx___strokePadding),(this->_hx___positionY - this->_hx___strokePadding));
-HXLINE( 485)		this->_hx___inflateBounds((this->_hx___positionX + this->_hx___strokePadding),(this->_hx___positionY + this->_hx___strokePadding));
-HXLINE( 487)		Float ix1 = anchorX;
-HXDLIN( 487)		Float ix2 = anchorX;
-HXLINE( 492)		bool _hx_tmp;
-HXDLIN( 492)		bool _hx_tmp1;
-HXDLIN( 492)		bool _hx_tmp2;
-HXDLIN( 492)		if ((controlX1 < anchorX)) {
-HXLINE( 492)			_hx_tmp2 = (controlX1 > this->_hx___positionX);
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_210_cubicCurveTo)
+HXLINE( 211)		this->_hx___inflateBounds((this->_hx___positionX - this->_hx___strokePadding),(this->_hx___positionY - this->_hx___strokePadding));
+HXLINE( 212)		this->_hx___inflateBounds((this->_hx___positionX + this->_hx___strokePadding),(this->_hx___positionY + this->_hx___strokePadding));
+HXLINE( 214)		Float ix1 = anchorX;
+HXDLIN( 214)		Float ix2 = anchorX;
+HXLINE( 219)		bool _hx_tmp;
+HXDLIN( 219)		bool _hx_tmp1;
+HXDLIN( 219)		bool _hx_tmp2;
+HXDLIN( 219)		if ((controlX1 < anchorX)) {
+HXLINE( 219)			_hx_tmp2 = (controlX1 > this->_hx___positionX);
             		}
             		else {
-HXLINE( 492)			_hx_tmp2 = false;
+HXLINE( 219)			_hx_tmp2 = false;
             		}
-HXDLIN( 492)		if (!(_hx_tmp2)) {
-HXLINE( 492)			if ((controlX1 > anchorX)) {
-HXLINE( 492)				_hx_tmp1 = (controlX1 < this->_hx___positionX);
+HXDLIN( 219)		if (!(_hx_tmp2)) {
+HXLINE( 219)			if ((controlX1 > anchorX)) {
+HXLINE( 219)				_hx_tmp1 = (controlX1 < this->_hx___positionX);
             			}
             			else {
-HXLINE( 492)				_hx_tmp1 = false;
+HXLINE( 219)				_hx_tmp1 = false;
             			}
             		}
             		else {
-HXLINE( 492)			_hx_tmp1 = true;
+HXLINE( 219)			_hx_tmp1 = true;
             		}
-HXDLIN( 492)		if (_hx_tmp1) {
-HXLINE( 493)			bool _hx_tmp1;
-HXDLIN( 493)			if ((controlX2 < anchorX)) {
-HXLINE( 493)				_hx_tmp1 = (controlX2 > this->_hx___positionX);
+HXDLIN( 219)		if (_hx_tmp1) {
+HXLINE( 220)			bool _hx_tmp1;
+HXDLIN( 220)			if ((controlX2 < anchorX)) {
+HXLINE( 220)				_hx_tmp1 = (controlX2 > this->_hx___positionX);
             			}
             			else {
-HXLINE( 493)				_hx_tmp1 = false;
+HXLINE( 220)				_hx_tmp1 = false;
             			}
-HXDLIN( 493)			if (!(_hx_tmp1)) {
-HXLINE( 493)				if ((controlX2 > anchorX)) {
-HXLINE( 492)					_hx_tmp = (controlX2 < this->_hx___positionX);
+HXDLIN( 220)			if (!(_hx_tmp1)) {
+HXLINE( 220)				if ((controlX2 > anchorX)) {
+HXLINE( 219)					_hx_tmp = (controlX2 < this->_hx___positionX);
             				}
             				else {
-HXLINE( 492)					_hx_tmp = false;
+HXLINE( 219)					_hx_tmp = false;
             				}
             			}
             			else {
-HXLINE( 492)				_hx_tmp = true;
+HXLINE( 219)				_hx_tmp = true;
             			}
             		}
             		else {
-HXLINE( 492)			_hx_tmp = false;
+HXLINE( 219)			_hx_tmp = false;
             		}
-HXDLIN( 492)		if (!(_hx_tmp)) {
-HXLINE( 495)			Float u = (((( (Float)(2) ) * this->_hx___positionX) - (( (Float)(4) ) * controlX1)) + (( (Float)(2) ) * controlX2));
-HXLINE( 496)			Float v = (controlX1 - this->_hx___positionX);
-HXLINE( 497)			Float w = (((-(this->_hx___positionX) + (( (Float)(3) ) * controlX1)) + anchorX) - (( (Float)(3) ) * controlX2));
-HXLINE( 499)			Float t1 = ((-(u) + ::Math_obj::sqrt(((u * u) - ((( (Float)(4) ) * v) * w)))) / (( (Float)(2) ) * w));
-HXLINE( 500)			Float t2 = ((-(u) - ::Math_obj::sqrt(((u * u) - ((( (Float)(4) ) * v) * w)))) / (( (Float)(2) ) * w));
-HXLINE( 502)			bool _hx_tmp;
-HXDLIN( 502)			if ((t1 > 0)) {
-HXLINE( 502)				_hx_tmp = (t1 < 1);
+HXDLIN( 219)		if (!(_hx_tmp)) {
+HXLINE( 222)			Float u = (((( (Float)(2) ) * this->_hx___positionX) - (( (Float)(4) ) * controlX1)) + (( (Float)(2) ) * controlX2));
+HXLINE( 223)			Float v = (controlX1 - this->_hx___positionX);
+HXLINE( 224)			Float w = (((-(this->_hx___positionX) + (( (Float)(3) ) * controlX1)) + anchorX) - (( (Float)(3) ) * controlX2));
+HXLINE( 226)			Float t1 = ((-(u) + ::Math_obj::sqrt(((u * u) - ((( (Float)(4) ) * v) * w)))) / (( (Float)(2) ) * w));
+HXLINE( 227)			Float t2 = ((-(u) - ::Math_obj::sqrt(((u * u) - ((( (Float)(4) ) * v) * w)))) / (( (Float)(2) ) * w));
+HXLINE( 229)			bool _hx_tmp;
+HXDLIN( 229)			if ((t1 > 0)) {
+HXLINE( 229)				_hx_tmp = (t1 < 1);
             			}
             			else {
-HXLINE( 502)				_hx_tmp = false;
+HXLINE( 229)				_hx_tmp = false;
             			}
-HXDLIN( 502)			if (_hx_tmp) {
-HXLINE( 504)				Float iT = (( (Float)(1) ) - t1);
-HXDLIN( 504)				ix1 = ((((this->_hx___positionX * ((iT * iT) * iT)) + (((( (Float)(3) ) * controlX1) * t1) * (iT * iT))) + (((( (Float)(3) ) * controlX2) * iT) * (t1 * t1))) + (anchorX * ((t1 * t1) * t1)));
+HXDLIN( 229)			if (_hx_tmp) {
+HXLINE( 231)				Float iT = (( (Float)(1) ) - t1);
+HXDLIN( 231)				ix1 = ((((this->_hx___positionX * ((iT * iT) * iT)) + (((( (Float)(3) ) * controlX1) * t1) * (iT * iT))) + (((( (Float)(3) ) * controlX2) * iT) * (t1 * t1))) + (anchorX * ((t1 * t1) * t1)));
             			}
-HXLINE( 507)			bool _hx_tmp1;
-HXDLIN( 507)			if ((t2 > 0)) {
-HXLINE( 507)				_hx_tmp1 = (t2 < 1);
+HXLINE( 234)			bool _hx_tmp1;
+HXDLIN( 234)			if ((t2 > 0)) {
+HXLINE( 234)				_hx_tmp1 = (t2 < 1);
             			}
             			else {
-HXLINE( 507)				_hx_tmp1 = false;
+HXLINE( 234)				_hx_tmp1 = false;
             			}
-HXDLIN( 507)			if (_hx_tmp1) {
-HXLINE( 509)				Float iT = (( (Float)(1) ) - t2);
-HXDLIN( 509)				ix2 = ((((this->_hx___positionX * ((iT * iT) * iT)) + (((( (Float)(3) ) * controlX1) * t2) * (iT * iT))) + (((( (Float)(3) ) * controlX2) * iT) * (t2 * t2))) + (anchorX * ((t2 * t2) * t2)));
+HXDLIN( 234)			if (_hx_tmp1) {
+HXLINE( 236)				Float iT = (( (Float)(1) ) - t2);
+HXDLIN( 236)				ix2 = ((((this->_hx___positionX * ((iT * iT) * iT)) + (((( (Float)(3) ) * controlX1) * t2) * (iT * iT))) + (((( (Float)(3) ) * controlX2) * iT) * (t2 * t2))) + (anchorX * ((t2 * t2) * t2)));
             			}
             		}
-HXLINE( 487)		Float iy1 = anchorY;
-HXDLIN( 487)		Float iy2 = anchorY;
-HXLINE( 516)		bool _hx_tmp3;
-HXDLIN( 516)		bool _hx_tmp4;
-HXDLIN( 516)		bool _hx_tmp5;
-HXDLIN( 516)		if ((controlY1 < anchorY)) {
-HXLINE( 516)			_hx_tmp5 = (controlY1 > this->_hx___positionX);
+HXLINE( 214)		Float iy1 = anchorY;
+HXDLIN( 214)		Float iy2 = anchorY;
+HXLINE( 243)		bool _hx_tmp3;
+HXDLIN( 243)		bool _hx_tmp4;
+HXDLIN( 243)		bool _hx_tmp5;
+HXDLIN( 243)		if ((controlY1 < anchorY)) {
+HXLINE( 243)			_hx_tmp5 = (controlY1 > this->_hx___positionX);
             		}
             		else {
-HXLINE( 516)			_hx_tmp5 = false;
+HXLINE( 243)			_hx_tmp5 = false;
             		}
-HXDLIN( 516)		if (!(_hx_tmp5)) {
-HXLINE( 516)			if ((controlY1 > anchorY)) {
-HXLINE( 516)				_hx_tmp4 = (controlY1 < this->_hx___positionX);
+HXDLIN( 243)		if (!(_hx_tmp5)) {
+HXLINE( 243)			if ((controlY1 > anchorY)) {
+HXLINE( 243)				_hx_tmp4 = (controlY1 < this->_hx___positionX);
             			}
             			else {
-HXLINE( 516)				_hx_tmp4 = false;
+HXLINE( 243)				_hx_tmp4 = false;
             			}
             		}
             		else {
-HXLINE( 516)			_hx_tmp4 = true;
+HXLINE( 243)			_hx_tmp4 = true;
             		}
-HXDLIN( 516)		if (_hx_tmp4) {
-HXLINE( 517)			bool _hx_tmp;
-HXDLIN( 517)			if ((controlY2 < anchorY)) {
-HXLINE( 517)				_hx_tmp = (controlY2 > this->_hx___positionX);
+HXDLIN( 243)		if (_hx_tmp4) {
+HXLINE( 244)			bool _hx_tmp;
+HXDLIN( 244)			if ((controlY2 < anchorY)) {
+HXLINE( 244)				_hx_tmp = (controlY2 > this->_hx___positionX);
             			}
             			else {
-HXLINE( 517)				_hx_tmp = false;
+HXLINE( 244)				_hx_tmp = false;
             			}
-HXDLIN( 517)			if (!(_hx_tmp)) {
-HXLINE( 517)				if ((controlY2 > anchorY)) {
-HXLINE( 516)					_hx_tmp3 = (controlY2 < this->_hx___positionX);
+HXDLIN( 244)			if (!(_hx_tmp)) {
+HXLINE( 244)				if ((controlY2 > anchorY)) {
+HXLINE( 243)					_hx_tmp3 = (controlY2 < this->_hx___positionX);
             				}
             				else {
-HXLINE( 516)					_hx_tmp3 = false;
+HXLINE( 243)					_hx_tmp3 = false;
             				}
             			}
             			else {
-HXLINE( 516)				_hx_tmp3 = true;
+HXLINE( 243)				_hx_tmp3 = true;
             			}
             		}
             		else {
-HXLINE( 516)			_hx_tmp3 = false;
+HXLINE( 243)			_hx_tmp3 = false;
             		}
-HXDLIN( 516)		if (!(_hx_tmp3)) {
-HXLINE( 519)			Float u = (((( (Float)(2) ) * this->_hx___positionX) - (( (Float)(4) ) * controlY1)) + (( (Float)(2) ) * controlY2));
-HXLINE( 520)			Float v = (controlY1 - this->_hx___positionX);
-HXLINE( 521)			Float w = (((-(this->_hx___positionX) + (( (Float)(3) ) * controlY1)) + anchorY) - (( (Float)(3) ) * controlY2));
-HXLINE( 523)			Float t1 = ((-(u) + ::Math_obj::sqrt(((u * u) - ((( (Float)(4) ) * v) * w)))) / (( (Float)(2) ) * w));
-HXLINE( 524)			Float t2 = ((-(u) - ::Math_obj::sqrt(((u * u) - ((( (Float)(4) ) * v) * w)))) / (( (Float)(2) ) * w));
-HXLINE( 526)			bool _hx_tmp;
-HXDLIN( 526)			if ((t1 > 0)) {
-HXLINE( 526)				_hx_tmp = (t1 < 1);
+HXDLIN( 243)		if (!(_hx_tmp3)) {
+HXLINE( 246)			Float u = (((( (Float)(2) ) * this->_hx___positionX) - (( (Float)(4) ) * controlY1)) + (( (Float)(2) ) * controlY2));
+HXLINE( 247)			Float v = (controlY1 - this->_hx___positionX);
+HXLINE( 248)			Float w = (((-(this->_hx___positionX) + (( (Float)(3) ) * controlY1)) + anchorY) - (( (Float)(3) ) * controlY2));
+HXLINE( 250)			Float t1 = ((-(u) + ::Math_obj::sqrt(((u * u) - ((( (Float)(4) ) * v) * w)))) / (( (Float)(2) ) * w));
+HXLINE( 251)			Float t2 = ((-(u) - ::Math_obj::sqrt(((u * u) - ((( (Float)(4) ) * v) * w)))) / (( (Float)(2) ) * w));
+HXLINE( 253)			bool _hx_tmp;
+HXDLIN( 253)			if ((t1 > 0)) {
+HXLINE( 253)				_hx_tmp = (t1 < 1);
             			}
             			else {
-HXLINE( 526)				_hx_tmp = false;
+HXLINE( 253)				_hx_tmp = false;
             			}
-HXDLIN( 526)			if (_hx_tmp) {
-HXLINE( 528)				Float iT = (( (Float)(1) ) - t1);
-HXDLIN( 528)				iy1 = ((((this->_hx___positionX * ((iT * iT) * iT)) + (((( (Float)(3) ) * controlY1) * t1) * (iT * iT))) + (((( (Float)(3) ) * controlY2) * iT) * (t1 * t1))) + (anchorY * ((t1 * t1) * t1)));
+HXDLIN( 253)			if (_hx_tmp) {
+HXLINE( 255)				Float iT = (( (Float)(1) ) - t1);
+HXDLIN( 255)				iy1 = ((((this->_hx___positionX * ((iT * iT) * iT)) + (((( (Float)(3) ) * controlY1) * t1) * (iT * iT))) + (((( (Float)(3) ) * controlY2) * iT) * (t1 * t1))) + (anchorY * ((t1 * t1) * t1)));
             			}
-HXLINE( 531)			bool _hx_tmp1;
-HXDLIN( 531)			if ((t2 > 0)) {
-HXLINE( 531)				_hx_tmp1 = (t2 < 1);
+HXLINE( 258)			bool _hx_tmp1;
+HXDLIN( 258)			if ((t2 > 0)) {
+HXLINE( 258)				_hx_tmp1 = (t2 < 1);
             			}
             			else {
-HXLINE( 531)				_hx_tmp1 = false;
+HXLINE( 258)				_hx_tmp1 = false;
             			}
-HXDLIN( 531)			if (_hx_tmp1) {
-HXLINE( 533)				Float iT = (( (Float)(1) ) - t2);
-HXDLIN( 533)				iy2 = ((((this->_hx___positionX * ((iT * iT) * iT)) + (((( (Float)(3) ) * controlY1) * t2) * (iT * iT))) + (((( (Float)(3) ) * controlY2) * iT) * (t2 * t2))) + (anchorY * ((t2 * t2) * t2)));
+HXDLIN( 258)			if (_hx_tmp1) {
+HXLINE( 260)				Float iT = (( (Float)(1) ) - t2);
+HXDLIN( 260)				iy2 = ((((this->_hx___positionX * ((iT * iT) * iT)) + (((( (Float)(3) ) * controlY1) * t2) * (iT * iT))) + (((( (Float)(3) ) * controlY2) * iT) * (t2 * t2))) + (anchorY * ((t2 * t2) * t2)));
             			}
             		}
-HXLINE( 537)		this->_hx___inflateBounds((ix1 - this->_hx___strokePadding),(iy1 - this->_hx___strokePadding));
-HXLINE( 538)		this->_hx___inflateBounds((ix1 + this->_hx___strokePadding),(iy1 + this->_hx___strokePadding));
-HXLINE( 539)		this->_hx___inflateBounds((ix2 - this->_hx___strokePadding),(iy2 - this->_hx___strokePadding));
-HXLINE( 540)		this->_hx___inflateBounds((ix2 + this->_hx___strokePadding),(iy2 + this->_hx___strokePadding));
-HXLINE( 542)		this->_hx___positionX = anchorX;
-HXLINE( 543)		this->_hx___positionY = anchorY;
-HXLINE( 545)		this->_hx___inflateBounds((this->_hx___positionX - this->_hx___strokePadding),(this->_hx___positionY - this->_hx___strokePadding));
-HXLINE( 546)		this->_hx___inflateBounds((this->_hx___positionX + this->_hx___strokePadding),(this->_hx___positionY + this->_hx___strokePadding));
-HXLINE( 548)		this->_hx___commands->cubicCurveTo(controlX1,controlY1,controlX2,controlY2,anchorX,anchorY);
-HXLINE( 550)		this->set___dirty(true);
+HXLINE( 264)		this->_hx___inflateBounds((ix1 - this->_hx___strokePadding),(iy1 - this->_hx___strokePadding));
+HXLINE( 265)		this->_hx___inflateBounds((ix1 + this->_hx___strokePadding),(iy1 + this->_hx___strokePadding));
+HXLINE( 266)		this->_hx___inflateBounds((ix2 - this->_hx___strokePadding),(iy2 - this->_hx___strokePadding));
+HXLINE( 267)		this->_hx___inflateBounds((ix2 + this->_hx___strokePadding),(iy2 + this->_hx___strokePadding));
+HXLINE( 269)		this->_hx___positionX = anchorX;
+HXLINE( 270)		this->_hx___positionY = anchorY;
+HXLINE( 272)		this->_hx___inflateBounds((this->_hx___positionX - this->_hx___strokePadding),(this->_hx___positionY - this->_hx___strokePadding));
+HXLINE( 273)		this->_hx___inflateBounds((this->_hx___positionX + this->_hx___strokePadding),(this->_hx___positionY + this->_hx___strokePadding));
+HXLINE( 275)		this->_hx___commands->cubicCurveTo(controlX1,controlY1,controlX2,controlY2,anchorX,anchorY);
+HXLINE( 277)		this->set___dirty(true);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC6(Graphics_obj,cubicCurveTo,(void))
 
 void Graphics_obj::curveTo(Float controlX,Float controlY,Float anchorX,Float anchorY){
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_586_curveTo)
-HXLINE( 587)		this->_hx___inflateBounds((this->_hx___positionX - this->_hx___strokePadding),(this->_hx___positionY - this->_hx___strokePadding));
-HXLINE( 588)		this->_hx___inflateBounds((this->_hx___positionX + this->_hx___strokePadding),(this->_hx___positionY + this->_hx___strokePadding));
-HXLINE( 590)		Float ix;
-HXDLIN( 590)		Float iy;
-HXLINE( 592)		bool _hx_tmp;
-HXDLIN( 592)		bool _hx_tmp1;
-HXDLIN( 592)		if ((controlX < anchorX)) {
-HXLINE( 592)			_hx_tmp1 = (controlX > this->_hx___positionX);
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_281_curveTo)
+HXLINE( 282)		this->_hx___inflateBounds((this->_hx___positionX - this->_hx___strokePadding),(this->_hx___positionY - this->_hx___strokePadding));
+HXLINE( 283)		this->_hx___inflateBounds((this->_hx___positionX + this->_hx___strokePadding),(this->_hx___positionY + this->_hx___strokePadding));
+HXLINE( 285)		Float ix;
+HXDLIN( 285)		Float iy;
+HXLINE( 287)		bool _hx_tmp;
+HXDLIN( 287)		bool _hx_tmp1;
+HXDLIN( 287)		if ((controlX < anchorX)) {
+HXLINE( 287)			_hx_tmp1 = (controlX > this->_hx___positionX);
             		}
             		else {
-HXLINE( 592)			_hx_tmp1 = false;
+HXLINE( 287)			_hx_tmp1 = false;
             		}
-HXDLIN( 592)		if (!(_hx_tmp1)) {
-HXLINE( 592)			if ((controlX > anchorX)) {
-HXLINE( 592)				_hx_tmp = (controlX < this->_hx___positionX);
+HXDLIN( 287)		if (!(_hx_tmp1)) {
+HXLINE( 287)			if ((controlX > anchorX)) {
+HXLINE( 287)				_hx_tmp = (controlX < this->_hx___positionX);
             			}
             			else {
-HXLINE( 592)				_hx_tmp = false;
+HXLINE( 287)				_hx_tmp = false;
             			}
             		}
             		else {
-HXLINE( 592)			_hx_tmp = true;
+HXLINE( 287)			_hx_tmp = true;
             		}
-HXDLIN( 592)		if (_hx_tmp) {
-HXLINE( 594)			ix = anchorX;
-            		}
-            		else {
-HXLINE( 598)			Float tx = ((this->_hx___positionX - controlX) / ((this->_hx___positionX - (( (Float)(2) ) * controlX)) + anchorX));
-HXLINE( 599)			Float iT = (( (Float)(1) ) - tx);
-HXDLIN( 599)			ix = ((((iT * iT) * this->_hx___positionX) + (((( (Float)(2) ) * iT) * tx) * controlX)) + ((tx * tx) * anchorX));
-            		}
-HXLINE( 602)		bool _hx_tmp2;
-HXDLIN( 602)		bool _hx_tmp3;
-HXDLIN( 602)		if ((controlY < anchorY)) {
-HXLINE( 602)			_hx_tmp3 = (controlY > this->_hx___positionY);
+HXDLIN( 287)		if (_hx_tmp) {
+HXLINE( 289)			ix = anchorX;
             		}
             		else {
-HXLINE( 602)			_hx_tmp3 = false;
+HXLINE( 293)			Float tx = ((this->_hx___positionX - controlX) / ((this->_hx___positionX - (( (Float)(2) ) * controlX)) + anchorX));
+HXLINE( 294)			Float iT = (( (Float)(1) ) - tx);
+HXDLIN( 294)			ix = ((((iT * iT) * this->_hx___positionX) + (((( (Float)(2) ) * iT) * tx) * controlX)) + ((tx * tx) * anchorX));
             		}
-HXDLIN( 602)		if (!(_hx_tmp3)) {
-HXLINE( 602)			if ((controlY > anchorY)) {
-HXLINE( 602)				_hx_tmp2 = (controlY < this->_hx___positionY);
+HXLINE( 297)		bool _hx_tmp2;
+HXDLIN( 297)		bool _hx_tmp3;
+HXDLIN( 297)		if ((controlY < anchorY)) {
+HXLINE( 297)			_hx_tmp3 = (controlY > this->_hx___positionY);
+            		}
+            		else {
+HXLINE( 297)			_hx_tmp3 = false;
+            		}
+HXDLIN( 297)		if (!(_hx_tmp3)) {
+HXLINE( 297)			if ((controlY > anchorY)) {
+HXLINE( 297)				_hx_tmp2 = (controlY < this->_hx___positionY);
             			}
             			else {
-HXLINE( 602)				_hx_tmp2 = false;
+HXLINE( 297)				_hx_tmp2 = false;
             			}
             		}
             		else {
-HXLINE( 602)			_hx_tmp2 = true;
+HXLINE( 297)			_hx_tmp2 = true;
             		}
-HXDLIN( 602)		if (_hx_tmp2) {
-HXLINE( 604)			iy = anchorY;
+HXDLIN( 297)		if (_hx_tmp2) {
+HXLINE( 299)			iy = anchorY;
             		}
             		else {
-HXLINE( 608)			Float ty = ((this->_hx___positionY - controlY) / ((this->_hx___positionY - (( (Float)(2) ) * controlY)) + anchorY));
-HXLINE( 609)			Float iT = (( (Float)(1) ) - ty);
-HXDLIN( 609)			iy = ((((iT * iT) * this->_hx___positionY) + (((( (Float)(2) ) * iT) * ty) * controlY)) + ((ty * ty) * anchorY));
+HXLINE( 303)			Float ty = ((this->_hx___positionY - controlY) / ((this->_hx___positionY - (( (Float)(2) ) * controlY)) + anchorY));
+HXLINE( 304)			Float iT = (( (Float)(1) ) - ty);
+HXDLIN( 304)			iy = ((((iT * iT) * this->_hx___positionY) + (((( (Float)(2) ) * iT) * ty) * controlY)) + ((ty * ty) * anchorY));
             		}
-HXLINE( 612)		this->_hx___inflateBounds((ix - this->_hx___strokePadding),(iy - this->_hx___strokePadding));
-HXLINE( 613)		this->_hx___inflateBounds((ix + this->_hx___strokePadding),(iy + this->_hx___strokePadding));
-HXLINE( 615)		this->_hx___positionX = anchorX;
-HXLINE( 616)		this->_hx___positionY = anchorY;
-HXLINE( 618)		this->_hx___commands->curveTo(controlX,controlY,anchorX,anchorY);
-HXLINE( 620)		this->set___dirty(true);
+HXLINE( 307)		this->_hx___inflateBounds((ix - this->_hx___strokePadding),(iy - this->_hx___strokePadding));
+HXLINE( 308)		this->_hx___inflateBounds((ix + this->_hx___strokePadding),(iy + this->_hx___strokePadding));
+HXLINE( 310)		this->_hx___positionX = anchorX;
+HXLINE( 311)		this->_hx___positionY = anchorY;
+HXLINE( 313)		this->_hx___commands->curveTo(controlX,controlY,anchorX,anchorY);
+HXLINE( 315)		this->set___dirty(true);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC4(Graphics_obj,curveTo,(void))
 
 void Graphics_obj::drawCircle(Float x,Float y,Float radius){
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_624_drawCircle)
-HXLINE( 625)		if ((radius <= 0)) {
-HXLINE( 625)			return;
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_319_drawCircle)
+HXLINE( 320)		if ((radius <= 0)) {
+HXLINE( 320)			return;
             		}
-HXLINE( 627)		this->_hx___inflateBounds(((x - radius) - this->_hx___strokePadding),((y - radius) - this->_hx___strokePadding));
-HXLINE( 628)		this->_hx___inflateBounds(((x + radius) + this->_hx___strokePadding),((y + radius) + this->_hx___strokePadding));
-HXLINE( 630)		this->_hx___commands->drawCircle(x,y,radius);
-HXLINE( 632)		this->set___dirty(true);
+HXLINE( 322)		this->_hx___inflateBounds(((x - radius) - this->_hx___strokePadding),((y - radius) - this->_hx___strokePadding));
+HXLINE( 323)		this->_hx___inflateBounds(((x + radius) + this->_hx___strokePadding),((y + radius) + this->_hx___strokePadding));
+HXLINE( 325)		this->_hx___commands->drawCircle(x,y,radius);
+HXLINE( 327)		this->set___dirty(true);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(Graphics_obj,drawCircle,(void))
 
 void Graphics_obj::drawEllipse(Float x,Float y,Float width,Float height){
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_652_drawEllipse)
-HXLINE( 653)		bool _hx_tmp;
-HXDLIN( 653)		if (!((width <= 0))) {
-HXLINE( 653)			_hx_tmp = (height <= 0);
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_331_drawEllipse)
+HXLINE( 332)		bool _hx_tmp;
+HXDLIN( 332)		if (!((width <= 0))) {
+HXLINE( 332)			_hx_tmp = (height <= 0);
             		}
             		else {
-HXLINE( 653)			_hx_tmp = true;
+HXLINE( 332)			_hx_tmp = true;
             		}
-HXDLIN( 653)		if (_hx_tmp) {
-HXLINE( 653)			return;
+HXDLIN( 332)		if (_hx_tmp) {
+HXLINE( 332)			return;
             		}
-HXLINE( 655)		this->_hx___inflateBounds((x - this->_hx___strokePadding),(y - this->_hx___strokePadding));
-HXLINE( 656)		this->_hx___inflateBounds(((x + width) + this->_hx___strokePadding),((y + height) + this->_hx___strokePadding));
-HXLINE( 658)		this->_hx___commands->drawEllipse(x,y,width,height);
-HXLINE( 660)		this->set___dirty(true);
+HXLINE( 334)		this->_hx___inflateBounds((x - this->_hx___strokePadding),(y - this->_hx___strokePadding));
+HXLINE( 335)		this->_hx___inflateBounds(((x + width) + this->_hx___strokePadding),((y + height) + this->_hx___strokePadding));
+HXLINE( 337)		this->_hx___commands->drawEllipse(x,y,width,height);
+HXLINE( 339)		this->set___dirty(true);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC4(Graphics_obj,drawEllipse,(void))
 
 void Graphics_obj::drawGraphicsData( ::openfl::_Vector::ObjectVector graphicsData){
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_676_drawGraphicsData)
-HXLINE( 677)		 ::openfl::display::GraphicsSolidFill fill;
-HXLINE( 678)		 ::openfl::display::GraphicsBitmapFill bitmapFill;
-HXLINE( 679)		 ::openfl::display::GraphicsGradientFill gradientFill;
-HXLINE( 680)		 ::openfl::display::GraphicsShaderFill shaderFill;
-HXLINE( 681)		 ::openfl::display::GraphicsStroke stroke;
-HXLINE( 682)		 ::openfl::display::GraphicsPath path;
-HXLINE( 683)		 ::openfl::display::GraphicsTrianglePath trianglePath;
-HXLINE( 684)		 ::openfl::display::GraphicsQuadPath quadPath;
-HXLINE( 686)		{
-HXLINE( 686)			 ::Dynamic graphics = graphicsData->iterator();
-HXDLIN( 686)			while(( (bool)(graphics->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE( 686)				::Dynamic graphics1 = graphics->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)();
-HXLINE( 688)				switch((int)(( (int)(graphics1->__Field(HX_("__graphicsDataType",0f,5d,4d,46),::hx::paccDynamic)) ))){
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_343_drawGraphicsData)
+HXLINE( 344)		 ::openfl::display::GraphicsSolidFill fill;
+HXLINE( 345)		 ::openfl::display::GraphicsBitmapFill bitmapFill;
+HXLINE( 346)		 ::openfl::display::GraphicsGradientFill gradientFill;
+HXLINE( 347)		 ::openfl::display::GraphicsShaderFill shaderFill;
+HXLINE( 348)		 ::openfl::display::GraphicsStroke stroke;
+HXLINE( 349)		 ::openfl::display::GraphicsPath path;
+HXLINE( 350)		 ::openfl::display::GraphicsTrianglePath trianglePath;
+HXLINE( 351)		 ::openfl::display::GraphicsQuadPath quadPath;
+HXLINE( 353)		{
+HXLINE( 353)			 ::Dynamic graphics = graphicsData->iterator();
+HXDLIN( 353)			while(( (bool)(graphics->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE( 353)				::Dynamic graphics1 = graphics->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)();
+HXLINE( 355)				switch((int)(( (int)(graphics1->__Field(HX_("__graphicsDataType",0f,5d,4d,46),::hx::paccDynamic)) ))){
             					case (int)0: {
-HXLINE( 708)						stroke = ( ( ::openfl::display::GraphicsStroke)(graphics1) );
-HXLINE( 710)						if (::hx::IsNotNull( stroke->fill )) {
-HXLINE( 712)							 ::Dynamic thickness = stroke->thickness;
-HXLINE( 714)							if (::Math_obj::isNaN(( (Float)(thickness) ))) {
-HXLINE( 716)								thickness = null();
+HXLINE( 375)						stroke = ( ( ::openfl::display::GraphicsStroke)(graphics1) );
+HXLINE( 377)						if (::hx::IsNotNull( stroke->fill )) {
+HXLINE( 379)							 ::Dynamic thickness = stroke->thickness;
+HXLINE( 381)							if (::Math_obj::isNaN(( (Float)(thickness) ))) {
+HXLINE( 383)								thickness = null();
             							}
-HXLINE( 719)							switch((int)(( (int)(stroke->fill->__Field(HX_("__graphicsFillType",e8,75,eb,27),::hx::paccDynamic)) ))){
+HXLINE( 386)							switch((int)(( (int)(stroke->fill->__Field(HX_("__graphicsFillType",e8,75,eb,27),::hx::paccDynamic)) ))){
             								case (int)0: {
-HXLINE( 722)									fill = ( ( ::openfl::display::GraphicsSolidFill)(stroke->fill) );
-HXLINE( 723)									this->lineStyle(thickness,fill->color,fill->alpha,stroke->pixelHinting,stroke->scaleMode,stroke->caps,stroke->joints,stroke->miterLimit);
+HXLINE( 389)									fill = ( ( ::openfl::display::GraphicsSolidFill)(stroke->fill) );
+HXLINE( 390)									this->lineStyle(thickness,fill->color,fill->alpha,stroke->pixelHinting,stroke->scaleMode,stroke->caps,stroke->joints,stroke->miterLimit);
             								}
             								break;
             								case (int)1: {
-HXLINE( 732)									gradientFill = ( ( ::openfl::display::GraphicsGradientFill)(stroke->fill) );
-HXLINE( 733)									this->lineStyle(thickness,0,1,stroke->pixelHinting,stroke->scaleMode,stroke->caps,stroke->joints,stroke->miterLimit);
-HXLINE( 734)									this->lineGradientStyle(gradientFill->type,gradientFill->colors,gradientFill->alphas,gradientFill->ratios,gradientFill->matrix,gradientFill->spreadMethod,gradientFill->interpolationMethod,gradientFill->focalPointRatio);
+HXLINE( 399)									gradientFill = ( ( ::openfl::display::GraphicsGradientFill)(stroke->fill) );
+HXLINE( 400)									this->lineStyle(thickness,0,1,stroke->pixelHinting,stroke->scaleMode,stroke->caps,stroke->joints,stroke->miterLimit);
+HXLINE( 401)									this->lineGradientStyle(gradientFill->type,gradientFill->colors,gradientFill->alphas,gradientFill->ratios,gradientFill->matrix,gradientFill->spreadMethod,gradientFill->interpolationMethod,gradientFill->focalPointRatio);
             								}
             								break;
             								case (int)2: {
-HXLINE( 727)									bitmapFill = ( ( ::openfl::display::GraphicsBitmapFill)(stroke->fill) );
-HXLINE( 728)									this->lineStyle(thickness,0,1,stroke->pixelHinting,stroke->scaleMode,stroke->caps,stroke->joints,stroke->miterLimit);
-HXLINE( 729)									this->lineBitmapStyle(bitmapFill->bitmapData,bitmapFill->matrix,bitmapFill->repeat,bitmapFill->smooth);
+HXLINE( 394)									bitmapFill = ( ( ::openfl::display::GraphicsBitmapFill)(stroke->fill) );
+HXLINE( 395)									this->lineStyle(thickness,0,1,stroke->pixelHinting,stroke->scaleMode,stroke->caps,stroke->joints,stroke->miterLimit);
+HXLINE( 396)									this->lineBitmapStyle(bitmapFill->bitmapData,bitmapFill->matrix,bitmapFill->repeat,bitmapFill->smooth);
             								}
             								break;
             								default:{
@@ -699,47 +699,47 @@ HXLINE( 729)									this->lineBitmapStyle(bitmapFill->bitmapData,bitmapFill->ma
             							}
             						}
             						else {
-HXLINE( 742)							this->lineStyle(null(),null(),null(),null(),null(),null(),null(),null());
+HXLINE( 409)							this->lineStyle(null(),null(),null(),null(),null(),null(),null(),null());
             						}
             					}
             					break;
             					case (int)1: {
-HXLINE( 691)						fill = ( ( ::openfl::display::GraphicsSolidFill)(graphics1) );
-HXLINE( 692)						this->beginFill(fill->color,fill->alpha);
+HXLINE( 358)						fill = ( ( ::openfl::display::GraphicsSolidFill)(graphics1) );
+HXLINE( 359)						this->beginFill(fill->color,fill->alpha);
             					}
             					break;
             					case (int)2: {
-HXLINE( 699)						gradientFill = ( ( ::openfl::display::GraphicsGradientFill)(graphics1) );
-HXLINE( 700)						this->beginGradientFill(gradientFill->type,gradientFill->colors,gradientFill->alphas,gradientFill->ratios,gradientFill->matrix,gradientFill->spreadMethod,gradientFill->interpolationMethod,gradientFill->focalPointRatio);
+HXLINE( 366)						gradientFill = ( ( ::openfl::display::GraphicsGradientFill)(graphics1) );
+HXLINE( 367)						this->beginGradientFill(gradientFill->type,gradientFill->colors,gradientFill->alphas,gradientFill->ratios,gradientFill->matrix,gradientFill->spreadMethod,gradientFill->interpolationMethod,gradientFill->focalPointRatio);
             					}
             					break;
             					case (int)3: {
-HXLINE( 746)						path = ( ( ::openfl::display::GraphicsPath)(graphics1) );
-HXLINE( 747)						this->drawPath(path->commands,path->data,path->winding);
+HXLINE( 413)						path = ( ( ::openfl::display::GraphicsPath)(graphics1) );
+HXLINE( 414)						this->drawPath(path->commands,path->data,path->winding);
             					}
             					break;
             					case (int)4: {
-HXLINE( 695)						bitmapFill = ( ( ::openfl::display::GraphicsBitmapFill)(graphics1) );
-HXLINE( 696)						this->beginBitmapFill(bitmapFill->bitmapData,bitmapFill->matrix,bitmapFill->repeat,bitmapFill->smooth);
+HXLINE( 362)						bitmapFill = ( ( ::openfl::display::GraphicsBitmapFill)(graphics1) );
+HXLINE( 363)						this->beginBitmapFill(bitmapFill->bitmapData,bitmapFill->matrix,bitmapFill->repeat,bitmapFill->smooth);
             					}
             					break;
             					case (int)5: {
-HXLINE( 754)						this->endFill();
+HXLINE( 421)						this->endFill();
             					}
             					break;
             					case (int)6: {
-HXLINE( 757)						quadPath = ( ( ::openfl::display::GraphicsQuadPath)(graphics1) );
-HXLINE( 758)						this->drawQuads(quadPath->rects,quadPath->indices,quadPath->transforms);
+HXLINE( 424)						quadPath = ( ( ::openfl::display::GraphicsQuadPath)(graphics1) );
+HXLINE( 425)						this->drawQuads(quadPath->rects,quadPath->indices,quadPath->transforms);
             					}
             					break;
             					case (int)7: {
-HXLINE( 750)						trianglePath = ( ( ::openfl::display::GraphicsTrianglePath)(graphics1) );
-HXLINE( 751)						this->drawTriangles(trianglePath->vertices,trianglePath->indices,trianglePath->uvtData,trianglePath->culling);
+HXLINE( 417)						trianglePath = ( ( ::openfl::display::GraphicsTrianglePath)(graphics1) );
+HXLINE( 418)						this->drawTriangles(trianglePath->vertices,trianglePath->indices,trianglePath->uvtData,trianglePath->culling);
             					}
             					break;
             					case (int)8: {
-HXLINE( 704)						shaderFill = ( ( ::openfl::display::GraphicsShaderFill)(graphics1) );
-HXLINE( 705)						this->beginShaderFill(shaderFill->shader,shaderFill->matrix);
+HXLINE( 371)						shaderFill = ( ( ::openfl::display::GraphicsShaderFill)(graphics1) );
+HXLINE( 372)						this->beginShaderFill(shaderFill->shader,shaderFill->matrix);
             					}
             					break;
             				}
@@ -753,56 +753,56 @@ HX_DEFINE_DYNAMIC_FUNC1(Graphics_obj,drawGraphicsData,(void))
 void Graphics_obj::drawPath( ::openfl::_Vector::IntVector commands, ::openfl::_Vector::FloatVector data, ::Dynamic __o_winding){
             		 ::Dynamic winding = __o_winding;
             		if (::hx::IsNull(__o_winding)) winding = 0;
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_807_drawPath)
-HXLINE( 808)		int dataIndex = 0;
-HXLINE( 810)		if (::hx::IsEq( winding,1 )) {
-HXLINE( 810)			this->_hx___commands->windingNonZero();
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_431_drawPath)
+HXLINE( 432)		int dataIndex = 0;
+HXLINE( 434)		if (::hx::IsEq( winding,1 )) {
+HXLINE( 434)			this->_hx___commands->windingNonZero();
             		}
-HXLINE( 812)		{
-HXLINE( 812)			 ::Dynamic command = commands->iterator();
-HXDLIN( 812)			while(( (bool)(command->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE( 812)				int command1 = ( (int)(command->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE( 814)				switch((int)(command1)){
+HXLINE( 436)		{
+HXLINE( 436)			 ::Dynamic command = commands->iterator();
+HXDLIN( 436)			while(( (bool)(command->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE( 436)				int command1 = ( (int)(command->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE( 438)				switch((int)(command1)){
             					case (int)1: {
-HXLINE( 817)						Float _hx_tmp = data->get(dataIndex);
-HXDLIN( 817)						this->moveTo(_hx_tmp,data->get((dataIndex + 1)));
-HXLINE( 818)						dataIndex = (dataIndex + 2);
+HXLINE( 441)						Float _hx_tmp = data->get(dataIndex);
+HXDLIN( 441)						this->moveTo(_hx_tmp,data->get((dataIndex + 1)));
+HXLINE( 442)						dataIndex = (dataIndex + 2);
             					}
             					break;
             					case (int)2: {
-HXLINE( 821)						Float _hx_tmp = data->get(dataIndex);
-HXDLIN( 821)						this->lineTo(_hx_tmp,data->get((dataIndex + 1)));
-HXLINE( 822)						dataIndex = (dataIndex + 2);
+HXLINE( 445)						Float _hx_tmp = data->get(dataIndex);
+HXDLIN( 445)						this->lineTo(_hx_tmp,data->get((dataIndex + 1)));
+HXLINE( 446)						dataIndex = (dataIndex + 2);
             					}
             					break;
             					case (int)3: {
-HXLINE( 835)						Float _hx_tmp = data->get(dataIndex);
-HXDLIN( 835)						Float _hx_tmp1 = data->get((dataIndex + 1));
-HXDLIN( 835)						Float _hx_tmp2 = data->get((dataIndex + 2));
-HXDLIN( 835)						this->curveTo(_hx_tmp,_hx_tmp1,_hx_tmp2,data->get((dataIndex + 3)));
-HXLINE( 836)						dataIndex = (dataIndex + 4);
+HXLINE( 459)						Float _hx_tmp = data->get(dataIndex);
+HXDLIN( 459)						Float _hx_tmp1 = data->get((dataIndex + 1));
+HXDLIN( 459)						Float _hx_tmp2 = data->get((dataIndex + 2));
+HXDLIN( 459)						this->curveTo(_hx_tmp,_hx_tmp1,_hx_tmp2,data->get((dataIndex + 3)));
+HXLINE( 460)						dataIndex = (dataIndex + 4);
             					}
             					break;
             					case (int)4: {
-HXLINE( 825)						Float _hx_tmp = data->get((dataIndex + 2));
-HXDLIN( 825)						this->moveTo(_hx_tmp,data->get((dataIndex + 3)));
-HXLINE( 826)						goto _hx_goto_18;
+HXLINE( 449)						Float _hx_tmp = data->get((dataIndex + 2));
+HXDLIN( 449)						this->moveTo(_hx_tmp,data->get((dataIndex + 3)));
+HXLINE( 450)						goto _hx_goto_18;
             					}
             					break;
             					case (int)5: {
-HXLINE( 830)						Float _hx_tmp = data->get((dataIndex + 2));
-HXDLIN( 830)						this->lineTo(_hx_tmp,data->get((dataIndex + 3)));
-HXLINE( 831)						goto _hx_goto_18;
+HXLINE( 454)						Float _hx_tmp = data->get((dataIndex + 2));
+HXDLIN( 454)						this->lineTo(_hx_tmp,data->get((dataIndex + 3)));
+HXLINE( 455)						goto _hx_goto_18;
             					}
             					break;
             					case (int)6: {
-HXLINE( 839)						Float _hx_tmp = data->get(dataIndex);
-HXDLIN( 839)						Float _hx_tmp1 = data->get((dataIndex + 1));
-HXDLIN( 839)						Float _hx_tmp2 = data->get((dataIndex + 2));
-HXDLIN( 839)						Float _hx_tmp3 = data->get((dataIndex + 3));
-HXDLIN( 839)						Float _hx_tmp4 = data->get((dataIndex + 4));
-HXDLIN( 839)						this->cubicCurveTo(_hx_tmp,_hx_tmp1,_hx_tmp2,_hx_tmp3,_hx_tmp4,data->get((dataIndex + 5)));
-HXLINE( 840)						dataIndex = (dataIndex + 6);
+HXLINE( 463)						Float _hx_tmp = data->get(dataIndex);
+HXDLIN( 463)						Float _hx_tmp1 = data->get((dataIndex + 1));
+HXDLIN( 463)						Float _hx_tmp2 = data->get((dataIndex + 2));
+HXDLIN( 463)						Float _hx_tmp3 = data->get((dataIndex + 3));
+HXDLIN( 463)						Float _hx_tmp4 = data->get((dataIndex + 4));
+HXDLIN( 463)						this->cubicCurveTo(_hx_tmp,_hx_tmp1,_hx_tmp2,_hx_tmp3,_hx_tmp4,data->get((dataIndex + 5)));
+HXLINE( 464)						dataIndex = (dataIndex + 6);
             					}
             					break;
             					default:{
@@ -817,266 +817,266 @@ HXLINE( 840)						dataIndex = (dataIndex + 6);
 HX_DEFINE_DYNAMIC_FUNC3(Graphics_obj,drawPath,(void))
 
 void Graphics_obj::drawQuads( ::openfl::_Vector::FloatVector rects, ::openfl::_Vector::IntVector indices, ::openfl::_Vector::FloatVector transforms){
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_880_drawQuads)
-HXLINE( 881)		if (::hx::IsNull( rects )) {
-HXLINE( 881)			return;
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_475_drawQuads)
+HXLINE( 476)		if (::hx::IsNull( rects )) {
+HXLINE( 476)			return;
             		}
-HXLINE( 883)		bool hasIndices = ::hx::IsNotNull( indices );
-HXLINE( 884)		bool transformABCD = false;
-HXDLIN( 884)		bool transformXY = false;
-HXLINE( 886)		int length;
-HXDLIN( 886)		if (hasIndices) {
-HXLINE( 886)			length = indices->get_length();
+HXLINE( 478)		bool hasIndices = ::hx::IsNotNull( indices );
+HXLINE( 479)		bool transformABCD = false;
+HXDLIN( 479)		bool transformXY = false;
+HXLINE( 481)		int length;
+HXDLIN( 481)		if (hasIndices) {
+HXLINE( 481)			length = indices->get_length();
             		}
             		else {
-HXLINE( 886)			length = ::Math_obj::floor((( (Float)(rects->get_length()) ) / ( (Float)(4) )));
+HXLINE( 481)			length = ::Math_obj::floor((( (Float)(rects->get_length()) ) / ( (Float)(4) )));
             		}
-HXLINE( 887)		if ((length == 0)) {
-HXLINE( 887)			return;
+HXLINE( 482)		if ((length == 0)) {
+HXLINE( 482)			return;
             		}
-HXLINE( 889)		if (::hx::IsNotNull( transforms )) {
-HXLINE( 891)			if ((transforms->get_length() >= (length * 6))) {
-HXLINE( 893)				transformABCD = true;
-HXLINE( 894)				transformXY = true;
+HXLINE( 484)		if (::hx::IsNotNull( transforms )) {
+HXLINE( 486)			if ((transforms->get_length() >= (length * 6))) {
+HXLINE( 488)				transformABCD = true;
+HXLINE( 489)				transformXY = true;
             			}
             			else {
-HXLINE( 896)				if ((transforms->get_length() >= (length * 4))) {
-HXLINE( 898)					transformABCD = true;
+HXLINE( 491)				if ((transforms->get_length() >= (length * 4))) {
+HXLINE( 493)					transformABCD = true;
             				}
             				else {
-HXLINE( 900)					if ((transforms->get_length() >= (length * 2))) {
-HXLINE( 902)						transformXY = true;
+HXLINE( 495)					if ((transforms->get_length() >= (length * 2))) {
+HXLINE( 497)						transformXY = true;
             					}
             				}
             			}
             		}
-HXLINE( 906)		 ::openfl::geom::Rectangle tileRect = ::openfl::geom::Rectangle_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Rectangle >();
-HXLINE( 907)		 ::openfl::geom::Matrix tileTransform = ::openfl::geom::Matrix_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Matrix >();
-HXLINE( 909)		Float minX = ::Math_obj::POSITIVE_INFINITY;
-HXLINE( 910)		Float minY = ::Math_obj::POSITIVE_INFINITY;
-HXLINE( 911)		Float maxX = ::Math_obj::NEGATIVE_INFINITY;
-HXLINE( 912)		Float maxY = ::Math_obj::NEGATIVE_INFINITY;
-HXLINE( 914)		int ri;
-HXDLIN( 914)		int ti;
-HXLINE( 916)		{
-HXLINE( 916)			int _g = 0;
-HXDLIN( 916)			int _g1 = length;
-HXDLIN( 916)			while((_g < _g1)){
-HXLINE( 916)				_g = (_g + 1);
-HXDLIN( 916)				int i = (_g - 1);
-HXLINE( 918)				if (hasIndices) {
-HXLINE( 918)					ri = (indices->get(i) * 4);
+HXLINE( 501)		 ::openfl::geom::Rectangle tileRect = ::openfl::geom::Rectangle_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Rectangle >();
+HXLINE( 502)		 ::openfl::geom::Matrix tileTransform = ::openfl::geom::Matrix_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Matrix >();
+HXLINE( 504)		Float minX = ::Math_obj::POSITIVE_INFINITY;
+HXLINE( 505)		Float minY = ::Math_obj::POSITIVE_INFINITY;
+HXLINE( 506)		Float maxX = ::Math_obj::NEGATIVE_INFINITY;
+HXLINE( 507)		Float maxY = ::Math_obj::NEGATIVE_INFINITY;
+HXLINE( 509)		int ri;
+HXDLIN( 509)		int ti;
+HXLINE( 511)		{
+HXLINE( 511)			int _g = 0;
+HXDLIN( 511)			int _g1 = length;
+HXDLIN( 511)			while((_g < _g1)){
+HXLINE( 511)				_g = (_g + 1);
+HXDLIN( 511)				int i = (_g - 1);
+HXLINE( 513)				if (hasIndices) {
+HXLINE( 513)					ri = (indices->get(i) * 4);
             				}
             				else {
-HXLINE( 918)					ri = (i * 4);
+HXLINE( 513)					ri = (i * 4);
             				}
-HXLINE( 919)				if ((ri < 0)) {
-HXLINE( 919)					continue;
+HXLINE( 514)				if ((ri < 0)) {
+HXLINE( 514)					continue;
             				}
-HXLINE( 920)				Float _hx_tmp = rects->get((ri + 2));
-HXDLIN( 920)				tileRect->setTo(( (Float)(0) ),( (Float)(0) ),_hx_tmp,rects->get((ri + 3)));
-HXLINE( 922)				bool _hx_tmp1;
-HXDLIN( 922)				if (!((tileRect->width <= 0))) {
-HXLINE( 922)					_hx_tmp1 = (tileRect->height <= 0);
-            				}
-            				else {
-HXLINE( 922)					_hx_tmp1 = true;
-            				}
-HXDLIN( 922)				if (_hx_tmp1) {
-HXLINE( 924)					continue;
-            				}
-HXLINE( 927)				bool _hx_tmp2;
-HXDLIN( 927)				if (transformABCD) {
-HXLINE( 927)					_hx_tmp2 = transformXY;
+HXLINE( 515)				Float _hx_tmp = rects->get((ri + 2));
+HXDLIN( 515)				tileRect->setTo(( (Float)(0) ),( (Float)(0) ),_hx_tmp,rects->get((ri + 3)));
+HXLINE( 517)				bool _hx_tmp1;
+HXDLIN( 517)				if (!((tileRect->width <= 0))) {
+HXLINE( 517)					_hx_tmp1 = (tileRect->height <= 0);
             				}
             				else {
-HXLINE( 927)					_hx_tmp2 = false;
+HXLINE( 517)					_hx_tmp1 = true;
             				}
-HXDLIN( 927)				if (_hx_tmp2) {
-HXLINE( 929)					ti = (i * 6);
-HXLINE( 930)					Float _hx_tmp = transforms->get(ti);
-HXDLIN( 930)					Float _hx_tmp1 = transforms->get((ti + 1));
-HXDLIN( 930)					Float _hx_tmp2 = transforms->get((ti + 2));
-HXDLIN( 930)					Float _hx_tmp3 = transforms->get((ti + 3));
-HXDLIN( 930)					Float _hx_tmp4 = transforms->get((ti + 4));
-HXDLIN( 930)					tileTransform->setTo(_hx_tmp,_hx_tmp1,_hx_tmp2,_hx_tmp3,_hx_tmp4,transforms->get((ti + 5)));
+HXDLIN( 517)				if (_hx_tmp1) {
+HXLINE( 519)					continue;
+            				}
+HXLINE( 522)				bool _hx_tmp2;
+HXDLIN( 522)				if (transformABCD) {
+HXLINE( 522)					_hx_tmp2 = transformXY;
             				}
             				else {
-HXLINE( 932)					if (transformABCD) {
-HXLINE( 934)						ti = (i * 4);
-HXLINE( 935)						Float _hx_tmp = transforms->get(ti);
-HXDLIN( 935)						Float _hx_tmp1 = transforms->get((ti + 1));
-HXDLIN( 935)						Float _hx_tmp2 = transforms->get((ti + 2));
-HXDLIN( 935)						tileTransform->setTo(_hx_tmp,_hx_tmp1,_hx_tmp2,transforms->get((ti + 3)),tileRect->x,tileRect->y);
+HXLINE( 522)					_hx_tmp2 = false;
+            				}
+HXDLIN( 522)				if (_hx_tmp2) {
+HXLINE( 524)					ti = (i * 6);
+HXLINE( 525)					Float _hx_tmp = transforms->get(ti);
+HXDLIN( 525)					Float _hx_tmp1 = transforms->get((ti + 1));
+HXDLIN( 525)					Float _hx_tmp2 = transforms->get((ti + 2));
+HXDLIN( 525)					Float _hx_tmp3 = transforms->get((ti + 3));
+HXDLIN( 525)					Float _hx_tmp4 = transforms->get((ti + 4));
+HXDLIN( 525)					tileTransform->setTo(_hx_tmp,_hx_tmp1,_hx_tmp2,_hx_tmp3,_hx_tmp4,transforms->get((ti + 5)));
+            				}
+            				else {
+HXLINE( 527)					if (transformABCD) {
+HXLINE( 529)						ti = (i * 4);
+HXLINE( 530)						Float _hx_tmp = transforms->get(ti);
+HXDLIN( 530)						Float _hx_tmp1 = transforms->get((ti + 1));
+HXDLIN( 530)						Float _hx_tmp2 = transforms->get((ti + 2));
+HXDLIN( 530)						tileTransform->setTo(_hx_tmp,_hx_tmp1,_hx_tmp2,transforms->get((ti + 3)),tileRect->x,tileRect->y);
             					}
             					else {
-HXLINE( 937)						if (transformXY) {
-HXLINE( 939)							ti = (i * 2);
-HXLINE( 940)							tileTransform->tx = transforms->get(ti);
-HXLINE( 941)							tileTransform->ty = transforms->get((ti + 1));
+HXLINE( 532)						if (transformXY) {
+HXLINE( 534)							ti = (i * 2);
+HXLINE( 535)							tileTransform->tx = transforms->get(ti);
+HXLINE( 536)							tileTransform->ty = transforms->get((ti + 1));
             						}
             						else {
-HXLINE( 945)							tileTransform->tx = tileRect->x;
-HXLINE( 946)							tileTransform->ty = tileRect->y;
+HXLINE( 540)							tileTransform->tx = tileRect->x;
+HXLINE( 541)							tileTransform->ty = tileRect->y;
             						}
             					}
             				}
-HXLINE( 949)				tileRect->_hx___transform(tileRect,tileTransform);
-HXLINE( 951)				if ((minX > tileRect->x)) {
-HXLINE( 951)					minX = tileRect->x;
+HXLINE( 544)				tileRect->_hx___transform(tileRect,tileTransform);
+HXLINE( 546)				if ((minX > tileRect->x)) {
+HXLINE( 546)					minX = tileRect->x;
             				}
-HXLINE( 952)				if ((minY > tileRect->y)) {
-HXLINE( 952)					minY = tileRect->y;
+HXLINE( 547)				if ((minY > tileRect->y)) {
+HXLINE( 547)					minY = tileRect->y;
             				}
-HXLINE( 953)				if ((maxX < tileRect->get_right())) {
-HXLINE( 953)					maxX = tileRect->get_right();
+HXLINE( 548)				if ((maxX < tileRect->get_right())) {
+HXLINE( 548)					maxX = tileRect->get_right();
             				}
-HXLINE( 954)				if ((maxY < tileRect->get_bottom())) {
-HXLINE( 954)					maxY = tileRect->get_bottom();
+HXLINE( 549)				if ((maxY < tileRect->get_bottom())) {
+HXLINE( 549)					maxY = tileRect->get_bottom();
             				}
             			}
             		}
-HXLINE( 957)		this->_hx___inflateBounds(minX,minY);
-HXLINE( 958)		this->_hx___inflateBounds(maxX,maxY);
-HXLINE( 960)		this->_hx___commands->drawQuads(rects,indices,transforms);
-HXLINE( 962)		this->set___dirty(true);
-HXLINE( 963)		this->_hx___visible = true;
-HXLINE( 965)		::openfl::geom::Rectangle_obj::_hx___pool->release(tileRect);
-HXLINE( 966)		::openfl::geom::Matrix_obj::_hx___pool->release(tileTransform);
+HXLINE( 552)		this->_hx___inflateBounds(minX,minY);
+HXLINE( 553)		this->_hx___inflateBounds(maxX,maxY);
+HXLINE( 555)		this->_hx___commands->drawQuads(rects,indices,transforms);
+HXLINE( 557)		this->set___dirty(true);
+HXLINE( 558)		this->_hx___visible = true;
+HXLINE( 560)		::openfl::geom::Rectangle_obj::_hx___pool->release(tileRect);
+HXLINE( 561)		::openfl::geom::Matrix_obj::_hx___pool->release(tileTransform);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(Graphics_obj,drawQuads,(void))
 
 void Graphics_obj::drawRect(Float x,Float y,Float width,Float height){
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_987_drawRect)
-HXLINE( 988)		bool _hx_tmp;
-HXDLIN( 988)		if ((width == 0)) {
-HXLINE( 988)			_hx_tmp = (height == 0);
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_565_drawRect)
+HXLINE( 566)		bool _hx_tmp;
+HXDLIN( 566)		if ((width == 0)) {
+HXLINE( 566)			_hx_tmp = (height == 0);
             		}
             		else {
-HXLINE( 988)			_hx_tmp = false;
+HXLINE( 566)			_hx_tmp = false;
             		}
-HXDLIN( 988)		if (_hx_tmp) {
-HXLINE( 988)			return;
+HXDLIN( 566)		if (_hx_tmp) {
+HXLINE( 566)			return;
             		}
-HXLINE( 990)		int xSign;
-HXDLIN( 990)		if ((width < 0)) {
-HXLINE( 990)			xSign = -1;
-            		}
-            		else {
-HXLINE( 990)			xSign = 1;
-            		}
-HXLINE( 991)		int ySign;
-HXDLIN( 991)		if ((height < 0)) {
-HXLINE( 991)			ySign = -1;
+HXLINE( 568)		int xSign;
+HXDLIN( 568)		if ((width < 0)) {
+HXLINE( 568)			xSign = -1;
             		}
             		else {
-HXLINE( 991)			ySign = 1;
+HXLINE( 568)			xSign = 1;
             		}
-HXLINE( 993)		this->_hx___inflateBounds((x - (this->_hx___strokePadding * ( (Float)(xSign) ))),(y - (this->_hx___strokePadding * ( (Float)(ySign) ))));
-HXLINE( 994)		this->_hx___inflateBounds(((x + width) + (this->_hx___strokePadding * ( (Float)(xSign) ))),((y + height) + (this->_hx___strokePadding * ( (Float)(ySign) ))));
-HXLINE( 996)		this->_hx___commands->drawRect(x,y,width,height);
-HXLINE( 998)		this->set___dirty(true);
+HXLINE( 569)		int ySign;
+HXDLIN( 569)		if ((height < 0)) {
+HXLINE( 569)			ySign = -1;
+            		}
+            		else {
+HXLINE( 569)			ySign = 1;
+            		}
+HXLINE( 571)		this->_hx___inflateBounds((x - (this->_hx___strokePadding * ( (Float)(xSign) ))),(y - (this->_hx___strokePadding * ( (Float)(ySign) ))));
+HXLINE( 572)		this->_hx___inflateBounds(((x + width) + (this->_hx___strokePadding * ( (Float)(xSign) ))),((y + height) + (this->_hx___strokePadding * ( (Float)(ySign) ))));
+HXLINE( 574)		this->_hx___commands->drawRect(x,y,width,height);
+HXLINE( 576)		this->set___dirty(true);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC4(Graphics_obj,drawRect,(void))
 
 void Graphics_obj::drawRoundRect(Float x,Float y,Float width,Float height,Float ellipseWidth, ::Dynamic ellipseHeight){
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_1028_drawRoundRect)
-HXLINE(1029)		bool _hx_tmp;
-HXDLIN(1029)		if ((width == 0)) {
-HXLINE(1029)			_hx_tmp = (height == 0);
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_580_drawRoundRect)
+HXLINE( 581)		bool _hx_tmp;
+HXDLIN( 581)		if ((width == 0)) {
+HXLINE( 581)			_hx_tmp = (height == 0);
             		}
             		else {
-HXLINE(1029)			_hx_tmp = false;
+HXLINE( 581)			_hx_tmp = false;
             		}
-HXDLIN(1029)		if (_hx_tmp) {
-HXLINE(1029)			return;
+HXDLIN( 581)		if (_hx_tmp) {
+HXLINE( 581)			return;
             		}
-HXLINE(1031)		int xSign;
-HXDLIN(1031)		if ((width < 0)) {
-HXLINE(1031)			xSign = -1;
-            		}
-            		else {
-HXLINE(1031)			xSign = 1;
-            		}
-HXLINE(1032)		int ySign;
-HXDLIN(1032)		if ((height < 0)) {
-HXLINE(1032)			ySign = -1;
+HXLINE( 583)		int xSign;
+HXDLIN( 583)		if ((width < 0)) {
+HXLINE( 583)			xSign = -1;
             		}
             		else {
-HXLINE(1032)			ySign = 1;
+HXLINE( 583)			xSign = 1;
             		}
-HXLINE(1034)		this->_hx___inflateBounds((x - (this->_hx___strokePadding * ( (Float)(xSign) ))),(y - (this->_hx___strokePadding * ( (Float)(ySign) ))));
-HXLINE(1035)		this->_hx___inflateBounds(((x + width) + (this->_hx___strokePadding * ( (Float)(xSign) ))),((y + height) + (this->_hx___strokePadding * ( (Float)(ySign) ))));
-HXLINE(1037)		this->_hx___commands->drawRoundRect(x,y,width,height,ellipseWidth,ellipseHeight);
-HXLINE(1039)		this->set___dirty(true);
+HXLINE( 584)		int ySign;
+HXDLIN( 584)		if ((height < 0)) {
+HXLINE( 584)			ySign = -1;
+            		}
+            		else {
+HXLINE( 584)			ySign = 1;
+            		}
+HXLINE( 586)		this->_hx___inflateBounds((x - (this->_hx___strokePadding * ( (Float)(xSign) ))),(y - (this->_hx___strokePadding * ( (Float)(ySign) ))));
+HXLINE( 587)		this->_hx___inflateBounds(((x + width) + (this->_hx___strokePadding * ( (Float)(xSign) ))),((y + height) + (this->_hx___strokePadding * ( (Float)(ySign) ))));
+HXLINE( 589)		this->_hx___commands->drawRoundRect(x,y,width,height,ellipseWidth,ellipseHeight);
+HXLINE( 591)		this->set___dirty(true);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC6(Graphics_obj,drawRoundRect,(void))
 
 void Graphics_obj::drawRoundRectComplex(Float x,Float y,Float width,Float height,Float topLeftRadius,Float topRightRadius,Float bottomLeftRadius,Float bottomRightRadius){
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_1047_drawRoundRectComplex)
-HXLINE(1048)		bool _hx_tmp;
-HXDLIN(1048)		if (!((width <= 0))) {
-HXLINE(1048)			_hx_tmp = (height <= 0);
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_596_drawRoundRectComplex)
+HXLINE( 597)		bool _hx_tmp;
+HXDLIN( 597)		if (!((width <= 0))) {
+HXLINE( 597)			_hx_tmp = (height <= 0);
             		}
             		else {
-HXLINE(1048)			_hx_tmp = true;
+HXLINE( 597)			_hx_tmp = true;
             		}
-HXDLIN(1048)		if (_hx_tmp) {
-HXLINE(1048)			return;
+HXDLIN( 597)		if (_hx_tmp) {
+HXLINE( 597)			return;
             		}
-HXLINE(1050)		this->_hx___inflateBounds((x - this->_hx___strokePadding),(y - this->_hx___strokePadding));
-HXLINE(1051)		this->_hx___inflateBounds(((x + width) + this->_hx___strokePadding),((y + height) + this->_hx___strokePadding));
-HXLINE(1053)		Float xw = (x + width);
-HXLINE(1054)		Float yh = (y + height);
-HXLINE(1055)		Float minSize;
-HXDLIN(1055)		if ((width < height)) {
-HXLINE(1055)			minSize = (width * ( (Float)(2) ));
+HXLINE( 599)		this->_hx___inflateBounds((x - this->_hx___strokePadding),(y - this->_hx___strokePadding));
+HXLINE( 600)		this->_hx___inflateBounds(((x + width) + this->_hx___strokePadding),((y + height) + this->_hx___strokePadding));
+HXLINE( 602)		Float xw = (x + width);
+HXLINE( 603)		Float yh = (y + height);
+HXLINE( 604)		Float minSize;
+HXDLIN( 604)		if ((width < height)) {
+HXLINE( 604)			minSize = (width * ( (Float)(2) ));
             		}
             		else {
-HXLINE(1055)			minSize = (height * ( (Float)(2) ));
+HXLINE( 604)			minSize = (height * ( (Float)(2) ));
             		}
-HXLINE(1056)		if (!((topLeftRadius < minSize))) {
-HXLINE(1056)			topLeftRadius = minSize;
+HXLINE( 605)		if (!((topLeftRadius < minSize))) {
+HXLINE( 605)			topLeftRadius = minSize;
             		}
-HXLINE(1057)		if (!((topRightRadius < minSize))) {
-HXLINE(1057)			topRightRadius = minSize;
+HXLINE( 606)		if (!((topRightRadius < minSize))) {
+HXLINE( 606)			topRightRadius = minSize;
             		}
-HXLINE(1058)		if (!((bottomLeftRadius < minSize))) {
-HXLINE(1058)			bottomLeftRadius = minSize;
+HXLINE( 607)		if (!((bottomLeftRadius < minSize))) {
+HXLINE( 607)			bottomLeftRadius = minSize;
             		}
-HXLINE(1059)		if (!((bottomRightRadius < minSize))) {
-HXLINE(1059)			bottomRightRadius = minSize;
+HXLINE( 608)		if (!((bottomRightRadius < minSize))) {
+HXLINE( 608)			bottomRightRadius = minSize;
             		}
-HXLINE(1061)		Float anchor = (( (Float)(1) ) - ::Math_obj::sin((( (Float)(45) ) * (::Math_obj::PI / ( (Float)(180) )))));
-HXLINE(1062)		Float control = (( (Float)(1) ) - ::Math_obj::tan((((Float)22.5) * (::Math_obj::PI / ( (Float)(180) )))));
-HXLINE(1064)		Float a = (bottomRightRadius * anchor);
-HXLINE(1065)		Float s = (bottomRightRadius * control);
-HXLINE(1066)		this->moveTo(xw,(yh - bottomRightRadius));
-HXLINE(1067)		this->curveTo(xw,(yh - s),(xw - a),(yh - a));
-HXLINE(1068)		this->curveTo((xw - s),yh,(xw - bottomRightRadius),yh);
-HXLINE(1070)		a = (bottomLeftRadius * anchor);
-HXLINE(1071)		s = (bottomLeftRadius * control);
-HXLINE(1072)		this->lineTo((x + bottomLeftRadius),yh);
-HXLINE(1073)		this->curveTo((x + s),yh,(x + a),(yh - a));
-HXLINE(1074)		this->curveTo(x,(yh - s),x,(yh - bottomLeftRadius));
-HXLINE(1076)		a = (topLeftRadius * anchor);
-HXLINE(1077)		s = (topLeftRadius * control);
-HXLINE(1078)		this->lineTo(x,(y + topLeftRadius));
-HXLINE(1079)		this->curveTo(x,(y + s),(x + a),(y + a));
-HXLINE(1080)		this->curveTo((x + s),y,(x + topLeftRadius),y);
-HXLINE(1082)		a = (topRightRadius * anchor);
-HXLINE(1083)		s = (topRightRadius * control);
-HXLINE(1084)		this->lineTo((xw - topRightRadius),y);
-HXLINE(1085)		this->curveTo((xw - s),y,(xw - a),(y + a));
-HXLINE(1086)		this->curveTo(xw,(y + s),xw,(y + topRightRadius));
-HXLINE(1087)		this->lineTo(xw,(yh - bottomRightRadius));
-HXLINE(1089)		this->set___dirty(true);
+HXLINE( 610)		Float anchor = (( (Float)(1) ) - ::Math_obj::sin((( (Float)(45) ) * (::Math_obj::PI / ( (Float)(180) )))));
+HXLINE( 611)		Float control = (( (Float)(1) ) - ::Math_obj::tan((((Float)22.5) * (::Math_obj::PI / ( (Float)(180) )))));
+HXLINE( 613)		Float a = (bottomRightRadius * anchor);
+HXLINE( 614)		Float s = (bottomRightRadius * control);
+HXLINE( 615)		this->moveTo(xw,(yh - bottomRightRadius));
+HXLINE( 616)		this->curveTo(xw,(yh - s),(xw - a),(yh - a));
+HXLINE( 617)		this->curveTo((xw - s),yh,(xw - bottomRightRadius),yh);
+HXLINE( 619)		a = (bottomLeftRadius * anchor);
+HXLINE( 620)		s = (bottomLeftRadius * control);
+HXLINE( 621)		this->lineTo((x + bottomLeftRadius),yh);
+HXLINE( 622)		this->curveTo((x + s),yh,(x + a),(yh - a));
+HXLINE( 623)		this->curveTo(x,(yh - s),x,(yh - bottomLeftRadius));
+HXLINE( 625)		a = (topLeftRadius * anchor);
+HXLINE( 626)		s = (topLeftRadius * control);
+HXLINE( 627)		this->lineTo(x,(y + topLeftRadius));
+HXLINE( 628)		this->curveTo(x,(y + s),(x + a),(y + a));
+HXLINE( 629)		this->curveTo((x + s),y,(x + topLeftRadius),y);
+HXLINE( 631)		a = (topRightRadius * anchor);
+HXLINE( 632)		s = (topRightRadius * control);
+HXLINE( 633)		this->lineTo((xw - topRightRadius),y);
+HXLINE( 634)		this->curveTo((xw - s),y,(xw - a),(y + a));
+HXLINE( 635)		this->curveTo(xw,(y + s),xw,(y + topRightRadius));
+HXLINE( 636)		this->lineTo(xw,(yh - bottomRightRadius));
+HXLINE( 638)		this->set___dirty(true);
             	}
 
 
@@ -1085,80 +1085,80 @@ HX_DEFINE_DYNAMIC_FUNC8(Graphics_obj,drawRoundRectComplex,(void))
 void Graphics_obj::drawTriangles( ::openfl::_Vector::FloatVector vertices, ::openfl::_Vector::IntVector indices, ::openfl::_Vector::FloatVector uvtData, ::Dynamic __o_culling){
             		 ::Dynamic culling = __o_culling;
             		if (::hx::IsNull(__o_culling)) culling = 1;
-            	HX_GC_STACKFRAME(&_hx_pos_043516e11ce5c7d5_1112_drawTriangles)
-HXLINE(1113)		bool _hx_tmp;
-HXDLIN(1113)		if (::hx::IsNotNull( vertices )) {
-HXLINE(1113)			_hx_tmp = (vertices->get_length() == 0);
+            	HX_GC_STACKFRAME(&_hx_pos_043516e11ce5c7d5_643_drawTriangles)
+HXLINE( 644)		bool _hx_tmp;
+HXDLIN( 644)		if (::hx::IsNotNull( vertices )) {
+HXLINE( 644)			_hx_tmp = (vertices->get_length() == 0);
             		}
             		else {
-HXLINE(1113)			_hx_tmp = true;
+HXLINE( 644)			_hx_tmp = true;
             		}
-HXDLIN(1113)		if (_hx_tmp) {
-HXLINE(1113)			return;
+HXDLIN( 644)		if (_hx_tmp) {
+HXLINE( 644)			return;
             		}
-HXLINE(1115)		int vertLength = ::Std_obj::_hx_int((( (Float)(vertices->get_length()) ) / ( (Float)(2) )));
-HXLINE(1117)		if (::hx::IsNull( indices )) {
-HXLINE(1121)			if ((::hx::Mod(vertLength,3) != 0)) {
-HXLINE(1123)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::ArgumentError_obj::__alloc( HX_CTX ,HX_("Not enough vertices to close a triangle.",fe,c6,58,0d))));
+HXLINE( 646)		int vertLength = ::Std_obj::_hx_int((( (Float)(vertices->get_length()) ) / ( (Float)(2) )));
+HXLINE( 648)		if (::hx::IsNull( indices )) {
+HXLINE( 652)			if ((::hx::Mod(vertLength,3) != 0)) {
+HXLINE( 654)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::ArgumentError_obj::__alloc( HX_CTX ,HX_("Not enough vertices to close a triangle.",fe,c6,58,0d))));
             			}
-HXLINE(1126)			int length = null();
-HXDLIN(1126)			bool fixed = null();
-HXDLIN(1126)			::Array< int > array = null();
-HXDLIN(1126)			indices =  ::openfl::_Vector::IntVector_obj::__alloc( HX_CTX ,length,fixed,array);
-HXLINE(1128)			{
-HXLINE(1128)				int _g = 0;
-HXDLIN(1128)				int _g1 = vertLength;
-HXDLIN(1128)				while((_g < _g1)){
-HXLINE(1128)					_g = (_g + 1);
-HXDLIN(1128)					int i = (_g - 1);
-HXLINE(1130)					indices->push(i);
-            				}
-            			}
-            		}
-HXLINE(1134)		if (::hx::IsNull( culling )) {
-HXLINE(1136)			culling = 1;
-            		}
-HXLINE(1139)		Float x;
-HXDLIN(1139)		Float y;
-HXLINE(1140)		Float minX = ::Math_obj::POSITIVE_INFINITY;
-HXLINE(1141)		Float minY = ::Math_obj::POSITIVE_INFINITY;
-HXLINE(1142)		Float maxX = ::Math_obj::NEGATIVE_INFINITY;
-HXLINE(1143)		Float maxY = ::Math_obj::NEGATIVE_INFINITY;
-HXLINE(1145)		{
-HXLINE(1145)			int _g = 0;
-HXDLIN(1145)			int _g1 = vertLength;
-HXDLIN(1145)			while((_g < _g1)){
-HXLINE(1145)				_g = (_g + 1);
-HXDLIN(1145)				int i = (_g - 1);
-HXLINE(1147)				x = vertices->get((i * 2));
-HXLINE(1148)				y = vertices->get(((i * 2) + 1));
-HXLINE(1150)				if ((minX > x)) {
-HXLINE(1150)					minX = x;
-            				}
-HXLINE(1151)				if ((minY > y)) {
-HXLINE(1151)					minY = y;
-            				}
-HXLINE(1152)				if ((maxX < x)) {
-HXLINE(1152)					maxX = x;
-            				}
-HXLINE(1153)				if ((maxY < y)) {
-HXLINE(1153)					maxY = y;
+HXLINE( 657)			int length = null();
+HXDLIN( 657)			bool fixed = null();
+HXDLIN( 657)			::Array< int > array = null();
+HXDLIN( 657)			indices =  ::openfl::_Vector::IntVector_obj::__alloc( HX_CTX ,length,fixed,array);
+HXLINE( 659)			{
+HXLINE( 659)				int _g = 0;
+HXDLIN( 659)				int _g1 = vertLength;
+HXDLIN( 659)				while((_g < _g1)){
+HXLINE( 659)					_g = (_g + 1);
+HXDLIN( 659)					int i = (_g - 1);
+HXLINE( 661)					indices->push(i);
             				}
             			}
             		}
-HXLINE(1156)		this->_hx___inflateBounds(minX,minY);
-HXLINE(1157)		this->_hx___inflateBounds(maxX,maxY);
-HXLINE(1159)		this->_hx___commands->drawTriangles(vertices,indices,uvtData,culling);
-HXLINE(1161)		this->set___dirty(true);
-HXLINE(1162)		this->_hx___visible = true;
+HXLINE( 665)		if (::hx::IsNull( culling )) {
+HXLINE( 667)			culling = 1;
+            		}
+HXLINE( 670)		Float x;
+HXDLIN( 670)		Float y;
+HXLINE( 671)		Float minX = ::Math_obj::POSITIVE_INFINITY;
+HXLINE( 672)		Float minY = ::Math_obj::POSITIVE_INFINITY;
+HXLINE( 673)		Float maxX = ::Math_obj::NEGATIVE_INFINITY;
+HXLINE( 674)		Float maxY = ::Math_obj::NEGATIVE_INFINITY;
+HXLINE( 676)		{
+HXLINE( 676)			int _g = 0;
+HXDLIN( 676)			int _g1 = vertLength;
+HXDLIN( 676)			while((_g < _g1)){
+HXLINE( 676)				_g = (_g + 1);
+HXDLIN( 676)				int i = (_g - 1);
+HXLINE( 678)				x = vertices->get((i * 2));
+HXLINE( 679)				y = vertices->get(((i * 2) + 1));
+HXLINE( 681)				if ((minX > x)) {
+HXLINE( 681)					minX = x;
+            				}
+HXLINE( 682)				if ((minY > y)) {
+HXLINE( 682)					minY = y;
+            				}
+HXLINE( 683)				if ((maxX < x)) {
+HXLINE( 683)					maxX = x;
+            				}
+HXLINE( 684)				if ((maxY < y)) {
+HXLINE( 684)					maxY = y;
+            				}
+            			}
+            		}
+HXLINE( 687)		this->_hx___inflateBounds(minX,minY);
+HXLINE( 688)		this->_hx___inflateBounds(maxX,maxY);
+HXLINE( 690)		this->_hx___commands->drawTriangles(vertices,indices,uvtData,culling);
+HXLINE( 692)		this->set___dirty(true);
+HXLINE( 693)		this->_hx___visible = true;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC4(Graphics_obj,drawTriangles,(void))
 
 void Graphics_obj::endFill(){
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_1178_endFill)
-HXDLIN(1178)		this->_hx___commands->endFill();
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_698_endFill)
+HXDLIN( 698)		this->_hx___commands->endFill();
             	}
 
 
@@ -1167,16 +1167,16 @@ HX_DEFINE_DYNAMIC_FUNC0(Graphics_obj,endFill,(void))
 void Graphics_obj::lineBitmapStyle( ::openfl::display::BitmapData bitmap, ::openfl::geom::Matrix matrix,::hx::Null< bool >  __o_repeat,::hx::Null< bool >  __o_smooth){
             		bool repeat = __o_repeat.Default(true);
             		bool smooth = __o_smooth.Default(false);
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_1212_lineBitmapStyle)
-HXDLIN(1212)		 ::openfl::display::_internal::DrawCommandBuffer _hx_tmp = this->_hx___commands;
-HXDLIN(1212)		 ::openfl::geom::Matrix _hx_tmp1;
-HXDLIN(1212)		if (::hx::IsNotNull( matrix )) {
-HXDLIN(1212)			_hx_tmp1 = matrix->clone();
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_703_lineBitmapStyle)
+HXDLIN( 703)		 ::openfl::display::_internal::DrawCommandBuffer _hx_tmp = this->_hx___commands;
+HXDLIN( 703)		 ::openfl::geom::Matrix _hx_tmp1;
+HXDLIN( 703)		if (::hx::IsNotNull( matrix )) {
+HXDLIN( 703)			_hx_tmp1 = matrix->clone();
             		}
             		else {
-HXDLIN(1212)			_hx_tmp1 = null();
+HXDLIN( 703)			_hx_tmp1 = null();
             		}
-HXDLIN(1212)		_hx_tmp->lineBitmapStyle(bitmap,_hx_tmp1,repeat,smooth);
+HXDLIN( 703)		_hx_tmp->lineBitmapStyle(bitmap,_hx_tmp1,repeat,smooth);
             	}
 
 
@@ -1188,8 +1188,8 @@ void Graphics_obj::lineGradientStyle( ::Dynamic type,::Array< int > colors,::Arr
             		 ::Dynamic interpolationMethod = __o_interpolationMethod;
             		if (::hx::IsNull(__o_interpolationMethod)) interpolationMethod = 1;
             		Float focalPointRatio = __o_focalPointRatio.Default(0);
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_1291_lineGradientStyle)
-HXDLIN(1291)		this->_hx___commands->lineGradientStyle(type,colors,alphas,ratios,matrix,spreadMethod,interpolationMethod,focalPointRatio);
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_709_lineGradientStyle)
+HXDLIN( 709)		this->_hx___commands->lineGradientStyle(type,colors,alphas,ratios,matrix,spreadMethod,interpolationMethod,focalPointRatio);
             	}
 
 
@@ -1202,22 +1202,22 @@ void Graphics_obj::lineStyle( ::Dynamic thickness,::hx::Null< int >  __o_color,:
             		 ::Dynamic scaleMode = __o_scaleMode;
             		if (::hx::IsNull(__o_scaleMode)) scaleMode = 2;
             		Float miterLimit = __o_miterLimit.Default(3);
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_1473_lineStyle)
-HXLINE(1474)		if (::hx::IsNotNull( thickness )) {
-HXLINE(1476)			if (::hx::IsEq( joints,1 )) {
-HXLINE(1478)				if (::hx::IsGreater( thickness,this->_hx___strokePadding )) {
-HXLINE(1478)					this->_hx___strokePadding = ( (Float)(::Math_obj::ceil(( (Float)(thickness) ))) );
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_714_lineStyle)
+HXLINE( 715)		if (::hx::IsNotNull( thickness )) {
+HXLINE( 717)			if (::hx::IsEq( joints,1 )) {
+HXLINE( 719)				if (::hx::IsGreater( thickness,this->_hx___strokePadding )) {
+HXLINE( 719)					this->_hx___strokePadding = ( (Float)(thickness) );
             				}
             			}
             			else {
-HXLINE(1482)				if (((( (Float)(thickness) ) / ( (Float)(2) )) > this->_hx___strokePadding)) {
-HXLINE(1482)					this->_hx___strokePadding = ( (Float)(::Math_obj::ceil((( (Float)(thickness) ) / ( (Float)(2) )))) );
+HXLINE( 723)				if (((( (Float)(thickness) ) / ( (Float)(2) )) > this->_hx___strokePadding)) {
+HXLINE( 723)					this->_hx___strokePadding = (( (Float)(thickness) ) / ( (Float)(2) ));
             				}
             			}
             		}
-HXLINE(1486)		this->_hx___commands->lineStyle(thickness,color,alpha,pixelHinting,scaleMode,caps,joints,miterLimit);
-HXLINE(1488)		if (::hx::IsNotNull( thickness )) {
-HXLINE(1488)			this->_hx___visible = true;
+HXLINE( 727)		this->_hx___commands->lineStyle(thickness,color,alpha,pixelHinting,scaleMode,caps,joints,miterLimit);
+HXLINE( 729)		if (::hx::IsNotNull( thickness )) {
+HXLINE( 729)			this->_hx___visible = true;
             		}
             	}
 
@@ -1225,46 +1225,46 @@ HXLINE(1488)			this->_hx___visible = true;
 HX_DEFINE_DYNAMIC_FUNC8(Graphics_obj,lineStyle,(void))
 
 void Graphics_obj::lineTo(Float x,Float y){
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_1508_lineTo)
-HXLINE(1509)		bool _hx_tmp;
-HXDLIN(1509)		if (::Math_obj::isFinite(x)) {
-HXLINE(1509)			_hx_tmp = !(::Math_obj::isFinite(y));
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_733_lineTo)
+HXLINE( 734)		bool _hx_tmp;
+HXDLIN( 734)		if (::Math_obj::isFinite(x)) {
+HXLINE( 734)			_hx_tmp = !(::Math_obj::isFinite(y));
             		}
             		else {
-HXLINE(1509)			_hx_tmp = true;
+HXLINE( 734)			_hx_tmp = true;
             		}
-HXDLIN(1509)		if (_hx_tmp) {
-HXLINE(1511)			return;
+HXDLIN( 734)		if (_hx_tmp) {
+HXLINE( 736)			return;
             		}
-HXLINE(1516)		this->_hx___inflateBounds((this->_hx___positionX - this->_hx___strokePadding),(this->_hx___positionY - this->_hx___strokePadding));
-HXLINE(1517)		this->_hx___inflateBounds((this->_hx___positionX + this->_hx___strokePadding),(this->_hx___positionY + this->_hx___strokePadding));
-HXLINE(1519)		this->_hx___positionX = x;
-HXLINE(1520)		this->_hx___positionY = y;
-HXLINE(1522)		this->_hx___inflateBounds((this->_hx___positionX - this->_hx___strokePadding),(this->_hx___positionY - this->_hx___strokePadding));
-HXLINE(1523)		this->_hx___inflateBounds((this->_hx___positionX + (this->_hx___strokePadding * ( (Float)(2) ))),(this->_hx___positionY + this->_hx___strokePadding));
-HXLINE(1525)		this->_hx___commands->lineTo(x,y);
-HXLINE(1527)		this->set___dirty(true);
+HXLINE( 741)		this->_hx___inflateBounds((this->_hx___positionX - this->_hx___strokePadding),(this->_hx___positionY - this->_hx___strokePadding));
+HXLINE( 742)		this->_hx___inflateBounds((this->_hx___positionX + this->_hx___strokePadding),(this->_hx___positionY + this->_hx___strokePadding));
+HXLINE( 744)		this->_hx___positionX = x;
+HXLINE( 745)		this->_hx___positionY = y;
+HXLINE( 747)		this->_hx___inflateBounds((this->_hx___positionX - this->_hx___strokePadding),(this->_hx___positionY - this->_hx___strokePadding));
+HXLINE( 748)		this->_hx___inflateBounds((this->_hx___positionX + (this->_hx___strokePadding * ( (Float)(2) ))),(this->_hx___positionY + this->_hx___strokePadding));
+HXLINE( 750)		this->_hx___commands->lineTo(x,y);
+HXLINE( 752)		this->set___dirty(true);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Graphics_obj,lineTo,(void))
 
 void Graphics_obj::moveTo(Float x,Float y){
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_1541_moveTo)
-HXLINE(1542)		this->_hx___positionX = x;
-HXLINE(1543)		this->_hx___positionY = y;
-HXLINE(1545)		this->_hx___commands->moveTo(x,y);
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_756_moveTo)
+HXLINE( 757)		this->_hx___positionX = x;
+HXLINE( 758)		this->_hx___positionY = y;
+HXLINE( 760)		this->_hx___commands->moveTo(x,y);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Graphics_obj,moveTo,(void))
 
 void Graphics_obj::overrideBlendMode( ::Dynamic blendMode){
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_1550_overrideBlendMode)
-HXLINE(1551)		if (::hx::IsNull( blendMode )) {
-HXLINE(1551)			blendMode = 10;
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_765_overrideBlendMode)
+HXLINE( 766)		if (::hx::IsNull( blendMode )) {
+HXLINE( 766)			blendMode = 10;
             		}
-HXLINE(1552)		this->_hx___commands->overrideBlendMode(blendMode);
+HXLINE( 767)		this->_hx___commands->overrideBlendMode(blendMode);
             	}
 
 
@@ -1272,134 +1272,134 @@ HX_DEFINE_DYNAMIC_FUNC1(Graphics_obj,overrideBlendMode,(void))
 
  ::openfl::_Vector::ObjectVector Graphics_obj::readGraphicsData(::hx::Null< bool >  __o_recurse){
             		bool recurse = __o_recurse.Default(true);
-            	HX_GC_STACKFRAME(&_hx_pos_043516e11ce5c7d5_1607_readGraphicsData)
-HXLINE(1608)		int length = null();
-HXDLIN(1608)		bool fixed = null();
-HXDLIN(1608)		::Array< ::Dynamic> array = null();
-HXDLIN(1608)		 ::openfl::_Vector::ObjectVector graphicsData =  ::openfl::_Vector::ObjectVector_obj::__alloc( HX_CTX ,length,fixed,array,true);
-HXLINE(1609)		this->_hx___owner->_hx___readGraphicsData(graphicsData,recurse);
-HXLINE(1610)		return graphicsData;
+            	HX_GC_STACKFRAME(&_hx_pos_043516e11ce5c7d5_771_readGraphicsData)
+HXLINE( 772)		int length = null();
+HXDLIN( 772)		bool fixed = null();
+HXDLIN( 772)		::Array< ::Dynamic> array = null();
+HXDLIN( 772)		 ::openfl::_Vector::ObjectVector graphicsData =  ::openfl::_Vector::ObjectVector_obj::__alloc( HX_CTX ,length,fixed,array,true);
+HXLINE( 773)		this->_hx___owner->_hx___readGraphicsData(graphicsData,recurse);
+HXLINE( 774)		return graphicsData;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Graphics_obj,readGraphicsData,return )
 
 Float Graphics_obj::_hx___calculateBezierCubicPoint(Float t,Float p1,Float p2,Float p3,Float p4){
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_1615___calculateBezierCubicPoint)
-HXLINE(1616)		Float iT = (( (Float)(1) ) - t);
-HXLINE(1617)		return ((((p1 * ((iT * iT) * iT)) + (((( (Float)(3) ) * p2) * t) * (iT * iT))) + (((( (Float)(3) ) * p3) * iT) * (t * t))) + (p4 * ((t * t) * t)));
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_779___calculateBezierCubicPoint)
+HXLINE( 780)		Float iT = (( (Float)(1) ) - t);
+HXLINE( 781)		return ((((p1 * ((iT * iT) * iT)) + (((( (Float)(3) ) * p2) * t) * (iT * iT))) + (((( (Float)(3) ) * p3) * iT) * (t * t))) + (p4 * ((t * t) * t)));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC5(Graphics_obj,_hx___calculateBezierCubicPoint,return )
 
 Float Graphics_obj::_hx___calculateBezierQuadPoint(Float t,Float p1,Float p2,Float p3){
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_1622___calculateBezierQuadPoint)
-HXLINE(1623)		Float iT = (( (Float)(1) ) - t);
-HXLINE(1624)		return ((((iT * iT) * p1) + (((( (Float)(2) ) * iT) * t) * p2)) + ((t * t) * p3));
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_786___calculateBezierQuadPoint)
+HXLINE( 787)		Float iT = (( (Float)(1) ) - t);
+HXLINE( 788)		return ((((iT * iT) * p1) + (((( (Float)(2) ) * iT) * t) * p2)) + ((t * t) * p3));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC4(Graphics_obj,_hx___calculateBezierQuadPoint,return )
 
 void Graphics_obj::_hx___cleanup(){
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_1628___cleanup)
-HXLINE(1636)		if (::hx::IsNotNull( this->_hx___bounds )) {
-HXLINE(1638)			this->set___dirty(true);
-HXLINE(1639)			this->_hx___transformDirty = true;
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_792___cleanup)
+HXLINE( 800)		if (::hx::IsNotNull( this->_hx___bounds )) {
+HXLINE( 802)			this->set___dirty(true);
+HXLINE( 803)			this->_hx___transformDirty = true;
             		}
-HXLINE(1643)		this->_hx___bitmap = null();
-HXLINE(1649)		this->_hx___cairo = null();
+HXLINE( 807)		this->_hx___bitmap = null();
+HXLINE( 813)		this->_hx___cairo = null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Graphics_obj,_hx___cleanup,(void))
 
 void Graphics_obj::_hx___getBounds( ::openfl::geom::Rectangle rect, ::openfl::geom::Matrix matrix){
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_1654___getBounds)
-HXLINE(1655)		if (::hx::IsNull( this->_hx___bounds )) {
-HXLINE(1655)			return;
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_818___getBounds)
+HXLINE( 819)		if (::hx::IsNull( this->_hx___bounds )) {
+HXLINE( 819)			return;
             		}
-HXLINE(1657)		 ::openfl::geom::Rectangle bounds = ::openfl::geom::Rectangle_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Rectangle >();
-HXLINE(1658)		this->_hx___bounds->_hx___transform(bounds,matrix);
-HXLINE(1659)		rect->_hx___expand(bounds->x,bounds->y,bounds->width,bounds->height);
-HXLINE(1660)		::openfl::geom::Rectangle_obj::_hx___pool->release(bounds);
+HXLINE( 821)		 ::openfl::geom::Rectangle bounds = ::openfl::geom::Rectangle_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Rectangle >();
+HXLINE( 822)		this->_hx___bounds->_hx___transform(bounds,matrix);
+HXLINE( 823)		rect->_hx___expand(bounds->x,bounds->y,bounds->width,bounds->height);
+HXLINE( 824)		::openfl::geom::Rectangle_obj::_hx___pool->release(bounds);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Graphics_obj,_hx___getBounds,(void))
 
 bool Graphics_obj::_hx___hitTest(Float x,Float y,bool shapeFlag, ::openfl::geom::Matrix matrix){
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_1664___hitTest)
-HXLINE(1665)		if (::hx::IsNull( this->_hx___bounds )) {
-HXLINE(1665)			return false;
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_828___hitTest)
+HXLINE( 829)		if (::hx::IsNull( this->_hx___bounds )) {
+HXLINE( 829)			return false;
             		}
-HXLINE(1667)		Float norm = ((matrix->a * matrix->d) - (matrix->b * matrix->c));
-HXDLIN(1667)		Float px;
-HXDLIN(1667)		if ((norm == 0)) {
-HXLINE(1667)			px = -(matrix->tx);
-            		}
-            		else {
-HXLINE(1667)			px = ((((Float)1.0) / norm) * ((matrix->c * (matrix->ty - y)) + (matrix->d * (x - matrix->tx))));
-            		}
-HXLINE(1668)		Float norm1 = ((matrix->a * matrix->d) - (matrix->b * matrix->c));
-HXDLIN(1668)		Float py;
-HXDLIN(1668)		if ((norm1 == 0)) {
-HXLINE(1668)			py = -(matrix->ty);
+HXLINE( 831)		Float norm = ((matrix->a * matrix->d) - (matrix->b * matrix->c));
+HXDLIN( 831)		Float px;
+HXDLIN( 831)		if ((norm == 0)) {
+HXLINE( 831)			px = -(matrix->tx);
             		}
             		else {
-HXLINE(1668)			py = ((((Float)1.0) / norm1) * ((matrix->a * (y - matrix->ty)) + (matrix->b * (matrix->tx - x))));
+HXLINE( 831)			px = ((((Float)1.0) / norm) * ((matrix->c * (matrix->ty - y)) + (matrix->d * (x - matrix->tx))));
             		}
-HXLINE(1670)		bool _hx_tmp;
-HXDLIN(1670)		bool _hx_tmp1;
-HXDLIN(1670)		if ((px > this->_hx___bounds->x)) {
-HXLINE(1670)			_hx_tmp1 = (py > this->_hx___bounds->y);
-            		}
-            		else {
-HXLINE(1670)			_hx_tmp1 = false;
-            		}
-HXDLIN(1670)		if (_hx_tmp1) {
-HXLINE(1670)			_hx_tmp = this->_hx___bounds->contains(px,py);
+HXLINE( 832)		Float norm1 = ((matrix->a * matrix->d) - (matrix->b * matrix->c));
+HXDLIN( 832)		Float py;
+HXDLIN( 832)		if ((norm1 == 0)) {
+HXLINE( 832)			py = -(matrix->ty);
             		}
             		else {
-HXLINE(1670)			_hx_tmp = false;
+HXLINE( 832)			py = ((((Float)1.0) / norm1) * ((matrix->a * (y - matrix->ty)) + (matrix->b * (matrix->tx - x))));
             		}
-HXDLIN(1670)		if (_hx_tmp) {
-HXLINE(1672)			if (shapeFlag) {
-HXLINE(1677)				return ::openfl::display::_internal::CairoGraphics_obj::hitTest(::hx::ObjectPtr<OBJ_>(this),px,py);
+HXLINE( 834)		bool _hx_tmp;
+HXDLIN( 834)		bool _hx_tmp1;
+HXDLIN( 834)		if ((px > this->_hx___bounds->x)) {
+HXLINE( 834)			_hx_tmp1 = (py > this->_hx___bounds->y);
+            		}
+            		else {
+HXLINE( 834)			_hx_tmp1 = false;
+            		}
+HXDLIN( 834)		if (_hx_tmp1) {
+HXLINE( 834)			_hx_tmp = this->_hx___bounds->contains(px,py);
+            		}
+            		else {
+HXLINE( 834)			_hx_tmp = false;
+            		}
+HXDLIN( 834)		if (_hx_tmp) {
+HXLINE( 836)			if (shapeFlag) {
+HXLINE( 841)				return ::openfl::display::_internal::CairoGraphics_obj::hitTest(::hx::ObjectPtr<OBJ_>(this),px,py);
             			}
-HXLINE(1681)			return true;
+HXLINE( 845)			return true;
             		}
-HXLINE(1684)		return false;
+HXLINE( 848)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC4(Graphics_obj,_hx___hitTest,return )
 
 void Graphics_obj::_hx___inflateBounds(Float x,Float y){
-            	HX_GC_STACKFRAME(&_hx_pos_043516e11ce5c7d5_1688___inflateBounds)
-HXLINE(1689)		if (::hx::IsNull( this->_hx___bounds )) {
-HXLINE(1691)			this->_hx___bounds =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,x,y,0,0);
-HXLINE(1692)			this->_hx___transformDirty = true;
-HXLINE(1693)			return;
+            	HX_GC_STACKFRAME(&_hx_pos_043516e11ce5c7d5_852___inflateBounds)
+HXLINE( 853)		if (::hx::IsNull( this->_hx___bounds )) {
+HXLINE( 855)			this->_hx___bounds =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,x,y,0,0);
+HXLINE( 856)			this->_hx___transformDirty = true;
+HXLINE( 857)			return;
             		}
-HXLINE(1696)		if ((x < this->_hx___bounds->x)) {
-HXLINE(1698)			 ::openfl::geom::Rectangle _hx_tmp = this->_hx___bounds;
-HXDLIN(1698)			_hx_tmp->width = (_hx_tmp->width + (this->_hx___bounds->x - x));
-HXLINE(1699)			this->_hx___bounds->x = x;
-HXLINE(1700)			this->_hx___transformDirty = true;
+HXLINE( 860)		if ((x < this->_hx___bounds->x)) {
+HXLINE( 862)			 ::openfl::geom::Rectangle _hx_tmp = this->_hx___bounds;
+HXDLIN( 862)			_hx_tmp->width = (_hx_tmp->width + (this->_hx___bounds->x - x));
+HXLINE( 863)			this->_hx___bounds->x = x;
+HXLINE( 864)			this->_hx___transformDirty = true;
             		}
-HXLINE(1703)		if ((y < this->_hx___bounds->y)) {
-HXLINE(1705)			 ::openfl::geom::Rectangle _hx_tmp = this->_hx___bounds;
-HXDLIN(1705)			_hx_tmp->height = (_hx_tmp->height + (this->_hx___bounds->y - y));
-HXLINE(1706)			this->_hx___bounds->y = y;
-HXLINE(1707)			this->_hx___transformDirty = true;
+HXLINE( 867)		if ((y < this->_hx___bounds->y)) {
+HXLINE( 869)			 ::openfl::geom::Rectangle _hx_tmp = this->_hx___bounds;
+HXDLIN( 869)			_hx_tmp->height = (_hx_tmp->height + (this->_hx___bounds->y - y));
+HXLINE( 870)			this->_hx___bounds->y = y;
+HXLINE( 871)			this->_hx___transformDirty = true;
             		}
-HXLINE(1710)		if ((x > (this->_hx___bounds->x + this->_hx___bounds->width))) {
-HXLINE(1712)			this->_hx___bounds->width = (x - this->_hx___bounds->x);
+HXLINE( 874)		if ((x > (this->_hx___bounds->x + this->_hx___bounds->width))) {
+HXLINE( 876)			this->_hx___bounds->width = (x - this->_hx___bounds->x);
             		}
-HXLINE(1715)		if ((y > (this->_hx___bounds->y + this->_hx___bounds->height))) {
-HXLINE(1717)			this->_hx___bounds->height = (y - this->_hx___bounds->y);
+HXLINE( 879)		if ((y > (this->_hx___bounds->y + this->_hx___bounds->height))) {
+HXLINE( 881)			this->_hx___bounds->height = (y - this->_hx___bounds->y);
             		}
             	}
 
@@ -1407,155 +1407,155 @@ HXLINE(1717)			this->_hx___bounds->height = (y - this->_hx___bounds->y);
 HX_DEFINE_DYNAMIC_FUNC2(Graphics_obj,_hx___inflateBounds,(void))
 
 void Graphics_obj::_hx___readGraphicsData( ::openfl::_Vector::ObjectVector graphicsData){
-            	HX_GC_STACKFRAME(&_hx_pos_043516e11ce5c7d5_1722___readGraphicsData)
-HXLINE(1723)		 ::openfl::display::_internal::DrawCommandReader data =  ::openfl::display::_internal::DrawCommandReader_obj::__alloc( HX_CTX ,this->_hx___commands);
-HXLINE(1724)		 ::openfl::display::GraphicsPath path = null();
-HXDLIN(1724)		 ::openfl::display::GraphicsStroke stroke;
-HXLINE(1726)		{
-HXLINE(1726)			int _g = 0;
-HXDLIN(1726)			::Array< ::Dynamic> _g1 = this->_hx___commands->types;
-HXDLIN(1726)			while((_g < _g1->length)){
-HXLINE(1726)				 ::openfl::display::_internal::DrawCommandType type = _g1->__get(_g).StaticCast<  ::openfl::display::_internal::DrawCommandType >();
-HXDLIN(1726)				_g = (_g + 1);
-HXLINE(1728)				switch((int)(type->_hx_getIndex())){
+            	HX_GC_STACKFRAME(&_hx_pos_043516e11ce5c7d5_886___readGraphicsData)
+HXLINE( 887)		 ::openfl::display::_internal::DrawCommandReader data =  ::openfl::display::_internal::DrawCommandReader_obj::__alloc( HX_CTX ,this->_hx___commands);
+HXLINE( 888)		 ::openfl::display::GraphicsPath path = null();
+HXDLIN( 888)		 ::openfl::display::GraphicsStroke stroke;
+HXLINE( 890)		{
+HXLINE( 890)			int _g = 0;
+HXDLIN( 890)			::Array< ::Dynamic> _g1 = this->_hx___commands->types;
+HXDLIN( 890)			while((_g < _g1->length)){
+HXLINE( 890)				 ::openfl::display::_internal::DrawCommandType type = _g1->__get(_g).StaticCast<  ::openfl::display::_internal::DrawCommandType >();
+HXDLIN( 890)				_g = (_g + 1);
+HXLINE( 892)				switch((int)(type->_hx_getIndex())){
             					case (int)4: case (int)5: case (int)6: case (int)7: case (int)9: case (int)10: case (int)17: case (int)18: {
-HXLINE(1731)						if (::hx::IsNull( path )) {
-HXLINE(1733)							path =  ::openfl::display::GraphicsPath_obj::__alloc( HX_CTX ,null(),null(),null());
+HXLINE( 895)						if (::hx::IsNull( path )) {
+HXLINE( 897)							path =  ::openfl::display::GraphicsPath_obj::__alloc( HX_CTX ,null(),null(),null());
             						}
             					}
             					break;
             					default:{
-HXLINE(1737)						if (::hx::IsNotNull( path )) {
-HXLINE(1739)							graphicsData->push(path);
-HXLINE(1740)							path = null();
+HXLINE( 901)						if (::hx::IsNotNull( path )) {
+HXLINE( 903)							graphicsData->push(path);
+HXLINE( 904)							path = null();
             						}
             					}
             				}
-HXLINE(1744)				switch((int)(type->_hx_getIndex())){
+HXLINE( 908)				switch((int)(type->_hx_getIndex())){
             					case (int)0: {
-HXLINE(1806)						switch((int)(data->prev->_hx_getIndex())){
+HXLINE( 970)						switch((int)(data->prev->_hx_getIndex())){
             							case (int)0: {
-HXLINE(1806)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1806)								data1->oPos = (data1->oPos + 2);
-HXDLIN(1806)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1806)								data2->bPos = (data2->bPos + 2);
+HXLINE( 970)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 970)								data1->oPos = (data1->oPos + 2);
+HXDLIN( 970)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 970)								data2->bPos = (data2->bPos + 2);
             							}
             							break;
             							case (int)1: {
-HXLINE(1806)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1806)								data1->iPos = (data1->iPos + 1);
-HXDLIN(1806)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1806)								data2->fPos = (data2->fPos + 1);
+HXLINE( 970)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 970)								data1->iPos = (data1->iPos + 1);
+HXDLIN( 970)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 970)								data2->fPos = (data2->fPos + 1);
             							}
             							break;
             							case (int)2: {
-HXLINE(1806)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1806)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1806)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1806)								data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1806)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1806)								data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1806)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1806)								data4->fPos = (data4->fPos + 1);
+HXLINE( 970)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 970)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 970)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 970)								data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 970)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 970)								data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 970)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 970)								data4->fPos = (data4->fPos + 1);
             							}
             							break;
             							case (int)3: {
-HXLINE(1806)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1806)								data1->oPos = (data1->oPos + 1);
+HXLINE( 970)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 970)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)4: {
-HXLINE(1806)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1806)								data1->fPos = (data1->fPos + 6);
+HXLINE( 970)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 970)								data1->fPos = (data1->fPos + 6);
             							}
             							break;
             							case (int)5: {
-HXLINE(1806)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1806)								data1->fPos = (data1->fPos + 4);
+HXLINE( 970)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 970)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)6: {
-HXLINE(1806)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1806)								data1->fPos = (data1->fPos + 3);
+HXLINE( 970)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 970)								data1->fPos = (data1->fPos + 3);
             							}
             							break;
             							case (int)7: {
-HXLINE(1806)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1806)								data1->fPos = (data1->fPos + 4);
+HXLINE( 970)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 970)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)8: {
-HXLINE(1806)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1806)								data1->oPos = (data1->oPos + 3);
+HXLINE( 970)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 970)								data1->oPos = (data1->oPos + 3);
             							}
             							break;
             							case (int)9: {
-HXLINE(1806)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1806)								data1->fPos = (data1->fPos + 4);
+HXLINE( 970)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 970)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)10: {
-HXLINE(1806)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1806)								data1->fPos = (data1->fPos + 5);
-HXDLIN(1806)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1806)								data2->oPos = (data2->oPos + 1);
+HXLINE( 970)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 970)								data1->fPos = (data1->fPos + 5);
+HXDLIN( 970)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 970)								data2->oPos = (data2->oPos + 1);
             							}
             							break;
             							case (int)12: {
-HXLINE(1806)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1806)								data1->oPos = (data1->oPos + 4);
+HXLINE( 970)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 970)								data1->oPos = (data1->oPos + 4);
             							}
             							break;
             							case (int)13: {
             							}
             							break;
             							case (int)14: {
-HXLINE(1806)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1806)								data1->oPos = (data1->oPos + 2);
-HXDLIN(1806)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1806)								data2->bPos = (data2->bPos + 2);
+HXLINE( 970)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 970)								data1->oPos = (data1->oPos + 2);
+HXDLIN( 970)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 970)								data2->bPos = (data2->bPos + 2);
             							}
             							break;
             							case (int)15: {
-HXLINE(1806)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1806)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1806)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1806)								data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1806)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1806)								data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1806)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1806)								data4->fPos = (data4->fPos + 1);
+HXLINE( 970)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 970)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 970)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 970)								data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 970)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 970)								data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 970)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 970)								data4->fPos = (data4->fPos + 1);
             							}
             							break;
             							case (int)16: {
-HXLINE(1806)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1806)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1806)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1806)								data2->iPos = (data2->iPos + 1);
-HXDLIN(1806)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1806)								data3->fPos = (data3->fPos + 2);
-HXDLIN(1806)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1806)								data4->bPos = (data4->bPos + 1);
+HXLINE( 970)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 970)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 970)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 970)								data2->iPos = (data2->iPos + 1);
+HXDLIN( 970)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 970)								data3->fPos = (data3->fPos + 2);
+HXDLIN( 970)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 970)								data4->bPos = (data4->bPos + 1);
             							}
             							break;
             							case (int)17: {
-HXLINE(1806)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1806)								data1->fPos = (data1->fPos + 2);
+HXLINE( 970)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 970)								data1->fPos = (data1->fPos + 2);
             							}
             							break;
             							case (int)18: {
-HXLINE(1806)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1806)								data1->fPos = (data1->fPos + 2);
+HXLINE( 970)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 970)								data1->fPos = (data1->fPos + 2);
             							}
             							break;
             							case (int)19: {
-HXLINE(1806)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1806)								data1->oPos = (data1->oPos + 1);
+HXLINE( 970)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 970)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)20: {
-HXLINE(1806)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1806)								data1->oPos = (data1->oPos + 1);
+HXLINE( 970)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 970)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)21: case (int)22: {
@@ -1564,136 +1564,136 @@ HXDLIN(1806)								data1->oPos = (data1->oPos + 1);
             							default:{
             							}
             						}
-HXLINE(1806)						data->prev = ::openfl::display::_internal::DrawCommandType_obj::BEGIN_BITMAP_FILL_dyn();
-HXDLIN(1806)						 ::openfl::display::_internal::DrawCommandReader this1 = data;
-HXDLIN(1806)						 ::openfl::display::_internal::DrawCommandReader c = this1;
-HXLINE(1807)						graphicsData->push( ::openfl::display::GraphicsBitmapFill_obj::__alloc( HX_CTX ,( ( ::openfl::display::BitmapData)(c->buffer->o->__get(c->oPos)) ),( ( ::openfl::geom::Matrix)(c->buffer->o->__get((c->oPos + 1))) ),c->buffer->b->__get(c->bPos),c->buffer->b->__get((c->bPos + 1))));
+HXLINE( 970)						data->prev = ::openfl::display::_internal::DrawCommandType_obj::BEGIN_BITMAP_FILL_dyn();
+HXDLIN( 970)						 ::openfl::display::_internal::DrawCommandReader this1 = data;
+HXDLIN( 970)						 ::openfl::display::_internal::DrawCommandReader c = this1;
+HXLINE( 971)						graphicsData->push( ::openfl::display::GraphicsBitmapFill_obj::__alloc( HX_CTX ,( ( ::openfl::display::BitmapData)(c->buffer->o->__get(c->oPos)) ),( ( ::openfl::geom::Matrix)(c->buffer->o->__get((c->oPos + 1))) ),c->buffer->b->__get(c->bPos),c->buffer->b->__get((c->bPos + 1))));
             					}
             					break;
             					case (int)1: {
-HXLINE(1810)						switch((int)(data->prev->_hx_getIndex())){
+HXLINE( 974)						switch((int)(data->prev->_hx_getIndex())){
             							case (int)0: {
-HXLINE(1810)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1810)								data1->oPos = (data1->oPos + 2);
-HXDLIN(1810)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1810)								data2->bPos = (data2->bPos + 2);
+HXLINE( 974)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 974)								data1->oPos = (data1->oPos + 2);
+HXDLIN( 974)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 974)								data2->bPos = (data2->bPos + 2);
             							}
             							break;
             							case (int)1: {
-HXLINE(1810)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1810)								data1->iPos = (data1->iPos + 1);
-HXDLIN(1810)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1810)								data2->fPos = (data2->fPos + 1);
+HXLINE( 974)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 974)								data1->iPos = (data1->iPos + 1);
+HXDLIN( 974)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 974)								data2->fPos = (data2->fPos + 1);
             							}
             							break;
             							case (int)2: {
-HXLINE(1810)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1810)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1810)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1810)								data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1810)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1810)								data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1810)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1810)								data4->fPos = (data4->fPos + 1);
+HXLINE( 974)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 974)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 974)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 974)								data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 974)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 974)								data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 974)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 974)								data4->fPos = (data4->fPos + 1);
             							}
             							break;
             							case (int)3: {
-HXLINE(1810)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1810)								data1->oPos = (data1->oPos + 1);
+HXLINE( 974)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 974)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)4: {
-HXLINE(1810)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1810)								data1->fPos = (data1->fPos + 6);
+HXLINE( 974)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 974)								data1->fPos = (data1->fPos + 6);
             							}
             							break;
             							case (int)5: {
-HXLINE(1810)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1810)								data1->fPos = (data1->fPos + 4);
+HXLINE( 974)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 974)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)6: {
-HXLINE(1810)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1810)								data1->fPos = (data1->fPos + 3);
+HXLINE( 974)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 974)								data1->fPos = (data1->fPos + 3);
             							}
             							break;
             							case (int)7: {
-HXLINE(1810)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1810)								data1->fPos = (data1->fPos + 4);
+HXLINE( 974)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 974)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)8: {
-HXLINE(1810)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1810)								data1->oPos = (data1->oPos + 3);
+HXLINE( 974)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 974)								data1->oPos = (data1->oPos + 3);
             							}
             							break;
             							case (int)9: {
-HXLINE(1810)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1810)								data1->fPos = (data1->fPos + 4);
+HXLINE( 974)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 974)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)10: {
-HXLINE(1810)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1810)								data1->fPos = (data1->fPos + 5);
-HXDLIN(1810)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1810)								data2->oPos = (data2->oPos + 1);
+HXLINE( 974)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 974)								data1->fPos = (data1->fPos + 5);
+HXDLIN( 974)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 974)								data2->oPos = (data2->oPos + 1);
             							}
             							break;
             							case (int)12: {
-HXLINE(1810)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1810)								data1->oPos = (data1->oPos + 4);
+HXLINE( 974)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 974)								data1->oPos = (data1->oPos + 4);
             							}
             							break;
             							case (int)13: {
             							}
             							break;
             							case (int)14: {
-HXLINE(1810)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1810)								data1->oPos = (data1->oPos + 2);
-HXDLIN(1810)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1810)								data2->bPos = (data2->bPos + 2);
+HXLINE( 974)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 974)								data1->oPos = (data1->oPos + 2);
+HXDLIN( 974)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 974)								data2->bPos = (data2->bPos + 2);
             							}
             							break;
             							case (int)15: {
-HXLINE(1810)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1810)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1810)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1810)								data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1810)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1810)								data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1810)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1810)								data4->fPos = (data4->fPos + 1);
+HXLINE( 974)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 974)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 974)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 974)								data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 974)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 974)								data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 974)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 974)								data4->fPos = (data4->fPos + 1);
             							}
             							break;
             							case (int)16: {
-HXLINE(1810)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1810)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1810)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1810)								data2->iPos = (data2->iPos + 1);
-HXDLIN(1810)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1810)								data3->fPos = (data3->fPos + 2);
-HXDLIN(1810)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1810)								data4->bPos = (data4->bPos + 1);
+HXLINE( 974)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 974)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 974)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 974)								data2->iPos = (data2->iPos + 1);
+HXDLIN( 974)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 974)								data3->fPos = (data3->fPos + 2);
+HXDLIN( 974)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 974)								data4->bPos = (data4->bPos + 1);
             							}
             							break;
             							case (int)17: {
-HXLINE(1810)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1810)								data1->fPos = (data1->fPos + 2);
+HXLINE( 974)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 974)								data1->fPos = (data1->fPos + 2);
             							}
             							break;
             							case (int)18: {
-HXLINE(1810)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1810)								data1->fPos = (data1->fPos + 2);
+HXLINE( 974)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 974)								data1->fPos = (data1->fPos + 2);
             							}
             							break;
             							case (int)19: {
-HXLINE(1810)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1810)								data1->oPos = (data1->oPos + 1);
+HXLINE( 974)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 974)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)20: {
-HXLINE(1810)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1810)								data1->oPos = (data1->oPos + 1);
+HXLINE( 974)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 974)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)21: case (int)22: {
@@ -1702,136 +1702,136 @@ HXDLIN(1810)								data1->oPos = (data1->oPos + 1);
             							default:{
             							}
             						}
-HXLINE(1810)						data->prev = ::openfl::display::_internal::DrawCommandType_obj::BEGIN_FILL_dyn();
-HXDLIN(1810)						 ::openfl::display::_internal::DrawCommandReader this1 = data;
-HXDLIN(1810)						 ::openfl::display::_internal::DrawCommandReader c = this1;
-HXLINE(1811)						graphicsData->push( ::openfl::display::GraphicsSolidFill_obj::__alloc( HX_CTX ,c->buffer->i->__get(c->iPos),1));
+HXLINE( 974)						data->prev = ::openfl::display::_internal::DrawCommandType_obj::BEGIN_FILL_dyn();
+HXDLIN( 974)						 ::openfl::display::_internal::DrawCommandReader this1 = data;
+HXDLIN( 974)						 ::openfl::display::_internal::DrawCommandReader c = this1;
+HXLINE( 975)						graphicsData->push( ::openfl::display::GraphicsSolidFill_obj::__alloc( HX_CTX ,c->buffer->i->__get(c->iPos),1));
             					}
             					break;
             					case (int)2: {
-HXLINE(1814)						switch((int)(data->prev->_hx_getIndex())){
+HXLINE( 978)						switch((int)(data->prev->_hx_getIndex())){
             							case (int)0: {
-HXLINE(1814)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1814)								data1->oPos = (data1->oPos + 2);
-HXDLIN(1814)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1814)								data2->bPos = (data2->bPos + 2);
+HXLINE( 978)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 978)								data1->oPos = (data1->oPos + 2);
+HXDLIN( 978)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 978)								data2->bPos = (data2->bPos + 2);
             							}
             							break;
             							case (int)1: {
-HXLINE(1814)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1814)								data1->iPos = (data1->iPos + 1);
-HXDLIN(1814)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1814)								data2->fPos = (data2->fPos + 1);
+HXLINE( 978)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 978)								data1->iPos = (data1->iPos + 1);
+HXDLIN( 978)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 978)								data2->fPos = (data2->fPos + 1);
             							}
             							break;
             							case (int)2: {
-HXLINE(1814)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1814)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1814)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1814)								data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1814)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1814)								data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1814)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1814)								data4->fPos = (data4->fPos + 1);
+HXLINE( 978)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 978)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 978)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 978)								data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 978)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 978)								data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 978)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 978)								data4->fPos = (data4->fPos + 1);
             							}
             							break;
             							case (int)3: {
-HXLINE(1814)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1814)								data1->oPos = (data1->oPos + 1);
+HXLINE( 978)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 978)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)4: {
-HXLINE(1814)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1814)								data1->fPos = (data1->fPos + 6);
+HXLINE( 978)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 978)								data1->fPos = (data1->fPos + 6);
             							}
             							break;
             							case (int)5: {
-HXLINE(1814)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1814)								data1->fPos = (data1->fPos + 4);
+HXLINE( 978)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 978)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)6: {
-HXLINE(1814)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1814)								data1->fPos = (data1->fPos + 3);
+HXLINE( 978)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 978)								data1->fPos = (data1->fPos + 3);
             							}
             							break;
             							case (int)7: {
-HXLINE(1814)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1814)								data1->fPos = (data1->fPos + 4);
+HXLINE( 978)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 978)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)8: {
-HXLINE(1814)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1814)								data1->oPos = (data1->oPos + 3);
+HXLINE( 978)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 978)								data1->oPos = (data1->oPos + 3);
             							}
             							break;
             							case (int)9: {
-HXLINE(1814)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1814)								data1->fPos = (data1->fPos + 4);
+HXLINE( 978)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 978)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)10: {
-HXLINE(1814)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1814)								data1->fPos = (data1->fPos + 5);
-HXDLIN(1814)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1814)								data2->oPos = (data2->oPos + 1);
+HXLINE( 978)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 978)								data1->fPos = (data1->fPos + 5);
+HXDLIN( 978)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 978)								data2->oPos = (data2->oPos + 1);
             							}
             							break;
             							case (int)12: {
-HXLINE(1814)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1814)								data1->oPos = (data1->oPos + 4);
+HXLINE( 978)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 978)								data1->oPos = (data1->oPos + 4);
             							}
             							break;
             							case (int)13: {
             							}
             							break;
             							case (int)14: {
-HXLINE(1814)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1814)								data1->oPos = (data1->oPos + 2);
-HXDLIN(1814)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1814)								data2->bPos = (data2->bPos + 2);
+HXLINE( 978)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 978)								data1->oPos = (data1->oPos + 2);
+HXDLIN( 978)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 978)								data2->bPos = (data2->bPos + 2);
             							}
             							break;
             							case (int)15: {
-HXLINE(1814)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1814)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1814)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1814)								data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1814)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1814)								data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1814)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1814)								data4->fPos = (data4->fPos + 1);
+HXLINE( 978)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 978)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 978)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 978)								data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 978)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 978)								data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 978)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 978)								data4->fPos = (data4->fPos + 1);
             							}
             							break;
             							case (int)16: {
-HXLINE(1814)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1814)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1814)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1814)								data2->iPos = (data2->iPos + 1);
-HXDLIN(1814)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1814)								data3->fPos = (data3->fPos + 2);
-HXDLIN(1814)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1814)								data4->bPos = (data4->bPos + 1);
+HXLINE( 978)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 978)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 978)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 978)								data2->iPos = (data2->iPos + 1);
+HXDLIN( 978)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 978)								data3->fPos = (data3->fPos + 2);
+HXDLIN( 978)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 978)								data4->bPos = (data4->bPos + 1);
             							}
             							break;
             							case (int)17: {
-HXLINE(1814)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1814)								data1->fPos = (data1->fPos + 2);
+HXLINE( 978)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 978)								data1->fPos = (data1->fPos + 2);
             							}
             							break;
             							case (int)18: {
-HXLINE(1814)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1814)								data1->fPos = (data1->fPos + 2);
+HXLINE( 978)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 978)								data1->fPos = (data1->fPos + 2);
             							}
             							break;
             							case (int)19: {
-HXLINE(1814)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1814)								data1->oPos = (data1->oPos + 1);
+HXLINE( 978)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 978)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)20: {
-HXLINE(1814)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1814)								data1->oPos = (data1->oPos + 1);
+HXLINE( 978)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 978)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)21: case (int)22: {
@@ -1840,139 +1840,139 @@ HXDLIN(1814)								data1->oPos = (data1->oPos + 1);
             							default:{
             							}
             						}
-HXLINE(1814)						data->prev = ::openfl::display::_internal::DrawCommandType_obj::BEGIN_GRADIENT_FILL_dyn();
-HXDLIN(1814)						 ::openfl::display::_internal::DrawCommandReader this1 = data;
-HXDLIN(1814)						 ::openfl::display::_internal::DrawCommandReader c = this1;
-HXLINE(1815)						graphicsData->push( ::openfl::display::GraphicsGradientFill_obj::__alloc( HX_CTX ,c->buffer->o->__get(c->oPos),c->buffer->ii->__get(c->iiPos).StaticCast< ::Array< int > >(),c->buffer->ff->__get(c->ffPos).StaticCast< ::Array< Float > >(),c->buffer->ii->__get((c->iiPos + 1)).StaticCast< ::Array< int > >(),( ( ::openfl::geom::Matrix)(c->buffer->o->__get((c->oPos + 1))) ),c->buffer->o->__get((c->oPos + 2)),c->buffer->o->__get((c->oPos + 3)),c->buffer->f->__get(c->fPos)));
+HXLINE( 978)						data->prev = ::openfl::display::_internal::DrawCommandType_obj::BEGIN_GRADIENT_FILL_dyn();
+HXDLIN( 978)						 ::openfl::display::_internal::DrawCommandReader this1 = data;
+HXDLIN( 978)						 ::openfl::display::_internal::DrawCommandReader c = this1;
+HXLINE( 979)						graphicsData->push( ::openfl::display::GraphicsGradientFill_obj::__alloc( HX_CTX ,c->buffer->o->__get(c->oPos),c->buffer->ii->__get(c->iiPos).StaticCast< ::Array< int > >(),c->buffer->ff->__get(c->ffPos).StaticCast< ::Array< Float > >(),c->buffer->ii->__get((c->iiPos + 1)).StaticCast< ::Array< int > >(),( ( ::openfl::geom::Matrix)(c->buffer->o->__get((c->oPos + 1))) ),c->buffer->o->__get((c->oPos + 2)),c->buffer->o->__get((c->oPos + 3)),c->buffer->f->__get(c->fPos)));
             					}
             					break;
             					case (int)3: {
             					}
             					break;
             					case (int)4: {
-HXLINE(1747)						switch((int)(data->prev->_hx_getIndex())){
+HXLINE( 911)						switch((int)(data->prev->_hx_getIndex())){
             							case (int)0: {
-HXLINE(1747)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1747)								data1->oPos = (data1->oPos + 2);
-HXDLIN(1747)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1747)								data2->bPos = (data2->bPos + 2);
+HXLINE( 911)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 911)								data1->oPos = (data1->oPos + 2);
+HXDLIN( 911)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 911)								data2->bPos = (data2->bPos + 2);
             							}
             							break;
             							case (int)1: {
-HXLINE(1747)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1747)								data1->iPos = (data1->iPos + 1);
-HXDLIN(1747)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1747)								data2->fPos = (data2->fPos + 1);
+HXLINE( 911)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 911)								data1->iPos = (data1->iPos + 1);
+HXDLIN( 911)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 911)								data2->fPos = (data2->fPos + 1);
             							}
             							break;
             							case (int)2: {
-HXLINE(1747)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1747)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1747)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1747)								data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1747)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1747)								data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1747)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1747)								data4->fPos = (data4->fPos + 1);
+HXLINE( 911)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 911)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 911)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 911)								data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 911)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 911)								data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 911)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 911)								data4->fPos = (data4->fPos + 1);
             							}
             							break;
             							case (int)3: {
-HXLINE(1747)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1747)								data1->oPos = (data1->oPos + 1);
+HXLINE( 911)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 911)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)4: {
-HXLINE(1747)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1747)								data1->fPos = (data1->fPos + 6);
+HXLINE( 911)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 911)								data1->fPos = (data1->fPos + 6);
             							}
             							break;
             							case (int)5: {
-HXLINE(1747)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1747)								data1->fPos = (data1->fPos + 4);
+HXLINE( 911)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 911)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)6: {
-HXLINE(1747)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1747)								data1->fPos = (data1->fPos + 3);
+HXLINE( 911)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 911)								data1->fPos = (data1->fPos + 3);
             							}
             							break;
             							case (int)7: {
-HXLINE(1747)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1747)								data1->fPos = (data1->fPos + 4);
+HXLINE( 911)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 911)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)8: {
-HXLINE(1747)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1747)								data1->oPos = (data1->oPos + 3);
+HXLINE( 911)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 911)								data1->oPos = (data1->oPos + 3);
             							}
             							break;
             							case (int)9: {
-HXLINE(1747)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1747)								data1->fPos = (data1->fPos + 4);
+HXLINE( 911)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 911)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)10: {
-HXLINE(1747)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1747)								data1->fPos = (data1->fPos + 5);
-HXDLIN(1747)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1747)								data2->oPos = (data2->oPos + 1);
+HXLINE( 911)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 911)								data1->fPos = (data1->fPos + 5);
+HXDLIN( 911)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 911)								data2->oPos = (data2->oPos + 1);
             							}
             							break;
             							case (int)12: {
-HXLINE(1747)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1747)								data1->oPos = (data1->oPos + 4);
+HXLINE( 911)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 911)								data1->oPos = (data1->oPos + 4);
             							}
             							break;
             							case (int)13: {
             							}
             							break;
             							case (int)14: {
-HXLINE(1747)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1747)								data1->oPos = (data1->oPos + 2);
-HXDLIN(1747)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1747)								data2->bPos = (data2->bPos + 2);
+HXLINE( 911)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 911)								data1->oPos = (data1->oPos + 2);
+HXDLIN( 911)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 911)								data2->bPos = (data2->bPos + 2);
             							}
             							break;
             							case (int)15: {
-HXLINE(1747)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1747)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1747)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1747)								data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1747)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1747)								data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1747)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1747)								data4->fPos = (data4->fPos + 1);
+HXLINE( 911)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 911)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 911)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 911)								data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 911)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 911)								data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 911)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 911)								data4->fPos = (data4->fPos + 1);
             							}
             							break;
             							case (int)16: {
-HXLINE(1747)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1747)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1747)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1747)								data2->iPos = (data2->iPos + 1);
-HXDLIN(1747)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1747)								data3->fPos = (data3->fPos + 2);
-HXDLIN(1747)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1747)								data4->bPos = (data4->bPos + 1);
+HXLINE( 911)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 911)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 911)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 911)								data2->iPos = (data2->iPos + 1);
+HXDLIN( 911)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 911)								data3->fPos = (data3->fPos + 2);
+HXDLIN( 911)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 911)								data4->bPos = (data4->bPos + 1);
             							}
             							break;
             							case (int)17: {
-HXLINE(1747)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1747)								data1->fPos = (data1->fPos + 2);
+HXLINE( 911)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 911)								data1->fPos = (data1->fPos + 2);
             							}
             							break;
             							case (int)18: {
-HXLINE(1747)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1747)								data1->fPos = (data1->fPos + 2);
+HXLINE( 911)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 911)								data1->fPos = (data1->fPos + 2);
             							}
             							break;
             							case (int)19: {
-HXLINE(1747)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1747)								data1->oPos = (data1->oPos + 1);
+HXLINE( 911)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 911)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)20: {
-HXLINE(1747)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1747)								data1->oPos = (data1->oPos + 1);
+HXLINE( 911)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 911)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)21: case (int)22: {
@@ -1981,136 +1981,136 @@ HXDLIN(1747)								data1->oPos = (data1->oPos + 1);
             							default:{
             							}
             						}
-HXLINE(1747)						data->prev = ::openfl::display::_internal::DrawCommandType_obj::CUBIC_CURVE_TO_dyn();
-HXDLIN(1747)						 ::openfl::display::_internal::DrawCommandReader this1 = data;
-HXDLIN(1747)						 ::openfl::display::_internal::DrawCommandReader c = this1;
-HXLINE(1748)						path->cubicCurveTo(c->buffer->f->__get(c->fPos),c->buffer->f->__get((c->fPos + 1)),c->buffer->f->__get((c->fPos + 2)),c->buffer->f->__get((c->fPos + 3)),c->buffer->f->__get((c->fPos + 4)),c->buffer->f->__get((c->fPos + 5)));
+HXLINE( 911)						data->prev = ::openfl::display::_internal::DrawCommandType_obj::CUBIC_CURVE_TO_dyn();
+HXDLIN( 911)						 ::openfl::display::_internal::DrawCommandReader this1 = data;
+HXDLIN( 911)						 ::openfl::display::_internal::DrawCommandReader c = this1;
+HXLINE( 912)						path->cubicCurveTo(c->buffer->f->__get(c->fPos),c->buffer->f->__get((c->fPos + 1)),c->buffer->f->__get((c->fPos + 2)),c->buffer->f->__get((c->fPos + 3)),c->buffer->f->__get((c->fPos + 4)),c->buffer->f->__get((c->fPos + 5)));
             					}
             					break;
             					case (int)5: {
-HXLINE(1751)						switch((int)(data->prev->_hx_getIndex())){
+HXLINE( 915)						switch((int)(data->prev->_hx_getIndex())){
             							case (int)0: {
-HXLINE(1751)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1751)								data1->oPos = (data1->oPos + 2);
-HXDLIN(1751)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1751)								data2->bPos = (data2->bPos + 2);
+HXLINE( 915)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 915)								data1->oPos = (data1->oPos + 2);
+HXDLIN( 915)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 915)								data2->bPos = (data2->bPos + 2);
             							}
             							break;
             							case (int)1: {
-HXLINE(1751)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1751)								data1->iPos = (data1->iPos + 1);
-HXDLIN(1751)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1751)								data2->fPos = (data2->fPos + 1);
+HXLINE( 915)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 915)								data1->iPos = (data1->iPos + 1);
+HXDLIN( 915)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 915)								data2->fPos = (data2->fPos + 1);
             							}
             							break;
             							case (int)2: {
-HXLINE(1751)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1751)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1751)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1751)								data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1751)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1751)								data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1751)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1751)								data4->fPos = (data4->fPos + 1);
+HXLINE( 915)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 915)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 915)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 915)								data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 915)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 915)								data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 915)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 915)								data4->fPos = (data4->fPos + 1);
             							}
             							break;
             							case (int)3: {
-HXLINE(1751)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1751)								data1->oPos = (data1->oPos + 1);
+HXLINE( 915)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 915)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)4: {
-HXLINE(1751)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1751)								data1->fPos = (data1->fPos + 6);
+HXLINE( 915)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 915)								data1->fPos = (data1->fPos + 6);
             							}
             							break;
             							case (int)5: {
-HXLINE(1751)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1751)								data1->fPos = (data1->fPos + 4);
+HXLINE( 915)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 915)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)6: {
-HXLINE(1751)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1751)								data1->fPos = (data1->fPos + 3);
+HXLINE( 915)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 915)								data1->fPos = (data1->fPos + 3);
             							}
             							break;
             							case (int)7: {
-HXLINE(1751)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1751)								data1->fPos = (data1->fPos + 4);
+HXLINE( 915)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 915)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)8: {
-HXLINE(1751)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1751)								data1->oPos = (data1->oPos + 3);
+HXLINE( 915)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 915)								data1->oPos = (data1->oPos + 3);
             							}
             							break;
             							case (int)9: {
-HXLINE(1751)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1751)								data1->fPos = (data1->fPos + 4);
+HXLINE( 915)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 915)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)10: {
-HXLINE(1751)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1751)								data1->fPos = (data1->fPos + 5);
-HXDLIN(1751)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1751)								data2->oPos = (data2->oPos + 1);
+HXLINE( 915)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 915)								data1->fPos = (data1->fPos + 5);
+HXDLIN( 915)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 915)								data2->oPos = (data2->oPos + 1);
             							}
             							break;
             							case (int)12: {
-HXLINE(1751)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1751)								data1->oPos = (data1->oPos + 4);
+HXLINE( 915)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 915)								data1->oPos = (data1->oPos + 4);
             							}
             							break;
             							case (int)13: {
             							}
             							break;
             							case (int)14: {
-HXLINE(1751)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1751)								data1->oPos = (data1->oPos + 2);
-HXDLIN(1751)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1751)								data2->bPos = (data2->bPos + 2);
+HXLINE( 915)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 915)								data1->oPos = (data1->oPos + 2);
+HXDLIN( 915)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 915)								data2->bPos = (data2->bPos + 2);
             							}
             							break;
             							case (int)15: {
-HXLINE(1751)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1751)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1751)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1751)								data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1751)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1751)								data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1751)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1751)								data4->fPos = (data4->fPos + 1);
+HXLINE( 915)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 915)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 915)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 915)								data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 915)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 915)								data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 915)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 915)								data4->fPos = (data4->fPos + 1);
             							}
             							break;
             							case (int)16: {
-HXLINE(1751)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1751)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1751)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1751)								data2->iPos = (data2->iPos + 1);
-HXDLIN(1751)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1751)								data3->fPos = (data3->fPos + 2);
-HXDLIN(1751)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1751)								data4->bPos = (data4->bPos + 1);
+HXLINE( 915)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 915)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 915)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 915)								data2->iPos = (data2->iPos + 1);
+HXDLIN( 915)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 915)								data3->fPos = (data3->fPos + 2);
+HXDLIN( 915)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 915)								data4->bPos = (data4->bPos + 1);
             							}
             							break;
             							case (int)17: {
-HXLINE(1751)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1751)								data1->fPos = (data1->fPos + 2);
+HXLINE( 915)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 915)								data1->fPos = (data1->fPos + 2);
             							}
             							break;
             							case (int)18: {
-HXLINE(1751)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1751)								data1->fPos = (data1->fPos + 2);
+HXLINE( 915)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 915)								data1->fPos = (data1->fPos + 2);
             							}
             							break;
             							case (int)19: {
-HXLINE(1751)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1751)								data1->oPos = (data1->oPos + 1);
+HXLINE( 915)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 915)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)20: {
-HXLINE(1751)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1751)								data1->oPos = (data1->oPos + 1);
+HXLINE( 915)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 915)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)21: case (int)22: {
@@ -2119,136 +2119,136 @@ HXDLIN(1751)								data1->oPos = (data1->oPos + 1);
             							default:{
             							}
             						}
-HXLINE(1751)						data->prev = ::openfl::display::_internal::DrawCommandType_obj::CURVE_TO_dyn();
-HXDLIN(1751)						 ::openfl::display::_internal::DrawCommandReader this1 = data;
-HXDLIN(1751)						 ::openfl::display::_internal::DrawCommandReader c = this1;
-HXLINE(1752)						path->curveTo(c->buffer->f->__get(c->fPos),c->buffer->f->__get((c->fPos + 1)),c->buffer->f->__get((c->fPos + 2)),c->buffer->f->__get((c->fPos + 3)));
+HXLINE( 915)						data->prev = ::openfl::display::_internal::DrawCommandType_obj::CURVE_TO_dyn();
+HXDLIN( 915)						 ::openfl::display::_internal::DrawCommandReader this1 = data;
+HXDLIN( 915)						 ::openfl::display::_internal::DrawCommandReader c = this1;
+HXLINE( 916)						path->curveTo(c->buffer->f->__get(c->fPos),c->buffer->f->__get((c->fPos + 1)),c->buffer->f->__get((c->fPos + 2)),c->buffer->f->__get((c->fPos + 3)));
             					}
             					break;
             					case (int)6: {
-HXLINE(1763)						switch((int)(data->prev->_hx_getIndex())){
+HXLINE( 927)						switch((int)(data->prev->_hx_getIndex())){
             							case (int)0: {
-HXLINE(1763)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1763)								data1->oPos = (data1->oPos + 2);
-HXDLIN(1763)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1763)								data2->bPos = (data2->bPos + 2);
+HXLINE( 927)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 927)								data1->oPos = (data1->oPos + 2);
+HXDLIN( 927)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 927)								data2->bPos = (data2->bPos + 2);
             							}
             							break;
             							case (int)1: {
-HXLINE(1763)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1763)								data1->iPos = (data1->iPos + 1);
-HXDLIN(1763)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1763)								data2->fPos = (data2->fPos + 1);
+HXLINE( 927)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 927)								data1->iPos = (data1->iPos + 1);
+HXDLIN( 927)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 927)								data2->fPos = (data2->fPos + 1);
             							}
             							break;
             							case (int)2: {
-HXLINE(1763)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1763)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1763)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1763)								data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1763)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1763)								data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1763)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1763)								data4->fPos = (data4->fPos + 1);
+HXLINE( 927)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 927)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 927)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 927)								data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 927)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 927)								data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 927)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 927)								data4->fPos = (data4->fPos + 1);
             							}
             							break;
             							case (int)3: {
-HXLINE(1763)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1763)								data1->oPos = (data1->oPos + 1);
+HXLINE( 927)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 927)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)4: {
-HXLINE(1763)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1763)								data1->fPos = (data1->fPos + 6);
+HXLINE( 927)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 927)								data1->fPos = (data1->fPos + 6);
             							}
             							break;
             							case (int)5: {
-HXLINE(1763)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1763)								data1->fPos = (data1->fPos + 4);
+HXLINE( 927)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 927)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)6: {
-HXLINE(1763)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1763)								data1->fPos = (data1->fPos + 3);
+HXLINE( 927)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 927)								data1->fPos = (data1->fPos + 3);
             							}
             							break;
             							case (int)7: {
-HXLINE(1763)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1763)								data1->fPos = (data1->fPos + 4);
+HXLINE( 927)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 927)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)8: {
-HXLINE(1763)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1763)								data1->oPos = (data1->oPos + 3);
+HXLINE( 927)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 927)								data1->oPos = (data1->oPos + 3);
             							}
             							break;
             							case (int)9: {
-HXLINE(1763)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1763)								data1->fPos = (data1->fPos + 4);
+HXLINE( 927)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 927)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)10: {
-HXLINE(1763)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1763)								data1->fPos = (data1->fPos + 5);
-HXDLIN(1763)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1763)								data2->oPos = (data2->oPos + 1);
+HXLINE( 927)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 927)								data1->fPos = (data1->fPos + 5);
+HXDLIN( 927)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 927)								data2->oPos = (data2->oPos + 1);
             							}
             							break;
             							case (int)12: {
-HXLINE(1763)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1763)								data1->oPos = (data1->oPos + 4);
+HXLINE( 927)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 927)								data1->oPos = (data1->oPos + 4);
             							}
             							break;
             							case (int)13: {
             							}
             							break;
             							case (int)14: {
-HXLINE(1763)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1763)								data1->oPos = (data1->oPos + 2);
-HXDLIN(1763)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1763)								data2->bPos = (data2->bPos + 2);
+HXLINE( 927)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 927)								data1->oPos = (data1->oPos + 2);
+HXDLIN( 927)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 927)								data2->bPos = (data2->bPos + 2);
             							}
             							break;
             							case (int)15: {
-HXLINE(1763)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1763)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1763)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1763)								data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1763)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1763)								data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1763)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1763)								data4->fPos = (data4->fPos + 1);
+HXLINE( 927)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 927)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 927)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 927)								data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 927)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 927)								data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 927)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 927)								data4->fPos = (data4->fPos + 1);
             							}
             							break;
             							case (int)16: {
-HXLINE(1763)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1763)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1763)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1763)								data2->iPos = (data2->iPos + 1);
-HXDLIN(1763)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1763)								data3->fPos = (data3->fPos + 2);
-HXDLIN(1763)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1763)								data4->bPos = (data4->bPos + 1);
+HXLINE( 927)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 927)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 927)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 927)								data2->iPos = (data2->iPos + 1);
+HXDLIN( 927)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 927)								data3->fPos = (data3->fPos + 2);
+HXDLIN( 927)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 927)								data4->bPos = (data4->bPos + 1);
             							}
             							break;
             							case (int)17: {
-HXLINE(1763)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1763)								data1->fPos = (data1->fPos + 2);
+HXLINE( 927)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 927)								data1->fPos = (data1->fPos + 2);
             							}
             							break;
             							case (int)18: {
-HXLINE(1763)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1763)								data1->fPos = (data1->fPos + 2);
+HXLINE( 927)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 927)								data1->fPos = (data1->fPos + 2);
             							}
             							break;
             							case (int)19: {
-HXLINE(1763)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1763)								data1->oPos = (data1->oPos + 1);
+HXLINE( 927)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 927)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)20: {
-HXLINE(1763)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1763)								data1->oPos = (data1->oPos + 1);
+HXLINE( 927)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 927)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)21: case (int)22: {
@@ -2257,136 +2257,136 @@ HXDLIN(1763)								data1->oPos = (data1->oPos + 1);
             							default:{
             							}
             						}
-HXLINE(1763)						data->prev = ::openfl::display::_internal::DrawCommandType_obj::DRAW_CIRCLE_dyn();
-HXDLIN(1763)						 ::openfl::display::_internal::DrawCommandReader this1 = data;
-HXDLIN(1763)						 ::openfl::display::_internal::DrawCommandReader c = this1;
-HXLINE(1764)						path->_hx___drawCircle(c->buffer->f->__get(c->fPos),c->buffer->f->__get((c->fPos + 1)),c->buffer->f->__get((c->fPos + 2)));
+HXLINE( 927)						data->prev = ::openfl::display::_internal::DrawCommandType_obj::DRAW_CIRCLE_dyn();
+HXDLIN( 927)						 ::openfl::display::_internal::DrawCommandReader this1 = data;
+HXDLIN( 927)						 ::openfl::display::_internal::DrawCommandReader c = this1;
+HXLINE( 928)						path->_hx___drawCircle(c->buffer->f->__get(c->fPos),c->buffer->f->__get((c->fPos + 1)),c->buffer->f->__get((c->fPos + 2)));
             					}
             					break;
             					case (int)7: {
-HXLINE(1767)						switch((int)(data->prev->_hx_getIndex())){
+HXLINE( 931)						switch((int)(data->prev->_hx_getIndex())){
             							case (int)0: {
-HXLINE(1767)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1767)								data1->oPos = (data1->oPos + 2);
-HXDLIN(1767)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1767)								data2->bPos = (data2->bPos + 2);
+HXLINE( 931)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 931)								data1->oPos = (data1->oPos + 2);
+HXDLIN( 931)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 931)								data2->bPos = (data2->bPos + 2);
             							}
             							break;
             							case (int)1: {
-HXLINE(1767)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1767)								data1->iPos = (data1->iPos + 1);
-HXDLIN(1767)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1767)								data2->fPos = (data2->fPos + 1);
+HXLINE( 931)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 931)								data1->iPos = (data1->iPos + 1);
+HXDLIN( 931)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 931)								data2->fPos = (data2->fPos + 1);
             							}
             							break;
             							case (int)2: {
-HXLINE(1767)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1767)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1767)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1767)								data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1767)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1767)								data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1767)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1767)								data4->fPos = (data4->fPos + 1);
+HXLINE( 931)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 931)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 931)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 931)								data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 931)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 931)								data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 931)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 931)								data4->fPos = (data4->fPos + 1);
             							}
             							break;
             							case (int)3: {
-HXLINE(1767)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1767)								data1->oPos = (data1->oPos + 1);
+HXLINE( 931)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 931)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)4: {
-HXLINE(1767)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1767)								data1->fPos = (data1->fPos + 6);
+HXLINE( 931)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 931)								data1->fPos = (data1->fPos + 6);
             							}
             							break;
             							case (int)5: {
-HXLINE(1767)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1767)								data1->fPos = (data1->fPos + 4);
+HXLINE( 931)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 931)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)6: {
-HXLINE(1767)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1767)								data1->fPos = (data1->fPos + 3);
+HXLINE( 931)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 931)								data1->fPos = (data1->fPos + 3);
             							}
             							break;
             							case (int)7: {
-HXLINE(1767)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1767)								data1->fPos = (data1->fPos + 4);
+HXLINE( 931)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 931)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)8: {
-HXLINE(1767)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1767)								data1->oPos = (data1->oPos + 3);
+HXLINE( 931)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 931)								data1->oPos = (data1->oPos + 3);
             							}
             							break;
             							case (int)9: {
-HXLINE(1767)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1767)								data1->fPos = (data1->fPos + 4);
+HXLINE( 931)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 931)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)10: {
-HXLINE(1767)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1767)								data1->fPos = (data1->fPos + 5);
-HXDLIN(1767)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1767)								data2->oPos = (data2->oPos + 1);
+HXLINE( 931)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 931)								data1->fPos = (data1->fPos + 5);
+HXDLIN( 931)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 931)								data2->oPos = (data2->oPos + 1);
             							}
             							break;
             							case (int)12: {
-HXLINE(1767)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1767)								data1->oPos = (data1->oPos + 4);
+HXLINE( 931)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 931)								data1->oPos = (data1->oPos + 4);
             							}
             							break;
             							case (int)13: {
             							}
             							break;
             							case (int)14: {
-HXLINE(1767)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1767)								data1->oPos = (data1->oPos + 2);
-HXDLIN(1767)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1767)								data2->bPos = (data2->bPos + 2);
+HXLINE( 931)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 931)								data1->oPos = (data1->oPos + 2);
+HXDLIN( 931)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 931)								data2->bPos = (data2->bPos + 2);
             							}
             							break;
             							case (int)15: {
-HXLINE(1767)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1767)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1767)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1767)								data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1767)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1767)								data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1767)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1767)								data4->fPos = (data4->fPos + 1);
+HXLINE( 931)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 931)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 931)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 931)								data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 931)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 931)								data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 931)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 931)								data4->fPos = (data4->fPos + 1);
             							}
             							break;
             							case (int)16: {
-HXLINE(1767)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1767)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1767)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1767)								data2->iPos = (data2->iPos + 1);
-HXDLIN(1767)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1767)								data3->fPos = (data3->fPos + 2);
-HXDLIN(1767)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1767)								data4->bPos = (data4->bPos + 1);
+HXLINE( 931)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 931)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 931)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 931)								data2->iPos = (data2->iPos + 1);
+HXDLIN( 931)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 931)								data3->fPos = (data3->fPos + 2);
+HXDLIN( 931)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 931)								data4->bPos = (data4->bPos + 1);
             							}
             							break;
             							case (int)17: {
-HXLINE(1767)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1767)								data1->fPos = (data1->fPos + 2);
+HXLINE( 931)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 931)								data1->fPos = (data1->fPos + 2);
             							}
             							break;
             							case (int)18: {
-HXLINE(1767)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1767)								data1->fPos = (data1->fPos + 2);
+HXLINE( 931)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 931)								data1->fPos = (data1->fPos + 2);
             							}
             							break;
             							case (int)19: {
-HXLINE(1767)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1767)								data1->oPos = (data1->oPos + 1);
+HXLINE( 931)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 931)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)20: {
-HXLINE(1767)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1767)								data1->oPos = (data1->oPos + 1);
+HXLINE( 931)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 931)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)21: case (int)22: {
@@ -2395,136 +2395,136 @@ HXDLIN(1767)								data1->oPos = (data1->oPos + 1);
             							default:{
             							}
             						}
-HXLINE(1767)						data->prev = ::openfl::display::_internal::DrawCommandType_obj::DRAW_ELLIPSE_dyn();
-HXDLIN(1767)						 ::openfl::display::_internal::DrawCommandReader this1 = data;
-HXDLIN(1767)						 ::openfl::display::_internal::DrawCommandReader c = this1;
-HXLINE(1768)						path->_hx___drawEllipse(c->buffer->f->__get(c->fPos),c->buffer->f->__get((c->fPos + 1)),c->buffer->f->__get((c->fPos + 2)),c->buffer->f->__get((c->fPos + 3)));
+HXLINE( 931)						data->prev = ::openfl::display::_internal::DrawCommandType_obj::DRAW_ELLIPSE_dyn();
+HXDLIN( 931)						 ::openfl::display::_internal::DrawCommandReader this1 = data;
+HXDLIN( 931)						 ::openfl::display::_internal::DrawCommandReader c = this1;
+HXLINE( 932)						path->_hx___drawEllipse(c->buffer->f->__get(c->fPos),c->buffer->f->__get((c->fPos + 1)),c->buffer->f->__get((c->fPos + 2)),c->buffer->f->__get((c->fPos + 3)));
             					}
             					break;
             					case (int)9: {
-HXLINE(1771)						switch((int)(data->prev->_hx_getIndex())){
+HXLINE( 935)						switch((int)(data->prev->_hx_getIndex())){
             							case (int)0: {
-HXLINE(1771)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1771)								data1->oPos = (data1->oPos + 2);
-HXDLIN(1771)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1771)								data2->bPos = (data2->bPos + 2);
+HXLINE( 935)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 935)								data1->oPos = (data1->oPos + 2);
+HXDLIN( 935)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 935)								data2->bPos = (data2->bPos + 2);
             							}
             							break;
             							case (int)1: {
-HXLINE(1771)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1771)								data1->iPos = (data1->iPos + 1);
-HXDLIN(1771)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1771)								data2->fPos = (data2->fPos + 1);
+HXLINE( 935)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 935)								data1->iPos = (data1->iPos + 1);
+HXDLIN( 935)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 935)								data2->fPos = (data2->fPos + 1);
             							}
             							break;
             							case (int)2: {
-HXLINE(1771)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1771)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1771)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1771)								data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1771)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1771)								data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1771)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1771)								data4->fPos = (data4->fPos + 1);
+HXLINE( 935)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 935)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 935)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 935)								data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 935)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 935)								data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 935)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 935)								data4->fPos = (data4->fPos + 1);
             							}
             							break;
             							case (int)3: {
-HXLINE(1771)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1771)								data1->oPos = (data1->oPos + 1);
+HXLINE( 935)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 935)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)4: {
-HXLINE(1771)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1771)								data1->fPos = (data1->fPos + 6);
+HXLINE( 935)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 935)								data1->fPos = (data1->fPos + 6);
             							}
             							break;
             							case (int)5: {
-HXLINE(1771)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1771)								data1->fPos = (data1->fPos + 4);
+HXLINE( 935)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 935)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)6: {
-HXLINE(1771)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1771)								data1->fPos = (data1->fPos + 3);
+HXLINE( 935)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 935)								data1->fPos = (data1->fPos + 3);
             							}
             							break;
             							case (int)7: {
-HXLINE(1771)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1771)								data1->fPos = (data1->fPos + 4);
+HXLINE( 935)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 935)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)8: {
-HXLINE(1771)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1771)								data1->oPos = (data1->oPos + 3);
+HXLINE( 935)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 935)								data1->oPos = (data1->oPos + 3);
             							}
             							break;
             							case (int)9: {
-HXLINE(1771)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1771)								data1->fPos = (data1->fPos + 4);
+HXLINE( 935)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 935)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)10: {
-HXLINE(1771)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1771)								data1->fPos = (data1->fPos + 5);
-HXDLIN(1771)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1771)								data2->oPos = (data2->oPos + 1);
+HXLINE( 935)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 935)								data1->fPos = (data1->fPos + 5);
+HXDLIN( 935)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 935)								data2->oPos = (data2->oPos + 1);
             							}
             							break;
             							case (int)12: {
-HXLINE(1771)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1771)								data1->oPos = (data1->oPos + 4);
+HXLINE( 935)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 935)								data1->oPos = (data1->oPos + 4);
             							}
             							break;
             							case (int)13: {
             							}
             							break;
             							case (int)14: {
-HXLINE(1771)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1771)								data1->oPos = (data1->oPos + 2);
-HXDLIN(1771)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1771)								data2->bPos = (data2->bPos + 2);
+HXLINE( 935)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 935)								data1->oPos = (data1->oPos + 2);
+HXDLIN( 935)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 935)								data2->bPos = (data2->bPos + 2);
             							}
             							break;
             							case (int)15: {
-HXLINE(1771)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1771)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1771)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1771)								data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1771)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1771)								data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1771)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1771)								data4->fPos = (data4->fPos + 1);
+HXLINE( 935)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 935)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 935)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 935)								data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 935)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 935)								data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 935)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 935)								data4->fPos = (data4->fPos + 1);
             							}
             							break;
             							case (int)16: {
-HXLINE(1771)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1771)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1771)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1771)								data2->iPos = (data2->iPos + 1);
-HXDLIN(1771)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1771)								data3->fPos = (data3->fPos + 2);
-HXDLIN(1771)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1771)								data4->bPos = (data4->bPos + 1);
+HXLINE( 935)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 935)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 935)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 935)								data2->iPos = (data2->iPos + 1);
+HXDLIN( 935)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 935)								data3->fPos = (data3->fPos + 2);
+HXDLIN( 935)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 935)								data4->bPos = (data4->bPos + 1);
             							}
             							break;
             							case (int)17: {
-HXLINE(1771)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1771)								data1->fPos = (data1->fPos + 2);
+HXLINE( 935)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 935)								data1->fPos = (data1->fPos + 2);
             							}
             							break;
             							case (int)18: {
-HXLINE(1771)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1771)								data1->fPos = (data1->fPos + 2);
+HXLINE( 935)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 935)								data1->fPos = (data1->fPos + 2);
             							}
             							break;
             							case (int)19: {
-HXLINE(1771)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1771)								data1->oPos = (data1->oPos + 1);
+HXLINE( 935)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 935)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)20: {
-HXLINE(1771)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1771)								data1->oPos = (data1->oPos + 1);
+HXLINE( 935)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 935)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)21: case (int)22: {
@@ -2533,136 +2533,136 @@ HXDLIN(1771)								data1->oPos = (data1->oPos + 1);
             							default:{
             							}
             						}
-HXLINE(1771)						data->prev = ::openfl::display::_internal::DrawCommandType_obj::DRAW_RECT_dyn();
-HXDLIN(1771)						 ::openfl::display::_internal::DrawCommandReader this1 = data;
-HXDLIN(1771)						 ::openfl::display::_internal::DrawCommandReader c = this1;
-HXLINE(1772)						path->_hx___drawRect(c->buffer->f->__get(c->fPos),c->buffer->f->__get((c->fPos + 1)),c->buffer->f->__get((c->fPos + 2)),c->buffer->f->__get((c->fPos + 3)));
+HXLINE( 935)						data->prev = ::openfl::display::_internal::DrawCommandType_obj::DRAW_RECT_dyn();
+HXDLIN( 935)						 ::openfl::display::_internal::DrawCommandReader this1 = data;
+HXDLIN( 935)						 ::openfl::display::_internal::DrawCommandReader c = this1;
+HXLINE( 936)						path->_hx___drawRect(c->buffer->f->__get(c->fPos),c->buffer->f->__get((c->fPos + 1)),c->buffer->f->__get((c->fPos + 2)),c->buffer->f->__get((c->fPos + 3)));
             					}
             					break;
             					case (int)10: {
-HXLINE(1775)						switch((int)(data->prev->_hx_getIndex())){
+HXLINE( 939)						switch((int)(data->prev->_hx_getIndex())){
             							case (int)0: {
-HXLINE(1775)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1775)								data1->oPos = (data1->oPos + 2);
-HXDLIN(1775)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1775)								data2->bPos = (data2->bPos + 2);
+HXLINE( 939)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 939)								data1->oPos = (data1->oPos + 2);
+HXDLIN( 939)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 939)								data2->bPos = (data2->bPos + 2);
             							}
             							break;
             							case (int)1: {
-HXLINE(1775)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1775)								data1->iPos = (data1->iPos + 1);
-HXDLIN(1775)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1775)								data2->fPos = (data2->fPos + 1);
+HXLINE( 939)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 939)								data1->iPos = (data1->iPos + 1);
+HXDLIN( 939)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 939)								data2->fPos = (data2->fPos + 1);
             							}
             							break;
             							case (int)2: {
-HXLINE(1775)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1775)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1775)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1775)								data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1775)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1775)								data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1775)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1775)								data4->fPos = (data4->fPos + 1);
+HXLINE( 939)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 939)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 939)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 939)								data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 939)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 939)								data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 939)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 939)								data4->fPos = (data4->fPos + 1);
             							}
             							break;
             							case (int)3: {
-HXLINE(1775)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1775)								data1->oPos = (data1->oPos + 1);
+HXLINE( 939)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 939)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)4: {
-HXLINE(1775)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1775)								data1->fPos = (data1->fPos + 6);
+HXLINE( 939)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 939)								data1->fPos = (data1->fPos + 6);
             							}
             							break;
             							case (int)5: {
-HXLINE(1775)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1775)								data1->fPos = (data1->fPos + 4);
+HXLINE( 939)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 939)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)6: {
-HXLINE(1775)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1775)								data1->fPos = (data1->fPos + 3);
+HXLINE( 939)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 939)								data1->fPos = (data1->fPos + 3);
             							}
             							break;
             							case (int)7: {
-HXLINE(1775)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1775)								data1->fPos = (data1->fPos + 4);
+HXLINE( 939)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 939)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)8: {
-HXLINE(1775)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1775)								data1->oPos = (data1->oPos + 3);
+HXLINE( 939)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 939)								data1->oPos = (data1->oPos + 3);
             							}
             							break;
             							case (int)9: {
-HXLINE(1775)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1775)								data1->fPos = (data1->fPos + 4);
+HXLINE( 939)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 939)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)10: {
-HXLINE(1775)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1775)								data1->fPos = (data1->fPos + 5);
-HXDLIN(1775)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1775)								data2->oPos = (data2->oPos + 1);
+HXLINE( 939)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 939)								data1->fPos = (data1->fPos + 5);
+HXDLIN( 939)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 939)								data2->oPos = (data2->oPos + 1);
             							}
             							break;
             							case (int)12: {
-HXLINE(1775)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1775)								data1->oPos = (data1->oPos + 4);
+HXLINE( 939)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 939)								data1->oPos = (data1->oPos + 4);
             							}
             							break;
             							case (int)13: {
             							}
             							break;
             							case (int)14: {
-HXLINE(1775)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1775)								data1->oPos = (data1->oPos + 2);
-HXDLIN(1775)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1775)								data2->bPos = (data2->bPos + 2);
+HXLINE( 939)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 939)								data1->oPos = (data1->oPos + 2);
+HXDLIN( 939)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 939)								data2->bPos = (data2->bPos + 2);
             							}
             							break;
             							case (int)15: {
-HXLINE(1775)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1775)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1775)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1775)								data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1775)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1775)								data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1775)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1775)								data4->fPos = (data4->fPos + 1);
+HXLINE( 939)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 939)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 939)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 939)								data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 939)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 939)								data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 939)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 939)								data4->fPos = (data4->fPos + 1);
             							}
             							break;
             							case (int)16: {
-HXLINE(1775)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1775)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1775)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1775)								data2->iPos = (data2->iPos + 1);
-HXDLIN(1775)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1775)								data3->fPos = (data3->fPos + 2);
-HXDLIN(1775)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1775)								data4->bPos = (data4->bPos + 1);
+HXLINE( 939)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 939)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 939)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 939)								data2->iPos = (data2->iPos + 1);
+HXDLIN( 939)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 939)								data3->fPos = (data3->fPos + 2);
+HXDLIN( 939)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 939)								data4->bPos = (data4->bPos + 1);
             							}
             							break;
             							case (int)17: {
-HXLINE(1775)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1775)								data1->fPos = (data1->fPos + 2);
+HXLINE( 939)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 939)								data1->fPos = (data1->fPos + 2);
             							}
             							break;
             							case (int)18: {
-HXLINE(1775)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1775)								data1->fPos = (data1->fPos + 2);
+HXLINE( 939)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 939)								data1->fPos = (data1->fPos + 2);
             							}
             							break;
             							case (int)19: {
-HXLINE(1775)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1775)								data1->oPos = (data1->oPos + 1);
+HXLINE( 939)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 939)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)20: {
-HXLINE(1775)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1775)								data1->oPos = (data1->oPos + 1);
+HXLINE( 939)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 939)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)21: case (int)22: {
@@ -2671,144 +2671,144 @@ HXDLIN(1775)								data1->oPos = (data1->oPos + 1);
             							default:{
             							}
             						}
-HXLINE(1775)						data->prev = ::openfl::display::_internal::DrawCommandType_obj::DRAW_ROUND_RECT_dyn();
-HXDLIN(1775)						 ::openfl::display::_internal::DrawCommandReader this1 = data;
-HXDLIN(1775)						 ::openfl::display::_internal::DrawCommandReader c = this1;
-HXLINE(1776)						Float _hx_tmp;
-HXDLIN(1776)						if (::hx::IsNotNull( c->buffer->o->__get(c->oPos) )) {
-HXLINE(1776)							_hx_tmp = ( (Float)(c->buffer->o->__get(c->oPos)) );
+HXLINE( 939)						data->prev = ::openfl::display::_internal::DrawCommandType_obj::DRAW_ROUND_RECT_dyn();
+HXDLIN( 939)						 ::openfl::display::_internal::DrawCommandReader this1 = data;
+HXDLIN( 939)						 ::openfl::display::_internal::DrawCommandReader c = this1;
+HXLINE( 940)						Float _hx_tmp;
+HXDLIN( 940)						if (::hx::IsNotNull( c->buffer->o->__get(c->oPos) )) {
+HXLINE( 940)							_hx_tmp = ( (Float)(c->buffer->o->__get(c->oPos)) );
             						}
             						else {
-HXLINE(1776)							_hx_tmp = c->buffer->f->__get((c->fPos + 4));
+HXLINE( 940)							_hx_tmp = c->buffer->f->__get((c->fPos + 4));
             						}
-HXDLIN(1776)						path->_hx___drawRoundRect(c->buffer->f->__get(c->fPos),c->buffer->f->__get((c->fPos + 1)),c->buffer->f->__get((c->fPos + 2)),c->buffer->f->__get((c->fPos + 3)),c->buffer->f->__get((c->fPos + 4)),_hx_tmp);
+HXDLIN( 940)						path->_hx___drawRoundRect(c->buffer->f->__get(c->fPos),c->buffer->f->__get((c->fPos + 1)),c->buffer->f->__get((c->fPos + 2)),c->buffer->f->__get((c->fPos + 3)),c->buffer->f->__get((c->fPos + 4)),_hx_tmp);
             					}
             					break;
             					case (int)13: {
-HXLINE(1802)						{
-HXLINE(1802)							switch((int)(data->prev->_hx_getIndex())){
+HXLINE( 966)						{
+HXLINE( 966)							switch((int)(data->prev->_hx_getIndex())){
             								case (int)0: {
-HXLINE(1802)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1802)									data1->oPos = (data1->oPos + 2);
-HXDLIN(1802)									 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1802)									data2->bPos = (data2->bPos + 2);
+HXLINE( 966)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 966)									data1->oPos = (data1->oPos + 2);
+HXDLIN( 966)									 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 966)									data2->bPos = (data2->bPos + 2);
             								}
             								break;
             								case (int)1: {
-HXLINE(1802)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1802)									data1->iPos = (data1->iPos + 1);
-HXDLIN(1802)									 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1802)									data2->fPos = (data2->fPos + 1);
+HXLINE( 966)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 966)									data1->iPos = (data1->iPos + 1);
+HXDLIN( 966)									 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 966)									data2->fPos = (data2->fPos + 1);
             								}
             								break;
             								case (int)2: {
-HXLINE(1802)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1802)									data1->oPos = (data1->oPos + 4);
-HXDLIN(1802)									 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1802)									data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1802)									 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1802)									data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1802)									 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1802)									data4->fPos = (data4->fPos + 1);
+HXLINE( 966)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 966)									data1->oPos = (data1->oPos + 4);
+HXDLIN( 966)									 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 966)									data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 966)									 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 966)									data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 966)									 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 966)									data4->fPos = (data4->fPos + 1);
             								}
             								break;
             								case (int)3: {
-HXLINE(1802)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1802)									data1->oPos = (data1->oPos + 1);
+HXLINE( 966)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 966)									data1->oPos = (data1->oPos + 1);
             								}
             								break;
             								case (int)4: {
-HXLINE(1802)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1802)									data1->fPos = (data1->fPos + 6);
+HXLINE( 966)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 966)									data1->fPos = (data1->fPos + 6);
             								}
             								break;
             								case (int)5: {
-HXLINE(1802)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1802)									data1->fPos = (data1->fPos + 4);
+HXLINE( 966)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 966)									data1->fPos = (data1->fPos + 4);
             								}
             								break;
             								case (int)6: {
-HXLINE(1802)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1802)									data1->fPos = (data1->fPos + 3);
+HXLINE( 966)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 966)									data1->fPos = (data1->fPos + 3);
             								}
             								break;
             								case (int)7: {
-HXLINE(1802)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1802)									data1->fPos = (data1->fPos + 4);
+HXLINE( 966)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 966)									data1->fPos = (data1->fPos + 4);
             								}
             								break;
             								case (int)8: {
-HXLINE(1802)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1802)									data1->oPos = (data1->oPos + 3);
+HXLINE( 966)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 966)									data1->oPos = (data1->oPos + 3);
             								}
             								break;
             								case (int)9: {
-HXLINE(1802)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1802)									data1->fPos = (data1->fPos + 4);
+HXLINE( 966)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 966)									data1->fPos = (data1->fPos + 4);
             								}
             								break;
             								case (int)10: {
-HXLINE(1802)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1802)									data1->fPos = (data1->fPos + 5);
-HXDLIN(1802)									 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1802)									data2->oPos = (data2->oPos + 1);
+HXLINE( 966)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 966)									data1->fPos = (data1->fPos + 5);
+HXDLIN( 966)									 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 966)									data2->oPos = (data2->oPos + 1);
             								}
             								break;
             								case (int)12: {
-HXLINE(1802)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1802)									data1->oPos = (data1->oPos + 4);
+HXLINE( 966)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 966)									data1->oPos = (data1->oPos + 4);
             								}
             								break;
             								case (int)13: {
             								}
             								break;
             								case (int)14: {
-HXLINE(1802)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1802)									data1->oPos = (data1->oPos + 2);
-HXDLIN(1802)									 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1802)									data2->bPos = (data2->bPos + 2);
+HXLINE( 966)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 966)									data1->oPos = (data1->oPos + 2);
+HXDLIN( 966)									 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 966)									data2->bPos = (data2->bPos + 2);
             								}
             								break;
             								case (int)15: {
-HXLINE(1802)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1802)									data1->oPos = (data1->oPos + 4);
-HXDLIN(1802)									 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1802)									data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1802)									 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1802)									data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1802)									 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1802)									data4->fPos = (data4->fPos + 1);
+HXLINE( 966)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 966)									data1->oPos = (data1->oPos + 4);
+HXDLIN( 966)									 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 966)									data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 966)									 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 966)									data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 966)									 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 966)									data4->fPos = (data4->fPos + 1);
             								}
             								break;
             								case (int)16: {
-HXLINE(1802)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1802)									data1->oPos = (data1->oPos + 4);
-HXDLIN(1802)									 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1802)									data2->iPos = (data2->iPos + 1);
-HXDLIN(1802)									 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1802)									data3->fPos = (data3->fPos + 2);
-HXDLIN(1802)									 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1802)									data4->bPos = (data4->bPos + 1);
+HXLINE( 966)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 966)									data1->oPos = (data1->oPos + 4);
+HXDLIN( 966)									 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 966)									data2->iPos = (data2->iPos + 1);
+HXDLIN( 966)									 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 966)									data3->fPos = (data3->fPos + 2);
+HXDLIN( 966)									 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 966)									data4->bPos = (data4->bPos + 1);
             								}
             								break;
             								case (int)17: {
-HXLINE(1802)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1802)									data1->fPos = (data1->fPos + 2);
+HXLINE( 966)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 966)									data1->fPos = (data1->fPos + 2);
             								}
             								break;
             								case (int)18: {
-HXLINE(1802)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1802)									data1->fPos = (data1->fPos + 2);
+HXLINE( 966)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 966)									data1->fPos = (data1->fPos + 2);
             								}
             								break;
             								case (int)19: {
-HXLINE(1802)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1802)									data1->oPos = (data1->oPos + 1);
+HXLINE( 966)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 966)									data1->oPos = (data1->oPos + 1);
             								}
             								break;
             								case (int)20: {
-HXLINE(1802)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1802)									data1->oPos = (data1->oPos + 1);
+HXLINE( 966)									 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 966)									data1->oPos = (data1->oPos + 1);
             								}
             								break;
             								case (int)21: case (int)22: {
@@ -2817,136 +2817,136 @@ HXDLIN(1802)									data1->oPos = (data1->oPos + 1);
             								default:{
             								}
             							}
-HXLINE(1802)							data->prev = ::openfl::display::_internal::DrawCommandType_obj::END_FILL_dyn();
-HXDLIN(1802)							 ::openfl::display::_internal::DrawCommandReader this1 = data;
+HXLINE( 966)							data->prev = ::openfl::display::_internal::DrawCommandType_obj::END_FILL_dyn();
+HXDLIN( 966)							 ::openfl::display::_internal::DrawCommandReader this1 = data;
             						}
-HXLINE(1803)						graphicsData->push( ::openfl::display::GraphicsEndFill_obj::__alloc( HX_CTX ));
+HXLINE( 967)						graphicsData->push( ::openfl::display::GraphicsEndFill_obj::__alloc( HX_CTX ));
             					}
             					break;
             					case (int)14: {
-HXLINE(1789)						switch((int)(data->prev->_hx_getIndex())){
+HXLINE( 953)						switch((int)(data->prev->_hx_getIndex())){
             							case (int)0: {
-HXLINE(1789)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1789)								data1->oPos = (data1->oPos + 2);
-HXDLIN(1789)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1789)								data2->bPos = (data2->bPos + 2);
+HXLINE( 953)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 953)								data1->oPos = (data1->oPos + 2);
+HXDLIN( 953)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 953)								data2->bPos = (data2->bPos + 2);
             							}
             							break;
             							case (int)1: {
-HXLINE(1789)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1789)								data1->iPos = (data1->iPos + 1);
-HXDLIN(1789)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1789)								data2->fPos = (data2->fPos + 1);
+HXLINE( 953)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 953)								data1->iPos = (data1->iPos + 1);
+HXDLIN( 953)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 953)								data2->fPos = (data2->fPos + 1);
             							}
             							break;
             							case (int)2: {
-HXLINE(1789)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1789)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1789)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1789)								data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1789)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1789)								data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1789)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1789)								data4->fPos = (data4->fPos + 1);
+HXLINE( 953)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 953)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 953)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 953)								data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 953)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 953)								data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 953)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 953)								data4->fPos = (data4->fPos + 1);
             							}
             							break;
             							case (int)3: {
-HXLINE(1789)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1789)								data1->oPos = (data1->oPos + 1);
+HXLINE( 953)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 953)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)4: {
-HXLINE(1789)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1789)								data1->fPos = (data1->fPos + 6);
+HXLINE( 953)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 953)								data1->fPos = (data1->fPos + 6);
             							}
             							break;
             							case (int)5: {
-HXLINE(1789)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1789)								data1->fPos = (data1->fPos + 4);
+HXLINE( 953)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 953)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)6: {
-HXLINE(1789)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1789)								data1->fPos = (data1->fPos + 3);
+HXLINE( 953)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 953)								data1->fPos = (data1->fPos + 3);
             							}
             							break;
             							case (int)7: {
-HXLINE(1789)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1789)								data1->fPos = (data1->fPos + 4);
+HXLINE( 953)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 953)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)8: {
-HXLINE(1789)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1789)								data1->oPos = (data1->oPos + 3);
+HXLINE( 953)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 953)								data1->oPos = (data1->oPos + 3);
             							}
             							break;
             							case (int)9: {
-HXLINE(1789)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1789)								data1->fPos = (data1->fPos + 4);
+HXLINE( 953)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 953)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)10: {
-HXLINE(1789)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1789)								data1->fPos = (data1->fPos + 5);
-HXDLIN(1789)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1789)								data2->oPos = (data2->oPos + 1);
+HXLINE( 953)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 953)								data1->fPos = (data1->fPos + 5);
+HXDLIN( 953)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 953)								data2->oPos = (data2->oPos + 1);
             							}
             							break;
             							case (int)12: {
-HXLINE(1789)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1789)								data1->oPos = (data1->oPos + 4);
+HXLINE( 953)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 953)								data1->oPos = (data1->oPos + 4);
             							}
             							break;
             							case (int)13: {
             							}
             							break;
             							case (int)14: {
-HXLINE(1789)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1789)								data1->oPos = (data1->oPos + 2);
-HXDLIN(1789)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1789)								data2->bPos = (data2->bPos + 2);
+HXLINE( 953)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 953)								data1->oPos = (data1->oPos + 2);
+HXDLIN( 953)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 953)								data2->bPos = (data2->bPos + 2);
             							}
             							break;
             							case (int)15: {
-HXLINE(1789)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1789)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1789)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1789)								data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1789)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1789)								data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1789)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1789)								data4->fPos = (data4->fPos + 1);
+HXLINE( 953)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 953)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 953)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 953)								data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 953)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 953)								data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 953)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 953)								data4->fPos = (data4->fPos + 1);
             							}
             							break;
             							case (int)16: {
-HXLINE(1789)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1789)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1789)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1789)								data2->iPos = (data2->iPos + 1);
-HXDLIN(1789)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1789)								data3->fPos = (data3->fPos + 2);
-HXDLIN(1789)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1789)								data4->bPos = (data4->bPos + 1);
+HXLINE( 953)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 953)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 953)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 953)								data2->iPos = (data2->iPos + 1);
+HXDLIN( 953)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 953)								data3->fPos = (data3->fPos + 2);
+HXDLIN( 953)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 953)								data4->bPos = (data4->bPos + 1);
             							}
             							break;
             							case (int)17: {
-HXLINE(1789)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1789)								data1->fPos = (data1->fPos + 2);
+HXLINE( 953)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 953)								data1->fPos = (data1->fPos + 2);
             							}
             							break;
             							case (int)18: {
-HXLINE(1789)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1789)								data1->fPos = (data1->fPos + 2);
+HXLINE( 953)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 953)								data1->fPos = (data1->fPos + 2);
             							}
             							break;
             							case (int)19: {
-HXLINE(1789)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1789)								data1->oPos = (data1->oPos + 1);
+HXLINE( 953)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 953)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)20: {
-HXLINE(1789)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1789)								data1->oPos = (data1->oPos + 1);
+HXLINE( 953)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 953)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)21: case (int)22: {
@@ -2955,136 +2955,136 @@ HXDLIN(1789)								data1->oPos = (data1->oPos + 1);
             							default:{
             							}
             						}
-HXLINE(1789)						data->prev = ::openfl::display::_internal::DrawCommandType_obj::LINE_BITMAP_STYLE_dyn();
-HXDLIN(1789)						 ::openfl::display::_internal::DrawCommandReader this1 = data;
-HXDLIN(1789)						 ::openfl::display::_internal::DrawCommandReader c = this1;
-HXLINE(1790)						path = null();
+HXLINE( 953)						data->prev = ::openfl::display::_internal::DrawCommandType_obj::LINE_BITMAP_STYLE_dyn();
+HXDLIN( 953)						 ::openfl::display::_internal::DrawCommandReader this1 = data;
+HXDLIN( 953)						 ::openfl::display::_internal::DrawCommandReader c = this1;
+HXLINE( 954)						path = null();
             					}
             					break;
             					case (int)15: {
-HXLINE(1781)						switch((int)(data->prev->_hx_getIndex())){
+HXLINE( 945)						switch((int)(data->prev->_hx_getIndex())){
             							case (int)0: {
-HXLINE(1781)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1781)								data1->oPos = (data1->oPos + 2);
-HXDLIN(1781)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1781)								data2->bPos = (data2->bPos + 2);
+HXLINE( 945)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 945)								data1->oPos = (data1->oPos + 2);
+HXDLIN( 945)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 945)								data2->bPos = (data2->bPos + 2);
             							}
             							break;
             							case (int)1: {
-HXLINE(1781)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1781)								data1->iPos = (data1->iPos + 1);
-HXDLIN(1781)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1781)								data2->fPos = (data2->fPos + 1);
+HXLINE( 945)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 945)								data1->iPos = (data1->iPos + 1);
+HXDLIN( 945)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 945)								data2->fPos = (data2->fPos + 1);
             							}
             							break;
             							case (int)2: {
-HXLINE(1781)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1781)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1781)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1781)								data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1781)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1781)								data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1781)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1781)								data4->fPos = (data4->fPos + 1);
+HXLINE( 945)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 945)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 945)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 945)								data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 945)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 945)								data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 945)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 945)								data4->fPos = (data4->fPos + 1);
             							}
             							break;
             							case (int)3: {
-HXLINE(1781)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1781)								data1->oPos = (data1->oPos + 1);
+HXLINE( 945)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 945)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)4: {
-HXLINE(1781)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1781)								data1->fPos = (data1->fPos + 6);
+HXLINE( 945)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 945)								data1->fPos = (data1->fPos + 6);
             							}
             							break;
             							case (int)5: {
-HXLINE(1781)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1781)								data1->fPos = (data1->fPos + 4);
+HXLINE( 945)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 945)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)6: {
-HXLINE(1781)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1781)								data1->fPos = (data1->fPos + 3);
+HXLINE( 945)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 945)								data1->fPos = (data1->fPos + 3);
             							}
             							break;
             							case (int)7: {
-HXLINE(1781)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1781)								data1->fPos = (data1->fPos + 4);
+HXLINE( 945)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 945)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)8: {
-HXLINE(1781)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1781)								data1->oPos = (data1->oPos + 3);
+HXLINE( 945)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 945)								data1->oPos = (data1->oPos + 3);
             							}
             							break;
             							case (int)9: {
-HXLINE(1781)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1781)								data1->fPos = (data1->fPos + 4);
+HXLINE( 945)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 945)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)10: {
-HXLINE(1781)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1781)								data1->fPos = (data1->fPos + 5);
-HXDLIN(1781)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1781)								data2->oPos = (data2->oPos + 1);
+HXLINE( 945)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 945)								data1->fPos = (data1->fPos + 5);
+HXDLIN( 945)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 945)								data2->oPos = (data2->oPos + 1);
             							}
             							break;
             							case (int)12: {
-HXLINE(1781)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1781)								data1->oPos = (data1->oPos + 4);
+HXLINE( 945)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 945)								data1->oPos = (data1->oPos + 4);
             							}
             							break;
             							case (int)13: {
             							}
             							break;
             							case (int)14: {
-HXLINE(1781)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1781)								data1->oPos = (data1->oPos + 2);
-HXDLIN(1781)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1781)								data2->bPos = (data2->bPos + 2);
+HXLINE( 945)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 945)								data1->oPos = (data1->oPos + 2);
+HXDLIN( 945)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 945)								data2->bPos = (data2->bPos + 2);
             							}
             							break;
             							case (int)15: {
-HXLINE(1781)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1781)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1781)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1781)								data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1781)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1781)								data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1781)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1781)								data4->fPos = (data4->fPos + 1);
+HXLINE( 945)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 945)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 945)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 945)								data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 945)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 945)								data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 945)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 945)								data4->fPos = (data4->fPos + 1);
             							}
             							break;
             							case (int)16: {
-HXLINE(1781)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1781)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1781)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1781)								data2->iPos = (data2->iPos + 1);
-HXDLIN(1781)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1781)								data3->fPos = (data3->fPos + 2);
-HXDLIN(1781)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1781)								data4->bPos = (data4->bPos + 1);
+HXLINE( 945)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 945)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 945)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 945)								data2->iPos = (data2->iPos + 1);
+HXDLIN( 945)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 945)								data3->fPos = (data3->fPos + 2);
+HXDLIN( 945)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 945)								data4->bPos = (data4->bPos + 1);
             							}
             							break;
             							case (int)17: {
-HXLINE(1781)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1781)								data1->fPos = (data1->fPos + 2);
+HXLINE( 945)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 945)								data1->fPos = (data1->fPos + 2);
             							}
             							break;
             							case (int)18: {
-HXLINE(1781)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1781)								data1->fPos = (data1->fPos + 2);
+HXLINE( 945)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 945)								data1->fPos = (data1->fPos + 2);
             							}
             							break;
             							case (int)19: {
-HXLINE(1781)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1781)								data1->oPos = (data1->oPos + 1);
+HXLINE( 945)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 945)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)20: {
-HXLINE(1781)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1781)								data1->oPos = (data1->oPos + 1);
+HXLINE( 945)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 945)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)21: case (int)22: {
@@ -3093,135 +3093,135 @@ HXDLIN(1781)								data1->oPos = (data1->oPos + 1);
             							default:{
             							}
             						}
-HXLINE(1781)						data->prev = ::openfl::display::_internal::DrawCommandType_obj::LINE_GRADIENT_STYLE_dyn();
-HXDLIN(1781)						 ::openfl::display::_internal::DrawCommandReader this1 = data;
-HXDLIN(1781)						 ::openfl::display::_internal::DrawCommandReader c = this1;
+HXLINE( 945)						data->prev = ::openfl::display::_internal::DrawCommandType_obj::LINE_GRADIENT_STYLE_dyn();
+HXDLIN( 945)						 ::openfl::display::_internal::DrawCommandReader this1 = data;
+HXDLIN( 945)						 ::openfl::display::_internal::DrawCommandReader c = this1;
             					}
             					break;
             					case (int)16: {
-HXLINE(1796)						switch((int)(data->prev->_hx_getIndex())){
+HXLINE( 960)						switch((int)(data->prev->_hx_getIndex())){
             							case (int)0: {
-HXLINE(1796)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1796)								data1->oPos = (data1->oPos + 2);
-HXDLIN(1796)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1796)								data2->bPos = (data2->bPos + 2);
+HXLINE( 960)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 960)								data1->oPos = (data1->oPos + 2);
+HXDLIN( 960)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 960)								data2->bPos = (data2->bPos + 2);
             							}
             							break;
             							case (int)1: {
-HXLINE(1796)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1796)								data1->iPos = (data1->iPos + 1);
-HXDLIN(1796)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1796)								data2->fPos = (data2->fPos + 1);
+HXLINE( 960)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 960)								data1->iPos = (data1->iPos + 1);
+HXDLIN( 960)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 960)								data2->fPos = (data2->fPos + 1);
             							}
             							break;
             							case (int)2: {
-HXLINE(1796)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1796)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1796)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1796)								data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1796)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1796)								data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1796)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1796)								data4->fPos = (data4->fPos + 1);
+HXLINE( 960)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 960)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 960)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 960)								data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 960)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 960)								data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 960)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 960)								data4->fPos = (data4->fPos + 1);
             							}
             							break;
             							case (int)3: {
-HXLINE(1796)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1796)								data1->oPos = (data1->oPos + 1);
+HXLINE( 960)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 960)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)4: {
-HXLINE(1796)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1796)								data1->fPos = (data1->fPos + 6);
+HXLINE( 960)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 960)								data1->fPos = (data1->fPos + 6);
             							}
             							break;
             							case (int)5: {
-HXLINE(1796)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1796)								data1->fPos = (data1->fPos + 4);
+HXLINE( 960)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 960)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)6: {
-HXLINE(1796)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1796)								data1->fPos = (data1->fPos + 3);
+HXLINE( 960)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 960)								data1->fPos = (data1->fPos + 3);
             							}
             							break;
             							case (int)7: {
-HXLINE(1796)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1796)								data1->fPos = (data1->fPos + 4);
+HXLINE( 960)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 960)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)8: {
-HXLINE(1796)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1796)								data1->oPos = (data1->oPos + 3);
+HXLINE( 960)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 960)								data1->oPos = (data1->oPos + 3);
             							}
             							break;
             							case (int)9: {
-HXLINE(1796)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1796)								data1->fPos = (data1->fPos + 4);
+HXLINE( 960)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 960)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)10: {
-HXLINE(1796)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1796)								data1->fPos = (data1->fPos + 5);
-HXDLIN(1796)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1796)								data2->oPos = (data2->oPos + 1);
+HXLINE( 960)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 960)								data1->fPos = (data1->fPos + 5);
+HXDLIN( 960)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 960)								data2->oPos = (data2->oPos + 1);
             							}
             							break;
             							case (int)12: {
-HXLINE(1796)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1796)								data1->oPos = (data1->oPos + 4);
+HXLINE( 960)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 960)								data1->oPos = (data1->oPos + 4);
             							}
             							break;
             							case (int)13: {
             							}
             							break;
             							case (int)14: {
-HXLINE(1796)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1796)								data1->oPos = (data1->oPos + 2);
-HXDLIN(1796)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1796)								data2->bPos = (data2->bPos + 2);
+HXLINE( 960)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 960)								data1->oPos = (data1->oPos + 2);
+HXDLIN( 960)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 960)								data2->bPos = (data2->bPos + 2);
             							}
             							break;
             							case (int)15: {
-HXLINE(1796)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1796)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1796)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1796)								data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1796)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1796)								data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1796)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1796)								data4->fPos = (data4->fPos + 1);
+HXLINE( 960)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 960)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 960)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 960)								data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 960)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 960)								data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 960)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 960)								data4->fPos = (data4->fPos + 1);
             							}
             							break;
             							case (int)16: {
-HXLINE(1796)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1796)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1796)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1796)								data2->iPos = (data2->iPos + 1);
-HXDLIN(1796)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1796)								data3->fPos = (data3->fPos + 2);
-HXDLIN(1796)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1796)								data4->bPos = (data4->bPos + 1);
+HXLINE( 960)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 960)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 960)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 960)								data2->iPos = (data2->iPos + 1);
+HXDLIN( 960)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 960)								data3->fPos = (data3->fPos + 2);
+HXDLIN( 960)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 960)								data4->bPos = (data4->bPos + 1);
             							}
             							break;
             							case (int)17: {
-HXLINE(1796)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1796)								data1->fPos = (data1->fPos + 2);
+HXLINE( 960)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 960)								data1->fPos = (data1->fPos + 2);
             							}
             							break;
             							case (int)18: {
-HXLINE(1796)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1796)								data1->fPos = (data1->fPos + 2);
+HXLINE( 960)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 960)								data1->fPos = (data1->fPos + 2);
             							}
             							break;
             							case (int)19: {
-HXLINE(1796)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1796)								data1->oPos = (data1->oPos + 1);
+HXLINE( 960)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 960)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)20: {
-HXLINE(1796)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1796)								data1->oPos = (data1->oPos + 1);
+HXLINE( 960)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 960)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)21: case (int)22: {
@@ -3230,138 +3230,138 @@ HXDLIN(1796)								data1->oPos = (data1->oPos + 1);
             							default:{
             							}
             						}
-HXLINE(1796)						data->prev = ::openfl::display::_internal::DrawCommandType_obj::LINE_STYLE_dyn();
-HXDLIN(1796)						 ::openfl::display::_internal::DrawCommandReader this1 = data;
-HXDLIN(1796)						 ::openfl::display::_internal::DrawCommandReader c = this1;
-HXLINE(1797)						stroke =  ::openfl::display::GraphicsStroke_obj::__alloc( HX_CTX ,c->buffer->o->__get(c->oPos),c->buffer->b->__get(c->bPos),c->buffer->o->__get((c->oPos + 1)),c->buffer->o->__get((c->oPos + 2)),c->buffer->o->__get((c->oPos + 3)),c->buffer->f->__get((c->fPos + 1)),null());
-HXLINE(1798)						stroke->fill =  ::openfl::display::GraphicsSolidFill_obj::__alloc( HX_CTX ,c->buffer->i->__get(c->iPos),c->buffer->f->__get(c->fPos));
-HXLINE(1799)						graphicsData->push(stroke);
+HXLINE( 960)						data->prev = ::openfl::display::_internal::DrawCommandType_obj::LINE_STYLE_dyn();
+HXDLIN( 960)						 ::openfl::display::_internal::DrawCommandReader this1 = data;
+HXDLIN( 960)						 ::openfl::display::_internal::DrawCommandReader c = this1;
+HXLINE( 961)						stroke =  ::openfl::display::GraphicsStroke_obj::__alloc( HX_CTX ,c->buffer->o->__get(c->oPos),c->buffer->b->__get(c->bPos),c->buffer->o->__get((c->oPos + 1)),c->buffer->o->__get((c->oPos + 2)),c->buffer->o->__get((c->oPos + 3)),c->buffer->f->__get((c->fPos + 1)),null());
+HXLINE( 962)						stroke->fill =  ::openfl::display::GraphicsSolidFill_obj::__alloc( HX_CTX ,c->buffer->i->__get(c->iPos),c->buffer->f->__get(c->fPos));
+HXLINE( 963)						graphicsData->push(stroke);
             					}
             					break;
             					case (int)17: {
-HXLINE(1755)						switch((int)(data->prev->_hx_getIndex())){
+HXLINE( 919)						switch((int)(data->prev->_hx_getIndex())){
             							case (int)0: {
-HXLINE(1755)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1755)								data1->oPos = (data1->oPos + 2);
-HXDLIN(1755)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1755)								data2->bPos = (data2->bPos + 2);
+HXLINE( 919)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 919)								data1->oPos = (data1->oPos + 2);
+HXDLIN( 919)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 919)								data2->bPos = (data2->bPos + 2);
             							}
             							break;
             							case (int)1: {
-HXLINE(1755)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1755)								data1->iPos = (data1->iPos + 1);
-HXDLIN(1755)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1755)								data2->fPos = (data2->fPos + 1);
+HXLINE( 919)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 919)								data1->iPos = (data1->iPos + 1);
+HXDLIN( 919)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 919)								data2->fPos = (data2->fPos + 1);
             							}
             							break;
             							case (int)2: {
-HXLINE(1755)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1755)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1755)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1755)								data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1755)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1755)								data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1755)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1755)								data4->fPos = (data4->fPos + 1);
+HXLINE( 919)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 919)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 919)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 919)								data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 919)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 919)								data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 919)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 919)								data4->fPos = (data4->fPos + 1);
             							}
             							break;
             							case (int)3: {
-HXLINE(1755)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1755)								data1->oPos = (data1->oPos + 1);
+HXLINE( 919)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 919)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)4: {
-HXLINE(1755)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1755)								data1->fPos = (data1->fPos + 6);
+HXLINE( 919)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 919)								data1->fPos = (data1->fPos + 6);
             							}
             							break;
             							case (int)5: {
-HXLINE(1755)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1755)								data1->fPos = (data1->fPos + 4);
+HXLINE( 919)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 919)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)6: {
-HXLINE(1755)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1755)								data1->fPos = (data1->fPos + 3);
+HXLINE( 919)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 919)								data1->fPos = (data1->fPos + 3);
             							}
             							break;
             							case (int)7: {
-HXLINE(1755)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1755)								data1->fPos = (data1->fPos + 4);
+HXLINE( 919)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 919)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)8: {
-HXLINE(1755)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1755)								data1->oPos = (data1->oPos + 3);
+HXLINE( 919)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 919)								data1->oPos = (data1->oPos + 3);
             							}
             							break;
             							case (int)9: {
-HXLINE(1755)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1755)								data1->fPos = (data1->fPos + 4);
+HXLINE( 919)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 919)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)10: {
-HXLINE(1755)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1755)								data1->fPos = (data1->fPos + 5);
-HXDLIN(1755)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1755)								data2->oPos = (data2->oPos + 1);
+HXLINE( 919)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 919)								data1->fPos = (data1->fPos + 5);
+HXDLIN( 919)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 919)								data2->oPos = (data2->oPos + 1);
             							}
             							break;
             							case (int)12: {
-HXLINE(1755)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1755)								data1->oPos = (data1->oPos + 4);
+HXLINE( 919)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 919)								data1->oPos = (data1->oPos + 4);
             							}
             							break;
             							case (int)13: {
             							}
             							break;
             							case (int)14: {
-HXLINE(1755)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1755)								data1->oPos = (data1->oPos + 2);
-HXDLIN(1755)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1755)								data2->bPos = (data2->bPos + 2);
+HXLINE( 919)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 919)								data1->oPos = (data1->oPos + 2);
+HXDLIN( 919)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 919)								data2->bPos = (data2->bPos + 2);
             							}
             							break;
             							case (int)15: {
-HXLINE(1755)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1755)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1755)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1755)								data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1755)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1755)								data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1755)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1755)								data4->fPos = (data4->fPos + 1);
+HXLINE( 919)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 919)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 919)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 919)								data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 919)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 919)								data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 919)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 919)								data4->fPos = (data4->fPos + 1);
             							}
             							break;
             							case (int)16: {
-HXLINE(1755)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1755)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1755)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1755)								data2->iPos = (data2->iPos + 1);
-HXDLIN(1755)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1755)								data3->fPos = (data3->fPos + 2);
-HXDLIN(1755)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1755)								data4->bPos = (data4->bPos + 1);
+HXLINE( 919)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 919)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 919)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 919)								data2->iPos = (data2->iPos + 1);
+HXDLIN( 919)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 919)								data3->fPos = (data3->fPos + 2);
+HXDLIN( 919)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 919)								data4->bPos = (data4->bPos + 1);
             							}
             							break;
             							case (int)17: {
-HXLINE(1755)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1755)								data1->fPos = (data1->fPos + 2);
+HXLINE( 919)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 919)								data1->fPos = (data1->fPos + 2);
             							}
             							break;
             							case (int)18: {
-HXLINE(1755)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1755)								data1->fPos = (data1->fPos + 2);
+HXLINE( 919)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 919)								data1->fPos = (data1->fPos + 2);
             							}
             							break;
             							case (int)19: {
-HXLINE(1755)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1755)								data1->oPos = (data1->oPos + 1);
+HXLINE( 919)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 919)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)20: {
-HXLINE(1755)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1755)								data1->oPos = (data1->oPos + 1);
+HXLINE( 919)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 919)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)21: case (int)22: {
@@ -3370,136 +3370,136 @@ HXDLIN(1755)								data1->oPos = (data1->oPos + 1);
             							default:{
             							}
             						}
-HXLINE(1755)						data->prev = ::openfl::display::_internal::DrawCommandType_obj::LINE_TO_dyn();
-HXDLIN(1755)						 ::openfl::display::_internal::DrawCommandReader this1 = data;
-HXDLIN(1755)						 ::openfl::display::_internal::DrawCommandReader c = this1;
-HXLINE(1756)						path->lineTo(c->buffer->f->__get(c->fPos),c->buffer->f->__get((c->fPos + 1)));
+HXLINE( 919)						data->prev = ::openfl::display::_internal::DrawCommandType_obj::LINE_TO_dyn();
+HXDLIN( 919)						 ::openfl::display::_internal::DrawCommandReader this1 = data;
+HXDLIN( 919)						 ::openfl::display::_internal::DrawCommandReader c = this1;
+HXLINE( 920)						path->lineTo(c->buffer->f->__get(c->fPos),c->buffer->f->__get((c->fPos + 1)));
             					}
             					break;
             					case (int)18: {
-HXLINE(1759)						switch((int)(data->prev->_hx_getIndex())){
+HXLINE( 923)						switch((int)(data->prev->_hx_getIndex())){
             							case (int)0: {
-HXLINE(1759)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1759)								data1->oPos = (data1->oPos + 2);
-HXDLIN(1759)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1759)								data2->bPos = (data2->bPos + 2);
+HXLINE( 923)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 923)								data1->oPos = (data1->oPos + 2);
+HXDLIN( 923)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 923)								data2->bPos = (data2->bPos + 2);
             							}
             							break;
             							case (int)1: {
-HXLINE(1759)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1759)								data1->iPos = (data1->iPos + 1);
-HXDLIN(1759)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1759)								data2->fPos = (data2->fPos + 1);
+HXLINE( 923)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 923)								data1->iPos = (data1->iPos + 1);
+HXDLIN( 923)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 923)								data2->fPos = (data2->fPos + 1);
             							}
             							break;
             							case (int)2: {
-HXLINE(1759)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1759)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1759)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1759)								data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1759)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1759)								data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1759)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1759)								data4->fPos = (data4->fPos + 1);
+HXLINE( 923)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 923)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 923)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 923)								data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 923)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 923)								data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 923)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 923)								data4->fPos = (data4->fPos + 1);
             							}
             							break;
             							case (int)3: {
-HXLINE(1759)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1759)								data1->oPos = (data1->oPos + 1);
+HXLINE( 923)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 923)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)4: {
-HXLINE(1759)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1759)								data1->fPos = (data1->fPos + 6);
+HXLINE( 923)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 923)								data1->fPos = (data1->fPos + 6);
             							}
             							break;
             							case (int)5: {
-HXLINE(1759)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1759)								data1->fPos = (data1->fPos + 4);
+HXLINE( 923)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 923)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)6: {
-HXLINE(1759)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1759)								data1->fPos = (data1->fPos + 3);
+HXLINE( 923)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 923)								data1->fPos = (data1->fPos + 3);
             							}
             							break;
             							case (int)7: {
-HXLINE(1759)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1759)								data1->fPos = (data1->fPos + 4);
+HXLINE( 923)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 923)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)8: {
-HXLINE(1759)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1759)								data1->oPos = (data1->oPos + 3);
+HXLINE( 923)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 923)								data1->oPos = (data1->oPos + 3);
             							}
             							break;
             							case (int)9: {
-HXLINE(1759)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1759)								data1->fPos = (data1->fPos + 4);
+HXLINE( 923)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 923)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)10: {
-HXLINE(1759)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1759)								data1->fPos = (data1->fPos + 5);
-HXDLIN(1759)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1759)								data2->oPos = (data2->oPos + 1);
+HXLINE( 923)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 923)								data1->fPos = (data1->fPos + 5);
+HXDLIN( 923)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 923)								data2->oPos = (data2->oPos + 1);
             							}
             							break;
             							case (int)12: {
-HXLINE(1759)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1759)								data1->oPos = (data1->oPos + 4);
+HXLINE( 923)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 923)								data1->oPos = (data1->oPos + 4);
             							}
             							break;
             							case (int)13: {
             							}
             							break;
             							case (int)14: {
-HXLINE(1759)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1759)								data1->oPos = (data1->oPos + 2);
-HXDLIN(1759)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1759)								data2->bPos = (data2->bPos + 2);
+HXLINE( 923)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 923)								data1->oPos = (data1->oPos + 2);
+HXDLIN( 923)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 923)								data2->bPos = (data2->bPos + 2);
             							}
             							break;
             							case (int)15: {
-HXLINE(1759)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1759)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1759)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1759)								data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1759)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1759)								data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1759)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1759)								data4->fPos = (data4->fPos + 1);
+HXLINE( 923)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 923)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 923)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 923)								data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 923)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 923)								data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 923)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 923)								data4->fPos = (data4->fPos + 1);
             							}
             							break;
             							case (int)16: {
-HXLINE(1759)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1759)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1759)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1759)								data2->iPos = (data2->iPos + 1);
-HXDLIN(1759)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1759)								data3->fPos = (data3->fPos + 2);
-HXDLIN(1759)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1759)								data4->bPos = (data4->bPos + 1);
+HXLINE( 923)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 923)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 923)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 923)								data2->iPos = (data2->iPos + 1);
+HXDLIN( 923)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 923)								data3->fPos = (data3->fPos + 2);
+HXDLIN( 923)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 923)								data4->bPos = (data4->bPos + 1);
             							}
             							break;
             							case (int)17: {
-HXLINE(1759)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1759)								data1->fPos = (data1->fPos + 2);
+HXLINE( 923)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 923)								data1->fPos = (data1->fPos + 2);
             							}
             							break;
             							case (int)18: {
-HXLINE(1759)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1759)								data1->fPos = (data1->fPos + 2);
+HXLINE( 923)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 923)								data1->fPos = (data1->fPos + 2);
             							}
             							break;
             							case (int)19: {
-HXLINE(1759)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1759)								data1->oPos = (data1->oPos + 1);
+HXLINE( 923)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 923)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)20: {
-HXLINE(1759)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1759)								data1->oPos = (data1->oPos + 1);
+HXLINE( 923)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 923)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)21: case (int)22: {
@@ -3508,136 +3508,136 @@ HXDLIN(1759)								data1->oPos = (data1->oPos + 1);
             							default:{
             							}
             						}
-HXLINE(1759)						data->prev = ::openfl::display::_internal::DrawCommandType_obj::MOVE_TO_dyn();
-HXDLIN(1759)						 ::openfl::display::_internal::DrawCommandReader this1 = data;
-HXDLIN(1759)						 ::openfl::display::_internal::DrawCommandReader c = this1;
-HXLINE(1760)						path->moveTo(c->buffer->f->__get(c->fPos),c->buffer->f->__get((c->fPos + 1)));
+HXLINE( 923)						data->prev = ::openfl::display::_internal::DrawCommandType_obj::MOVE_TO_dyn();
+HXDLIN( 923)						 ::openfl::display::_internal::DrawCommandReader this1 = data;
+HXDLIN( 923)						 ::openfl::display::_internal::DrawCommandReader c = this1;
+HXLINE( 924)						path->moveTo(c->buffer->f->__get(c->fPos),c->buffer->f->__get((c->fPos + 1)));
             					}
             					break;
             					default:{
-HXLINE(1821)						switch((int)(data->prev->_hx_getIndex())){
+HXLINE( 985)						switch((int)(data->prev->_hx_getIndex())){
             							case (int)0: {
-HXLINE(1821)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1821)								data1->oPos = (data1->oPos + 2);
-HXDLIN(1821)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1821)								data2->bPos = (data2->bPos + 2);
+HXLINE( 985)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 985)								data1->oPos = (data1->oPos + 2);
+HXDLIN( 985)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 985)								data2->bPos = (data2->bPos + 2);
             							}
             							break;
             							case (int)1: {
-HXLINE(1821)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1821)								data1->iPos = (data1->iPos + 1);
-HXDLIN(1821)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1821)								data2->fPos = (data2->fPos + 1);
+HXLINE( 985)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 985)								data1->iPos = (data1->iPos + 1);
+HXDLIN( 985)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 985)								data2->fPos = (data2->fPos + 1);
             							}
             							break;
             							case (int)2: {
-HXLINE(1821)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1821)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1821)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1821)								data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1821)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1821)								data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1821)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1821)								data4->fPos = (data4->fPos + 1);
+HXLINE( 985)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 985)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 985)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 985)								data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 985)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 985)								data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 985)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 985)								data4->fPos = (data4->fPos + 1);
             							}
             							break;
             							case (int)3: {
-HXLINE(1821)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1821)								data1->oPos = (data1->oPos + 1);
+HXLINE( 985)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 985)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)4: {
-HXLINE(1821)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1821)								data1->fPos = (data1->fPos + 6);
+HXLINE( 985)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 985)								data1->fPos = (data1->fPos + 6);
             							}
             							break;
             							case (int)5: {
-HXLINE(1821)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1821)								data1->fPos = (data1->fPos + 4);
+HXLINE( 985)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 985)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)6: {
-HXLINE(1821)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1821)								data1->fPos = (data1->fPos + 3);
+HXLINE( 985)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 985)								data1->fPos = (data1->fPos + 3);
             							}
             							break;
             							case (int)7: {
-HXLINE(1821)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1821)								data1->fPos = (data1->fPos + 4);
+HXLINE( 985)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 985)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)8: {
-HXLINE(1821)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1821)								data1->oPos = (data1->oPos + 3);
+HXLINE( 985)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 985)								data1->oPos = (data1->oPos + 3);
             							}
             							break;
             							case (int)9: {
-HXLINE(1821)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1821)								data1->fPos = (data1->fPos + 4);
+HXLINE( 985)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 985)								data1->fPos = (data1->fPos + 4);
             							}
             							break;
             							case (int)10: {
-HXLINE(1821)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1821)								data1->fPos = (data1->fPos + 5);
-HXDLIN(1821)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1821)								data2->oPos = (data2->oPos + 1);
+HXLINE( 985)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 985)								data1->fPos = (data1->fPos + 5);
+HXDLIN( 985)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 985)								data2->oPos = (data2->oPos + 1);
             							}
             							break;
             							case (int)12: {
-HXLINE(1821)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1821)								data1->oPos = (data1->oPos + 4);
+HXLINE( 985)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 985)								data1->oPos = (data1->oPos + 4);
             							}
             							break;
             							case (int)13: {
             							}
             							break;
             							case (int)14: {
-HXLINE(1821)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1821)								data1->oPos = (data1->oPos + 2);
-HXDLIN(1821)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1821)								data2->bPos = (data2->bPos + 2);
+HXLINE( 985)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 985)								data1->oPos = (data1->oPos + 2);
+HXDLIN( 985)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 985)								data2->bPos = (data2->bPos + 2);
             							}
             							break;
             							case (int)15: {
-HXLINE(1821)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1821)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1821)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1821)								data2->iiPos = (data2->iiPos + 2);
-HXDLIN(1821)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1821)								data3->ffPos = (data3->ffPos + 1);
-HXDLIN(1821)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1821)								data4->fPos = (data4->fPos + 1);
+HXLINE( 985)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 985)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 985)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 985)								data2->iiPos = (data2->iiPos + 2);
+HXDLIN( 985)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 985)								data3->ffPos = (data3->ffPos + 1);
+HXDLIN( 985)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 985)								data4->fPos = (data4->fPos + 1);
             							}
             							break;
             							case (int)16: {
-HXLINE(1821)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1821)								data1->oPos = (data1->oPos + 4);
-HXDLIN(1821)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
-HXDLIN(1821)								data2->iPos = (data2->iPos + 1);
-HXDLIN(1821)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
-HXDLIN(1821)								data3->fPos = (data3->fPos + 2);
-HXDLIN(1821)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
-HXDLIN(1821)								data4->bPos = (data4->bPos + 1);
+HXLINE( 985)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 985)								data1->oPos = (data1->oPos + 4);
+HXDLIN( 985)								 ::openfl::display::_internal::DrawCommandReader data2 = data;
+HXDLIN( 985)								data2->iPos = (data2->iPos + 1);
+HXDLIN( 985)								 ::openfl::display::_internal::DrawCommandReader data3 = data;
+HXDLIN( 985)								data3->fPos = (data3->fPos + 2);
+HXDLIN( 985)								 ::openfl::display::_internal::DrawCommandReader data4 = data;
+HXDLIN( 985)								data4->bPos = (data4->bPos + 1);
             							}
             							break;
             							case (int)17: {
-HXLINE(1821)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1821)								data1->fPos = (data1->fPos + 2);
+HXLINE( 985)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 985)								data1->fPos = (data1->fPos + 2);
             							}
             							break;
             							case (int)18: {
-HXLINE(1821)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1821)								data1->fPos = (data1->fPos + 2);
+HXLINE( 985)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 985)								data1->fPos = (data1->fPos + 2);
             							}
             							break;
             							case (int)19: {
-HXLINE(1821)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1821)								data1->oPos = (data1->oPos + 1);
+HXLINE( 985)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 985)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)20: {
-HXLINE(1821)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
-HXDLIN(1821)								data1->oPos = (data1->oPos + 1);
+HXLINE( 985)								 ::openfl::display::_internal::DrawCommandReader data1 = data;
+HXDLIN( 985)								data1->oPos = (data1->oPos + 1);
             							}
             							break;
             							case (int)21: case (int)22: {
@@ -3646,13 +3646,13 @@ HXDLIN(1821)								data1->oPos = (data1->oPos + 1);
             							default:{
             							}
             						}
-HXLINE(1821)						data->prev = type;
+HXLINE( 985)						data->prev = type;
             					}
             				}
             			}
             		}
-HXLINE(1825)		if (::hx::IsNotNull( path )) {
-HXLINE(1827)			graphicsData->push(path);
+HXLINE( 989)		if (::hx::IsNotNull( path )) {
+HXLINE( 991)			graphicsData->push(path);
             		}
             	}
 
@@ -3660,178 +3660,178 @@ HXLINE(1827)			graphicsData->push(path);
 HX_DEFINE_DYNAMIC_FUNC1(Graphics_obj,_hx___readGraphicsData,(void))
 
 void Graphics_obj::_hx___update( ::openfl::geom::Matrix displayMatrix){
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_1832___update)
-HXLINE(1833)		bool _hx_tmp;
-HXDLIN(1833)		bool _hx_tmp1;
-HXDLIN(1833)		if (::hx::IsNotNull( this->_hx___bounds )) {
-HXLINE(1833)			_hx_tmp1 = (this->_hx___bounds->width <= 0);
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_996___update)
+HXLINE( 997)		bool _hx_tmp;
+HXDLIN( 997)		bool _hx_tmp1;
+HXDLIN( 997)		if (::hx::IsNotNull( this->_hx___bounds )) {
+HXLINE( 997)			_hx_tmp1 = (this->_hx___bounds->width <= 0);
             		}
             		else {
-HXLINE(1833)			_hx_tmp1 = true;
+HXLINE( 997)			_hx_tmp1 = true;
             		}
-HXDLIN(1833)		if (!(_hx_tmp1)) {
-HXLINE(1833)			_hx_tmp = (this->_hx___bounds->height <= 0);
+HXDLIN( 997)		if (!(_hx_tmp1)) {
+HXLINE( 997)			_hx_tmp = (this->_hx___bounds->height <= 0);
             		}
             		else {
-HXLINE(1833)			_hx_tmp = true;
+HXLINE( 997)			_hx_tmp = true;
             		}
-HXDLIN(1833)		if (_hx_tmp) {
-HXLINE(1833)			return;
+HXDLIN( 997)		if (_hx_tmp) {
+HXLINE( 997)			return;
             		}
-HXLINE(1835)		 ::openfl::geom::Matrix parentTransform = this->_hx___owner->_hx___renderTransform;
-HXLINE(1836)		Float scaleX = ((Float)1.0);
-HXDLIN(1836)		Float scaleY = ((Float)1.0);
-HXLINE(1838)		if (::hx::IsNotNull( parentTransform )) {
-HXLINE(1840)			if ((parentTransform->b == 0)) {
-HXLINE(1842)				scaleX = ::Math_obj::abs(parentTransform->a);
+HXLINE( 999)		 ::openfl::geom::Matrix parentTransform = this->_hx___owner->_hx___renderTransform;
+HXLINE(1000)		Float scaleX = ((Float)1.0);
+HXDLIN(1000)		Float scaleY = ((Float)1.0);
+HXLINE(1002)		if (::hx::IsNotNull( parentTransform )) {
+HXLINE(1004)			if ((parentTransform->b == 0)) {
+HXLINE(1006)				scaleX = ::Math_obj::abs(parentTransform->a);
             			}
             			else {
-HXLINE(1846)				scaleX = ::Math_obj::sqrt(((parentTransform->a * parentTransform->a) + (parentTransform->b * parentTransform->b)));
+HXLINE(1010)				scaleX = ::Math_obj::sqrt(((parentTransform->a * parentTransform->a) + (parentTransform->b * parentTransform->b)));
             			}
-HXLINE(1849)			if ((parentTransform->c == 0)) {
-HXLINE(1851)				scaleY = ::Math_obj::abs(parentTransform->d);
-            			}
-            			else {
-HXLINE(1855)				scaleY = ::Math_obj::sqrt(((parentTransform->c * parentTransform->c) + (parentTransform->d * parentTransform->d)));
-            			}
-            		}
-            		else {
-HXLINE(1860)			return;
-            		}
-HXLINE(1863)		if (::hx::IsNotNull( displayMatrix )) {
-HXLINE(1865)			if ((displayMatrix->b == 0)) {
-HXLINE(1867)				scaleX = (scaleX * displayMatrix->a);
+HXLINE(1013)			if ((parentTransform->c == 0)) {
+HXLINE(1015)				scaleY = ::Math_obj::abs(parentTransform->d);
             			}
             			else {
-HXLINE(1871)				scaleX = (scaleX * ::Math_obj::sqrt(((displayMatrix->a * displayMatrix->a) + (displayMatrix->b * displayMatrix->b))));
+HXLINE(1019)				scaleY = ::Math_obj::sqrt(((parentTransform->c * parentTransform->c) + (parentTransform->d * parentTransform->d)));
             			}
-HXLINE(1874)			if ((displayMatrix->c == 0)) {
-HXLINE(1876)				scaleY = (scaleY * displayMatrix->d);
-            			}
-            			else {
-HXLINE(1880)				scaleY = (scaleY * ::Math_obj::sqrt(((displayMatrix->c * displayMatrix->c) + (displayMatrix->d * displayMatrix->d))));
-            			}
-            		}
-HXLINE(1889)		Float width = (this->_hx___bounds->width * scaleX);
-HXLINE(1890)		Float height = (this->_hx___bounds->height * scaleY);
-HXLINE(1892)		bool _hx_tmp2;
-HXDLIN(1892)		if (!((width < 1))) {
-HXLINE(1892)			_hx_tmp2 = (height < 1);
             		}
             		else {
-HXLINE(1892)			_hx_tmp2 = true;
+HXLINE(1024)			return;
             		}
-HXDLIN(1892)		if (_hx_tmp2) {
-HXLINE(1894)			bool _hx_tmp;
-HXDLIN(1894)			if ((this->_hx___width < 1)) {
-HXLINE(1894)				_hx_tmp = (this->_hx___height >= 1);
+HXLINE(1027)		if (::hx::IsNotNull( displayMatrix )) {
+HXLINE(1029)			if ((displayMatrix->b == 0)) {
+HXLINE(1031)				scaleX = (scaleX * displayMatrix->a);
             			}
             			else {
-HXLINE(1894)				_hx_tmp = true;
+HXLINE(1035)				scaleX = (scaleX * ::Math_obj::sqrt(((displayMatrix->a * displayMatrix->a) + (displayMatrix->b * displayMatrix->b))));
             			}
-HXDLIN(1894)			if (_hx_tmp) {
-HXLINE(1894)				this->set___dirty(true);
+HXLINE(1038)			if ((displayMatrix->c == 0)) {
+HXLINE(1040)				scaleY = (scaleY * displayMatrix->d);
             			}
-HXLINE(1895)			this->_hx___width = 0;
-HXLINE(1896)			this->_hx___height = 0;
-HXLINE(1897)			return;
+            			else {
+HXLINE(1044)				scaleY = (scaleY * ::Math_obj::sqrt(((displayMatrix->c * displayMatrix->c) + (displayMatrix->d * displayMatrix->d))));
+            			}
             		}
-HXLINE(1900)		bool _hx_tmp3;
-HXDLIN(1900)		if (::hx::IsNotNull( ::openfl::display::Graphics_obj::maxTextureWidth )) {
-HXLINE(1900)			_hx_tmp3 = ::hx::IsGreater( width,::openfl::display::Graphics_obj::maxTextureWidth );
-            		}
-            		else {
-HXLINE(1900)			_hx_tmp3 = false;
-            		}
-HXDLIN(1900)		if (_hx_tmp3) {
-HXLINE(1902)			width = ( (Float)(::openfl::display::Graphics_obj::maxTextureWidth) );
-HXLINE(1903)			scaleX = (( (Float)(::openfl::display::Graphics_obj::maxTextureWidth) ) / this->_hx___bounds->width);
-            		}
-HXLINE(1906)		bool _hx_tmp4;
-HXDLIN(1906)		if (::hx::IsNotNull( ::openfl::display::Graphics_obj::maxTextureWidth )) {
-HXLINE(1906)			_hx_tmp4 = ::hx::IsGreater( height,::openfl::display::Graphics_obj::maxTextureHeight );
+HXLINE(1053)		Float width = (this->_hx___bounds->width * scaleX);
+HXLINE(1054)		Float height = (this->_hx___bounds->height * scaleY);
+HXLINE(1056)		bool _hx_tmp2;
+HXDLIN(1056)		if (!((width < 1))) {
+HXLINE(1056)			_hx_tmp2 = (height < 1);
             		}
             		else {
-HXLINE(1906)			_hx_tmp4 = false;
+HXLINE(1056)			_hx_tmp2 = true;
             		}
-HXDLIN(1906)		if (_hx_tmp4) {
-HXLINE(1908)			height = ( (Float)(::openfl::display::Graphics_obj::maxTextureHeight) );
-HXLINE(1909)			scaleY = (( (Float)(::openfl::display::Graphics_obj::maxTextureHeight) ) / this->_hx___bounds->height);
+HXDLIN(1056)		if (_hx_tmp2) {
+HXLINE(1058)			bool _hx_tmp;
+HXDLIN(1058)			if ((this->_hx___width < 1)) {
+HXLINE(1058)				_hx_tmp = (this->_hx___height >= 1);
+            			}
+            			else {
+HXLINE(1058)				_hx_tmp = true;
+            			}
+HXDLIN(1058)			if (_hx_tmp) {
+HXLINE(1058)				this->set___dirty(true);
+            			}
+HXLINE(1059)			this->_hx___width = 0;
+HXLINE(1060)			this->_hx___height = 0;
+HXLINE(1061)			return;
             		}
-HXLINE(1912)		this->_hx___renderTransform->a = (width / this->_hx___bounds->width);
-HXLINE(1913)		this->_hx___renderTransform->d = (height / this->_hx___bounds->height);
-HXLINE(1914)		Float inverseA = (( (Float)(1) ) / this->_hx___renderTransform->a);
-HXLINE(1915)		Float inverseD = (( (Float)(1) ) / this->_hx___renderTransform->d);
-HXLINE(1918)		this->_hx___worldTransform->a = (inverseA * parentTransform->a);
-HXLINE(1919)		this->_hx___worldTransform->b = (inverseA * parentTransform->b);
-HXLINE(1920)		this->_hx___worldTransform->c = (inverseD * parentTransform->c);
-HXLINE(1921)		this->_hx___worldTransform->d = (inverseD * parentTransform->d);
-HXLINE(1923)		Float x = this->_hx___bounds->x;
-HXLINE(1924)		Float y = this->_hx___bounds->y;
-HXLINE(1925)		Float tx = (((x * parentTransform->a) + (y * parentTransform->c)) + parentTransform->tx);
-HXLINE(1926)		Float ty = (((x * parentTransform->b) + (y * parentTransform->d)) + parentTransform->ty);
-HXLINE(1929)		this->_hx___worldTransform->tx = ::Math_obj::fround(tx);
-HXLINE(1930)		this->_hx___worldTransform->ty = ::Math_obj::fround(ty);
-HXLINE(1933)		 ::openfl::geom::Matrix _this = this->_hx___worldTransform;
-HXDLIN(1933)		Float norm = ((_this->a * _this->d) - (_this->b * _this->c));
-HXDLIN(1933)		Float _hx_tmp5;
-HXDLIN(1933)		if ((norm == 0)) {
-HXLINE(1933)			_hx_tmp5 = -(_this->tx);
+HXLINE(1064)		bool _hx_tmp3;
+HXDLIN(1064)		if (::hx::IsNotNull( ::openfl::display::Graphics_obj::maxTextureWidth )) {
+HXLINE(1064)			_hx_tmp3 = ::hx::IsGreater( width,::openfl::display::Graphics_obj::maxTextureWidth );
             		}
             		else {
-HXLINE(1933)			_hx_tmp5 = ((((Float)1.0) / norm) * ((_this->c * (_this->ty - ty)) + (_this->d * (tx - _this->tx))));
+HXLINE(1064)			_hx_tmp3 = false;
             		}
-HXDLIN(1933)		this->_hx___renderTransform->tx = _hx_tmp5;
-HXLINE(1934)		 ::openfl::geom::Matrix _this1 = this->_hx___worldTransform;
-HXDLIN(1934)		Float norm1 = ((_this1->a * _this1->d) - (_this1->b * _this1->c));
-HXDLIN(1934)		Float _hx_tmp6;
-HXDLIN(1934)		if ((norm1 == 0)) {
-HXLINE(1934)			_hx_tmp6 = -(_this1->ty);
+HXDLIN(1064)		if (_hx_tmp3) {
+HXLINE(1066)			width = ( (Float)(::openfl::display::Graphics_obj::maxTextureWidth) );
+HXLINE(1067)			scaleX = (( (Float)(::openfl::display::Graphics_obj::maxTextureWidth) ) / this->_hx___bounds->width);
             		}
-            		else {
-HXLINE(1934)			_hx_tmp6 = ((((Float)1.0) / norm1) * ((_this1->a * (ty - _this1->ty)) + (_this1->b * (_this1->tx - tx))));
-            		}
-HXDLIN(1934)		this->_hx___renderTransform->ty = _hx_tmp6;
-HXLINE(1940)		int newWidth = ::Math_obj::ceil((width + ((Float)1.0)));
-HXLINE(1941)		int newHeight = ::Math_obj::ceil((height + ((Float)1.0)));
-HXLINE(1944)		bool _hx_tmp7;
-HXDLIN(1944)		if ((newWidth == this->_hx___width)) {
-HXLINE(1944)			_hx_tmp7 = (newHeight != this->_hx___height);
+HXLINE(1070)		bool _hx_tmp4;
+HXDLIN(1070)		if (::hx::IsNotNull( ::openfl::display::Graphics_obj::maxTextureWidth )) {
+HXLINE(1070)			_hx_tmp4 = ::hx::IsGreater( height,::openfl::display::Graphics_obj::maxTextureHeight );
             		}
             		else {
-HXLINE(1944)			_hx_tmp7 = true;
+HXLINE(1070)			_hx_tmp4 = false;
             		}
-HXDLIN(1944)		if (_hx_tmp7) {
-HXLINE(1947)			this->set___dirty(true);
+HXDLIN(1070)		if (_hx_tmp4) {
+HXLINE(1072)			height = ( (Float)(::openfl::display::Graphics_obj::maxTextureHeight) );
+HXLINE(1073)			scaleY = (( (Float)(::openfl::display::Graphics_obj::maxTextureHeight) ) / this->_hx___bounds->height);
             		}
-HXLINE(1951)		this->_hx___width = newWidth;
-HXLINE(1952)		this->_hx___height = newHeight;
+HXLINE(1076)		this->_hx___renderTransform->a = (width / this->_hx___bounds->width);
+HXLINE(1077)		this->_hx___renderTransform->d = (height / this->_hx___bounds->height);
+HXLINE(1078)		Float inverseA = (( (Float)(1) ) / this->_hx___renderTransform->a);
+HXLINE(1079)		Float inverseD = (( (Float)(1) ) / this->_hx___renderTransform->d);
+HXLINE(1082)		this->_hx___worldTransform->a = (inverseA * parentTransform->a);
+HXLINE(1083)		this->_hx___worldTransform->b = (inverseA * parentTransform->b);
+HXLINE(1084)		this->_hx___worldTransform->c = (inverseD * parentTransform->c);
+HXLINE(1085)		this->_hx___worldTransform->d = (inverseD * parentTransform->d);
+HXLINE(1087)		Float x = this->_hx___bounds->x;
+HXLINE(1088)		Float y = this->_hx___bounds->y;
+HXLINE(1089)		Float tx = (((x * parentTransform->a) + (y * parentTransform->c)) + parentTransform->tx);
+HXLINE(1090)		Float ty = (((x * parentTransform->b) + (y * parentTransform->d)) + parentTransform->ty);
+HXLINE(1093)		this->_hx___worldTransform->tx = ::Math_obj::fround(tx);
+HXLINE(1094)		this->_hx___worldTransform->ty = ::Math_obj::fround(ty);
+HXLINE(1097)		 ::openfl::geom::Matrix _this = this->_hx___worldTransform;
+HXDLIN(1097)		Float norm = ((_this->a * _this->d) - (_this->b * _this->c));
+HXDLIN(1097)		Float _hx_tmp5;
+HXDLIN(1097)		if ((norm == 0)) {
+HXLINE(1097)			_hx_tmp5 = -(_this->tx);
+            		}
+            		else {
+HXLINE(1097)			_hx_tmp5 = ((((Float)1.0) / norm) * ((_this->c * (_this->ty - ty)) + (_this->d * (tx - _this->tx))));
+            		}
+HXDLIN(1097)		this->_hx___renderTransform->tx = _hx_tmp5;
+HXLINE(1098)		 ::openfl::geom::Matrix _this1 = this->_hx___worldTransform;
+HXDLIN(1098)		Float norm1 = ((_this1->a * _this1->d) - (_this1->b * _this1->c));
+HXDLIN(1098)		Float _hx_tmp6;
+HXDLIN(1098)		if ((norm1 == 0)) {
+HXLINE(1098)			_hx_tmp6 = -(_this1->ty);
+            		}
+            		else {
+HXLINE(1098)			_hx_tmp6 = ((((Float)1.0) / norm1) * ((_this1->a * (ty - _this1->ty)) + (_this1->b * (_this1->tx - tx))));
+            		}
+HXDLIN(1098)		this->_hx___renderTransform->ty = _hx_tmp6;
+HXLINE(1104)		int newWidth = ::Math_obj::ceil((width + ((Float)1.0)));
+HXLINE(1105)		int newHeight = ::Math_obj::ceil((height + ((Float)1.0)));
+HXLINE(1108)		bool _hx_tmp7;
+HXDLIN(1108)		if ((newWidth == this->_hx___width)) {
+HXLINE(1108)			_hx_tmp7 = (newHeight != this->_hx___height);
+            		}
+            		else {
+HXLINE(1108)			_hx_tmp7 = true;
+            		}
+HXDLIN(1108)		if (_hx_tmp7) {
+HXLINE(1111)			this->set___dirty(true);
+            		}
+HXLINE(1115)		this->_hx___width = newWidth;
+HXLINE(1116)		this->_hx___height = newHeight;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Graphics_obj,_hx___update,(void))
 
 bool Graphics_obj::set___dirty(bool value){
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_1957_set___dirty)
-HXLINE(1958)		bool _hx_tmp;
-HXDLIN(1958)		if (value) {
-HXLINE(1958)			_hx_tmp = ::hx::IsNotNull( this->_hx___owner );
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_1121_set___dirty)
+HXLINE(1122)		bool _hx_tmp;
+HXDLIN(1122)		if (value) {
+HXLINE(1122)			_hx_tmp = ::hx::IsNotNull( this->_hx___owner );
             		}
             		else {
-HXLINE(1958)			_hx_tmp = false;
+HXLINE(1122)			_hx_tmp = false;
             		}
-HXDLIN(1958)		if (_hx_tmp) {
-HXLINE(1960)			 ::openfl::display::DisplayObject _this = this->_hx___owner;
-HXDLIN(1960)			if (!(_this->_hx___renderDirty)) {
-HXLINE(1960)				_this->_hx___renderDirty = true;
-HXDLIN(1960)				_this->_hx___setParentRenderDirty();
+HXDLIN(1122)		if (_hx_tmp) {
+HXLINE(1124)			 ::openfl::display::DisplayObject _this = this->_hx___owner;
+HXDLIN(1124)			if (!(_this->_hx___renderDirty)) {
+HXLINE(1124)				_this->_hx___renderDirty = true;
+HXDLIN(1124)				_this->_hx___setParentRenderDirty();
             			}
             		}
-HXLINE(1963)		if (value) {
-HXLINE(1965)			this->_hx___softwareDirty = true;
-HXLINE(1966)			this->_hx___hardwareDirty = true;
+HXLINE(1127)		if (value) {
+HXLINE(1129)			this->_hx___softwareDirty = true;
+HXLINE(1130)			this->_hx___hardwareDirty = true;
             		}
-HXLINE(1969)		return (this->_hx___dirty = value);
+HXLINE(1133)		return (this->_hx___dirty = value);
             	}
 
 
@@ -4327,8 +4327,8 @@ void Graphics_obj::__register()
 void Graphics_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_52_boot)
-HXDLIN(  52)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_38_boot)
+HXDLIN(  38)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
             			->setFixed(0,HX_("fields",79,8e,8e,80), ::Dynamic(::hx::Anon_obj::Create(2)
             				->setFixed(0,HX_("__cairo",68,89,77,ab), ::Dynamic(::hx::Anon_obj::Create(1)
             					->setFixed(0,HX_("SuppressWarnings",0c,d3,d2,00),::cpp::VirtualArray_obj::__new(1)->init(0,HX_("checkstyle:Dynamic",ce,ea,47,3c)))))
@@ -4336,12 +4336,12 @@ HXDLIN(  52)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
             					->setFixed(0,HX_("SuppressWarnings",0c,d3,d2,00),::cpp::VirtualArray_obj::__new(1)->init(0,HX_("checkstyle:FieldDocComment",70,56,1b,20))))))));
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_54_boot)
-HXDLIN(  54)		maxTextureHeight = null();
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_40_boot)
+HXDLIN(  40)		maxTextureHeight = null();
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_55_boot)
-HXDLIN(  55)		maxTextureWidth = null();
+            	HX_STACKFRAME(&_hx_pos_043516e11ce5c7d5_41_boot)
+HXDLIN(  41)		maxTextureWidth = null();
             	}
 }
 

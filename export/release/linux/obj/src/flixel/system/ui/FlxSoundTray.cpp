@@ -207,7 +207,7 @@ HXLINE( 136)			::String extension = HX_("",00,00,00,00);
 HXDLIN( 136)			extension = HX_(".ogg",e1,64,bc,1e);
 HXDLIN( 136)			 ::openfl::media::Sound sound = ::openfl::utils::Assets_obj::getSound((HX_("flixel/sounds/beep",e6,b5,a9,33) + extension),null());
 HXLINE( 137)			if (::hx::IsNotNull( sound )) {
-HXLINE( 138)				::flixel::FlxG_obj::sound->load(sound,null(),null(),null(),null(),null(),null(),null(),null())->play(null(),null(),null());
+HXLINE( 138)				::flixel::FlxG_obj::sound->load(sound,null(),null(),null(),null(),null(),null(),null())->play(null(),null(),null());
             			}
             		}
 HXLINE( 141)		this->_timer = ( (Float)(1) );

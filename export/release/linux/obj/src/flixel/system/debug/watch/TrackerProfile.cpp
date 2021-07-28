@@ -20,18 +20,18 @@
 #include <flixel/util/LabelValuePair.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_045fa5a979169169_282_new,"flixel.system.debug.watch.TrackerProfile","new",0x3f8f952a,"flixel.system.debug.watch.TrackerProfile.new","flixel/system/debug/watch/Tracker.hx",282,0x14368dcf)
-HX_LOCAL_STACK_FRAME(_hx_pos_045fa5a979169169_290_toString,"flixel.system.debug.watch.TrackerProfile","toString",0x9a236fa2,"flixel.system.debug.watch.TrackerProfile.toString","flixel/system/debug/watch/Tracker.hx",290,0x14368dcf)
+HX_DEFINE_STACK_FRAME(_hx_pos_045fa5a979169169_277_new,"flixel.system.debug.watch.TrackerProfile","new",0x3f8f952a,"flixel.system.debug.watch.TrackerProfile.new","flixel/system/debug/watch/Tracker.hx",277,0x14368dcf)
+HX_LOCAL_STACK_FRAME(_hx_pos_045fa5a979169169_285_toString,"flixel.system.debug.watch.TrackerProfile","toString",0x9a236fa2,"flixel.system.debug.watch.TrackerProfile.toString","flixel/system/debug/watch/Tracker.hx",285,0x14368dcf)
 namespace flixel{
 namespace _hx_system{
 namespace debug{
 namespace watch{
 
 void TrackerProfile_obj::__construct(::hx::Class ObjectClass,::Array< ::String > Variables,::Array< ::Dynamic> Extensions){
-            	HX_STACKFRAME(&_hx_pos_045fa5a979169169_282_new)
-HXLINE( 283)		this->objectClass = ObjectClass;
-HXLINE( 284)		this->variables = Variables;
-HXLINE( 285)		this->extensions = Extensions;
+            	HX_STACKFRAME(&_hx_pos_045fa5a979169169_277_new)
+HXLINE( 278)		this->objectClass = ObjectClass;
+HXLINE( 279)		this->variables = Variables;
+HXLINE( 280)		this->extensions = Extensions;
             	}
 
 Dynamic TrackerProfile_obj::__CreateEmpty() { return new TrackerProfile_obj; }
@@ -50,16 +50,16 @@ bool TrackerProfile_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 ::String TrackerProfile_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_045fa5a979169169_290_toString)
-HXLINE( 291)		 ::Dynamic value = this->variables;
-HXDLIN( 291)		 ::flixel::util::LabelValuePair _this = ::flixel::util::LabelValuePair_obj::_pool->get();
-HXDLIN( 291)		_this->label = HX_("variables",b7,e2,62,82);
-HXDLIN( 291)		_this->value = value;
-HXLINE( 292)		 ::Dynamic value1 = this->extensions;
-HXDLIN( 292)		 ::flixel::util::LabelValuePair _this1 = ::flixel::util::LabelValuePair_obj::_pool->get();
-HXDLIN( 292)		_this1->label = HX_("extensions",14,7c,70,89);
-HXDLIN( 292)		_this1->value = value1;
-HXLINE( 290)		return ::flixel::util::FlxStringUtil_obj::getDebugString(::Array_obj< ::Dynamic>::__new(2)->init(0,_this)->init(1,_this1));
+            	HX_STACKFRAME(&_hx_pos_045fa5a979169169_285_toString)
+HXLINE( 286)		 ::Dynamic value = this->variables;
+HXDLIN( 286)		 ::flixel::util::LabelValuePair _this = ::flixel::util::LabelValuePair_obj::_pool->get();
+HXDLIN( 286)		_this->label = HX_("variables",b7,e2,62,82);
+HXDLIN( 286)		_this->value = value;
+HXLINE( 287)		 ::Dynamic value1 = this->extensions;
+HXDLIN( 287)		 ::flixel::util::LabelValuePair _this1 = ::flixel::util::LabelValuePair_obj::_pool->get();
+HXDLIN( 287)		_this1->label = HX_("extensions",14,7c,70,89);
+HXDLIN( 287)		_this1->value = value1;
+HXLINE( 285)		return ::flixel::util::FlxStringUtil_obj::getDebugString(::Array_obj< ::Dynamic>::__new(2)->init(0,_this)->init(1,_this1));
             	}
 
 

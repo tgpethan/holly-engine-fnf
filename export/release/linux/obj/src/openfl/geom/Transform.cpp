@@ -39,25 +39,25 @@
 #include <openfl/geom/Transform.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_c4822148baac23ea_164_new,"openfl.geom.Transform","new",0x993cc92a,"openfl.geom.Transform.new","openfl/geom/Transform.hx",164,0xf4f475e6)
-HX_LOCAL_STACK_FRAME(_hx_pos_c4822148baac23ea_197_get_colorTransform,"openfl.geom.Transform","get_colorTransform",0xc8c832c8,"openfl.geom.Transform.get_colorTransform","openfl/geom/Transform.hx",197,0xf4f475e6)
-HX_LOCAL_STACK_FRAME(_hx_pos_c4822148baac23ea_201_set_colorTransform,"openfl.geom.Transform","set_colorTransform",0xa577653c,"openfl.geom.Transform.set_colorTransform","openfl/geom/Transform.hx",201,0xf4f475e6)
-HX_LOCAL_STACK_FRAME(_hx_pos_c4822148baac23ea_219_get_concatenatedMatrix,"openfl.geom.Transform","get_concatenatedMatrix",0x352d276f,"openfl.geom.Transform.get_concatenatedMatrix","openfl/geom/Transform.hx",219,0xf4f475e6)
-HX_LOCAL_STACK_FRAME(_hx_pos_c4822148baac23ea_229_get_matrix,"openfl.geom.Transform","get_matrix",0x80c3ba80,"openfl.geom.Transform.get_matrix","openfl/geom/Transform.hx",229,0xf4f475e6)
-HX_LOCAL_STACK_FRAME(_hx_pos_c4822148baac23ea_239_set_matrix,"openfl.geom.Transform","set_matrix",0x844158f4,"openfl.geom.Transform.set_matrix","openfl/geom/Transform.hx",239,0xf4f475e6)
-HX_LOCAL_STACK_FRAME(_hx_pos_c4822148baac23ea_258_get_matrix3D,"openfl.geom.Transform","get_matrix3D",0x05078731,"openfl.geom.Transform.get_matrix3D","openfl/geom/Transform.hx",258,0xf4f475e6)
-HX_LOCAL_STACK_FRAME(_hx_pos_c4822148baac23ea_271_set_matrix3D,"openfl.geom.Transform","set_matrix3D",0x1a00aaa5,"openfl.geom.Transform.set_matrix3D","openfl/geom/Transform.hx",271,0xf4f475e6)
-HX_LOCAL_STACK_FRAME(_hx_pos_c4822148baac23ea_288___setTransform,"openfl.geom.Transform","__setTransform",0x9df9f800,"openfl.geom.Transform.__setTransform","openfl/geom/Transform.hx",288,0xf4f475e6)
+HX_DEFINE_STACK_FRAME(_hx_pos_c4822148baac23ea_50_new,"openfl.geom.Transform","new",0x993cc92a,"openfl.geom.Transform.new","openfl/geom/Transform.hx",50,0xf4f475e6)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4822148baac23ea_65_get_colorTransform,"openfl.geom.Transform","get_colorTransform",0xc8c832c8,"openfl.geom.Transform.get_colorTransform","openfl/geom/Transform.hx",65,0xf4f475e6)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4822148baac23ea_69_set_colorTransform,"openfl.geom.Transform","set_colorTransform",0xa577653c,"openfl.geom.Transform.set_colorTransform","openfl/geom/Transform.hx",69,0xf4f475e6)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4822148baac23ea_86_get_concatenatedMatrix,"openfl.geom.Transform","get_concatenatedMatrix",0x352d276f,"openfl.geom.Transform.get_concatenatedMatrix","openfl/geom/Transform.hx",86,0xf4f475e6)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4822148baac23ea_96_get_matrix,"openfl.geom.Transform","get_matrix",0x80c3ba80,"openfl.geom.Transform.get_matrix","openfl/geom/Transform.hx",96,0xf4f475e6)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4822148baac23ea_106_set_matrix,"openfl.geom.Transform","set_matrix",0x844158f4,"openfl.geom.Transform.set_matrix","openfl/geom/Transform.hx",106,0xf4f475e6)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4822148baac23ea_125_get_matrix3D,"openfl.geom.Transform","get_matrix3D",0x05078731,"openfl.geom.Transform.get_matrix3D","openfl/geom/Transform.hx",125,0xf4f475e6)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4822148baac23ea_138_set_matrix3D,"openfl.geom.Transform","set_matrix3D",0x1a00aaa5,"openfl.geom.Transform.set_matrix3D","openfl/geom/Transform.hx",138,0xf4f475e6)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4822148baac23ea_155___setTransform,"openfl.geom.Transform","__setTransform",0x9df9f800,"openfl.geom.Transform.__setTransform","openfl/geom/Transform.hx",155,0xf4f475e6)
 namespace openfl{
 namespace geom{
 
 void Transform_obj::__construct( ::openfl::display::DisplayObject displayObject){
-            	HX_GC_STACKFRAME(&_hx_pos_c4822148baac23ea_164_new)
-HXLINE( 165)		this->_hx___colorTransform =  ::openfl::geom::ColorTransform_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null(),null(),null());
-HXLINE( 166)		this->concatenatedColorTransform =  ::openfl::geom::ColorTransform_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null(),null(),null());
-HXLINE( 167)		this->pixelBounds =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,null(),null(),null(),null());
-HXLINE( 169)		this->_hx___displayObject = displayObject;
-HXLINE( 170)		this->_hx___hasMatrix = true;
+            	HX_GC_STACKFRAME(&_hx_pos_c4822148baac23ea_50_new)
+HXLINE(  51)		this->_hx___colorTransform =  ::openfl::geom::ColorTransform_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null(),null(),null());
+HXLINE(  52)		this->concatenatedColorTransform =  ::openfl::geom::ColorTransform_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null(),null(),null());
+HXLINE(  53)		this->pixelBounds =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,null(),null(),null(),null());
+HXLINE(  55)		this->_hx___displayObject = displayObject;
+HXLINE(  56)		this->_hx___hasMatrix = true;
             	}
 
 Dynamic Transform_obj::__CreateEmpty() { return new Transform_obj; }
@@ -76,179 +76,179 @@ bool Transform_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::openfl::geom::ColorTransform Transform_obj::get_colorTransform(){
-            	HX_STACKFRAME(&_hx_pos_c4822148baac23ea_197_get_colorTransform)
-HXDLIN( 197)		return this->_hx___colorTransform->_hx___clone();
+            	HX_STACKFRAME(&_hx_pos_c4822148baac23ea_65_get_colorTransform)
+HXDLIN(  65)		return this->_hx___colorTransform;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Transform_obj,get_colorTransform,return )
 
  ::openfl::geom::ColorTransform Transform_obj::set_colorTransform( ::openfl::geom::ColorTransform value){
-            	HX_STACKFRAME(&_hx_pos_c4822148baac23ea_201_set_colorTransform)
-HXLINE( 203)		if (!(this->_hx___colorTransform->_hx___equals(value,false))) {
-HXLINE( 205)			this->_hx___colorTransform->_hx___copyFrom(value);
-HXLINE( 207)			if (::hx::IsNotNull( value )) {
-HXLINE( 209)				this->_hx___displayObject->set_alpha(value->alphaMultiplier);
+            	HX_STACKFRAME(&_hx_pos_c4822148baac23ea_69_set_colorTransform)
+HXLINE(  70)		if (!(this->_hx___colorTransform->_hx___equals(value,false))) {
+HXLINE(  72)			this->_hx___colorTransform->_hx___copyFrom(value);
+HXLINE(  74)			if (::hx::IsNotNull( value )) {
+HXLINE(  76)				this->_hx___displayObject->set_alpha(value->alphaMultiplier);
             			}
-HXLINE( 212)			{
-HXLINE( 212)				 ::openfl::display::DisplayObject _this = this->_hx___displayObject;
-HXDLIN( 212)				if (!(_this->_hx___renderDirty)) {
-HXLINE( 212)					_this->_hx___renderDirty = true;
-HXDLIN( 212)					_this->_hx___setParentRenderDirty();
+HXLINE(  79)			{
+HXLINE(  79)				 ::openfl::display::DisplayObject _this = this->_hx___displayObject;
+HXDLIN(  79)				if (!(_this->_hx___renderDirty)) {
+HXLINE(  79)					_this->_hx___renderDirty = true;
+HXDLIN(  79)					_this->_hx___setParentRenderDirty();
             				}
             			}
             		}
-HXLINE( 215)		return this->_hx___colorTransform;
+HXLINE(  82)		return this->_hx___colorTransform;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Transform_obj,set_colorTransform,return )
 
  ::openfl::geom::Matrix Transform_obj::get_concatenatedMatrix(){
-            	HX_STACKFRAME(&_hx_pos_c4822148baac23ea_219_get_concatenatedMatrix)
-HXLINE( 220)		if (this->_hx___hasMatrix) {
-HXLINE( 222)			return this->_hx___displayObject->_hx___getWorldTransform()->clone();
+            	HX_STACKFRAME(&_hx_pos_c4822148baac23ea_86_get_concatenatedMatrix)
+HXLINE(  87)		if (this->_hx___hasMatrix) {
+HXLINE(  89)			return this->_hx___displayObject->_hx___getWorldTransform()->clone();
             		}
-HXLINE( 225)		return null();
+HXLINE(  92)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Transform_obj,get_concatenatedMatrix,return )
 
  ::openfl::geom::Matrix Transform_obj::get_matrix(){
-            	HX_STACKFRAME(&_hx_pos_c4822148baac23ea_229_get_matrix)
-HXLINE( 230)		if (this->_hx___hasMatrix) {
-HXLINE( 232)			return this->_hx___displayObject->_hx___transform->clone();
+            	HX_STACKFRAME(&_hx_pos_c4822148baac23ea_96_get_matrix)
+HXLINE(  97)		if (this->_hx___hasMatrix) {
+HXLINE(  99)			return this->_hx___displayObject->_hx___transform->clone();
             		}
-HXLINE( 235)		return null();
+HXLINE( 102)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Transform_obj,get_matrix,return )
 
  ::openfl::geom::Matrix Transform_obj::set_matrix( ::openfl::geom::Matrix value){
-            	HX_STACKFRAME(&_hx_pos_c4822148baac23ea_239_set_matrix)
-HXLINE( 240)		if (::hx::IsNull( value )) {
-HXLINE( 242)			this->_hx___hasMatrix = false;
-HXLINE( 243)			return null();
+            	HX_STACKFRAME(&_hx_pos_c4822148baac23ea_106_set_matrix)
+HXLINE( 107)		if (::hx::IsNull( value )) {
+HXLINE( 109)			this->_hx___hasMatrix = false;
+HXLINE( 110)			return null();
             		}
-HXLINE( 246)		this->_hx___hasMatrix = true;
-HXLINE( 247)		this->_hx___hasMatrix3D = false;
-HXLINE( 249)		if (::hx::IsNotNull( this->_hx___displayObject )) {
-HXLINE( 251)			this->_hx___setTransform(value->a,value->b,value->c,value->d,value->tx,value->ty);
+HXLINE( 113)		this->_hx___hasMatrix = true;
+HXLINE( 114)		this->_hx___hasMatrix3D = false;
+HXLINE( 116)		if (::hx::IsNotNull( this->_hx___displayObject )) {
+HXLINE( 118)			this->_hx___setTransform(value->a,value->b,value->c,value->d,value->tx,value->ty);
             		}
-HXLINE( 254)		return value;
+HXLINE( 121)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Transform_obj,set_matrix,return )
 
  ::openfl::geom::Matrix3D Transform_obj::get_matrix3D(){
-            	HX_GC_STACKFRAME(&_hx_pos_c4822148baac23ea_258_get_matrix3D)
-HXLINE( 259)		if (this->_hx___hasMatrix3D) {
-HXLINE( 261)			 ::openfl::geom::Matrix matrix = this->_hx___displayObject->_hx___transform;
-HXLINE( 262)			int length = null();
-HXDLIN( 262)			bool fixed = null();
-HXDLIN( 262)			return  ::openfl::geom::Matrix3D_obj::__alloc( HX_CTX , ::openfl::_Vector::FloatVector_obj::__alloc( HX_CTX ,length,fixed,::Array_obj< Float >::__new(16)->init(0,matrix->a)->init(1,matrix->b)->init(2,((Float)0.0))->init(3,((Float)0.0))->init(4,matrix->c)->init(5,matrix->d)->init(6,((Float)0.0))->init(7,((Float)0.0))->init(8,((Float)0.0))->init(9,((Float)0.0))->init(10,((Float)1.0))->init(11,((Float)0.0))->init(12,matrix->tx)->init(13,matrix->ty)->init(14,((Float)0.0))->init(15,((Float)1.0)),true));
+            	HX_GC_STACKFRAME(&_hx_pos_c4822148baac23ea_125_get_matrix3D)
+HXLINE( 126)		if (this->_hx___hasMatrix3D) {
+HXLINE( 128)			 ::openfl::geom::Matrix matrix = this->_hx___displayObject->_hx___transform;
+HXLINE( 129)			int length = null();
+HXDLIN( 129)			bool fixed = null();
+HXDLIN( 129)			return  ::openfl::geom::Matrix3D_obj::__alloc( HX_CTX , ::openfl::_Vector::FloatVector_obj::__alloc( HX_CTX ,length,fixed,::Array_obj< Float >::__new(16)->init(0,matrix->a)->init(1,matrix->b)->init(2,((Float)0.0))->init(3,((Float)0.0))->init(4,matrix->c)->init(5,matrix->d)->init(6,((Float)0.0))->init(7,((Float)0.0))->init(8,((Float)0.0))->init(9,((Float)0.0))->init(10,((Float)1.0))->init(11,((Float)0.0))->init(12,matrix->tx)->init(13,matrix->ty)->init(14,((Float)0.0))->init(15,((Float)1.0)),true));
             		}
-HXLINE( 267)		return null();
+HXLINE( 134)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Transform_obj,get_matrix3D,return )
 
  ::openfl::geom::Matrix3D Transform_obj::set_matrix3D( ::openfl::geom::Matrix3D value){
-            	HX_STACKFRAME(&_hx_pos_c4822148baac23ea_271_set_matrix3D)
-HXLINE( 272)		if (::hx::IsNull( value )) {
-HXLINE( 274)			this->_hx___hasMatrix3D = false;
-HXLINE( 275)			return null();
+            	HX_STACKFRAME(&_hx_pos_c4822148baac23ea_138_set_matrix3D)
+HXLINE( 139)		if (::hx::IsNull( value )) {
+HXLINE( 141)			this->_hx___hasMatrix3D = false;
+HXLINE( 142)			return null();
             		}
-HXLINE( 278)		this->_hx___hasMatrix = false;
-HXLINE( 279)		this->_hx___hasMatrix3D = true;
-HXLINE( 281)		Float _hx_tmp = value->rawData->get(0);
-HXDLIN( 281)		Float _hx_tmp1 = value->rawData->get(1);
-HXDLIN( 281)		Float _hx_tmp2 = value->rawData->get(5);
-HXDLIN( 281)		Float _hx_tmp3 = value->rawData->get(6);
-HXDLIN( 281)		Float _hx_tmp4 = value->rawData->get(12);
-HXDLIN( 281)		this->_hx___setTransform(_hx_tmp,_hx_tmp1,_hx_tmp2,_hx_tmp3,_hx_tmp4,value->rawData->get(13));
-HXLINE( 283)		return value;
+HXLINE( 145)		this->_hx___hasMatrix = false;
+HXLINE( 146)		this->_hx___hasMatrix3D = true;
+HXLINE( 148)		Float _hx_tmp = value->rawData->get(0);
+HXDLIN( 148)		Float _hx_tmp1 = value->rawData->get(1);
+HXDLIN( 148)		Float _hx_tmp2 = value->rawData->get(5);
+HXDLIN( 148)		Float _hx_tmp3 = value->rawData->get(6);
+HXDLIN( 148)		Float _hx_tmp4 = value->rawData->get(12);
+HXDLIN( 148)		this->_hx___setTransform(_hx_tmp,_hx_tmp1,_hx_tmp2,_hx_tmp3,_hx_tmp4,value->rawData->get(13));
+HXLINE( 150)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Transform_obj,set_matrix3D,return )
 
 void Transform_obj::_hx___setTransform(Float a,Float b,Float c,Float d,Float tx,Float ty){
-            	HX_STACKFRAME(&_hx_pos_c4822148baac23ea_288___setTransform)
-HXDLIN( 288)		if (::hx::IsNotNull( this->_hx___displayObject )) {
-HXLINE( 290)			 ::openfl::geom::Matrix transform = this->_hx___displayObject->_hx___transform;
-HXLINE( 291)			bool _hx_tmp;
-HXDLIN( 291)			bool _hx_tmp1;
-HXDLIN( 291)			bool _hx_tmp2;
-HXDLIN( 291)			bool _hx_tmp3;
-HXDLIN( 291)			bool _hx_tmp4;
-HXDLIN( 291)			if ((transform->a == a)) {
-HXLINE( 291)				_hx_tmp4 = (transform->b == b);
+            	HX_STACKFRAME(&_hx_pos_c4822148baac23ea_155___setTransform)
+HXDLIN( 155)		if (::hx::IsNotNull( this->_hx___displayObject )) {
+HXLINE( 157)			 ::openfl::geom::Matrix transform = this->_hx___displayObject->_hx___transform;
+HXLINE( 158)			bool _hx_tmp;
+HXDLIN( 158)			bool _hx_tmp1;
+HXDLIN( 158)			bool _hx_tmp2;
+HXDLIN( 158)			bool _hx_tmp3;
+HXDLIN( 158)			bool _hx_tmp4;
+HXDLIN( 158)			if ((transform->a == a)) {
+HXLINE( 158)				_hx_tmp4 = (transform->b == b);
             			}
             			else {
-HXLINE( 291)				_hx_tmp4 = false;
+HXLINE( 158)				_hx_tmp4 = false;
             			}
-HXDLIN( 291)			if (_hx_tmp4) {
-HXLINE( 291)				_hx_tmp3 = (transform->c == c);
-            			}
-            			else {
-HXLINE( 291)				_hx_tmp3 = false;
-            			}
-HXDLIN( 291)			if (_hx_tmp3) {
-HXLINE( 291)				_hx_tmp2 = (transform->d == d);
+HXDLIN( 158)			if (_hx_tmp4) {
+HXLINE( 158)				_hx_tmp3 = (transform->c == c);
             			}
             			else {
-HXLINE( 291)				_hx_tmp2 = false;
+HXLINE( 158)				_hx_tmp3 = false;
             			}
-HXDLIN( 291)			if (_hx_tmp2) {
-HXLINE( 291)				_hx_tmp1 = (transform->tx == tx);
-            			}
-            			else {
-HXLINE( 291)				_hx_tmp1 = false;
-            			}
-HXDLIN( 291)			if (_hx_tmp1) {
-HXLINE( 291)				_hx_tmp = (transform->ty == ty);
+HXDLIN( 158)			if (_hx_tmp3) {
+HXLINE( 158)				_hx_tmp2 = (transform->d == d);
             			}
             			else {
-HXLINE( 291)				_hx_tmp = false;
+HXLINE( 158)				_hx_tmp2 = false;
             			}
-HXDLIN( 291)			if (_hx_tmp) {
-HXLINE( 293)				return;
-            			}
-HXLINE( 296)			Float scaleX = ((Float)0.0);
-HXLINE( 297)			Float scaleY = ((Float)0.0);
-HXLINE( 299)			if ((b == 0)) {
-HXLINE( 301)				scaleX = a;
+HXDLIN( 158)			if (_hx_tmp2) {
+HXLINE( 158)				_hx_tmp1 = (transform->tx == tx);
             			}
             			else {
-HXLINE( 305)				scaleX = ::Math_obj::sqrt(((a * a) + (b * b)));
+HXLINE( 158)				_hx_tmp1 = false;
             			}
-HXLINE( 308)			if ((c == 0)) {
-HXLINE( 310)				scaleY = d;
+HXDLIN( 158)			if (_hx_tmp1) {
+HXLINE( 158)				_hx_tmp = (transform->ty == ty);
             			}
             			else {
-HXLINE( 314)				scaleY = ::Math_obj::sqrt(((c * c) + (d * d)));
+HXLINE( 158)				_hx_tmp = false;
             			}
-HXLINE( 317)			this->_hx___displayObject->_hx___scaleX = scaleX;
-HXLINE( 318)			this->_hx___displayObject->_hx___scaleY = scaleY;
-HXLINE( 320)			Float rotation = (((( (Float)(180) ) / ::Math_obj::PI) * ::Math_obj::atan2(d,c)) - ( (Float)(90) ));
-HXLINE( 322)			if ((rotation != this->_hx___displayObject->_hx___rotation)) {
-HXLINE( 324)				this->_hx___displayObject->_hx___rotation = rotation;
-HXLINE( 325)				Float radians = (rotation * (::Math_obj::PI / ( (Float)(180) )));
-HXLINE( 326)				this->_hx___displayObject->_hx___rotationSine = ::Math_obj::sin(radians);
-HXLINE( 327)				this->_hx___displayObject->_hx___rotationCosine = ::Math_obj::cos(radians);
+HXDLIN( 158)			if (_hx_tmp) {
+HXLINE( 160)				return;
             			}
-HXLINE( 330)			transform->a = a;
-HXLINE( 331)			transform->b = b;
-HXLINE( 332)			transform->c = c;
-HXLINE( 333)			transform->d = d;
-HXLINE( 334)			transform->tx = tx;
-HXLINE( 335)			transform->ty = ty;
-HXLINE( 337)			this->_hx___displayObject->_hx___setTransformDirty();
+HXLINE( 163)			Float scaleX = ((Float)0.0);
+HXLINE( 164)			Float scaleY = ((Float)0.0);
+HXLINE( 166)			if ((b == 0)) {
+HXLINE( 168)				scaleX = a;
+            			}
+            			else {
+HXLINE( 172)				scaleX = ::Math_obj::sqrt(((a * a) + (b * b)));
+            			}
+HXLINE( 175)			if ((c == 0)) {
+HXLINE( 177)				scaleY = d;
+            			}
+            			else {
+HXLINE( 181)				scaleY = ::Math_obj::sqrt(((c * c) + (d * d)));
+            			}
+HXLINE( 184)			this->_hx___displayObject->_hx___scaleX = scaleX;
+HXLINE( 185)			this->_hx___displayObject->_hx___scaleY = scaleY;
+HXLINE( 187)			Float rotation = (((( (Float)(180) ) / ::Math_obj::PI) * ::Math_obj::atan2(d,c)) - ( (Float)(90) ));
+HXLINE( 189)			if ((rotation != this->_hx___displayObject->_hx___rotation)) {
+HXLINE( 191)				this->_hx___displayObject->_hx___rotation = rotation;
+HXLINE( 192)				Float radians = (rotation * (::Math_obj::PI / ( (Float)(180) )));
+HXLINE( 193)				this->_hx___displayObject->_hx___rotationSine = ::Math_obj::sin(radians);
+HXLINE( 194)				this->_hx___displayObject->_hx___rotationCosine = ::Math_obj::cos(radians);
+            			}
+HXLINE( 197)			transform->a = a;
+HXLINE( 198)			transform->b = b;
+HXLINE( 199)			transform->c = c;
+HXLINE( 200)			transform->d = d;
+HXLINE( 201)			transform->tx = tx;
+HXLINE( 202)			transform->ty = ty;
+HXLINE( 204)			this->_hx___displayObject->_hx___setTransformDirty();
             		}
             	}
 

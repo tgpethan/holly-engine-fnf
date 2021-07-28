@@ -696,23 +696,22 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC3(Matrix4_Impl__obj,copyColumnTo,(void))
 
 void Matrix4_Impl__obj::copyFrom( ::lime::utils::ArrayBufferView this1, ::lime::utils::ArrayBufferView other){
             	HX_STACKFRAME(&_hx_pos_a8b6e1b1a7c59cb4_235_copyFrom)
-HXDLIN( 235)		 ::lime::utils::ArrayBufferView view = other;
 HXDLIN( 235)		::cpp::VirtualArray array = null();
 HXDLIN( 235)		int offset = 0;
 HXDLIN( 235)		bool _hx_tmp;
-HXDLIN( 235)		if (::hx::IsNotNull( view )) {
+HXDLIN( 235)		if (::hx::IsNotNull( other )) {
 HXDLIN( 235)			_hx_tmp = ::hx::IsNull( array );
             		}
             		else {
 HXDLIN( 235)			_hx_tmp = false;
             		}
 HXDLIN( 235)		if (_hx_tmp) {
-HXDLIN( 235)			this1->buffer->blit((offset * this1->bytesPerElement),view->buffer,view->byteOffset,view->byteLength);
+HXDLIN( 235)			this1->buffer->blit((offset * this1->bytesPerElement),other->buffer,other->byteOffset,other->byteLength);
             		}
             		else {
 HXDLIN( 235)			bool _hx_tmp;
 HXDLIN( 235)			if (::hx::IsNotNull( array )) {
-HXDLIN( 235)				_hx_tmp = ::hx::IsNull( view );
+HXDLIN( 235)				_hx_tmp = ::hx::IsNull( other );
             			}
             			else {
 HXDLIN( 235)				_hx_tmp = false;

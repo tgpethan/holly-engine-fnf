@@ -10,12 +10,6 @@
 #ifndef INCLUDED_lime_ui_Window
 #include <lime/ui/Window.h>
 #endif
-#ifndef INCLUDED_openfl_display_Bitmap
-#include <openfl/display/Bitmap.h>
-#endif
-#ifndef INCLUDED_openfl_display_BitmapData
-#include <openfl/display/BitmapData.h>
-#endif
 #ifndef INCLUDED_openfl_display_CanvasRenderer
 #include <openfl/display/CanvasRenderer.h>
 #endif
@@ -31,44 +25,11 @@
 #ifndef INCLUDED_openfl_display_IBitmapDrawable
 #include <openfl/display/IBitmapDrawable.h>
 #endif
-#ifndef INCLUDED_openfl_display_ITileContainer
-#include <openfl/display/ITileContainer.h>
-#endif
 #ifndef INCLUDED_openfl_display_InteractiveObject
 #include <openfl/display/InteractiveObject.h>
 #endif
-#ifndef INCLUDED_openfl_display_SimpleButton
-#include <openfl/display/SimpleButton.h>
-#endif
 #ifndef INCLUDED_openfl_display_Stage
 #include <openfl/display/Stage.h>
-#endif
-#ifndef INCLUDED_openfl_display_Tilemap
-#include <openfl/display/Tilemap.h>
-#endif
-#ifndef INCLUDED_openfl_display__internal_CanvasBitmap
-#include <openfl/display/_internal/CanvasBitmap.h>
-#endif
-#ifndef INCLUDED_openfl_display__internal_CanvasBitmapData
-#include <openfl/display/_internal/CanvasBitmapData.h>
-#endif
-#ifndef INCLUDED_openfl_display__internal_CanvasDisplayObject
-#include <openfl/display/_internal/CanvasDisplayObject.h>
-#endif
-#ifndef INCLUDED_openfl_display__internal_CanvasDisplayObjectContainer
-#include <openfl/display/_internal/CanvasDisplayObjectContainer.h>
-#endif
-#ifndef INCLUDED_openfl_display__internal_CanvasSimpleButton
-#include <openfl/display/_internal/CanvasSimpleButton.h>
-#endif
-#ifndef INCLUDED_openfl_display__internal_CanvasTextField
-#include <openfl/display/_internal/CanvasTextField.h>
-#endif
-#ifndef INCLUDED_openfl_display__internal_CanvasTilemap
-#include <openfl/display/_internal/CanvasTilemap.h>
-#endif
-#ifndef INCLUDED_openfl_display__internal_CanvasVideo
-#include <openfl/display/_internal/CanvasVideo.h>
 #endif
 #ifndef INCLUDED_openfl_events_EventDispatcher
 #include <openfl/events/EventDispatcher.h>
@@ -82,39 +43,31 @@
 #ifndef INCLUDED_openfl_geom_Rectangle
 #include <openfl/geom/Rectangle.h>
 #endif
-#ifndef INCLUDED_openfl_media_Video
-#include <openfl/media/Video.h>
-#endif
-#ifndef INCLUDED_openfl_text_TextField
-#include <openfl/text/TextField.h>
-#endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_dcbf857ab860ed73_35_new,"openfl.display.CanvasRenderer","new",0xb7099f97,"openfl.display.CanvasRenderer.new","openfl/display/CanvasRenderer.hx",35,0x2676f477)
-HX_LOCAL_STACK_FRAME(_hx_pos_dcbf857ab860ed73_71_applySmoothing,"openfl.display.CanvasRenderer","applySmoothing",0xf98f304f,"openfl.display.CanvasRenderer.applySmoothing","openfl/display/CanvasRenderer.hx",71,0x2676f477)
-HX_LOCAL_STACK_FRAME(_hx_pos_dcbf857ab860ed73_80_setTransform,"openfl.display.CanvasRenderer","setTransform",0x3b7aff53,"openfl.display.CanvasRenderer.setTransform","openfl/display/CanvasRenderer.hx",80,0x2676f477)
-HX_LOCAL_STACK_FRAME(_hx_pos_dcbf857ab860ed73_104___clear,"openfl.display.CanvasRenderer","__clear",0x050d0124,"openfl.display.CanvasRenderer.__clear","openfl/display/CanvasRenderer.hx",104,0x2676f477)
-HX_LOCAL_STACK_FRAME(_hx_pos_dcbf857ab860ed73_129___popMask,"openfl.display.CanvasRenderer","__popMask",0xbaf74a74,"openfl.display.CanvasRenderer.__popMask","openfl/display/CanvasRenderer.hx",129,0x2676f477)
-HX_LOCAL_STACK_FRAME(_hx_pos_dcbf857ab860ed73_133___popMaskObject,"openfl.display.CanvasRenderer","__popMaskObject",0x24188c53,"openfl.display.CanvasRenderer.__popMaskObject","openfl/display/CanvasRenderer.hx",133,0x2676f477)
-HX_LOCAL_STACK_FRAME(_hx_pos_dcbf857ab860ed73_147___popMaskRect,"openfl.display.CanvasRenderer","__popMaskRect",0xaa600db8,"openfl.display.CanvasRenderer.__popMaskRect","openfl/display/CanvasRenderer.hx",147,0x2676f477)
-HX_LOCAL_STACK_FRAME(_hx_pos_dcbf857ab860ed73_151___pushMask,"openfl.display.CanvasRenderer","__pushMask",0x88887caf,"openfl.display.CanvasRenderer.__pushMask","openfl/display/CanvasRenderer.hx",151,0x2676f477)
-HX_LOCAL_STACK_FRAME(_hx_pos_dcbf857ab860ed73_164___pushMaskObject,"openfl.display.CanvasRenderer","__pushMaskObject",0xbb0d9cce,"openfl.display.CanvasRenderer.__pushMaskObject","openfl/display/CanvasRenderer.hx",164,0x2676f477)
-HX_LOCAL_STACK_FRAME(_hx_pos_dcbf857ab860ed73_177___pushMaskRect,"openfl.display.CanvasRenderer","__pushMaskRect",0x16167973,"openfl.display.CanvasRenderer.__pushMaskRect","openfl/display/CanvasRenderer.hx",177,0x2676f477)
-HX_LOCAL_STACK_FRAME(_hx_pos_dcbf857ab860ed73_189___render,"openfl.display.CanvasRenderer","__render",0x63d57fdf,"openfl.display.CanvasRenderer.__render","openfl/display/CanvasRenderer.hx",189,0x2676f477)
-HX_LOCAL_STACK_FRAME(_hx_pos_dcbf857ab860ed73_193___renderDrawable,"openfl.display.CanvasRenderer","__renderDrawable",0x87e19e9d,"openfl.display.CanvasRenderer.__renderDrawable","openfl/display/CanvasRenderer.hx",193,0x2676f477)
-HX_LOCAL_STACK_FRAME(_hx_pos_dcbf857ab860ed73_219___renderDrawableMask,"openfl.display.CanvasRenderer","__renderDrawableMask",0x75211e29,"openfl.display.CanvasRenderer.__renderDrawableMask","openfl/display/CanvasRenderer.hx",219,0x2676f477)
-HX_LOCAL_STACK_FRAME(_hx_pos_dcbf857ab860ed73_245___setBlendMode,"openfl.display.CanvasRenderer","__setBlendMode",0xc677459b,"openfl.display.CanvasRenderer.__setBlendMode","openfl/display/CanvasRenderer.hx",245,0x2676f477)
-HX_LOCAL_STACK_FRAME(_hx_pos_dcbf857ab860ed73_256___setBlendModeContext,"openfl.display.CanvasRenderer","__setBlendModeContext",0x277f3194,"openfl.display.CanvasRenderer.__setBlendModeContext","openfl/display/CanvasRenderer.hx",256,0x2676f477)
-HX_LOCAL_STACK_FRAME(_hx_pos_dcbf857ab860ed73_35_boot,"openfl.display.CanvasRenderer","boot",0x697b051b,"openfl.display.CanvasRenderer.boot","openfl/display/CanvasRenderer.hx",35,0x2676f477)
+HX_DEFINE_STACK_FRAME(_hx_pos_dcbf857ab860ed73_27_new,"openfl.display.CanvasRenderer","new",0xb7099f97,"openfl.display.CanvasRenderer.new","openfl/display/CanvasRenderer.hx",27,0x2676f477)
+HX_LOCAL_STACK_FRAME(_hx_pos_dcbf857ab860ed73_63_applySmoothing,"openfl.display.CanvasRenderer","applySmoothing",0xf98f304f,"openfl.display.CanvasRenderer.applySmoothing","openfl/display/CanvasRenderer.hx",63,0x2676f477)
+HX_LOCAL_STACK_FRAME(_hx_pos_dcbf857ab860ed73_72_setTransform,"openfl.display.CanvasRenderer","setTransform",0x3b7aff53,"openfl.display.CanvasRenderer.setTransform","openfl/display/CanvasRenderer.hx",72,0x2676f477)
+HX_LOCAL_STACK_FRAME(_hx_pos_dcbf857ab860ed73_96___clear,"openfl.display.CanvasRenderer","__clear",0x050d0124,"openfl.display.CanvasRenderer.__clear","openfl/display/CanvasRenderer.hx",96,0x2676f477)
+HX_LOCAL_STACK_FRAME(_hx_pos_dcbf857ab860ed73_121___popMask,"openfl.display.CanvasRenderer","__popMask",0xbaf74a74,"openfl.display.CanvasRenderer.__popMask","openfl/display/CanvasRenderer.hx",121,0x2676f477)
+HX_LOCAL_STACK_FRAME(_hx_pos_dcbf857ab860ed73_125___popMaskObject,"openfl.display.CanvasRenderer","__popMaskObject",0x24188c53,"openfl.display.CanvasRenderer.__popMaskObject","openfl/display/CanvasRenderer.hx",125,0x2676f477)
+HX_LOCAL_STACK_FRAME(_hx_pos_dcbf857ab860ed73_139___popMaskRect,"openfl.display.CanvasRenderer","__popMaskRect",0xaa600db8,"openfl.display.CanvasRenderer.__popMaskRect","openfl/display/CanvasRenderer.hx",139,0x2676f477)
+HX_LOCAL_STACK_FRAME(_hx_pos_dcbf857ab860ed73_143___pushMask,"openfl.display.CanvasRenderer","__pushMask",0x88887caf,"openfl.display.CanvasRenderer.__pushMask","openfl/display/CanvasRenderer.hx",143,0x2676f477)
+HX_LOCAL_STACK_FRAME(_hx_pos_dcbf857ab860ed73_156___pushMaskObject,"openfl.display.CanvasRenderer","__pushMaskObject",0xbb0d9cce,"openfl.display.CanvasRenderer.__pushMaskObject","openfl/display/CanvasRenderer.hx",156,0x2676f477)
+HX_LOCAL_STACK_FRAME(_hx_pos_dcbf857ab860ed73_169___pushMaskRect,"openfl.display.CanvasRenderer","__pushMaskRect",0x16167973,"openfl.display.CanvasRenderer.__pushMaskRect","openfl/display/CanvasRenderer.hx",169,0x2676f477)
+HX_LOCAL_STACK_FRAME(_hx_pos_dcbf857ab860ed73_181___render,"openfl.display.CanvasRenderer","__render",0x63d57fdf,"openfl.display.CanvasRenderer.__render","openfl/display/CanvasRenderer.hx",181,0x2676f477)
+HX_LOCAL_STACK_FRAME(_hx_pos_dcbf857ab860ed73_185___setBlendMode,"openfl.display.CanvasRenderer","__setBlendMode",0xc677459b,"openfl.display.CanvasRenderer.__setBlendMode","openfl/display/CanvasRenderer.hx",185,0x2676f477)
+HX_LOCAL_STACK_FRAME(_hx_pos_dcbf857ab860ed73_196___setBlendModeContext,"openfl.display.CanvasRenderer","__setBlendModeContext",0x277f3194,"openfl.display.CanvasRenderer.__setBlendModeContext","openfl/display/CanvasRenderer.hx",196,0x2676f477)
+HX_LOCAL_STACK_FRAME(_hx_pos_dcbf857ab860ed73_27_boot,"openfl.display.CanvasRenderer","boot",0x697b051b,"openfl.display.CanvasRenderer.boot","openfl/display/CanvasRenderer.hx",27,0x2676f477)
 namespace openfl{
 namespace display{
 
 void CanvasRenderer_obj::__construct( ::Dynamic context){
-            	HX_GC_STACKFRAME(&_hx_pos_dcbf857ab860ed73_35_new)
-HXLINE(  46)		this->pixelRatio = ((Float)1);
-HXLINE(  54)		super::__construct();
-HXLINE(  56)		this->context = context;
-HXLINE(  58)		this->_hx___tempMatrix =  ::openfl::geom::Matrix_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-HXLINE(  61)		this->_hx___type = HX_("canvas",d8,54,42,b8);
+            	HX_GC_STACKFRAME(&_hx_pos_dcbf857ab860ed73_27_new)
+HXLINE(  38)		this->pixelRatio = ((Float)1);
+HXLINE(  46)		super::__construct();
+HXLINE(  48)		this->context = context;
+HXLINE(  50)		this->_hx___tempMatrix =  ::openfl::geom::Matrix_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE(  53)		this->_hx___type = HX_("canvas",d8,54,42,b8);
             	}
 
 Dynamic CanvasRenderer_obj::__CreateEmpty() { return new CanvasRenderer_obj; }
@@ -141,43 +94,43 @@ bool CanvasRenderer_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void CanvasRenderer_obj::applySmoothing( ::Dynamic context,bool value){
-            	HX_STACKFRAME(&_hx_pos_dcbf857ab860ed73_71_applySmoothing)
-HXDLIN(  71)		context->__SetField(HX_("imageSmoothingEnabled",e8,4e,0e,94),value,::hx::paccDynamic);
+            	HX_STACKFRAME(&_hx_pos_dcbf857ab860ed73_63_applySmoothing)
+HXDLIN(  63)		context->__SetField(HX_("imageSmoothingEnabled",e8,4e,0e,94),value,::hx::paccDynamic);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(CanvasRenderer_obj,applySmoothing,(void))
 
 void CanvasRenderer_obj::setTransform( ::openfl::geom::Matrix transform, ::Dynamic context){
-            	HX_STACKFRAME(&_hx_pos_dcbf857ab860ed73_80_setTransform)
-HXLINE(  81)		if (::hx::IsNull( context )) {
-HXLINE(  83)			context = this->context;
+            	HX_STACKFRAME(&_hx_pos_dcbf857ab860ed73_72_setTransform)
+HXLINE(  73)		if (::hx::IsNull( context )) {
+HXLINE(  75)			context = this->context;
             		}
             		else {
-HXLINE(  85)			bool _hx_tmp;
-HXDLIN(  85)			if (::hx::IsEq( this->context,context )) {
-HXLINE(  85)				_hx_tmp = ::hx::IsNotNull( this->_hx___worldTransform );
+HXLINE(  77)			bool _hx_tmp;
+HXDLIN(  77)			if (::hx::IsEq( this->context,context )) {
+HXLINE(  77)				_hx_tmp = ::hx::IsNotNull( this->_hx___worldTransform );
             			}
             			else {
-HXLINE(  85)				_hx_tmp = false;
+HXLINE(  77)				_hx_tmp = false;
             			}
-HXDLIN(  85)			if (_hx_tmp) {
-HXLINE(  87)				this->_hx___tempMatrix->copyFrom(transform);
-HXLINE(  88)				this->_hx___tempMatrix->concat(this->_hx___worldTransform);
-HXLINE(  89)				transform = this->_hx___tempMatrix;
+HXDLIN(  77)			if (_hx_tmp) {
+HXLINE(  79)				this->_hx___tempMatrix->copyFrom(transform);
+HXLINE(  80)				this->_hx___tempMatrix->concat(this->_hx___worldTransform);
+HXLINE(  81)				transform = this->_hx___tempMatrix;
             			}
             		}
-HXLINE(  92)		if (this->_hx___roundPixels) {
-HXLINE(  94)			 ::Dynamic context1 =  ::Dynamic(context->__Field(HX_("setTransform",6a,ed,e2,69),::hx::paccDynamic));
-HXDLIN(  94)			Float transform1 = transform->a;
-HXDLIN(  94)			Float transform2 = transform->b;
-HXDLIN(  94)			Float transform3 = transform->c;
-HXDLIN(  94)			Float transform4 = transform->d;
-HXDLIN(  94)			int _hx_tmp = ::Std_obj::_hx_int(transform->tx);
-HXDLIN(  94)			context1(transform1,transform2,transform3,transform4,_hx_tmp,::Std_obj::_hx_int(transform->ty));
+HXLINE(  84)		if (this->_hx___roundPixels) {
+HXLINE(  86)			 ::Dynamic context1 =  ::Dynamic(context->__Field(HX_("setTransform",6a,ed,e2,69),::hx::paccDynamic));
+HXDLIN(  86)			Float transform1 = transform->a;
+HXDLIN(  86)			Float transform2 = transform->b;
+HXDLIN(  86)			Float transform3 = transform->c;
+HXDLIN(  86)			Float transform4 = transform->d;
+HXDLIN(  86)			int _hx_tmp = ::Std_obj::_hx_int(transform->tx);
+HXDLIN(  86)			context1(transform1,transform2,transform3,transform4,_hx_tmp,::Std_obj::_hx_int(transform->ty));
             		}
             		else {
-HXLINE(  98)			context->__Field(HX_("setTransform",6a,ed,e2,69),::hx::paccDynamic)(transform->a,transform->b,transform->c,transform->d,transform->tx,transform->ty);
+HXLINE(  90)			context->__Field(HX_("setTransform",6a,ed,e2,69),::hx::paccDynamic)(transform->a,transform->b,transform->c,transform->d,transform->tx,transform->ty);
             		}
             	}
 
@@ -185,276 +138,184 @@ HXLINE(  98)			context->__Field(HX_("setTransform",6a,ed,e2,69),::hx::paccDynami
 HX_DEFINE_DYNAMIC_FUNC2(CanvasRenderer_obj,setTransform,(void))
 
 void CanvasRenderer_obj::_hx___clear(){
-            	HX_STACKFRAME(&_hx_pos_dcbf857ab860ed73_104___clear)
-HXDLIN( 104)		if (::hx::IsNotNull( this->_hx___stage )) {
-HXLINE( 106)			 ::Dynamic cacheBlendMode = this->_hx___blendMode;
-HXLINE( 107)			this->_hx___blendMode = null();
-HXLINE( 108)			this->_hx___setBlendMode(10);
-HXLINE( 110)			this->context->__Field(HX_("setTransform",6a,ed,e2,69),::hx::paccDynamic)(1,0,0,1,0,0);
-HXLINE( 111)			this->context->__SetField(HX_("globalAlpha",fb,fe,d4,f9),1,::hx::paccDynamic);
-HXLINE( 113)			bool _hx_tmp;
-HXDLIN( 113)			if (!(this->_hx___stage->_hx___transparent)) {
-HXLINE( 113)				_hx_tmp = this->_hx___stage->_hx___clearBeforeRender;
+            	HX_STACKFRAME(&_hx_pos_dcbf857ab860ed73_96___clear)
+HXDLIN(  96)		if (::hx::IsNotNull( this->_hx___stage )) {
+HXLINE(  98)			 ::Dynamic cacheBlendMode = this->_hx___blendMode;
+HXLINE(  99)			this->_hx___blendMode = null();
+HXLINE( 100)			this->_hx___setBlendMode(10);
+HXLINE( 102)			this->context->__Field(HX_("setTransform",6a,ed,e2,69),::hx::paccDynamic)(1,0,0,1,0,0);
+HXLINE( 103)			this->context->__SetField(HX_("globalAlpha",fb,fe,d4,f9),1,::hx::paccDynamic);
+HXLINE( 105)			bool _hx_tmp;
+HXDLIN( 105)			if (!(this->_hx___stage->_hx___transparent)) {
+HXLINE( 105)				_hx_tmp = this->_hx___stage->_hx___clearBeforeRender;
             			}
             			else {
-HXLINE( 113)				_hx_tmp = false;
+HXLINE( 105)				_hx_tmp = false;
             			}
-HXDLIN( 113)			if (_hx_tmp) {
-HXLINE( 115)				this->context->__SetField(HX_("fillStyle",ae,cb,c4,52),this->_hx___stage->_hx___colorString,::hx::paccDynamic);
-HXLINE( 116)				this->context->__Field(HX_("fillRect",47,45,b9,6c),::hx::paccDynamic)(0,0,(( (Float)(this->_hx___stage->stageWidth) ) * this->_hx___stage->window->_hx___scale),(( (Float)(this->_hx___stage->stageHeight) ) * this->_hx___stage->window->_hx___scale));
+HXDLIN( 105)			if (_hx_tmp) {
+HXLINE( 107)				this->context->__SetField(HX_("fillStyle",ae,cb,c4,52),this->_hx___stage->_hx___colorString,::hx::paccDynamic);
+HXLINE( 108)				this->context->__Field(HX_("fillRect",47,45,b9,6c),::hx::paccDynamic)(0,0,(( (Float)(this->_hx___stage->stageWidth) ) * this->_hx___stage->window->_hx___scale),(( (Float)(this->_hx___stage->stageHeight) ) * this->_hx___stage->window->_hx___scale));
             			}
             			else {
-HXLINE( 118)				bool _hx_tmp;
-HXDLIN( 118)				if (this->_hx___stage->_hx___transparent) {
-HXLINE( 118)					_hx_tmp = this->_hx___stage->_hx___clearBeforeRender;
+HXLINE( 110)				bool _hx_tmp;
+HXDLIN( 110)				if (this->_hx___stage->_hx___transparent) {
+HXLINE( 110)					_hx_tmp = this->_hx___stage->_hx___clearBeforeRender;
             				}
             				else {
-HXLINE( 118)					_hx_tmp = false;
+HXLINE( 110)					_hx_tmp = false;
             				}
-HXDLIN( 118)				if (_hx_tmp) {
-HXLINE( 120)					this->context->__Field(HX_("clearRect",51,35,68,bf),::hx::paccDynamic)(0,0,(( (Float)(this->_hx___stage->stageWidth) ) * this->_hx___stage->window->_hx___scale),(( (Float)(this->_hx___stage->stageHeight) ) * this->_hx___stage->window->_hx___scale));
+HXDLIN( 110)				if (_hx_tmp) {
+HXLINE( 112)					this->context->__Field(HX_("clearRect",51,35,68,bf),::hx::paccDynamic)(0,0,(( (Float)(this->_hx___stage->stageWidth) ) * this->_hx___stage->window->_hx___scale),(( (Float)(this->_hx___stage->stageHeight) ) * this->_hx___stage->window->_hx___scale));
             				}
             			}
-HXLINE( 123)			this->_hx___setBlendMode(cacheBlendMode);
+HXLINE( 115)			this->_hx___setBlendMode(cacheBlendMode);
             		}
             	}
 
 
 void CanvasRenderer_obj::_hx___popMask(){
-            	HX_STACKFRAME(&_hx_pos_dcbf857ab860ed73_129___popMask)
-HXDLIN( 129)		this->context->__Field(HX_("restore",4e,67,b0,6a),::hx::paccDynamic)();
+            	HX_STACKFRAME(&_hx_pos_dcbf857ab860ed73_121___popMask)
+HXDLIN( 121)		this->context->__Field(HX_("restore",4e,67,b0,6a),::hx::paccDynamic)();
             	}
 
 
 void CanvasRenderer_obj::_hx___popMaskObject( ::openfl::display::DisplayObject object,::hx::Null< bool >  __o_handleScrollRect){
             		bool handleScrollRect = __o_handleScrollRect.Default(true);
-            	HX_STACKFRAME(&_hx_pos_dcbf857ab860ed73_133___popMaskObject)
-HXLINE( 134)		bool _hx_tmp;
-HXDLIN( 134)		if (!(object->_hx___isCacheBitmapRender)) {
-HXLINE( 134)			_hx_tmp = ::hx::IsNotNull( object->_hx___mask );
+            	HX_STACKFRAME(&_hx_pos_dcbf857ab860ed73_125___popMaskObject)
+HXLINE( 126)		bool _hx_tmp;
+HXDLIN( 126)		if (!(object->_hx___isCacheBitmapRender)) {
+HXLINE( 126)			_hx_tmp = ::hx::IsNotNull( object->_hx___mask );
             		}
             		else {
-HXLINE( 134)			_hx_tmp = false;
+HXLINE( 126)			_hx_tmp = false;
             		}
-HXDLIN( 134)		if (_hx_tmp) {
-HXLINE( 136)			this->_hx___popMask();
+HXDLIN( 126)		if (_hx_tmp) {
+HXLINE( 128)			this->_hx___popMask();
             		}
-HXLINE( 139)		bool _hx_tmp1;
-HXDLIN( 139)		if (handleScrollRect) {
-HXLINE( 139)			_hx_tmp1 = ::hx::IsNotNull( object->_hx___scrollRect );
+HXLINE( 131)		bool _hx_tmp1;
+HXDLIN( 131)		if (handleScrollRect) {
+HXLINE( 131)			_hx_tmp1 = ::hx::IsNotNull( object->_hx___scrollRect );
             		}
             		else {
-HXLINE( 139)			_hx_tmp1 = false;
+HXLINE( 131)			_hx_tmp1 = false;
             		}
-HXDLIN( 139)		if (_hx_tmp1) {
-HXLINE( 141)			this->_hx___popMaskRect();
+HXDLIN( 131)		if (_hx_tmp1) {
+HXLINE( 133)			this->_hx___popMaskRect();
             		}
             	}
 
 
 void CanvasRenderer_obj::_hx___popMaskRect(){
-            	HX_STACKFRAME(&_hx_pos_dcbf857ab860ed73_147___popMaskRect)
-HXDLIN( 147)		this->context->__Field(HX_("restore",4e,67,b0,6a),::hx::paccDynamic)();
+            	HX_STACKFRAME(&_hx_pos_dcbf857ab860ed73_139___popMaskRect)
+HXDLIN( 139)		this->context->__Field(HX_("restore",4e,67,b0,6a),::hx::paccDynamic)();
             	}
 
 
 void CanvasRenderer_obj::_hx___pushMask( ::openfl::display::DisplayObject mask){
-            	HX_STACKFRAME(&_hx_pos_dcbf857ab860ed73_151___pushMask)
-HXLINE( 152)		this->context->__Field(HX_("save",3d,8b,4d,4c),::hx::paccDynamic)();
-HXLINE( 154)		this->setTransform(mask->_hx___renderTransform,this->context);
-HXLINE( 156)		this->context->__Field(HX_("beginPath",6e,c4,2b,93),::hx::paccDynamic)();
-HXLINE( 157)		this->_hx___renderDrawableMask(mask);
-HXLINE( 158)		this->context->__Field(HX_("closePath",7d,65,20,14),::hx::paccDynamic)();
-HXLINE( 160)		this->context->__Field(HX_("clip",d0,6e,c2,41),::hx::paccDynamic)();
+            	HX_STACKFRAME(&_hx_pos_dcbf857ab860ed73_143___pushMask)
+HXLINE( 144)		this->context->__Field(HX_("save",3d,8b,4d,4c),::hx::paccDynamic)();
+HXLINE( 146)		this->setTransform(mask->_hx___renderTransform,this->context);
+HXLINE( 148)		this->context->__Field(HX_("beginPath",6e,c4,2b,93),::hx::paccDynamic)();
+HXLINE( 149)		mask->_hx___renderCanvasMask(::hx::ObjectPtr<OBJ_>(this));
+HXLINE( 150)		this->context->__Field(HX_("closePath",7d,65,20,14),::hx::paccDynamic)();
+HXLINE( 152)		this->context->__Field(HX_("clip",d0,6e,c2,41),::hx::paccDynamic)();
             	}
 
 
 void CanvasRenderer_obj::_hx___pushMaskObject( ::openfl::display::DisplayObject object,::hx::Null< bool >  __o_handleScrollRect){
             		bool handleScrollRect = __o_handleScrollRect.Default(true);
-            	HX_STACKFRAME(&_hx_pos_dcbf857ab860ed73_164___pushMaskObject)
-HXLINE( 165)		bool _hx_tmp;
-HXDLIN( 165)		if (handleScrollRect) {
-HXLINE( 165)			_hx_tmp = ::hx::IsNotNull( object->_hx___scrollRect );
+            	HX_STACKFRAME(&_hx_pos_dcbf857ab860ed73_156___pushMaskObject)
+HXLINE( 157)		bool _hx_tmp;
+HXDLIN( 157)		if (handleScrollRect) {
+HXLINE( 157)			_hx_tmp = ::hx::IsNotNull( object->_hx___scrollRect );
             		}
             		else {
-HXLINE( 165)			_hx_tmp = false;
+HXLINE( 157)			_hx_tmp = false;
             		}
-HXDLIN( 165)		if (_hx_tmp) {
-HXLINE( 167)			this->_hx___pushMaskRect(object->_hx___scrollRect,object->_hx___renderTransform);
+HXDLIN( 157)		if (_hx_tmp) {
+HXLINE( 159)			this->_hx___pushMaskRect(object->_hx___scrollRect,object->_hx___renderTransform);
             		}
-HXLINE( 170)		bool _hx_tmp1;
-HXDLIN( 170)		if (!(object->_hx___isCacheBitmapRender)) {
-HXLINE( 170)			_hx_tmp1 = ::hx::IsNotNull( object->_hx___mask );
+HXLINE( 162)		bool _hx_tmp1;
+HXDLIN( 162)		if (!(object->_hx___isCacheBitmapRender)) {
+HXLINE( 162)			_hx_tmp1 = ::hx::IsNotNull( object->_hx___mask );
             		}
             		else {
-HXLINE( 170)			_hx_tmp1 = false;
+HXLINE( 162)			_hx_tmp1 = false;
             		}
-HXDLIN( 170)		if (_hx_tmp1) {
-HXLINE( 172)			this->_hx___pushMask(object->_hx___mask);
+HXDLIN( 162)		if (_hx_tmp1) {
+HXLINE( 164)			this->_hx___pushMask(object->_hx___mask);
             		}
             	}
 
 
 void CanvasRenderer_obj::_hx___pushMaskRect( ::openfl::geom::Rectangle rect, ::openfl::geom::Matrix transform){
-            	HX_STACKFRAME(&_hx_pos_dcbf857ab860ed73_177___pushMaskRect)
-HXLINE( 178)		this->context->__Field(HX_("save",3d,8b,4d,4c),::hx::paccDynamic)();
-HXLINE( 180)		this->setTransform(transform,this->context);
-HXLINE( 182)		this->context->__Field(HX_("beginPath",6e,c4,2b,93),::hx::paccDynamic)();
-HXLINE( 183)		this->context->__Field(HX_("rect",24,4d,a7,4b),::hx::paccDynamic)(rect->x,rect->y,rect->width,rect->height);
-HXLINE( 184)		this->context->__Field(HX_("clip",d0,6e,c2,41),::hx::paccDynamic)();
+            	HX_STACKFRAME(&_hx_pos_dcbf857ab860ed73_169___pushMaskRect)
+HXLINE( 170)		this->context->__Field(HX_("save",3d,8b,4d,4c),::hx::paccDynamic)();
+HXLINE( 172)		this->setTransform(transform,this->context);
+HXLINE( 174)		this->context->__Field(HX_("beginPath",6e,c4,2b,93),::hx::paccDynamic)();
+HXLINE( 175)		this->context->__Field(HX_("rect",24,4d,a7,4b),::hx::paccDynamic)(rect->x,rect->y,rect->width,rect->height);
+HXLINE( 176)		this->context->__Field(HX_("clip",d0,6e,c2,41),::hx::paccDynamic)();
             	}
 
 
 void CanvasRenderer_obj::_hx___render(::Dynamic object){
-            	HX_STACKFRAME(&_hx_pos_dcbf857ab860ed73_189___render)
-HXDLIN( 189)		this->_hx___renderDrawable(object);
+            	HX_STACKFRAME(&_hx_pos_dcbf857ab860ed73_181___render)
+HXDLIN( 181)		::openfl::display::IBitmapDrawable_obj::_hx___renderCanvas(object,::hx::ObjectPtr<OBJ_>(this));
             	}
 
-
-void CanvasRenderer_obj::_hx___renderDrawable(::Dynamic object){
-            	HX_STACKFRAME(&_hx_pos_dcbf857ab860ed73_193___renderDrawable)
-HXLINE( 194)		if (::hx::IsNull( object )) {
-HXLINE( 194)			return;
-            		}
-HXLINE( 196)		switch((int)(( (int)(object->__Field(HX_("__drawableType",98,b4,3c,42),::hx::paccDynamic)) ))){
-            			case (int)0: {
-HXLINE( 199)				::openfl::display::_internal::CanvasBitmapData_obj::renderDrawable(( ( ::openfl::display::BitmapData)(object) ),::hx::ObjectPtr<OBJ_>(this));
-            			}
-            			break;
-            			case (int)2: {
-HXLINE( 203)				::openfl::display::_internal::CanvasBitmap_obj::renderDrawable(( ( ::openfl::display::Bitmap)(object) ),::hx::ObjectPtr<OBJ_>(this));
-            			}
-            			break;
-            			case (int)3: {
-HXLINE( 205)				::openfl::display::_internal::CanvasDisplayObject_obj::renderDrawable(( ( ::openfl::display::DisplayObject)(object) ),::hx::ObjectPtr<OBJ_>(this));
-            			}
-            			break;
-            			case (int)4: case (int)5: {
-HXLINE( 201)				::openfl::display::_internal::CanvasDisplayObjectContainer_obj::renderDrawable(( ( ::openfl::display::DisplayObjectContainer)(object) ),::hx::ObjectPtr<OBJ_>(this));
-            			}
-            			break;
-            			case (int)6: {
-HXLINE( 207)				::openfl::display::_internal::CanvasSimpleButton_obj::renderDrawable(( ( ::openfl::display::SimpleButton)(object) ),::hx::ObjectPtr<OBJ_>(this));
-            			}
-            			break;
-            			case (int)7: {
-HXLINE( 209)				::openfl::display::_internal::CanvasTextField_obj::renderDrawable(( ( ::openfl::text::TextField)(object) ),::hx::ObjectPtr<OBJ_>(this));
-            			}
-            			break;
-            			case (int)8: {
-HXLINE( 211)				::openfl::display::_internal::CanvasVideo_obj::renderDrawable(( ( ::openfl::media::Video)(object) ),::hx::ObjectPtr<OBJ_>(this));
-            			}
-            			break;
-            			case (int)9: {
-HXLINE( 213)				::openfl::display::_internal::CanvasTilemap_obj::renderDrawable(( ( ::openfl::display::Tilemap)(object) ),::hx::ObjectPtr<OBJ_>(this));
-            			}
-            			break;
-            			default:{
-            			}
-            		}
-            	}
-
-
-HX_DEFINE_DYNAMIC_FUNC1(CanvasRenderer_obj,_hx___renderDrawable,(void))
-
-void CanvasRenderer_obj::_hx___renderDrawableMask(::Dynamic object){
-            	HX_STACKFRAME(&_hx_pos_dcbf857ab860ed73_219___renderDrawableMask)
-HXLINE( 220)		if (::hx::IsNull( object )) {
-HXLINE( 220)			return;
-            		}
-HXLINE( 222)		switch((int)(( (int)(object->__Field(HX_("__drawableType",98,b4,3c,42),::hx::paccDynamic)) ))){
-            			case (int)0: {
-HXLINE( 225)				::openfl::display::_internal::CanvasBitmapData_obj::renderDrawableMask(( ( ::openfl::display::BitmapData)(object) ),::hx::ObjectPtr<OBJ_>(this));
-            			}
-            			break;
-            			case (int)2: {
-HXLINE( 229)				::openfl::display::_internal::CanvasBitmap_obj::renderDrawableMask(( ( ::openfl::display::Bitmap)(object) ),::hx::ObjectPtr<OBJ_>(this));
-            			}
-            			break;
-            			case (int)3: {
-HXLINE( 231)				::openfl::display::_internal::CanvasDisplayObject_obj::renderDrawableMask(( ( ::openfl::display::DisplayObject)(object) ),::hx::ObjectPtr<OBJ_>(this));
-            			}
-            			break;
-            			case (int)4: case (int)5: {
-HXLINE( 227)				::openfl::display::_internal::CanvasDisplayObjectContainer_obj::renderDrawableMask(( ( ::openfl::display::DisplayObjectContainer)(object) ),::hx::ObjectPtr<OBJ_>(this));
-            			}
-            			break;
-            			case (int)6: {
-HXLINE( 233)				::openfl::display::_internal::CanvasSimpleButton_obj::renderDrawableMask(( ( ::openfl::display::SimpleButton)(object) ),::hx::ObjectPtr<OBJ_>(this));
-            			}
-            			break;
-            			case (int)7: {
-HXLINE( 235)				::openfl::display::_internal::CanvasTextField_obj::renderDrawableMask(( ( ::openfl::text::TextField)(object) ),::hx::ObjectPtr<OBJ_>(this));
-            			}
-            			break;
-            			case (int)8: {
-HXLINE( 237)				::openfl::display::_internal::CanvasVideo_obj::renderDrawableMask(( ( ::openfl::media::Video)(object) ),::hx::ObjectPtr<OBJ_>(this));
-            			}
-            			break;
-            			case (int)9: {
-HXLINE( 239)				::openfl::display::_internal::CanvasTilemap_obj::renderDrawableMask(( ( ::openfl::display::Tilemap)(object) ),::hx::ObjectPtr<OBJ_>(this));
-            			}
-            			break;
-            			default:{
-            			}
-            		}
-            	}
-
-
-HX_DEFINE_DYNAMIC_FUNC1(CanvasRenderer_obj,_hx___renderDrawableMask,(void))
 
 void CanvasRenderer_obj::_hx___setBlendMode( ::Dynamic value){
-            	HX_STACKFRAME(&_hx_pos_dcbf857ab860ed73_245___setBlendMode)
-HXLINE( 246)		if (::hx::IsNotNull( this->_hx___overrideBlendMode )) {
-HXLINE( 246)			value = this->_hx___overrideBlendMode;
+            	HX_STACKFRAME(&_hx_pos_dcbf857ab860ed73_185___setBlendMode)
+HXLINE( 186)		if (::hx::IsNotNull( this->_hx___overrideBlendMode )) {
+HXLINE( 186)			value = this->_hx___overrideBlendMode;
             		}
-HXLINE( 247)		if (::hx::IsEq( this->_hx___blendMode,value )) {
-HXLINE( 247)			return;
+HXLINE( 187)		if (::hx::IsEq( this->_hx___blendMode,value )) {
+HXLINE( 187)			return;
             		}
-HXLINE( 249)		this->_hx___blendMode = value;
-HXLINE( 250)		this->_hx___setBlendModeContext(this->context,value);
+HXLINE( 189)		this->_hx___blendMode = value;
+HXLINE( 190)		this->_hx___setBlendModeContext(this->context,value);
             	}
 
 
 void CanvasRenderer_obj::_hx___setBlendModeContext( ::Dynamic context, ::Dynamic value){
-            	HX_STACKFRAME(&_hx_pos_dcbf857ab860ed73_256___setBlendModeContext)
-HXDLIN( 256)		 ::Dynamic _hx_switch_0 = value;
+            	HX_STACKFRAME(&_hx_pos_dcbf857ab860ed73_196___setBlendModeContext)
+HXDLIN( 196)		 ::Dynamic _hx_switch_0 = value;
             		if (  (_hx_switch_0==0) ){
-HXLINE( 259)			context->__SetField(HX_("globalCompositeOperation",63,05,f9,c0),HX_("lighter",c3,4a,e3,19),::hx::paccDynamic);
-HXDLIN( 259)			goto _hx_goto_14;
+HXLINE( 199)			context->__SetField(HX_("globalCompositeOperation",63,05,f9,c0),HX_("lighter",c3,4a,e3,19),::hx::paccDynamic);
+HXDLIN( 199)			goto _hx_goto_12;
             		}
             		if (  (_hx_switch_0==2) ){
-HXLINE( 266)			context->__SetField(HX_("globalCompositeOperation",63,05,f9,c0),HX_("darken",5f,36,3a,21),::hx::paccDynamic);
-HXDLIN( 266)			goto _hx_goto_14;
+HXLINE( 206)			context->__SetField(HX_("globalCompositeOperation",63,05,f9,c0),HX_("darken",5f,36,3a,21),::hx::paccDynamic);
+HXDLIN( 206)			goto _hx_goto_12;
             		}
             		if (  (_hx_switch_0==3) ){
-HXLINE( 269)			context->__SetField(HX_("globalCompositeOperation",63,05,f9,c0),HX_("difference",fd,9b,91,46),::hx::paccDynamic);
-HXDLIN( 269)			goto _hx_goto_14;
+HXLINE( 209)			context->__SetField(HX_("globalCompositeOperation",63,05,f9,c0),HX_("difference",fd,9b,91,46),::hx::paccDynamic);
+HXDLIN( 209)			goto _hx_goto_12;
             		}
             		if (  (_hx_switch_0==5) ){
-HXLINE( 276)			context->__SetField(HX_("globalCompositeOperation",63,05,f9,c0),HX_("hard-light",b4,7e,9e,35),::hx::paccDynamic);
-HXDLIN( 276)			goto _hx_goto_14;
+HXLINE( 216)			context->__SetField(HX_("globalCompositeOperation",63,05,f9,c0),HX_("hard-light",b4,7e,9e,35),::hx::paccDynamic);
+HXDLIN( 216)			goto _hx_goto_12;
             		}
             		if (  (_hx_switch_0==8) ){
-HXLINE( 287)			context->__SetField(HX_("globalCompositeOperation",63,05,f9,c0),HX_("lighten",bf,4a,e3,19),::hx::paccDynamic);
-HXDLIN( 287)			goto _hx_goto_14;
+HXLINE( 227)			context->__SetField(HX_("globalCompositeOperation",63,05,f9,c0),HX_("lighten",bf,4a,e3,19),::hx::paccDynamic);
+HXDLIN( 227)			goto _hx_goto_12;
             		}
             		if (  (_hx_switch_0==9) ){
-HXLINE( 290)			context->__SetField(HX_("globalCompositeOperation",63,05,f9,c0),HX_("multiply",24,e2,8c,9a),::hx::paccDynamic);
-HXDLIN( 290)			goto _hx_goto_14;
+HXLINE( 230)			context->__SetField(HX_("globalCompositeOperation",63,05,f9,c0),HX_("multiply",24,e2,8c,9a),::hx::paccDynamic);
+HXDLIN( 230)			goto _hx_goto_12;
             		}
             		if (  (_hx_switch_0==11) ){
-HXLINE( 293)			context->__SetField(HX_("globalCompositeOperation",63,05,f9,c0),HX_("overlay",90,43,10,a9),::hx::paccDynamic);
-HXDLIN( 293)			goto _hx_goto_14;
+HXLINE( 233)			context->__SetField(HX_("globalCompositeOperation",63,05,f9,c0),HX_("overlay",90,43,10,a9),::hx::paccDynamic);
+HXDLIN( 233)			goto _hx_goto_12;
             		}
             		if (  (_hx_switch_0==12) ){
-HXLINE( 296)			context->__SetField(HX_("globalCompositeOperation",63,05,f9,c0),HX_("screen",6c,3b,5d,47),::hx::paccDynamic);
-HXDLIN( 296)			goto _hx_goto_14;
+HXLINE( 236)			context->__SetField(HX_("globalCompositeOperation",63,05,f9,c0),HX_("screen",6c,3b,5d,47),::hx::paccDynamic);
+HXDLIN( 236)			goto _hx_goto_12;
             		}
             		/* default */{
-HXLINE( 307)			context->__SetField(HX_("globalCompositeOperation",63,05,f9,c0),HX_("source-over",46,01,99,ce),::hx::paccDynamic);
+HXLINE( 247)			context->__SetField(HX_("globalCompositeOperation",63,05,f9,c0),HX_("source-over",46,01,99,ce),::hx::paccDynamic);
             		}
-            		_hx_goto_14:;
+            		_hx_goto_12:;
             	}
 
 
@@ -533,10 +394,6 @@ void CanvasRenderer_obj::__Visit(HX_VISIT_PARAMS)
 		break;
 	case 16:
 		if (HX_FIELD_EQ(inName,"__pushMaskObject") ) { return ::hx::Val( _hx___pushMaskObject_dyn() ); }
-		if (HX_FIELD_EQ(inName,"__renderDrawable") ) { return ::hx::Val( _hx___renderDrawable_dyn() ); }
-		break;
-	case 20:
-		if (HX_FIELD_EQ(inName,"__renderDrawableMask") ) { return ::hx::Val( _hx___renderDrawableMask_dyn() ); }
 		break;
 	case 21:
 		if (HX_FIELD_EQ(inName,"__setBlendModeContext") ) { return ::hx::Val( _hx___setBlendModeContext_dyn() ); }
@@ -595,8 +452,6 @@ static ::String CanvasRenderer_obj_sMemberFields[] = {
 	HX_("__pushMaskObject",65,e2,3b,45),
 	HX_("__pushMaskRect",4a,5b,e7,a0),
 	HX_("__render",76,d6,58,ad),
-	HX_("__renderDrawable",34,e4,0f,12),
-	HX_("__renderDrawableMask",40,7b,d7,45),
 	HX_("__setBlendMode",72,27,48,51),
 	HX_("__setBlendModeContext",9d,48,5a,f6),
 	::String(null()) };
@@ -629,8 +484,8 @@ void CanvasRenderer_obj::__register()
 void CanvasRenderer_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_dcbf857ab860ed73_35_boot)
-HXDLIN(  35)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
+            	HX_STACKFRAME(&_hx_pos_dcbf857ab860ed73_27_boot)
+HXDLIN(  27)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
             			->setFixed(0,HX_("fields",79,8e,8e,80), ::Dynamic(::hx::Anon_obj::Create(5)
             				->setFixed(0,HX_("applySmoothing",26,12,60,84), ::Dynamic(::hx::Anon_obj::Create(1)
             					->setFixed(0,HX_("SuppressWarnings",0c,d3,d2,00),::cpp::VirtualArray_obj::__new(1)->init(0,HX_("checkstyle:Dynamic",ce,ea,47,3c)))))

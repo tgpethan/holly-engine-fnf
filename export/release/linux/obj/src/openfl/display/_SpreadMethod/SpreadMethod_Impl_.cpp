@@ -5,13 +5,13 @@
 #include <openfl/display/_SpreadMethod/SpreadMethod_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_86b0f571ca49f8a5_33_fromInt,"openfl.display._SpreadMethod.SpreadMethod_Impl_","fromInt",0xe901e0d0,"openfl.display._SpreadMethod.SpreadMethod_Impl_.fromInt","openfl/display/SpreadMethod.hx",33,0x882c619e)
-HX_LOCAL_STACK_FRAME(_hx_pos_86b0f571ca49f8a5_38_fromString,"openfl.display._SpreadMethod.SpreadMethod_Impl_","fromString",0xf9dd3790,"openfl.display._SpreadMethod.SpreadMethod_Impl_.fromString","openfl/display/SpreadMethod.hx",38,0x882c619e)
-HX_LOCAL_STACK_FRAME(_hx_pos_86b0f571ca49f8a5_49_toInt,"openfl.display._SpreadMethod.SpreadMethod_Impl_","toInt",0xdd4f109f,"openfl.display._SpreadMethod.SpreadMethod_Impl_.toInt","openfl/display/SpreadMethod.hx",49,0x882c619e)
-HX_LOCAL_STACK_FRAME(_hx_pos_86b0f571ca49f8a5_54_toString,"openfl.display._SpreadMethod.SpreadMethod_Impl_","toString",0x8d8a9321,"openfl.display._SpreadMethod.SpreadMethod_Impl_.toString","openfl/display/SpreadMethod.hx",54,0x882c619e)
-HX_LOCAL_STACK_FRAME(_hx_pos_86b0f571ca49f8a5_19_boot,"openfl.display._SpreadMethod.SpreadMethod_Impl_","boot",0x85bda827,"openfl.display._SpreadMethod.SpreadMethod_Impl_.boot","openfl/display/SpreadMethod.hx",19,0x882c619e)
-HX_LOCAL_STACK_FRAME(_hx_pos_86b0f571ca49f8a5_24_boot,"openfl.display._SpreadMethod.SpreadMethod_Impl_","boot",0x85bda827,"openfl.display._SpreadMethod.SpreadMethod_Impl_.boot","openfl/display/SpreadMethod.hx",24,0x882c619e)
-HX_LOCAL_STACK_FRAME(_hx_pos_86b0f571ca49f8a5_29_boot,"openfl.display._SpreadMethod.SpreadMethod_Impl_","boot",0x85bda827,"openfl.display._SpreadMethod.SpreadMethod_Impl_.boot","openfl/display/SpreadMethod.hx",29,0x882c619e)
+HX_LOCAL_STACK_FRAME(_hx_pos_86b0f571ca49f8a5_13_fromInt,"openfl.display._SpreadMethod.SpreadMethod_Impl_","fromInt",0xe901e0d0,"openfl.display._SpreadMethod.SpreadMethod_Impl_.fromInt","openfl/display/SpreadMethod.hx",13,0x882c619e)
+HX_LOCAL_STACK_FRAME(_hx_pos_86b0f571ca49f8a5_18_fromString,"openfl.display._SpreadMethod.SpreadMethod_Impl_","fromString",0xf9dd3790,"openfl.display._SpreadMethod.SpreadMethod_Impl_.fromString","openfl/display/SpreadMethod.hx",18,0x882c619e)
+HX_LOCAL_STACK_FRAME(_hx_pos_86b0f571ca49f8a5_29_toInt,"openfl.display._SpreadMethod.SpreadMethod_Impl_","toInt",0xdd4f109f,"openfl.display._SpreadMethod.SpreadMethod_Impl_.toInt","openfl/display/SpreadMethod.hx",29,0x882c619e)
+HX_LOCAL_STACK_FRAME(_hx_pos_86b0f571ca49f8a5_34_toString,"openfl.display._SpreadMethod.SpreadMethod_Impl_","toString",0x8d8a9321,"openfl.display._SpreadMethod.SpreadMethod_Impl_.toString","openfl/display/SpreadMethod.hx",34,0x882c619e)
+HX_LOCAL_STACK_FRAME(_hx_pos_86b0f571ca49f8a5_7_boot,"openfl.display._SpreadMethod.SpreadMethod_Impl_","boot",0x85bda827,"openfl.display._SpreadMethod.SpreadMethod_Impl_.boot","openfl/display/SpreadMethod.hx",7,0x882c619e)
+HX_LOCAL_STACK_FRAME(_hx_pos_86b0f571ca49f8a5_8_boot,"openfl.display._SpreadMethod.SpreadMethod_Impl_","boot",0x85bda827,"openfl.display._SpreadMethod.SpreadMethod_Impl_.boot","openfl/display/SpreadMethod.hx",8,0x882c619e)
+HX_LOCAL_STACK_FRAME(_hx_pos_86b0f571ca49f8a5_9_boot,"openfl.display._SpreadMethod.SpreadMethod_Impl_","boot",0x85bda827,"openfl.display._SpreadMethod.SpreadMethod_Impl_.boot","openfl/display/SpreadMethod.hx",9,0x882c619e)
 namespace openfl{
 namespace display{
 namespace _SpreadMethod{
@@ -40,66 +40,66 @@ bool SpreadMethod_Impl__obj::_hx_isInstanceOf(int inClassId) {
  ::Dynamic SpreadMethod_Impl__obj::REPEAT;
 
  ::Dynamic SpreadMethod_Impl__obj::fromInt( ::Dynamic value){
-            	HX_STACKFRAME(&_hx_pos_86b0f571ca49f8a5_33_fromInt)
-HXDLIN(  33)		return value;
+            	HX_STACKFRAME(&_hx_pos_86b0f571ca49f8a5_13_fromInt)
+HXDLIN(  13)		return value;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(SpreadMethod_Impl__obj,fromInt,return )
 
  ::Dynamic SpreadMethod_Impl__obj::fromString(::String value){
-            	HX_STACKFRAME(&_hx_pos_86b0f571ca49f8a5_38_fromString)
-HXDLIN(  38)		::String _hx_switch_0 = value;
+            	HX_STACKFRAME(&_hx_pos_86b0f571ca49f8a5_18_fromString)
+HXDLIN(  18)		::String _hx_switch_0 = value;
             		if (  (_hx_switch_0==HX_("pad",53,51,55,00)) ){
-HXLINE(  40)			return 0;
-HXDLIN(  40)			goto _hx_goto_1;
+HXLINE(  20)			return 0;
+HXDLIN(  20)			goto _hx_goto_1;
             		}
             		if (  (_hx_switch_0==HX_("reflect",3d,84,29,e9)) ){
-HXLINE(  41)			return 1;
-HXDLIN(  41)			goto _hx_goto_1;
+HXLINE(  21)			return 1;
+HXDLIN(  21)			goto _hx_goto_1;
             		}
             		if (  (_hx_switch_0==HX_("repeat",5b,97,7c,06)) ){
-HXLINE(  42)			return 2;
-HXDLIN(  42)			goto _hx_goto_1;
+HXLINE(  22)			return 2;
+HXDLIN(  22)			goto _hx_goto_1;
             		}
             		/* default */{
-HXLINE(  43)			return null();
+HXLINE(  23)			return null();
             		}
             		_hx_goto_1:;
-HXLINE(  38)		return null();
+HXLINE(  18)		return null();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(SpreadMethod_Impl__obj,fromString,return )
 
  ::Dynamic SpreadMethod_Impl__obj::toInt( ::Dynamic this1){
-            	HX_STACKFRAME(&_hx_pos_86b0f571ca49f8a5_49_toInt)
-HXDLIN(  49)		return this1;
+            	HX_STACKFRAME(&_hx_pos_86b0f571ca49f8a5_29_toInt)
+HXDLIN(  29)		return this1;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(SpreadMethod_Impl__obj,toInt,return )
 
 ::String SpreadMethod_Impl__obj::toString( ::Dynamic this1){
-            	HX_STACKFRAME(&_hx_pos_86b0f571ca49f8a5_54_toString)
-HXDLIN(  54)		 ::Dynamic _hx_switch_0 = this1;
+            	HX_STACKFRAME(&_hx_pos_86b0f571ca49f8a5_34_toString)
+HXDLIN(  34)		 ::Dynamic _hx_switch_0 = this1;
             		if (  (_hx_switch_0==0) ){
-HXLINE(  56)			return HX_("pad",53,51,55,00);
-HXDLIN(  56)			goto _hx_goto_4;
+HXLINE(  36)			return HX_("pad",53,51,55,00);
+HXDLIN(  36)			goto _hx_goto_4;
             		}
             		if (  (_hx_switch_0==1) ){
-HXLINE(  57)			return HX_("reflect",3d,84,29,e9);
-HXDLIN(  57)			goto _hx_goto_4;
+HXLINE(  37)			return HX_("reflect",3d,84,29,e9);
+HXDLIN(  37)			goto _hx_goto_4;
             		}
             		if (  (_hx_switch_0==2) ){
-HXLINE(  58)			return HX_("repeat",5b,97,7c,06);
-HXDLIN(  58)			goto _hx_goto_4;
+HXLINE(  38)			return HX_("repeat",5b,97,7c,06);
+HXDLIN(  38)			goto _hx_goto_4;
             		}
             		/* default */{
-HXLINE(  59)			return null();
+HXLINE(  39)			return null();
             		}
             		_hx_goto_4:;
-HXLINE(  54)		return null();
+HXLINE(  34)		return null();
             	}
 
 
@@ -196,16 +196,16 @@ void SpreadMethod_Impl__obj::__register()
 void SpreadMethod_Impl__obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_86b0f571ca49f8a5_19_boot)
-HXDLIN(  19)		PAD = 0;
+            	HX_STACKFRAME(&_hx_pos_86b0f571ca49f8a5_7_boot)
+HXDLIN(   7)		PAD = 0;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_86b0f571ca49f8a5_24_boot)
-HXDLIN(  24)		REFLECT = 1;
+            	HX_STACKFRAME(&_hx_pos_86b0f571ca49f8a5_8_boot)
+HXDLIN(   8)		REFLECT = 1;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_86b0f571ca49f8a5_29_boot)
-HXDLIN(  29)		REPEAT = 2;
+            	HX_STACKFRAME(&_hx_pos_86b0f571ca49f8a5_9_boot)
+HXDLIN(   9)		REPEAT = 2;
             	}
 }
 

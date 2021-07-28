@@ -32,7 +32,7 @@
 #include <openfl/utils/_ByteArray/ByteArray_Impl_.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_d468218929921e3b_47_new,"flixel.system.debug.GraphicLog","new",0x6b03d456,"flixel.system.debug.GraphicLog.new","openfl/utils/_internal/AssetsMacro.hx",47,0xfdd54705)
+HX_DEFINE_STACK_FRAME(_hx_pos_5ae997da324ec5f7_47_new,"flixel.system.debug.GraphicLog","new",0x6b03d456,"flixel.system.debug.GraphicLog.new","openfl/_internal/macros/AssetsMacro.hx",47,0xf7db08ab)
 HX_LOCAL_STACK_FRAME(_hx_pos_57449aee0c72ca19_34_boot,"flixel.system.debug.GraphicLog","boot",0x306ef77c,"flixel.system.debug.GraphicLog.boot","flixel/system/debug/FlxDebugger.hx",34,0xd9fc0a74)
 namespace flixel{
 namespace _hx_system{
@@ -43,7 +43,7 @@ void GraphicLog_obj::__construct(int width,int height, ::Dynamic __o_transparent
             		if (::hx::IsNull(__o_transparent)) transparent = true;
             		 ::Dynamic fillRGBA = __o_fillRGBA;
             		if (::hx::IsNull(__o_fillRGBA)) fillRGBA = -1;
-            	HX_STACKFRAME(&_hx_pos_d468218929921e3b_47_new)
+            	HX_STACKFRAME(&_hx_pos_5ae997da324ec5f7_47_new)
 HXLINE(  71)		super::__construct(0,0,transparent,fillRGBA);
 HXLINE(  73)		 ::openfl::utils::ByteArrayData byteArray = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(::haxe::Resource_obj::getBytes(::flixel::_hx_system::debug::GraphicLog_obj::resourceName));
 HXLINE(  74)		{

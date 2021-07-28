@@ -8,14 +8,14 @@
 #include <openfl/events/Event.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_07ba67a8dcdbfa28_63_new,"openfl.events.ActivityEvent","new",0x259c5826,"openfl.events.ActivityEvent.new","openfl/events/ActivityEvent.hx",63,0x98f9202a)
-HX_LOCAL_STACK_FRAME(_hx_pos_07ba67a8dcdbfa28_70_clone,"openfl.events.ActivityEvent","clone",0xb6b198a3,"openfl.events.ActivityEvent.clone","openfl/events/ActivityEvent.hx",70,0x98f9202a)
-HX_LOCAL_STACK_FRAME(_hx_pos_07ba67a8dcdbfa28_80_toString,"openfl.events.ActivityEvent","toString",0x46865b26,"openfl.events.ActivityEvent.toString","openfl/events/ActivityEvent.hx",80,0x98f9202a)
+HX_DEFINE_STACK_FRAME(_hx_pos_07ba67a8dcdbfa28_19_new,"openfl.events.ActivityEvent","new",0x259c5826,"openfl.events.ActivityEvent.new","openfl/events/ActivityEvent.hx",19,0x98f9202a)
+HX_LOCAL_STACK_FRAME(_hx_pos_07ba67a8dcdbfa28_26_clone,"openfl.events.ActivityEvent","clone",0xb6b198a3,"openfl.events.ActivityEvent.clone","openfl/events/ActivityEvent.hx",26,0x98f9202a)
+HX_LOCAL_STACK_FRAME(_hx_pos_07ba67a8dcdbfa28_36_toString,"openfl.events.ActivityEvent","toString",0x46865b26,"openfl.events.ActivityEvent.toString","openfl/events/ActivityEvent.hx",36,0x98f9202a)
 static const ::String _hx_array_data_a0800d34_3[] = {
 	HX_("type",ba,f2,08,4d),HX_("bubbles",67,bb,56,61),HX_("cancelable",14,a0,79,c4),HX_("activating",b0,17,b4,bd),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_07ba67a8dcdbfa28_84___init,"openfl.events.ActivityEvent","__init",0x0b19b62a,"openfl.events.ActivityEvent.__init","openfl/events/ActivityEvent.hx",84,0x98f9202a)
-HX_LOCAL_STACK_FRAME(_hx_pos_07ba67a8dcdbfa28_31_boot,"openfl.events.ActivityEvent","boot",0xbb49c9ac,"openfl.events.ActivityEvent.boot","openfl/events/ActivityEvent.hx",31,0x98f9202a)
+HX_LOCAL_STACK_FRAME(_hx_pos_07ba67a8dcdbfa28_40___init,"openfl.events.ActivityEvent","__init",0x0b19b62a,"openfl.events.ActivityEvent.__init","openfl/events/ActivityEvent.hx",40,0x98f9202a)
+HX_LOCAL_STACK_FRAME(_hx_pos_07ba67a8dcdbfa28_11_boot,"openfl.events.ActivityEvent","boot",0xbb49c9ac,"openfl.events.ActivityEvent.boot","openfl/events/ActivityEvent.hx",11,0x98f9202a)
 namespace openfl{
 namespace events{
 
@@ -23,9 +23,9 @@ void ActivityEvent_obj::__construct(::String type,::hx::Null< bool >  __o_bubble
             		bool bubbles = __o_bubbles.Default(false);
             		bool cancelable = __o_cancelable.Default(false);
             		bool activating = __o_activating.Default(false);
-            	HX_STACKFRAME(&_hx_pos_07ba67a8dcdbfa28_63_new)
-HXLINE(  64)		super::__construct(type,bubbles,cancelable);
-HXLINE(  66)		this->activating = activating;
+            	HX_STACKFRAME(&_hx_pos_07ba67a8dcdbfa28_19_new)
+HXLINE(  20)		super::__construct(type,bubbles,cancelable);
+HXLINE(  22)		this->activating = activating;
             	}
 
 Dynamic ActivityEvent_obj::__CreateEmpty() { return new ActivityEvent_obj; }
@@ -48,25 +48,25 @@ bool ActivityEvent_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::openfl::events::Event ActivityEvent_obj::clone(){
-            	HX_GC_STACKFRAME(&_hx_pos_07ba67a8dcdbfa28_70_clone)
-HXLINE(  71)		 ::openfl::events::ActivityEvent event =  ::openfl::events::ActivityEvent_obj::__alloc( HX_CTX ,this->type,this->bubbles,this->cancelable,this->activating);
-HXLINE(  72)		event->target = this->target;
-HXLINE(  73)		event->currentTarget = this->currentTarget;
-HXLINE(  74)		event->eventPhase = this->eventPhase;
-HXLINE(  75)		return event;
+            	HX_GC_STACKFRAME(&_hx_pos_07ba67a8dcdbfa28_26_clone)
+HXLINE(  27)		 ::openfl::events::ActivityEvent event =  ::openfl::events::ActivityEvent_obj::__alloc( HX_CTX ,this->type,this->bubbles,this->cancelable,this->activating);
+HXLINE(  28)		event->target = this->target;
+HXLINE(  29)		event->currentTarget = this->currentTarget;
+HXLINE(  30)		event->eventPhase = this->eventPhase;
+HXLINE(  31)		return event;
             	}
 
 
 ::String ActivityEvent_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_07ba67a8dcdbfa28_80_toString)
-HXDLIN(  80)		return this->_hx___formatToString(HX_("ActivityEvent",ab,eb,0c,59),::Array_obj< ::String >::fromData( _hx_array_data_a0800d34_3,4));
+            	HX_STACKFRAME(&_hx_pos_07ba67a8dcdbfa28_36_toString)
+HXDLIN(  36)		return this->_hx___formatToString(HX_("ActivityEvent",ab,eb,0c,59),::Array_obj< ::String >::fromData( _hx_array_data_a0800d34_3,4));
             	}
 
 
 void ActivityEvent_obj::_hx___init(){
-            	HX_STACKFRAME(&_hx_pos_07ba67a8dcdbfa28_84___init)
-HXLINE(  85)		this->super::_hx___init();
-HXLINE(  86)		this->activating = false;
+            	HX_STACKFRAME(&_hx_pos_07ba67a8dcdbfa28_40___init)
+HXLINE(  41)		this->super::_hx___init();
+HXLINE(  42)		this->activating = false;
             	}
 
 
@@ -189,8 +189,8 @@ void ActivityEvent_obj::__register()
 void ActivityEvent_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_07ba67a8dcdbfa28_31_boot)
-HXDLIN(  31)		ACTIVITY = HX_("activity",cf,2d,b2,e5);
+            	HX_STACKFRAME(&_hx_pos_07ba67a8dcdbfa28_11_boot)
+HXDLIN(  11)		ACTIVITY = HX_("activity",cf,2d,b2,e5);
             	}
 }
 

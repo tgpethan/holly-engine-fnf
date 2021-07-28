@@ -14,32 +14,32 @@
 #include <openfl/geom/Matrix.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_e4c1d0f133e7c9cd_179_new,"openfl.display.GraphicsGradientFill","new",0xc9ac905a,"openfl.display.GraphicsGradientFill.new","openfl/display/GraphicsGradientFill.hx",179,0x0dfeaf94)
+HX_DEFINE_STACK_FRAME(_hx_pos_e4c1d0f133e7c9cd_28_new,"openfl.display.GraphicsGradientFill","new",0xc9ac905a,"openfl.display.GraphicsGradientFill.new","openfl/display/GraphicsGradientFill.hx",28,0x0dfeaf94)
 namespace openfl{
 namespace display{
 
 void GraphicsGradientFill_obj::__construct( ::Dynamic type,::Array< int > colors,::Array< Float > alphas,::Array< int > ratios, ::openfl::geom::Matrix matrix, ::Dynamic spreadMethod, ::Dynamic interpolationMethod,::hx::Null< Float >  __o_focalPointRatio){
             		Float focalPointRatio = __o_focalPointRatio.Default(0);
-            	HX_STACKFRAME(&_hx_pos_e4c1d0f133e7c9cd_179_new)
-HXLINE( 180)		if (::hx::IsNull( type )) {
-HXLINE( 182)			type = 0;
+            	HX_STACKFRAME(&_hx_pos_e4c1d0f133e7c9cd_28_new)
+HXLINE(  29)		if (::hx::IsNull( type )) {
+HXLINE(  31)			type = 0;
             		}
-HXLINE( 185)		if (::hx::IsNull( spreadMethod )) {
-HXLINE( 187)			spreadMethod = 0;
+HXLINE(  34)		if (::hx::IsNull( spreadMethod )) {
+HXLINE(  36)			spreadMethod = 0;
             		}
-HXLINE( 190)		if (::hx::IsNull( interpolationMethod )) {
-HXLINE( 192)			interpolationMethod = 1;
+HXLINE(  39)		if (::hx::IsNull( interpolationMethod )) {
+HXLINE(  41)			interpolationMethod = 1;
             		}
-HXLINE( 195)		this->type = type;
-HXLINE( 196)		this->colors = colors;
-HXLINE( 197)		this->alphas = alphas;
-HXLINE( 198)		this->ratios = ratios;
-HXLINE( 199)		this->matrix = matrix;
-HXLINE( 200)		this->spreadMethod = spreadMethod;
-HXLINE( 201)		this->interpolationMethod = interpolationMethod;
-HXLINE( 202)		this->focalPointRatio = focalPointRatio;
-HXLINE( 203)		this->_hx___graphicsDataType = 2;
-HXLINE( 204)		this->_hx___graphicsFillType = 1;
+HXLINE(  44)		this->type = type;
+HXLINE(  45)		this->colors = colors;
+HXLINE(  46)		this->alphas = alphas;
+HXLINE(  47)		this->ratios = ratios;
+HXLINE(  48)		this->matrix = matrix;
+HXLINE(  49)		this->spreadMethod = spreadMethod;
+HXLINE(  50)		this->interpolationMethod = interpolationMethod;
+HXLINE(  51)		this->focalPointRatio = focalPointRatio;
+HXLINE(  52)		this->_hx___graphicsDataType = 2;
+HXLINE(  53)		this->_hx___graphicsFillType = 1;
             	}
 
 Dynamic GraphicsGradientFill_obj::__CreateEmpty() { return new GraphicsGradientFill_obj; }

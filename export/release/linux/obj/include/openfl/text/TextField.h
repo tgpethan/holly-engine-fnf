@@ -12,9 +12,14 @@
 HX_DECLARE_CLASS1(haxe,IMap)
 HX_DECLARE_CLASS1(haxe,Timer)
 HX_DECLARE_CLASS2(haxe,ds,StringMap)
+HX_DECLARE_CLASS2(openfl,display,CairoRenderer)
+HX_DECLARE_CLASS2(openfl,display,CanvasRenderer)
+HX_DECLARE_CLASS2(openfl,display,DOMRenderer)
 HX_DECLARE_CLASS2(openfl,display,DisplayObject)
+HX_DECLARE_CLASS2(openfl,display,DisplayObjectRenderer)
 HX_DECLARE_CLASS2(openfl,display,IBitmapDrawable)
 HX_DECLARE_CLASS2(openfl,display,InteractiveObject)
+HX_DECLARE_CLASS2(openfl,display,OpenGLRenderer)
 HX_DECLARE_CLASS2(openfl,events,Event)
 HX_DECLARE_CLASS2(openfl,events,EventDispatcher)
 HX_DECLARE_CLASS2(openfl,events,FocusEvent)
@@ -79,7 +84,6 @@ class HXCPP_CLASS_ATTRIBUTES TextField_obj : public  ::openfl::display::Interact
 		bool _hx___inputEnabled;
 		bool _hx___isHTML;
 		bool _hx___layoutDirty;
-		int _hx___mouseScrollVCounter;
 		bool _hx___mouseWheelEnabled;
 		Float _hx___offsetX;
 		Float _hx___offsetY;
@@ -142,25 +146,19 @@ class HXCPP_CLASS_ATTRIBUTES TextField_obj : public  ::openfl::display::Interact
 		void _hx___caretBeginningOfLine();
 		::Dynamic _hx___caretBeginningOfLine_dyn();
 
-		void _hx___caretBeginningOfNextLine();
-		::Dynamic _hx___caretBeginningOfNextLine_dyn();
-
-		void _hx___caretBeginningOfPreviousLine();
-		::Dynamic _hx___caretBeginningOfPreviousLine_dyn();
-
 		void _hx___caretEndOfLine();
 		::Dynamic _hx___caretEndOfLine_dyn();
 
 		void _hx___caretNextCharacter();
 		::Dynamic _hx___caretNextCharacter_dyn();
 
-		void _hx___caretNextLine();
+		void _hx___caretNextLine( ::Dynamic lineIndex, ::Dynamic caretIndex);
 		::Dynamic _hx___caretNextLine_dyn();
 
 		void _hx___caretPreviousCharacter();
 		::Dynamic _hx___caretPreviousCharacter_dyn();
 
-		void _hx___caretPreviousLine();
+		void _hx___caretPreviousLine( ::Dynamic lineIndex, ::Dynamic caretIndex);
 		::Dynamic _hx___caretPreviousLine_dyn();
 
 		void _hx___disableInput();
@@ -194,11 +192,25 @@ class HXCPP_CLASS_ATTRIBUTES TextField_obj : public  ::openfl::display::Interact
 
 		bool _hx___hitTestMask(Float x,Float y);
 
+		void _hx___renderCairo( ::openfl::display::CairoRenderer renderer);
+
+		void _hx___renderCanvas( ::openfl::display::CanvasRenderer renderer);
+
+		void _hx___renderDOM( ::openfl::display::DOMRenderer renderer);
+
+		void _hx___renderDOMClear( ::openfl::display::DOMRenderer renderer);
+
+		void _hx___renderGL( ::openfl::display::OpenGLRenderer renderer);
+
+		void _hx___renderGLMask( ::openfl::display::OpenGLRenderer renderer);
+
 		void _hx___replaceSelectedText(::String value,::hx::Null< bool >  restrict);
 		::Dynamic _hx___replaceSelectedText_dyn();
 
 		void _hx___replaceText(int beginIndex,int endIndex,::String newText,bool restrict);
 		::Dynamic _hx___replaceText_dyn();
+
+		 ::Dynamic _hx___shouldCacheHardware( ::Dynamic value);
 
 		void _hx___startCursorTimer();
 		::Dynamic _hx___startCursorTimer_dyn();
@@ -212,6 +224,8 @@ class HXCPP_CLASS_ATTRIBUTES TextField_obj : public  ::openfl::display::Interact
 		void _hx___stopTextInput();
 		::Dynamic _hx___stopTextInput_dyn();
 
+		bool _hx___updateCacheBitmap( ::openfl::display::DisplayObjectRenderer renderer,bool force);
+
 		void _hx___updateLayout();
 		::Dynamic _hx___updateLayout_dyn();
 
@@ -220,9 +234,6 @@ class HXCPP_CLASS_ATTRIBUTES TextField_obj : public  ::openfl::display::Interact
 
 		void _hx___updateScrollV();
 		::Dynamic _hx___updateScrollV_dyn();
-
-		void _hx___updateMouseDrag();
-		::Dynamic _hx___updateMouseDrag_dyn();
 
 		void _hx___updateText(::String value);
 		::Dynamic _hx___updateText_dyn();
@@ -423,9 +434,6 @@ class HXCPP_CLASS_ATTRIBUTES TextField_obj : public  ::openfl::display::Interact
 
 		void this_onAddedToStage( ::openfl::events::Event event);
 		::Dynamic this_onAddedToStage_dyn();
-
-		void this_onEnterFrame( ::openfl::events::Event e);
-		::Dynamic this_onEnterFrame_dyn();
 
 		void this_onFocusIn( ::openfl::events::FocusEvent event);
 		::Dynamic this_onFocusIn_dyn();

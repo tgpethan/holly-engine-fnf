@@ -8,7 +8,7 @@
 #include <lime/graphics/_Canvas2DRenderContext/Canvas2DRenderContext_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_392bae301ff0283f_34_fromRenderContext,"lime.graphics._Canvas2DRenderContext.Canvas2DRenderContext_Impl_","fromRenderContext",0x4df31afc,"lime.graphics._Canvas2DRenderContext.Canvas2DRenderContext_Impl_.fromRenderContext","lime/graphics/Canvas2DRenderContext.hx",34,0xf4e22259)
+HX_LOCAL_STACK_FRAME(_hx_pos_392bae301ff0283f_33_fromRenderContext,"lime.graphics._Canvas2DRenderContext.Canvas2DRenderContext_Impl_","fromRenderContext",0x4df31afc,"lime.graphics._Canvas2DRenderContext.Canvas2DRenderContext_Impl_.fromRenderContext","lime/graphics/Canvas2DRenderContext.hx",33,0xf4e22259)
 namespace lime{
 namespace graphics{
 namespace _Canvas2DRenderContext{
@@ -31,8 +31,8 @@ bool Canvas2DRenderContext_Impl__obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::Dynamic Canvas2DRenderContext_Impl__obj::fromRenderContext( ::lime::graphics::RenderContext context){
-            	HX_STACKFRAME(&_hx_pos_392bae301ff0283f_34_fromRenderContext)
-HXDLIN(  34)		return null();
+            	HX_STACKFRAME(&_hx_pos_392bae301ff0283f_33_fromRenderContext)
+HXDLIN(  33)		return null();
             	}
 
 

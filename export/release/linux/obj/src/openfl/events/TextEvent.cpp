@@ -8,15 +8,15 @@
 #include <openfl/events/TextEvent.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_a9542994cee360f6_82_new,"openfl.events.TextEvent","new",0x29e58508,"openfl.events.TextEvent.new","openfl/events/TextEvent.hx",82,0x23b91588)
-HX_LOCAL_STACK_FRAME(_hx_pos_a9542994cee360f6_89_clone,"openfl.events.TextEvent","clone",0x41494205,"openfl.events.TextEvent.clone","openfl/events/TextEvent.hx",89,0x23b91588)
-HX_LOCAL_STACK_FRAME(_hx_pos_a9542994cee360f6_99_toString,"openfl.events.TextEvent","toString",0x2a253b04,"openfl.events.TextEvent.toString","openfl/events/TextEvent.hx",99,0x23b91588)
+HX_DEFINE_STACK_FRAME(_hx_pos_a9542994cee360f6_20_new,"openfl.events.TextEvent","new",0x29e58508,"openfl.events.TextEvent.new","openfl/events/TextEvent.hx",20,0x23b91588)
+HX_LOCAL_STACK_FRAME(_hx_pos_a9542994cee360f6_27_clone,"openfl.events.TextEvent","clone",0x41494205,"openfl.events.TextEvent.clone","openfl/events/TextEvent.hx",27,0x23b91588)
+HX_LOCAL_STACK_FRAME(_hx_pos_a9542994cee360f6_37_toString,"openfl.events.TextEvent","toString",0x2a253b04,"openfl.events.TextEvent.toString","openfl/events/TextEvent.hx",37,0x23b91588)
 static const ::String _hx_array_data_52f4a116_3[] = {
 	HX_("type",ba,f2,08,4d),HX_("bubbles",67,bb,56,61),HX_("cancelable",14,a0,79,c4),HX_("text",ad,cc,f9,4c),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_a9542994cee360f6_103___init,"openfl.events.TextEvent","__init",0xc5364288,"openfl.events.TextEvent.__init","openfl/events/TextEvent.hx",103,0x23b91588)
-HX_LOCAL_STACK_FRAME(_hx_pos_a9542994cee360f6_30_boot,"openfl.events.TextEvent","boot",0x7707e28a,"openfl.events.TextEvent.boot","openfl/events/TextEvent.hx",30,0x23b91588)
-HX_LOCAL_STACK_FRAME(_hx_pos_a9542994cee360f6_48_boot,"openfl.events.TextEvent","boot",0x7707e28a,"openfl.events.TextEvent.boot","openfl/events/TextEvent.hx",48,0x23b91588)
+HX_LOCAL_STACK_FRAME(_hx_pos_a9542994cee360f6_41___init,"openfl.events.TextEvent","__init",0xc5364288,"openfl.events.TextEvent.__init","openfl/events/TextEvent.hx",41,0x23b91588)
+HX_LOCAL_STACK_FRAME(_hx_pos_a9542994cee360f6_11_boot,"openfl.events.TextEvent","boot",0x7707e28a,"openfl.events.TextEvent.boot","openfl/events/TextEvent.hx",11,0x23b91588)
+HX_LOCAL_STACK_FRAME(_hx_pos_a9542994cee360f6_12_boot,"openfl.events.TextEvent","boot",0x7707e28a,"openfl.events.TextEvent.boot","openfl/events/TextEvent.hx",12,0x23b91588)
 namespace openfl{
 namespace events{
 
@@ -25,9 +25,9 @@ void TextEvent_obj::__construct(::String type,::hx::Null< bool >  __o_bubbles,::
             		bool cancelable = __o_cancelable.Default(false);
             		::String text = __o_text;
             		if (::hx::IsNull(__o_text)) text = HX_("",00,00,00,00);
-            	HX_STACKFRAME(&_hx_pos_a9542994cee360f6_82_new)
-HXLINE(  83)		super::__construct(type,bubbles,cancelable);
-HXLINE(  85)		this->text = text;
+            	HX_STACKFRAME(&_hx_pos_a9542994cee360f6_20_new)
+HXLINE(  21)		super::__construct(type,bubbles,cancelable);
+HXLINE(  23)		this->text = text;
             	}
 
 Dynamic TextEvent_obj::__CreateEmpty() { return new TextEvent_obj; }
@@ -50,25 +50,25 @@ bool TextEvent_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::openfl::events::Event TextEvent_obj::clone(){
-            	HX_GC_STACKFRAME(&_hx_pos_a9542994cee360f6_89_clone)
-HXLINE(  90)		 ::openfl::events::TextEvent event =  ::openfl::events::TextEvent_obj::__alloc( HX_CTX ,this->type,this->bubbles,this->cancelable,this->text);
-HXLINE(  91)		event->target = this->target;
-HXLINE(  92)		event->currentTarget = this->currentTarget;
-HXLINE(  93)		event->eventPhase = this->eventPhase;
-HXLINE(  94)		return event;
+            	HX_GC_STACKFRAME(&_hx_pos_a9542994cee360f6_27_clone)
+HXLINE(  28)		 ::openfl::events::TextEvent event =  ::openfl::events::TextEvent_obj::__alloc( HX_CTX ,this->type,this->bubbles,this->cancelable,this->text);
+HXLINE(  29)		event->target = this->target;
+HXLINE(  30)		event->currentTarget = this->currentTarget;
+HXLINE(  31)		event->eventPhase = this->eventPhase;
+HXLINE(  32)		return event;
             	}
 
 
 ::String TextEvent_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_a9542994cee360f6_99_toString)
-HXDLIN(  99)		return this->_hx___formatToString(HX_("TextEvent",0d,38,85,b0),::Array_obj< ::String >::fromData( _hx_array_data_52f4a116_3,4));
+            	HX_STACKFRAME(&_hx_pos_a9542994cee360f6_37_toString)
+HXDLIN(  37)		return this->_hx___formatToString(HX_("TextEvent",0d,38,85,b0),::Array_obj< ::String >::fromData( _hx_array_data_52f4a116_3,4));
             	}
 
 
 void TextEvent_obj::_hx___init(){
-            	HX_STACKFRAME(&_hx_pos_a9542994cee360f6_103___init)
-HXLINE( 104)		this->super::_hx___init();
-HXLINE( 105)		this->text = HX_("",00,00,00,00);
+            	HX_STACKFRAME(&_hx_pos_a9542994cee360f6_41___init)
+HXLINE(  42)		this->super::_hx___init();
+HXLINE(  43)		this->text = HX_("",00,00,00,00);
             	}
 
 
@@ -211,12 +211,12 @@ void TextEvent_obj::__register()
 void TextEvent_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_a9542994cee360f6_30_boot)
-HXDLIN(  30)		LINK = HX_("link",fa,17,b3,47);
+            	HX_STACKFRAME(&_hx_pos_a9542994cee360f6_11_boot)
+HXDLIN(  11)		LINK = HX_("link",fa,17,b3,47);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_a9542994cee360f6_48_boot)
-HXDLIN(  48)		TEXT_INPUT = HX_("textInput",1d,54,0b,57);
+            	HX_STACKFRAME(&_hx_pos_a9542994cee360f6_12_boot)
+HXDLIN(  12)		TEXT_INPUT = HX_("textInput",1d,54,0b,57);
             	}
 }
 

@@ -98,7 +98,7 @@ class HXCPP_CLASS_ATTRIBUTES FlxSound_obj : public  ::flixel::FlxBasic_obj
 		 ::flixel::_hx_system::FlxSound loadEmbedded( ::Dynamic EmbeddedSound,::hx::Null< bool >  Looped,::hx::Null< bool >  AutoDestroy, ::Dynamic OnComplete);
 		::Dynamic loadEmbedded_dyn();
 
-		 ::flixel::_hx_system::FlxSound loadStream(::String SoundURL,::hx::Null< bool >  Looped,::hx::Null< bool >  AutoDestroy, ::Dynamic OnComplete, ::Dynamic OnLoad);
+		 ::flixel::_hx_system::FlxSound loadStream(::String SoundURL,::hx::Null< bool >  Looped,::hx::Null< bool >  AutoDestroy, ::Dynamic OnComplete);
 		::Dynamic loadStream_dyn();
 
 		 ::flixel::_hx_system::FlxSound init(::hx::Null< bool >  Looped,::hx::Null< bool >  AutoDestroy, ::Dynamic OnComplete);

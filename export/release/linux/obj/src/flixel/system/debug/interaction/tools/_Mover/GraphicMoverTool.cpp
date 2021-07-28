@@ -32,7 +32,7 @@
 #include <openfl/utils/_ByteArray/ByteArray_Impl_.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_aaf2c727ff5e2c26_47_new,"flixel.system.debug.interaction.tools._Mover.GraphicMoverTool","new",0xe96d4898,"flixel.system.debug.interaction.tools._Mover.GraphicMoverTool.new","openfl/utils/_internal/AssetsMacro.hx",47,0xfdd54705)
+HX_DEFINE_STACK_FRAME(_hx_pos_202a0fe72ad3f4ea_47_new,"flixel.system.debug.interaction.tools._Mover.GraphicMoverTool","new",0xe96d4898,"flixel.system.debug.interaction.tools._Mover.GraphicMoverTool.new","openfl/_internal/macros/AssetsMacro.hx",47,0xf7db08ab)
 HX_LOCAL_STACK_FRAME(_hx_pos_b4d59e0d290eb4d9_10_boot,"flixel.system.debug.interaction.tools._Mover.GraphicMoverTool","boot",0x4e4b3cfa,"flixel.system.debug.interaction.tools._Mover.GraphicMoverTool.boot","flixel/system/debug/interaction/tools/Mover.hx",10,0xc1a785b7)
 namespace flixel{
 namespace _hx_system{
@@ -46,7 +46,7 @@ void GraphicMoverTool_obj::__construct(int width,int height, ::Dynamic __o_trans
             		if (::hx::IsNull(__o_transparent)) transparent = true;
             		 ::Dynamic fillRGBA = __o_fillRGBA;
             		if (::hx::IsNull(__o_fillRGBA)) fillRGBA = -1;
-            	HX_STACKFRAME(&_hx_pos_aaf2c727ff5e2c26_47_new)
+            	HX_STACKFRAME(&_hx_pos_202a0fe72ad3f4ea_47_new)
 HXLINE(  71)		super::__construct(0,0,transparent,fillRGBA);
 HXLINE(  73)		 ::openfl::utils::ByteArrayData byteArray = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(::haxe::Resource_obj::getBytes(::flixel::_hx_system::debug::interaction::tools::_Mover::GraphicMoverTool_obj::resourceName));
 HXLINE(  74)		{

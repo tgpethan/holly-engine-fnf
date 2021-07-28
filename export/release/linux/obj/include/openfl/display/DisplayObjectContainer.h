@@ -12,10 +12,15 @@
 HX_DECLARE_CLASS2(lime,app,IModule)
 HX_DECLARE_CLASS2(openfl,_Vector,IVector)
 HX_DECLARE_CLASS2(openfl,_Vector,ObjectVector)
+HX_DECLARE_CLASS2(openfl,display,CairoRenderer)
+HX_DECLARE_CLASS2(openfl,display,CanvasRenderer)
+HX_DECLARE_CLASS2(openfl,display,DOMRenderer)
 HX_DECLARE_CLASS2(openfl,display,DisplayObject)
 HX_DECLARE_CLASS2(openfl,display,DisplayObjectContainer)
+HX_DECLARE_CLASS2(openfl,display,DisplayObjectRenderer)
 HX_DECLARE_CLASS2(openfl,display,IBitmapDrawable)
 HX_DECLARE_CLASS2(openfl,display,InteractiveObject)
+HX_DECLARE_CLASS2(openfl,display,OpenGLRenderer)
 HX_DECLARE_CLASS2(openfl,display,Stage)
 HX_DECLARE_CLASS2(openfl,events,Event)
 HX_DECLARE_CLASS2(openfl,events,EventDispatcher)
@@ -63,10 +68,10 @@ class HXCPP_CLASS_ATTRIBUTES DisplayObjectContainer_obj : public  ::openfl::disp
 		bool mouseChildren;
 		 ::openfl::_Vector::ObjectVector _hx___removedChildren;
 		bool _hx___tabChildren;
-		virtual  ::openfl::display::DisplayObject addChild( ::openfl::display::DisplayObject child);
+		 ::openfl::display::DisplayObject addChild( ::openfl::display::DisplayObject child);
 		::Dynamic addChild_dyn();
 
-		virtual  ::openfl::display::DisplayObject addChildAt( ::openfl::display::DisplayObject child,int index);
+		 ::openfl::display::DisplayObject addChildAt( ::openfl::display::DisplayObject child,int index);
 		::Dynamic addChildAt_dyn();
 
 		bool areInaccessibleObjectsUnderPoint( ::openfl::geom::Point point);
@@ -87,10 +92,10 @@ class HXCPP_CLASS_ATTRIBUTES DisplayObjectContainer_obj : public  ::openfl::disp
 		::Array< ::Dynamic> getObjectsUnderPoint( ::openfl::geom::Point point);
 		::Dynamic getObjectsUnderPoint_dyn();
 
-		virtual  ::openfl::display::DisplayObject removeChild( ::openfl::display::DisplayObject child);
+		 ::openfl::display::DisplayObject removeChild( ::openfl::display::DisplayObject child);
 		::Dynamic removeChild_dyn();
 
-		virtual  ::openfl::display::DisplayObject removeChildAt(int index);
+		 ::openfl::display::DisplayObject removeChildAt(int index);
 		::Dynamic removeChildAt_dyn();
 
 		void removeChildren(::hx::Null< int >  beginIndex,::hx::Null< int >  endIndex);
@@ -99,7 +104,7 @@ class HXCPP_CLASS_ATTRIBUTES DisplayObjectContainer_obj : public  ::openfl::disp
 		 ::openfl::display::DisplayObject resolve(::String fieldName);
 		::Dynamic resolve_dyn();
 
-		virtual void setChildIndex( ::openfl::display::DisplayObject child,int index);
+		void setChildIndex( ::openfl::display::DisplayObject child,int index);
 		::Dynamic setChildIndex_dyn();
 
 		void stopAllMovieClips();
@@ -132,9 +137,27 @@ class HXCPP_CLASS_ATTRIBUTES DisplayObjectContainer_obj : public  ::openfl::disp
 
 		void _hx___readGraphicsData( ::openfl::_Vector::ObjectVector graphicsData,bool recurse);
 
+		void _hx___renderCairo( ::openfl::display::CairoRenderer renderer);
+
+		void _hx___renderCairoMask( ::openfl::display::CairoRenderer renderer);
+
+		void _hx___renderCanvas( ::openfl::display::CanvasRenderer renderer);
+
+		void _hx___renderCanvasMask( ::openfl::display::CanvasRenderer renderer);
+
+		void _hx___renderDOM( ::openfl::display::DOMRenderer renderer);
+
+		void _hx___renderDOMClear( ::openfl::display::DOMRenderer renderer);
+
+		void _hx___renderGL( ::openfl::display::OpenGLRenderer renderer);
+
+		void _hx___renderGLMask( ::openfl::display::OpenGLRenderer renderer);
+
 		void _hx___setStageReference( ::openfl::display::Stage stage);
 
 		void _hx___setWorldTransformInvalid();
+
+		 ::Dynamic _hx___shouldCacheHardware( ::Dynamic value);
 
 		virtual void _hx___stopAllMovieClips();
 

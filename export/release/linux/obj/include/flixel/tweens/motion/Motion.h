@@ -69,8 +69,6 @@ class HXCPP_CLASS_ATTRIBUTES Motion_obj : public  ::flixel::tweens::FlxTween_obj
 		void postUpdate();
 		::Dynamic postUpdate_dyn();
 
-		bool isTweenOf( ::Dynamic object,::String field);
-
 };
 
 } // end namespace flixel

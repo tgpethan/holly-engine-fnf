@@ -6,6 +6,7 @@
 #include <hxcpp.h>
 #endif
 
+HX_DECLARE_STACK_FRAME(_hx_pos_c5f39c48023aa9de_257_new)
 HX_DECLARE_CLASS2(openfl,text,TextFormat)
 
 namespace openfl{
@@ -27,8 +28,36 @@ class HXCPP_CLASS_ATTRIBUTES TextFormat_obj : public ::hx::Object
 			{ return ::hx::Object::operator new(inSize,inContainer,inName); }
 		inline void *operator new(size_t inSize, int extra)
 			{ return ::hx::Object::operator new(inSize+extra,true,"openfl.text.TextFormat"); }
-		static ::hx::ObjectPtr< TextFormat_obj > __new(::String font, ::Dynamic size, ::Dynamic color, ::Dynamic bold, ::Dynamic italic, ::Dynamic underline,::String url,::String target, ::Dynamic align, ::Dynamic leftMargin, ::Dynamic rightMargin, ::Dynamic indent, ::Dynamic leading);
-		static ::hx::ObjectPtr< TextFormat_obj > __alloc(::hx::Ctx *_hx_ctx,::String font, ::Dynamic size, ::Dynamic color, ::Dynamic bold, ::Dynamic italic, ::Dynamic underline,::String url,::String target, ::Dynamic align, ::Dynamic leftMargin, ::Dynamic rightMargin, ::Dynamic indent, ::Dynamic leading);
+
+		inline static ::hx::ObjectPtr< TextFormat_obj > __new(::String font, ::Dynamic size, ::Dynamic color, ::Dynamic bold, ::Dynamic italic, ::Dynamic underline,::String url,::String target, ::Dynamic align, ::Dynamic leftMargin, ::Dynamic rightMargin, ::Dynamic indent, ::Dynamic leading) {
+			::hx::ObjectPtr< TextFormat_obj > __this = new TextFormat_obj();
+			__this->__construct(font,size,color,bold,italic,underline,url,target,align,leftMargin,rightMargin,indent,leading);
+			return __this;
+		}
+
+		inline static ::hx::ObjectPtr< TextFormat_obj > __alloc(::hx::Ctx *_hx_ctx,::String font, ::Dynamic size, ::Dynamic color, ::Dynamic bold, ::Dynamic italic, ::Dynamic underline,::String url,::String target, ::Dynamic align, ::Dynamic leftMargin, ::Dynamic rightMargin, ::Dynamic indent, ::Dynamic leading) {
+			TextFormat_obj *__this = (TextFormat_obj*)(::hx::Ctx::alloc(_hx_ctx, sizeof(TextFormat_obj), true, "openfl.text.TextFormat"));
+			*(void **)__this = TextFormat_obj::_hx_vtable;
+{
+            	HX_STACKFRAME(&_hx_pos_c5f39c48023aa9de_257_new)
+HXLINE( 258)		( ( ::openfl::text::TextFormat)(__this) )->font = font;
+HXLINE( 259)		( ( ::openfl::text::TextFormat)(__this) )->size = size;
+HXLINE( 260)		( ( ::openfl::text::TextFormat)(__this) )->color = color;
+HXLINE( 261)		( ( ::openfl::text::TextFormat)(__this) )->bold = bold;
+HXLINE( 262)		( ( ::openfl::text::TextFormat)(__this) )->italic = italic;
+HXLINE( 263)		( ( ::openfl::text::TextFormat)(__this) )->underline = underline;
+HXLINE( 264)		( ( ::openfl::text::TextFormat)(__this) )->url = url;
+HXLINE( 265)		( ( ::openfl::text::TextFormat)(__this) )->target = target;
+HXLINE( 266)		( ( ::openfl::text::TextFormat)(__this) )->align = align;
+HXLINE( 267)		( ( ::openfl::text::TextFormat)(__this) )->leftMargin = leftMargin;
+HXLINE( 268)		( ( ::openfl::text::TextFormat)(__this) )->rightMargin = rightMargin;
+HXLINE( 269)		( ( ::openfl::text::TextFormat)(__this) )->indent = indent;
+HXLINE( 270)		( ( ::openfl::text::TextFormat)(__this) )->leading = leading;
+            	}
+		
+			return __this;
+		}
+
 		static void * _hx_vtable;
 		static Dynamic __CreateEmpty();
 		static Dynamic __Create(::hx::DynamicArray inArgs);
@@ -66,15 +95,11 @@ class HXCPP_CLASS_ATTRIBUTES TextFormat_obj : public ::hx::Object
 		::String url;
 		 ::Dynamic _hx___ascent;
 		 ::Dynamic _hx___descent;
-		::String _hx___cacheKey;
 		 ::openfl::text::TextFormat clone();
 		::Dynamic clone_dyn();
 
 		void _hx___merge( ::openfl::text::TextFormat format);
 		::Dynamic _hx___merge_dyn();
-
-		::String _hx___toCacheKey();
-		::Dynamic _hx___toCacheKey_dyn();
 
 };
 

@@ -11,8 +11,8 @@
 #include <openfl/ui/Multitouch.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_d04537844d94f90f_112___init__,"::openfl::ui::Multitouch_obj","__init__",0xd9e1825c,"::openfl::ui::Multitouch_obj.__init__","openfl/ui/Multitouch.hx",112,0xce42901c)
-HX_LOCAL_STACK_FRAME(_hx_pos_0f8b8e224a678ffc_141_get_supportsTouchEvents,"openfl.ui.Multitouch","get_supportsTouchEvents",0x2ba8207f,"openfl.ui.Multitouch.get_supportsTouchEvents","openfl/ui/Multitouch.hx",141,0xce42901c)
+HX_LOCAL_STACK_FRAME(_hx_pos_d04537844d94f90f_20___init__,"::openfl::ui::Multitouch_obj","__init__",0xd9e1825c,"::openfl::ui::Multitouch_obj.__init__","openfl/ui/Multitouch.hx",20,0xce42901c)
+HX_LOCAL_STACK_FRAME(_hx_pos_0f8b8e224a678ffc_49_get_supportsTouchEvents,"openfl.ui.Multitouch","get_supportsTouchEvents",0x2ba8207f,"openfl.ui.Multitouch.get_supportsTouchEvents","openfl/ui/Multitouch.hx",49,0xce42901c)
 namespace openfl{
 namespace ui{
 
@@ -34,11 +34,11 @@ bool Multitouch_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void Multitouch_obj::__init__(){
-            	HX_STACKFRAME(&_hx_pos_d04537844d94f90f_112___init__)
-HXLINE( 113)		::openfl::ui::Multitouch_obj::maxTouchPoints = 2;
-HXLINE( 114)		::openfl::ui::Multitouch_obj::supportedGestures = null();
-HXLINE( 115)		::openfl::ui::Multitouch_obj::supportsGestureEvents = false;
-HXLINE( 116)		::openfl::ui::Multitouch_obj::inputMode = 2;
+            	HX_STACKFRAME(&_hx_pos_d04537844d94f90f_20___init__)
+HXLINE(  21)		::openfl::ui::Multitouch_obj::maxTouchPoints = 2;
+HXLINE(  22)		::openfl::ui::Multitouch_obj::supportedGestures = null();
+HXLINE(  23)		::openfl::ui::Multitouch_obj::supportsGestureEvents = false;
+HXLINE(  24)		::openfl::ui::Multitouch_obj::inputMode = 2;
             	}
 
 
@@ -51,8 +51,8 @@ int Multitouch_obj::maxTouchPoints;
 bool Multitouch_obj::supportsGestureEvents;
 
 bool Multitouch_obj::get_supportsTouchEvents(){
-            	HX_STACKFRAME(&_hx_pos_0f8b8e224a678ffc_141_get_supportsTouchEvents)
-HXDLIN( 141)		return true;
+            	HX_STACKFRAME(&_hx_pos_0f8b8e224a678ffc_49_get_supportsTouchEvents)
+HXDLIN(  49)		return true;
             	}
 
 

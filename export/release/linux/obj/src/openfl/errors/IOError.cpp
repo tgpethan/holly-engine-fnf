@@ -8,16 +8,16 @@
 #include <openfl/errors/IOError.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_f56cae0bb14fb04e_22_new,"openfl.errors.IOError","new",0xdfaba8cf,"openfl.errors.IOError.new","openfl/errors/IOError.hx",22,0x640bffa1)
+HX_DEFINE_STACK_FRAME(_hx_pos_f56cae0bb14fb04e_11_new,"openfl.errors.IOError","new",0xdfaba8cf,"openfl.errors.IOError.new","openfl/errors/IOError.hx",11,0x640bffa1)
 namespace openfl{
 namespace errors{
 
 void IOError_obj::__construct(::String __o_message){
             		::String message = __o_message;
             		if (::hx::IsNull(__o_message)) message = HX_("",00,00,00,00);
-            	HX_STACKFRAME(&_hx_pos_f56cae0bb14fb04e_22_new)
-HXLINE(  23)		super::__construct(message,null());
-HXLINE(  25)		this->name = HX_("IOError",02,9a,27,78);
+            	HX_STACKFRAME(&_hx_pos_f56cae0bb14fb04e_11_new)
+HXLINE(  12)		super::__construct(message,null());
+HXLINE(  14)		this->name = HX_("IOError",02,9a,27,78);
             	}
 
 Dynamic IOError_obj::__CreateEmpty() { return new IOError_obj; }

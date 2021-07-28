@@ -5,7 +5,7 @@
 #include <lime/media/openal/_ALBuffer/ALBuffer_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_954ac8746c6b351b_10__new,"lime.media.openal._ALBuffer.ALBuffer_Impl_","_new",0x1ea1d24a,"lime.media.openal._ALBuffer.ALBuffer_Impl_._new","lime/media/openal/ALBuffer.hx",10,0xb4fc5d3e)
+HX_LOCAL_STACK_FRAME(_hx_pos_954ac8746c6b351b_9__new,"lime.media.openal._ALBuffer.ALBuffer_Impl_","_new",0x1ea1d24a,"lime.media.openal._ALBuffer.ALBuffer_Impl_._new","lime/media/openal/ALBuffer.hx",9,0xb4fc5d3e)
 namespace lime{
 namespace media{
 namespace openal{
@@ -29,9 +29,9 @@ bool ALBuffer_Impl__obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::Dynamic ALBuffer_Impl__obj::_new( ::Dynamic handle){
-            	HX_STACKFRAME(&_hx_pos_954ac8746c6b351b_10__new)
-HXDLIN(  10)		 ::Dynamic this1 = handle;
-HXDLIN(  10)		return this1;
+            	HX_STACKFRAME(&_hx_pos_954ac8746c6b351b_9__new)
+HXDLIN(   9)		 ::Dynamic this1 = handle;
+HXDLIN(   9)		return this1;
             	}
 
 

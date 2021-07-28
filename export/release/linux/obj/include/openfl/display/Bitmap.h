@@ -11,8 +11,13 @@
 #endif
 HX_DECLARE_CLASS2(openfl,display,Bitmap)
 HX_DECLARE_CLASS2(openfl,display,BitmapData)
+HX_DECLARE_CLASS2(openfl,display,CairoRenderer)
+HX_DECLARE_CLASS2(openfl,display,CanvasRenderer)
+HX_DECLARE_CLASS2(openfl,display,DOMRenderer)
 HX_DECLARE_CLASS2(openfl,display,DisplayObject)
+HX_DECLARE_CLASS2(openfl,display,DisplayObjectRenderer)
 HX_DECLARE_CLASS2(openfl,display,IBitmapDrawable)
+HX_DECLARE_CLASS2(openfl,display,OpenGLRenderer)
 HX_DECLARE_CLASS2(openfl,events,EventDispatcher)
 HX_DECLARE_CLASS2(openfl,events,IEventDispatcher)
 HX_DECLARE_CLASS2(openfl,geom,Matrix)
@@ -65,6 +70,24 @@ class HXCPP_CLASS_ATTRIBUTES Bitmap_obj : public  ::openfl::display::DisplayObje
 		bool _hx___hitTest(Float x,Float y,bool shapeFlag,::Array< ::Dynamic> stack,bool interactiveOnly, ::openfl::display::DisplayObject hitObject);
 
 		bool _hx___hitTestMask(Float x,Float y);
+
+		void _hx___renderCairo( ::openfl::display::CairoRenderer renderer);
+
+		void _hx___renderCairoMask( ::openfl::display::CairoRenderer renderer);
+
+		void _hx___renderCanvas( ::openfl::display::CanvasRenderer renderer);
+
+		void _hx___renderCanvasMask( ::openfl::display::CanvasRenderer renderer);
+
+		void _hx___renderDOM( ::openfl::display::DOMRenderer renderer);
+
+		void _hx___renderDOMClear( ::openfl::display::DOMRenderer renderer);
+
+		void _hx___renderGL( ::openfl::display::OpenGLRenderer renderer);
+
+		void _hx___renderGLMask( ::openfl::display::OpenGLRenderer renderer);
+
+		bool _hx___updateCacheBitmap( ::openfl::display::DisplayObjectRenderer renderer,bool force);
 
 		 ::openfl::display::BitmapData get_bitmapData();
 		::Dynamic get_bitmapData_dyn();

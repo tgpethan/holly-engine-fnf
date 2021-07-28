@@ -18,46 +18,46 @@
 #include <lime/math/Rectangle.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_0f70c5927802d56d_1672_new,"lime._internal.graphics._ImageDataUtil.ImageDataView","new",0x36089ace,"lime._internal.graphics._ImageDataUtil.ImageDataView.new","lime/_internal/graphics/ImageDataUtil.hx",1672,0x59dddace)
-HX_LOCAL_STACK_FRAME(_hx_pos_0f70c5927802d56d_1696_clip,"lime._internal.graphics._ImageDataUtil.ImageDataView","clip",0x0a3ec4a2,"lime._internal.graphics._ImageDataUtil.ImageDataView.clip","lime/_internal/graphics/ImageDataUtil.hx",1696,0x59dddace)
-HX_LOCAL_STACK_FRAME(_hx_pos_0f70c5927802d56d_1706_hasRow,"lime._internal.graphics._ImageDataUtil.ImageDataView","hasRow",0xdbd8dd32,"lime._internal.graphics._ImageDataUtil.ImageDataView.hasRow","lime/_internal/graphics/ImageDataUtil.hx",1706,0x59dddace)
-HX_LOCAL_STACK_FRAME(_hx_pos_0f70c5927802d56d_1710_offset,"lime._internal.graphics._ImageDataUtil.ImageDataView","offset",0x80da85e5,"lime._internal.graphics._ImageDataUtil.ImageDataView.offset","lime/_internal/graphics/ImageDataUtil.hx",1710,0x59dddace)
-HX_LOCAL_STACK_FRAME(_hx_pos_0f70c5927802d56d_1738_row,"lime._internal.graphics._ImageDataUtil.ImageDataView","row",0x360bac88,"lime._internal.graphics._ImageDataUtil.ImageDataView.row","lime/_internal/graphics/ImageDataUtil.hx",1738,0x59dddace)
-HX_LOCAL_STACK_FRAME(_hx_pos_0f70c5927802d56d_1742___update,"lime._internal.graphics._ImageDataUtil.ImageDataView","__update",0xdf2597fb,"lime._internal.graphics._ImageDataUtil.ImageDataView.__update","lime/_internal/graphics/ImageDataUtil.hx",1742,0x59dddace)
+HX_DEFINE_STACK_FRAME(_hx_pos_0f70c5927802d56d_1666_new,"lime._internal.graphics._ImageDataUtil.ImageDataView","new",0x36089ace,"lime._internal.graphics._ImageDataUtil.ImageDataView.new","lime/_internal/graphics/ImageDataUtil.hx",1666,0x59dddace)
+HX_LOCAL_STACK_FRAME(_hx_pos_0f70c5927802d56d_1690_clip,"lime._internal.graphics._ImageDataUtil.ImageDataView","clip",0x0a3ec4a2,"lime._internal.graphics._ImageDataUtil.ImageDataView.clip","lime/_internal/graphics/ImageDataUtil.hx",1690,0x59dddace)
+HX_LOCAL_STACK_FRAME(_hx_pos_0f70c5927802d56d_1700_hasRow,"lime._internal.graphics._ImageDataUtil.ImageDataView","hasRow",0xdbd8dd32,"lime._internal.graphics._ImageDataUtil.ImageDataView.hasRow","lime/_internal/graphics/ImageDataUtil.hx",1700,0x59dddace)
+HX_LOCAL_STACK_FRAME(_hx_pos_0f70c5927802d56d_1704_offset,"lime._internal.graphics._ImageDataUtil.ImageDataView","offset",0x80da85e5,"lime._internal.graphics._ImageDataUtil.ImageDataView.offset","lime/_internal/graphics/ImageDataUtil.hx",1704,0x59dddace)
+HX_LOCAL_STACK_FRAME(_hx_pos_0f70c5927802d56d_1732_row,"lime._internal.graphics._ImageDataUtil.ImageDataView","row",0x360bac88,"lime._internal.graphics._ImageDataUtil.ImageDataView.row","lime/_internal/graphics/ImageDataUtil.hx",1732,0x59dddace)
+HX_LOCAL_STACK_FRAME(_hx_pos_0f70c5927802d56d_1736___update,"lime._internal.graphics._ImageDataUtil.ImageDataView","__update",0xdf2597fb,"lime._internal.graphics._ImageDataUtil.ImageDataView.__update","lime/_internal/graphics/ImageDataUtil.hx",1736,0x59dddace)
 namespace lime{
 namespace _internal{
 namespace graphics{
 namespace _ImageDataUtil{
 
 void ImageDataView_obj::__construct( ::lime::graphics::Image image, ::lime::math::Rectangle rect){
-            	HX_STACKFRAME(&_hx_pos_0f70c5927802d56d_1672_new)
-HXLINE(1673)		this->image = image;
-HXLINE(1675)		if (::hx::IsNull( rect )) {
-HXLINE(1677)			this->rect = image->get_rect();
+            	HX_STACKFRAME(&_hx_pos_0f70c5927802d56d_1666_new)
+HXLINE(1667)		this->image = image;
+HXLINE(1669)		if (::hx::IsNull( rect )) {
+HXLINE(1671)			this->rect = image->get_rect();
             		}
             		else {
-HXLINE(1681)			if ((rect->x < 0)) {
-HXLINE(1681)				rect->x = ( (Float)(0) );
+HXLINE(1675)			if ((rect->x < 0)) {
+HXLINE(1675)				rect->x = ( (Float)(0) );
             			}
-HXLINE(1682)			if ((rect->y < 0)) {
-HXLINE(1682)				rect->y = ( (Float)(0) );
+HXLINE(1676)			if ((rect->y < 0)) {
+HXLINE(1676)				rect->y = ( (Float)(0) );
             			}
-HXLINE(1683)			if (((rect->x + rect->width) > image->width)) {
-HXLINE(1683)				rect->width = (( (Float)(image->width) ) - rect->x);
+HXLINE(1677)			if (((rect->x + rect->width) > image->width)) {
+HXLINE(1677)				rect->width = (( (Float)(image->width) ) - rect->x);
             			}
-HXLINE(1684)			if (((rect->y + rect->height) > image->height)) {
-HXLINE(1684)				rect->height = (( (Float)(image->height) ) - rect->y);
+HXLINE(1678)			if (((rect->y + rect->height) > image->height)) {
+HXLINE(1678)				rect->height = (( (Float)(image->height) ) - rect->y);
             			}
-HXLINE(1685)			if ((rect->width < 0)) {
-HXLINE(1685)				rect->width = ( (Float)(0) );
+HXLINE(1679)			if ((rect->width < 0)) {
+HXLINE(1679)				rect->width = ( (Float)(0) );
             			}
-HXLINE(1686)			if ((rect->height < 0)) {
-HXLINE(1686)				rect->height = ( (Float)(0) );
+HXLINE(1680)			if ((rect->height < 0)) {
+HXLINE(1680)				rect->height = ( (Float)(0) );
             			}
-HXLINE(1687)			this->rect = rect;
+HXLINE(1681)			this->rect = rect;
             		}
-HXLINE(1690)		this->stride = image->buffer->get_stride();
-HXLINE(1692)		this->_hx___update();
+HXLINE(1684)		this->stride = image->buffer->get_stride();
+HXLINE(1686)		this->_hx___update();
             	}
 
 Dynamic ImageDataView_obj::__CreateEmpty() { return new ImageDataView_obj; }
@@ -76,81 +76,81 @@ bool ImageDataView_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void ImageDataView_obj::clip(int x,int y,int width,int height){
-            	HX_GC_STACKFRAME(&_hx_pos_0f70c5927802d56d_1696_clip)
-HXLINE(1697)		if (::hx::IsNull( this->tempRect )) {
-HXLINE(1697)			this->tempRect =  ::lime::math::Rectangle_obj::__alloc( HX_CTX ,null(),null(),null(),null());
+            	HX_GC_STACKFRAME(&_hx_pos_0f70c5927802d56d_1690_clip)
+HXLINE(1691)		if (::hx::IsNull( this->tempRect )) {
+HXLINE(1691)			this->tempRect =  ::lime::math::Rectangle_obj::__alloc( HX_CTX ,null(),null(),null(),null());
             		}
-HXLINE(1698)		this->tempRect->setTo(( (Float)(x) ),( (Float)(y) ),( (Float)(width) ),( (Float)(height) ));
-HXLINE(1700)		this->rect->intersection(this->tempRect,this->rect);
-HXLINE(1701)		this->_hx___update();
+HXLINE(1692)		this->tempRect->setTo(( (Float)(x) ),( (Float)(y) ),( (Float)(width) ),( (Float)(height) ));
+HXLINE(1694)		this->rect->intersection(this->tempRect,this->rect);
+HXLINE(1695)		this->_hx___update();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC4(ImageDataView_obj,clip,(void))
 
 bool ImageDataView_obj::hasRow(int y){
-            	HX_STACKFRAME(&_hx_pos_0f70c5927802d56d_1706_hasRow)
-HXDLIN(1706)		if ((y >= 0)) {
-HXDLIN(1706)			return (y < this->height);
+            	HX_STACKFRAME(&_hx_pos_0f70c5927802d56d_1700_hasRow)
+HXDLIN(1700)		if ((y >= 0)) {
+HXDLIN(1700)			return (y < this->height);
             		}
             		else {
-HXDLIN(1706)			return false;
+HXDLIN(1700)			return false;
             		}
-HXDLIN(1706)		return false;
+HXDLIN(1700)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(ImageDataView_obj,hasRow,return )
 
 void ImageDataView_obj::offset(int x,int y){
-            	HX_STACKFRAME(&_hx_pos_0f70c5927802d56d_1710_offset)
-HXLINE(1711)		if ((x < 0)) {
-HXLINE(1713)			 ::lime::math::Rectangle _hx_tmp = this->rect;
-HXDLIN(1713)			_hx_tmp->x = (_hx_tmp->x + x);
-HXLINE(1714)			if ((this->rect->x < 0)) {
-HXLINE(1714)				this->rect->x = ( (Float)(0) );
+            	HX_STACKFRAME(&_hx_pos_0f70c5927802d56d_1704_offset)
+HXLINE(1705)		if ((x < 0)) {
+HXLINE(1707)			 ::lime::math::Rectangle _hx_tmp = this->rect;
+HXDLIN(1707)			_hx_tmp->x = (_hx_tmp->x + x);
+HXLINE(1708)			if ((this->rect->x < 0)) {
+HXLINE(1708)				this->rect->x = ( (Float)(0) );
             			}
             		}
             		else {
+HXLINE(1712)			 ::lime::math::Rectangle _hx_tmp = this->rect;
+HXDLIN(1712)			_hx_tmp->x = (_hx_tmp->x + x);
+HXLINE(1713)			 ::lime::math::Rectangle _hx_tmp1 = this->rect;
+HXDLIN(1713)			_hx_tmp1->width = (_hx_tmp1->width - ( (Float)(x) ));
+            		}
+HXLINE(1716)		if ((y < 0)) {
 HXLINE(1718)			 ::lime::math::Rectangle _hx_tmp = this->rect;
-HXDLIN(1718)			_hx_tmp->x = (_hx_tmp->x + x);
-HXLINE(1719)			 ::lime::math::Rectangle _hx_tmp1 = this->rect;
-HXDLIN(1719)			_hx_tmp1->width = (_hx_tmp1->width - ( (Float)(x) ));
-            		}
-HXLINE(1722)		if ((y < 0)) {
-HXLINE(1724)			 ::lime::math::Rectangle _hx_tmp = this->rect;
-HXDLIN(1724)			_hx_tmp->y = (_hx_tmp->y + y);
-HXLINE(1725)			if ((this->rect->y < 0)) {
-HXLINE(1725)				this->rect->y = ( (Float)(0) );
+HXDLIN(1718)			_hx_tmp->y = (_hx_tmp->y + y);
+HXLINE(1719)			if ((this->rect->y < 0)) {
+HXLINE(1719)				this->rect->y = ( (Float)(0) );
             			}
             		}
             		else {
-HXLINE(1729)			 ::lime::math::Rectangle _hx_tmp = this->rect;
-HXDLIN(1729)			_hx_tmp->y = (_hx_tmp->y + y);
-HXLINE(1730)			 ::lime::math::Rectangle _hx_tmp1 = this->rect;
-HXDLIN(1730)			_hx_tmp1->height = (_hx_tmp1->height - ( (Float)(y) ));
+HXLINE(1723)			 ::lime::math::Rectangle _hx_tmp = this->rect;
+HXDLIN(1723)			_hx_tmp->y = (_hx_tmp->y + y);
+HXLINE(1724)			 ::lime::math::Rectangle _hx_tmp1 = this->rect;
+HXDLIN(1724)			_hx_tmp1->height = (_hx_tmp1->height - ( (Float)(y) ));
             		}
-HXLINE(1733)		this->_hx___update();
+HXLINE(1727)		this->_hx___update();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(ImageDataView_obj,offset,(void))
 
 int ImageDataView_obj::row(int y){
-            	HX_STACKFRAME(&_hx_pos_0f70c5927802d56d_1738_row)
-HXDLIN(1738)		return (this->byteOffset + (this->stride * y));
+            	HX_STACKFRAME(&_hx_pos_0f70c5927802d56d_1732_row)
+HXDLIN(1732)		return (this->byteOffset + (this->stride * y));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(ImageDataView_obj,row,return )
 
 void ImageDataView_obj::_hx___update(){
-            	HX_STACKFRAME(&_hx_pos_0f70c5927802d56d_1742___update)
-HXLINE(1743)		this->x = ::Math_obj::ceil(this->rect->x);
-HXLINE(1744)		this->y = ::Math_obj::ceil(this->rect->y);
-HXLINE(1745)		this->width = ::Math_obj::floor(this->rect->width);
-HXLINE(1746)		this->height = ::Math_obj::floor(this->rect->height);
-HXLINE(1747)		this->byteOffset = ((this->stride * (this->y + this->image->offsetY)) + ((this->x + this->image->offsetX) * 4));
+            	HX_STACKFRAME(&_hx_pos_0f70c5927802d56d_1736___update)
+HXLINE(1737)		this->x = ::Math_obj::ceil(this->rect->x);
+HXLINE(1738)		this->y = ::Math_obj::ceil(this->rect->y);
+HXLINE(1739)		this->width = ::Math_obj::floor(this->rect->width);
+HXLINE(1740)		this->height = ::Math_obj::floor(this->rect->height);
+HXLINE(1741)		this->byteOffset = ((this->stride * (this->y + this->image->offsetY)) + ((this->x + this->image->offsetX) * 4));
             	}
 
 

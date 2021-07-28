@@ -5,14 +5,14 @@
 #include <openfl/display/_LineScaleMode/LineScaleMode_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_ea842eab153a573b_49_fromInt,"openfl.display._LineScaleMode.LineScaleMode_Impl_","fromInt",0x4a6a68e6,"openfl.display._LineScaleMode.LineScaleMode_Impl_.fromInt","openfl/display/LineScaleMode.hx",49,0x274c8551)
-HX_LOCAL_STACK_FRAME(_hx_pos_ea842eab153a573b_54_fromString,"openfl.display._LineScaleMode.LineScaleMode_Impl_","fromString",0x5d04613a,"openfl.display._LineScaleMode.LineScaleMode_Impl_.fromString","openfl/display/LineScaleMode.hx",54,0x274c8551)
-HX_LOCAL_STACK_FRAME(_hx_pos_ea842eab153a573b_66_toInt,"openfl.display._LineScaleMode.LineScaleMode_Impl_","toInt",0x2c0c4735,"openfl.display._LineScaleMode.LineScaleMode_Impl_.toInt","openfl/display/LineScaleMode.hx",66,0x274c8551)
-HX_LOCAL_STACK_FRAME(_hx_pos_ea842eab153a573b_71_toString,"openfl.display._LineScaleMode.LineScaleMode_Impl_","toString",0x67991e4b,"openfl.display._LineScaleMode.LineScaleMode_Impl_.toString","openfl/display/LineScaleMode.hx",71,0x274c8551)
-HX_LOCAL_STACK_FRAME(_hx_pos_ea842eab153a573b_21_boot,"openfl.display._LineScaleMode.LineScaleMode_Impl_","boot",0xe0c8d651,"openfl.display._LineScaleMode.LineScaleMode_Impl_.boot","openfl/display/LineScaleMode.hx",21,0x274c8551)
-HX_LOCAL_STACK_FRAME(_hx_pos_ea842eab153a573b_27_boot,"openfl.display._LineScaleMode.LineScaleMode_Impl_","boot",0xe0c8d651,"openfl.display._LineScaleMode.LineScaleMode_Impl_.boot","openfl/display/LineScaleMode.hx",27,0x274c8551)
-HX_LOCAL_STACK_FRAME(_hx_pos_ea842eab153a573b_34_boot,"openfl.display._LineScaleMode.LineScaleMode_Impl_","boot",0xe0c8d651,"openfl.display._LineScaleMode.LineScaleMode_Impl_.boot","openfl/display/LineScaleMode.hx",34,0x274c8551)
-HX_LOCAL_STACK_FRAME(_hx_pos_ea842eab153a573b_45_boot,"openfl.display._LineScaleMode.LineScaleMode_Impl_","boot",0xe0c8d651,"openfl.display._LineScaleMode.LineScaleMode_Impl_.boot","openfl/display/LineScaleMode.hx",45,0x274c8551)
+HX_LOCAL_STACK_FRAME(_hx_pos_ea842eab153a573b_14_fromInt,"openfl.display._LineScaleMode.LineScaleMode_Impl_","fromInt",0x4a6a68e6,"openfl.display._LineScaleMode.LineScaleMode_Impl_.fromInt","openfl/display/LineScaleMode.hx",14,0x274c8551)
+HX_LOCAL_STACK_FRAME(_hx_pos_ea842eab153a573b_19_fromString,"openfl.display._LineScaleMode.LineScaleMode_Impl_","fromString",0x5d04613a,"openfl.display._LineScaleMode.LineScaleMode_Impl_.fromString","openfl/display/LineScaleMode.hx",19,0x274c8551)
+HX_LOCAL_STACK_FRAME(_hx_pos_ea842eab153a573b_31_toInt,"openfl.display._LineScaleMode.LineScaleMode_Impl_","toInt",0x2c0c4735,"openfl.display._LineScaleMode.LineScaleMode_Impl_.toInt","openfl/display/LineScaleMode.hx",31,0x274c8551)
+HX_LOCAL_STACK_FRAME(_hx_pos_ea842eab153a573b_36_toString,"openfl.display._LineScaleMode.LineScaleMode_Impl_","toString",0x67991e4b,"openfl.display._LineScaleMode.LineScaleMode_Impl_.toString","openfl/display/LineScaleMode.hx",36,0x274c8551)
+HX_LOCAL_STACK_FRAME(_hx_pos_ea842eab153a573b_7_boot,"openfl.display._LineScaleMode.LineScaleMode_Impl_","boot",0xe0c8d651,"openfl.display._LineScaleMode.LineScaleMode_Impl_.boot","openfl/display/LineScaleMode.hx",7,0x274c8551)
+HX_LOCAL_STACK_FRAME(_hx_pos_ea842eab153a573b_8_boot,"openfl.display._LineScaleMode.LineScaleMode_Impl_","boot",0xe0c8d651,"openfl.display._LineScaleMode.LineScaleMode_Impl_.boot","openfl/display/LineScaleMode.hx",8,0x274c8551)
+HX_LOCAL_STACK_FRAME(_hx_pos_ea842eab153a573b_9_boot,"openfl.display._LineScaleMode.LineScaleMode_Impl_","boot",0xe0c8d651,"openfl.display._LineScaleMode.LineScaleMode_Impl_.boot","openfl/display/LineScaleMode.hx",9,0x274c8551)
+HX_LOCAL_STACK_FRAME(_hx_pos_ea842eab153a573b_10_boot,"openfl.display._LineScaleMode.LineScaleMode_Impl_","boot",0xe0c8d651,"openfl.display._LineScaleMode.LineScaleMode_Impl_.boot","openfl/display/LineScaleMode.hx",10,0x274c8551)
 namespace openfl{
 namespace display{
 namespace _LineScaleMode{
@@ -43,74 +43,74 @@ bool LineScaleMode_Impl__obj::_hx_isInstanceOf(int inClassId) {
  ::Dynamic LineScaleMode_Impl__obj::VERTICAL;
 
  ::Dynamic LineScaleMode_Impl__obj::fromInt( ::Dynamic value){
-            	HX_STACKFRAME(&_hx_pos_ea842eab153a573b_49_fromInt)
-HXDLIN(  49)		return value;
+            	HX_STACKFRAME(&_hx_pos_ea842eab153a573b_14_fromInt)
+HXDLIN(  14)		return value;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(LineScaleMode_Impl__obj,fromInt,return )
 
  ::Dynamic LineScaleMode_Impl__obj::fromString(::String value){
-            	HX_STACKFRAME(&_hx_pos_ea842eab153a573b_54_fromString)
-HXDLIN(  54)		::String _hx_switch_0 = value;
+            	HX_STACKFRAME(&_hx_pos_ea842eab153a573b_19_fromString)
+HXDLIN(  19)		::String _hx_switch_0 = value;
             		if (  (_hx_switch_0==HX_("horizontal",e4,fc,c3,15)) ){
-HXLINE(  56)			return 0;
-HXDLIN(  56)			goto _hx_goto_1;
+HXLINE(  21)			return 0;
+HXDLIN(  21)			goto _hx_goto_1;
             		}
             		if (  (_hx_switch_0==HX_("none",b8,12,0a,49)) ){
-HXLINE(  57)			return 1;
-HXDLIN(  57)			goto _hx_goto_1;
+HXLINE(  22)			return 1;
+HXDLIN(  22)			goto _hx_goto_1;
             		}
             		if (  (_hx_switch_0==HX_("normal",27,72,69,30)) ){
-HXLINE(  58)			return 2;
-HXDLIN(  58)			goto _hx_goto_1;
+HXLINE(  23)			return 2;
+HXDLIN(  23)			goto _hx_goto_1;
             		}
             		if (  (_hx_switch_0==HX_("vertical",76,bc,15,6a)) ){
-HXLINE(  59)			return 3;
-HXDLIN(  59)			goto _hx_goto_1;
+HXLINE(  24)			return 3;
+HXDLIN(  24)			goto _hx_goto_1;
             		}
             		/* default */{
-HXLINE(  60)			return null();
+HXLINE(  25)			return null();
             		}
             		_hx_goto_1:;
-HXLINE(  54)		return null();
+HXLINE(  19)		return null();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(LineScaleMode_Impl__obj,fromString,return )
 
  ::Dynamic LineScaleMode_Impl__obj::toInt( ::Dynamic this1){
-            	HX_STACKFRAME(&_hx_pos_ea842eab153a573b_66_toInt)
-HXDLIN(  66)		return this1;
+            	HX_STACKFRAME(&_hx_pos_ea842eab153a573b_31_toInt)
+HXDLIN(  31)		return this1;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(LineScaleMode_Impl__obj,toInt,return )
 
 ::String LineScaleMode_Impl__obj::toString( ::Dynamic this1){
-            	HX_STACKFRAME(&_hx_pos_ea842eab153a573b_71_toString)
-HXDLIN(  71)		 ::Dynamic _hx_switch_0 = this1;
+            	HX_STACKFRAME(&_hx_pos_ea842eab153a573b_36_toString)
+HXDLIN(  36)		 ::Dynamic _hx_switch_0 = this1;
             		if (  (_hx_switch_0==0) ){
-HXLINE(  73)			return HX_("horizontal",e4,fc,c3,15);
-HXDLIN(  73)			goto _hx_goto_4;
+HXLINE(  38)			return HX_("horizontal",e4,fc,c3,15);
+HXDLIN(  38)			goto _hx_goto_4;
             		}
             		if (  (_hx_switch_0==1) ){
-HXLINE(  74)			return HX_("none",b8,12,0a,49);
-HXDLIN(  74)			goto _hx_goto_4;
+HXLINE(  39)			return HX_("none",b8,12,0a,49);
+HXDLIN(  39)			goto _hx_goto_4;
             		}
             		if (  (_hx_switch_0==2) ){
-HXLINE(  75)			return HX_("normal",27,72,69,30);
-HXDLIN(  75)			goto _hx_goto_4;
+HXLINE(  40)			return HX_("normal",27,72,69,30);
+HXDLIN(  40)			goto _hx_goto_4;
             		}
             		if (  (_hx_switch_0==3) ){
-HXLINE(  76)			return HX_("vertical",76,bc,15,6a);
-HXDLIN(  76)			goto _hx_goto_4;
+HXLINE(  41)			return HX_("vertical",76,bc,15,6a);
+HXDLIN(  41)			goto _hx_goto_4;
             		}
             		/* default */{
-HXLINE(  77)			return null();
+HXLINE(  42)			return null();
             		}
             		_hx_goto_4:;
-HXLINE(  71)		return null();
+HXLINE(  36)		return null();
             	}
 
 
@@ -211,20 +211,20 @@ void LineScaleMode_Impl__obj::__register()
 void LineScaleMode_Impl__obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_ea842eab153a573b_21_boot)
-HXDLIN(  21)		HORIZONTAL = 0;
+            	HX_STACKFRAME(&_hx_pos_ea842eab153a573b_7_boot)
+HXDLIN(   7)		HORIZONTAL = 0;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_ea842eab153a573b_27_boot)
-HXDLIN(  27)		NONE = 1;
+            	HX_STACKFRAME(&_hx_pos_ea842eab153a573b_8_boot)
+HXDLIN(   8)		NONE = 1;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_ea842eab153a573b_34_boot)
-HXDLIN(  34)		NORMAL = 2;
+            	HX_STACKFRAME(&_hx_pos_ea842eab153a573b_9_boot)
+HXDLIN(   9)		NORMAL = 2;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_ea842eab153a573b_45_boot)
-HXDLIN(  45)		VERTICAL = 3;
+            	HX_STACKFRAME(&_hx_pos_ea842eab153a573b_10_boot)
+HXDLIN(  10)		VERTICAL = 3;
             	}
 }
 

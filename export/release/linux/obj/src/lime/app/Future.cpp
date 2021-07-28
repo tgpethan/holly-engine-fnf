@@ -29,39 +29,39 @@
 #include <lime/system/System.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_b16b96f10668b207_75_new,"lime.app.Future","new",0xc0e3b2bb,"lime.app.Future.new","lime/app/Future.hx",75,0x058e0853)
-HX_LOCAL_STACK_FRAME(_hx_pos_b16b96f10668b207_122_onComplete,"lime.app.Future","onComplete",0x3a7dc3fd,"lime.app.Future.onComplete","lime/app/Future.hx",122,0x058e0853)
-HX_LOCAL_STACK_FRAME(_hx_pos_b16b96f10668b207_151_onError,"lime.app.Future","onError",0xb2071604,"lime.app.Future.onError","lime/app/Future.hx",151,0x058e0853)
-HX_LOCAL_STACK_FRAME(_hx_pos_b16b96f10668b207_180_onProgress,"lime.app.Future","onProgress",0x40e0baf1,"lime.app.Future.onProgress","lime/app/Future.hx",180,0x058e0853)
-HX_LOCAL_STACK_FRAME(_hx_pos_b16b96f10668b207_212_ready,"lime.app.Future","ready",0xd4cc0f7e,"lime.app.Future.ready","lime/app/Future.hx",212,0x058e0853)
-HX_LOCAL_STACK_FRAME(_hx_pos_b16b96f10668b207_241_result,"lime.app.Future","result",0x69b43162,"lime.app.Future.result","lime/app/Future.hx",241,0x058e0853)
-HX_LOCAL_STACK_FRAME(_hx_pos_b16b96f10668b207_260_then,"lime.app.Future","then",0x0a523022,"lime.app.Future.then","lime/app/Future.hx",260,0x058e0853)
-HX_LOCAL_STACK_FRAME(_hx_pos_b16b96f10668b207_279_then,"lime.app.Future","then",0x0a523022,"lime.app.Future.then","lime/app/Future.hx",279,0x058e0853)
-HX_LOCAL_STACK_FRAME(_hx_pos_b16b96f10668b207_107_ofEvents,"lime.app.Future","ofEvents",0x0c824355,"lime.app.Future.ofEvents","lime/app/Future.hx",107,0x058e0853)
-HX_LOCAL_STACK_FRAME(_hx_pos_b16b96f10668b207_104_ofEvents,"lime.app.Future","ofEvents",0x0c824355,"lime.app.Future.ofEvents","lime/app/Future.hx",104,0x058e0853)
+HX_DEFINE_STACK_FRAME(_hx_pos_b16b96f10668b207_76_new,"lime.app.Future","new",0xc0e3b2bb,"lime.app.Future.new","lime/app/Future.hx",76,0x058e0853)
+HX_LOCAL_STACK_FRAME(_hx_pos_b16b96f10668b207_123_onComplete,"lime.app.Future","onComplete",0x3a7dc3fd,"lime.app.Future.onComplete","lime/app/Future.hx",123,0x058e0853)
+HX_LOCAL_STACK_FRAME(_hx_pos_b16b96f10668b207_152_onError,"lime.app.Future","onError",0xb2071604,"lime.app.Future.onError","lime/app/Future.hx",152,0x058e0853)
+HX_LOCAL_STACK_FRAME(_hx_pos_b16b96f10668b207_181_onProgress,"lime.app.Future","onProgress",0x40e0baf1,"lime.app.Future.onProgress","lime/app/Future.hx",181,0x058e0853)
+HX_LOCAL_STACK_FRAME(_hx_pos_b16b96f10668b207_213_ready,"lime.app.Future","ready",0xd4cc0f7e,"lime.app.Future.ready","lime/app/Future.hx",213,0x058e0853)
+HX_LOCAL_STACK_FRAME(_hx_pos_b16b96f10668b207_242_result,"lime.app.Future","result",0x69b43162,"lime.app.Future.result","lime/app/Future.hx",242,0x058e0853)
+HX_LOCAL_STACK_FRAME(_hx_pos_b16b96f10668b207_261_then,"lime.app.Future","then",0x0a523022,"lime.app.Future.then","lime/app/Future.hx",261,0x058e0853)
+HX_LOCAL_STACK_FRAME(_hx_pos_b16b96f10668b207_280_then,"lime.app.Future","then",0x0a523022,"lime.app.Future.then","lime/app/Future.hx",280,0x058e0853)
 HX_LOCAL_STACK_FRAME(_hx_pos_b16b96f10668b207_108_ofEvents,"lime.app.Future","ofEvents",0x0c824355,"lime.app.Future.ofEvents","lime/app/Future.hx",108,0x058e0853)
+HX_LOCAL_STACK_FRAME(_hx_pos_b16b96f10668b207_105_ofEvents,"lime.app.Future","ofEvents",0x0c824355,"lime.app.Future.ofEvents","lime/app/Future.hx",105,0x058e0853)
 HX_LOCAL_STACK_FRAME(_hx_pos_b16b96f10668b207_109_ofEvents,"lime.app.Future","ofEvents",0x0c824355,"lime.app.Future.ofEvents","lime/app/Future.hx",109,0x058e0853)
-HX_LOCAL_STACK_FRAME(_hx_pos_b16b96f10668b207_295_withError,"lime.app.Future","withError",0xc7ddc87d,"lime.app.Future.withError","lime/app/Future.hx",295,0x058e0853)
-HX_LOCAL_STACK_FRAME(_hx_pos_b16b96f10668b207_308_withValue,"lime.app.Future","withValue",0x866c7c26,"lime.app.Future.withValue","lime/app/Future.hx",308,0x058e0853)
+HX_LOCAL_STACK_FRAME(_hx_pos_b16b96f10668b207_110_ofEvents,"lime.app.Future","ofEvents",0x0c824355,"lime.app.Future.ofEvents","lime/app/Future.hx",110,0x058e0853)
+HX_LOCAL_STACK_FRAME(_hx_pos_b16b96f10668b207_296_withError,"lime.app.Future","withError",0xc7ddc87d,"lime.app.Future.withError","lime/app/Future.hx",296,0x058e0853)
+HX_LOCAL_STACK_FRAME(_hx_pos_b16b96f10668b207_309_withValue,"lime.app.Future","withValue",0x866c7c26,"lime.app.Future.withValue","lime/app/Future.hx",309,0x058e0853)
 namespace lime{
 namespace app{
 
 void Future_obj::__construct( ::Dynamic work,::hx::Null< bool >  __o_async){
             		bool async = __o_async.Default(false);
-            	HX_GC_STACKFRAME(&_hx_pos_b16b96f10668b207_75_new)
-HXDLIN(  75)		if (::hx::IsNotNull( work )) {
-HXLINE(  77)			if (async) {
-HXLINE(  79)				 ::lime::app::Promise promise =  ::lime::app::Promise_obj::__alloc( HX_CTX );
-HXLINE(  80)				promise->future = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE(  82)				::lime::app::_Future::FutureWork_obj::queue( ::Dynamic(::hx::Anon_obj::Create(2)
+            	HX_GC_STACKFRAME(&_hx_pos_b16b96f10668b207_76_new)
+HXDLIN(  76)		if (::hx::IsNotNull( work )) {
+HXLINE(  78)			if (async) {
+HXLINE(  80)				 ::lime::app::Promise promise =  ::lime::app::Promise_obj::__alloc( HX_CTX );
+HXLINE(  81)				promise->future = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(  83)				::lime::app::_Future::FutureWork_obj::queue( ::Dynamic(::hx::Anon_obj::Create(2)
             					->setFixed(0,HX_("promise",9b,cd,e9,f7),promise)
             					->setFixed(1,HX_("work",d1,01,fd,4e),work)));
             			}
             			else {
-HXLINE(  86)				try {
+HXLINE(  87)				try {
             					HX_STACK_CATCHABLE( ::Dynamic, 0);
-HXLINE(  88)					this->value = work();
-HXLINE(  89)					this->isComplete = true;
+HXLINE(  89)					this->value = work();
+HXLINE(  90)					this->isComplete = true;
             				} catch( ::Dynamic _hx_e) {
             					if (_hx_e.IsClass<  ::Dynamic >() ){
             						HX_STACK_BEGIN_CATCH
@@ -70,9 +70,9 @@ HXLINE(   1)						{
 HXLINE(   1)							null();
             						}
 HXDLIN(   1)						 ::Dynamic e = ::haxe::Exception_obj::caught(_g)->unwrap();
-HXLINE(  92)						{
-HXLINE(  93)							this->error = e;
-HXLINE(  94)							this->isError = true;
+HXLINE(  93)						{
+HXLINE(  94)							this->error = e;
+HXLINE(  95)							this->isError = true;
             						}
             					}
             					else {
@@ -99,56 +99,56 @@ bool Future_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::lime::app::Future Future_obj::onComplete( ::Dynamic listener){
-            	HX_STACKFRAME(&_hx_pos_b16b96f10668b207_122_onComplete)
-HXLINE( 123)		if (::hx::IsNotNull( listener )) {
-HXLINE( 125)			if (this->isComplete) {
-HXLINE( 127)				listener(this->value);
+            	HX_STACKFRAME(&_hx_pos_b16b96f10668b207_123_onComplete)
+HXLINE( 124)		if (::hx::IsNotNull( listener )) {
+HXLINE( 126)			if (this->isComplete) {
+HXLINE( 128)				listener(this->value);
             			}
             			else {
-HXLINE( 129)				if (!(this->isError)) {
-HXLINE( 131)					if (::hx::IsNull( this->_hx___completeListeners )) {
-HXLINE( 133)						this->_hx___completeListeners = ::Array_obj< ::Dynamic>::__new();
+HXLINE( 130)				if (!(this->isError)) {
+HXLINE( 132)					if (::hx::IsNull( this->_hx___completeListeners )) {
+HXLINE( 134)						this->_hx___completeListeners = ::Array_obj< ::Dynamic>::__new();
             					}
-HXLINE( 136)					this->_hx___completeListeners->push(listener);
+HXLINE( 137)					this->_hx___completeListeners->push(listener);
             				}
             			}
             		}
-HXLINE( 140)		return ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 141)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Future_obj,onComplete,return )
 
  ::lime::app::Future Future_obj::onError( ::Dynamic listener){
-            	HX_STACKFRAME(&_hx_pos_b16b96f10668b207_151_onError)
-HXLINE( 152)		if (::hx::IsNotNull( listener )) {
-HXLINE( 154)			if (this->isError) {
-HXLINE( 156)				listener(this->error);
+            	HX_STACKFRAME(&_hx_pos_b16b96f10668b207_152_onError)
+HXLINE( 153)		if (::hx::IsNotNull( listener )) {
+HXLINE( 155)			if (this->isError) {
+HXLINE( 157)				listener(this->error);
             			}
             			else {
-HXLINE( 158)				if (!(this->isComplete)) {
-HXLINE( 160)					if (::hx::IsNull( this->_hx___errorListeners )) {
-HXLINE( 162)						this->_hx___errorListeners = ::Array_obj< ::Dynamic>::__new();
+HXLINE( 159)				if (!(this->isComplete)) {
+HXLINE( 161)					if (::hx::IsNull( this->_hx___errorListeners )) {
+HXLINE( 163)						this->_hx___errorListeners = ::Array_obj< ::Dynamic>::__new();
             					}
-HXLINE( 165)					this->_hx___errorListeners->push(listener);
+HXLINE( 166)					this->_hx___errorListeners->push(listener);
             				}
             			}
             		}
-HXLINE( 169)		return ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 170)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Future_obj,onError,return )
 
  ::lime::app::Future Future_obj::onProgress( ::Dynamic listener){
-            	HX_STACKFRAME(&_hx_pos_b16b96f10668b207_180_onProgress)
-HXLINE( 181)		if (::hx::IsNotNull( listener )) {
-HXLINE( 183)			if (::hx::IsNull( this->_hx___progressListeners )) {
-HXLINE( 185)				this->_hx___progressListeners = ::Array_obj< ::Dynamic>::__new();
+            	HX_STACKFRAME(&_hx_pos_b16b96f10668b207_181_onProgress)
+HXLINE( 182)		if (::hx::IsNotNull( listener )) {
+HXLINE( 184)			if (::hx::IsNull( this->_hx___progressListeners )) {
+HXLINE( 186)				this->_hx___progressListeners = ::Array_obj< ::Dynamic>::__new();
             			}
-HXLINE( 188)			this->_hx___progressListeners->push(listener);
+HXLINE( 189)			this->_hx___progressListeners->push(listener);
             		}
-HXLINE( 191)		return ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 192)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
@@ -156,45 +156,45 @@ HX_DEFINE_DYNAMIC_FUNC1(Future_obj,onProgress,return )
 
  ::lime::app::Future Future_obj::ready(::hx::Null< int >  __o_waitTime){
             		int waitTime = __o_waitTime.Default(-1);
-            	HX_STACKFRAME(&_hx_pos_b16b96f10668b207_212_ready)
-HXDLIN( 212)		bool _hx_tmp;
-HXDLIN( 212)		if (!(this->isComplete)) {
-HXDLIN( 212)			_hx_tmp = this->isError;
+            	HX_STACKFRAME(&_hx_pos_b16b96f10668b207_213_ready)
+HXDLIN( 213)		bool _hx_tmp;
+HXDLIN( 213)		if (!(this->isComplete)) {
+HXDLIN( 213)			_hx_tmp = this->isError;
             		}
             		else {
-HXDLIN( 212)			_hx_tmp = true;
+HXDLIN( 213)			_hx_tmp = true;
             		}
-HXDLIN( 212)		if (_hx_tmp) {
-HXLINE( 214)			return ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 213)		if (_hx_tmp) {
+HXLINE( 215)			return ::hx::ObjectPtr<OBJ_>(this);
             		}
             		else {
-HXLINE( 218)			int time = ::lime::_hx_system::System_obj::getTimer();
-HXLINE( 219)			int end = (time + waitTime);
-HXLINE( 221)			while(true){
-HXLINE( 221)				bool _hx_tmp;
-HXDLIN( 221)				bool _hx_tmp1;
-HXDLIN( 221)				if (!(this->isComplete)) {
-HXLINE( 221)					_hx_tmp1 = !(this->isError);
+HXLINE( 219)			int time = ::lime::_hx_system::System_obj::getTimer();
+HXLINE( 220)			int end = (time + waitTime);
+HXLINE( 222)			while(true){
+HXLINE( 222)				bool _hx_tmp;
+HXDLIN( 222)				bool _hx_tmp1;
+HXDLIN( 222)				if (!(this->isComplete)) {
+HXLINE( 222)					_hx_tmp1 = !(this->isError);
             				}
             				else {
-HXLINE( 221)					_hx_tmp1 = false;
+HXLINE( 222)					_hx_tmp1 = false;
             				}
-HXDLIN( 221)				if (_hx_tmp1) {
-HXLINE( 221)					_hx_tmp = (time <= end);
+HXDLIN( 222)				if (_hx_tmp1) {
+HXLINE( 222)					_hx_tmp = (time <= end);
             				}
             				else {
-HXLINE( 221)					_hx_tmp = false;
+HXLINE( 222)					_hx_tmp = false;
             				}
-HXDLIN( 221)				if (!(_hx_tmp)) {
-HXLINE( 221)					goto _hx_goto_4;
+HXDLIN( 222)				if (!(_hx_tmp)) {
+HXLINE( 222)					goto _hx_goto_4;
             				}
-HXLINE( 224)				::Sys_obj::sleep(((Float)0.01));
-HXLINE( 227)				time = ::lime::_hx_system::System_obj::getTimer();
+HXLINE( 225)				::Sys_obj::sleep(((Float)0.01));
+HXLINE( 228)				time = ::lime::_hx_system::System_obj::getTimer();
             			}
             			_hx_goto_4:;
-HXLINE( 230)			return ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 231)			return ::hx::ObjectPtr<OBJ_>(this);
             		}
-HXLINE( 212)		return null();
+HXLINE( 213)		return null();
             	}
 
 
@@ -202,50 +202,50 @@ HX_DEFINE_DYNAMIC_FUNC1(Future_obj,ready,return )
 
  ::Dynamic Future_obj::result(::hx::Null< int >  __o_waitTime){
             		int waitTime = __o_waitTime.Default(-1);
-            	HX_STACKFRAME(&_hx_pos_b16b96f10668b207_241_result)
-HXLINE( 242)		this->ready(waitTime);
-HXLINE( 244)		if (this->isComplete) {
-HXLINE( 246)			return this->value;
+            	HX_STACKFRAME(&_hx_pos_b16b96f10668b207_242_result)
+HXLINE( 243)		this->ready(waitTime);
+HXLINE( 245)		if (this->isComplete) {
+HXLINE( 247)			return this->value;
             		}
             		else {
-HXLINE( 250)			return null();
+HXLINE( 251)			return null();
             		}
-HXLINE( 244)		return null();
+HXLINE( 245)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Future_obj,result,return )
 
  ::lime::app::Future Future_obj::then( ::Dynamic next){
-            	HX_GC_STACKFRAME(&_hx_pos_b16b96f10668b207_260_then)
-HXDLIN( 260)		if (this->isComplete) {
-HXLINE( 262)			return ( ( ::lime::app::Future)(next(this->value)) );
+            	HX_GC_STACKFRAME(&_hx_pos_b16b96f10668b207_261_then)
+HXDLIN( 261)		if (this->isComplete) {
+HXLINE( 263)			return ( ( ::lime::app::Future)(next(this->value)) );
             		}
             		else {
-HXLINE( 264)			if (this->isError) {
-HXLINE( 266)				 ::lime::app::Future future =  ::lime::app::Future_obj::__alloc( HX_CTX ,null(),null());
-HXLINE( 267)				future->isError = true;
-HXLINE( 268)				future->error = this->error;
-HXLINE( 269)				return future;
+HXLINE( 265)			if (this->isError) {
+HXLINE( 267)				 ::lime::app::Future future =  ::lime::app::Future_obj::__alloc( HX_CTX ,null(),null());
+HXLINE( 268)				future->isError = true;
+HXLINE( 269)				future->error = this->error;
+HXLINE( 270)				return future;
             			}
             			else {
             				HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_0, ::Dynamic,next, ::lime::app::Promise,promise) HXARGC(1)
             				void _hx_run( ::Dynamic val){
-            					HX_GC_STACKFRAME(&_hx_pos_b16b96f10668b207_279_then)
-HXLINE( 280)					 ::lime::app::Future future = ( ( ::lime::app::Future)(next(val)) );
-HXLINE( 281)					future->onError(promise->error_dyn());
-HXLINE( 282)					future->onComplete(promise->complete_dyn());
+            					HX_GC_STACKFRAME(&_hx_pos_b16b96f10668b207_280_then)
+HXLINE( 281)					 ::lime::app::Future future = ( ( ::lime::app::Future)(next(val)) );
+HXLINE( 282)					future->onError(promise->error_dyn());
+HXLINE( 283)					future->onComplete(promise->complete_dyn());
             				}
             				HX_END_LOCAL_FUNC1((void))
 
-HXLINE( 273)				 ::lime::app::Promise promise =  ::lime::app::Promise_obj::__alloc( HX_CTX );
-HXLINE( 275)				this->onError(promise->error_dyn());
-HXLINE( 276)				this->onProgress(promise->progress_dyn());
-HXLINE( 278)				this->onComplete( ::Dynamic(new _hx_Closure_0(next,promise)));
-HXLINE( 285)				return promise->future;
+HXLINE( 274)				 ::lime::app::Promise promise =  ::lime::app::Promise_obj::__alloc( HX_CTX );
+HXLINE( 276)				this->onError(promise->error_dyn());
+HXLINE( 277)				this->onProgress(promise->progress_dyn());
+HXLINE( 279)				this->onComplete( ::Dynamic(new _hx_Closure_0(next,promise)));
+HXLINE( 286)				return promise->future;
             			}
             		}
-HXLINE( 260)		return null();
+HXLINE( 261)		return null();
             	}
 
 
@@ -254,57 +254,57 @@ HX_DEFINE_DYNAMIC_FUNC1(Future_obj,then,return )
  ::lime::app::Future Future_obj::ofEvents( ::lime::app::_Event_ofEvents_T_Void onComplete, ::lime::app::_Event_Dynamic_Void onError, ::lime::app::_Event_Int_Int_Void onProgress){
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::lime::app::Promise,promise) HXARGC(1)
             		void _hx_run( ::Dynamic data){
-            			HX_GC_STACKFRAME(&_hx_pos_b16b96f10668b207_107_ofEvents)
-HXLINE( 107)			promise->complete(data);
+            			HX_GC_STACKFRAME(&_hx_pos_b16b96f10668b207_108_ofEvents)
+HXLINE( 108)			promise->complete(data);
             		}
             		HX_END_LOCAL_FUNC1((void))
 
-            	HX_GC_STACKFRAME(&_hx_pos_b16b96f10668b207_104_ofEvents)
-HXLINE( 105)		 ::lime::app::Promise promise =  ::lime::app::Promise_obj::__alloc( HX_CTX );
-HXLINE( 107)		onComplete->add( ::Dynamic(new _hx_Closure_0(promise)),true,null());
-HXLINE( 108)		if (::hx::IsNotNull( onError )) {
+            	HX_GC_STACKFRAME(&_hx_pos_b16b96f10668b207_105_ofEvents)
+HXLINE( 106)		 ::lime::app::Promise promise =  ::lime::app::Promise_obj::__alloc( HX_CTX );
+HXLINE( 108)		onComplete->add( ::Dynamic(new _hx_Closure_0(promise)),true,null());
+HXLINE( 109)		if (::hx::IsNotNull( onError )) {
             			HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_1, ::lime::app::Promise,promise) HXARGC(1)
             			void _hx_run( ::Dynamic error){
-            				HX_GC_STACKFRAME(&_hx_pos_b16b96f10668b207_108_ofEvents)
-HXLINE( 108)				promise->error(error);
+            				HX_GC_STACKFRAME(&_hx_pos_b16b96f10668b207_109_ofEvents)
+HXLINE( 109)				promise->error(error);
             			}
             			HX_END_LOCAL_FUNC1((void))
 
-HXLINE( 108)			onError->add( ::Dynamic(new _hx_Closure_1(promise)),true,null());
+HXLINE( 109)			onError->add( ::Dynamic(new _hx_Closure_1(promise)),true,null());
             		}
-HXLINE( 109)		if (::hx::IsNotNull( onProgress )) {
+HXLINE( 110)		if (::hx::IsNotNull( onProgress )) {
             			HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_2, ::lime::app::Promise,promise) HXARGC(2)
             			void _hx_run(int progress,int total){
-            				HX_GC_STACKFRAME(&_hx_pos_b16b96f10668b207_109_ofEvents)
-HXLINE( 109)				promise->progress(progress,total);
+            				HX_GC_STACKFRAME(&_hx_pos_b16b96f10668b207_110_ofEvents)
+HXLINE( 110)				promise->progress(progress,total);
             			}
             			HX_END_LOCAL_FUNC2((void))
 
-HXLINE( 109)			onProgress->add( ::Dynamic(new _hx_Closure_2(promise)),true,null());
+HXLINE( 110)			onProgress->add( ::Dynamic(new _hx_Closure_2(promise)),true,null());
             		}
-HXLINE( 111)		return promise->future;
+HXLINE( 112)		return promise->future;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC3(Future_obj,ofEvents,return )
 
  ::lime::app::Future Future_obj::withError( ::Dynamic error){
-            	HX_GC_STACKFRAME(&_hx_pos_b16b96f10668b207_295_withError)
-HXLINE( 296)		 ::lime::app::Future future =  ::lime::app::Future_obj::__alloc( HX_CTX ,null(),null());
-HXLINE( 297)		future->isError = true;
-HXLINE( 298)		future->error = error;
-HXLINE( 299)		return future;
+            	HX_GC_STACKFRAME(&_hx_pos_b16b96f10668b207_296_withError)
+HXLINE( 297)		 ::lime::app::Future future =  ::lime::app::Future_obj::__alloc( HX_CTX ,null(),null());
+HXLINE( 298)		future->isError = true;
+HXLINE( 299)		future->error = error;
+HXLINE( 300)		return future;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Future_obj,withError,return )
 
  ::lime::app::Future Future_obj::withValue( ::Dynamic value){
-            	HX_GC_STACKFRAME(&_hx_pos_b16b96f10668b207_308_withValue)
-HXLINE( 309)		 ::lime::app::Future future =  ::lime::app::Future_obj::__alloc( HX_CTX ,null(),null());
-HXLINE( 310)		future->isComplete = true;
-HXLINE( 311)		future->value = value;
-HXLINE( 312)		return future;
+            	HX_GC_STACKFRAME(&_hx_pos_b16b96f10668b207_309_withValue)
+HXLINE( 310)		 ::lime::app::Future future =  ::lime::app::Future_obj::__alloc( HX_CTX ,null(),null());
+HXLINE( 311)		future->isComplete = true;
+HXLINE( 312)		future->value = value;
+HXLINE( 313)		return future;
             	}
 
 

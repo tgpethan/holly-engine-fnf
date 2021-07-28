@@ -184,12 +184,6 @@ class HXCPP_CLASS_ATTRIBUTES OpenGLRenderer_obj : public  ::openfl::display::Dis
 
 		void _hx___render(::Dynamic object);
 
-		void _hx___renderDrawable(::Dynamic object);
-		::Dynamic _hx___renderDrawable_dyn();
-
-		void _hx___renderDrawableMask(::Dynamic object);
-		::Dynamic _hx___renderDrawableMask_dyn();
-
 		void _hx___renderFilterPass( ::openfl::display::BitmapData source, ::openfl::display::Shader shader,bool smooth,::hx::Null< bool >  clear);
 		::Dynamic _hx___renderFilterPass_dyn();
 

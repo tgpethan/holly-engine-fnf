@@ -65,8 +65,6 @@ class HXCPP_CLASS_ATTRIBUTES ColorTween_obj : public  ::flixel::tweens::FlxTween
 
 		void update(Float elapsed);
 
-		bool isTweenOf( ::Dynamic object,::String field);
-
 };
 
 } // end namespace flixel

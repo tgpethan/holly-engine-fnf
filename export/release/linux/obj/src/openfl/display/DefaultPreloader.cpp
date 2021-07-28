@@ -65,56 +65,56 @@
 #include <openfl/events/ProgressEvent.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_a3b7e47404dab77a_117_new,"openfl.display.DefaultPreloader","new",0xd9ecb051,"openfl.display.DefaultPreloader.new","openfl/display/Preloader.hx",117,0xc399db74)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3b7e47404dab77a_163_getBackgroundColor,"openfl.display.DefaultPreloader","getBackgroundColor",0xe99da5ce,"openfl.display.DefaultPreloader.getBackgroundColor","openfl/display/Preloader.hx",163,0xc399db74)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3b7e47404dab77a_177_getHeight,"openfl.display.DefaultPreloader","getHeight",0xf2617bce,"openfl.display.DefaultPreloader.getHeight","openfl/display/Preloader.hx",177,0xc399db74)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3b7e47404dab77a_191_getWidth,"openfl.display.DefaultPreloader","getWidth",0x7b1a7bff,"openfl.display.DefaultPreloader.getWidth","openfl/display/Preloader.hx",191,0xc399db74)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3b7e47404dab77a_206_onInit,"openfl.display.DefaultPreloader","onInit",0x238e307e,"openfl.display.DefaultPreloader.onInit","openfl/display/Preloader.hx",206,0xc399db74)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3b7e47404dab77a_210_onLoaded,"openfl.display.DefaultPreloader","onLoaded",0x88fcf4f3,"openfl.display.DefaultPreloader.onLoaded","openfl/display/Preloader.hx",210,0xc399db74)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3b7e47404dab77a_217_onUpdate,"openfl.display.DefaultPreloader","onUpdate",0xb79332f7,"openfl.display.DefaultPreloader.onUpdate","openfl/display/Preloader.hx",217,0xc399db74)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3b7e47404dab77a_235_this_onAddedToStage,"openfl.display.DefaultPreloader","this_onAddedToStage",0xa7de3014,"openfl.display.DefaultPreloader.this_onAddedToStage","openfl/display/Preloader.hx",235,0xc399db74)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3b7e47404dab77a_246_this_onComplete,"openfl.display.DefaultPreloader","this_onComplete",0x228a21ea,"openfl.display.DefaultPreloader.this_onComplete","openfl/display/Preloader.hx",246,0xc399db74)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3b7e47404dab77a_256_this_onEnterFrame,"openfl.display.DefaultPreloader","this_onEnterFrame",0x72c19366,"openfl.display.DefaultPreloader.this_onEnterFrame","openfl/display/Preloader.hx",256,0xc399db74)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3b7e47404dab77a_270_this_onProgress,"openfl.display.DefaultPreloader","this_onProgress",0x28ed18de,"openfl.display.DefaultPreloader.this_onProgress","openfl/display/Preloader.hx",270,0xc399db74)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3b7e47404dab77a_109_boot,"openfl.display.DefaultPreloader","boot",0xcd469721,"openfl.display.DefaultPreloader.boot","openfl/display/Preloader.hx",109,0xc399db74)
+HX_DEFINE_STACK_FRAME(_hx_pos_a3b7e47404dab77a_113_new,"openfl.display.DefaultPreloader","new",0xd9ecb051,"openfl.display.DefaultPreloader.new","openfl/display/Preloader.hx",113,0xc399db74)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3b7e47404dab77a_159_getBackgroundColor,"openfl.display.DefaultPreloader","getBackgroundColor",0xe99da5ce,"openfl.display.DefaultPreloader.getBackgroundColor","openfl/display/Preloader.hx",159,0xc399db74)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3b7e47404dab77a_173_getHeight,"openfl.display.DefaultPreloader","getHeight",0xf2617bce,"openfl.display.DefaultPreloader.getHeight","openfl/display/Preloader.hx",173,0xc399db74)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3b7e47404dab77a_187_getWidth,"openfl.display.DefaultPreloader","getWidth",0x7b1a7bff,"openfl.display.DefaultPreloader.getWidth","openfl/display/Preloader.hx",187,0xc399db74)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3b7e47404dab77a_202_onInit,"openfl.display.DefaultPreloader","onInit",0x238e307e,"openfl.display.DefaultPreloader.onInit","openfl/display/Preloader.hx",202,0xc399db74)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3b7e47404dab77a_206_onLoaded,"openfl.display.DefaultPreloader","onLoaded",0x88fcf4f3,"openfl.display.DefaultPreloader.onLoaded","openfl/display/Preloader.hx",206,0xc399db74)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3b7e47404dab77a_213_onUpdate,"openfl.display.DefaultPreloader","onUpdate",0xb79332f7,"openfl.display.DefaultPreloader.onUpdate","openfl/display/Preloader.hx",213,0xc399db74)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3b7e47404dab77a_231_this_onAddedToStage,"openfl.display.DefaultPreloader","this_onAddedToStage",0xa7de3014,"openfl.display.DefaultPreloader.this_onAddedToStage","openfl/display/Preloader.hx",231,0xc399db74)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3b7e47404dab77a_242_this_onComplete,"openfl.display.DefaultPreloader","this_onComplete",0x228a21ea,"openfl.display.DefaultPreloader.this_onComplete","openfl/display/Preloader.hx",242,0xc399db74)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3b7e47404dab77a_252_this_onEnterFrame,"openfl.display.DefaultPreloader","this_onEnterFrame",0x72c19366,"openfl.display.DefaultPreloader.this_onEnterFrame","openfl/display/Preloader.hx",252,0xc399db74)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3b7e47404dab77a_266_this_onProgress,"openfl.display.DefaultPreloader","this_onProgress",0x28ed18de,"openfl.display.DefaultPreloader.this_onProgress","openfl/display/Preloader.hx",266,0xc399db74)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3b7e47404dab77a_105_boot,"openfl.display.DefaultPreloader","boot",0xcd469721,"openfl.display.DefaultPreloader.boot","openfl/display/Preloader.hx",105,0xc399db74)
 namespace openfl{
 namespace display{
 
 void DefaultPreloader_obj::__construct(){
-            	HX_GC_STACKFRAME(&_hx_pos_a3b7e47404dab77a_117_new)
-HXLINE( 118)		super::__construct();
-HXLINE( 120)		int backgroundColor = this->getBackgroundColor();
-HXLINE( 121)		int r = ((backgroundColor >> 16) & 255);
-HXLINE( 122)		int g = ((backgroundColor >> 8) & 255);
-HXLINE( 123)		int b = (backgroundColor & 255);
-HXLINE( 124)		Float perceivedLuminosity = (((((Float)0.299) * ( (Float)(r) )) + (((Float)0.587) * ( (Float)(g) ))) + (((Float)0.114) * ( (Float)(b) )));
-HXLINE( 125)		int color = 0;
-HXLINE( 127)		if ((perceivedLuminosity < 70)) {
-HXLINE( 129)			color = 16777215;
+            	HX_GC_STACKFRAME(&_hx_pos_a3b7e47404dab77a_113_new)
+HXLINE( 114)		super::__construct();
+HXLINE( 116)		int backgroundColor = this->getBackgroundColor();
+HXLINE( 117)		int r = ((backgroundColor >> 16) & 255);
+HXLINE( 118)		int g = ((backgroundColor >> 8) & 255);
+HXLINE( 119)		int b = (backgroundColor & 255);
+HXLINE( 120)		Float perceivedLuminosity = (((((Float)0.299) * ( (Float)(r) )) + (((Float)0.587) * ( (Float)(g) ))) + (((Float)0.114) * ( (Float)(b) )));
+HXLINE( 121)		int color = 0;
+HXLINE( 123)		if ((perceivedLuminosity < 70)) {
+HXLINE( 125)			color = 16777215;
             		}
-HXLINE( 132)		int x = 30;
-HXLINE( 133)		int height = 7;
-HXLINE( 134)		Float y = ((this->getHeight() / ( (Float)(2) )) - (( (Float)(height) ) / ( (Float)(2) )));
-HXLINE( 135)		Float width = (this->getWidth() - ( (Float)((x * 2)) ));
-HXLINE( 137)		int padding = 2;
-HXLINE( 139)		this->outline =  ::openfl::display::Shape_obj::__alloc( HX_CTX );
-HXLINE( 140)		this->outline->get_graphics()->beginFill(color,((Float)0.07));
-HXLINE( 141)		this->outline->get_graphics()->drawRect(( (Float)(0) ),( (Float)(0) ),width,( (Float)(height) ));
-HXLINE( 142)		this->outline->set_x(( (Float)(x) ));
-HXLINE( 143)		this->outline->set_y(y);
-HXLINE( 144)		this->outline->set_alpha(( (Float)(0) ));
-HXLINE( 145)		this->addChild(this->outline);
-HXLINE( 147)		this->progress =  ::openfl::display::Shape_obj::__alloc( HX_CTX );
-HXLINE( 148)		this->progress->get_graphics()->beginFill(color,((Float)0.35));
-HXLINE( 149)		this->progress->get_graphics()->drawRect(( (Float)(0) ),( (Float)(0) ),(width - ( (Float)((padding * 2)) )),( (Float)((height - (padding * 2))) ));
-HXLINE( 150)		this->progress->set_x(( (Float)((x + padding)) ));
-HXLINE( 151)		this->progress->set_y((y + padding));
-HXLINE( 152)		this->progress->set_scaleX(( (Float)(0) ));
-HXLINE( 153)		this->progress->set_alpha(( (Float)(0) ));
-HXLINE( 154)		this->addChild(this->progress);
-HXLINE( 156)		this->startAnimation = (::openfl::Lib_obj::getTimer() + 100);
-HXLINE( 157)		this->endAnimation = (this->startAnimation + 1000);
-HXLINE( 159)		this->addEventListener(HX_("addedToStage",63,22,55,0c),this->this_onAddedToStage_dyn(),null(),null(),null());
+HXLINE( 128)		int x = 30;
+HXLINE( 129)		int height = 7;
+HXLINE( 130)		Float y = ((this->getHeight() / ( (Float)(2) )) - (( (Float)(height) ) / ( (Float)(2) )));
+HXLINE( 131)		Float width = (this->getWidth() - ( (Float)((x * 2)) ));
+HXLINE( 133)		int padding = 2;
+HXLINE( 135)		this->outline =  ::openfl::display::Shape_obj::__alloc( HX_CTX );
+HXLINE( 136)		this->outline->get_graphics()->beginFill(color,((Float)0.07));
+HXLINE( 137)		this->outline->get_graphics()->drawRect(( (Float)(0) ),( (Float)(0) ),width,( (Float)(height) ));
+HXLINE( 138)		this->outline->set_x(( (Float)(x) ));
+HXLINE( 139)		this->outline->set_y(y);
+HXLINE( 140)		this->outline->set_alpha(( (Float)(0) ));
+HXLINE( 141)		this->addChild(this->outline);
+HXLINE( 143)		this->progress =  ::openfl::display::Shape_obj::__alloc( HX_CTX );
+HXLINE( 144)		this->progress->get_graphics()->beginFill(color,((Float)0.35));
+HXLINE( 145)		this->progress->get_graphics()->drawRect(( (Float)(0) ),( (Float)(0) ),(width - ( (Float)((padding * 2)) )),( (Float)((height - (padding * 2))) ));
+HXLINE( 146)		this->progress->set_x(( (Float)((x + padding)) ));
+HXLINE( 147)		this->progress->set_y((y + padding));
+HXLINE( 148)		this->progress->set_scaleX(( (Float)(0) ));
+HXLINE( 149)		this->progress->set_alpha(( (Float)(0) ));
+HXLINE( 150)		this->addChild(this->progress);
+HXLINE( 152)		this->startAnimation = (::openfl::Lib_obj::getTimer() + 100);
+HXLINE( 153)		this->endAnimation = (this->startAnimation + 1000);
+HXLINE( 155)		this->addEventListener(HX_("addedToStage",63,22,55,0c),this->this_onAddedToStage_dyn(),null(),null(),null());
             	}
 
 Dynamic DefaultPreloader_obj::__CreateEmpty() { return new DefaultPreloader_obj; }
@@ -149,136 +149,136 @@ bool DefaultPreloader_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 int DefaultPreloader_obj::getBackgroundColor(){
-            	HX_STACKFRAME(&_hx_pos_a3b7e47404dab77a_163_getBackgroundColor)
-HXLINE( 164)		 ::Dynamic attributes = ::openfl::Lib_obj::get_current()->stage->window->context->attributes;
-HXLINE( 166)		bool _hx_tmp;
-HXDLIN( 166)		if (::Reflect_obj::hasField(attributes,HX_("background",ee,93,1d,26))) {
-HXLINE( 166)			_hx_tmp = ::hx::IsNotNull( attributes->__Field(HX_("background",ee,93,1d,26),::hx::paccDynamic) );
+            	HX_STACKFRAME(&_hx_pos_a3b7e47404dab77a_159_getBackgroundColor)
+HXLINE( 160)		 ::Dynamic attributes = ::openfl::Lib_obj::get_current()->stage->window->context->attributes;
+HXLINE( 162)		bool _hx_tmp;
+HXDLIN( 162)		if (::Reflect_obj::hasField(attributes,HX_("background",ee,93,1d,26))) {
+HXLINE( 162)			_hx_tmp = ::hx::IsNotNull( attributes->__Field(HX_("background",ee,93,1d,26),::hx::paccDynamic) );
             		}
             		else {
-HXLINE( 166)			_hx_tmp = false;
+HXLINE( 162)			_hx_tmp = false;
             		}
-HXDLIN( 166)		if (_hx_tmp) {
-HXLINE( 168)			return ( (int)(attributes->__Field(HX_("background",ee,93,1d,26),::hx::paccDynamic)) );
+HXDLIN( 162)		if (_hx_tmp) {
+HXLINE( 164)			return ( (int)(attributes->__Field(HX_("background",ee,93,1d,26),::hx::paccDynamic)) );
             		}
             		else {
-HXLINE( 172)			return 0;
+HXLINE( 168)			return 0;
             		}
-HXLINE( 166)		return 0;
+HXLINE( 162)		return 0;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(DefaultPreloader_obj,getBackgroundColor,return )
 
 Float DefaultPreloader_obj::getHeight(){
-            	HX_STACKFRAME(&_hx_pos_a3b7e47404dab77a_177_getHeight)
-HXLINE( 178)		int height = ::openfl::Lib_obj::get_current()->stage->window->_hx___height;
-HXLINE( 180)		if ((height > 0)) {
-HXLINE( 182)			return ( (Float)(height) );
+            	HX_STACKFRAME(&_hx_pos_a3b7e47404dab77a_173_getHeight)
+HXLINE( 174)		int height = ::openfl::Lib_obj::get_current()->stage->window->_hx___height;
+HXLINE( 176)		if ((height > 0)) {
+HXLINE( 178)			return ( (Float)(height) );
             		}
             		else {
-HXLINE( 186)			return ( (Float)(::openfl::Lib_obj::get_current()->stage->stageHeight) );
+HXLINE( 182)			return ( (Float)(::openfl::Lib_obj::get_current()->stage->stageHeight) );
             		}
-HXLINE( 180)		return ((Float)0.);
+HXLINE( 176)		return ((Float)0.);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(DefaultPreloader_obj,getHeight,return )
 
 Float DefaultPreloader_obj::getWidth(){
-            	HX_STACKFRAME(&_hx_pos_a3b7e47404dab77a_191_getWidth)
-HXLINE( 192)		int width = ::openfl::Lib_obj::get_current()->stage->window->_hx___width;
-HXLINE( 194)		if ((width > 0)) {
-HXLINE( 196)			return ( (Float)(width) );
+            	HX_STACKFRAME(&_hx_pos_a3b7e47404dab77a_187_getWidth)
+HXLINE( 188)		int width = ::openfl::Lib_obj::get_current()->stage->window->_hx___width;
+HXLINE( 190)		if ((width > 0)) {
+HXLINE( 192)			return ( (Float)(width) );
             		}
             		else {
-HXLINE( 200)			return ( (Float)(::openfl::Lib_obj::get_current()->stage->stageWidth) );
+HXLINE( 196)			return ( (Float)(::openfl::Lib_obj::get_current()->stage->stageWidth) );
             		}
-HXLINE( 194)		return ((Float)0.);
+HXLINE( 190)		return ((Float)0.);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(DefaultPreloader_obj,getWidth,return )
 
 void DefaultPreloader_obj::onInit(){
-            	HX_STACKFRAME(&_hx_pos_a3b7e47404dab77a_206_onInit)
-HXDLIN( 206)		this->addEventListener(HX_("enterFrame",f5,03,50,02),this->this_onEnterFrame_dyn(),null(),null(),null());
+            	HX_STACKFRAME(&_hx_pos_a3b7e47404dab77a_202_onInit)
+HXDLIN( 202)		this->addEventListener(HX_("enterFrame",f5,03,50,02),this->this_onEnterFrame_dyn(),null(),null(),null());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(DefaultPreloader_obj,onInit,(void))
 
 void DefaultPreloader_obj::onLoaded(){
-            	HX_GC_STACKFRAME(&_hx_pos_a3b7e47404dab77a_210_onLoaded)
-HXLINE( 211)		this->removeEventListener(HX_("enterFrame",f5,03,50,02),this->this_onEnterFrame_dyn(),null());
-HXLINE( 213)		this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("unload",ff,a0,8c,65),null(),null()));
+            	HX_GC_STACKFRAME(&_hx_pos_a3b7e47404dab77a_206_onLoaded)
+HXLINE( 207)		this->removeEventListener(HX_("enterFrame",f5,03,50,02),this->this_onEnterFrame_dyn(),null());
+HXLINE( 209)		this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("unload",ff,a0,8c,65),null(),null()));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(DefaultPreloader_obj,onLoaded,(void))
 
 void DefaultPreloader_obj::onUpdate(int bytesLoaded,int bytesTotal){
-            	HX_STACKFRAME(&_hx_pos_a3b7e47404dab77a_217_onUpdate)
-HXLINE( 218)		Float percentLoaded = ((Float)0.0);
-HXLINE( 220)		if ((bytesTotal > 0)) {
-HXLINE( 222)			percentLoaded = (( (Float)(bytesLoaded) ) / ( (Float)(bytesTotal) ));
-HXLINE( 224)			if ((percentLoaded > 1)) {
-HXLINE( 226)				percentLoaded = ( (Float)(1) );
+            	HX_STACKFRAME(&_hx_pos_a3b7e47404dab77a_213_onUpdate)
+HXLINE( 214)		Float percentLoaded = ((Float)0.0);
+HXLINE( 216)		if ((bytesTotal > 0)) {
+HXLINE( 218)			percentLoaded = (( (Float)(bytesLoaded) ) / ( (Float)(bytesTotal) ));
+HXLINE( 220)			if ((percentLoaded > 1)) {
+HXLINE( 222)				percentLoaded = ( (Float)(1) );
             			}
             		}
-HXLINE( 230)		this->progress->set_scaleX(percentLoaded);
+HXLINE( 226)		this->progress->set_scaleX(percentLoaded);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(DefaultPreloader_obj,onUpdate,(void))
 
 void DefaultPreloader_obj::this_onAddedToStage( ::openfl::events::Event event){
-            	HX_STACKFRAME(&_hx_pos_a3b7e47404dab77a_235_this_onAddedToStage)
-HXLINE( 236)		this->removeEventListener(HX_("addedToStage",63,22,55,0c),this->this_onAddedToStage_dyn(),null());
-HXLINE( 238)		this->onInit();
-HXLINE( 239)		int _hx_tmp = this->get_loaderInfo()->bytesLoaded;
-HXDLIN( 239)		this->onUpdate(_hx_tmp,this->get_loaderInfo()->bytesTotal);
-HXLINE( 241)		this->addEventListener(HX_("progress",ad,f7,2a,86),this->this_onProgress_dyn(),null(),null(),null());
-HXLINE( 242)		this->addEventListener(HX_("complete",b9,00,c8,7f),this->this_onComplete_dyn(),null(),null(),null());
+            	HX_STACKFRAME(&_hx_pos_a3b7e47404dab77a_231_this_onAddedToStage)
+HXLINE( 232)		this->removeEventListener(HX_("addedToStage",63,22,55,0c),this->this_onAddedToStage_dyn(),null());
+HXLINE( 234)		this->onInit();
+HXLINE( 235)		int _hx_tmp = this->get_loaderInfo()->bytesLoaded;
+HXDLIN( 235)		this->onUpdate(_hx_tmp,this->get_loaderInfo()->bytesTotal);
+HXLINE( 237)		this->addEventListener(HX_("progress",ad,f7,2a,86),this->this_onProgress_dyn(),null(),null(),null());
+HXLINE( 238)		this->addEventListener(HX_("complete",b9,00,c8,7f),this->this_onComplete_dyn(),null(),null(),null());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(DefaultPreloader_obj,this_onAddedToStage,(void))
 
 void DefaultPreloader_obj::this_onComplete( ::openfl::events::Event event){
-            	HX_STACKFRAME(&_hx_pos_a3b7e47404dab77a_246_this_onComplete)
-HXLINE( 247)		event->preventDefault();
-HXLINE( 249)		this->removeEventListener(HX_("progress",ad,f7,2a,86),this->this_onProgress_dyn(),null());
-HXLINE( 250)		this->removeEventListener(HX_("complete",b9,00,c8,7f),this->this_onComplete_dyn(),null());
-HXLINE( 252)		this->onLoaded();
+            	HX_STACKFRAME(&_hx_pos_a3b7e47404dab77a_242_this_onComplete)
+HXLINE( 243)		event->preventDefault();
+HXLINE( 245)		this->removeEventListener(HX_("progress",ad,f7,2a,86),this->this_onProgress_dyn(),null());
+HXLINE( 246)		this->removeEventListener(HX_("complete",b9,00,c8,7f),this->this_onComplete_dyn(),null());
+HXLINE( 248)		this->onLoaded();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(DefaultPreloader_obj,this_onComplete,(void))
 
 void DefaultPreloader_obj::this_onEnterFrame( ::openfl::events::Event event){
-            	HX_STACKFRAME(&_hx_pos_a3b7e47404dab77a_256_this_onEnterFrame)
-HXLINE( 257)		int elapsed = ::openfl::Lib_obj::getTimer();
-HXDLIN( 257)		int elapsed1 = (elapsed - this->startAnimation);
-HXLINE( 258)		int total = (this->endAnimation - this->startAnimation);
-HXLINE( 260)		Float percent = (( (Float)(elapsed1) ) / ( (Float)(total) ));
-HXLINE( 262)		if ((percent < 0)) {
-HXLINE( 262)			percent = ( (Float)(0) );
+            	HX_STACKFRAME(&_hx_pos_a3b7e47404dab77a_252_this_onEnterFrame)
+HXLINE( 253)		int elapsed = ::openfl::Lib_obj::getTimer();
+HXDLIN( 253)		int elapsed1 = (elapsed - this->startAnimation);
+HXLINE( 254)		int total = (this->endAnimation - this->startAnimation);
+HXLINE( 256)		Float percent = (( (Float)(elapsed1) ) / ( (Float)(total) ));
+HXLINE( 258)		if ((percent < 0)) {
+HXLINE( 258)			percent = ( (Float)(0) );
             		}
-HXLINE( 263)		if ((percent > 1)) {
-HXLINE( 263)			percent = ( (Float)(1) );
+HXLINE( 259)		if ((percent > 1)) {
+HXLINE( 259)			percent = ( (Float)(1) );
             		}
-HXLINE( 265)		 ::openfl::display::Shape _hx_tmp = this->outline;
-HXDLIN( 265)		_hx_tmp->set_alpha(this->progress->set_alpha(percent));
+HXLINE( 261)		 ::openfl::display::Shape _hx_tmp = this->outline;
+HXDLIN( 261)		_hx_tmp->set_alpha(this->progress->set_alpha(percent));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(DefaultPreloader_obj,this_onEnterFrame,(void))
 
 void DefaultPreloader_obj::this_onProgress( ::openfl::events::ProgressEvent event){
-            	HX_STACKFRAME(&_hx_pos_a3b7e47404dab77a_270_this_onProgress)
-HXDLIN( 270)		int _hx_tmp = ::Std_obj::_hx_int(event->bytesLoaded);
-HXDLIN( 270)		this->onUpdate(_hx_tmp,::Std_obj::_hx_int(event->bytesTotal));
+            	HX_STACKFRAME(&_hx_pos_a3b7e47404dab77a_266_this_onProgress)
+HXDLIN( 266)		int _hx_tmp = ::Std_obj::_hx_int(event->bytesLoaded);
+HXDLIN( 266)		this->onUpdate(_hx_tmp,::Std_obj::_hx_int(event->bytesTotal));
             	}
 
 
@@ -445,8 +445,8 @@ void DefaultPreloader_obj::__register()
 void DefaultPreloader_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_a3b7e47404dab77a_109_boot)
-HXDLIN( 109)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
+            	HX_STACKFRAME(&_hx_pos_a3b7e47404dab77a_105_boot)
+HXDLIN( 105)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
             			->setFixed(0,HX_("obj",f7,8f,54,00), ::Dynamic(::hx::Anon_obj::Create(1)
             				->setFixed(0,HX_("SuppressWarnings",0c,d3,d2,00),::cpp::VirtualArray_obj::__new(1)->init(0,HX_("checkstyle:FieldDocComment",70,56,1b,20))))));
             	}

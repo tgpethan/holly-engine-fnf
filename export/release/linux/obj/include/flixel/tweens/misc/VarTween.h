@@ -63,12 +63,7 @@ class HXCPP_CLASS_ATTRIBUTES VarTween_obj : public  ::flixel::tweens::FlxTween_o
 		void initializeVars();
 		::Dynamic initializeVars_dyn();
 
-		void setStartValues();
-		::Dynamic setStartValues_dyn();
-
 		void destroy();
-
-		bool isTweenOf( ::Dynamic object,::String field);
 
 };
 

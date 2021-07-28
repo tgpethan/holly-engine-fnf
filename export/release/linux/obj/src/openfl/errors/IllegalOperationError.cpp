@@ -8,16 +8,16 @@
 #include <openfl/errors/IllegalOperationError.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_4cf27cf07614edf1_36_new,"openfl.errors.IllegalOperationError","new",0x7489b4a4,"openfl.errors.IllegalOperationError.new","openfl/errors/IllegalOperationError.hx",36,0x72707d6c)
+HX_DEFINE_STACK_FRAME(_hx_pos_4cf27cf07614edf1_11_new,"openfl.errors.IllegalOperationError","new",0x7489b4a4,"openfl.errors.IllegalOperationError.new","openfl/errors/IllegalOperationError.hx",11,0x72707d6c)
 namespace openfl{
 namespace errors{
 
 void IllegalOperationError_obj::__construct(::String __o_message){
             		::String message = __o_message;
             		if (::hx::IsNull(__o_message)) message = HX_("",00,00,00,00);
-            	HX_STACKFRAME(&_hx_pos_4cf27cf07614edf1_36_new)
-HXLINE(  37)		super::__construct(message,0);
-HXLINE(  39)		this->name = HX_("IllegalOperationError",17,ce,c0,9e);
+            	HX_STACKFRAME(&_hx_pos_4cf27cf07614edf1_11_new)
+HXLINE(  12)		super::__construct(message,0);
+HXLINE(  14)		this->name = HX_("IllegalOperationError",17,ce,c0,9e);
             	}
 
 Dynamic IllegalOperationError_obj::__CreateEmpty() { return new IllegalOperationError_obj; }

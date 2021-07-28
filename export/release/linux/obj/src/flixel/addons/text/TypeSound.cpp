@@ -38,14 +38,14 @@
 #include <openfl/utils/_ByteArray/ByteArray_Impl_.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_542cd778bed1ec4a_328_new,"flixel.addons.text.TypeSound","new",0xea1a5b8f,"flixel.addons.text.TypeSound.new","openfl/utils/_internal/AssetsMacro.hx",328,0xfdd54705)
+HX_DEFINE_STACK_FRAME(_hx_pos_27e6d049d12da204_328_new,"flixel.addons.text.TypeSound","new",0xea1a5b8f,"flixel.addons.text.TypeSound.new","openfl/_internal/macros/AssetsMacro.hx",328,0xf7db08ab)
 HX_LOCAL_STACK_FRAME(_hx_pos_5b66793e2c0d6454_14_boot,"flixel.addons.text.TypeSound","boot",0xe50ec223,"flixel.addons.text.TypeSound.boot","flixel/addons/text/FlxTypeText.hx",14,0x9451ed7e)
 namespace flixel{
 namespace addons{
 namespace text{
 
 void TypeSound_obj::__construct( ::openfl::net::URLRequest stream, ::openfl::media::SoundLoaderContext context){
-            	HX_STACKFRAME(&_hx_pos_542cd778bed1ec4a_328_new)
+            	HX_STACKFRAME(&_hx_pos_27e6d049d12da204_328_new)
 HXLINE( 329)		super::__construct(null(),null());
 HXLINE( 331)		 ::openfl::utils::ByteArrayData byteArray = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(::haxe::Resource_obj::getBytes(::flixel::addons::text::TypeSound_obj::resourceName));
 HXLINE( 332)		this->loadCompressedDataFromByteArray(byteArray,::openfl::utils::_ByteArray::ByteArray_Impl__obj::get_length(byteArray));

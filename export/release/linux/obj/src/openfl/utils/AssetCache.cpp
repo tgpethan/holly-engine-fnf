@@ -44,31 +44,31 @@
 #include <openfl/utils/IAssetCache.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_3b51c86a24135fbd_20_new,"openfl.utils.AssetCache","new",0x1485f77f,"openfl.utils.AssetCache.new","openfl/utils/AssetCache.hx",20,0xffd5b4cf)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b51c86a24135fbd_82_clear,"openfl.utils.AssetCache","clear",0x6abcde6c,"openfl.utils.AssetCache.clear","openfl/utils/AssetCache.hx",82,0xffd5b4cf)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b51c86a24135fbd_130_getBitmapData,"openfl.utils.AssetCache","getBitmapData",0x142af5ce,"openfl.utils.AssetCache.getBitmapData","openfl/utils/AssetCache.hx",130,0xffd5b4cf)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b51c86a24135fbd_141_getFont,"openfl.utils.AssetCache","getFont",0xa580b024,"openfl.utils.AssetCache.getFont","openfl/utils/AssetCache.hx",141,0xffd5b4cf)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b51c86a24135fbd_152_getSound,"openfl.utils.AssetCache","getSound",0xa75444da,"openfl.utils.AssetCache.getSound","openfl/utils/AssetCache.hx",152,0xffd5b4cf)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b51c86a24135fbd_163_hasBitmapData,"openfl.utils.AssetCache","hasBitmapData",0xd20f5192,"openfl.utils.AssetCache.hasBitmapData","openfl/utils/AssetCache.hx",163,0xffd5b4cf)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b51c86a24135fbd_174_hasFont,"openfl.utils.AssetCache","hasFont",0xa24220e8,"openfl.utils.AssetCache.hasFont","openfl/utils/AssetCache.hx",174,0xffd5b4cf)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b51c86a24135fbd_185_hasSound,"openfl.utils.AssetCache","hasSound",0xd3d57f96,"openfl.utils.AssetCache.hasSound","openfl/utils/AssetCache.hx",185,0xffd5b4cf)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b51c86a24135fbd_195_removeBitmapData,"openfl.utils.AssetCache","removeBitmapData",0x9ca8649e,"openfl.utils.AssetCache.removeBitmapData","openfl/utils/AssetCache.hx",195,0xffd5b4cf)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b51c86a24135fbd_209_removeFont,"openfl.utils.AssetCache","removeFont",0x136c22f4,"openfl.utils.AssetCache.removeFont","openfl/utils/AssetCache.hx",209,0xffd5b4cf)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b51c86a24135fbd_223_removeSound,"openfl.utils.AssetCache","removeSound",0x676d480a,"openfl.utils.AssetCache.removeSound","openfl/utils/AssetCache.hx",223,0xffd5b4cf)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b51c86a24135fbd_238_setBitmapData,"openfl.utils.AssetCache","setBitmapData",0x5930d7da,"openfl.utils.AssetCache.setBitmapData","openfl/utils/AssetCache.hx",238,0xffd5b4cf)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b51c86a24135fbd_249_setFont,"openfl.utils.AssetCache","setFont",0x98824130,"openfl.utils.AssetCache.setFont","openfl/utils/AssetCache.hx",249,0xffd5b4cf)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b51c86a24135fbd_260_setSound,"openfl.utils.AssetCache","setSound",0x55b19e4e,"openfl.utils.AssetCache.setSound","openfl/utils/AssetCache.hx",260,0xffd5b4cf)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b51c86a24135fbd_266_get_enabled,"openfl.utils.AssetCache","get_enabled",0xec9842b7,"openfl.utils.AssetCache.get_enabled","openfl/utils/AssetCache.hx",266,0xffd5b4cf)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b51c86a24135fbd_271_set_enabled,"openfl.utils.AssetCache","set_enabled",0xf70549c3,"openfl.utils.AssetCache.set_enabled","openfl/utils/AssetCache.hx",271,0xffd5b4cf)
+HX_DEFINE_STACK_FRAME(_hx_pos_3b51c86a24135fbd_14_new,"openfl.utils.AssetCache","new",0x1485f77f,"openfl.utils.AssetCache.new","openfl/utils/AssetCache.hx",14,0xffd5b4cf)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b51c86a24135fbd_42_clear,"openfl.utils.AssetCache","clear",0x6abcde6c,"openfl.utils.AssetCache.clear","openfl/utils/AssetCache.hx",42,0xffd5b4cf)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b51c86a24135fbd_84_getBitmapData,"openfl.utils.AssetCache","getBitmapData",0x142af5ce,"openfl.utils.AssetCache.getBitmapData","openfl/utils/AssetCache.hx",84,0xffd5b4cf)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b51c86a24135fbd_89_getFont,"openfl.utils.AssetCache","getFont",0xa580b024,"openfl.utils.AssetCache.getFont","openfl/utils/AssetCache.hx",89,0xffd5b4cf)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b51c86a24135fbd_94_getSound,"openfl.utils.AssetCache","getSound",0xa75444da,"openfl.utils.AssetCache.getSound","openfl/utils/AssetCache.hx",94,0xffd5b4cf)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b51c86a24135fbd_99_hasBitmapData,"openfl.utils.AssetCache","hasBitmapData",0xd20f5192,"openfl.utils.AssetCache.hasBitmapData","openfl/utils/AssetCache.hx",99,0xffd5b4cf)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b51c86a24135fbd_104_hasFont,"openfl.utils.AssetCache","hasFont",0xa24220e8,"openfl.utils.AssetCache.hasFont","openfl/utils/AssetCache.hx",104,0xffd5b4cf)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b51c86a24135fbd_109_hasSound,"openfl.utils.AssetCache","hasSound",0xd3d57f96,"openfl.utils.AssetCache.hasSound","openfl/utils/AssetCache.hx",109,0xffd5b4cf)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b51c86a24135fbd_113_removeBitmapData,"openfl.utils.AssetCache","removeBitmapData",0x9ca8649e,"openfl.utils.AssetCache.removeBitmapData","openfl/utils/AssetCache.hx",113,0xffd5b4cf)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b51c86a24135fbd_121_removeFont,"openfl.utils.AssetCache","removeFont",0x136c22f4,"openfl.utils.AssetCache.removeFont","openfl/utils/AssetCache.hx",121,0xffd5b4cf)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b51c86a24135fbd_129_removeSound,"openfl.utils.AssetCache","removeSound",0x676d480a,"openfl.utils.AssetCache.removeSound","openfl/utils/AssetCache.hx",129,0xffd5b4cf)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b51c86a24135fbd_138_setBitmapData,"openfl.utils.AssetCache","setBitmapData",0x5930d7da,"openfl.utils.AssetCache.setBitmapData","openfl/utils/AssetCache.hx",138,0xffd5b4cf)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b51c86a24135fbd_143_setFont,"openfl.utils.AssetCache","setFont",0x98824130,"openfl.utils.AssetCache.setFont","openfl/utils/AssetCache.hx",143,0xffd5b4cf)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b51c86a24135fbd_148_setSound,"openfl.utils.AssetCache","setSound",0x55b19e4e,"openfl.utils.AssetCache.setSound","openfl/utils/AssetCache.hx",148,0xffd5b4cf)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b51c86a24135fbd_154_get_enabled,"openfl.utils.AssetCache","get_enabled",0xec9842b7,"openfl.utils.AssetCache.get_enabled","openfl/utils/AssetCache.hx",154,0xffd5b4cf)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b51c86a24135fbd_159_set_enabled,"openfl.utils.AssetCache","set_enabled",0xf70549c3,"openfl.utils.AssetCache.set_enabled","openfl/utils/AssetCache.hx",159,0xffd5b4cf)
 namespace openfl{
 namespace utils{
 
 void AssetCache_obj::__construct(){
-            	HX_GC_STACKFRAME(&_hx_pos_3b51c86a24135fbd_20_new)
-HXLINE(  42)		this->_hx___enabled = true;
-HXLINE(  59)		this->bitmapData =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
-HXLINE(  60)		this->font =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
-HXLINE(  61)		this->sound =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
+            	HX_GC_STACKFRAME(&_hx_pos_3b51c86a24135fbd_14_new)
+HXLINE(  21)		this->_hx___enabled = true;
+HXLINE(  35)		this->bitmapData =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
+HXLINE(  36)		this->font =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
+HXLINE(  37)		this->sound =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
             	}
 
 Dynamic AssetCache_obj::__CreateEmpty() { return new AssetCache_obj; }
@@ -116,40 +116,40 @@ void *AssetCache_obj::_hx_getInterface(int inHash) {
 }
 
 void AssetCache_obj::clear(::String prefix){
-            	HX_GC_STACKFRAME(&_hx_pos_3b51c86a24135fbd_82_clear)
-HXDLIN(  82)		if (::hx::IsNull( prefix )) {
-HXLINE(  84)			this->bitmapData =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
-HXLINE(  85)			this->font =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
-HXLINE(  86)			this->sound =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
+            	HX_GC_STACKFRAME(&_hx_pos_3b51c86a24135fbd_42_clear)
+HXDLIN(  42)		if (::hx::IsNull( prefix )) {
+HXLINE(  44)			this->bitmapData =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
+HXLINE(  45)			this->font =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
+HXLINE(  46)			this->sound =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
             		}
             		else {
-HXLINE(  90)			 ::Dynamic keys = this->bitmapData->keys();
-HXLINE(  92)			{
-HXLINE(  92)				 ::Dynamic key = keys;
-HXDLIN(  92)				while(( (bool)(key->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE(  92)					::String key1 = ( (::String)(key->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE(  94)					if (::StringTools_obj::startsWith(key1,prefix)) {
-HXLINE(  96)						this->removeBitmapData(key1);
+HXLINE(  50)			 ::Dynamic keys = this->bitmapData->keys();
+HXLINE(  52)			{
+HXLINE(  52)				 ::Dynamic key = keys;
+HXDLIN(  52)				while(( (bool)(key->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE(  52)					::String key1 = ( (::String)(key->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE(  54)					if (::StringTools_obj::startsWith(key1,prefix)) {
+HXLINE(  56)						this->removeBitmapData(key1);
             					}
             				}
             			}
-HXLINE( 100)			 ::Dynamic keys1 = this->font->keys();
-HXLINE( 102)			{
-HXLINE( 102)				 ::Dynamic key1 = keys1;
-HXDLIN( 102)				while(( (bool)(key1->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE( 102)					::String key = ( (::String)(key1->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE( 104)					if (::StringTools_obj::startsWith(key,prefix)) {
-HXLINE( 106)						this->removeFont(key);
+HXLINE(  60)			 ::Dynamic keys1 = this->font->keys();
+HXLINE(  62)			{
+HXLINE(  62)				 ::Dynamic key1 = keys1;
+HXDLIN(  62)				while(( (bool)(key1->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE(  62)					::String key = ( (::String)(key1->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE(  64)					if (::StringTools_obj::startsWith(key,prefix)) {
+HXLINE(  66)						this->removeFont(key);
             					}
             				}
             			}
-HXLINE( 110)			 ::Dynamic keys2 = this->sound->keys();
-HXLINE( 112)			{
-HXLINE( 112)				 ::Dynamic key2 = keys2;
-HXDLIN( 112)				while(( (bool)(key2->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE( 112)					::String key = ( (::String)(key2->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE( 114)					if (::StringTools_obj::startsWith(key,prefix)) {
-HXLINE( 116)						this->removeSound(key);
+HXLINE(  70)			 ::Dynamic keys2 = this->sound->keys();
+HXLINE(  72)			{
+HXLINE(  72)				 ::Dynamic key2 = keys2;
+HXDLIN(  72)				while(( (bool)(key2->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE(  72)					::String key = ( (::String)(key2->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE(  74)					if (::StringTools_obj::startsWith(key,prefix)) {
+HXLINE(  76)						this->removeSound(key);
             					}
             				}
             			}
@@ -160,115 +160,115 @@ HXLINE( 116)						this->removeSound(key);
 HX_DEFINE_DYNAMIC_FUNC1(AssetCache_obj,clear,(void))
 
  ::openfl::display::BitmapData AssetCache_obj::getBitmapData(::String id){
-            	HX_STACKFRAME(&_hx_pos_3b51c86a24135fbd_130_getBitmapData)
-HXDLIN( 130)		return ( ( ::openfl::display::BitmapData)(this->bitmapData->get(id)) );
+            	HX_STACKFRAME(&_hx_pos_3b51c86a24135fbd_84_getBitmapData)
+HXDLIN(  84)		return ( ( ::openfl::display::BitmapData)(this->bitmapData->get(id)) );
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(AssetCache_obj,getBitmapData,return )
 
  ::openfl::text::Font AssetCache_obj::getFont(::String id){
-            	HX_STACKFRAME(&_hx_pos_3b51c86a24135fbd_141_getFont)
-HXDLIN( 141)		return ( ( ::openfl::text::Font)(this->font->get(id)) );
+            	HX_STACKFRAME(&_hx_pos_3b51c86a24135fbd_89_getFont)
+HXDLIN(  89)		return ( ( ::openfl::text::Font)(this->font->get(id)) );
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(AssetCache_obj,getFont,return )
 
  ::openfl::media::Sound AssetCache_obj::getSound(::String id){
-            	HX_STACKFRAME(&_hx_pos_3b51c86a24135fbd_152_getSound)
-HXDLIN( 152)		return ( ( ::openfl::media::Sound)(this->sound->get(id)) );
+            	HX_STACKFRAME(&_hx_pos_3b51c86a24135fbd_94_getSound)
+HXDLIN(  94)		return ( ( ::openfl::media::Sound)(this->sound->get(id)) );
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(AssetCache_obj,getSound,return )
 
 bool AssetCache_obj::hasBitmapData(::String id){
-            	HX_STACKFRAME(&_hx_pos_3b51c86a24135fbd_163_hasBitmapData)
-HXDLIN( 163)		return this->bitmapData->exists(id);
+            	HX_STACKFRAME(&_hx_pos_3b51c86a24135fbd_99_hasBitmapData)
+HXDLIN(  99)		return this->bitmapData->exists(id);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(AssetCache_obj,hasBitmapData,return )
 
 bool AssetCache_obj::hasFont(::String id){
-            	HX_STACKFRAME(&_hx_pos_3b51c86a24135fbd_174_hasFont)
-HXDLIN( 174)		return this->font->exists(id);
+            	HX_STACKFRAME(&_hx_pos_3b51c86a24135fbd_104_hasFont)
+HXDLIN( 104)		return this->font->exists(id);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(AssetCache_obj,hasFont,return )
 
 bool AssetCache_obj::hasSound(::String id){
-            	HX_STACKFRAME(&_hx_pos_3b51c86a24135fbd_185_hasSound)
-HXDLIN( 185)		return this->sound->exists(id);
+            	HX_STACKFRAME(&_hx_pos_3b51c86a24135fbd_109_hasSound)
+HXDLIN( 109)		return this->sound->exists(id);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(AssetCache_obj,hasSound,return )
 
 bool AssetCache_obj::removeBitmapData(::String id){
-            	HX_STACKFRAME(&_hx_pos_3b51c86a24135fbd_195_removeBitmapData)
-HXLINE( 197)		::lime::utils::Assets_obj::cache->image->remove(id);
-HXLINE( 199)		return this->bitmapData->remove(id);
+            	HX_STACKFRAME(&_hx_pos_3b51c86a24135fbd_113_removeBitmapData)
+HXLINE( 115)		::lime::utils::Assets_obj::cache->image->remove(id);
+HXLINE( 117)		return this->bitmapData->remove(id);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(AssetCache_obj,removeBitmapData,return )
 
 bool AssetCache_obj::removeFont(::String id){
-            	HX_STACKFRAME(&_hx_pos_3b51c86a24135fbd_209_removeFont)
-HXLINE( 211)		::lime::utils::Assets_obj::cache->font->remove(id);
-HXLINE( 213)		return this->font->remove(id);
+            	HX_STACKFRAME(&_hx_pos_3b51c86a24135fbd_121_removeFont)
+HXLINE( 123)		::lime::utils::Assets_obj::cache->font->remove(id);
+HXLINE( 125)		return this->font->remove(id);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(AssetCache_obj,removeFont,return )
 
 bool AssetCache_obj::removeSound(::String id){
-            	HX_STACKFRAME(&_hx_pos_3b51c86a24135fbd_223_removeSound)
-HXLINE( 225)		::lime::utils::Assets_obj::cache->audio->remove(id);
-HXLINE( 227)		return this->sound->remove(id);
+            	HX_STACKFRAME(&_hx_pos_3b51c86a24135fbd_129_removeSound)
+HXLINE( 131)		::lime::utils::Assets_obj::cache->audio->remove(id);
+HXLINE( 133)		return this->sound->remove(id);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(AssetCache_obj,removeSound,return )
 
 void AssetCache_obj::setBitmapData(::String id, ::openfl::display::BitmapData bitmapData){
-            	HX_STACKFRAME(&_hx_pos_3b51c86a24135fbd_238_setBitmapData)
-HXDLIN( 238)		this->bitmapData->set(id,bitmapData);
+            	HX_STACKFRAME(&_hx_pos_3b51c86a24135fbd_138_setBitmapData)
+HXDLIN( 138)		this->bitmapData->set(id,bitmapData);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(AssetCache_obj,setBitmapData,(void))
 
 void AssetCache_obj::setFont(::String id, ::openfl::text::Font font){
-            	HX_STACKFRAME(&_hx_pos_3b51c86a24135fbd_249_setFont)
-HXDLIN( 249)		this->font->set(id,font);
+            	HX_STACKFRAME(&_hx_pos_3b51c86a24135fbd_143_setFont)
+HXDLIN( 143)		this->font->set(id,font);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(AssetCache_obj,setFont,(void))
 
 void AssetCache_obj::setSound(::String id, ::openfl::media::Sound sound){
-            	HX_STACKFRAME(&_hx_pos_3b51c86a24135fbd_260_setSound)
-HXDLIN( 260)		this->sound->set(id,sound);
+            	HX_STACKFRAME(&_hx_pos_3b51c86a24135fbd_148_setSound)
+HXDLIN( 148)		this->sound->set(id,sound);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(AssetCache_obj,setSound,(void))
 
 bool AssetCache_obj::get_enabled(){
-            	HX_STACKFRAME(&_hx_pos_3b51c86a24135fbd_266_get_enabled)
-HXDLIN( 266)		return this->_hx___enabled;
+            	HX_STACKFRAME(&_hx_pos_3b51c86a24135fbd_154_get_enabled)
+HXDLIN( 154)		return this->_hx___enabled;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(AssetCache_obj,get_enabled,return )
 
 bool AssetCache_obj::set_enabled(bool value){
-            	HX_STACKFRAME(&_hx_pos_3b51c86a24135fbd_271_set_enabled)
-HXDLIN( 271)		return (this->_hx___enabled = value);
+            	HX_STACKFRAME(&_hx_pos_3b51c86a24135fbd_159_set_enabled)
+HXDLIN( 159)		return (this->_hx___enabled = value);
             	}
 
 

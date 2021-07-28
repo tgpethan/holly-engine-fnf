@@ -78,12 +78,6 @@ class HXCPP_CLASS_ATTRIBUTES Object_Impl__obj : public ::hx::Object
 		static  ::Dynamic valueOf( ::Dynamic this1);
 		static ::Dynamic valueOf_dyn();
 
-		static  ::Dynamic _hx___fieldRead( ::Dynamic this1,::String name);
-		static ::Dynamic _hx___fieldRead_dyn();
-
-		static  ::Dynamic _hx___fieldWrite( ::Dynamic this1,::String name, ::Dynamic value);
-		static ::Dynamic _hx___fieldWrite_dyn();
-
 		static  ::Dynamic __get( ::Dynamic this1,::String key);
 		static ::Dynamic __get_dyn();
 

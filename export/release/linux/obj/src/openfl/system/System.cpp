@@ -7,11 +7,11 @@
 #ifndef INCLUDED_lime_system_System
 #include <lime/system/System.h>
 #endif
+#ifndef INCLUDED_openfl__internal_Lib
+#include <openfl/_internal/Lib.h>
+#endif
 #ifndef INCLUDED_openfl_system_System
 #include <openfl/system/System.h>
-#endif
-#ifndef INCLUDED_openfl_utils__internal_Lib
-#include <openfl/utils/_internal/Lib.h>
 #endif
 
 HX_LOCAL_STACK_FRAME(_hx_pos_fb9a8c4adbcef4fa_165_disposeXML,"openfl.system.System","disposeXML",0x16af0cd6,"openfl.system.System.disposeXML","openfl/system/System.hx",165,0xde21ad4e)
@@ -70,7 +70,7 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC0(System_obj,gc,(void))
 
 void System_obj::pause(){
             	HX_STACKFRAME(&_hx_pos_fb9a8c4adbcef4fa_213_pause)
-HXDLIN( 213)		::openfl::utils::_internal::Lib_obj::notImplemented(::hx::SourceInfo(HX_("openfl/system/System.hx",4e,ad,21,de),213,HX_("openfl.system.System",50,91,b1,f6),HX_("pause",f6,d6,57,bd)));
+HXDLIN( 213)		::openfl::_internal::Lib_obj::notImplemented(::hx::SourceInfo(HX_("openfl/system/System.hx",4e,ad,21,de),213,HX_("openfl.system.System",50,91,b1,f6),HX_("pause",f6,d6,57,bd)));
             	}
 
 
@@ -78,7 +78,7 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC0(System_obj,pause,(void))
 
 void System_obj::resume(){
             	HX_STACKFRAME(&_hx_pos_fb9a8c4adbcef4fa_229_resume)
-HXDLIN( 229)		::openfl::utils::_internal::Lib_obj::notImplemented(::hx::SourceInfo(HX_("openfl/system/System.hx",4e,ad,21,de),229,HX_("openfl.system.System",50,91,b1,f6),HX_("resume",ad,69,84,08)));
+HXDLIN( 229)		::openfl::_internal::Lib_obj::notImplemented(::hx::SourceInfo(HX_("openfl/system/System.hx",4e,ad,21,de),229,HX_("openfl.system.System",50,91,b1,f6),HX_("resume",ad,69,84,08)));
             	}
 
 

@@ -32,7 +32,7 @@
 #include <openfl/utils/_ByteArray/ByteArray_Impl_.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_bfff486827f56158_47_new,"flixel.input.mouse._FlxMouse.GraphicCursor","new",0x35242895,"flixel.input.mouse._FlxMouse.GraphicCursor.new","openfl/utils/_internal/AssetsMacro.hx",47,0xfdd54705)
+HX_DEFINE_STACK_FRAME(_hx_pos_417a443b47ff2770_47_new,"flixel.input.mouse._FlxMouse.GraphicCursor","new",0x35242895,"flixel.input.mouse._FlxMouse.GraphicCursor.new","openfl/_internal/macros/AssetsMacro.hx",47,0xf7db08ab)
 HX_LOCAL_STACK_FRAME(_hx_pos_09fd7ad916773a7e_28_boot,"flixel.input.mouse._FlxMouse.GraphicCursor","boot",0x42985a5d,"flixel.input.mouse._FlxMouse.GraphicCursor.boot","flixel/input/mouse/FlxMouse.hx",28,0xe4e80b89)
 namespace flixel{
 namespace input{
@@ -44,7 +44,7 @@ void GraphicCursor_obj::__construct(int width,int height, ::Dynamic __o_transpar
             		if (::hx::IsNull(__o_transparent)) transparent = true;
             		 ::Dynamic fillRGBA = __o_fillRGBA;
             		if (::hx::IsNull(__o_fillRGBA)) fillRGBA = -1;
-            	HX_STACKFRAME(&_hx_pos_bfff486827f56158_47_new)
+            	HX_STACKFRAME(&_hx_pos_417a443b47ff2770_47_new)
 HXLINE(  71)		super::__construct(0,0,transparent,fillRGBA);
 HXLINE(  73)		 ::openfl::utils::ByteArrayData byteArray = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(::haxe::Resource_obj::getBytes(::flixel::input::mouse::_FlxMouse::GraphicCursor_obj::resourceName));
 HXLINE(  74)		{

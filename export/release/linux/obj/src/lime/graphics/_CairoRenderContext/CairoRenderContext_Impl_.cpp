@@ -11,7 +11,7 @@
 #include <lime/graphics/cairo/Cairo.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_8556288c3ba73522_24_fromRenderContext,"lime.graphics._CairoRenderContext.CairoRenderContext_Impl_","fromRenderContext",0x4c67089a,"lime.graphics._CairoRenderContext.CairoRenderContext_Impl_.fromRenderContext","lime/graphics/CairoRenderContext.hx",24,0x00243123)
+HX_LOCAL_STACK_FRAME(_hx_pos_8556288c3ba73522_23_fromRenderContext,"lime.graphics._CairoRenderContext.CairoRenderContext_Impl_","fromRenderContext",0x4c67089a,"lime.graphics._CairoRenderContext.CairoRenderContext_Impl_.fromRenderContext","lime/graphics/CairoRenderContext.hx",23,0x00243123)
 namespace lime{
 namespace graphics{
 namespace _CairoRenderContext{
@@ -34,8 +34,8 @@ bool CairoRenderContext_Impl__obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::lime::graphics::cairo::Cairo CairoRenderContext_Impl__obj::fromRenderContext( ::lime::graphics::RenderContext context){
-            	HX_STACKFRAME(&_hx_pos_8556288c3ba73522_24_fromRenderContext)
-HXDLIN(  24)		return context->cairo;
+            	HX_STACKFRAME(&_hx_pos_8556288c3ba73522_23_fromRenderContext)
+HXDLIN(  23)		return context->cairo;
             	}
 
 

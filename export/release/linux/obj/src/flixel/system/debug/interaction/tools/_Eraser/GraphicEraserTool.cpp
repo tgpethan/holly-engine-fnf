@@ -32,7 +32,7 @@
 #include <openfl/utils/_ByteArray/ByteArray_Impl_.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_15f406bf53dbc147_47_new,"flixel.system.debug.interaction.tools._Eraser.GraphicEraserTool","new",0x3c381404,"flixel.system.debug.interaction.tools._Eraser.GraphicEraserTool.new","openfl/utils/_internal/AssetsMacro.hx",47,0xfdd54705)
+HX_DEFINE_STACK_FRAME(_hx_pos_657fa70390dc8f97_47_new,"flixel.system.debug.interaction.tools._Eraser.GraphicEraserTool","new",0x3c381404,"flixel.system.debug.interaction.tools._Eraser.GraphicEraserTool.new","openfl/_internal/macros/AssetsMacro.hx",47,0xf7db08ab)
 HX_LOCAL_STACK_FRAME(_hx_pos_1119b9aa6c07881a_11_boot,"flixel.system.debug.interaction.tools._Eraser.GraphicEraserTool","boot",0x6cf2700e,"flixel.system.debug.interaction.tools._Eraser.GraphicEraserTool.boot","flixel/system/debug/interaction/tools/Eraser.hx",11,0xa546bf98)
 namespace flixel{
 namespace _hx_system{
@@ -46,7 +46,7 @@ void GraphicEraserTool_obj::__construct(int width,int height, ::Dynamic __o_tran
             		if (::hx::IsNull(__o_transparent)) transparent = true;
             		 ::Dynamic fillRGBA = __o_fillRGBA;
             		if (::hx::IsNull(__o_fillRGBA)) fillRGBA = -1;
-            	HX_STACKFRAME(&_hx_pos_15f406bf53dbc147_47_new)
+            	HX_STACKFRAME(&_hx_pos_657fa70390dc8f97_47_new)
 HXLINE(  71)		super::__construct(0,0,transparent,fillRGBA);
 HXLINE(  73)		 ::openfl::utils::ByteArrayData byteArray = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(::haxe::Resource_obj::getBytes(::flixel::_hx_system::debug::interaction::tools::_Eraser::GraphicEraserTool_obj::resourceName));
 HXLINE(  74)		{

@@ -311,7 +311,7 @@ HXLINE( 137)		this->swagDialogue =  ::flixel::addons::text::FlxTypeText_obj::__a
 HXLINE( 138)		this->swagDialogue->set_font(HX_("Pixel Arial 11 Bold",ae,17,c6,45));
 HXLINE( 139)		this->swagDialogue->set_color(-12640223);
 HXLINE( 140)		 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp14 = ::flixel::FlxG_obj::sound;
-HXDLIN( 140)		 ::flixel::_hx_system::FlxSound _hx_tmp15 = _hx_tmp14->load(::Paths_obj::sound(HX_("pixelText",53,7a,83,06),null()),((Float)0.6),null(),null(),null(),null(),null(),null(),null());
+HXDLIN( 140)		 ::flixel::_hx_system::FlxSound _hx_tmp15 = _hx_tmp14->load(::Paths_obj::sound(HX_("pixelText",53,7a,83,06),null()),((Float)0.6),null(),null(),null(),null(),null(),null());
 HXDLIN( 140)		this->swagDialogue->sounds = ::Array_obj< ::Dynamic>::__new(1)->init(0,_hx_tmp15);
 HXLINE( 141)		this->add(this->swagDialogue);
 HXLINE( 143)		this->dialogue =  ::Alphabet_obj::__alloc( HX_CTX ,( (Float)(0) ),( (Float)(80) ),HX_("",00,00,00,00),false,true);

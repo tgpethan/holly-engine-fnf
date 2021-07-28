@@ -53,6 +53,9 @@
 #ifndef INCLUDED_lime_graphics_cairo__CairoImageSurface_CairoImageSurface_Impl_
 #include <lime/graphics/cairo/_CairoImageSurface/CairoImageSurface_Impl_.h>
 #endif
+#ifndef INCLUDED_lime_graphics_cairo__CairoPattern_CairoPattern_Impl_
+#include <lime/graphics/cairo/_CairoPattern/CairoPattern_Impl_.h>
+#endif
 #ifndef INCLUDED_lime_graphics_cairo__CairoSurface_CairoSurface_Impl_
 #include <lime/graphics/cairo/_CairoSurface/CairoSurface_Impl_.h>
 #endif
@@ -107,6 +110,9 @@
 #ifndef INCLUDED_openfl_display_CanvasRenderer
 #include <openfl/display/CanvasRenderer.h>
 #endif
+#ifndef INCLUDED_openfl_display_DOMRenderer
+#include <openfl/display/DOMRenderer.h>
+#endif
 #ifndef INCLUDED_openfl_display_DisplayObject
 #include <openfl/display/DisplayObject.h>
 #endif
@@ -115,6 +121,9 @@
 #endif
 #ifndef INCLUDED_openfl_display_DisplayObjectRenderer
 #include <openfl/display/DisplayObjectRenderer.h>
+#endif
+#ifndef INCLUDED_openfl_display_DisplayObjectShader
+#include <openfl/display/DisplayObjectShader.h>
 #endif
 #ifndef INCLUDED_openfl_display_IBitmapDrawable
 #include <openfl/display/IBitmapDrawable.h>
@@ -134,6 +143,12 @@
 #ifndef INCLUDED_openfl_display_PNGEncoderOptions
 #include <openfl/display/PNGEncoderOptions.h>
 #endif
+#ifndef INCLUDED_openfl_display_Shader
+#include <openfl/display/Shader.h>
+#endif
+#ifndef INCLUDED_openfl_display_ShaderParameter_Float
+#include <openfl/display/ShaderParameter_Float.h>
+#endif
 #ifndef INCLUDED_openfl_display_Sprite
 #include <openfl/display/Sprite.h>
 #endif
@@ -142,6 +157,9 @@
 #endif
 #ifndef INCLUDED_openfl_display__internal_AbstractNoise
 #include <openfl/display/_internal/AbstractNoise.h>
+#endif
+#ifndef INCLUDED_openfl_display__internal_Context3DMaskShader
+#include <openfl/display/_internal/Context3DMaskShader.h>
 #endif
 #ifndef INCLUDED_openfl_display__internal_PerlinNoise
 #include <openfl/display/_internal/PerlinNoise.h>
@@ -204,233 +222,239 @@
 #include <openfl/utils/_Endian/Endian_Impl_.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_e7567b6ca69cedca_240_new,"openfl.display.BitmapData","new",0x7e3e4115,"openfl.display.BitmapData.new","openfl/display/BitmapData.hx",240,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_346_applyFilter,"openfl.display.BitmapData","applyFilter",0xfbb98d7b,"openfl.display.BitmapData.applyFilter","openfl/display/BitmapData.hx",346,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_398_clone,"openfl.display.BitmapData","clone",0xea52db52,"openfl.display.BitmapData.clone","openfl/display/BitmapData.hx",398,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_444_colorTransform,"openfl.display.BitmapData","colorTransform",0xbfe3e8f4,"openfl.display.BitmapData.colorTransform","openfl/display/BitmapData.hx",444,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_464_compare,"openfl.display.BitmapData","compare",0x56d287da,"openfl.display.BitmapData.compare","openfl/display/BitmapData.hx",464,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_630_copyChannel,"openfl.display.BitmapData","copyChannel",0x5d702b43,"openfl.display.BitmapData.copyChannel","openfl/display/BitmapData.hx",630,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_697_copyPixels,"openfl.display.BitmapData","copyPixels",0x385c94ad,"openfl.display.BitmapData.copyPixels","openfl/display/BitmapData.hx",697,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_734_dispose,"openfl.display.BitmapData","dispose",0x8eb5efd4,"openfl.display.BitmapData.dispose","openfl/display/BitmapData.hx",734,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_787_disposeImage,"openfl.display.BitmapData","disposeImage",0x60a6bee7,"openfl.display.BitmapData.disposeImage","openfl/display/BitmapData.hx",787,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_866_draw,"openfl.display.BitmapData","draw",0xf1a859af,"openfl.display.BitmapData.draw","openfl/display/BitmapData.hx",866,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1090_drawWithQuality,"openfl.display.BitmapData","drawWithQuality",0xabf0f1ea,"openfl.display.BitmapData.drawWithQuality","openfl/display/BitmapData.hx",1090,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1116_encode,"openfl.display.BitmapData","encode",0x09c32081,"openfl.display.BitmapData.encode","openfl/display/BitmapData.hx",1116,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1163_fillRect,"openfl.display.BitmapData","fillRect",0x95912472,"openfl.display.BitmapData.fillRect","openfl/display/BitmapData.hx",1163,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1178_floodFill,"openfl.display.BitmapData","floodFill",0xed95e9d6,"openfl.display.BitmapData.floodFill","openfl/display/BitmapData.hx",1178,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1357_generateFilterRect,"openfl.display.BitmapData","generateFilterRect",0x1ef8cf7c,"openfl.display.BitmapData.generateFilterRect","openfl/display/BitmapData.hx",1357,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1369_getIndexBuffer,"openfl.display.BitmapData","getIndexBuffer",0x8fe8ca27,"openfl.display.BitmapData.getIndexBuffer","openfl/display/BitmapData.hx",1369,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1583_getVertexBuffer,"openfl.display.BitmapData","getVertexBuffer",0xd07f316f,"openfl.display.BitmapData.getVertexBuffer","openfl/display/BitmapData.hx",1583,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2035_getColorBoundsRect,"openfl.display.BitmapData","getColorBoundsRect",0x21495071,"openfl.display.BitmapData.getColorBoundsRect","openfl/display/BitmapData.hx",2035,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2076_getPixel,"openfl.display.BitmapData","getPixel",0x4b52b53b,"openfl.display.BitmapData.getPixel","openfl/display/BitmapData.hx",2076,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2108_getPixel32,"openfl.display.BitmapData","getPixel32",0xcd56e69a,"openfl.display.BitmapData.getPixel32","openfl/display/BitmapData.hx",2108,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2127_getPixels,"openfl.display.BitmapData","getPixels",0x9d0bded8,"openfl.display.BitmapData.getPixels","openfl/display/BitmapData.hx",2127,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2150_getSurface,"openfl.display.BitmapData","getSurface",0xa2992c22,"openfl.display.BitmapData.getSurface","openfl/display/BitmapData.hx",2150,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2174_getTexture,"openfl.display.BitmapData","getTexture",0xe4308ed0,"openfl.display.BitmapData.getTexture","openfl/display/BitmapData.hx",2174,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2252_getVector,"openfl.display.BitmapData","getVector",0xa7bfa06e,"openfl.display.BitmapData.getVector","openfl/display/BitmapData.hx",2252,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2275_histogram,"openfl.display.BitmapData","histogram",0xf93f4519,"openfl.display.BitmapData.histogram","openfl/display/BitmapData.hx",2275,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2321_hitTest,"openfl.display.BitmapData","hitTest",0xb5e8cf7a,"openfl.display.BitmapData.hitTest","openfl/display/BitmapData.hx",2321,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2528_lock,"openfl.display.BitmapData","lock",0xf6efc996,"openfl.display.BitmapData.lock","openfl/display/BitmapData.hx",2528,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2569_merge,"openfl.display.BitmapData","merge",0xa7b66aad,"openfl.display.BitmapData.merge","openfl/display/BitmapData.hx",2569,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2613_noise,"openfl.display.BitmapData","noise",0x41b2578f,"openfl.display.BitmapData.noise","openfl/display/BitmapData.hx",2613,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2605_noise,"openfl.display.BitmapData","noise",0x41b2578f,"openfl.display.BitmapData.noise","openfl/display/BitmapData.hx",2605,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2703_paletteMap,"openfl.display.BitmapData","paletteMap",0xfc19eecc,"openfl.display.BitmapData.paletteMap","openfl/display/BitmapData.hx",2703,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2801_perlinNoise,"openfl.display.BitmapData","perlinNoise",0xc682321b,"openfl.display.BitmapData.perlinNoise","openfl/display/BitmapData.hx",2801,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2817_scroll,"openfl.display.BitmapData","scroll",0x57440678,"openfl.display.BitmapData.scroll","openfl/display/BitmapData.hx",2817,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2840_setPixel,"openfl.display.BitmapData","setPixel",0xf9b00eaf,"openfl.display.BitmapData.setPixel","openfl/display/BitmapData.hx",2840,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2879_setPixel32,"openfl.display.BitmapData","setPixel32",0xd0d4850e,"openfl.display.BitmapData.setPixel32","openfl/display/BitmapData.hx",2879,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2906_setPixels,"openfl.display.BitmapData","setPixels",0x805ccae4,"openfl.display.BitmapData.setPixels","openfl/display/BitmapData.hx",2906,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2927_setVector,"openfl.display.BitmapData","setVector",0x8b108c7a,"openfl.display.BitmapData.setVector","openfl/display/BitmapData.hx",2927,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2990_threshold,"openfl.display.BitmapData","threshold",0xc8af2a20,"openfl.display.BitmapData.threshold","openfl/display/BitmapData.hx",2990,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_3022_unlock,"openfl.display.BitmapData","unlock",0x756bd12f,"openfl.display.BitmapData.unlock","openfl/display/BitmapData.hx",3022,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_3025___applyAlpha,"openfl.display.BitmapData","__applyAlpha",0x0369eedb,"openfl.display.BitmapData.__applyAlpha","openfl/display/BitmapData.hx",3025,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_3042___drawCairo,"openfl.display.BitmapData","__drawCairo",0x71da5c79,"openfl.display.BitmapData.__drawCairo","openfl/display/BitmapData.hx",3042,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_3065___drawCanvas,"openfl.display.BitmapData","__drawCanvas",0x30879bc7,"openfl.display.BitmapData.__drawCanvas","openfl/display/BitmapData.hx",3065,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_3083___drawGL,"openfl.display.BitmapData","__drawGL",0xb0ddbd74,"openfl.display.BitmapData.__drawGL","openfl/display/BitmapData.hx",3083,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_3106___fillRect,"openfl.display.BitmapData","__fillRect",0x05dff852,"openfl.display.BitmapData.__fillRect","openfl/display/BitmapData.hx",3106,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_3161___fromBase64,"openfl.display.BitmapData","__fromBase64",0xceedce64,"openfl.display.BitmapData.__fromBase64","openfl/display/BitmapData.hx",3161,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_3169___fromBytes,"openfl.display.BitmapData","__fromBytes",0xdad6e936,"openfl.display.BitmapData.__fromBytes","openfl/display/BitmapData.hx",3169,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_3182___fromFile,"openfl.display.BitmapData","__fromFile",0x3aae5011,"openfl.display.BitmapData.__fromFile","openfl/display/BitmapData.hx",3182,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_3193___fromImage,"openfl.display.BitmapData","__fromImage",0xdaa80026,"openfl.display.BitmapData.__fromImage","openfl/display/BitmapData.hx",3193,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_3216___getBounds,"openfl.display.BitmapData","__getBounds",0x4b2a0640,"openfl.display.BitmapData.__getBounds","openfl/display/BitmapData.hx",3216,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_3254___loadFromBase64,"openfl.display.BitmapData","__loadFromBase64",0x743819aa,"openfl.display.BitmapData.__loadFromBase64","openfl/display/BitmapData.hx",3254,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_3251___loadFromBase64,"openfl.display.BitmapData","__loadFromBase64",0x743819aa,"openfl.display.BitmapData.__loadFromBase64","openfl/display/BitmapData.hx",3251,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_3267___loadFromBytes,"openfl.display.BitmapData","__loadFromBytes",0xb92428b0,"openfl.display.BitmapData.__loadFromBytes","openfl/display/BitmapData.hx",3267,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_3264___loadFromBytes,"openfl.display.BitmapData","__loadFromBytes",0xb92428b0,"openfl.display.BitmapData.__loadFromBytes","openfl/display/BitmapData.hx",3264,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_3286___loadFromFile,"openfl.display.BitmapData","__loadFromFile",0x8e551dd7,"openfl.display.BitmapData.__loadFromFile","openfl/display/BitmapData.hx",3286,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_3283___loadFromFile,"openfl.display.BitmapData","__loadFromFile",0x8e551dd7,"openfl.display.BitmapData.__loadFromFile","openfl/display/BitmapData.hx",3283,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_3296___resize,"openfl.display.BitmapData","__resize",0xd982a43f,"openfl.display.BitmapData.__resize","openfl/display/BitmapData.hx",3296,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_3307___setUVRect,"openfl.display.BitmapData","__setUVRect",0x4b14ffdc,"openfl.display.BitmapData.__setUVRect","openfl/display/BitmapData.hx",3307,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_3340___sync,"openfl.display.BitmapData","__sync",0x0b374be6,"openfl.display.BitmapData.__sync","openfl/display/BitmapData.hx",3340,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_3348___update,"openfl.display.BitmapData","__update",0x580cd054,"openfl.display.BitmapData.__update","openfl/display/BitmapData.hx",3348,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_3352___updateTransforms,"openfl.display.BitmapData","__updateTransforms",0xf11196fb,"openfl.display.BitmapData.__updateTransforms","openfl/display/BitmapData.hx",3352,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1198_fromBase64,"openfl.display.BitmapData","fromBase64",0x8e5a4284,"openfl.display.BitmapData.fromBase64","openfl/display/BitmapData.hx",1198,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1226_fromBytes,"openfl.display.BitmapData","fromBytes",0x062c5916,"openfl.display.BitmapData.fromBytes","openfl/display/BitmapData.hx",1226,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1274_fromFile,"openfl.display.BitmapData","fromFile",0xca5f7c31,"openfl.display.BitmapData.fromFile","openfl/display/BitmapData.hx",1274,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1296_fromImage,"openfl.display.BitmapData","fromImage",0x05fd7006,"openfl.display.BitmapData.fromImage","openfl/display/BitmapData.hx",1296,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1317_fromTexture,"openfl.display.BitmapData","fromTexture",0x71aada46,"openfl.display.BitmapData.fromTexture","openfl/display/BitmapData.hx",1317,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2460_loadFromBase64,"openfl.display.BitmapData","loadFromBase64",0x41c11dca,"openfl.display.BitmapData.loadFromBase64","openfl/display/BitmapData.hx",2460,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2458_loadFromBase64,"openfl.display.BitmapData","loadFromBase64",0x41c11dca,"openfl.display.BitmapData.loadFromBase64","openfl/display/BitmapData.hx",2458,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2484_loadFromBytes,"openfl.display.BitmapData","loadFromBytes",0x271f0890,"openfl.display.BitmapData.loadFromBytes","openfl/display/BitmapData.hx",2484,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2483_loadFromBytes,"openfl.display.BitmapData","loadFromBytes",0x271f0890,"openfl.display.BitmapData.loadFromBytes","openfl/display/BitmapData.hx",2483,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2513_loadFromFile,"openfl.display.BitmapData","loadFromFile",0x58ded9f7,"openfl.display.BitmapData.loadFromFile","openfl/display/BitmapData.hx",2513,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2511_loadFromFile,"openfl.display.BitmapData","loadFromFile",0x58ded9f7,"openfl.display.BitmapData.loadFromFile","openfl/display/BitmapData.hx",2511,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_124_boot,"openfl.display.BitmapData","boot",0xf053b1dd,"openfl.display.BitmapData.boot","openfl/display/BitmapData.hx",124,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_126_boot,"openfl.display.BitmapData","boot",0xf053b1dd,"openfl.display.BitmapData.boot","openfl/display/BitmapData.hx",126,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_127_boot,"openfl.display.BitmapData","boot",0xf053b1dd,"openfl.display.BitmapData.boot","openfl/display/BitmapData.hx",127,0xdd12d5b9)
-HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_131_boot,"openfl.display.BitmapData","boot",0xf053b1dd,"openfl.display.BitmapData.boot","openfl/display/BitmapData.hx",131,0xdd12d5b9)
+HX_DEFINE_STACK_FRAME(_hx_pos_e7567b6ca69cedca_125_new,"openfl.display.BitmapData","new",0x7e3e4115,"openfl.display.BitmapData.new","openfl/display/BitmapData.hx",125,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_204_applyFilter,"openfl.display.BitmapData","applyFilter",0xfbb98d7b,"openfl.display.BitmapData.applyFilter","openfl/display/BitmapData.hx",204,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_252_clone,"openfl.display.BitmapData","clone",0xea52db52,"openfl.display.BitmapData.clone","openfl/display/BitmapData.hx",252,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_291_colorTransform,"openfl.display.BitmapData","colorTransform",0xbfe3e8f4,"openfl.display.BitmapData.colorTransform","openfl/display/BitmapData.hx",291,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_301_compare,"openfl.display.BitmapData","compare",0x56d287da,"openfl.display.BitmapData.compare","openfl/display/BitmapData.hx",301,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_425_copyChannel,"openfl.display.BitmapData","copyChannel",0x5d702b43,"openfl.display.BitmapData.copyChannel","openfl/display/BitmapData.hx",425,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_453_copyPixels,"openfl.display.BitmapData","copyPixels",0x385c94ad,"openfl.display.BitmapData.copyPixels","openfl/display/BitmapData.hx",453,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_471_dispose,"openfl.display.BitmapData","dispose",0x8eb5efd4,"openfl.display.BitmapData.dispose","openfl/display/BitmapData.hx",471,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_512_disposeImage,"openfl.display.BitmapData","disposeImage",0x60a6bee7,"openfl.display.BitmapData.disposeImage","openfl/display/BitmapData.hx",512,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_517_draw,"openfl.display.BitmapData","draw",0xf1a859af,"openfl.display.BitmapData.draw","openfl/display/BitmapData.hx",517,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_652_drawWithQuality,"openfl.display.BitmapData","drawWithQuality",0xabf0f1ea,"openfl.display.BitmapData.drawWithQuality","openfl/display/BitmapData.hx",652,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_656_encode,"openfl.display.BitmapData","encode",0x09c32081,"openfl.display.BitmapData.encode","openfl/display/BitmapData.hx",656,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_694_fillRect,"openfl.display.BitmapData","fillRect",0x95912472,"openfl.display.BitmapData.fillRect","openfl/display/BitmapData.hx",694,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_698_floodFill,"openfl.display.BitmapData","floodFill",0xed95e9d6,"openfl.display.BitmapData.floodFill","openfl/display/BitmapData.hx",698,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_782_generateFilterRect,"openfl.display.BitmapData","generateFilterRect",0x1ef8cf7c,"openfl.display.BitmapData.generateFilterRect","openfl/display/BitmapData.hx",782,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_786_getIndexBuffer,"openfl.display.BitmapData","getIndexBuffer",0x8fe8ca27,"openfl.display.BitmapData.getIndexBuffer","openfl/display/BitmapData.hx",786,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_992_getVertexBuffer,"openfl.display.BitmapData","getVertexBuffer",0xd07f316f,"openfl.display.BitmapData.getVertexBuffer","openfl/display/BitmapData.hx",992,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1410_getColorBoundsRect,"openfl.display.BitmapData","getColorBoundsRect",0x21495071,"openfl.display.BitmapData.getColorBoundsRect","openfl/display/BitmapData.hx",1410,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1428_getPixel,"openfl.display.BitmapData","getPixel",0x4b52b53b,"openfl.display.BitmapData.getPixel","openfl/display/BitmapData.hx",1428,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1438_getPixel32,"openfl.display.BitmapData","getPixel32",0xcd56e69a,"openfl.display.BitmapData.getPixel32","openfl/display/BitmapData.hx",1438,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1448_getPixels,"openfl.display.BitmapData","getPixels",0x9d0bded8,"openfl.display.BitmapData.getPixels","openfl/display/BitmapData.hx",1448,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1463_getSurface,"openfl.display.BitmapData","getSurface",0xa2992c22,"openfl.display.BitmapData.getSurface","openfl/display/BitmapData.hx",1463,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1479_getTexture,"openfl.display.BitmapData","getTexture",0xe4308ed0,"openfl.display.BitmapData.getTexture","openfl/display/BitmapData.hx",1479,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1549_getVector,"openfl.display.BitmapData","getVector",0xa7bfa06e,"openfl.display.BitmapData.getVector","openfl/display/BitmapData.hx",1549,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1563_histogram,"openfl.display.BitmapData","histogram",0xf93f4519,"openfl.display.BitmapData.histogram","openfl/display/BitmapData.hx",1563,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1578_hitTest,"openfl.display.BitmapData","hitTest",0xb5e8cf7a,"openfl.display.BitmapData.hitTest","openfl/display/BitmapData.hx",1578,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1745_lock,"openfl.display.BitmapData","lock",0xf6efc996,"openfl.display.BitmapData.lock","openfl/display/BitmapData.hx",1745,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1749_merge,"openfl.display.BitmapData","merge",0xa7b66aad,"openfl.display.BitmapData.merge","openfl/display/BitmapData.hx",1749,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1765_noise,"openfl.display.BitmapData","noise",0x41b2578f,"openfl.display.BitmapData.noise","openfl/display/BitmapData.hx",1765,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1757_noise,"openfl.display.BitmapData","noise",0x41b2578f,"openfl.display.BitmapData.noise","openfl/display/BitmapData.hx",1757,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1815_paletteMap,"openfl.display.BitmapData","paletteMap",0xfc19eecc,"openfl.display.BitmapData.paletteMap","openfl/display/BitmapData.hx",1815,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1847_perlinNoise,"openfl.display.BitmapData","perlinNoise",0xc682321b,"openfl.display.BitmapData.perlinNoise","openfl/display/BitmapData.hx",1847,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1856_scroll,"openfl.display.BitmapData","scroll",0x57440678,"openfl.display.BitmapData.scroll","openfl/display/BitmapData.hx",1856,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1862_setPixel,"openfl.display.BitmapData","setPixel",0xf9b00eaf,"openfl.display.BitmapData.setPixel","openfl/display/BitmapData.hx",1862,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1870_setPixel32,"openfl.display.BitmapData","setPixel32",0xd0d4850e,"openfl.display.BitmapData.setPixel32","openfl/display/BitmapData.hx",1870,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1878_setPixels,"openfl.display.BitmapData","setPixels",0x805ccae4,"openfl.display.BitmapData.setPixels","openfl/display/BitmapData.hx",1878,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1890_setVector,"openfl.display.BitmapData","setVector",0x8b108c7a,"openfl.display.BitmapData.setVector","openfl/display/BitmapData.hx",1890,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1905_threshold,"openfl.display.BitmapData","threshold",0xc8af2a20,"openfl.display.BitmapData.threshold","openfl/display/BitmapData.hx",1905,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1925_unlock,"openfl.display.BitmapData","unlock",0x756bd12f,"openfl.display.BitmapData.unlock","openfl/display/BitmapData.hx",1925,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1928___applyAlpha,"openfl.display.BitmapData","__applyAlpha",0x0369eedb,"openfl.display.BitmapData.__applyAlpha","openfl/display/BitmapData.hx",1928,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1945___drawCairo,"openfl.display.BitmapData","__drawCairo",0x71da5c79,"openfl.display.BitmapData.__drawCairo","openfl/display/BitmapData.hx",1945,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1968___drawCanvas,"openfl.display.BitmapData","__drawCanvas",0x30879bc7,"openfl.display.BitmapData.__drawCanvas","openfl/display/BitmapData.hx",1968,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1986___drawGL,"openfl.display.BitmapData","__drawGL",0xb0ddbd74,"openfl.display.BitmapData.__drawGL","openfl/display/BitmapData.hx",1986,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2009___fillRect,"openfl.display.BitmapData","__fillRect",0x05dff852,"openfl.display.BitmapData.__fillRect","openfl/display/BitmapData.hx",2009,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2064___fromBase64,"openfl.display.BitmapData","__fromBase64",0xceedce64,"openfl.display.BitmapData.__fromBase64","openfl/display/BitmapData.hx",2064,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2072___fromBytes,"openfl.display.BitmapData","__fromBytes",0xdad6e936,"openfl.display.BitmapData.__fromBytes","openfl/display/BitmapData.hx",2072,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2085___fromFile,"openfl.display.BitmapData","__fromFile",0x3aae5011,"openfl.display.BitmapData.__fromFile","openfl/display/BitmapData.hx",2085,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2096___fromImage,"openfl.display.BitmapData","__fromImage",0xdaa80026,"openfl.display.BitmapData.__fromImage","openfl/display/BitmapData.hx",2096,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2119___getBounds,"openfl.display.BitmapData","__getBounds",0x4b2a0640,"openfl.display.BitmapData.__getBounds","openfl/display/BitmapData.hx",2119,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2157___loadFromBase64,"openfl.display.BitmapData","__loadFromBase64",0x743819aa,"openfl.display.BitmapData.__loadFromBase64","openfl/display/BitmapData.hx",2157,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2154___loadFromBase64,"openfl.display.BitmapData","__loadFromBase64",0x743819aa,"openfl.display.BitmapData.__loadFromBase64","openfl/display/BitmapData.hx",2154,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2170___loadFromBytes,"openfl.display.BitmapData","__loadFromBytes",0xb92428b0,"openfl.display.BitmapData.__loadFromBytes","openfl/display/BitmapData.hx",2170,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2167___loadFromBytes,"openfl.display.BitmapData","__loadFromBytes",0xb92428b0,"openfl.display.BitmapData.__loadFromBytes","openfl/display/BitmapData.hx",2167,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2189___loadFromFile,"openfl.display.BitmapData","__loadFromFile",0x8e551dd7,"openfl.display.BitmapData.__loadFromFile","openfl/display/BitmapData.hx",2189,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2186___loadFromFile,"openfl.display.BitmapData","__loadFromFile",0x8e551dd7,"openfl.display.BitmapData.__loadFromFile","openfl/display/BitmapData.hx",2186,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2199___renderCairo,"openfl.display.BitmapData","__renderCairo",0x87dae327,"openfl.display.BitmapData.__renderCairo","openfl/display/BitmapData.hx",2199,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2228___renderCairoMask,"openfl.display.BitmapData","__renderCairoMask",0x1a586fb3,"openfl.display.BitmapData.__renderCairoMask","openfl/display/BitmapData.hx",2228,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2231___renderCanvas,"openfl.display.BitmapData","__renderCanvas",0x5afced59,"openfl.display.BitmapData.__renderCanvas","openfl/display/BitmapData.hx",2231,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2249___renderCanvasMask,"openfl.display.BitmapData","__renderCanvasMask",0xf2507ae5,"openfl.display.BitmapData.__renderCanvasMask","openfl/display/BitmapData.hx",2249,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2251___renderDOM,"openfl.display.BitmapData","__renderDOM",0x360da361,"openfl.display.BitmapData.__renderDOM","openfl/display/BitmapData.hx",2251,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2254___renderGL,"openfl.display.BitmapData","__renderGL",0x4c025e06,"openfl.display.BitmapData.__renderGL","openfl/display/BitmapData.hx",2254,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2284___renderGLMask,"openfl.display.BitmapData","__renderGLMask",0xc7204612,"openfl.display.BitmapData.__renderGLMask","openfl/display/BitmapData.hx",2284,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2308___resize,"openfl.display.BitmapData","__resize",0xd982a43f,"openfl.display.BitmapData.__resize","openfl/display/BitmapData.hx",2308,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2319___setUVRect,"openfl.display.BitmapData","__setUVRect",0x4b14ffdc,"openfl.display.BitmapData.__setUVRect","openfl/display/BitmapData.hx",2319,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2352___sync,"openfl.display.BitmapData","__sync",0x0b374be6,"openfl.display.BitmapData.__sync","openfl/display/BitmapData.hx",2352,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2360___update,"openfl.display.BitmapData","__update",0x580cd054,"openfl.display.BitmapData.__update","openfl/display/BitmapData.hx",2360,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_2364___updateTransforms,"openfl.display.BitmapData","__updateTransforms",0xf11196fb,"openfl.display.BitmapData.__updateTransforms","openfl/display/BitmapData.hx",2364,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_707_fromBase64,"openfl.display.BitmapData","fromBase64",0x8e5a4284,"openfl.display.BitmapData.fromBase64","openfl/display/BitmapData.hx",707,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_720_fromBytes,"openfl.display.BitmapData","fromBytes",0x062c5916,"openfl.display.BitmapData.fromBytes","openfl/display/BitmapData.hx",720,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_745_fromFile,"openfl.display.BitmapData","fromFile",0xca5f7c31,"openfl.display.BitmapData.fromFile","openfl/display/BitmapData.hx",745,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_758_fromImage,"openfl.display.BitmapData","fromImage",0x05fd7006,"openfl.display.BitmapData.fromImage","openfl/display/BitmapData.hx",758,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_769_fromTexture,"openfl.display.BitmapData","fromTexture",0x71aada46,"openfl.display.BitmapData.fromTexture","openfl/display/BitmapData.hx",769,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1707_loadFromBase64,"openfl.display.BitmapData","loadFromBase64",0x41c11dca,"openfl.display.BitmapData.loadFromBase64","openfl/display/BitmapData.hx",1707,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1705_loadFromBase64,"openfl.display.BitmapData","loadFromBase64",0x41c11dca,"openfl.display.BitmapData.loadFromBase64","openfl/display/BitmapData.hx",1705,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1718_loadFromBytes,"openfl.display.BitmapData","loadFromBytes",0x271f0890,"openfl.display.BitmapData.loadFromBytes","openfl/display/BitmapData.hx",1718,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1717_loadFromBytes,"openfl.display.BitmapData","loadFromBytes",0x271f0890,"openfl.display.BitmapData.loadFromBytes","openfl/display/BitmapData.hx",1717,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1738_loadFromFile,"openfl.display.BitmapData","loadFromFile",0x58ded9f7,"openfl.display.BitmapData.loadFromFile","openfl/display/BitmapData.hx",1738,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_1736_loadFromFile,"openfl.display.BitmapData","loadFromFile",0x58ded9f7,"openfl.display.BitmapData.loadFromFile","openfl/display/BitmapData.hx",1736,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_70_boot,"openfl.display.BitmapData","boot",0xf053b1dd,"openfl.display.BitmapData.boot","openfl/display/BitmapData.hx",70,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_72_boot,"openfl.display.BitmapData","boot",0xf053b1dd,"openfl.display.BitmapData.boot","openfl/display/BitmapData.hx",72,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_73_boot,"openfl.display.BitmapData","boot",0xf053b1dd,"openfl.display.BitmapData.boot","openfl/display/BitmapData.hx",73,0xdd12d5b9)
+HX_LOCAL_STACK_FRAME(_hx_pos_e7567b6ca69cedca_77_boot,"openfl.display.BitmapData","boot",0xf053b1dd,"openfl.display.BitmapData.boot","openfl/display/BitmapData.hx",77,0xdd12d5b9)
 namespace openfl{
 namespace display{
 
 void BitmapData_obj::__construct(int width,int height,::hx::Null< bool >  __o_transparent,::hx::Null< int >  __o_fillColor){
             		bool transparent = __o_transparent.Default(true);
             		int fillColor = __o_fillColor.Default(-1);
-            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_240_new)
-HXLINE( 241)		this->_hx___drawableType = 0;
-HXLINE( 243)		this->transparent = transparent;
-HXLINE( 250)		if ((width < 0)) {
-HXLINE( 250)			width = 0;
+            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_125_new)
+HXLINE( 126)		this->transparent = transparent;
+HXLINE( 133)		if ((width < 0)) {
+HXLINE( 133)			width = 0;
             		}
-HXLINE( 251)		if ((height < 0)) {
-HXLINE( 251)			height = 0;
+HXLINE( 134)		if ((height < 0)) {
+HXLINE( 134)			height = 0;
             		}
-HXLINE( 253)		this->width = width;
-HXLINE( 254)		this->height = height;
-HXLINE( 255)		this->rect =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,0,0,width,height);
-HXLINE( 257)		this->_hx___textureWidth = width;
-HXLINE( 258)		this->_hx___textureHeight = height;
-HXLINE( 260)		bool _hx_tmp;
-HXDLIN( 260)		if ((width > 0)) {
-HXLINE( 260)			_hx_tmp = (height > 0);
+HXLINE( 136)		this->width = width;
+HXLINE( 137)		this->height = height;
+HXLINE( 138)		this->rect =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,0,0,width,height);
+HXLINE( 140)		this->_hx___textureWidth = width;
+HXLINE( 141)		this->_hx___textureHeight = height;
+HXLINE( 143)		bool _hx_tmp;
+HXDLIN( 143)		if ((width > 0)) {
+HXLINE( 143)			_hx_tmp = (height > 0);
             		}
             		else {
-HXLINE( 260)			_hx_tmp = false;
+HXLINE( 143)			_hx_tmp = false;
             		}
-HXDLIN( 260)		if (_hx_tmp) {
-HXLINE( 262)			if (transparent) {
-HXLINE( 264)				if (((fillColor & -16777216) == 0)) {
-HXLINE( 266)					fillColor = 0;
+HXDLIN( 143)		if (_hx_tmp) {
+HXLINE( 145)			if (transparent) {
+HXLINE( 147)				if (((fillColor & -16777216) == 0)) {
+HXLINE( 149)					fillColor = 0;
             				}
             			}
             			else {
-HXLINE( 271)				fillColor = (-16777216 | (fillColor & 16777215));
+HXLINE( 154)				fillColor = (-16777216 | (fillColor & 16777215));
             			}
-HXLINE( 274)			fillColor = ((fillColor << 8) | (::hx::UShr(fillColor,24) & 255));
-HXLINE( 278)			 ::Dynamic elements = ((width * height) * 4);
-HXDLIN( 278)			 ::haxe::io::Bytes buffer = null();
-HXDLIN( 278)			::cpp::VirtualArray array = null();
-HXDLIN( 278)			 ::openfl::_Vector::IntVector vector = null();
-HXDLIN( 278)			 ::lime::utils::ArrayBufferView view = null();
-HXDLIN( 278)			 ::Dynamic len = null();
-HXDLIN( 278)			 ::lime::utils::ArrayBufferView this1;
-HXDLIN( 278)			if (::hx::IsNotNull( elements )) {
-HXLINE( 278)				this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,elements,4);
+HXLINE( 157)			fillColor = ((fillColor << 8) | (::hx::UShr(fillColor,24) & 255));
+HXLINE( 161)			 ::Dynamic elements = ((width * height) * 4);
+HXDLIN( 161)			 ::haxe::io::Bytes buffer = null();
+HXDLIN( 161)			::cpp::VirtualArray array = null();
+HXDLIN( 161)			 ::openfl::_Vector::IntVector vector = null();
+HXDLIN( 161)			 ::lime::utils::ArrayBufferView view = null();
+HXDLIN( 161)			 ::Dynamic len = null();
+HXDLIN( 161)			 ::lime::utils::ArrayBufferView this1;
+HXDLIN( 161)			if (::hx::IsNotNull( elements )) {
+HXLINE( 161)				this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,elements,4);
             			}
             			else {
-HXLINE( 278)				if (::hx::IsNotNull( array )) {
-HXLINE( 278)					 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
-HXDLIN( 278)					_this->byteOffset = 0;
-HXDLIN( 278)					_this->length = array->get_length();
-HXDLIN( 278)					_this->byteLength = (_this->length * _this->bytesPerElement);
-HXDLIN( 278)					 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
-HXDLIN( 278)					_this->buffer = this2;
-HXDLIN( 278)					_this->copyFromArray(array,null());
-HXDLIN( 278)					this1 = _this;
+HXLINE( 161)				if (::hx::IsNotNull( array )) {
+HXLINE( 161)					 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
+HXDLIN( 161)					_this->byteOffset = 0;
+HXDLIN( 161)					_this->length = array->get_length();
+HXDLIN( 161)					_this->byteLength = (_this->length * _this->bytesPerElement);
+HXDLIN( 161)					 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
+HXDLIN( 161)					_this->buffer = this2;
+HXDLIN( 161)					_this->copyFromArray(array,null());
+HXDLIN( 161)					this1 = _this;
             				}
             				else {
-HXLINE( 278)					if (::hx::IsNotNull( vector )) {
-HXLINE( 278)						 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
-HXDLIN( 278)						::cpp::VirtualArray array = ( (::cpp::VirtualArray)(vector->__Field(HX_("__array",79,c6,ed,8f),::hx::paccDynamic)) );
-HXDLIN( 278)						_this->byteOffset = 0;
-HXDLIN( 278)						_this->length = array->get_length();
-HXDLIN( 278)						_this->byteLength = (_this->length * _this->bytesPerElement);
-HXDLIN( 278)						 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
-HXDLIN( 278)						_this->buffer = this2;
-HXDLIN( 278)						_this->copyFromArray(array,null());
-HXDLIN( 278)						this1 = _this;
+HXLINE( 161)					if (::hx::IsNotNull( vector )) {
+HXLINE( 161)						 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
+HXDLIN( 161)						::cpp::VirtualArray array = ( (::cpp::VirtualArray)(vector->__Field(HX_("__array",79,c6,ed,8f),::hx::paccDynamic)) );
+HXDLIN( 161)						_this->byteOffset = 0;
+HXDLIN( 161)						_this->length = array->get_length();
+HXDLIN( 161)						_this->byteLength = (_this->length * _this->bytesPerElement);
+HXDLIN( 161)						 ::haxe::io::Bytes this2 = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
+HXDLIN( 161)						_this->buffer = this2;
+HXDLIN( 161)						_this->copyFromArray(array,null());
+HXDLIN( 161)						this1 = _this;
             					}
             					else {
-HXLINE( 278)						if (::hx::IsNotNull( view )) {
-HXLINE( 278)							 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
-HXDLIN( 278)							 ::haxe::io::Bytes srcData = view->buffer;
-HXDLIN( 278)							int srcLength = view->length;
-HXDLIN( 278)							int srcByteOffset = view->byteOffset;
-HXDLIN( 278)							int srcElementSize = view->bytesPerElement;
-HXDLIN( 278)							int elementSize = _this->bytesPerElement;
-HXDLIN( 278)							if ((view->type == _this->type)) {
-HXLINE( 278)								int srcLength = srcData->length;
-HXDLIN( 278)								int cloneLength = (srcLength - srcByteOffset);
-HXDLIN( 278)								 ::haxe::io::Bytes this1 = ::haxe::io::Bytes_obj::alloc(cloneLength);
-HXDLIN( 278)								_this->buffer = this1;
-HXDLIN( 278)								_this->buffer->blit(0,srcData,srcByteOffset,cloneLength);
+HXLINE( 161)						if (::hx::IsNotNull( view )) {
+HXLINE( 161)							 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
+HXDLIN( 161)							 ::haxe::io::Bytes srcData = view->buffer;
+HXDLIN( 161)							int srcLength = view->length;
+HXDLIN( 161)							int srcByteOffset = view->byteOffset;
+HXDLIN( 161)							int srcElementSize = view->bytesPerElement;
+HXDLIN( 161)							int elementSize = _this->bytesPerElement;
+HXDLIN( 161)							if ((view->type == _this->type)) {
+HXLINE( 161)								int srcLength = srcData->length;
+HXDLIN( 161)								int cloneLength = (srcLength - srcByteOffset);
+HXDLIN( 161)								 ::haxe::io::Bytes this1 = ::haxe::io::Bytes_obj::alloc(cloneLength);
+HXDLIN( 161)								_this->buffer = this1;
+HXDLIN( 161)								_this->buffer->blit(0,srcData,srcByteOffset,cloneLength);
             							}
             							else {
-HXLINE( 278)								HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("unimplemented",09,2f,74,b4)));
+HXLINE( 161)								HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("unimplemented",09,2f,74,b4)));
             							}
-HXDLIN( 278)							_this->byteLength = (_this->bytesPerElement * srcLength);
-HXDLIN( 278)							_this->byteOffset = 0;
-HXDLIN( 278)							_this->length = srcLength;
-HXDLIN( 278)							this1 = _this;
+HXDLIN( 161)							_this->byteLength = (_this->bytesPerElement * srcLength);
+HXDLIN( 161)							_this->byteOffset = 0;
+HXDLIN( 161)							_this->length = srcLength;
+HXDLIN( 161)							this1 = _this;
             						}
             						else {
-HXLINE( 278)							if (::hx::IsNotNull( buffer )) {
-HXLINE( 278)								 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
-HXDLIN( 278)								int in_byteOffset = 0;
-HXDLIN( 278)								if ((in_byteOffset < 0)) {
-HXLINE( 278)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXLINE( 161)							if (::hx::IsNotNull( buffer )) {
+HXLINE( 161)								 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
+HXDLIN( 161)								int in_byteOffset = 0;
+HXDLIN( 161)								if ((in_byteOffset < 0)) {
+HXLINE( 161)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             								}
-HXDLIN( 278)								if ((::hx::Mod(in_byteOffset,_this->bytesPerElement) != 0)) {
-HXLINE( 278)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXDLIN( 161)								if ((::hx::Mod(in_byteOffset,_this->bytesPerElement) != 0)) {
+HXLINE( 161)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             								}
-HXDLIN( 278)								int bufferByteLength = buffer->length;
-HXDLIN( 278)								int elementSize = _this->bytesPerElement;
-HXDLIN( 278)								int newByteLength = bufferByteLength;
-HXDLIN( 278)								if (::hx::IsNull( len )) {
-HXLINE( 278)									newByteLength = (bufferByteLength - in_byteOffset);
-HXDLIN( 278)									if ((::hx::Mod(bufferByteLength,_this->bytesPerElement) != 0)) {
-HXLINE( 278)										HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXDLIN( 161)								int bufferByteLength = buffer->length;
+HXDLIN( 161)								int elementSize = _this->bytesPerElement;
+HXDLIN( 161)								int newByteLength = bufferByteLength;
+HXDLIN( 161)								if (::hx::IsNull( len )) {
+HXLINE( 161)									newByteLength = (bufferByteLength - in_byteOffset);
+HXDLIN( 161)									if ((::hx::Mod(bufferByteLength,_this->bytesPerElement) != 0)) {
+HXLINE( 161)										HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             									}
-HXDLIN( 278)									if ((newByteLength < 0)) {
-HXLINE( 278)										HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXDLIN( 161)									if ((newByteLength < 0)) {
+HXLINE( 161)										HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             									}
             								}
             								else {
-HXLINE( 278)									newByteLength = (( (int)(len) ) * _this->bytesPerElement);
-HXDLIN( 278)									int newRange = (in_byteOffset + newByteLength);
-HXDLIN( 278)									if ((newRange > bufferByteLength)) {
-HXLINE( 278)										HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
+HXLINE( 161)									newByteLength = (( (int)(len) ) * _this->bytesPerElement);
+HXDLIN( 161)									int newRange = (in_byteOffset + newByteLength);
+HXDLIN( 161)									if ((newRange > bufferByteLength)) {
+HXLINE( 161)										HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::lime::utils::TAError_obj::RangeError_dyn()));
             									}
             								}
-HXDLIN( 278)								_this->buffer = buffer;
-HXDLIN( 278)								_this->byteOffset = in_byteOffset;
-HXDLIN( 278)								_this->byteLength = newByteLength;
-HXDLIN( 278)								_this->length = ::Std_obj::_hx_int((( (Float)(newByteLength) ) / ( (Float)(_this->bytesPerElement) )));
-HXDLIN( 278)								this1 = _this;
+HXDLIN( 161)								_this->buffer = buffer;
+HXDLIN( 161)								_this->byteOffset = in_byteOffset;
+HXDLIN( 161)								_this->byteLength = newByteLength;
+HXDLIN( 161)								_this->length = ::Std_obj::_hx_int((( (Float)(newByteLength) ) / ( (Float)(_this->bytesPerElement) )));
+HXDLIN( 161)								this1 = _this;
             							}
             							else {
-HXLINE( 278)								HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("Invalid constructor arguments for UInt8Array",6b,44,d5,85)));
+HXLINE( 161)								HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("Invalid constructor arguments for UInt8Array",6b,44,d5,85)));
             							}
             						}
             					}
             				}
             			}
-HXDLIN( 278)			 ::lime::graphics::ImageBuffer buffer1 =  ::lime::graphics::ImageBuffer_obj::__alloc( HX_CTX ,this1,width,height,null(),null());
-HXLINE( 279)			buffer1->format = 2;
-HXLINE( 280)			buffer1->premultiplied = true;
-HXLINE( 282)			this->image =  ::lime::graphics::Image_obj::__alloc( HX_CTX ,buffer1,0,0,width,height,null(),null());
-HXLINE( 284)			if ((fillColor != 0)) {
-HXLINE( 286)				 ::lime::graphics::Image _hx_tmp = this->image;
-HXDLIN( 286)				_hx_tmp->fillRect(this->image->get_rect(),fillColor,null());
+HXDLIN( 161)			 ::lime::graphics::ImageBuffer buffer1 =  ::lime::graphics::ImageBuffer_obj::__alloc( HX_CTX ,this1,width,height,null(),null());
+HXLINE( 162)			buffer1->format = 2;
+HXLINE( 163)			buffer1->premultiplied = true;
+HXLINE( 165)			this->image =  ::lime::graphics::Image_obj::__alloc( HX_CTX ,buffer1,0,0,width,height,null(),null());
+HXLINE( 167)			if ((fillColor != 0)) {
+HXLINE( 169)				 ::lime::graphics::Image _hx_tmp = this->image;
+HXDLIN( 169)				_hx_tmp->fillRect(this->image->get_rect(),fillColor,null());
             			}
-HXLINE( 306)			this->image->set_transparent(transparent);
-HXLINE( 309)			this->_hx___isValid = true;
-HXLINE( 310)			this->readable = true;
+HXLINE( 189)			this->image->set_transparent(transparent);
+HXLINE( 192)			this->_hx___isValid = true;
+HXLINE( 193)			this->readable = true;
             		}
-HXLINE( 313)		this->_hx___renderTransform =  ::openfl::geom::Matrix_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-HXLINE( 314)		this->_hx___worldAlpha = ( (Float)(1) );
-HXLINE( 315)		this->_hx___worldTransform =  ::openfl::geom::Matrix_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-HXLINE( 316)		this->_hx___worldColorTransform =  ::openfl::geom::ColorTransform_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null(),null(),null());
-HXLINE( 317)		this->_hx___renderable = true;
+HXLINE( 196)		this->_hx___renderTransform =  ::openfl::geom::Matrix_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE( 197)		this->_hx___worldAlpha = ( (Float)(1) );
+HXLINE( 198)		this->_hx___worldTransform =  ::openfl::geom::Matrix_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE( 199)		this->_hx___worldColorTransform =  ::openfl::geom::ColorTransform_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null(),null(),null());
+HXLINE( 200)		this->_hx___renderable = true;
             	}
 
 Dynamic BitmapData_obj::__CreateEmpty() { return new BitmapData_obj; }
@@ -450,6 +474,13 @@ bool BitmapData_obj::_hx_isInstanceOf(int inClassId) {
 
 static ::openfl::display::IBitmapDrawable_obj _hx_openfl_display_BitmapData__hx_openfl_display_IBitmapDrawable= {
 	( void (::hx::Object::*)( ::openfl::geom::Rectangle, ::openfl::geom::Matrix))&::openfl::display::BitmapData_obj::_hx___getBounds,
+	( void (::hx::Object::*)( ::openfl::display::CairoRenderer))&::openfl::display::BitmapData_obj::_hx___renderCairo,
+	( void (::hx::Object::*)( ::openfl::display::CairoRenderer))&::openfl::display::BitmapData_obj::_hx___renderCairoMask,
+	( void (::hx::Object::*)( ::openfl::display::CanvasRenderer))&::openfl::display::BitmapData_obj::_hx___renderCanvas,
+	( void (::hx::Object::*)( ::openfl::display::CanvasRenderer))&::openfl::display::BitmapData_obj::_hx___renderCanvasMask,
+	( void (::hx::Object::*)( ::openfl::display::DOMRenderer))&::openfl::display::BitmapData_obj::_hx___renderDOM,
+	( void (::hx::Object::*)( ::openfl::display::OpenGLRenderer))&::openfl::display::BitmapData_obj::_hx___renderGL,
+	( void (::hx::Object::*)( ::openfl::display::OpenGLRenderer))&::openfl::display::BitmapData_obj::_hx___renderGLMask,
 	( void (::hx::Object::*)(bool,bool))&::openfl::display::BitmapData_obj::_hx___update,
 	( void (::hx::Object::*)( ::openfl::geom::Matrix))&::openfl::display::BitmapData_obj::_hx___updateTransforms,
 };
@@ -466,333 +497,333 @@ void *BitmapData_obj::_hx_getInterface(int inHash) {
 }
 
 void BitmapData_obj::applyFilter( ::openfl::display::BitmapData sourceBitmapData, ::openfl::geom::Rectangle sourceRect, ::openfl::geom::Point destPoint, ::openfl::filters::BitmapFilter filter){
-            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_346_applyFilter)
-HXLINE( 347)		bool _hx_tmp;
-HXDLIN( 347)		bool _hx_tmp1;
-HXDLIN( 347)		if (this->readable) {
-HXLINE( 347)			_hx_tmp1 = ::hx::IsNull( sourceBitmapData );
+            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_204_applyFilter)
+HXLINE( 205)		bool _hx_tmp;
+HXDLIN( 205)		bool _hx_tmp1;
+HXDLIN( 205)		if (this->readable) {
+HXLINE( 205)			_hx_tmp1 = ::hx::IsNull( sourceBitmapData );
             		}
             		else {
-HXLINE( 347)			_hx_tmp1 = true;
+HXLINE( 205)			_hx_tmp1 = true;
             		}
-HXDLIN( 347)		if (!(_hx_tmp1)) {
-HXLINE( 347)			_hx_tmp = !(sourceBitmapData->readable);
-            		}
-            		else {
-HXLINE( 347)			_hx_tmp = true;
-            		}
-HXDLIN( 347)		if (_hx_tmp) {
-HXLINE( 347)			return;
-            		}
-HXLINE( 351)		bool needSecondBitmapData = filter->_hx___needSecondBitmapData;
-HXLINE( 352)		bool needCopyOfOriginal = filter->_hx___preserveObject;
-HXLINE( 354)		 ::openfl::display::BitmapData bitmapData2 = null();
-HXLINE( 355)		 ::openfl::display::BitmapData bitmapData3 = null();
-HXLINE( 357)		if (needSecondBitmapData) {
-HXLINE( 359)			bitmapData2 =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,this->width,this->height,true,0);
+HXDLIN( 205)		if (!(_hx_tmp1)) {
+HXLINE( 205)			_hx_tmp = !(sourceBitmapData->readable);
             		}
             		else {
-HXLINE( 363)			bitmapData2 = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 205)			_hx_tmp = true;
             		}
-HXLINE( 366)		if (needCopyOfOriginal) {
-HXLINE( 368)			bitmapData3 =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,this->width,this->height,true,0);
+HXDLIN( 205)		if (_hx_tmp) {
+HXLINE( 205)			return;
             		}
-HXLINE( 371)		if (filter->_hx___preserveObject) {
-HXLINE( 373)			bitmapData3->copyPixels(::hx::ObjectPtr<OBJ_>(this),this->rect,destPoint,null(),null(),null());
-            		}
-HXLINE( 376)		 ::openfl::display::BitmapData lastBitmap = filter->_hx___applyFilter(bitmapData2,::hx::ObjectPtr<OBJ_>(this),sourceRect,destPoint);
-HXLINE( 378)		if (filter->_hx___preserveObject) {
-HXLINE( 380)			lastBitmap->draw(bitmapData3,null(),null(),null(),null(),null());
-            		}
-HXLINE( 383)		bool _hx_tmp2;
-HXDLIN( 383)		if (needSecondBitmapData) {
-HXLINE( 383)			_hx_tmp2 = ::hx::IsEq( lastBitmap,bitmapData2 );
+HXLINE( 209)		bool needSecondBitmapData = filter->_hx___needSecondBitmapData;
+HXLINE( 210)		bool needCopyOfOriginal = filter->_hx___preserveObject;
+HXLINE( 212)		 ::openfl::display::BitmapData bitmapData2 = null();
+HXLINE( 213)		 ::openfl::display::BitmapData bitmapData3 = null();
+HXLINE( 215)		if (needSecondBitmapData) {
+HXLINE( 217)			bitmapData2 =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,this->width,this->height,true,0);
             		}
             		else {
-HXLINE( 383)			_hx_tmp2 = false;
+HXLINE( 221)			bitmapData2 = ::hx::ObjectPtr<OBJ_>(this);
             		}
-HXDLIN( 383)		if (_hx_tmp2) {
-HXLINE( 385)			bitmapData2->image->version = this->image->version;
-HXLINE( 386)			this->image = bitmapData2->image;
+HXLINE( 224)		if (needCopyOfOriginal) {
+HXLINE( 226)			bitmapData3 =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,this->width,this->height,true,0);
             		}
-HXLINE( 389)		this->image->dirty = true;
-HXLINE( 390)		this->image->version++;
+HXLINE( 229)		if (filter->_hx___preserveObject) {
+HXLINE( 231)			bitmapData3->copyPixels(::hx::ObjectPtr<OBJ_>(this),this->rect,destPoint,null(),null(),null());
+            		}
+HXLINE( 234)		 ::openfl::display::BitmapData lastBitmap = filter->_hx___applyFilter(bitmapData2,::hx::ObjectPtr<OBJ_>(this),sourceRect,destPoint);
+HXLINE( 236)		if (filter->_hx___preserveObject) {
+HXLINE( 238)			lastBitmap->draw(bitmapData3,null(),null(),null(),null(),null());
+            		}
+HXLINE( 241)		bool _hx_tmp2;
+HXDLIN( 241)		if (needSecondBitmapData) {
+HXLINE( 241)			_hx_tmp2 = ::hx::IsEq( lastBitmap,bitmapData2 );
+            		}
+            		else {
+HXLINE( 241)			_hx_tmp2 = false;
+            		}
+HXDLIN( 241)		if (_hx_tmp2) {
+HXLINE( 243)			bitmapData2->image->version = this->image->version;
+HXLINE( 244)			this->image = bitmapData2->image;
+            		}
+HXLINE( 247)		this->image->dirty = true;
+HXLINE( 248)		this->image->version++;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC4(BitmapData_obj,applyFilter,(void))
 
  ::openfl::display::BitmapData BitmapData_obj::clone(){
-            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_398_clone)
-HXLINE( 400)		 ::openfl::display::BitmapData bitmapData;
-HXLINE( 402)		if (!(this->_hx___isValid)) {
-HXLINE( 404)			bitmapData =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,this->width,this->height,this->transparent,0);
+            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_252_clone)
+HXLINE( 254)		 ::openfl::display::BitmapData bitmapData;
+HXLINE( 256)		if (!(this->_hx___isValid)) {
+HXLINE( 258)			bitmapData =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,this->width,this->height,this->transparent,0);
             		}
             		else {
-HXLINE( 406)			bool _hx_tmp;
-HXDLIN( 406)			if (!(this->readable)) {
-HXLINE( 406)				_hx_tmp = ::hx::IsNull( this->image );
+HXLINE( 260)			bool _hx_tmp;
+HXDLIN( 260)			if (!(this->readable)) {
+HXLINE( 260)				_hx_tmp = ::hx::IsNull( this->image );
             			}
             			else {
-HXLINE( 406)				_hx_tmp = false;
+HXLINE( 260)				_hx_tmp = false;
             			}
-HXDLIN( 406)			if (_hx_tmp) {
-HXLINE( 408)				bitmapData =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,0,0,this->transparent,0);
-HXLINE( 410)				bitmapData->width = this->width;
-HXLINE( 411)				bitmapData->height = this->height;
-HXLINE( 412)				bitmapData->_hx___textureWidth = this->_hx___textureWidth;
-HXLINE( 413)				bitmapData->_hx___textureHeight = this->_hx___textureHeight;
-HXLINE( 414)				bitmapData->rect->copyFrom(this->rect);
-HXLINE( 416)				bitmapData->_hx___framebuffer = this->_hx___framebuffer;
-HXLINE( 417)				bitmapData->_hx___framebufferContext = this->_hx___framebufferContext;
-HXLINE( 418)				bitmapData->_hx___texture = this->_hx___texture;
-HXLINE( 419)				bitmapData->_hx___textureContext = this->_hx___textureContext;
-HXLINE( 420)				bitmapData->_hx___isValid = true;
+HXDLIN( 260)			if (_hx_tmp) {
+HXLINE( 262)				bitmapData =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,0,0,this->transparent,0);
+HXLINE( 264)				bitmapData->width = this->width;
+HXLINE( 265)				bitmapData->height = this->height;
+HXLINE( 266)				bitmapData->_hx___textureWidth = this->_hx___textureWidth;
+HXLINE( 267)				bitmapData->_hx___textureHeight = this->_hx___textureHeight;
+HXLINE( 268)				bitmapData->rect->copyFrom(this->rect);
+HXLINE( 270)				bitmapData->_hx___framebuffer = this->_hx___framebuffer;
+HXLINE( 271)				bitmapData->_hx___framebufferContext = this->_hx___framebufferContext;
+HXLINE( 272)				bitmapData->_hx___texture = this->_hx___texture;
+HXLINE( 273)				bitmapData->_hx___textureContext = this->_hx___textureContext;
+HXLINE( 274)				bitmapData->_hx___isValid = true;
             			}
             			else {
-HXLINE( 424)				 ::lime::graphics::Image bitmapData1 = this->image->clone();
-HXDLIN( 424)				bitmapData = ::openfl::display::BitmapData_obj::fromImage(bitmapData1,this->transparent);
+HXLINE( 278)				 ::lime::graphics::Image bitmapData1 = this->image->clone();
+HXDLIN( 278)				bitmapData = ::openfl::display::BitmapData_obj::fromImage(bitmapData1,this->transparent);
             			}
             		}
-HXLINE( 427)		bitmapData->_hx___worldTransform->copyFrom(this->_hx___worldTransform);
-HXLINE( 428)		bitmapData->_hx___renderTransform->copyFrom(this->_hx___renderTransform);
-HXLINE( 430)		return bitmapData;
+HXLINE( 281)		bitmapData->_hx___worldTransform->copyFrom(this->_hx___worldTransform);
+HXLINE( 282)		bitmapData->_hx___renderTransform->copyFrom(this->_hx___renderTransform);
+HXLINE( 284)		return bitmapData;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(BitmapData_obj,clone,return )
 
 void BitmapData_obj::colorTransform( ::openfl::geom::Rectangle rect, ::openfl::geom::ColorTransform colorTransform){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_444_colorTransform)
-HXLINE( 445)		if (!(this->readable)) {
-HXLINE( 445)			return;
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_291_colorTransform)
+HXLINE( 292)		if (!(this->readable)) {
+HXLINE( 292)			return;
             		}
-HXLINE( 448)		 ::lime::graphics::Image _hx_tmp = this->image;
-HXDLIN( 448)		 ::lime::math::Rectangle _hx_tmp1 = rect->_hx___toLimeRectangle();
-HXDLIN( 448)		_hx_tmp->colorTransform(_hx_tmp1,colorTransform->_hx___toLimeColorMatrix());
+HXLINE( 295)		 ::lime::graphics::Image _hx_tmp = this->image;
+HXDLIN( 295)		 ::lime::math::Rectangle _hx_tmp1 = rect->_hx___toLimeRectangle();
+HXDLIN( 295)		_hx_tmp->colorTransform(_hx_tmp1,colorTransform->_hx___toLimeColorMatrix());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(BitmapData_obj,colorTransform,(void))
 
  ::Dynamic BitmapData_obj::compare( ::openfl::display::BitmapData otherBitmapData){
-            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_464_compare)
-HXLINE( 466)		if (::hx::IsEq( otherBitmapData,::hx::ObjectPtr<OBJ_>(this) )) {
-HXLINE( 468)			return 0;
+            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_301_compare)
+HXLINE( 303)		if (::hx::IsEq( otherBitmapData,::hx::ObjectPtr<OBJ_>(this) )) {
+HXLINE( 305)			return 0;
             		}
             		else {
-HXLINE( 470)			if (::hx::IsNull( otherBitmapData )) {
-HXLINE( 472)				return -1;
+HXLINE( 307)			if (::hx::IsNull( otherBitmapData )) {
+HXLINE( 309)				return -1;
             			}
             			else {
-HXLINE( 474)				bool _hx_tmp;
-HXDLIN( 474)				if ((this->readable != false)) {
-HXLINE( 474)					_hx_tmp = (otherBitmapData->readable == false);
+HXLINE( 311)				bool _hx_tmp;
+HXDLIN( 311)				if ((this->readable != false)) {
+HXLINE( 311)					_hx_tmp = (otherBitmapData->readable == false);
             				}
             				else {
-HXLINE( 474)					_hx_tmp = true;
+HXLINE( 311)					_hx_tmp = true;
             				}
-HXDLIN( 474)				if (_hx_tmp) {
-HXLINE( 476)					return -2;
+HXDLIN( 311)				if (_hx_tmp) {
+HXLINE( 313)					return -2;
             				}
             				else {
-HXLINE( 478)					if ((this->width != otherBitmapData->width)) {
-HXLINE( 480)						return -3;
+HXLINE( 315)					if ((this->width != otherBitmapData->width)) {
+HXLINE( 317)						return -3;
             					}
             					else {
-HXLINE( 482)						if ((this->height != otherBitmapData->height)) {
-HXLINE( 484)							return -4;
+HXLINE( 319)						if ((this->height != otherBitmapData->height)) {
+HXLINE( 321)							return -4;
             						}
             					}
             				}
             			}
             		}
-HXLINE( 487)		bool _hx_tmp;
-HXDLIN( 487)		bool _hx_tmp1;
-HXDLIN( 487)		if (::hx::IsNotNull( this->image )) {
-HXLINE( 487)			_hx_tmp1 = ::hx::IsNotNull( otherBitmapData->image );
+HXLINE( 324)		bool _hx_tmp;
+HXDLIN( 324)		bool _hx_tmp1;
+HXDLIN( 324)		if (::hx::IsNotNull( this->image )) {
+HXLINE( 324)			_hx_tmp1 = ::hx::IsNotNull( otherBitmapData->image );
             		}
             		else {
-HXLINE( 487)			_hx_tmp1 = false;
+HXLINE( 324)			_hx_tmp1 = false;
             		}
-HXDLIN( 487)		if (_hx_tmp1) {
-HXLINE( 487)			int _hx_tmp1 = this->image->get_format();
-HXDLIN( 487)			_hx_tmp = (_hx_tmp1 == otherBitmapData->image->get_format());
+HXDLIN( 324)		if (_hx_tmp1) {
+HXLINE( 324)			int _hx_tmp1 = this->image->get_format();
+HXDLIN( 324)			_hx_tmp = (_hx_tmp1 == otherBitmapData->image->get_format());
             		}
             		else {
-HXLINE( 487)			_hx_tmp = false;
+HXLINE( 324)			_hx_tmp = false;
             		}
-HXDLIN( 487)		if (_hx_tmp) {
-HXLINE( 489)			 ::lime::utils::ArrayBufferView bytes = this->image->get_data();
-HXLINE( 490)			 ::lime::utils::ArrayBufferView otherBytes = otherBitmapData->image->get_data();
-HXLINE( 491)			bool equal = true;
-HXLINE( 493)			{
-HXLINE( 493)				int _g = 0;
-HXDLIN( 493)				int _g1 = bytes->length;
-HXDLIN( 493)				while((_g < _g1)){
-HXLINE( 493)					_g = (_g + 1);
-HXDLIN( 493)					int i = (_g - 1);
-HXLINE( 495)					int a = ( (int)(( ::__hxcpp_memory_get_byte(bytes->buffer->b,(bytes->byteOffset + i)) & 255)) );
-HXDLIN( 495)					if (::hx::IsNotEq( a,( ::__hxcpp_memory_get_byte(otherBytes->buffer->b,(otherBytes->byteOffset + i)) & 255) )) {
-HXLINE( 497)						equal = false;
-HXLINE( 498)						goto _hx_goto_4;
+HXDLIN( 324)		if (_hx_tmp) {
+HXLINE( 326)			 ::lime::utils::ArrayBufferView bytes = this->image->get_data();
+HXLINE( 327)			 ::lime::utils::ArrayBufferView otherBytes = otherBitmapData->image->get_data();
+HXLINE( 328)			bool equal = true;
+HXLINE( 330)			{
+HXLINE( 330)				int _g = 0;
+HXDLIN( 330)				int _g1 = bytes->length;
+HXDLIN( 330)				while((_g < _g1)){
+HXLINE( 330)					_g = (_g + 1);
+HXDLIN( 330)					int i = (_g - 1);
+HXLINE( 332)					int a = ( (int)(( ::__hxcpp_memory_get_byte(bytes->buffer->b,(bytes->byteOffset + i)) & 255)) );
+HXDLIN( 332)					if (::hx::IsNotEq( a,( ::__hxcpp_memory_get_byte(otherBytes->buffer->b,(otherBytes->byteOffset + i)) & 255) )) {
+HXLINE( 334)						equal = false;
+HXLINE( 335)						goto _hx_goto_4;
             					}
             				}
             				_hx_goto_4:;
             			}
-HXLINE( 502)			if (equal) {
-HXLINE( 504)				return 0;
+HXLINE( 339)			if (equal) {
+HXLINE( 341)				return 0;
             			}
             		}
-HXLINE( 508)		 ::openfl::display::BitmapData bitmapData = null();
-HXLINE( 509)		bool foundDifference;
-HXDLIN( 509)		int pixel;
-HXDLIN( 509)		int otherPixel;
-HXDLIN( 509)		int comparePixel;
-HXDLIN( 509)		int r;
-HXDLIN( 509)		int g;
-HXDLIN( 509)		int b;
-HXDLIN( 509)		int a;
-HXLINE( 518)		{
-HXLINE( 518)			int _g = 0;
-HXDLIN( 518)			int _g1 = this->height;
-HXDLIN( 518)			while((_g < _g1)){
-HXLINE( 518)				_g = (_g + 1);
-HXDLIN( 518)				int y = (_g - 1);
-HXLINE( 520)				{
-HXLINE( 520)					int _g1 = 0;
-HXDLIN( 520)					int _g2 = this->width;
-HXDLIN( 520)					while((_g1 < _g2)){
-HXLINE( 520)						_g1 = (_g1 + 1);
-HXDLIN( 520)						int x = (_g1 - 1);
-HXLINE( 522)						foundDifference = false;
-HXLINE( 524)						pixel = this->getPixel32(x,y);
-HXLINE( 525)						otherPixel = otherBitmapData->getPixel32(x,y);
-HXLINE( 526)						comparePixel = 0;
-HXLINE( 528)						if ((pixel != otherPixel)) {
-HXLINE( 530)							r = ((::hx::UShr(pixel,16) & 255) - (::hx::UShr(otherPixel,16) & 255));
-HXLINE( 531)							g = ((::hx::UShr(pixel,8) & 255) - (::hx::UShr(otherPixel,8) & 255));
-HXLINE( 532)							b = ((pixel & 255) - (otherPixel & 255));
-HXLINE( 534)							if ((r < 0)) {
-HXLINE( 534)								r = (r * -1);
+HXLINE( 345)		 ::openfl::display::BitmapData bitmapData = null();
+HXLINE( 346)		bool foundDifference;
+HXDLIN( 346)		int pixel;
+HXDLIN( 346)		int otherPixel;
+HXDLIN( 346)		int comparePixel;
+HXDLIN( 346)		int r;
+HXDLIN( 346)		int g;
+HXDLIN( 346)		int b;
+HXDLIN( 346)		int a;
+HXLINE( 355)		{
+HXLINE( 355)			int _g = 0;
+HXDLIN( 355)			int _g1 = this->height;
+HXDLIN( 355)			while((_g < _g1)){
+HXLINE( 355)				_g = (_g + 1);
+HXDLIN( 355)				int y = (_g - 1);
+HXLINE( 357)				{
+HXLINE( 357)					int _g1 = 0;
+HXDLIN( 357)					int _g2 = this->width;
+HXDLIN( 357)					while((_g1 < _g2)){
+HXLINE( 357)						_g1 = (_g1 + 1);
+HXDLIN( 357)						int x = (_g1 - 1);
+HXLINE( 359)						foundDifference = false;
+HXLINE( 361)						pixel = this->getPixel32(x,y);
+HXLINE( 362)						otherPixel = otherBitmapData->getPixel32(x,y);
+HXLINE( 363)						comparePixel = 0;
+HXLINE( 365)						if ((pixel != otherPixel)) {
+HXLINE( 367)							r = ((::hx::UShr(pixel,16) & 255) - (::hx::UShr(otherPixel,16) & 255));
+HXLINE( 368)							g = ((::hx::UShr(pixel,8) & 255) - (::hx::UShr(otherPixel,8) & 255));
+HXLINE( 369)							b = ((pixel & 255) - (otherPixel & 255));
+HXLINE( 371)							if ((r < 0)) {
+HXLINE( 371)								r = (r * -1);
             							}
-HXLINE( 535)							if ((g < 0)) {
-HXLINE( 535)								g = (g * -1);
+HXLINE( 372)							if ((g < 0)) {
+HXLINE( 372)								g = (g * -1);
             							}
-HXLINE( 536)							if ((b < 0)) {
-HXLINE( 536)								b = (b * -1);
+HXLINE( 373)							if ((b < 0)) {
+HXLINE( 373)								b = (b * -1);
             							}
-HXLINE( 538)							bool _hx_tmp;
-HXDLIN( 538)							bool _hx_tmp1;
-HXDLIN( 538)							if ((r == 0)) {
-HXLINE( 538)								_hx_tmp1 = (g == 0);
-            							}
-            							else {
-HXLINE( 538)								_hx_tmp1 = false;
-            							}
-HXDLIN( 538)							if (_hx_tmp1) {
-HXLINE( 538)								_hx_tmp = (b == 0);
+HXLINE( 375)							bool _hx_tmp;
+HXDLIN( 375)							bool _hx_tmp1;
+HXDLIN( 375)							if ((r == 0)) {
+HXLINE( 375)								_hx_tmp1 = (g == 0);
             							}
             							else {
-HXLINE( 538)								_hx_tmp = false;
+HXLINE( 375)								_hx_tmp1 = false;
             							}
-HXDLIN( 538)							if (_hx_tmp) {
-HXLINE( 540)								a = ((::hx::UShr(pixel,24) & 255) - (::hx::UShr(otherPixel,24) & 255));
-HXLINE( 542)								if ((a != 0)) {
-HXLINE( 544)									comparePixel = ((((((::hx::UShr(comparePixel,24) & 255) & 255) << 24) | 16711680) | (((::hx::UShr(comparePixel,8) & 255) & 255) << 8)) | ((comparePixel & 255) & 255));
-HXLINE( 545)									comparePixel = ((((((::hx::UShr(comparePixel,24) & 255) & 255) << 24) | (((::hx::UShr(comparePixel,16) & 255) & 255) << 16)) | 65280) | ((comparePixel & 255) & 255));
-HXLINE( 546)									comparePixel = ((((((::hx::UShr(comparePixel,24) & 255) & 255) << 24) | (((::hx::UShr(comparePixel,16) & 255) & 255) << 16)) | (((::hx::UShr(comparePixel,8) & 255) & 255) << 8)) | 255);
-HXLINE( 547)									comparePixel = (((((a & 255) << 24) | (((::hx::UShr(comparePixel,16) & 255) & 255) << 16)) | (((::hx::UShr(comparePixel,8) & 255) & 255) << 8)) | ((comparePixel & 255) & 255));
-HXLINE( 549)									foundDifference = true;
+HXDLIN( 375)							if (_hx_tmp1) {
+HXLINE( 375)								_hx_tmp = (b == 0);
+            							}
+            							else {
+HXLINE( 375)								_hx_tmp = false;
+            							}
+HXDLIN( 375)							if (_hx_tmp) {
+HXLINE( 377)								a = ((::hx::UShr(pixel,24) & 255) - (::hx::UShr(otherPixel,24) & 255));
+HXLINE( 379)								if ((a != 0)) {
+HXLINE( 381)									comparePixel = ((((((::hx::UShr(comparePixel,24) & 255) & 255) << 24) | 16711680) | (((::hx::UShr(comparePixel,8) & 255) & 255) << 8)) | ((comparePixel & 255) & 255));
+HXLINE( 382)									comparePixel = ((((((::hx::UShr(comparePixel,24) & 255) & 255) << 24) | (((::hx::UShr(comparePixel,16) & 255) & 255) << 16)) | 65280) | ((comparePixel & 255) & 255));
+HXLINE( 383)									comparePixel = ((((((::hx::UShr(comparePixel,24) & 255) & 255) << 24) | (((::hx::UShr(comparePixel,16) & 255) & 255) << 16)) | (((::hx::UShr(comparePixel,8) & 255) & 255) << 8)) | 255);
+HXLINE( 384)									comparePixel = (((((a & 255) << 24) | (((::hx::UShr(comparePixel,16) & 255) & 255) << 16)) | (((::hx::UShr(comparePixel,8) & 255) & 255) << 8)) | ((comparePixel & 255) & 255));
+HXLINE( 386)									foundDifference = true;
             								}
             							}
             							else {
-HXLINE( 554)								comparePixel = ((((((::hx::UShr(comparePixel,24) & 255) & 255) << 24) | ((r & 255) << 16)) | (((::hx::UShr(comparePixel,8) & 255) & 255) << 8)) | ((comparePixel & 255) & 255));
-HXLINE( 555)								comparePixel = ((((((::hx::UShr(comparePixel,24) & 255) & 255) << 24) | (((::hx::UShr(comparePixel,16) & 255) & 255) << 16)) | ((g & 255) << 8)) | ((comparePixel & 255) & 255));
-HXLINE( 556)								comparePixel = ((((((::hx::UShr(comparePixel,24) & 255) & 255) << 24) | (((::hx::UShr(comparePixel,16) & 255) & 255) << 16)) | (((::hx::UShr(comparePixel,8) & 255) & 255) << 8)) | (b & 255));
-HXLINE( 557)								comparePixel = (((-16777216 | (((::hx::UShr(comparePixel,16) & 255) & 255) << 16)) | (((::hx::UShr(comparePixel,8) & 255) & 255) << 8)) | ((comparePixel & 255) & 255));
-HXLINE( 559)								foundDifference = true;
+HXLINE( 391)								comparePixel = ((((((::hx::UShr(comparePixel,24) & 255) & 255) << 24) | ((r & 255) << 16)) | (((::hx::UShr(comparePixel,8) & 255) & 255) << 8)) | ((comparePixel & 255) & 255));
+HXLINE( 392)								comparePixel = ((((((::hx::UShr(comparePixel,24) & 255) & 255) << 24) | (((::hx::UShr(comparePixel,16) & 255) & 255) << 16)) | ((g & 255) << 8)) | ((comparePixel & 255) & 255));
+HXLINE( 393)								comparePixel = ((((((::hx::UShr(comparePixel,24) & 255) & 255) << 24) | (((::hx::UShr(comparePixel,16) & 255) & 255) << 16)) | (((::hx::UShr(comparePixel,8) & 255) & 255) << 8)) | (b & 255));
+HXLINE( 394)								comparePixel = (((-16777216 | (((::hx::UShr(comparePixel,16) & 255) & 255) << 16)) | (((::hx::UShr(comparePixel,8) & 255) & 255) << 8)) | ((comparePixel & 255) & 255));
+HXLINE( 396)								foundDifference = true;
             							}
             						}
-HXLINE( 563)						if (foundDifference) {
-HXLINE( 565)							if (::hx::IsNull( bitmapData )) {
-HXLINE( 567)								bool bitmapData1;
-HXDLIN( 567)								if (!(this->transparent)) {
-HXLINE( 567)									bitmapData1 = otherBitmapData->transparent;
+HXLINE( 400)						if (foundDifference) {
+HXLINE( 402)							if (::hx::IsNull( bitmapData )) {
+HXLINE( 404)								bool bitmapData1;
+HXDLIN( 404)								if (!(this->transparent)) {
+HXLINE( 404)									bitmapData1 = otherBitmapData->transparent;
             								}
             								else {
-HXLINE( 567)									bitmapData1 = true;
+HXLINE( 404)									bitmapData1 = true;
             								}
-HXDLIN( 567)								bitmapData =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,this->width,this->height,bitmapData1,0);
+HXDLIN( 404)								bitmapData =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,this->width,this->height,bitmapData1,0);
             							}
-HXLINE( 570)							bitmapData->setPixel32(x,y,comparePixel);
+HXLINE( 407)							bitmapData->setPixel32(x,y,comparePixel);
             						}
             					}
             				}
             			}
             		}
-HXLINE( 575)		if (::hx::IsNull( bitmapData )) {
-HXLINE( 577)			return 0;
+HXLINE( 412)		if (::hx::IsNull( bitmapData )) {
+HXLINE( 414)			return 0;
             		}
-HXLINE( 580)		return bitmapData;
+HXLINE( 417)		return bitmapData;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(BitmapData_obj,compare,return )
 
 void BitmapData_obj::copyChannel( ::openfl::display::BitmapData sourceBitmapData, ::openfl::geom::Rectangle sourceRect, ::openfl::geom::Point destPoint,int sourceChannel,int destChannel){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_630_copyChannel)
-HXLINE( 631)		if (!(this->readable)) {
-HXLINE( 631)			return;
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_425_copyChannel)
+HXLINE( 426)		if (!(this->readable)) {
+HXLINE( 426)			return;
             		}
-HXLINE( 634)		 ::lime::graphics::ImageChannel sourceChannel1;
-HXDLIN( 634)		switch((int)(sourceChannel)){
+HXLINE( 429)		 ::lime::graphics::ImageChannel sourceChannel1;
+HXDLIN( 429)		switch((int)(sourceChannel)){
             			case (int)1: {
-HXLINE( 634)				sourceChannel1 = ::lime::graphics::ImageChannel_obj::RED_dyn();
+HXLINE( 429)				sourceChannel1 = ::lime::graphics::ImageChannel_obj::RED_dyn();
             			}
             			break;
             			case (int)2: {
-HXLINE( 634)				sourceChannel1 = ::lime::graphics::ImageChannel_obj::GREEN_dyn();
+HXLINE( 429)				sourceChannel1 = ::lime::graphics::ImageChannel_obj::GREEN_dyn();
             			}
             			break;
             			case (int)4: {
-HXLINE( 634)				sourceChannel1 = ::lime::graphics::ImageChannel_obj::BLUE_dyn();
+HXLINE( 429)				sourceChannel1 = ::lime::graphics::ImageChannel_obj::BLUE_dyn();
             			}
             			break;
             			case (int)8: {
-HXLINE( 634)				sourceChannel1 = ::lime::graphics::ImageChannel_obj::ALPHA_dyn();
+HXLINE( 429)				sourceChannel1 = ::lime::graphics::ImageChannel_obj::ALPHA_dyn();
             			}
             			break;
             			default:{
-HXLINE( 640)				return;
+HXLINE( 435)				return;
             			}
             		}
-HXLINE( 643)		 ::lime::graphics::ImageChannel destChannel1;
-HXDLIN( 643)		switch((int)(destChannel)){
+HXLINE( 438)		 ::lime::graphics::ImageChannel destChannel1;
+HXDLIN( 438)		switch((int)(destChannel)){
             			case (int)1: {
-HXLINE( 643)				destChannel1 = ::lime::graphics::ImageChannel_obj::RED_dyn();
+HXLINE( 438)				destChannel1 = ::lime::graphics::ImageChannel_obj::RED_dyn();
             			}
             			break;
             			case (int)2: {
-HXLINE( 643)				destChannel1 = ::lime::graphics::ImageChannel_obj::GREEN_dyn();
+HXLINE( 438)				destChannel1 = ::lime::graphics::ImageChannel_obj::GREEN_dyn();
             			}
             			break;
             			case (int)4: {
-HXLINE( 643)				destChannel1 = ::lime::graphics::ImageChannel_obj::BLUE_dyn();
+HXLINE( 438)				destChannel1 = ::lime::graphics::ImageChannel_obj::BLUE_dyn();
             			}
             			break;
             			case (int)8: {
-HXLINE( 643)				destChannel1 = ::lime::graphics::ImageChannel_obj::ALPHA_dyn();
+HXLINE( 438)				destChannel1 = ::lime::graphics::ImageChannel_obj::ALPHA_dyn();
             			}
             			break;
             			default:{
-HXLINE( 649)				return;
+HXLINE( 444)				return;
             			}
             		}
-HXLINE( 652)		 ::lime::graphics::Image _hx_tmp = this->image;
-HXDLIN( 652)		 ::lime::graphics::Image sourceBitmapData1 = sourceBitmapData->image;
-HXDLIN( 652)		 ::lime::math::Rectangle _hx_tmp1 = sourceRect->_hx___toLimeRectangle();
-HXDLIN( 652)		_hx_tmp->copyChannel(sourceBitmapData1,_hx_tmp1,destPoint->_hx___toLimeVector2(),sourceChannel1,destChannel1);
+HXLINE( 447)		 ::lime::graphics::Image _hx_tmp = this->image;
+HXDLIN( 447)		 ::lime::graphics::Image sourceBitmapData1 = sourceBitmapData->image;
+HXDLIN( 447)		 ::lime::math::Rectangle _hx_tmp1 = sourceRect->_hx___toLimeRectangle();
+HXDLIN( 447)		_hx_tmp->copyChannel(sourceBitmapData1,_hx_tmp1,destPoint->_hx___toLimeVector2(),sourceChannel1,destChannel1);
             	}
 
 
@@ -800,67 +831,67 @@ HX_DEFINE_DYNAMIC_FUNC5(BitmapData_obj,copyChannel,(void))
 
 void BitmapData_obj::copyPixels( ::openfl::display::BitmapData sourceBitmapData, ::openfl::geom::Rectangle sourceRect, ::openfl::geom::Point destPoint, ::openfl::display::BitmapData alphaBitmapData, ::openfl::geom::Point alphaPoint,::hx::Null< bool >  __o_mergeAlpha){
             		bool mergeAlpha = __o_mergeAlpha.Default(false);
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_697_copyPixels)
-HXLINE( 698)		bool _hx_tmp;
-HXDLIN( 698)		if (this->readable) {
-HXLINE( 698)			_hx_tmp = ::hx::IsNull( sourceBitmapData );
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_453_copyPixels)
+HXLINE( 454)		bool _hx_tmp;
+HXDLIN( 454)		if (this->readable) {
+HXLINE( 454)			_hx_tmp = ::hx::IsNull( sourceBitmapData );
             		}
             		else {
-HXLINE( 698)			_hx_tmp = true;
+HXLINE( 454)			_hx_tmp = true;
             		}
-HXDLIN( 698)		if (_hx_tmp) {
-HXLINE( 698)			return;
+HXDLIN( 454)		if (_hx_tmp) {
+HXLINE( 454)			return;
             		}
-HXLINE( 701)		if (::hx::IsNotNull( alphaPoint )) {
-HXLINE( 703)			::openfl::display::BitmapData_obj::_hx___tempVector->x = alphaPoint->x;
-HXLINE( 704)			::openfl::display::BitmapData_obj::_hx___tempVector->y = alphaPoint->y;
+HXLINE( 457)		if (::hx::IsNotNull( alphaPoint )) {
+HXLINE( 459)			::openfl::display::BitmapData_obj::_hx___tempVector->x = alphaPoint->x;
+HXLINE( 460)			::openfl::display::BitmapData_obj::_hx___tempVector->y = alphaPoint->y;
             		}
-HXLINE( 707)		 ::lime::graphics::Image _hx_tmp1 = this->image;
-HXDLIN( 707)		 ::lime::graphics::Image sourceBitmapData1 = sourceBitmapData->image;
-HXDLIN( 707)		 ::lime::math::Rectangle _hx_tmp2 = sourceRect->_hx___toLimeRectangle();
-HXDLIN( 707)		 ::lime::math::Vector2 _hx_tmp3 = destPoint->_hx___toLimeVector2();
-HXLINE( 708)		 ::lime::graphics::Image _hx_tmp4;
-HXDLIN( 708)		if (::hx::IsNotNull( alphaBitmapData )) {
-HXLINE( 708)			_hx_tmp4 = alphaBitmapData->image;
-            		}
-            		else {
-HXLINE( 708)			_hx_tmp4 = null();
-            		}
-HXDLIN( 708)		 ::lime::math::Vector2 _hx_tmp5;
-HXDLIN( 708)		if (::hx::IsNotNull( alphaPoint )) {
-HXLINE( 708)			_hx_tmp5 = ::openfl::display::BitmapData_obj::_hx___tempVector;
+HXLINE( 463)		 ::lime::graphics::Image _hx_tmp1 = this->image;
+HXDLIN( 463)		 ::lime::graphics::Image sourceBitmapData1 = sourceBitmapData->image;
+HXDLIN( 463)		 ::lime::math::Rectangle _hx_tmp2 = sourceRect->_hx___toLimeRectangle();
+HXDLIN( 463)		 ::lime::math::Vector2 _hx_tmp3 = destPoint->_hx___toLimeVector2();
+HXLINE( 464)		 ::lime::graphics::Image _hx_tmp4;
+HXDLIN( 464)		if (::hx::IsNotNull( alphaBitmapData )) {
+HXLINE( 464)			_hx_tmp4 = alphaBitmapData->image;
             		}
             		else {
-HXLINE( 708)			_hx_tmp5 = null();
+HXLINE( 464)			_hx_tmp4 = null();
             		}
-HXLINE( 707)		_hx_tmp1->copyPixels(sourceBitmapData1,_hx_tmp2,_hx_tmp3,_hx_tmp4,_hx_tmp5,mergeAlpha);
+HXDLIN( 464)		 ::lime::math::Vector2 _hx_tmp5;
+HXDLIN( 464)		if (::hx::IsNotNull( alphaPoint )) {
+HXLINE( 464)			_hx_tmp5 = ::openfl::display::BitmapData_obj::_hx___tempVector;
+            		}
+            		else {
+HXLINE( 464)			_hx_tmp5 = null();
+            		}
+HXLINE( 463)		_hx_tmp1->copyPixels(sourceBitmapData1,_hx_tmp2,_hx_tmp3,_hx_tmp4,_hx_tmp5,mergeAlpha);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC6(BitmapData_obj,copyPixels,(void))
 
 void BitmapData_obj::dispose(){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_734_dispose)
-HXLINE( 735)		this->image = null();
-HXLINE( 737)		this->width = 0;
-HXLINE( 738)		this->height = 0;
-HXLINE( 739)		this->rect = null();
-HXLINE( 741)		this->_hx___isValid = false;
-HXLINE( 742)		this->readable = false;
-HXLINE( 744)		this->_hx___surface = null();
-HXLINE( 746)		this->_hx___vertexBuffer = null();
-HXLINE( 747)		this->_hx___framebuffer = null();
-HXLINE( 748)		this->_hx___framebufferContext = null();
-HXLINE( 749)		this->_hx___texture = null();
-HXLINE( 750)		this->_hx___textureContext = null();
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_471_dispose)
+HXLINE( 472)		this->image = null();
+HXLINE( 474)		this->width = 0;
+HXLINE( 475)		this->height = 0;
+HXLINE( 476)		this->rect = null();
+HXLINE( 478)		this->_hx___isValid = false;
+HXLINE( 479)		this->readable = false;
+HXLINE( 481)		this->_hx___surface = null();
+HXLINE( 483)		this->_hx___vertexBuffer = null();
+HXLINE( 484)		this->_hx___framebuffer = null();
+HXLINE( 485)		this->_hx___framebufferContext = null();
+HXLINE( 486)		this->_hx___texture = null();
+HXLINE( 487)		this->_hx___textureContext = null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(BitmapData_obj,dispose,(void))
 
 void BitmapData_obj::disposeImage(){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_787_disposeImage)
-HXDLIN( 787)		this->readable = false;
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_512_disposeImage)
+HXDLIN( 512)		this->readable = false;
             	}
 
 
@@ -868,94 +899,94 @@ HX_DEFINE_DYNAMIC_FUNC0(BitmapData_obj,disposeImage,(void))
 
 void BitmapData_obj::draw(::Dynamic source, ::openfl::geom::Matrix matrix, ::openfl::geom::ColorTransform colorTransform, ::Dynamic blendMode, ::openfl::geom::Rectangle clipRect,::hx::Null< bool >  __o_smoothing){
             		bool smoothing = __o_smoothing.Default(false);
-            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_866_draw)
-HXLINE( 867)		if (::hx::IsNull( source )) {
-HXLINE( 867)			return;
+            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_517_draw)
+HXLINE( 518)		if (::hx::IsNull( source )) {
+HXLINE( 518)			return;
             		}
-HXLINE( 869)		::openfl::display::IBitmapDrawable_obj::_hx___update(source,false,true);
-HXLINE( 871)		 ::openfl::geom::Matrix transform = ::openfl::geom::Matrix_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Matrix >();
-HXLINE( 873)		transform->copyFrom(( ( ::openfl::geom::Matrix)(source->__Field(HX_("__renderTransform",16,b8,95,b1),::hx::paccDynamic)) ));
-HXLINE( 874)		transform->invert();
-HXLINE( 876)		if (::hx::IsNotNull( matrix )) {
-HXLINE( 878)			transform->concat(matrix);
+HXLINE( 520)		::openfl::display::IBitmapDrawable_obj::_hx___update(source,false,true);
+HXLINE( 522)		 ::openfl::geom::Matrix transform = ::openfl::geom::Matrix_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Matrix >();
+HXLINE( 524)		transform->copyFrom(( ( ::openfl::geom::Matrix)(source->__Field(HX_("__renderTransform",16,b8,95,b1),::hx::paccDynamic)) ));
+HXLINE( 525)		transform->invert();
+HXLINE( 527)		if (::hx::IsNotNull( matrix )) {
+HXLINE( 529)			transform->concat(matrix);
             		}
-HXLINE( 881)		 ::openfl::geom::Matrix clipMatrix = null();
-HXLINE( 883)		if (::hx::IsNotNull( clipRect )) {
-HXLINE( 885)			clipMatrix = ::openfl::geom::Matrix_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Matrix >();
-HXLINE( 886)			clipMatrix->copyFrom(transform);
-HXLINE( 887)			clipMatrix->invert();
+HXLINE( 532)		 ::openfl::geom::Matrix clipMatrix = null();
+HXLINE( 534)		if (::hx::IsNotNull( clipRect )) {
+HXLINE( 536)			clipMatrix = ::openfl::geom::Matrix_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Matrix >();
+HXLINE( 537)			clipMatrix->copyFrom(transform);
+HXLINE( 538)			clipMatrix->invert();
             		}
-HXLINE( 890)		 ::openfl::geom::ColorTransform _colorTransform =  ::openfl::geom::ColorTransform_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null(),null(),null());
-HXLINE( 891)		_colorTransform->_hx___copyFrom(( ( ::openfl::geom::ColorTransform)(source->__Field(HX_("__worldColorTransform",5b,ce,21,a3),::hx::paccDynamic)) ));
-HXLINE( 892)		_colorTransform->_hx___invert();
-HXLINE( 894)		bool _hx_tmp;
-HXDLIN( 894)		if (!(this->readable)) {
-HXLINE( 894)			_hx_tmp = ::hx::IsNotNull( ::openfl::Lib_obj::get_current()->stage->context3D );
-            		}
-            		else {
-HXLINE( 894)			_hx_tmp = false;
-            		}
-HXDLIN( 894)		if (_hx_tmp) {
-HXLINE( 896)			if (::hx::IsNull( this->_hx___textureContext )) {
-HXLINE( 899)				this->_hx___textureContext = ::lime::app::Application_obj::current->_hx___window->context;
-            			}
-HXLINE( 902)			if (::hx::IsNotNull( colorTransform )) {
-HXLINE( 904)				_colorTransform->_hx___combine(colorTransform);
-            			}
-HXLINE( 907)			 ::openfl::display::OpenGLRenderer renderer =  ::openfl::display::OpenGLRenderer_obj::__alloc( HX_CTX ,::openfl::Lib_obj::get_current()->stage->context3D,::hx::ObjectPtr<OBJ_>(this));
-HXLINE( 908)			renderer->_hx___allowSmoothing = smoothing;
-HXLINE( 909)			renderer->_hx___overrideBlendMode = blendMode;
-HXLINE( 911)			renderer->_hx___worldTransform = transform;
-HXLINE( 912)			renderer->_hx___worldAlpha = (( (Float)(1) ) / ( (Float)(source->__Field(HX_("__worldAlpha",cc,d2,d6,c5),::hx::paccDynamic)) ));
-HXLINE( 913)			renderer->_hx___worldColorTransform = _colorTransform;
-HXLINE( 915)			renderer->_hx___resize(this->width,this->height);
-HXLINE( 917)			if (::hx::IsNotNull( clipRect )) {
-HXLINE( 919)				renderer->_hx___pushMaskRect(clipRect,clipMatrix);
-            			}
-HXLINE( 922)			this->_hx___drawGL(source,renderer);
-HXLINE( 924)			if (::hx::IsNotNull( clipRect )) {
-HXLINE( 926)				renderer->_hx___popMaskRect();
-HXLINE( 927)				::openfl::geom::Matrix_obj::_hx___pool->release(clipMatrix);
-            			}
+HXLINE( 541)		 ::openfl::geom::ColorTransform _colorTransform =  ::openfl::geom::ColorTransform_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null(),null(),null());
+HXLINE( 542)		_colorTransform->_hx___copyFrom(( ( ::openfl::geom::ColorTransform)(source->__Field(HX_("__worldColorTransform",5b,ce,21,a3),::hx::paccDynamic)) ));
+HXLINE( 543)		_colorTransform->_hx___invert();
+HXLINE( 545)		bool _hx_tmp;
+HXDLIN( 545)		if (!(this->readable)) {
+HXLINE( 545)			_hx_tmp = ::hx::IsNotNull( ::openfl::Lib_obj::get_current()->stage->context3D );
             		}
             		else {
-HXLINE( 933)			if (::hx::IsNotNull( colorTransform )) {
-HXLINE( 935)				 ::openfl::geom::Rectangle bounds = ::openfl::geom::Rectangle_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Rectangle >();
-HXLINE( 936)				 ::openfl::geom::Matrix boundsMatrix = ::openfl::geom::Matrix_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Matrix >();
-HXLINE( 938)				::openfl::display::IBitmapDrawable_obj::_hx___getBounds(source,bounds,boundsMatrix);
-HXLINE( 940)				int width = ::Math_obj::ceil(bounds->width);
-HXLINE( 941)				int height = ::Math_obj::ceil(bounds->height);
-HXLINE( 943)				boundsMatrix->tx = -(bounds->x);
-HXLINE( 944)				boundsMatrix->ty = -(bounds->y);
-HXLINE( 946)				 ::openfl::display::BitmapData copy =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,width,height,true,0);
-HXLINE( 947)				copy->draw(source,boundsMatrix,null(),null(),null(),null());
-HXLINE( 949)				copy->colorTransform(copy->rect,colorTransform);
-HXLINE( 950)				copy->_hx___renderTransform->identity();
-HXLINE( 951)				copy->_hx___renderTransform->tx = bounds->x;
-HXLINE( 952)				copy->_hx___renderTransform->ty = bounds->y;
-HXLINE( 953)				copy->_hx___renderTransform->concat(( ( ::openfl::geom::Matrix)(source->__Field(HX_("__renderTransform",16,b8,95,b1),::hx::paccDynamic)) ));
-HXLINE( 954)				copy->_hx___worldAlpha = ( (Float)(source->__Field(HX_("__worldAlpha",cc,d2,d6,c5),::hx::paccDynamic)) );
-HXLINE( 955)				copy->_hx___worldColorTransform->_hx___copyFrom(( ( ::openfl::geom::ColorTransform)(source->__Field(HX_("__worldColorTransform",5b,ce,21,a3),::hx::paccDynamic)) ));
-HXLINE( 956)				source = copy;
-HXLINE( 958)				::openfl::geom::Rectangle_obj::_hx___pool->release(bounds);
-HXLINE( 959)				::openfl::geom::Matrix_obj::_hx___pool->release(boundsMatrix);
+HXLINE( 545)			_hx_tmp = false;
+            		}
+HXDLIN( 545)		if (_hx_tmp) {
+HXLINE( 547)			if (::hx::IsNull( this->_hx___textureContext )) {
+HXLINE( 550)				this->_hx___textureContext = ::lime::app::Application_obj::current->_hx___window->context;
             			}
-HXLINE( 966)			 ::openfl::display::CairoRenderer renderer =  ::openfl::display::CairoRenderer_obj::__alloc( HX_CTX , ::lime::graphics::cairo::Cairo_obj::__alloc( HX_CTX ,this->getSurface()));
-HXLINE( 969)			renderer->_hx___allowSmoothing = smoothing;
-HXLINE( 970)			renderer->_hx___overrideBlendMode = blendMode;
-HXLINE( 972)			renderer->_hx___worldTransform = transform;
-HXLINE( 973)			renderer->_hx___worldAlpha = (( (Float)(1) ) / ( (Float)(source->__Field(HX_("__worldAlpha",cc,d2,d6,c5),::hx::paccDynamic)) ));
-HXLINE( 974)			renderer->_hx___worldColorTransform = _colorTransform;
-HXLINE( 976)			if (::hx::IsNotNull( clipRect )) {
-HXLINE( 978)				renderer->_hx___pushMaskRect(clipRect,clipMatrix);
+HXLINE( 553)			if (::hx::IsNotNull( colorTransform )) {
+HXLINE( 555)				_colorTransform->_hx___combine(colorTransform);
             			}
-HXLINE( 984)			this->_hx___drawCairo(source,renderer);
-HXLINE( 987)			if (::hx::IsNotNull( clipRect )) {
-HXLINE( 989)				renderer->_hx___popMaskRect();
-HXLINE( 990)				::openfl::geom::Matrix_obj::_hx___pool->release(clipMatrix);
+HXLINE( 558)			 ::openfl::display::OpenGLRenderer renderer =  ::openfl::display::OpenGLRenderer_obj::__alloc( HX_CTX ,::openfl::Lib_obj::get_current()->stage->context3D,::hx::ObjectPtr<OBJ_>(this));
+HXLINE( 559)			renderer->_hx___allowSmoothing = smoothing;
+HXLINE( 560)			renderer->_hx___overrideBlendMode = blendMode;
+HXLINE( 562)			renderer->_hx___worldTransform = transform;
+HXLINE( 563)			renderer->_hx___worldAlpha = (( (Float)(1) ) / ( (Float)(source->__Field(HX_("__worldAlpha",cc,d2,d6,c5),::hx::paccDynamic)) ));
+HXLINE( 564)			renderer->_hx___worldColorTransform = _colorTransform;
+HXLINE( 566)			renderer->_hx___resize(this->width,this->height);
+HXLINE( 568)			if (::hx::IsNotNull( clipRect )) {
+HXLINE( 570)				renderer->_hx___pushMaskRect(clipRect,clipMatrix);
+            			}
+HXLINE( 573)			this->_hx___drawGL(source,renderer);
+HXLINE( 575)			if (::hx::IsNotNull( clipRect )) {
+HXLINE( 577)				renderer->_hx___popMaskRect();
+HXLINE( 578)				::openfl::geom::Matrix_obj::_hx___pool->release(clipMatrix);
             			}
             		}
-HXLINE( 995)		::openfl::geom::Matrix_obj::_hx___pool->release(transform);
+            		else {
+HXLINE( 584)			if (::hx::IsNotNull( colorTransform )) {
+HXLINE( 586)				 ::openfl::geom::Rectangle bounds = ::openfl::geom::Rectangle_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Rectangle >();
+HXLINE( 587)				 ::openfl::geom::Matrix boundsMatrix = ::openfl::geom::Matrix_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Matrix >();
+HXLINE( 589)				::openfl::display::IBitmapDrawable_obj::_hx___getBounds(source,bounds,boundsMatrix);
+HXLINE( 591)				int width = ::Math_obj::ceil(bounds->width);
+HXLINE( 592)				int height = ::Math_obj::ceil(bounds->height);
+HXLINE( 594)				boundsMatrix->tx = -(bounds->x);
+HXLINE( 595)				boundsMatrix->ty = -(bounds->y);
+HXLINE( 597)				 ::openfl::display::BitmapData copy =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,width,height,true,0);
+HXLINE( 598)				copy->draw(source,boundsMatrix,null(),null(),null(),null());
+HXLINE( 600)				copy->colorTransform(copy->rect,colorTransform);
+HXLINE( 601)				copy->_hx___renderTransform->identity();
+HXLINE( 602)				copy->_hx___renderTransform->tx = bounds->x;
+HXLINE( 603)				copy->_hx___renderTransform->ty = bounds->y;
+HXLINE( 604)				copy->_hx___renderTransform->concat(( ( ::openfl::geom::Matrix)(source->__Field(HX_("__renderTransform",16,b8,95,b1),::hx::paccDynamic)) ));
+HXLINE( 605)				copy->_hx___worldAlpha = ( (Float)(source->__Field(HX_("__worldAlpha",cc,d2,d6,c5),::hx::paccDynamic)) );
+HXLINE( 606)				copy->_hx___worldColorTransform->_hx___copyFrom(( ( ::openfl::geom::ColorTransform)(source->__Field(HX_("__worldColorTransform",5b,ce,21,a3),::hx::paccDynamic)) ));
+HXLINE( 607)				source = copy;
+HXLINE( 609)				::openfl::geom::Rectangle_obj::_hx___pool->release(bounds);
+HXLINE( 610)				::openfl::geom::Matrix_obj::_hx___pool->release(boundsMatrix);
+            			}
+HXLINE( 617)			 ::openfl::display::CairoRenderer renderer =  ::openfl::display::CairoRenderer_obj::__alloc( HX_CTX , ::lime::graphics::cairo::Cairo_obj::__alloc( HX_CTX ,this->getSurface()));
+HXLINE( 620)			renderer->_hx___allowSmoothing = smoothing;
+HXLINE( 621)			renderer->_hx___overrideBlendMode = blendMode;
+HXLINE( 623)			renderer->_hx___worldTransform = transform;
+HXLINE( 624)			renderer->_hx___worldAlpha = (( (Float)(1) ) / ( (Float)(source->__Field(HX_("__worldAlpha",cc,d2,d6,c5),::hx::paccDynamic)) ));
+HXLINE( 625)			renderer->_hx___worldColorTransform = _colorTransform;
+HXLINE( 627)			if (::hx::IsNotNull( clipRect )) {
+HXLINE( 629)				renderer->_hx___pushMaskRect(clipRect,clipMatrix);
+            			}
+HXLINE( 635)			this->_hx___drawCairo(source,renderer);
+HXLINE( 638)			if (::hx::IsNotNull( clipRect )) {
+HXLINE( 640)				renderer->_hx___popMaskRect();
+HXLINE( 641)				::openfl::geom::Matrix_obj::_hx___pool->release(clipMatrix);
+            			}
+            		}
+HXLINE( 646)		::openfl::geom::Matrix_obj::_hx___pool->release(transform);
             	}
 
 
@@ -963,1243 +994,1243 @@ HX_DEFINE_DYNAMIC_FUNC6(BitmapData_obj,draw,(void))
 
 void BitmapData_obj::drawWithQuality(::Dynamic source, ::openfl::geom::Matrix matrix, ::openfl::geom::ColorTransform colorTransform, ::Dynamic blendMode, ::openfl::geom::Rectangle clipRect,::hx::Null< bool >  __o_smoothing, ::Dynamic quality){
             		bool smoothing = __o_smoothing.Default(false);
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1090_drawWithQuality)
-HXDLIN(1090)		bool _hx_tmp;
-HXDLIN(1090)		if (::hx::IsNotEq( quality,2 )) {
-HXDLIN(1090)			_hx_tmp = smoothing;
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_652_drawWithQuality)
+HXDLIN( 652)		bool _hx_tmp;
+HXDLIN( 652)		if (::hx::IsNotEq( quality,2 )) {
+HXDLIN( 652)			_hx_tmp = smoothing;
             		}
             		else {
-HXDLIN(1090)			_hx_tmp = false;
+HXDLIN( 652)			_hx_tmp = false;
             		}
-HXDLIN(1090)		this->draw(source,matrix,colorTransform,blendMode,clipRect,_hx_tmp);
+HXDLIN( 652)		this->draw(source,matrix,colorTransform,blendMode,clipRect,_hx_tmp);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC7(BitmapData_obj,drawWithQuality,(void))
 
  ::openfl::utils::ByteArrayData BitmapData_obj::encode( ::openfl::geom::Rectangle rect, ::Dynamic compressor, ::openfl::utils::ByteArrayData byteArray){
-            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1116_encode)
-HXLINE(1118)		bool _hx_tmp;
-HXDLIN(1118)		if (this->readable) {
-HXLINE(1118)			_hx_tmp = ::hx::IsNull( rect );
+            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_656_encode)
+HXLINE( 658)		bool _hx_tmp;
+HXDLIN( 658)		if (this->readable) {
+HXLINE( 658)			_hx_tmp = ::hx::IsNull( rect );
             		}
             		else {
-HXLINE(1118)			_hx_tmp = true;
+HXLINE( 658)			_hx_tmp = true;
             		}
-HXDLIN(1118)		if (_hx_tmp) {
-HXLINE(1118)			byteArray = null();
-HXDLIN(1118)			return byteArray;
+HXDLIN( 658)		if (_hx_tmp) {
+HXLINE( 658)			byteArray = null();
+HXDLIN( 658)			return byteArray;
             		}
-HXLINE(1119)		if (::hx::IsNull( byteArray )) {
-HXLINE(1119)			 ::openfl::utils::ByteArrayData this1 =  ::openfl::utils::ByteArrayData_obj::__alloc( HX_CTX ,0);
-HXDLIN(1119)			byteArray = this1;
+HXLINE( 659)		if (::hx::IsNull( byteArray )) {
+HXLINE( 659)			 ::openfl::utils::ByteArrayData this1 =  ::openfl::utils::ByteArrayData_obj::__alloc( HX_CTX ,0);
+HXDLIN( 659)			byteArray = this1;
             		}
-HXLINE(1121)		 ::lime::graphics::Image image = this->image;
-HXLINE(1123)		if (!(rect->equals(this->rect))) {
-HXLINE(1125)			 ::openfl::geom::Matrix matrix = ::openfl::geom::Matrix_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Matrix >();
-HXLINE(1126)			matrix->tx = ( (Float)(::Math_obj::round(-(rect->x))) );
-HXLINE(1127)			matrix->ty = ( (Float)(::Math_obj::round(-(rect->y))) );
-HXLINE(1129)			 ::openfl::display::BitmapData bitmapData =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,::Math_obj::ceil(rect->width),::Math_obj::ceil(rect->height),true,0);
-HXLINE(1130)			bitmapData->draw(::hx::ObjectPtr<OBJ_>(this),matrix,null(),null(),null(),null());
-HXLINE(1132)			image = bitmapData->image;
-HXLINE(1134)			::openfl::geom::Matrix_obj::_hx___pool->release(matrix);
+HXLINE( 661)		 ::lime::graphics::Image image = this->image;
+HXLINE( 663)		if (!(rect->equals(this->rect))) {
+HXLINE( 665)			 ::openfl::geom::Matrix matrix = ::openfl::geom::Matrix_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Matrix >();
+HXLINE( 666)			matrix->tx = ( (Float)(::Math_obj::round(-(rect->x))) );
+HXLINE( 667)			matrix->ty = ( (Float)(::Math_obj::round(-(rect->y))) );
+HXLINE( 669)			 ::openfl::display::BitmapData bitmapData =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,::Math_obj::ceil(rect->width),::Math_obj::ceil(rect->height),true,0);
+HXLINE( 670)			bitmapData->draw(::hx::ObjectPtr<OBJ_>(this),matrix,null(),null(),null(),null());
+HXLINE( 672)			image = bitmapData->image;
+HXLINE( 674)			::openfl::geom::Matrix_obj::_hx___pool->release(matrix);
             		}
-HXLINE(1137)		if (::Std_obj::isOfType(compressor,::hx::ClassOf< ::openfl::display::PNGEncoderOptions >())) {
-HXLINE(1139)			byteArray->writeBytes(::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(image->encode(::lime::graphics::ImageFileFormat_obj::PNG_dyn(),null())),0,0);
-HXLINE(1140)			return byteArray;
+HXLINE( 677)		if (::Std_obj::isOfType(compressor,::hx::ClassOf< ::openfl::display::PNGEncoderOptions >())) {
+HXLINE( 679)			byteArray->writeBytes(::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(image->encode(::lime::graphics::ImageFileFormat_obj::PNG_dyn(),null())),0,0);
+HXLINE( 680)			return byteArray;
             		}
             		else {
-HXLINE(1142)			if (::Std_obj::isOfType(compressor,::hx::ClassOf< ::openfl::display::JPEGEncoderOptions >())) {
-HXLINE(1144)				byteArray->writeBytes(::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(image->encode(::lime::graphics::ImageFileFormat_obj::JPEG_dyn(),::hx::TCast<  ::openfl::display::JPEGEncoderOptions >::cast(compressor)->quality)),0,0);
-HXLINE(1145)				return byteArray;
+HXLINE( 682)			if (::Std_obj::isOfType(compressor,::hx::ClassOf< ::openfl::display::JPEGEncoderOptions >())) {
+HXLINE( 684)				byteArray->writeBytes(::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(image->encode(::lime::graphics::ImageFileFormat_obj::JPEG_dyn(),::hx::TCast<  ::openfl::display::JPEGEncoderOptions >::cast(compressor)->quality)),0,0);
+HXLINE( 685)				return byteArray;
             			}
             		}
-HXLINE(1149)		byteArray = null();
-HXDLIN(1149)		return byteArray;
+HXLINE( 689)		byteArray = null();
+HXDLIN( 689)		return byteArray;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(BitmapData_obj,encode,return )
 
 void BitmapData_obj::fillRect( ::openfl::geom::Rectangle rect,int color){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1163_fillRect)
-HXDLIN(1163)		this->_hx___fillRect(rect,color,true);
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_694_fillRect)
+HXDLIN( 694)		this->_hx___fillRect(rect,color,true);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(BitmapData_obj,fillRect,(void))
 
 void BitmapData_obj::floodFill(int x,int y,int color){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1178_floodFill)
-HXLINE(1180)		if (!(this->readable)) {
-HXLINE(1180)			return;
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_698_floodFill)
+HXLINE( 700)		if (!(this->readable)) {
+HXLINE( 700)			return;
             		}
-HXLINE(1181)		this->image->floodFill(x,y,color,1);
+HXLINE( 701)		this->image->floodFill(x,y,color,1);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(BitmapData_obj,floodFill,(void))
 
  ::openfl::geom::Rectangle BitmapData_obj::generateFilterRect( ::openfl::geom::Rectangle sourceRect, ::openfl::filters::BitmapFilter filter){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1357_generateFilterRect)
-HXDLIN(1357)		return sourceRect->clone();
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_782_generateFilterRect)
+HXDLIN( 782)		return sourceRect->clone();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(BitmapData_obj,generateFilterRect,return )
 
  ::openfl::display3D::IndexBuffer3D BitmapData_obj::getIndexBuffer( ::openfl::display3D::Context3D context, ::openfl::geom::Rectangle scale9Grid){
-            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1369_getIndexBuffer)
-HXLINE(1370)		 ::lime::_internal::backend::native::NativeOpenGLRenderContext gl = context->gl;
-HXLINE(1372)		bool _hx_tmp;
-HXDLIN(1372)		bool _hx_tmp1;
-HXDLIN(1372)		bool _hx_tmp2;
-HXDLIN(1372)		if (::hx::IsNotNull( this->_hx___indexBuffer )) {
-HXLINE(1372)			_hx_tmp2 = ::hx::IsNotEq( this->_hx___indexBufferContext,context->_hx___context );
+            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_786_getIndexBuffer)
+HXLINE( 787)		 ::lime::_internal::backend::native::NativeOpenGLRenderContext gl = context->gl;
+HXLINE( 789)		bool _hx_tmp;
+HXDLIN( 789)		bool _hx_tmp1;
+HXDLIN( 789)		bool _hx_tmp2;
+HXDLIN( 789)		if (::hx::IsNotNull( this->_hx___indexBuffer )) {
+HXLINE( 789)			_hx_tmp2 = ::hx::IsNotEq( this->_hx___indexBufferContext,context->_hx___context );
             		}
             		else {
-HXLINE(1372)			_hx_tmp2 = true;
+HXLINE( 789)			_hx_tmp2 = true;
             		}
-HXDLIN(1372)		if (!(_hx_tmp2)) {
-HXLINE(1374)			if (::hx::IsNotNull( scale9Grid )) {
-HXLINE(1372)				_hx_tmp1 = ::hx::IsNull( this->_hx___indexBufferGrid );
+HXDLIN( 789)		if (!(_hx_tmp2)) {
+HXLINE( 791)			if (::hx::IsNotNull( scale9Grid )) {
+HXLINE( 789)				_hx_tmp1 = ::hx::IsNull( this->_hx___indexBufferGrid );
             			}
             			else {
-HXLINE(1372)				_hx_tmp1 = false;
+HXLINE( 789)				_hx_tmp1 = false;
             			}
             		}
             		else {
-HXLINE(1372)			_hx_tmp1 = true;
+HXLINE( 789)			_hx_tmp1 = true;
             		}
-HXDLIN(1372)		if (!(_hx_tmp1)) {
-HXLINE(1375)			if (::hx::IsNotNull( this->_hx___indexBufferGrid )) {
-HXLINE(1372)				_hx_tmp = !(this->_hx___indexBufferGrid->equals(scale9Grid));
+HXDLIN( 789)		if (!(_hx_tmp1)) {
+HXLINE( 792)			if (::hx::IsNotNull( this->_hx___indexBufferGrid )) {
+HXLINE( 789)				_hx_tmp = !(this->_hx___indexBufferGrid->equals(scale9Grid));
             			}
             			else {
-HXLINE(1372)				_hx_tmp = false;
+HXLINE( 789)				_hx_tmp = false;
             			}
             		}
             		else {
-HXLINE(1372)			_hx_tmp = true;
+HXLINE( 789)			_hx_tmp = true;
             		}
-HXDLIN(1372)		if (_hx_tmp) {
-HXLINE(1381)			this->_hx___indexBufferContext = context->_hx___context;
-HXLINE(1382)			this->_hx___indexBuffer = null();
-HXLINE(1384)			if (::hx::IsNotNull( scale9Grid )) {
-HXLINE(1386)				if (::hx::IsNull( this->_hx___indexBufferGrid )) {
-HXLINE(1386)					this->_hx___indexBufferGrid =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,null(),null(),null(),null());
+HXDLIN( 789)		if (_hx_tmp) {
+HXLINE( 798)			this->_hx___indexBufferContext = context->_hx___context;
+HXLINE( 799)			this->_hx___indexBuffer = null();
+HXLINE( 801)			if (::hx::IsNotNull( scale9Grid )) {
+HXLINE( 803)				if (::hx::IsNull( this->_hx___indexBufferGrid )) {
+HXLINE( 803)					this->_hx___indexBufferGrid =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,null(),null(),null(),null());
             				}
-HXLINE(1387)				this->_hx___indexBufferGrid->copyFrom(scale9Grid);
-HXLINE(1389)				Float centerX = scale9Grid->width;
-HXLINE(1390)				Float centerY = scale9Grid->height;
-HXLINE(1391)				bool _hx_tmp;
-HXDLIN(1391)				if ((centerX != 0)) {
-HXLINE(1391)					_hx_tmp = (centerY != 0);
-            				}
-            				else {
-HXLINE(1391)					_hx_tmp = false;
-            				}
-HXDLIN(1391)				if (_hx_tmp) {
-HXLINE(1393)					 ::haxe::io::Bytes buffer = null();
-HXDLIN(1393)					::cpp::VirtualArray array = null();
-HXDLIN(1393)					 ::openfl::_Vector::IntVector vector = null();
-HXDLIN(1393)					 ::lime::utils::ArrayBufferView view = null();
-HXDLIN(1393)					 ::Dynamic len = null();
-HXDLIN(1393)					 ::lime::utils::ArrayBufferView this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,54,6);
-HXDLIN(1393)					this->_hx___indexBufferData = this1;
-HXLINE(1404)					{
-HXLINE(1404)						 ::lime::utils::ArrayBufferView this2 = this->_hx___indexBufferData;
-HXDLIN(1404)						 ::__hxcpp_memory_set_ui16(this2->buffer->b,this2->byteOffset,0);
-            					}
-HXLINE(1405)					{
-HXLINE(1405)						 ::lime::utils::ArrayBufferView this3 = this->_hx___indexBufferData;
-HXDLIN(1405)						 ::__hxcpp_memory_set_ui16(this3->buffer->b,(this3->byteOffset + 2),1);
-            					}
-HXLINE(1406)					{
-HXLINE(1406)						 ::lime::utils::ArrayBufferView this4 = this->_hx___indexBufferData;
-HXDLIN(1406)						 ::__hxcpp_memory_set_ui16(this4->buffer->b,(this4->byteOffset + 4),2);
-            					}
-HXLINE(1407)					{
-HXLINE(1407)						 ::lime::utils::ArrayBufferView this5 = this->_hx___indexBufferData;
-HXDLIN(1407)						 ::__hxcpp_memory_set_ui16(this5->buffer->b,(this5->byteOffset + 6),2);
-            					}
-HXLINE(1408)					{
-HXLINE(1408)						 ::lime::utils::ArrayBufferView this6 = this->_hx___indexBufferData;
-HXDLIN(1408)						 ::__hxcpp_memory_set_ui16(this6->buffer->b,(this6->byteOffset + 8),1);
-            					}
-HXLINE(1409)					{
-HXLINE(1409)						 ::lime::utils::ArrayBufferView this7 = this->_hx___indexBufferData;
-HXDLIN(1409)						 ::__hxcpp_memory_set_ui16(this7->buffer->b,(this7->byteOffset + 10),3);
-            					}
-HXLINE(1412)					{
-HXLINE(1412)						 ::lime::utils::ArrayBufferView this8 = this->_hx___indexBufferData;
-HXDLIN(1412)						 ::__hxcpp_memory_set_ui16(this8->buffer->b,(this8->byteOffset + 12),4);
-            					}
-HXLINE(1413)					{
-HXLINE(1413)						 ::lime::utils::ArrayBufferView this9 = this->_hx___indexBufferData;
-HXDLIN(1413)						 ::__hxcpp_memory_set_ui16(this9->buffer->b,(this9->byteOffset + 14),0);
-            					}
-HXLINE(1414)					{
-HXLINE(1414)						 ::lime::utils::ArrayBufferView this10 = this->_hx___indexBufferData;
-HXDLIN(1414)						 ::__hxcpp_memory_set_ui16(this10->buffer->b,(this10->byteOffset + 16),5);
-            					}
-HXLINE(1415)					{
-HXLINE(1415)						 ::lime::utils::ArrayBufferView this11 = this->_hx___indexBufferData;
-HXDLIN(1415)						 ::__hxcpp_memory_set_ui16(this11->buffer->b,(this11->byteOffset + 18),5);
-            					}
-HXLINE(1416)					{
-HXLINE(1416)						 ::lime::utils::ArrayBufferView this12 = this->_hx___indexBufferData;
-HXDLIN(1416)						 ::__hxcpp_memory_set_ui16(this12->buffer->b,(this12->byteOffset + 20),0);
-            					}
-HXLINE(1417)					{
-HXLINE(1417)						 ::lime::utils::ArrayBufferView this13 = this->_hx___indexBufferData;
-HXDLIN(1417)						 ::__hxcpp_memory_set_ui16(this13->buffer->b,(this13->byteOffset + 22),2);
-            					}
-HXLINE(1420)					{
-HXLINE(1420)						 ::lime::utils::ArrayBufferView this14 = this->_hx___indexBufferData;
-HXDLIN(1420)						 ::__hxcpp_memory_set_ui16(this14->buffer->b,(this14->byteOffset + 24),6);
-            					}
-HXLINE(1421)					{
-HXLINE(1421)						 ::lime::utils::ArrayBufferView this15 = this->_hx___indexBufferData;
-HXDLIN(1421)						 ::__hxcpp_memory_set_ui16(this15->buffer->b,(this15->byteOffset + 26),4);
-            					}
-HXLINE(1422)					{
-HXLINE(1422)						 ::lime::utils::ArrayBufferView this16 = this->_hx___indexBufferData;
-HXDLIN(1422)						 ::__hxcpp_memory_set_ui16(this16->buffer->b,(this16->byteOffset + 28),7);
-            					}
-HXLINE(1423)					{
-HXLINE(1423)						 ::lime::utils::ArrayBufferView this17 = this->_hx___indexBufferData;
-HXDLIN(1423)						 ::__hxcpp_memory_set_ui16(this17->buffer->b,(this17->byteOffset + 30),7);
-            					}
-HXLINE(1424)					{
-HXLINE(1424)						 ::lime::utils::ArrayBufferView this18 = this->_hx___indexBufferData;
-HXDLIN(1424)						 ::__hxcpp_memory_set_ui16(this18->buffer->b,(this18->byteOffset + 32),4);
-            					}
-HXLINE(1425)					{
-HXLINE(1425)						 ::lime::utils::ArrayBufferView this19 = this->_hx___indexBufferData;
-HXDLIN(1425)						 ::__hxcpp_memory_set_ui16(this19->buffer->b,(this19->byteOffset + 34),5);
-            					}
-HXLINE(1428)					{
-HXLINE(1428)						 ::lime::utils::ArrayBufferView this20 = this->_hx___indexBufferData;
-HXDLIN(1428)						 ::__hxcpp_memory_set_ui16(this20->buffer->b,(this20->byteOffset + 36),8);
-            					}
-HXLINE(1429)					{
-HXLINE(1429)						 ::lime::utils::ArrayBufferView this21 = this->_hx___indexBufferData;
-HXDLIN(1429)						 ::__hxcpp_memory_set_ui16(this21->buffer->b,(this21->byteOffset + 38),9);
-            					}
-HXLINE(1430)					{
-HXLINE(1430)						 ::lime::utils::ArrayBufferView this22 = this->_hx___indexBufferData;
-HXDLIN(1430)						 ::__hxcpp_memory_set_ui16(this22->buffer->b,(this22->byteOffset + 40),0);
-            					}
-HXLINE(1431)					{
-HXLINE(1431)						 ::lime::utils::ArrayBufferView this23 = this->_hx___indexBufferData;
-HXDLIN(1431)						 ::__hxcpp_memory_set_ui16(this23->buffer->b,(this23->byteOffset + 42),0);
-            					}
-HXLINE(1432)					{
-HXLINE(1432)						 ::lime::utils::ArrayBufferView this24 = this->_hx___indexBufferData;
-HXDLIN(1432)						 ::__hxcpp_memory_set_ui16(this24->buffer->b,(this24->byteOffset + 44),9);
-            					}
-HXLINE(1433)					{
-HXLINE(1433)						 ::lime::utils::ArrayBufferView this25 = this->_hx___indexBufferData;
-HXDLIN(1433)						 ::__hxcpp_memory_set_ui16(this25->buffer->b,(this25->byteOffset + 46),1);
-            					}
-HXLINE(1436)					{
-HXLINE(1436)						 ::lime::utils::ArrayBufferView this26 = this->_hx___indexBufferData;
-HXDLIN(1436)						 ::__hxcpp_memory_set_ui16(this26->buffer->b,(this26->byteOffset + 48),10);
-            					}
-HXLINE(1437)					{
-HXLINE(1437)						 ::lime::utils::ArrayBufferView this27 = this->_hx___indexBufferData;
-HXDLIN(1437)						 ::__hxcpp_memory_set_ui16(this27->buffer->b,(this27->byteOffset + 50),8);
-            					}
-HXLINE(1438)					{
-HXLINE(1438)						 ::lime::utils::ArrayBufferView this28 = this->_hx___indexBufferData;
-HXDLIN(1438)						 ::__hxcpp_memory_set_ui16(this28->buffer->b,(this28->byteOffset + 52),4);
-            					}
-HXLINE(1439)					{
-HXLINE(1439)						 ::lime::utils::ArrayBufferView this29 = this->_hx___indexBufferData;
-HXDLIN(1439)						 ::__hxcpp_memory_set_ui16(this29->buffer->b,(this29->byteOffset + 54),4);
-            					}
-HXLINE(1440)					{
-HXLINE(1440)						 ::lime::utils::ArrayBufferView this30 = this->_hx___indexBufferData;
-HXDLIN(1440)						 ::__hxcpp_memory_set_ui16(this30->buffer->b,(this30->byteOffset + 56),8);
-            					}
-HXLINE(1441)					{
-HXLINE(1441)						 ::lime::utils::ArrayBufferView this31 = this->_hx___indexBufferData;
-HXDLIN(1441)						 ::__hxcpp_memory_set_ui16(this31->buffer->b,(this31->byteOffset + 58),0);
-            					}
-HXLINE(1444)					{
-HXLINE(1444)						 ::lime::utils::ArrayBufferView this32 = this->_hx___indexBufferData;
-HXDLIN(1444)						 ::__hxcpp_memory_set_ui16(this32->buffer->b,(this32->byteOffset + 60),11);
-            					}
-HXLINE(1445)					{
-HXLINE(1445)						 ::lime::utils::ArrayBufferView this33 = this->_hx___indexBufferData;
-HXDLIN(1445)						 ::__hxcpp_memory_set_ui16(this33->buffer->b,(this33->byteOffset + 62),10);
-            					}
-HXLINE(1446)					{
-HXLINE(1446)						 ::lime::utils::ArrayBufferView this34 = this->_hx___indexBufferData;
-HXDLIN(1446)						 ::__hxcpp_memory_set_ui16(this34->buffer->b,(this34->byteOffset + 64),6);
-            					}
-HXLINE(1447)					{
-HXLINE(1447)						 ::lime::utils::ArrayBufferView this35 = this->_hx___indexBufferData;
-HXDLIN(1447)						 ::__hxcpp_memory_set_ui16(this35->buffer->b,(this35->byteOffset + 66),6);
-            					}
-HXLINE(1448)					{
-HXLINE(1448)						 ::lime::utils::ArrayBufferView this36 = this->_hx___indexBufferData;
-HXDLIN(1448)						 ::__hxcpp_memory_set_ui16(this36->buffer->b,(this36->byteOffset + 68),10);
-            					}
-HXLINE(1449)					{
-HXLINE(1449)						 ::lime::utils::ArrayBufferView this37 = this->_hx___indexBufferData;
-HXDLIN(1449)						 ::__hxcpp_memory_set_ui16(this37->buffer->b,(this37->byteOffset + 70),4);
-            					}
-HXLINE(1452)					{
-HXLINE(1452)						 ::lime::utils::ArrayBufferView this38 = this->_hx___indexBufferData;
-HXDLIN(1452)						 ::__hxcpp_memory_set_ui16(this38->buffer->b,(this38->byteOffset + 72),12);
-            					}
-HXLINE(1453)					{
-HXLINE(1453)						 ::lime::utils::ArrayBufferView this39 = this->_hx___indexBufferData;
-HXDLIN(1453)						 ::__hxcpp_memory_set_ui16(this39->buffer->b,(this39->byteOffset + 74),13);
-            					}
-HXLINE(1454)					{
-HXLINE(1454)						 ::lime::utils::ArrayBufferView this40 = this->_hx___indexBufferData;
-HXDLIN(1454)						 ::__hxcpp_memory_set_ui16(this40->buffer->b,(this40->byteOffset + 76),8);
-            					}
-HXLINE(1455)					{
-HXLINE(1455)						 ::lime::utils::ArrayBufferView this41 = this->_hx___indexBufferData;
-HXDLIN(1455)						 ::__hxcpp_memory_set_ui16(this41->buffer->b,(this41->byteOffset + 78),8);
-            					}
-HXLINE(1456)					{
-HXLINE(1456)						 ::lime::utils::ArrayBufferView this42 = this->_hx___indexBufferData;
-HXDLIN(1456)						 ::__hxcpp_memory_set_ui16(this42->buffer->b,(this42->byteOffset + 80),13);
-            					}
-HXLINE(1457)					{
-HXLINE(1457)						 ::lime::utils::ArrayBufferView this43 = this->_hx___indexBufferData;
-HXDLIN(1457)						 ::__hxcpp_memory_set_ui16(this43->buffer->b,(this43->byteOffset + 82),9);
-            					}
-HXLINE(1460)					{
-HXLINE(1460)						 ::lime::utils::ArrayBufferView this44 = this->_hx___indexBufferData;
-HXDLIN(1460)						 ::__hxcpp_memory_set_ui16(this44->buffer->b,(this44->byteOffset + 84),14);
-            					}
-HXLINE(1461)					{
-HXLINE(1461)						 ::lime::utils::ArrayBufferView this45 = this->_hx___indexBufferData;
-HXDLIN(1461)						 ::__hxcpp_memory_set_ui16(this45->buffer->b,(this45->byteOffset + 86),12);
-            					}
-HXLINE(1462)					{
-HXLINE(1462)						 ::lime::utils::ArrayBufferView this46 = this->_hx___indexBufferData;
-HXDLIN(1462)						 ::__hxcpp_memory_set_ui16(this46->buffer->b,(this46->byteOffset + 88),10);
-            					}
-HXLINE(1463)					{
-HXLINE(1463)						 ::lime::utils::ArrayBufferView this47 = this->_hx___indexBufferData;
-HXDLIN(1463)						 ::__hxcpp_memory_set_ui16(this47->buffer->b,(this47->byteOffset + 90),10);
-            					}
-HXLINE(1464)					{
-HXLINE(1464)						 ::lime::utils::ArrayBufferView this48 = this->_hx___indexBufferData;
-HXDLIN(1464)						 ::__hxcpp_memory_set_ui16(this48->buffer->b,(this48->byteOffset + 92),12);
-            					}
-HXLINE(1465)					{
-HXLINE(1465)						 ::lime::utils::ArrayBufferView this49 = this->_hx___indexBufferData;
-HXDLIN(1465)						 ::__hxcpp_memory_set_ui16(this49->buffer->b,(this49->byteOffset + 94),8);
-            					}
-HXLINE(1468)					{
-HXLINE(1468)						 ::lime::utils::ArrayBufferView this50 = this->_hx___indexBufferData;
-HXDLIN(1468)						 ::__hxcpp_memory_set_ui16(this50->buffer->b,(this50->byteOffset + 96),15);
-            					}
-HXLINE(1469)					{
-HXLINE(1469)						 ::lime::utils::ArrayBufferView this51 = this->_hx___indexBufferData;
-HXDLIN(1469)						 ::__hxcpp_memory_set_ui16(this51->buffer->b,(this51->byteOffset + 98),14);
-            					}
-HXLINE(1470)					{
-HXLINE(1470)						 ::lime::utils::ArrayBufferView this52 = this->_hx___indexBufferData;
-HXDLIN(1470)						 ::__hxcpp_memory_set_ui16(this52->buffer->b,(this52->byteOffset + 100),11);
-            					}
-HXLINE(1471)					{
-HXLINE(1471)						 ::lime::utils::ArrayBufferView this53 = this->_hx___indexBufferData;
-HXDLIN(1471)						 ::__hxcpp_memory_set_ui16(this53->buffer->b,(this53->byteOffset + 102),11);
-            					}
-HXLINE(1472)					{
-HXLINE(1472)						 ::lime::utils::ArrayBufferView this54 = this->_hx___indexBufferData;
-HXDLIN(1472)						 ::__hxcpp_memory_set_ui16(this54->buffer->b,(this54->byteOffset + 104),14);
-            					}
-HXLINE(1473)					{
-HXLINE(1473)						 ::lime::utils::ArrayBufferView this55 = this->_hx___indexBufferData;
-HXDLIN(1473)						 ::__hxcpp_memory_set_ui16(this55->buffer->b,(this55->byteOffset + 106),10);
-            					}
-HXLINE(1475)					this->_hx___indexBuffer = context->createIndexBuffer(54,null());
+HXLINE( 804)				this->_hx___indexBufferGrid->copyFrom(scale9Grid);
+HXLINE( 806)				Float centerX = scale9Grid->width;
+HXLINE( 807)				Float centerY = scale9Grid->height;
+HXLINE( 808)				bool _hx_tmp;
+HXDLIN( 808)				if ((centerX != 0)) {
+HXLINE( 808)					_hx_tmp = (centerY != 0);
             				}
             				else {
-HXLINE(1477)					bool _hx_tmp;
-HXDLIN(1477)					if ((centerX == 0)) {
-HXLINE(1477)						_hx_tmp = (centerY != 0);
+HXLINE( 808)					_hx_tmp = false;
+            				}
+HXDLIN( 808)				if (_hx_tmp) {
+HXLINE( 810)					 ::haxe::io::Bytes buffer = null();
+HXDLIN( 810)					::cpp::VirtualArray array = null();
+HXDLIN( 810)					 ::openfl::_Vector::IntVector vector = null();
+HXDLIN( 810)					 ::lime::utils::ArrayBufferView view = null();
+HXDLIN( 810)					 ::Dynamic len = null();
+HXDLIN( 810)					 ::lime::utils::ArrayBufferView this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,54,6);
+HXDLIN( 810)					this->_hx___indexBufferData = this1;
+HXLINE( 821)					{
+HXLINE( 821)						 ::lime::utils::ArrayBufferView this2 = this->_hx___indexBufferData;
+HXDLIN( 821)						 ::__hxcpp_memory_set_ui16(this2->buffer->b,this2->byteOffset,0);
+            					}
+HXLINE( 822)					{
+HXLINE( 822)						 ::lime::utils::ArrayBufferView this3 = this->_hx___indexBufferData;
+HXDLIN( 822)						 ::__hxcpp_memory_set_ui16(this3->buffer->b,(this3->byteOffset + 2),1);
+            					}
+HXLINE( 823)					{
+HXLINE( 823)						 ::lime::utils::ArrayBufferView this4 = this->_hx___indexBufferData;
+HXDLIN( 823)						 ::__hxcpp_memory_set_ui16(this4->buffer->b,(this4->byteOffset + 4),2);
+            					}
+HXLINE( 824)					{
+HXLINE( 824)						 ::lime::utils::ArrayBufferView this5 = this->_hx___indexBufferData;
+HXDLIN( 824)						 ::__hxcpp_memory_set_ui16(this5->buffer->b,(this5->byteOffset + 6),2);
+            					}
+HXLINE( 825)					{
+HXLINE( 825)						 ::lime::utils::ArrayBufferView this6 = this->_hx___indexBufferData;
+HXDLIN( 825)						 ::__hxcpp_memory_set_ui16(this6->buffer->b,(this6->byteOffset + 8),1);
+            					}
+HXLINE( 826)					{
+HXLINE( 826)						 ::lime::utils::ArrayBufferView this7 = this->_hx___indexBufferData;
+HXDLIN( 826)						 ::__hxcpp_memory_set_ui16(this7->buffer->b,(this7->byteOffset + 10),3);
+            					}
+HXLINE( 829)					{
+HXLINE( 829)						 ::lime::utils::ArrayBufferView this8 = this->_hx___indexBufferData;
+HXDLIN( 829)						 ::__hxcpp_memory_set_ui16(this8->buffer->b,(this8->byteOffset + 12),4);
+            					}
+HXLINE( 830)					{
+HXLINE( 830)						 ::lime::utils::ArrayBufferView this9 = this->_hx___indexBufferData;
+HXDLIN( 830)						 ::__hxcpp_memory_set_ui16(this9->buffer->b,(this9->byteOffset + 14),0);
+            					}
+HXLINE( 831)					{
+HXLINE( 831)						 ::lime::utils::ArrayBufferView this10 = this->_hx___indexBufferData;
+HXDLIN( 831)						 ::__hxcpp_memory_set_ui16(this10->buffer->b,(this10->byteOffset + 16),5);
+            					}
+HXLINE( 832)					{
+HXLINE( 832)						 ::lime::utils::ArrayBufferView this11 = this->_hx___indexBufferData;
+HXDLIN( 832)						 ::__hxcpp_memory_set_ui16(this11->buffer->b,(this11->byteOffset + 18),5);
+            					}
+HXLINE( 833)					{
+HXLINE( 833)						 ::lime::utils::ArrayBufferView this12 = this->_hx___indexBufferData;
+HXDLIN( 833)						 ::__hxcpp_memory_set_ui16(this12->buffer->b,(this12->byteOffset + 20),0);
+            					}
+HXLINE( 834)					{
+HXLINE( 834)						 ::lime::utils::ArrayBufferView this13 = this->_hx___indexBufferData;
+HXDLIN( 834)						 ::__hxcpp_memory_set_ui16(this13->buffer->b,(this13->byteOffset + 22),2);
+            					}
+HXLINE( 837)					{
+HXLINE( 837)						 ::lime::utils::ArrayBufferView this14 = this->_hx___indexBufferData;
+HXDLIN( 837)						 ::__hxcpp_memory_set_ui16(this14->buffer->b,(this14->byteOffset + 24),6);
+            					}
+HXLINE( 838)					{
+HXLINE( 838)						 ::lime::utils::ArrayBufferView this15 = this->_hx___indexBufferData;
+HXDLIN( 838)						 ::__hxcpp_memory_set_ui16(this15->buffer->b,(this15->byteOffset + 26),4);
+            					}
+HXLINE( 839)					{
+HXLINE( 839)						 ::lime::utils::ArrayBufferView this16 = this->_hx___indexBufferData;
+HXDLIN( 839)						 ::__hxcpp_memory_set_ui16(this16->buffer->b,(this16->byteOffset + 28),7);
+            					}
+HXLINE( 840)					{
+HXLINE( 840)						 ::lime::utils::ArrayBufferView this17 = this->_hx___indexBufferData;
+HXDLIN( 840)						 ::__hxcpp_memory_set_ui16(this17->buffer->b,(this17->byteOffset + 30),7);
+            					}
+HXLINE( 841)					{
+HXLINE( 841)						 ::lime::utils::ArrayBufferView this18 = this->_hx___indexBufferData;
+HXDLIN( 841)						 ::__hxcpp_memory_set_ui16(this18->buffer->b,(this18->byteOffset + 32),4);
+            					}
+HXLINE( 842)					{
+HXLINE( 842)						 ::lime::utils::ArrayBufferView this19 = this->_hx___indexBufferData;
+HXDLIN( 842)						 ::__hxcpp_memory_set_ui16(this19->buffer->b,(this19->byteOffset + 34),5);
+            					}
+HXLINE( 845)					{
+HXLINE( 845)						 ::lime::utils::ArrayBufferView this20 = this->_hx___indexBufferData;
+HXDLIN( 845)						 ::__hxcpp_memory_set_ui16(this20->buffer->b,(this20->byteOffset + 36),8);
+            					}
+HXLINE( 846)					{
+HXLINE( 846)						 ::lime::utils::ArrayBufferView this21 = this->_hx___indexBufferData;
+HXDLIN( 846)						 ::__hxcpp_memory_set_ui16(this21->buffer->b,(this21->byteOffset + 38),9);
+            					}
+HXLINE( 847)					{
+HXLINE( 847)						 ::lime::utils::ArrayBufferView this22 = this->_hx___indexBufferData;
+HXDLIN( 847)						 ::__hxcpp_memory_set_ui16(this22->buffer->b,(this22->byteOffset + 40),0);
+            					}
+HXLINE( 848)					{
+HXLINE( 848)						 ::lime::utils::ArrayBufferView this23 = this->_hx___indexBufferData;
+HXDLIN( 848)						 ::__hxcpp_memory_set_ui16(this23->buffer->b,(this23->byteOffset + 42),0);
+            					}
+HXLINE( 849)					{
+HXLINE( 849)						 ::lime::utils::ArrayBufferView this24 = this->_hx___indexBufferData;
+HXDLIN( 849)						 ::__hxcpp_memory_set_ui16(this24->buffer->b,(this24->byteOffset + 44),9);
+            					}
+HXLINE( 850)					{
+HXLINE( 850)						 ::lime::utils::ArrayBufferView this25 = this->_hx___indexBufferData;
+HXDLIN( 850)						 ::__hxcpp_memory_set_ui16(this25->buffer->b,(this25->byteOffset + 46),1);
+            					}
+HXLINE( 853)					{
+HXLINE( 853)						 ::lime::utils::ArrayBufferView this26 = this->_hx___indexBufferData;
+HXDLIN( 853)						 ::__hxcpp_memory_set_ui16(this26->buffer->b,(this26->byteOffset + 48),10);
+            					}
+HXLINE( 854)					{
+HXLINE( 854)						 ::lime::utils::ArrayBufferView this27 = this->_hx___indexBufferData;
+HXDLIN( 854)						 ::__hxcpp_memory_set_ui16(this27->buffer->b,(this27->byteOffset + 50),8);
+            					}
+HXLINE( 855)					{
+HXLINE( 855)						 ::lime::utils::ArrayBufferView this28 = this->_hx___indexBufferData;
+HXDLIN( 855)						 ::__hxcpp_memory_set_ui16(this28->buffer->b,(this28->byteOffset + 52),4);
+            					}
+HXLINE( 856)					{
+HXLINE( 856)						 ::lime::utils::ArrayBufferView this29 = this->_hx___indexBufferData;
+HXDLIN( 856)						 ::__hxcpp_memory_set_ui16(this29->buffer->b,(this29->byteOffset + 54),4);
+            					}
+HXLINE( 857)					{
+HXLINE( 857)						 ::lime::utils::ArrayBufferView this30 = this->_hx___indexBufferData;
+HXDLIN( 857)						 ::__hxcpp_memory_set_ui16(this30->buffer->b,(this30->byteOffset + 56),8);
+            					}
+HXLINE( 858)					{
+HXLINE( 858)						 ::lime::utils::ArrayBufferView this31 = this->_hx___indexBufferData;
+HXDLIN( 858)						 ::__hxcpp_memory_set_ui16(this31->buffer->b,(this31->byteOffset + 58),0);
+            					}
+HXLINE( 861)					{
+HXLINE( 861)						 ::lime::utils::ArrayBufferView this32 = this->_hx___indexBufferData;
+HXDLIN( 861)						 ::__hxcpp_memory_set_ui16(this32->buffer->b,(this32->byteOffset + 60),11);
+            					}
+HXLINE( 862)					{
+HXLINE( 862)						 ::lime::utils::ArrayBufferView this33 = this->_hx___indexBufferData;
+HXDLIN( 862)						 ::__hxcpp_memory_set_ui16(this33->buffer->b,(this33->byteOffset + 62),10);
+            					}
+HXLINE( 863)					{
+HXLINE( 863)						 ::lime::utils::ArrayBufferView this34 = this->_hx___indexBufferData;
+HXDLIN( 863)						 ::__hxcpp_memory_set_ui16(this34->buffer->b,(this34->byteOffset + 64),6);
+            					}
+HXLINE( 864)					{
+HXLINE( 864)						 ::lime::utils::ArrayBufferView this35 = this->_hx___indexBufferData;
+HXDLIN( 864)						 ::__hxcpp_memory_set_ui16(this35->buffer->b,(this35->byteOffset + 66),6);
+            					}
+HXLINE( 865)					{
+HXLINE( 865)						 ::lime::utils::ArrayBufferView this36 = this->_hx___indexBufferData;
+HXDLIN( 865)						 ::__hxcpp_memory_set_ui16(this36->buffer->b,(this36->byteOffset + 68),10);
+            					}
+HXLINE( 866)					{
+HXLINE( 866)						 ::lime::utils::ArrayBufferView this37 = this->_hx___indexBufferData;
+HXDLIN( 866)						 ::__hxcpp_memory_set_ui16(this37->buffer->b,(this37->byteOffset + 70),4);
+            					}
+HXLINE( 869)					{
+HXLINE( 869)						 ::lime::utils::ArrayBufferView this38 = this->_hx___indexBufferData;
+HXDLIN( 869)						 ::__hxcpp_memory_set_ui16(this38->buffer->b,(this38->byteOffset + 72),12);
+            					}
+HXLINE( 870)					{
+HXLINE( 870)						 ::lime::utils::ArrayBufferView this39 = this->_hx___indexBufferData;
+HXDLIN( 870)						 ::__hxcpp_memory_set_ui16(this39->buffer->b,(this39->byteOffset + 74),13);
+            					}
+HXLINE( 871)					{
+HXLINE( 871)						 ::lime::utils::ArrayBufferView this40 = this->_hx___indexBufferData;
+HXDLIN( 871)						 ::__hxcpp_memory_set_ui16(this40->buffer->b,(this40->byteOffset + 76),8);
+            					}
+HXLINE( 872)					{
+HXLINE( 872)						 ::lime::utils::ArrayBufferView this41 = this->_hx___indexBufferData;
+HXDLIN( 872)						 ::__hxcpp_memory_set_ui16(this41->buffer->b,(this41->byteOffset + 78),8);
+            					}
+HXLINE( 873)					{
+HXLINE( 873)						 ::lime::utils::ArrayBufferView this42 = this->_hx___indexBufferData;
+HXDLIN( 873)						 ::__hxcpp_memory_set_ui16(this42->buffer->b,(this42->byteOffset + 80),13);
+            					}
+HXLINE( 874)					{
+HXLINE( 874)						 ::lime::utils::ArrayBufferView this43 = this->_hx___indexBufferData;
+HXDLIN( 874)						 ::__hxcpp_memory_set_ui16(this43->buffer->b,(this43->byteOffset + 82),9);
+            					}
+HXLINE( 877)					{
+HXLINE( 877)						 ::lime::utils::ArrayBufferView this44 = this->_hx___indexBufferData;
+HXDLIN( 877)						 ::__hxcpp_memory_set_ui16(this44->buffer->b,(this44->byteOffset + 84),14);
+            					}
+HXLINE( 878)					{
+HXLINE( 878)						 ::lime::utils::ArrayBufferView this45 = this->_hx___indexBufferData;
+HXDLIN( 878)						 ::__hxcpp_memory_set_ui16(this45->buffer->b,(this45->byteOffset + 86),12);
+            					}
+HXLINE( 879)					{
+HXLINE( 879)						 ::lime::utils::ArrayBufferView this46 = this->_hx___indexBufferData;
+HXDLIN( 879)						 ::__hxcpp_memory_set_ui16(this46->buffer->b,(this46->byteOffset + 88),10);
+            					}
+HXLINE( 880)					{
+HXLINE( 880)						 ::lime::utils::ArrayBufferView this47 = this->_hx___indexBufferData;
+HXDLIN( 880)						 ::__hxcpp_memory_set_ui16(this47->buffer->b,(this47->byteOffset + 90),10);
+            					}
+HXLINE( 881)					{
+HXLINE( 881)						 ::lime::utils::ArrayBufferView this48 = this->_hx___indexBufferData;
+HXDLIN( 881)						 ::__hxcpp_memory_set_ui16(this48->buffer->b,(this48->byteOffset + 92),12);
+            					}
+HXLINE( 882)					{
+HXLINE( 882)						 ::lime::utils::ArrayBufferView this49 = this->_hx___indexBufferData;
+HXDLIN( 882)						 ::__hxcpp_memory_set_ui16(this49->buffer->b,(this49->byteOffset + 94),8);
+            					}
+HXLINE( 885)					{
+HXLINE( 885)						 ::lime::utils::ArrayBufferView this50 = this->_hx___indexBufferData;
+HXDLIN( 885)						 ::__hxcpp_memory_set_ui16(this50->buffer->b,(this50->byteOffset + 96),15);
+            					}
+HXLINE( 886)					{
+HXLINE( 886)						 ::lime::utils::ArrayBufferView this51 = this->_hx___indexBufferData;
+HXDLIN( 886)						 ::__hxcpp_memory_set_ui16(this51->buffer->b,(this51->byteOffset + 98),14);
+            					}
+HXLINE( 887)					{
+HXLINE( 887)						 ::lime::utils::ArrayBufferView this52 = this->_hx___indexBufferData;
+HXDLIN( 887)						 ::__hxcpp_memory_set_ui16(this52->buffer->b,(this52->byteOffset + 100),11);
+            					}
+HXLINE( 888)					{
+HXLINE( 888)						 ::lime::utils::ArrayBufferView this53 = this->_hx___indexBufferData;
+HXDLIN( 888)						 ::__hxcpp_memory_set_ui16(this53->buffer->b,(this53->byteOffset + 102),11);
+            					}
+HXLINE( 889)					{
+HXLINE( 889)						 ::lime::utils::ArrayBufferView this54 = this->_hx___indexBufferData;
+HXDLIN( 889)						 ::__hxcpp_memory_set_ui16(this54->buffer->b,(this54->byteOffset + 104),14);
+            					}
+HXLINE( 890)					{
+HXLINE( 890)						 ::lime::utils::ArrayBufferView this55 = this->_hx___indexBufferData;
+HXDLIN( 890)						 ::__hxcpp_memory_set_ui16(this55->buffer->b,(this55->byteOffset + 106),10);
+            					}
+HXLINE( 892)					this->_hx___indexBuffer = context->createIndexBuffer(54,null());
+            				}
+            				else {
+HXLINE( 894)					bool _hx_tmp;
+HXDLIN( 894)					if ((centerX == 0)) {
+HXLINE( 894)						_hx_tmp = (centerY != 0);
             					}
             					else {
-HXLINE(1477)						_hx_tmp = false;
+HXLINE( 894)						_hx_tmp = false;
             					}
-HXDLIN(1477)					if (_hx_tmp) {
-HXLINE(1479)						 ::haxe::io::Bytes buffer = null();
-HXDLIN(1479)						::cpp::VirtualArray array = null();
-HXDLIN(1479)						 ::openfl::_Vector::IntVector vector = null();
-HXDLIN(1479)						 ::lime::utils::ArrayBufferView view = null();
-HXDLIN(1479)						 ::Dynamic len = null();
-HXDLIN(1479)						 ::lime::utils::ArrayBufferView this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,18,6);
-HXDLIN(1479)						this->_hx___indexBufferData = this1;
-HXLINE(1490)						{
-HXLINE(1490)							 ::lime::utils::ArrayBufferView this2 = this->_hx___indexBufferData;
-HXDLIN(1490)							 ::__hxcpp_memory_set_ui16(this2->buffer->b,this2->byteOffset,0);
+HXDLIN( 894)					if (_hx_tmp) {
+HXLINE( 896)						 ::haxe::io::Bytes buffer = null();
+HXDLIN( 896)						::cpp::VirtualArray array = null();
+HXDLIN( 896)						 ::openfl::_Vector::IntVector vector = null();
+HXDLIN( 896)						 ::lime::utils::ArrayBufferView view = null();
+HXDLIN( 896)						 ::Dynamic len = null();
+HXDLIN( 896)						 ::lime::utils::ArrayBufferView this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,18,6);
+HXDLIN( 896)						this->_hx___indexBufferData = this1;
+HXLINE( 907)						{
+HXLINE( 907)							 ::lime::utils::ArrayBufferView this2 = this->_hx___indexBufferData;
+HXDLIN( 907)							 ::__hxcpp_memory_set_ui16(this2->buffer->b,this2->byteOffset,0);
             						}
-HXLINE(1491)						{
-HXLINE(1491)							 ::lime::utils::ArrayBufferView this3 = this->_hx___indexBufferData;
-HXDLIN(1491)							 ::__hxcpp_memory_set_ui16(this3->buffer->b,(this3->byteOffset + 2),1);
+HXLINE( 908)						{
+HXLINE( 908)							 ::lime::utils::ArrayBufferView this3 = this->_hx___indexBufferData;
+HXDLIN( 908)							 ::__hxcpp_memory_set_ui16(this3->buffer->b,(this3->byteOffset + 2),1);
             						}
-HXLINE(1492)						{
-HXLINE(1492)							 ::lime::utils::ArrayBufferView this4 = this->_hx___indexBufferData;
-HXDLIN(1492)							 ::__hxcpp_memory_set_ui16(this4->buffer->b,(this4->byteOffset + 4),2);
+HXLINE( 909)						{
+HXLINE( 909)							 ::lime::utils::ArrayBufferView this4 = this->_hx___indexBufferData;
+HXDLIN( 909)							 ::__hxcpp_memory_set_ui16(this4->buffer->b,(this4->byteOffset + 4),2);
             						}
-HXLINE(1493)						{
-HXLINE(1493)							 ::lime::utils::ArrayBufferView this5 = this->_hx___indexBufferData;
-HXDLIN(1493)							 ::__hxcpp_memory_set_ui16(this5->buffer->b,(this5->byteOffset + 6),2);
+HXLINE( 910)						{
+HXLINE( 910)							 ::lime::utils::ArrayBufferView this5 = this->_hx___indexBufferData;
+HXDLIN( 910)							 ::__hxcpp_memory_set_ui16(this5->buffer->b,(this5->byteOffset + 6),2);
             						}
-HXLINE(1494)						{
-HXLINE(1494)							 ::lime::utils::ArrayBufferView this6 = this->_hx___indexBufferData;
-HXDLIN(1494)							 ::__hxcpp_memory_set_ui16(this6->buffer->b,(this6->byteOffset + 8),1);
+HXLINE( 911)						{
+HXLINE( 911)							 ::lime::utils::ArrayBufferView this6 = this->_hx___indexBufferData;
+HXDLIN( 911)							 ::__hxcpp_memory_set_ui16(this6->buffer->b,(this6->byteOffset + 8),1);
             						}
-HXLINE(1495)						{
-HXLINE(1495)							 ::lime::utils::ArrayBufferView this7 = this->_hx___indexBufferData;
-HXDLIN(1495)							 ::__hxcpp_memory_set_ui16(this7->buffer->b,(this7->byteOffset + 10),3);
+HXLINE( 912)						{
+HXLINE( 912)							 ::lime::utils::ArrayBufferView this7 = this->_hx___indexBufferData;
+HXDLIN( 912)							 ::__hxcpp_memory_set_ui16(this7->buffer->b,(this7->byteOffset + 10),3);
             						}
-HXLINE(1498)						{
-HXLINE(1498)							 ::lime::utils::ArrayBufferView this8 = this->_hx___indexBufferData;
-HXDLIN(1498)							 ::__hxcpp_memory_set_ui16(this8->buffer->b,(this8->byteOffset + 12),4);
+HXLINE( 915)						{
+HXLINE( 915)							 ::lime::utils::ArrayBufferView this8 = this->_hx___indexBufferData;
+HXDLIN( 915)							 ::__hxcpp_memory_set_ui16(this8->buffer->b,(this8->byteOffset + 12),4);
             						}
-HXLINE(1499)						{
-HXLINE(1499)							 ::lime::utils::ArrayBufferView this9 = this->_hx___indexBufferData;
-HXDLIN(1499)							 ::__hxcpp_memory_set_ui16(this9->buffer->b,(this9->byteOffset + 14),5);
+HXLINE( 916)						{
+HXLINE( 916)							 ::lime::utils::ArrayBufferView this9 = this->_hx___indexBufferData;
+HXDLIN( 916)							 ::__hxcpp_memory_set_ui16(this9->buffer->b,(this9->byteOffset + 14),5);
             						}
-HXLINE(1500)						{
-HXLINE(1500)							 ::lime::utils::ArrayBufferView this10 = this->_hx___indexBufferData;
-HXDLIN(1500)							 ::__hxcpp_memory_set_ui16(this10->buffer->b,(this10->byteOffset + 16),0);
+HXLINE( 917)						{
+HXLINE( 917)							 ::lime::utils::ArrayBufferView this10 = this->_hx___indexBufferData;
+HXDLIN( 917)							 ::__hxcpp_memory_set_ui16(this10->buffer->b,(this10->byteOffset + 16),0);
             						}
-HXLINE(1501)						{
-HXLINE(1501)							 ::lime::utils::ArrayBufferView this11 = this->_hx___indexBufferData;
-HXDLIN(1501)							 ::__hxcpp_memory_set_ui16(this11->buffer->b,(this11->byteOffset + 18),0);
+HXLINE( 918)						{
+HXLINE( 918)							 ::lime::utils::ArrayBufferView this11 = this->_hx___indexBufferData;
+HXDLIN( 918)							 ::__hxcpp_memory_set_ui16(this11->buffer->b,(this11->byteOffset + 18),0);
             						}
-HXLINE(1502)						{
-HXLINE(1502)							 ::lime::utils::ArrayBufferView this12 = this->_hx___indexBufferData;
-HXDLIN(1502)							 ::__hxcpp_memory_set_ui16(this12->buffer->b,(this12->byteOffset + 20),5);
+HXLINE( 919)						{
+HXLINE( 919)							 ::lime::utils::ArrayBufferView this12 = this->_hx___indexBufferData;
+HXDLIN( 919)							 ::__hxcpp_memory_set_ui16(this12->buffer->b,(this12->byteOffset + 20),5);
             						}
-HXLINE(1503)						{
-HXLINE(1503)							 ::lime::utils::ArrayBufferView this13 = this->_hx___indexBufferData;
-HXDLIN(1503)							 ::__hxcpp_memory_set_ui16(this13->buffer->b,(this13->byteOffset + 22),1);
+HXLINE( 920)						{
+HXLINE( 920)							 ::lime::utils::ArrayBufferView this13 = this->_hx___indexBufferData;
+HXDLIN( 920)							 ::__hxcpp_memory_set_ui16(this13->buffer->b,(this13->byteOffset + 22),1);
             						}
-HXLINE(1506)						{
-HXLINE(1506)							 ::lime::utils::ArrayBufferView this14 = this->_hx___indexBufferData;
-HXDLIN(1506)							 ::__hxcpp_memory_set_ui16(this14->buffer->b,(this14->byteOffset + 24),6);
+HXLINE( 923)						{
+HXLINE( 923)							 ::lime::utils::ArrayBufferView this14 = this->_hx___indexBufferData;
+HXDLIN( 923)							 ::__hxcpp_memory_set_ui16(this14->buffer->b,(this14->byteOffset + 24),6);
             						}
-HXLINE(1507)						{
-HXLINE(1507)							 ::lime::utils::ArrayBufferView this15 = this->_hx___indexBufferData;
-HXDLIN(1507)							 ::__hxcpp_memory_set_ui16(this15->buffer->b,(this15->byteOffset + 26),7);
+HXLINE( 924)						{
+HXLINE( 924)							 ::lime::utils::ArrayBufferView this15 = this->_hx___indexBufferData;
+HXDLIN( 924)							 ::__hxcpp_memory_set_ui16(this15->buffer->b,(this15->byteOffset + 26),7);
             						}
-HXLINE(1508)						{
-HXLINE(1508)							 ::lime::utils::ArrayBufferView this16 = this->_hx___indexBufferData;
-HXDLIN(1508)							 ::__hxcpp_memory_set_ui16(this16->buffer->b,(this16->byteOffset + 28),4);
+HXLINE( 925)						{
+HXLINE( 925)							 ::lime::utils::ArrayBufferView this16 = this->_hx___indexBufferData;
+HXDLIN( 925)							 ::__hxcpp_memory_set_ui16(this16->buffer->b,(this16->byteOffset + 28),4);
             						}
-HXLINE(1509)						{
-HXLINE(1509)							 ::lime::utils::ArrayBufferView this17 = this->_hx___indexBufferData;
-HXDLIN(1509)							 ::__hxcpp_memory_set_ui16(this17->buffer->b,(this17->byteOffset + 30),4);
+HXLINE( 926)						{
+HXLINE( 926)							 ::lime::utils::ArrayBufferView this17 = this->_hx___indexBufferData;
+HXDLIN( 926)							 ::__hxcpp_memory_set_ui16(this17->buffer->b,(this17->byteOffset + 30),4);
             						}
-HXLINE(1510)						{
-HXLINE(1510)							 ::lime::utils::ArrayBufferView this18 = this->_hx___indexBufferData;
-HXDLIN(1510)							 ::__hxcpp_memory_set_ui16(this18->buffer->b,(this18->byteOffset + 32),7);
+HXLINE( 927)						{
+HXLINE( 927)							 ::lime::utils::ArrayBufferView this18 = this->_hx___indexBufferData;
+HXDLIN( 927)							 ::__hxcpp_memory_set_ui16(this18->buffer->b,(this18->byteOffset + 32),7);
             						}
-HXLINE(1511)						{
-HXLINE(1511)							 ::lime::utils::ArrayBufferView this19 = this->_hx___indexBufferData;
-HXDLIN(1511)							 ::__hxcpp_memory_set_ui16(this19->buffer->b,(this19->byteOffset + 34),5);
+HXLINE( 928)						{
+HXLINE( 928)							 ::lime::utils::ArrayBufferView this19 = this->_hx___indexBufferData;
+HXDLIN( 928)							 ::__hxcpp_memory_set_ui16(this19->buffer->b,(this19->byteOffset + 34),5);
             						}
-HXLINE(1513)						this->_hx___indexBuffer = context->createIndexBuffer(18,null());
+HXLINE( 930)						this->_hx___indexBuffer = context->createIndexBuffer(18,null());
             					}
             					else {
-HXLINE(1515)						bool _hx_tmp;
-HXDLIN(1515)						if ((centerX != 0)) {
-HXLINE(1515)							_hx_tmp = (centerY == 0);
+HXLINE( 932)						bool _hx_tmp;
+HXDLIN( 932)						if ((centerX != 0)) {
+HXLINE( 932)							_hx_tmp = (centerY == 0);
             						}
             						else {
-HXLINE(1515)							_hx_tmp = false;
+HXLINE( 932)							_hx_tmp = false;
             						}
-HXDLIN(1515)						if (_hx_tmp) {
-HXLINE(1517)							 ::haxe::io::Bytes buffer = null();
-HXDLIN(1517)							::cpp::VirtualArray array = null();
-HXDLIN(1517)							 ::openfl::_Vector::IntVector vector = null();
-HXDLIN(1517)							 ::lime::utils::ArrayBufferView view = null();
-HXDLIN(1517)							 ::Dynamic len = null();
-HXDLIN(1517)							 ::lime::utils::ArrayBufferView this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,18,6);
-HXDLIN(1517)							this->_hx___indexBufferData = this1;
-HXLINE(1524)							{
-HXLINE(1524)								 ::lime::utils::ArrayBufferView this2 = this->_hx___indexBufferData;
-HXDLIN(1524)								 ::__hxcpp_memory_set_ui16(this2->buffer->b,this2->byteOffset,0);
+HXDLIN( 932)						if (_hx_tmp) {
+HXLINE( 934)							 ::haxe::io::Bytes buffer = null();
+HXDLIN( 934)							::cpp::VirtualArray array = null();
+HXDLIN( 934)							 ::openfl::_Vector::IntVector vector = null();
+HXDLIN( 934)							 ::lime::utils::ArrayBufferView view = null();
+HXDLIN( 934)							 ::Dynamic len = null();
+HXDLIN( 934)							 ::lime::utils::ArrayBufferView this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,18,6);
+HXDLIN( 934)							this->_hx___indexBufferData = this1;
+HXLINE( 941)							{
+HXLINE( 941)								 ::lime::utils::ArrayBufferView this2 = this->_hx___indexBufferData;
+HXDLIN( 941)								 ::__hxcpp_memory_set_ui16(this2->buffer->b,this2->byteOffset,0);
             							}
-HXLINE(1525)							{
-HXLINE(1525)								 ::lime::utils::ArrayBufferView this3 = this->_hx___indexBufferData;
-HXDLIN(1525)								 ::__hxcpp_memory_set_ui16(this3->buffer->b,(this3->byteOffset + 2),1);
+HXLINE( 942)							{
+HXLINE( 942)								 ::lime::utils::ArrayBufferView this3 = this->_hx___indexBufferData;
+HXDLIN( 942)								 ::__hxcpp_memory_set_ui16(this3->buffer->b,(this3->byteOffset + 2),1);
             							}
-HXLINE(1526)							{
-HXLINE(1526)								 ::lime::utils::ArrayBufferView this4 = this->_hx___indexBufferData;
-HXDLIN(1526)								 ::__hxcpp_memory_set_ui16(this4->buffer->b,(this4->byteOffset + 4),2);
+HXLINE( 943)							{
+HXLINE( 943)								 ::lime::utils::ArrayBufferView this4 = this->_hx___indexBufferData;
+HXDLIN( 943)								 ::__hxcpp_memory_set_ui16(this4->buffer->b,(this4->byteOffset + 4),2);
             							}
-HXLINE(1527)							{
-HXLINE(1527)								 ::lime::utils::ArrayBufferView this5 = this->_hx___indexBufferData;
-HXDLIN(1527)								 ::__hxcpp_memory_set_ui16(this5->buffer->b,(this5->byteOffset + 6),2);
+HXLINE( 944)							{
+HXLINE( 944)								 ::lime::utils::ArrayBufferView this5 = this->_hx___indexBufferData;
+HXDLIN( 944)								 ::__hxcpp_memory_set_ui16(this5->buffer->b,(this5->byteOffset + 6),2);
             							}
-HXLINE(1528)							{
-HXLINE(1528)								 ::lime::utils::ArrayBufferView this6 = this->_hx___indexBufferData;
-HXDLIN(1528)								 ::__hxcpp_memory_set_ui16(this6->buffer->b,(this6->byteOffset + 8),1);
+HXLINE( 945)							{
+HXLINE( 945)								 ::lime::utils::ArrayBufferView this6 = this->_hx___indexBufferData;
+HXDLIN( 945)								 ::__hxcpp_memory_set_ui16(this6->buffer->b,(this6->byteOffset + 8),1);
             							}
-HXLINE(1529)							{
-HXLINE(1529)								 ::lime::utils::ArrayBufferView this7 = this->_hx___indexBufferData;
-HXDLIN(1529)								 ::__hxcpp_memory_set_ui16(this7->buffer->b,(this7->byteOffset + 10),3);
+HXLINE( 946)							{
+HXLINE( 946)								 ::lime::utils::ArrayBufferView this7 = this->_hx___indexBufferData;
+HXDLIN( 946)								 ::__hxcpp_memory_set_ui16(this7->buffer->b,(this7->byteOffset + 10),3);
             							}
-HXLINE(1532)							{
-HXLINE(1532)								 ::lime::utils::ArrayBufferView this8 = this->_hx___indexBufferData;
-HXDLIN(1532)								 ::__hxcpp_memory_set_ui16(this8->buffer->b,(this8->byteOffset + 12),4);
+HXLINE( 949)							{
+HXLINE( 949)								 ::lime::utils::ArrayBufferView this8 = this->_hx___indexBufferData;
+HXDLIN( 949)								 ::__hxcpp_memory_set_ui16(this8->buffer->b,(this8->byteOffset + 12),4);
             							}
-HXLINE(1533)							{
-HXLINE(1533)								 ::lime::utils::ArrayBufferView this9 = this->_hx___indexBufferData;
-HXDLIN(1533)								 ::__hxcpp_memory_set_ui16(this9->buffer->b,(this9->byteOffset + 14),0);
+HXLINE( 950)							{
+HXLINE( 950)								 ::lime::utils::ArrayBufferView this9 = this->_hx___indexBufferData;
+HXDLIN( 950)								 ::__hxcpp_memory_set_ui16(this9->buffer->b,(this9->byteOffset + 14),0);
             							}
-HXLINE(1534)							{
-HXLINE(1534)								 ::lime::utils::ArrayBufferView this10 = this->_hx___indexBufferData;
-HXDLIN(1534)								 ::__hxcpp_memory_set_ui16(this10->buffer->b,(this10->byteOffset + 16),5);
+HXLINE( 951)							{
+HXLINE( 951)								 ::lime::utils::ArrayBufferView this10 = this->_hx___indexBufferData;
+HXDLIN( 951)								 ::__hxcpp_memory_set_ui16(this10->buffer->b,(this10->byteOffset + 16),5);
             							}
-HXLINE(1535)							{
-HXLINE(1535)								 ::lime::utils::ArrayBufferView this11 = this->_hx___indexBufferData;
-HXDLIN(1535)								 ::__hxcpp_memory_set_ui16(this11->buffer->b,(this11->byteOffset + 18),5);
+HXLINE( 952)							{
+HXLINE( 952)								 ::lime::utils::ArrayBufferView this11 = this->_hx___indexBufferData;
+HXDLIN( 952)								 ::__hxcpp_memory_set_ui16(this11->buffer->b,(this11->byteOffset + 18),5);
             							}
-HXLINE(1536)							{
-HXLINE(1536)								 ::lime::utils::ArrayBufferView this12 = this->_hx___indexBufferData;
-HXDLIN(1536)								 ::__hxcpp_memory_set_ui16(this12->buffer->b,(this12->byteOffset + 20),0);
+HXLINE( 953)							{
+HXLINE( 953)								 ::lime::utils::ArrayBufferView this12 = this->_hx___indexBufferData;
+HXDLIN( 953)								 ::__hxcpp_memory_set_ui16(this12->buffer->b,(this12->byteOffset + 20),0);
             							}
-HXLINE(1537)							{
-HXLINE(1537)								 ::lime::utils::ArrayBufferView this13 = this->_hx___indexBufferData;
-HXDLIN(1537)								 ::__hxcpp_memory_set_ui16(this13->buffer->b,(this13->byteOffset + 22),2);
+HXLINE( 954)							{
+HXLINE( 954)								 ::lime::utils::ArrayBufferView this13 = this->_hx___indexBufferData;
+HXDLIN( 954)								 ::__hxcpp_memory_set_ui16(this13->buffer->b,(this13->byteOffset + 22),2);
             							}
-HXLINE(1540)							{
-HXLINE(1540)								 ::lime::utils::ArrayBufferView this14 = this->_hx___indexBufferData;
-HXDLIN(1540)								 ::__hxcpp_memory_set_ui16(this14->buffer->b,(this14->byteOffset + 24),6);
+HXLINE( 957)							{
+HXLINE( 957)								 ::lime::utils::ArrayBufferView this14 = this->_hx___indexBufferData;
+HXDLIN( 957)								 ::__hxcpp_memory_set_ui16(this14->buffer->b,(this14->byteOffset + 24),6);
             							}
-HXLINE(1541)							{
-HXLINE(1541)								 ::lime::utils::ArrayBufferView this15 = this->_hx___indexBufferData;
-HXDLIN(1541)								 ::__hxcpp_memory_set_ui16(this15->buffer->b,(this15->byteOffset + 26),4);
+HXLINE( 958)							{
+HXLINE( 958)								 ::lime::utils::ArrayBufferView this15 = this->_hx___indexBufferData;
+HXDLIN( 958)								 ::__hxcpp_memory_set_ui16(this15->buffer->b,(this15->byteOffset + 26),4);
             							}
-HXLINE(1542)							{
-HXLINE(1542)								 ::lime::utils::ArrayBufferView this16 = this->_hx___indexBufferData;
-HXDLIN(1542)								 ::__hxcpp_memory_set_ui16(this16->buffer->b,(this16->byteOffset + 28),7);
+HXLINE( 959)							{
+HXLINE( 959)								 ::lime::utils::ArrayBufferView this16 = this->_hx___indexBufferData;
+HXDLIN( 959)								 ::__hxcpp_memory_set_ui16(this16->buffer->b,(this16->byteOffset + 28),7);
             							}
-HXLINE(1543)							{
-HXLINE(1543)								 ::lime::utils::ArrayBufferView this17 = this->_hx___indexBufferData;
-HXDLIN(1543)								 ::__hxcpp_memory_set_ui16(this17->buffer->b,(this17->byteOffset + 30),7);
+HXLINE( 960)							{
+HXLINE( 960)								 ::lime::utils::ArrayBufferView this17 = this->_hx___indexBufferData;
+HXDLIN( 960)								 ::__hxcpp_memory_set_ui16(this17->buffer->b,(this17->byteOffset + 30),7);
             							}
-HXLINE(1544)							{
-HXLINE(1544)								 ::lime::utils::ArrayBufferView this18 = this->_hx___indexBufferData;
-HXDLIN(1544)								 ::__hxcpp_memory_set_ui16(this18->buffer->b,(this18->byteOffset + 32),4);
+HXLINE( 961)							{
+HXLINE( 961)								 ::lime::utils::ArrayBufferView this18 = this->_hx___indexBufferData;
+HXDLIN( 961)								 ::__hxcpp_memory_set_ui16(this18->buffer->b,(this18->byteOffset + 32),4);
             							}
-HXLINE(1545)							{
-HXLINE(1545)								 ::lime::utils::ArrayBufferView this19 = this->_hx___indexBufferData;
-HXDLIN(1545)								 ::__hxcpp_memory_set_ui16(this19->buffer->b,(this19->byteOffset + 34),5);
+HXLINE( 962)							{
+HXLINE( 962)								 ::lime::utils::ArrayBufferView this19 = this->_hx___indexBufferData;
+HXDLIN( 962)								 ::__hxcpp_memory_set_ui16(this19->buffer->b,(this19->byteOffset + 34),5);
             							}
-HXLINE(1547)							this->_hx___indexBuffer = context->createIndexBuffer(18,null());
+HXLINE( 964)							this->_hx___indexBuffer = context->createIndexBuffer(18,null());
             						}
             					}
             				}
             			}
             			else {
-HXLINE(1552)				this->_hx___indexBufferGrid = null();
+HXLINE( 969)				this->_hx___indexBufferGrid = null();
             			}
-HXLINE(1555)			if (::hx::IsNull( this->_hx___indexBuffer )) {
-HXLINE(1557)				 ::haxe::io::Bytes buffer = null();
-HXDLIN(1557)				::cpp::VirtualArray array = null();
-HXDLIN(1557)				 ::openfl::_Vector::IntVector vector = null();
-HXDLIN(1557)				 ::lime::utils::ArrayBufferView view = null();
-HXDLIN(1557)				 ::Dynamic len = null();
-HXDLIN(1557)				 ::lime::utils::ArrayBufferView this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,6,6);
-HXDLIN(1557)				this->_hx___indexBufferData = this1;
-HXLINE(1558)				{
-HXLINE(1558)					 ::lime::utils::ArrayBufferView this2 = this->_hx___indexBufferData;
-HXDLIN(1558)					 ::__hxcpp_memory_set_ui16(this2->buffer->b,this2->byteOffset,0);
+HXLINE( 972)			if (::hx::IsNull( this->_hx___indexBuffer )) {
+HXLINE( 974)				 ::haxe::io::Bytes buffer = null();
+HXDLIN( 974)				::cpp::VirtualArray array = null();
+HXDLIN( 974)				 ::openfl::_Vector::IntVector vector = null();
+HXDLIN( 974)				 ::lime::utils::ArrayBufferView view = null();
+HXDLIN( 974)				 ::Dynamic len = null();
+HXDLIN( 974)				 ::lime::utils::ArrayBufferView this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,6,6);
+HXDLIN( 974)				this->_hx___indexBufferData = this1;
+HXLINE( 975)				{
+HXLINE( 975)					 ::lime::utils::ArrayBufferView this2 = this->_hx___indexBufferData;
+HXDLIN( 975)					 ::__hxcpp_memory_set_ui16(this2->buffer->b,this2->byteOffset,0);
             				}
-HXLINE(1559)				{
-HXLINE(1559)					 ::lime::utils::ArrayBufferView this3 = this->_hx___indexBufferData;
-HXDLIN(1559)					 ::__hxcpp_memory_set_ui16(this3->buffer->b,(this3->byteOffset + 2),1);
+HXLINE( 976)				{
+HXLINE( 976)					 ::lime::utils::ArrayBufferView this3 = this->_hx___indexBufferData;
+HXDLIN( 976)					 ::__hxcpp_memory_set_ui16(this3->buffer->b,(this3->byteOffset + 2),1);
             				}
-HXLINE(1560)				{
-HXLINE(1560)					 ::lime::utils::ArrayBufferView this4 = this->_hx___indexBufferData;
-HXDLIN(1560)					 ::__hxcpp_memory_set_ui16(this4->buffer->b,(this4->byteOffset + 4),2);
+HXLINE( 977)				{
+HXLINE( 977)					 ::lime::utils::ArrayBufferView this4 = this->_hx___indexBufferData;
+HXDLIN( 977)					 ::__hxcpp_memory_set_ui16(this4->buffer->b,(this4->byteOffset + 4),2);
             				}
-HXLINE(1561)				{
-HXLINE(1561)					 ::lime::utils::ArrayBufferView this5 = this->_hx___indexBufferData;
-HXDLIN(1561)					 ::__hxcpp_memory_set_ui16(this5->buffer->b,(this5->byteOffset + 6),2);
+HXLINE( 978)				{
+HXLINE( 978)					 ::lime::utils::ArrayBufferView this5 = this->_hx___indexBufferData;
+HXDLIN( 978)					 ::__hxcpp_memory_set_ui16(this5->buffer->b,(this5->byteOffset + 6),2);
             				}
-HXLINE(1562)				{
-HXLINE(1562)					 ::lime::utils::ArrayBufferView this6 = this->_hx___indexBufferData;
-HXDLIN(1562)					 ::__hxcpp_memory_set_ui16(this6->buffer->b,(this6->byteOffset + 8),1);
+HXLINE( 979)				{
+HXLINE( 979)					 ::lime::utils::ArrayBufferView this6 = this->_hx___indexBufferData;
+HXDLIN( 979)					 ::__hxcpp_memory_set_ui16(this6->buffer->b,(this6->byteOffset + 8),1);
             				}
-HXLINE(1563)				{
-HXLINE(1563)					 ::lime::utils::ArrayBufferView this7 = this->_hx___indexBufferData;
-HXDLIN(1563)					 ::__hxcpp_memory_set_ui16(this7->buffer->b,(this7->byteOffset + 10),3);
+HXLINE( 980)				{
+HXLINE( 980)					 ::lime::utils::ArrayBufferView this7 = this->_hx___indexBufferData;
+HXDLIN( 980)					 ::__hxcpp_memory_set_ui16(this7->buffer->b,(this7->byteOffset + 10),3);
             				}
-HXLINE(1564)				this->_hx___indexBuffer = context->createIndexBuffer(6,null());
+HXLINE( 981)				this->_hx___indexBuffer = context->createIndexBuffer(6,null());
             			}
-HXLINE(1567)			this->_hx___indexBuffer->uploadFromTypedArray(this->_hx___indexBufferData,null());
+HXLINE( 984)			this->_hx___indexBuffer->uploadFromTypedArray(this->_hx___indexBufferData,null());
             		}
-HXLINE(1571)		return this->_hx___indexBuffer;
+HXLINE( 988)		return this->_hx___indexBuffer;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(BitmapData_obj,getIndexBuffer,return )
 
  ::openfl::display3D::VertexBuffer3D BitmapData_obj::getVertexBuffer( ::openfl::display3D::Context3D context, ::openfl::geom::Rectangle scale9Grid, ::openfl::display::DisplayObject targetObject){
-            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1583_getVertexBuffer)
-HXLINE(1584)		 ::lime::_internal::backend::native::NativeOpenGLRenderContext gl = context->gl;
-HXLINE(1589)		bool _hx_tmp;
-HXDLIN(1589)		bool _hx_tmp1;
-HXDLIN(1589)		bool _hx_tmp2;
-HXDLIN(1589)		bool _hx_tmp3;
-HXDLIN(1589)		if (::hx::IsNotNull( this->_hx___vertexBuffer )) {
-HXLINE(1589)			_hx_tmp3 = ::hx::IsNotEq( this->_hx___vertexBufferContext,context->_hx___context );
+            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_992_getVertexBuffer)
+HXLINE( 993)		 ::lime::_internal::backend::native::NativeOpenGLRenderContext gl = context->gl;
+HXLINE( 998)		bool _hx_tmp;
+HXDLIN( 998)		bool _hx_tmp1;
+HXDLIN( 998)		bool _hx_tmp2;
+HXDLIN( 998)		bool _hx_tmp3;
+HXDLIN( 998)		if (::hx::IsNotNull( this->_hx___vertexBuffer )) {
+HXLINE( 998)			_hx_tmp3 = ::hx::IsNotEq( this->_hx___vertexBufferContext,context->_hx___context );
             		}
             		else {
-HXLINE(1589)			_hx_tmp3 = true;
+HXLINE( 998)			_hx_tmp3 = true;
             		}
-HXDLIN(1589)		if (!(_hx_tmp3)) {
-HXLINE(1591)			if (::hx::IsNotNull( scale9Grid )) {
-HXLINE(1589)				_hx_tmp2 = ::hx::IsNull( this->_hx___vertexBufferGrid );
+HXDLIN( 998)		if (!(_hx_tmp3)) {
+HXLINE(1000)			if (::hx::IsNotNull( scale9Grid )) {
+HXLINE( 998)				_hx_tmp2 = ::hx::IsNull( this->_hx___vertexBufferGrid );
             			}
             			else {
-HXLINE(1589)				_hx_tmp2 = false;
-            			}
-            		}
-            		else {
-HXLINE(1589)			_hx_tmp2 = true;
-            		}
-HXDLIN(1589)		if (!(_hx_tmp2)) {
-HXLINE(1592)			if (::hx::IsNotNull( this->_hx___vertexBufferGrid )) {
-HXLINE(1589)				_hx_tmp1 = !(this->_hx___vertexBufferGrid->equals(scale9Grid));
-            			}
-            			else {
-HXLINE(1589)				_hx_tmp1 = false;
+HXLINE( 998)				_hx_tmp2 = false;
             			}
             		}
             		else {
-HXLINE(1589)			_hx_tmp1 = true;
+HXLINE( 998)			_hx_tmp2 = true;
             		}
-HXDLIN(1589)		if (!(_hx_tmp1)) {
-HXLINE(1593)			if (::hx::IsNotNull( targetObject )) {
-HXLINE(1594)				bool _hx_tmp1;
-HXDLIN(1594)				bool _hx_tmp2;
-HXDLIN(1594)				Float _hx_tmp3 = this->_hx___vertexBufferWidth;
-HXDLIN(1594)				if ((_hx_tmp3 == targetObject->get_width())) {
-HXLINE(1595)					Float _hx_tmp = this->_hx___vertexBufferHeight;
-HXLINE(1594)					_hx_tmp2 = (_hx_tmp != targetObject->get_height());
-            				}
-            				else {
-HXLINE(1594)					_hx_tmp2 = true;
-            				}
-HXDLIN(1594)				if (!(_hx_tmp2)) {
-HXLINE(1596)					Float _hx_tmp = this->_hx___vertexBufferScaleX;
-HXLINE(1594)					_hx_tmp1 = (_hx_tmp != targetObject->get_scaleX());
-            				}
-            				else {
-HXLINE(1594)					_hx_tmp1 = true;
-            				}
-HXDLIN(1594)				if (!(_hx_tmp1)) {
-HXLINE(1597)					Float _hx_tmp1 = this->_hx___vertexBufferScaleY;
-HXLINE(1589)					_hx_tmp = (_hx_tmp1 != targetObject->get_scaleY());
-            				}
-            				else {
-HXLINE(1589)					_hx_tmp = true;
-            				}
+HXDLIN( 998)		if (!(_hx_tmp2)) {
+HXLINE(1001)			if (::hx::IsNotNull( this->_hx___vertexBufferGrid )) {
+HXLINE( 998)				_hx_tmp1 = !(this->_hx___vertexBufferGrid->equals(scale9Grid));
             			}
             			else {
-HXLINE(1589)				_hx_tmp = false;
+HXLINE( 998)				_hx_tmp1 = false;
             			}
             		}
             		else {
-HXLINE(1589)			_hx_tmp = true;
+HXLINE( 998)			_hx_tmp1 = true;
             		}
-HXDLIN(1589)		if (_hx_tmp) {
-HXLINE(1621)			this->_hx___uvRect =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,0,0,this->width,this->height);
-HXLINE(1623)			int uvWidth = 1;
-HXLINE(1624)			int uvHeight = 1;
-HXLINE(1641)			this->_hx___vertexBufferContext = context->_hx___context;
-HXLINE(1642)			this->_hx___vertexBuffer = null();
-HXLINE(1644)			if (::hx::IsNotNull( targetObject )) {
-HXLINE(1646)				this->_hx___vertexBufferWidth = targetObject->get_width();
-HXLINE(1647)				this->_hx___vertexBufferHeight = targetObject->get_height();
-HXLINE(1648)				this->_hx___vertexBufferScaleX = targetObject->get_scaleX();
-HXLINE(1649)				this->_hx___vertexBufferScaleY = targetObject->get_scaleY();
-            			}
-HXLINE(1652)			bool _hx_tmp;
-HXDLIN(1652)			if (::hx::IsNotNull( scale9Grid )) {
-HXLINE(1652)				_hx_tmp = ::hx::IsNotNull( targetObject );
+HXDLIN( 998)		if (!(_hx_tmp1)) {
+HXLINE(1002)			if (::hx::IsNotNull( targetObject )) {
+HXLINE(1003)				bool _hx_tmp1;
+HXDLIN(1003)				bool _hx_tmp2;
+HXDLIN(1003)				Float _hx_tmp3 = this->_hx___vertexBufferWidth;
+HXDLIN(1003)				if ((_hx_tmp3 == targetObject->get_width())) {
+HXLINE(1004)					Float _hx_tmp = this->_hx___vertexBufferHeight;
+HXLINE(1003)					_hx_tmp2 = (_hx_tmp != targetObject->get_height());
+            				}
+            				else {
+HXLINE(1003)					_hx_tmp2 = true;
+            				}
+HXDLIN(1003)				if (!(_hx_tmp2)) {
+HXLINE(1005)					Float _hx_tmp = this->_hx___vertexBufferScaleX;
+HXLINE(1003)					_hx_tmp1 = (_hx_tmp != targetObject->get_scaleX());
+            				}
+            				else {
+HXLINE(1003)					_hx_tmp1 = true;
+            				}
+HXDLIN(1003)				if (!(_hx_tmp1)) {
+HXLINE(1006)					Float _hx_tmp1 = this->_hx___vertexBufferScaleY;
+HXLINE( 998)					_hx_tmp = (_hx_tmp1 != targetObject->get_scaleY());
+            				}
+            				else {
+HXLINE( 998)					_hx_tmp = true;
+            				}
             			}
             			else {
-HXLINE(1652)				_hx_tmp = false;
+HXLINE( 998)				_hx_tmp = false;
             			}
-HXDLIN(1652)			if (_hx_tmp) {
-HXLINE(1654)				if (::hx::IsNull( this->_hx___vertexBufferGrid )) {
-HXLINE(1654)					this->_hx___vertexBufferGrid =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,null(),null(),null(),null());
+            		}
+            		else {
+HXLINE( 998)			_hx_tmp = true;
+            		}
+HXDLIN( 998)		if (_hx_tmp) {
+HXLINE(1030)			this->_hx___uvRect =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,0,0,this->width,this->height);
+HXLINE(1032)			int uvWidth = 1;
+HXLINE(1033)			int uvHeight = 1;
+HXLINE(1050)			this->_hx___vertexBufferContext = context->_hx___context;
+HXLINE(1051)			this->_hx___vertexBuffer = null();
+HXLINE(1053)			if (::hx::IsNotNull( targetObject )) {
+HXLINE(1055)				this->_hx___vertexBufferWidth = targetObject->get_width();
+HXLINE(1056)				this->_hx___vertexBufferHeight = targetObject->get_height();
+HXLINE(1057)				this->_hx___vertexBufferScaleX = targetObject->get_scaleX();
+HXLINE(1058)				this->_hx___vertexBufferScaleY = targetObject->get_scaleY();
+            			}
+HXLINE(1061)			bool _hx_tmp;
+HXDLIN(1061)			if (::hx::IsNotNull( scale9Grid )) {
+HXLINE(1061)				_hx_tmp = ::hx::IsNotNull( targetObject );
+            			}
+            			else {
+HXLINE(1061)				_hx_tmp = false;
+            			}
+HXDLIN(1061)			if (_hx_tmp) {
+HXLINE(1063)				if (::hx::IsNull( this->_hx___vertexBufferGrid )) {
+HXLINE(1063)					this->_hx___vertexBufferGrid =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,null(),null(),null(),null());
             				}
-HXLINE(1655)				this->_hx___vertexBufferGrid->copyFrom(scale9Grid);
-HXLINE(1657)				this->_hx___vertexBufferWidth = targetObject->get_width();
-HXLINE(1658)				this->_hx___vertexBufferHeight = targetObject->get_height();
-HXLINE(1659)				this->_hx___vertexBufferScaleX = targetObject->get_scaleX();
-HXLINE(1660)				this->_hx___vertexBufferScaleY = targetObject->get_scaleY();
-HXLINE(1662)				Float centerX = scale9Grid->width;
-HXLINE(1663)				Float centerY = scale9Grid->height;
-HXLINE(1664)				bool _hx_tmp;
-HXDLIN(1664)				if ((centerX != 0)) {
-HXLINE(1664)					_hx_tmp = (centerY != 0);
-            				}
-            				else {
-HXLINE(1664)					_hx_tmp = false;
-            				}
-HXDLIN(1664)				if (_hx_tmp) {
-HXLINE(1666)					 ::haxe::io::Bytes buffer = null();
-HXDLIN(1666)					::cpp::VirtualArray array = null();
-HXDLIN(1666)					 ::openfl::_Vector::FloatVector vector = null();
-HXDLIN(1666)					 ::lime::utils::ArrayBufferView view = null();
-HXDLIN(1666)					 ::Dynamic len = null();
-HXDLIN(1666)					 ::lime::utils::ArrayBufferView this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,224,8);
-HXDLIN(1666)					this->_hx___vertexBufferData = this1;
-HXLINE(1668)					Float left = scale9Grid->x;
-HXLINE(1669)					Float top = scale9Grid->y;
-HXLINE(1670)					Float right = ((( (Float)(this->width) ) - centerX) - left);
-HXLINE(1671)					Float bottom = ((( (Float)(this->height) ) - centerY) - top);
-HXLINE(1673)					Float uvLeft = (left / ( (Float)(this->width) ));
-HXLINE(1674)					Float uvTop = (top / ( (Float)(this->height) ));
-HXLINE(1675)					Float uvCenterX = (centerX / ( (Float)(this->width) ));
-HXLINE(1676)					Float uvCenterY = (centerY / ( (Float)(this->height) ));
-HXLINE(1677)					Float uvRight = (right / ( (Float)(this->width) ));
-HXLINE(1678)					Float uvBottom = (bottom / ( (Float)(this->height) ));
-HXLINE(1680)					Float renderedLeft = (left / targetObject->get_scaleX());
-HXLINE(1681)					Float renderedTop = (top / targetObject->get_scaleY());
-HXLINE(1682)					Float renderedRight = (right / targetObject->get_scaleX());
-HXLINE(1683)					Float renderedBottom = (bottom / targetObject->get_scaleY());
-HXLINE(1684)					Float renderedCenterX = targetObject->get_width();
-HXDLIN(1684)					Float renderedCenterX1 = (((renderedCenterX / targetObject->get_scaleX()) - renderedLeft) - renderedRight);
-HXLINE(1685)					Float renderedCenterY = targetObject->get_height();
-HXDLIN(1685)					Float renderedCenterY1 = (((renderedCenterY / targetObject->get_scaleY()) - renderedTop) - renderedBottom);
-HXLINE(1696)					{
-HXLINE(1696)						 ::lime::utils::ArrayBufferView this2 = this->_hx___vertexBufferData;
-HXDLIN(1696)						 ::__hxcpp_memory_set_float(this2->buffer->b,this2->byteOffset,renderedLeft);
-            					}
-HXLINE(1697)					{
-HXLINE(1697)						 ::lime::utils::ArrayBufferView this3 = this->_hx___vertexBufferData;
-HXDLIN(1697)						 ::__hxcpp_memory_set_float(this3->buffer->b,(this3->byteOffset + 4),renderedTop);
-            					}
-HXLINE(1698)					{
-HXLINE(1698)						 ::lime::utils::ArrayBufferView this4 = this->_hx___vertexBufferData;
-HXDLIN(1698)						Float val = (( (Float)(uvWidth) ) * uvLeft);
-HXDLIN(1698)						 ::__hxcpp_memory_set_float(this4->buffer->b,(this4->byteOffset + 12),val);
-            					}
-HXLINE(1699)					{
-HXLINE(1699)						 ::lime::utils::ArrayBufferView this5 = this->_hx___vertexBufferData;
-HXDLIN(1699)						Float val1 = (( (Float)(uvHeight) ) * uvTop);
-HXDLIN(1699)						 ::__hxcpp_memory_set_float(this5->buffer->b,(this5->byteOffset + 16),val1);
-            					}
-HXLINE(1701)					{
-HXLINE(1701)						 ::lime::utils::ArrayBufferView this6 = this->_hx___vertexBufferData;
-HXDLIN(1701)						 ::__hxcpp_memory_set_float(this6->buffer->b,(this6->byteOffset + 60),renderedTop);
-            					}
-HXLINE(1702)					{
-HXLINE(1702)						 ::lime::utils::ArrayBufferView this7 = this->_hx___vertexBufferData;
-HXDLIN(1702)						Float val2 = (( (Float)(uvHeight) ) * uvTop);
-HXDLIN(1702)						 ::__hxcpp_memory_set_float(this7->buffer->b,(this7->byteOffset + 72),val2);
-            					}
-HXLINE(1704)					{
-HXLINE(1704)						 ::lime::utils::ArrayBufferView this8 = this->_hx___vertexBufferData;
-HXDLIN(1704)						 ::__hxcpp_memory_set_float(this8->buffer->b,(this8->byteOffset + 112),renderedLeft);
-            					}
-HXLINE(1705)					{
-HXLINE(1705)						 ::lime::utils::ArrayBufferView this9 = this->_hx___vertexBufferData;
-HXDLIN(1705)						Float val3 = (( (Float)(uvWidth) ) * uvLeft);
-HXDLIN(1705)						 ::__hxcpp_memory_set_float(this9->buffer->b,(this9->byteOffset + 124),val3);
-            					}
-HXLINE(1708)					{
-HXLINE(1708)						 ::lime::utils::ArrayBufferView this10 = this->_hx___vertexBufferData;
-HXDLIN(1708)						Float val4 = (renderedLeft + renderedCenterX1);
-HXDLIN(1708)						 ::__hxcpp_memory_set_float(this10->buffer->b,(this10->byteOffset + 224),val4);
-            					}
-HXLINE(1709)					{
-HXLINE(1709)						 ::lime::utils::ArrayBufferView this11 = this->_hx___vertexBufferData;
-HXDLIN(1709)						 ::__hxcpp_memory_set_float(this11->buffer->b,(this11->byteOffset + 228),renderedTop);
-            					}
-HXLINE(1710)					{
-HXLINE(1710)						 ::lime::utils::ArrayBufferView this12 = this->_hx___vertexBufferData;
-HXDLIN(1710)						Float val5 = (( (Float)(uvWidth) ) * (uvLeft + uvCenterX));
-HXDLIN(1710)						 ::__hxcpp_memory_set_float(this12->buffer->b,(this12->byteOffset + 236),val5);
-            					}
-HXLINE(1711)					{
-HXLINE(1711)						 ::lime::utils::ArrayBufferView this13 = this->_hx___vertexBufferData;
-HXDLIN(1711)						Float val6 = (( (Float)(uvHeight) ) * uvTop);
-HXDLIN(1711)						 ::__hxcpp_memory_set_float(this13->buffer->b,(this13->byteOffset + 240),val6);
-            					}
-HXLINE(1713)					{
-HXLINE(1713)						 ::lime::utils::ArrayBufferView this14 = this->_hx___vertexBufferData;
-HXDLIN(1713)						Float val7 = (renderedLeft + renderedCenterX1);
-HXDLIN(1713)						 ::__hxcpp_memory_set_float(this14->buffer->b,(this14->byteOffset + 280),val7);
-            					}
-HXLINE(1714)					{
-HXLINE(1714)						 ::lime::utils::ArrayBufferView this15 = this->_hx___vertexBufferData;
-HXDLIN(1714)						Float val8 = (( (Float)(uvWidth) ) * (uvLeft + uvCenterX));
-HXDLIN(1714)						 ::__hxcpp_memory_set_float(this15->buffer->b,(this15->byteOffset + 292),val8);
-            					}
-HXLINE(1717)					{
-HXLINE(1717)						 ::lime::utils::ArrayBufferView this16 = this->_hx___vertexBufferData;
-HXDLIN(1717)						Float val9 = ( (Float)(this->width) );
-HXDLIN(1717)						 ::__hxcpp_memory_set_float(this16->buffer->b,(this16->byteOffset + 336),val9);
-            					}
-HXLINE(1718)					{
-HXLINE(1718)						 ::lime::utils::ArrayBufferView this17 = this->_hx___vertexBufferData;
-HXDLIN(1718)						 ::__hxcpp_memory_set_float(this17->buffer->b,(this17->byteOffset + 340),renderedTop);
-            					}
-HXLINE(1719)					{
-HXLINE(1719)						 ::lime::utils::ArrayBufferView this18 = this->_hx___vertexBufferData;
-HXDLIN(1719)						 ::__hxcpp_memory_set_float(this18->buffer->b,(this18->byteOffset + 348),uvWidth);
-            					}
-HXLINE(1720)					{
-HXLINE(1720)						 ::lime::utils::ArrayBufferView this19 = this->_hx___vertexBufferData;
-HXDLIN(1720)						Float val10 = (( (Float)(uvHeight) ) * uvTop);
-HXDLIN(1720)						 ::__hxcpp_memory_set_float(this19->buffer->b,(this19->byteOffset + 352),val10);
-            					}
-HXLINE(1722)					{
-HXLINE(1722)						 ::lime::utils::ArrayBufferView this20 = this->_hx___vertexBufferData;
-HXDLIN(1722)						Float val11 = ( (Float)(this->width) );
-HXDLIN(1722)						 ::__hxcpp_memory_set_float(this20->buffer->b,(this20->byteOffset + 392),val11);
-            					}
-HXLINE(1723)					{
-HXLINE(1723)						 ::lime::utils::ArrayBufferView this21 = this->_hx___vertexBufferData;
-HXDLIN(1723)						 ::__hxcpp_memory_set_float(this21->buffer->b,(this21->byteOffset + 404),uvWidth);
-            					}
-HXLINE(1726)					{
-HXLINE(1726)						 ::lime::utils::ArrayBufferView this22 = this->_hx___vertexBufferData;
-HXDLIN(1726)						 ::__hxcpp_memory_set_float(this22->buffer->b,(this22->byteOffset + 448),renderedLeft);
-            					}
-HXLINE(1727)					{
-HXLINE(1727)						 ::lime::utils::ArrayBufferView this23 = this->_hx___vertexBufferData;
-HXDLIN(1727)						Float val12 = (renderedTop + renderedCenterY1);
-HXDLIN(1727)						 ::__hxcpp_memory_set_float(this23->buffer->b,(this23->byteOffset + 452),val12);
-            					}
-HXLINE(1728)					{
-HXLINE(1728)						 ::lime::utils::ArrayBufferView this24 = this->_hx___vertexBufferData;
-HXDLIN(1728)						Float val13 = (( (Float)(uvWidth) ) * uvLeft);
-HXDLIN(1728)						 ::__hxcpp_memory_set_float(this24->buffer->b,(this24->byteOffset + 460),val13);
-            					}
-HXLINE(1729)					{
-HXLINE(1729)						 ::lime::utils::ArrayBufferView this25 = this->_hx___vertexBufferData;
-HXDLIN(1729)						Float val14 = (( (Float)(uvHeight) ) * (uvTop + uvCenterY));
-HXDLIN(1729)						 ::__hxcpp_memory_set_float(this25->buffer->b,(this25->byteOffset + 464),val14);
-            					}
-HXLINE(1731)					{
-HXLINE(1731)						 ::lime::utils::ArrayBufferView this26 = this->_hx___vertexBufferData;
-HXDLIN(1731)						Float val15 = (renderedTop + renderedCenterY1);
-HXDLIN(1731)						 ::__hxcpp_memory_set_float(this26->buffer->b,(this26->byteOffset + 508),val15);
-            					}
-HXLINE(1732)					{
-HXLINE(1732)						 ::lime::utils::ArrayBufferView this27 = this->_hx___vertexBufferData;
-HXDLIN(1732)						Float val16 = (( (Float)(uvHeight) ) * (uvTop + uvCenterY));
-HXDLIN(1732)						 ::__hxcpp_memory_set_float(this27->buffer->b,(this27->byteOffset + 520),val16);
-            					}
-HXLINE(1735)					{
-HXLINE(1735)						 ::lime::utils::ArrayBufferView this28 = this->_hx___vertexBufferData;
-HXDLIN(1735)						Float val17 = (renderedLeft + renderedCenterX1);
-HXDLIN(1735)						 ::__hxcpp_memory_set_float(this28->buffer->b,(this28->byteOffset + 560),val17);
-            					}
-HXLINE(1736)					{
-HXLINE(1736)						 ::lime::utils::ArrayBufferView this29 = this->_hx___vertexBufferData;
-HXDLIN(1736)						Float val18 = (renderedTop + renderedCenterY1);
-HXDLIN(1736)						 ::__hxcpp_memory_set_float(this29->buffer->b,(this29->byteOffset + 564),val18);
-            					}
-HXLINE(1737)					{
-HXLINE(1737)						 ::lime::utils::ArrayBufferView this30 = this->_hx___vertexBufferData;
-HXDLIN(1737)						Float val19 = (( (Float)(uvWidth) ) * (uvLeft + uvCenterX));
-HXDLIN(1737)						 ::__hxcpp_memory_set_float(this30->buffer->b,(this30->byteOffset + 572),val19);
-            					}
-HXLINE(1738)					{
-HXLINE(1738)						 ::lime::utils::ArrayBufferView this31 = this->_hx___vertexBufferData;
-HXDLIN(1738)						Float val20 = (( (Float)(uvHeight) ) * (uvTop + uvCenterY));
-HXDLIN(1738)						 ::__hxcpp_memory_set_float(this31->buffer->b,(this31->byteOffset + 576),val20);
-            					}
-HXLINE(1741)					{
-HXLINE(1741)						 ::lime::utils::ArrayBufferView this32 = this->_hx___vertexBufferData;
-HXDLIN(1741)						Float val21 = ( (Float)(this->width) );
-HXDLIN(1741)						 ::__hxcpp_memory_set_float(this32->buffer->b,(this32->byteOffset + 616),val21);
-            					}
-HXLINE(1742)					{
-HXLINE(1742)						 ::lime::utils::ArrayBufferView this33 = this->_hx___vertexBufferData;
-HXDLIN(1742)						Float val22 = (renderedTop + renderedCenterY1);
-HXDLIN(1742)						 ::__hxcpp_memory_set_float(this33->buffer->b,(this33->byteOffset + 620),val22);
-            					}
-HXLINE(1743)					{
-HXLINE(1743)						 ::lime::utils::ArrayBufferView this34 = this->_hx___vertexBufferData;
-HXDLIN(1743)						 ::__hxcpp_memory_set_float(this34->buffer->b,(this34->byteOffset + 628),uvWidth);
-            					}
-HXLINE(1744)					{
-HXLINE(1744)						 ::lime::utils::ArrayBufferView this35 = this->_hx___vertexBufferData;
-HXDLIN(1744)						Float val23 = (( (Float)(uvHeight) ) * (uvTop + uvCenterY));
-HXDLIN(1744)						 ::__hxcpp_memory_set_float(this35->buffer->b,(this35->byteOffset + 632),val23);
-            					}
-HXLINE(1747)					{
-HXLINE(1747)						 ::lime::utils::ArrayBufferView this36 = this->_hx___vertexBufferData;
-HXDLIN(1747)						 ::__hxcpp_memory_set_float(this36->buffer->b,(this36->byteOffset + 672),renderedLeft);
-            					}
-HXLINE(1748)					{
-HXLINE(1748)						 ::lime::utils::ArrayBufferView this37 = this->_hx___vertexBufferData;
-HXDLIN(1748)						Float val24 = ( (Float)(this->height) );
-HXDLIN(1748)						 ::__hxcpp_memory_set_float(this37->buffer->b,(this37->byteOffset + 676),val24);
-            					}
-HXLINE(1749)					{
-HXLINE(1749)						 ::lime::utils::ArrayBufferView this38 = this->_hx___vertexBufferData;
-HXDLIN(1749)						Float val25 = (( (Float)(uvWidth) ) * uvLeft);
-HXDLIN(1749)						 ::__hxcpp_memory_set_float(this38->buffer->b,(this38->byteOffset + 684),val25);
-            					}
-HXLINE(1750)					{
-HXLINE(1750)						 ::lime::utils::ArrayBufferView this39 = this->_hx___vertexBufferData;
-HXDLIN(1750)						 ::__hxcpp_memory_set_float(this39->buffer->b,(this39->byteOffset + 688),uvHeight);
-            					}
-HXLINE(1752)					{
-HXLINE(1752)						 ::lime::utils::ArrayBufferView this40 = this->_hx___vertexBufferData;
-HXDLIN(1752)						Float val26 = ( (Float)(this->height) );
-HXDLIN(1752)						 ::__hxcpp_memory_set_float(this40->buffer->b,(this40->byteOffset + 732),val26);
-            					}
-HXLINE(1753)					{
-HXLINE(1753)						 ::lime::utils::ArrayBufferView this41 = this->_hx___vertexBufferData;
-HXDLIN(1753)						 ::__hxcpp_memory_set_float(this41->buffer->b,(this41->byteOffset + 744),uvHeight);
-            					}
-HXLINE(1756)					{
-HXLINE(1756)						 ::lime::utils::ArrayBufferView this42 = this->_hx___vertexBufferData;
-HXDLIN(1756)						Float val27 = (renderedLeft + renderedCenterX1);
-HXDLIN(1756)						 ::__hxcpp_memory_set_float(this42->buffer->b,(this42->byteOffset + 784),val27);
-            					}
-HXLINE(1757)					{
-HXLINE(1757)						 ::lime::utils::ArrayBufferView this43 = this->_hx___vertexBufferData;
-HXDLIN(1757)						Float val28 = ( (Float)(this->height) );
-HXDLIN(1757)						 ::__hxcpp_memory_set_float(this43->buffer->b,(this43->byteOffset + 788),val28);
-            					}
-HXLINE(1758)					{
-HXLINE(1758)						 ::lime::utils::ArrayBufferView this44 = this->_hx___vertexBufferData;
-HXDLIN(1758)						Float val29 = (( (Float)(uvWidth) ) * (uvLeft + uvCenterX));
-HXDLIN(1758)						 ::__hxcpp_memory_set_float(this44->buffer->b,(this44->byteOffset + 796),val29);
-            					}
-HXLINE(1759)					{
-HXLINE(1759)						 ::lime::utils::ArrayBufferView this45 = this->_hx___vertexBufferData;
-HXDLIN(1759)						 ::__hxcpp_memory_set_float(this45->buffer->b,(this45->byteOffset + 800),uvHeight);
-            					}
-HXLINE(1762)					{
-HXLINE(1762)						 ::lime::utils::ArrayBufferView this46 = this->_hx___vertexBufferData;
-HXDLIN(1762)						Float val30 = ( (Float)(this->width) );
-HXDLIN(1762)						 ::__hxcpp_memory_set_float(this46->buffer->b,(this46->byteOffset + 840),val30);
-            					}
-HXLINE(1763)					{
-HXLINE(1763)						 ::lime::utils::ArrayBufferView this47 = this->_hx___vertexBufferData;
-HXDLIN(1763)						Float val31 = ( (Float)(this->height) );
-HXDLIN(1763)						 ::__hxcpp_memory_set_float(this47->buffer->b,(this47->byteOffset + 844),val31);
-            					}
-HXLINE(1764)					{
-HXLINE(1764)						 ::lime::utils::ArrayBufferView this48 = this->_hx___vertexBufferData;
-HXDLIN(1764)						 ::__hxcpp_memory_set_float(this48->buffer->b,(this48->byteOffset + 852),uvWidth);
-            					}
-HXLINE(1765)					{
-HXLINE(1765)						 ::lime::utils::ArrayBufferView this49 = this->_hx___vertexBufferData;
-HXDLIN(1765)						 ::__hxcpp_memory_set_float(this49->buffer->b,(this49->byteOffset + 856),uvHeight);
-            					}
-HXLINE(1767)					this->_hx___vertexBuffer = context->createVertexBuffer(16,14,null());
+HXLINE(1064)				this->_hx___vertexBufferGrid->copyFrom(scale9Grid);
+HXLINE(1066)				this->_hx___vertexBufferWidth = targetObject->get_width();
+HXLINE(1067)				this->_hx___vertexBufferHeight = targetObject->get_height();
+HXLINE(1068)				this->_hx___vertexBufferScaleX = targetObject->get_scaleX();
+HXLINE(1069)				this->_hx___vertexBufferScaleY = targetObject->get_scaleY();
+HXLINE(1071)				Float centerX = scale9Grid->width;
+HXLINE(1072)				Float centerY = scale9Grid->height;
+HXLINE(1073)				bool _hx_tmp;
+HXDLIN(1073)				if ((centerX != 0)) {
+HXLINE(1073)					_hx_tmp = (centerY != 0);
             				}
             				else {
-HXLINE(1769)					bool _hx_tmp;
-HXDLIN(1769)					if ((centerX == 0)) {
-HXLINE(1769)						_hx_tmp = (centerY != 0);
+HXLINE(1073)					_hx_tmp = false;
+            				}
+HXDLIN(1073)				if (_hx_tmp) {
+HXLINE(1075)					 ::haxe::io::Bytes buffer = null();
+HXDLIN(1075)					::cpp::VirtualArray array = null();
+HXDLIN(1075)					 ::openfl::_Vector::FloatVector vector = null();
+HXDLIN(1075)					 ::lime::utils::ArrayBufferView view = null();
+HXDLIN(1075)					 ::Dynamic len = null();
+HXDLIN(1075)					 ::lime::utils::ArrayBufferView this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,224,8);
+HXDLIN(1075)					this->_hx___vertexBufferData = this1;
+HXLINE(1077)					Float left = scale9Grid->x;
+HXLINE(1078)					Float top = scale9Grid->y;
+HXLINE(1079)					Float right = ((( (Float)(this->width) ) - centerX) - left);
+HXLINE(1080)					Float bottom = ((( (Float)(this->height) ) - centerY) - top);
+HXLINE(1082)					Float uvLeft = (left / ( (Float)(this->width) ));
+HXLINE(1083)					Float uvTop = (top / ( (Float)(this->height) ));
+HXLINE(1084)					Float uvCenterX = (centerX / ( (Float)(this->width) ));
+HXLINE(1085)					Float uvCenterY = (centerY / ( (Float)(this->height) ));
+HXLINE(1086)					Float uvRight = (right / ( (Float)(this->width) ));
+HXLINE(1087)					Float uvBottom = (bottom / ( (Float)(this->height) ));
+HXLINE(1089)					Float renderedLeft = (left / targetObject->get_scaleX());
+HXLINE(1090)					Float renderedTop = (top / targetObject->get_scaleY());
+HXLINE(1091)					Float renderedRight = (right / targetObject->get_scaleX());
+HXLINE(1092)					Float renderedBottom = (bottom / targetObject->get_scaleY());
+HXLINE(1093)					Float renderedCenterX = targetObject->get_width();
+HXDLIN(1093)					Float renderedCenterX1 = (((renderedCenterX / targetObject->get_scaleX()) - renderedLeft) - renderedRight);
+HXLINE(1094)					Float renderedCenterY = targetObject->get_height();
+HXDLIN(1094)					Float renderedCenterY1 = (((renderedCenterY / targetObject->get_scaleY()) - renderedTop) - renderedBottom);
+HXLINE(1105)					{
+HXLINE(1105)						 ::lime::utils::ArrayBufferView this2 = this->_hx___vertexBufferData;
+HXDLIN(1105)						 ::__hxcpp_memory_set_float(this2->buffer->b,this2->byteOffset,renderedLeft);
+            					}
+HXLINE(1106)					{
+HXLINE(1106)						 ::lime::utils::ArrayBufferView this3 = this->_hx___vertexBufferData;
+HXDLIN(1106)						 ::__hxcpp_memory_set_float(this3->buffer->b,(this3->byteOffset + 4),renderedTop);
+            					}
+HXLINE(1107)					{
+HXLINE(1107)						 ::lime::utils::ArrayBufferView this4 = this->_hx___vertexBufferData;
+HXDLIN(1107)						Float val = (( (Float)(uvWidth) ) * uvLeft);
+HXDLIN(1107)						 ::__hxcpp_memory_set_float(this4->buffer->b,(this4->byteOffset + 12),val);
+            					}
+HXLINE(1108)					{
+HXLINE(1108)						 ::lime::utils::ArrayBufferView this5 = this->_hx___vertexBufferData;
+HXDLIN(1108)						Float val1 = (( (Float)(uvHeight) ) * uvTop);
+HXDLIN(1108)						 ::__hxcpp_memory_set_float(this5->buffer->b,(this5->byteOffset + 16),val1);
+            					}
+HXLINE(1110)					{
+HXLINE(1110)						 ::lime::utils::ArrayBufferView this6 = this->_hx___vertexBufferData;
+HXDLIN(1110)						 ::__hxcpp_memory_set_float(this6->buffer->b,(this6->byteOffset + 60),renderedTop);
+            					}
+HXLINE(1111)					{
+HXLINE(1111)						 ::lime::utils::ArrayBufferView this7 = this->_hx___vertexBufferData;
+HXDLIN(1111)						Float val2 = (( (Float)(uvHeight) ) * uvTop);
+HXDLIN(1111)						 ::__hxcpp_memory_set_float(this7->buffer->b,(this7->byteOffset + 72),val2);
+            					}
+HXLINE(1113)					{
+HXLINE(1113)						 ::lime::utils::ArrayBufferView this8 = this->_hx___vertexBufferData;
+HXDLIN(1113)						 ::__hxcpp_memory_set_float(this8->buffer->b,(this8->byteOffset + 112),renderedLeft);
+            					}
+HXLINE(1114)					{
+HXLINE(1114)						 ::lime::utils::ArrayBufferView this9 = this->_hx___vertexBufferData;
+HXDLIN(1114)						Float val3 = (( (Float)(uvWidth) ) * uvLeft);
+HXDLIN(1114)						 ::__hxcpp_memory_set_float(this9->buffer->b,(this9->byteOffset + 124),val3);
+            					}
+HXLINE(1117)					{
+HXLINE(1117)						 ::lime::utils::ArrayBufferView this10 = this->_hx___vertexBufferData;
+HXDLIN(1117)						Float val4 = (renderedLeft + renderedCenterX1);
+HXDLIN(1117)						 ::__hxcpp_memory_set_float(this10->buffer->b,(this10->byteOffset + 224),val4);
+            					}
+HXLINE(1118)					{
+HXLINE(1118)						 ::lime::utils::ArrayBufferView this11 = this->_hx___vertexBufferData;
+HXDLIN(1118)						 ::__hxcpp_memory_set_float(this11->buffer->b,(this11->byteOffset + 228),renderedTop);
+            					}
+HXLINE(1119)					{
+HXLINE(1119)						 ::lime::utils::ArrayBufferView this12 = this->_hx___vertexBufferData;
+HXDLIN(1119)						Float val5 = (( (Float)(uvWidth) ) * (uvLeft + uvCenterX));
+HXDLIN(1119)						 ::__hxcpp_memory_set_float(this12->buffer->b,(this12->byteOffset + 236),val5);
+            					}
+HXLINE(1120)					{
+HXLINE(1120)						 ::lime::utils::ArrayBufferView this13 = this->_hx___vertexBufferData;
+HXDLIN(1120)						Float val6 = (( (Float)(uvHeight) ) * uvTop);
+HXDLIN(1120)						 ::__hxcpp_memory_set_float(this13->buffer->b,(this13->byteOffset + 240),val6);
+            					}
+HXLINE(1122)					{
+HXLINE(1122)						 ::lime::utils::ArrayBufferView this14 = this->_hx___vertexBufferData;
+HXDLIN(1122)						Float val7 = (renderedLeft + renderedCenterX1);
+HXDLIN(1122)						 ::__hxcpp_memory_set_float(this14->buffer->b,(this14->byteOffset + 280),val7);
+            					}
+HXLINE(1123)					{
+HXLINE(1123)						 ::lime::utils::ArrayBufferView this15 = this->_hx___vertexBufferData;
+HXDLIN(1123)						Float val8 = (( (Float)(uvWidth) ) * (uvLeft + uvCenterX));
+HXDLIN(1123)						 ::__hxcpp_memory_set_float(this15->buffer->b,(this15->byteOffset + 292),val8);
+            					}
+HXLINE(1126)					{
+HXLINE(1126)						 ::lime::utils::ArrayBufferView this16 = this->_hx___vertexBufferData;
+HXDLIN(1126)						Float val9 = ( (Float)(this->width) );
+HXDLIN(1126)						 ::__hxcpp_memory_set_float(this16->buffer->b,(this16->byteOffset + 336),val9);
+            					}
+HXLINE(1127)					{
+HXLINE(1127)						 ::lime::utils::ArrayBufferView this17 = this->_hx___vertexBufferData;
+HXDLIN(1127)						 ::__hxcpp_memory_set_float(this17->buffer->b,(this17->byteOffset + 340),renderedTop);
+            					}
+HXLINE(1128)					{
+HXLINE(1128)						 ::lime::utils::ArrayBufferView this18 = this->_hx___vertexBufferData;
+HXDLIN(1128)						 ::__hxcpp_memory_set_float(this18->buffer->b,(this18->byteOffset + 348),uvWidth);
+            					}
+HXLINE(1129)					{
+HXLINE(1129)						 ::lime::utils::ArrayBufferView this19 = this->_hx___vertexBufferData;
+HXDLIN(1129)						Float val10 = (( (Float)(uvHeight) ) * uvTop);
+HXDLIN(1129)						 ::__hxcpp_memory_set_float(this19->buffer->b,(this19->byteOffset + 352),val10);
+            					}
+HXLINE(1131)					{
+HXLINE(1131)						 ::lime::utils::ArrayBufferView this20 = this->_hx___vertexBufferData;
+HXDLIN(1131)						Float val11 = ( (Float)(this->width) );
+HXDLIN(1131)						 ::__hxcpp_memory_set_float(this20->buffer->b,(this20->byteOffset + 392),val11);
+            					}
+HXLINE(1132)					{
+HXLINE(1132)						 ::lime::utils::ArrayBufferView this21 = this->_hx___vertexBufferData;
+HXDLIN(1132)						 ::__hxcpp_memory_set_float(this21->buffer->b,(this21->byteOffset + 404),uvWidth);
+            					}
+HXLINE(1135)					{
+HXLINE(1135)						 ::lime::utils::ArrayBufferView this22 = this->_hx___vertexBufferData;
+HXDLIN(1135)						 ::__hxcpp_memory_set_float(this22->buffer->b,(this22->byteOffset + 448),renderedLeft);
+            					}
+HXLINE(1136)					{
+HXLINE(1136)						 ::lime::utils::ArrayBufferView this23 = this->_hx___vertexBufferData;
+HXDLIN(1136)						Float val12 = (renderedTop + renderedCenterY1);
+HXDLIN(1136)						 ::__hxcpp_memory_set_float(this23->buffer->b,(this23->byteOffset + 452),val12);
+            					}
+HXLINE(1137)					{
+HXLINE(1137)						 ::lime::utils::ArrayBufferView this24 = this->_hx___vertexBufferData;
+HXDLIN(1137)						Float val13 = (( (Float)(uvWidth) ) * uvLeft);
+HXDLIN(1137)						 ::__hxcpp_memory_set_float(this24->buffer->b,(this24->byteOffset + 460),val13);
+            					}
+HXLINE(1138)					{
+HXLINE(1138)						 ::lime::utils::ArrayBufferView this25 = this->_hx___vertexBufferData;
+HXDLIN(1138)						Float val14 = (( (Float)(uvHeight) ) * (uvTop + uvCenterY));
+HXDLIN(1138)						 ::__hxcpp_memory_set_float(this25->buffer->b,(this25->byteOffset + 464),val14);
+            					}
+HXLINE(1140)					{
+HXLINE(1140)						 ::lime::utils::ArrayBufferView this26 = this->_hx___vertexBufferData;
+HXDLIN(1140)						Float val15 = (renderedTop + renderedCenterY1);
+HXDLIN(1140)						 ::__hxcpp_memory_set_float(this26->buffer->b,(this26->byteOffset + 508),val15);
+            					}
+HXLINE(1141)					{
+HXLINE(1141)						 ::lime::utils::ArrayBufferView this27 = this->_hx___vertexBufferData;
+HXDLIN(1141)						Float val16 = (( (Float)(uvHeight) ) * (uvTop + uvCenterY));
+HXDLIN(1141)						 ::__hxcpp_memory_set_float(this27->buffer->b,(this27->byteOffset + 520),val16);
+            					}
+HXLINE(1144)					{
+HXLINE(1144)						 ::lime::utils::ArrayBufferView this28 = this->_hx___vertexBufferData;
+HXDLIN(1144)						Float val17 = (renderedLeft + renderedCenterX1);
+HXDLIN(1144)						 ::__hxcpp_memory_set_float(this28->buffer->b,(this28->byteOffset + 560),val17);
+            					}
+HXLINE(1145)					{
+HXLINE(1145)						 ::lime::utils::ArrayBufferView this29 = this->_hx___vertexBufferData;
+HXDLIN(1145)						Float val18 = (renderedTop + renderedCenterY1);
+HXDLIN(1145)						 ::__hxcpp_memory_set_float(this29->buffer->b,(this29->byteOffset + 564),val18);
+            					}
+HXLINE(1146)					{
+HXLINE(1146)						 ::lime::utils::ArrayBufferView this30 = this->_hx___vertexBufferData;
+HXDLIN(1146)						Float val19 = (( (Float)(uvWidth) ) * (uvLeft + uvCenterX));
+HXDLIN(1146)						 ::__hxcpp_memory_set_float(this30->buffer->b,(this30->byteOffset + 572),val19);
+            					}
+HXLINE(1147)					{
+HXLINE(1147)						 ::lime::utils::ArrayBufferView this31 = this->_hx___vertexBufferData;
+HXDLIN(1147)						Float val20 = (( (Float)(uvHeight) ) * (uvTop + uvCenterY));
+HXDLIN(1147)						 ::__hxcpp_memory_set_float(this31->buffer->b,(this31->byteOffset + 576),val20);
+            					}
+HXLINE(1150)					{
+HXLINE(1150)						 ::lime::utils::ArrayBufferView this32 = this->_hx___vertexBufferData;
+HXDLIN(1150)						Float val21 = ( (Float)(this->width) );
+HXDLIN(1150)						 ::__hxcpp_memory_set_float(this32->buffer->b,(this32->byteOffset + 616),val21);
+            					}
+HXLINE(1151)					{
+HXLINE(1151)						 ::lime::utils::ArrayBufferView this33 = this->_hx___vertexBufferData;
+HXDLIN(1151)						Float val22 = (renderedTop + renderedCenterY1);
+HXDLIN(1151)						 ::__hxcpp_memory_set_float(this33->buffer->b,(this33->byteOffset + 620),val22);
+            					}
+HXLINE(1152)					{
+HXLINE(1152)						 ::lime::utils::ArrayBufferView this34 = this->_hx___vertexBufferData;
+HXDLIN(1152)						 ::__hxcpp_memory_set_float(this34->buffer->b,(this34->byteOffset + 628),uvWidth);
+            					}
+HXLINE(1153)					{
+HXLINE(1153)						 ::lime::utils::ArrayBufferView this35 = this->_hx___vertexBufferData;
+HXDLIN(1153)						Float val23 = (( (Float)(uvHeight) ) * (uvTop + uvCenterY));
+HXDLIN(1153)						 ::__hxcpp_memory_set_float(this35->buffer->b,(this35->byteOffset + 632),val23);
+            					}
+HXLINE(1156)					{
+HXLINE(1156)						 ::lime::utils::ArrayBufferView this36 = this->_hx___vertexBufferData;
+HXDLIN(1156)						 ::__hxcpp_memory_set_float(this36->buffer->b,(this36->byteOffset + 672),renderedLeft);
+            					}
+HXLINE(1157)					{
+HXLINE(1157)						 ::lime::utils::ArrayBufferView this37 = this->_hx___vertexBufferData;
+HXDLIN(1157)						Float val24 = ( (Float)(this->height) );
+HXDLIN(1157)						 ::__hxcpp_memory_set_float(this37->buffer->b,(this37->byteOffset + 676),val24);
+            					}
+HXLINE(1158)					{
+HXLINE(1158)						 ::lime::utils::ArrayBufferView this38 = this->_hx___vertexBufferData;
+HXDLIN(1158)						Float val25 = (( (Float)(uvWidth) ) * uvLeft);
+HXDLIN(1158)						 ::__hxcpp_memory_set_float(this38->buffer->b,(this38->byteOffset + 684),val25);
+            					}
+HXLINE(1159)					{
+HXLINE(1159)						 ::lime::utils::ArrayBufferView this39 = this->_hx___vertexBufferData;
+HXDLIN(1159)						 ::__hxcpp_memory_set_float(this39->buffer->b,(this39->byteOffset + 688),uvHeight);
+            					}
+HXLINE(1161)					{
+HXLINE(1161)						 ::lime::utils::ArrayBufferView this40 = this->_hx___vertexBufferData;
+HXDLIN(1161)						Float val26 = ( (Float)(this->height) );
+HXDLIN(1161)						 ::__hxcpp_memory_set_float(this40->buffer->b,(this40->byteOffset + 732),val26);
+            					}
+HXLINE(1162)					{
+HXLINE(1162)						 ::lime::utils::ArrayBufferView this41 = this->_hx___vertexBufferData;
+HXDLIN(1162)						 ::__hxcpp_memory_set_float(this41->buffer->b,(this41->byteOffset + 744),uvHeight);
+            					}
+HXLINE(1165)					{
+HXLINE(1165)						 ::lime::utils::ArrayBufferView this42 = this->_hx___vertexBufferData;
+HXDLIN(1165)						Float val27 = (renderedLeft + renderedCenterX1);
+HXDLIN(1165)						 ::__hxcpp_memory_set_float(this42->buffer->b,(this42->byteOffset + 784),val27);
+            					}
+HXLINE(1166)					{
+HXLINE(1166)						 ::lime::utils::ArrayBufferView this43 = this->_hx___vertexBufferData;
+HXDLIN(1166)						Float val28 = ( (Float)(this->height) );
+HXDLIN(1166)						 ::__hxcpp_memory_set_float(this43->buffer->b,(this43->byteOffset + 788),val28);
+            					}
+HXLINE(1167)					{
+HXLINE(1167)						 ::lime::utils::ArrayBufferView this44 = this->_hx___vertexBufferData;
+HXDLIN(1167)						Float val29 = (( (Float)(uvWidth) ) * (uvLeft + uvCenterX));
+HXDLIN(1167)						 ::__hxcpp_memory_set_float(this44->buffer->b,(this44->byteOffset + 796),val29);
+            					}
+HXLINE(1168)					{
+HXLINE(1168)						 ::lime::utils::ArrayBufferView this45 = this->_hx___vertexBufferData;
+HXDLIN(1168)						 ::__hxcpp_memory_set_float(this45->buffer->b,(this45->byteOffset + 800),uvHeight);
+            					}
+HXLINE(1171)					{
+HXLINE(1171)						 ::lime::utils::ArrayBufferView this46 = this->_hx___vertexBufferData;
+HXDLIN(1171)						Float val30 = ( (Float)(this->width) );
+HXDLIN(1171)						 ::__hxcpp_memory_set_float(this46->buffer->b,(this46->byteOffset + 840),val30);
+            					}
+HXLINE(1172)					{
+HXLINE(1172)						 ::lime::utils::ArrayBufferView this47 = this->_hx___vertexBufferData;
+HXDLIN(1172)						Float val31 = ( (Float)(this->height) );
+HXDLIN(1172)						 ::__hxcpp_memory_set_float(this47->buffer->b,(this47->byteOffset + 844),val31);
+            					}
+HXLINE(1173)					{
+HXLINE(1173)						 ::lime::utils::ArrayBufferView this48 = this->_hx___vertexBufferData;
+HXDLIN(1173)						 ::__hxcpp_memory_set_float(this48->buffer->b,(this48->byteOffset + 852),uvWidth);
+            					}
+HXLINE(1174)					{
+HXLINE(1174)						 ::lime::utils::ArrayBufferView this49 = this->_hx___vertexBufferData;
+HXDLIN(1174)						 ::__hxcpp_memory_set_float(this49->buffer->b,(this49->byteOffset + 856),uvHeight);
+            					}
+HXLINE(1176)					this->_hx___vertexBuffer = context->createVertexBuffer(16,14,null());
+            				}
+            				else {
+HXLINE(1178)					bool _hx_tmp;
+HXDLIN(1178)					if ((centerX == 0)) {
+HXLINE(1178)						_hx_tmp = (centerY != 0);
             					}
             					else {
-HXLINE(1769)						_hx_tmp = false;
+HXLINE(1178)						_hx_tmp = false;
             					}
-HXDLIN(1769)					if (_hx_tmp) {
-HXLINE(1771)						 ::haxe::io::Bytes buffer = null();
-HXDLIN(1771)						::cpp::VirtualArray array = null();
-HXDLIN(1771)						 ::openfl::_Vector::FloatVector vector = null();
-HXDLIN(1771)						 ::lime::utils::ArrayBufferView view = null();
-HXDLIN(1771)						 ::Dynamic len = null();
-HXDLIN(1771)						 ::lime::utils::ArrayBufferView this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,112,8);
-HXDLIN(1771)						this->_hx___vertexBufferData = this1;
-HXLINE(1773)						Float top = scale9Grid->y;
-HXLINE(1774)						Float bottom = ((( (Float)(this->height) ) - centerY) - top);
-HXLINE(1776)						Float uvTop = (top / ( (Float)(this->height) ));
-HXLINE(1777)						Float uvCenterY = (centerY / ( (Float)(this->height) ));
-HXLINE(1778)						Float uvBottom = (bottom / ( (Float)(this->height) ));
-HXLINE(1780)						Float renderedTop = (top / targetObject->get_scaleY());
-HXLINE(1781)						Float renderedBottom = (bottom / targetObject->get_scaleY());
-HXLINE(1782)						Float renderedCenterY = targetObject->get_height();
-HXDLIN(1782)						Float renderedCenterY1 = (((renderedCenterY / targetObject->get_scaleY()) - renderedTop) - renderedBottom);
-HXLINE(1784)						Float renderedWidth = targetObject->get_width();
-HXDLIN(1784)						Float renderedWidth1 = (renderedWidth / targetObject->get_scaleX());
-HXLINE(1795)						{
-HXLINE(1795)							 ::lime::utils::ArrayBufferView this2 = this->_hx___vertexBufferData;
-HXDLIN(1795)							 ::__hxcpp_memory_set_float(this2->buffer->b,this2->byteOffset,renderedWidth1);
+HXDLIN(1178)					if (_hx_tmp) {
+HXLINE(1180)						 ::haxe::io::Bytes buffer = null();
+HXDLIN(1180)						::cpp::VirtualArray array = null();
+HXDLIN(1180)						 ::openfl::_Vector::FloatVector vector = null();
+HXDLIN(1180)						 ::lime::utils::ArrayBufferView view = null();
+HXDLIN(1180)						 ::Dynamic len = null();
+HXDLIN(1180)						 ::lime::utils::ArrayBufferView this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,112,8);
+HXDLIN(1180)						this->_hx___vertexBufferData = this1;
+HXLINE(1182)						Float top = scale9Grid->y;
+HXLINE(1183)						Float bottom = ((( (Float)(this->height) ) - centerY) - top);
+HXLINE(1185)						Float uvTop = (top / ( (Float)(this->height) ));
+HXLINE(1186)						Float uvCenterY = (centerY / ( (Float)(this->height) ));
+HXLINE(1187)						Float uvBottom = (bottom / ( (Float)(this->height) ));
+HXLINE(1189)						Float renderedTop = (top / targetObject->get_scaleY());
+HXLINE(1190)						Float renderedBottom = (bottom / targetObject->get_scaleY());
+HXLINE(1191)						Float renderedCenterY = targetObject->get_height();
+HXDLIN(1191)						Float renderedCenterY1 = (((renderedCenterY / targetObject->get_scaleY()) - renderedTop) - renderedBottom);
+HXLINE(1193)						Float renderedWidth = targetObject->get_width();
+HXDLIN(1193)						Float renderedWidth1 = (renderedWidth / targetObject->get_scaleX());
+HXLINE(1204)						{
+HXLINE(1204)							 ::lime::utils::ArrayBufferView this2 = this->_hx___vertexBufferData;
+HXDLIN(1204)							 ::__hxcpp_memory_set_float(this2->buffer->b,this2->byteOffset,renderedWidth1);
             						}
-HXLINE(1796)						{
-HXLINE(1796)							 ::lime::utils::ArrayBufferView this3 = this->_hx___vertexBufferData;
-HXDLIN(1796)							 ::__hxcpp_memory_set_float(this3->buffer->b,(this3->byteOffset + 4),renderedTop);
+HXLINE(1205)						{
+HXLINE(1205)							 ::lime::utils::ArrayBufferView this3 = this->_hx___vertexBufferData;
+HXDLIN(1205)							 ::__hxcpp_memory_set_float(this3->buffer->b,(this3->byteOffset + 4),renderedTop);
             						}
-HXLINE(1797)						{
-HXLINE(1797)							 ::lime::utils::ArrayBufferView this4 = this->_hx___vertexBufferData;
-HXDLIN(1797)							 ::__hxcpp_memory_set_float(this4->buffer->b,(this4->byteOffset + 12),uvWidth);
+HXLINE(1206)						{
+HXLINE(1206)							 ::lime::utils::ArrayBufferView this4 = this->_hx___vertexBufferData;
+HXDLIN(1206)							 ::__hxcpp_memory_set_float(this4->buffer->b,(this4->byteOffset + 12),uvWidth);
             						}
-HXLINE(1798)						{
-HXLINE(1798)							 ::lime::utils::ArrayBufferView this5 = this->_hx___vertexBufferData;
-HXDLIN(1798)							Float val = (( (Float)(uvHeight) ) * uvTop);
-HXDLIN(1798)							 ::__hxcpp_memory_set_float(this5->buffer->b,(this5->byteOffset + 16),val);
+HXLINE(1207)						{
+HXLINE(1207)							 ::lime::utils::ArrayBufferView this5 = this->_hx___vertexBufferData;
+HXDLIN(1207)							Float val = (( (Float)(uvHeight) ) * uvTop);
+HXDLIN(1207)							 ::__hxcpp_memory_set_float(this5->buffer->b,(this5->byteOffset + 16),val);
             						}
-HXLINE(1800)						{
-HXLINE(1800)							 ::lime::utils::ArrayBufferView this6 = this->_hx___vertexBufferData;
-HXDLIN(1800)							 ::__hxcpp_memory_set_float(this6->buffer->b,(this6->byteOffset + 60),renderedTop);
+HXLINE(1209)						{
+HXLINE(1209)							 ::lime::utils::ArrayBufferView this6 = this->_hx___vertexBufferData;
+HXDLIN(1209)							 ::__hxcpp_memory_set_float(this6->buffer->b,(this6->byteOffset + 60),renderedTop);
             						}
-HXLINE(1801)						{
-HXLINE(1801)							 ::lime::utils::ArrayBufferView this7 = this->_hx___vertexBufferData;
-HXDLIN(1801)							Float val1 = (( (Float)(uvHeight) ) * uvTop);
-HXDLIN(1801)							 ::__hxcpp_memory_set_float(this7->buffer->b,(this7->byteOffset + 72),val1);
+HXLINE(1210)						{
+HXLINE(1210)							 ::lime::utils::ArrayBufferView this7 = this->_hx___vertexBufferData;
+HXDLIN(1210)							Float val1 = (( (Float)(uvHeight) ) * uvTop);
+HXDLIN(1210)							 ::__hxcpp_memory_set_float(this7->buffer->b,(this7->byteOffset + 72),val1);
             						}
-HXLINE(1803)						{
-HXLINE(1803)							 ::lime::utils::ArrayBufferView this8 = this->_hx___vertexBufferData;
-HXDLIN(1803)							 ::__hxcpp_memory_set_float(this8->buffer->b,(this8->byteOffset + 112),renderedWidth1);
+HXLINE(1212)						{
+HXLINE(1212)							 ::lime::utils::ArrayBufferView this8 = this->_hx___vertexBufferData;
+HXDLIN(1212)							 ::__hxcpp_memory_set_float(this8->buffer->b,(this8->byteOffset + 112),renderedWidth1);
             						}
-HXLINE(1804)						{
-HXLINE(1804)							 ::lime::utils::ArrayBufferView this9 = this->_hx___vertexBufferData;
-HXDLIN(1804)							 ::__hxcpp_memory_set_float(this9->buffer->b,(this9->byteOffset + 124),uvWidth);
+HXLINE(1213)						{
+HXLINE(1213)							 ::lime::utils::ArrayBufferView this9 = this->_hx___vertexBufferData;
+HXDLIN(1213)							 ::__hxcpp_memory_set_float(this9->buffer->b,(this9->byteOffset + 124),uvWidth);
             						}
-HXLINE(1807)						{
-HXLINE(1807)							 ::lime::utils::ArrayBufferView this10 = this->_hx___vertexBufferData;
-HXDLIN(1807)							 ::__hxcpp_memory_set_float(this10->buffer->b,(this10->byteOffset + 224),renderedWidth1);
+HXLINE(1216)						{
+HXLINE(1216)							 ::lime::utils::ArrayBufferView this10 = this->_hx___vertexBufferData;
+HXDLIN(1216)							 ::__hxcpp_memory_set_float(this10->buffer->b,(this10->byteOffset + 224),renderedWidth1);
             						}
-HXLINE(1808)						{
-HXLINE(1808)							 ::lime::utils::ArrayBufferView this11 = this->_hx___vertexBufferData;
-HXDLIN(1808)							Float val2 = (renderedTop + renderedCenterY1);
-HXDLIN(1808)							 ::__hxcpp_memory_set_float(this11->buffer->b,(this11->byteOffset + 228),val2);
+HXLINE(1217)						{
+HXLINE(1217)							 ::lime::utils::ArrayBufferView this11 = this->_hx___vertexBufferData;
+HXDLIN(1217)							Float val2 = (renderedTop + renderedCenterY1);
+HXDLIN(1217)							 ::__hxcpp_memory_set_float(this11->buffer->b,(this11->byteOffset + 228),val2);
             						}
-HXLINE(1809)						{
-HXLINE(1809)							 ::lime::utils::ArrayBufferView this12 = this->_hx___vertexBufferData;
-HXDLIN(1809)							 ::__hxcpp_memory_set_float(this12->buffer->b,(this12->byteOffset + 236),uvWidth);
+HXLINE(1218)						{
+HXLINE(1218)							 ::lime::utils::ArrayBufferView this12 = this->_hx___vertexBufferData;
+HXDLIN(1218)							 ::__hxcpp_memory_set_float(this12->buffer->b,(this12->byteOffset + 236),uvWidth);
             						}
-HXLINE(1810)						{
-HXLINE(1810)							 ::lime::utils::ArrayBufferView this13 = this->_hx___vertexBufferData;
-HXDLIN(1810)							Float val3 = (( (Float)(uvHeight) ) * (uvTop + uvCenterY));
-HXDLIN(1810)							 ::__hxcpp_memory_set_float(this13->buffer->b,(this13->byteOffset + 240),val3);
+HXLINE(1219)						{
+HXLINE(1219)							 ::lime::utils::ArrayBufferView this13 = this->_hx___vertexBufferData;
+HXDLIN(1219)							Float val3 = (( (Float)(uvHeight) ) * (uvTop + uvCenterY));
+HXDLIN(1219)							 ::__hxcpp_memory_set_float(this13->buffer->b,(this13->byteOffset + 240),val3);
             						}
-HXLINE(1812)						{
-HXLINE(1812)							 ::lime::utils::ArrayBufferView this14 = this->_hx___vertexBufferData;
-HXDLIN(1812)							Float val4 = (renderedTop + renderedCenterY1);
-HXDLIN(1812)							 ::__hxcpp_memory_set_float(this14->buffer->b,(this14->byteOffset + 284),val4);
+HXLINE(1221)						{
+HXLINE(1221)							 ::lime::utils::ArrayBufferView this14 = this->_hx___vertexBufferData;
+HXDLIN(1221)							Float val4 = (renderedTop + renderedCenterY1);
+HXDLIN(1221)							 ::__hxcpp_memory_set_float(this14->buffer->b,(this14->byteOffset + 284),val4);
             						}
-HXLINE(1813)						{
-HXLINE(1813)							 ::lime::utils::ArrayBufferView this15 = this->_hx___vertexBufferData;
-HXDLIN(1813)							Float val5 = (( (Float)(uvHeight) ) * (uvTop + uvCenterY));
-HXDLIN(1813)							 ::__hxcpp_memory_set_float(this15->buffer->b,(this15->byteOffset + 296),val5);
+HXLINE(1222)						{
+HXLINE(1222)							 ::lime::utils::ArrayBufferView this15 = this->_hx___vertexBufferData;
+HXDLIN(1222)							Float val5 = (( (Float)(uvHeight) ) * (uvTop + uvCenterY));
+HXDLIN(1222)							 ::__hxcpp_memory_set_float(this15->buffer->b,(this15->byteOffset + 296),val5);
             						}
-HXLINE(1816)						{
-HXLINE(1816)							 ::lime::utils::ArrayBufferView this16 = this->_hx___vertexBufferData;
-HXDLIN(1816)							 ::__hxcpp_memory_set_float(this16->buffer->b,(this16->byteOffset + 336),renderedWidth1);
+HXLINE(1225)						{
+HXLINE(1225)							 ::lime::utils::ArrayBufferView this16 = this->_hx___vertexBufferData;
+HXDLIN(1225)							 ::__hxcpp_memory_set_float(this16->buffer->b,(this16->byteOffset + 336),renderedWidth1);
             						}
-HXLINE(1817)						{
-HXLINE(1817)							 ::lime::utils::ArrayBufferView this17 = this->_hx___vertexBufferData;
-HXDLIN(1817)							Float val6 = ( (Float)(this->height) );
-HXDLIN(1817)							 ::__hxcpp_memory_set_float(this17->buffer->b,(this17->byteOffset + 340),val6);
+HXLINE(1226)						{
+HXLINE(1226)							 ::lime::utils::ArrayBufferView this17 = this->_hx___vertexBufferData;
+HXDLIN(1226)							Float val6 = ( (Float)(this->height) );
+HXDLIN(1226)							 ::__hxcpp_memory_set_float(this17->buffer->b,(this17->byteOffset + 340),val6);
             						}
-HXLINE(1818)						{
-HXLINE(1818)							 ::lime::utils::ArrayBufferView this18 = this->_hx___vertexBufferData;
-HXDLIN(1818)							 ::__hxcpp_memory_set_float(this18->buffer->b,(this18->byteOffset + 348),uvWidth);
+HXLINE(1227)						{
+HXLINE(1227)							 ::lime::utils::ArrayBufferView this18 = this->_hx___vertexBufferData;
+HXDLIN(1227)							 ::__hxcpp_memory_set_float(this18->buffer->b,(this18->byteOffset + 348),uvWidth);
             						}
-HXLINE(1819)						{
-HXLINE(1819)							 ::lime::utils::ArrayBufferView this19 = this->_hx___vertexBufferData;
-HXDLIN(1819)							 ::__hxcpp_memory_set_float(this19->buffer->b,(this19->byteOffset + 352),uvHeight);
+HXLINE(1228)						{
+HXLINE(1228)							 ::lime::utils::ArrayBufferView this19 = this->_hx___vertexBufferData;
+HXDLIN(1228)							 ::__hxcpp_memory_set_float(this19->buffer->b,(this19->byteOffset + 352),uvHeight);
             						}
-HXLINE(1821)						{
-HXLINE(1821)							 ::lime::utils::ArrayBufferView this20 = this->_hx___vertexBufferData;
-HXDLIN(1821)							Float val7 = ( (Float)(this->height) );
-HXDLIN(1821)							 ::__hxcpp_memory_set_float(this20->buffer->b,(this20->byteOffset + 396),val7);
+HXLINE(1230)						{
+HXLINE(1230)							 ::lime::utils::ArrayBufferView this20 = this->_hx___vertexBufferData;
+HXDLIN(1230)							Float val7 = ( (Float)(this->height) );
+HXDLIN(1230)							 ::__hxcpp_memory_set_float(this20->buffer->b,(this20->byteOffset + 396),val7);
             						}
-HXLINE(1822)						{
-HXLINE(1822)							 ::lime::utils::ArrayBufferView this21 = this->_hx___vertexBufferData;
-HXDLIN(1822)							 ::__hxcpp_memory_set_float(this21->buffer->b,(this21->byteOffset + 408),uvHeight);
+HXLINE(1231)						{
+HXLINE(1231)							 ::lime::utils::ArrayBufferView this21 = this->_hx___vertexBufferData;
+HXDLIN(1231)							 ::__hxcpp_memory_set_float(this21->buffer->b,(this21->byteOffset + 408),uvHeight);
             						}
-HXLINE(1824)						this->_hx___vertexBuffer = context->createVertexBuffer(8,14,null());
+HXLINE(1233)						this->_hx___vertexBuffer = context->createVertexBuffer(8,14,null());
             					}
             					else {
-HXLINE(1826)						bool _hx_tmp;
-HXDLIN(1826)						if ((centerY == 0)) {
-HXLINE(1826)							_hx_tmp = (centerX != 0);
+HXLINE(1235)						bool _hx_tmp;
+HXDLIN(1235)						if ((centerY == 0)) {
+HXLINE(1235)							_hx_tmp = (centerX != 0);
             						}
             						else {
-HXLINE(1826)							_hx_tmp = false;
+HXLINE(1235)							_hx_tmp = false;
             						}
-HXDLIN(1826)						if (_hx_tmp) {
-HXLINE(1828)							 ::haxe::io::Bytes buffer = null();
-HXDLIN(1828)							::cpp::VirtualArray array = null();
-HXDLIN(1828)							 ::openfl::_Vector::FloatVector vector = null();
-HXDLIN(1828)							 ::lime::utils::ArrayBufferView view = null();
-HXDLIN(1828)							 ::Dynamic len = null();
-HXDLIN(1828)							 ::lime::utils::ArrayBufferView this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,112,8);
-HXDLIN(1828)							this->_hx___vertexBufferData = this1;
-HXLINE(1830)							Float left = scale9Grid->x;
-HXLINE(1831)							Float right = ((( (Float)(this->width) ) - centerX) - left);
-HXLINE(1833)							Float uvLeft = (left / ( (Float)(this->width) ));
-HXLINE(1834)							Float uvCenterX = (centerX / ( (Float)(this->width) ));
-HXLINE(1835)							Float uvRight = (right / ( (Float)(this->width) ));
-HXLINE(1837)							Float renderedLeft = (left / targetObject->get_scaleX());
-HXLINE(1838)							Float renderedRight = (right / targetObject->get_scaleX());
-HXLINE(1839)							Float renderedCenterX = targetObject->get_width();
-HXDLIN(1839)							Float renderedCenterX1 = (((renderedCenterX / targetObject->get_scaleX()) - renderedLeft) - renderedRight);
-HXLINE(1841)							Float renderedHeight = targetObject->get_height();
-HXDLIN(1841)							Float renderedHeight1 = (renderedHeight / targetObject->get_scaleY());
-HXLINE(1848)							{
-HXLINE(1848)								 ::lime::utils::ArrayBufferView this2 = this->_hx___vertexBufferData;
-HXDLIN(1848)								 ::__hxcpp_memory_set_float(this2->buffer->b,this2->byteOffset,renderedLeft);
+HXDLIN(1235)						if (_hx_tmp) {
+HXLINE(1237)							 ::haxe::io::Bytes buffer = null();
+HXDLIN(1237)							::cpp::VirtualArray array = null();
+HXDLIN(1237)							 ::openfl::_Vector::FloatVector vector = null();
+HXDLIN(1237)							 ::lime::utils::ArrayBufferView view = null();
+HXDLIN(1237)							 ::Dynamic len = null();
+HXDLIN(1237)							 ::lime::utils::ArrayBufferView this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,112,8);
+HXDLIN(1237)							this->_hx___vertexBufferData = this1;
+HXLINE(1239)							Float left = scale9Grid->x;
+HXLINE(1240)							Float right = ((( (Float)(this->width) ) - centerX) - left);
+HXLINE(1242)							Float uvLeft = (left / ( (Float)(this->width) ));
+HXLINE(1243)							Float uvCenterX = (centerX / ( (Float)(this->width) ));
+HXLINE(1244)							Float uvRight = (right / ( (Float)(this->width) ));
+HXLINE(1246)							Float renderedLeft = (left / targetObject->get_scaleX());
+HXLINE(1247)							Float renderedRight = (right / targetObject->get_scaleX());
+HXLINE(1248)							Float renderedCenterX = targetObject->get_width();
+HXDLIN(1248)							Float renderedCenterX1 = (((renderedCenterX / targetObject->get_scaleX()) - renderedLeft) - renderedRight);
+HXLINE(1250)							Float renderedHeight = targetObject->get_height();
+HXDLIN(1250)							Float renderedHeight1 = (renderedHeight / targetObject->get_scaleY());
+HXLINE(1257)							{
+HXLINE(1257)								 ::lime::utils::ArrayBufferView this2 = this->_hx___vertexBufferData;
+HXDLIN(1257)								 ::__hxcpp_memory_set_float(this2->buffer->b,this2->byteOffset,renderedLeft);
             							}
-HXLINE(1849)							{
-HXLINE(1849)								 ::lime::utils::ArrayBufferView this3 = this->_hx___vertexBufferData;
-HXDLIN(1849)								 ::__hxcpp_memory_set_float(this3->buffer->b,(this3->byteOffset + 4),renderedHeight1);
+HXLINE(1258)							{
+HXLINE(1258)								 ::lime::utils::ArrayBufferView this3 = this->_hx___vertexBufferData;
+HXDLIN(1258)								 ::__hxcpp_memory_set_float(this3->buffer->b,(this3->byteOffset + 4),renderedHeight1);
             							}
-HXLINE(1850)							{
-HXLINE(1850)								 ::lime::utils::ArrayBufferView this4 = this->_hx___vertexBufferData;
-HXDLIN(1850)								Float val = (( (Float)(uvWidth) ) * uvLeft);
-HXDLIN(1850)								 ::__hxcpp_memory_set_float(this4->buffer->b,(this4->byteOffset + 12),val);
+HXLINE(1259)							{
+HXLINE(1259)								 ::lime::utils::ArrayBufferView this4 = this->_hx___vertexBufferData;
+HXDLIN(1259)								Float val = (( (Float)(uvWidth) ) * uvLeft);
+HXDLIN(1259)								 ::__hxcpp_memory_set_float(this4->buffer->b,(this4->byteOffset + 12),val);
             							}
-HXLINE(1851)							{
-HXLINE(1851)								 ::lime::utils::ArrayBufferView this5 = this->_hx___vertexBufferData;
-HXDLIN(1851)								 ::__hxcpp_memory_set_float(this5->buffer->b,(this5->byteOffset + 16),uvHeight);
+HXLINE(1260)							{
+HXLINE(1260)								 ::lime::utils::ArrayBufferView this5 = this->_hx___vertexBufferData;
+HXDLIN(1260)								 ::__hxcpp_memory_set_float(this5->buffer->b,(this5->byteOffset + 16),uvHeight);
             							}
-HXLINE(1853)							{
-HXLINE(1853)								 ::lime::utils::ArrayBufferView this6 = this->_hx___vertexBufferData;
-HXDLIN(1853)								 ::__hxcpp_memory_set_float(this6->buffer->b,(this6->byteOffset + 60),renderedHeight1);
+HXLINE(1262)							{
+HXLINE(1262)								 ::lime::utils::ArrayBufferView this6 = this->_hx___vertexBufferData;
+HXDLIN(1262)								 ::__hxcpp_memory_set_float(this6->buffer->b,(this6->byteOffset + 60),renderedHeight1);
             							}
-HXLINE(1854)							{
-HXLINE(1854)								 ::lime::utils::ArrayBufferView this7 = this->_hx___vertexBufferData;
-HXDLIN(1854)								 ::__hxcpp_memory_set_float(this7->buffer->b,(this7->byteOffset + 72),uvHeight);
+HXLINE(1263)							{
+HXLINE(1263)								 ::lime::utils::ArrayBufferView this7 = this->_hx___vertexBufferData;
+HXDLIN(1263)								 ::__hxcpp_memory_set_float(this7->buffer->b,(this7->byteOffset + 72),uvHeight);
             							}
-HXLINE(1856)							{
-HXLINE(1856)								 ::lime::utils::ArrayBufferView this8 = this->_hx___vertexBufferData;
-HXDLIN(1856)								 ::__hxcpp_memory_set_float(this8->buffer->b,(this8->byteOffset + 112),renderedLeft);
+HXLINE(1265)							{
+HXLINE(1265)								 ::lime::utils::ArrayBufferView this8 = this->_hx___vertexBufferData;
+HXDLIN(1265)								 ::__hxcpp_memory_set_float(this8->buffer->b,(this8->byteOffset + 112),renderedLeft);
             							}
-HXLINE(1857)							{
-HXLINE(1857)								 ::lime::utils::ArrayBufferView this9 = this->_hx___vertexBufferData;
-HXDLIN(1857)								Float val1 = (( (Float)(uvWidth) ) * uvLeft);
-HXDLIN(1857)								 ::__hxcpp_memory_set_float(this9->buffer->b,(this9->byteOffset + 124),val1);
+HXLINE(1266)							{
+HXLINE(1266)								 ::lime::utils::ArrayBufferView this9 = this->_hx___vertexBufferData;
+HXDLIN(1266)								Float val1 = (( (Float)(uvWidth) ) * uvLeft);
+HXDLIN(1266)								 ::__hxcpp_memory_set_float(this9->buffer->b,(this9->byteOffset + 124),val1);
             							}
-HXLINE(1860)							{
-HXLINE(1860)								 ::lime::utils::ArrayBufferView this10 = this->_hx___vertexBufferData;
-HXDLIN(1860)								Float val2 = (renderedLeft + renderedCenterX1);
-HXDLIN(1860)								 ::__hxcpp_memory_set_float(this10->buffer->b,(this10->byteOffset + 224),val2);
+HXLINE(1269)							{
+HXLINE(1269)								 ::lime::utils::ArrayBufferView this10 = this->_hx___vertexBufferData;
+HXDLIN(1269)								Float val2 = (renderedLeft + renderedCenterX1);
+HXDLIN(1269)								 ::__hxcpp_memory_set_float(this10->buffer->b,(this10->byteOffset + 224),val2);
             							}
-HXLINE(1861)							{
-HXLINE(1861)								 ::lime::utils::ArrayBufferView this11 = this->_hx___vertexBufferData;
-HXDLIN(1861)								 ::__hxcpp_memory_set_float(this11->buffer->b,(this11->byteOffset + 228),renderedHeight1);
+HXLINE(1270)							{
+HXLINE(1270)								 ::lime::utils::ArrayBufferView this11 = this->_hx___vertexBufferData;
+HXDLIN(1270)								 ::__hxcpp_memory_set_float(this11->buffer->b,(this11->byteOffset + 228),renderedHeight1);
             							}
-HXLINE(1862)							{
-HXLINE(1862)								 ::lime::utils::ArrayBufferView this12 = this->_hx___vertexBufferData;
-HXDLIN(1862)								Float val3 = (( (Float)(uvWidth) ) * (uvLeft + uvCenterX));
-HXDLIN(1862)								 ::__hxcpp_memory_set_float(this12->buffer->b,(this12->byteOffset + 236),val3);
+HXLINE(1271)							{
+HXLINE(1271)								 ::lime::utils::ArrayBufferView this12 = this->_hx___vertexBufferData;
+HXDLIN(1271)								Float val3 = (( (Float)(uvWidth) ) * (uvLeft + uvCenterX));
+HXDLIN(1271)								 ::__hxcpp_memory_set_float(this12->buffer->b,(this12->byteOffset + 236),val3);
             							}
-HXLINE(1863)							{
-HXLINE(1863)								 ::lime::utils::ArrayBufferView this13 = this->_hx___vertexBufferData;
-HXDLIN(1863)								 ::__hxcpp_memory_set_float(this13->buffer->b,(this13->byteOffset + 240),uvHeight);
+HXLINE(1272)							{
+HXLINE(1272)								 ::lime::utils::ArrayBufferView this13 = this->_hx___vertexBufferData;
+HXDLIN(1272)								 ::__hxcpp_memory_set_float(this13->buffer->b,(this13->byteOffset + 240),uvHeight);
             							}
-HXLINE(1865)							{
-HXLINE(1865)								 ::lime::utils::ArrayBufferView this14 = this->_hx___vertexBufferData;
-HXDLIN(1865)								Float val4 = (renderedLeft + renderedCenterX1);
-HXDLIN(1865)								 ::__hxcpp_memory_set_float(this14->buffer->b,(this14->byteOffset + 280),val4);
+HXLINE(1274)							{
+HXLINE(1274)								 ::lime::utils::ArrayBufferView this14 = this->_hx___vertexBufferData;
+HXDLIN(1274)								Float val4 = (renderedLeft + renderedCenterX1);
+HXDLIN(1274)								 ::__hxcpp_memory_set_float(this14->buffer->b,(this14->byteOffset + 280),val4);
             							}
-HXLINE(1866)							{
-HXLINE(1866)								 ::lime::utils::ArrayBufferView this15 = this->_hx___vertexBufferData;
-HXDLIN(1866)								Float val5 = (( (Float)(uvWidth) ) * (uvLeft + uvCenterX));
-HXDLIN(1866)								 ::__hxcpp_memory_set_float(this15->buffer->b,(this15->byteOffset + 292),val5);
+HXLINE(1275)							{
+HXLINE(1275)								 ::lime::utils::ArrayBufferView this15 = this->_hx___vertexBufferData;
+HXDLIN(1275)								Float val5 = (( (Float)(uvWidth) ) * (uvLeft + uvCenterX));
+HXDLIN(1275)								 ::__hxcpp_memory_set_float(this15->buffer->b,(this15->byteOffset + 292),val5);
             							}
-HXLINE(1869)							{
-HXLINE(1869)								 ::lime::utils::ArrayBufferView this16 = this->_hx___vertexBufferData;
-HXDLIN(1869)								Float val6 = ( (Float)(this->width) );
-HXDLIN(1869)								 ::__hxcpp_memory_set_float(this16->buffer->b,(this16->byteOffset + 336),val6);
+HXLINE(1278)							{
+HXLINE(1278)								 ::lime::utils::ArrayBufferView this16 = this->_hx___vertexBufferData;
+HXDLIN(1278)								Float val6 = ( (Float)(this->width) );
+HXDLIN(1278)								 ::__hxcpp_memory_set_float(this16->buffer->b,(this16->byteOffset + 336),val6);
             							}
-HXLINE(1870)							{
-HXLINE(1870)								 ::lime::utils::ArrayBufferView this17 = this->_hx___vertexBufferData;
-HXDLIN(1870)								 ::__hxcpp_memory_set_float(this17->buffer->b,(this17->byteOffset + 340),renderedHeight1);
+HXLINE(1279)							{
+HXLINE(1279)								 ::lime::utils::ArrayBufferView this17 = this->_hx___vertexBufferData;
+HXDLIN(1279)								 ::__hxcpp_memory_set_float(this17->buffer->b,(this17->byteOffset + 340),renderedHeight1);
             							}
-HXLINE(1871)							{
-HXLINE(1871)								 ::lime::utils::ArrayBufferView this18 = this->_hx___vertexBufferData;
-HXDLIN(1871)								 ::__hxcpp_memory_set_float(this18->buffer->b,(this18->byteOffset + 348),uvWidth);
+HXLINE(1280)							{
+HXLINE(1280)								 ::lime::utils::ArrayBufferView this18 = this->_hx___vertexBufferData;
+HXDLIN(1280)								 ::__hxcpp_memory_set_float(this18->buffer->b,(this18->byteOffset + 348),uvWidth);
             							}
-HXLINE(1872)							{
-HXLINE(1872)								 ::lime::utils::ArrayBufferView this19 = this->_hx___vertexBufferData;
-HXDLIN(1872)								 ::__hxcpp_memory_set_float(this19->buffer->b,(this19->byteOffset + 352),uvHeight);
+HXLINE(1281)							{
+HXLINE(1281)								 ::lime::utils::ArrayBufferView this19 = this->_hx___vertexBufferData;
+HXDLIN(1281)								 ::__hxcpp_memory_set_float(this19->buffer->b,(this19->byteOffset + 352),uvHeight);
             							}
-HXLINE(1874)							{
-HXLINE(1874)								 ::lime::utils::ArrayBufferView this20 = this->_hx___vertexBufferData;
-HXDLIN(1874)								Float val7 = ( (Float)(this->width) );
-HXDLIN(1874)								 ::__hxcpp_memory_set_float(this20->buffer->b,(this20->byteOffset + 392),val7);
+HXLINE(1283)							{
+HXLINE(1283)								 ::lime::utils::ArrayBufferView this20 = this->_hx___vertexBufferData;
+HXDLIN(1283)								Float val7 = ( (Float)(this->width) );
+HXDLIN(1283)								 ::__hxcpp_memory_set_float(this20->buffer->b,(this20->byteOffset + 392),val7);
             							}
-HXLINE(1875)							{
-HXLINE(1875)								 ::lime::utils::ArrayBufferView this21 = this->_hx___vertexBufferData;
-HXDLIN(1875)								 ::__hxcpp_memory_set_float(this21->buffer->b,(this21->byteOffset + 404),uvWidth);
+HXLINE(1284)							{
+HXLINE(1284)								 ::lime::utils::ArrayBufferView this21 = this->_hx___vertexBufferData;
+HXDLIN(1284)								 ::__hxcpp_memory_set_float(this21->buffer->b,(this21->byteOffset + 404),uvWidth);
             							}
-HXLINE(1877)							this->_hx___vertexBuffer = context->createVertexBuffer(8,14,null());
+HXLINE(1286)							this->_hx___vertexBuffer = context->createVertexBuffer(8,14,null());
             						}
             					}
             				}
             			}
             			else {
-HXLINE(1882)				this->_hx___vertexBufferGrid = null();
+HXLINE(1291)				this->_hx___vertexBufferGrid = null();
             			}
-HXLINE(1885)			if (::hx::IsNull( this->_hx___vertexBuffer )) {
-HXLINE(1887)				 ::haxe::io::Bytes buffer = null();
-HXDLIN(1887)				::cpp::VirtualArray array = null();
-HXDLIN(1887)				 ::openfl::_Vector::FloatVector vector = null();
-HXDLIN(1887)				 ::lime::utils::ArrayBufferView view = null();
-HXDLIN(1887)				 ::Dynamic len = null();
-HXDLIN(1887)				 ::lime::utils::ArrayBufferView this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,56,8);
-HXDLIN(1887)				this->_hx___vertexBufferData = this1;
-HXLINE(1889)				{
-HXLINE(1889)					 ::lime::utils::ArrayBufferView this2 = this->_hx___vertexBufferData;
-HXDLIN(1889)					Float val = ( (Float)(this->width) );
-HXDLIN(1889)					 ::__hxcpp_memory_set_float(this2->buffer->b,this2->byteOffset,val);
+HXLINE(1294)			if (::hx::IsNull( this->_hx___vertexBuffer )) {
+HXLINE(1296)				 ::haxe::io::Bytes buffer = null();
+HXDLIN(1296)				::cpp::VirtualArray array = null();
+HXDLIN(1296)				 ::openfl::_Vector::FloatVector vector = null();
+HXDLIN(1296)				 ::lime::utils::ArrayBufferView view = null();
+HXDLIN(1296)				 ::Dynamic len = null();
+HXDLIN(1296)				 ::lime::utils::ArrayBufferView this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,56,8);
+HXDLIN(1296)				this->_hx___vertexBufferData = this1;
+HXLINE(1298)				{
+HXLINE(1298)					 ::lime::utils::ArrayBufferView this2 = this->_hx___vertexBufferData;
+HXDLIN(1298)					Float val = ( (Float)(this->width) );
+HXDLIN(1298)					 ::__hxcpp_memory_set_float(this2->buffer->b,this2->byteOffset,val);
             				}
-HXLINE(1890)				{
-HXLINE(1890)					 ::lime::utils::ArrayBufferView this3 = this->_hx___vertexBufferData;
-HXDLIN(1890)					Float val1 = ( (Float)(this->height) );
-HXDLIN(1890)					 ::__hxcpp_memory_set_float(this3->buffer->b,(this3->byteOffset + 4),val1);
+HXLINE(1299)				{
+HXLINE(1299)					 ::lime::utils::ArrayBufferView this3 = this->_hx___vertexBufferData;
+HXDLIN(1299)					Float val1 = ( (Float)(this->height) );
+HXDLIN(1299)					 ::__hxcpp_memory_set_float(this3->buffer->b,(this3->byteOffset + 4),val1);
             				}
-HXLINE(1891)				{
-HXLINE(1891)					 ::lime::utils::ArrayBufferView this4 = this->_hx___vertexBufferData;
-HXDLIN(1891)					 ::__hxcpp_memory_set_float(this4->buffer->b,(this4->byteOffset + 12),uvWidth);
+HXLINE(1300)				{
+HXLINE(1300)					 ::lime::utils::ArrayBufferView this4 = this->_hx___vertexBufferData;
+HXDLIN(1300)					 ::__hxcpp_memory_set_float(this4->buffer->b,(this4->byteOffset + 12),uvWidth);
             				}
-HXLINE(1892)				{
-HXLINE(1892)					 ::lime::utils::ArrayBufferView this5 = this->_hx___vertexBufferData;
-HXDLIN(1892)					 ::__hxcpp_memory_set_float(this5->buffer->b,(this5->byteOffset + 16),uvHeight);
+HXLINE(1301)				{
+HXLINE(1301)					 ::lime::utils::ArrayBufferView this5 = this->_hx___vertexBufferData;
+HXDLIN(1301)					 ::__hxcpp_memory_set_float(this5->buffer->b,(this5->byteOffset + 16),uvHeight);
             				}
-HXLINE(1893)				{
-HXLINE(1893)					 ::lime::utils::ArrayBufferView this6 = this->_hx___vertexBufferData;
-HXDLIN(1893)					Float val2 = ( (Float)(this->height) );
-HXDLIN(1893)					 ::__hxcpp_memory_set_float(this6->buffer->b,(this6->byteOffset + 60),val2);
+HXLINE(1302)				{
+HXLINE(1302)					 ::lime::utils::ArrayBufferView this6 = this->_hx___vertexBufferData;
+HXDLIN(1302)					Float val2 = ( (Float)(this->height) );
+HXDLIN(1302)					 ::__hxcpp_memory_set_float(this6->buffer->b,(this6->byteOffset + 60),val2);
             				}
-HXLINE(1894)				{
-HXLINE(1894)					 ::lime::utils::ArrayBufferView this7 = this->_hx___vertexBufferData;
-HXDLIN(1894)					 ::__hxcpp_memory_set_float(this7->buffer->b,(this7->byteOffset + 72),uvHeight);
+HXLINE(1303)				{
+HXLINE(1303)					 ::lime::utils::ArrayBufferView this7 = this->_hx___vertexBufferData;
+HXDLIN(1303)					 ::__hxcpp_memory_set_float(this7->buffer->b,(this7->byteOffset + 72),uvHeight);
             				}
-HXLINE(1895)				{
-HXLINE(1895)					 ::lime::utils::ArrayBufferView this8 = this->_hx___vertexBufferData;
-HXDLIN(1895)					Float val3 = ( (Float)(this->width) );
-HXDLIN(1895)					 ::__hxcpp_memory_set_float(this8->buffer->b,(this8->byteOffset + 112),val3);
+HXLINE(1304)				{
+HXLINE(1304)					 ::lime::utils::ArrayBufferView this8 = this->_hx___vertexBufferData;
+HXDLIN(1304)					Float val3 = ( (Float)(this->width) );
+HXDLIN(1304)					 ::__hxcpp_memory_set_float(this8->buffer->b,(this8->byteOffset + 112),val3);
             				}
-HXLINE(1896)				{
-HXLINE(1896)					 ::lime::utils::ArrayBufferView this9 = this->_hx___vertexBufferData;
-HXDLIN(1896)					 ::__hxcpp_memory_set_float(this9->buffer->b,(this9->byteOffset + 124),uvWidth);
+HXLINE(1305)				{
+HXLINE(1305)					 ::lime::utils::ArrayBufferView this9 = this->_hx___vertexBufferData;
+HXDLIN(1305)					 ::__hxcpp_memory_set_float(this9->buffer->b,(this9->byteOffset + 124),uvWidth);
             				}
-HXLINE(1898)				this->_hx___vertexBuffer = context->createVertexBuffer(3,14,null());
+HXLINE(1307)				this->_hx___vertexBuffer = context->createVertexBuffer(3,14,null());
             			}
-HXLINE(1923)			this->_hx___vertexBuffer->uploadFromTypedArray(this->_hx___vertexBufferData,null());
+HXLINE(1332)			this->_hx___vertexBuffer->uploadFromTypedArray(this->_hx___vertexBufferData,null());
             		}
-HXLINE(1997)		return this->_hx___vertexBuffer;
+HXLINE(1406)		return this->_hx___vertexBuffer;
             	}
 
 
@@ -2207,247 +2238,247 @@ HX_DEFINE_DYNAMIC_FUNC3(BitmapData_obj,getVertexBuffer,return )
 
  ::openfl::geom::Rectangle BitmapData_obj::getColorBoundsRect(int mask,int color,::hx::Null< bool >  __o_findColor){
             		bool findColor = __o_findColor.Default(true);
-            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2035_getColorBoundsRect)
-HXLINE(2037)		if (!(this->readable)) {
-HXLINE(2037)			return  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,0,0,this->width,this->height);
+            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1410_getColorBoundsRect)
+HXLINE(1412)		if (!(this->readable)) {
+HXLINE(1412)			return  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,0,0,this->width,this->height);
             		}
-HXLINE(2039)		bool _hx_tmp;
-HXDLIN(2039)		if (this->transparent) {
-HXLINE(2039)			_hx_tmp = (((mask >> 24) & 255) > 0);
+HXLINE(1414)		bool _hx_tmp;
+HXDLIN(1414)		if (this->transparent) {
+HXLINE(1414)			_hx_tmp = (((mask >> 24) & 255) > 0);
             		}
             		else {
-HXLINE(2039)			_hx_tmp = true;
+HXLINE(1414)			_hx_tmp = true;
             		}
-HXDLIN(2039)		if (_hx_tmp) {
-HXLINE(2041)			int color1 = color;
-HXLINE(2042)			if (((::hx::UShr(color1,24) & 255) == 0)) {
-HXLINE(2042)				color1 = 0;
+HXDLIN(1414)		if (_hx_tmp) {
+HXLINE(1416)			int color1 = color;
+HXLINE(1417)			if (((::hx::UShr(color1,24) & 255) == 0)) {
+HXLINE(1417)				color1 = 0;
             			}
             		}
-HXLINE(2045)		 ::lime::math::Rectangle rect = this->image->getColorBoundsRect(mask,color,findColor,1);
-HXLINE(2046)		return  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,rect->x,rect->y,rect->width,rect->height);
+HXLINE(1420)		 ::lime::math::Rectangle rect = this->image->getColorBoundsRect(mask,color,findColor,1);
+HXLINE(1421)		return  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,rect->x,rect->y,rect->width,rect->height);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(BitmapData_obj,getColorBoundsRect,return )
 
 int BitmapData_obj::getPixel(int x,int y){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2076_getPixel)
-HXLINE(2077)		if (!(this->readable)) {
-HXLINE(2077)			return 0;
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1428_getPixel)
+HXLINE(1429)		if (!(this->readable)) {
+HXLINE(1429)			return 0;
             		}
-HXLINE(2079)		return this->image->getPixel(x,y,1);
+HXLINE(1431)		return this->image->getPixel(x,y,1);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(BitmapData_obj,getPixel,return )
 
 int BitmapData_obj::getPixel32(int x,int y){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2108_getPixel32)
-HXLINE(2109)		if (!(this->readable)) {
-HXLINE(2109)			return 0;
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1438_getPixel32)
+HXLINE(1439)		if (!(this->readable)) {
+HXLINE(1439)			return 0;
             		}
-HXLINE(2111)		return this->image->getPixel32(x,y,1);
+HXLINE(1441)		return this->image->getPixel32(x,y,1);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(BitmapData_obj,getPixel32,return )
 
  ::openfl::utils::ByteArrayData BitmapData_obj::getPixels( ::openfl::geom::Rectangle rect){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2127_getPixels)
-HXLINE(2129)		if (!(this->readable)) {
-HXLINE(2129)			return null();
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1448_getPixels)
+HXLINE(1450)		if (!(this->readable)) {
+HXLINE(1450)			return null();
             		}
-HXLINE(2130)		if (::hx::IsNull( rect )) {
-HXLINE(2130)			rect = this->rect;
+HXLINE(1451)		if (::hx::IsNull( rect )) {
+HXLINE(1451)			rect = this->rect;
             		}
-HXLINE(2131)		 ::lime::graphics::Image byteArray = this->image;
-HXDLIN(2131)		 ::openfl::utils::ByteArrayData byteArray1 = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(byteArray->getPixels(rect->_hx___toLimeRectangle(),1));
-HXLINE(2133)		byteArray1->_hx___endian = 0;
-HXLINE(2134)		return byteArray1;
+HXLINE(1452)		 ::lime::graphics::Image byteArray = this->image;
+HXDLIN(1452)		 ::openfl::utils::ByteArrayData byteArray1 = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(byteArray->getPixels(rect->_hx___toLimeRectangle(),1));
+HXLINE(1454)		byteArray1->_hx___endian = 0;
+HXLINE(1455)		return byteArray1;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(BitmapData_obj,getPixels,return )
 
  ::Dynamic BitmapData_obj::getSurface(){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2150_getSurface)
-HXLINE(2152)		if (!(this->readable)) {
-HXLINE(2152)			return null();
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1463_getSurface)
+HXLINE(1465)		if (!(this->readable)) {
+HXLINE(1465)			return null();
             		}
-HXLINE(2154)		if (::hx::IsNull( this->_hx___surface )) {
-HXLINE(2156)			this->_hx___surface = ::lime::graphics::cairo::_CairoImageSurface::CairoImageSurface_Impl__obj::fromImage(this->image);
+HXLINE(1467)		if (::hx::IsNull( this->_hx___surface )) {
+HXLINE(1469)			this->_hx___surface = ::lime::graphics::cairo::_CairoImageSurface::CairoImageSurface_Impl__obj::fromImage(this->image);
             		}
-HXLINE(2159)		return this->_hx___surface;
+HXLINE(1472)		return this->_hx___surface;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(BitmapData_obj,getSurface,return )
 
  ::openfl::display3D::textures::TextureBase BitmapData_obj::getTexture( ::openfl::display3D::Context3D context){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2174_getTexture)
-HXLINE(2175)		if (!(this->_hx___isValid)) {
-HXLINE(2175)			return null();
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1479_getTexture)
+HXLINE(1480)		if (!(this->_hx___isValid)) {
+HXLINE(1480)			return null();
             		}
-HXLINE(2177)		bool _hx_tmp;
-HXDLIN(2177)		if (::hx::IsNotNull( this->_hx___texture )) {
-HXLINE(2177)			_hx_tmp = ::hx::IsNotEq( this->_hx___textureContext,context->_hx___context );
-            		}
-            		else {
-HXLINE(2177)			_hx_tmp = true;
-            		}
-HXDLIN(2177)		if (_hx_tmp) {
-HXLINE(2179)			this->_hx___textureContext = context->_hx___context;
-HXLINE(2180)			this->_hx___texture = context->createRectangleTexture(this->width,this->height,1,false);
-HXLINE(2187)			this->_hx___textureVersion = -1;
-            		}
-HXLINE(2195)		bool _hx_tmp1;
-HXDLIN(2195)		if (::hx::IsNotNull( this->image )) {
-HXLINE(2195)			_hx_tmp1 = (this->image->version > this->_hx___textureVersion);
+HXLINE(1482)		bool _hx_tmp;
+HXDLIN(1482)		if (::hx::IsNotNull( this->_hx___texture )) {
+HXLINE(1482)			_hx_tmp = ::hx::IsNotEq( this->_hx___textureContext,context->_hx___context );
             		}
             		else {
-HXLINE(2195)			_hx_tmp1 = false;
+HXLINE(1482)			_hx_tmp = true;
             		}
-HXDLIN(2195)		if (_hx_tmp1) {
-HXLINE(2197)			if (::hx::IsNotNull( this->_hx___surface )) {
-HXLINE(2199)				::lime::graphics::cairo::_CairoSurface::CairoSurface_Impl__obj::flush(this->_hx___surface);
+HXDLIN(1482)		if (_hx_tmp) {
+HXLINE(1484)			this->_hx___textureContext = context->_hx___context;
+HXLINE(1485)			this->_hx___texture = context->createRectangleTexture(this->width,this->height,1,false);
+HXLINE(1492)			this->_hx___textureVersion = -1;
+            		}
+HXLINE(1500)		bool _hx_tmp1;
+HXDLIN(1500)		if (::hx::IsNotNull( this->image )) {
+HXLINE(1500)			_hx_tmp1 = (this->image->version > this->_hx___textureVersion);
+            		}
+            		else {
+HXLINE(1500)			_hx_tmp1 = false;
+            		}
+HXDLIN(1500)		if (_hx_tmp1) {
+HXLINE(1502)			if (::hx::IsNotNull( this->_hx___surface )) {
+HXLINE(1504)				::lime::graphics::cairo::_CairoSurface::CairoSurface_Impl__obj::flush(this->_hx___surface);
             			}
-HXLINE(2202)			 ::lime::graphics::Image textureImage = this->image;
-HXLINE(2215)			bool _hx_tmp;
-HXDLIN(2215)			if (!(textureImage->get_premultiplied())) {
-HXLINE(2215)				_hx_tmp = textureImage->get_transparent();
+HXLINE(1507)			 ::lime::graphics::Image textureImage = this->image;
+HXLINE(1520)			bool _hx_tmp;
+HXDLIN(1520)			if (!(textureImage->get_premultiplied())) {
+HXLINE(1520)				_hx_tmp = textureImage->get_transparent();
             			}
             			else {
-HXLINE(2215)				_hx_tmp = false;
+HXLINE(1520)				_hx_tmp = false;
             			}
-HXDLIN(2215)			if (_hx_tmp) {
-HXLINE(2217)				textureImage = textureImage->clone();
-HXLINE(2218)				textureImage->set_premultiplied(true);
+HXDLIN(1520)			if (_hx_tmp) {
+HXLINE(1522)				textureImage = textureImage->clone();
+HXLINE(1523)				textureImage->set_premultiplied(true);
             			}
-HXLINE(2225)			this->_hx___texture->_hx___uploadFromImage(textureImage);
-HXLINE(2227)			this->_hx___textureVersion = this->image->version;
-HXLINE(2229)			this->_hx___textureWidth = textureImage->buffer->width;
-HXLINE(2230)			this->_hx___textureHeight = textureImage->buffer->height;
+HXLINE(1530)			this->_hx___texture->_hx___uploadFromImage(textureImage);
+HXLINE(1532)			this->_hx___textureVersion = this->image->version;
+HXLINE(1534)			this->_hx___textureWidth = textureImage->buffer->width;
+HXLINE(1535)			this->_hx___textureHeight = textureImage->buffer->height;
             		}
-HXLINE(2233)		bool _hx_tmp2;
-HXDLIN(2233)		if (!(this->readable)) {
-HXLINE(2233)			_hx_tmp2 = ::hx::IsNotNull( this->image );
+HXLINE(1538)		bool _hx_tmp2;
+HXDLIN(1538)		if (!(this->readable)) {
+HXLINE(1538)			_hx_tmp2 = ::hx::IsNotNull( this->image );
             		}
             		else {
-HXLINE(2233)			_hx_tmp2 = false;
+HXLINE(1538)			_hx_tmp2 = false;
             		}
-HXDLIN(2233)		if (_hx_tmp2) {
-HXLINE(2235)			this->_hx___surface = null();
-HXLINE(2236)			this->image = null();
+HXDLIN(1538)		if (_hx_tmp2) {
+HXLINE(1540)			this->_hx___surface = null();
+HXLINE(1541)			this->image = null();
             		}
-HXLINE(2240)		return this->_hx___texture;
+HXLINE(1545)		return this->_hx___texture;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(BitmapData_obj,getTexture,return )
 
  ::openfl::_Vector::IntVector BitmapData_obj::getVector( ::openfl::geom::Rectangle rect){
-            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2252_getVector)
-HXLINE(2253)		 ::openfl::utils::ByteArrayData pixels = this->getPixels(rect);
-HXLINE(2254)		int _hx_int = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::get_length(pixels);
-HXDLIN(2254)		Float length;
-HXDLIN(2254)		if ((_hx_int < 0)) {
-HXLINE(2254)			length = (((Float)4294967296.0) + _hx_int);
+            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1549_getVector)
+HXLINE(1550)		 ::openfl::utils::ByteArrayData pixels = this->getPixels(rect);
+HXLINE(1551)		int _hx_int = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::get_length(pixels);
+HXDLIN(1551)		Float length;
+HXDLIN(1551)		if ((_hx_int < 0)) {
+HXLINE(1551)			length = (((Float)4294967296.0) + _hx_int);
             		}
             		else {
-HXLINE(2254)			length = (_hx_int + ((Float)0.0));
+HXLINE(1551)			length = (_hx_int + ((Float)0.0));
             		}
-HXDLIN(2254)		int int1 = 4;
-HXDLIN(2254)		Float length1;
-HXDLIN(2254)		if ((int1 < 0)) {
-HXLINE(2254)			length1 = (((Float)4294967296.0) + int1);
+HXDLIN(1551)		int int1 = 4;
+HXDLIN(1551)		Float length1;
+HXDLIN(1551)		if ((int1 < 0)) {
+HXLINE(1551)			length1 = (((Float)4294967296.0) + int1);
             		}
             		else {
-HXLINE(2254)			length1 = (int1 + ((Float)0.0));
+HXLINE(1551)			length1 = (int1 + ((Float)0.0));
             		}
-HXDLIN(2254)		int length2 = ::Std_obj::_hx_int((length / length1));
-HXLINE(2255)		::Array< int > array = null();
-HXDLIN(2255)		 ::openfl::_Vector::IntVector result =  ::openfl::_Vector::IntVector_obj::__alloc( HX_CTX ,length2,true,array);
-HXLINE(2257)		{
-HXLINE(2257)			int _g = 0;
-HXDLIN(2257)			int _g1 = length2;
-HXDLIN(2257)			while((_g < _g1)){
-HXLINE(2257)				_g = (_g + 1);
-HXDLIN(2257)				int i = (_g - 1);
-HXLINE(2259)				result->set(i,pixels->readUnsignedInt());
+HXDLIN(1551)		int length2 = ::Std_obj::_hx_int((length / length1));
+HXLINE(1552)		::Array< int > array = null();
+HXDLIN(1552)		 ::openfl::_Vector::IntVector result =  ::openfl::_Vector::IntVector_obj::__alloc( HX_CTX ,length2,true,array);
+HXLINE(1554)		{
+HXLINE(1554)			int _g = 0;
+HXDLIN(1554)			int _g1 = length2;
+HXDLIN(1554)			while((_g < _g1)){
+HXLINE(1554)				_g = (_g + 1);
+HXDLIN(1554)				int i = (_g - 1);
+HXLINE(1556)				result->set(i,pixels->readUnsignedInt());
             			}
             		}
-HXLINE(2262)		return result;
+HXLINE(1559)		return result;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(BitmapData_obj,getVector,return )
 
 ::Array< ::Dynamic> BitmapData_obj::histogram( ::openfl::geom::Rectangle hRect){
-            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2275_histogram)
-HXLINE(2276)		 ::openfl::geom::Rectangle rect;
-HXDLIN(2276)		if (::hx::IsNotNull( hRect )) {
-HXLINE(2276)			rect = hRect;
+            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1563_histogram)
+HXLINE(1564)		 ::openfl::geom::Rectangle rect;
+HXDLIN(1564)		if (::hx::IsNotNull( hRect )) {
+HXLINE(1564)			rect = hRect;
             		}
             		else {
-HXLINE(2276)			rect =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,0,0,this->width,this->height);
+HXLINE(1564)			rect =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,0,0,this->width,this->height);
             		}
-HXLINE(2277)		 ::openfl::utils::ByteArrayData pixels = this->getPixels(rect);
-HXLINE(2278)		::Array< ::Dynamic> _g = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN(2278)		{
-HXLINE(2278)			::Array< int > _g1 = ::Array_obj< int >::__new(0);
-HXDLIN(2278)			{
-HXLINE(2278)				int _g2 = 0;
-HXDLIN(2278)				while((_g2 < 256)){
-HXLINE(2278)					_g2 = (_g2 + 1);
-HXDLIN(2278)					int j = (_g2 - 1);
-HXDLIN(2278)					_g1->push(0);
+HXLINE(1565)		 ::openfl::utils::ByteArrayData pixels = this->getPixels(rect);
+HXLINE(1566)		::Array< ::Dynamic> _g = ::Array_obj< ::Dynamic>::__new(0);
+HXDLIN(1566)		{
+HXLINE(1566)			::Array< int > _g1 = ::Array_obj< int >::__new(0);
+HXDLIN(1566)			{
+HXLINE(1566)				int _g2 = 0;
+HXDLIN(1566)				while((_g2 < 256)){
+HXLINE(1566)					_g2 = (_g2 + 1);
+HXDLIN(1566)					int j = (_g2 - 1);
+HXDLIN(1566)					_g1->push(0);
             				}
             			}
-HXDLIN(2278)			_g->push(_g1);
-HXDLIN(2278)			::Array< int > _g3 = ::Array_obj< int >::__new(0);
-HXDLIN(2278)			{
-HXLINE(2278)				int _g4 = 0;
-HXDLIN(2278)				while((_g4 < 256)){
-HXLINE(2278)					_g4 = (_g4 + 1);
-HXDLIN(2278)					int j = (_g4 - 1);
-HXDLIN(2278)					_g3->push(0);
+HXDLIN(1566)			_g->push(_g1);
+HXDLIN(1566)			::Array< int > _g3 = ::Array_obj< int >::__new(0);
+HXDLIN(1566)			{
+HXLINE(1566)				int _g4 = 0;
+HXDLIN(1566)				while((_g4 < 256)){
+HXLINE(1566)					_g4 = (_g4 + 1);
+HXDLIN(1566)					int j = (_g4 - 1);
+HXDLIN(1566)					_g3->push(0);
             				}
             			}
-HXDLIN(2278)			_g->push(_g3);
-HXDLIN(2278)			::Array< int > _g5 = ::Array_obj< int >::__new(0);
-HXDLIN(2278)			{
-HXLINE(2278)				int _g6 = 0;
-HXDLIN(2278)				while((_g6 < 256)){
-HXLINE(2278)					_g6 = (_g6 + 1);
-HXDLIN(2278)					int j = (_g6 - 1);
-HXDLIN(2278)					_g5->push(0);
+HXDLIN(1566)			_g->push(_g3);
+HXDLIN(1566)			::Array< int > _g5 = ::Array_obj< int >::__new(0);
+HXDLIN(1566)			{
+HXLINE(1566)				int _g6 = 0;
+HXDLIN(1566)				while((_g6 < 256)){
+HXLINE(1566)					_g6 = (_g6 + 1);
+HXDLIN(1566)					int j = (_g6 - 1);
+HXDLIN(1566)					_g5->push(0);
             				}
             			}
-HXDLIN(2278)			_g->push(_g5);
-HXDLIN(2278)			::Array< int > _g7 = ::Array_obj< int >::__new(0);
-HXDLIN(2278)			{
-HXLINE(2278)				int _g8 = 0;
-HXDLIN(2278)				while((_g8 < 256)){
-HXLINE(2278)					_g8 = (_g8 + 1);
-HXDLIN(2278)					int j = (_g8 - 1);
-HXDLIN(2278)					_g7->push(0);
+HXDLIN(1566)			_g->push(_g5);
+HXDLIN(1566)			::Array< int > _g7 = ::Array_obj< int >::__new(0);
+HXDLIN(1566)			{
+HXLINE(1566)				int _g8 = 0;
+HXDLIN(1566)				while((_g8 < 256)){
+HXLINE(1566)					_g8 = (_g8 + 1);
+HXDLIN(1566)					int j = (_g8 - 1);
+HXDLIN(1566)					_g7->push(0);
             				}
             			}
-HXDLIN(2278)			_g->push(_g7);
+HXDLIN(1566)			_g->push(_g7);
             		}
-HXDLIN(2278)		::Array< ::Dynamic> result = _g;
-HXLINE(2280)		{
-HXLINE(2280)			int _g9 = 0;
-HXDLIN(2280)			int _g10 = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::get_length(pixels);
-HXDLIN(2280)			while((_g9 < _g10)){
-HXLINE(2280)				_g9 = (_g9 + 1);
-HXDLIN(2280)				int i = (_g9 - 1);
-HXLINE(2282)				::Array< int > result1 = result->__get(::hx::Mod(i,4)).StaticCast< ::Array< int > >();
-HXDLIN(2282)				++result1[pixels->readUnsignedByte()];
+HXDLIN(1566)		::Array< ::Dynamic> result = _g;
+HXLINE(1568)		{
+HXLINE(1568)			int _g9 = 0;
+HXDLIN(1568)			int _g10 = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::get_length(pixels);
+HXDLIN(1568)			while((_g9 < _g10)){
+HXLINE(1568)				_g9 = (_g9 + 1);
+HXDLIN(1568)				int i = (_g9 - 1);
+HXLINE(1570)				::Array< int > result1 = result->__get(::hx::Mod(i,4)).StaticCast< ::Array< int > >();
+HXDLIN(1570)				++result1[pixels->readUnsignedByte()];
             			}
             		}
-HXLINE(2285)		return result;
+HXLINE(1573)		return result;
             	}
 
 
@@ -2455,228 +2486,228 @@ HX_DEFINE_DYNAMIC_FUNC1(BitmapData_obj,histogram,return )
 
 bool BitmapData_obj::hitTest( ::openfl::geom::Point firstPoint,int firstAlphaThreshold, ::Dynamic secondObject, ::openfl::geom::Point secondBitmapDataPoint,::hx::Null< int >  __o_secondAlphaThreshold){
             		int secondAlphaThreshold = __o_secondAlphaThreshold.Default(1);
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2321_hitTest)
-HXLINE(2322)		if (!(this->readable)) {
-HXLINE(2322)			return false;
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1578_hitTest)
+HXLINE(1579)		if (!(this->readable)) {
+HXLINE(1579)			return false;
             		}
-HXLINE(2325)		if (::Std_obj::isOfType(secondObject,::hx::ClassOf< ::openfl::display::Bitmap >())) {
-HXLINE(2327)			secondObject = ::hx::TCast<  ::openfl::display::Bitmap >::cast(secondObject)->_hx___bitmapData;
+HXLINE(1582)		if (::Std_obj::isOfType(secondObject,::hx::ClassOf< ::openfl::display::Bitmap >())) {
+HXLINE(1584)			secondObject = ::hx::TCast<  ::openfl::display::Bitmap >::cast(secondObject)->_hx___bitmapData;
             		}
-HXLINE(2331)		if (::Std_obj::isOfType(secondObject,::hx::ClassOf< ::openfl::geom::Point >())) {
-HXLINE(2333)			 ::openfl::geom::Point secondPoint = ( ( ::openfl::geom::Point)(secondObject) );
-HXLINE(2335)			int x = ::Std_obj::_hx_int((secondPoint->x - firstPoint->x));
-HXLINE(2336)			int y = ::Std_obj::_hx_int((secondPoint->y - firstPoint->y));
-HXLINE(2338)			if (this->rect->contains(( (Float)(x) ),( (Float)(y) ))) {
-HXLINE(2340)				int pixel = this->getPixel32(x,y);
-HXLINE(2342)				if ((((pixel >> 24) & 255) > firstAlphaThreshold)) {
-HXLINE(2344)					return true;
+HXLINE(1588)		if (::Std_obj::isOfType(secondObject,::hx::ClassOf< ::openfl::geom::Point >())) {
+HXLINE(1590)			 ::openfl::geom::Point secondPoint = ( ( ::openfl::geom::Point)(secondObject) );
+HXLINE(1592)			int x = ::Std_obj::_hx_int((secondPoint->x - firstPoint->x));
+HXLINE(1593)			int y = ::Std_obj::_hx_int((secondPoint->y - firstPoint->y));
+HXLINE(1595)			if (this->rect->contains(( (Float)(x) ),( (Float)(y) ))) {
+HXLINE(1597)				int pixel = this->getPixel32(x,y);
+HXLINE(1599)				if ((((pixel >> 24) & 255) > firstAlphaThreshold)) {
+HXLINE(1601)					return true;
             				}
             			}
             		}
             		else {
-HXLINE(2348)			if (::Std_obj::isOfType(secondObject,::hx::ClassOf< ::openfl::display::BitmapData >())) {
-HXLINE(2350)				 ::openfl::display::BitmapData secondBitmapData = ( ( ::openfl::display::BitmapData)(secondObject) );
-HXLINE(2351)				int x;
-HXDLIN(2351)				int y;
-HXLINE(2353)				if (::hx::IsNull( secondBitmapDataPoint )) {
-HXLINE(2355)					x = 0;
-HXLINE(2356)					y = 0;
+HXLINE(1605)			if (::Std_obj::isOfType(secondObject,::hx::ClassOf< ::openfl::display::BitmapData >())) {
+HXLINE(1607)				 ::openfl::display::BitmapData secondBitmapData = ( ( ::openfl::display::BitmapData)(secondObject) );
+HXLINE(1608)				int x;
+HXDLIN(1608)				int y;
+HXLINE(1610)				if (::hx::IsNull( secondBitmapDataPoint )) {
+HXLINE(1612)					x = 0;
+HXLINE(1613)					y = 0;
             				}
             				else {
-HXLINE(2360)					x = ::Math_obj::round((secondBitmapDataPoint->x - firstPoint->x));
-HXLINE(2361)					y = ::Math_obj::round((secondBitmapDataPoint->y - firstPoint->y));
+HXLINE(1617)					x = ::Math_obj::round((secondBitmapDataPoint->x - firstPoint->x));
+HXLINE(1618)					y = ::Math_obj::round((secondBitmapDataPoint->y - firstPoint->y));
             				}
-HXLINE(2364)				 ::openfl::geom::Rectangle hitRect = ::openfl::geom::Rectangle_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Rectangle >();
-HXLINE(2365)				hitRect->setTo(( (Float)(x) ),( (Float)(y) ),( (Float)(secondBitmapData->width) ),( (Float)(secondBitmapData->height) ));
-HXLINE(2367)				if (this->rect->intersects(hitRect)) {
-HXLINE(2369)					if ((x < 0)) {
-HXLINE(2371)						hitRect->x = ( (Float)(0) );
-HXLINE(2372)						hitRect->width = ::Math_obj::min(( (Float)((secondBitmapData->width + x)) ),( (Float)(this->width) ));
+HXLINE(1621)				 ::openfl::geom::Rectangle hitRect = ::openfl::geom::Rectangle_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Rectangle >();
+HXLINE(1622)				hitRect->setTo(( (Float)(x) ),( (Float)(y) ),( (Float)(secondBitmapData->width) ),( (Float)(secondBitmapData->height) ));
+HXLINE(1624)				if (this->rect->intersects(hitRect)) {
+HXLINE(1626)					if ((x < 0)) {
+HXLINE(1628)						hitRect->x = ( (Float)(0) );
+HXLINE(1629)						hitRect->width = ::Math_obj::min(( (Float)((secondBitmapData->width + x)) ),( (Float)(this->width) ));
             					}
             					else {
-HXLINE(2376)						hitRect->width = ::Math_obj::min(( (Float)(secondBitmapData->width) ),( (Float)((this->width - x)) ));
+HXLINE(1633)						hitRect->width = ::Math_obj::min(( (Float)(secondBitmapData->width) ),( (Float)((this->width - x)) ));
             					}
-HXLINE(2379)					if ((y < 0)) {
-HXLINE(2381)						hitRect->y = ( (Float)(0) );
-HXLINE(2382)						hitRect->height = ::Math_obj::min(( (Float)((secondBitmapData->height + y)) ),( (Float)(this->height) ));
-            					}
-            					else {
-HXLINE(2386)						hitRect->height = ::Math_obj::min(( (Float)(secondBitmapData->height) ),( (Float)((this->height - y)) ));
-            					}
-HXLINE(2389)					 ::openfl::utils::ByteArrayData pixels = this->getPixels(hitRect);
-HXLINE(2391)					Float _hx_tmp;
-HXDLIN(2391)					if ((x < 0)) {
-HXLINE(2391)						_hx_tmp = ( (Float)(-(x)) );
+HXLINE(1636)					if ((y < 0)) {
+HXLINE(1638)						hitRect->y = ( (Float)(0) );
+HXLINE(1639)						hitRect->height = ::Math_obj::min(( (Float)((secondBitmapData->height + y)) ),( (Float)(this->height) ));
             					}
             					else {
-HXLINE(2391)						_hx_tmp = ( (Float)(0) );
+HXLINE(1643)						hitRect->height = ::Math_obj::min(( (Float)(secondBitmapData->height) ),( (Float)((this->height - y)) ));
             					}
-HXDLIN(2391)					hitRect->x = _hx_tmp;
-HXLINE(2392)					Float _hx_tmp1;
-HXDLIN(2392)					if ((y < 0)) {
-HXLINE(2392)						_hx_tmp1 = ( (Float)(-(y)) );
+HXLINE(1646)					 ::openfl::utils::ByteArrayData pixels = this->getPixels(hitRect);
+HXLINE(1648)					Float _hx_tmp;
+HXDLIN(1648)					if ((x < 0)) {
+HXLINE(1648)						_hx_tmp = ( (Float)(-(x)) );
             					}
             					else {
-HXLINE(2392)						_hx_tmp1 = ( (Float)(0) );
+HXLINE(1648)						_hx_tmp = ( (Float)(0) );
             					}
-HXDLIN(2392)					hitRect->y = _hx_tmp1;
-HXLINE(2394)					 ::openfl::utils::ByteArrayData testPixels = secondBitmapData->getPixels(hitRect);
-HXLINE(2396)					int length = ::Std_obj::_hx_int((hitRect->width * hitRect->height));
-HXLINE(2397)					int pixel;
-HXDLIN(2397)					int testPixel;
-HXLINE(2399)					{
-HXLINE(2399)						int _g = 0;
-HXDLIN(2399)						int _g1 = length;
-HXDLIN(2399)						while((_g < _g1)){
-HXLINE(2399)							_g = (_g + 1);
-HXDLIN(2399)							int i = (_g - 1);
-HXLINE(2401)							pixel = pixels->readUnsignedInt();
-HXLINE(2402)							testPixel = testPixels->readUnsignedInt();
-HXLINE(2404)							bool _hx_tmp;
-HXDLIN(2404)							int a = (::hx::UShr(pixel,24) & 255);
-HXDLIN(2404)							bool aNeg = (a < 0);
-HXDLIN(2404)							bool bNeg = (firstAlphaThreshold < 0);
-HXDLIN(2404)							bool _hx_tmp1;
-HXDLIN(2404)							if ((aNeg != bNeg)) {
-HXLINE(2404)								_hx_tmp1 = aNeg;
+HXDLIN(1648)					hitRect->x = _hx_tmp;
+HXLINE(1649)					Float _hx_tmp1;
+HXDLIN(1649)					if ((y < 0)) {
+HXLINE(1649)						_hx_tmp1 = ( (Float)(-(y)) );
+            					}
+            					else {
+HXLINE(1649)						_hx_tmp1 = ( (Float)(0) );
+            					}
+HXDLIN(1649)					hitRect->y = _hx_tmp1;
+HXLINE(1651)					 ::openfl::utils::ByteArrayData testPixels = secondBitmapData->getPixels(hitRect);
+HXLINE(1653)					int length = ::Std_obj::_hx_int((hitRect->width * hitRect->height));
+HXLINE(1654)					int pixel;
+HXDLIN(1654)					int testPixel;
+HXLINE(1656)					{
+HXLINE(1656)						int _g = 0;
+HXDLIN(1656)						int _g1 = length;
+HXDLIN(1656)						while((_g < _g1)){
+HXLINE(1656)							_g = (_g + 1);
+HXDLIN(1656)							int i = (_g - 1);
+HXLINE(1658)							pixel = pixels->readUnsignedInt();
+HXLINE(1659)							testPixel = testPixels->readUnsignedInt();
+HXLINE(1661)							bool _hx_tmp;
+HXDLIN(1661)							int a = (::hx::UShr(pixel,24) & 255);
+HXDLIN(1661)							bool aNeg = (a < 0);
+HXDLIN(1661)							bool bNeg = (firstAlphaThreshold < 0);
+HXDLIN(1661)							bool _hx_tmp1;
+HXDLIN(1661)							if ((aNeg != bNeg)) {
+HXLINE(1661)								_hx_tmp1 = aNeg;
             							}
             							else {
-HXLINE(2404)								_hx_tmp1 = (a > firstAlphaThreshold);
+HXLINE(1661)								_hx_tmp1 = (a > firstAlphaThreshold);
             							}
-HXDLIN(2404)							if (_hx_tmp1) {
-HXLINE(2404)								int a = (::hx::UShr(testPixel,24) & 255);
-HXDLIN(2404)								bool aNeg = (a < 0);
-HXDLIN(2404)								bool bNeg = (secondAlphaThreshold < 0);
-HXDLIN(2404)								if ((aNeg != bNeg)) {
-HXLINE(2404)									_hx_tmp = aNeg;
+HXDLIN(1661)							if (_hx_tmp1) {
+HXLINE(1661)								int a = (::hx::UShr(testPixel,24) & 255);
+HXDLIN(1661)								bool aNeg = (a < 0);
+HXDLIN(1661)								bool bNeg = (secondAlphaThreshold < 0);
+HXDLIN(1661)								if ((aNeg != bNeg)) {
+HXLINE(1661)									_hx_tmp = aNeg;
             								}
             								else {
-HXLINE(2404)									_hx_tmp = (a > secondAlphaThreshold);
+HXLINE(1661)									_hx_tmp = (a > secondAlphaThreshold);
             								}
             							}
             							else {
-HXLINE(2404)								_hx_tmp = false;
+HXLINE(1661)								_hx_tmp = false;
             							}
-HXDLIN(2404)							if (_hx_tmp) {
-HXLINE(2406)								::openfl::geom::Rectangle_obj::_hx___pool->release(hitRect);
-HXLINE(2407)								return true;
+HXDLIN(1661)							if (_hx_tmp) {
+HXLINE(1663)								::openfl::geom::Rectangle_obj::_hx___pool->release(hitRect);
+HXLINE(1664)								return true;
             							}
             						}
             					}
             				}
-HXLINE(2412)				::openfl::geom::Rectangle_obj::_hx___pool->release(hitRect);
+HXLINE(1669)				::openfl::geom::Rectangle_obj::_hx___pool->release(hitRect);
             			}
             			else {
-HXLINE(2414)				if (::Std_obj::isOfType(secondObject,::hx::ClassOf< ::openfl::geom::Rectangle >())) {
-HXLINE(2416)					 ::openfl::geom::Rectangle secondRectangle = ::openfl::geom::Rectangle_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Rectangle >();
-HXLINE(2417)					secondRectangle->copyFrom(( ( ::openfl::geom::Rectangle)(secondObject) ));
-HXLINE(2418)					secondRectangle->offset(-(firstPoint->x),-(firstPoint->y));
-HXLINE(2419)					secondRectangle->_hx___contract(( (Float)(0) ),( (Float)(0) ),( (Float)(this->width) ),( (Float)(this->height) ));
-HXLINE(2421)					bool _hx_tmp;
-HXDLIN(2421)					if ((secondRectangle->width > 0)) {
-HXLINE(2421)						_hx_tmp = (secondRectangle->height > 0);
+HXLINE(1671)				if (::Std_obj::isOfType(secondObject,::hx::ClassOf< ::openfl::geom::Rectangle >())) {
+HXLINE(1673)					 ::openfl::geom::Rectangle secondRectangle = ::openfl::geom::Rectangle_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Rectangle >();
+HXLINE(1674)					secondRectangle->copyFrom(( ( ::openfl::geom::Rectangle)(secondObject) ));
+HXLINE(1675)					secondRectangle->offset(-(firstPoint->x),-(firstPoint->y));
+HXLINE(1676)					secondRectangle->_hx___contract(( (Float)(0) ),( (Float)(0) ),( (Float)(this->width) ),( (Float)(this->height) ));
+HXLINE(1678)					bool _hx_tmp;
+HXDLIN(1678)					if ((secondRectangle->width > 0)) {
+HXLINE(1678)						_hx_tmp = (secondRectangle->height > 0);
             					}
             					else {
-HXLINE(2421)						_hx_tmp = false;
+HXLINE(1678)						_hx_tmp = false;
             					}
-HXDLIN(2421)					if (_hx_tmp) {
-HXLINE(2423)						 ::openfl::utils::ByteArrayData pixels = this->getPixels(secondRectangle);
-HXLINE(2424)						int _hx_int = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::get_length(pixels);
-HXDLIN(2424)						Float length;
-HXDLIN(2424)						if ((_hx_int < 0)) {
-HXLINE(2424)							length = (((Float)4294967296.0) + _hx_int);
+HXDLIN(1678)					if (_hx_tmp) {
+HXLINE(1680)						 ::openfl::utils::ByteArrayData pixels = this->getPixels(secondRectangle);
+HXLINE(1681)						int _hx_int = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::get_length(pixels);
+HXDLIN(1681)						Float length;
+HXDLIN(1681)						if ((_hx_int < 0)) {
+HXLINE(1681)							length = (((Float)4294967296.0) + _hx_int);
             						}
             						else {
-HXLINE(2424)							length = (_hx_int + ((Float)0.0));
+HXLINE(1681)							length = (_hx_int + ((Float)0.0));
             						}
-HXDLIN(2424)						int int1 = 4;
-HXDLIN(2424)						Float length1;
-HXDLIN(2424)						if ((int1 < 0)) {
-HXLINE(2424)							length1 = (((Float)4294967296.0) + int1);
+HXDLIN(1681)						int int1 = 4;
+HXDLIN(1681)						Float length1;
+HXDLIN(1681)						if ((int1 < 0)) {
+HXLINE(1681)							length1 = (((Float)4294967296.0) + int1);
             						}
             						else {
-HXLINE(2424)							length1 = (int1 + ((Float)0.0));
+HXLINE(1681)							length1 = (int1 + ((Float)0.0));
             						}
-HXDLIN(2424)						int length2 = ::Std_obj::_hx_int((length / length1));
-HXLINE(2425)						int pixel;
-HXLINE(2427)						{
-HXLINE(2427)							int _g = 0;
-HXDLIN(2427)							int _g1 = length2;
-HXDLIN(2427)							while((_g < _g1)){
-HXLINE(2427)								_g = (_g + 1);
-HXDLIN(2427)								int i = (_g - 1);
-HXLINE(2429)								pixel = pixels->readUnsignedInt();
-HXLINE(2431)								int a = (::hx::UShr(pixel,24) & 255);
-HXDLIN(2431)								bool aNeg = (a < 0);
-HXDLIN(2431)								bool bNeg = (firstAlphaThreshold < 0);
-HXDLIN(2431)								bool _hx_tmp;
-HXDLIN(2431)								if ((aNeg != bNeg)) {
-HXLINE(2431)									_hx_tmp = aNeg;
+HXDLIN(1681)						int length2 = ::Std_obj::_hx_int((length / length1));
+HXLINE(1682)						int pixel;
+HXLINE(1684)						{
+HXLINE(1684)							int _g = 0;
+HXDLIN(1684)							int _g1 = length2;
+HXDLIN(1684)							while((_g < _g1)){
+HXLINE(1684)								_g = (_g + 1);
+HXDLIN(1684)								int i = (_g - 1);
+HXLINE(1686)								pixel = pixels->readUnsignedInt();
+HXLINE(1688)								int a = (::hx::UShr(pixel,24) & 255);
+HXDLIN(1688)								bool aNeg = (a < 0);
+HXDLIN(1688)								bool bNeg = (firstAlphaThreshold < 0);
+HXDLIN(1688)								bool _hx_tmp;
+HXDLIN(1688)								if ((aNeg != bNeg)) {
+HXLINE(1688)									_hx_tmp = aNeg;
             								}
             								else {
-HXLINE(2431)									_hx_tmp = (a > firstAlphaThreshold);
+HXLINE(1688)									_hx_tmp = (a > firstAlphaThreshold);
             								}
-HXDLIN(2431)								if (_hx_tmp) {
-HXLINE(2433)									::openfl::geom::Rectangle_obj::_hx___pool->release(secondRectangle);
-HXLINE(2434)									return true;
+HXDLIN(1688)								if (_hx_tmp) {
+HXLINE(1690)									::openfl::geom::Rectangle_obj::_hx___pool->release(secondRectangle);
+HXLINE(1691)									return true;
             								}
             							}
             						}
             					}
-HXLINE(2439)					::openfl::geom::Rectangle_obj::_hx___pool->release(secondRectangle);
+HXLINE(1696)					::openfl::geom::Rectangle_obj::_hx___pool->release(secondRectangle);
             				}
             			}
             		}
-HXLINE(2442)		return false;
+HXLINE(1699)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC5(BitmapData_obj,hitTest,return )
 
 void BitmapData_obj::lock(){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2528_lock)
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1745_lock)
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(BitmapData_obj,lock,(void))
 
 void BitmapData_obj::merge( ::openfl::display::BitmapData sourceBitmapData, ::openfl::geom::Rectangle sourceRect, ::openfl::geom::Point destPoint,int redMultiplier,int greenMultiplier,int blueMultiplier,int alphaMultiplier){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2569_merge)
-HXLINE(2571)		bool _hx_tmp;
-HXDLIN(2571)		bool _hx_tmp1;
-HXDLIN(2571)		bool _hx_tmp2;
-HXDLIN(2571)		bool _hx_tmp3;
-HXDLIN(2571)		if (this->readable) {
-HXLINE(2571)			_hx_tmp3 = ::hx::IsNull( sourceBitmapData );
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1749_merge)
+HXLINE(1751)		bool _hx_tmp;
+HXDLIN(1751)		bool _hx_tmp1;
+HXDLIN(1751)		bool _hx_tmp2;
+HXDLIN(1751)		bool _hx_tmp3;
+HXDLIN(1751)		if (this->readable) {
+HXLINE(1751)			_hx_tmp3 = ::hx::IsNull( sourceBitmapData );
             		}
             		else {
-HXLINE(2571)			_hx_tmp3 = true;
+HXLINE(1751)			_hx_tmp3 = true;
             		}
-HXDLIN(2571)		if (!(_hx_tmp3)) {
-HXLINE(2571)			_hx_tmp2 = !(sourceBitmapData->readable);
-            		}
-            		else {
-HXLINE(2571)			_hx_tmp2 = true;
-            		}
-HXDLIN(2571)		if (!(_hx_tmp2)) {
-HXLINE(2571)			_hx_tmp1 = ::hx::IsNull( sourceRect );
+HXDLIN(1751)		if (!(_hx_tmp3)) {
+HXLINE(1751)			_hx_tmp2 = !(sourceBitmapData->readable);
             		}
             		else {
-HXLINE(2571)			_hx_tmp1 = true;
+HXLINE(1751)			_hx_tmp2 = true;
             		}
-HXDLIN(2571)		if (!(_hx_tmp1)) {
-HXLINE(2571)			_hx_tmp = ::hx::IsNull( destPoint );
+HXDLIN(1751)		if (!(_hx_tmp2)) {
+HXLINE(1751)			_hx_tmp1 = ::hx::IsNull( sourceRect );
             		}
             		else {
-HXLINE(2571)			_hx_tmp = true;
+HXLINE(1751)			_hx_tmp1 = true;
             		}
-HXDLIN(2571)		if (_hx_tmp) {
-HXLINE(2571)			return;
+HXDLIN(1751)		if (!(_hx_tmp1)) {
+HXLINE(1751)			_hx_tmp = ::hx::IsNull( destPoint );
             		}
-HXLINE(2572)		 ::lime::graphics::Image _hx_tmp4 = this->image;
-HXDLIN(2572)		 ::lime::graphics::Image sourceBitmapData1 = sourceBitmapData->image;
-HXDLIN(2572)		 ::lime::math::Rectangle _hx_tmp5 = sourceRect->_hx___toLimeRectangle();
-HXDLIN(2572)		_hx_tmp4->merge(sourceBitmapData1,_hx_tmp5,destPoint->_hx___toLimeVector2(),redMultiplier,greenMultiplier,blueMultiplier,alphaMultiplier);
+            		else {
+HXLINE(1751)			_hx_tmp = true;
+            		}
+HXDLIN(1751)		if (_hx_tmp) {
+HXLINE(1751)			return;
+            		}
+HXLINE(1752)		 ::lime::graphics::Image _hx_tmp4 = this->image;
+HXDLIN(1752)		 ::lime::graphics::Image sourceBitmapData1 = sourceBitmapData->image;
+HXDLIN(1752)		 ::lime::math::Rectangle _hx_tmp5 = sourceRect->_hx___toLimeRectangle();
+HXDLIN(1752)		_hx_tmp4->merge(sourceBitmapData1,_hx_tmp5,destPoint->_hx___toLimeVector2(),redMultiplier,greenMultiplier,blueMultiplier,alphaMultiplier);
             	}
 
 
@@ -2685,9 +2716,9 @@ HX_DEFINE_DYNAMIC_FUNC7(BitmapData_obj,merge,(void))
 void BitmapData_obj::noise(int randomSeed,::hx::Null< int >  __o_low,::hx::Null< int >  __o_high,::hx::Null< int >  __o_channelOptions,::hx::Null< bool >  __o_grayScale){
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0,::Array< int >,randomSeed1) HXARGC(0)
             		int _hx_run(){
-            			HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2613_noise)
-HXLINE(2614)			randomSeed1[0] = ((randomSeed1->__get(0) * (int)1103515245) + 12345);
-HXLINE(2615)			return ::hx::Mod(::Std_obj::_hx_int(::Math_obj::abs((( (Float)(randomSeed1->__get(0)) ) / ( (Float)(65536) )))),32768);
+            			HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1765_noise)
+HXLINE(1766)			randomSeed1[0] = ((randomSeed1->__get(0) * (int)1103515245) + 12345);
+HXLINE(1767)			return ::hx::Mod(::Std_obj::_hx_int(::Math_obj::abs((( (Float)(randomSeed1->__get(0)) ) / ( (Float)(65536) )))),32768);
             		}
             		HX_END_LOCAL_FUNC0(return)
 
@@ -2695,60 +2726,60 @@ HXLINE(2615)			return ::hx::Mod(::Std_obj::_hx_int(::Math_obj::abs((( (Float)(ra
             		int high = __o_high.Default(255);
             		int channelOptions = __o_channelOptions.Default(7);
             		bool grayScale = __o_grayScale.Default(false);
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2605_noise)
-HXDLIN(2605)		::Array< int > randomSeed1 = ::Array_obj< int >::__new(1)->init(0,randomSeed);
-HXLINE(2607)		if (!(this->readable)) {
-HXLINE(2607)			return;
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1757_noise)
+HXDLIN(1757)		::Array< int > randomSeed1 = ::Array_obj< int >::__new(1)->init(0,randomSeed);
+HXLINE(1759)		if (!(this->readable)) {
+HXLINE(1759)			return;
             		}
-HXLINE(2612)		 ::Dynamic func =  ::Dynamic(new _hx_Closure_0(randomSeed1));
-HXLINE(2610)		 ::Dynamic rand = func;
-HXLINE(2618)		rand();
-HXLINE(2621)		int range = (high - low);
-HXLINE(2623)		bool redChannel = ((channelOptions & 1) == 1);
-HXLINE(2624)		bool greenChannel = (((channelOptions & 2) >> 1) == 1);
-HXLINE(2625)		bool blueChannel = (((channelOptions & 4) >> 2) == 1);
-HXLINE(2626)		bool alphaChannel = (((channelOptions & 8) >> 3) == 1);
-HXLINE(2628)		{
-HXLINE(2628)			int _g = 0;
-HXDLIN(2628)			int _g1 = this->height;
-HXDLIN(2628)			while((_g < _g1)){
-HXLINE(2628)				_g = (_g + 1);
-HXDLIN(2628)				int y = (_g - 1);
-HXLINE(2630)				{
-HXLINE(2630)					int _g1 = 0;
-HXDLIN(2630)					int _g2 = this->width;
-HXDLIN(2630)					while((_g1 < _g2)){
-HXLINE(2630)						_g1 = (_g1 + 1);
-HXDLIN(2630)						int x = (_g1 - 1);
-HXLINE(2633)						int red = 0;
-HXLINE(2634)						int blue = 0;
-HXLINE(2635)						int green = 0;
-HXLINE(2636)						int alpha = 255;
-HXLINE(2638)						if (grayScale) {
-HXLINE(2640)							blue = (low + ::hx::Mod(rand(),range));
-HXDLIN(2640)							green = blue;
-HXDLIN(2640)							red = green;
-HXLINE(2641)							alpha = 255;
+HXLINE(1764)		 ::Dynamic func =  ::Dynamic(new _hx_Closure_0(randomSeed1));
+HXLINE(1762)		 ::Dynamic rand = func;
+HXLINE(1770)		rand();
+HXLINE(1773)		int range = (high - low);
+HXLINE(1775)		bool redChannel = ((channelOptions & 1) == 1);
+HXLINE(1776)		bool greenChannel = (((channelOptions & 2) >> 1) == 1);
+HXLINE(1777)		bool blueChannel = (((channelOptions & 4) >> 2) == 1);
+HXLINE(1778)		bool alphaChannel = (((channelOptions & 8) >> 3) == 1);
+HXLINE(1780)		{
+HXLINE(1780)			int _g = 0;
+HXDLIN(1780)			int _g1 = this->height;
+HXDLIN(1780)			while((_g < _g1)){
+HXLINE(1780)				_g = (_g + 1);
+HXDLIN(1780)				int y = (_g - 1);
+HXLINE(1782)				{
+HXLINE(1782)					int _g1 = 0;
+HXDLIN(1782)					int _g2 = this->width;
+HXDLIN(1782)					while((_g1 < _g2)){
+HXLINE(1782)						_g1 = (_g1 + 1);
+HXDLIN(1782)						int x = (_g1 - 1);
+HXLINE(1785)						int red = 0;
+HXLINE(1786)						int blue = 0;
+HXLINE(1787)						int green = 0;
+HXLINE(1788)						int alpha = 255;
+HXLINE(1790)						if (grayScale) {
+HXLINE(1792)							blue = (low + ::hx::Mod(rand(),range));
+HXDLIN(1792)							green = blue;
+HXDLIN(1792)							red = green;
+HXLINE(1793)							alpha = 255;
             						}
             						else {
-HXLINE(2645)							if (redChannel) {
-HXLINE(2645)								red = (low + ::hx::Mod(rand(),range));
+HXLINE(1797)							if (redChannel) {
+HXLINE(1797)								red = (low + ::hx::Mod(rand(),range));
             							}
-HXLINE(2646)							if (greenChannel) {
-HXLINE(2646)								green = (low + ::hx::Mod(rand(),range));
+HXLINE(1798)							if (greenChannel) {
+HXLINE(1798)								green = (low + ::hx::Mod(rand(),range));
             							}
-HXLINE(2647)							if (blueChannel) {
-HXLINE(2647)								blue = (low + ::hx::Mod(rand(),range));
+HXLINE(1799)							if (blueChannel) {
+HXLINE(1799)								blue = (low + ::hx::Mod(rand(),range));
             							}
-HXLINE(2648)							if (alphaChannel) {
-HXLINE(2648)								alpha = (low + ::hx::Mod(rand(),range));
+HXLINE(1800)							if (alphaChannel) {
+HXLINE(1800)								alpha = (low + ::hx::Mod(rand(),range));
             							}
             						}
-HXLINE(2651)						int rgb = alpha;
-HXLINE(2652)						rgb = ((rgb << 8) + red);
-HXLINE(2653)						rgb = ((rgb << 8) + green);
-HXLINE(2654)						rgb = ((rgb << 8) + blue);
-HXLINE(2656)						this->setPixel32(x,y,rgb);
+HXLINE(1803)						int rgb = alpha;
+HXLINE(1804)						rgb = ((rgb << 8) + red);
+HXLINE(1805)						rgb = ((rgb << 8) + green);
+HXLINE(1806)						rgb = ((rgb << 8) + blue);
+HXLINE(1808)						this->setPixel32(x,y,rgb);
             					}
             				}
             			}
@@ -2759,57 +2790,57 @@ HXLINE(2656)						this->setPixel32(x,y,rgb);
 HX_DEFINE_DYNAMIC_FUNC5(BitmapData_obj,noise,(void))
 
 void BitmapData_obj::paletteMap( ::openfl::display::BitmapData sourceBitmapData, ::openfl::geom::Rectangle sourceRect, ::openfl::geom::Point destPoint,::Array< int > redArray,::Array< int > greenArray,::Array< int > blueArray,::Array< int > alphaArray){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2703_paletteMap)
-HXLINE(2704)		int sw = ::Std_obj::_hx_int(sourceRect->width);
-HXLINE(2705)		int sh = ::Std_obj::_hx_int(sourceRect->height);
-HXLINE(2707)		 ::openfl::utils::ByteArrayData pixels = sourceBitmapData->getPixels(sourceRect);
-HXLINE(2709)		int pixelValue;
-HXDLIN(2709)		int r;
-HXDLIN(2709)		int g;
-HXDLIN(2709)		int b;
-HXDLIN(2709)		int a;
-HXDLIN(2709)		int color;
-HXLINE(2711)		{
-HXLINE(2711)			int _g = 0;
-HXDLIN(2711)			int _g1 = (sh * sw);
-HXDLIN(2711)			while((_g < _g1)){
-HXLINE(2711)				_g = (_g + 1);
-HXDLIN(2711)				int i = (_g - 1);
-HXLINE(2713)				pixelValue = pixels->readUnsignedInt();
-HXLINE(2715)				if (::hx::IsNull( alphaArray )) {
-HXLINE(2715)					a = (pixelValue & -16777216);
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1815_paletteMap)
+HXLINE(1816)		int sw = ::Std_obj::_hx_int(sourceRect->width);
+HXLINE(1817)		int sh = ::Std_obj::_hx_int(sourceRect->height);
+HXLINE(1819)		 ::openfl::utils::ByteArrayData pixels = sourceBitmapData->getPixels(sourceRect);
+HXLINE(1821)		int pixelValue;
+HXDLIN(1821)		int r;
+HXDLIN(1821)		int g;
+HXDLIN(1821)		int b;
+HXDLIN(1821)		int a;
+HXDLIN(1821)		int color;
+HXLINE(1823)		{
+HXLINE(1823)			int _g = 0;
+HXDLIN(1823)			int _g1 = (sh * sw);
+HXDLIN(1823)			while((_g < _g1)){
+HXLINE(1823)				_g = (_g + 1);
+HXDLIN(1823)				int i = (_g - 1);
+HXLINE(1825)				pixelValue = pixels->readUnsignedInt();
+HXLINE(1827)				if (::hx::IsNull( alphaArray )) {
+HXLINE(1827)					a = (pixelValue & -16777216);
             				}
             				else {
-HXLINE(2715)					a = alphaArray->__get(((pixelValue >> 24) & 255));
+HXLINE(1827)					a = alphaArray->__get(((pixelValue >> 24) & 255));
             				}
-HXLINE(2716)				if (::hx::IsNull( redArray )) {
-HXLINE(2716)					r = (pixelValue & 16711680);
-            				}
-            				else {
-HXLINE(2716)					r = redArray->__get(((pixelValue >> 16) & 255));
-            				}
-HXLINE(2717)				if (::hx::IsNull( greenArray )) {
-HXLINE(2717)					g = (pixelValue & 65280);
+HXLINE(1828)				if (::hx::IsNull( redArray )) {
+HXLINE(1828)					r = (pixelValue & 16711680);
             				}
             				else {
-HXLINE(2717)					g = greenArray->__get(((pixelValue >> 8) & 255));
+HXLINE(1828)					r = redArray->__get(((pixelValue >> 16) & 255));
             				}
-HXLINE(2718)				if (::hx::IsNull( blueArray )) {
-HXLINE(2718)					b = (pixelValue & 255);
+HXLINE(1829)				if (::hx::IsNull( greenArray )) {
+HXLINE(1829)					g = (pixelValue & 65280);
             				}
             				else {
-HXLINE(2718)					b = blueArray->__get((pixelValue & 255));
+HXLINE(1829)					g = greenArray->__get(((pixelValue >> 8) & 255));
             				}
-HXLINE(2720)				color = (((a + r) + g) + b);
-HXLINE(2722)				pixels->position = (i * 4);
-HXLINE(2723)				pixels->writeUnsignedInt(color);
+HXLINE(1830)				if (::hx::IsNull( blueArray )) {
+HXLINE(1830)					b = (pixelValue & 255);
+            				}
+            				else {
+HXLINE(1830)					b = blueArray->__get((pixelValue & 255));
+            				}
+HXLINE(1832)				color = (((a + r) + g) + b);
+HXLINE(1834)				pixels->position = (i * 4);
+HXLINE(1835)				pixels->writeUnsignedInt(color);
             			}
             		}
-HXLINE(2726)		pixels->position = 0;
-HXLINE(2727)		 ::openfl::geom::Rectangle destRect = ::openfl::geom::Rectangle_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Rectangle >();
-HXLINE(2728)		destRect->setTo(destPoint->x,destPoint->y,( (Float)(sw) ),( (Float)(sh) ));
-HXLINE(2729)		this->setPixels(destRect,pixels);
-HXLINE(2730)		::openfl::geom::Rectangle_obj::_hx___pool->release(destRect);
+HXLINE(1838)		pixels->position = 0;
+HXLINE(1839)		 ::openfl::geom::Rectangle destRect = ::openfl::geom::Rectangle_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Rectangle >();
+HXLINE(1840)		destRect->setTo(destPoint->x,destPoint->y,( (Float)(sw) ),( (Float)(sh) ));
+HXLINE(1841)		this->setPixels(destRect,pixels);
+HXLINE(1842)		::openfl::geom::Rectangle_obj::_hx___pool->release(destRect);
             	}
 
 
@@ -2818,97 +2849,97 @@ HX_DEFINE_DYNAMIC_FUNC7(BitmapData_obj,paletteMap,(void))
 void BitmapData_obj::perlinNoise(Float baseX,Float baseY,int numOctaves,int randomSeed,bool stitch,bool fractalNoise,::hx::Null< int >  __o_channelOptions,::hx::Null< bool >  __o_grayScale,::Array< ::Dynamic> offsets){
             		int channelOptions = __o_channelOptions.Default(7);
             		bool grayScale = __o_grayScale.Default(false);
-            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2801_perlinNoise)
-HXLINE(2802)		if (!(this->readable)) {
-HXLINE(2802)			return;
+            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1847_perlinNoise)
+HXLINE(1848)		if (!(this->readable)) {
+HXLINE(1848)			return;
             		}
-HXLINE(2803)		 ::openfl::display::_internal::PerlinNoise noise =  ::openfl::display::_internal::PerlinNoise_obj::__alloc( HX_CTX ,randomSeed,numOctaves,channelOptions,grayScale,((Float)0.5),stitch,((Float)0.15));
-HXLINE(2804)		noise->fill(::hx::ObjectPtr<OBJ_>(this),baseX,baseY,( (Float)(0) ));
+HXLINE(1849)		 ::openfl::display::_internal::PerlinNoise noise =  ::openfl::display::_internal::PerlinNoise_obj::__alloc( HX_CTX ,randomSeed,numOctaves,channelOptions,grayScale,((Float)0.5),stitch,((Float)0.15));
+HXLINE(1850)		noise->fill(::hx::ObjectPtr<OBJ_>(this),baseX,baseY,( (Float)(0) ));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC9(BitmapData_obj,perlinNoise,(void))
 
 void BitmapData_obj::scroll(int x,int y){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2817_scroll)
-HXLINE(2818)		if (!(this->readable)) {
-HXLINE(2818)			return;
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1856_scroll)
+HXLINE(1857)		if (!(this->readable)) {
+HXLINE(1857)			return;
             		}
-HXLINE(2819)		this->image->scroll(x,y);
+HXLINE(1858)		this->image->scroll(x,y);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(BitmapData_obj,scroll,(void))
 
 void BitmapData_obj::setPixel(int x,int y,int color){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2840_setPixel)
-HXLINE(2841)		if (!(this->readable)) {
-HXLINE(2841)			return;
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1862_setPixel)
+HXLINE(1863)		if (!(this->readable)) {
+HXLINE(1863)			return;
             		}
-HXLINE(2843)		this->image->setPixel(x,y,color,1);
+HXLINE(1865)		this->image->setPixel(x,y,color,1);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(BitmapData_obj,setPixel,(void))
 
 void BitmapData_obj::setPixel32(int x,int y,int color){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2879_setPixel32)
-HXLINE(2880)		if (!(this->readable)) {
-HXLINE(2880)			return;
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1870_setPixel32)
+HXLINE(1871)		if (!(this->readable)) {
+HXLINE(1871)			return;
             		}
-HXLINE(2882)		this->image->setPixel32(x,y,color,1);
+HXLINE(1873)		this->image->setPixel32(x,y,color,1);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(BitmapData_obj,setPixel32,(void))
 
 void BitmapData_obj::setPixels( ::openfl::geom::Rectangle rect, ::openfl::utils::ByteArrayData byteArray){
-            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2906_setPixels)
-HXLINE(2907)		bool _hx_tmp;
-HXDLIN(2907)		if (this->readable) {
-HXLINE(2907)			_hx_tmp = ::hx::IsNull( rect );
+            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1878_setPixels)
+HXLINE(1879)		bool _hx_tmp;
+HXDLIN(1879)		if (this->readable) {
+HXLINE(1879)			_hx_tmp = ::hx::IsNull( rect );
             		}
             		else {
-HXLINE(2907)			_hx_tmp = true;
+HXLINE(1879)			_hx_tmp = true;
             		}
-HXDLIN(2907)		if (_hx_tmp) {
-HXLINE(2907)			return;
+HXDLIN(1879)		if (_hx_tmp) {
+HXLINE(1879)			return;
             		}
-HXLINE(2909)		Float length = ((rect->width * rect->height) * ( (Float)(4) ));
-HXLINE(2910)		int _hx_int = (byteArray->length - byteArray->position);
-HXDLIN(2910)		Float _hx_tmp1;
-HXDLIN(2910)		if ((_hx_int < 0)) {
-HXLINE(2910)			_hx_tmp1 = (((Float)4294967296.0) + _hx_int);
+HXLINE(1881)		Float length = ((rect->width * rect->height) * ( (Float)(4) ));
+HXLINE(1882)		int _hx_int = (byteArray->length - byteArray->position);
+HXDLIN(1882)		Float _hx_tmp1;
+HXDLIN(1882)		if ((_hx_int < 0)) {
+HXLINE(1882)			_hx_tmp1 = (((Float)4294967296.0) + _hx_int);
             		}
             		else {
-HXLINE(2910)			_hx_tmp1 = (_hx_int + ((Float)0.0));
+HXLINE(1882)			_hx_tmp1 = (_hx_int + ((Float)0.0));
             		}
-HXDLIN(2910)		if ((_hx_tmp1 < length)) {
-HXLINE(2910)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::Error_obj::__alloc( HX_CTX ,HX_("End of file was encountered.",d3,7b,d9,4f),2030)));
+HXDLIN(1882)		if ((_hx_tmp1 < length)) {
+HXLINE(1882)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::Error_obj::__alloc( HX_CTX ,HX_("End of file was encountered.",d3,7b,d9,4f),2030)));
             		}
-HXLINE(2913)		 ::lime::graphics::Image _hx_tmp2 = this->image;
-HXDLIN(2913)		 ::lime::math::Rectangle _hx_tmp3 = rect->_hx___toLimeRectangle();
-HXDLIN(2913)		 ::lime::utils::BytePointerData _hx_tmp4 = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::toBytePointer(byteArray);
-HXDLIN(2913)		_hx_tmp2->setPixels(_hx_tmp3,_hx_tmp4,1,::openfl::utils::_Endian::Endian_Impl__obj::toLimeEndian(byteArray->_hx___endian));
+HXLINE(1885)		 ::lime::graphics::Image _hx_tmp2 = this->image;
+HXDLIN(1885)		 ::lime::math::Rectangle _hx_tmp3 = rect->_hx___toLimeRectangle();
+HXDLIN(1885)		 ::lime::utils::BytePointerData _hx_tmp4 = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::toBytePointer(byteArray);
+HXDLIN(1885)		_hx_tmp2->setPixels(_hx_tmp3,_hx_tmp4,1,::openfl::utils::_Endian::Endian_Impl__obj::toLimeEndian(byteArray->_hx___endian));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(BitmapData_obj,setPixels,(void))
 
 void BitmapData_obj::setVector( ::openfl::geom::Rectangle rect, ::openfl::_Vector::IntVector inputVector){
-            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2927_setVector)
-HXLINE(2928)		 ::openfl::utils::ByteArrayData this1 =  ::openfl::utils::ByteArrayData_obj::__alloc( HX_CTX ,0);
-HXDLIN(2928)		 ::openfl::utils::ByteArrayData byteArray = this1;
-HXLINE(2929)		::openfl::utils::_ByteArray::ByteArray_Impl__obj::set_length(byteArray,(inputVector->get_length() * 4));
-HXLINE(2931)		{
-HXLINE(2931)			 ::Dynamic color = inputVector->iterator();
-HXDLIN(2931)			while(( (bool)(color->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE(2931)				int color1 = ( (int)(color->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE(2933)				byteArray->writeUnsignedInt(color1);
+            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1890_setVector)
+HXLINE(1891)		 ::openfl::utils::ByteArrayData this1 =  ::openfl::utils::ByteArrayData_obj::__alloc( HX_CTX ,0);
+HXDLIN(1891)		 ::openfl::utils::ByteArrayData byteArray = this1;
+HXLINE(1892)		::openfl::utils::_ByteArray::ByteArray_Impl__obj::set_length(byteArray,(inputVector->get_length() * 4));
+HXLINE(1894)		{
+HXLINE(1894)			 ::Dynamic color = inputVector->iterator();
+HXDLIN(1894)			while(( (bool)(color->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE(1894)				int color1 = ( (int)(color->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE(1896)				byteArray->writeUnsignedInt(color1);
             			}
             		}
-HXLINE(2936)		byteArray->position = 0;
-HXLINE(2937)		this->setPixels(rect,byteArray);
+HXLINE(1899)		byteArray->position = 0;
+HXLINE(1900)		this->setPixels(rect,byteArray);
             	}
 
 
@@ -2918,144 +2949,144 @@ int BitmapData_obj::threshold( ::openfl::display::BitmapData sourceBitmapData, :
             		int color = __o_color.Default(0);
             		int mask = __o_mask.Default(-1);
             		bool copySource = __o_copySource.Default(false);
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2990_threshold)
-HXLINE(2991)		bool _hx_tmp;
-HXDLIN(2991)		bool _hx_tmp1;
-HXDLIN(2991)		bool _hx_tmp2;
-HXDLIN(2991)		bool _hx_tmp3;
-HXDLIN(2991)		bool _hx_tmp4;
-HXDLIN(2991)		bool _hx_tmp5;
-HXDLIN(2991)		if (::hx::IsNotNull( sourceBitmapData )) {
-HXLINE(2991)			_hx_tmp5 = ::hx::IsNull( sourceRect );
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1905_threshold)
+HXLINE(1906)		bool _hx_tmp;
+HXDLIN(1906)		bool _hx_tmp1;
+HXDLIN(1906)		bool _hx_tmp2;
+HXDLIN(1906)		bool _hx_tmp3;
+HXDLIN(1906)		bool _hx_tmp4;
+HXDLIN(1906)		bool _hx_tmp5;
+HXDLIN(1906)		if (::hx::IsNotNull( sourceBitmapData )) {
+HXLINE(1906)			_hx_tmp5 = ::hx::IsNull( sourceRect );
             		}
             		else {
-HXLINE(2991)			_hx_tmp5 = true;
+HXLINE(1906)			_hx_tmp5 = true;
             		}
-HXDLIN(2991)		if (!(_hx_tmp5)) {
-HXLINE(2991)			_hx_tmp4 = ::hx::IsNull( destPoint );
-            		}
-            		else {
-HXLINE(2991)			_hx_tmp4 = true;
-            		}
-HXDLIN(2991)		if (!(_hx_tmp4)) {
-HXLINE(2991)			_hx_tmp3 = (sourceRect->x > sourceBitmapData->width);
+HXDLIN(1906)		if (!(_hx_tmp5)) {
+HXLINE(1906)			_hx_tmp4 = ::hx::IsNull( destPoint );
             		}
             		else {
-HXLINE(2991)			_hx_tmp3 = true;
+HXLINE(1906)			_hx_tmp4 = true;
             		}
-HXDLIN(2991)		if (!(_hx_tmp3)) {
-HXLINE(2991)			_hx_tmp2 = (sourceRect->y > sourceBitmapData->height);
-            		}
-            		else {
-HXLINE(2991)			_hx_tmp2 = true;
-            		}
-HXDLIN(2991)		if (!(_hx_tmp2)) {
-HXLINE(2991)			_hx_tmp1 = (destPoint->x > this->width);
+HXDLIN(1906)		if (!(_hx_tmp4)) {
+HXLINE(1906)			_hx_tmp3 = (sourceRect->x > sourceBitmapData->width);
             		}
             		else {
-HXLINE(2991)			_hx_tmp1 = true;
+HXLINE(1906)			_hx_tmp3 = true;
             		}
-HXDLIN(2991)		if (!(_hx_tmp1)) {
-HXLINE(2991)			_hx_tmp = (destPoint->y > this->height);
+HXDLIN(1906)		if (!(_hx_tmp3)) {
+HXLINE(1906)			_hx_tmp2 = (sourceRect->y > sourceBitmapData->height);
             		}
             		else {
-HXLINE(2991)			_hx_tmp = true;
+HXLINE(1906)			_hx_tmp2 = true;
             		}
-HXDLIN(2991)		if (_hx_tmp) {
-HXLINE(2999)			return 0;
+HXDLIN(1906)		if (!(_hx_tmp2)) {
+HXLINE(1906)			_hx_tmp1 = (destPoint->x > this->width);
             		}
-HXLINE(3003)		 ::lime::graphics::Image _hx_tmp6 = this->image;
-HXDLIN(3003)		 ::lime::graphics::Image sourceBitmapData1 = sourceBitmapData->image;
-HXDLIN(3003)		 ::lime::math::Rectangle _hx_tmp7 = sourceRect->_hx___toLimeRectangle();
-HXDLIN(3003)		return _hx_tmp6->threshold(sourceBitmapData1,_hx_tmp7,destPoint->_hx___toLimeVector2(),operation,threshold,color,mask,copySource,1);
+            		else {
+HXLINE(1906)			_hx_tmp1 = true;
+            		}
+HXDLIN(1906)		if (!(_hx_tmp1)) {
+HXLINE(1906)			_hx_tmp = (destPoint->y > this->height);
+            		}
+            		else {
+HXLINE(1906)			_hx_tmp = true;
+            		}
+HXDLIN(1906)		if (_hx_tmp) {
+HXLINE(1914)			return 0;
+            		}
+HXLINE(1918)		 ::lime::graphics::Image _hx_tmp6 = this->image;
+HXDLIN(1918)		 ::lime::graphics::Image sourceBitmapData1 = sourceBitmapData->image;
+HXDLIN(1918)		 ::lime::math::Rectangle _hx_tmp7 = sourceRect->_hx___toLimeRectangle();
+HXDLIN(1918)		return _hx_tmp6->threshold(sourceBitmapData1,_hx_tmp7,destPoint->_hx___toLimeVector2(),operation,threshold,color,mask,copySource,1);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC8(BitmapData_obj,threshold,return )
 
 void BitmapData_obj::unlock( ::openfl::geom::Rectangle changeRect){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_3022_unlock)
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1925_unlock)
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(BitmapData_obj,unlock,(void))
 
 void BitmapData_obj::_hx___applyAlpha( ::openfl::utils::ByteArrayData alpha){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_3025___applyAlpha)
-HXLINE(3031)		 ::lime::utils::ArrayBufferView data = this->image->buffer->data;
-HXLINE(3033)		{
-HXLINE(3033)			int _g = 0;
-HXDLIN(3033)			int _g1 = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::get_length(alpha);
-HXDLIN(3033)			while((_g < _g1)){
-HXLINE(3033)				_g = (_g + 1);
-HXDLIN(3033)				int i = (_g - 1);
-HXLINE(3035)				{
-HXLINE(3035)					int val = alpha->readUnsignedByte();
-HXDLIN(3035)					 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + ((i * 4) + 3)),val);
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1928___applyAlpha)
+HXLINE(1934)		 ::lime::utils::ArrayBufferView data = this->image->buffer->data;
+HXLINE(1936)		{
+HXLINE(1936)			int _g = 0;
+HXDLIN(1936)			int _g1 = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::get_length(alpha);
+HXDLIN(1936)			while((_g < _g1)){
+HXLINE(1936)				_g = (_g + 1);
+HXDLIN(1936)				int i = (_g - 1);
+HXLINE(1938)				{
+HXLINE(1938)					int val = alpha->readUnsignedByte();
+HXDLIN(1938)					 ::__hxcpp_memory_set_byte(data->buffer->b,(data->byteOffset + ((i * 4) + 3)),val);
             				}
             			}
             		}
-HXLINE(3038)		this->image->version++;
+HXLINE(1941)		this->image->version++;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(BitmapData_obj,_hx___applyAlpha,(void))
 
 void BitmapData_obj::_hx___drawCairo(::Dynamic source, ::openfl::display::CairoRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_3042___drawCairo)
-HXLINE(3044)		 ::lime::graphics::cairo::Cairo cairo = renderer->cairo;
-HXLINE(3046)		if (::hx::IsEq( source,::hx::ObjectPtr<OBJ_>(this) )) {
-HXLINE(3048)			source = this->clone();
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1945___drawCairo)
+HXLINE(1947)		 ::lime::graphics::cairo::Cairo cairo = renderer->cairo;
+HXLINE(1949)		if (::hx::IsEq( source,::hx::ObjectPtr<OBJ_>(this) )) {
+HXLINE(1951)			source = this->clone();
             		}
-HXLINE(3051)		if (!(renderer->_hx___allowSmoothing)) {
-HXLINE(3051)			cairo->set_antialias(1);
+HXLINE(1954)		if (!(renderer->_hx___allowSmoothing)) {
+HXLINE(1954)			cairo->set_antialias(1);
             		}
-HXLINE(3053)		renderer->_hx___render(source);
-HXLINE(3055)		if (!(renderer->_hx___allowSmoothing)) {
-HXLINE(3055)			cairo->set_antialias(5);
+HXLINE(1956)		renderer->_hx___render(source);
+HXLINE(1958)		if (!(renderer->_hx___allowSmoothing)) {
+HXLINE(1958)			cairo->set_antialias(5);
             		}
-HXLINE(3057)		::lime::graphics::cairo::_CairoSurface::CairoSurface_Impl__obj::flush(cairo->get_target());
-HXLINE(3059)		this->image->dirty = true;
-HXLINE(3060)		this->image->version++;
+HXLINE(1960)		::lime::graphics::cairo::_CairoSurface::CairoSurface_Impl__obj::flush(cairo->get_target());
+HXLINE(1962)		this->image->dirty = true;
+HXLINE(1963)		this->image->version++;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(BitmapData_obj,_hx___drawCairo,(void))
 
 void BitmapData_obj::_hx___drawCanvas(::Dynamic source, ::openfl::display::CanvasRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_3065___drawCanvas)
-HXLINE(3066)		 ::lime::graphics::ImageBuffer buffer = this->image->buffer;
-HXLINE(3068)		if (!(renderer->_hx___allowSmoothing)) {
-HXLINE(3068)			renderer->applySmoothing(buffer->_hx___srcContext,false);
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1968___drawCanvas)
+HXLINE(1969)		 ::lime::graphics::ImageBuffer buffer = this->image->buffer;
+HXLINE(1971)		if (!(renderer->_hx___allowSmoothing)) {
+HXLINE(1971)			renderer->applySmoothing(buffer->_hx___srcContext,false);
             		}
-HXLINE(3070)		renderer->_hx___render(source);
-HXLINE(3072)		if (!(renderer->_hx___allowSmoothing)) {
-HXLINE(3072)			renderer->applySmoothing(buffer->_hx___srcContext,true);
+HXLINE(1973)		renderer->_hx___render(source);
+HXLINE(1975)		if (!(renderer->_hx___allowSmoothing)) {
+HXLINE(1975)			renderer->applySmoothing(buffer->_hx___srcContext,true);
             		}
-HXLINE(3074)		buffer->_hx___srcContext->__Field(HX_("setTransform",6a,ed,e2,69),::hx::paccDynamic)(1,0,0,1,0,0);
-HXLINE(3075)		buffer->_hx___srcImageData = null();
-HXLINE(3076)		buffer->data = null();
-HXLINE(3078)		this->image->dirty = true;
-HXLINE(3079)		this->image->version++;
+HXLINE(1977)		buffer->_hx___srcContext->__Field(HX_("setTransform",6a,ed,e2,69),::hx::paccDynamic)(1,0,0,1,0,0);
+HXLINE(1978)		buffer->_hx___srcImageData = null();
+HXLINE(1979)		buffer->data = null();
+HXLINE(1981)		this->image->dirty = true;
+HXLINE(1982)		this->image->version++;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(BitmapData_obj,_hx___drawCanvas,(void))
 
 void BitmapData_obj::_hx___drawGL(::Dynamic source, ::openfl::display::OpenGLRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_3083___drawGL)
-HXLINE(3084)		 ::openfl::display3D::Context3D context = renderer->_hx___context3D;
-HXLINE(3086)		 ::openfl::display3D::textures::TextureBase cacheRTT = context->_hx___state->renderToTexture;
-HXLINE(3087)		bool cacheRTTDepthStencil = context->_hx___state->renderToTextureDepthStencil;
-HXLINE(3088)		int cacheRTTAntiAlias = context->_hx___state->renderToTextureAntiAlias;
-HXLINE(3089)		int cacheRTTSurfaceSelector = context->_hx___state->renderToTextureSurfaceSelector;
-HXLINE(3091)		context->setRenderToTexture(this->getTexture(context),true,null(),null());
-HXLINE(3093)		renderer->_hx___render(source);
-HXLINE(3095)		if (::hx::IsNotNull( cacheRTT )) {
-HXLINE(3097)			context->setRenderToTexture(cacheRTT,cacheRTTDepthStencil,cacheRTTAntiAlias,cacheRTTSurfaceSelector);
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1986___drawGL)
+HXLINE(1987)		 ::openfl::display3D::Context3D context = renderer->_hx___context3D;
+HXLINE(1989)		 ::openfl::display3D::textures::TextureBase cacheRTT = context->_hx___state->renderToTexture;
+HXLINE(1990)		bool cacheRTTDepthStencil = context->_hx___state->renderToTextureDepthStencil;
+HXLINE(1991)		int cacheRTTAntiAlias = context->_hx___state->renderToTextureAntiAlias;
+HXLINE(1992)		int cacheRTTSurfaceSelector = context->_hx___state->renderToTextureSurfaceSelector;
+HXLINE(1994)		context->setRenderToTexture(this->getTexture(context),true,null(),null());
+HXLINE(1996)		renderer->_hx___render(source);
+HXLINE(1998)		if (::hx::IsNotNull( cacheRTT )) {
+HXLINE(2000)			context->setRenderToTexture(cacheRTT,cacheRTTDepthStencil,cacheRTTAntiAlias,cacheRTTSurfaceSelector);
             		}
             		else {
-HXLINE(3101)			context->setRenderToBackBuffer();
+HXLINE(2004)			context->setRenderToBackBuffer();
             		}
             	}
 
@@ -3063,76 +3094,76 @@ HXLINE(3101)			context->setRenderToBackBuffer();
 HX_DEFINE_DYNAMIC_FUNC2(BitmapData_obj,_hx___drawGL,(void))
 
 void BitmapData_obj::_hx___fillRect( ::openfl::geom::Rectangle rect,int color,bool allowFramebuffer){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_3106___fillRect)
-HXLINE(3108)		if (::hx::IsNull( rect )) {
-HXLINE(3108)			return;
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2009___fillRect)
+HXLINE(2011)		if (::hx::IsNull( rect )) {
+HXLINE(2011)			return;
             		}
-HXLINE(3110)		bool _hx_tmp;
-HXDLIN(3110)		if (this->transparent) {
-HXLINE(3110)			_hx_tmp = ((color & -16777216) == 0);
-            		}
-            		else {
-HXLINE(3110)			_hx_tmp = false;
-            		}
-HXDLIN(3110)		if (_hx_tmp) {
-HXLINE(3112)			color = 0;
-            		}
-HXLINE(3115)		bool _hx_tmp1;
-HXDLIN(3115)		bool _hx_tmp2;
-HXDLIN(3115)		bool _hx_tmp3;
-HXDLIN(3115)		if (allowFramebuffer) {
-HXLINE(3115)			_hx_tmp3 = ::hx::IsNotNull( this->_hx___texture );
+HXLINE(2013)		bool _hx_tmp;
+HXDLIN(2013)		if (this->transparent) {
+HXLINE(2013)			_hx_tmp = ((color & -16777216) == 0);
             		}
             		else {
-HXLINE(3115)			_hx_tmp3 = false;
+HXLINE(2013)			_hx_tmp = false;
             		}
-HXDLIN(3115)		if (_hx_tmp3) {
-HXLINE(3115)			_hx_tmp2 = ::hx::IsNotNull( this->_hx___texture->_hx___glFramebuffer );
+HXDLIN(2013)		if (_hx_tmp) {
+HXLINE(2015)			color = 0;
+            		}
+HXLINE(2018)		bool _hx_tmp1;
+HXDLIN(2018)		bool _hx_tmp2;
+HXDLIN(2018)		bool _hx_tmp3;
+HXDLIN(2018)		if (allowFramebuffer) {
+HXLINE(2018)			_hx_tmp3 = ::hx::IsNotNull( this->_hx___texture );
             		}
             		else {
-HXLINE(3115)			_hx_tmp2 = false;
+HXLINE(2018)			_hx_tmp3 = false;
             		}
-HXDLIN(3115)		if (_hx_tmp2) {
-HXLINE(3115)			_hx_tmp1 = (::openfl::Lib_obj::get_current()->stage->_hx___renderer->_hx___type == HX_("opengl",6f,64,94,21));
+HXDLIN(2018)		if (_hx_tmp3) {
+HXLINE(2018)			_hx_tmp2 = ::hx::IsNotNull( this->_hx___texture->_hx___glFramebuffer );
             		}
             		else {
-HXLINE(3115)			_hx_tmp1 = false;
+HXLINE(2018)			_hx_tmp2 = false;
             		}
-HXDLIN(3115)		if (_hx_tmp1) {
-HXLINE(3120)			 ::openfl::display::OpenGLRenderer renderer = ( ( ::openfl::display::OpenGLRenderer)(::openfl::Lib_obj::get_current()->stage->_hx___renderer) );
-HXLINE(3121)			 ::openfl::display3D::Context3D context = renderer->_hx___context3D;
-HXLINE(3122)			int color1 = color;
-HXLINE(3123)			bool useScissor = !(this->rect->equals(rect));
-HXLINE(3125)			 ::openfl::display3D::textures::TextureBase cacheRTT = context->_hx___state->renderToTexture;
-HXLINE(3126)			bool cacheRTTDepthStencil = context->_hx___state->renderToTextureDepthStencil;
-HXLINE(3127)			int cacheRTTAntiAlias = context->_hx___state->renderToTextureAntiAlias;
-HXLINE(3128)			int cacheRTTSurfaceSelector = context->_hx___state->renderToTextureSurfaceSelector;
-HXLINE(3130)			context->setRenderToTexture(this->_hx___texture,null(),null(),null());
-HXLINE(3132)			if (useScissor) {
-HXLINE(3134)				context->setScissorRectangle(rect);
+HXDLIN(2018)		if (_hx_tmp2) {
+HXLINE(2018)			_hx_tmp1 = (::openfl::Lib_obj::get_current()->stage->_hx___renderer->_hx___type == HX_("opengl",6f,64,94,21));
+            		}
+            		else {
+HXLINE(2018)			_hx_tmp1 = false;
+            		}
+HXDLIN(2018)		if (_hx_tmp1) {
+HXLINE(2023)			 ::openfl::display::OpenGLRenderer renderer = ( ( ::openfl::display::OpenGLRenderer)(::openfl::Lib_obj::get_current()->stage->_hx___renderer) );
+HXLINE(2024)			 ::openfl::display3D::Context3D context = renderer->_hx___context3D;
+HXLINE(2025)			int color1 = color;
+HXLINE(2026)			bool useScissor = !(this->rect->equals(rect));
+HXLINE(2028)			 ::openfl::display3D::textures::TextureBase cacheRTT = context->_hx___state->renderToTexture;
+HXLINE(2029)			bool cacheRTTDepthStencil = context->_hx___state->renderToTextureDepthStencil;
+HXLINE(2030)			int cacheRTTAntiAlias = context->_hx___state->renderToTextureAntiAlias;
+HXLINE(2031)			int cacheRTTSurfaceSelector = context->_hx___state->renderToTextureSurfaceSelector;
+HXLINE(2033)			context->setRenderToTexture(this->_hx___texture,null(),null(),null());
+HXLINE(2035)			if (useScissor) {
+HXLINE(2037)				context->setScissorRectangle(rect);
             			}
-HXLINE(3137)			Float _hx_tmp;
-HXDLIN(3137)			if (this->transparent) {
-HXLINE(3137)				_hx_tmp = (( (Float)((::hx::UShr(color1,24) & 255)) ) / ( (Float)(255) ));
+HXLINE(2040)			Float _hx_tmp;
+HXDLIN(2040)			if (this->transparent) {
+HXLINE(2040)				_hx_tmp = (( (Float)((::hx::UShr(color1,24) & 255)) ) / ( (Float)(255) ));
             			}
             			else {
-HXLINE(3137)				_hx_tmp = ( (Float)(1) );
+HXLINE(2040)				_hx_tmp = ( (Float)(1) );
             			}
-HXDLIN(3137)			context->clear((( (Float)((::hx::UShr(color1,16) & 255)) ) / ( (Float)(255) )),(( (Float)((::hx::UShr(color1,8) & 255)) ) / ( (Float)(255) )),(( (Float)((color1 & 255)) ) / ( (Float)(255) )),_hx_tmp,0,0,1);
-HXLINE(3139)			if (useScissor) {
-HXLINE(3141)				context->setScissorRectangle(null());
+HXDLIN(2040)			context->clear((( (Float)((::hx::UShr(color1,16) & 255)) ) / ( (Float)(255) )),(( (Float)((::hx::UShr(color1,8) & 255)) ) / ( (Float)(255) )),(( (Float)((color1 & 255)) ) / ( (Float)(255) )),_hx_tmp,0,0,1);
+HXLINE(2042)			if (useScissor) {
+HXLINE(2044)				context->setScissorRectangle(null());
             			}
-HXLINE(3144)			if (::hx::IsNotNull( cacheRTT )) {
-HXLINE(3146)				context->setRenderToTexture(cacheRTT,cacheRTTDepthStencil,cacheRTTAntiAlias,cacheRTTSurfaceSelector);
+HXLINE(2047)			if (::hx::IsNotNull( cacheRTT )) {
+HXLINE(2049)				context->setRenderToTexture(cacheRTT,cacheRTTDepthStencil,cacheRTTAntiAlias,cacheRTTSurfaceSelector);
             			}
             			else {
-HXLINE(3150)				context->setRenderToBackBuffer();
+HXLINE(2053)				context->setRenderToBackBuffer();
             			}
             		}
             		else {
-HXLINE(3153)			if (this->readable) {
-HXLINE(3155)				 ::lime::graphics::Image _hx_tmp = this->image;
-HXDLIN(3155)				_hx_tmp->fillRect(rect->_hx___toLimeRectangle(),color,1);
+HXLINE(2056)			if (this->readable) {
+HXLINE(2058)				 ::lime::graphics::Image _hx_tmp = this->image;
+HXDLIN(2058)				_hx_tmp->fillRect(rect->_hx___toLimeRectangle(),color,1);
             			}
             		}
             	}
@@ -3141,20 +3172,20 @@ HXDLIN(3155)				_hx_tmp->fillRect(rect->_hx___toLimeRectangle(),color,1);
 HX_DEFINE_DYNAMIC_FUNC3(BitmapData_obj,_hx___fillRect,(void))
 
 void BitmapData_obj::_hx___fromBase64(::String base64,::String type){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_3161___fromBase64)
-HXLINE(3163)		 ::lime::graphics::Image image = ::lime::graphics::Image_obj::fromBase64(base64,type);
-HXLINE(3164)		this->_hx___fromImage(image);
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2064___fromBase64)
+HXLINE(2066)		 ::lime::graphics::Image image = ::lime::graphics::Image_obj::fromBase64(base64,type);
+HXLINE(2067)		this->_hx___fromImage(image);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(BitmapData_obj,_hx___fromBase64,(void))
 
 void BitmapData_obj::_hx___fromBytes( ::openfl::utils::ByteArrayData bytes, ::openfl::utils::ByteArrayData rawAlpha){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_3169___fromBytes)
-HXLINE(3171)		 ::lime::graphics::Image image = ::lime::graphics::Image_obj::fromBytes(::openfl::utils::_ByteArray::ByteArray_Impl__obj::toArrayBuffer(bytes));
-HXLINE(3172)		this->_hx___fromImage(image);
-HXLINE(3174)		if (::hx::IsNotNull( rawAlpha )) {
-HXLINE(3176)			this->_hx___applyAlpha(rawAlpha);
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2072___fromBytes)
+HXLINE(2074)		 ::lime::graphics::Image image = ::lime::graphics::Image_obj::fromBytes(::openfl::utils::_ByteArray::ByteArray_Impl__obj::toArrayBuffer(bytes));
+HXLINE(2075)		this->_hx___fromImage(image);
+HXLINE(2077)		if (::hx::IsNotNull( rawAlpha )) {
+HXLINE(2079)			this->_hx___applyAlpha(rawAlpha);
             		}
             	}
 
@@ -3162,34 +3193,34 @@ HXLINE(3176)			this->_hx___applyAlpha(rawAlpha);
 HX_DEFINE_DYNAMIC_FUNC2(BitmapData_obj,_hx___fromBytes,(void))
 
 void BitmapData_obj::_hx___fromFile(::String path){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_3182___fromFile)
-HXLINE(3184)		 ::lime::graphics::Image image = ::lime::graphics::Image_obj::fromFile(path);
-HXLINE(3185)		this->_hx___fromImage(image);
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2085___fromFile)
+HXLINE(2087)		 ::lime::graphics::Image image = ::lime::graphics::Image_obj::fromFile(path);
+HXLINE(2088)		this->_hx___fromImage(image);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(BitmapData_obj,_hx___fromFile,(void))
 
 void BitmapData_obj::_hx___fromImage( ::lime::graphics::Image image){
-            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_3193___fromImage)
-HXDLIN(3193)		bool _hx_tmp;
-HXDLIN(3193)		if (::hx::IsNotNull( image )) {
-HXDLIN(3193)			_hx_tmp = ::hx::IsNotNull( image->buffer );
+            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2096___fromImage)
+HXDLIN(2096)		bool _hx_tmp;
+HXDLIN(2096)		if (::hx::IsNotNull( image )) {
+HXDLIN(2096)			_hx_tmp = ::hx::IsNotNull( image->buffer );
             		}
             		else {
-HXDLIN(3193)			_hx_tmp = false;
+HXDLIN(2096)			_hx_tmp = false;
             		}
-HXDLIN(3193)		if (_hx_tmp) {
-HXLINE(3195)			this->image = image;
-HXLINE(3197)			this->width = image->width;
-HXLINE(3198)			this->height = image->height;
-HXLINE(3199)			this->rect =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,0,0,image->width,image->height);
-HXLINE(3201)			this->_hx___textureWidth = this->width;
-HXLINE(3202)			this->_hx___textureHeight = this->height;
-HXLINE(3205)			image->set_format(2);
-HXLINE(3206)			image->set_premultiplied(true);
-HXLINE(3209)			this->readable = true;
-HXLINE(3210)			this->_hx___isValid = true;
+HXDLIN(2096)		if (_hx_tmp) {
+HXLINE(2098)			this->image = image;
+HXLINE(2100)			this->width = image->width;
+HXLINE(2101)			this->height = image->height;
+HXLINE(2102)			this->rect =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,0,0,image->width,image->height);
+HXLINE(2104)			this->_hx___textureWidth = this->width;
+HXLINE(2105)			this->_hx___textureHeight = this->height;
+HXLINE(2108)			image->set_format(2);
+HXLINE(2109)			image->set_premultiplied(true);
+HXLINE(2112)			this->readable = true;
+HXLINE(2113)			this->_hx___isValid = true;
             		}
             	}
 
@@ -3197,11 +3228,11 @@ HXLINE(3210)			this->_hx___isValid = true;
 HX_DEFINE_DYNAMIC_FUNC1(BitmapData_obj,_hx___fromImage,(void))
 
 void BitmapData_obj::_hx___getBounds( ::openfl::geom::Rectangle rect, ::openfl::geom::Matrix matrix){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_3216___getBounds)
-HXLINE(3217)		 ::openfl::geom::Rectangle bounds = ::openfl::geom::Rectangle_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Rectangle >();
-HXLINE(3218)		this->rect->_hx___transform(bounds,matrix);
-HXLINE(3219)		rect->_hx___expand(bounds->x,bounds->y,bounds->width,bounds->height);
-HXLINE(3220)		::openfl::geom::Rectangle_obj::_hx___pool->release(bounds);
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2119___getBounds)
+HXLINE(2120)		 ::openfl::geom::Rectangle bounds = ::openfl::geom::Rectangle_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Rectangle >();
+HXLINE(2121)		this->rect->_hx___transform(bounds,matrix);
+HXLINE(2122)		rect->_hx___expand(bounds->x,bounds->y,bounds->width,bounds->height);
+HXLINE(2123)		::openfl::geom::Rectangle_obj::_hx___pool->release(bounds);
             	}
 
 
@@ -3210,15 +3241,15 @@ HX_DEFINE_DYNAMIC_FUNC2(BitmapData_obj,_hx___getBounds,(void))
  ::lime::app::Future BitmapData_obj::_hx___loadFromBase64(::String base64,::String type){
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::openfl::display::BitmapData,_gthis) HXARGC(1)
             		 ::lime::app::Future _hx_run( ::lime::graphics::Image image){
-            			HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_3254___loadFromBase64)
-HXLINE(3255)			_gthis->_hx___fromImage(image);
-HXLINE(3256)			return ::lime::app::Future_obj::withValue(_gthis);
+            			HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2157___loadFromBase64)
+HXLINE(2158)			_gthis->_hx___fromImage(image);
+HXLINE(2159)			return ::lime::app::Future_obj::withValue(_gthis);
             		}
             		HX_END_LOCAL_FUNC1(return)
 
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_3251___loadFromBase64)
-HXLINE(3250)		 ::openfl::display::BitmapData _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE(3253)		return ::lime::graphics::Image_obj::loadFromBase64(base64,type)->then( ::Dynamic(new _hx_Closure_0(_gthis)));
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2154___loadFromBase64)
+HXLINE(2153)		 ::openfl::display::BitmapData _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(2156)		return ::lime::graphics::Image_obj::loadFromBase64(base64,type)->then( ::Dynamic(new _hx_Closure_0(_gthis)));
             	}
 
 
@@ -3227,18 +3258,18 @@ HX_DEFINE_DYNAMIC_FUNC2(BitmapData_obj,_hx___loadFromBase64,return )
  ::lime::app::Future BitmapData_obj::_hx___loadFromBytes( ::openfl::utils::ByteArrayData bytes, ::openfl::utils::ByteArrayData rawAlpha){
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_0, ::openfl::utils::ByteArrayData,rawAlpha, ::openfl::display::BitmapData,_gthis) HXARGC(1)
             		 ::lime::app::Future _hx_run( ::lime::graphics::Image image){
-            			HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_3267___loadFromBytes)
-HXLINE(3268)			_gthis->_hx___fromImage(image);
-HXLINE(3270)			if (::hx::IsNotNull( rawAlpha )) {
-HXLINE(3272)				_gthis->_hx___applyAlpha(rawAlpha);
+            			HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2170___loadFromBytes)
+HXLINE(2171)			_gthis->_hx___fromImage(image);
+HXLINE(2173)			if (::hx::IsNotNull( rawAlpha )) {
+HXLINE(2175)				_gthis->_hx___applyAlpha(rawAlpha);
             			}
-HXLINE(3275)			return ::lime::app::Future_obj::withValue(_gthis);
+HXLINE(2178)			return ::lime::app::Future_obj::withValue(_gthis);
             		}
             		HX_END_LOCAL_FUNC1(return)
 
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_3264___loadFromBytes)
-HXLINE(3263)		 ::openfl::display::BitmapData _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE(3266)		return ::lime::graphics::Image_obj::loadFromBytes(::openfl::utils::_ByteArray::ByteArray_Impl__obj::toArrayBuffer(bytes))->then( ::Dynamic(new _hx_Closure_0(rawAlpha,_gthis)));
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2167___loadFromBytes)
+HXLINE(2166)		 ::openfl::display::BitmapData _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(2169)		return ::lime::graphics::Image_obj::loadFromBytes(::openfl::utils::_ByteArray::ByteArray_Impl__obj::toArrayBuffer(bytes))->then( ::Dynamic(new _hx_Closure_0(rawAlpha,_gthis)));
             	}
 
 
@@ -3247,149 +3278,259 @@ HX_DEFINE_DYNAMIC_FUNC2(BitmapData_obj,_hx___loadFromBytes,return )
  ::lime::app::Future BitmapData_obj::_hx___loadFromFile(::String path){
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::openfl::display::BitmapData,_gthis) HXARGC(1)
             		 ::lime::app::Future _hx_run( ::lime::graphics::Image image){
-            			HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_3286___loadFromFile)
-HXLINE(3287)			_gthis->_hx___fromImage(image);
-HXLINE(3288)			return ::lime::app::Future_obj::withValue(_gthis);
+            			HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2189___loadFromFile)
+HXLINE(2190)			_gthis->_hx___fromImage(image);
+HXLINE(2191)			return ::lime::app::Future_obj::withValue(_gthis);
             		}
             		HX_END_LOCAL_FUNC1(return)
 
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_3283___loadFromFile)
-HXLINE(3282)		 ::openfl::display::BitmapData _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE(3285)		return ::lime::graphics::Image_obj::loadFromFile(path)->then( ::Dynamic(new _hx_Closure_0(_gthis)));
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2186___loadFromFile)
+HXLINE(2185)		 ::openfl::display::BitmapData _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(2188)		return ::lime::graphics::Image_obj::loadFromFile(path)->then( ::Dynamic(new _hx_Closure_0(_gthis)));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(BitmapData_obj,_hx___loadFromFile,return )
 
+void BitmapData_obj::_hx___renderCairo( ::openfl::display::CairoRenderer renderer){
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2199___renderCairo)
+HXLINE(2201)		if (!(this->readable)) {
+HXLINE(2201)			return;
+            		}
+HXLINE(2203)		 ::lime::graphics::cairo::Cairo cairo = renderer->cairo;
+HXLINE(2205)		renderer->applyMatrix(this->_hx___renderTransform,cairo);
+HXLINE(2207)		 ::Dynamic surface = this->getSurface();
+HXLINE(2209)		if (::hx::IsNotNull( surface )) {
+HXLINE(2211)			 ::Dynamic pattern = ::lime::graphics::cairo::_CairoPattern::CairoPattern_Impl__obj::createForSurface(surface);
+HXLINE(2213)			bool _hx_tmp;
+HXDLIN(2213)			if (renderer->_hx___allowSmoothing) {
+HXLINE(2213)				_hx_tmp = (cairo->get_antialias() == 1);
+            			}
+            			else {
+HXLINE(2213)				_hx_tmp = true;
+            			}
+HXDLIN(2213)			if (_hx_tmp) {
+HXLINE(2215)				::lime::graphics::cairo::_CairoPattern::CairoPattern_Impl__obj::set_filter(pattern,3);
+            			}
+            			else {
+HXLINE(2219)				::lime::graphics::cairo::_CairoPattern::CairoPattern_Impl__obj::set_filter(pattern,1);
+            			}
+HXLINE(2222)			cairo->set_source(pattern);
+HXLINE(2223)			cairo->paint();
+            		}
+            	}
+
+
+HX_DEFINE_DYNAMIC_FUNC1(BitmapData_obj,_hx___renderCairo,(void))
+
+void BitmapData_obj::_hx___renderCairoMask( ::openfl::display::CairoRenderer renderer){
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2228___renderCairoMask)
+            	}
+
+
+HX_DEFINE_DYNAMIC_FUNC1(BitmapData_obj,_hx___renderCairoMask,(void))
+
+void BitmapData_obj::_hx___renderCanvas( ::openfl::display::CanvasRenderer renderer){
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2231___renderCanvas)
+            	}
+
+
+HX_DEFINE_DYNAMIC_FUNC1(BitmapData_obj,_hx___renderCanvas,(void))
+
+void BitmapData_obj::_hx___renderCanvasMask( ::openfl::display::CanvasRenderer renderer){
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2249___renderCanvasMask)
+            	}
+
+
+HX_DEFINE_DYNAMIC_FUNC1(BitmapData_obj,_hx___renderCanvasMask,(void))
+
+void BitmapData_obj::_hx___renderDOM( ::openfl::display::DOMRenderer renderer){
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2251___renderDOM)
+            	}
+
+
+HX_DEFINE_DYNAMIC_FUNC1(BitmapData_obj,_hx___renderDOM,(void))
+
+void BitmapData_obj::_hx___renderGL( ::openfl::display::OpenGLRenderer renderer){
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2254___renderGL)
+HXLINE(2255)		 ::openfl::display3D::Context3D context = renderer->_hx___context3D;
+HXLINE(2256)		 ::lime::_internal::backend::native::NativeOpenGLRenderContext gl = context->gl;
+HXLINE(2258)		renderer->_hx___setBlendMode(10);
+HXLINE(2260)		 ::openfl::display::DisplayObjectShader shader = renderer->_hx___defaultDisplayShader;
+HXLINE(2261)		renderer->setShader(shader);
+HXLINE(2262)		renderer->applyBitmapData(::hx::ObjectPtr<OBJ_>(this),renderer->_hx___upscaled,null());
+HXLINE(2263)		renderer->applyMatrix(renderer->_hx___getMatrix(this->_hx___worldTransform,1));
+HXLINE(2264)		renderer->applyAlpha(this->_hx___worldAlpha);
+HXLINE(2265)		renderer->applyColorTransform(this->_hx___worldColorTransform);
+HXLINE(2266)		renderer->updateShader();
+HXLINE(2270)		 ::openfl::display3D::VertexBuffer3D vertexBuffer = this->getVertexBuffer(context,null(),null());
+HXLINE(2271)		if (::hx::IsNotNull( shader->_hx___position )) {
+HXLINE(2271)			context->setVertexBufferAt(( (int)(shader->_hx___position->index) ),vertexBuffer,0,3);
+            		}
+HXLINE(2272)		if (::hx::IsNotNull( shader->_hx___textureCoord )) {
+HXLINE(2272)			context->setVertexBufferAt(( (int)(shader->_hx___textureCoord->index) ),vertexBuffer,3,2);
+            		}
+HXLINE(2273)		 ::openfl::display3D::IndexBuffer3D indexBuffer = this->getIndexBuffer(context,null());
+HXLINE(2274)		context->drawTriangles(indexBuffer,null(),null());
+HXLINE(2280)		renderer->_hx___clearShader();
+            	}
+
+
+HX_DEFINE_DYNAMIC_FUNC1(BitmapData_obj,_hx___renderGL,(void))
+
+void BitmapData_obj::_hx___renderGLMask( ::openfl::display::OpenGLRenderer renderer){
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2284___renderGLMask)
+HXLINE(2285)		 ::openfl::display3D::Context3D context = renderer->_hx___context3D;
+HXLINE(2286)		 ::lime::_internal::backend::native::NativeOpenGLRenderContext gl = context->gl;
+HXLINE(2288)		 ::openfl::display::_internal::Context3DMaskShader shader = renderer->_hx___maskShader;
+HXLINE(2289)		renderer->setShader(shader);
+HXLINE(2290)		renderer->applyBitmapData(::hx::ObjectPtr<OBJ_>(this),renderer->_hx___upscaled,null());
+HXLINE(2291)		renderer->applyMatrix(renderer->_hx___getMatrix(this->_hx___worldTransform,1));
+HXLINE(2292)		renderer->updateShader();
+HXLINE(2294)		 ::openfl::display3D::VertexBuffer3D vertexBuffer = this->getVertexBuffer(context,null(),null());
+HXLINE(2295)		if (::hx::IsNotNull( shader->_hx___position )) {
+HXLINE(2295)			context->setVertexBufferAt(( (int)(shader->_hx___position->index) ),vertexBuffer,0,3);
+            		}
+HXLINE(2296)		if (::hx::IsNotNull( shader->_hx___textureCoord )) {
+HXLINE(2296)			context->setVertexBufferAt(( (int)(shader->_hx___textureCoord->index) ),vertexBuffer,3,2);
+            		}
+HXLINE(2297)		 ::openfl::display3D::IndexBuffer3D indexBuffer = this->getIndexBuffer(context,null());
+HXLINE(2298)		context->drawTriangles(indexBuffer,null(),null());
+HXLINE(2304)		renderer->_hx___clearShader();
+            	}
+
+
+HX_DEFINE_DYNAMIC_FUNC1(BitmapData_obj,_hx___renderGLMask,(void))
+
 void BitmapData_obj::_hx___resize(int width,int height){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_3296___resize)
-HXLINE(3297)		this->width = width;
-HXLINE(3298)		this->height = height;
-HXLINE(3299)		this->rect->width = ( (Float)(width) );
-HXLINE(3300)		this->rect->height = ( (Float)(height) );
-HXLINE(3302)		this->_hx___textureWidth = width;
-HXLINE(3303)		this->_hx___textureHeight = height;
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2308___resize)
+HXLINE(2309)		this->width = width;
+HXLINE(2310)		this->height = height;
+HXLINE(2311)		this->rect->width = ( (Float)(width) );
+HXLINE(2312)		this->rect->height = ( (Float)(height) );
+HXLINE(2314)		this->_hx___textureWidth = width;
+HXLINE(2315)		this->_hx___textureHeight = height;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(BitmapData_obj,_hx___resize,(void))
 
 void BitmapData_obj::_hx___setUVRect( ::openfl::display3D::Context3D context,Float x,Float y,Float width,Float height){
-            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_3307___setUVRect)
-HXLINE(3308)		 ::openfl::display3D::VertexBuffer3D buffer = this->getVertexBuffer(context,null(),null());
-HXLINE(3310)		bool _hx_tmp;
-HXDLIN(3310)		if (::hx::IsNotNull( buffer )) {
-HXLINE(3310)			bool _hx_tmp1;
-HXDLIN(3310)			bool _hx_tmp2;
-HXDLIN(3310)			if ((width == this->_hx___uvRect->width)) {
-HXLINE(3310)				_hx_tmp2 = (height != this->_hx___uvRect->height);
+            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2319___setUVRect)
+HXLINE(2320)		 ::openfl::display3D::VertexBuffer3D buffer = this->getVertexBuffer(context,null(),null());
+HXLINE(2322)		bool _hx_tmp;
+HXDLIN(2322)		if (::hx::IsNotNull( buffer )) {
+HXLINE(2322)			bool _hx_tmp1;
+HXDLIN(2322)			bool _hx_tmp2;
+HXDLIN(2322)			if ((width == this->_hx___uvRect->width)) {
+HXLINE(2322)				_hx_tmp2 = (height != this->_hx___uvRect->height);
             			}
             			else {
-HXLINE(3310)				_hx_tmp2 = true;
+HXLINE(2322)				_hx_tmp2 = true;
             			}
-HXDLIN(3310)			if (!(_hx_tmp2)) {
-HXLINE(3310)				_hx_tmp1 = (x != this->_hx___uvRect->x);
-            			}
-            			else {
-HXLINE(3310)				_hx_tmp1 = true;
-            			}
-HXDLIN(3310)			if (!(_hx_tmp1)) {
-HXLINE(3310)				_hx_tmp = (y != this->_hx___uvRect->y);
+HXDLIN(2322)			if (!(_hx_tmp2)) {
+HXLINE(2322)				_hx_tmp1 = (x != this->_hx___uvRect->x);
             			}
             			else {
-HXLINE(3310)				_hx_tmp = true;
+HXLINE(2322)				_hx_tmp1 = true;
+            			}
+HXDLIN(2322)			if (!(_hx_tmp1)) {
+HXLINE(2322)				_hx_tmp = (y != this->_hx___uvRect->y);
+            			}
+            			else {
+HXLINE(2322)				_hx_tmp = true;
             			}
             		}
             		else {
-HXLINE(3310)			_hx_tmp = false;
+HXLINE(2322)			_hx_tmp = false;
             		}
-HXDLIN(3310)		if (_hx_tmp) {
-HXLINE(3312)			 ::lime::_internal::backend::native::NativeOpenGLRenderContext gl = context->gl;
-HXLINE(3314)			if (::hx::IsNull( this->_hx___uvRect )) {
-HXLINE(3314)				this->_hx___uvRect =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,null(),null(),null(),null());
+HXDLIN(2322)		if (_hx_tmp) {
+HXLINE(2324)			 ::lime::_internal::backend::native::NativeOpenGLRenderContext gl = context->gl;
+HXLINE(2326)			if (::hx::IsNull( this->_hx___uvRect )) {
+HXLINE(2326)				this->_hx___uvRect =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,null(),null(),null(),null());
             			}
-HXLINE(3315)			this->_hx___uvRect->setTo(x,y,width,height);
-HXLINE(3317)			Float uvX;
-HXDLIN(3317)			if ((this->_hx___textureWidth > 0)) {
-HXLINE(3317)				uvX = (x / ( (Float)(this->_hx___textureWidth) ));
-            			}
-            			else {
-HXLINE(3317)				uvX = ( (Float)(0) );
-            			}
-HXLINE(3318)			Float uvY;
-HXDLIN(3318)			if ((this->_hx___textureHeight > 0)) {
-HXLINE(3318)				uvY = (y / ( (Float)(this->_hx___textureHeight) ));
+HXLINE(2327)			this->_hx___uvRect->setTo(x,y,width,height);
+HXLINE(2329)			Float uvX;
+HXDLIN(2329)			if ((this->_hx___textureWidth > 0)) {
+HXLINE(2329)				uvX = (x / ( (Float)(this->_hx___textureWidth) ));
             			}
             			else {
-HXLINE(3318)				uvY = ( (Float)(0) );
+HXLINE(2329)				uvX = ( (Float)(0) );
             			}
-HXLINE(3319)			Float uvWidth;
-HXDLIN(3319)			if ((this->_hx___textureWidth > 0)) {
-HXLINE(3319)				uvWidth = (width / ( (Float)(this->_hx___textureWidth) ));
-            			}
-            			else {
-HXLINE(3319)				uvWidth = ( (Float)(0) );
-            			}
-HXLINE(3320)			Float uvHeight;
-HXDLIN(3320)			if ((this->_hx___textureHeight > 0)) {
-HXLINE(3320)				uvHeight = (height / ( (Float)(this->_hx___textureHeight) ));
+HXLINE(2330)			Float uvY;
+HXDLIN(2330)			if ((this->_hx___textureHeight > 0)) {
+HXLINE(2330)				uvY = (y / ( (Float)(this->_hx___textureHeight) ));
             			}
             			else {
-HXLINE(3320)				uvHeight = ( (Float)(0) );
+HXLINE(2330)				uvY = ( (Float)(0) );
             			}
-HXLINE(3322)			{
-HXLINE(3322)				 ::lime::utils::ArrayBufferView this1 = this->_hx___vertexBufferData;
-HXDLIN(3322)				 ::__hxcpp_memory_set_float(this1->buffer->b,this1->byteOffset,width);
+HXLINE(2331)			Float uvWidth;
+HXDLIN(2331)			if ((this->_hx___textureWidth > 0)) {
+HXLINE(2331)				uvWidth = (width / ( (Float)(this->_hx___textureWidth) ));
             			}
-HXLINE(3323)			{
-HXLINE(3323)				 ::lime::utils::ArrayBufferView this2 = this->_hx___vertexBufferData;
-HXDLIN(3323)				 ::__hxcpp_memory_set_float(this2->buffer->b,(this2->byteOffset + 4),height);
+            			else {
+HXLINE(2331)				uvWidth = ( (Float)(0) );
             			}
-HXLINE(3324)			{
-HXLINE(3324)				 ::lime::utils::ArrayBufferView this3 = this->_hx___vertexBufferData;
-HXDLIN(3324)				Float val = (uvX + uvWidth);
-HXDLIN(3324)				 ::__hxcpp_memory_set_float(this3->buffer->b,(this3->byteOffset + 12),val);
+HXLINE(2332)			Float uvHeight;
+HXDLIN(2332)			if ((this->_hx___textureHeight > 0)) {
+HXLINE(2332)				uvHeight = (height / ( (Float)(this->_hx___textureHeight) ));
             			}
-HXLINE(3325)			{
-HXLINE(3325)				 ::lime::utils::ArrayBufferView this4 = this->_hx___vertexBufferData;
-HXDLIN(3325)				Float val1 = (uvY + uvHeight);
-HXDLIN(3325)				 ::__hxcpp_memory_set_float(this4->buffer->b,(this4->byteOffset + 16),val1);
+            			else {
+HXLINE(2332)				uvHeight = ( (Float)(0) );
             			}
-HXLINE(3326)			{
-HXLINE(3326)				 ::lime::utils::ArrayBufferView this5 = this->_hx___vertexBufferData;
-HXDLIN(3326)				 ::__hxcpp_memory_set_float(this5->buffer->b,(this5->byteOffset + 60),height);
+HXLINE(2334)			{
+HXLINE(2334)				 ::lime::utils::ArrayBufferView this1 = this->_hx___vertexBufferData;
+HXDLIN(2334)				 ::__hxcpp_memory_set_float(this1->buffer->b,this1->byteOffset,width);
             			}
-HXLINE(3327)			{
-HXLINE(3327)				 ::lime::utils::ArrayBufferView this6 = this->_hx___vertexBufferData;
-HXDLIN(3327)				 ::__hxcpp_memory_set_float(this6->buffer->b,(this6->byteOffset + 68),uvX);
+HXLINE(2335)			{
+HXLINE(2335)				 ::lime::utils::ArrayBufferView this2 = this->_hx___vertexBufferData;
+HXDLIN(2335)				 ::__hxcpp_memory_set_float(this2->buffer->b,(this2->byteOffset + 4),height);
             			}
-HXLINE(3328)			{
-HXLINE(3328)				 ::lime::utils::ArrayBufferView this7 = this->_hx___vertexBufferData;
-HXDLIN(3328)				Float val2 = (uvY + uvHeight);
-HXDLIN(3328)				 ::__hxcpp_memory_set_float(this7->buffer->b,(this7->byteOffset + 72),val2);
+HXLINE(2336)			{
+HXLINE(2336)				 ::lime::utils::ArrayBufferView this3 = this->_hx___vertexBufferData;
+HXDLIN(2336)				Float val = (uvX + uvWidth);
+HXDLIN(2336)				 ::__hxcpp_memory_set_float(this3->buffer->b,(this3->byteOffset + 12),val);
             			}
-HXLINE(3329)			{
-HXLINE(3329)				 ::lime::utils::ArrayBufferView this8 = this->_hx___vertexBufferData;
-HXDLIN(3329)				 ::__hxcpp_memory_set_float(this8->buffer->b,(this8->byteOffset + 112),width);
+HXLINE(2337)			{
+HXLINE(2337)				 ::lime::utils::ArrayBufferView this4 = this->_hx___vertexBufferData;
+HXDLIN(2337)				Float val1 = (uvY + uvHeight);
+HXDLIN(2337)				 ::__hxcpp_memory_set_float(this4->buffer->b,(this4->byteOffset + 16),val1);
             			}
-HXLINE(3330)			{
-HXLINE(3330)				 ::lime::utils::ArrayBufferView this9 = this->_hx___vertexBufferData;
-HXDLIN(3330)				Float val3 = (uvX + uvWidth);
-HXDLIN(3330)				 ::__hxcpp_memory_set_float(this9->buffer->b,(this9->byteOffset + 124),val3);
+HXLINE(2338)			{
+HXLINE(2338)				 ::lime::utils::ArrayBufferView this5 = this->_hx___vertexBufferData;
+HXDLIN(2338)				 ::__hxcpp_memory_set_float(this5->buffer->b,(this5->byteOffset + 60),height);
             			}
-HXLINE(3331)			{
-HXLINE(3331)				 ::lime::utils::ArrayBufferView this10 = this->_hx___vertexBufferData;
-HXDLIN(3331)				 ::__hxcpp_memory_set_float(this10->buffer->b,(this10->byteOffset + 128),uvY);
+HXLINE(2339)			{
+HXLINE(2339)				 ::lime::utils::ArrayBufferView this6 = this->_hx___vertexBufferData;
+HXDLIN(2339)				 ::__hxcpp_memory_set_float(this6->buffer->b,(this6->byteOffset + 68),uvX);
             			}
-HXLINE(3332)			{
-HXLINE(3332)				 ::lime::utils::ArrayBufferView this11 = this->_hx___vertexBufferData;
-HXDLIN(3332)				 ::__hxcpp_memory_set_float(this11->buffer->b,(this11->byteOffset + 180),uvX);
+HXLINE(2340)			{
+HXLINE(2340)				 ::lime::utils::ArrayBufferView this7 = this->_hx___vertexBufferData;
+HXDLIN(2340)				Float val2 = (uvY + uvHeight);
+HXDLIN(2340)				 ::__hxcpp_memory_set_float(this7->buffer->b,(this7->byteOffset + 72),val2);
             			}
-HXLINE(3333)			{
-HXLINE(3333)				 ::lime::utils::ArrayBufferView this12 = this->_hx___vertexBufferData;
-HXDLIN(3333)				 ::__hxcpp_memory_set_float(this12->buffer->b,(this12->byteOffset + 184),uvY);
+HXLINE(2341)			{
+HXLINE(2341)				 ::lime::utils::ArrayBufferView this8 = this->_hx___vertexBufferData;
+HXDLIN(2341)				 ::__hxcpp_memory_set_float(this8->buffer->b,(this8->byteOffset + 112),width);
             			}
-HXLINE(3335)			this->_hx___vertexBuffer->uploadFromTypedArray(this->_hx___vertexBufferData,null());
+HXLINE(2342)			{
+HXLINE(2342)				 ::lime::utils::ArrayBufferView this9 = this->_hx___vertexBufferData;
+HXDLIN(2342)				Float val3 = (uvX + uvWidth);
+HXDLIN(2342)				 ::__hxcpp_memory_set_float(this9->buffer->b,(this9->byteOffset + 124),val3);
+            			}
+HXLINE(2343)			{
+HXLINE(2343)				 ::lime::utils::ArrayBufferView this10 = this->_hx___vertexBufferData;
+HXDLIN(2343)				 ::__hxcpp_memory_set_float(this10->buffer->b,(this10->byteOffset + 128),uvY);
+            			}
+HXLINE(2344)			{
+HXLINE(2344)				 ::lime::utils::ArrayBufferView this11 = this->_hx___vertexBufferData;
+HXDLIN(2344)				 ::__hxcpp_memory_set_float(this11->buffer->b,(this11->byteOffset + 180),uvX);
+            			}
+HXLINE(2345)			{
+HXLINE(2345)				 ::lime::utils::ArrayBufferView this12 = this->_hx___vertexBufferData;
+HXDLIN(2345)				 ::__hxcpp_memory_set_float(this12->buffer->b,(this12->byteOffset + 184),uvY);
+            			}
+HXLINE(2347)			this->_hx___vertexBuffer->uploadFromTypedArray(this->_hx___vertexBufferData,null());
             		}
             	}
 
@@ -3397,29 +3538,29 @@ HXLINE(3335)			this->_hx___vertexBuffer->uploadFromTypedArray(this->_hx___vertex
 HX_DEFINE_DYNAMIC_FUNC5(BitmapData_obj,_hx___setUVRect,(void))
 
 void BitmapData_obj::_hx___sync(){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_3340___sync)
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2352___sync)
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(BitmapData_obj,_hx___sync,(void))
 
 void BitmapData_obj::_hx___update(bool transformOnly,bool updateChildren){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_3348___update)
-HXDLIN(3348)		this->_hx___updateTransforms(null());
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2360___update)
+HXDLIN(2360)		this->_hx___updateTransforms(null());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(BitmapData_obj,_hx___update,(void))
 
 void BitmapData_obj::_hx___updateTransforms( ::openfl::geom::Matrix overrideTransform){
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_3352___updateTransforms)
-HXLINE(3353)		if (::hx::IsNull( overrideTransform )) {
-HXLINE(3355)			this->_hx___worldTransform->identity();
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2364___updateTransforms)
+HXLINE(2365)		if (::hx::IsNull( overrideTransform )) {
+HXLINE(2367)			this->_hx___worldTransform->identity();
             		}
             		else {
-HXLINE(3359)			this->_hx___worldTransform->copyFrom(overrideTransform);
+HXLINE(2371)			this->_hx___worldTransform->copyFrom(overrideTransform);
             		}
-HXLINE(3362)		this->_hx___renderTransform->copyFrom(this->_hx___worldTransform);
+HXLINE(2374)		this->_hx___renderTransform->copyFrom(this->_hx___worldTransform);
             	}
 
 
@@ -3436,45 +3577,45 @@ int BitmapData_obj::_hx___textureInternalFormat;
  ::lime::math::Vector2 BitmapData_obj::_hx___tempVector;
 
  ::openfl::display::BitmapData BitmapData_obj::fromBase64(::String base64,::String type){
-            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1198_fromBase64)
-HXLINE(1202)		 ::openfl::display::BitmapData bitmapData =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,0,0,true,0);
-HXLINE(1203)		{
-HXLINE(1203)			 ::lime::graphics::Image image = ::lime::graphics::Image_obj::fromBase64(base64,type);
-HXDLIN(1203)			bitmapData->_hx___fromImage(image);
+            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_707_fromBase64)
+HXLINE( 711)		 ::openfl::display::BitmapData bitmapData =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,0,0,true,0);
+HXLINE( 712)		{
+HXLINE( 712)			 ::lime::graphics::Image image = ::lime::graphics::Image_obj::fromBase64(base64,type);
+HXDLIN( 712)			bitmapData->_hx___fromImage(image);
             		}
-HXLINE(1204)		return bitmapData;
+HXLINE( 713)		return bitmapData;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(BitmapData_obj,fromBase64,return )
 
  ::openfl::display::BitmapData BitmapData_obj::fromBytes( ::openfl::utils::ByteArrayData bytes, ::openfl::utils::ByteArrayData rawAlpha){
-            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1226_fromBytes)
-HXLINE(1230)		 ::openfl::display::BitmapData bitmapData =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,0,0,true,0);
-HXLINE(1231)		{
-HXLINE(1231)			 ::lime::graphics::Image image = ::lime::graphics::Image_obj::fromBytes(::openfl::utils::_ByteArray::ByteArray_Impl__obj::toArrayBuffer(bytes));
-HXDLIN(1231)			bitmapData->_hx___fromImage(image);
-HXDLIN(1231)			if (::hx::IsNotNull( rawAlpha )) {
-HXLINE(1231)				bitmapData->_hx___applyAlpha(rawAlpha);
+            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_720_fromBytes)
+HXLINE( 724)		 ::openfl::display::BitmapData bitmapData =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,0,0,true,0);
+HXLINE( 725)		{
+HXLINE( 725)			 ::lime::graphics::Image image = ::lime::graphics::Image_obj::fromBytes(::openfl::utils::_ByteArray::ByteArray_Impl__obj::toArrayBuffer(bytes));
+HXDLIN( 725)			bitmapData->_hx___fromImage(image);
+HXDLIN( 725)			if (::hx::IsNotNull( rawAlpha )) {
+HXLINE( 725)				bitmapData->_hx___applyAlpha(rawAlpha);
             			}
             		}
-HXLINE(1232)		return bitmapData;
+HXLINE( 726)		return bitmapData;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(BitmapData_obj,fromBytes,return )
 
  ::openfl::display::BitmapData BitmapData_obj::fromFile(::String path){
-            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1274_fromFile)
-HXLINE(1278)		 ::openfl::display::BitmapData bitmapData =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,0,0,true,0);
-HXLINE(1279)		bitmapData->_hx___fromFile(path);
-HXLINE(1280)		if (::hx::IsNotNull( bitmapData->image )) {
-HXLINE(1280)			return bitmapData;
+            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_745_fromFile)
+HXLINE( 749)		 ::openfl::display::BitmapData bitmapData =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,0,0,true,0);
+HXLINE( 750)		bitmapData->_hx___fromFile(path);
+HXLINE( 751)		if (::hx::IsNotNull( bitmapData->image )) {
+HXLINE( 751)			return bitmapData;
             		}
             		else {
-HXLINE(1280)			return null();
+HXLINE( 751)			return null();
             		}
-HXDLIN(1280)		return null();
+HXDLIN( 751)		return null();
             	}
 
 
@@ -3482,43 +3623,43 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC1(BitmapData_obj,fromFile,return )
 
  ::openfl::display::BitmapData BitmapData_obj::fromImage( ::lime::graphics::Image image,::hx::Null< bool >  __o_transparent){
             		bool transparent = __o_transparent.Default(true);
-            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1296_fromImage)
-HXLINE(1297)		bool _hx_tmp;
-HXDLIN(1297)		if (::hx::IsNotNull( image )) {
-HXLINE(1297)			_hx_tmp = ::hx::IsNull( image->buffer );
+            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_758_fromImage)
+HXLINE( 759)		bool _hx_tmp;
+HXDLIN( 759)		if (::hx::IsNotNull( image )) {
+HXLINE( 759)			_hx_tmp = ::hx::IsNull( image->buffer );
             		}
             		else {
-HXLINE(1297)			_hx_tmp = true;
+HXLINE( 759)			_hx_tmp = true;
             		}
-HXDLIN(1297)		if (_hx_tmp) {
-HXLINE(1297)			return null();
+HXDLIN( 759)		if (_hx_tmp) {
+HXLINE( 759)			return null();
             		}
-HXLINE(1299)		 ::openfl::display::BitmapData bitmapData =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,0,0,transparent,0);
-HXLINE(1300)		bitmapData->_hx___fromImage(image);
-HXLINE(1301)		bitmapData->image->set_transparent(transparent);
-HXLINE(1302)		if (::hx::IsNotNull( bitmapData->image )) {
-HXLINE(1302)			return bitmapData;
+HXLINE( 761)		 ::openfl::display::BitmapData bitmapData =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,0,0,transparent,0);
+HXLINE( 762)		bitmapData->_hx___fromImage(image);
+HXLINE( 763)		bitmapData->image->set_transparent(transparent);
+HXLINE( 764)		if (::hx::IsNotNull( bitmapData->image )) {
+HXLINE( 764)			return bitmapData;
             		}
             		else {
-HXLINE(1302)			return null();
+HXLINE( 764)			return null();
             		}
-HXDLIN(1302)		return null();
+HXDLIN( 764)		return null();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(BitmapData_obj,fromImage,return )
 
  ::openfl::display::BitmapData BitmapData_obj::fromTexture( ::openfl::display3D::textures::TextureBase texture){
-            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1317_fromTexture)
-HXLINE(1318)		if (::hx::IsNull( texture )) {
-HXLINE(1318)			return null();
+            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_769_fromTexture)
+HXLINE( 770)		if (::hx::IsNull( texture )) {
+HXLINE( 770)			return null();
             		}
-HXLINE(1320)		 ::openfl::display::BitmapData bitmapData =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,texture->_hx___width,texture->_hx___height,true,0);
-HXLINE(1321)		bitmapData->readable = false;
-HXLINE(1322)		bitmapData->_hx___texture = texture;
-HXLINE(1323)		bitmapData->_hx___textureContext = texture->_hx___textureContext;
-HXLINE(1324)		bitmapData->image = null();
-HXLINE(1325)		return bitmapData;
+HXLINE( 772)		 ::openfl::display::BitmapData bitmapData =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,texture->_hx___width,texture->_hx___height,true,0);
+HXLINE( 773)		bitmapData->readable = false;
+HXLINE( 774)		bitmapData->_hx___texture = texture;
+HXLINE( 775)		bitmapData->_hx___textureContext = texture->_hx___textureContext;
+HXLINE( 776)		bitmapData->image = null();
+HXLINE( 777)		return bitmapData;
             	}
 
 
@@ -3527,13 +3668,13 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC1(BitmapData_obj,fromTexture,return )
  ::lime::app::Future BitmapData_obj::loadFromBase64(::String base64,::String type){
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_0) HXARGC(1)
             		 ::lime::app::Future _hx_run( ::lime::graphics::Image image){
-            			HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2460_loadFromBase64)
-HXLINE(2460)			return ::lime::app::Future_obj::withValue(::openfl::display::BitmapData_obj::fromImage(image,null()));
+            			HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1707_loadFromBase64)
+HXLINE(1707)			return ::lime::app::Future_obj::withValue(::openfl::display::BitmapData_obj::fromImage(image,null()));
             		}
             		HX_END_LOCAL_FUNC1(return)
 
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2458_loadFromBase64)
-HXDLIN(2458)		return ::lime::graphics::Image_obj::loadFromBase64(base64,type)->then( ::Dynamic(new _hx_Closure_0()));
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1705_loadFromBase64)
+HXDLIN(1705)		return ::lime::graphics::Image_obj::loadFromBase64(base64,type)->then( ::Dynamic(new _hx_Closure_0()));
             	}
 
 
@@ -3542,17 +3683,17 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC2(BitmapData_obj,loadFromBase64,return )
  ::lime::app::Future BitmapData_obj::loadFromBytes( ::openfl::utils::ByteArrayData bytes, ::openfl::utils::ByteArrayData rawAlpha){
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::openfl::utils::ByteArrayData,rawAlpha) HXARGC(1)
             		 ::lime::app::Future _hx_run( ::lime::graphics::Image image){
-            			HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2484_loadFromBytes)
-HXLINE(2485)			 ::openfl::display::BitmapData bitmapData = ::openfl::display::BitmapData_obj::fromImage(image,null());
-HXLINE(2487)			if (::hx::IsNotNull( rawAlpha )) {
-HXLINE(2489)				bitmapData->_hx___applyAlpha(rawAlpha);
+            			HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1718_loadFromBytes)
+HXLINE(1719)			 ::openfl::display::BitmapData bitmapData = ::openfl::display::BitmapData_obj::fromImage(image,null());
+HXLINE(1721)			if (::hx::IsNotNull( rawAlpha )) {
+HXLINE(1723)				bitmapData->_hx___applyAlpha(rawAlpha);
             			}
-HXLINE(2492)			return ::lime::app::Future_obj::withValue(bitmapData);
+HXLINE(1726)			return ::lime::app::Future_obj::withValue(bitmapData);
             		}
             		HX_END_LOCAL_FUNC1(return)
 
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2483_loadFromBytes)
-HXDLIN(2483)		return ::lime::graphics::Image_obj::loadFromBytes(::openfl::utils::_ByteArray::ByteArray_Impl__obj::toArrayBuffer(bytes))->then( ::Dynamic(new _hx_Closure_0(rawAlpha)));
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1717_loadFromBytes)
+HXDLIN(1717)		return ::lime::graphics::Image_obj::loadFromBytes(::openfl::utils::_ByteArray::ByteArray_Impl__obj::toArrayBuffer(bytes))->then( ::Dynamic(new _hx_Closure_0(rawAlpha)));
             	}
 
 
@@ -3561,13 +3702,13 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC2(BitmapData_obj,loadFromBytes,return )
  ::lime::app::Future BitmapData_obj::loadFromFile(::String path){
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_0) HXARGC(1)
             		 ::lime::app::Future _hx_run( ::lime::graphics::Image image){
-            			HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2513_loadFromFile)
-HXLINE(2513)			return ::lime::app::Future_obj::withValue(::openfl::display::BitmapData_obj::fromImage(image,null()));
+            			HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1738_loadFromFile)
+HXLINE(1738)			return ::lime::app::Future_obj::withValue(::openfl::display::BitmapData_obj::fromImage(image,null()));
             		}
             		HX_END_LOCAL_FUNC1(return)
 
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_2511_loadFromFile)
-HXDLIN(2511)		return ::lime::graphics::Image_obj::loadFromFile(path)->then( ::Dynamic(new _hx_Closure_0()));
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_1736_loadFromFile)
+HXDLIN(1736)		return ::lime::graphics::Image_obj::loadFromFile(path)->then( ::Dynamic(new _hx_Closure_0()));
             	}
 
 
@@ -3601,7 +3742,6 @@ void BitmapData_obj::__Mark(HX_MARK_PARAMS)
 	HX_MARK_MEMBER_NAME(transparent,"transparent");
 	HX_MARK_MEMBER_NAME(width,"width");
 	HX_MARK_MEMBER_NAME(_hx___blendMode,"__blendMode");
-	HX_MARK_MEMBER_NAME(_hx___drawableType,"__drawableType");
 	HX_MARK_MEMBER_NAME(_hx___framebuffer,"__framebuffer");
 	HX_MARK_MEMBER_NAME(_hx___framebufferContext,"__framebufferContext");
 	HX_MARK_MEMBER_NAME(_hx___indexBuffer,"__indexBuffer");
@@ -3646,7 +3786,6 @@ void BitmapData_obj::__Visit(HX_VISIT_PARAMS)
 	HX_VISIT_MEMBER_NAME(transparent,"transparent");
 	HX_VISIT_MEMBER_NAME(width,"width");
 	HX_VISIT_MEMBER_NAME(_hx___blendMode,"__blendMode");
-	HX_VISIT_MEMBER_NAME(_hx___drawableType,"__drawableType");
 	HX_VISIT_MEMBER_NAME(_hx___framebuffer,"__framebuffer");
 	HX_VISIT_MEMBER_NAME(_hx___framebufferContext,"__framebufferContext");
 	HX_VISIT_MEMBER_NAME(_hx___indexBuffer,"__indexBuffer");
@@ -3741,6 +3880,7 @@ void BitmapData_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"setPixel32") ) { return ::hx::Val( setPixel32_dyn() ); }
 		if (HX_FIELD_EQ(inName,"__fillRect") ) { return ::hx::Val( _hx___fillRect_dyn() ); }
 		if (HX_FIELD_EQ(inName,"__fromFile") ) { return ::hx::Val( _hx___fromFile_dyn() ); }
+		if (HX_FIELD_EQ(inName,"__renderGL") ) { return ::hx::Val( _hx___renderGL_dyn() ); }
 		break;
 	case 11:
 		if (HX_FIELD_EQ(inName,"transparent") ) { return ::hx::Val( transparent ); }
@@ -3753,6 +3893,7 @@ void BitmapData_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"__fromBytes") ) { return ::hx::Val( _hx___fromBytes_dyn() ); }
 		if (HX_FIELD_EQ(inName,"__fromImage") ) { return ::hx::Val( _hx___fromImage_dyn() ); }
 		if (HX_FIELD_EQ(inName,"__getBounds") ) { return ::hx::Val( _hx___getBounds_dyn() ); }
+		if (HX_FIELD_EQ(inName,"__renderDOM") ) { return ::hx::Val( _hx___renderDOM_dyn() ); }
 		if (HX_FIELD_EQ(inName,"__setUVRect") ) { return ::hx::Val( _hx___setUVRect_dyn() ); }
 		break;
 	case 12:
@@ -3767,14 +3908,16 @@ void BitmapData_obj::__Visit(HX_VISIT_PARAMS)
 	case 13:
 		if (HX_FIELD_EQ(inName,"__framebuffer") ) { return ::hx::Val( _hx___framebuffer ); }
 		if (HX_FIELD_EQ(inName,"__indexBuffer") ) { return ::hx::Val( _hx___indexBuffer ); }
+		if (HX_FIELD_EQ(inName,"__renderCairo") ) { return ::hx::Val( _hx___renderCairo_dyn() ); }
 		break;
 	case 14:
-		if (HX_FIELD_EQ(inName,"__drawableType") ) { return ::hx::Val( _hx___drawableType ); }
 		if (HX_FIELD_EQ(inName,"__textureWidth") ) { return ::hx::Val( _hx___textureWidth ); }
 		if (HX_FIELD_EQ(inName,"__vertexBuffer") ) { return ::hx::Val( _hx___vertexBuffer ); }
 		if (HX_FIELD_EQ(inName,"colorTransform") ) { return ::hx::Val( colorTransform_dyn() ); }
 		if (HX_FIELD_EQ(inName,"getIndexBuffer") ) { return ::hx::Val( getIndexBuffer_dyn() ); }
 		if (HX_FIELD_EQ(inName,"__loadFromFile") ) { return ::hx::Val( _hx___loadFromFile_dyn() ); }
+		if (HX_FIELD_EQ(inName,"__renderCanvas") ) { return ::hx::Val( _hx___renderCanvas_dyn() ); }
+		if (HX_FIELD_EQ(inName,"__renderGLMask") ) { return ::hx::Val( _hx___renderGLMask_dyn() ); }
 		break;
 	case 15:
 		if (HX_FIELD_EQ(inName,"__stencilBuffer") ) { return ::hx::Val( _hx___stencilBuffer ); }
@@ -3793,12 +3936,14 @@ void BitmapData_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"__indexBufferData") ) { return ::hx::Val( _hx___indexBufferData ); }
 		if (HX_FIELD_EQ(inName,"__indexBufferGrid") ) { return ::hx::Val( _hx___indexBufferGrid ); }
 		if (HX_FIELD_EQ(inName,"__renderTransform") ) { return ::hx::Val( _hx___renderTransform ); }
+		if (HX_FIELD_EQ(inName,"__renderCairoMask") ) { return ::hx::Val( _hx___renderCairoMask_dyn() ); }
 		break;
 	case 18:
 		if (HX_FIELD_EQ(inName,"__vertexBufferData") ) { return ::hx::Val( _hx___vertexBufferData ); }
 		if (HX_FIELD_EQ(inName,"__vertexBufferGrid") ) { return ::hx::Val( _hx___vertexBufferGrid ); }
 		if (HX_FIELD_EQ(inName,"generateFilterRect") ) { return ::hx::Val( generateFilterRect_dyn() ); }
 		if (HX_FIELD_EQ(inName,"getColorBoundsRect") ) { return ::hx::Val( getColorBoundsRect_dyn() ); }
+		if (HX_FIELD_EQ(inName,"__renderCanvasMask") ) { return ::hx::Val( _hx___renderCanvasMask_dyn() ); }
 		if (HX_FIELD_EQ(inName,"__updateTransforms") ) { return ::hx::Val( _hx___updateTransforms_dyn() ); }
 		break;
 	case 19:
@@ -3893,7 +4038,6 @@ bool BitmapData_obj::__GetStatic(const ::String &inName, Dynamic &outValue, ::hx
 		if (HX_FIELD_EQ(inName,"__indexBuffer") ) { _hx___indexBuffer=inValue.Cast<  ::openfl::display3D::IndexBuffer3D >(); return inValue; }
 		break;
 	case 14:
-		if (HX_FIELD_EQ(inName,"__drawableType") ) { _hx___drawableType=inValue.Cast< int >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"__textureWidth") ) { _hx___textureWidth=inValue.Cast< int >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"__vertexBuffer") ) { _hx___vertexBuffer=inValue.Cast<  ::openfl::display3D::VertexBuffer3D >(); return inValue; }
 		break;
@@ -3959,7 +4103,6 @@ void BitmapData_obj::__GetFields(Array< ::String> &outFields)
 	outFields->push(HX_("transparent",52,2b,ba,22));
 	outFields->push(HX_("width",06,b6,62,ca));
 	outFields->push(HX_("__blendMode",34,2d,64,3a));
-	outFields->push(HX_("__drawableType",98,b4,3c,42));
 	outFields->push(HX_("__framebuffer",cd,55,c0,c2));
 	outFields->push(HX_("__framebufferContext",a2,6b,52,89));
 	outFields->push(HX_("__indexBuffer",92,a6,1e,3e));
@@ -4004,7 +4147,6 @@ static ::hx::StorageInfo BitmapData_obj_sMemberStorageInfo[] = {
 	{::hx::fsBool,(int)offsetof(BitmapData_obj,transparent),HX_("transparent",52,2b,ba,22)},
 	{::hx::fsInt,(int)offsetof(BitmapData_obj,width),HX_("width",06,b6,62,ca)},
 	{::hx::fsObject /*  ::Dynamic */ ,(int)offsetof(BitmapData_obj,_hx___blendMode),HX_("__blendMode",34,2d,64,3a)},
-	{::hx::fsInt,(int)offsetof(BitmapData_obj,_hx___drawableType),HX_("__drawableType",98,b4,3c,42)},
 	{::hx::fsObject /*  ::lime::graphics::opengl::GLObject */ ,(int)offsetof(BitmapData_obj,_hx___framebuffer),HX_("__framebuffer",cd,55,c0,c2)},
 	{::hx::fsObject /*  ::lime::graphics::RenderContext */ ,(int)offsetof(BitmapData_obj,_hx___framebufferContext),HX_("__framebufferContext",a2,6b,52,89)},
 	{::hx::fsObject /*  ::openfl::display3D::IndexBuffer3D */ ,(int)offsetof(BitmapData_obj,_hx___indexBuffer),HX_("__indexBuffer",92,a6,1e,3e)},
@@ -4057,7 +4199,6 @@ static ::String BitmapData_obj_sMemberFields[] = {
 	HX_("transparent",52,2b,ba,22),
 	HX_("width",06,b6,62,ca),
 	HX_("__blendMode",34,2d,64,3a),
-	HX_("__drawableType",98,b4,3c,42),
 	HX_("__framebuffer",cd,55,c0,c2),
 	HX_("__framebufferContext",a2,6b,52,89),
 	HX_("__indexBuffer",92,a6,1e,3e),
@@ -4140,6 +4281,13 @@ static ::String BitmapData_obj_sMemberFields[] = {
 	HX_("__loadFromBase64",7f,97,5c,63),
 	HX_("__loadFromBytes",7b,fc,38,7c),
 	HX_("__loadFromFile",6c,0c,b1,7b),
+	HX_("__renderCairo",32,9e,42,55),
+	HX_("__renderCairoMask",3e,0c,22,6b),
+	HX_("__renderCanvas",ee,db,58,48),
+	HX_("__renderCanvasMask",fa,d7,ef,51),
+	HX_("__renderDOM",ac,f5,83,fb),
+	HX_("__renderGL",1b,1e,14,56),
+	HX_("__renderGLMask",a7,34,7c,b4),
 	HX_("__resize",14,c5,aa,b0),
 	HX_("__setUVRect",27,52,8b,10),
 	HX_("__sync",7b,1d,58,fb),
@@ -4215,8 +4363,8 @@ void BitmapData_obj::__register()
 void BitmapData_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_124_boot)
-HXDLIN( 124)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_70_boot)
+HXDLIN(  70)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
             			->setFixed(0,HX_("fields",79,8e,8e,80), ::Dynamic(::hx::Anon_obj::Create(9)
             				->setFixed(0,HX_("compare",a5,18,69,83), ::Dynamic(::hx::Anon_obj::Create(1)
             					->setFixed(0,HX_("SuppressWarnings",0c,d3,d2,00),::cpp::VirtualArray_obj::__new(1)->init(0,HX_("checkstyle:Dynamic",ce,ea,47,3c)))))
@@ -4238,16 +4386,16 @@ HXDLIN( 124)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
             					->setFixed(0,HX_("SuppressWarnings",0c,d3,d2,00),::cpp::VirtualArray_obj::__new(1)->init(0,HX_("checkstyle:Dynamic",ce,ea,47,3c))))))));
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_126_boot)
-HXDLIN( 126)		VERTEX_BUFFER_STRIDE = 14;
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_72_boot)
+HXDLIN(  72)		VERTEX_BUFFER_STRIDE = 14;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_127_boot)
-HXDLIN( 127)		_hx___supportsBGRA = null();
+            	HX_STACKFRAME(&_hx_pos_e7567b6ca69cedca_73_boot)
+HXDLIN(  73)		_hx___supportsBGRA = null();
             	}
 {
-            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_131_boot)
-HXDLIN( 131)		_hx___tempVector =  ::lime::math::Vector2_obj::__alloc( HX_CTX ,null(),null());
+            	HX_GC_STACKFRAME(&_hx_pos_e7567b6ca69cedca_77_boot)
+HXDLIN(  77)		_hx___tempVector =  ::lime::math::Vector2_obj::__alloc( HX_CTX ,null(),null());
             	}
 }
 

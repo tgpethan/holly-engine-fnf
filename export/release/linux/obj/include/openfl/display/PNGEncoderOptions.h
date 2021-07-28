@@ -6,7 +6,7 @@
 #include <hxcpp.h>
 #endif
 
-HX_DECLARE_STACK_FRAME(_hx_pos_3a64445735a88117_27_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_3a64445735a88117_14_new)
 HX_DECLARE_CLASS2(openfl,display,PNGEncoderOptions)
 
 namespace openfl{
@@ -40,8 +40,8 @@ class HXCPP_CLASS_ATTRIBUTES PNGEncoderOptions_obj : public ::hx::Object
 			*(void **)__this = PNGEncoderOptions_obj::_hx_vtable;
 {
             		bool fastCompression = __o_fastCompression.Default(false);
-            	HX_STACKFRAME(&_hx_pos_3a64445735a88117_27_new)
-HXDLIN(  27)		( ( ::openfl::display::PNGEncoderOptions)(__this) )->fastCompression = fastCompression;
+            	HX_STACKFRAME(&_hx_pos_3a64445735a88117_14_new)
+HXDLIN(  14)		( ( ::openfl::display::PNGEncoderOptions)(__this) )->fastCompression = fastCompression;
             	}
 		
 			return __this;

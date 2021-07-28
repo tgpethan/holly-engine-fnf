@@ -11,7 +11,7 @@
 #include <lime/graphics/_OpenGLRenderContext/OpenGLRenderContext_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_0cee4d67e8e0740c_41_fromRenderContext,"lime.graphics._OpenGLRenderContext.OpenGLRenderContext_Impl_","fromRenderContext",0xc98e9ef2,"lime.graphics._OpenGLRenderContext.OpenGLRenderContext_Impl_.fromRenderContext","lime/graphics/OpenGLRenderContext.hx",41,0x007bcf9e)
+HX_LOCAL_STACK_FRAME(_hx_pos_0cee4d67e8e0740c_40_fromRenderContext,"lime.graphics._OpenGLRenderContext.OpenGLRenderContext_Impl_","fromRenderContext",0xc98e9ef2,"lime.graphics._OpenGLRenderContext.OpenGLRenderContext_Impl_.fromRenderContext","lime/graphics/OpenGLRenderContext.hx",40,0x007bcf9e)
 namespace lime{
 namespace graphics{
 namespace _OpenGLRenderContext{
@@ -34,8 +34,8 @@ bool OpenGLRenderContext_Impl__obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::lime::_internal::backend::native::NativeOpenGLRenderContext OpenGLRenderContext_Impl__obj::fromRenderContext( ::lime::graphics::RenderContext context){
-            	HX_STACKFRAME(&_hx_pos_0cee4d67e8e0740c_41_fromRenderContext)
-HXDLIN(  41)		return context->gl;
+            	HX_STACKFRAME(&_hx_pos_0cee4d67e8e0740c_40_fromRenderContext)
+HXDLIN(  40)		return context->gl;
             	}
 
 

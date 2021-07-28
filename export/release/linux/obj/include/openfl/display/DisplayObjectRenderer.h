@@ -104,23 +104,11 @@ class HXCPP_CLASS_ATTRIBUTES DisplayObjectRenderer_obj : public  ::openfl::event
 		virtual void _hx___render(::Dynamic object);
 		::Dynamic _hx___render_dyn();
 
-		void _hx___renderEvent( ::openfl::display::DisplayObject displayObject);
-		::Dynamic _hx___renderEvent_dyn();
-
 		virtual void _hx___resize(int width,int height);
 		::Dynamic _hx___resize_dyn();
 
 		virtual void _hx___setBlendMode( ::Dynamic value);
 		::Dynamic _hx___setBlendMode_dyn();
-
-		 ::Dynamic _hx___shouldCacheHardware( ::openfl::display::DisplayObject displayObject, ::Dynamic value);
-		::Dynamic _hx___shouldCacheHardware_dyn();
-
-		 ::Dynamic _hx___shouldCacheHardware_DisplayObject( ::openfl::display::DisplayObject displayObject, ::Dynamic value);
-		::Dynamic _hx___shouldCacheHardware_DisplayObject_dyn();
-
-		bool _hx___updateCacheBitmap( ::openfl::display::DisplayObject displayObject,bool force);
-		::Dynamic _hx___updateCacheBitmap_dyn();
 
 };
 

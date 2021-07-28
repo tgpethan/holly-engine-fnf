@@ -32,7 +32,7 @@
 #include <openfl/utils/_ByteArray/ByteArray_Impl_.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_d410b33f22012b7f_47_new,"flixel.system.debug.interaction.tools._Transform.GraphicTransformTool","new",0x20b2a6b8,"flixel.system.debug.interaction.tools._Transform.GraphicTransformTool.new","openfl/utils/_internal/AssetsMacro.hx",47,0xfdd54705)
+HX_DEFINE_STACK_FRAME(_hx_pos_c2bd5577d2333332_47_new,"flixel.system.debug.interaction.tools._Transform.GraphicTransformTool","new",0x20b2a6b8,"flixel.system.debug.interaction.tools._Transform.GraphicTransformTool.new","openfl/_internal/macros/AssetsMacro.hx",47,0xf7db08ab)
 HX_LOCAL_STACK_FRAME(_hx_pos_32c10ea2e49f80ec_19_boot,"flixel.system.debug.interaction.tools._Transform.GraphicTransformTool","boot",0x73b83ada,"flixel.system.debug.interaction.tools._Transform.GraphicTransformTool.boot","flixel/system/debug/interaction/tools/Transform.hx",19,0xb006466c)
 namespace flixel{
 namespace _hx_system{
@@ -46,7 +46,7 @@ void GraphicTransformTool_obj::__construct(int width,int height, ::Dynamic __o_t
             		if (::hx::IsNull(__o_transparent)) transparent = true;
             		 ::Dynamic fillRGBA = __o_fillRGBA;
             		if (::hx::IsNull(__o_fillRGBA)) fillRGBA = -1;
-            	HX_STACKFRAME(&_hx_pos_d410b33f22012b7f_47_new)
+            	HX_STACKFRAME(&_hx_pos_c2bd5577d2333332_47_new)
 HXLINE(  71)		super::__construct(0,0,transparent,fillRGBA);
 HXLINE(  73)		 ::openfl::utils::ByteArrayData byteArray = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(::haxe::Resource_obj::getBytes(::flixel::_hx_system::debug::interaction::tools::_Transform::GraphicTransformTool_obj::resourceName));
 HXLINE(  74)		{

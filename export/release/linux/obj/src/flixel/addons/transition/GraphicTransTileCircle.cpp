@@ -32,7 +32,7 @@
 #include <openfl/utils/_ByteArray/ByteArray_Impl_.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_32af2379a60e4ba1_47_new,"flixel.addons.transition.GraphicTransTileCircle","new",0xafade640,"flixel.addons.transition.GraphicTransTileCircle.new","openfl/utils/_internal/AssetsMacro.hx",47,0xfdd54705)
+HX_DEFINE_STACK_FRAME(_hx_pos_e8d59cba5d6273f8_47_new,"flixel.addons.transition.GraphicTransTileCircle","new",0xafade640,"flixel.addons.transition.GraphicTransTileCircle.new","openfl/_internal/macros/AssetsMacro.hx",47,0xf7db08ab)
 HX_LOCAL_STACK_FRAME(_hx_pos_9c6082f0007bc203_13_boot,"flixel.addons.transition.GraphicTransTileCircle","boot",0x00949252,"flixel.addons.transition.GraphicTransTileCircle.boot","flixel/addons/transition/FlxTransitionSprite.hx",13,0xd14f1ac3)
 namespace flixel{
 namespace addons{
@@ -43,7 +43,7 @@ void GraphicTransTileCircle_obj::__construct(int width,int height, ::Dynamic __o
             		if (::hx::IsNull(__o_transparent)) transparent = true;
             		 ::Dynamic fillRGBA = __o_fillRGBA;
             		if (::hx::IsNull(__o_fillRGBA)) fillRGBA = -1;
-            	HX_STACKFRAME(&_hx_pos_32af2379a60e4ba1_47_new)
+            	HX_STACKFRAME(&_hx_pos_e8d59cba5d6273f8_47_new)
 HXLINE(  71)		super::__construct(0,0,transparent,fillRGBA);
 HXLINE(  73)		 ::openfl::utils::ByteArrayData byteArray = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(::haxe::Resource_obj::getBytes(::flixel::addons::transition::GraphicTransTileCircle_obj::resourceName));
 HXLINE(  74)		{

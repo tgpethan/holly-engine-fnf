@@ -21,7 +21,7 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_e4ae2dd3287994d3_346_new,"__ASSET__flixel_flixel_ui_img_button_thin_png","new",0x1e32152b,"__ASSET__flixel_flixel_ui_img_button_thin_png.new","lime/_internal/macros/AssetsMacro.hx",346,0xc651f030)
-HX_LOCAL_STACK_FRAME(_hx_pos_978343ddc789098f_337_boot,"__ASSET__flixel_flixel_ui_img_button_thin_png","boot",0x45b97107,"__ASSET__flixel_flixel_ui_img_button_thin_png.boot","ManifestResources.hx",337,0xf77aa668)
+HX_LOCAL_STACK_FRAME(_hx_pos_978343ddc789098f_338_boot,"__ASSET__flixel_flixel_ui_img_button_thin_png","boot",0x45b97107,"__ASSET__flixel_flixel_ui_img_button_thin_png.boot","ManifestResources.hx",338,0xf77aa668)
 
 void __ASSET__flixel_flixel_ui_img_button_thin_png_obj::__construct( ::lime::graphics::ImageBuffer buffer, ::Dynamic offsetX, ::Dynamic offsetY, ::Dynamic width, ::Dynamic height, ::Dynamic color, ::lime::graphics::ImageType type){
             	HX_STACKFRAME(&_hx_pos_e4ae2dd3287994d3_346_new)
@@ -142,8 +142,8 @@ void __ASSET__flixel_flixel_ui_img_button_thin_png_obj::__register()
 void __ASSET__flixel_flixel_ui_img_button_thin_png_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_978343ddc789098f_337_boot)
-HXDLIN( 337)		resourceName = HX_("__ASSET__:image___ASSET__flixel_flixel_ui_img_button_thin_png",6b,32,6e,23);
+            	HX_STACKFRAME(&_hx_pos_978343ddc789098f_338_boot)
+HXDLIN( 338)		resourceName = HX_("__ASSET__:image___ASSET__flixel_flixel_ui_img_button_thin_png",6b,32,6e,23);
             	}
 }
 

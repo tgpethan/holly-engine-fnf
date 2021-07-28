@@ -21,6 +21,9 @@ HX_DECLARE_CLASS2(openfl,_Vector,IVector)
 HX_DECLARE_CLASS2(openfl,_Vector,ObjectVector)
 HX_DECLARE_CLASS2(openfl,display,Bitmap)
 HX_DECLARE_CLASS2(openfl,display,BitmapData)
+HX_DECLARE_CLASS2(openfl,display,CairoRenderer)
+HX_DECLARE_CLASS2(openfl,display,CanvasRenderer)
+HX_DECLARE_CLASS2(openfl,display,DOMRenderer)
 HX_DECLARE_CLASS2(openfl,display,DisplayObject)
 HX_DECLARE_CLASS2(openfl,display,DisplayObjectContainer)
 HX_DECLARE_CLASS2(openfl,display,DisplayObjectRenderer)
@@ -28,6 +31,7 @@ HX_DECLARE_CLASS2(openfl,display,Graphics)
 HX_DECLARE_CLASS2(openfl,display,IBitmapDrawable)
 HX_DECLARE_CLASS2(openfl,display,InteractiveObject)
 HX_DECLARE_CLASS2(openfl,display,LoaderInfo)
+HX_DECLARE_CLASS2(openfl,display,OpenGLRenderer)
 HX_DECLARE_CLASS2(openfl,display,Shader)
 HX_DECLARE_CLASS2(openfl,display,Stage)
 HX_DECLARE_CLASS2(openfl,events,Event)
@@ -109,7 +113,6 @@ class HXCPP_CLASS_ATTRIBUTES DisplayObject_obj : public  ::openfl::events::Event
 		::Array< ::Dynamic> _hx___children;
 		bool _hx___customRenderClear;
 		 ::openfl::events::RenderEvent _hx___customRenderEvent;
-		int _hx___drawableType;
 		::Array< ::Dynamic> _hx___filters;
 		 ::openfl::display::Graphics _hx___graphics;
 		bool _hx___interactive;
@@ -231,6 +234,33 @@ class HXCPP_CLASS_ATTRIBUTES DisplayObject_obj : public  ::openfl::events::Event
 		virtual void _hx___readGraphicsData( ::openfl::_Vector::ObjectVector graphicsData,bool recurse);
 		::Dynamic _hx___readGraphicsData_dyn();
 
+		virtual void _hx___renderCairo( ::openfl::display::CairoRenderer renderer);
+		::Dynamic _hx___renderCairo_dyn();
+
+		virtual void _hx___renderCairoMask( ::openfl::display::CairoRenderer renderer);
+		::Dynamic _hx___renderCairoMask_dyn();
+
+		virtual void _hx___renderCanvas( ::openfl::display::CanvasRenderer renderer);
+		::Dynamic _hx___renderCanvas_dyn();
+
+		virtual void _hx___renderCanvasMask( ::openfl::display::CanvasRenderer renderer);
+		::Dynamic _hx___renderCanvasMask_dyn();
+
+		virtual void _hx___renderDOM( ::openfl::display::DOMRenderer renderer);
+		::Dynamic _hx___renderDOM_dyn();
+
+		virtual void _hx___renderDOMClear( ::openfl::display::DOMRenderer renderer);
+		::Dynamic _hx___renderDOMClear_dyn();
+
+		void _hx___renderEvent( ::openfl::display::DisplayObjectRenderer renderer);
+		::Dynamic _hx___renderEvent_dyn();
+
+		virtual void _hx___renderGL( ::openfl::display::OpenGLRenderer renderer);
+		::Dynamic _hx___renderGL_dyn();
+
+		virtual void _hx___renderGLMask( ::openfl::display::OpenGLRenderer renderer);
+		::Dynamic _hx___renderGLMask_dyn();
+
 		void _hx___setParentRenderDirty();
 		::Dynamic _hx___setParentRenderDirty_dyn();
 
@@ -240,17 +270,23 @@ class HXCPP_CLASS_ATTRIBUTES DisplayObject_obj : public  ::openfl::events::Event
 		virtual void _hx___setStageReference( ::openfl::display::Stage stage);
 		::Dynamic _hx___setStageReference_dyn();
 
-		virtual void _hx___setTransformDirty();
+		void _hx___setTransformDirty();
 		::Dynamic _hx___setTransformDirty_dyn();
 
 		virtual void _hx___setWorldTransformInvalid();
 		::Dynamic _hx___setWorldTransformInvalid_dyn();
+
+		virtual  ::Dynamic _hx___shouldCacheHardware( ::Dynamic value);
+		::Dynamic _hx___shouldCacheHardware_dyn();
 
 		virtual void _hx___stopAllMovieClips();
 		::Dynamic _hx___stopAllMovieClips_dyn();
 
 		virtual void _hx___update(bool transformOnly,bool updateChildren);
 		::Dynamic _hx___update_dyn();
+
+		virtual bool _hx___updateCacheBitmap( ::openfl::display::DisplayObjectRenderer renderer,bool force);
+		::Dynamic _hx___updateCacheBitmap_dyn();
 
 		virtual void _hx___updateTransforms( ::openfl::geom::Matrix overrideTransform);
 		::Dynamic _hx___updateTransforms_dyn();

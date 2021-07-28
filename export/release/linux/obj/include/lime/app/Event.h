@@ -61,9 +61,6 @@ class HXCPP_CLASS_ATTRIBUTES Event_obj : public ::hx::Object
 		void remove( ::Dynamic listener);
 		::Dynamic remove_dyn();
 
-		void removeAll();
-		::Dynamic removeAll_dyn();
-
 };
 
 } // end namespace lime

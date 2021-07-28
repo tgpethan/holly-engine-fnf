@@ -11,15 +11,15 @@
 #include <openfl/events/IEventDispatcher.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_4f7a9456505745c4_28_new,"openfl.display.FrameLabel","new",0x6d144ce3,"openfl.display.FrameLabel.new","openfl/display/FrameLabel.hx",28,0x7487bdab)
+HX_DEFINE_STACK_FRAME(_hx_pos_4f7a9456505745c4_16_new,"openfl.display.FrameLabel","new",0x6d144ce3,"openfl.display.FrameLabel.new","openfl/display/FrameLabel.hx",16,0x7487bdab)
 namespace openfl{
 namespace display{
 
 void FrameLabel_obj::__construct(::String name,int frame){
-            	HX_STACKFRAME(&_hx_pos_4f7a9456505745c4_28_new)
-HXLINE(  29)		super::__construct(null());
-HXLINE(  31)		this->name = name;
-HXLINE(  32)		this->frame = frame;
+            	HX_STACKFRAME(&_hx_pos_4f7a9456505745c4_16_new)
+HXLINE(  17)		super::__construct(null());
+HXLINE(  19)		this->name = name;
+HXLINE(  20)		this->frame = frame;
             	}
 
 Dynamic FrameLabel_obj::__CreateEmpty() { return new FrameLabel_obj; }

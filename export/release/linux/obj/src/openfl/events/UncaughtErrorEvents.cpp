@@ -11,13 +11,13 @@
 #include <openfl/events/UncaughtErrorEvents.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_f614a07866ea6e55_51_new,"openfl.events.UncaughtErrorEvents","new",0xf17d0a07,"openfl.events.UncaughtErrorEvents.new","openfl/events/UncaughtErrorEvents.hx",51,0x17415d69)
+HX_DEFINE_STACK_FRAME(_hx_pos_f614a07866ea6e55_12_new,"openfl.events.UncaughtErrorEvents","new",0xf17d0a07,"openfl.events.UncaughtErrorEvents.new","openfl/events/UncaughtErrorEvents.hx",12,0x17415d69)
 namespace openfl{
 namespace events{
 
 void UncaughtErrorEvents_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_f614a07866ea6e55_51_new)
-HXDLIN(  51)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_f614a07866ea6e55_12_new)
+HXDLIN(  12)		super::__construct(null());
             	}
 
 Dynamic UncaughtErrorEvents_obj::__CreateEmpty() { return new UncaughtErrorEvents_obj; }

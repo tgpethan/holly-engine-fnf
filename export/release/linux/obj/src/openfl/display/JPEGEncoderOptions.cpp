@@ -5,14 +5,14 @@
 #include <openfl/display/JPEGEncoderOptions.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_05e3536633e8ac7b_28_new,"openfl.display.JPEGEncoderOptions","new",0xdec807a6,"openfl.display.JPEGEncoderOptions.new","openfl/display/JPEGEncoderOptions.hx",28,0xc451ba48)
+HX_DEFINE_STACK_FRAME(_hx_pos_05e3536633e8ac7b_14_new,"openfl.display.JPEGEncoderOptions","new",0xdec807a6,"openfl.display.JPEGEncoderOptions.new","openfl/display/JPEGEncoderOptions.hx",14,0xc451ba48)
 namespace openfl{
 namespace display{
 
 void JPEGEncoderOptions_obj::__construct(::hx::Null< int >  __o_quality){
             		int quality = __o_quality.Default(80);
-            	HX_STACKFRAME(&_hx_pos_05e3536633e8ac7b_28_new)
-HXDLIN(  28)		this->quality = quality;
+            	HX_STACKFRAME(&_hx_pos_05e3536633e8ac7b_14_new)
+HXDLIN(  14)		this->quality = quality;
             	}
 
 Dynamic JPEGEncoderOptions_obj::__CreateEmpty() { return new JPEGEncoderOptions_obj; }

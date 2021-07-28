@@ -139,15 +139,6 @@ class HXCPP_CLASS_ATTRIBUTES FlxTweenManager_obj : public  ::flixel::FlxBasic_ob
 		void clear();
 		::Dynamic clear_dyn();
 
-		void cancelTweensOf( ::Dynamic Object,::Array< ::String > FieldPaths);
-		::Dynamic cancelTweensOf_dyn();
-
-		void completeTweensOf( ::Dynamic Object,::Array< ::String > FieldPaths);
-		::Dynamic completeTweensOf_dyn();
-
-		void forEachTweensOf( ::Dynamic Object,::Array< ::String > FieldPaths, ::Dynamic Function);
-		::Dynamic forEachTweensOf_dyn();
-
 		void completeAll();
 		::Dynamic completeAll_dyn();
 

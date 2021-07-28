@@ -44,26 +44,25 @@
 #include <openfl/geom/Rectangle.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_781fdaae6ecb7a58_145_new,"openfl.display.Sprite","new",0x3ff0c061,"openfl.display.Sprite.new","openfl/display/Sprite.hx",145,0xd5438ced)
-HX_LOCAL_STACK_FRAME(_hx_pos_781fdaae6ecb7a58_175_startDrag,"openfl.display.Sprite","startDrag",0x20ea0c37,"openfl.display.Sprite.startDrag","openfl/display/Sprite.hx",175,0xd5438ced)
-HX_LOCAL_STACK_FRAME(_hx_pos_781fdaae6ecb7a58_216_stopDrag,"openfl.display.Sprite","stopDrag",0x4d02dd75,"openfl.display.Sprite.stopDrag","openfl/display/Sprite.hx",216,0xd5438ced)
-HX_LOCAL_STACK_FRAME(_hx_pos_781fdaae6ecb7a58_237___getCursor,"openfl.display.Sprite","__getCursor",0x4a69b9ed,"openfl.display.Sprite.__getCursor","openfl/display/Sprite.hx",237,0xd5438ced)
-HX_LOCAL_STACK_FRAME(_hx_pos_781fdaae6ecb7a58_242___hitTest,"openfl.display.Sprite","__hitTest",0x895417e6,"openfl.display.Sprite.__hitTest","openfl/display/Sprite.hx",242,0xd5438ced)
-HX_LOCAL_STACK_FRAME(_hx_pos_781fdaae6ecb7a58_281___hitTestHitArea,"openfl.display.Sprite","__hitTestHitArea",0x980a9c3a,"openfl.display.Sprite.__hitTestHitArea","openfl/display/Sprite.hx",281,0xd5438ced)
-HX_LOCAL_STACK_FRAME(_hx_pos_781fdaae6ecb7a58_303___hitTestMask,"openfl.display.Sprite","__hitTestMask",0x9c046ff2,"openfl.display.Sprite.__hitTestMask","openfl/display/Sprite.hx",303,0xd5438ced)
-HX_LOCAL_STACK_FRAME(_hx_pos_781fdaae6ecb7a58_318_get_graphics,"openfl.display.Sprite","get_graphics",0x451134b3,"openfl.display.Sprite.get_graphics","openfl/display/Sprite.hx",318,0xd5438ced)
-HX_LOCAL_STACK_FRAME(_hx_pos_781fdaae6ecb7a58_329_get_tabEnabled,"openfl.display.Sprite","get_tabEnabled",0x5c66fc94,"openfl.display.Sprite.get_tabEnabled","openfl/display/Sprite.hx",329,0xd5438ced)
-HX_LOCAL_STACK_FRAME(_hx_pos_781fdaae6ecb7a58_334_get_buttonMode,"openfl.display.Sprite","get_buttonMode",0xceb5485d,"openfl.display.Sprite.get_buttonMode","openfl/display/Sprite.hx",334,0xd5438ced)
-HX_LOCAL_STACK_FRAME(_hx_pos_781fdaae6ecb7a58_339_set_buttonMode,"openfl.display.Sprite","set_buttonMode",0xeed530d1,"openfl.display.Sprite.set_buttonMode","openfl/display/Sprite.hx",339,0xd5438ced)
+HX_DEFINE_STACK_FRAME(_hx_pos_781fdaae6ecb7a58_43_new,"openfl.display.Sprite","new",0x3ff0c061,"openfl.display.Sprite.new","openfl/display/Sprite.hx",43,0xd5438ced)
+HX_LOCAL_STACK_FRAME(_hx_pos_781fdaae6ecb7a58_52_startDrag,"openfl.display.Sprite","startDrag",0x20ea0c37,"openfl.display.Sprite.startDrag","openfl/display/Sprite.hx",52,0xd5438ced)
+HX_LOCAL_STACK_FRAME(_hx_pos_781fdaae6ecb7a58_63_stopDrag,"openfl.display.Sprite","stopDrag",0x4d02dd75,"openfl.display.Sprite.stopDrag","openfl/display/Sprite.hx",63,0xd5438ced)
+HX_LOCAL_STACK_FRAME(_hx_pos_781fdaae6ecb7a58_74___getCursor,"openfl.display.Sprite","__getCursor",0x4a69b9ed,"openfl.display.Sprite.__getCursor","openfl/display/Sprite.hx",74,0xd5438ced)
+HX_LOCAL_STACK_FRAME(_hx_pos_781fdaae6ecb7a58_79___hitTest,"openfl.display.Sprite","__hitTest",0x895417e6,"openfl.display.Sprite.__hitTest","openfl/display/Sprite.hx",79,0xd5438ced)
+HX_LOCAL_STACK_FRAME(_hx_pos_781fdaae6ecb7a58_118___hitTestHitArea,"openfl.display.Sprite","__hitTestHitArea",0x980a9c3a,"openfl.display.Sprite.__hitTestHitArea","openfl/display/Sprite.hx",118,0xd5438ced)
+HX_LOCAL_STACK_FRAME(_hx_pos_781fdaae6ecb7a58_140___hitTestMask,"openfl.display.Sprite","__hitTestMask",0x9c046ff2,"openfl.display.Sprite.__hitTestMask","openfl/display/Sprite.hx",140,0xd5438ced)
+HX_LOCAL_STACK_FRAME(_hx_pos_781fdaae6ecb7a58_155_get_graphics,"openfl.display.Sprite","get_graphics",0x451134b3,"openfl.display.Sprite.get_graphics","openfl/display/Sprite.hx",155,0xd5438ced)
+HX_LOCAL_STACK_FRAME(_hx_pos_781fdaae6ecb7a58_166_get_tabEnabled,"openfl.display.Sprite","get_tabEnabled",0x5c66fc94,"openfl.display.Sprite.get_tabEnabled","openfl/display/Sprite.hx",166,0xd5438ced)
+HX_LOCAL_STACK_FRAME(_hx_pos_781fdaae6ecb7a58_171_get_buttonMode,"openfl.display.Sprite","get_buttonMode",0xceb5485d,"openfl.display.Sprite.get_buttonMode","openfl/display/Sprite.hx",171,0xd5438ced)
+HX_LOCAL_STACK_FRAME(_hx_pos_781fdaae6ecb7a58_176_set_buttonMode,"openfl.display.Sprite","set_buttonMode",0xeed530d1,"openfl.display.Sprite.set_buttonMode","openfl/display/Sprite.hx",176,0xd5438ced)
 namespace openfl{
 namespace display{
 
 void Sprite_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_781fdaae6ecb7a58_145_new)
-HXLINE( 146)		super::__construct();
-HXLINE( 148)		this->_hx___drawableType = 4;
-HXLINE( 149)		this->_hx___buttonMode = false;
-HXLINE( 150)		this->useHandCursor = true;
+            	HX_STACKFRAME(&_hx_pos_781fdaae6ecb7a58_43_new)
+HXLINE(  44)		super::__construct();
+HXLINE(  46)		this->_hx___buttonMode = false;
+HXLINE(  47)		this->useHandCursor = true;
             	}
 
 Dynamic Sprite_obj::__CreateEmpty() { return new Sprite_obj; }
@@ -95,9 +94,9 @@ bool Sprite_obj::_hx_isInstanceOf(int inClassId) {
 
 void Sprite_obj::startDrag(::hx::Null< bool >  __o_lockCenter, ::openfl::geom::Rectangle bounds){
             		bool lockCenter = __o_lockCenter.Default(false);
-            	HX_STACKFRAME(&_hx_pos_781fdaae6ecb7a58_175_startDrag)
-HXDLIN( 175)		if (::hx::IsNotNull( this->stage )) {
-HXLINE( 177)			this->stage->_hx___startDrag(::hx::ObjectPtr<OBJ_>(this),lockCenter,bounds);
+            	HX_STACKFRAME(&_hx_pos_781fdaae6ecb7a58_52_startDrag)
+HXDLIN(  52)		if (::hx::IsNotNull( this->stage )) {
+HXLINE(  54)			this->stage->_hx___startDrag(::hx::ObjectPtr<OBJ_>(this),lockCenter,bounds);
             		}
             	}
 
@@ -105,9 +104,9 @@ HXLINE( 177)			this->stage->_hx___startDrag(::hx::ObjectPtr<OBJ_>(this),lockCent
 HX_DEFINE_DYNAMIC_FUNC2(Sprite_obj,startDrag,(void))
 
 void Sprite_obj::stopDrag(){
-            	HX_STACKFRAME(&_hx_pos_781fdaae6ecb7a58_216_stopDrag)
-HXDLIN( 216)		if (::hx::IsNotNull( this->stage )) {
-HXLINE( 218)			this->stage->_hx___stopDrag(::hx::ObjectPtr<OBJ_>(this));
+            	HX_STACKFRAME(&_hx_pos_781fdaae6ecb7a58_63_stopDrag)
+HXDLIN(  63)		if (::hx::IsNotNull( this->stage )) {
+HXLINE(  65)			this->stage->_hx___stopDrag(::hx::ObjectPtr<OBJ_>(this));
             		}
             	}
 
@@ -115,214 +114,214 @@ HXLINE( 218)			this->stage->_hx___stopDrag(::hx::ObjectPtr<OBJ_>(this));
 HX_DEFINE_DYNAMIC_FUNC0(Sprite_obj,stopDrag,(void))
 
 ::String Sprite_obj::_hx___getCursor(){
-            	HX_STACKFRAME(&_hx_pos_781fdaae6ecb7a58_237___getCursor)
-HXDLIN( 237)		bool _hx_tmp;
-HXDLIN( 237)		if (this->_hx___buttonMode) {
-HXDLIN( 237)			_hx_tmp = this->useHandCursor;
+            	HX_STACKFRAME(&_hx_pos_781fdaae6ecb7a58_74___getCursor)
+HXDLIN(  74)		bool _hx_tmp;
+HXDLIN(  74)		if (this->_hx___buttonMode) {
+HXDLIN(  74)			_hx_tmp = this->useHandCursor;
             		}
             		else {
-HXDLIN( 237)			_hx_tmp = false;
+HXDLIN(  74)			_hx_tmp = false;
             		}
-HXDLIN( 237)		if (_hx_tmp) {
-HXDLIN( 237)			return HX_("button",f2,61,e0,d9);
+HXDLIN(  74)		if (_hx_tmp) {
+HXDLIN(  74)			return HX_("button",f2,61,e0,d9);
             		}
             		else {
-HXDLIN( 237)			return null();
+HXDLIN(  74)			return null();
             		}
-HXDLIN( 237)		return null();
+HXDLIN(  74)		return null();
             	}
 
 
 bool Sprite_obj::_hx___hitTest(Float x,Float y,bool shapeFlag,::Array< ::Dynamic> stack,bool interactiveOnly, ::openfl::display::DisplayObject hitObject){
-            	HX_STACKFRAME(&_hx_pos_781fdaae6ecb7a58_242___hitTest)
-HXLINE( 243)		bool _hx_tmp;
-HXDLIN( 243)		bool _hx_tmp1;
-HXDLIN( 243)		if (interactiveOnly) {
-HXLINE( 243)			_hx_tmp1 = !(this->mouseEnabled);
+            	HX_STACKFRAME(&_hx_pos_781fdaae6ecb7a58_79___hitTest)
+HXLINE(  80)		bool _hx_tmp;
+HXDLIN(  80)		bool _hx_tmp1;
+HXDLIN(  80)		if (interactiveOnly) {
+HXLINE(  80)			_hx_tmp1 = !(this->mouseEnabled);
             		}
             		else {
-HXLINE( 243)			_hx_tmp1 = false;
+HXLINE(  80)			_hx_tmp1 = false;
             		}
-HXDLIN( 243)		if (_hx_tmp1) {
-HXLINE( 243)			_hx_tmp = !(this->mouseChildren);
-            		}
-            		else {
-HXLINE( 243)			_hx_tmp = false;
-            		}
-HXDLIN( 243)		if (_hx_tmp) {
-HXLINE( 243)			return false;
-            		}
-HXLINE( 244)		bool _hx_tmp2;
-HXDLIN( 244)		if (hitObject->get_visible()) {
-HXLINE( 244)			_hx_tmp2 = this->_hx___isMask;
+HXDLIN(  80)		if (_hx_tmp1) {
+HXLINE(  80)			_hx_tmp = !(this->mouseChildren);
             		}
             		else {
-HXLINE( 244)			_hx_tmp2 = true;
+HXLINE(  80)			_hx_tmp = false;
             		}
-HXDLIN( 244)		if (_hx_tmp2) {
-HXLINE( 244)			return this->_hx___hitTestHitArea(x,y,shapeFlag,stack,interactiveOnly,hitObject);
+HXDLIN(  80)		if (_hx_tmp) {
+HXLINE(  80)			return false;
             		}
-HXLINE( 245)		bool _hx_tmp3;
-HXDLIN( 245)		if (::hx::IsNotNull( this->get_mask() )) {
-HXLINE( 245)			_hx_tmp3 = !(this->get_mask()->_hx___hitTestMask(x,y));
+HXLINE(  81)		bool _hx_tmp2;
+HXDLIN(  81)		if (hitObject->get_visible()) {
+HXLINE(  81)			_hx_tmp2 = this->_hx___isMask;
             		}
             		else {
-HXLINE( 245)			_hx_tmp3 = false;
+HXLINE(  81)			_hx_tmp2 = true;
             		}
-HXDLIN( 245)		if (_hx_tmp3) {
-HXLINE( 245)			return this->_hx___hitTestHitArea(x,y,shapeFlag,stack,interactiveOnly,hitObject);
+HXDLIN(  81)		if (_hx_tmp2) {
+HXLINE(  81)			return this->_hx___hitTestHitArea(x,y,shapeFlag,stack,interactiveOnly,hitObject);
             		}
-HXLINE( 247)		if (::hx::IsNotNull( this->_hx___scrollRect )) {
-HXLINE( 249)			 ::openfl::geom::Point point = ::openfl::geom::Point_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Point >();
-HXLINE( 250)			point->setTo(x,y);
-HXLINE( 251)			{
-HXLINE( 251)				 ::openfl::geom::Matrix _this = this->_hx___getRenderTransform();
-HXDLIN( 251)				Float norm = ((_this->a * _this->d) - (_this->b * _this->c));
-HXDLIN( 251)				if ((norm == 0)) {
-HXLINE( 251)					point->x = -(_this->tx);
-HXDLIN( 251)					point->y = -(_this->ty);
+HXLINE(  82)		bool _hx_tmp3;
+HXDLIN(  82)		if (::hx::IsNotNull( this->get_mask() )) {
+HXLINE(  82)			_hx_tmp3 = !(this->get_mask()->_hx___hitTestMask(x,y));
+            		}
+            		else {
+HXLINE(  82)			_hx_tmp3 = false;
+            		}
+HXDLIN(  82)		if (_hx_tmp3) {
+HXLINE(  82)			return this->_hx___hitTestHitArea(x,y,shapeFlag,stack,interactiveOnly,hitObject);
+            		}
+HXLINE(  84)		if (::hx::IsNotNull( this->_hx___scrollRect )) {
+HXLINE(  86)			 ::openfl::geom::Point point = ::openfl::geom::Point_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Point >();
+HXLINE(  87)			point->setTo(x,y);
+HXLINE(  88)			{
+HXLINE(  88)				 ::openfl::geom::Matrix _this = this->_hx___getRenderTransform();
+HXDLIN(  88)				Float norm = ((_this->a * _this->d) - (_this->b * _this->c));
+HXDLIN(  88)				if ((norm == 0)) {
+HXLINE(  88)					point->x = -(_this->tx);
+HXDLIN(  88)					point->y = -(_this->ty);
             				}
             				else {
-HXLINE( 251)					Float px = ((((Float)1.0) / norm) * ((_this->c * (_this->ty - point->y)) + (_this->d * (point->x - _this->tx))));
-HXDLIN( 251)					point->y = ((((Float)1.0) / norm) * ((_this->a * (point->y - _this->ty)) + (_this->b * (_this->tx - point->x))));
-HXDLIN( 251)					point->x = px;
+HXLINE(  88)					Float px = ((((Float)1.0) / norm) * ((_this->c * (_this->ty - point->y)) + (_this->d * (point->x - _this->tx))));
+HXDLIN(  88)					point->y = ((((Float)1.0) / norm) * ((_this->a * (point->y - _this->ty)) + (_this->b * (_this->tx - point->x))));
+HXDLIN(  88)					point->x = px;
             				}
             			}
-HXLINE( 253)			if (!(this->_hx___scrollRect->containsPoint(point))) {
-HXLINE( 255)				::openfl::geom::Point_obj::_hx___pool->release(point);
-HXLINE( 256)				return this->_hx___hitTestHitArea(x,y,shapeFlag,stack,true,hitObject);
+HXLINE(  90)			if (!(this->_hx___scrollRect->containsPoint(point))) {
+HXLINE(  92)				::openfl::geom::Point_obj::_hx___pool->release(point);
+HXLINE(  93)				return this->_hx___hitTestHitArea(x,y,shapeFlag,stack,true,hitObject);
             			}
-HXLINE( 259)			::openfl::geom::Point_obj::_hx___pool->release(point);
+HXLINE(  96)			::openfl::geom::Point_obj::_hx___pool->release(point);
             		}
-HXLINE( 262)		if (this->super::_hx___hitTest(x,y,shapeFlag,stack,interactiveOnly,hitObject)) {
-HXLINE( 264)			if (::hx::IsNotNull( stack )) {
-HXLINE( 264)				return interactiveOnly;
+HXLINE(  99)		if (this->super::_hx___hitTest(x,y,shapeFlag,stack,interactiveOnly,hitObject)) {
+HXLINE( 101)			if (::hx::IsNotNull( stack )) {
+HXLINE( 101)				return interactiveOnly;
             			}
             			else {
-HXLINE( 264)				return true;
+HXLINE( 101)				return true;
             			}
             		}
             		else {
-HXLINE( 266)			bool _hx_tmp;
-HXDLIN( 266)			bool _hx_tmp1;
-HXDLIN( 266)			if (::hx::IsNull( this->hitArea )) {
-HXLINE( 266)				_hx_tmp1 = ::hx::IsNotNull( this->_hx___graphics );
+HXLINE( 103)			bool _hx_tmp;
+HXDLIN( 103)			bool _hx_tmp1;
+HXDLIN( 103)			if (::hx::IsNull( this->hitArea )) {
+HXLINE( 103)				_hx_tmp1 = ::hx::IsNotNull( this->_hx___graphics );
             			}
             			else {
-HXLINE( 266)				_hx_tmp1 = false;
+HXLINE( 103)				_hx_tmp1 = false;
             			}
-HXDLIN( 266)			if (_hx_tmp1) {
-HXLINE( 266)				 ::openfl::display::Graphics _hx_tmp1 = this->_hx___graphics;
-HXDLIN( 266)				_hx_tmp = _hx_tmp1->_hx___hitTest(x,y,shapeFlag,this->_hx___getRenderTransform());
+HXDLIN( 103)			if (_hx_tmp1) {
+HXLINE( 103)				 ::openfl::display::Graphics _hx_tmp1 = this->_hx___graphics;
+HXDLIN( 103)				_hx_tmp = _hx_tmp1->_hx___hitTest(x,y,shapeFlag,this->_hx___getRenderTransform());
             			}
             			else {
-HXLINE( 266)				_hx_tmp = false;
+HXLINE( 103)				_hx_tmp = false;
             			}
-HXDLIN( 266)			if (_hx_tmp) {
-HXLINE( 268)				bool _hx_tmp;
-HXDLIN( 268)				if (::hx::IsNotNull( stack )) {
-HXLINE( 268)					if (interactiveOnly) {
-HXLINE( 268)						_hx_tmp = this->mouseEnabled;
+HXDLIN( 103)			if (_hx_tmp) {
+HXLINE( 105)				bool _hx_tmp;
+HXDLIN( 105)				if (::hx::IsNotNull( stack )) {
+HXLINE( 105)					if (interactiveOnly) {
+HXLINE( 105)						_hx_tmp = this->mouseEnabled;
             					}
             					else {
-HXLINE( 268)						_hx_tmp = true;
+HXLINE( 105)						_hx_tmp = true;
             					}
             				}
             				else {
-HXLINE( 268)					_hx_tmp = false;
+HXLINE( 105)					_hx_tmp = false;
             				}
-HXDLIN( 268)				if (_hx_tmp) {
-HXLINE( 270)					stack->push(hitObject);
+HXDLIN( 105)				if (_hx_tmp) {
+HXLINE( 107)					stack->push(hitObject);
             				}
-HXLINE( 273)				return true;
+HXLINE( 110)				return true;
             			}
             		}
-HXLINE( 276)		return this->_hx___hitTestHitArea(x,y,shapeFlag,stack,interactiveOnly,hitObject);
+HXLINE( 113)		return this->_hx___hitTestHitArea(x,y,shapeFlag,stack,interactiveOnly,hitObject);
             	}
 
 
 bool Sprite_obj::_hx___hitTestHitArea(Float x,Float y,bool shapeFlag,::Array< ::Dynamic> stack,bool interactiveOnly, ::openfl::display::DisplayObject hitObject){
-            	HX_STACKFRAME(&_hx_pos_781fdaae6ecb7a58_281___hitTestHitArea)
-HXLINE( 282)		if (::hx::IsNotNull( this->hitArea )) {
-HXLINE( 284)			if (!(this->hitArea->mouseEnabled)) {
-HXLINE( 286)				this->hitArea->mouseEnabled = true;
-HXLINE( 287)				bool hitTest = this->hitArea->_hx___hitTest(x,y,shapeFlag,null(),true,hitObject);
-HXLINE( 288)				this->hitArea->mouseEnabled = false;
-HXLINE( 290)				bool _hx_tmp;
-HXDLIN( 290)				if (::hx::IsNotNull( stack )) {
-HXLINE( 290)					_hx_tmp = hitTest;
+            	HX_STACKFRAME(&_hx_pos_781fdaae6ecb7a58_118___hitTestHitArea)
+HXLINE( 119)		if (::hx::IsNotNull( this->hitArea )) {
+HXLINE( 121)			if (!(this->hitArea->mouseEnabled)) {
+HXLINE( 123)				this->hitArea->mouseEnabled = true;
+HXLINE( 124)				bool hitTest = this->hitArea->_hx___hitTest(x,y,shapeFlag,null(),true,hitObject);
+HXLINE( 125)				this->hitArea->mouseEnabled = false;
+HXLINE( 127)				bool _hx_tmp;
+HXDLIN( 127)				if (::hx::IsNotNull( stack )) {
+HXLINE( 127)					_hx_tmp = hitTest;
             				}
             				else {
-HXLINE( 290)					_hx_tmp = false;
+HXLINE( 127)					_hx_tmp = false;
             				}
-HXDLIN( 290)				if (_hx_tmp) {
-HXLINE( 292)					stack[stack->length] = hitObject;
+HXDLIN( 127)				if (_hx_tmp) {
+HXLINE( 129)					stack[stack->length] = hitObject;
             				}
-HXLINE( 295)				return hitTest;
+HXLINE( 132)				return hitTest;
             			}
             		}
-HXLINE( 299)		return false;
+HXLINE( 136)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC6(Sprite_obj,_hx___hitTestHitArea,return )
 
 bool Sprite_obj::_hx___hitTestMask(Float x,Float y){
-            	HX_STACKFRAME(&_hx_pos_781fdaae6ecb7a58_303___hitTestMask)
-HXLINE( 304)		if (this->super::_hx___hitTestMask(x,y)) {
-HXLINE( 306)			return true;
+            	HX_STACKFRAME(&_hx_pos_781fdaae6ecb7a58_140___hitTestMask)
+HXLINE( 141)		if (this->super::_hx___hitTestMask(x,y)) {
+HXLINE( 143)			return true;
             		}
             		else {
-HXLINE( 308)			bool _hx_tmp;
-HXDLIN( 308)			if (::hx::IsNotNull( this->_hx___graphics )) {
-HXLINE( 308)				 ::openfl::display::Graphics _hx_tmp1 = this->_hx___graphics;
-HXDLIN( 308)				_hx_tmp = _hx_tmp1->_hx___hitTest(x,y,true,this->_hx___getRenderTransform());
+HXLINE( 145)			bool _hx_tmp;
+HXDLIN( 145)			if (::hx::IsNotNull( this->_hx___graphics )) {
+HXLINE( 145)				 ::openfl::display::Graphics _hx_tmp1 = this->_hx___graphics;
+HXDLIN( 145)				_hx_tmp = _hx_tmp1->_hx___hitTest(x,y,true,this->_hx___getRenderTransform());
             			}
             			else {
-HXLINE( 308)				_hx_tmp = false;
+HXLINE( 145)				_hx_tmp = false;
             			}
-HXDLIN( 308)			if (_hx_tmp) {
-HXLINE( 310)				return true;
+HXDLIN( 145)			if (_hx_tmp) {
+HXLINE( 147)				return true;
             			}
             		}
-HXLINE( 313)		return false;
+HXLINE( 150)		return false;
             	}
 
 
  ::openfl::display::Graphics Sprite_obj::get_graphics(){
-            	HX_GC_STACKFRAME(&_hx_pos_781fdaae6ecb7a58_318_get_graphics)
-HXLINE( 319)		if (::hx::IsNull( this->_hx___graphics )) {
-HXLINE( 321)			this->_hx___graphics =  ::openfl::display::Graphics_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this));
+            	HX_GC_STACKFRAME(&_hx_pos_781fdaae6ecb7a58_155_get_graphics)
+HXLINE( 156)		if (::hx::IsNull( this->_hx___graphics )) {
+HXLINE( 158)			this->_hx___graphics =  ::openfl::display::Graphics_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this));
             		}
-HXLINE( 324)		return this->_hx___graphics;
+HXLINE( 161)		return this->_hx___graphics;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Sprite_obj,get_graphics,return )
 
 bool Sprite_obj::get_tabEnabled(){
-            	HX_STACKFRAME(&_hx_pos_781fdaae6ecb7a58_329_get_tabEnabled)
-HXDLIN( 329)		if (::hx::IsNull( this->_hx___tabEnabled )) {
-HXDLIN( 329)			return this->_hx___buttonMode;
+            	HX_STACKFRAME(&_hx_pos_781fdaae6ecb7a58_166_get_tabEnabled)
+HXDLIN( 166)		if (::hx::IsNull( this->_hx___tabEnabled )) {
+HXDLIN( 166)			return this->_hx___buttonMode;
             		}
             		else {
-HXDLIN( 329)			return ( (bool)(this->_hx___tabEnabled) );
+HXDLIN( 166)			return ( (bool)(this->_hx___tabEnabled) );
             		}
-HXDLIN( 329)		return false;
+HXDLIN( 166)		return false;
             	}
 
 
 bool Sprite_obj::get_buttonMode(){
-            	HX_STACKFRAME(&_hx_pos_781fdaae6ecb7a58_334_get_buttonMode)
-HXDLIN( 334)		return this->_hx___buttonMode;
+            	HX_STACKFRAME(&_hx_pos_781fdaae6ecb7a58_171_get_buttonMode)
+HXDLIN( 171)		return this->_hx___buttonMode;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Sprite_obj,get_buttonMode,return )
 
 bool Sprite_obj::set_buttonMode(bool value){
-            	HX_STACKFRAME(&_hx_pos_781fdaae6ecb7a58_339_set_buttonMode)
-HXDLIN( 339)		return (this->_hx___buttonMode = value);
+            	HX_STACKFRAME(&_hx_pos_781fdaae6ecb7a58_176_set_buttonMode)
+HXDLIN( 176)		return (this->_hx___buttonMode = value);
             	}
 
 

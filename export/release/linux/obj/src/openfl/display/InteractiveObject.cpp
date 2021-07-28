@@ -4,6 +4,9 @@
 #ifndef INCLUDED_haxe_Exception
 #include <haxe/Exception.h>
 #endif
+#ifndef INCLUDED_openfl__internal_Lib
+#include <openfl/_internal/Lib.h>
+#endif
 #ifndef INCLUDED_openfl_display_DisplayObject
 #include <openfl/display/DisplayObject.h>
 #endif
@@ -34,31 +37,28 @@
 #ifndef INCLUDED_openfl_geom_Rectangle
 #include <openfl/geom/Rectangle.h>
 #endif
-#ifndef INCLUDED_openfl_utils__internal_Lib
-#include <openfl/utils/_internal/Lib.h>
-#endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_762cd2e6f13bb015_1222_new,"openfl.display.InteractiveObject","new",0x042d7309,"openfl.display.InteractiveObject.new","openfl/display/InteractiveObject.hx",1222,0x983a3689)
-HX_LOCAL_STACK_FRAME(_hx_pos_762cd2e6f13bb015_1250_requestSoftKeyboard,"openfl.display.InteractiveObject","requestSoftKeyboard",0x985d3a49,"openfl.display.InteractiveObject.requestSoftKeyboard","openfl/display/InteractiveObject.hx",1250,0x983a3689)
-HX_LOCAL_STACK_FRAME(_hx_pos_762cd2e6f13bb015_1258___allowMouseFocus,"openfl.display.InteractiveObject","__allowMouseFocus",0x4a3f2aa5,"openfl.display.InteractiveObject.__allowMouseFocus","openfl/display/InteractiveObject.hx",1258,0x983a3689)
-HX_LOCAL_STACK_FRAME(_hx_pos_762cd2e6f13bb015_1262___getInteractive,"openfl.display.InteractiveObject","__getInteractive",0xf3ec43c3,"openfl.display.InteractiveObject.__getInteractive","openfl/display/InteractiveObject.hx",1262,0x983a3689)
-HX_LOCAL_STACK_FRAME(_hx_pos_762cd2e6f13bb015_1278___hitTest,"openfl.display.InteractiveObject","__hitTest",0x5938388e,"openfl.display.InteractiveObject.__hitTest","openfl/display/InteractiveObject.hx",1278,0x983a3689)
-HX_LOCAL_STACK_FRAME(_hx_pos_762cd2e6f13bb015_1285___tabTest,"openfl.display.InteractiveObject","__tabTest",0xbc287590,"openfl.display.InteractiveObject.__tabTest","openfl/display/InteractiveObject.hx",1285,0x983a3689)
-HX_LOCAL_STACK_FRAME(_hx_pos_762cd2e6f13bb015_1294_get_tabEnabled,"openfl.display.InteractiveObject","get_tabEnabled",0x09837aec,"openfl.display.InteractiveObject.get_tabEnabled","openfl/display/InteractiveObject.hx",1294,0x983a3689)
-HX_LOCAL_STACK_FRAME(_hx_pos_762cd2e6f13bb015_1298_set_tabEnabled,"openfl.display.InteractiveObject","set_tabEnabled",0x29a36360,"openfl.display.InteractiveObject.set_tabEnabled","openfl/display/InteractiveObject.hx",1298,0x983a3689)
-HX_LOCAL_STACK_FRAME(_hx_pos_762cd2e6f13bb015_1311_get_tabIndex,"openfl.display.InteractiveObject","get_tabIndex",0x2bde10bd,"openfl.display.InteractiveObject.get_tabIndex","openfl/display/InteractiveObject.hx",1311,0x983a3689)
-HX_LOCAL_STACK_FRAME(_hx_pos_762cd2e6f13bb015_1315_set_tabIndex,"openfl.display.InteractiveObject","set_tabIndex",0x40d73431,"openfl.display.InteractiveObject.set_tabIndex","openfl/display/InteractiveObject.hx",1315,0x983a3689)
+HX_DEFINE_STACK_FRAME(_hx_pos_762cd2e6f13bb015_44_new,"openfl.display.InteractiveObject","new",0x042d7309,"openfl.display.InteractiveObject.new","openfl/display/InteractiveObject.hx",44,0x983a3689)
+HX_LOCAL_STACK_FRAME(_hx_pos_762cd2e6f13bb015_56_requestSoftKeyboard,"openfl.display.InteractiveObject","requestSoftKeyboard",0x985d3a49,"openfl.display.InteractiveObject.requestSoftKeyboard","openfl/display/InteractiveObject.hx",56,0x983a3689)
+HX_LOCAL_STACK_FRAME(_hx_pos_762cd2e6f13bb015_64___allowMouseFocus,"openfl.display.InteractiveObject","__allowMouseFocus",0x4a3f2aa5,"openfl.display.InteractiveObject.__allowMouseFocus","openfl/display/InteractiveObject.hx",64,0x983a3689)
+HX_LOCAL_STACK_FRAME(_hx_pos_762cd2e6f13bb015_68___getInteractive,"openfl.display.InteractiveObject","__getInteractive",0xf3ec43c3,"openfl.display.InteractiveObject.__getInteractive","openfl/display/InteractiveObject.hx",68,0x983a3689)
+HX_LOCAL_STACK_FRAME(_hx_pos_762cd2e6f13bb015_84___hitTest,"openfl.display.InteractiveObject","__hitTest",0x5938388e,"openfl.display.InteractiveObject.__hitTest","openfl/display/InteractiveObject.hx",84,0x983a3689)
+HX_LOCAL_STACK_FRAME(_hx_pos_762cd2e6f13bb015_91___tabTest,"openfl.display.InteractiveObject","__tabTest",0xbc287590,"openfl.display.InteractiveObject.__tabTest","openfl/display/InteractiveObject.hx",91,0x983a3689)
+HX_LOCAL_STACK_FRAME(_hx_pos_762cd2e6f13bb015_100_get_tabEnabled,"openfl.display.InteractiveObject","get_tabEnabled",0x09837aec,"openfl.display.InteractiveObject.get_tabEnabled","openfl/display/InteractiveObject.hx",100,0x983a3689)
+HX_LOCAL_STACK_FRAME(_hx_pos_762cd2e6f13bb015_104_set_tabEnabled,"openfl.display.InteractiveObject","set_tabEnabled",0x29a36360,"openfl.display.InteractiveObject.set_tabEnabled","openfl/display/InteractiveObject.hx",104,0x983a3689)
+HX_LOCAL_STACK_FRAME(_hx_pos_762cd2e6f13bb015_117_get_tabIndex,"openfl.display.InteractiveObject","get_tabIndex",0x2bde10bd,"openfl.display.InteractiveObject.get_tabIndex","openfl/display/InteractiveObject.hx",117,0x983a3689)
+HX_LOCAL_STACK_FRAME(_hx_pos_762cd2e6f13bb015_121_set_tabIndex,"openfl.display.InteractiveObject","set_tabIndex",0x40d73431,"openfl.display.InteractiveObject.set_tabIndex","openfl/display/InteractiveObject.hx",121,0x983a3689)
 namespace openfl{
 namespace display{
 
 void InteractiveObject_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_762cd2e6f13bb015_1222_new)
-HXLINE(1223)		super::__construct();
-HXLINE(1225)		this->doubleClickEnabled = false;
-HXLINE(1226)		this->mouseEnabled = true;
-HXLINE(1227)		this->needsSoftKeyboard = false;
-HXLINE(1228)		this->_hx___tabEnabled = null();
-HXLINE(1229)		this->_hx___tabIndex = -1;
+            	HX_STACKFRAME(&_hx_pos_762cd2e6f13bb015_44_new)
+HXLINE(  45)		super::__construct();
+HXLINE(  47)		this->doubleClickEnabled = false;
+HXLINE(  48)		this->mouseEnabled = true;
+HXLINE(  49)		this->needsSoftKeyboard = false;
+HXLINE(  50)		this->_hx___tabEnabled = null();
+HXLINE(  51)		this->_hx___tabIndex = -1;
             	}
 
 Dynamic InteractiveObject_obj::__CreateEmpty() { return new InteractiveObject_obj; }
@@ -85,66 +85,66 @@ bool InteractiveObject_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 bool InteractiveObject_obj::requestSoftKeyboard(){
-            	HX_STACKFRAME(&_hx_pos_762cd2e6f13bb015_1250_requestSoftKeyboard)
-HXLINE(1251)		::openfl::utils::_internal::Lib_obj::notImplemented(::hx::SourceInfo(HX_("openfl/display/InteractiveObject.hx",89,36,3a,98),1251,HX_("openfl.display.InteractiveObject",97,3a,cb,f4),HX_("requestSoftKeyboard",a0,f5,a9,d4)));
-HXLINE(1252)		return false;
+            	HX_STACKFRAME(&_hx_pos_762cd2e6f13bb015_56_requestSoftKeyboard)
+HXLINE(  57)		::openfl::_internal::Lib_obj::notImplemented(::hx::SourceInfo(HX_("openfl/display/InteractiveObject.hx",89,36,3a,98),57,HX_("openfl.display.InteractiveObject",97,3a,cb,f4),HX_("requestSoftKeyboard",a0,f5,a9,d4)));
+HXLINE(  58)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(InteractiveObject_obj,requestSoftKeyboard,return )
 
 bool InteractiveObject_obj::_hx___allowMouseFocus(){
-            	HX_STACKFRAME(&_hx_pos_762cd2e6f13bb015_1258___allowMouseFocus)
-HXDLIN(1258)		return this->get_tabEnabled();
+            	HX_STACKFRAME(&_hx_pos_762cd2e6f13bb015_64___allowMouseFocus)
+HXDLIN(  64)		return this->get_tabEnabled();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(InteractiveObject_obj,_hx___allowMouseFocus,return )
 
 bool InteractiveObject_obj::_hx___getInteractive(::Array< ::Dynamic> stack){
-            	HX_STACKFRAME(&_hx_pos_762cd2e6f13bb015_1262___getInteractive)
-HXLINE(1263)		if (::hx::IsNotNull( stack )) {
-HXLINE(1265)			stack->push(::hx::ObjectPtr<OBJ_>(this));
-HXLINE(1267)			if (::hx::IsNotNull( this->parent )) {
-HXLINE(1269)				this->parent->_hx___getInteractive(stack);
+            	HX_STACKFRAME(&_hx_pos_762cd2e6f13bb015_68___getInteractive)
+HXLINE(  69)		if (::hx::IsNotNull( stack )) {
+HXLINE(  71)			stack->push(::hx::ObjectPtr<OBJ_>(this));
+HXLINE(  73)			if (::hx::IsNotNull( this->parent )) {
+HXLINE(  75)				this->parent->_hx___getInteractive(stack);
             			}
             		}
-HXLINE(1273)		return true;
+HXLINE(  79)		return true;
             	}
 
 
 bool InteractiveObject_obj::_hx___hitTest(Float x,Float y,bool shapeFlag,::Array< ::Dynamic> stack,bool interactiveOnly, ::openfl::display::DisplayObject hitObject){
-            	HX_STACKFRAME(&_hx_pos_762cd2e6f13bb015_1278___hitTest)
-HXLINE(1279)		bool _hx_tmp;
-HXDLIN(1279)		bool _hx_tmp1;
-HXDLIN(1279)		if (hitObject->get_visible()) {
-HXLINE(1279)			_hx_tmp1 = this->_hx___isMask;
+            	HX_STACKFRAME(&_hx_pos_762cd2e6f13bb015_84___hitTest)
+HXLINE(  85)		bool _hx_tmp;
+HXDLIN(  85)		bool _hx_tmp1;
+HXDLIN(  85)		if (hitObject->get_visible()) {
+HXLINE(  85)			_hx_tmp1 = this->_hx___isMask;
             		}
             		else {
-HXLINE(1279)			_hx_tmp1 = true;
+HXLINE(  85)			_hx_tmp1 = true;
             		}
-HXDLIN(1279)		if (!(_hx_tmp1)) {
-HXLINE(1279)			if (interactiveOnly) {
-HXLINE(1279)				_hx_tmp = !(this->mouseEnabled);
+HXDLIN(  85)		if (!(_hx_tmp1)) {
+HXLINE(  85)			if (interactiveOnly) {
+HXLINE(  85)				_hx_tmp = !(this->mouseEnabled);
             			}
             			else {
-HXLINE(1279)				_hx_tmp = false;
+HXLINE(  85)				_hx_tmp = false;
             			}
             		}
             		else {
-HXLINE(1279)			_hx_tmp = true;
+HXLINE(  85)			_hx_tmp = true;
             		}
-HXDLIN(1279)		if (_hx_tmp) {
-HXLINE(1279)			return false;
+HXDLIN(  85)		if (_hx_tmp) {
+HXLINE(  85)			return false;
             		}
-HXLINE(1280)		return this->super::_hx___hitTest(x,y,shapeFlag,stack,interactiveOnly,hitObject);
+HXLINE(  86)		return this->super::_hx___hitTest(x,y,shapeFlag,stack,interactiveOnly,hitObject);
             	}
 
 
 void InteractiveObject_obj::_hx___tabTest(::Array< ::Dynamic> stack){
-            	HX_STACKFRAME(&_hx_pos_762cd2e6f13bb015_1285___tabTest)
-HXDLIN(1285)		if (this->get_tabEnabled()) {
-HXLINE(1287)			stack->push(::hx::ObjectPtr<OBJ_>(this));
+            	HX_STACKFRAME(&_hx_pos_762cd2e6f13bb015_91___tabTest)
+HXDLIN(  91)		if (this->get_tabEnabled()) {
+HXLINE(  93)			stack->push(::hx::ObjectPtr<OBJ_>(this));
             		}
             	}
 
@@ -152,49 +152,49 @@ HXLINE(1287)			stack->push(::hx::ObjectPtr<OBJ_>(this));
 HX_DEFINE_DYNAMIC_FUNC1(InteractiveObject_obj,_hx___tabTest,(void))
 
 bool InteractiveObject_obj::get_tabEnabled(){
-            	HX_STACKFRAME(&_hx_pos_762cd2e6f13bb015_1294_get_tabEnabled)
-HXDLIN(1294)		if (::hx::IsEq( this->_hx___tabEnabled,true )) {
-HXDLIN(1294)			return true;
+            	HX_STACKFRAME(&_hx_pos_762cd2e6f13bb015_100_get_tabEnabled)
+HXDLIN( 100)		if (::hx::IsEq( this->_hx___tabEnabled,true )) {
+HXDLIN( 100)			return true;
             		}
             		else {
-HXDLIN(1294)			return false;
+HXDLIN( 100)			return false;
             		}
-HXDLIN(1294)		return false;
+HXDLIN( 100)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(InteractiveObject_obj,get_tabEnabled,return )
 
 bool InteractiveObject_obj::set_tabEnabled(bool value){
-            	HX_GC_STACKFRAME(&_hx_pos_762cd2e6f13bb015_1298_set_tabEnabled)
-HXLINE(1299)		if (::hx::IsNotEq( this->_hx___tabEnabled,value )) {
-HXLINE(1301)			this->_hx___tabEnabled = value;
-HXLINE(1303)			this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("tabEnabledChange",3c,45,98,72),true,false));
+            	HX_GC_STACKFRAME(&_hx_pos_762cd2e6f13bb015_104_set_tabEnabled)
+HXLINE( 105)		if (::hx::IsNotEq( this->_hx___tabEnabled,value )) {
+HXLINE( 107)			this->_hx___tabEnabled = value;
+HXLINE( 109)			this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("tabEnabledChange",3c,45,98,72),true,false));
             		}
-HXLINE(1306)		return ( (bool)(this->_hx___tabEnabled) );
+HXLINE( 112)		return ( (bool)(this->_hx___tabEnabled) );
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(InteractiveObject_obj,set_tabEnabled,return )
 
 int InteractiveObject_obj::get_tabIndex(){
-            	HX_STACKFRAME(&_hx_pos_762cd2e6f13bb015_1311_get_tabIndex)
-HXDLIN(1311)		return this->_hx___tabIndex;
+            	HX_STACKFRAME(&_hx_pos_762cd2e6f13bb015_117_get_tabIndex)
+HXDLIN( 117)		return this->_hx___tabIndex;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(InteractiveObject_obj,get_tabIndex,return )
 
 int InteractiveObject_obj::set_tabIndex(int value){
-            	HX_GC_STACKFRAME(&_hx_pos_762cd2e6f13bb015_1315_set_tabIndex)
-HXLINE(1316)		if ((this->_hx___tabIndex != value)) {
-HXLINE(1318)			if ((value < -1)) {
-HXLINE(1318)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::RangeError_obj::__alloc( HX_CTX ,(HX_("Parameter tabIndex must be a non-negative number; got ",9c,f8,24,a4) + value))));
+            	HX_GC_STACKFRAME(&_hx_pos_762cd2e6f13bb015_121_set_tabIndex)
+HXLINE( 122)		if ((this->_hx___tabIndex != value)) {
+HXLINE( 124)			if ((value < -1)) {
+HXLINE( 124)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::RangeError_obj::__alloc( HX_CTX ,(HX_("Parameter tabIndex must be a non-negative number; got ",9c,f8,24,a4) + value))));
             			}
-HXLINE(1320)			this->_hx___tabIndex = value;
-HXLINE(1322)			this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("tabIndexChange",cd,1d,78,90),true,false));
+HXLINE( 126)			this->_hx___tabIndex = value;
+HXLINE( 128)			this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("tabIndexChange",cd,1d,78,90),true,false));
             		}
-HXLINE(1325)		return this->_hx___tabIndex;
+HXLINE( 131)		return this->_hx___tabIndex;
             	}
 
 

@@ -4,9 +4,6 @@
 #ifndef INCLUDED_lime_utils_ObjectPool
 #include <lime/utils/ObjectPool.h>
 #endif
-#ifndef INCLUDED_openfl_display_Bitmap
-#include <openfl/display/Bitmap.h>
-#endif
 #ifndef INCLUDED_openfl_display_DisplayObject
 #include <openfl/display/DisplayObject.h>
 #endif
@@ -21,9 +18,6 @@
 #endif
 #ifndef INCLUDED_openfl_display_OpenGLRenderer
 #include <openfl/display/OpenGLRenderer.h>
-#endif
-#ifndef INCLUDED_openfl_display__internal_Context3DBitmap
-#include <openfl/display/_internal/Context3DBitmap.h>
 #endif
 #ifndef INCLUDED_openfl_display__internal_Context3DDisplayObject
 #include <openfl/display/_internal/Context3DDisplayObject.h>
@@ -48,9 +42,7 @@
 #endif
 
 HX_LOCAL_STACK_FRAME(_hx_pos_edeaa621a2083f7d_23_render,"openfl.display._internal.Context3DDisplayObject","render",0x08270187,"openfl.display._internal.Context3DDisplayObject.render","openfl/display/_internal/Context3DDisplayObject.hx",23,0x557f86de)
-HX_LOCAL_STACK_FRAME(_hx_pos_edeaa621a2083f7d_59_renderDrawable,"openfl.display._internal.Context3DDisplayObject","renderDrawable",0x79890845,"openfl.display._internal.Context3DDisplayObject.renderDrawable","openfl/display/_internal/Context3DDisplayObject.hx",59,0x557f86de)
-HX_LOCAL_STACK_FRAME(_hx_pos_edeaa621a2083f7d_76_renderDrawableMask,"openfl.display._internal.Context3DDisplayObject","renderDrawableMask",0x94827bd1,"openfl.display._internal.Context3DDisplayObject.renderDrawableMask","openfl/display/_internal/Context3DDisplayObject.hx",76,0x557f86de)
-HX_LOCAL_STACK_FRAME(_hx_pos_edeaa621a2083f7d_84_renderMask,"openfl.display._internal.Context3DDisplayObject","renderMask",0xfc833e13,"openfl.display._internal.Context3DDisplayObject.renderMask","openfl/display/_internal/Context3DDisplayObject.hx",84,0x557f86de)
+HX_LOCAL_STACK_FRAME(_hx_pos_edeaa621a2083f7d_59_renderMask,"openfl.display._internal.Context3DDisplayObject","renderMask",0xfc833e13,"openfl.display._internal.Context3DDisplayObject.renderMask","openfl/display/_internal/Context3DDisplayObject.hx",59,0x557f86de)
 HX_LOCAL_STACK_FRAME(_hx_pos_edeaa621a2083f7d_20_boot,"openfl.display._internal.Context3DDisplayObject","boot",0x3d767c23,"openfl.display._internal.Context3DDisplayObject.boot","openfl/display/_internal/Context3DDisplayObject.hx",20,0x557f86de)
 namespace openfl{
 namespace display{
@@ -138,128 +130,41 @@ HXLINE(  54)			::openfl::display::_internal::Context3DShape_obj::render(displayO
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Context3DDisplayObject_obj,render,(void))
 
-void Context3DDisplayObject_obj::renderDrawable( ::openfl::display::DisplayObject displayObject, ::openfl::display::OpenGLRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_edeaa621a2083f7d_59_renderDrawable)
-HXLINE(  60)		renderer->_hx___updateCacheBitmap(displayObject,false);
-HXLINE(  62)		bool _hx_tmp;
-HXDLIN(  62)		if (::hx::IsNotNull( displayObject->_hx___cacheBitmap )) {
-HXLINE(  62)			_hx_tmp = !(displayObject->_hx___isCacheBitmapRender);
-            		}
-            		else {
-HXLINE(  62)			_hx_tmp = false;
-            		}
-HXDLIN(  62)		if (_hx_tmp) {
-HXLINE(  64)			::openfl::display::_internal::Context3DBitmap_obj::render(displayObject->_hx___cacheBitmap,renderer);
-            		}
-            		else {
-HXLINE(  68)			bool _hx_tmp;
-HXDLIN(  68)			if (::hx::IsNull( displayObject->opaqueBackground )) {
-HXLINE(  68)				_hx_tmp = ::hx::IsNull( displayObject->_hx___graphics );
-            			}
-            			else {
-HXLINE(  68)				_hx_tmp = false;
-            			}
-HXDLIN(  68)			if (!(_hx_tmp)) {
-HXLINE(  68)				bool _hx_tmp;
-HXDLIN(  68)				if (displayObject->_hx___renderable) {
-HXLINE(  68)					_hx_tmp = (displayObject->_hx___worldAlpha <= 0);
-            				}
-            				else {
-HXLINE(  68)					_hx_tmp = true;
-            				}
-HXDLIN(  68)				if (!(_hx_tmp)) {
-HXLINE(  68)					bool _hx_tmp;
-HXDLIN(  68)					bool _hx_tmp1;
-HXDLIN(  68)					bool _hx_tmp2;
-HXDLIN(  68)					if (::hx::IsNotNull( displayObject->opaqueBackground )) {
-HXLINE(  68)						_hx_tmp2 = !(displayObject->_hx___isCacheBitmapRender);
-            					}
-            					else {
-HXLINE(  68)						_hx_tmp2 = false;
-            					}
-HXDLIN(  68)					if (_hx_tmp2) {
-HXLINE(  68)						_hx_tmp1 = (displayObject->get_width() > 0);
-            					}
-            					else {
-HXLINE(  68)						_hx_tmp1 = false;
-            					}
-HXDLIN(  68)					if (_hx_tmp1) {
-HXLINE(  68)						_hx_tmp = (displayObject->get_height() > 0);
-            					}
-            					else {
-HXLINE(  68)						_hx_tmp = false;
-            					}
-HXDLIN(  68)					if (_hx_tmp) {
-HXLINE(  68)						renderer->_hx___setBlendMode(displayObject->_hx___worldBlendMode);
-HXDLIN(  68)						renderer->_hx___pushMaskObject(displayObject,null());
-HXDLIN(  68)						 ::openfl::display3D::Context3D context = renderer->_hx___context3D;
-HXDLIN(  68)						 ::openfl::geom::Rectangle rect = ::openfl::geom::Rectangle_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Rectangle >();
-HXDLIN(  68)						Float _hx_tmp = displayObject->get_width();
-HXDLIN(  68)						rect->setTo(( (Float)(0) ),( (Float)(0) ),_hx_tmp,displayObject->get_height());
-HXDLIN(  68)						renderer->_hx___pushMaskRect(rect,displayObject->_hx___renderTransform);
-HXDLIN(  68)						int color = ( (int)(displayObject->opaqueBackground) );
-HXDLIN(  68)						context->clear((( (Float)((::hx::UShr(color,16) & 255)) ) / ( (Float)(255) )),(( (Float)((::hx::UShr(color,8) & 255)) ) / ( (Float)(255) )),(( (Float)((color & 255)) ) / ( (Float)(255) )),1,0,0,1);
-HXDLIN(  68)						renderer->_hx___popMaskRect();
-HXDLIN(  68)						renderer->_hx___popMaskObject(displayObject,null());
-HXDLIN(  68)						::openfl::geom::Rectangle_obj::_hx___pool->release(rect);
-            					}
-HXDLIN(  68)					if (::hx::IsNotNull( displayObject->_hx___graphics )) {
-HXLINE(  68)						::openfl::display::_internal::Context3DShape_obj::render(displayObject,renderer);
-            					}
-            				}
-            			}
-            		}
-HXLINE(  71)		renderer->_hx___renderEvent(displayObject);
-            	}
-
-
-STATIC_HX_DEFINE_DYNAMIC_FUNC2(Context3DDisplayObject_obj,renderDrawable,(void))
-
-void Context3DDisplayObject_obj::renderDrawableMask( ::openfl::display::DisplayObject displayObject, ::openfl::display::OpenGLRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_edeaa621a2083f7d_76_renderDrawableMask)
-HXDLIN(  76)		if (::hx::IsNotNull( displayObject->_hx___graphics )) {
-HXLINE(  79)			::openfl::display::_internal::Context3DShape_obj::renderMask(displayObject,renderer);
-            		}
-            	}
-
-
-STATIC_HX_DEFINE_DYNAMIC_FUNC2(Context3DDisplayObject_obj,renderDrawableMask,(void))
-
 void Context3DDisplayObject_obj::renderMask( ::openfl::display::DisplayObject displayObject, ::openfl::display::OpenGLRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_edeaa621a2083f7d_84_renderMask)
-HXLINE(  85)		bool _hx_tmp;
-HXDLIN(  85)		if (::hx::IsNull( displayObject->opaqueBackground )) {
-HXLINE(  85)			_hx_tmp = ::hx::IsNull( displayObject->_hx___graphics );
+            	HX_STACKFRAME(&_hx_pos_edeaa621a2083f7d_59_renderMask)
+HXLINE(  60)		bool _hx_tmp;
+HXDLIN(  60)		if (::hx::IsNull( displayObject->opaqueBackground )) {
+HXLINE(  60)			_hx_tmp = ::hx::IsNull( displayObject->_hx___graphics );
             		}
             		else {
-HXLINE(  85)			_hx_tmp = false;
+HXLINE(  60)			_hx_tmp = false;
             		}
-HXDLIN(  85)		if (_hx_tmp) {
-HXLINE(  85)			return;
+HXDLIN(  60)		if (_hx_tmp) {
+HXLINE(  60)			return;
             		}
-HXLINE(  87)		bool _hx_tmp1;
-HXDLIN(  87)		bool _hx_tmp2;
-HXDLIN(  87)		bool _hx_tmp3;
-HXDLIN(  87)		if (::hx::IsNotNull( displayObject->opaqueBackground )) {
-HXLINE(  87)			_hx_tmp3 = !(displayObject->_hx___isCacheBitmapRender);
-            		}
-            		else {
-HXLINE(  87)			_hx_tmp3 = false;
-            		}
-HXDLIN(  87)		if (_hx_tmp3) {
-HXLINE(  87)			_hx_tmp2 = (displayObject->get_width() > 0);
+HXLINE(  62)		bool _hx_tmp1;
+HXDLIN(  62)		bool _hx_tmp2;
+HXDLIN(  62)		bool _hx_tmp3;
+HXDLIN(  62)		if (::hx::IsNotNull( displayObject->opaqueBackground )) {
+HXLINE(  62)			_hx_tmp3 = !(displayObject->_hx___isCacheBitmapRender);
             		}
             		else {
-HXLINE(  87)			_hx_tmp2 = false;
+HXLINE(  62)			_hx_tmp3 = false;
             		}
-HXDLIN(  87)		if (_hx_tmp2) {
-HXLINE(  87)			_hx_tmp1 = (displayObject->get_height() > 0);
+HXDLIN(  62)		if (_hx_tmp3) {
+HXLINE(  62)			_hx_tmp2 = (displayObject->get_width() > 0);
             		}
             		else {
-HXLINE(  87)			_hx_tmp1 = false;
+HXLINE(  62)			_hx_tmp2 = false;
             		}
-HXLINE( 110)		if (::hx::IsNotNull( displayObject->_hx___graphics )) {
-HXLINE( 112)			::openfl::display::_internal::Context3DShape_obj::renderMask(displayObject,renderer);
+HXDLIN(  62)		if (_hx_tmp2) {
+HXLINE(  62)			_hx_tmp1 = (displayObject->get_height() > 0);
+            		}
+            		else {
+HXLINE(  62)			_hx_tmp1 = false;
+            		}
+HXLINE(  85)		if (::hx::IsNotNull( displayObject->_hx___graphics )) {
+HXLINE(  87)			::openfl::display::_internal::Context3DShape_obj::renderMask(displayObject,renderer);
             		}
             	}
 
@@ -279,12 +184,6 @@ bool Context3DDisplayObject_obj::__GetStatic(const ::String &inName, Dynamic &ou
 		break;
 	case 10:
 		if (HX_FIELD_EQ(inName,"renderMask") ) { outValue = renderMask_dyn(); return true; }
-		break;
-	case 14:
-		if (HX_FIELD_EQ(inName,"renderDrawable") ) { outValue = renderDrawable_dyn(); return true; }
-		break;
-	case 18:
-		if (HX_FIELD_EQ(inName,"renderDrawableMask") ) { outValue = renderDrawableMask_dyn(); return true; }
 	}
 	return false;
 }
@@ -298,8 +197,6 @@ static ::hx::StaticInfo *Context3DDisplayObject_obj_sStaticStorageInfo = 0;
 
 static ::String Context3DDisplayObject_obj_sStaticFields[] = {
 	HX_("render",56,6b,29,05),
-	HX_("renderDrawable",14,59,d0,dd),
-	HX_("renderDrawableMask",20,e0,a3,66),
 	HX_("renderMask",62,3b,60,e5),
 	::String(null())
 };

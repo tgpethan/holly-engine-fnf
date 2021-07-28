@@ -55,6 +55,9 @@
 #ifndef INCLUDED_lime_system_System
 #include <lime/system/System.h>
 #endif
+#ifndef INCLUDED_openfl__internal_Lib
+#include <openfl/_internal/Lib.h>
+#endif
 #ifndef INCLUDED_openfl_errors_Error
 #include <openfl/errors/Error.h>
 #endif
@@ -69,9 +72,6 @@
 #endif
 #ifndef INCLUDED_openfl_net_SharedObject
 #include <openfl/net/SharedObject.h>
-#endif
-#ifndef INCLUDED_openfl_utils__internal_Lib
-#include <openfl/utils/_internal/Lib.h>
 #endif
 #ifndef INCLUDED_sys_FileSystem
 #include <sys/FileSystem.h>
@@ -166,7 +166,7 @@ HX_DEFINE_DYNAMIC_FUNC0(SharedObject_obj,close,(void))
 
 void SharedObject_obj::connect( ::openfl::net::NetConnection myConnection,::String params){
             	HX_STACKFRAME(&_hx_pos_1b14c676d7ad0011_392_connect)
-HXDLIN( 392)		::openfl::utils::_internal::Lib_obj::notImplemented(::hx::SourceInfo(HX_("openfl/net/SharedObject.hx",a9,bd,b7,31),392,HX_("openfl.net.SharedObject",b3,04,ac,0a),HX_("connect",ea,3b,80,15)));
+HXDLIN( 392)		::openfl::_internal::Lib_obj::notImplemented(::hx::SourceInfo(HX_("openfl/net/SharedObject.hx",a9,bd,b7,31),392,HX_("openfl.net.SharedObject",b3,04,ac,0a),HX_("connect",ea,3b,80,15)));
             	}
 
 
@@ -210,7 +210,7 @@ HX_DEFINE_DYNAMIC_FUNC1(SharedObject_obj,flush,return )
 
 void SharedObject_obj::send(::cpp::VirtualArray args){
             	HX_STACKFRAME(&_hx_pos_1b14c676d7ad0011_824_send)
-HXDLIN( 824)		::openfl::utils::_internal::Lib_obj::notImplemented(::hx::SourceInfo(HX_("openfl/net/SharedObject.hx",a9,bd,b7,31),824,HX_("openfl.net.SharedObject",b3,04,ac,0a),HX_("send",48,8d,50,4c)));
+HXDLIN( 824)		::openfl::_internal::Lib_obj::notImplemented(::hx::SourceInfo(HX_("openfl/net/SharedObject.hx",a9,bd,b7,31),824,HX_("openfl.net.SharedObject",b3,04,ac,0a),HX_("send",48,8d,50,4c)));
             	}
 
 
@@ -367,7 +367,7 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC3(SharedObject_obj,getLocal,return )
             		if (::hx::IsNull(__o_persistence)) persistence = false;
             		bool secure = __o_secure.Default(false);
             	HX_STACKFRAME(&_hx_pos_1b14c676d7ad0011_807_getRemote)
-HXLINE( 808)		::openfl::utils::_internal::Lib_obj::notImplemented(::hx::SourceInfo(HX_("openfl/net/SharedObject.hx",a9,bd,b7,31),808,HX_("openfl.net.SharedObject",b3,04,ac,0a),HX_("getRemote",bc,23,df,80)));
+HXLINE( 808)		::openfl::_internal::Lib_obj::notImplemented(::hx::SourceInfo(HX_("openfl/net/SharedObject.hx",a9,bd,b7,31),808,HX_("openfl.net.SharedObject",b3,04,ac,0a),HX_("getRemote",bc,23,df,80)));
 HXLINE( 810)		return null();
             	}
 

@@ -64,30 +64,29 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_b949e09b4c4d130d_52_new,"flixel.tweens.FlxTween","new",0xa442439f,"flixel.tweens.FlxTween.new","flixel/tweens/FlxTween.hx",52,0x5d58d691)
-HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_418_resolveTweenOptions,"flixel.tweens.FlxTween","resolveTweenOptions",0x40bbd67e,"flixel.tweens.FlxTween.resolveTweenOptions","flixel/tweens/FlxTween.hx",418,0x5d58d691)
-HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_429_destroy,"flixel.tweens.FlxTween","destroy",0xb268abb9,"flixel.tweens.FlxTween.destroy","flixel/tweens/FlxTween.hx",429,0x5d58d691)
-HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_445_then,"flixel.tweens.FlxTween","then",0x19b266be,"flixel.tweens.FlxTween.then","flixel/tweens/FlxTween.hx",445,0x5d58d691)
-HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_453_wait,"flixel.tweens.FlxTween","wait",0x1ba8be56,"flixel.tweens.FlxTween.wait","flixel/tweens/FlxTween.hx",453,0x5d58d691)
-HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_457_addChainedTween,"flixel.tweens.FlxTween","addChainedTween",0xc68ec82b,"flixel.tweens.FlxTween.addChainedTween","flixel/tweens/FlxTween.hx",457,0x5d58d691)
-HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_469_update,"flixel.tweens.FlxTween","update",0xb905642a,"flixel.tweens.FlxTween.update","flixel/tweens/FlxTween.hx",469,0x5d58d691)
-HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_507_start,"flixel.tweens.FlxTween","start",0xd6ec7561,"flixel.tweens.FlxTween.start","flixel/tweens/FlxTween.hx",507,0x5d58d691)
-HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_529_cancel,"flixel.tweens.FlxTween","cancel",0xea33cb9b,"flixel.tweens.FlxTween.cancel","flixel/tweens/FlxTween.hx",529,0x5d58d691)
-HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_547_cancelChain,"flixel.tweens.FlxTween","cancelChain",0x815e4766,"flixel.tweens.FlxTween.cancelChain","flixel/tweens/FlxTween.hx",547,0x5d58d691)
-HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_560_finish,"flixel.tweens.FlxTween","finish",0xb87f1e74,"flixel.tweens.FlxTween.finish","flixel/tweens/FlxTween.hx",560,0x5d58d691)
-HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_606_onEnd,"flixel.tweens.FlxTween","onEnd",0x854598fb,"flixel.tweens.FlxTween.onEnd","flixel/tweens/FlxTween.hx",606,0x5d58d691)
-HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_612_setVarsOnEnd,"flixel.tweens.FlxTween","setVarsOnEnd",0x855d798f,"flixel.tweens.FlxTween.setVarsOnEnd","flixel/tweens/FlxTween.hx",612,0x5d58d691)
-HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_619_processTweenChain,"flixel.tweens.FlxTween","processTweenChain",0xe0e06164,"flixel.tweens.FlxTween.processTweenChain","flixel/tweens/FlxTween.hx",619,0x5d58d691)
-HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_631_doNextTween,"flixel.tweens.FlxTween","doNextTween",0xb736cdac,"flixel.tweens.FlxTween.doNextTween","flixel/tweens/FlxTween.hx",631,0x5d58d691)
-HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_642_setChain,"flixel.tweens.FlxTween","setChain",0xec346660,"flixel.tweens.FlxTween.setChain","flixel/tweens/FlxTween.hx",642,0x5d58d691)
-HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_658_restart,"flixel.tweens.FlxTween","restart",0xf888468e,"flixel.tweens.FlxTween.restart","flixel/tweens/FlxTween.hx",658,0x5d58d691)
-HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_678_isTweenOf,"flixel.tweens.FlxTween","isTweenOf",0x854e0a17,"flixel.tweens.FlxTween.isTweenOf","flixel/tweens/FlxTween.hx",678,0x5d58d691)
-HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_688_setDelays,"flixel.tweens.FlxTween","setDelays",0x750c1d51,"flixel.tweens.FlxTween.setDelays","flixel/tweens/FlxTween.hx",688,0x5d58d691)
-HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_695_set_startDelay,"flixel.tweens.FlxTween","set_startDelay",0xdc7f879f,"flixel.tweens.FlxTween.set_startDelay","flixel/tweens/FlxTween.hx",695,0x5d58d691)
-HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_705_set_loopDelay,"flixel.tweens.FlxTween","set_loopDelay",0xc5954461,"flixel.tweens.FlxTween.set_loopDelay","flixel/tweens/FlxTween.hx",705,0x5d58d691)
-HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_717_get_percent,"flixel.tweens.FlxTween","get_percent",0x9c57551b,"flixel.tweens.FlxTween.get_percent","flixel/tweens/FlxTween.hx",717,0x5d58d691)
-HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_722_set_percent,"flixel.tweens.FlxTween","set_percent",0xa6c45c27,"flixel.tweens.FlxTween.set_percent","flixel/tweens/FlxTween.hx",722,0x5d58d691)
-HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_726_set_type,"flixel.tweens.FlxTween","set_type",0x136d7018,"flixel.tweens.FlxTween.set_type","flixel/tweens/FlxTween.hx",726,0x5d58d691)
-HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_741_set_active,"flixel.tweens.FlxTween","set_active",0x9ccb52a4,"flixel.tweens.FlxTween.set_active","flixel/tweens/FlxTween.hx",741,0x5d58d691)
+HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_375_resolveTweenOptions,"flixel.tweens.FlxTween","resolveTweenOptions",0x40bbd67e,"flixel.tweens.FlxTween.resolveTweenOptions","flixel/tweens/FlxTween.hx",375,0x5d58d691)
+HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_386_destroy,"flixel.tweens.FlxTween","destroy",0xb268abb9,"flixel.tweens.FlxTween.destroy","flixel/tweens/FlxTween.hx",386,0x5d58d691)
+HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_402_then,"flixel.tweens.FlxTween","then",0x19b266be,"flixel.tweens.FlxTween.then","flixel/tweens/FlxTween.hx",402,0x5d58d691)
+HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_410_wait,"flixel.tweens.FlxTween","wait",0x1ba8be56,"flixel.tweens.FlxTween.wait","flixel/tweens/FlxTween.hx",410,0x5d58d691)
+HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_414_addChainedTween,"flixel.tweens.FlxTween","addChainedTween",0xc68ec82b,"flixel.tweens.FlxTween.addChainedTween","flixel/tweens/FlxTween.hx",414,0x5d58d691)
+HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_426_update,"flixel.tweens.FlxTween","update",0xb905642a,"flixel.tweens.FlxTween.update","flixel/tweens/FlxTween.hx",426,0x5d58d691)
+HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_464_start,"flixel.tweens.FlxTween","start",0xd6ec7561,"flixel.tweens.FlxTween.start","flixel/tweens/FlxTween.hx",464,0x5d58d691)
+HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_486_cancel,"flixel.tweens.FlxTween","cancel",0xea33cb9b,"flixel.tweens.FlxTween.cancel","flixel/tweens/FlxTween.hx",486,0x5d58d691)
+HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_504_cancelChain,"flixel.tweens.FlxTween","cancelChain",0x815e4766,"flixel.tweens.FlxTween.cancelChain","flixel/tweens/FlxTween.hx",504,0x5d58d691)
+HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_517_finish,"flixel.tweens.FlxTween","finish",0xb87f1e74,"flixel.tweens.FlxTween.finish","flixel/tweens/FlxTween.hx",517,0x5d58d691)
+HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_563_onEnd,"flixel.tweens.FlxTween","onEnd",0x854598fb,"flixel.tweens.FlxTween.onEnd","flixel/tweens/FlxTween.hx",563,0x5d58d691)
+HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_569_setVarsOnEnd,"flixel.tweens.FlxTween","setVarsOnEnd",0x855d798f,"flixel.tweens.FlxTween.setVarsOnEnd","flixel/tweens/FlxTween.hx",569,0x5d58d691)
+HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_576_processTweenChain,"flixel.tweens.FlxTween","processTweenChain",0xe0e06164,"flixel.tweens.FlxTween.processTweenChain","flixel/tweens/FlxTween.hx",576,0x5d58d691)
+HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_588_doNextTween,"flixel.tweens.FlxTween","doNextTween",0xb736cdac,"flixel.tweens.FlxTween.doNextTween","flixel/tweens/FlxTween.hx",588,0x5d58d691)
+HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_599_setChain,"flixel.tweens.FlxTween","setChain",0xec346660,"flixel.tweens.FlxTween.setChain","flixel/tweens/FlxTween.hx",599,0x5d58d691)
+HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_615_restart,"flixel.tweens.FlxTween","restart",0xf888468e,"flixel.tweens.FlxTween.restart","flixel/tweens/FlxTween.hx",615,0x5d58d691)
+HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_632_setDelays,"flixel.tweens.FlxTween","setDelays",0x750c1d51,"flixel.tweens.FlxTween.setDelays","flixel/tweens/FlxTween.hx",632,0x5d58d691)
+HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_639_set_startDelay,"flixel.tweens.FlxTween","set_startDelay",0xdc7f879f,"flixel.tweens.FlxTween.set_startDelay","flixel/tweens/FlxTween.hx",639,0x5d58d691)
+HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_650_set_loopDelay,"flixel.tweens.FlxTween","set_loopDelay",0xc5954461,"flixel.tweens.FlxTween.set_loopDelay","flixel/tweens/FlxTween.hx",650,0x5d58d691)
+HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_662_get_percent,"flixel.tweens.FlxTween","get_percent",0x9c57551b,"flixel.tweens.FlxTween.get_percent","flixel/tweens/FlxTween.hx",662,0x5d58d691)
+HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_667_set_percent,"flixel.tweens.FlxTween","set_percent",0xa6c45c27,"flixel.tweens.FlxTween.set_percent","flixel/tweens/FlxTween.hx",667,0x5d58d691)
+HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_671_set_type,"flixel.tweens.FlxTween","set_type",0x136d7018,"flixel.tweens.FlxTween.set_type","flixel/tweens/FlxTween.hx",671,0x5d58d691)
+HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_686_set_active,"flixel.tweens.FlxTween","set_active",0x9ccb52a4,"flixel.tweens.FlxTween.set_active","flixel/tweens/FlxTween.hx",686,0x5d58d691)
 HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_105_tween,"flixel.tweens.FlxTween","tween",0x6c51ab6a,"flixel.tweens.FlxTween.tween","flixel/tweens/FlxTween.hx",105,0x5d58d691)
 HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_130_num,"flixel.tweens.FlxTween","num",0xa4425185,"flixel.tweens.FlxTween.num","flixel/tweens/FlxTween.hx",130,0x5d58d691)
 HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_149_angle,"flixel.tweens.FlxTween","angle",0x75c344d2,"flixel.tweens.FlxTween.angle","flixel/tweens/FlxTween.hx",149,0x5d58d691)
@@ -98,8 +97,6 @@ HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_242_cubicMotion,"flixel.tweens.Flx
 HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_267_circularMotion,"flixel.tweens.FlxTween","circularMotion",0x65e89916,"flixel.tweens.FlxTween.circularMotion","flixel/tweens/FlxTween.hx",267,0x5d58d691)
 HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_287_linearPath,"flixel.tweens.FlxTween","linearPath",0xd40abccb,"flixel.tweens.FlxTween.linearPath","flixel/tweens/FlxTween.hx",287,0x5d58d691)
 HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_307_quadPath,"flixel.tweens.FlxTween","quadPath",0x6abb226d,"flixel.tweens.FlxTween.quadPath","flixel/tweens/FlxTween.hx",307,0x5d58d691)
-HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_324_cancelTweensOf,"flixel.tweens.FlxTween","cancelTweensOf",0xe73a0d9a,"flixel.tweens.FlxTween.cancelTweensOf","flixel/tweens/FlxTween.hx",324,0x5d58d691)
-HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_350_completeTweensOf,"flixel.tweens.FlxTween","completeTweensOf",0xa842c219,"flixel.tweens.FlxTween.completeTweensOf","flixel/tweens/FlxTween.hx",350,0x5d58d691)
 HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_58_boot,"flixel.tweens.FlxTween","boot",0x0dd1e813,"flixel.tweens.FlxTween.boot","flixel/tweens/FlxTween.hx",58,0x5d58d691)
 HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_64_boot,"flixel.tweens.FlxTween","boot",0x0dd1e813,"flixel.tweens.FlxTween.boot","flixel/tweens/FlxTween.hx",64,0x5d58d691)
 HX_LOCAL_STACK_FRAME(_hx_pos_b949e09b4c4d130d_70_boot,"flixel.tweens.FlxTween","boot",0x0dd1e813,"flixel.tweens.FlxTween.boot","flixel/tweens/FlxTween.hx",70,0x5d58d691)
@@ -110,31 +107,31 @@ namespace tweens{
 
 void FlxTween_obj::__construct( ::Dynamic Options, ::flixel::tweens::FlxTweenManager manager){
             	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_52_new)
-HXLINE( 397)		this->_waitingForRestart = false;
-HXLINE( 396)		this->_running = false;
-HXLINE( 395)		this->_delayToUse = ((Float)0);
-HXLINE( 394)		this->_secondsSinceStart = ((Float)0);
-HXLINE( 392)		this->loopDelay = ((Float)0);
-HXLINE( 387)		this->startDelay = ((Float)0);
-HXLINE( 382)		this->executions = 0;
-HXLINE( 375)		this->scale = ((Float)0);
-HXLINE( 360)		this->duration = ((Float)0);
-HXLINE( 359)		this->active = false;
-HXLINE( 406)		Options = this->resolveTweenOptions(Options);
-HXLINE( 408)		this->set_type(( (int)(Options->__Field(HX_("type",ba,f2,08,4d),::hx::paccDynamic)) ));
-HXLINE( 409)		this->onStart = Options->__Field(HX_("onStart",c3,12,49,1a),::hx::paccDynamic);
-HXLINE( 410)		this->onUpdate = Options->__Field(HX_("onUpdate",88,7c,b2,66),::hx::paccDynamic);
-HXLINE( 411)		this->onComplete = Options->__Field(HX_("onComplete",f8,d4,7e,5d),::hx::paccDynamic);
-HXLINE( 412)		this->ease = Options->__Field(HX_("ease",ee,8b,0c,43),::hx::paccDynamic);
-HXLINE( 413)		this->setDelays(Options->__Field(HX_("startDelay",c1,af,3d,f3),::hx::paccDynamic),Options->__Field(HX_("loopDelay",7f,f6,d2,04),::hx::paccDynamic));
-HXLINE( 414)		 ::flixel::tweens::FlxTweenManager _hx_tmp;
-HXDLIN( 414)		if (::hx::IsNotNull( manager )) {
-HXLINE( 414)			_hx_tmp = manager;
+HXLINE( 354)		this->_waitingForRestart = false;
+HXLINE( 353)		this->_running = false;
+HXLINE( 352)		this->_delayToUse = ((Float)0);
+HXLINE( 351)		this->_secondsSinceStart = ((Float)0);
+HXLINE( 349)		this->loopDelay = ((Float)0);
+HXLINE( 344)		this->startDelay = ((Float)0);
+HXLINE( 339)		this->executions = 0;
+HXLINE( 332)		this->scale = ((Float)0);
+HXLINE( 317)		this->duration = ((Float)0);
+HXLINE( 316)		this->active = false;
+HXLINE( 363)		Options = this->resolveTweenOptions(Options);
+HXLINE( 365)		this->set_type(( (int)(Options->__Field(HX_("type",ba,f2,08,4d),::hx::paccDynamic)) ));
+HXLINE( 366)		this->onStart = Options->__Field(HX_("onStart",c3,12,49,1a),::hx::paccDynamic);
+HXLINE( 367)		this->onUpdate = Options->__Field(HX_("onUpdate",88,7c,b2,66),::hx::paccDynamic);
+HXLINE( 368)		this->onComplete = Options->__Field(HX_("onComplete",f8,d4,7e,5d),::hx::paccDynamic);
+HXLINE( 369)		this->ease = Options->__Field(HX_("ease",ee,8b,0c,43),::hx::paccDynamic);
+HXLINE( 370)		this->setDelays(Options->__Field(HX_("startDelay",c1,af,3d,f3),::hx::paccDynamic),Options->__Field(HX_("loopDelay",7f,f6,d2,04),::hx::paccDynamic));
+HXLINE( 371)		 ::flixel::tweens::FlxTweenManager _hx_tmp;
+HXDLIN( 371)		if (::hx::IsNotNull( manager )) {
+HXLINE( 371)			_hx_tmp = manager;
             		}
             		else {
-HXLINE( 414)			_hx_tmp = ::flixel::tweens::FlxTween_obj::globalManager;
+HXLINE( 371)			_hx_tmp = ::flixel::tweens::FlxTween_obj::globalManager;
             		}
-HXDLIN( 414)		this->manager = _hx_tmp;
+HXDLIN( 371)		this->manager = _hx_tmp;
             	}
 
 Dynamic FlxTween_obj::__CreateEmpty() { return new FlxTween_obj; }
@@ -168,112 +165,112 @@ void *FlxTween_obj::_hx_getInterface(int inHash) {
 }
 
  ::Dynamic FlxTween_obj::resolveTweenOptions( ::Dynamic Options){
-            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_418_resolveTweenOptions)
-HXLINE( 419)		if (::hx::IsNull( Options )) {
-HXLINE( 420)			Options =  ::Dynamic(::hx::Anon_obj::Create(1)
+            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_375_resolveTweenOptions)
+HXLINE( 376)		if (::hx::IsNull( Options )) {
+HXLINE( 377)			Options =  ::Dynamic(::hx::Anon_obj::Create(1)
             				->setFixed(0,HX_("type",ba,f2,08,4d),8));
             		}
-HXLINE( 422)		if (::hx::IsNull( Options->__Field(HX_("type",ba,f2,08,4d),::hx::paccDynamic) )) {
-HXLINE( 423)			Options->__SetField(HX_("type",ba,f2,08,4d),8,::hx::paccDynamic);
+HXLINE( 379)		if (::hx::IsNull( Options->__Field(HX_("type",ba,f2,08,4d),::hx::paccDynamic) )) {
+HXLINE( 380)			Options->__SetField(HX_("type",ba,f2,08,4d),8,::hx::paccDynamic);
             		}
-HXLINE( 425)		return Options;
+HXLINE( 382)		return Options;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxTween_obj,resolveTweenOptions,return )
 
 void FlxTween_obj::destroy(){
-            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_429_destroy)
-HXLINE( 430)		this->onStart = null();
-HXLINE( 431)		this->onUpdate = null();
-HXLINE( 432)		this->onComplete = null();
-HXLINE( 433)		this->ease = null();
-HXLINE( 434)		this->manager = null();
-HXLINE( 435)		this->_chainedTweens = null();
-HXLINE( 436)		this->_nextTweenInChain = null();
+            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_386_destroy)
+HXLINE( 387)		this->onStart = null();
+HXLINE( 388)		this->onUpdate = null();
+HXLINE( 389)		this->onComplete = null();
+HXLINE( 390)		this->ease = null();
+HXLINE( 391)		this->manager = null();
+HXLINE( 392)		this->_chainedTweens = null();
+HXLINE( 393)		this->_nextTweenInChain = null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTween_obj,destroy,(void))
 
  ::flixel::tweens::FlxTween FlxTween_obj::then( ::flixel::tweens::FlxTween tween){
-            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_445_then)
-HXDLIN( 445)		return this->addChainedTween(tween);
+            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_402_then)
+HXDLIN( 402)		return this->addChainedTween(tween);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxTween_obj,then,return )
 
  ::flixel::tweens::FlxTween FlxTween_obj::wait(Float delay){
-            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_453_wait)
-HXDLIN( 453)		return this->addChainedTween(::flixel::tweens::FlxTween_obj::num(( (Float)(0) ),( (Float)(0) ),delay,null(),null()));
+            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_410_wait)
+HXDLIN( 410)		return this->addChainedTween(::flixel::tweens::FlxTween_obj::num(( (Float)(0) ),( (Float)(0) ),delay,null(),null()));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxTween_obj,wait,return )
 
  ::flixel::tweens::FlxTween FlxTween_obj::addChainedTween( ::flixel::tweens::FlxTween tween){
-            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_457_addChainedTween)
-HXLINE( 458)		tween->setVarsOnEnd();
-HXLINE( 459)		tween->manager->remove(tween,false);
-HXLINE( 461)		if (::hx::IsNull( this->_chainedTweens )) {
-HXLINE( 462)			this->_chainedTweens = ::Array_obj< ::Dynamic>::__new(0);
+            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_414_addChainedTween)
+HXLINE( 415)		tween->setVarsOnEnd();
+HXLINE( 416)		tween->manager->remove(tween,false);
+HXLINE( 418)		if (::hx::IsNull( this->_chainedTweens )) {
+HXLINE( 419)			this->_chainedTweens = ::Array_obj< ::Dynamic>::__new(0);
             		}
-HXLINE( 464)		this->_chainedTweens->push(tween);
-HXLINE( 465)		return ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 421)		this->_chainedTweens->push(tween);
+HXLINE( 422)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxTween_obj,addChainedTween,return )
 
 void FlxTween_obj::update(Float elapsed){
-            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_469_update)
-HXLINE( 470)		 ::flixel::tweens::FlxTween _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 470)		_hx_tmp->_secondsSinceStart = (_hx_tmp->_secondsSinceStart + elapsed);
-HXLINE( 471)		Float delay;
-HXDLIN( 471)		if ((this->executions > 0)) {
-HXLINE( 471)			delay = this->loopDelay;
+            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_426_update)
+HXLINE( 427)		 ::flixel::tweens::FlxTween _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 427)		_hx_tmp->_secondsSinceStart = (_hx_tmp->_secondsSinceStart + elapsed);
+HXLINE( 428)		Float delay;
+HXDLIN( 428)		if ((this->executions > 0)) {
+HXLINE( 428)			delay = this->loopDelay;
             		}
             		else {
-HXLINE( 471)			delay = this->startDelay;
+HXLINE( 428)			delay = this->startDelay;
             		}
-HXLINE( 472)		if ((this->_secondsSinceStart < delay)) {
-HXLINE( 474)			return;
+HXLINE( 429)		if ((this->_secondsSinceStart < delay)) {
+HXLINE( 431)			return;
             		}
-HXLINE( 476)		this->scale = (::Math_obj::max((this->_secondsSinceStart - delay),( (Float)(0) )) / this->duration);
-HXLINE( 477)		if (::hx::IsNotNull( this->ease )) {
-HXLINE( 479)			this->scale = ( (Float)(this->ease(this->scale)) );
+HXLINE( 433)		this->scale = (::Math_obj::max((this->_secondsSinceStart - delay),( (Float)(0) )) / this->duration);
+HXLINE( 434)		if (::hx::IsNotNull( this->ease )) {
+HXLINE( 436)			this->scale = ( (Float)(this->ease(this->scale)) );
             		}
-HXLINE( 481)		if (this->backward) {
-HXLINE( 483)			this->scale = (( (Float)(1) ) - this->scale);
+HXLINE( 438)		if (this->backward) {
+HXLINE( 440)			this->scale = (( (Float)(1) ) - this->scale);
             		}
-HXLINE( 485)		bool _hx_tmp1;
-HXDLIN( 485)		if ((this->_secondsSinceStart > delay)) {
-HXLINE( 485)			_hx_tmp1 = !(this->_running);
+HXLINE( 442)		bool _hx_tmp1;
+HXDLIN( 442)		if ((this->_secondsSinceStart > delay)) {
+HXLINE( 442)			_hx_tmp1 = !(this->_running);
             		}
             		else {
-HXLINE( 485)			_hx_tmp1 = false;
+HXLINE( 442)			_hx_tmp1 = false;
             		}
-HXDLIN( 485)		if (_hx_tmp1) {
-HXLINE( 487)			this->_running = true;
-HXLINE( 488)			if (::hx::IsNotNull( this->onStart )) {
-HXLINE( 489)				this->onStart(::hx::ObjectPtr<OBJ_>(this));
+HXDLIN( 442)		if (_hx_tmp1) {
+HXLINE( 444)			this->_running = true;
+HXLINE( 445)			if (::hx::IsNotNull( this->onStart )) {
+HXLINE( 446)				this->onStart(::hx::ObjectPtr<OBJ_>(this));
             			}
             		}
-HXLINE( 491)		if ((this->_secondsSinceStart >= (this->duration + delay))) {
-HXLINE( 493)			Float _hx_tmp;
-HXDLIN( 493)			if (this->backward) {
-HXLINE( 493)				_hx_tmp = ( (Float)(0) );
+HXLINE( 448)		if ((this->_secondsSinceStart >= (this->duration + delay))) {
+HXLINE( 450)			Float _hx_tmp;
+HXDLIN( 450)			if (this->backward) {
+HXLINE( 450)				_hx_tmp = ( (Float)(0) );
             			}
             			else {
-HXLINE( 493)				_hx_tmp = ( (Float)(1) );
+HXLINE( 450)				_hx_tmp = ( (Float)(1) );
             			}
-HXDLIN( 493)			this->scale = _hx_tmp;
-HXLINE( 494)			this->finished = true;
+HXDLIN( 450)			this->scale = _hx_tmp;
+HXLINE( 451)			this->finished = true;
             		}
             		else {
-HXLINE( 498)			if (::hx::IsNotNull( this->onUpdate )) {
-HXLINE( 499)				this->onUpdate(::hx::ObjectPtr<OBJ_>(this));
+HXLINE( 455)			if (::hx::IsNotNull( this->onUpdate )) {
+HXLINE( 456)				this->onUpdate(::hx::ObjectPtr<OBJ_>(this));
             			}
             		}
             	}
@@ -282,35 +279,35 @@ HXLINE( 499)				this->onUpdate(::hx::ObjectPtr<OBJ_>(this));
 HX_DEFINE_DYNAMIC_FUNC1(FlxTween_obj,update,(void))
 
  ::flixel::tweens::FlxTween FlxTween_obj::start(){
-            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_507_start)
-HXLINE( 508)		this->_waitingForRestart = false;
-HXLINE( 509)		this->_secondsSinceStart = ( (Float)(0) );
-HXLINE( 510)		Float _hx_tmp;
-HXDLIN( 510)		if ((this->executions > 0)) {
-HXLINE( 510)			_hx_tmp = this->loopDelay;
+            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_464_start)
+HXLINE( 465)		this->_waitingForRestart = false;
+HXLINE( 466)		this->_secondsSinceStart = ( (Float)(0) );
+HXLINE( 467)		Float _hx_tmp;
+HXDLIN( 467)		if ((this->executions > 0)) {
+HXLINE( 467)			_hx_tmp = this->loopDelay;
             		}
             		else {
-HXLINE( 510)			_hx_tmp = this->startDelay;
+HXLINE( 467)			_hx_tmp = this->startDelay;
             		}
-HXDLIN( 510)		this->_delayToUse = _hx_tmp;
-HXLINE( 511)		if ((this->duration == 0)) {
-HXLINE( 513)			this->set_active(false);
-HXLINE( 514)			return ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 467)		this->_delayToUse = _hx_tmp;
+HXLINE( 468)		if ((this->duration == 0)) {
+HXLINE( 470)			this->set_active(false);
+HXLINE( 471)			return ::hx::ObjectPtr<OBJ_>(this);
             		}
-HXLINE( 516)		this->set_active(true);
-HXLINE( 517)		this->_running = false;
-HXLINE( 518)		this->finished = false;
-HXLINE( 519)		return ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 473)		this->set_active(true);
+HXLINE( 474)		this->_running = false;
+HXLINE( 475)		this->finished = false;
+HXLINE( 476)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTween_obj,start,return )
 
 void FlxTween_obj::cancel(){
-            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_529_cancel)
-HXLINE( 530)		this->onEnd();
-HXLINE( 532)		if (::hx::IsNotNull( this->manager )) {
-HXLINE( 533)			this->manager->remove(::hx::ObjectPtr<OBJ_>(this),null());
+            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_486_cancel)
+HXLINE( 487)		this->onEnd();
+HXLINE( 489)		if (::hx::IsNotNull( this->manager )) {
+HXLINE( 490)			this->manager->remove(::hx::ObjectPtr<OBJ_>(this),null());
             		}
             	}
 
@@ -318,81 +315,81 @@ HXLINE( 533)			this->manager->remove(::hx::ObjectPtr<OBJ_>(this),null());
 HX_DEFINE_DYNAMIC_FUNC0(FlxTween_obj,cancel,(void))
 
 void FlxTween_obj::cancelChain(){
-            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_547_cancelChain)
-HXLINE( 549)		if (::hx::IsNotNull( this->_nextTweenInChain )) {
-HXLINE( 550)			this->_nextTweenInChain->cancelChain();
+            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_504_cancelChain)
+HXLINE( 506)		if (::hx::IsNotNull( this->_nextTweenInChain )) {
+HXLINE( 507)			this->_nextTweenInChain->cancelChain();
             		}
-HXLINE( 553)		if (::hx::IsNotNull( this->_chainedTweens )) {
-HXLINE( 554)			this->_chainedTweens = null();
+HXLINE( 510)		if (::hx::IsNotNull( this->_chainedTweens )) {
+HXLINE( 511)			this->_chainedTweens = null();
             		}
-HXLINE( 556)		this->cancel();
+HXLINE( 513)		this->cancel();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTween_obj,cancelChain,(void))
 
 void FlxTween_obj::finish(){
-            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_560_finish)
-HXLINE( 561)		this->executions++;
-HXLINE( 563)		if (::hx::IsNotNull( this->onComplete )) {
-HXLINE( 564)			this->onComplete(::hx::ObjectPtr<OBJ_>(this));
+            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_517_finish)
+HXLINE( 518)		this->executions++;
+HXLINE( 520)		if (::hx::IsNotNull( this->onComplete )) {
+HXLINE( 521)			this->onComplete(::hx::ObjectPtr<OBJ_>(this));
             		}
-HXLINE( 566)		int type = (this->type & ~(16));
-HXLINE( 568)		bool _hx_tmp;
-HXDLIN( 568)		if ((type != 1)) {
-HXLINE( 568)			_hx_tmp = (type == 8);
-            		}
-            		else {
-HXLINE( 568)			_hx_tmp = true;
-            		}
-HXDLIN( 568)		if (_hx_tmp) {
-HXLINE( 570)			this->onEnd();
-HXLINE( 571)			this->_secondsSinceStart = (this->duration + this->startDelay);
-HXLINE( 573)			bool _hx_tmp;
-HXDLIN( 573)			if ((type == 8)) {
-HXLINE( 573)				_hx_tmp = ::hx::IsNotNull( this->manager );
-            			}
-            			else {
-HXLINE( 573)				_hx_tmp = false;
-            			}
-HXDLIN( 573)			if (_hx_tmp) {
-HXLINE( 575)				this->manager->remove(::hx::ObjectPtr<OBJ_>(this),null());
-            			}
-            		}
-HXLINE( 579)		bool _hx_tmp1;
-HXDLIN( 579)		if ((type != 2)) {
-HXLINE( 579)			_hx_tmp1 = (type == 4);
+HXLINE( 523)		int type = (this->type & ~(16));
+HXLINE( 525)		bool _hx_tmp;
+HXDLIN( 525)		if ((type != 1)) {
+HXLINE( 525)			_hx_tmp = (type == 8);
             		}
             		else {
-HXLINE( 579)			_hx_tmp1 = true;
+HXLINE( 525)			_hx_tmp = true;
             		}
-HXDLIN( 579)		if (_hx_tmp1) {
-HXLINE( 581)			this->_secondsSinceStart = (::hx::Mod((this->_secondsSinceStart - this->_delayToUse),this->duration) + this->_delayToUse);
-HXLINE( 582)			this->scale = (::Math_obj::max((this->_secondsSinceStart - this->_delayToUse),( (Float)(0) )) / this->duration);
-HXLINE( 584)			bool _hx_tmp;
-HXDLIN( 584)			bool _hx_tmp1;
-HXDLIN( 584)			if (::hx::IsNotNull( this->ease )) {
-HXLINE( 584)				_hx_tmp1 = (this->scale > 0);
+HXDLIN( 525)		if (_hx_tmp) {
+HXLINE( 527)			this->onEnd();
+HXLINE( 528)			this->_secondsSinceStart = (this->duration + this->startDelay);
+HXLINE( 530)			bool _hx_tmp;
+HXDLIN( 530)			if ((type == 8)) {
+HXLINE( 530)				_hx_tmp = ::hx::IsNotNull( this->manager );
             			}
             			else {
-HXLINE( 584)				_hx_tmp1 = false;
+HXLINE( 530)				_hx_tmp = false;
             			}
-HXDLIN( 584)			if (_hx_tmp1) {
-HXLINE( 584)				_hx_tmp = (this->scale < 1);
+HXDLIN( 530)			if (_hx_tmp) {
+HXLINE( 532)				this->manager->remove(::hx::ObjectPtr<OBJ_>(this),null());
+            			}
+            		}
+HXLINE( 536)		bool _hx_tmp1;
+HXDLIN( 536)		if ((type != 2)) {
+HXLINE( 536)			_hx_tmp1 = (type == 4);
+            		}
+            		else {
+HXLINE( 536)			_hx_tmp1 = true;
+            		}
+HXDLIN( 536)		if (_hx_tmp1) {
+HXLINE( 538)			this->_secondsSinceStart = (::hx::Mod((this->_secondsSinceStart - this->_delayToUse),this->duration) + this->_delayToUse);
+HXLINE( 539)			this->scale = (::Math_obj::max((this->_secondsSinceStart - this->_delayToUse),( (Float)(0) )) / this->duration);
+HXLINE( 541)			bool _hx_tmp;
+HXDLIN( 541)			bool _hx_tmp1;
+HXDLIN( 541)			if (::hx::IsNotNull( this->ease )) {
+HXLINE( 541)				_hx_tmp1 = (this->scale > 0);
             			}
             			else {
-HXLINE( 584)				_hx_tmp = false;
+HXLINE( 541)				_hx_tmp1 = false;
             			}
-HXDLIN( 584)			if (_hx_tmp) {
-HXLINE( 586)				this->scale = ( (Float)(this->ease(this->scale)) );
+HXDLIN( 541)			if (_hx_tmp1) {
+HXLINE( 541)				_hx_tmp = (this->scale < 1);
             			}
-HXLINE( 589)			if ((type == 4)) {
-HXLINE( 591)				this->backward = !(this->backward);
-HXLINE( 592)				if (this->backward) {
-HXLINE( 594)					this->scale = (( (Float)(1) ) - this->scale);
+            			else {
+HXLINE( 541)				_hx_tmp = false;
+            			}
+HXDLIN( 541)			if (_hx_tmp) {
+HXLINE( 543)				this->scale = ( (Float)(this->ease(this->scale)) );
+            			}
+HXLINE( 546)			if ((type == 4)) {
+HXLINE( 548)				this->backward = !(this->backward);
+HXLINE( 549)				if (this->backward) {
+HXLINE( 551)					this->scale = (( (Float)(1) ) - this->scale);
             				}
             			}
-HXLINE( 598)			this->restart();
+HXLINE( 555)			this->restart();
             		}
             	}
 
@@ -400,66 +397,66 @@ HXLINE( 598)			this->restart();
 HX_DEFINE_DYNAMIC_FUNC0(FlxTween_obj,finish,(void))
 
 void FlxTween_obj::onEnd(){
-            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_606_onEnd)
-HXLINE( 607)		this->setVarsOnEnd();
-HXLINE( 608)		this->processTweenChain();
+            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_563_onEnd)
+HXLINE( 564)		this->setVarsOnEnd();
+HXLINE( 565)		this->processTweenChain();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTween_obj,onEnd,(void))
 
 void FlxTween_obj::setVarsOnEnd(){
-            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_612_setVarsOnEnd)
-HXLINE( 613)		this->set_active(false);
-HXLINE( 614)		this->_running = false;
-HXLINE( 615)		this->finished = true;
+            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_569_setVarsOnEnd)
+HXLINE( 570)		this->set_active(false);
+HXLINE( 571)		this->_running = false;
+HXLINE( 572)		this->finished = true;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTween_obj,setVarsOnEnd,(void))
 
 void FlxTween_obj::processTweenChain(){
-            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_619_processTweenChain)
-HXLINE( 620)		bool _hx_tmp;
-HXDLIN( 620)		if (::hx::IsNotNull( this->_chainedTweens )) {
-HXLINE( 620)			_hx_tmp = (this->_chainedTweens->length <= 0);
+            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_576_processTweenChain)
+HXLINE( 577)		bool _hx_tmp;
+HXDLIN( 577)		if (::hx::IsNotNull( this->_chainedTweens )) {
+HXLINE( 577)			_hx_tmp = (this->_chainedTweens->length <= 0);
             		}
             		else {
-HXLINE( 620)			_hx_tmp = true;
+HXLINE( 577)			_hx_tmp = true;
             		}
-HXDLIN( 620)		if (_hx_tmp) {
-HXLINE( 621)			return;
+HXDLIN( 577)		if (_hx_tmp) {
+HXLINE( 578)			return;
             		}
-HXLINE( 624)		this->_nextTweenInChain = this->_chainedTweens->shift().StaticCast<  ::flixel::tweens::FlxTween >();
-HXLINE( 626)		this->doNextTween(this->_nextTweenInChain);
-HXLINE( 627)		this->_chainedTweens = null();
+HXLINE( 581)		this->_nextTweenInChain = this->_chainedTweens->shift().StaticCast<  ::flixel::tweens::FlxTween >();
+HXLINE( 583)		this->doNextTween(this->_nextTweenInChain);
+HXLINE( 584)		this->_chainedTweens = null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTween_obj,processTweenChain,(void))
 
 void FlxTween_obj::doNextTween( ::flixel::tweens::FlxTween tween){
-            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_631_doNextTween)
-HXLINE( 632)		if (!(tween->active)) {
-HXLINE( 634)			tween->start();
-HXLINE( 635)			this->manager->add_flixel_tweens_FlxTween(tween,null());
+            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_588_doNextTween)
+HXLINE( 589)		if (!(tween->active)) {
+HXLINE( 591)			tween->start();
+HXLINE( 592)			this->manager->add_flixel_tweens_FlxTween(tween,null());
             		}
-HXLINE( 638)		tween->setChain(this->_chainedTweens);
+HXLINE( 595)		tween->setChain(this->_chainedTweens);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxTween_obj,doNextTween,(void))
 
 void FlxTween_obj::setChain(::Array< ::Dynamic> previousChain){
-            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_642_setChain)
-HXLINE( 643)		if (::hx::IsNull( previousChain )) {
-HXLINE( 644)			return;
+            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_599_setChain)
+HXLINE( 600)		if (::hx::IsNull( previousChain )) {
+HXLINE( 601)			return;
             		}
-HXLINE( 646)		if (::hx::IsNull( this->_chainedTweens )) {
-HXLINE( 647)			this->_chainedTweens = previousChain;
+HXLINE( 603)		if (::hx::IsNull( this->_chainedTweens )) {
+HXLINE( 604)			this->_chainedTweens = previousChain;
             		}
             		else {
-HXLINE( 649)			this->_chainedTweens = this->_chainedTweens->concat(previousChain);
+HXLINE( 606)			this->_chainedTweens = this->_chainedTweens->concat(previousChain);
             		}
             	}
 
@@ -467,115 +464,108 @@ HXLINE( 649)			this->_chainedTweens = this->_chainedTweens->concat(previousChain
 HX_DEFINE_DYNAMIC_FUNC1(FlxTween_obj,setChain,(void))
 
 void FlxTween_obj::restart(){
-            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_658_restart)
-HXDLIN( 658)		if (this->active) {
-HXLINE( 660)			this->start();
+            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_615_restart)
+HXDLIN( 615)		if (this->active) {
+HXLINE( 617)			this->start();
             		}
             		else {
-HXLINE( 664)			this->_waitingForRestart = true;
+HXLINE( 621)			this->_waitingForRestart = true;
             		}
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTween_obj,restart,(void))
 
-bool FlxTween_obj::isTweenOf( ::Dynamic Object,::String Field){
-            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_678_isTweenOf)
-HXDLIN( 678)		return false;
-            	}
-
-
-HX_DEFINE_DYNAMIC_FUNC2(FlxTween_obj,isTweenOf,return )
-
  ::flixel::tweens::FlxTween FlxTween_obj::setDelays( ::Dynamic StartDelay, ::Dynamic LoopDelay){
-            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_688_setDelays)
-HXLINE( 689)		Float _hx_tmp;
-HXDLIN( 689)		if (::hx::IsNotNull( StartDelay )) {
-HXLINE( 689)			_hx_tmp = ( (Float)(StartDelay) );
+            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_632_setDelays)
+HXLINE( 633)		Float _hx_tmp;
+HXDLIN( 633)		if (::hx::IsNotNull( StartDelay )) {
+HXLINE( 633)			_hx_tmp = ( (Float)(StartDelay) );
             		}
             		else {
-HXLINE( 689)			_hx_tmp = ( (Float)(0) );
+HXLINE( 633)			_hx_tmp = ( (Float)(0) );
             		}
-HXDLIN( 689)		this->set_startDelay(_hx_tmp);
-HXLINE( 690)		Float _hx_tmp1;
-HXDLIN( 690)		if (::hx::IsNotNull( LoopDelay )) {
-HXLINE( 690)			_hx_tmp1 = ( (Float)(LoopDelay) );
+HXDLIN( 633)		this->set_startDelay(_hx_tmp);
+HXLINE( 634)		Float _hx_tmp1;
+HXDLIN( 634)		if (::hx::IsNotNull( LoopDelay )) {
+HXLINE( 634)			_hx_tmp1 = ( (Float)(LoopDelay) );
             		}
             		else {
-HXLINE( 690)			_hx_tmp1 = ( (Float)(0) );
+HXLINE( 634)			_hx_tmp1 = ( (Float)(0) );
             		}
-HXDLIN( 690)		this->set_loopDelay(_hx_tmp1);
-HXLINE( 691)		return ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 634)		this->set_loopDelay(_hx_tmp1);
+HXLINE( 635)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxTween_obj,setDelays,return )
 
 Float FlxTween_obj::set_startDelay(Float value){
-            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_695_set_startDelay)
-HXLINE( 696)		Float dly = ::Math_obj::abs(value);
-HXLINE( 697)		if ((this->executions == 0)) {
-HXLINE( 699)			this->_delayToUse = dly;
+            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_639_set_startDelay)
+HXLINE( 640)		Float dly = ::Math_obj::abs(value);
+HXLINE( 641)		if ((this->executions == 0)) {
+HXLINE( 643)			this->_secondsSinceStart = ((this->duration * (::Math_obj::max((this->_secondsSinceStart - this->_delayToUse),( (Float)(0) )) / this->duration)) + ::Math_obj::max((dly - this->startDelay),( (Float)(0) )));
+HXLINE( 644)			this->_delayToUse = dly;
             		}
-HXLINE( 701)		return (this->startDelay = dly);
+HXLINE( 646)		return (this->startDelay = dly);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxTween_obj,set_startDelay,return )
 
 Float FlxTween_obj::set_loopDelay( ::Dynamic value){
-            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_705_set_loopDelay)
-HXLINE( 706)		Float dly = ::Math_obj::abs(( (Float)(value) ));
-HXLINE( 707)		if ((this->executions > 0)) {
-HXLINE( 709)			this->_secondsSinceStart = ((this->duration * (::Math_obj::max((this->_secondsSinceStart - this->_delayToUse),( (Float)(0) )) / this->duration)) + ::Math_obj::max((dly - this->loopDelay),( (Float)(0) )));
-HXLINE( 710)			this->_delayToUse = dly;
+            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_650_set_loopDelay)
+HXLINE( 651)		Float dly = ::Math_obj::abs(( (Float)(value) ));
+HXLINE( 652)		if ((this->executions > 0)) {
+HXLINE( 654)			this->_secondsSinceStart = ((this->duration * (::Math_obj::max((this->_secondsSinceStart - this->_delayToUse),( (Float)(0) )) / this->duration)) + ::Math_obj::max((dly - this->loopDelay),( (Float)(0) )));
+HXLINE( 655)			this->_delayToUse = dly;
             		}
-HXLINE( 712)		return (this->loopDelay = dly);
+HXLINE( 657)		return (this->loopDelay = dly);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxTween_obj,set_loopDelay,return )
 
 Float FlxTween_obj::get_percent(){
-            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_717_get_percent)
-HXDLIN( 717)		return (::Math_obj::max((this->_secondsSinceStart - this->_delayToUse),( (Float)(0) )) / this->duration);
+            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_662_get_percent)
+HXDLIN( 662)		return (::Math_obj::max((this->_secondsSinceStart - this->_delayToUse),( (Float)(0) )) / this->duration);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTween_obj,get_percent,return )
 
 Float FlxTween_obj::set_percent(Float value){
-            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_722_set_percent)
-HXDLIN( 722)		return (this->_secondsSinceStart = ((this->duration * value) + this->_delayToUse));
+            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_667_set_percent)
+HXDLIN( 667)		return (this->_secondsSinceStart = ((this->duration * value) + this->_delayToUse));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxTween_obj,set_percent,return )
 
 int FlxTween_obj::set_type(int value){
-            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_726_set_type)
-HXLINE( 727)		if ((value == 0)) {
-HXLINE( 729)			value = 8;
+            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_671_set_type)
+HXLINE( 672)		if ((value == 0)) {
+HXLINE( 674)			value = 8;
             		}
             		else {
-HXLINE( 731)			if ((value == 16)) {
-HXLINE( 733)				value = (1 | 16);
+HXLINE( 676)			if ((value == 16)) {
+HXLINE( 678)				value = (1 | 16);
             			}
             		}
-HXLINE( 736)		this->backward = ((value & 16) > 0);
-HXLINE( 737)		return (this->type = value);
+HXLINE( 681)		this->backward = ((value & 16) > 0);
+HXLINE( 682)		return (this->type = value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxTween_obj,set_type,return )
 
 bool FlxTween_obj::set_active(bool active){
-            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_741_set_active)
-HXLINE( 742)		this->active = active;
-HXLINE( 744)		if (this->_waitingForRestart) {
-HXLINE( 745)			this->restart();
+            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_686_set_active)
+HXLINE( 687)		this->active = active;
+HXLINE( 689)		if (this->_waitingForRestart) {
+HXLINE( 690)			this->restart();
             		}
-HXLINE( 747)		return active;
+HXLINE( 692)		return active;
             	}
 
 
@@ -688,22 +678,6 @@ HXDLIN( 307)		return ::flixel::tweens::FlxTween_obj::globalManager->quadPath(Obj
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC5(FlxTween_obj,quadPath,return )
 
-void FlxTween_obj::cancelTweensOf( ::Dynamic Object,::Array< ::String > FieldPaths){
-            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_324_cancelTweensOf)
-HXDLIN( 324)		::flixel::tweens::FlxTween_obj::globalManager->cancelTweensOf(Object,FieldPaths);
-            	}
-
-
-STATIC_HX_DEFINE_DYNAMIC_FUNC2(FlxTween_obj,cancelTweensOf,(void))
-
-void FlxTween_obj::completeTweensOf( ::Dynamic Object,::Array< ::String > FieldPaths){
-            	HX_STACKFRAME(&_hx_pos_b949e09b4c4d130d_350_completeTweensOf)
-HXDLIN( 350)		::flixel::tweens::FlxTween_obj::globalManager->completeTweensOf(Object,FieldPaths);
-            	}
-
-
-STATIC_HX_DEFINE_DYNAMIC_FUNC2(FlxTween_obj,completeTweensOf,(void))
-
 
 ::hx::ObjectPtr< FlxTween_obj > FlxTween_obj::__new( ::Dynamic Options, ::flixel::tweens::FlxTweenManager manager) {
 	::hx::ObjectPtr< FlxTween_obj > __this = new FlxTween_obj();
@@ -810,7 +784,6 @@ void FlxTween_obj::__Visit(HX_VISIT_PARAMS)
 		break;
 	case 9:
 		if (HX_FIELD_EQ(inName,"loopDelay") ) { return ::hx::Val( loopDelay ); }
-		if (HX_FIELD_EQ(inName,"isTweenOf") ) { return ::hx::Val( isTweenOf_dyn() ); }
 		if (HX_FIELD_EQ(inName,"setDelays") ) { return ::hx::Val( setDelays_dyn() ); }
 		break;
 	case 10:
@@ -889,10 +862,6 @@ bool FlxTween_obj::__GetStatic(const ::String &inName, Dynamic &outValue, ::hx::
 		break;
 	case 14:
 		if (HX_FIELD_EQ(inName,"circularMotion") ) { outValue = circularMotion_dyn(); return true; }
-		if (HX_FIELD_EQ(inName,"cancelTweensOf") ) { outValue = cancelTweensOf_dyn(); return true; }
-		break;
-	case 16:
-		if (HX_FIELD_EQ(inName,"completeTweensOf") ) { outValue = completeTweensOf_dyn(); return true; }
 	}
 	return false;
 }
@@ -1058,7 +1027,6 @@ static ::String FlxTween_obj_sMemberFields[] = {
 	HX_("doNextTween",6d,83,b4,19),
 	HX_("setChain",ff,fd,e7,53),
 	HX_("restart",cf,c7,a5,6a),
-	HX_("isTweenOf",98,1d,bf,da),
 	HX_("setDelays",d2,30,7d,ca),
 	HX_("set_startDelay",7e,20,53,89),
 	HX_("set_loopDelay",62,ac,3c,0b),
@@ -1108,8 +1076,6 @@ static ::String FlxTween_obj_sStaticFields[] = {
 	HX_("circularMotion",f5,31,bc,12),
 	HX_("linearPath",2a,ba,8a,41),
 	HX_("quadPath",0c,ba,6e,d2),
-	HX_("cancelTweensOf",79,a6,0d,94),
-	HX_("completeTweensOf",b8,90,d5,e3),
 	::String(null())
 };
 

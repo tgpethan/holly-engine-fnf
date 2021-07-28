@@ -14,23 +14,23 @@
 #include <openfl/events/UncaughtErrorEvent.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_c2f85669dc13e38b_179_new,"openfl.events.UncaughtErrorEvent","new",0x17652810,"openfl.events.UncaughtErrorEvent.new","openfl/events/UncaughtErrorEvent.hx",179,0x0dad2340)
-HX_LOCAL_STACK_FRAME(_hx_pos_c2f85669dc13e38b_186_clone,"openfl.events.UncaughtErrorEvent","clone",0x483db70d,"openfl.events.UncaughtErrorEvent.clone","openfl/events/UncaughtErrorEvent.hx",186,0x0dad2340)
-HX_LOCAL_STACK_FRAME(_hx_pos_c2f85669dc13e38b_196_toString,"openfl.events.UncaughtErrorEvent","toString",0x4ef19afc,"openfl.events.UncaughtErrorEvent.toString","openfl/events/UncaughtErrorEvent.hx",196,0x0dad2340)
+HX_DEFINE_STACK_FRAME(_hx_pos_c2f85669dc13e38b_19_new,"openfl.events.UncaughtErrorEvent","new",0x17652810,"openfl.events.UncaughtErrorEvent.new","openfl/events/UncaughtErrorEvent.hx",19,0x0dad2340)
+HX_LOCAL_STACK_FRAME(_hx_pos_c2f85669dc13e38b_26_clone,"openfl.events.UncaughtErrorEvent","clone",0x483db70d,"openfl.events.UncaughtErrorEvent.clone","openfl/events/UncaughtErrorEvent.hx",26,0x0dad2340)
+HX_LOCAL_STACK_FRAME(_hx_pos_c2f85669dc13e38b_36_toString,"openfl.events.UncaughtErrorEvent","toString",0x4ef19afc,"openfl.events.UncaughtErrorEvent.toString","openfl/events/UncaughtErrorEvent.hx",36,0x0dad2340)
 static const ::String _hx_array_data_4614201e_3[] = {
 	HX_("type",ba,f2,08,4d),HX_("bubbles",67,bb,56,61),HX_("cancelable",14,a0,79,c4),HX_("error",c8,cb,29,73),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_c2f85669dc13e38b_200___init,"openfl.events.UncaughtErrorEvent","__init",0xd4283480,"openfl.events.UncaughtErrorEvent.__init","openfl/events/UncaughtErrorEvent.hx",200,0x0dad2340)
-HX_LOCAL_STACK_FRAME(_hx_pos_c2f85669dc13e38b_95_boot,"openfl.events.UncaughtErrorEvent","boot",0x5936e682,"openfl.events.UncaughtErrorEvent.boot","openfl/events/UncaughtErrorEvent.hx",95,0x0dad2340)
+HX_LOCAL_STACK_FRAME(_hx_pos_c2f85669dc13e38b_40___init,"openfl.events.UncaughtErrorEvent","__init",0xd4283480,"openfl.events.UncaughtErrorEvent.__init","openfl/events/UncaughtErrorEvent.hx",40,0x0dad2340)
+HX_LOCAL_STACK_FRAME(_hx_pos_c2f85669dc13e38b_11_boot,"openfl.events.UncaughtErrorEvent","boot",0x5936e682,"openfl.events.UncaughtErrorEvent.boot","openfl/events/UncaughtErrorEvent.hx",11,0x0dad2340)
 namespace openfl{
 namespace events{
 
 void UncaughtErrorEvent_obj::__construct(::String type,::hx::Null< bool >  __o_bubbles,::hx::Null< bool >  __o_cancelable, ::Dynamic error){
             		bool bubbles = __o_bubbles.Default(true);
             		bool cancelable = __o_cancelable.Default(true);
-            	HX_STACKFRAME(&_hx_pos_c2f85669dc13e38b_179_new)
-HXLINE( 180)		super::__construct(type,bubbles,cancelable,null(),null());
-HXLINE( 182)		this->error = error;
+            	HX_STACKFRAME(&_hx_pos_c2f85669dc13e38b_19_new)
+HXLINE(  20)		super::__construct(type,bubbles,cancelable,null(),null());
+HXLINE(  22)		this->error = error;
             	}
 
 Dynamic UncaughtErrorEvent_obj::__CreateEmpty() { return new UncaughtErrorEvent_obj; }
@@ -57,25 +57,25 @@ bool UncaughtErrorEvent_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::openfl::events::Event UncaughtErrorEvent_obj::clone(){
-            	HX_GC_STACKFRAME(&_hx_pos_c2f85669dc13e38b_186_clone)
-HXLINE( 187)		 ::openfl::events::UncaughtErrorEvent event =  ::openfl::events::UncaughtErrorEvent_obj::__alloc( HX_CTX ,this->type,this->bubbles,this->cancelable,this->error);
-HXLINE( 188)		event->target = this->target;
-HXLINE( 189)		event->currentTarget = this->currentTarget;
-HXLINE( 190)		event->eventPhase = this->eventPhase;
-HXLINE( 191)		return event;
+            	HX_GC_STACKFRAME(&_hx_pos_c2f85669dc13e38b_26_clone)
+HXLINE(  27)		 ::openfl::events::UncaughtErrorEvent event =  ::openfl::events::UncaughtErrorEvent_obj::__alloc( HX_CTX ,this->type,this->bubbles,this->cancelable,this->error);
+HXLINE(  28)		event->target = this->target;
+HXLINE(  29)		event->currentTarget = this->currentTarget;
+HXLINE(  30)		event->eventPhase = this->eventPhase;
+HXLINE(  31)		return event;
             	}
 
 
 ::String UncaughtErrorEvent_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_c2f85669dc13e38b_196_toString)
-HXDLIN( 196)		return this->_hx___formatToString(HX_("UncaughtErrorEvent",47,72,9a,e0),::Array_obj< ::String >::fromData( _hx_array_data_4614201e_3,4));
+            	HX_STACKFRAME(&_hx_pos_c2f85669dc13e38b_36_toString)
+HXDLIN(  36)		return this->_hx___formatToString(HX_("UncaughtErrorEvent",47,72,9a,e0),::Array_obj< ::String >::fromData( _hx_array_data_4614201e_3,4));
             	}
 
 
 void UncaughtErrorEvent_obj::_hx___init(){
-            	HX_STACKFRAME(&_hx_pos_c2f85669dc13e38b_200___init)
-HXLINE( 201)		this->super::_hx___init();
-HXLINE( 202)		this->error = null();
+            	HX_STACKFRAME(&_hx_pos_c2f85669dc13e38b_40___init)
+HXLINE(  41)		this->super::_hx___init();
+HXLINE(  42)		this->error = null();
             	}
 
 
@@ -210,8 +210,8 @@ void UncaughtErrorEvent_obj::__register()
 void UncaughtErrorEvent_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_c2f85669dc13e38b_95_boot)
-HXDLIN(  95)		UNCAUGHT_ERROR = HX_("uncaughtError",f3,98,8b,8b);
+            	HX_STACKFRAME(&_hx_pos_c2f85669dc13e38b_11_boot)
+HXDLIN(  11)		UNCAUGHT_ERROR = HX_("uncaughtError",f3,98,8b,8b);
             	}
 }
 

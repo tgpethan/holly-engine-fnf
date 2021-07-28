@@ -29,11 +29,9 @@
 
 HX_DEFINE_STACK_FRAME(_hx_pos_a4370a0a6fec63c7_16_new,"flixel.tweens.misc.VarTween","new",0x19cf09e4,"flixel.tweens.misc.VarTween.new","flixel/tweens/misc/VarTween.hx",16,0x836bddcb)
 HX_LOCAL_STACK_FRAME(_hx_pos_a4370a0a6fec63c7_27_tween,"flixel.tweens.misc.VarTween","tween",0xf3504cef,"flixel.tweens.misc.VarTween.tween","flixel/tweens/misc/VarTween.hx",27,0x836bddcb)
-HX_LOCAL_STACK_FRAME(_hx_pos_a4370a0a6fec63c7_45_update,"flixel.tweens.misc.VarTween","update",0x50d41705,"flixel.tweens.misc.VarTween.update","flixel/tweens/misc/VarTween.hx",45,0x836bddcb)
+HX_LOCAL_STACK_FRAME(_hx_pos_a4370a0a6fec63c7_44_update,"flixel.tweens.misc.VarTween","update",0x50d41705,"flixel.tweens.misc.VarTween.update","flixel/tweens/misc/VarTween.hx",44,0x836bddcb)
 HX_LOCAL_STACK_FRAME(_hx_pos_a4370a0a6fec63c7_65_initializeVars,"flixel.tweens.misc.VarTween","initializeVars",0x0a5a5e18,"flixel.tweens.misc.VarTween.initializeVars","flixel/tweens/misc/VarTween.hx",65,0x836bddcb)
-HX_LOCAL_STACK_FRAME(_hx_pos_a4370a0a6fec63c7_95_setStartValues,"flixel.tweens.misc.VarTween","setStartValues",0x27dd8a5e,"flixel.tweens.misc.VarTween.setStartValues","flixel/tweens/misc/VarTween.hx",95,0x836bddcb)
-HX_LOCAL_STACK_FRAME(_hx_pos_a4370a0a6fec63c7_110_destroy,"flixel.tweens.misc.VarTween","destroy",0xef76787e,"flixel.tweens.misc.VarTween.destroy","flixel/tweens/misc/VarTween.hx",110,0x836bddcb)
-HX_LOCAL_STACK_FRAME(_hx_pos_a4370a0a6fec63c7_118_isTweenOf,"flixel.tweens.misc.VarTween","isTweenOf",0x7afc521c,"flixel.tweens.misc.VarTween.isTweenOf","flixel/tweens/misc/VarTween.hx",118,0x836bddcb)
+HX_LOCAL_STACK_FRAME(_hx_pos_a4370a0a6fec63c7_102_destroy,"flixel.tweens.misc.VarTween","destroy",0xef76787e,"flixel.tweens.misc.VarTween.destroy","flixel/tweens/misc/VarTween.hx",102,0x836bddcb)
 namespace flixel{
 namespace tweens{
 namespace misc{
@@ -69,28 +67,27 @@ HXLINE(  36)		this->_properties = properties;
 HXLINE(  37)		this->_propertyInfos = ::Array_obj< ::Dynamic>::__new(0);
 HXLINE(  38)		this->duration = duration;
 HXLINE(  39)		this->start();
-HXLINE(  40)		this->initializeVars();
-HXLINE(  41)		return ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(  40)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(VarTween_obj,tween,return )
 
 void VarTween_obj::update(Float elapsed){
-            	HX_STACKFRAME(&_hx_pos_a4370a0a6fec63c7_45_update)
-HXLINE(  46)		Float delay;
-HXDLIN(  46)		if ((this->executions > 0)) {
-HXLINE(  46)			delay = this->loopDelay;
+            	HX_STACKFRAME(&_hx_pos_a4370a0a6fec63c7_44_update)
+HXLINE(  45)		Float delay;
+HXDLIN(  45)		if ((this->executions > 0)) {
+HXLINE(  45)			delay = this->loopDelay;
             		}
             		else {
-HXLINE(  46)			delay = this->startDelay;
+HXLINE(  45)			delay = this->startDelay;
             		}
-HXLINE(  49)		if ((this->_secondsSinceStart < delay)) {
-HXLINE(  50)			this->super::update(elapsed);
+HXLINE(  48)		if ((this->_secondsSinceStart < delay)) {
+HXLINE(  49)			this->super::update(elapsed);
             		}
             		else {
-HXLINE(  54)			if (::Math_obj::isNaN(( (Float)(this->_propertyInfos->__get(0)->__Field(HX_("startValue",af,57,cf,4d),::hx::paccDynamic)) ))) {
-HXLINE(  55)				this->setStartValues();
+HXLINE(  54)			if ((this->_propertyInfos->length == 0)) {
+HXLINE(  55)				this->initializeVars();
             			}
 HXLINE(  57)			this->super::update(elapsed);
 HXLINE(  59)			{
@@ -134,13 +131,19 @@ HXLINE(  81)							HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(((((HX_("The 
             						}
             					}
             				}
-HXLINE(  84)				::Array< ::Dynamic> _hx_tmp = this->_propertyInfos;
-HXLINE(  87)				Float _hx_tmp1 = ::Math_obj::NaN;
-HXLINE(  84)				_hx_tmp->push( ::Dynamic(::hx::Anon_obj::Create(4)
-            					->setFixed(0,HX_("range",bd,a5,1f,e4),( (Float)(::Reflect_obj::getProperty(this->_properties,fieldPath)) ))
+HXLINE(  84)				if (::hx::IsNull( ::Reflect_obj::getProperty(target,field) )) {
+HXLINE(  85)					HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(((HX_("The object does not have the property \"",5c,e6,6d,12) + field) + HX_("\"",22,00,00,00))));
+            				}
+HXLINE(  87)				 ::Dynamic value = ::Reflect_obj::getProperty(target,field);
+HXLINE(  88)				if (::Math_obj::isNaN(( (Float)(value) ))) {
+HXLINE(  89)					HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(((HX_("The property \"",06,e3,80,a4) + field) + HX_("\" is not numeric.",66,4f,2a,cf))));
+            				}
+HXLINE(  91)				 ::Dynamic targetValue = ::Reflect_obj::getProperty(this->_properties,fieldPath);
+HXLINE(  92)				this->_propertyInfos->push( ::Dynamic(::hx::Anon_obj::Create(4)
+            					->setFixed(0,HX_("range",bd,a5,1f,e4),(( (Float)(targetValue) ) - ( (Float)(value) )))
             					->setFixed(1,HX_("field",ba,94,93,00),field)
             					->setFixed(2,HX_("object",bf,7e,3f,15),target)
-            					->setFixed(3,HX_("startValue",af,57,cf,4d),_hx_tmp1)));
+            					->setFixed(3,HX_("startValue",af,57,cf,4d),( (Float)(value) ))));
             			}
             		}
             	}
@@ -148,63 +151,12 @@ HXLINE(  84)				_hx_tmp->push( ::Dynamic(::hx::Anon_obj::Create(4)
 
 HX_DEFINE_DYNAMIC_FUNC0(VarTween_obj,initializeVars,(void))
 
-void VarTween_obj::setStartValues(){
-            	HX_STACKFRAME(&_hx_pos_a4370a0a6fec63c7_95_setStartValues)
-HXDLIN(  95)		int _g = 0;
-HXDLIN(  95)		::Array< ::Dynamic> _g1 = this->_propertyInfos;
-HXDLIN(  95)		while((_g < _g1->length)){
-HXDLIN(  95)			 ::Dynamic info = _g1->__get(_g);
-HXDLIN(  95)			_g = (_g + 1);
-HXLINE(  97)			if (::hx::IsNull( ::Reflect_obj::getProperty( ::Dynamic(info->__Field(HX_("object",bf,7e,3f,15),::hx::paccDynamic)),( (::String)(info->__Field(HX_("field",ba,94,93,00),::hx::paccDynamic)) )) )) {
-HXLINE(  98)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::Dynamic(((HX_("The object does not have the property \"",5c,e6,6d,12) + info->__Field(HX_("field",ba,94,93,00),::hx::paccDynamic)) + HX_("\"",22,00,00,00)))));
-            			}
-HXLINE( 100)			 ::Dynamic value = ::Reflect_obj::getProperty( ::Dynamic(info->__Field(HX_("object",bf,7e,3f,15),::hx::paccDynamic)),( (::String)(info->__Field(HX_("field",ba,94,93,00),::hx::paccDynamic)) ));
-HXLINE( 101)			if (::Math_obj::isNaN(( (Float)(value) ))) {
-HXLINE( 102)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::Dynamic(((HX_("The property \"",06,e3,80,a4) + info->__Field(HX_("field",ba,94,93,00),::hx::paccDynamic)) + HX_("\" is not numeric.",66,4f,2a,cf)))));
-            			}
-HXLINE( 104)			info->__SetField(HX_("startValue",af,57,cf,4d),value,::hx::paccDynamic);
-HXLINE( 105)			info->__SetField(HX_("range",bd,a5,1f,e4),(( (Float)(info->__Field(HX_("range",bd,a5,1f,e4),::hx::paccDynamic)) ) - ( (Float)(value) )),::hx::paccDynamic);
-            		}
-            	}
-
-
-HX_DEFINE_DYNAMIC_FUNC0(VarTween_obj,setStartValues,(void))
-
 void VarTween_obj::destroy(){
-            	HX_STACKFRAME(&_hx_pos_a4370a0a6fec63c7_110_destroy)
-HXLINE( 111)		this->super::destroy();
-HXLINE( 112)		this->_object = null();
-HXLINE( 113)		this->_properties = null();
-HXLINE( 114)		this->_propertyInfos = null();
-            	}
-
-
-bool VarTween_obj::isTweenOf( ::Dynamic object,::String field){
-            	HX_STACKFRAME(&_hx_pos_a4370a0a6fec63c7_118_isTweenOf)
-HXLINE( 119)		{
-HXLINE( 119)			int _g = 0;
-HXDLIN( 119)			::Array< ::Dynamic> _g1 = this->_propertyInfos;
-HXDLIN( 119)			while((_g < _g1->length)){
-HXLINE( 119)				 ::Dynamic property = _g1->__get(_g);
-HXDLIN( 119)				_g = (_g + 1);
-HXLINE( 121)				bool _hx_tmp;
-HXDLIN( 121)				if (::hx::IsEq( object,property->__Field(HX_("object",bf,7e,3f,15),::hx::paccDynamic) )) {
-HXLINE( 121)					if (::hx::IsNotEq( field,property->__Field(HX_("field",ba,94,93,00),::hx::paccDynamic) )) {
-HXLINE( 121)						_hx_tmp = ::hx::IsNull( field );
-            					}
-            					else {
-HXLINE( 121)						_hx_tmp = true;
-            					}
-            				}
-            				else {
-HXLINE( 121)					_hx_tmp = false;
-            				}
-HXDLIN( 121)				if (_hx_tmp) {
-HXLINE( 122)					return true;
-            				}
-            			}
-            		}
-HXLINE( 125)		return false;
+            	HX_STACKFRAME(&_hx_pos_a4370a0a6fec63c7_102_destroy)
+HXLINE( 103)		this->super::destroy();
+HXLINE( 104)		this->_object = null();
+HXLINE( 105)		this->_properties = null();
+HXLINE( 106)		this->_propertyInfos = null();
             	}
 
 
@@ -257,16 +209,12 @@ void VarTween_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"_object") ) { return ::hx::Val( _object ); }
 		if (HX_FIELD_EQ(inName,"destroy") ) { return ::hx::Val( destroy_dyn() ); }
 		break;
-	case 9:
-		if (HX_FIELD_EQ(inName,"isTweenOf") ) { return ::hx::Val( isTweenOf_dyn() ); }
-		break;
 	case 11:
 		if (HX_FIELD_EQ(inName,"_properties") ) { return ::hx::Val( _properties ); }
 		break;
 	case 14:
 		if (HX_FIELD_EQ(inName,"_propertyInfos") ) { return ::hx::Val( _propertyInfos ); }
 		if (HX_FIELD_EQ(inName,"initializeVars") ) { return ::hx::Val( initializeVars_dyn() ); }
-		if (HX_FIELD_EQ(inName,"setStartValues") ) { return ::hx::Val( setStartValues_dyn() ); }
 	}
 	return super::__Field(inName,inCallProp);
 }
@@ -311,9 +259,7 @@ static ::String VarTween_obj_sMemberFields[] = {
 	HX_("tween",6b,aa,70,19),
 	HX_("update",09,86,05,87),
 	HX_("initializeVars",1c,71,d8,51),
-	HX_("setStartValues",62,9d,5b,6f),
 	HX_("destroy",fa,2c,86,24),
-	HX_("isTweenOf",98,1d,bf,da),
 	::String(null()) };
 
 ::hx::Class VarTween_obj::__mClass;

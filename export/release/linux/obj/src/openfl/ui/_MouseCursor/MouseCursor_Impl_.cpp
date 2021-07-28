@@ -8,22 +8,22 @@
 #include <openfl/ui/_MouseCursor/MouseCursor_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_5ef75db01c4e3075_53_fromLimeCursor,"openfl.ui._MouseCursor.MouseCursor_Impl_","fromLimeCursor",0x6bf8a63e,"openfl.ui._MouseCursor.MouseCursor_Impl_.fromLimeCursor","openfl/ui/MouseCursor.hx",53,0xebae9dff)
-HX_LOCAL_STACK_FRAME(_hx_pos_5ef75db01c4e3075_74_toLimeCursor,"openfl.ui._MouseCursor.MouseCursor_Impl_","toLimeCursor",0xdd84694f,"openfl.ui._MouseCursor.MouseCursor_Impl_.toLimeCursor","openfl/ui/MouseCursor.hx",74,0xebae9dff)
+HX_LOCAL_STACK_FRAME(_hx_pos_5ef75db01c4e3075_29_fromLimeCursor,"openfl.ui._MouseCursor.MouseCursor_Impl_","fromLimeCursor",0x6bf8a63e,"openfl.ui._MouseCursor.MouseCursor_Impl_.fromLimeCursor","openfl/ui/MouseCursor.hx",29,0xebae9dff)
+HX_LOCAL_STACK_FRAME(_hx_pos_5ef75db01c4e3075_50_toLimeCursor,"openfl.ui._MouseCursor.MouseCursor_Impl_","toLimeCursor",0xdd84694f,"openfl.ui._MouseCursor.MouseCursor_Impl_.toLimeCursor","openfl/ui/MouseCursor.hx",50,0xebae9dff)
+HX_LOCAL_STACK_FRAME(_hx_pos_5ef75db01c4e3075_10_boot,"openfl.ui._MouseCursor.MouseCursor_Impl_","boot",0x3451d35b,"openfl.ui._MouseCursor.MouseCursor_Impl_.boot","openfl/ui/MouseCursor.hx",10,0xebae9dff)
+HX_LOCAL_STACK_FRAME(_hx_pos_5ef75db01c4e3075_11_boot,"openfl.ui._MouseCursor.MouseCursor_Impl_","boot",0x3451d35b,"openfl.ui._MouseCursor.MouseCursor_Impl_.boot","openfl/ui/MouseCursor.hx",11,0xebae9dff)
+HX_LOCAL_STACK_FRAME(_hx_pos_5ef75db01c4e3075_12_boot,"openfl.ui._MouseCursor.MouseCursor_Impl_","boot",0x3451d35b,"openfl.ui._MouseCursor.MouseCursor_Impl_.boot","openfl/ui/MouseCursor.hx",12,0xebae9dff)
+HX_LOCAL_STACK_FRAME(_hx_pos_5ef75db01c4e3075_13_boot,"openfl.ui._MouseCursor.MouseCursor_Impl_","boot",0x3451d35b,"openfl.ui._MouseCursor.MouseCursor_Impl_.boot","openfl/ui/MouseCursor.hx",13,0xebae9dff)
+HX_LOCAL_STACK_FRAME(_hx_pos_5ef75db01c4e3075_14_boot,"openfl.ui._MouseCursor.MouseCursor_Impl_","boot",0x3451d35b,"openfl.ui._MouseCursor.MouseCursor_Impl_.boot","openfl/ui/MouseCursor.hx",14,0xebae9dff)
+HX_LOCAL_STACK_FRAME(_hx_pos_5ef75db01c4e3075_16_boot,"openfl.ui._MouseCursor.MouseCursor_Impl_","boot",0x3451d35b,"openfl.ui._MouseCursor.MouseCursor_Impl_.boot","openfl/ui/MouseCursor.hx",16,0xebae9dff)
 HX_LOCAL_STACK_FRAME(_hx_pos_5ef75db01c4e3075_17_boot,"openfl.ui._MouseCursor.MouseCursor_Impl_","boot",0x3451d35b,"openfl.ui._MouseCursor.MouseCursor_Impl_.boot","openfl/ui/MouseCursor.hx",17,0xebae9dff)
+HX_LOCAL_STACK_FRAME(_hx_pos_5ef75db01c4e3075_18_boot,"openfl.ui._MouseCursor.MouseCursor_Impl_","boot",0x3451d35b,"openfl.ui._MouseCursor.MouseCursor_Impl_.boot","openfl/ui/MouseCursor.hx",18,0xebae9dff)
+HX_LOCAL_STACK_FRAME(_hx_pos_5ef75db01c4e3075_19_boot,"openfl.ui._MouseCursor.MouseCursor_Impl_","boot",0x3451d35b,"openfl.ui._MouseCursor.MouseCursor_Impl_.boot","openfl/ui/MouseCursor.hx",19,0xebae9dff)
+HX_LOCAL_STACK_FRAME(_hx_pos_5ef75db01c4e3075_20_boot,"openfl.ui._MouseCursor.MouseCursor_Impl_","boot",0x3451d35b,"openfl.ui._MouseCursor.MouseCursor_Impl_.boot","openfl/ui/MouseCursor.hx",20,0xebae9dff)
+HX_LOCAL_STACK_FRAME(_hx_pos_5ef75db01c4e3075_21_boot,"openfl.ui._MouseCursor.MouseCursor_Impl_","boot",0x3451d35b,"openfl.ui._MouseCursor.MouseCursor_Impl_.boot","openfl/ui/MouseCursor.hx",21,0xebae9dff)
+HX_LOCAL_STACK_FRAME(_hx_pos_5ef75db01c4e3075_22_boot,"openfl.ui._MouseCursor.MouseCursor_Impl_","boot",0x3451d35b,"openfl.ui._MouseCursor.MouseCursor_Impl_.boot","openfl/ui/MouseCursor.hx",22,0xebae9dff)
 HX_LOCAL_STACK_FRAME(_hx_pos_5ef75db01c4e3075_23_boot,"openfl.ui._MouseCursor.MouseCursor_Impl_","boot",0x3451d35b,"openfl.ui._MouseCursor.MouseCursor_Impl_.boot","openfl/ui/MouseCursor.hx",23,0xebae9dff)
-HX_LOCAL_STACK_FRAME(_hx_pos_5ef75db01c4e3075_28_boot,"openfl.ui._MouseCursor.MouseCursor_Impl_","boot",0x3451d35b,"openfl.ui._MouseCursor.MouseCursor_Impl_.boot","openfl/ui/MouseCursor.hx",28,0xebae9dff)
-HX_LOCAL_STACK_FRAME(_hx_pos_5ef75db01c4e3075_33_boot,"openfl.ui._MouseCursor.MouseCursor_Impl_","boot",0x3451d35b,"openfl.ui._MouseCursor.MouseCursor_Impl_.boot","openfl/ui/MouseCursor.hx",33,0xebae9dff)
-HX_LOCAL_STACK_FRAME(_hx_pos_5ef75db01c4e3075_38_boot,"openfl.ui._MouseCursor.MouseCursor_Impl_","boot",0x3451d35b,"openfl.ui._MouseCursor.MouseCursor_Impl_.boot","openfl/ui/MouseCursor.hx",38,0xebae9dff)
-HX_LOCAL_STACK_FRAME(_hx_pos_5ef75db01c4e3075_40_boot,"openfl.ui._MouseCursor.MouseCursor_Impl_","boot",0x3451d35b,"openfl.ui._MouseCursor.MouseCursor_Impl_.boot","openfl/ui/MouseCursor.hx",40,0xebae9dff)
-HX_LOCAL_STACK_FRAME(_hx_pos_5ef75db01c4e3075_41_boot,"openfl.ui._MouseCursor.MouseCursor_Impl_","boot",0x3451d35b,"openfl.ui._MouseCursor.MouseCursor_Impl_.boot","openfl/ui/MouseCursor.hx",41,0xebae9dff)
-HX_LOCAL_STACK_FRAME(_hx_pos_5ef75db01c4e3075_42_boot,"openfl.ui._MouseCursor.MouseCursor_Impl_","boot",0x3451d35b,"openfl.ui._MouseCursor.MouseCursor_Impl_.boot","openfl/ui/MouseCursor.hx",42,0xebae9dff)
-HX_LOCAL_STACK_FRAME(_hx_pos_5ef75db01c4e3075_43_boot,"openfl.ui._MouseCursor.MouseCursor_Impl_","boot",0x3451d35b,"openfl.ui._MouseCursor.MouseCursor_Impl_.boot","openfl/ui/MouseCursor.hx",43,0xebae9dff)
-HX_LOCAL_STACK_FRAME(_hx_pos_5ef75db01c4e3075_44_boot,"openfl.ui._MouseCursor.MouseCursor_Impl_","boot",0x3451d35b,"openfl.ui._MouseCursor.MouseCursor_Impl_.boot","openfl/ui/MouseCursor.hx",44,0xebae9dff)
-HX_LOCAL_STACK_FRAME(_hx_pos_5ef75db01c4e3075_45_boot,"openfl.ui._MouseCursor.MouseCursor_Impl_","boot",0x3451d35b,"openfl.ui._MouseCursor.MouseCursor_Impl_.boot","openfl/ui/MouseCursor.hx",45,0xebae9dff)
-HX_LOCAL_STACK_FRAME(_hx_pos_5ef75db01c4e3075_46_boot,"openfl.ui._MouseCursor.MouseCursor_Impl_","boot",0x3451d35b,"openfl.ui._MouseCursor.MouseCursor_Impl_.boot","openfl/ui/MouseCursor.hx",46,0xebae9dff)
-HX_LOCAL_STACK_FRAME(_hx_pos_5ef75db01c4e3075_47_boot,"openfl.ui._MouseCursor.MouseCursor_Impl_","boot",0x3451d35b,"openfl.ui._MouseCursor.MouseCursor_Impl_.boot","openfl/ui/MouseCursor.hx",47,0xebae9dff)
-HX_LOCAL_STACK_FRAME(_hx_pos_5ef75db01c4e3075_48_boot,"openfl.ui._MouseCursor.MouseCursor_Impl_","boot",0x3451d35b,"openfl.ui._MouseCursor.MouseCursor_Impl_.boot","openfl/ui/MouseCursor.hx",48,0xebae9dff)
+HX_LOCAL_STACK_FRAME(_hx_pos_5ef75db01c4e3075_24_boot,"openfl.ui._MouseCursor.MouseCursor_Impl_","boot",0x3451d35b,"openfl.ui._MouseCursor.MouseCursor_Impl_.boot","openfl/ui/MouseCursor.hx",24,0xebae9dff)
 namespace openfl{
 namespace ui{
 namespace _MouseCursor{
@@ -74,127 +74,127 @@ bool MouseCursor_Impl__obj::_hx_isInstanceOf(int inClassId) {
 ::String MouseCursor_Impl__obj::_hx___WAIT_ARROW;
 
 ::String MouseCursor_Impl__obj::fromLimeCursor( ::lime::ui::MouseCursor cursor){
-            	HX_STACKFRAME(&_hx_pos_5ef75db01c4e3075_53_fromLimeCursor)
-HXDLIN(  53)		switch((int)(cursor->_hx_getIndex())){
+            	HX_STACKFRAME(&_hx_pos_5ef75db01c4e3075_29_fromLimeCursor)
+HXDLIN(  29)		switch((int)(cursor->_hx_getIndex())){
             			case (int)0: {
-HXLINE(  55)				return HX_("arrow",c9,79,8f,25);
+HXLINE(  31)				return HX_("arrow",c9,79,8f,25);
             			}
             			break;
             			case (int)1: {
-HXLINE(  60)				return HX_("crosshair",a2,46,c8,8a);
+HXLINE(  36)				return HX_("crosshair",a2,46,c8,8a);
             			}
             			break;
             			case (int)2: {
-HXLINE(  56)				return HX_("auto",6f,df,76,40);
+HXLINE(  32)				return HX_("auto",6f,df,76,40);
             			}
             			break;
             			case (int)3: {
-HXLINE(  58)				return HX_("hand",6f,2b,08,45);
+HXLINE(  34)				return HX_("hand",6f,2b,08,45);
             			}
             			break;
             			case (int)4: {
-HXLINE(  57)				return HX_("button",f2,61,e0,d9);
+HXLINE(  33)				return HX_("button",f2,61,e0,d9);
             			}
             			break;
             			case (int)5: {
-HXLINE(  61)				return HX_("resize_nesw",06,ae,e9,a7);
+HXLINE(  37)				return HX_("resize_nesw",06,ae,e9,a7);
             			}
             			break;
             			case (int)6: {
-HXLINE(  62)				return HX_("resize_ns",f0,cc,f2,ab);
+HXLINE(  38)				return HX_("resize_ns",f0,cc,f2,ab);
             			}
             			break;
             			case (int)7: {
-HXLINE(  63)				return HX_("resize_nwse",86,56,f7,a7);
+HXLINE(  39)				return HX_("resize_nwse",86,56,f7,a7);
             			}
             			break;
             			case (int)8: {
-HXLINE(  64)				return HX_("resize_we",b9,d4,f2,ab);
+HXLINE(  40)				return HX_("resize_we",b9,d4,f2,ab);
             			}
             			break;
             			case (int)9: {
-HXLINE(  59)				return HX_("ibeam",58,ca,26,b6);
+HXLINE(  35)				return HX_("ibeam",58,ca,26,b6);
             			}
             			break;
             			case (int)10: {
-HXLINE(  65)				return HX_("wait",75,5a,f2,4e);
+HXLINE(  41)				return HX_("wait",75,5a,f2,4e);
             			}
             			break;
             			case (int)11: {
-HXLINE(  66)				return HX_("waitarrow",34,17,98,4f);
+HXLINE(  42)				return HX_("waitarrow",34,17,98,4f);
             			}
             			break;
             			case (int)12: {
-HXLINE(  67)				return HX_("custom",b1,87,92,3f);
+HXLINE(  43)				return HX_("custom",b1,87,92,3f);
             			}
             			break;
             		}
-HXLINE(  53)		return null();
+HXLINE(  29)		return null();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(MouseCursor_Impl__obj,fromLimeCursor,return )
 
  ::lime::ui::MouseCursor MouseCursor_Impl__obj::toLimeCursor(::String this1){
-            	HX_STACKFRAME(&_hx_pos_5ef75db01c4e3075_74_toLimeCursor)
-HXDLIN(  74)		::String _hx_switch_0 = this1;
+            	HX_STACKFRAME(&_hx_pos_5ef75db01c4e3075_50_toLimeCursor)
+HXDLIN(  50)		::String _hx_switch_0 = this1;
             		if (  (_hx_switch_0==HX_("arrow",c9,79,8f,25)) ){
-HXLINE(  76)			return ::lime::ui::MouseCursor_obj::ARROW_dyn();
-HXDLIN(  76)			goto _hx_goto_1;
+HXLINE(  52)			return ::lime::ui::MouseCursor_obj::ARROW_dyn();
+HXDLIN(  52)			goto _hx_goto_1;
             		}
             		if (  (_hx_switch_0==HX_("auto",6f,df,76,40)) ){
-HXLINE(  77)			return ::lime::ui::MouseCursor_obj::DEFAULT_dyn();
-HXDLIN(  77)			goto _hx_goto_1;
+HXLINE(  53)			return ::lime::ui::MouseCursor_obj::DEFAULT_dyn();
+HXDLIN(  53)			goto _hx_goto_1;
             		}
             		if (  (_hx_switch_0==HX_("button",f2,61,e0,d9)) ){
-HXLINE(  78)			return ::lime::ui::MouseCursor_obj::POINTER_dyn();
-HXDLIN(  78)			goto _hx_goto_1;
+HXLINE(  54)			return ::lime::ui::MouseCursor_obj::POINTER_dyn();
+HXDLIN(  54)			goto _hx_goto_1;
             		}
             		if (  (_hx_switch_0==HX_("crosshair",a2,46,c8,8a)) ){
-HXLINE(  81)			return ::lime::ui::MouseCursor_obj::CROSSHAIR_dyn();
-HXDLIN(  81)			goto _hx_goto_1;
+HXLINE(  57)			return ::lime::ui::MouseCursor_obj::CROSSHAIR_dyn();
+HXDLIN(  57)			goto _hx_goto_1;
             		}
             		if (  (_hx_switch_0==HX_("custom",b1,87,92,3f)) ){
-HXLINE(  88)			return ::lime::ui::MouseCursor_obj::CUSTOM_dyn();
-HXDLIN(  88)			goto _hx_goto_1;
+HXLINE(  64)			return ::lime::ui::MouseCursor_obj::CUSTOM_dyn();
+HXDLIN(  64)			goto _hx_goto_1;
             		}
             		if (  (_hx_switch_0==HX_("hand",6f,2b,08,45)) ){
-HXLINE(  79)			return ::lime::ui::MouseCursor_obj::MOVE_dyn();
-HXDLIN(  79)			goto _hx_goto_1;
+HXLINE(  55)			return ::lime::ui::MouseCursor_obj::MOVE_dyn();
+HXDLIN(  55)			goto _hx_goto_1;
             		}
             		if (  (_hx_switch_0==HX_("ibeam",58,ca,26,b6)) ){
-HXLINE(  80)			return ::lime::ui::MouseCursor_obj::TEXT_dyn();
-HXDLIN(  80)			goto _hx_goto_1;
+HXLINE(  56)			return ::lime::ui::MouseCursor_obj::TEXT_dyn();
+HXDLIN(  56)			goto _hx_goto_1;
             		}
             		if (  (_hx_switch_0==HX_("resize_nesw",06,ae,e9,a7)) ){
-HXLINE(  82)			return ::lime::ui::MouseCursor_obj::RESIZE_NESW_dyn();
-HXDLIN(  82)			goto _hx_goto_1;
+HXLINE(  58)			return ::lime::ui::MouseCursor_obj::RESIZE_NESW_dyn();
+HXDLIN(  58)			goto _hx_goto_1;
             		}
             		if (  (_hx_switch_0==HX_("resize_ns",f0,cc,f2,ab)) ){
-HXLINE(  83)			return ::lime::ui::MouseCursor_obj::RESIZE_NS_dyn();
-HXDLIN(  83)			goto _hx_goto_1;
+HXLINE(  59)			return ::lime::ui::MouseCursor_obj::RESIZE_NS_dyn();
+HXDLIN(  59)			goto _hx_goto_1;
             		}
             		if (  (_hx_switch_0==HX_("resize_nwse",86,56,f7,a7)) ){
-HXLINE(  84)			return ::lime::ui::MouseCursor_obj::RESIZE_NWSE_dyn();
-HXDLIN(  84)			goto _hx_goto_1;
+HXLINE(  60)			return ::lime::ui::MouseCursor_obj::RESIZE_NWSE_dyn();
+HXDLIN(  60)			goto _hx_goto_1;
             		}
             		if (  (_hx_switch_0==HX_("resize_we",b9,d4,f2,ab)) ){
-HXLINE(  85)			return ::lime::ui::MouseCursor_obj::RESIZE_WE_dyn();
-HXDLIN(  85)			goto _hx_goto_1;
+HXLINE(  61)			return ::lime::ui::MouseCursor_obj::RESIZE_WE_dyn();
+HXDLIN(  61)			goto _hx_goto_1;
             		}
             		if (  (_hx_switch_0==HX_("wait",75,5a,f2,4e)) ){
-HXLINE(  86)			return ::lime::ui::MouseCursor_obj::WAIT_dyn();
-HXDLIN(  86)			goto _hx_goto_1;
+HXLINE(  62)			return ::lime::ui::MouseCursor_obj::WAIT_dyn();
+HXDLIN(  62)			goto _hx_goto_1;
             		}
             		if (  (_hx_switch_0==HX_("waitarrow",34,17,98,4f)) ){
-HXLINE(  87)			return ::lime::ui::MouseCursor_obj::WAIT_ARROW_dyn();
-HXDLIN(  87)			goto _hx_goto_1;
+HXLINE(  63)			return ::lime::ui::MouseCursor_obj::WAIT_ARROW_dyn();
+HXDLIN(  63)			goto _hx_goto_1;
             		}
             		/* default */{
-HXLINE(  89)			return ::lime::ui::MouseCursor_obj::DEFAULT_dyn();
+HXLINE(  65)			return ::lime::ui::MouseCursor_obj::DEFAULT_dyn();
             		}
             		_hx_goto_1:;
-HXLINE(  74)		return null();
+HXLINE(  50)		return null();
             	}
 
 
@@ -327,60 +327,60 @@ void MouseCursor_Impl__obj::__register()
 void MouseCursor_Impl__obj::__boot()
 {
 {
+            	HX_STACKFRAME(&_hx_pos_5ef75db01c4e3075_10_boot)
+HXDLIN(  10)		ARROW = HX_("arrow",c9,79,8f,25);
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_5ef75db01c4e3075_11_boot)
+HXDLIN(  11)		AUTO = HX_("auto",6f,df,76,40);
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_5ef75db01c4e3075_12_boot)
+HXDLIN(  12)		BUTTON = HX_("button",f2,61,e0,d9);
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_5ef75db01c4e3075_13_boot)
+HXDLIN(  13)		HAND = HX_("hand",6f,2b,08,45);
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_5ef75db01c4e3075_14_boot)
+HXDLIN(  14)		IBEAM = HX_("ibeam",58,ca,26,b6);
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_5ef75db01c4e3075_16_boot)
+HXDLIN(  16)		_hx___CROSSHAIR = HX_("crosshair",a2,46,c8,8a);
+            	}
+{
             	HX_STACKFRAME(&_hx_pos_5ef75db01c4e3075_17_boot)
-HXDLIN(  17)		ARROW = HX_("arrow",c9,79,8f,25);
+HXDLIN(  17)		_hx___CUSTOM = HX_("custom",b1,87,92,3f);
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_5ef75db01c4e3075_18_boot)
+HXDLIN(  18)		_hx___MOVE = HX_("move",11,e3,60,48);
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_5ef75db01c4e3075_19_boot)
+HXDLIN(  19)		_hx___RESIZE_NESW = HX_("resize_nesw",06,ae,e9,a7);
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_5ef75db01c4e3075_20_boot)
+HXDLIN(  20)		_hx___RESIZE_NS = HX_("resize_ns",f0,cc,f2,ab);
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_5ef75db01c4e3075_21_boot)
+HXDLIN(  21)		_hx___RESIZE_NWSE = HX_("resize_nwse",86,56,f7,a7);
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_5ef75db01c4e3075_22_boot)
+HXDLIN(  22)		_hx___RESIZE_WE = HX_("resize_we",b9,d4,f2,ab);
             	}
 {
             	HX_STACKFRAME(&_hx_pos_5ef75db01c4e3075_23_boot)
-HXDLIN(  23)		AUTO = HX_("auto",6f,df,76,40);
+HXDLIN(  23)		_hx___WAIT = HX_("wait",75,5a,f2,4e);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_5ef75db01c4e3075_28_boot)
-HXDLIN(  28)		BUTTON = HX_("button",f2,61,e0,d9);
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_5ef75db01c4e3075_33_boot)
-HXDLIN(  33)		HAND = HX_("hand",6f,2b,08,45);
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_5ef75db01c4e3075_38_boot)
-HXDLIN(  38)		IBEAM = HX_("ibeam",58,ca,26,b6);
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_5ef75db01c4e3075_40_boot)
-HXDLIN(  40)		_hx___CROSSHAIR = HX_("crosshair",a2,46,c8,8a);
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_5ef75db01c4e3075_41_boot)
-HXDLIN(  41)		_hx___CUSTOM = HX_("custom",b1,87,92,3f);
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_5ef75db01c4e3075_42_boot)
-HXDLIN(  42)		_hx___MOVE = HX_("move",11,e3,60,48);
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_5ef75db01c4e3075_43_boot)
-HXDLIN(  43)		_hx___RESIZE_NESW = HX_("resize_nesw",06,ae,e9,a7);
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_5ef75db01c4e3075_44_boot)
-HXDLIN(  44)		_hx___RESIZE_NS = HX_("resize_ns",f0,cc,f2,ab);
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_5ef75db01c4e3075_45_boot)
-HXDLIN(  45)		_hx___RESIZE_NWSE = HX_("resize_nwse",86,56,f7,a7);
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_5ef75db01c4e3075_46_boot)
-HXDLIN(  46)		_hx___RESIZE_WE = HX_("resize_we",b9,d4,f2,ab);
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_5ef75db01c4e3075_47_boot)
-HXDLIN(  47)		_hx___WAIT = HX_("wait",75,5a,f2,4e);
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_5ef75db01c4e3075_48_boot)
-HXDLIN(  48)		_hx___WAIT_ARROW = HX_("waitarrow",34,17,98,4f);
+            	HX_STACKFRAME(&_hx_pos_5ef75db01c4e3075_24_boot)
+HXDLIN(  24)		_hx___WAIT_ARROW = HX_("waitarrow",34,17,98,4f);
             	}
 }
 

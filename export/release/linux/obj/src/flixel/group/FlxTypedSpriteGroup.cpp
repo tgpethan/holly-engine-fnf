@@ -707,15 +707,14 @@ HXDLIN( 297)				sprite->set_clipRect(rect);
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxTypedSpriteGroup_obj,preAdd,(void))
 
- ::Dynamic FlxTypedSpriteGroup_obj::recycle(::hx::Class ObjectClass, ::Dynamic ObjectFactory,::hx::Null< bool >  __o_Force,::hx::Null< bool >  __o_Revive){
+ ::Dynamic FlxTypedSpriteGroup_obj::recycle(::hx::Class ObjectClass, ::Dynamic ObjectFactory,::hx::Null< bool >  __o_Force){
             		bool Force = __o_Force.Default(false);
-            		bool Revive = __o_Revive.Default(true);
             	HX_STACKFRAME(&_hx_pos_790ec110ce1e7f7f_327_recycle)
-HXDLIN( 327)		return this->group->recycle(ObjectClass,ObjectFactory,Force,Revive);
+HXDLIN( 327)		return this->group->recycle(ObjectClass,ObjectFactory,Force,null());
             	}
 
 
-HX_DEFINE_DYNAMIC_FUNC4(FlxTypedSpriteGroup_obj,recycle,return )
+HX_DEFINE_DYNAMIC_FUNC3(FlxTypedSpriteGroup_obj,recycle,return )
 
  ::Dynamic FlxTypedSpriteGroup_obj::remove( ::Dynamic Sprite,::hx::Null< bool >  __o_Splice){
             		bool Splice = __o_Splice.Default(false);

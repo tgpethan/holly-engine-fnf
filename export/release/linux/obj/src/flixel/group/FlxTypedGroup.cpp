@@ -57,51 +57,51 @@
 #include <flixel/util/_FlxSignal/FlxSignal1.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_23_new,"flixel.group.FlxTypedGroup","new",0x9772c4d8,"flixel.group.FlxTypedGroup.new","flixel/group/FlxGroup.hx",23,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_138_destroy,"flixel.group.FlxTypedGroup","destroy",0x8044bd72,"flixel.group.FlxTypedGroup.destroy","flixel/group/FlxGroup.hx",138,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_165_update,"flixel.group.FlxTypedGroup","update",0x4e08ac91,"flixel.group.FlxTypedGroup.update","flixel/group/FlxGroup.hx",165,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_184_draw,"flixel.group.FlxTypedGroup","draw",0xe667208c,"flixel.group.FlxTypedGroup.draw","flixel/group/FlxGroup.hx",184,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_218_add,"flixel.group.FlxTypedGroup","add",0x9768e699,"flixel.group.FlxTypedGroup.add","flixel/group/FlxGroup.hx",218,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_273_insert,"flixel.group.FlxTypedGroup","insert",0x64e069c1,"flixel.group.FlxTypedGroup.insert","flixel/group/FlxGroup.hx",273,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_335_recycle,"flixel.group.FlxTypedGroup","recycle",0x934aa08b,"flixel.group.FlxTypedGroup.recycle","flixel/group/FlxGroup.hx",335,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_378_recycleCreateObject,"flixel.group.FlxTypedGroup","recycleCreateObject",0x87e5d006,"flixel.group.FlxTypedGroup.recycleCreateObject","flixel/group/FlxGroup.hx",378,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_397_remove,"flixel.group.FlxTypedGroup","remove",0xcb8bc2cc,"flixel.group.FlxTypedGroup.remove","flixel/group/FlxGroup.hx",397,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_429_replace,"flixel.group.FlxTypedGroup","replace",0x06e6d8ac,"flixel.group.FlxTypedGroup.replace","flixel/group/FlxGroup.hx",429,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_457_sort,"flixel.group.FlxTypedGroup","sort",0xf04f1be6,"flixel.group.FlxTypedGroup.sort","flixel/group/FlxGroup.hx",457,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_470_getFirstAvailable,"flixel.group.FlxTypedGroup","getFirstAvailable",0x3f88c127,"flixel.group.FlxTypedGroup.getFirstAvailable","flixel/group/FlxGroup.hx",470,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_498_getFirstNull,"flixel.group.FlxTypedGroup","getFirstNull",0xc17e73e9,"flixel.group.FlxTypedGroup.getFirstNull","flixel/group/FlxGroup.hx",498,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_518_getFirstExisting,"flixel.group.FlxTypedGroup","getFirstExisting",0x314444ed,"flixel.group.FlxTypedGroup.getFirstExisting","flixel/group/FlxGroup.hx",518,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_540_getFirstAlive,"flixel.group.FlxTypedGroup","getFirstAlive",0x0afc442b,"flixel.group.FlxTypedGroup.getFirstAlive","flixel/group/FlxGroup.hx",540,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_562_getFirstDead,"flixel.group.FlxTypedGroup","getFirstDead",0xbad62406,"flixel.group.FlxTypedGroup.getFirstDead","flixel/group/FlxGroup.hx",562,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_583_countLiving,"flixel.group.FlxTypedGroup","countLiving",0x0ee705d0,"flixel.group.FlxTypedGroup.countLiving","flixel/group/FlxGroup.hx",583,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_610_countDead,"flixel.group.FlxTypedGroup","countDead",0x0964718b,"flixel.group.FlxTypedGroup.countDead","flixel/group/FlxGroup.hx",610,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_640_getRandom,"flixel.group.FlxTypedGroup","getRandom",0xe8c349b1,"flixel.group.FlxTypedGroup.getRandom","flixel/group/FlxGroup.hx",640,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_654_clear,"flixel.group.FlxTypedGroup","clear",0x1c7a7405,"flixel.group.FlxTypedGroup.clear","flixel/group/FlxGroup.hx",654,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_674_kill,"flixel.group.FlxTypedGroup","kill",0xeb00d426,"flixel.group.FlxTypedGroup.kill","flixel/group/FlxGroup.hx",674,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_693_revive,"flixel.group.FlxTypedGroup","revive",0xd17a20dd,"flixel.group.FlxTypedGroup.revive","flixel/group/FlxGroup.hx",693,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_713_iterator,"flixel.group.FlxTypedGroup","iterator",0x7e9a2276,"flixel.group.FlxTypedGroup.iterator","flixel/group/FlxGroup.hx",713,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_723_forEach,"flixel.group.FlxTypedGroup","forEach",0x207cba22,"flixel.group.FlxTypedGroup.forEach","flixel/group/FlxGroup.hx",723,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_752_forEachAlive,"flixel.group.FlxTypedGroup","forEachAlive",0x4c021e4b,"flixel.group.FlxTypedGroup.forEachAlive","flixel/group/FlxGroup.hx",752,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_781_forEachDead,"flixel.group.FlxTypedGroup","forEachDead",0x5740ede6,"flixel.group.FlxTypedGroup.forEachDead","flixel/group/FlxGroup.hx",781,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_810_forEachExists,"flixel.group.FlxTypedGroup","forEachExists",0xb812919e,"flixel.group.FlxTypedGroup.forEachExists","flixel/group/FlxGroup.hx",810,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_840_forEachOfType,"flixel.group.FlxTypedGroup","forEachOfType",0x4c90cb33,"flixel.group.FlxTypedGroup.forEachOfType","flixel/group/FlxGroup.hx",840,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_865_set_maxSize,"flixel.group.FlxTypedGroup","set_maxSize",0x3b478d20,"flixel.group.FlxTypedGroup.set_maxSize","flixel/group/FlxGroup.hx",865,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_900_get_memberAdded,"flixel.group.FlxTypedGroup","get_memberAdded",0xd5201c15,"flixel.group.FlxTypedGroup.get_memberAdded","flixel/group/FlxGroup.hx",900,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_909_get_memberRemoved,"flixel.group.FlxTypedGroup","get_memberRemoved",0xd0fca635,"flixel.group.FlxTypedGroup.get_memberRemoved","flixel/group/FlxGroup.hx",909,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_31_overlaps,"flixel.group.FlxTypedGroup","overlaps",0x302aab94,"flixel.group.FlxTypedGroup.overlaps","flixel/group/FlxGroup.hx",31,0x1e89d58e)
-HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_55_resolveGroup,"flixel.group.FlxTypedGroup","resolveGroup",0x84c4b53b,"flixel.group.FlxTypedGroup.resolveGroup","flixel/group/FlxGroup.hx",55,0x1e89d58e)
+HX_DEFINE_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_18_new,"flixel.group.FlxTypedGroup","new",0x9772c4d8,"flixel.group.FlxTypedGroup.new","flixel/group/FlxGroup.hx",18,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_133_destroy,"flixel.group.FlxTypedGroup","destroy",0x8044bd72,"flixel.group.FlxTypedGroup.destroy","flixel/group/FlxGroup.hx",133,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_160_update,"flixel.group.FlxTypedGroup","update",0x4e08ac91,"flixel.group.FlxTypedGroup.update","flixel/group/FlxGroup.hx",160,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_179_draw,"flixel.group.FlxTypedGroup","draw",0xe667208c,"flixel.group.FlxTypedGroup.draw","flixel/group/FlxGroup.hx",179,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_213_add,"flixel.group.FlxTypedGroup","add",0x9768e699,"flixel.group.FlxTypedGroup.add","flixel/group/FlxGroup.hx",213,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_268_insert,"flixel.group.FlxTypedGroup","insert",0x64e069c1,"flixel.group.FlxTypedGroup.insert","flixel/group/FlxGroup.hx",268,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_330_recycle,"flixel.group.FlxTypedGroup","recycle",0x934aa08b,"flixel.group.FlxTypedGroup.recycle","flixel/group/FlxGroup.hx",330,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_373_recycleCreateObject,"flixel.group.FlxTypedGroup","recycleCreateObject",0x87e5d006,"flixel.group.FlxTypedGroup.recycleCreateObject","flixel/group/FlxGroup.hx",373,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_392_remove,"flixel.group.FlxTypedGroup","remove",0xcb8bc2cc,"flixel.group.FlxTypedGroup.remove","flixel/group/FlxGroup.hx",392,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_424_replace,"flixel.group.FlxTypedGroup","replace",0x06e6d8ac,"flixel.group.FlxTypedGroup.replace","flixel/group/FlxGroup.hx",424,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_452_sort,"flixel.group.FlxTypedGroup","sort",0xf04f1be6,"flixel.group.FlxTypedGroup.sort","flixel/group/FlxGroup.hx",452,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_465_getFirstAvailable,"flixel.group.FlxTypedGroup","getFirstAvailable",0x3f88c127,"flixel.group.FlxTypedGroup.getFirstAvailable","flixel/group/FlxGroup.hx",465,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_493_getFirstNull,"flixel.group.FlxTypedGroup","getFirstNull",0xc17e73e9,"flixel.group.FlxTypedGroup.getFirstNull","flixel/group/FlxGroup.hx",493,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_513_getFirstExisting,"flixel.group.FlxTypedGroup","getFirstExisting",0x314444ed,"flixel.group.FlxTypedGroup.getFirstExisting","flixel/group/FlxGroup.hx",513,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_535_getFirstAlive,"flixel.group.FlxTypedGroup","getFirstAlive",0x0afc442b,"flixel.group.FlxTypedGroup.getFirstAlive","flixel/group/FlxGroup.hx",535,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_557_getFirstDead,"flixel.group.FlxTypedGroup","getFirstDead",0xbad62406,"flixel.group.FlxTypedGroup.getFirstDead","flixel/group/FlxGroup.hx",557,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_578_countLiving,"flixel.group.FlxTypedGroup","countLiving",0x0ee705d0,"flixel.group.FlxTypedGroup.countLiving","flixel/group/FlxGroup.hx",578,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_605_countDead,"flixel.group.FlxTypedGroup","countDead",0x0964718b,"flixel.group.FlxTypedGroup.countDead","flixel/group/FlxGroup.hx",605,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_635_getRandom,"flixel.group.FlxTypedGroup","getRandom",0xe8c349b1,"flixel.group.FlxTypedGroup.getRandom","flixel/group/FlxGroup.hx",635,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_649_clear,"flixel.group.FlxTypedGroup","clear",0x1c7a7405,"flixel.group.FlxTypedGroup.clear","flixel/group/FlxGroup.hx",649,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_669_kill,"flixel.group.FlxTypedGroup","kill",0xeb00d426,"flixel.group.FlxTypedGroup.kill","flixel/group/FlxGroup.hx",669,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_688_revive,"flixel.group.FlxTypedGroup","revive",0xd17a20dd,"flixel.group.FlxTypedGroup.revive","flixel/group/FlxGroup.hx",688,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_708_iterator,"flixel.group.FlxTypedGroup","iterator",0x7e9a2276,"flixel.group.FlxTypedGroup.iterator","flixel/group/FlxGroup.hx",708,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_718_forEach,"flixel.group.FlxTypedGroup","forEach",0x207cba22,"flixel.group.FlxTypedGroup.forEach","flixel/group/FlxGroup.hx",718,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_747_forEachAlive,"flixel.group.FlxTypedGroup","forEachAlive",0x4c021e4b,"flixel.group.FlxTypedGroup.forEachAlive","flixel/group/FlxGroup.hx",747,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_776_forEachDead,"flixel.group.FlxTypedGroup","forEachDead",0x5740ede6,"flixel.group.FlxTypedGroup.forEachDead","flixel/group/FlxGroup.hx",776,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_805_forEachExists,"flixel.group.FlxTypedGroup","forEachExists",0xb812919e,"flixel.group.FlxTypedGroup.forEachExists","flixel/group/FlxGroup.hx",805,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_835_forEachOfType,"flixel.group.FlxTypedGroup","forEachOfType",0x4c90cb33,"flixel.group.FlxTypedGroup.forEachOfType","flixel/group/FlxGroup.hx",835,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_860_set_maxSize,"flixel.group.FlxTypedGroup","set_maxSize",0x3b478d20,"flixel.group.FlxTypedGroup.set_maxSize","flixel/group/FlxGroup.hx",860,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_895_get_memberAdded,"flixel.group.FlxTypedGroup","get_memberAdded",0xd5201c15,"flixel.group.FlxTypedGroup.get_memberAdded","flixel/group/FlxGroup.hx",895,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_904_get_memberRemoved,"flixel.group.FlxTypedGroup","get_memberRemoved",0xd0fca635,"flixel.group.FlxTypedGroup.get_memberRemoved","flixel/group/FlxGroup.hx",904,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_26_overlaps,"flixel.group.FlxTypedGroup","overlaps",0x302aab94,"flixel.group.FlxTypedGroup.overlaps","flixel/group/FlxGroup.hx",26,0x1e89d58e)
+HX_LOCAL_STACK_FRAME(_hx_pos_bfa1de30d9ec9fbd_50_resolveGroup,"flixel.group.FlxTypedGroup","resolveGroup",0x84c4b53b,"flixel.group.FlxTypedGroup.resolveGroup","flixel/group/FlxGroup.hx",50,0x1e89d58e)
 namespace flixel{
 namespace group{
 
 void FlxTypedGroup_obj::__construct(::hx::Null< int >  __o_MaxSize){
             		int MaxSize = __o_MaxSize.Default(0);
-            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_23_new)
-HXLINE( 113)		this->_marker = 0;
-HXLINE(  86)		this->length = 0;
-HXLINE( 120)		super::__construct();
-HXLINE( 122)		this->members = ::cpp::VirtualArray_obj::__new(0);
-HXLINE( 123)		this->set_maxSize(::Std_obj::_hx_int(::Math_obj::abs(( (Float)(MaxSize) ))));
-HXLINE( 124)		this->flixelType = 2;
+            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_18_new)
+HXLINE( 108)		this->_marker = 0;
+HXLINE(  81)		this->length = 0;
+HXLINE( 115)		super::__construct();
+HXLINE( 117)		this->members = ::cpp::VirtualArray_obj::__new(0);
+HXLINE( 118)		this->set_maxSize(::Std_obj::_hx_int(::Math_obj::abs(( (Float)(MaxSize) ))));
+HXLINE( 119)		this->flixelType = 2;
             	}
 
 Dynamic FlxTypedGroup_obj::__CreateEmpty() { return new FlxTypedGroup_obj; }
@@ -124,164 +124,164 @@ bool FlxTypedGroup_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void FlxTypedGroup_obj::destroy(){
-            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_138_destroy)
-HXLINE( 139)		this->super::destroy();
-HXLINE( 141)		::flixel::util::FlxDestroyUtil_obj::destroy(this->_memberAdded);
-HXLINE( 142)		::flixel::util::FlxDestroyUtil_obj::destroy(this->_memberRemoved);
-HXLINE( 144)		if (::hx::IsNotNull( this->members )) {
-HXLINE( 146)			int i = 0;
-HXLINE( 147)			 ::flixel::FlxBasic basic = null();
-HXLINE( 149)			while((i < this->length)){
-HXLINE( 151)				i = (i + 1);
-HXDLIN( 151)				basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
-HXLINE( 153)				if (::hx::IsNotNull( basic )) {
-HXLINE( 154)					basic->destroy();
+            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_133_destroy)
+HXLINE( 134)		this->super::destroy();
+HXLINE( 136)		::flixel::util::FlxDestroyUtil_obj::destroy(this->_memberAdded);
+HXLINE( 137)		::flixel::util::FlxDestroyUtil_obj::destroy(this->_memberRemoved);
+HXLINE( 139)		if (::hx::IsNotNull( this->members )) {
+HXLINE( 141)			int i = 0;
+HXLINE( 142)			 ::flixel::FlxBasic basic = null();
+HXLINE( 144)			while((i < this->length)){
+HXLINE( 146)				i = (i + 1);
+HXDLIN( 146)				basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
+HXLINE( 148)				if (::hx::IsNotNull( basic )) {
+HXLINE( 149)					basic->destroy();
             				}
             			}
-HXLINE( 157)			this->members = null();
+HXLINE( 152)			this->members = null();
             		}
             	}
 
 
 void FlxTypedGroup_obj::update(Float elapsed){
-            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_165_update)
-HXLINE( 166)		int i = 0;
-HXLINE( 167)		 ::flixel::FlxBasic basic = null();
-HXLINE( 169)		while((i < this->length)){
-HXLINE( 171)			i = (i + 1);
-HXDLIN( 171)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
-HXLINE( 173)			bool _hx_tmp;
-HXDLIN( 173)			bool _hx_tmp1;
-HXDLIN( 173)			if (::hx::IsNotNull( basic )) {
-HXLINE( 173)				_hx_tmp1 = basic->exists;
+            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_160_update)
+HXLINE( 161)		int i = 0;
+HXLINE( 162)		 ::flixel::FlxBasic basic = null();
+HXLINE( 164)		while((i < this->length)){
+HXLINE( 166)			i = (i + 1);
+HXDLIN( 166)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
+HXLINE( 168)			bool _hx_tmp;
+HXDLIN( 168)			bool _hx_tmp1;
+HXDLIN( 168)			if (::hx::IsNotNull( basic )) {
+HXLINE( 168)				_hx_tmp1 = basic->exists;
             			}
             			else {
-HXLINE( 173)				_hx_tmp1 = false;
+HXLINE( 168)				_hx_tmp1 = false;
             			}
-HXDLIN( 173)			if (_hx_tmp1) {
-HXLINE( 173)				_hx_tmp = basic->active;
+HXDLIN( 168)			if (_hx_tmp1) {
+HXLINE( 168)				_hx_tmp = basic->active;
             			}
             			else {
-HXLINE( 173)				_hx_tmp = false;
+HXLINE( 168)				_hx_tmp = false;
             			}
-HXDLIN( 173)			if (_hx_tmp) {
-HXLINE( 175)				basic->update(elapsed);
+HXDLIN( 168)			if (_hx_tmp) {
+HXLINE( 170)				basic->update(elapsed);
             			}
             		}
             	}
 
 
 void FlxTypedGroup_obj::draw(){
-            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_184_draw)
-HXLINE( 185)		int i = 0;
-HXLINE( 186)		 ::flixel::FlxBasic basic = null();
-HXLINE( 188)		::Array< ::Dynamic> oldDefaultCameras = ::flixel::FlxCamera_obj::_defaultCameras;
-HXLINE( 189)		if (::hx::IsNotNull( this->get_cameras() )) {
-HXLINE( 191)			::flixel::FlxCamera_obj::_defaultCameras = this->get_cameras();
+            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_179_draw)
+HXLINE( 180)		int i = 0;
+HXLINE( 181)		 ::flixel::FlxBasic basic = null();
+HXLINE( 183)		::Array< ::Dynamic> oldDefaultCameras = ::flixel::FlxCamera_obj::defaultCameras;
+HXLINE( 184)		if (::hx::IsNotNull( this->get_cameras() )) {
+HXLINE( 186)			::flixel::FlxCamera_obj::defaultCameras = this->get_cameras();
             		}
-HXLINE( 194)		while((i < this->length)){
-HXLINE( 196)			i = (i + 1);
-HXDLIN( 196)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
-HXLINE( 198)			bool _hx_tmp;
-HXDLIN( 198)			bool _hx_tmp1;
-HXDLIN( 198)			if (::hx::IsNotNull( basic )) {
-HXLINE( 198)				_hx_tmp1 = basic->exists;
+HXLINE( 189)		while((i < this->length)){
+HXLINE( 191)			i = (i + 1);
+HXDLIN( 191)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
+HXLINE( 193)			bool _hx_tmp;
+HXDLIN( 193)			bool _hx_tmp1;
+HXDLIN( 193)			if (::hx::IsNotNull( basic )) {
+HXLINE( 193)				_hx_tmp1 = basic->exists;
             			}
             			else {
-HXLINE( 198)				_hx_tmp1 = false;
+HXLINE( 193)				_hx_tmp1 = false;
             			}
-HXDLIN( 198)			if (_hx_tmp1) {
-HXLINE( 198)				_hx_tmp = basic->visible;
+HXDLIN( 193)			if (_hx_tmp1) {
+HXLINE( 193)				_hx_tmp = basic->visible;
             			}
             			else {
-HXLINE( 198)				_hx_tmp = false;
+HXLINE( 193)				_hx_tmp = false;
             			}
-HXDLIN( 198)			if (_hx_tmp) {
-HXLINE( 200)				basic->draw();
+HXDLIN( 193)			if (_hx_tmp) {
+HXLINE( 195)				basic->draw();
             			}
             		}
-HXLINE( 204)		::flixel::FlxCamera_obj::_defaultCameras = oldDefaultCameras;
+HXLINE( 199)		::flixel::FlxCamera_obj::defaultCameras = oldDefaultCameras;
             	}
 
 
  ::Dynamic FlxTypedGroup_obj::add( ::Dynamic Object){
-            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_218_add)
-HXLINE( 219)		if (::hx::IsNull( Object )) {
-HXLINE( 222)			return null();
+            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_213_add)
+HXLINE( 214)		if (::hx::IsNull( Object )) {
+HXLINE( 217)			return null();
             		}
-HXLINE( 226)		if ((this->members->indexOf(Object,null()) >= 0)) {
-HXLINE( 227)			return Object;
+HXLINE( 221)		if ((this->members->indexOf(Object,null()) >= 0)) {
+HXLINE( 222)			return Object;
             		}
-HXLINE( 230)		int index = this->getFirstNull();
-HXLINE( 231)		if ((index != -1)) {
-HXLINE( 233)			this->members->set(index,Object);
-HXLINE( 235)			if ((index >= this->length)) {
-HXLINE( 237)				this->length = (index + 1);
+HXLINE( 225)		int index = this->getFirstNull();
+HXLINE( 226)		if ((index != -1)) {
+HXLINE( 228)			this->members->set(index,Object);
+HXLINE( 230)			if ((index >= this->length)) {
+HXLINE( 232)				this->length = (index + 1);
             			}
-HXLINE( 240)			if (::hx::IsNotNull( this->_memberAdded )) {
-HXLINE( 241)				this->_memberAdded->dispatch(Object);
+HXLINE( 235)			if (::hx::IsNotNull( this->_memberAdded )) {
+HXLINE( 236)				this->_memberAdded->dispatch(Object);
             			}
-HXLINE( 243)			return Object;
+HXLINE( 238)			return Object;
             		}
-HXLINE( 247)		bool _hx_tmp;
-HXDLIN( 247)		if ((this->maxSize > 0)) {
-HXLINE( 247)			_hx_tmp = (this->length >= this->maxSize);
+HXLINE( 242)		bool _hx_tmp;
+HXDLIN( 242)		if ((this->maxSize > 0)) {
+HXLINE( 242)			_hx_tmp = (this->length >= this->maxSize);
             		}
             		else {
-HXLINE( 247)			_hx_tmp = false;
+HXLINE( 242)			_hx_tmp = false;
             		}
-HXDLIN( 247)		if (_hx_tmp) {
-HXLINE( 248)			return Object;
+HXDLIN( 242)		if (_hx_tmp) {
+HXLINE( 243)			return Object;
             		}
-HXLINE( 251)		this->members->push(Object);
-HXLINE( 252)		this->length++;
-HXLINE( 254)		if (::hx::IsNotNull( this->_memberAdded )) {
-HXLINE( 255)			this->_memberAdded->dispatch(Object);
+HXLINE( 246)		this->members->push(Object);
+HXLINE( 247)		this->length++;
+HXLINE( 249)		if (::hx::IsNotNull( this->_memberAdded )) {
+HXLINE( 250)			this->_memberAdded->dispatch(Object);
             		}
-HXLINE( 257)		return Object;
+HXLINE( 252)		return Object;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxTypedGroup_obj,add,return )
 
  ::Dynamic FlxTypedGroup_obj::insert(int position, ::Dynamic object){
-            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_273_insert)
-HXLINE( 274)		if (::hx::IsNull( object )) {
-HXLINE( 277)			return null();
+            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_268_insert)
+HXLINE( 269)		if (::hx::IsNull( object )) {
+HXLINE( 272)			return null();
             		}
-HXLINE( 281)		if ((this->members->indexOf(object,null()) >= 0)) {
-HXLINE( 282)			return object;
+HXLINE( 276)		if ((this->members->indexOf(object,null()) >= 0)) {
+HXLINE( 277)			return object;
             		}
-HXLINE( 285)		bool _hx_tmp;
-HXDLIN( 285)		if ((position < this->length)) {
-HXLINE( 285)			_hx_tmp = ::hx::IsNull( this->members->__get(position) );
+HXLINE( 280)		bool _hx_tmp;
+HXDLIN( 280)		if ((position < this->length)) {
+HXLINE( 280)			_hx_tmp = ::hx::IsNull( this->members->__get(position) );
             		}
             		else {
-HXLINE( 285)			_hx_tmp = false;
+HXLINE( 280)			_hx_tmp = false;
             		}
-HXDLIN( 285)		if (_hx_tmp) {
-HXLINE( 287)			this->members->set(position,object);
-HXLINE( 289)			if (::hx::IsNotNull( this->_memberAdded )) {
-HXLINE( 290)				this->_memberAdded->dispatch(object);
+HXDLIN( 280)		if (_hx_tmp) {
+HXLINE( 282)			this->members->set(position,object);
+HXLINE( 284)			if (::hx::IsNotNull( this->_memberAdded )) {
+HXLINE( 285)				this->_memberAdded->dispatch(object);
             			}
+HXLINE( 287)			return object;
+            		}
+HXLINE( 291)		bool _hx_tmp1;
+HXDLIN( 291)		if ((this->maxSize > 0)) {
+HXLINE( 291)			_hx_tmp1 = (this->length >= this->maxSize);
+            		}
+            		else {
+HXLINE( 291)			_hx_tmp1 = false;
+            		}
+HXDLIN( 291)		if (_hx_tmp1) {
 HXLINE( 292)			return object;
             		}
-HXLINE( 296)		bool _hx_tmp1;
-HXDLIN( 296)		if ((this->maxSize > 0)) {
-HXLINE( 296)			_hx_tmp1 = (this->length >= this->maxSize);
+HXLINE( 295)		this->members->insert(position,object);
+HXLINE( 296)		this->length++;
+HXLINE( 298)		if (::hx::IsNotNull( this->_memberAdded )) {
+HXLINE( 299)			this->_memberAdded->dispatch(object);
             		}
-            		else {
-HXLINE( 296)			_hx_tmp1 = false;
-            		}
-HXDLIN( 296)		if (_hx_tmp1) {
-HXLINE( 297)			return object;
-            		}
-HXLINE( 300)		this->members->insert(position,object);
-HXLINE( 301)		this->length++;
-HXLINE( 303)		if (::hx::IsNotNull( this->_memberAdded )) {
-HXLINE( 304)			this->_memberAdded->dispatch(object);
-            		}
-HXLINE( 306)		return object;
+HXLINE( 301)		return object;
             	}
 
 
@@ -290,75 +290,75 @@ HX_DEFINE_DYNAMIC_FUNC2(FlxTypedGroup_obj,insert,return )
  ::Dynamic FlxTypedGroup_obj::recycle(::hx::Class ObjectClass, ::Dynamic ObjectFactory,::hx::Null< bool >  __o_Force,::hx::Null< bool >  __o_Revive){
             		bool Force = __o_Force.Default(false);
             		bool Revive = __o_Revive.Default(true);
-            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_335_recycle)
-HXLINE( 336)		 ::flixel::FlxBasic basic = null();
-HXLINE( 339)		if ((this->maxSize > 0)) {
-HXLINE( 342)			if ((this->length < this->maxSize)) {
-HXLINE( 344)				 ::Dynamic object = null();
-HXDLIN( 344)				if (::hx::IsNotNull( ObjectFactory )) {
-HXLINE( 344)					object = ObjectFactory();
-HXDLIN( 344)					this->add(object);
+            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_330_recycle)
+HXLINE( 331)		 ::flixel::FlxBasic basic = null();
+HXLINE( 334)		if ((this->maxSize > 0)) {
+HXLINE( 337)			if ((this->length < this->maxSize)) {
+HXLINE( 339)				 ::Dynamic object = null();
+HXDLIN( 339)				if (::hx::IsNotNull( ObjectFactory )) {
+HXLINE( 339)					object = ObjectFactory();
+HXDLIN( 339)					this->add(object);
             				}
             				else {
-HXLINE( 344)					if (::hx::IsNotNull( ObjectClass )) {
-HXLINE( 344)						object = ::Type_obj::createInstance(ObjectClass,::cpp::VirtualArray_obj::__new(0));
-HXDLIN( 344)						this->add(object);
+HXLINE( 339)					if (::hx::IsNotNull( ObjectClass )) {
+HXLINE( 339)						object = ::Type_obj::createInstance(ObjectClass,::cpp::VirtualArray_obj::__new(0));
+HXDLIN( 339)						this->add(object);
             					}
             				}
-HXDLIN( 344)				return object;
+HXDLIN( 339)				return object;
             			}
             			else {
-HXLINE( 349)				basic = ( ( ::flixel::FlxBasic)(this->members->__get(this->_marker++)) );
-HXLINE( 351)				if ((this->_marker >= this->maxSize)) {
-HXLINE( 352)					this->_marker = 0;
+HXLINE( 344)				basic = ( ( ::flixel::FlxBasic)(this->members->__get(this->_marker++)) );
+HXLINE( 346)				if ((this->_marker >= this->maxSize)) {
+HXLINE( 347)					this->_marker = 0;
             				}
-HXLINE( 354)				if (Revive) {
-HXLINE( 355)					basic->revive();
+HXLINE( 349)				if (Revive) {
+HXLINE( 350)					basic->revive();
             				}
-HXLINE( 357)				return basic;
+HXLINE( 352)				return basic;
             			}
             		}
             		else {
-HXLINE( 363)			basic = ( ( ::flixel::FlxBasic)(this->getFirstAvailable(ObjectClass,Force)) );
-HXLINE( 365)			if (::hx::IsNotNull( basic )) {
-HXLINE( 367)				if (Revive) {
-HXLINE( 368)					basic->revive();
+HXLINE( 358)			basic = ( ( ::flixel::FlxBasic)(this->getFirstAvailable(ObjectClass,Force)) );
+HXLINE( 360)			if (::hx::IsNotNull( basic )) {
+HXLINE( 362)				if (Revive) {
+HXLINE( 363)					basic->revive();
             				}
-HXLINE( 369)				return basic;
+HXLINE( 364)				return basic;
             			}
-HXLINE( 372)			 ::Dynamic object = null();
-HXDLIN( 372)			if (::hx::IsNotNull( ObjectFactory )) {
-HXLINE( 372)				object = ObjectFactory();
-HXDLIN( 372)				this->add(object);
+HXLINE( 367)			 ::Dynamic object = null();
+HXDLIN( 367)			if (::hx::IsNotNull( ObjectFactory )) {
+HXLINE( 367)				object = ObjectFactory();
+HXDLIN( 367)				this->add(object);
             			}
             			else {
-HXLINE( 372)				if (::hx::IsNotNull( ObjectClass )) {
-HXLINE( 372)					object = ::Type_obj::createInstance(ObjectClass,::cpp::VirtualArray_obj::__new(0));
-HXDLIN( 372)					this->add(object);
+HXLINE( 367)				if (::hx::IsNotNull( ObjectClass )) {
+HXLINE( 367)					object = ::Type_obj::createInstance(ObjectClass,::cpp::VirtualArray_obj::__new(0));
+HXDLIN( 367)					this->add(object);
             				}
             			}
-HXDLIN( 372)			return object;
+HXDLIN( 367)			return object;
             		}
-HXLINE( 339)		return null();
+HXLINE( 334)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC4(FlxTypedGroup_obj,recycle,return )
 
  ::Dynamic FlxTypedGroup_obj::recycleCreateObject(::hx::Class ObjectClass, ::Dynamic ObjectFactory){
-            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_378_recycleCreateObject)
-HXLINE( 379)		 ::Dynamic object = null();
-HXLINE( 381)		if (::hx::IsNotNull( ObjectFactory )) {
-HXLINE( 382)			object = ObjectFactory();
-HXDLIN( 382)			this->add(object);
+            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_373_recycleCreateObject)
+HXLINE( 374)		 ::Dynamic object = null();
+HXLINE( 376)		if (::hx::IsNotNull( ObjectFactory )) {
+HXLINE( 377)			object = ObjectFactory();
+HXDLIN( 377)			this->add(object);
             		}
             		else {
-HXLINE( 383)			if (::hx::IsNotNull( ObjectClass )) {
-HXLINE( 384)				object = ::Type_obj::createInstance(ObjectClass,::cpp::VirtualArray_obj::__new(0));
-HXDLIN( 384)				this->add(object);
+HXLINE( 378)			if (::hx::IsNotNull( ObjectClass )) {
+HXLINE( 379)				object = ::Type_obj::createInstance(ObjectClass,::cpp::VirtualArray_obj::__new(0));
+HXDLIN( 379)				this->add(object);
             			}
             		}
-HXLINE( 386)		return object;
+HXLINE( 381)		return object;
             	}
 
 
@@ -366,44 +366,44 @@ HX_DEFINE_DYNAMIC_FUNC2(FlxTypedGroup_obj,recycleCreateObject,return )
 
  ::Dynamic FlxTypedGroup_obj::remove( ::Dynamic Object,::hx::Null< bool >  __o_Splice){
             		bool Splice = __o_Splice.Default(false);
-            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_397_remove)
-HXLINE( 398)		if (::hx::IsNull( this->members )) {
+            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_392_remove)
+HXLINE( 393)		if (::hx::IsNull( this->members )) {
+HXLINE( 394)			return null();
+            		}
+HXLINE( 396)		int index = this->members->indexOf(Object,null());
+HXLINE( 398)		if ((index < 0)) {
 HXLINE( 399)			return null();
             		}
-HXLINE( 401)		int index = this->members->indexOf(Object,null());
-HXLINE( 403)		if ((index < 0)) {
-HXLINE( 404)			return null();
-            		}
-HXLINE( 406)		if (Splice) {
-HXLINE( 408)			this->members->splice(index,1);
-HXLINE( 409)			this->length--;
+HXLINE( 401)		if (Splice) {
+HXLINE( 403)			this->members->splice(index,1);
+HXLINE( 404)			this->length--;
             		}
             		else {
-HXLINE( 412)			this->members->set(index,null());
+HXLINE( 407)			this->members->set(index,null());
             		}
-HXLINE( 414)		if (::hx::IsNotNull( this->_memberRemoved )) {
-HXLINE( 415)			this->_memberRemoved->dispatch(Object);
+HXLINE( 409)		if (::hx::IsNotNull( this->_memberRemoved )) {
+HXLINE( 410)			this->_memberRemoved->dispatch(Object);
             		}
-HXLINE( 417)		return Object;
+HXLINE( 412)		return Object;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedGroup_obj,remove,return )
 
  ::Dynamic FlxTypedGroup_obj::replace( ::Dynamic OldObject, ::Dynamic NewObject){
-            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_429_replace)
-HXLINE( 430)		int index = this->members->indexOf(OldObject,null());
-HXLINE( 432)		if ((index < 0)) {
-HXLINE( 433)			return null();
+            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_424_replace)
+HXLINE( 425)		int index = this->members->indexOf(OldObject,null());
+HXLINE( 427)		if ((index < 0)) {
+HXLINE( 428)			return null();
             		}
-HXLINE( 435)		this->members->set(index,NewObject);
-HXLINE( 437)		if (::hx::IsNotNull( this->_memberRemoved )) {
-HXLINE( 438)			this->_memberRemoved->dispatch(OldObject);
+HXLINE( 430)		this->members->set(index,NewObject);
+HXLINE( 432)		if (::hx::IsNotNull( this->_memberRemoved )) {
+HXLINE( 433)			this->_memberRemoved->dispatch(OldObject);
             		}
-HXLINE( 439)		if (::hx::IsNotNull( this->_memberAdded )) {
-HXLINE( 440)			this->_memberAdded->dispatch(NewObject);
+HXLINE( 434)		if (::hx::IsNotNull( this->_memberAdded )) {
+HXLINE( 435)			this->_memberAdded->dispatch(NewObject);
             		}
-HXLINE( 442)		return NewObject;
+HXLINE( 437)		return NewObject;
             	}
 
 
@@ -412,17 +412,17 @@ HX_DEFINE_DYNAMIC_FUNC2(FlxTypedGroup_obj,replace,return )
 void FlxTypedGroup_obj::sort( ::Dynamic Function,::hx::Null< int >  __o_Order){
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_0,int,a1, ::Dynamic,_g) HXARGC(2)
             		int _hx_run( ::Dynamic a2, ::Dynamic a3){
-            			HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_457_sort)
-HXDLIN( 457)			return ( (int)(_g(a1,a2,a3)) );
+            			HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_452_sort)
+HXDLIN( 452)			return ( (int)(_g(a1,a2,a3)) );
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		int Order = __o_Order.Default(-1);
-            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_457_sort)
-HXDLIN( 457)		 ::Dynamic _g = Function;
-HXDLIN( 457)		int a1 = Order;
-HXDLIN( 457)		 ::Dynamic _hx_tmp =  ::Dynamic(new _hx_Closure_0(a1,_g));
-HXDLIN( 457)		this->members->sort(_hx_tmp);
+            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_452_sort)
+HXDLIN( 452)		 ::Dynamic _g = Function;
+HXDLIN( 452)		int a1 = Order;
+HXDLIN( 452)		 ::Dynamic _hx_tmp =  ::Dynamic(new _hx_Closure_0(a1,_g));
+HXDLIN( 452)		this->members->sort(_hx_tmp);
             	}
 
 
@@ -430,194 +430,194 @@ HX_DEFINE_DYNAMIC_FUNC2(FlxTypedGroup_obj,sort,(void))
 
  ::Dynamic FlxTypedGroup_obj::getFirstAvailable(::hx::Class ObjectClass,::hx::Null< bool >  __o_Force){
             		bool Force = __o_Force.Default(false);
-            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_470_getFirstAvailable)
-HXLINE( 471)		int i = 0;
-HXLINE( 472)		 ::flixel::FlxBasic basic = null();
-HXLINE( 474)		while((i < this->length)){
-HXLINE( 476)			i = (i + 1);
-HXDLIN( 476)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
-HXLINE( 478)			bool _hx_tmp;
-HXDLIN( 478)			bool _hx_tmp1;
-HXDLIN( 478)			if (::hx::IsNotNull( basic )) {
-HXLINE( 478)				_hx_tmp1 = !(basic->exists);
+            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_465_getFirstAvailable)
+HXLINE( 466)		int i = 0;
+HXLINE( 467)		 ::flixel::FlxBasic basic = null();
+HXLINE( 469)		while((i < this->length)){
+HXLINE( 471)			i = (i + 1);
+HXDLIN( 471)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
+HXLINE( 473)			bool _hx_tmp;
+HXDLIN( 473)			bool _hx_tmp1;
+HXDLIN( 473)			if (::hx::IsNotNull( basic )) {
+HXLINE( 473)				_hx_tmp1 = !(basic->exists);
             			}
             			else {
-HXLINE( 478)				_hx_tmp1 = false;
+HXLINE( 473)				_hx_tmp1 = false;
             			}
-HXDLIN( 478)			if (_hx_tmp1) {
-HXLINE( 478)				if (::hx::IsNotNull( ObjectClass )) {
-HXLINE( 478)					_hx_tmp = ::Std_obj::isOfType(basic,( ( ::Dynamic)(ObjectClass) ));
+HXDLIN( 473)			if (_hx_tmp1) {
+HXLINE( 473)				if (::hx::IsNotNull( ObjectClass )) {
+HXLINE( 473)					_hx_tmp = ::Std_obj::isOfType(basic,ObjectClass);
             				}
             				else {
-HXLINE( 478)					_hx_tmp = true;
+HXLINE( 473)					_hx_tmp = true;
             				}
             			}
             			else {
-HXLINE( 478)				_hx_tmp = false;
+HXLINE( 473)				_hx_tmp = false;
             			}
-HXDLIN( 478)			if (_hx_tmp) {
-HXLINE( 480)				bool _hx_tmp;
-HXDLIN( 480)				if (Force) {
-HXLINE( 480)					::String _hx_tmp1 = ::Type_obj::getClassName(::Type_obj::getClass(basic));
-HXDLIN( 480)					_hx_tmp = (_hx_tmp1 != ::Type_obj::getClassName(ObjectClass));
+HXDLIN( 473)			if (_hx_tmp) {
+HXLINE( 475)				bool _hx_tmp;
+HXDLIN( 475)				if (Force) {
+HXLINE( 475)					::String _hx_tmp1 = ::Type_obj::getClassName(::Type_obj::getClass(basic));
+HXDLIN( 475)					_hx_tmp = (_hx_tmp1 != ::Type_obj::getClassName(ObjectClass));
             				}
             				else {
-HXLINE( 480)					_hx_tmp = false;
+HXLINE( 475)					_hx_tmp = false;
             				}
-HXDLIN( 480)				if (_hx_tmp) {
-HXLINE( 482)					continue;
+HXDLIN( 475)				if (_hx_tmp) {
+HXLINE( 477)					continue;
             				}
-HXLINE( 484)				return this->members->__get((i - 1));
+HXLINE( 479)				return this->members->__get((i - 1));
             			}
             		}
-HXLINE( 488)		return null();
+HXLINE( 483)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedGroup_obj,getFirstAvailable,return )
 
 int FlxTypedGroup_obj::getFirstNull(){
-            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_498_getFirstNull)
-HXLINE( 499)		int i = 0;
-HXLINE( 501)		while((i < this->length)){
-HXLINE( 503)			if (::hx::IsNull( this->members->__get(i) )) {
-HXLINE( 504)				return i;
+            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_493_getFirstNull)
+HXLINE( 494)		int i = 0;
+HXLINE( 496)		while((i < this->length)){
+HXLINE( 498)			if (::hx::IsNull( this->members->__get(i) )) {
+HXLINE( 499)				return i;
             			}
-HXLINE( 505)			i = (i + 1);
+HXLINE( 500)			i = (i + 1);
             		}
-HXLINE( 508)		return -1;
+HXLINE( 503)		return -1;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTypedGroup_obj,getFirstNull,return )
 
  ::Dynamic FlxTypedGroup_obj::getFirstExisting(){
-            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_518_getFirstExisting)
-HXLINE( 519)		int i = 0;
-HXLINE( 520)		 ::flixel::FlxBasic basic = null();
-HXLINE( 522)		while((i < this->length)){
-HXLINE( 524)			i = (i + 1);
-HXDLIN( 524)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
-HXLINE( 526)			bool _hx_tmp;
-HXDLIN( 526)			if (::hx::IsNotNull( basic )) {
-HXLINE( 526)				_hx_tmp = basic->exists;
+            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_513_getFirstExisting)
+HXLINE( 514)		int i = 0;
+HXLINE( 515)		 ::flixel::FlxBasic basic = null();
+HXLINE( 517)		while((i < this->length)){
+HXLINE( 519)			i = (i + 1);
+HXDLIN( 519)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
+HXLINE( 521)			bool _hx_tmp;
+HXDLIN( 521)			if (::hx::IsNotNull( basic )) {
+HXLINE( 521)				_hx_tmp = basic->exists;
             			}
             			else {
-HXLINE( 526)				_hx_tmp = false;
+HXLINE( 521)				_hx_tmp = false;
             			}
-HXDLIN( 526)			if (_hx_tmp) {
-HXLINE( 527)				return basic;
+HXDLIN( 521)			if (_hx_tmp) {
+HXLINE( 522)				return basic;
             			}
             		}
-HXLINE( 530)		return null();
+HXLINE( 525)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTypedGroup_obj,getFirstExisting,return )
 
  ::Dynamic FlxTypedGroup_obj::getFirstAlive(){
-            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_540_getFirstAlive)
-HXLINE( 541)		int i = 0;
-HXLINE( 542)		 ::flixel::FlxBasic basic = null();
-HXLINE( 544)		while((i < this->length)){
-HXLINE( 546)			i = (i + 1);
-HXDLIN( 546)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
-HXLINE( 548)			bool _hx_tmp;
-HXDLIN( 548)			bool _hx_tmp1;
-HXDLIN( 548)			if (::hx::IsNotNull( basic )) {
-HXLINE( 548)				_hx_tmp1 = basic->exists;
+            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_535_getFirstAlive)
+HXLINE( 536)		int i = 0;
+HXLINE( 537)		 ::flixel::FlxBasic basic = null();
+HXLINE( 539)		while((i < this->length)){
+HXLINE( 541)			i = (i + 1);
+HXDLIN( 541)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
+HXLINE( 543)			bool _hx_tmp;
+HXDLIN( 543)			bool _hx_tmp1;
+HXDLIN( 543)			if (::hx::IsNotNull( basic )) {
+HXLINE( 543)				_hx_tmp1 = basic->exists;
             			}
             			else {
-HXLINE( 548)				_hx_tmp1 = false;
+HXLINE( 543)				_hx_tmp1 = false;
             			}
-HXDLIN( 548)			if (_hx_tmp1) {
-HXLINE( 548)				_hx_tmp = basic->alive;
+HXDLIN( 543)			if (_hx_tmp1) {
+HXLINE( 543)				_hx_tmp = basic->alive;
             			}
             			else {
-HXLINE( 548)				_hx_tmp = false;
+HXLINE( 543)				_hx_tmp = false;
             			}
-HXDLIN( 548)			if (_hx_tmp) {
-HXLINE( 549)				return basic;
+HXDLIN( 543)			if (_hx_tmp) {
+HXLINE( 544)				return basic;
             			}
             		}
-HXLINE( 552)		return null();
+HXLINE( 547)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTypedGroup_obj,getFirstAlive,return )
 
  ::Dynamic FlxTypedGroup_obj::getFirstDead(){
-            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_562_getFirstDead)
-HXLINE( 563)		int i = 0;
-HXLINE( 564)		 ::flixel::FlxBasic basic = null();
-HXLINE( 566)		while((i < this->length)){
-HXLINE( 568)			i = (i + 1);
-HXDLIN( 568)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
-HXLINE( 570)			bool _hx_tmp;
-HXDLIN( 570)			if (::hx::IsNotNull( basic )) {
-HXLINE( 570)				_hx_tmp = !(basic->alive);
+            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_557_getFirstDead)
+HXLINE( 558)		int i = 0;
+HXLINE( 559)		 ::flixel::FlxBasic basic = null();
+HXLINE( 561)		while((i < this->length)){
+HXLINE( 563)			i = (i + 1);
+HXDLIN( 563)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
+HXLINE( 565)			bool _hx_tmp;
+HXDLIN( 565)			if (::hx::IsNotNull( basic )) {
+HXLINE( 565)				_hx_tmp = !(basic->alive);
             			}
             			else {
-HXLINE( 570)				_hx_tmp = false;
+HXLINE( 565)				_hx_tmp = false;
             			}
-HXDLIN( 570)			if (_hx_tmp) {
-HXLINE( 571)				return basic;
+HXDLIN( 565)			if (_hx_tmp) {
+HXLINE( 566)				return basic;
             			}
             		}
-HXLINE( 574)		return null();
+HXLINE( 569)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTypedGroup_obj,getFirstDead,return )
 
 int FlxTypedGroup_obj::countLiving(){
-            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_583_countLiving)
-HXLINE( 584)		int i = 0;
-HXLINE( 585)		int count = -1;
-HXLINE( 586)		 ::flixel::FlxBasic basic = null();
-HXLINE( 588)		while((i < this->length)){
-HXLINE( 590)			i = (i + 1);
-HXDLIN( 590)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
-HXLINE( 592)			if (::hx::IsNotNull( basic )) {
-HXLINE( 594)				if ((count < 0)) {
-HXLINE( 595)					count = 0;
+            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_578_countLiving)
+HXLINE( 579)		int i = 0;
+HXLINE( 580)		int count = -1;
+HXLINE( 581)		 ::flixel::FlxBasic basic = null();
+HXLINE( 583)		while((i < this->length)){
+HXLINE( 585)			i = (i + 1);
+HXDLIN( 585)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
+HXLINE( 587)			if (::hx::IsNotNull( basic )) {
+HXLINE( 589)				if ((count < 0)) {
+HXLINE( 590)					count = 0;
             				}
-HXLINE( 596)				bool _hx_tmp;
-HXDLIN( 596)				if (basic->exists) {
-HXLINE( 596)					_hx_tmp = basic->alive;
+HXLINE( 591)				bool _hx_tmp;
+HXDLIN( 591)				if (basic->exists) {
+HXLINE( 591)					_hx_tmp = basic->alive;
             				}
             				else {
-HXLINE( 596)					_hx_tmp = false;
+HXLINE( 591)					_hx_tmp = false;
             				}
-HXDLIN( 596)				if (_hx_tmp) {
-HXLINE( 597)					count = (count + 1);
+HXDLIN( 591)				if (_hx_tmp) {
+HXLINE( 592)					count = (count + 1);
             				}
             			}
             		}
-HXLINE( 601)		return count;
+HXLINE( 596)		return count;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTypedGroup_obj,countLiving,return )
 
 int FlxTypedGroup_obj::countDead(){
-            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_610_countDead)
-HXLINE( 611)		int i = 0;
-HXLINE( 612)		int count = -1;
-HXLINE( 613)		 ::flixel::FlxBasic basic = null();
-HXLINE( 615)		while((i < this->length)){
-HXLINE( 617)			i = (i + 1);
-HXDLIN( 617)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
-HXLINE( 619)			if (::hx::IsNotNull( basic )) {
-HXLINE( 621)				if ((count < 0)) {
-HXLINE( 622)					count = 0;
+            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_605_countDead)
+HXLINE( 606)		int i = 0;
+HXLINE( 607)		int count = -1;
+HXLINE( 608)		 ::flixel::FlxBasic basic = null();
+HXLINE( 610)		while((i < this->length)){
+HXLINE( 612)			i = (i + 1);
+HXDLIN( 612)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
+HXLINE( 614)			if (::hx::IsNotNull( basic )) {
+HXLINE( 616)				if ((count < 0)) {
+HXLINE( 617)					count = 0;
             				}
-HXLINE( 623)				if (!(basic->alive)) {
-HXLINE( 624)					count = (count + 1);
+HXLINE( 618)				if (!(basic->alive)) {
+HXLINE( 619)					count = (count + 1);
             				}
             			}
             		}
-HXLINE( 628)		return count;
+HXLINE( 623)		return count;
             	}
 
 
@@ -626,86 +626,86 @@ HX_DEFINE_DYNAMIC_FUNC0(FlxTypedGroup_obj,countDead,return )
  ::Dynamic FlxTypedGroup_obj::getRandom(::hx::Null< int >  __o_StartIndex,::hx::Null< int >  __o_Length){
             		int StartIndex = __o_StartIndex.Default(0);
             		int Length = __o_Length.Default(0);
-            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_640_getRandom)
-HXLINE( 641)		if ((StartIndex < 0)) {
-HXLINE( 642)			StartIndex = 0;
+            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_635_getRandom)
+HXLINE( 636)		if ((StartIndex < 0)) {
+HXLINE( 637)			StartIndex = 0;
             		}
-HXLINE( 643)		if ((Length <= 0)) {
-HXLINE( 644)			Length = this->length;
+HXLINE( 638)		if ((Length <= 0)) {
+HXLINE( 639)			Length = this->length;
             		}
-HXLINE( 646)		return ::flixel::FlxG_obj::random->getObject_flixel_group_FlxTypedGroup_T(this->members,null(),StartIndex,Length);
+HXLINE( 641)		return ::flixel::FlxG_obj::random->getObject_flixel_group_FlxTypedGroup_T(this->members,null(),StartIndex,Length);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(FlxTypedGroup_obj,getRandom,return )
 
 void FlxTypedGroup_obj::clear(){
-            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_654_clear)
-HXLINE( 655)		this->length = 0;
-HXLINE( 657)		if (::hx::IsNotNull( this->_memberRemoved )) {
-HXLINE( 659)			int _g = 0;
-HXDLIN( 659)			::cpp::VirtualArray _g1 = this->members;
-HXDLIN( 659)			while((_g < _g1->get_length())){
-HXLINE( 659)				 ::Dynamic member = _g1->__get(_g);
-HXDLIN( 659)				_g = (_g + 1);
-HXLINE( 661)				if (::hx::IsNotNull( member )) {
-HXLINE( 662)					this->_memberRemoved->dispatch(member);
+            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_649_clear)
+HXLINE( 650)		this->length = 0;
+HXLINE( 652)		if (::hx::IsNotNull( this->_memberRemoved )) {
+HXLINE( 654)			int _g = 0;
+HXDLIN( 654)			::cpp::VirtualArray _g1 = this->members;
+HXDLIN( 654)			while((_g < _g1->get_length())){
+HXLINE( 654)				 ::Dynamic member = _g1->__get(_g);
+HXDLIN( 654)				_g = (_g + 1);
+HXLINE( 656)				if (::hx::IsNotNull( member )) {
+HXLINE( 657)					this->_memberRemoved->dispatch(member);
             				}
             			}
             		}
-HXLINE( 666)		::flixel::util::FlxArrayUtil_obj::clearArray(this->members,null());
+HXLINE( 661)		::flixel::util::FlxArrayUtil_obj::clearArray(this->members,null());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTypedGroup_obj,clear,(void))
 
 void FlxTypedGroup_obj::kill(){
-            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_674_kill)
-HXLINE( 675)		int i = 0;
-HXLINE( 676)		 ::flixel::FlxBasic basic = null();
-HXLINE( 678)		while((i < this->length)){
-HXLINE( 680)			i = (i + 1);
-HXDLIN( 680)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
-HXLINE( 682)			bool _hx_tmp;
-HXDLIN( 682)			if (::hx::IsNotNull( basic )) {
-HXLINE( 682)				_hx_tmp = basic->exists;
+            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_669_kill)
+HXLINE( 670)		int i = 0;
+HXLINE( 671)		 ::flixel::FlxBasic basic = null();
+HXLINE( 673)		while((i < this->length)){
+HXLINE( 675)			i = (i + 1);
+HXDLIN( 675)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
+HXLINE( 677)			bool _hx_tmp;
+HXDLIN( 677)			if (::hx::IsNotNull( basic )) {
+HXLINE( 677)				_hx_tmp = basic->exists;
             			}
             			else {
-HXLINE( 682)				_hx_tmp = false;
+HXLINE( 677)				_hx_tmp = false;
             			}
-HXDLIN( 682)			if (_hx_tmp) {
-HXLINE( 683)				basic->kill();
+HXDLIN( 677)			if (_hx_tmp) {
+HXLINE( 678)				basic->kill();
             			}
             		}
-HXLINE( 686)		this->super::kill();
+HXLINE( 681)		this->super::kill();
             	}
 
 
 void FlxTypedGroup_obj::revive(){
-            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_693_revive)
-HXLINE( 694)		int i = 0;
-HXLINE( 695)		 ::flixel::FlxBasic basic = null();
-HXLINE( 697)		while((i < this->length)){
-HXLINE( 699)			i = (i + 1);
-HXDLIN( 699)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
-HXLINE( 701)			bool _hx_tmp;
-HXDLIN( 701)			if (::hx::IsNotNull( basic )) {
-HXLINE( 701)				_hx_tmp = !(basic->exists);
+            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_688_revive)
+HXLINE( 689)		int i = 0;
+HXLINE( 690)		 ::flixel::FlxBasic basic = null();
+HXLINE( 692)		while((i < this->length)){
+HXLINE( 694)			i = (i + 1);
+HXDLIN( 694)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
+HXLINE( 696)			bool _hx_tmp;
+HXDLIN( 696)			if (::hx::IsNotNull( basic )) {
+HXLINE( 696)				_hx_tmp = !(basic->exists);
             			}
             			else {
-HXLINE( 701)				_hx_tmp = false;
+HXLINE( 696)				_hx_tmp = false;
             			}
-HXDLIN( 701)			if (_hx_tmp) {
-HXLINE( 702)				basic->revive();
+HXDLIN( 696)			if (_hx_tmp) {
+HXLINE( 697)				basic->revive();
             			}
             		}
-HXLINE( 705)		this->super::revive();
+HXLINE( 700)		this->super::revive();
             	}
 
 
  ::flixel::group::FlxTypedGroupIterator FlxTypedGroup_obj::iterator( ::Dynamic filter){
-            	HX_GC_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_713_iterator)
-HXDLIN( 713)		return  ::flixel::group::FlxTypedGroupIterator_obj::__alloc( HX_CTX ,this->members,filter);
+            	HX_GC_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_708_iterator)
+HXDLIN( 708)		return  ::flixel::group::FlxTypedGroupIterator_obj::__alloc( HX_CTX ,this->members,filter);
             	}
 
 
@@ -713,20 +713,20 @@ HX_DEFINE_DYNAMIC_FUNC1(FlxTypedGroup_obj,iterator,return )
 
 void FlxTypedGroup_obj::forEach( ::Dynamic Function,::hx::Null< bool >  __o_Recurse){
             		bool Recurse = __o_Recurse.Default(false);
-            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_723_forEach)
-HXLINE( 724)		int i = 0;
-HXLINE( 725)		 ::flixel::FlxBasic basic = null();
-HXLINE( 727)		while((i < this->length)){
-HXLINE( 729)			i = (i + 1);
-HXDLIN( 729)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
-HXLINE( 731)			if (::hx::IsNotNull( basic )) {
-HXLINE( 733)				if (Recurse) {
-HXLINE( 735)					 ::flixel::group::FlxTypedGroup group = ::flixel::group::FlxTypedGroup_obj::resolveGroup(basic);
-HXLINE( 736)					if (::hx::IsNotNull( group )) {
-HXLINE( 737)						group->forEach(Function,Recurse);
+            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_718_forEach)
+HXLINE( 719)		int i = 0;
+HXLINE( 720)		 ::flixel::FlxBasic basic = null();
+HXLINE( 722)		while((i < this->length)){
+HXLINE( 724)			i = (i + 1);
+HXDLIN( 724)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
+HXLINE( 726)			if (::hx::IsNotNull( basic )) {
+HXLINE( 728)				if (Recurse) {
+HXLINE( 730)					 ::flixel::group::FlxTypedGroup group = ::flixel::group::FlxTypedGroup_obj::resolveGroup(basic);
+HXLINE( 731)					if (::hx::IsNotNull( group )) {
+HXLINE( 732)						group->forEach(Function,Recurse);
             					}
             				}
-HXLINE( 740)				Function(basic);
+HXLINE( 735)				Function(basic);
             			}
             		}
             	}
@@ -736,34 +736,34 @@ HX_DEFINE_DYNAMIC_FUNC2(FlxTypedGroup_obj,forEach,(void))
 
 void FlxTypedGroup_obj::forEachAlive( ::Dynamic Function,::hx::Null< bool >  __o_Recurse){
             		bool Recurse = __o_Recurse.Default(false);
-            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_752_forEachAlive)
-HXLINE( 753)		int i = 0;
-HXLINE( 754)		 ::flixel::FlxBasic basic = null();
-HXLINE( 756)		while((i < this->length)){
-HXLINE( 758)			i = (i + 1);
-HXDLIN( 758)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
-HXLINE( 760)			bool _hx_tmp;
-HXDLIN( 760)			bool _hx_tmp1;
-HXDLIN( 760)			if (::hx::IsNotNull( basic )) {
-HXLINE( 760)				_hx_tmp1 = basic->exists;
+            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_747_forEachAlive)
+HXLINE( 748)		int i = 0;
+HXLINE( 749)		 ::flixel::FlxBasic basic = null();
+HXLINE( 751)		while((i < this->length)){
+HXLINE( 753)			i = (i + 1);
+HXDLIN( 753)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
+HXLINE( 755)			bool _hx_tmp;
+HXDLIN( 755)			bool _hx_tmp1;
+HXDLIN( 755)			if (::hx::IsNotNull( basic )) {
+HXLINE( 755)				_hx_tmp1 = basic->exists;
             			}
             			else {
-HXLINE( 760)				_hx_tmp1 = false;
+HXLINE( 755)				_hx_tmp1 = false;
             			}
-HXDLIN( 760)			if (_hx_tmp1) {
-HXLINE( 760)				_hx_tmp = basic->alive;
+HXDLIN( 755)			if (_hx_tmp1) {
+HXLINE( 755)				_hx_tmp = basic->alive;
             			}
             			else {
-HXLINE( 760)				_hx_tmp = false;
+HXLINE( 755)				_hx_tmp = false;
             			}
-HXDLIN( 760)			if (_hx_tmp) {
-HXLINE( 762)				if (Recurse) {
-HXLINE( 764)					 ::flixel::group::FlxTypedGroup group = ::flixel::group::FlxTypedGroup_obj::resolveGroup(basic);
-HXLINE( 765)					if (::hx::IsNotNull( group )) {
-HXLINE( 766)						group->forEachAlive(Function,Recurse);
+HXDLIN( 755)			if (_hx_tmp) {
+HXLINE( 757)				if (Recurse) {
+HXLINE( 759)					 ::flixel::group::FlxTypedGroup group = ::flixel::group::FlxTypedGroup_obj::resolveGroup(basic);
+HXLINE( 760)					if (::hx::IsNotNull( group )) {
+HXLINE( 761)						group->forEachAlive(Function,Recurse);
             					}
             				}
-HXLINE( 769)				Function(basic);
+HXLINE( 764)				Function(basic);
             			}
             		}
             	}
@@ -773,27 +773,27 @@ HX_DEFINE_DYNAMIC_FUNC2(FlxTypedGroup_obj,forEachAlive,(void))
 
 void FlxTypedGroup_obj::forEachDead( ::Dynamic Function,::hx::Null< bool >  __o_Recurse){
             		bool Recurse = __o_Recurse.Default(false);
-            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_781_forEachDead)
-HXLINE( 782)		int i = 0;
-HXLINE( 783)		 ::flixel::FlxBasic basic = null();
-HXLINE( 785)		while((i < this->length)){
-HXLINE( 787)			i = (i + 1);
-HXDLIN( 787)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
-HXLINE( 789)			bool _hx_tmp;
-HXDLIN( 789)			if (::hx::IsNotNull( basic )) {
-HXLINE( 789)				_hx_tmp = !(basic->alive);
+            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_776_forEachDead)
+HXLINE( 777)		int i = 0;
+HXLINE( 778)		 ::flixel::FlxBasic basic = null();
+HXLINE( 780)		while((i < this->length)){
+HXLINE( 782)			i = (i + 1);
+HXDLIN( 782)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
+HXLINE( 784)			bool _hx_tmp;
+HXDLIN( 784)			if (::hx::IsNotNull( basic )) {
+HXLINE( 784)				_hx_tmp = !(basic->alive);
             			}
             			else {
-HXLINE( 789)				_hx_tmp = false;
+HXLINE( 784)				_hx_tmp = false;
             			}
-HXDLIN( 789)			if (_hx_tmp) {
-HXLINE( 791)				if (Recurse) {
-HXLINE( 793)					 ::flixel::group::FlxTypedGroup group = ::flixel::group::FlxTypedGroup_obj::resolveGroup(basic);
-HXLINE( 794)					if (::hx::IsNotNull( group )) {
-HXLINE( 795)						group->forEachDead(Function,Recurse);
+HXDLIN( 784)			if (_hx_tmp) {
+HXLINE( 786)				if (Recurse) {
+HXLINE( 788)					 ::flixel::group::FlxTypedGroup group = ::flixel::group::FlxTypedGroup_obj::resolveGroup(basic);
+HXLINE( 789)					if (::hx::IsNotNull( group )) {
+HXLINE( 790)						group->forEachDead(Function,Recurse);
             					}
             				}
-HXLINE( 798)				Function(basic);
+HXLINE( 793)				Function(basic);
             			}
             		}
             	}
@@ -803,27 +803,27 @@ HX_DEFINE_DYNAMIC_FUNC2(FlxTypedGroup_obj,forEachDead,(void))
 
 void FlxTypedGroup_obj::forEachExists( ::Dynamic Function,::hx::Null< bool >  __o_Recurse){
             		bool Recurse = __o_Recurse.Default(false);
-            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_810_forEachExists)
-HXLINE( 811)		int i = 0;
-HXLINE( 812)		 ::flixel::FlxBasic basic = null();
-HXLINE( 814)		while((i < this->length)){
-HXLINE( 816)			i = (i + 1);
-HXDLIN( 816)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
-HXLINE( 818)			bool _hx_tmp;
-HXDLIN( 818)			if (::hx::IsNotNull( basic )) {
-HXLINE( 818)				_hx_tmp = basic->exists;
+            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_805_forEachExists)
+HXLINE( 806)		int i = 0;
+HXLINE( 807)		 ::flixel::FlxBasic basic = null();
+HXLINE( 809)		while((i < this->length)){
+HXLINE( 811)			i = (i + 1);
+HXDLIN( 811)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
+HXLINE( 813)			bool _hx_tmp;
+HXDLIN( 813)			if (::hx::IsNotNull( basic )) {
+HXLINE( 813)				_hx_tmp = basic->exists;
             			}
             			else {
-HXLINE( 818)				_hx_tmp = false;
+HXLINE( 813)				_hx_tmp = false;
             			}
-HXDLIN( 818)			if (_hx_tmp) {
-HXLINE( 820)				if (Recurse) {
-HXLINE( 822)					 ::flixel::group::FlxTypedGroup group = ::flixel::group::FlxTypedGroup_obj::resolveGroup(basic);
-HXLINE( 823)					if (::hx::IsNotNull( group )) {
-HXLINE( 824)						group->forEachExists(Function,Recurse);
+HXDLIN( 813)			if (_hx_tmp) {
+HXLINE( 815)				if (Recurse) {
+HXLINE( 817)					 ::flixel::group::FlxTypedGroup group = ::flixel::group::FlxTypedGroup_obj::resolveGroup(basic);
+HXLINE( 818)					if (::hx::IsNotNull( group )) {
+HXLINE( 819)						group->forEachExists(Function,Recurse);
             					}
             				}
-HXLINE( 827)				Function(basic);
+HXLINE( 822)				Function(basic);
             			}
             		}
             	}
@@ -833,21 +833,21 @@ HX_DEFINE_DYNAMIC_FUNC2(FlxTypedGroup_obj,forEachExists,(void))
 
 void FlxTypedGroup_obj::forEachOfType(::hx::Class ObjectClass, ::Dynamic Function,::hx::Null< bool >  __o_Recurse){
             		bool Recurse = __o_Recurse.Default(false);
-            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_840_forEachOfType)
-HXLINE( 841)		int i = 0;
-HXLINE( 842)		 ::flixel::FlxBasic basic = null();
-HXLINE( 844)		while((i < this->length)){
-HXLINE( 846)			i = (i + 1);
-HXDLIN( 846)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
-HXLINE( 848)			if (::hx::IsNotNull( basic )) {
-HXLINE( 850)				if (Recurse) {
-HXLINE( 852)					 ::flixel::group::FlxTypedGroup group = ::flixel::group::FlxTypedGroup_obj::resolveGroup(basic);
-HXLINE( 853)					if (::hx::IsNotNull( group )) {
-HXLINE( 854)						group->forEachOfType(ObjectClass,Function,Recurse);
+            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_835_forEachOfType)
+HXLINE( 836)		int i = 0;
+HXLINE( 837)		 ::flixel::FlxBasic basic = null();
+HXLINE( 839)		while((i < this->length)){
+HXLINE( 841)			i = (i + 1);
+HXDLIN( 841)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
+HXLINE( 843)			if (::hx::IsNotNull( basic )) {
+HXLINE( 845)				if (Recurse) {
+HXLINE( 847)					 ::flixel::group::FlxTypedGroup group = ::flixel::group::FlxTypedGroup_obj::resolveGroup(basic);
+HXLINE( 848)					if (::hx::IsNotNull( group )) {
+HXLINE( 849)						group->forEachOfType(ObjectClass,Function,Recurse);
             					}
             				}
-HXLINE( 857)				if (::Std_obj::isOfType(basic,( ( ::Dynamic)(ObjectClass) ))) {
-HXLINE( 858)					Function(basic);
+HXLINE( 852)				if (::Std_obj::isOfType(basic,ObjectClass)) {
+HXLINE( 853)					Function(basic);
             				}
             			}
             		}
@@ -857,116 +857,116 @@ HXLINE( 858)					Function(basic);
 HX_DEFINE_DYNAMIC_FUNC3(FlxTypedGroup_obj,forEachOfType,(void))
 
 int FlxTypedGroup_obj::set_maxSize(int Size){
-            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_865_set_maxSize)
-HXLINE( 866)		this->maxSize = ::Std_obj::_hx_int(::Math_obj::abs(( (Float)(Size) )));
-HXLINE( 868)		if ((this->_marker >= this->maxSize)) {
-HXLINE( 869)			this->_marker = 0;
+            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_860_set_maxSize)
+HXLINE( 861)		this->maxSize = ::Std_obj::_hx_int(::Math_obj::abs(( (Float)(Size) )));
+HXLINE( 863)		if ((this->_marker >= this->maxSize)) {
+HXLINE( 864)			this->_marker = 0;
             		}
-HXLINE( 871)		bool _hx_tmp;
-HXDLIN( 871)		bool _hx_tmp1;
-HXDLIN( 871)		if ((this->maxSize != 0)) {
-HXLINE( 871)			_hx_tmp1 = ::hx::IsNull( this->members );
-            		}
-            		else {
-HXLINE( 871)			_hx_tmp1 = true;
-            		}
-HXDLIN( 871)		if (!(_hx_tmp1)) {
-HXLINE( 871)			_hx_tmp = (this->maxSize >= this->length);
+HXLINE( 866)		bool _hx_tmp;
+HXDLIN( 866)		bool _hx_tmp1;
+HXDLIN( 866)		if ((this->maxSize != 0)) {
+HXLINE( 866)			_hx_tmp1 = ::hx::IsNull( this->members );
             		}
             		else {
-HXLINE( 871)			_hx_tmp = true;
+HXLINE( 866)			_hx_tmp1 = true;
             		}
-HXDLIN( 871)		if (_hx_tmp) {
-HXLINE( 872)			return this->maxSize;
+HXDLIN( 866)		if (!(_hx_tmp1)) {
+HXLINE( 866)			_hx_tmp = (this->maxSize >= this->length);
             		}
-HXLINE( 875)		int i = this->maxSize;
-HXLINE( 876)		int l = this->length;
-HXLINE( 877)		 ::flixel::FlxBasic basic = null();
-HXLINE( 879)		while((i < l)){
-HXLINE( 881)			i = (i + 1);
-HXDLIN( 881)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
-HXLINE( 883)			if (::hx::IsNotNull( basic )) {
-HXLINE( 885)				if (::hx::IsNotNull( this->_memberRemoved )) {
-HXLINE( 886)					this->_memberRemoved->dispatch(basic);
+            		else {
+HXLINE( 866)			_hx_tmp = true;
+            		}
+HXDLIN( 866)		if (_hx_tmp) {
+HXLINE( 867)			return this->maxSize;
+            		}
+HXLINE( 870)		int i = this->maxSize;
+HXLINE( 871)		int l = this->length;
+HXLINE( 872)		 ::flixel::FlxBasic basic = null();
+HXLINE( 874)		while((i < l)){
+HXLINE( 876)			i = (i + 1);
+HXDLIN( 876)			basic = ( ( ::flixel::FlxBasic)(this->members->__get((i - 1))) );
+HXLINE( 878)			if (::hx::IsNotNull( basic )) {
+HXLINE( 880)				if (::hx::IsNotNull( this->_memberRemoved )) {
+HXLINE( 881)					this->_memberRemoved->dispatch(basic);
             				}
-HXLINE( 888)				basic->destroy();
+HXLINE( 883)				basic->destroy();
             			}
             		}
-HXLINE( 892)		::flixel::util::FlxArrayUtil_obj::setLength_flixel_group_FlxTypedGroup_T(this->members,this->maxSize);
-HXLINE( 893)		this->length = this->members->get_length();
-HXLINE( 895)		return this->maxSize;
+HXLINE( 887)		::flixel::util::FlxArrayUtil_obj::setLength_flixel_group_FlxTypedGroup_T(this->members,this->maxSize);
+HXLINE( 888)		this->length = this->members->get_length();
+HXLINE( 890)		return this->maxSize;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(FlxTypedGroup_obj,set_maxSize,return )
 
  ::flixel::util::_FlxSignal::FlxSignal1 FlxTypedGroup_obj::get_memberAdded(){
-            	HX_GC_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_900_get_memberAdded)
-HXLINE( 901)		if (::hx::IsNull( this->_memberAdded )) {
-HXLINE( 902)			this->_memberAdded =  ::flixel::util::_FlxSignal::FlxSignal1_obj::__alloc( HX_CTX );
+            	HX_GC_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_895_get_memberAdded)
+HXLINE( 896)		if (::hx::IsNull( this->_memberAdded )) {
+HXLINE( 897)			this->_memberAdded =  ::flixel::util::_FlxSignal::FlxSignal1_obj::__alloc( HX_CTX );
             		}
-HXLINE( 904)		return this->_memberAdded;
+HXLINE( 899)		return this->_memberAdded;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTypedGroup_obj,get_memberAdded,return )
 
  ::flixel::util::_FlxSignal::FlxSignal1 FlxTypedGroup_obj::get_memberRemoved(){
-            	HX_GC_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_909_get_memberRemoved)
-HXLINE( 910)		if (::hx::IsNull( this->_memberRemoved )) {
-HXLINE( 911)			this->_memberRemoved =  ::flixel::util::_FlxSignal::FlxSignal1_obj::__alloc( HX_CTX );
+            	HX_GC_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_904_get_memberRemoved)
+HXLINE( 905)		if (::hx::IsNull( this->_memberRemoved )) {
+HXLINE( 906)			this->_memberRemoved =  ::flixel::util::_FlxSignal::FlxSignal1_obj::__alloc( HX_CTX );
             		}
-HXLINE( 913)		return this->_memberRemoved;
+HXLINE( 908)		return this->_memberRemoved;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(FlxTypedGroup_obj,get_memberRemoved,return )
 
 bool FlxTypedGroup_obj::overlaps( ::Dynamic Callback, ::flixel::group::FlxTypedGroup Group,Float X,Float Y,bool InScreenSpace, ::flixel::FlxCamera Camera){
-            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_31_overlaps)
-HXLINE(  32)		bool result = false;
-HXLINE(  33)		if (::hx::IsNotNull( Group )) {
-HXLINE(  35)			int i = 0;
-HXLINE(  36)			int l = Group->length;
-HXLINE(  37)			 ::flixel::FlxBasic basic;
-HXLINE(  39)			while((i < l)){
-HXLINE(  41)				i = (i + 1);
-HXDLIN(  41)				basic = Dynamic( Group->members->__get((i - 1))).StaticCast<  ::flixel::FlxBasic >();
-HXLINE(  43)				bool _hx_tmp;
-HXDLIN(  43)				if (::hx::IsNotNull( basic )) {
-HXLINE(  43)					_hx_tmp = ( (bool)(Callback(basic,X,Y,InScreenSpace,Camera)) );
+            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_26_overlaps)
+HXLINE(  27)		bool result = false;
+HXLINE(  28)		if (::hx::IsNotNull( Group )) {
+HXLINE(  30)			int i = 0;
+HXLINE(  31)			int l = Group->length;
+HXLINE(  32)			 ::flixel::FlxBasic basic;
+HXLINE(  34)			while((i < l)){
+HXLINE(  36)				i = (i + 1);
+HXDLIN(  36)				basic = Dynamic( Group->members->__get((i - 1))).StaticCast<  ::flixel::FlxBasic >();
+HXLINE(  38)				bool _hx_tmp;
+HXDLIN(  38)				if (::hx::IsNotNull( basic )) {
+HXLINE(  38)					_hx_tmp = ( (bool)(Callback(basic,X,Y,InScreenSpace,Camera)) );
             				}
             				else {
-HXLINE(  43)					_hx_tmp = false;
+HXLINE(  38)					_hx_tmp = false;
             				}
-HXDLIN(  43)				if (_hx_tmp) {
-HXLINE(  45)					result = true;
-HXLINE(  46)					goto _hx_goto_51;
+HXDLIN(  38)				if (_hx_tmp) {
+HXLINE(  40)					result = true;
+HXLINE(  41)					goto _hx_goto_51;
             				}
             			}
             			_hx_goto_51:;
             		}
-HXLINE(  50)		return result;
+HXLINE(  45)		return result;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC6(FlxTypedGroup_obj,overlaps,return )
 
  ::flixel::group::FlxTypedGroup FlxTypedGroup_obj::resolveGroup( ::flixel::FlxBasic ObjectOrGroup){
-            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_55_resolveGroup)
-HXLINE(  56)		 ::flixel::group::FlxTypedGroup group = null();
-HXLINE(  57)		if (::hx::IsNotNull( ObjectOrGroup )) {
-HXLINE(  59)			if ((ObjectOrGroup->flixelType == 2)) {
-HXLINE(  61)				group = ( ( ::flixel::group::FlxTypedGroup)(ObjectOrGroup) );
+            	HX_STACKFRAME(&_hx_pos_bfa1de30d9ec9fbd_50_resolveGroup)
+HXLINE(  51)		 ::flixel::group::FlxTypedGroup group = null();
+HXLINE(  52)		if (::hx::IsNotNull( ObjectOrGroup )) {
+HXLINE(  54)			if ((ObjectOrGroup->flixelType == 2)) {
+HXLINE(  56)				group = ( ( ::flixel::group::FlxTypedGroup)(ObjectOrGroup) );
             			}
             			else {
-HXLINE(  63)				if ((ObjectOrGroup->flixelType == 4)) {
-HXLINE(  65)					 ::flixel::group::FlxTypedSpriteGroup spriteGroup = ( ( ::flixel::group::FlxTypedSpriteGroup)(ObjectOrGroup) );
-HXLINE(  66)					group = spriteGroup->group;
+HXLINE(  58)				if ((ObjectOrGroup->flixelType == 4)) {
+HXLINE(  60)					 ::flixel::group::FlxTypedSpriteGroup spriteGroup = ( ( ::flixel::group::FlxTypedSpriteGroup)(ObjectOrGroup) );
+HXLINE(  61)					group = spriteGroup->group;
             				}
             			}
             		}
-HXLINE(  69)		return group;
+HXLINE(  64)		return group;
             	}
 
 

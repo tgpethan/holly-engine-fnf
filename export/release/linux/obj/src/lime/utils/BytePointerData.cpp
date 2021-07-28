@@ -8,14 +8,14 @@
 #include <lime/utils/BytePointerData.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_316503c62a207c57_205_new,"lime.utils.BytePointerData","new",0x7e54685b,"lime.utils.BytePointerData.new","lime/utils/BytePointer.hx",205,0x50fae541)
+HX_DEFINE_STACK_FRAME(_hx_pos_316503c62a207c57_204_new,"lime.utils.BytePointerData","new",0x7e54685b,"lime.utils.BytePointerData.new","lime/utils/BytePointer.hx",204,0x50fae541)
 namespace lime{
 namespace utils{
 
 void BytePointerData_obj::__construct( ::haxe::io::Bytes bytes,int offset){
-            	HX_STACKFRAME(&_hx_pos_316503c62a207c57_205_new)
-HXLINE( 206)		this->bytes = bytes;
-HXLINE( 207)		this->offset = offset;
+            	HX_STACKFRAME(&_hx_pos_316503c62a207c57_204_new)
+HXLINE( 205)		this->bytes = bytes;
+HXLINE( 206)		this->offset = offset;
             	}
 
 Dynamic BytePointerData_obj::__CreateEmpty() { return new BytePointerData_obj; }

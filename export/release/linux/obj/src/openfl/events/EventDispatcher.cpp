@@ -26,23 +26,23 @@
 #include <openfl/events/_EventDispatcher/Listener.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_e38539b7b6ad7309_78_new,"openfl.events.EventDispatcher","new",0xd41245fc,"openfl.events.EventDispatcher.new","openfl/events/EventDispatcher.hx",78,0xe2270714)
-HX_LOCAL_STACK_FRAME(_hx_pos_e38539b7b6ad7309_178_addEventListener,"openfl.events.EventDispatcher","addEventListener",0xf79f44b1,"openfl.events.EventDispatcher.addEventListener","openfl/events/EventDispatcher.hx",178,0xe2270714)
-HX_LOCAL_STACK_FRAME(_hx_pos_e38539b7b6ad7309_236_dispatchEvent,"openfl.events.EventDispatcher","dispatchEvent",0x2230d79c,"openfl.events.EventDispatcher.dispatchEvent","openfl/events/EventDispatcher.hx",236,0xe2270714)
-HX_LOCAL_STACK_FRAME(_hx_pos_e38539b7b6ad7309_270_hasEventListener,"openfl.events.EventDispatcher","hasEventListener",0x132567d8,"openfl.events.EventDispatcher.hasEventListener","openfl/events/EventDispatcher.hx",270,0xe2270714)
-HX_LOCAL_STACK_FRAME(_hx_pos_e38539b7b6ad7309_292_removeEventListener,"openfl.events.EventDispatcher","removeEventListener",0x40c1f566,"openfl.events.EventDispatcher.removeEventListener","openfl/events/EventDispatcher.hx",292,0xe2270714)
-HX_LOCAL_STACK_FRAME(_hx_pos_e38539b7b6ad7309_328_toString,"openfl.events.EventDispatcher","toString",0x34d48590,"openfl.events.EventDispatcher.toString","openfl/events/EventDispatcher.hx",328,0xe2270714)
-HX_LOCAL_STACK_FRAME(_hx_pos_e38539b7b6ad7309_356_willTrigger,"openfl.events.EventDispatcher","willTrigger",0x7a1765e2,"openfl.events.EventDispatcher.willTrigger","openfl/events/EventDispatcher.hx",356,0xe2270714)
-HX_LOCAL_STACK_FRAME(_hx_pos_e38539b7b6ad7309_360___dispatchEvent,"openfl.events.EventDispatcher","__dispatchEvent",0x417d6f7c,"openfl.events.EventDispatcher.__dispatchEvent","openfl/events/EventDispatcher.hx",360,0xe2270714)
-HX_LOCAL_STACK_FRAME(_hx_pos_e38539b7b6ad7309_426___removeAllListeners,"openfl.events.EventDispatcher","__removeAllListeners",0x1f26f486,"openfl.events.EventDispatcher.__removeAllListeners","openfl/events/EventDispatcher.hx",426,0xe2270714)
-HX_LOCAL_STACK_FRAME(_hx_pos_e38539b7b6ad7309_432___addListenerByPriority,"openfl.events.EventDispatcher","__addListenerByPriority",0xd68810ec,"openfl.events.EventDispatcher.__addListenerByPriority","openfl/events/EventDispatcher.hx",432,0xe2270714)
+HX_DEFINE_STACK_FRAME(_hx_pos_e38539b7b6ad7309_17_new,"openfl.events.EventDispatcher","new",0xd41245fc,"openfl.events.EventDispatcher.new","openfl/events/EventDispatcher.hx",17,0xe2270714)
+HX_LOCAL_STACK_FRAME(_hx_pos_e38539b7b6ad7309_24_addEventListener,"openfl.events.EventDispatcher","addEventListener",0xf79f44b1,"openfl.events.EventDispatcher.addEventListener","openfl/events/EventDispatcher.hx",24,0xe2270714)
+HX_LOCAL_STACK_FRAME(_hx_pos_e38539b7b6ad7309_67_dispatchEvent,"openfl.events.EventDispatcher","dispatchEvent",0x2230d79c,"openfl.events.EventDispatcher.dispatchEvent","openfl/events/EventDispatcher.hx",67,0xe2270714)
+HX_LOCAL_STACK_FRAME(_hx_pos_e38539b7b6ad7309_81_hasEventListener,"openfl.events.EventDispatcher","hasEventListener",0x132567d8,"openfl.events.EventDispatcher.hasEventListener","openfl/events/EventDispatcher.hx",81,0xe2270714)
+HX_LOCAL_STACK_FRAME(_hx_pos_e38539b7b6ad7309_88_removeEventListener,"openfl.events.EventDispatcher","removeEventListener",0x40c1f566,"openfl.events.EventDispatcher.removeEventListener","openfl/events/EventDispatcher.hx",88,0xe2270714)
+HX_LOCAL_STACK_FRAME(_hx_pos_e38539b7b6ad7309_124_toString,"openfl.events.EventDispatcher","toString",0x34d48590,"openfl.events.EventDispatcher.toString","openfl/events/EventDispatcher.hx",124,0xe2270714)
+HX_LOCAL_STACK_FRAME(_hx_pos_e38539b7b6ad7309_132_willTrigger,"openfl.events.EventDispatcher","willTrigger",0x7a1765e2,"openfl.events.EventDispatcher.willTrigger","openfl/events/EventDispatcher.hx",132,0xe2270714)
+HX_LOCAL_STACK_FRAME(_hx_pos_e38539b7b6ad7309_136___dispatchEvent,"openfl.events.EventDispatcher","__dispatchEvent",0x417d6f7c,"openfl.events.EventDispatcher.__dispatchEvent","openfl/events/EventDispatcher.hx",136,0xe2270714)
+HX_LOCAL_STACK_FRAME(_hx_pos_e38539b7b6ad7309_202___removeAllListeners,"openfl.events.EventDispatcher","__removeAllListeners",0x1f26f486,"openfl.events.EventDispatcher.__removeAllListeners","openfl/events/EventDispatcher.hx",202,0xe2270714)
+HX_LOCAL_STACK_FRAME(_hx_pos_e38539b7b6ad7309_208___addListenerByPriority,"openfl.events.EventDispatcher","__addListenerByPriority",0xd68810ec,"openfl.events.EventDispatcher.__addListenerByPriority","openfl/events/EventDispatcher.hx",208,0xe2270714)
 namespace openfl{
 namespace events{
 
 void EventDispatcher_obj::__construct(::Dynamic target){
-            	HX_STACKFRAME(&_hx_pos_e38539b7b6ad7309_78_new)
-HXDLIN(  78)		if (::hx::IsNotNull( target )) {
-HXLINE(  80)			this->_hx___targetDispatcher = target;
+            	HX_STACKFRAME(&_hx_pos_e38539b7b6ad7309_17_new)
+HXDLIN(  17)		if (::hx::IsNotNull( target )) {
+HXLINE(  19)			this->_hx___targetDispatcher = target;
             		}
             	}
 
@@ -84,46 +84,46 @@ void EventDispatcher_obj::addEventListener(::String type, ::Dynamic listener,::h
             		bool useCapture = __o_useCapture.Default(false);
             		int priority = __o_priority.Default(0);
             		bool useWeakReference = __o_useWeakReference.Default(false);
-            	HX_GC_STACKFRAME(&_hx_pos_e38539b7b6ad7309_178_addEventListener)
-HXLINE( 179)		if (::hx::IsNull( listener )) {
-HXLINE( 179)			return;
+            	HX_GC_STACKFRAME(&_hx_pos_e38539b7b6ad7309_24_addEventListener)
+HXLINE(  25)		if (::hx::IsNull( listener )) {
+HXLINE(  25)			return;
             		}
-HXLINE( 181)		if (::hx::IsNull( this->_hx___eventMap )) {
-HXLINE( 183)			this->_hx___eventMap =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
-HXLINE( 184)			this->_hx___iterators =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
+HXLINE(  27)		if (::hx::IsNull( this->_hx___eventMap )) {
+HXLINE(  29)			this->_hx___eventMap =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
+HXLINE(  30)			this->_hx___iterators =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
             		}
-HXLINE( 187)		if (!(this->_hx___eventMap->exists(type))) {
-HXLINE( 189)			::Array< ::Dynamic> list = ::Array_obj< ::Dynamic>::__new();
-HXLINE( 190)			list->push( ::openfl::events::_EventDispatcher::Listener_obj::__alloc( HX_CTX ,listener,useCapture,priority));
-HXLINE( 192)			 ::openfl::events::_EventDispatcher::DispatchIterator iterator =  ::openfl::events::_EventDispatcher::DispatchIterator_obj::__alloc( HX_CTX ,list);
-HXLINE( 194)			this->_hx___eventMap->set(type,list);
-HXLINE( 195)			this->_hx___iterators->set(type,::Array_obj< ::Dynamic>::__new(1)->init(0,iterator));
+HXLINE(  33)		if (!(this->_hx___eventMap->exists(type))) {
+HXLINE(  35)			::Array< ::Dynamic> list = ::Array_obj< ::Dynamic>::__new();
+HXLINE(  36)			list->push( ::openfl::events::_EventDispatcher::Listener_obj::__alloc( HX_CTX ,listener,useCapture,priority));
+HXLINE(  38)			 ::openfl::events::_EventDispatcher::DispatchIterator iterator =  ::openfl::events::_EventDispatcher::DispatchIterator_obj::__alloc( HX_CTX ,list);
+HXLINE(  40)			this->_hx___eventMap->set(type,list);
+HXLINE(  41)			this->_hx___iterators->set(type,::Array_obj< ::Dynamic>::__new(1)->init(0,iterator));
             		}
             		else {
-HXLINE( 199)			::Array< ::Dynamic> list = ( (::Array< ::Dynamic>)(this->_hx___eventMap->get(type)) );
-HXLINE( 201)			{
-HXLINE( 201)				int _g = 0;
-HXDLIN( 201)				int _g1 = list->length;
-HXDLIN( 201)				while((_g < _g1)){
-HXLINE( 201)					_g = (_g + 1);
-HXDLIN( 201)					int i = (_g - 1);
-HXLINE( 203)					if (list->__get(i).StaticCast<  ::openfl::events::_EventDispatcher::Listener >()->match(listener,useCapture)) {
-HXLINE( 203)						return;
+HXLINE(  45)			::Array< ::Dynamic> list = ( (::Array< ::Dynamic>)(this->_hx___eventMap->get(type)) );
+HXLINE(  47)			{
+HXLINE(  47)				int _g = 0;
+HXDLIN(  47)				int _g1 = list->length;
+HXDLIN(  47)				while((_g < _g1)){
+HXLINE(  47)					_g = (_g + 1);
+HXDLIN(  47)					int i = (_g - 1);
+HXLINE(  49)					if (list->__get(i).StaticCast<  ::openfl::events::_EventDispatcher::Listener >()->match(listener,useCapture)) {
+HXLINE(  49)						return;
             					}
             				}
             			}
-HXLINE( 206)			::Array< ::Dynamic> iterators = ( (::Array< ::Dynamic>)(this->_hx___iterators->get(type)) );
-HXLINE( 208)			{
-HXLINE( 208)				int _g2 = 0;
-HXDLIN( 208)				while((_g2 < iterators->length)){
-HXLINE( 208)					 ::openfl::events::_EventDispatcher::DispatchIterator iterator = iterators->__get(_g2).StaticCast<  ::openfl::events::_EventDispatcher::DispatchIterator >();
-HXDLIN( 208)					_g2 = (_g2 + 1);
-HXLINE( 210)					if (iterator->active) {
-HXLINE( 212)						iterator->copy();
+HXLINE(  52)			::Array< ::Dynamic> iterators = ( (::Array< ::Dynamic>)(this->_hx___iterators->get(type)) );
+HXLINE(  54)			{
+HXLINE(  54)				int _g2 = 0;
+HXDLIN(  54)				while((_g2 < iterators->length)){
+HXLINE(  54)					 ::openfl::events::_EventDispatcher::DispatchIterator iterator = iterators->__get(_g2).StaticCast<  ::openfl::events::_EventDispatcher::DispatchIterator >();
+HXDLIN(  54)					_g2 = (_g2 + 1);
+HXLINE(  56)					if (iterator->active) {
+HXLINE(  58)						iterator->copy();
             					}
             				}
             			}
-HXLINE( 216)			this->_hx___addListenerByPriority(list, ::openfl::events::_EventDispatcher::Listener_obj::__alloc( HX_CTX ,listener,useCapture,priority));
+HXLINE(  62)			this->_hx___addListenerByPriority(list, ::openfl::events::_EventDispatcher::Listener_obj::__alloc( HX_CTX ,listener,useCapture,priority));
             		}
             	}
 
@@ -131,25 +131,25 @@ HXLINE( 216)			this->_hx___addListenerByPriority(list, ::openfl::events::_EventD
 HX_DEFINE_DYNAMIC_FUNC5(EventDispatcher_obj,addEventListener,(void))
 
 bool EventDispatcher_obj::dispatchEvent( ::openfl::events::Event event){
-            	HX_STACKFRAME(&_hx_pos_e38539b7b6ad7309_236_dispatchEvent)
-HXLINE( 237)		if (::hx::IsNotNull( this->_hx___targetDispatcher )) {
-HXLINE( 239)			event->target = this->_hx___targetDispatcher;
+            	HX_STACKFRAME(&_hx_pos_e38539b7b6ad7309_67_dispatchEvent)
+HXLINE(  68)		if (::hx::IsNotNull( this->_hx___targetDispatcher )) {
+HXLINE(  70)			event->target = this->_hx___targetDispatcher;
             		}
             		else {
-HXLINE( 243)			event->target = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(  74)			event->target = ::hx::ObjectPtr<OBJ_>(this);
             		}
-HXLINE( 246)		return this->_hx___dispatchEvent(event);
+HXLINE(  77)		return this->_hx___dispatchEvent(event);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(EventDispatcher_obj,dispatchEvent,return )
 
 bool EventDispatcher_obj::hasEventListener(::String type){
-            	HX_STACKFRAME(&_hx_pos_e38539b7b6ad7309_270_hasEventListener)
-HXLINE( 271)		if (::hx::IsNull( this->_hx___eventMap )) {
-HXLINE( 271)			return false;
+            	HX_STACKFRAME(&_hx_pos_e38539b7b6ad7309_81_hasEventListener)
+HXLINE(  82)		if (::hx::IsNull( this->_hx___eventMap )) {
+HXLINE(  82)			return false;
             		}
-HXLINE( 273)		return this->_hx___eventMap->exists(type);
+HXLINE(  84)		return this->_hx___eventMap->exists(type);
             	}
 
 
@@ -157,50 +157,50 @@ HX_DEFINE_DYNAMIC_FUNC1(EventDispatcher_obj,hasEventListener,return )
 
 void EventDispatcher_obj::removeEventListener(::String type, ::Dynamic listener,::hx::Null< bool >  __o_useCapture){
             		bool useCapture = __o_useCapture.Default(false);
-            	HX_STACKFRAME(&_hx_pos_e38539b7b6ad7309_292_removeEventListener)
-HXLINE( 293)		bool _hx_tmp;
-HXDLIN( 293)		if (::hx::IsNotNull( this->_hx___eventMap )) {
-HXLINE( 293)			_hx_tmp = ::hx::IsNull( listener );
+            	HX_STACKFRAME(&_hx_pos_e38539b7b6ad7309_88_removeEventListener)
+HXLINE(  89)		bool _hx_tmp;
+HXDLIN(  89)		if (::hx::IsNotNull( this->_hx___eventMap )) {
+HXLINE(  89)			_hx_tmp = ::hx::IsNull( listener );
             		}
             		else {
-HXLINE( 293)			_hx_tmp = true;
+HXLINE(  89)			_hx_tmp = true;
             		}
-HXDLIN( 293)		if (_hx_tmp) {
-HXLINE( 293)			return;
+HXDLIN(  89)		if (_hx_tmp) {
+HXLINE(  89)			return;
             		}
-HXLINE( 295)		::Array< ::Dynamic> list = ( (::Array< ::Dynamic>)(this->_hx___eventMap->get(type)) );
-HXLINE( 296)		if (::hx::IsNull( list )) {
-HXLINE( 296)			return;
+HXLINE(  91)		::Array< ::Dynamic> list = ( (::Array< ::Dynamic>)(this->_hx___eventMap->get(type)) );
+HXLINE(  92)		if (::hx::IsNull( list )) {
+HXLINE(  92)			return;
             		}
-HXLINE( 298)		::Array< ::Dynamic> iterators = ( (::Array< ::Dynamic>)(this->_hx___iterators->get(type)) );
-HXLINE( 300)		{
-HXLINE( 300)			int _g = 0;
-HXDLIN( 300)			int _g1 = list->length;
-HXDLIN( 300)			while((_g < _g1)){
-HXLINE( 300)				_g = (_g + 1);
-HXDLIN( 300)				int i = (_g - 1);
-HXLINE( 302)				if (list->__get(i).StaticCast<  ::openfl::events::_EventDispatcher::Listener >()->match(listener,useCapture)) {
-HXLINE( 304)					{
-HXLINE( 304)						int _g = 0;
-HXDLIN( 304)						while((_g < iterators->length)){
-HXLINE( 304)							 ::openfl::events::_EventDispatcher::DispatchIterator iterator = iterators->__get(_g).StaticCast<  ::openfl::events::_EventDispatcher::DispatchIterator >();
-HXDLIN( 304)							_g = (_g + 1);
-HXLINE( 306)							iterator->remove(list->__get(i).StaticCast<  ::openfl::events::_EventDispatcher::Listener >(),i);
+HXLINE(  94)		::Array< ::Dynamic> iterators = ( (::Array< ::Dynamic>)(this->_hx___iterators->get(type)) );
+HXLINE(  96)		{
+HXLINE(  96)			int _g = 0;
+HXDLIN(  96)			int _g1 = list->length;
+HXDLIN(  96)			while((_g < _g1)){
+HXLINE(  96)				_g = (_g + 1);
+HXDLIN(  96)				int i = (_g - 1);
+HXLINE(  98)				if (list->__get(i).StaticCast<  ::openfl::events::_EventDispatcher::Listener >()->match(listener,useCapture)) {
+HXLINE( 100)					{
+HXLINE( 100)						int _g = 0;
+HXDLIN( 100)						while((_g < iterators->length)){
+HXLINE( 100)							 ::openfl::events::_EventDispatcher::DispatchIterator iterator = iterators->__get(_g).StaticCast<  ::openfl::events::_EventDispatcher::DispatchIterator >();
+HXDLIN( 100)							_g = (_g + 1);
+HXLINE( 102)							iterator->remove(list->__get(i).StaticCast<  ::openfl::events::_EventDispatcher::Listener >(),i);
             						}
             					}
-HXLINE( 309)					list->removeRange(i,1);
-HXLINE( 310)					goto _hx_goto_6;
+HXLINE( 105)					list->removeRange(i,1);
+HXLINE( 106)					goto _hx_goto_6;
             				}
             			}
             			_hx_goto_6:;
             		}
-HXLINE( 314)		if ((list->length == 0)) {
-HXLINE( 316)			this->_hx___eventMap->remove(type);
-HXLINE( 317)			this->_hx___iterators->remove(type);
+HXLINE( 110)		if ((list->length == 0)) {
+HXLINE( 112)			this->_hx___eventMap->remove(type);
+HXLINE( 113)			this->_hx___iterators->remove(type);
             		}
-HXLINE( 320)		if (!(( (bool)(this->_hx___eventMap->iterator()->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) ))) {
-HXLINE( 322)			this->_hx___eventMap = null();
-HXLINE( 323)			this->_hx___iterators = null();
+HXLINE( 116)		if (!(( (bool)(this->_hx___eventMap->iterator()->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) ))) {
+HXLINE( 118)			this->_hx___eventMap = null();
+HXLINE( 119)			this->_hx___iterators = null();
             		}
             	}
 
@@ -208,113 +208,113 @@ HXLINE( 323)			this->_hx___iterators = null();
 HX_DEFINE_DYNAMIC_FUNC3(EventDispatcher_obj,removeEventListener,(void))
 
 ::String EventDispatcher_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_e38539b7b6ad7309_328_toString)
-HXLINE( 329)		::String full = ::Type_obj::getClassName(::Type_obj::getClass(::hx::ObjectPtr<OBJ_>(this)));
-HXLINE( 330)		::String _hx_short = ( (::String)(full.split(HX_(".",2e,00,00,00))->pop()) );
-HXLINE( 331)		return ((HX_("[object ",86,f9,3d,d7) + _hx_short) + HX_("]",5d,00,00,00));
+            	HX_STACKFRAME(&_hx_pos_e38539b7b6ad7309_124_toString)
+HXLINE( 125)		::String full = ::Type_obj::getClassName(::Type_obj::getClass(::hx::ObjectPtr<OBJ_>(this)));
+HXLINE( 126)		::String _hx_short = ( (::String)(full.split(HX_(".",2e,00,00,00))->pop()) );
+HXLINE( 127)		return ((HX_("[object ",86,f9,3d,d7) + _hx_short) + HX_("]",5d,00,00,00));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(EventDispatcher_obj,toString,return )
 
 bool EventDispatcher_obj::willTrigger(::String type){
-            	HX_STACKFRAME(&_hx_pos_e38539b7b6ad7309_356_willTrigger)
-HXDLIN( 356)		return this->hasEventListener(type);
+            	HX_STACKFRAME(&_hx_pos_e38539b7b6ad7309_132_willTrigger)
+HXDLIN( 132)		return this->hasEventListener(type);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(EventDispatcher_obj,willTrigger,return )
 
 bool EventDispatcher_obj::_hx___dispatchEvent( ::openfl::events::Event event){
-            	HX_GC_STACKFRAME(&_hx_pos_e38539b7b6ad7309_360___dispatchEvent)
-HXLINE( 361)		bool _hx_tmp;
-HXDLIN( 361)		if (::hx::IsNotNull( this->_hx___eventMap )) {
-HXLINE( 361)			_hx_tmp = ::hx::IsNull( event );
+            	HX_GC_STACKFRAME(&_hx_pos_e38539b7b6ad7309_136___dispatchEvent)
+HXLINE( 137)		bool _hx_tmp;
+HXDLIN( 137)		if (::hx::IsNotNull( this->_hx___eventMap )) {
+HXLINE( 137)			_hx_tmp = ::hx::IsNull( event );
             		}
             		else {
-HXLINE( 361)			_hx_tmp = true;
+HXLINE( 137)			_hx_tmp = true;
             		}
-HXDLIN( 361)		if (_hx_tmp) {
-HXLINE( 361)			return true;
+HXDLIN( 137)		if (_hx_tmp) {
+HXLINE( 137)			return true;
             		}
-HXLINE( 363)		::String type = event->type;
-HXLINE( 365)		::Array< ::Dynamic> list = ( (::Array< ::Dynamic>)(this->_hx___eventMap->get(type)) );
-HXLINE( 366)		if (::hx::IsNull( list )) {
-HXLINE( 366)			return true;
+HXLINE( 139)		::String type = event->type;
+HXLINE( 141)		::Array< ::Dynamic> list = ( (::Array< ::Dynamic>)(this->_hx___eventMap->get(type)) );
+HXLINE( 142)		if (::hx::IsNull( list )) {
+HXLINE( 142)			return true;
             		}
-HXLINE( 368)		if (::hx::IsNull( event->target )) {
-HXLINE( 370)			if (::hx::IsNotNull( this->_hx___targetDispatcher )) {
-HXLINE( 372)				event->target = this->_hx___targetDispatcher;
+HXLINE( 144)		if (::hx::IsNull( event->target )) {
+HXLINE( 146)			if (::hx::IsNotNull( this->_hx___targetDispatcher )) {
+HXLINE( 148)				event->target = this->_hx___targetDispatcher;
             			}
             			else {
-HXLINE( 376)				event->target = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 152)				event->target = ::hx::ObjectPtr<OBJ_>(this);
             			}
             		}
-HXLINE( 380)		event->currentTarget = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE( 382)		bool capture = (event->eventPhase == 1);
-HXLINE( 384)		::Array< ::Dynamic> iterators = ( (::Array< ::Dynamic>)(this->_hx___iterators->get(type)) );
-HXLINE( 385)		 ::openfl::events::_EventDispatcher::DispatchIterator iterator = iterators->__get(0).StaticCast<  ::openfl::events::_EventDispatcher::DispatchIterator >();
-HXLINE( 387)		if (iterator->active) {
-HXLINE( 389)			iterator =  ::openfl::events::_EventDispatcher::DispatchIterator_obj::__alloc( HX_CTX ,list);
-HXLINE( 390)			iterators->push(iterator);
+HXLINE( 156)		event->currentTarget = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 158)		bool capture = (event->eventPhase == 1);
+HXLINE( 160)		::Array< ::Dynamic> iterators = ( (::Array< ::Dynamic>)(this->_hx___iterators->get(type)) );
+HXLINE( 161)		 ::openfl::events::_EventDispatcher::DispatchIterator iterator = iterators->__get(0).StaticCast<  ::openfl::events::_EventDispatcher::DispatchIterator >();
+HXLINE( 163)		if (iterator->active) {
+HXLINE( 165)			iterator =  ::openfl::events::_EventDispatcher::DispatchIterator_obj::__alloc( HX_CTX ,list);
+HXLINE( 166)			iterators->push(iterator);
             		}
-HXLINE( 393)		iterator->start();
-HXLINE( 395)		{
-HXLINE( 395)			 ::openfl::events::_EventDispatcher::DispatchIterator listener = iterator;
-HXDLIN( 395)			while(listener->hasNext()){
-HXLINE( 395)				 ::openfl::events::_EventDispatcher::Listener listener1 = listener->next();
-HXLINE( 397)				if (::hx::IsNull( listener1 )) {
-HXLINE( 397)					continue;
+HXLINE( 169)		iterator->start();
+HXLINE( 171)		{
+HXLINE( 171)			 ::openfl::events::_EventDispatcher::DispatchIterator listener = iterator;
+HXDLIN( 171)			while(listener->hasNext()){
+HXLINE( 171)				 ::openfl::events::_EventDispatcher::Listener listener1 = listener->next();
+HXLINE( 173)				if (::hx::IsNull( listener1 )) {
+HXLINE( 173)					continue;
             				}
-HXLINE( 399)				if ((listener1->useCapture == capture)) {
-HXLINE( 402)					listener1->callback(event);
-HXLINE( 404)					if (event->_hx___isCanceledNow) {
-HXLINE( 406)						goto _hx_goto_11;
+HXLINE( 175)				if ((listener1->useCapture == capture)) {
+HXLINE( 178)					listener1->callback(event);
+HXLINE( 180)					if (event->_hx___isCanceledNow) {
+HXLINE( 182)						goto _hx_goto_11;
             					}
             				}
             			}
             			_hx_goto_11:;
             		}
-HXLINE( 411)		iterator->stop();
-HXLINE( 413)		if (::hx::IsNotEq( iterator,iterators->__get(0).StaticCast<  ::openfl::events::_EventDispatcher::DispatchIterator >() )) {
-HXLINE( 415)			iterators->remove(iterator);
+HXLINE( 187)		iterator->stop();
+HXLINE( 189)		if (::hx::IsNotEq( iterator,iterators->__get(0).StaticCast<  ::openfl::events::_EventDispatcher::DispatchIterator >() )) {
+HXLINE( 191)			iterators->remove(iterator);
             		}
             		else {
-HXLINE( 419)			iterator->reset(list);
+HXLINE( 195)			iterator->reset(list);
             		}
-HXLINE( 422)		return !(event->isDefaultPrevented());
+HXLINE( 198)		return !(event->isDefaultPrevented());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(EventDispatcher_obj,_hx___dispatchEvent,return )
 
 void EventDispatcher_obj::_hx___removeAllListeners(){
-            	HX_STACKFRAME(&_hx_pos_e38539b7b6ad7309_426___removeAllListeners)
-HXLINE( 427)		this->_hx___eventMap = null();
-HXLINE( 428)		this->_hx___iterators = null();
+            	HX_STACKFRAME(&_hx_pos_e38539b7b6ad7309_202___removeAllListeners)
+HXLINE( 203)		this->_hx___eventMap = null();
+HXLINE( 204)		this->_hx___iterators = null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(EventDispatcher_obj,_hx___removeAllListeners,(void))
 
 void EventDispatcher_obj::_hx___addListenerByPriority(::Array< ::Dynamic> list, ::openfl::events::_EventDispatcher::Listener listener){
-            	HX_STACKFRAME(&_hx_pos_e38539b7b6ad7309_432___addListenerByPriority)
-HXLINE( 433)		int numElements = list->length;
-HXLINE( 434)		int addAtPosition = numElements;
-HXLINE( 436)		{
-HXLINE( 436)			int _g = 0;
-HXDLIN( 436)			int _g1 = numElements;
-HXDLIN( 436)			while((_g < _g1)){
-HXLINE( 436)				_g = (_g + 1);
-HXDLIN( 436)				int i = (_g - 1);
-HXLINE( 438)				if ((list->__get(i).StaticCast<  ::openfl::events::_EventDispatcher::Listener >()->priority < listener->priority)) {
-HXLINE( 440)					addAtPosition = i;
-HXLINE( 442)					goto _hx_goto_14;
+            	HX_STACKFRAME(&_hx_pos_e38539b7b6ad7309_208___addListenerByPriority)
+HXLINE( 209)		int numElements = list->length;
+HXLINE( 210)		int addAtPosition = numElements;
+HXLINE( 212)		{
+HXLINE( 212)			int _g = 0;
+HXDLIN( 212)			int _g1 = numElements;
+HXDLIN( 212)			while((_g < _g1)){
+HXLINE( 212)				_g = (_g + 1);
+HXDLIN( 212)				int i = (_g - 1);
+HXLINE( 214)				if ((list->__get(i).StaticCast<  ::openfl::events::_EventDispatcher::Listener >()->priority < listener->priority)) {
+HXLINE( 216)					addAtPosition = i;
+HXLINE( 218)					goto _hx_goto_14;
             				}
             			}
             			_hx_goto_14:;
             		}
-HXLINE( 446)		list->insert(addAtPosition,listener);
+HXLINE( 222)		list->insert(addAtPosition,listener);
             	}
 
 

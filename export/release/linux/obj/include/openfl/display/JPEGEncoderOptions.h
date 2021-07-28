@@ -6,7 +6,7 @@
 #include <hxcpp.h>
 #endif
 
-HX_DECLARE_STACK_FRAME(_hx_pos_05e3536633e8ac7b_28_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_05e3536633e8ac7b_14_new)
 HX_DECLARE_CLASS2(openfl,display,JPEGEncoderOptions)
 
 namespace openfl{
@@ -40,8 +40,8 @@ class HXCPP_CLASS_ATTRIBUTES JPEGEncoderOptions_obj : public ::hx::Object
 			*(void **)__this = JPEGEncoderOptions_obj::_hx_vtable;
 {
             		int quality = __o_quality.Default(80);
-            	HX_STACKFRAME(&_hx_pos_05e3536633e8ac7b_28_new)
-HXDLIN(  28)		( ( ::openfl::display::JPEGEncoderOptions)(__this) )->quality = quality;
+            	HX_STACKFRAME(&_hx_pos_05e3536633e8ac7b_14_new)
+HXDLIN(  14)		( ( ::openfl::display::JPEGEncoderOptions)(__this) )->quality = quality;
             	}
 		
 			return __this;

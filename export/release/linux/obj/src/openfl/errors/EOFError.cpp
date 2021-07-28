@@ -11,16 +11,16 @@
 #include <openfl/errors/IOError.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_6527ad318e200d9c_22_new,"openfl.errors.EOFError","new",0xc20c3743,"openfl.errors.EOFError.new","openfl/errors/EOFError.hx",22,0x8db2236d)
+HX_DEFINE_STACK_FRAME(_hx_pos_6527ad318e200d9c_11_new,"openfl.errors.EOFError","new",0xc20c3743,"openfl.errors.EOFError.new","openfl/errors/EOFError.hx",11,0x8db2236d)
 namespace openfl{
 namespace errors{
 
 void EOFError_obj::__construct(::String message,::hx::Null< int >  __o_id){
             		int id = __o_id.Default(0);
-            	HX_STACKFRAME(&_hx_pos_6527ad318e200d9c_22_new)
-HXLINE(  23)		super::__construct(HX_("End of file was encountered",fb,7f,d6,0b));
-HXLINE(  25)		this->name = HX_("EOFError",8c,e5,0a,43);
-HXLINE(  26)		this->errorID = 2030;
+            	HX_STACKFRAME(&_hx_pos_6527ad318e200d9c_11_new)
+HXLINE(  12)		super::__construct(HX_("End of file was encountered",fb,7f,d6,0b));
+HXLINE(  14)		this->name = HX_("EOFError",8c,e5,0a,43);
+HXLINE(  15)		this->errorID = 2030;
             	}
 
 Dynamic EOFError_obj::__CreateEmpty() { return new EOFError_obj; }

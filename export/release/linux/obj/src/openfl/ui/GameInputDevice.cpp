@@ -42,63 +42,63 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_fafdee3291969395_14_new,"openfl.ui.GameInputDevice","new",0x66440344,"openfl.ui.GameInputDevice.new","openfl/ui/GameInputDevice.hx",14,0x744a6f4c)
-HX_LOCAL_STACK_FRAME(_hx_pos_fafdee3291969395_94_getCachedSamples,"openfl.ui.GameInputDevice","getCachedSamples",0x0422a56d,"openfl.ui.GameInputDevice.getCachedSamples","openfl/ui/GameInputDevice.hx",94,0x744a6f4c)
-HX_LOCAL_STACK_FRAME(_hx_pos_fafdee3291969395_103_getControlAt,"openfl.ui.GameInputDevice","getControlAt",0xc65be2d6,"openfl.ui.GameInputDevice.getControlAt","openfl/ui/GameInputDevice.hx",103,0x744a6f4c)
-HX_LOCAL_STACK_FRAME(_hx_pos_fafdee3291969395_117_startCachingSamples,"openfl.ui.GameInputDevice","startCachingSamples",0xf3794db0,"openfl.ui.GameInputDevice.startCachingSamples","openfl/ui/GameInputDevice.hx",117,0x744a6f4c)
-HX_LOCAL_STACK_FRAME(_hx_pos_fafdee3291969395_122_stopCachingSamples,"openfl.ui.GameInputDevice","stopCachingSamples",0xbbb05408,"openfl.ui.GameInputDevice.stopCachingSamples","openfl/ui/GameInputDevice.hx",122,0x744a6f4c)
-HX_LOCAL_STACK_FRAME(_hx_pos_fafdee3291969395_127_get_numControls,"openfl.ui.GameInputDevice","get_numControls",0x2a978757,"openfl.ui.GameInputDevice.get_numControls","openfl/ui/GameInputDevice.hx",127,0x744a6f4c)
-HX_LOCAL_STACK_FRAME(_hx_pos_fafdee3291969395_21_boot,"openfl.ui.GameInputDevice","boot",0x0d57d8ce,"openfl.ui.GameInputDevice.boot","openfl/ui/GameInputDevice.hx",21,0x744a6f4c)
+HX_LOCAL_STACK_FRAME(_hx_pos_fafdee3291969395_64_getCachedSamples,"openfl.ui.GameInputDevice","getCachedSamples",0x0422a56d,"openfl.ui.GameInputDevice.getCachedSamples","openfl/ui/GameInputDevice.hx",64,0x744a6f4c)
+HX_LOCAL_STACK_FRAME(_hx_pos_fafdee3291969395_68_getControlAt,"openfl.ui.GameInputDevice","getControlAt",0xc65be2d6,"openfl.ui.GameInputDevice.getControlAt","openfl/ui/GameInputDevice.hx",68,0x744a6f4c)
+HX_LOCAL_STACK_FRAME(_hx_pos_fafdee3291969395_77_startCachingSamples,"openfl.ui.GameInputDevice","startCachingSamples",0xf3794db0,"openfl.ui.GameInputDevice.startCachingSamples","openfl/ui/GameInputDevice.hx",77,0x744a6f4c)
+HX_LOCAL_STACK_FRAME(_hx_pos_fafdee3291969395_79_stopCachingSamples,"openfl.ui.GameInputDevice","stopCachingSamples",0xbbb05408,"openfl.ui.GameInputDevice.stopCachingSamples","openfl/ui/GameInputDevice.hx",79,0x744a6f4c)
+HX_LOCAL_STACK_FRAME(_hx_pos_fafdee3291969395_84_get_numControls,"openfl.ui.GameInputDevice","get_numControls",0x2a978757,"openfl.ui.GameInputDevice.get_numControls","openfl/ui/GameInputDevice.hx",84,0x744a6f4c)
+HX_LOCAL_STACK_FRAME(_hx_pos_fafdee3291969395_16_boot,"openfl.ui.GameInputDevice","boot",0x0d57d8ce,"openfl.ui.GameInputDevice.boot","openfl/ui/GameInputDevice.hx",16,0x744a6f4c)
 namespace openfl{
 namespace ui{
 
 void GameInputDevice_obj::__construct(::String id,::String name){
             	HX_GC_STACKFRAME(&_hx_pos_fafdee3291969395_14_new)
-HXLINE(  50)		this->_hx___controls = ::Array_obj< ::Dynamic>::__new();
-HXLINE(  49)		this->_hx___button =  ::haxe::ds::IntMap_obj::__alloc( HX_CTX );
-HXLINE(  48)		this->_hx___axis =  ::haxe::ds::IntMap_obj::__alloc( HX_CTX );
-HXLINE(  66)		this->id = id;
-HXLINE(  67)		this->name = name;
-HXLINE(  69)		 ::openfl::ui::GameInputControl control;
-HXLINE(  71)		{
-HXLINE(  72)			{
-HXLINE(  73)				control =  ::openfl::ui::GameInputControl_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this),(HX_("AXIS_",9e,28,6e,a7) + 0),( (Float)(-1) ),( (Float)(1) ),null());
-HXLINE(  74)				this->_hx___axis->set(0,control);
-HXLINE(  75)				this->_hx___controls->push(control);
+HXLINE(  26)		this->_hx___controls = ::Array_obj< ::Dynamic>::__new();
+HXLINE(  25)		this->_hx___button =  ::haxe::ds::IntMap_obj::__alloc( HX_CTX );
+HXLINE(  24)		this->_hx___axis =  ::haxe::ds::IntMap_obj::__alloc( HX_CTX );
+HXLINE(  42)		this->id = id;
+HXLINE(  43)		this->name = name;
+HXLINE(  45)		 ::openfl::ui::GameInputControl control;
+HXLINE(  47)		{
+HXLINE(  48)			{
+HXLINE(  49)				control =  ::openfl::ui::GameInputControl_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this),(HX_("AXIS_",9e,28,6e,a7) + 0),( (Float)(-1) ),( (Float)(1) ),null());
+HXLINE(  50)				this->_hx___axis->set(0,control);
+HXLINE(  51)				this->_hx___controls->push(control);
             			}
-HXLINE(  72)			{
-HXLINE(  73)				control =  ::openfl::ui::GameInputControl_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this),(HX_("AXIS_",9e,28,6e,a7) + 1),( (Float)(-1) ),( (Float)(1) ),null());
-HXLINE(  74)				this->_hx___axis->set(1,control);
-HXLINE(  75)				this->_hx___controls->push(control);
+HXLINE(  48)			{
+HXLINE(  49)				control =  ::openfl::ui::GameInputControl_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this),(HX_("AXIS_",9e,28,6e,a7) + 1),( (Float)(-1) ),( (Float)(1) ),null());
+HXLINE(  50)				this->_hx___axis->set(1,control);
+HXLINE(  51)				this->_hx___controls->push(control);
             			}
-HXLINE(  72)			{
-HXLINE(  73)				control =  ::openfl::ui::GameInputControl_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this),(HX_("AXIS_",9e,28,6e,a7) + 2),( (Float)(-1) ),( (Float)(1) ),null());
-HXLINE(  74)				this->_hx___axis->set(2,control);
-HXLINE(  75)				this->_hx___controls->push(control);
+HXLINE(  48)			{
+HXLINE(  49)				control =  ::openfl::ui::GameInputControl_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this),(HX_("AXIS_",9e,28,6e,a7) + 2),( (Float)(-1) ),( (Float)(1) ),null());
+HXLINE(  50)				this->_hx___axis->set(2,control);
+HXLINE(  51)				this->_hx___controls->push(control);
             			}
-HXLINE(  72)			{
-HXLINE(  73)				control =  ::openfl::ui::GameInputControl_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this),(HX_("AXIS_",9e,28,6e,a7) + 3),( (Float)(-1) ),( (Float)(1) ),null());
-HXLINE(  74)				this->_hx___axis->set(3,control);
-HXLINE(  75)				this->_hx___controls->push(control);
+HXLINE(  48)			{
+HXLINE(  49)				control =  ::openfl::ui::GameInputControl_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this),(HX_("AXIS_",9e,28,6e,a7) + 3),( (Float)(-1) ),( (Float)(1) ),null());
+HXLINE(  50)				this->_hx___axis->set(3,control);
+HXLINE(  51)				this->_hx___controls->push(control);
             			}
-HXLINE(  72)			{
-HXLINE(  73)				control =  ::openfl::ui::GameInputControl_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this),(HX_("AXIS_",9e,28,6e,a7) + 4),( (Float)(-1) ),( (Float)(1) ),null());
-HXLINE(  74)				this->_hx___axis->set(4,control);
-HXLINE(  75)				this->_hx___controls->push(control);
+HXLINE(  48)			{
+HXLINE(  49)				control =  ::openfl::ui::GameInputControl_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this),(HX_("AXIS_",9e,28,6e,a7) + 4),( (Float)(-1) ),( (Float)(1) ),null());
+HXLINE(  50)				this->_hx___axis->set(4,control);
+HXLINE(  51)				this->_hx___controls->push(control);
             			}
-HXLINE(  72)			{
-HXLINE(  73)				control =  ::openfl::ui::GameInputControl_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this),(HX_("AXIS_",9e,28,6e,a7) + 5),( (Float)(-1) ),( (Float)(1) ),null());
-HXLINE(  74)				this->_hx___axis->set(5,control);
-HXLINE(  75)				this->_hx___controls->push(control);
+HXLINE(  48)			{
+HXLINE(  49)				control =  ::openfl::ui::GameInputControl_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this),(HX_("AXIS_",9e,28,6e,a7) + 5),( (Float)(-1) ),( (Float)(1) ),null());
+HXLINE(  50)				this->_hx___axis->set(5,control);
+HXLINE(  51)				this->_hx___controls->push(control);
             			}
             		}
-HXLINE(  78)		{
-HXLINE(  78)			int _g = 0;
-HXDLIN(  78)			while((_g < 15)){
-HXLINE(  78)				_g = (_g + 1);
-HXDLIN(  78)				int i = (_g - 1);
-HXLINE(  80)				control =  ::openfl::ui::GameInputControl_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this),(HX_("BUTTON_",2d,26,49,4a) + i),( (Float)(0) ),( (Float)(1) ),null());
-HXLINE(  81)				this->_hx___button->set(i,control);
-HXLINE(  82)				this->_hx___controls->push(control);
+HXLINE(  54)		{
+HXLINE(  54)			int _g = 0;
+HXDLIN(  54)			while((_g < 15)){
+HXLINE(  54)				_g = (_g + 1);
+HXDLIN(  54)				int i = (_g - 1);
+HXLINE(  56)				control =  ::openfl::ui::GameInputControl_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this),(HX_("BUTTON_",2d,26,49,4a) + i),( (Float)(0) ),( (Float)(1) ),null());
+HXLINE(  57)				this->_hx___button->set(i,control);
+HXLINE(  58)				this->_hx___controls->push(control);
             			}
             		}
             	}
@@ -120,48 +120,48 @@ bool GameInputDevice_obj::_hx_isInstanceOf(int inClassId) {
 
 int GameInputDevice_obj::getCachedSamples( ::openfl::utils::ByteArrayData data,::hx::Null< bool >  __o_append){
             		bool append = __o_append.Default(false);
-            	HX_STACKFRAME(&_hx_pos_fafdee3291969395_94_getCachedSamples)
-HXDLIN(  94)		return 0;
+            	HX_STACKFRAME(&_hx_pos_fafdee3291969395_64_getCachedSamples)
+HXDLIN(  64)		return 0;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(GameInputDevice_obj,getCachedSamples,return )
 
  ::openfl::ui::GameInputControl GameInputDevice_obj::getControlAt(int i){
-            	HX_STACKFRAME(&_hx_pos_fafdee3291969395_103_getControlAt)
-HXLINE( 104)		bool _hx_tmp;
-HXDLIN( 104)		if ((i >= 0)) {
-HXLINE( 104)			_hx_tmp = (i < this->_hx___controls->length);
+            	HX_STACKFRAME(&_hx_pos_fafdee3291969395_68_getControlAt)
+HXLINE(  69)		bool _hx_tmp;
+HXDLIN(  69)		if ((i >= 0)) {
+HXLINE(  69)			_hx_tmp = (i < this->_hx___controls->length);
             		}
             		else {
-HXLINE( 104)			_hx_tmp = false;
+HXLINE(  69)			_hx_tmp = false;
             		}
-HXDLIN( 104)		if (_hx_tmp) {
-HXLINE( 106)			return this->_hx___controls->__get(i).StaticCast<  ::openfl::ui::GameInputControl >();
+HXDLIN(  69)		if (_hx_tmp) {
+HXLINE(  71)			return this->_hx___controls->__get(i).StaticCast<  ::openfl::ui::GameInputControl >();
             		}
-HXLINE( 109)		return null();
+HXLINE(  74)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(GameInputDevice_obj,getControlAt,return )
 
 void GameInputDevice_obj::startCachingSamples(int numSamples, ::openfl::_Vector::ObjectVector controls){
-            	HX_STACKFRAME(&_hx_pos_fafdee3291969395_117_startCachingSamples)
+            	HX_STACKFRAME(&_hx_pos_fafdee3291969395_77_startCachingSamples)
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(GameInputDevice_obj,startCachingSamples,(void))
 
 void GameInputDevice_obj::stopCachingSamples(){
-            	HX_STACKFRAME(&_hx_pos_fafdee3291969395_122_stopCachingSamples)
+            	HX_STACKFRAME(&_hx_pos_fafdee3291969395_79_stopCachingSamples)
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(GameInputDevice_obj,stopCachingSamples,(void))
 
 int GameInputDevice_obj::get_numControls(){
-            	HX_STACKFRAME(&_hx_pos_fafdee3291969395_127_get_numControls)
-HXDLIN( 127)		return this->_hx___controls->length;
+            	HX_STACKFRAME(&_hx_pos_fafdee3291969395_84_get_numControls)
+HXDLIN(  84)		return this->_hx___controls->length;
             	}
 
 
@@ -387,8 +387,8 @@ void GameInputDevice_obj::__register()
 void GameInputDevice_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_fafdee3291969395_21_boot)
-HXDLIN(  21)		MAX_BUFFER_SIZE = 32000;
+            	HX_STACKFRAME(&_hx_pos_fafdee3291969395_16_boot)
+HXDLIN(  16)		MAX_BUFFER_SIZE = 32000;
             	}
 }
 

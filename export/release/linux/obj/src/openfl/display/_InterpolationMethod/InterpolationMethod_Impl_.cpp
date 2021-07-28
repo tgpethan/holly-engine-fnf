@@ -5,12 +5,12 @@
 #include <openfl/display/_InterpolationMethod/InterpolationMethod_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_35fa8dd9a2d72011_45_fromInt,"openfl.display._InterpolationMethod.InterpolationMethod_Impl_","fromInt",0x57171cfe,"openfl.display._InterpolationMethod.InterpolationMethod_Impl_.fromInt","openfl/display/InterpolationMethod.hx",45,0x1fa1c725)
-HX_LOCAL_STACK_FRAME(_hx_pos_35fa8dd9a2d72011_50_fromString,"openfl.display._InterpolationMethod.InterpolationMethod_Impl_","fromString",0x8e1d4c22,"openfl.display._InterpolationMethod.InterpolationMethod_Impl_.fromString","openfl/display/InterpolationMethod.hx",50,0x1fa1c725)
-HX_LOCAL_STACK_FRAME(_hx_pos_35fa8dd9a2d72011_60_toInt,"openfl.display._InterpolationMethod.InterpolationMethod_Impl_","toInt",0x246b454d,"openfl.display._InterpolationMethod.InterpolationMethod_Impl_.toInt","openfl/display/InterpolationMethod.hx",60,0x1fa1c725)
-HX_LOCAL_STACK_FRAME(_hx_pos_35fa8dd9a2d72011_65_toString,"openfl.display._InterpolationMethod.InterpolationMethod_Impl_","toString",0x7209ff33,"openfl.display._InterpolationMethod.InterpolationMethod_Impl_.toString","openfl/display/InterpolationMethod.hx",65,0x1fa1c725)
-HX_LOCAL_STACK_FRAME(_hx_pos_35fa8dd9a2d72011_27_boot,"openfl.display._InterpolationMethod.InterpolationMethod_Impl_","boot",0x602d2339,"openfl.display._InterpolationMethod.InterpolationMethod_Impl_.boot","openfl/display/InterpolationMethod.hx",27,0x1fa1c725)
-HX_LOCAL_STACK_FRAME(_hx_pos_35fa8dd9a2d72011_41_boot,"openfl.display._InterpolationMethod.InterpolationMethod_Impl_","boot",0x602d2339,"openfl.display._InterpolationMethod.InterpolationMethod_Impl_.boot","openfl/display/InterpolationMethod.hx",41,0x1fa1c725)
+HX_LOCAL_STACK_FRAME(_hx_pos_35fa8dd9a2d72011_12_fromInt,"openfl.display._InterpolationMethod.InterpolationMethod_Impl_","fromInt",0x57171cfe,"openfl.display._InterpolationMethod.InterpolationMethod_Impl_.fromInt","openfl/display/InterpolationMethod.hx",12,0x1fa1c725)
+HX_LOCAL_STACK_FRAME(_hx_pos_35fa8dd9a2d72011_17_fromString,"openfl.display._InterpolationMethod.InterpolationMethod_Impl_","fromString",0x8e1d4c22,"openfl.display._InterpolationMethod.InterpolationMethod_Impl_.fromString","openfl/display/InterpolationMethod.hx",17,0x1fa1c725)
+HX_LOCAL_STACK_FRAME(_hx_pos_35fa8dd9a2d72011_27_toInt,"openfl.display._InterpolationMethod.InterpolationMethod_Impl_","toInt",0x246b454d,"openfl.display._InterpolationMethod.InterpolationMethod_Impl_.toInt","openfl/display/InterpolationMethod.hx",27,0x1fa1c725)
+HX_LOCAL_STACK_FRAME(_hx_pos_35fa8dd9a2d72011_32_toString,"openfl.display._InterpolationMethod.InterpolationMethod_Impl_","toString",0x7209ff33,"openfl.display._InterpolationMethod.InterpolationMethod_Impl_.toString","openfl/display/InterpolationMethod.hx",32,0x1fa1c725)
+HX_LOCAL_STACK_FRAME(_hx_pos_35fa8dd9a2d72011_7_boot,"openfl.display._InterpolationMethod.InterpolationMethod_Impl_","boot",0x602d2339,"openfl.display._InterpolationMethod.InterpolationMethod_Impl_.boot","openfl/display/InterpolationMethod.hx",7,0x1fa1c725)
+HX_LOCAL_STACK_FRAME(_hx_pos_35fa8dd9a2d72011_8_boot,"openfl.display._InterpolationMethod.InterpolationMethod_Impl_","boot",0x602d2339,"openfl.display._InterpolationMethod.InterpolationMethod_Impl_.boot","openfl/display/InterpolationMethod.hx",8,0x1fa1c725)
 namespace openfl{
 namespace display{
 namespace _InterpolationMethod{
@@ -37,58 +37,58 @@ bool InterpolationMethod_Impl__obj::_hx_isInstanceOf(int inClassId) {
  ::Dynamic InterpolationMethod_Impl__obj::RGB;
 
  ::Dynamic InterpolationMethod_Impl__obj::fromInt( ::Dynamic value){
-            	HX_STACKFRAME(&_hx_pos_35fa8dd9a2d72011_45_fromInt)
-HXDLIN(  45)		return value;
+            	HX_STACKFRAME(&_hx_pos_35fa8dd9a2d72011_12_fromInt)
+HXDLIN(  12)		return value;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(InterpolationMethod_Impl__obj,fromInt,return )
 
  ::Dynamic InterpolationMethod_Impl__obj::fromString(::String value){
-            	HX_STACKFRAME(&_hx_pos_35fa8dd9a2d72011_50_fromString)
-HXDLIN(  50)		::String _hx_switch_0 = value;
+            	HX_STACKFRAME(&_hx_pos_35fa8dd9a2d72011_17_fromString)
+HXDLIN(  17)		::String _hx_switch_0 = value;
             		if (  (_hx_switch_0==HX_("linearRGB",28,a2,44,d9)) ){
-HXLINE(  52)			return 0;
-HXDLIN(  52)			goto _hx_goto_1;
+HXLINE(  19)			return 0;
+HXDLIN(  19)			goto _hx_goto_1;
             		}
             		if (  (_hx_switch_0==HX_("rgb",0d,db,56,00)) ){
-HXLINE(  53)			return 1;
-HXDLIN(  53)			goto _hx_goto_1;
+HXLINE(  20)			return 1;
+HXDLIN(  20)			goto _hx_goto_1;
             		}
             		/* default */{
-HXLINE(  54)			return null();
+HXLINE(  21)			return null();
             		}
             		_hx_goto_1:;
-HXLINE(  50)		return null();
+HXLINE(  17)		return null();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(InterpolationMethod_Impl__obj,fromString,return )
 
  ::Dynamic InterpolationMethod_Impl__obj::toInt( ::Dynamic this1){
-            	HX_STACKFRAME(&_hx_pos_35fa8dd9a2d72011_60_toInt)
-HXDLIN(  60)		return this1;
+            	HX_STACKFRAME(&_hx_pos_35fa8dd9a2d72011_27_toInt)
+HXDLIN(  27)		return this1;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(InterpolationMethod_Impl__obj,toInt,return )
 
 ::String InterpolationMethod_Impl__obj::toString( ::Dynamic this1){
-            	HX_STACKFRAME(&_hx_pos_35fa8dd9a2d72011_65_toString)
-HXDLIN(  65)		 ::Dynamic _hx_switch_0 = this1;
+            	HX_STACKFRAME(&_hx_pos_35fa8dd9a2d72011_32_toString)
+HXDLIN(  32)		 ::Dynamic _hx_switch_0 = this1;
             		if (  (_hx_switch_0==0) ){
-HXLINE(  67)			return HX_("linearRGB",28,a2,44,d9);
-HXDLIN(  67)			goto _hx_goto_4;
+HXLINE(  34)			return HX_("linearRGB",28,a2,44,d9);
+HXDLIN(  34)			goto _hx_goto_4;
             		}
             		if (  (_hx_switch_0==1) ){
-HXLINE(  68)			return HX_("rgb",0d,db,56,00);
-HXDLIN(  68)			goto _hx_goto_4;
+HXLINE(  35)			return HX_("rgb",0d,db,56,00);
+HXDLIN(  35)			goto _hx_goto_4;
             		}
             		/* default */{
-HXLINE(  69)			return null();
+HXLINE(  36)			return null();
             		}
             		_hx_goto_4:;
-HXLINE(  65)		return null();
+HXLINE(  32)		return null();
             	}
 
 
@@ -181,12 +181,12 @@ void InterpolationMethod_Impl__obj::__register()
 void InterpolationMethod_Impl__obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_35fa8dd9a2d72011_27_boot)
-HXDLIN(  27)		LINEAR_RGB = 0;
+            	HX_STACKFRAME(&_hx_pos_35fa8dd9a2d72011_7_boot)
+HXDLIN(   7)		LINEAR_RGB = 0;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_35fa8dd9a2d72011_41_boot)
-HXDLIN(  41)		RGB = 1;
+            	HX_STACKFRAME(&_hx_pos_35fa8dd9a2d72011_8_boot)
+HXDLIN(   8)		RGB = 1;
             	}
 }
 

@@ -23,22 +23,22 @@
 #include <openfl/geom/ColorTransform.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_82e72dbfef9da50a_164_new,"openfl.geom.ColorTransform","new",0x35d8b8af,"openfl.geom.ColorTransform.new","openfl/geom/ColorTransform.hx",164,0x850de941)
-HX_LOCAL_STACK_FRAME(_hx_pos_82e72dbfef9da50a_187_concat,"openfl.geom.ColorTransform","concat",0x6a83fc25,"openfl.geom.ColorTransform.concat","openfl/geom/ColorTransform.hx",187,0x850de941)
-HX_LOCAL_STACK_FRAME(_hx_pos_82e72dbfef9da50a_208_toString,"openfl.geom.ColorTransform","toString",0xe65269fd,"openfl.geom.ColorTransform.toString","openfl/geom/ColorTransform.hx",208,0x850de941)
-HX_LOCAL_STACK_FRAME(_hx_pos_82e72dbfef9da50a_214___clone,"openfl.geom.ColorTransform","__clone",0x6d82280c,"openfl.geom.ColorTransform.__clone","openfl/geom/ColorTransform.hx",214,0x850de941)
-HX_LOCAL_STACK_FRAME(_hx_pos_82e72dbfef9da50a_218___copyFrom,"openfl.geom.ColorTransform","__copyFrom",0x0c92ce70,"openfl.geom.ColorTransform.__copyFrom","openfl/geom/ColorTransform.hx",218,0x850de941)
-HX_LOCAL_STACK_FRAME(_hx_pos_82e72dbfef9da50a_231___combine,"openfl.geom.ColorTransform","__combine",0x74bf08ee,"openfl.geom.ColorTransform.__combine","openfl/geom/ColorTransform.hx",231,0x850de941)
-HX_LOCAL_STACK_FRAME(_hx_pos_82e72dbfef9da50a_244___identity,"openfl.geom.ColorTransform","__identity",0xfd6107ef,"openfl.geom.ColorTransform.__identity","openfl/geom/ColorTransform.hx",244,0x850de941)
-HX_LOCAL_STACK_FRAME(_hx_pos_82e72dbfef9da50a_256___invert,"openfl.geom.ColorTransform","__invert",0xf5ebeb87,"openfl.geom.ColorTransform.__invert","openfl/geom/ColorTransform.hx",256,0x850de941)
-HX_LOCAL_STACK_FRAME(_hx_pos_82e72dbfef9da50a_269___equals,"openfl.geom.ColorTransform","__equals",0x1605f2b0,"openfl.geom.ColorTransform.__equals","openfl/geom/ColorTransform.hx",269,0x850de941)
-HX_LOCAL_STACK_FRAME(_hx_pos_82e72dbfef9da50a_282___isDefault,"openfl.geom.ColorTransform","__isDefault",0x071aee26,"openfl.geom.ColorTransform.__isDefault","openfl/geom/ColorTransform.hx",282,0x850de941)
-HX_LOCAL_STACK_FRAME(_hx_pos_82e72dbfef9da50a_300___setArrays,"openfl.geom.ColorTransform","__setArrays",0x7ef0862b,"openfl.geom.ColorTransform.__setArrays","openfl/geom/ColorTransform.hx",300,0x850de941)
-HX_LOCAL_STACK_FRAME(_hx_pos_82e72dbfef9da50a_314_get_color,"openfl.geom.ColorTransform","get_color",0x07485b49,"openfl.geom.ColorTransform.get_color","openfl/geom/ColorTransform.hx",314,0x850de941)
-HX_LOCAL_STACK_FRAME(_hx_pos_82e72dbfef9da50a_318_set_color,"openfl.geom.ColorTransform","set_color",0xea994755,"openfl.geom.ColorTransform.set_color","openfl/geom/ColorTransform.hx",318,0x850de941)
-HX_LOCAL_STACK_FRAME(_hx_pos_82e72dbfef9da50a_332___toLimeColorMatrix,"openfl.geom.ColorTransform","__toLimeColorMatrix",0x55c98ae3,"openfl.geom.ColorTransform.__toLimeColorMatrix","openfl/geom/ColorTransform.hx",332,0x850de941)
-HX_LOCAL_STACK_FRAME(_hx_pos_82e72dbfef9da50a_59_boot,"openfl.geom.ColorTransform","boot",0xdfe1e103,"openfl.geom.ColorTransform.boot","openfl/geom/ColorTransform.hx",59,0x850de941)
-HX_LOCAL_STACK_FRAME(_hx_pos_82e72dbfef9da50a_60_boot,"openfl.geom.ColorTransform","boot",0xdfe1e103,"openfl.geom.ColorTransform.boot","openfl/geom/ColorTransform.hx",60,0x850de941)
+HX_DEFINE_STACK_FRAME(_hx_pos_82e72dbfef9da50a_44_new,"openfl.geom.ColorTransform","new",0x35d8b8af,"openfl.geom.ColorTransform.new","openfl/geom/ColorTransform.hx",44,0x850de941)
+HX_LOCAL_STACK_FRAME(_hx_pos_82e72dbfef9da50a_56_concat,"openfl.geom.ColorTransform","concat",0x6a83fc25,"openfl.geom.ColorTransform.concat","openfl/geom/ColorTransform.hx",56,0x850de941)
+HX_LOCAL_STACK_FRAME(_hx_pos_82e72dbfef9da50a_70_toString,"openfl.geom.ColorTransform","toString",0xe65269fd,"openfl.geom.ColorTransform.toString","openfl/geom/ColorTransform.hx",70,0x850de941)
+HX_LOCAL_STACK_FRAME(_hx_pos_82e72dbfef9da50a_76___clone,"openfl.geom.ColorTransform","__clone",0x6d82280c,"openfl.geom.ColorTransform.__clone","openfl/geom/ColorTransform.hx",76,0x850de941)
+HX_LOCAL_STACK_FRAME(_hx_pos_82e72dbfef9da50a_80___copyFrom,"openfl.geom.ColorTransform","__copyFrom",0x0c92ce70,"openfl.geom.ColorTransform.__copyFrom","openfl/geom/ColorTransform.hx",80,0x850de941)
+HX_LOCAL_STACK_FRAME(_hx_pos_82e72dbfef9da50a_93___combine,"openfl.geom.ColorTransform","__combine",0x74bf08ee,"openfl.geom.ColorTransform.__combine","openfl/geom/ColorTransform.hx",93,0x850de941)
+HX_LOCAL_STACK_FRAME(_hx_pos_82e72dbfef9da50a_106___identity,"openfl.geom.ColorTransform","__identity",0xfd6107ef,"openfl.geom.ColorTransform.__identity","openfl/geom/ColorTransform.hx",106,0x850de941)
+HX_LOCAL_STACK_FRAME(_hx_pos_82e72dbfef9da50a_118___invert,"openfl.geom.ColorTransform","__invert",0xf5ebeb87,"openfl.geom.ColorTransform.__invert","openfl/geom/ColorTransform.hx",118,0x850de941)
+HX_LOCAL_STACK_FRAME(_hx_pos_82e72dbfef9da50a_131___equals,"openfl.geom.ColorTransform","__equals",0x1605f2b0,"openfl.geom.ColorTransform.__equals","openfl/geom/ColorTransform.hx",131,0x850de941)
+HX_LOCAL_STACK_FRAME(_hx_pos_82e72dbfef9da50a_144___isDefault,"openfl.geom.ColorTransform","__isDefault",0x071aee26,"openfl.geom.ColorTransform.__isDefault","openfl/geom/ColorTransform.hx",144,0x850de941)
+HX_LOCAL_STACK_FRAME(_hx_pos_82e72dbfef9da50a_162___setArrays,"openfl.geom.ColorTransform","__setArrays",0x7ef0862b,"openfl.geom.ColorTransform.__setArrays","openfl/geom/ColorTransform.hx",162,0x850de941)
+HX_LOCAL_STACK_FRAME(_hx_pos_82e72dbfef9da50a_176_get_color,"openfl.geom.ColorTransform","get_color",0x07485b49,"openfl.geom.ColorTransform.get_color","openfl/geom/ColorTransform.hx",176,0x850de941)
+HX_LOCAL_STACK_FRAME(_hx_pos_82e72dbfef9da50a_180_set_color,"openfl.geom.ColorTransform","set_color",0xea994755,"openfl.geom.ColorTransform.set_color","openfl/geom/ColorTransform.hx",180,0x850de941)
+HX_LOCAL_STACK_FRAME(_hx_pos_82e72dbfef9da50a_194___toLimeColorMatrix,"openfl.geom.ColorTransform","__toLimeColorMatrix",0x55c98ae3,"openfl.geom.ColorTransform.__toLimeColorMatrix","openfl/geom/ColorTransform.hx",194,0x850de941)
+HX_LOCAL_STACK_FRAME(_hx_pos_82e72dbfef9da50a_19_boot,"openfl.geom.ColorTransform","boot",0xdfe1e103,"openfl.geom.ColorTransform.boot","openfl/geom/ColorTransform.hx",19,0x850de941)
+HX_LOCAL_STACK_FRAME(_hx_pos_82e72dbfef9da50a_20_boot,"openfl.geom.ColorTransform","boot",0xdfe1e103,"openfl.geom.ColorTransform.boot","openfl/geom/ColorTransform.hx",20,0x850de941)
 namespace openfl{
 namespace geom{
 
@@ -51,15 +51,15 @@ void ColorTransform_obj::__construct(::hx::Null< Float >  __o_redMultiplier,::hx
             		Float greenOffset = __o_greenOffset.Default(0);
             		Float blueOffset = __o_blueOffset.Default(0);
             		Float alphaOffset = __o_alphaOffset.Default(0);
-            	HX_STACKFRAME(&_hx_pos_82e72dbfef9da50a_164_new)
-HXLINE( 165)		this->redMultiplier = redMultiplier;
-HXLINE( 166)		this->greenMultiplier = greenMultiplier;
-HXLINE( 167)		this->blueMultiplier = blueMultiplier;
-HXLINE( 168)		this->alphaMultiplier = alphaMultiplier;
-HXLINE( 169)		this->redOffset = redOffset;
-HXLINE( 170)		this->greenOffset = greenOffset;
-HXLINE( 171)		this->blueOffset = blueOffset;
-HXLINE( 172)		this->alphaOffset = alphaOffset;
+            	HX_STACKFRAME(&_hx_pos_82e72dbfef9da50a_44_new)
+HXLINE(  45)		this->redMultiplier = redMultiplier;
+HXLINE(  46)		this->greenMultiplier = greenMultiplier;
+HXLINE(  47)		this->blueMultiplier = blueMultiplier;
+HXLINE(  48)		this->alphaMultiplier = alphaMultiplier;
+HXLINE(  49)		this->redOffset = redOffset;
+HXLINE(  50)		this->greenOffset = greenOffset;
+HXLINE(  51)		this->blueOffset = blueOffset;
+HXLINE(  52)		this->alphaOffset = alphaOffset;
             	}
 
 Dynamic ColorTransform_obj::__CreateEmpty() { return new ColorTransform_obj; }
@@ -78,396 +78,396 @@ bool ColorTransform_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void ColorTransform_obj::concat( ::openfl::geom::ColorTransform second){
-            	HX_STACKFRAME(&_hx_pos_82e72dbfef9da50a_187_concat)
-HXLINE( 188)		this->redOffset = ((second->redOffset * this->redMultiplier) + this->redOffset);
-HXLINE( 189)		this->greenOffset = ((second->greenOffset * this->greenMultiplier) + this->greenOffset);
-HXLINE( 190)		this->blueOffset = ((second->blueOffset * this->blueMultiplier) + this->blueOffset);
-HXLINE( 191)		this->alphaOffset = ((second->alphaOffset * this->alphaMultiplier) + this->alphaOffset);
-HXLINE( 193)		 ::openfl::geom::ColorTransform _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 193)		_hx_tmp->redMultiplier = (_hx_tmp->redMultiplier * second->redMultiplier);
-HXLINE( 194)		 ::openfl::geom::ColorTransform _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 194)		_hx_tmp1->greenMultiplier = (_hx_tmp1->greenMultiplier * second->greenMultiplier);
-HXLINE( 195)		 ::openfl::geom::ColorTransform _hx_tmp2 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 195)		_hx_tmp2->blueMultiplier = (_hx_tmp2->blueMultiplier * second->blueMultiplier);
-HXLINE( 196)		 ::openfl::geom::ColorTransform _hx_tmp3 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 196)		_hx_tmp3->alphaMultiplier = (_hx_tmp3->alphaMultiplier * second->alphaMultiplier);
+            	HX_STACKFRAME(&_hx_pos_82e72dbfef9da50a_56_concat)
+HXLINE(  57)		this->redOffset = ((second->redOffset * this->redMultiplier) + this->redOffset);
+HXLINE(  58)		this->greenOffset = ((second->greenOffset * this->greenMultiplier) + this->greenOffset);
+HXLINE(  59)		this->blueOffset = ((second->blueOffset * this->blueMultiplier) + this->blueOffset);
+HXLINE(  60)		this->alphaOffset = ((second->alphaOffset * this->alphaMultiplier) + this->alphaOffset);
+HXLINE(  62)		 ::openfl::geom::ColorTransform _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(  62)		_hx_tmp->redMultiplier = (_hx_tmp->redMultiplier * second->redMultiplier);
+HXLINE(  63)		 ::openfl::geom::ColorTransform _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(  63)		_hx_tmp1->greenMultiplier = (_hx_tmp1->greenMultiplier * second->greenMultiplier);
+HXLINE(  64)		 ::openfl::geom::ColorTransform _hx_tmp2 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(  64)		_hx_tmp2->blueMultiplier = (_hx_tmp2->blueMultiplier * second->blueMultiplier);
+HXLINE(  65)		 ::openfl::geom::ColorTransform _hx_tmp3 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(  65)		_hx_tmp3->alphaMultiplier = (_hx_tmp3->alphaMultiplier * second->alphaMultiplier);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(ColorTransform_obj,concat,(void))
 
 ::String ColorTransform_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_82e72dbfef9da50a_208_toString)
-HXDLIN( 208)		return ((((((((((((((((HX_("(redMultiplier=",f3,ad,1c,05) + this->redMultiplier) + HX_(", greenMultiplier=",0d,c2,8d,70)) + this->greenMultiplier) + HX_(", blueMultiplier=",2e,6d,c3,3b)) + this->blueMultiplier) + HX_(", alphaMultiplier=",52,89,82,1f)) + this->alphaMultiplier) + HX_(", redOffset=",6d,d3,86,3f)) + this->redOffset) + HX_(", greenOffset=",3b,d5,ed,53)) + this->greenOffset) + HX_(", blueOffset=",dc,1b,85,47)) + this->blueOffset) + HX_(", alphaOffset=",00,56,b2,98)) + this->alphaOffset) + HX_(")",29,00,00,00));
+            	HX_STACKFRAME(&_hx_pos_82e72dbfef9da50a_70_toString)
+HXDLIN(  70)		return ((((((((((((((((HX_("(redMultiplier=",f3,ad,1c,05) + this->redMultiplier) + HX_(", greenMultiplier=",0d,c2,8d,70)) + this->greenMultiplier) + HX_(", blueMultiplier=",2e,6d,c3,3b)) + this->blueMultiplier) + HX_(", alphaMultiplier=",52,89,82,1f)) + this->alphaMultiplier) + HX_(", redOffset=",6d,d3,86,3f)) + this->redOffset) + HX_(", greenOffset=",3b,d5,ed,53)) + this->greenOffset) + HX_(", blueOffset=",dc,1b,85,47)) + this->blueOffset) + HX_(", alphaOffset=",00,56,b2,98)) + this->alphaOffset) + HX_(")",29,00,00,00));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(ColorTransform_obj,toString,return )
 
  ::openfl::geom::ColorTransform ColorTransform_obj::_hx___clone(){
-            	HX_GC_STACKFRAME(&_hx_pos_82e72dbfef9da50a_214___clone)
-HXDLIN( 214)		return  ::openfl::geom::ColorTransform_obj::__alloc( HX_CTX ,this->redMultiplier,this->greenMultiplier,this->blueMultiplier,this->alphaMultiplier,this->redOffset,this->greenOffset,this->blueOffset,this->alphaOffset);
+            	HX_GC_STACKFRAME(&_hx_pos_82e72dbfef9da50a_76___clone)
+HXDLIN(  76)		return  ::openfl::geom::ColorTransform_obj::__alloc( HX_CTX ,this->redMultiplier,this->greenMultiplier,this->blueMultiplier,this->alphaMultiplier,this->redOffset,this->greenOffset,this->blueOffset,this->alphaOffset);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(ColorTransform_obj,_hx___clone,return )
 
 void ColorTransform_obj::_hx___copyFrom( ::openfl::geom::ColorTransform ct){
-            	HX_STACKFRAME(&_hx_pos_82e72dbfef9da50a_218___copyFrom)
-HXLINE( 219)		this->redMultiplier = ct->redMultiplier;
-HXLINE( 220)		this->greenMultiplier = ct->greenMultiplier;
-HXLINE( 221)		this->blueMultiplier = ct->blueMultiplier;
-HXLINE( 222)		this->alphaMultiplier = ct->alphaMultiplier;
-HXLINE( 224)		this->redOffset = ct->redOffset;
-HXLINE( 225)		this->greenOffset = ct->greenOffset;
-HXLINE( 226)		this->blueOffset = ct->blueOffset;
-HXLINE( 227)		this->alphaOffset = ct->alphaOffset;
+            	HX_STACKFRAME(&_hx_pos_82e72dbfef9da50a_80___copyFrom)
+HXLINE(  81)		this->redMultiplier = ct->redMultiplier;
+HXLINE(  82)		this->greenMultiplier = ct->greenMultiplier;
+HXLINE(  83)		this->blueMultiplier = ct->blueMultiplier;
+HXLINE(  84)		this->alphaMultiplier = ct->alphaMultiplier;
+HXLINE(  86)		this->redOffset = ct->redOffset;
+HXLINE(  87)		this->greenOffset = ct->greenOffset;
+HXLINE(  88)		this->blueOffset = ct->blueOffset;
+HXLINE(  89)		this->alphaOffset = ct->alphaOffset;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(ColorTransform_obj,_hx___copyFrom,(void))
 
 void ColorTransform_obj::_hx___combine( ::openfl::geom::ColorTransform ct){
-            	HX_STACKFRAME(&_hx_pos_82e72dbfef9da50a_231___combine)
-HXLINE( 232)		 ::openfl::geom::ColorTransform _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 232)		_hx_tmp->redMultiplier = (_hx_tmp->redMultiplier * ct->redMultiplier);
-HXLINE( 233)		 ::openfl::geom::ColorTransform _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 233)		_hx_tmp1->greenMultiplier = (_hx_tmp1->greenMultiplier * ct->greenMultiplier);
-HXLINE( 234)		 ::openfl::geom::ColorTransform _hx_tmp2 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 234)		_hx_tmp2->blueMultiplier = (_hx_tmp2->blueMultiplier * ct->blueMultiplier);
-HXLINE( 235)		 ::openfl::geom::ColorTransform _hx_tmp3 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 235)		_hx_tmp3->alphaMultiplier = (_hx_tmp3->alphaMultiplier * ct->alphaMultiplier);
-HXLINE( 237)		 ::openfl::geom::ColorTransform _hx_tmp4 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 237)		_hx_tmp4->redOffset = (_hx_tmp4->redOffset + ct->redOffset);
-HXLINE( 238)		 ::openfl::geom::ColorTransform _hx_tmp5 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 238)		_hx_tmp5->greenOffset = (_hx_tmp5->greenOffset + ct->greenOffset);
-HXLINE( 239)		 ::openfl::geom::ColorTransform _hx_tmp6 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 239)		_hx_tmp6->blueOffset = (_hx_tmp6->blueOffset + ct->blueOffset);
-HXLINE( 240)		 ::openfl::geom::ColorTransform _hx_tmp7 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 240)		_hx_tmp7->alphaOffset = (_hx_tmp7->alphaOffset + ct->alphaOffset);
+            	HX_STACKFRAME(&_hx_pos_82e72dbfef9da50a_93___combine)
+HXLINE(  94)		 ::openfl::geom::ColorTransform _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(  94)		_hx_tmp->redMultiplier = (_hx_tmp->redMultiplier * ct->redMultiplier);
+HXLINE(  95)		 ::openfl::geom::ColorTransform _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(  95)		_hx_tmp1->greenMultiplier = (_hx_tmp1->greenMultiplier * ct->greenMultiplier);
+HXLINE(  96)		 ::openfl::geom::ColorTransform _hx_tmp2 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(  96)		_hx_tmp2->blueMultiplier = (_hx_tmp2->blueMultiplier * ct->blueMultiplier);
+HXLINE(  97)		 ::openfl::geom::ColorTransform _hx_tmp3 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(  97)		_hx_tmp3->alphaMultiplier = (_hx_tmp3->alphaMultiplier * ct->alphaMultiplier);
+HXLINE(  99)		 ::openfl::geom::ColorTransform _hx_tmp4 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(  99)		_hx_tmp4->redOffset = (_hx_tmp4->redOffset + ct->redOffset);
+HXLINE( 100)		 ::openfl::geom::ColorTransform _hx_tmp5 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 100)		_hx_tmp5->greenOffset = (_hx_tmp5->greenOffset + ct->greenOffset);
+HXLINE( 101)		 ::openfl::geom::ColorTransform _hx_tmp6 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 101)		_hx_tmp6->blueOffset = (_hx_tmp6->blueOffset + ct->blueOffset);
+HXLINE( 102)		 ::openfl::geom::ColorTransform _hx_tmp7 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 102)		_hx_tmp7->alphaOffset = (_hx_tmp7->alphaOffset + ct->alphaOffset);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(ColorTransform_obj,_hx___combine,(void))
 
 void ColorTransform_obj::_hx___identity(){
-            	HX_STACKFRAME(&_hx_pos_82e72dbfef9da50a_244___identity)
-HXLINE( 245)		this->redMultiplier = ( (Float)(1) );
-HXLINE( 246)		this->greenMultiplier = ( (Float)(1) );
-HXLINE( 247)		this->blueMultiplier = ( (Float)(1) );
-HXLINE( 248)		this->alphaMultiplier = ( (Float)(1) );
-HXLINE( 249)		this->redOffset = ( (Float)(0) );
-HXLINE( 250)		this->greenOffset = ( (Float)(0) );
-HXLINE( 251)		this->blueOffset = ( (Float)(0) );
-HXLINE( 252)		this->alphaOffset = ( (Float)(0) );
+            	HX_STACKFRAME(&_hx_pos_82e72dbfef9da50a_106___identity)
+HXLINE( 107)		this->redMultiplier = ( (Float)(1) );
+HXLINE( 108)		this->greenMultiplier = ( (Float)(1) );
+HXLINE( 109)		this->blueMultiplier = ( (Float)(1) );
+HXLINE( 110)		this->alphaMultiplier = ( (Float)(1) );
+HXLINE( 111)		this->redOffset = ( (Float)(0) );
+HXLINE( 112)		this->greenOffset = ( (Float)(0) );
+HXLINE( 113)		this->blueOffset = ( (Float)(0) );
+HXLINE( 114)		this->alphaOffset = ( (Float)(0) );
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(ColorTransform_obj,_hx___identity,(void))
 
 void ColorTransform_obj::_hx___invert(){
-            	HX_STACKFRAME(&_hx_pos_82e72dbfef9da50a_256___invert)
-HXLINE( 257)		Float _hx_tmp;
-HXDLIN( 257)		if ((this->redMultiplier != 0)) {
-HXLINE( 257)			_hx_tmp = (( (Float)(1) ) / this->redMultiplier);
+            	HX_STACKFRAME(&_hx_pos_82e72dbfef9da50a_118___invert)
+HXLINE( 119)		Float _hx_tmp;
+HXDLIN( 119)		if ((this->redMultiplier != 0)) {
+HXLINE( 119)			_hx_tmp = (( (Float)(1) ) / this->redMultiplier);
             		}
             		else {
-HXLINE( 257)			_hx_tmp = ( (Float)(1) );
+HXLINE( 119)			_hx_tmp = ( (Float)(1) );
             		}
-HXDLIN( 257)		this->redMultiplier = _hx_tmp;
-HXLINE( 258)		Float _hx_tmp1;
-HXDLIN( 258)		if ((this->greenMultiplier != 0)) {
-HXLINE( 258)			_hx_tmp1 = (( (Float)(1) ) / this->greenMultiplier);
-            		}
-            		else {
-HXLINE( 258)			_hx_tmp1 = ( (Float)(1) );
-            		}
-HXDLIN( 258)		this->greenMultiplier = _hx_tmp1;
-HXLINE( 259)		Float _hx_tmp2;
-HXDLIN( 259)		if ((this->blueMultiplier != 0)) {
-HXLINE( 259)			_hx_tmp2 = (( (Float)(1) ) / this->blueMultiplier);
+HXDLIN( 119)		this->redMultiplier = _hx_tmp;
+HXLINE( 120)		Float _hx_tmp1;
+HXDLIN( 120)		if ((this->greenMultiplier != 0)) {
+HXLINE( 120)			_hx_tmp1 = (( (Float)(1) ) / this->greenMultiplier);
             		}
             		else {
-HXLINE( 259)			_hx_tmp2 = ( (Float)(1) );
+HXLINE( 120)			_hx_tmp1 = ( (Float)(1) );
             		}
-HXDLIN( 259)		this->blueMultiplier = _hx_tmp2;
-HXLINE( 260)		Float _hx_tmp3;
-HXDLIN( 260)		if ((this->alphaMultiplier != 0)) {
-HXLINE( 260)			_hx_tmp3 = (( (Float)(1) ) / this->alphaMultiplier);
+HXDLIN( 120)		this->greenMultiplier = _hx_tmp1;
+HXLINE( 121)		Float _hx_tmp2;
+HXDLIN( 121)		if ((this->blueMultiplier != 0)) {
+HXLINE( 121)			_hx_tmp2 = (( (Float)(1) ) / this->blueMultiplier);
             		}
             		else {
-HXLINE( 260)			_hx_tmp3 = ( (Float)(1) );
+HXLINE( 121)			_hx_tmp2 = ( (Float)(1) );
             		}
-HXDLIN( 260)		this->alphaMultiplier = _hx_tmp3;
-HXLINE( 261)		this->redOffset = -(this->redOffset);
-HXLINE( 262)		this->greenOffset = -(this->greenOffset);
-HXLINE( 263)		this->blueOffset = -(this->blueOffset);
-HXLINE( 264)		this->alphaOffset = -(this->alphaOffset);
+HXDLIN( 121)		this->blueMultiplier = _hx_tmp2;
+HXLINE( 122)		Float _hx_tmp3;
+HXDLIN( 122)		if ((this->alphaMultiplier != 0)) {
+HXLINE( 122)			_hx_tmp3 = (( (Float)(1) ) / this->alphaMultiplier);
+            		}
+            		else {
+HXLINE( 122)			_hx_tmp3 = ( (Float)(1) );
+            		}
+HXDLIN( 122)		this->alphaMultiplier = _hx_tmp3;
+HXLINE( 123)		this->redOffset = -(this->redOffset);
+HXLINE( 124)		this->greenOffset = -(this->greenOffset);
+HXLINE( 125)		this->blueOffset = -(this->blueOffset);
+HXLINE( 126)		this->alphaOffset = -(this->alphaOffset);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(ColorTransform_obj,_hx___invert,(void))
 
 bool ColorTransform_obj::_hx___equals( ::openfl::geom::ColorTransform ct,bool ignoreAlphaMultiplier){
-            	HX_STACKFRAME(&_hx_pos_82e72dbfef9da50a_269___equals)
-HXDLIN( 269)		bool _hx_tmp;
-HXDLIN( 269)		bool _hx_tmp1;
-HXDLIN( 269)		bool _hx_tmp2;
-HXDLIN( 269)		bool _hx_tmp3;
-HXDLIN( 269)		bool _hx_tmp4;
-HXDLIN( 269)		bool _hx_tmp5;
-HXDLIN( 269)		bool _hx_tmp6;
-HXDLIN( 269)		if (::hx::IsNotNull( ct )) {
-HXDLIN( 269)			_hx_tmp6 = (this->redMultiplier == ct->redMultiplier);
+            	HX_STACKFRAME(&_hx_pos_82e72dbfef9da50a_131___equals)
+HXDLIN( 131)		bool _hx_tmp;
+HXDLIN( 131)		bool _hx_tmp1;
+HXDLIN( 131)		bool _hx_tmp2;
+HXDLIN( 131)		bool _hx_tmp3;
+HXDLIN( 131)		bool _hx_tmp4;
+HXDLIN( 131)		bool _hx_tmp5;
+HXDLIN( 131)		bool _hx_tmp6;
+HXDLIN( 131)		if (::hx::IsNotNull( ct )) {
+HXDLIN( 131)			_hx_tmp6 = (this->redMultiplier == ct->redMultiplier);
             		}
             		else {
-HXDLIN( 269)			_hx_tmp6 = false;
+HXDLIN( 131)			_hx_tmp6 = false;
             		}
-HXDLIN( 269)		if (_hx_tmp6) {
-HXDLIN( 269)			_hx_tmp5 = (this->greenMultiplier == ct->greenMultiplier);
-            		}
-            		else {
-HXDLIN( 269)			_hx_tmp5 = false;
-            		}
-HXDLIN( 269)		if (_hx_tmp5) {
-HXDLIN( 269)			_hx_tmp4 = (this->blueMultiplier == ct->blueMultiplier);
+HXDLIN( 131)		if (_hx_tmp6) {
+HXDLIN( 131)			_hx_tmp5 = (this->greenMultiplier == ct->greenMultiplier);
             		}
             		else {
-HXDLIN( 269)			_hx_tmp4 = false;
+HXDLIN( 131)			_hx_tmp5 = false;
             		}
-HXDLIN( 269)		if (_hx_tmp4) {
-HXLINE( 273)			if (!(ignoreAlphaMultiplier)) {
-HXDLIN( 269)				_hx_tmp3 = (this->alphaMultiplier == ct->alphaMultiplier);
+HXDLIN( 131)		if (_hx_tmp5) {
+HXDLIN( 131)			_hx_tmp4 = (this->blueMultiplier == ct->blueMultiplier);
+            		}
+            		else {
+HXDLIN( 131)			_hx_tmp4 = false;
+            		}
+HXDLIN( 131)		if (_hx_tmp4) {
+HXLINE( 135)			if (!(ignoreAlphaMultiplier)) {
+HXDLIN( 131)				_hx_tmp3 = (this->alphaMultiplier == ct->alphaMultiplier);
             			}
             			else {
-HXDLIN( 269)				_hx_tmp3 = true;
+HXDLIN( 131)				_hx_tmp3 = true;
             			}
             		}
             		else {
-HXDLIN( 269)			_hx_tmp3 = false;
+HXDLIN( 131)			_hx_tmp3 = false;
             		}
-HXDLIN( 269)		if (_hx_tmp3) {
-HXDLIN( 269)			_hx_tmp2 = (this->redOffset == ct->redOffset);
-            		}
-            		else {
-HXDLIN( 269)			_hx_tmp2 = false;
-            		}
-HXDLIN( 269)		if (_hx_tmp2) {
-HXDLIN( 269)			_hx_tmp1 = (this->greenOffset == ct->greenOffset);
+HXDLIN( 131)		if (_hx_tmp3) {
+HXDLIN( 131)			_hx_tmp2 = (this->redOffset == ct->redOffset);
             		}
             		else {
-HXDLIN( 269)			_hx_tmp1 = false;
+HXDLIN( 131)			_hx_tmp2 = false;
             		}
-HXDLIN( 269)		if (_hx_tmp1) {
-HXDLIN( 269)			_hx_tmp = (this->blueOffset == ct->blueOffset);
-            		}
-            		else {
-HXDLIN( 269)			_hx_tmp = false;
-            		}
-HXDLIN( 269)		if (_hx_tmp) {
-HXLINE( 277)			return (this->alphaOffset == ct->alphaOffset);
+HXDLIN( 131)		if (_hx_tmp2) {
+HXDLIN( 131)			_hx_tmp1 = (this->greenOffset == ct->greenOffset);
             		}
             		else {
-HXDLIN( 269)			return false;
+HXDLIN( 131)			_hx_tmp1 = false;
             		}
-HXDLIN( 269)		return false;
+HXDLIN( 131)		if (_hx_tmp1) {
+HXDLIN( 131)			_hx_tmp = (this->blueOffset == ct->blueOffset);
+            		}
+            		else {
+HXDLIN( 131)			_hx_tmp = false;
+            		}
+HXDLIN( 131)		if (_hx_tmp) {
+HXLINE( 139)			return (this->alphaOffset == ct->alphaOffset);
+            		}
+            		else {
+HXDLIN( 131)			return false;
+            		}
+HXDLIN( 131)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(ColorTransform_obj,_hx___equals,return )
 
 bool ColorTransform_obj::_hx___isDefault(bool ignoreAlphaMultiplier){
-            	HX_STACKFRAME(&_hx_pos_82e72dbfef9da50a_282___isDefault)
-HXDLIN( 282)		if (ignoreAlphaMultiplier) {
-HXLINE( 284)			bool _hx_tmp;
-HXDLIN( 284)			bool _hx_tmp1;
-HXDLIN( 284)			bool _hx_tmp2;
-HXDLIN( 284)			bool _hx_tmp3;
-HXDLIN( 284)			bool _hx_tmp4;
-HXDLIN( 284)			if ((this->redMultiplier == 1)) {
-HXLINE( 284)				_hx_tmp4 = (this->greenMultiplier == 1);
+            	HX_STACKFRAME(&_hx_pos_82e72dbfef9da50a_144___isDefault)
+HXDLIN( 144)		if (ignoreAlphaMultiplier) {
+HXLINE( 146)			bool _hx_tmp;
+HXDLIN( 146)			bool _hx_tmp1;
+HXDLIN( 146)			bool _hx_tmp2;
+HXDLIN( 146)			bool _hx_tmp3;
+HXDLIN( 146)			bool _hx_tmp4;
+HXDLIN( 146)			if ((this->redMultiplier == 1)) {
+HXLINE( 146)				_hx_tmp4 = (this->greenMultiplier == 1);
             			}
             			else {
-HXLINE( 284)				_hx_tmp4 = false;
+HXLINE( 146)				_hx_tmp4 = false;
             			}
-HXDLIN( 284)			if (_hx_tmp4) {
-HXLINE( 284)				_hx_tmp3 = (this->blueMultiplier == 1);
-            			}
-            			else {
-HXLINE( 284)				_hx_tmp3 = false;
-            			}
-HXDLIN( 284)			if (_hx_tmp3) {
-HXLINE( 284)				_hx_tmp2 = (this->redOffset == 0);
+HXDLIN( 146)			if (_hx_tmp4) {
+HXLINE( 146)				_hx_tmp3 = (this->blueMultiplier == 1);
             			}
             			else {
-HXLINE( 284)				_hx_tmp2 = false;
+HXLINE( 146)				_hx_tmp3 = false;
             			}
-HXDLIN( 284)			if (_hx_tmp2) {
-HXLINE( 284)				_hx_tmp1 = (this->greenOffset == 0);
-            			}
-            			else {
-HXLINE( 284)				_hx_tmp1 = false;
-            			}
-HXDLIN( 284)			if (_hx_tmp1) {
-HXLINE( 284)				_hx_tmp = (this->blueOffset == 0);
+HXDLIN( 146)			if (_hx_tmp3) {
+HXLINE( 146)				_hx_tmp2 = (this->redOffset == 0);
             			}
             			else {
-HXLINE( 284)				_hx_tmp = false;
+HXLINE( 146)				_hx_tmp2 = false;
             			}
-HXDLIN( 284)			if (_hx_tmp) {
-HXLINE( 290)				return (this->alphaOffset == 0);
+HXDLIN( 146)			if (_hx_tmp2) {
+HXLINE( 146)				_hx_tmp1 = (this->greenOffset == 0);
             			}
             			else {
-HXLINE( 284)				return false;
+HXLINE( 146)				_hx_tmp1 = false;
+            			}
+HXDLIN( 146)			if (_hx_tmp1) {
+HXLINE( 146)				_hx_tmp = (this->blueOffset == 0);
+            			}
+            			else {
+HXLINE( 146)				_hx_tmp = false;
+            			}
+HXDLIN( 146)			if (_hx_tmp) {
+HXLINE( 152)				return (this->alphaOffset == 0);
+            			}
+            			else {
+HXLINE( 146)				return false;
             			}
             		}
             		else {
-HXLINE( 294)			bool _hx_tmp;
-HXDLIN( 294)			bool _hx_tmp1;
-HXDLIN( 294)			bool _hx_tmp2;
-HXDLIN( 294)			bool _hx_tmp3;
-HXDLIN( 294)			bool _hx_tmp4;
-HXDLIN( 294)			bool _hx_tmp5;
-HXDLIN( 294)			if ((this->redMultiplier == 1)) {
-HXLINE( 294)				_hx_tmp5 = (this->greenMultiplier == 1);
+HXLINE( 156)			bool _hx_tmp;
+HXDLIN( 156)			bool _hx_tmp1;
+HXDLIN( 156)			bool _hx_tmp2;
+HXDLIN( 156)			bool _hx_tmp3;
+HXDLIN( 156)			bool _hx_tmp4;
+HXDLIN( 156)			bool _hx_tmp5;
+HXDLIN( 156)			if ((this->redMultiplier == 1)) {
+HXLINE( 156)				_hx_tmp5 = (this->greenMultiplier == 1);
             			}
             			else {
-HXLINE( 294)				_hx_tmp5 = false;
+HXLINE( 156)				_hx_tmp5 = false;
             			}
-HXDLIN( 294)			if (_hx_tmp5) {
-HXLINE( 294)				_hx_tmp4 = (this->blueMultiplier == 1);
-            			}
-            			else {
-HXLINE( 294)				_hx_tmp4 = false;
-            			}
-HXDLIN( 294)			if (_hx_tmp4) {
-HXLINE( 294)				_hx_tmp3 = (this->alphaMultiplier == 1);
+HXDLIN( 156)			if (_hx_tmp5) {
+HXLINE( 156)				_hx_tmp4 = (this->blueMultiplier == 1);
             			}
             			else {
-HXLINE( 294)				_hx_tmp3 = false;
+HXLINE( 156)				_hx_tmp4 = false;
             			}
-HXDLIN( 294)			if (_hx_tmp3) {
-HXLINE( 294)				_hx_tmp2 = (this->redOffset == 0);
-            			}
-            			else {
-HXLINE( 294)				_hx_tmp2 = false;
-            			}
-HXDLIN( 294)			if (_hx_tmp2) {
-HXLINE( 294)				_hx_tmp1 = (this->greenOffset == 0);
+HXDLIN( 156)			if (_hx_tmp4) {
+HXLINE( 156)				_hx_tmp3 = (this->alphaMultiplier == 1);
             			}
             			else {
-HXLINE( 294)				_hx_tmp1 = false;
+HXLINE( 156)				_hx_tmp3 = false;
             			}
-HXDLIN( 294)			if (_hx_tmp1) {
-HXLINE( 294)				_hx_tmp = (this->blueOffset == 0);
-            			}
-            			else {
-HXLINE( 294)				_hx_tmp = false;
-            			}
-HXDLIN( 294)			if (_hx_tmp) {
-HXLINE( 295)				return (this->alphaOffset == 0);
+HXDLIN( 156)			if (_hx_tmp3) {
+HXLINE( 156)				_hx_tmp2 = (this->redOffset == 0);
             			}
             			else {
-HXLINE( 294)				return false;
+HXLINE( 156)				_hx_tmp2 = false;
+            			}
+HXDLIN( 156)			if (_hx_tmp2) {
+HXLINE( 156)				_hx_tmp1 = (this->greenOffset == 0);
+            			}
+            			else {
+HXLINE( 156)				_hx_tmp1 = false;
+            			}
+HXDLIN( 156)			if (_hx_tmp1) {
+HXLINE( 156)				_hx_tmp = (this->blueOffset == 0);
+            			}
+            			else {
+HXLINE( 156)				_hx_tmp = false;
+            			}
+HXDLIN( 156)			if (_hx_tmp) {
+HXLINE( 157)				return (this->alphaOffset == 0);
+            			}
+            			else {
+HXLINE( 156)				return false;
             			}
             		}
-HXLINE( 282)		return false;
+HXLINE( 144)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(ColorTransform_obj,_hx___isDefault,return )
 
 void ColorTransform_obj::_hx___setArrays(::Array< Float > colorMultipliers,::Array< Float > colorOffsets){
-            	HX_STACKFRAME(&_hx_pos_82e72dbfef9da50a_300___setArrays)
-HXLINE( 301)		colorMultipliers[0] = this->redMultiplier;
-HXLINE( 302)		colorMultipliers[1] = this->greenMultiplier;
-HXLINE( 303)		colorMultipliers[2] = this->blueMultiplier;
-HXLINE( 304)		colorMultipliers[3] = this->alphaMultiplier;
-HXLINE( 305)		colorOffsets[0] = this->redOffset;
-HXLINE( 306)		colorOffsets[1] = this->greenOffset;
-HXLINE( 307)		colorOffsets[2] = this->blueOffset;
-HXLINE( 308)		colorOffsets[3] = this->alphaOffset;
+            	HX_STACKFRAME(&_hx_pos_82e72dbfef9da50a_162___setArrays)
+HXLINE( 163)		colorMultipliers[0] = this->redMultiplier;
+HXLINE( 164)		colorMultipliers[1] = this->greenMultiplier;
+HXLINE( 165)		colorMultipliers[2] = this->blueMultiplier;
+HXLINE( 166)		colorMultipliers[3] = this->alphaMultiplier;
+HXLINE( 167)		colorOffsets[0] = this->redOffset;
+HXLINE( 168)		colorOffsets[1] = this->greenOffset;
+HXLINE( 169)		colorOffsets[2] = this->blueOffset;
+HXLINE( 170)		colorOffsets[3] = this->alphaOffset;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(ColorTransform_obj,_hx___setArrays,(void))
 
 int ColorTransform_obj::get_color(){
-            	HX_STACKFRAME(&_hx_pos_82e72dbfef9da50a_314_get_color)
-HXDLIN( 314)		int _hx_tmp = (::Std_obj::_hx_int(this->redOffset) << 16);
-HXDLIN( 314)		int _hx_tmp1 = (_hx_tmp | (::Std_obj::_hx_int(this->greenOffset) << 8));
-HXDLIN( 314)		return (_hx_tmp1 | ::Std_obj::_hx_int(this->blueOffset));
+            	HX_STACKFRAME(&_hx_pos_82e72dbfef9da50a_176_get_color)
+HXDLIN( 176)		int _hx_tmp = (::Std_obj::_hx_int(this->redOffset) << 16);
+HXDLIN( 176)		int _hx_tmp1 = (_hx_tmp | (::Std_obj::_hx_int(this->greenOffset) << 8));
+HXDLIN( 176)		return (_hx_tmp1 | ::Std_obj::_hx_int(this->blueOffset));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(ColorTransform_obj,get_color,return )
 
 int ColorTransform_obj::set_color(int value){
-            	HX_STACKFRAME(&_hx_pos_82e72dbfef9da50a_318_set_color)
-HXLINE( 319)		this->redOffset = ( (Float)(((value >> 16) & 255)) );
-HXLINE( 320)		this->greenOffset = ( (Float)(((value >> 8) & 255)) );
-HXLINE( 321)		this->blueOffset = ( (Float)((value & 255)) );
-HXLINE( 323)		this->redMultiplier = ( (Float)(0) );
-HXLINE( 324)		this->greenMultiplier = ( (Float)(0) );
-HXLINE( 325)		this->blueMultiplier = ( (Float)(0) );
-HXLINE( 327)		return this->get_color();
+            	HX_STACKFRAME(&_hx_pos_82e72dbfef9da50a_180_set_color)
+HXLINE( 181)		this->redOffset = ( (Float)(((value >> 16) & 255)) );
+HXLINE( 182)		this->greenOffset = ( (Float)(((value >> 8) & 255)) );
+HXLINE( 183)		this->blueOffset = ( (Float)((value & 255)) );
+HXLINE( 185)		this->redMultiplier = ( (Float)(0) );
+HXLINE( 186)		this->greenMultiplier = ( (Float)(0) );
+HXLINE( 187)		this->blueMultiplier = ( (Float)(0) );
+HXLINE( 189)		return this->get_color();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(ColorTransform_obj,set_color,return )
 
  ::lime::utils::ArrayBufferView ColorTransform_obj::_hx___toLimeColorMatrix(){
-            	HX_GC_STACKFRAME(&_hx_pos_82e72dbfef9da50a_332___toLimeColorMatrix)
-HXLINE( 333)		if (::hx::IsNull( ::openfl::geom::ColorTransform_obj::_hx___limeColorMatrix )) {
-HXLINE( 335)			 ::haxe::io::Bytes buffer = null();
-HXDLIN( 335)			::cpp::VirtualArray array = null();
-HXDLIN( 335)			 ::openfl::_Vector::FloatVector vector = null();
-HXDLIN( 335)			 ::lime::utils::ArrayBufferView view = null();
-HXDLIN( 335)			 ::Dynamic len = null();
-HXDLIN( 335)			 ::lime::utils::ArrayBufferView this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,20,8);
-HXDLIN( 335)			::openfl::geom::ColorTransform_obj::_hx___limeColorMatrix = this1;
+            	HX_GC_STACKFRAME(&_hx_pos_82e72dbfef9da50a_194___toLimeColorMatrix)
+HXLINE( 195)		if (::hx::IsNull( ::openfl::geom::ColorTransform_obj::_hx___limeColorMatrix )) {
+HXLINE( 197)			 ::haxe::io::Bytes buffer = null();
+HXDLIN( 197)			::cpp::VirtualArray array = null();
+HXDLIN( 197)			 ::openfl::_Vector::FloatVector vector = null();
+HXDLIN( 197)			 ::lime::utils::ArrayBufferView view = null();
+HXDLIN( 197)			 ::Dynamic len = null();
+HXDLIN( 197)			 ::lime::utils::ArrayBufferView this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,20,8);
+HXDLIN( 197)			::openfl::geom::ColorTransform_obj::_hx___limeColorMatrix = this1;
             		}
-HXLINE( 338)		{
-HXLINE( 338)			 ::lime::utils::ArrayBufferView this1 = ::openfl::geom::ColorTransform_obj::_hx___limeColorMatrix;
-HXDLIN( 338)			Float val = this->redMultiplier;
-HXDLIN( 338)			 ::__hxcpp_memory_set_float(this1->buffer->b,this1->byteOffset,val);
+HXLINE( 200)		{
+HXLINE( 200)			 ::lime::utils::ArrayBufferView this1 = ::openfl::geom::ColorTransform_obj::_hx___limeColorMatrix;
+HXDLIN( 200)			Float val = this->redMultiplier;
+HXDLIN( 200)			 ::__hxcpp_memory_set_float(this1->buffer->b,this1->byteOffset,val);
             		}
-HXLINE( 339)		{
-HXLINE( 339)			 ::lime::utils::ArrayBufferView this2 = ::openfl::geom::ColorTransform_obj::_hx___limeColorMatrix;
-HXDLIN( 339)			Float val1 = (this->redOffset / ( (Float)(255) ));
-HXDLIN( 339)			 ::__hxcpp_memory_set_float(this2->buffer->b,(this2->byteOffset + 16),val1);
+HXLINE( 201)		{
+HXLINE( 201)			 ::lime::utils::ArrayBufferView this2 = ::openfl::geom::ColorTransform_obj::_hx___limeColorMatrix;
+HXDLIN( 201)			Float val1 = (this->redOffset / ( (Float)(255) ));
+HXDLIN( 201)			 ::__hxcpp_memory_set_float(this2->buffer->b,(this2->byteOffset + 16),val1);
             		}
-HXLINE( 340)		{
-HXLINE( 340)			 ::lime::utils::ArrayBufferView this3 = ::openfl::geom::ColorTransform_obj::_hx___limeColorMatrix;
-HXDLIN( 340)			Float val2 = this->greenMultiplier;
-HXDLIN( 340)			 ::__hxcpp_memory_set_float(this3->buffer->b,(this3->byteOffset + 24),val2);
+HXLINE( 202)		{
+HXLINE( 202)			 ::lime::utils::ArrayBufferView this3 = ::openfl::geom::ColorTransform_obj::_hx___limeColorMatrix;
+HXDLIN( 202)			Float val2 = this->greenMultiplier;
+HXDLIN( 202)			 ::__hxcpp_memory_set_float(this3->buffer->b,(this3->byteOffset + 24),val2);
             		}
-HXLINE( 341)		{
-HXLINE( 341)			 ::lime::utils::ArrayBufferView this4 = ::openfl::geom::ColorTransform_obj::_hx___limeColorMatrix;
-HXDLIN( 341)			Float val3 = (this->greenOffset / ( (Float)(255) ));
-HXDLIN( 341)			 ::__hxcpp_memory_set_float(this4->buffer->b,(this4->byteOffset + 36),val3);
+HXLINE( 203)		{
+HXLINE( 203)			 ::lime::utils::ArrayBufferView this4 = ::openfl::geom::ColorTransform_obj::_hx___limeColorMatrix;
+HXDLIN( 203)			Float val3 = (this->greenOffset / ( (Float)(255) ));
+HXDLIN( 203)			 ::__hxcpp_memory_set_float(this4->buffer->b,(this4->byteOffset + 36),val3);
             		}
-HXLINE( 342)		{
-HXLINE( 342)			 ::lime::utils::ArrayBufferView this5 = ::openfl::geom::ColorTransform_obj::_hx___limeColorMatrix;
-HXDLIN( 342)			Float val4 = this->blueMultiplier;
-HXDLIN( 342)			 ::__hxcpp_memory_set_float(this5->buffer->b,(this5->byteOffset + 48),val4);
+HXLINE( 204)		{
+HXLINE( 204)			 ::lime::utils::ArrayBufferView this5 = ::openfl::geom::ColorTransform_obj::_hx___limeColorMatrix;
+HXDLIN( 204)			Float val4 = this->blueMultiplier;
+HXDLIN( 204)			 ::__hxcpp_memory_set_float(this5->buffer->b,(this5->byteOffset + 48),val4);
             		}
-HXLINE( 343)		{
-HXLINE( 343)			 ::lime::utils::ArrayBufferView this6 = ::openfl::geom::ColorTransform_obj::_hx___limeColorMatrix;
-HXDLIN( 343)			Float val5 = (this->blueOffset / ( (Float)(255) ));
-HXDLIN( 343)			 ::__hxcpp_memory_set_float(this6->buffer->b,(this6->byteOffset + 56),val5);
+HXLINE( 205)		{
+HXLINE( 205)			 ::lime::utils::ArrayBufferView this6 = ::openfl::geom::ColorTransform_obj::_hx___limeColorMatrix;
+HXDLIN( 205)			Float val5 = (this->blueOffset / ( (Float)(255) ));
+HXDLIN( 205)			 ::__hxcpp_memory_set_float(this6->buffer->b,(this6->byteOffset + 56),val5);
             		}
-HXLINE( 344)		{
-HXLINE( 344)			 ::lime::utils::ArrayBufferView this7 = ::openfl::geom::ColorTransform_obj::_hx___limeColorMatrix;
-HXDLIN( 344)			Float val6 = this->alphaMultiplier;
-HXDLIN( 344)			 ::__hxcpp_memory_set_float(this7->buffer->b,(this7->byteOffset + 72),val6);
+HXLINE( 206)		{
+HXLINE( 206)			 ::lime::utils::ArrayBufferView this7 = ::openfl::geom::ColorTransform_obj::_hx___limeColorMatrix;
+HXDLIN( 206)			Float val6 = this->alphaMultiplier;
+HXDLIN( 206)			 ::__hxcpp_memory_set_float(this7->buffer->b,(this7->byteOffset + 72),val6);
             		}
-HXLINE( 345)		{
-HXLINE( 345)			 ::lime::utils::ArrayBufferView this8 = ::openfl::geom::ColorTransform_obj::_hx___limeColorMatrix;
-HXDLIN( 345)			Float val7 = (this->alphaOffset / ( (Float)(255) ));
-HXDLIN( 345)			 ::__hxcpp_memory_set_float(this8->buffer->b,(this8->byteOffset + 76),val7);
+HXLINE( 207)		{
+HXLINE( 207)			 ::lime::utils::ArrayBufferView this8 = ::openfl::geom::ColorTransform_obj::_hx___limeColorMatrix;
+HXDLIN( 207)			Float val7 = (this->alphaOffset / ( (Float)(255) ));
+HXDLIN( 207)			 ::__hxcpp_memory_set_float(this8->buffer->b,(this8->byteOffset + 76),val7);
             		}
-HXLINE( 347)		return ::openfl::geom::ColorTransform_obj::_hx___limeColorMatrix;
+HXLINE( 209)		return ::openfl::geom::ColorTransform_obj::_hx___limeColorMatrix;
             	}
 
 
@@ -708,20 +708,20 @@ void ColorTransform_obj::__boot()
 {
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_0) HXARGC(0)
             		 ::openfl::geom::ColorTransform _hx_run(){
-            			HX_GC_STACKFRAME(&_hx_pos_82e72dbfef9da50a_59_boot)
-HXDLIN(  59)			return  ::openfl::geom::ColorTransform_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null(),null(),null());
+            			HX_GC_STACKFRAME(&_hx_pos_82e72dbfef9da50a_19_boot)
+HXDLIN(  19)			return  ::openfl::geom::ColorTransform_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null(),null(),null());
             		}
             		HX_END_LOCAL_FUNC0(return)
 
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_1) HXARGC(1)
             		void _hx_run( ::openfl::geom::ColorTransform ct){
-            			HX_STACKFRAME(&_hx_pos_82e72dbfef9da50a_60_boot)
-HXLINE(  60)			ct->_hx___identity();
+            			HX_STACKFRAME(&_hx_pos_82e72dbfef9da50a_20_boot)
+HXLINE(  20)			ct->_hx___identity();
             		}
             		HX_END_LOCAL_FUNC1((void))
 
-            	HX_GC_STACKFRAME(&_hx_pos_82e72dbfef9da50a_59_boot)
-HXDLIN(  59)		_hx___pool =  ::lime::utils::ObjectPool_obj::__alloc( HX_CTX , ::Dynamic(new _hx_Closure_0()), ::Dynamic(new _hx_Closure_1()),null());
+            	HX_GC_STACKFRAME(&_hx_pos_82e72dbfef9da50a_19_boot)
+HXDLIN(  19)		_hx___pool =  ::lime::utils::ObjectPool_obj::__alloc( HX_CTX , ::Dynamic(new _hx_Closure_0()), ::Dynamic(new _hx_Closure_1()),null());
             	}
 }
 

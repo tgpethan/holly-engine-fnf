@@ -47,48 +47,48 @@
 #include <openfl/events/MouseEvent.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_160_new,"openfl.display.MovieClip","new",0xe16984e8,"openfl.display.MovieClip.new","openfl/display/MovieClip.hx",160,0x2b84738a)
-HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_177_addFrameScript,"openfl.display.MovieClip","addFrameScript",0xff5029ef,"openfl.display.MovieClip.addFrameScript","openfl/display/MovieClip.hx",177,0x2b84738a)
-HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_184_attachTimeline,"openfl.display.MovieClip","attachTimeline",0x2786fbde,"openfl.display.MovieClip.attachTimeline","openfl/display/MovieClip.hx",184,0x2b84738a)
-HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_216_gotoAndPlay,"openfl.display.MovieClip","gotoAndPlay",0x3bade190,"openfl.display.MovieClip.gotoAndPlay","openfl/display/MovieClip.hx",216,0x2b84738a)
-HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_241_gotoAndStop,"openfl.display.MovieClip","gotoAndStop",0x3dafa39e,"openfl.display.MovieClip.gotoAndStop","openfl/display/MovieClip.hx",241,0x2b84738a)
-HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_254_nextFrame,"openfl.display.MovieClip","nextFrame",0x3b845cc2,"openfl.display.MovieClip.nextFrame","openfl/display/MovieClip.hx",254,0x2b84738a)
-HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_262_nextScene,"openfl.display.MovieClip","nextScene",0xadd2bde1,"openfl.display.MovieClip.nextScene","openfl/display/MovieClip.hx",262,0x2b84738a)
-HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_273_play,"openfl.display.MovieClip","play",0x5c42706c,"openfl.display.MovieClip.play","openfl/display/MovieClip.hx",273,0x2b84738a)
-HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_286_prevFrame,"openfl.display.MovieClip","prevFrame",0x7f95e2c2,"openfl.display.MovieClip.prevFrame","openfl/display/MovieClip.hx",286,0x2b84738a)
-HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_294_prevScene,"openfl.display.MovieClip","prevScene",0xf1e443e1,"openfl.display.MovieClip.prevScene","openfl/display/MovieClip.hx",294,0x2b84738a)
-HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_306_stop,"openfl.display.MovieClip","stop",0x5e44327a,"openfl.display.MovieClip.stop","openfl/display/MovieClip.hx",306,0x2b84738a)
-HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_313___enterFrame,"openfl.display.MovieClip","__enterFrame",0x9306f98d,"openfl.display.MovieClip.__enterFrame","openfl/display/MovieClip.hx",313,0x2b84738a)
-HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_326___stopAllMovieClips,"openfl.display.MovieClip","__stopAllMovieClips",0x702dce5a,"openfl.display.MovieClip.__stopAllMovieClips","openfl/display/MovieClip.hx",326,0x2b84738a)
-HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_332___tabTest,"openfl.display.MovieClip","__tabTest",0x5479b8af,"openfl.display.MovieClip.__tabTest","openfl/display/MovieClip.hx",332,0x2b84738a)
-HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_339___onMouseDown,"openfl.display.MovieClip","__onMouseDown",0x20658370,"openfl.display.MovieClip.__onMouseDown","openfl/display/MovieClip.hx",339,0x2b84738a)
-HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_354___onMouseUp,"openfl.display.MovieClip","__onMouseUp",0x127371e9,"openfl.display.MovieClip.__onMouseUp","openfl/display/MovieClip.hx",354,0x2b84738a)
-HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_378___onRollOut,"openfl.display.MovieClip","__onRollOut",0xaf12771a,"openfl.display.MovieClip.__onRollOut","openfl/display/MovieClip.hx",378,0x2b84738a)
-HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_393___onRollOver,"openfl.display.MovieClip","__onRollOver",0x81167548,"openfl.display.MovieClip.__onRollOver","openfl/display/MovieClip.hx",393,0x2b84738a)
-HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_401_set_buttonMode,"openfl.display.MovieClip","set_buttonMode",0x8c3dbbaa,"openfl.display.MovieClip.set_buttonMode","openfl/display/MovieClip.hx",401,0x2b84738a)
-HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_446_get_currentFrame,"openfl.display.MovieClip","get_currentFrame",0xf2ac6035,"openfl.display.MovieClip.get_currentFrame","openfl/display/MovieClip.hx",446,0x2b84738a)
-HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_458_get_currentFrameLabel,"openfl.display.MovieClip","get_currentFrameLabel",0x543e3d7f,"openfl.display.MovieClip.get_currentFrameLabel","openfl/display/MovieClip.hx",458,0x2b84738a)
-HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_470_get_currentLabel,"openfl.display.MovieClip","get_currentLabel",0x5bd7f5fc,"openfl.display.MovieClip.get_currentLabel","openfl/display/MovieClip.hx",470,0x2b84738a)
-HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_482_get_currentLabels,"openfl.display.MovieClip","get_currentLabels",0x011f46f7,"openfl.display.MovieClip.get_currentLabels","openfl/display/MovieClip.hx",482,0x2b84738a)
-HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_494_get_currentScene,"openfl.display.MovieClip","get_currentScene",0x64fac154,"openfl.display.MovieClip.get_currentScene","openfl/display/MovieClip.hx",494,0x2b84738a)
-HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_510_get_enabled,"openfl.display.MovieClip","get_enabled",0x5054e120,"openfl.display.MovieClip.get_enabled","openfl/display/MovieClip.hx",510,0x2b84738a)
-HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_515_set_enabled,"openfl.display.MovieClip","set_enabled",0x5ac1e82c,"openfl.display.MovieClip.set_enabled","openfl/display/MovieClip.hx",515,0x2b84738a)
-HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_520_get_framesLoaded,"openfl.display.MovieClip","get_framesLoaded",0xb37eaf4c,"openfl.display.MovieClip.get_framesLoaded","openfl/display/MovieClip.hx",520,0x2b84738a)
-HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_532_get_isPlaying,"openfl.display.MovieClip","get_isPlaying",0x16620f03,"openfl.display.MovieClip.get_isPlaying","openfl/display/MovieClip.hx",532,0x2b84738a)
-HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_544_get_scenes,"openfl.display.MovieClip","get_scenes",0xa5e925e8,"openfl.display.MovieClip.get_scenes","openfl/display/MovieClip.hx",544,0x2b84738a)
-HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_556_get_totalFrames,"openfl.display.MovieClip","get_totalFrames",0x46b3baa9,"openfl.display.MovieClip.get_totalFrames","openfl/display/MovieClip.hx",556,0x2b84738a)
-HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_194_fromTimeline,"openfl.display.MovieClip","fromTimeline",0xf575c483,"openfl.display.MovieClip.fromTimeline","openfl/display/MovieClip.hx",194,0x2b84738a)
+HX_DEFINE_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_56_new,"openfl.display.MovieClip","new",0xe16984e8,"openfl.display.MovieClip.new","openfl/display/MovieClip.hx",56,0x2b84738a)
+HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_73_addFrameScript,"openfl.display.MovieClip","addFrameScript",0xff5029ef,"openfl.display.MovieClip.addFrameScript","openfl/display/MovieClip.hx",73,0x2b84738a)
+HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_80_attachTimeline,"openfl.display.MovieClip","attachTimeline",0x2786fbde,"openfl.display.MovieClip.attachTimeline","openfl/display/MovieClip.hx",80,0x2b84738a)
+HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_98_gotoAndPlay,"openfl.display.MovieClip","gotoAndPlay",0x3bade190,"openfl.display.MovieClip.gotoAndPlay","openfl/display/MovieClip.hx",98,0x2b84738a)
+HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_106_gotoAndStop,"openfl.display.MovieClip","gotoAndStop",0x3dafa39e,"openfl.display.MovieClip.gotoAndStop","openfl/display/MovieClip.hx",106,0x2b84738a)
+HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_114_nextFrame,"openfl.display.MovieClip","nextFrame",0x3b845cc2,"openfl.display.MovieClip.nextFrame","openfl/display/MovieClip.hx",114,0x2b84738a)
+HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_122_nextScene,"openfl.display.MovieClip","nextScene",0xadd2bde1,"openfl.display.MovieClip.nextScene","openfl/display/MovieClip.hx",122,0x2b84738a)
+HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_130_play,"openfl.display.MovieClip","play",0x5c42706c,"openfl.display.MovieClip.play","openfl/display/MovieClip.hx",130,0x2b84738a)
+HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_138_prevFrame,"openfl.display.MovieClip","prevFrame",0x7f95e2c2,"openfl.display.MovieClip.prevFrame","openfl/display/MovieClip.hx",138,0x2b84738a)
+HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_146_prevScene,"openfl.display.MovieClip","prevScene",0xf1e443e1,"openfl.display.MovieClip.prevScene","openfl/display/MovieClip.hx",146,0x2b84738a)
+HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_154_stop,"openfl.display.MovieClip","stop",0x5e44327a,"openfl.display.MovieClip.stop","openfl/display/MovieClip.hx",154,0x2b84738a)
+HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_161___enterFrame,"openfl.display.MovieClip","__enterFrame",0x9306f98d,"openfl.display.MovieClip.__enterFrame","openfl/display/MovieClip.hx",161,0x2b84738a)
+HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_174___stopAllMovieClips,"openfl.display.MovieClip","__stopAllMovieClips",0x702dce5a,"openfl.display.MovieClip.__stopAllMovieClips","openfl/display/MovieClip.hx",174,0x2b84738a)
+HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_180___tabTest,"openfl.display.MovieClip","__tabTest",0x5479b8af,"openfl.display.MovieClip.__tabTest","openfl/display/MovieClip.hx",180,0x2b84738a)
+HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_187___onMouseDown,"openfl.display.MovieClip","__onMouseDown",0x20658370,"openfl.display.MovieClip.__onMouseDown","openfl/display/MovieClip.hx",187,0x2b84738a)
+HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_198___onMouseUp,"openfl.display.MovieClip","__onMouseUp",0x127371e9,"openfl.display.MovieClip.__onMouseUp","openfl/display/MovieClip.hx",198,0x2b84738a)
+HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_222___onRollOut,"openfl.display.MovieClip","__onRollOut",0xaf12771a,"openfl.display.MovieClip.__onRollOut","openfl/display/MovieClip.hx",222,0x2b84738a)
+HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_237___onRollOver,"openfl.display.MovieClip","__onRollOver",0x81167548,"openfl.display.MovieClip.__onRollOver","openfl/display/MovieClip.hx",237,0x2b84738a)
+HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_245_set_buttonMode,"openfl.display.MovieClip","set_buttonMode",0x8c3dbbaa,"openfl.display.MovieClip.set_buttonMode","openfl/display/MovieClip.hx",245,0x2b84738a)
+HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_290_get_currentFrame,"openfl.display.MovieClip","get_currentFrame",0xf2ac6035,"openfl.display.MovieClip.get_currentFrame","openfl/display/MovieClip.hx",290,0x2b84738a)
+HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_302_get_currentFrameLabel,"openfl.display.MovieClip","get_currentFrameLabel",0x543e3d7f,"openfl.display.MovieClip.get_currentFrameLabel","openfl/display/MovieClip.hx",302,0x2b84738a)
+HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_314_get_currentLabel,"openfl.display.MovieClip","get_currentLabel",0x5bd7f5fc,"openfl.display.MovieClip.get_currentLabel","openfl/display/MovieClip.hx",314,0x2b84738a)
+HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_326_get_currentLabels,"openfl.display.MovieClip","get_currentLabels",0x011f46f7,"openfl.display.MovieClip.get_currentLabels","openfl/display/MovieClip.hx",326,0x2b84738a)
+HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_338_get_currentScene,"openfl.display.MovieClip","get_currentScene",0x64fac154,"openfl.display.MovieClip.get_currentScene","openfl/display/MovieClip.hx",338,0x2b84738a)
+HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_354_get_enabled,"openfl.display.MovieClip","get_enabled",0x5054e120,"openfl.display.MovieClip.get_enabled","openfl/display/MovieClip.hx",354,0x2b84738a)
+HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_359_set_enabled,"openfl.display.MovieClip","set_enabled",0x5ac1e82c,"openfl.display.MovieClip.set_enabled","openfl/display/MovieClip.hx",359,0x2b84738a)
+HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_364_get_framesLoaded,"openfl.display.MovieClip","get_framesLoaded",0xb37eaf4c,"openfl.display.MovieClip.get_framesLoaded","openfl/display/MovieClip.hx",364,0x2b84738a)
+HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_376_get_isPlaying,"openfl.display.MovieClip","get_isPlaying",0x16620f03,"openfl.display.MovieClip.get_isPlaying","openfl/display/MovieClip.hx",376,0x2b84738a)
+HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_388_get_scenes,"openfl.display.MovieClip","get_scenes",0xa5e925e8,"openfl.display.MovieClip.get_scenes","openfl/display/MovieClip.hx",388,0x2b84738a)
+HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_400_get_totalFrames,"openfl.display.MovieClip","get_totalFrames",0x46b3baa9,"openfl.display.MovieClip.get_totalFrames","openfl/display/MovieClip.hx",400,0x2b84738a)
+HX_LOCAL_STACK_FRAME(_hx_pos_9f7ac0293b858dd4_90_fromTimeline,"openfl.display.MovieClip","fromTimeline",0xf575c483,"openfl.display.MovieClip.fromTimeline","openfl/display/MovieClip.hx",90,0x2b84738a)
 namespace openfl{
 namespace display{
 
 void MovieClip_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_160_new)
-HXLINE( 161)		super::__construct();
-HXLINE( 163)		this->_hx___enabled = true;
-HXLINE( 166)		if (::hx::IsNotNull( ::openfl::display::MovieClip_obj::_hx___constructor )) {
-HXLINE( 168)			 ::Dynamic method = ::openfl::display::MovieClip_obj::_hx___constructor;
-HXLINE( 169)			::openfl::display::MovieClip_obj::_hx___constructor = null();
-HXLINE( 171)			method(::hx::ObjectPtr<OBJ_>(this));
+            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_56_new)
+HXLINE(  57)		super::__construct();
+HXLINE(  59)		this->_hx___enabled = true;
+HXLINE(  62)		if (::hx::IsNotNull( ::openfl::display::MovieClip_obj::_hx___constructor )) {
+HXLINE(  64)			 ::Dynamic method = ::openfl::display::MovieClip_obj::_hx___constructor;
+HXLINE(  65)			::openfl::display::MovieClip_obj::_hx___constructor = null();
+HXLINE(  67)			method(::hx::ObjectPtr<OBJ_>(this));
             		}
             	}
 
@@ -124,9 +124,9 @@ bool MovieClip_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void MovieClip_obj::addFrameScript(int index, ::Dynamic method){
-            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_177_addFrameScript)
-HXDLIN( 177)		if (::hx::IsNotNull( this->_hx___timeline )) {
-HXLINE( 179)			this->_hx___timeline->_hx___addFrameScript(index,method);
+            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_73_addFrameScript)
+HXDLIN(  73)		if (::hx::IsNotNull( this->_hx___timeline )) {
+HXLINE(  75)			this->_hx___timeline->_hx___addFrameScript(index,method);
             		}
             	}
 
@@ -134,11 +134,11 @@ HXLINE( 179)			this->_hx___timeline->_hx___addFrameScript(index,method);
 HX_DEFINE_DYNAMIC_FUNC2(MovieClip_obj,addFrameScript,(void))
 
 void MovieClip_obj::attachTimeline( ::openfl::display::Timeline timeline){
-            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_184_attachTimeline)
-HXLINE( 185)		this->_hx___timeline = timeline;
-HXLINE( 186)		if (::hx::IsNotNull( timeline )) {
-HXLINE( 188)			timeline->_hx___attachMovieClip(::hx::ObjectPtr<OBJ_>(this));
-HXLINE( 189)			this->play();
+            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_80_attachTimeline)
+HXLINE(  81)		this->_hx___timeline = timeline;
+HXLINE(  82)		if (::hx::IsNotNull( timeline )) {
+HXLINE(  84)			timeline->_hx___attachMovieClip(::hx::ObjectPtr<OBJ_>(this));
+HXLINE(  85)			this->play();
             		}
             	}
 
@@ -146,9 +146,9 @@ HXLINE( 189)			this->play();
 HX_DEFINE_DYNAMIC_FUNC1(MovieClip_obj,attachTimeline,(void))
 
 void MovieClip_obj::gotoAndPlay( ::Dynamic frame,::String scene){
-            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_216_gotoAndPlay)
-HXDLIN( 216)		if (::hx::IsNotNull( this->_hx___timeline )) {
-HXLINE( 218)			this->_hx___timeline->_hx___gotoAndPlay(frame,scene);
+            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_98_gotoAndPlay)
+HXDLIN(  98)		if (::hx::IsNotNull( this->_hx___timeline )) {
+HXLINE( 100)			this->_hx___timeline->_hx___gotoAndPlay(frame,scene);
             		}
             	}
 
@@ -156,9 +156,9 @@ HXLINE( 218)			this->_hx___timeline->_hx___gotoAndPlay(frame,scene);
 HX_DEFINE_DYNAMIC_FUNC2(MovieClip_obj,gotoAndPlay,(void))
 
 void MovieClip_obj::gotoAndStop( ::Dynamic frame,::String scene){
-            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_241_gotoAndStop)
-HXDLIN( 241)		if (::hx::IsNotNull( this->_hx___timeline )) {
-HXLINE( 243)			this->_hx___timeline->_hx___gotoAndStop(frame,scene);
+            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_106_gotoAndStop)
+HXDLIN( 106)		if (::hx::IsNotNull( this->_hx___timeline )) {
+HXLINE( 108)			this->_hx___timeline->_hx___gotoAndStop(frame,scene);
             		}
             	}
 
@@ -166,9 +166,9 @@ HXLINE( 243)			this->_hx___timeline->_hx___gotoAndStop(frame,scene);
 HX_DEFINE_DYNAMIC_FUNC2(MovieClip_obj,gotoAndStop,(void))
 
 void MovieClip_obj::nextFrame(){
-            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_254_nextFrame)
-HXDLIN( 254)		if (::hx::IsNotNull( this->_hx___timeline )) {
-HXLINE( 256)			this->_hx___timeline->_hx___nextFrame();
+            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_114_nextFrame)
+HXDLIN( 114)		if (::hx::IsNotNull( this->_hx___timeline )) {
+HXLINE( 116)			this->_hx___timeline->_hx___nextFrame();
             		}
             	}
 
@@ -176,9 +176,9 @@ HXLINE( 256)			this->_hx___timeline->_hx___nextFrame();
 HX_DEFINE_DYNAMIC_FUNC0(MovieClip_obj,nextFrame,(void))
 
 void MovieClip_obj::nextScene(){
-            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_262_nextScene)
-HXDLIN( 262)		if (::hx::IsNotNull( this->_hx___timeline )) {
-HXLINE( 264)			this->_hx___timeline->_hx___nextScene();
+            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_122_nextScene)
+HXDLIN( 122)		if (::hx::IsNotNull( this->_hx___timeline )) {
+HXLINE( 124)			this->_hx___timeline->_hx___nextScene();
             		}
             	}
 
@@ -186,9 +186,9 @@ HXLINE( 264)			this->_hx___timeline->_hx___nextScene();
 HX_DEFINE_DYNAMIC_FUNC0(MovieClip_obj,nextScene,(void))
 
 void MovieClip_obj::play(){
-            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_273_play)
-HXDLIN( 273)		if (::hx::IsNotNull( this->_hx___timeline )) {
-HXLINE( 275)			this->_hx___timeline->_hx___play();
+            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_130_play)
+HXDLIN( 130)		if (::hx::IsNotNull( this->_hx___timeline )) {
+HXLINE( 132)			this->_hx___timeline->_hx___play();
             		}
             	}
 
@@ -196,9 +196,9 @@ HXLINE( 275)			this->_hx___timeline->_hx___play();
 HX_DEFINE_DYNAMIC_FUNC0(MovieClip_obj,play,(void))
 
 void MovieClip_obj::prevFrame(){
-            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_286_prevFrame)
-HXDLIN( 286)		if (::hx::IsNotNull( this->_hx___timeline )) {
-HXLINE( 288)			this->_hx___timeline->_hx___prevFrame();
+            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_138_prevFrame)
+HXDLIN( 138)		if (::hx::IsNotNull( this->_hx___timeline )) {
+HXLINE( 140)			this->_hx___timeline->_hx___prevFrame();
             		}
             	}
 
@@ -206,9 +206,9 @@ HXLINE( 288)			this->_hx___timeline->_hx___prevFrame();
 HX_DEFINE_DYNAMIC_FUNC0(MovieClip_obj,prevFrame,(void))
 
 void MovieClip_obj::prevScene(){
-            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_294_prevScene)
-HXDLIN( 294)		if (::hx::IsNotNull( this->_hx___timeline )) {
-HXLINE( 296)			this->_hx___timeline->_hx___prevScene();
+            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_146_prevScene)
+HXDLIN( 146)		if (::hx::IsNotNull( this->_hx___timeline )) {
+HXLINE( 148)			this->_hx___timeline->_hx___prevScene();
             		}
             	}
 
@@ -216,9 +216,9 @@ HXLINE( 296)			this->_hx___timeline->_hx___prevScene();
 HX_DEFINE_DYNAMIC_FUNC0(MovieClip_obj,prevScene,(void))
 
 void MovieClip_obj::stop(){
-            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_306_stop)
-HXDLIN( 306)		if (::hx::IsNotNull( this->_hx___timeline )) {
-HXLINE( 308)			this->_hx___timeline->_hx___stop();
+            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_154_stop)
+HXDLIN( 154)		if (::hx::IsNotNull( this->_hx___timeline )) {
+HXLINE( 156)			this->_hx___timeline->_hx___stop();
             		}
             	}
 
@@ -226,95 +226,93 @@ HXLINE( 308)			this->_hx___timeline->_hx___stop();
 HX_DEFINE_DYNAMIC_FUNC0(MovieClip_obj,stop,(void))
 
 void MovieClip_obj::_hx___enterFrame(int deltaTime){
-            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_313___enterFrame)
-HXLINE( 314)		if (::hx::IsNotNull( this->_hx___timeline )) {
-HXLINE( 316)			this->_hx___timeline->_hx___enterFrame(deltaTime);
+            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_161___enterFrame)
+HXLINE( 162)		if (::hx::IsNotNull( this->_hx___timeline )) {
+HXLINE( 164)			this->_hx___timeline->_hx___enterFrame(deltaTime);
             		}
-HXLINE( 319)		{
-HXLINE( 319)			int _g = 0;
-HXDLIN( 319)			::Array< ::Dynamic> _g1 = this->_hx___children;
-HXDLIN( 319)			while((_g < _g1->length)){
-HXLINE( 319)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
-HXDLIN( 319)				_g = (_g + 1);
-HXLINE( 321)				child->_hx___enterFrame(deltaTime);
+HXLINE( 167)		{
+HXLINE( 167)			int _g = 0;
+HXDLIN( 167)			::Array< ::Dynamic> _g1 = this->_hx___children;
+HXDLIN( 167)			while((_g < _g1->length)){
+HXLINE( 167)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN( 167)				_g = (_g + 1);
+HXLINE( 169)				child->_hx___enterFrame(deltaTime);
             			}
             		}
             	}
 
 
 void MovieClip_obj::_hx___stopAllMovieClips(){
-            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_326___stopAllMovieClips)
-HXLINE( 327)		this->super::_hx___stopAllMovieClips();
-HXLINE( 328)		this->stop();
+            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_174___stopAllMovieClips)
+HXLINE( 175)		this->super::_hx___stopAllMovieClips();
+HXLINE( 176)		this->stop();
             	}
 
 
 void MovieClip_obj::_hx___tabTest(::Array< ::Dynamic> stack){
-            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_332___tabTest)
-HXLINE( 333)		if (!(this->_hx___enabled)) {
-HXLINE( 333)			return;
+            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_180___tabTest)
+HXLINE( 181)		if (!(this->_hx___enabled)) {
+HXLINE( 181)			return;
             		}
-HXLINE( 334)		this->super::_hx___tabTest(stack);
+HXLINE( 182)		this->super::_hx___tabTest(stack);
             	}
 
 
 void MovieClip_obj::_hx___onMouseDown( ::openfl::events::MouseEvent event){
-            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_339___onMouseDown)
-HXLINE( 340)		bool _hx_tmp;
-HXDLIN( 340)		if (this->_hx___enabled) {
-HXLINE( 340)			_hx_tmp = this->_hx___hasDown;
+            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_187___onMouseDown)
+HXLINE( 188)		bool _hx_tmp;
+HXDLIN( 188)		if (this->_hx___enabled) {
+HXLINE( 188)			_hx_tmp = this->_hx___hasDown;
             		}
             		else {
-HXLINE( 340)			_hx_tmp = false;
+HXLINE( 188)			_hx_tmp = false;
             		}
-HXDLIN( 340)		if (_hx_tmp) {
-HXLINE( 342)			this->gotoAndStop(HX_("_down",41,14,7f,f5),null());
+HXDLIN( 188)		if (_hx_tmp) {
+HXLINE( 190)			this->gotoAndStop(HX_("_down",41,14,7f,f5),null());
             		}
-HXLINE( 345)		this->_hx___mouseIsDown = true;
-HXLINE( 347)		if (::hx::IsNotNull( this->stage )) {
-HXLINE( 349)			this->stage->addEventListener(HX_("mouseUp",e0,f3,72,c0),this->_hx___onMouseUp_dyn(),true,null(),null());
-            		}
+HXLINE( 193)		this->_hx___mouseIsDown = true;
+HXLINE( 194)		this->stage->addEventListener(HX_("mouseUp",e0,f3,72,c0),this->_hx___onMouseUp_dyn(),true,null(),null());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(MovieClip_obj,_hx___onMouseDown,(void))
 
 void MovieClip_obj::_hx___onMouseUp( ::openfl::events::MouseEvent event){
-            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_354___onMouseUp)
-HXLINE( 355)		this->_hx___mouseIsDown = false;
-HXLINE( 357)		if (::hx::IsNotNull( this->stage )) {
-HXLINE( 359)			this->stage->removeEventListener(HX_("mouseUp",e0,f3,72,c0),this->_hx___onMouseUp_dyn(),null());
+            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_198___onMouseUp)
+HXLINE( 199)		this->_hx___mouseIsDown = false;
+HXLINE( 201)		if (::hx::IsNotNull( this->stage )) {
+HXLINE( 203)			this->stage->removeEventListener(HX_("mouseUp",e0,f3,72,c0),this->_hx___onMouseUp_dyn(),null());
             		}
-HXLINE( 362)		if (!(this->_hx___buttonMode)) {
-HXLINE( 364)			return;
+HXLINE( 206)		if (!(this->_hx___buttonMode)) {
+HXLINE( 208)			return;
             		}
-HXLINE( 367)		bool _hx_tmp;
-HXDLIN( 367)		bool _hx_tmp1;
-HXDLIN( 367)		if (::hx::IsEq( ( ( ::openfl::display::MovieClip)(event->target) ),::hx::ObjectPtr<OBJ_>(this) )) {
-HXLINE( 367)			_hx_tmp1 = this->_hx___enabled;
-            		}
-            		else {
-HXLINE( 367)			_hx_tmp1 = false;
-            		}
-HXDLIN( 367)		if (_hx_tmp1) {
-HXLINE( 367)			_hx_tmp = this->_hx___hasOver;
+HXLINE( 211)		bool _hx_tmp;
+HXDLIN( 211)		bool _hx_tmp1;
+HXDLIN( 211)		if (::hx::IsEq( ( ( ::openfl::display::MovieClip)(event->target) ),::hx::ObjectPtr<OBJ_>(this) )) {
+HXLINE( 211)			_hx_tmp1 = this->_hx___enabled;
             		}
             		else {
-HXLINE( 367)			_hx_tmp = false;
+HXLINE( 211)			_hx_tmp1 = false;
             		}
-HXDLIN( 367)		if (_hx_tmp) {
-HXLINE( 369)			this->gotoAndStop(HX_("_over",33,ad,c9,fc),null());
+HXDLIN( 211)		if (_hx_tmp1) {
+HXLINE( 211)			_hx_tmp = this->_hx___hasOver;
             		}
             		else {
-HXLINE( 371)			bool _hx_tmp;
-HXDLIN( 371)			if (this->_hx___enabled) {
-HXLINE( 371)				_hx_tmp = this->_hx___hasUp;
+HXLINE( 211)			_hx_tmp = false;
+            		}
+HXDLIN( 211)		if (_hx_tmp) {
+HXLINE( 213)			this->gotoAndStop(HX_("_over",33,ad,c9,fc),null());
+            		}
+            		else {
+HXLINE( 215)			bool _hx_tmp;
+HXDLIN( 215)			if (this->_hx___enabled) {
+HXLINE( 215)				_hx_tmp = this->_hx___hasUp;
             			}
             			else {
-HXLINE( 371)				_hx_tmp = false;
+HXLINE( 215)				_hx_tmp = false;
             			}
-HXDLIN( 371)			if (_hx_tmp) {
-HXLINE( 373)				this->gotoAndStop(HX_("_up",7a,7c,48,00),null());
+HXDLIN( 215)			if (_hx_tmp) {
+HXLINE( 217)				this->gotoAndStop(HX_("_up",7a,7c,48,00),null());
             			}
             		}
             	}
@@ -323,23 +321,23 @@ HXLINE( 373)				this->gotoAndStop(HX_("_up",7a,7c,48,00),null());
 HX_DEFINE_DYNAMIC_FUNC1(MovieClip_obj,_hx___onMouseUp,(void))
 
 void MovieClip_obj::_hx___onRollOut( ::openfl::events::MouseEvent event){
-            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_378___onRollOut)
-HXLINE( 379)		if (!(this->_hx___enabled)) {
-HXLINE( 379)			return;
+            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_222___onRollOut)
+HXLINE( 223)		if (!(this->_hx___enabled)) {
+HXLINE( 223)			return;
             		}
-HXLINE( 381)		bool _hx_tmp;
-HXDLIN( 381)		if (this->_hx___mouseIsDown) {
-HXLINE( 381)			_hx_tmp = this->_hx___hasOver;
-            		}
-            		else {
-HXLINE( 381)			_hx_tmp = false;
-            		}
-HXDLIN( 381)		if (_hx_tmp) {
-HXLINE( 383)			this->gotoAndStop(HX_("_over",33,ad,c9,fc),null());
+HXLINE( 225)		bool _hx_tmp;
+HXDLIN( 225)		if (this->_hx___mouseIsDown) {
+HXLINE( 225)			_hx_tmp = this->_hx___hasOver;
             		}
             		else {
-HXLINE( 385)			if (this->_hx___hasUp) {
-HXLINE( 387)				this->gotoAndStop(HX_("_up",7a,7c,48,00),null());
+HXLINE( 225)			_hx_tmp = false;
+            		}
+HXDLIN( 225)		if (_hx_tmp) {
+HXLINE( 227)			this->gotoAndStop(HX_("_over",33,ad,c9,fc),null());
+            		}
+            		else {
+HXLINE( 229)			if (this->_hx___hasUp) {
+HXLINE( 231)				this->gotoAndStop(HX_("_up",7a,7c,48,00),null());
             			}
             		}
             	}
@@ -348,16 +346,16 @@ HXLINE( 387)				this->gotoAndStop(HX_("_up",7a,7c,48,00),null());
 HX_DEFINE_DYNAMIC_FUNC1(MovieClip_obj,_hx___onRollOut,(void))
 
 void MovieClip_obj::_hx___onRollOver( ::openfl::events::MouseEvent event){
-            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_393___onRollOver)
-HXDLIN( 393)		bool _hx_tmp;
-HXDLIN( 393)		if (this->_hx___enabled) {
-HXDLIN( 393)			_hx_tmp = this->_hx___hasOver;
+            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_237___onRollOver)
+HXDLIN( 237)		bool _hx_tmp;
+HXDLIN( 237)		if (this->_hx___enabled) {
+HXDLIN( 237)			_hx_tmp = this->_hx___hasOver;
             		}
             		else {
-HXDLIN( 393)			_hx_tmp = false;
+HXDLIN( 237)			_hx_tmp = false;
             		}
-HXDLIN( 393)		if (_hx_tmp) {
-HXLINE( 395)			this->gotoAndStop(HX_("_over",33,ad,c9,fc),null());
+HXDLIN( 237)		if (_hx_tmp) {
+HXLINE( 239)			this->gotoAndStop(HX_("_over",33,ad,c9,fc),null());
             		}
             	}
 
@@ -365,207 +363,207 @@ HXLINE( 395)			this->gotoAndStop(HX_("_over",33,ad,c9,fc),null());
 HX_DEFINE_DYNAMIC_FUNC1(MovieClip_obj,_hx___onRollOver,(void))
 
 bool MovieClip_obj::set_buttonMode(bool value){
-            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_401_set_buttonMode)
-HXLINE( 402)		if ((this->_hx___buttonMode != value)) {
-HXLINE( 404)			if (value) {
-HXLINE( 406)				this->_hx___hasDown = false;
-HXLINE( 407)				this->_hx___hasOver = false;
-HXLINE( 408)				this->_hx___hasUp = false;
-HXLINE( 410)				{
-HXLINE( 410)					int _g = 0;
-HXDLIN( 410)					::Array< ::Dynamic> _g1 = this->get_currentLabels();
-HXDLIN( 410)					while((_g < _g1->length)){
-HXLINE( 410)						 ::openfl::display::FrameLabel frameLabel = _g1->__get(_g).StaticCast<  ::openfl::display::FrameLabel >();
-HXDLIN( 410)						_g = (_g + 1);
-HXLINE( 412)						::String _hx_switch_0 = frameLabel->name;
+            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_245_set_buttonMode)
+HXLINE( 246)		if ((this->_hx___buttonMode != value)) {
+HXLINE( 248)			if (value) {
+HXLINE( 250)				this->_hx___hasDown = false;
+HXLINE( 251)				this->_hx___hasOver = false;
+HXLINE( 252)				this->_hx___hasUp = false;
+HXLINE( 254)				{
+HXLINE( 254)					int _g = 0;
+HXDLIN( 254)					::Array< ::Dynamic> _g1 = this->get_currentLabels();
+HXDLIN( 254)					while((_g < _g1->length)){
+HXLINE( 254)						 ::openfl::display::FrameLabel frameLabel = _g1->__get(_g).StaticCast<  ::openfl::display::FrameLabel >();
+HXDLIN( 254)						_g = (_g + 1);
+HXLINE( 256)						::String _hx_switch_0 = frameLabel->name;
             						if (  (_hx_switch_0==HX_("_down",41,14,7f,f5)) ){
-HXLINE( 419)							this->_hx___hasDown = true;
-HXDLIN( 419)							goto _hx_goto_20;
+HXLINE( 263)							this->_hx___hasDown = true;
+HXDLIN( 263)							goto _hx_goto_20;
             						}
             						if (  (_hx_switch_0==HX_("_over",33,ad,c9,fc)) ){
-HXLINE( 417)							this->_hx___hasOver = true;
-HXDLIN( 417)							goto _hx_goto_20;
+HXLINE( 261)							this->_hx___hasOver = true;
+HXDLIN( 261)							goto _hx_goto_20;
             						}
             						if (  (_hx_switch_0==HX_("_up",7a,7c,48,00)) ){
-HXLINE( 415)							this->_hx___hasUp = true;
-HXDLIN( 415)							goto _hx_goto_20;
+HXLINE( 259)							this->_hx___hasUp = true;
+HXDLIN( 259)							goto _hx_goto_20;
             						}
             						/* default */{
             						}
             						_hx_goto_20:;
             					}
             				}
-HXLINE( 424)				bool _hx_tmp;
-HXDLIN( 424)				bool _hx_tmp1;
-HXDLIN( 424)				if (!(this->_hx___hasDown)) {
-HXLINE( 424)					_hx_tmp1 = this->_hx___hasOver;
+HXLINE( 268)				bool _hx_tmp;
+HXDLIN( 268)				bool _hx_tmp1;
+HXDLIN( 268)				if (!(this->_hx___hasDown)) {
+HXLINE( 268)					_hx_tmp1 = this->_hx___hasOver;
             				}
             				else {
-HXLINE( 424)					_hx_tmp1 = true;
+HXLINE( 268)					_hx_tmp1 = true;
             				}
-HXDLIN( 424)				if (!(_hx_tmp1)) {
-HXLINE( 424)					_hx_tmp = this->_hx___hasUp;
+HXDLIN( 268)				if (!(_hx_tmp1)) {
+HXLINE( 268)					_hx_tmp = this->_hx___hasUp;
             				}
             				else {
-HXLINE( 424)					_hx_tmp = true;
+HXLINE( 268)					_hx_tmp = true;
             				}
-HXDLIN( 424)				if (_hx_tmp) {
-HXLINE( 426)					this->addEventListener(HX_("rollOver",71,ab,a8,12),this->_hx___onRollOver_dyn(),null(),null(),null());
-HXLINE( 427)					this->addEventListener(HX_("rollOut",11,f9,11,5d),this->_hx___onRollOut_dyn(),null(),null(),null());
-HXLINE( 428)					this->addEventListener(HX_("mouseDown",27,b1,c2,ee),this->_hx___onMouseDown_dyn(),null(),null(),null());
+HXDLIN( 268)				if (_hx_tmp) {
+HXLINE( 270)					this->addEventListener(HX_("rollOver",71,ab,a8,12),this->_hx___onRollOver_dyn(),null(),null(),null());
+HXLINE( 271)					this->addEventListener(HX_("rollOut",11,f9,11,5d),this->_hx___onRollOut_dyn(),null(),null(),null());
+HXLINE( 272)					this->addEventListener(HX_("mouseDown",27,b1,c2,ee),this->_hx___onMouseDown_dyn(),null(),null(),null());
             				}
             			}
             			else {
-HXLINE( 433)				this->removeEventListener(HX_("rollOver",71,ab,a8,12),this->_hx___onRollOver_dyn(),null());
-HXLINE( 434)				this->removeEventListener(HX_("rollOut",11,f9,11,5d),this->_hx___onRollOut_dyn(),null());
-HXLINE( 435)				this->removeEventListener(HX_("mouseDown",27,b1,c2,ee),this->_hx___onMouseDown_dyn(),null());
+HXLINE( 277)				this->removeEventListener(HX_("rollOver",71,ab,a8,12),this->_hx___onRollOver_dyn(),null());
+HXLINE( 278)				this->removeEventListener(HX_("rollOut",11,f9,11,5d),this->_hx___onRollOut_dyn(),null());
+HXLINE( 279)				this->removeEventListener(HX_("mouseDown",27,b1,c2,ee),this->_hx___onMouseDown_dyn(),null());
             			}
-HXLINE( 438)			this->_hx___buttonMode = value;
+HXLINE( 282)			this->_hx___buttonMode = value;
             		}
-HXLINE( 441)		return value;
+HXLINE( 285)		return value;
             	}
 
 
 int MovieClip_obj::get_currentFrame(){
-            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_446_get_currentFrame)
-HXDLIN( 446)		if (::hx::IsNotNull( this->_hx___timeline )) {
-HXLINE( 448)			return this->_hx___timeline->_hx___currentFrame;
+            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_290_get_currentFrame)
+HXDLIN( 290)		if (::hx::IsNotNull( this->_hx___timeline )) {
+HXLINE( 292)			return this->_hx___timeline->_hx___currentFrame;
             		}
             		else {
-HXLINE( 452)			return 1;
+HXLINE( 296)			return 1;
             		}
-HXLINE( 446)		return 0;
+HXLINE( 290)		return 0;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(MovieClip_obj,get_currentFrame,return )
 
 ::String MovieClip_obj::get_currentFrameLabel(){
-            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_458_get_currentFrameLabel)
-HXDLIN( 458)		if (::hx::IsNotNull( this->_hx___timeline )) {
-HXLINE( 460)			return this->_hx___timeline->_hx___currentFrameLabel;
+            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_302_get_currentFrameLabel)
+HXDLIN( 302)		if (::hx::IsNotNull( this->_hx___timeline )) {
+HXLINE( 304)			return this->_hx___timeline->_hx___currentFrameLabel;
             		}
             		else {
-HXLINE( 464)			return null();
+HXLINE( 308)			return null();
             		}
-HXLINE( 458)		return null();
+HXLINE( 302)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(MovieClip_obj,get_currentFrameLabel,return )
 
 ::String MovieClip_obj::get_currentLabel(){
-            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_470_get_currentLabel)
-HXDLIN( 470)		if (::hx::IsNotNull( this->_hx___timeline )) {
-HXLINE( 472)			return this->_hx___timeline->_hx___currentLabel;
+            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_314_get_currentLabel)
+HXDLIN( 314)		if (::hx::IsNotNull( this->_hx___timeline )) {
+HXLINE( 316)			return this->_hx___timeline->_hx___currentLabel;
             		}
             		else {
-HXLINE( 476)			return null();
+HXLINE( 320)			return null();
             		}
-HXLINE( 470)		return null();
+HXLINE( 314)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(MovieClip_obj,get_currentLabel,return )
 
 ::Array< ::Dynamic> MovieClip_obj::get_currentLabels(){
-            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_482_get_currentLabels)
-HXDLIN( 482)		if (::hx::IsNotNull( this->_hx___timeline )) {
-HXLINE( 484)			return this->_hx___timeline->_hx___currentLabels->copy();
+            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_326_get_currentLabels)
+HXDLIN( 326)		if (::hx::IsNotNull( this->_hx___timeline )) {
+HXLINE( 328)			return this->_hx___timeline->_hx___currentLabels->copy();
             		}
             		else {
-HXLINE( 488)			return ::Array_obj< ::Dynamic>::__new(0);
+HXLINE( 332)			return ::Array_obj< ::Dynamic>::__new(0);
             		}
-HXLINE( 482)		return null();
+HXLINE( 326)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(MovieClip_obj,get_currentLabels,return )
 
  ::openfl::display::Scene MovieClip_obj::get_currentScene(){
-            	HX_GC_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_494_get_currentScene)
-HXDLIN( 494)		if (::hx::IsNotNull( this->_hx___timeline )) {
-HXLINE( 496)			return this->_hx___timeline->_hx___currentScene;
+            	HX_GC_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_338_get_currentScene)
+HXDLIN( 338)		if (::hx::IsNotNull( this->_hx___timeline )) {
+HXLINE( 340)			return this->_hx___timeline->_hx___currentScene;
             		}
             		else {
-HXLINE( 500)			if (::hx::IsNull( this->_hx___scene )) {
-HXLINE( 502)				this->_hx___scene =  ::openfl::display::Scene_obj::__alloc( HX_CTX ,HX_("",00,00,00,00),::Array_obj< ::Dynamic>::__new(0),1);
+HXLINE( 344)			if (::hx::IsNull( this->_hx___scene )) {
+HXLINE( 346)				this->_hx___scene =  ::openfl::display::Scene_obj::__alloc( HX_CTX ,HX_("",00,00,00,00),::Array_obj< ::Dynamic>::__new(0),1);
             			}
-HXLINE( 504)			return this->_hx___scene;
+HXLINE( 348)			return this->_hx___scene;
             		}
-HXLINE( 494)		return null();
+HXLINE( 338)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(MovieClip_obj,get_currentScene,return )
 
 bool MovieClip_obj::get_enabled(){
-            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_510_get_enabled)
-HXDLIN( 510)		return this->_hx___enabled;
+            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_354_get_enabled)
+HXDLIN( 354)		return this->_hx___enabled;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(MovieClip_obj,get_enabled,return )
 
 bool MovieClip_obj::set_enabled(bool value){
-            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_515_set_enabled)
-HXDLIN( 515)		return (this->_hx___enabled = value);
+            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_359_set_enabled)
+HXDLIN( 359)		return (this->_hx___enabled = value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(MovieClip_obj,set_enabled,return )
 
 int MovieClip_obj::get_framesLoaded(){
-            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_520_get_framesLoaded)
-HXDLIN( 520)		if (::hx::IsNotNull( this->_hx___timeline )) {
-HXLINE( 522)			return this->_hx___timeline->_hx___framesLoaded;
+            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_364_get_framesLoaded)
+HXDLIN( 364)		if (::hx::IsNotNull( this->_hx___timeline )) {
+HXLINE( 366)			return this->_hx___timeline->_hx___framesLoaded;
             		}
             		else {
-HXLINE( 526)			return 1;
+HXLINE( 370)			return 1;
             		}
-HXLINE( 520)		return 0;
+HXLINE( 364)		return 0;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(MovieClip_obj,get_framesLoaded,return )
 
 bool MovieClip_obj::get_isPlaying(){
-            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_532_get_isPlaying)
-HXDLIN( 532)		if (::hx::IsNotNull( this->_hx___timeline )) {
-HXLINE( 534)			return this->_hx___timeline->_hx___isPlaying;
+            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_376_get_isPlaying)
+HXDLIN( 376)		if (::hx::IsNotNull( this->_hx___timeline )) {
+HXLINE( 378)			return this->_hx___timeline->_hx___isPlaying;
             		}
             		else {
-HXLINE( 538)			return false;
+HXLINE( 382)			return false;
             		}
-HXLINE( 532)		return false;
+HXLINE( 376)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(MovieClip_obj,get_isPlaying,return )
 
 ::Array< ::Dynamic> MovieClip_obj::get_scenes(){
-            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_544_get_scenes)
-HXDLIN( 544)		if (::hx::IsNotNull( this->_hx___timeline )) {
-HXLINE( 546)			return this->_hx___timeline->scenes->copy();
+            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_388_get_scenes)
+HXDLIN( 388)		if (::hx::IsNotNull( this->_hx___timeline )) {
+HXLINE( 390)			return this->_hx___timeline->scenes->copy();
             		}
             		else {
-HXLINE( 550)			return ::Array_obj< ::Dynamic>::__new(1)->init(0,this->get_currentScene());
+HXLINE( 394)			return ::Array_obj< ::Dynamic>::__new(1)->init(0,this->get_currentScene());
             		}
-HXLINE( 544)		return null();
+HXLINE( 388)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(MovieClip_obj,get_scenes,return )
 
 int MovieClip_obj::get_totalFrames(){
-            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_556_get_totalFrames)
-HXDLIN( 556)		if (::hx::IsNotNull( this->_hx___timeline )) {
-HXLINE( 558)			return this->_hx___timeline->_hx___totalFrames;
+            	HX_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_400_get_totalFrames)
+HXDLIN( 400)		if (::hx::IsNotNull( this->_hx___timeline )) {
+HXLINE( 402)			return this->_hx___timeline->_hx___totalFrames;
             		}
             		else {
-HXLINE( 562)			return 1;
+HXLINE( 406)			return 1;
             		}
-HXLINE( 556)		return 0;
+HXLINE( 400)		return 0;
             	}
 
 
@@ -574,10 +572,10 @@ HX_DEFINE_DYNAMIC_FUNC0(MovieClip_obj,get_totalFrames,return )
  ::Dynamic MovieClip_obj::_hx___constructor;
 
  ::openfl::display::MovieClip MovieClip_obj::fromTimeline( ::openfl::display::Timeline timeline){
-            	HX_GC_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_194_fromTimeline)
-HXLINE( 195)		 ::openfl::display::MovieClip movieClip =  ::openfl::display::MovieClip_obj::__alloc( HX_CTX );
-HXLINE( 196)		movieClip->attachTimeline(timeline);
-HXLINE( 197)		return movieClip;
+            	HX_GC_STACKFRAME(&_hx_pos_9f7ac0293b858dd4_90_fromTimeline)
+HXLINE(  91)		 ::openfl::display::MovieClip movieClip =  ::openfl::display::MovieClip_obj::__alloc( HX_CTX );
+HXLINE(  92)		movieClip->attachTimeline(timeline);
+HXLINE(  93)		return movieClip;
             	}
 
 

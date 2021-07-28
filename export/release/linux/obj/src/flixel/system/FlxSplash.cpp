@@ -202,7 +202,7 @@ HXLINE(  81)		if (!(::flixel::_hx_system::FlxSplash_obj::muted)) {
 HXLINE(  83)			 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
 HXDLIN(  83)			::String extension = HX_("",00,00,00,00);
 HXDLIN(  83)			extension = HX_(".ogg",e1,64,bc,1e);
-HXDLIN(  83)			_hx_tmp->load(::openfl::utils::Assets_obj::getSound((HX_("flixel/sounds/flixel",54,41,d6,5d) + extension),null()),null(),null(),null(),null(),null(),null(),null(),null())->play(null(),null(),null());
+HXDLIN(  83)			_hx_tmp->load(::openfl::utils::Assets_obj::getSound((HX_("flixel/sounds/flixel",54,41,d6,5d) + extension),null()),null(),null(),null(),null(),null(),null(),null())->play(null(),null(),null());
             		}
             	}
 

@@ -11,18 +11,18 @@
 #include <openfl/system/SecurityDomain.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_b514a9552a6ee0e8_423_new,"openfl.system.LoaderContext","new",0xca9b9c4d,"openfl.system.LoaderContext.new","openfl/system/LoaderContext.hx",423,0x3ddfdde3)
+HX_DEFINE_STACK_FRAME(_hx_pos_b514a9552a6ee0e8_27_new,"openfl.system.LoaderContext","new",0xca9b9c4d,"openfl.system.LoaderContext.new","openfl/system/LoaderContext.hx",27,0x3ddfdde3)
 namespace openfl{
 namespace _hx_system{
 
 void LoaderContext_obj::__construct(::hx::Null< bool >  __o_checkPolicyFile, ::openfl::_hx_system::ApplicationDomain applicationDomain, ::openfl::_hx_system::SecurityDomain securityDomain){
             		bool checkPolicyFile = __o_checkPolicyFile.Default(false);
-            	HX_STACKFRAME(&_hx_pos_b514a9552a6ee0e8_423_new)
-HXLINE( 424)		this->checkPolicyFile = checkPolicyFile;
-HXLINE( 425)		this->securityDomain = securityDomain;
-HXLINE( 426)		this->applicationDomain = applicationDomain;
-HXLINE( 428)		this->allowCodeImport = true;
-HXLINE( 429)		this->allowLoadBytesCodeExecution = true;
+            	HX_STACKFRAME(&_hx_pos_b514a9552a6ee0e8_27_new)
+HXLINE(  28)		this->checkPolicyFile = checkPolicyFile;
+HXLINE(  29)		this->securityDomain = securityDomain;
+HXLINE(  30)		this->applicationDomain = applicationDomain;
+HXLINE(  32)		this->allowCodeImport = true;
+HXLINE(  33)		this->allowLoadBytesCodeExecution = true;
             	}
 
 Dynamic LoaderContext_obj::__CreateEmpty() { return new LoaderContext_obj; }

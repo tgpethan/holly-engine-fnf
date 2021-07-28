@@ -68,11 +68,8 @@ class HXCPP_CLASS_ATTRIBUTES SoundFrontEnd_obj : public ::hx::Object
 		void playMusic( ::Dynamic Music,::hx::Null< Float >  Volume,::hx::Null< bool >  Looped, ::flixel::_hx_system::FlxSoundGroup Group);
 		::Dynamic playMusic_dyn();
 
-		 ::flixel::_hx_system::FlxSound load( ::Dynamic EmbeddedSound,::hx::Null< Float >  Volume,::hx::Null< bool >  Looped, ::flixel::_hx_system::FlxSoundGroup Group,::hx::Null< bool >  AutoDestroy,::hx::Null< bool >  AutoPlay,::String URL, ::Dynamic OnComplete, ::Dynamic OnLoad);
+		 ::flixel::_hx_system::FlxSound load( ::Dynamic EmbeddedSound,::hx::Null< Float >  Volume,::hx::Null< bool >  Looped, ::flixel::_hx_system::FlxSoundGroup Group,::hx::Null< bool >  AutoDestroy,::hx::Null< bool >  AutoPlay,::String URL, ::Dynamic OnComplete);
 		::Dynamic load_dyn();
-
-		 ::flixel::_hx_system::FlxSound loadHelper( ::flixel::_hx_system::FlxSound sound,Float Volume, ::flixel::_hx_system::FlxSoundGroup Group,::hx::Null< bool >  AutoPlay);
-		::Dynamic loadHelper_dyn();
 
 		 ::openfl::media::Sound cache(::String EmbeddedSound);
 		::Dynamic cache_dyn();
@@ -83,7 +80,7 @@ class HXCPP_CLASS_ATTRIBUTES SoundFrontEnd_obj : public ::hx::Object
 		 ::flixel::_hx_system::FlxSound play( ::Dynamic EmbeddedSound,::hx::Null< Float >  Volume,::hx::Null< bool >  Looped, ::flixel::_hx_system::FlxSoundGroup Group,::hx::Null< bool >  AutoDestroy, ::Dynamic OnComplete);
 		::Dynamic play_dyn();
 
-		 ::flixel::_hx_system::FlxSound stream(::String URL,::hx::Null< Float >  Volume,::hx::Null< bool >  Looped, ::flixel::_hx_system::FlxSoundGroup Group,::hx::Null< bool >  AutoDestroy, ::Dynamic OnComplete, ::Dynamic OnLoad);
+		 ::flixel::_hx_system::FlxSound stream(::String URL,::hx::Null< Float >  Volume,::hx::Null< bool >  Looped, ::flixel::_hx_system::FlxSoundGroup Group,::hx::Null< bool >  AutoDestroy, ::Dynamic OnComplete);
 		::Dynamic stream_dyn();
 
 		void pause();

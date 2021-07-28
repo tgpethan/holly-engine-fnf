@@ -66,12 +66,6 @@ class HXCPP_CLASS_ATTRIBUTES DOMDisplayObject_obj : public ::hx::Object
 		static void render( ::openfl::display::DisplayObject displayObject, ::openfl::display::DOMRenderer renderer);
 		static ::Dynamic render_dyn();
 
-		static void renderDrawable( ::openfl::display::DisplayObject displayObject, ::openfl::display::DOMRenderer renderer);
-		static ::Dynamic renderDrawable_dyn();
-
-		static void renderDrawableClear( ::openfl::display::DisplayObject displayObject, ::openfl::display::DOMRenderer renderer);
-		static ::Dynamic renderDrawableClear_dyn();
-
 };
 
 } // end namespace openfl

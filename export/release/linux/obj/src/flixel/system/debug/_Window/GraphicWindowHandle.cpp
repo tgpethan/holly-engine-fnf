@@ -32,7 +32,7 @@
 #include <openfl/utils/_ByteArray/ByteArray_Impl_.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_0d4113356e82ee38_47_new,"flixel.system.debug._Window.GraphicWindowHandle","new",0x4f36000b,"flixel.system.debug._Window.GraphicWindowHandle.new","openfl/utils/_internal/AssetsMacro.hx",47,0xfdd54705)
+HX_DEFINE_STACK_FRAME(_hx_pos_b1cf9e2110693824_47_new,"flixel.system.debug._Window.GraphicWindowHandle","new",0x4f36000b,"flixel.system.debug._Window.GraphicWindowHandle.new","openfl/_internal/macros/AssetsMacro.hx",47,0xf7db08ab)
 HX_LOCAL_STACK_FRAME(_hx_pos_1086c40af90ca1d8_19_boot,"flixel.system.debug._Window.GraphicWindowHandle","boot",0xf8230a27,"flixel.system.debug._Window.GraphicWindowHandle.boot","flixel/system/debug/Window.hx",19,0xb8dfd4e5)
 namespace flixel{
 namespace _hx_system{
@@ -44,7 +44,7 @@ void GraphicWindowHandle_obj::__construct(int width,int height, ::Dynamic __o_tr
             		if (::hx::IsNull(__o_transparent)) transparent = true;
             		 ::Dynamic fillRGBA = __o_fillRGBA;
             		if (::hx::IsNull(__o_fillRGBA)) fillRGBA = -1;
-            	HX_STACKFRAME(&_hx_pos_0d4113356e82ee38_47_new)
+            	HX_STACKFRAME(&_hx_pos_b1cf9e2110693824_47_new)
 HXLINE(  71)		super::__construct(0,0,transparent,fillRGBA);
 HXLINE(  73)		 ::openfl::utils::ByteArrayData byteArray = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(::haxe::Resource_obj::getBytes(::flixel::_hx_system::debug::_Window::GraphicWindowHandle_obj::resourceName));
 HXLINE(  74)		{

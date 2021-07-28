@@ -32,7 +32,7 @@
 #include <openfl/utils/_ByteArray/ByteArray_Impl_.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_6ff906db8ca9ad6d_47_new,"flixel.system.debug.interaction.tools._Transform.GraphicTransformCursorRotate","new",0xea64a7b1,"flixel.system.debug.interaction.tools._Transform.GraphicTransformCursorRotate.new","openfl/utils/_internal/AssetsMacro.hx",47,0xfdd54705)
+HX_DEFINE_STACK_FRAME(_hx_pos_5c3b455efc9a64ca_47_new,"flixel.system.debug.interaction.tools._Transform.GraphicTransformCursorRotate","new",0xea64a7b1,"flixel.system.debug.interaction.tools._Transform.GraphicTransformCursorRotate.new","openfl/_internal/macros/AssetsMacro.hx",47,0xf7db08ab)
 HX_LOCAL_STACK_FRAME(_hx_pos_db69ad0c1f711ca0_34_boot,"flixel.system.debug.interaction.tools._Transform.GraphicTransformCursorRotate","boot",0x25c713c1,"flixel.system.debug.interaction.tools._Transform.GraphicTransformCursorRotate.boot","flixel/system/debug/interaction/tools/Transform.hx",34,0xb006466c)
 namespace flixel{
 namespace _hx_system{
@@ -46,7 +46,7 @@ void GraphicTransformCursorRotate_obj::__construct(int width,int height, ::Dynam
             		if (::hx::IsNull(__o_transparent)) transparent = true;
             		 ::Dynamic fillRGBA = __o_fillRGBA;
             		if (::hx::IsNull(__o_fillRGBA)) fillRGBA = -1;
-            	HX_STACKFRAME(&_hx_pos_6ff906db8ca9ad6d_47_new)
+            	HX_STACKFRAME(&_hx_pos_5c3b455efc9a64ca_47_new)
 HXLINE(  71)		super::__construct(0,0,transparent,fillRGBA);
 HXLINE(  73)		 ::openfl::utils::ByteArrayData byteArray = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(::haxe::Resource_obj::getBytes(::flixel::_hx_system::debug::interaction::tools::_Transform::GraphicTransformCursorRotate_obj::resourceName));
 HXLINE(  74)		{

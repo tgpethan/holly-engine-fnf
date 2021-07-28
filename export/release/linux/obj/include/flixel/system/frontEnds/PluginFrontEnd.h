@@ -56,10 +56,10 @@ class HXCPP_CLASS_ATTRIBUTES PluginFrontEnd_obj : public ::hx::Object
 		::Dynamic add_flixel_util_FlxTimerManager_dyn();
 
 		::Array< ::Dynamic> list;
-		 ::Dynamic get(::hx::Class ClassType);
+		 ::flixel::FlxBasic get(::hx::Class ClassType);
 		::Dynamic get_dyn();
 
-		 ::Dynamic remove( ::Dynamic Plugin);
+		 ::flixel::FlxBasic remove( ::flixel::FlxBasic Plugin);
 		::Dynamic remove_dyn();
 
 		bool removeType(::hx::Class ClassType);

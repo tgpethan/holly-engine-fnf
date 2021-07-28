@@ -66,12 +66,6 @@ class HXCPP_CLASS_ATTRIBUTES CairoTextField_obj : public ::hx::Object
 		static void render( ::openfl::text::TextField textField, ::openfl::display::CairoRenderer renderer, ::openfl::geom::Matrix transform);
 		static ::Dynamic render_dyn();
 
-		static void renderDrawable( ::openfl::text::TextField textField, ::openfl::display::CairoRenderer renderer);
-		static ::Dynamic renderDrawable_dyn();
-
-		static void renderDrawableMask( ::openfl::text::TextField textField, ::openfl::display::CairoRenderer renderer);
-		static ::Dynamic renderDrawableMask_dyn();
-
 };
 
 } // end namespace openfl

@@ -385,7 +385,7 @@ class HXCPP_CLASS_ATTRIBUTES OpenALAudioContext_obj : public ::hx::Object
 		void sourceQueueBuffers( ::Dynamic source,int nb,::cpp::VirtualArray buffers);
 		::Dynamic sourceQueueBuffers_dyn();
 
-		 ::Dynamic sourceUnqueueBuffer( ::Dynamic source);
+		int sourceUnqueueBuffer( ::Dynamic source);
 		::Dynamic sourceUnqueueBuffer_dyn();
 
 		::cpp::VirtualArray sourceUnqueueBuffers( ::Dynamic source,int nb);

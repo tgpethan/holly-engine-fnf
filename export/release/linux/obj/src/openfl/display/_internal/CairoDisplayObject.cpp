@@ -4,15 +4,6 @@
 #ifndef INCLUDED_lime_graphics_cairo_Cairo
 #include <lime/graphics/cairo/Cairo.h>
 #endif
-#ifndef INCLUDED_lime_graphics_cairo__CairoPattern_CairoPattern_Impl_
-#include <lime/graphics/cairo/_CairoPattern/CairoPattern_Impl_.h>
-#endif
-#ifndef INCLUDED_openfl_display_Bitmap
-#include <openfl/display/Bitmap.h>
-#endif
-#ifndef INCLUDED_openfl_display_BitmapData
-#include <openfl/display/BitmapData.h>
-#endif
 #ifndef INCLUDED_openfl_display_CairoRenderer
 #include <openfl/display/CairoRenderer.h>
 #endif
@@ -31,9 +22,6 @@
 #ifndef INCLUDED_openfl_display__internal_CairoDisplayObject
 #include <openfl/display/_internal/CairoDisplayObject.h>
 #endif
-#ifndef INCLUDED_openfl_display__internal_CairoGraphics
-#include <openfl/display/_internal/CairoGraphics.h>
-#endif
 #ifndef INCLUDED_openfl_display__internal_CairoShape
 #include <openfl/display/_internal/CairoShape.h>
 #endif
@@ -48,8 +36,6 @@
 #endif
 
 HX_LOCAL_STACK_FRAME(_hx_pos_857659711d1ff772_19_render,"openfl.display._internal.CairoDisplayObject","render",0x7640c7af,"openfl.display._internal.CairoDisplayObject.render","openfl/display/_internal/CairoDisplayObject.hx",19,0x9e348686)
-HX_LOCAL_STACK_FRAME(_hx_pos_857659711d1ff772_55_renderDrawable,"openfl.display._internal.CairoDisplayObject","renderDrawable",0xd591366d,"openfl.display._internal.CairoDisplayObject.renderDrawable","openfl/display/_internal/CairoDisplayObject.hx",55,0x9e348686)
-HX_LOCAL_STACK_FRAME(_hx_pos_857659711d1ff772_75_renderDrawableMask,"openfl.display._internal.CairoDisplayObject","renderDrawableMask",0x0b40ddf9,"openfl.display._internal.CairoDisplayObject.renderDrawableMask","openfl/display/_internal/CairoDisplayObject.hx",75,0x9e348686)
 HX_LOCAL_STACK_FRAME(_hx_pos_857659711d1ff772_16_boot,"openfl.display._internal.CairoDisplayObject","boot",0xc77ee84b,"openfl.display._internal.CairoDisplayObject.boot","openfl/display/_internal/CairoDisplayObject.hx",16,0x9e348686)
 namespace openfl{
 namespace display{
@@ -132,89 +118,6 @@ HXLINE(  49)			::openfl::display::_internal::CairoShape_obj::render(displayObjec
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(CairoDisplayObject_obj,render,(void))
 
-void CairoDisplayObject_obj::renderDrawable( ::openfl::display::DisplayObject displayObject, ::openfl::display::CairoRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_857659711d1ff772_55_renderDrawable)
-HXLINE(  57)		renderer->_hx___updateCacheBitmap(displayObject,false);
-HXLINE(  59)		bool _hx_tmp;
-HXDLIN(  59)		if (::hx::IsNotNull( displayObject->_hx___cacheBitmap )) {
-HXLINE(  59)			_hx_tmp = !(displayObject->_hx___isCacheBitmapRender);
-            		}
-            		else {
-HXLINE(  59)			_hx_tmp = false;
-            		}
-HXDLIN(  59)		if (_hx_tmp) {
-HXLINE(  61)			 ::openfl::display::Bitmap bitmap = displayObject->_hx___cacheBitmap;
-HXDLIN(  61)			if (bitmap->_hx___renderable) {
-HXLINE(  61)				Float alpha = renderer->_hx___getAlpha(bitmap->_hx___worldAlpha);
-HXDLIN(  61)				bool _hx_tmp;
-HXDLIN(  61)				bool _hx_tmp1;
-HXDLIN(  61)				if ((alpha > 0)) {
-HXLINE(  61)					_hx_tmp1 = ::hx::IsNotNull( bitmap->_hx___bitmapData );
-            				}
-            				else {
-HXLINE(  61)					_hx_tmp1 = false;
-            				}
-HXDLIN(  61)				if (_hx_tmp1) {
-HXLINE(  61)					_hx_tmp = bitmap->_hx___bitmapData->_hx___isValid;
-            				}
-            				else {
-HXLINE(  61)					_hx_tmp = false;
-            				}
-HXDLIN(  61)				if (_hx_tmp) {
-HXLINE(  61)					 ::lime::graphics::cairo::Cairo cairo = renderer->cairo;
-HXDLIN(  61)					renderer->_hx___setBlendMode(bitmap->_hx___worldBlendMode);
-HXDLIN(  61)					renderer->_hx___pushMaskObject(bitmap,null());
-HXDLIN(  61)					renderer->applyMatrix(bitmap->_hx___renderTransform,cairo);
-HXDLIN(  61)					 ::Dynamic surface = bitmap->_hx___bitmapData->getSurface();
-HXDLIN(  61)					if (::hx::IsNotNull( surface )) {
-HXLINE(  61)						 ::Dynamic pattern = ::lime::graphics::cairo::_CairoPattern::CairoPattern_Impl__obj::createForSurface(surface);
-HXDLIN(  61)						int _hx_tmp;
-HXDLIN(  61)						bool _hx_tmp1;
-HXDLIN(  61)						if (renderer->_hx___allowSmoothing) {
-HXLINE(  61)							_hx_tmp1 = bitmap->smoothing;
-            						}
-            						else {
-HXLINE(  61)							_hx_tmp1 = false;
-            						}
-HXDLIN(  61)						if (_hx_tmp1) {
-HXLINE(  61)							_hx_tmp = 1;
-            						}
-            						else {
-HXLINE(  61)							_hx_tmp = 3;
-            						}
-HXDLIN(  61)						::lime::graphics::cairo::_CairoPattern::CairoPattern_Impl__obj::set_filter(pattern,_hx_tmp);
-HXDLIN(  61)						cairo->set_source(pattern);
-HXDLIN(  61)						if ((alpha == 1)) {
-HXLINE(  61)							cairo->paint();
-            						}
-            						else {
-HXLINE(  61)							cairo->paintWithAlpha(alpha);
-            						}
-            					}
-HXDLIN(  61)					renderer->_hx___popMaskObject(bitmap,null());
-HXDLIN(  61)					renderer->_hx___setBlendMode(10);
-            				}
-            			}
-            		}
-            		else {
-HXLINE(  65)			::openfl::display::_internal::CairoDisplayObject_obj::render(displayObject,renderer);
-            		}
-HXLINE(  68)		renderer->_hx___renderEvent(displayObject);
-            	}
-
-
-STATIC_HX_DEFINE_DYNAMIC_FUNC2(CairoDisplayObject_obj,renderDrawable,(void))
-
-void CairoDisplayObject_obj::renderDrawableMask( ::openfl::display::DisplayObject displayObject, ::openfl::display::CairoRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_857659711d1ff772_75_renderDrawableMask)
-HXDLIN(  75)		if (::hx::IsNotNull( displayObject->_hx___graphics )) {
-HXLINE(  77)			::openfl::display::_internal::CairoGraphics_obj::renderMask(displayObject->_hx___graphics,renderer);
-            		}
-            	}
-
-
-STATIC_HX_DEFINE_DYNAMIC_FUNC2(CairoDisplayObject_obj,renderDrawableMask,(void))
-
 
 CairoDisplayObject_obj::CairoDisplayObject_obj()
 {
@@ -225,12 +128,6 @@ bool CairoDisplayObject_obj::__GetStatic(const ::String &inName, Dynamic &outVal
 	switch(inName.length) {
 	case 6:
 		if (HX_FIELD_EQ(inName,"render") ) { outValue = render_dyn(); return true; }
-		break;
-	case 14:
-		if (HX_FIELD_EQ(inName,"renderDrawable") ) { outValue = renderDrawable_dyn(); return true; }
-		break;
-	case 18:
-		if (HX_FIELD_EQ(inName,"renderDrawableMask") ) { outValue = renderDrawableMask_dyn(); return true; }
 	}
 	return false;
 }
@@ -244,8 +141,6 @@ static ::hx::StaticInfo *CairoDisplayObject_obj_sStaticStorageInfo = 0;
 
 static ::String CairoDisplayObject_obj_sStaticFields[] = {
 	HX_("render",56,6b,29,05),
-	HX_("renderDrawable",14,59,d0,dd),
-	HX_("renderDrawableMask",20,e0,a3,66),
 	::String(null())
 };
 

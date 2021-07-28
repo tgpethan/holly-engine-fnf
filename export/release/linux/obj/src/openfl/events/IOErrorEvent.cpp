@@ -14,13 +14,13 @@
 #include <openfl/events/TextEvent.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_c1a0d6ee9eb05388_68_new,"openfl.events.IOErrorEvent","new",0x69722dc1,"openfl.events.IOErrorEvent.new","openfl/events/IOErrorEvent.hx",68,0x9ba976af)
-HX_LOCAL_STACK_FRAME(_hx_pos_c1a0d6ee9eb05388_72_clone,"openfl.events.IOErrorEvent","clone",0xfbdc4afe,"openfl.events.IOErrorEvent.clone","openfl/events/IOErrorEvent.hx",72,0x9ba976af)
-HX_LOCAL_STACK_FRAME(_hx_pos_c1a0d6ee9eb05388_82_toString,"openfl.events.IOErrorEvent","toString",0xfbbd53ab,"openfl.events.IOErrorEvent.toString","openfl/events/IOErrorEvent.hx",82,0x9ba976af)
+HX_DEFINE_STACK_FRAME(_hx_pos_c1a0d6ee9eb05388_21_new,"openfl.events.IOErrorEvent","new",0x69722dc1,"openfl.events.IOErrorEvent.new","openfl/events/IOErrorEvent.hx",21,0x9ba976af)
+HX_LOCAL_STACK_FRAME(_hx_pos_c1a0d6ee9eb05388_25_clone,"openfl.events.IOErrorEvent","clone",0xfbdc4afe,"openfl.events.IOErrorEvent.clone","openfl/events/IOErrorEvent.hx",25,0x9ba976af)
+HX_LOCAL_STACK_FRAME(_hx_pos_c1a0d6ee9eb05388_35_toString,"openfl.events.IOErrorEvent","toString",0xfbbd53ab,"openfl.events.IOErrorEvent.toString","openfl/events/IOErrorEvent.hx",35,0x9ba976af)
 static const ::String _hx_array_data_1ffe394f_3[] = {
 	HX_("type",ba,f2,08,4d),HX_("bubbles",67,bb,56,61),HX_("cancelable",14,a0,79,c4),HX_("text",ad,cc,f9,4c),HX_("errorID",a3,8d,0a,ea),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_c1a0d6ee9eb05388_37_boot,"openfl.events.IOErrorEvent","boot",0xd28edbb1,"openfl.events.IOErrorEvent.boot","openfl/events/IOErrorEvent.hx",37,0x9ba976af)
+HX_LOCAL_STACK_FRAME(_hx_pos_c1a0d6ee9eb05388_12_boot,"openfl.events.IOErrorEvent","boot",0xd28edbb1,"openfl.events.IOErrorEvent.boot","openfl/events/IOErrorEvent.hx",12,0x9ba976af)
 namespace openfl{
 namespace events{
 
@@ -30,8 +30,8 @@ void IOErrorEvent_obj::__construct(::String type,::hx::Null< bool >  __o_bubbles
             		::String text = __o_text;
             		if (::hx::IsNull(__o_text)) text = HX_("",00,00,00,00);
             		int id = __o_id.Default(0);
-            	HX_STACKFRAME(&_hx_pos_c1a0d6ee9eb05388_68_new)
-HXDLIN(  68)		super::__construct(type,bubbles,cancelable,text,id);
+            	HX_STACKFRAME(&_hx_pos_c1a0d6ee9eb05388_21_new)
+HXDLIN(  21)		super::__construct(type,bubbles,cancelable,text,id);
             	}
 
 Dynamic IOErrorEvent_obj::__CreateEmpty() { return new IOErrorEvent_obj; }
@@ -58,18 +58,18 @@ bool IOErrorEvent_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::openfl::events::Event IOErrorEvent_obj::clone(){
-            	HX_GC_STACKFRAME(&_hx_pos_c1a0d6ee9eb05388_72_clone)
-HXLINE(  73)		 ::openfl::events::IOErrorEvent event =  ::openfl::events::IOErrorEvent_obj::__alloc( HX_CTX ,this->type,this->bubbles,this->cancelable,this->text,this->errorID);
-HXLINE(  74)		event->target = this->target;
-HXLINE(  75)		event->currentTarget = this->currentTarget;
-HXLINE(  76)		event->eventPhase = this->eventPhase;
-HXLINE(  77)		return event;
+            	HX_GC_STACKFRAME(&_hx_pos_c1a0d6ee9eb05388_25_clone)
+HXLINE(  26)		 ::openfl::events::IOErrorEvent event =  ::openfl::events::IOErrorEvent_obj::__alloc( HX_CTX ,this->type,this->bubbles,this->cancelable,this->text,this->errorID);
+HXLINE(  27)		event->target = this->target;
+HXLINE(  28)		event->currentTarget = this->currentTarget;
+HXLINE(  29)		event->eventPhase = this->eventPhase;
+HXLINE(  30)		return event;
             	}
 
 
 ::String IOErrorEvent_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_c1a0d6ee9eb05388_82_toString)
-HXDLIN(  82)		return this->_hx___formatToString(HX_("IOErrorEvent",b8,16,b3,65),::Array_obj< ::String >::fromData( _hx_array_data_1ffe394f_3,5));
+            	HX_STACKFRAME(&_hx_pos_c1a0d6ee9eb05388_35_toString)
+HXDLIN(  35)		return this->_hx___formatToString(HX_("IOErrorEvent",b8,16,b3,65),::Array_obj< ::String >::fromData( _hx_array_data_1ffe394f_3,5));
             	}
 
 
@@ -166,8 +166,8 @@ void IOErrorEvent_obj::__register()
 void IOErrorEvent_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_c1a0d6ee9eb05388_37_boot)
-HXDLIN(  37)		IO_ERROR = HX_("ioError",02,fe,41,76);
+            	HX_STACKFRAME(&_hx_pos_c1a0d6ee9eb05388_12_boot)
+HXDLIN(  12)		IO_ERROR = HX_("ioError",02,fe,41,76);
             	}
 }
 

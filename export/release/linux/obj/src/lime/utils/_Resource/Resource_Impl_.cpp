@@ -11,9 +11,9 @@
 #include <lime/utils/_Resource/Resource_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_d27231b1c1450381_8__new,"lime.utils._Resource.Resource_Impl_","_new",0x38bfd04a,"lime.utils._Resource.Resource_Impl_._new","lime/utils/Resource.hx",8,0x74641db8)
-HX_LOCAL_STACK_FRAME(_hx_pos_d27231b1c1450381_15___fromString,"lime.utils._Resource.Resource_Impl_","__fromString",0x8aaaf4e4,"lime.utils._Resource.Resource_Impl_.__fromString","lime/utils/Resource.hx",15,0x74641db8)
-HX_LOCAL_STACK_FRAME(_hx_pos_d27231b1c1450381_20___toString,"lime.utils._Resource.Resource_Impl_","__toString",0x3e989375,"lime.utils._Resource.Resource_Impl_.__toString","lime/utils/Resource.hx",20,0x74641db8)
+HX_LOCAL_STACK_FRAME(_hx_pos_d27231b1c1450381_7__new,"lime.utils._Resource.Resource_Impl_","_new",0x38bfd04a,"lime.utils._Resource.Resource_Impl_._new","lime/utils/Resource.hx",7,0x74641db8)
+HX_LOCAL_STACK_FRAME(_hx_pos_d27231b1c1450381_14___fromString,"lime.utils._Resource.Resource_Impl_","__fromString",0x8aaaf4e4,"lime.utils._Resource.Resource_Impl_.__fromString","lime/utils/Resource.hx",14,0x74641db8)
+HX_LOCAL_STACK_FRAME(_hx_pos_d27231b1c1450381_19___toString,"lime.utils._Resource.Resource_Impl_","__toString",0x3e989375,"lime.utils._Resource.Resource_Impl_.__toString","lime/utils/Resource.hx",19,0x74641db8)
 namespace lime{
 namespace utils{
 namespace _Resource{
@@ -37,25 +37,25 @@ bool Resource_Impl__obj::_hx_isInstanceOf(int inClassId) {
 
  ::haxe::io::Bytes Resource_Impl__obj::_new(::hx::Null< int >  __o_size){
             		int size = __o_size.Default(0);
-            	HX_STACKFRAME(&_hx_pos_d27231b1c1450381_8__new)
-HXDLIN(   8)		 ::haxe::io::Bytes this1 = ::haxe::io::Bytes_obj::alloc(size);
-HXDLIN(   8)		return this1;
+            	HX_STACKFRAME(&_hx_pos_d27231b1c1450381_7__new)
+HXDLIN(   7)		 ::haxe::io::Bytes this1 = ::haxe::io::Bytes_obj::alloc(size);
+HXDLIN(   7)		return this1;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Resource_Impl__obj,_new,return )
 
  ::haxe::io::Bytes Resource_Impl__obj::_hx___fromString(::String value){
-            	HX_STACKFRAME(&_hx_pos_d27231b1c1450381_15___fromString)
-HXDLIN(  15)		return ::haxe::io::Bytes_obj::ofString(value,null());
+            	HX_STACKFRAME(&_hx_pos_d27231b1c1450381_14___fromString)
+HXDLIN(  14)		return ::haxe::io::Bytes_obj::ofString(value,null());
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Resource_Impl__obj,_hx___fromString,return )
 
 ::String Resource_Impl__obj::_hx___toString( ::haxe::io::Bytes value){
-            	HX_STACKFRAME(&_hx_pos_d27231b1c1450381_20___toString)
-HXDLIN(  20)		return value->toString();
+            	HX_STACKFRAME(&_hx_pos_d27231b1c1450381_19___toString)
+HXDLIN(  19)		return value->toString();
             	}
 
 

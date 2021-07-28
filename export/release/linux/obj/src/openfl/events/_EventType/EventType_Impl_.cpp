@@ -5,8 +5,8 @@
 #include <openfl/events/_EventType/EventType_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_b9f37f4a2d6a8651_21_equals,"openfl.events._EventType.EventType_Impl_","equals",0xb110b5bb,"openfl.events._EventType.EventType_Impl_.equals","openfl/events/EventType.hx",21,0xb786c821)
-HX_LOCAL_STACK_FRAME(_hx_pos_b9f37f4a2d6a8651_26_notEquals,"openfl.events._EventType.EventType_Impl_","notEquals",0xf74ad9b6,"openfl.events._EventType.EventType_Impl_.notEquals","openfl/events/EventType.hx",26,0xb786c821)
+HX_LOCAL_STACK_FRAME(_hx_pos_b9f37f4a2d6a8651_7_equals,"openfl.events._EventType.EventType_Impl_","equals",0xb110b5bb,"openfl.events._EventType.EventType_Impl_.equals","openfl/events/EventType.hx",7,0xb786c821)
+HX_LOCAL_STACK_FRAME(_hx_pos_b9f37f4a2d6a8651_12_notEquals,"openfl.events._EventType.EventType_Impl_","notEquals",0xf74ad9b6,"openfl.events._EventType.EventType_Impl_.notEquals","openfl/events/EventType.hx",12,0xb786c821)
 namespace openfl{
 namespace events{
 namespace _EventType{
@@ -29,16 +29,16 @@ bool EventType_Impl__obj::_hx_isInstanceOf(int inClassId) {
 }
 
 bool EventType_Impl__obj::equals(::String a,::String b){
-            	HX_STACKFRAME(&_hx_pos_b9f37f4a2d6a8651_21_equals)
-HXDLIN(  21)		return (a == b);
+            	HX_STACKFRAME(&_hx_pos_b9f37f4a2d6a8651_7_equals)
+HXDLIN(   7)		return (a == b);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(EventType_Impl__obj,equals,return )
 
 bool EventType_Impl__obj::notEquals(::String a,::String b){
-            	HX_STACKFRAME(&_hx_pos_b9f37f4a2d6a8651_26_notEquals)
-HXDLIN(  26)		return (a != b);
+            	HX_STACKFRAME(&_hx_pos_b9f37f4a2d6a8651_12_notEquals)
+HXDLIN(  12)		return (a != b);
             	}
 
 

@@ -11,25 +11,25 @@
 #include <openfl/ui/GameInputDevice.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_a9944c00dfbe9396_40_new,"openfl.events.GameInputEvent","new",0x8065662b,"openfl.events.GameInputEvent.new","openfl/events/GameInputEvent.hx",40,0x5318f185)
-HX_LOCAL_STACK_FRAME(_hx_pos_a9944c00dfbe9396_47_clone,"openfl.events.GameInputEvent","clone",0x205df1e8,"openfl.events.GameInputEvent.clone","openfl/events/GameInputEvent.hx",47,0x5318f185)
-HX_LOCAL_STACK_FRAME(_hx_pos_a9944c00dfbe9396_57_toString,"openfl.events.GameInputEvent","toString",0x31f35b01,"openfl.events.GameInputEvent.toString","openfl/events/GameInputEvent.hx",57,0x5318f185)
+HX_DEFINE_STACK_FRAME(_hx_pos_a9944c00dfbe9396_23_new,"openfl.events.GameInputEvent","new",0x8065662b,"openfl.events.GameInputEvent.new","openfl/events/GameInputEvent.hx",23,0x5318f185)
+HX_LOCAL_STACK_FRAME(_hx_pos_a9944c00dfbe9396_30_clone,"openfl.events.GameInputEvent","clone",0x205df1e8,"openfl.events.GameInputEvent.clone","openfl/events/GameInputEvent.hx",30,0x5318f185)
+HX_LOCAL_STACK_FRAME(_hx_pos_a9944c00dfbe9396_40_toString,"openfl.events.GameInputEvent","toString",0x31f35b01,"openfl.events.GameInputEvent.toString","openfl/events/GameInputEvent.hx",40,0x5318f185)
 static const ::String _hx_array_data_6a3e74b9_3[] = {
 	HX_("type",ba,f2,08,4d),HX_("bubbles",67,bb,56,61),HX_("cancelable",14,a0,79,c4),HX_("device",96,dc,77,71),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_a9944c00dfbe9396_61___init,"openfl.events.GameInputEvent","__init",0x183b7945,"openfl.events.GameInputEvent.__init","openfl/events/GameInputEvent.hx",61,0x5318f185)
-HX_LOCAL_STACK_FRAME(_hx_pos_a9944c00dfbe9396_19_boot,"openfl.events.GameInputEvent","boot",0xd06d0007,"openfl.events.GameInputEvent.boot","openfl/events/GameInputEvent.hx",19,0x5318f185)
-HX_LOCAL_STACK_FRAME(_hx_pos_a9944c00dfbe9396_24_boot,"openfl.events.GameInputEvent","boot",0xd06d0007,"openfl.events.GameInputEvent.boot","openfl/events/GameInputEvent.hx",24,0x5318f185)
-HX_LOCAL_STACK_FRAME(_hx_pos_a9944c00dfbe9396_29_boot,"openfl.events.GameInputEvent","boot",0xd06d0007,"openfl.events.GameInputEvent.boot","openfl/events/GameInputEvent.hx",29,0x5318f185)
+HX_LOCAL_STACK_FRAME(_hx_pos_a9944c00dfbe9396_44___init,"openfl.events.GameInputEvent","__init",0x183b7945,"openfl.events.GameInputEvent.__init","openfl/events/GameInputEvent.hx",44,0x5318f185)
+HX_LOCAL_STACK_FRAME(_hx_pos_a9944c00dfbe9396_13_boot,"openfl.events.GameInputEvent","boot",0xd06d0007,"openfl.events.GameInputEvent.boot","openfl/events/GameInputEvent.hx",13,0x5318f185)
+HX_LOCAL_STACK_FRAME(_hx_pos_a9944c00dfbe9396_14_boot,"openfl.events.GameInputEvent","boot",0xd06d0007,"openfl.events.GameInputEvent.boot","openfl/events/GameInputEvent.hx",14,0x5318f185)
+HX_LOCAL_STACK_FRAME(_hx_pos_a9944c00dfbe9396_15_boot,"openfl.events.GameInputEvent","boot",0xd06d0007,"openfl.events.GameInputEvent.boot","openfl/events/GameInputEvent.hx",15,0x5318f185)
 namespace openfl{
 namespace events{
 
 void GameInputEvent_obj::__construct(::String type,::hx::Null< bool >  __o_bubbles,::hx::Null< bool >  __o_cancelable, ::openfl::ui::GameInputDevice device){
             		bool bubbles = __o_bubbles.Default(true);
             		bool cancelable = __o_cancelable.Default(false);
-            	HX_STACKFRAME(&_hx_pos_a9944c00dfbe9396_40_new)
-HXLINE(  41)		super::__construct(type,bubbles,cancelable);
-HXLINE(  43)		this->device = device;
+            	HX_STACKFRAME(&_hx_pos_a9944c00dfbe9396_23_new)
+HXLINE(  24)		super::__construct(type,bubbles,cancelable);
+HXLINE(  26)		this->device = device;
             	}
 
 Dynamic GameInputEvent_obj::__CreateEmpty() { return new GameInputEvent_obj; }
@@ -52,25 +52,25 @@ bool GameInputEvent_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::openfl::events::Event GameInputEvent_obj::clone(){
-            	HX_GC_STACKFRAME(&_hx_pos_a9944c00dfbe9396_47_clone)
-HXLINE(  48)		 ::openfl::events::GameInputEvent event =  ::openfl::events::GameInputEvent_obj::__alloc( HX_CTX ,this->type,this->bubbles,this->cancelable,this->device);
-HXLINE(  49)		event->target = this->target;
-HXLINE(  50)		event->currentTarget = this->currentTarget;
-HXLINE(  51)		event->eventPhase = this->eventPhase;
-HXLINE(  52)		return event;
+            	HX_GC_STACKFRAME(&_hx_pos_a9944c00dfbe9396_30_clone)
+HXLINE(  31)		 ::openfl::events::GameInputEvent event =  ::openfl::events::GameInputEvent_obj::__alloc( HX_CTX ,this->type,this->bubbles,this->cancelable,this->device);
+HXLINE(  32)		event->target = this->target;
+HXLINE(  33)		event->currentTarget = this->currentTarget;
+HXLINE(  34)		event->eventPhase = this->eventPhase;
+HXLINE(  35)		return event;
             	}
 
 
 ::String GameInputEvent_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_a9944c00dfbe9396_57_toString)
-HXDLIN(  57)		return this->_hx___formatToString(HX_("GameInputEvent",62,3e,f4,2c),::Array_obj< ::String >::fromData( _hx_array_data_6a3e74b9_3,4));
+            	HX_STACKFRAME(&_hx_pos_a9944c00dfbe9396_40_toString)
+HXDLIN(  40)		return this->_hx___formatToString(HX_("GameInputEvent",62,3e,f4,2c),::Array_obj< ::String >::fromData( _hx_array_data_6a3e74b9_3,4));
             	}
 
 
 void GameInputEvent_obj::_hx___init(){
-            	HX_STACKFRAME(&_hx_pos_a9944c00dfbe9396_61___init)
-HXLINE(  62)		this->super::_hx___init();
-HXLINE(  63)		this->device = null();
+            	HX_STACKFRAME(&_hx_pos_a9944c00dfbe9396_44___init)
+HXLINE(  45)		this->super::_hx___init();
+HXLINE(  46)		this->device = null();
             	}
 
 
@@ -217,16 +217,16 @@ void GameInputEvent_obj::__register()
 void GameInputEvent_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_a9944c00dfbe9396_19_boot)
-HXDLIN(  19)		DEVICE_ADDED = HX_("deviceAdded",4a,08,84,0b);
+            	HX_STACKFRAME(&_hx_pos_a9944c00dfbe9396_13_boot)
+HXDLIN(  13)		DEVICE_ADDED = HX_("deviceAdded",4a,08,84,0b);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_a9944c00dfbe9396_24_boot)
-HXDLIN(  24)		DEVICE_REMOVED = HX_("deviceRemoved",aa,c9,5b,59);
+            	HX_STACKFRAME(&_hx_pos_a9944c00dfbe9396_14_boot)
+HXDLIN(  14)		DEVICE_REMOVED = HX_("deviceRemoved",aa,c9,5b,59);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_a9944c00dfbe9396_29_boot)
-HXDLIN(  29)		DEVICE_UNUSABLE = HX_("deviceUnusable",c7,a8,5e,6b);
+            	HX_STACKFRAME(&_hx_pos_a9944c00dfbe9396_15_boot)
+HXDLIN(  15)		DEVICE_UNUSABLE = HX_("deviceUnusable",c7,a8,5e,6b);
             	}
 }
 

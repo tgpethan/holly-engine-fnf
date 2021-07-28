@@ -5,11 +5,11 @@
 #include <openfl/display/_TriangleCulling/TriangleCulling_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_187b199ba6956423_47_fromString,"openfl.display._TriangleCulling.TriangleCulling_Impl_","fromString",0x878f171c,"openfl.display._TriangleCulling.TriangleCulling_Impl_.fromString","openfl/display/TriangleCulling.hx",47,0x58d0bba2)
-HX_LOCAL_STACK_FRAME(_hx_pos_187b199ba6956423_58_toString,"openfl.display._TriangleCulling.TriangleCulling_Impl_","toString",0x9ce137ad,"openfl.display._TriangleCulling.TriangleCulling_Impl_.toString","openfl/display/TriangleCulling.hx",58,0x58d0bba2)
-HX_LOCAL_STACK_FRAME(_hx_pos_187b199ba6956423_32_boot,"openfl.display._TriangleCulling.TriangleCulling_Impl_","boot",0x162c16b3,"openfl.display._TriangleCulling.TriangleCulling_Impl_.boot","openfl/display/TriangleCulling.hx",32,0x58d0bba2)
-HX_LOCAL_STACK_FRAME(_hx_pos_187b199ba6956423_37_boot,"openfl.display._TriangleCulling.TriangleCulling_Impl_","boot",0x162c16b3,"openfl.display._TriangleCulling.TriangleCulling_Impl_.boot","openfl/display/TriangleCulling.hx",37,0x58d0bba2)
-HX_LOCAL_STACK_FRAME(_hx_pos_187b199ba6956423_43_boot,"openfl.display._TriangleCulling.TriangleCulling_Impl_","boot",0x162c16b3,"openfl.display._TriangleCulling.TriangleCulling_Impl_.boot","openfl/display/TriangleCulling.hx",43,0x58d0bba2)
+HX_LOCAL_STACK_FRAME(_hx_pos_187b199ba6956423_13_fromString,"openfl.display._TriangleCulling.TriangleCulling_Impl_","fromString",0x878f171c,"openfl.display._TriangleCulling.TriangleCulling_Impl_.fromString","openfl/display/TriangleCulling.hx",13,0x58d0bba2)
+HX_LOCAL_STACK_FRAME(_hx_pos_187b199ba6956423_24_toString,"openfl.display._TriangleCulling.TriangleCulling_Impl_","toString",0x9ce137ad,"openfl.display._TriangleCulling.TriangleCulling_Impl_.toString","openfl/display/TriangleCulling.hx",24,0x58d0bba2)
+HX_LOCAL_STACK_FRAME(_hx_pos_187b199ba6956423_7_boot,"openfl.display._TriangleCulling.TriangleCulling_Impl_","boot",0x162c16b3,"openfl.display._TriangleCulling.TriangleCulling_Impl_.boot","openfl/display/TriangleCulling.hx",7,0x58d0bba2)
+HX_LOCAL_STACK_FRAME(_hx_pos_187b199ba6956423_8_boot,"openfl.display._TriangleCulling.TriangleCulling_Impl_","boot",0x162c16b3,"openfl.display._TriangleCulling.TriangleCulling_Impl_.boot","openfl/display/TriangleCulling.hx",8,0x58d0bba2)
+HX_LOCAL_STACK_FRAME(_hx_pos_187b199ba6956423_9_boot,"openfl.display._TriangleCulling.TriangleCulling_Impl_","boot",0x162c16b3,"openfl.display._TriangleCulling.TriangleCulling_Impl_.boot","openfl/display/TriangleCulling.hx",9,0x58d0bba2)
 namespace openfl{
 namespace display{
 namespace _TriangleCulling{
@@ -38,50 +38,50 @@ bool TriangleCulling_Impl__obj::_hx_isInstanceOf(int inClassId) {
  ::Dynamic TriangleCulling_Impl__obj::POSITIVE;
 
  ::Dynamic TriangleCulling_Impl__obj::fromString(::String value){
-            	HX_STACKFRAME(&_hx_pos_187b199ba6956423_47_fromString)
-HXDLIN(  47)		::String _hx_switch_0 = value;
+            	HX_STACKFRAME(&_hx_pos_187b199ba6956423_13_fromString)
+HXDLIN(  13)		::String _hx_switch_0 = value;
             		if (  (_hx_switch_0==HX_("negative",75,26,42,51)) ){
-HXLINE(  49)			return 0;
-HXDLIN(  49)			goto _hx_goto_0;
+HXLINE(  15)			return 0;
+HXDLIN(  15)			goto _hx_goto_0;
             		}
             		if (  (_hx_switch_0==HX_("none",b8,12,0a,49)) ){
-HXLINE(  50)			return 1;
-HXDLIN(  50)			goto _hx_goto_0;
+HXLINE(  16)			return 1;
+HXDLIN(  16)			goto _hx_goto_0;
             		}
             		if (  (_hx_switch_0==HX_("positive",b9,a6,fa,ca)) ){
-HXLINE(  51)			return 2;
-HXDLIN(  51)			goto _hx_goto_0;
+HXLINE(  17)			return 2;
+HXDLIN(  17)			goto _hx_goto_0;
             		}
             		/* default */{
-HXLINE(  52)			return null();
+HXLINE(  18)			return null();
             		}
             		_hx_goto_0:;
-HXLINE(  47)		return null();
+HXLINE(  13)		return null();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(TriangleCulling_Impl__obj,fromString,return )
 
 ::String TriangleCulling_Impl__obj::toString( ::Dynamic this1){
-            	HX_STACKFRAME(&_hx_pos_187b199ba6956423_58_toString)
-HXDLIN(  58)		 ::Dynamic _hx_switch_0 = this1;
+            	HX_STACKFRAME(&_hx_pos_187b199ba6956423_24_toString)
+HXDLIN(  24)		 ::Dynamic _hx_switch_0 = this1;
             		if (  (_hx_switch_0==0) ){
-HXLINE(  60)			return HX_("negative",75,26,42,51);
-HXDLIN(  60)			goto _hx_goto_2;
+HXLINE(  26)			return HX_("negative",75,26,42,51);
+HXDLIN(  26)			goto _hx_goto_2;
             		}
             		if (  (_hx_switch_0==1) ){
-HXLINE(  61)			return HX_("none",b8,12,0a,49);
-HXDLIN(  61)			goto _hx_goto_2;
+HXLINE(  27)			return HX_("none",b8,12,0a,49);
+HXDLIN(  27)			goto _hx_goto_2;
             		}
             		if (  (_hx_switch_0==2) ){
-HXLINE(  62)			return HX_("positive",b9,a6,fa,ca);
-HXDLIN(  62)			goto _hx_goto_2;
+HXLINE(  28)			return HX_("positive",b9,a6,fa,ca);
+HXDLIN(  28)			goto _hx_goto_2;
             		}
             		/* default */{
-HXLINE(  63)			return null();
+HXLINE(  29)			return null();
             		}
             		_hx_goto_2:;
-HXLINE(  58)		return null();
+HXLINE(  24)		return null();
             	}
 
 
@@ -170,16 +170,16 @@ void TriangleCulling_Impl__obj::__register()
 void TriangleCulling_Impl__obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_187b199ba6956423_32_boot)
-HXDLIN(  32)		NEGATIVE = 0;
+            	HX_STACKFRAME(&_hx_pos_187b199ba6956423_7_boot)
+HXDLIN(   7)		NEGATIVE = 0;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_187b199ba6956423_37_boot)
-HXDLIN(  37)		NONE = 1;
+            	HX_STACKFRAME(&_hx_pos_187b199ba6956423_8_boot)
+HXDLIN(   8)		NONE = 1;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_187b199ba6956423_43_boot)
-HXDLIN(  43)		POSITIVE = 2;
+            	HX_STACKFRAME(&_hx_pos_187b199ba6956423_9_boot)
+HXDLIN(   9)		POSITIVE = 2;
             	}
 }
 

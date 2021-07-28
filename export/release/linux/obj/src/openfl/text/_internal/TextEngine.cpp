@@ -80,14 +80,8 @@
 #ifndef INCLUDED_openfl_text_TextFormat
 #include <openfl/text/TextFormat.h>
 #endif
-#ifndef INCLUDED_openfl_text__TextFieldType_TextFieldType_Impl_
-#include <openfl/text/_TextFieldType/TextFieldType_Impl_.h>
-#endif
 #ifndef INCLUDED_openfl_text__internal_GlyphPosition
 #include <openfl/text/_internal/GlyphPosition.h>
-#endif
-#ifndef INCLUDED_openfl_text__internal_ShapeCache
-#include <openfl/text/_internal/ShapeCache.h>
 #endif
 #ifndef INCLUDED_openfl_text__internal_TextEngine
 #include <openfl/text/_internal/TextEngine.h>
@@ -105,40 +99,39 @@
 #include <sys/io/Process.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_81873a2f4b2980c0_106_new,"openfl.text._internal.TextEngine","new",0xa9ba7af6,"openfl.text._internal.TextEngine.new","openfl/text/_internal/TextEngine.hx",106,0xb85e1839)
-HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_157_createRestrictRegexp,"openfl.text._internal.TextEngine","createRestrictRegexp",0x6873dceb,"openfl.text._internal.TextEngine.createRestrictRegexp","openfl/text/_internal/TextEngine.hx",157,0xb85e1839)
-HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_152_createRestrictRegexp,"openfl.text._internal.TextEngine","createRestrictRegexp",0x6873dceb,"openfl.text._internal.TextEngine.createRestrictRegexp","openfl/text/_internal/TextEngine.hx",152,0xb85e1839)
+HX_DEFINE_STACK_FRAME(_hx_pos_81873a2f4b2980c0_105_new,"openfl.text._internal.TextEngine","new",0xa9ba7af6,"openfl.text._internal.TextEngine.new","openfl/text/_internal/TextEngine.hx",105,0xb85e1839)
+HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_155_createRestrictRegexp,"openfl.text._internal.TextEngine","createRestrictRegexp",0x6873dceb,"openfl.text._internal.TextEngine.createRestrictRegexp","openfl/text/_internal/TextEngine.hx",155,0xb85e1839)
+HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_150_createRestrictRegexp,"openfl.text._internal.TextEngine","createRestrictRegexp",0x6873dceb,"openfl.text._internal.TextEngine.createRestrictRegexp","openfl/text/_internal/TextEngine.hx",150,0xb85e1839)
 static const ::String _hx_array_data_7e808804_3[] = {
 	HX_("",00,00,00,00),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_239_getBounds,"openfl.text._internal.TextEngine","getBounds",0x3ac9cec1,"openfl.text._internal.TextEngine.getBounds","openfl/text/_internal/TextEngine.hx",239,0xb85e1839)
-HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_554_getLine,"openfl.text._internal.TextEngine","getLine",0xeb547540,"openfl.text._internal.TextEngine.getLine","openfl/text/_internal/TextEngine.hx",554,0xb85e1839)
-HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_571_getLineBreaks,"openfl.text._internal.TextEngine","getLineBreaks",0x21405c34,"openfl.text._internal.TextEngine.getLineBreaks","openfl/text/_internal/TextEngine.hx",571,0xb85e1839)
-HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_591_getLineBreakIndex,"openfl.text._internal.TextEngine","getLineBreakIndex",0xa9a1db33,"openfl.text._internal.TextEngine.getLineBreakIndex","openfl/text/_internal/TextEngine.hx",591,0xb85e1839)
-HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_601_getLineMeasurements,"openfl.text._internal.TextEngine","getLineMeasurements",0x50395657,"openfl.text._internal.TextEngine.getLineMeasurements","openfl/text/_internal/TextEngine.hx",601,0xb85e1839)
-HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_761_getLayoutGroups,"openfl.text._internal.TextEngine","getLayoutGroups",0x36de2bea,"openfl.text._internal.TextEngine.getLayoutGroups","openfl/text/_internal/TextEngine.hx",761,0xb85e1839)
-HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_1632_restrictText,"openfl.text._internal.TextEngine","restrictText",0x4d5464b3,"openfl.text._internal.TextEngine.restrictText","openfl/text/_internal/TextEngine.hx",1632,0xb85e1839)
-HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_1653_setTextAlignment,"openfl.text._internal.TextEngine","setTextAlignment",0x7bf8ff1e,"openfl.text._internal.TextEngine.setTextAlignment","openfl/text/_internal/TextEngine.hx",1653,0xb85e1839)
-HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_1760_trimText,"openfl.text._internal.TextEngine","trimText",0x8f1ce459,"openfl.text._internal.TextEngine.trimText","openfl/text/_internal/TextEngine.hx",1760,0xb85e1839)
-HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_1775_update,"openfl.text._internal.TextEngine","update",0x02cb1d33,"openfl.text._internal.TextEngine.update","openfl/text/_internal/TextEngine.hx",1775,0xb85e1839)
-HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_1808_get_bottomScrollV,"openfl.text._internal.TextEngine","get_bottomScrollV",0x0563c86b,"openfl.text._internal.TextEngine.get_bottomScrollV","openfl/text/_internal/TextEngine.hx",1808,0xb85e1839)
-HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_1839_get_maxScrollV,"openfl.text._internal.TextEngine","get_maxScrollV",0x5a4206d8,"openfl.text._internal.TextEngine.get_maxScrollV","openfl/text/_internal/TextEngine.hx",1839,0xb85e1839)
-HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_1871_set_restrict,"openfl.text._internal.TextEngine","set_restrict",0xd4c7f563,"openfl.text._internal.TextEngine.set_restrict","openfl/text/_internal/TextEngine.hx",1871,0xb85e1839)
-HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_1892_get_scrollV,"openfl.text._internal.TextEngine","get_scrollV",0x1f66c456,"openfl.text._internal.TextEngine.get_scrollV","openfl/text/_internal/TextEngine.hx",1892,0xb85e1839)
-HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_1901_set_scrollV,"openfl.text._internal.TextEngine","set_scrollV",0x29d3cb62,"openfl.text._internal.TextEngine.set_scrollV","openfl/text/_internal/TextEngine.hx",1901,0xb85e1839)
-HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_1908_set_text,"openfl.text._internal.TextEngine","set_text",0xa4cb1754,"openfl.text._internal.TextEngine.set_text","openfl/text/_internal/TextEngine.hx",1908,0xb85e1839)
-HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_178_findFont,"openfl.text._internal.TextEngine","findFont",0xc00da052,"openfl.text._internal.TextEngine.findFont","openfl/text/_internal/TextEngine.hx",178,0xb85e1839)
-HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_214_findFontVariant,"openfl.text._internal.TextEngine","findFontVariant",0x8f425653,"openfl.text._internal.TextEngine.findFontVariant","openfl/text/_internal/TextEngine.hx",214,0xb85e1839)
-HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_264_getFormatHeight,"openfl.text._internal.TextEngine","getFormatHeight",0x3ed257ca,"openfl.text._internal.TextEngine.getFormatHeight","openfl/text/_internal/TextEngine.hx",264,0xb85e1839)
-HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_300_getFont,"openfl.text._internal.TextEngine","getFont",0xe761bb1b,"openfl.text._internal.TextEngine.getFont","openfl/text/_internal/TextEngine.hx",300,0xb85e1839)
-HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_357_getFontInstance,"openfl.text._internal.TextEngine","getFontInstance",0x7b1da9d0,"openfl.text._internal.TextEngine.getFontInstance","openfl/text/_internal/TextEngine.hx",357,0xb85e1839)
-static const ::String _hx_array_data_7e808804_144[] = {
+HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_237_getBounds,"openfl.text._internal.TextEngine","getBounds",0x3ac9cec1,"openfl.text._internal.TextEngine.getBounds","openfl/text/_internal/TextEngine.hx",237,0xb85e1839)
+HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_552_getLine,"openfl.text._internal.TextEngine","getLine",0xeb547540,"openfl.text._internal.TextEngine.getLine","openfl/text/_internal/TextEngine.hx",552,0xb85e1839)
+HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_569_getLineBreakIndex,"openfl.text._internal.TextEngine","getLineBreakIndex",0xa9a1db33,"openfl.text._internal.TextEngine.getLineBreakIndex","openfl/text/_internal/TextEngine.hx",569,0xb85e1839)
+HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_579_getLineMeasurements,"openfl.text._internal.TextEngine","getLineMeasurements",0x50395657,"openfl.text._internal.TextEngine.getLineMeasurements","openfl/text/_internal/TextEngine.hx",579,0xb85e1839)
+HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_739_getLayoutGroups,"openfl.text._internal.TextEngine","getLayoutGroups",0x36de2bea,"openfl.text._internal.TextEngine.getLayoutGroups","openfl/text/_internal/TextEngine.hx",739,0xb85e1839)
+HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_1605_restrictText,"openfl.text._internal.TextEngine","restrictText",0x4d5464b3,"openfl.text._internal.TextEngine.restrictText","openfl/text/_internal/TextEngine.hx",1605,0xb85e1839)
+HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_1626_setTextAlignment,"openfl.text._internal.TextEngine","setTextAlignment",0x7bf8ff1e,"openfl.text._internal.TextEngine.setTextAlignment","openfl/text/_internal/TextEngine.hx",1626,0xb85e1839)
+HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_1733_trimText,"openfl.text._internal.TextEngine","trimText",0x8f1ce459,"openfl.text._internal.TextEngine.trimText","openfl/text/_internal/TextEngine.hx",1733,0xb85e1839)
+HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_1748_update,"openfl.text._internal.TextEngine","update",0x02cb1d33,"openfl.text._internal.TextEngine.update","openfl/text/_internal/TextEngine.hx",1748,0xb85e1839)
+HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_1780_get_bottomScrollV,"openfl.text._internal.TextEngine","get_bottomScrollV",0x0563c86b,"openfl.text._internal.TextEngine.get_bottomScrollV","openfl/text/_internal/TextEngine.hx",1780,0xb85e1839)
+HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_1810_get_maxScrollV,"openfl.text._internal.TextEngine","get_maxScrollV",0x5a4206d8,"openfl.text._internal.TextEngine.get_maxScrollV","openfl/text/_internal/TextEngine.hx",1810,0xb85e1839)
+HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_1843_set_restrict,"openfl.text._internal.TextEngine","set_restrict",0xd4c7f563,"openfl.text._internal.TextEngine.set_restrict","openfl/text/_internal/TextEngine.hx",1843,0xb85e1839)
+HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_1864_get_scrollV,"openfl.text._internal.TextEngine","get_scrollV",0x1f66c456,"openfl.text._internal.TextEngine.get_scrollV","openfl/text/_internal/TextEngine.hx",1864,0xb85e1839)
+HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_1873_set_scrollV,"openfl.text._internal.TextEngine","set_scrollV",0x29d3cb62,"openfl.text._internal.TextEngine.set_scrollV","openfl/text/_internal/TextEngine.hx",1873,0xb85e1839)
+HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_1880_set_text,"openfl.text._internal.TextEngine","set_text",0xa4cb1754,"openfl.text._internal.TextEngine.set_text","openfl/text/_internal/TextEngine.hx",1880,0xb85e1839)
+HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_176_findFont,"openfl.text._internal.TextEngine","findFont",0xc00da052,"openfl.text._internal.TextEngine.findFont","openfl/text/_internal/TextEngine.hx",176,0xb85e1839)
+HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_212_findFontVariant,"openfl.text._internal.TextEngine","findFontVariant",0x8f425653,"openfl.text._internal.TextEngine.findFontVariant","openfl/text/_internal/TextEngine.hx",212,0xb85e1839)
+HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_262_getFormatHeight,"openfl.text._internal.TextEngine","getFormatHeight",0x3ed257ca,"openfl.text._internal.TextEngine.getFormatHeight","openfl/text/_internal/TextEngine.hx",262,0xb85e1839)
+HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_298_getFont,"openfl.text._internal.TextEngine","getFont",0xe761bb1b,"openfl.text._internal.TextEngine.getFont","openfl/text/_internal/TextEngine.hx",298,0xb85e1839)
+HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_355_getFontInstance,"openfl.text._internal.TextEngine","getFontInstance",0x7b1da9d0,"openfl.text._internal.TextEngine.getFontInstance","openfl/text/_internal/TextEngine.hx",355,0xb85e1839)
+static const ::String _hx_array_data_7e808804_139[] = {
 	HX_("sans",53,84,4d,4c),HX_("-f%{file}",92,57,a1,0f),
 };
-static const ::String _hx_array_data_7e808804_145[] = {
+static const ::String _hx_array_data_7e808804_140[] = {
 	HX_("mono",23,dc,60,48),HX_("-f%{file}",92,57,a1,0f),
 };
-static const ::String _hx_array_data_7e808804_146[] = {
+static const ::String _hx_array_data_7e808804_141[] = {
 	HX_("serif",7d,1f,2e,7a),HX_("-f%{file}",92,57,a1,0f),
 };
 HX_LOCAL_STACK_FRAME(_hx_pos_81873a2f4b2980c0_34_boot,"openfl.text._internal.TextEngine","boot",0xd18a1cdc,"openfl.text._internal.TextEngine.boot","openfl/text/_internal/TextEngine.hx",34,0xb85e1839)
@@ -153,62 +146,61 @@ namespace text{
 namespace _internal{
 
 void TextEngine_obj::__construct( ::openfl::text::TextField textField){
-            	HX_GC_STACKFRAME(&_hx_pos_81873a2f4b2980c0_106_new)
-HXLINE( 107)		this->_hx___shapeCache =  ::openfl::text::_internal::ShapeCache_obj::__alloc( HX_CTX );
-HXLINE( 108)		this->textField = textField;
-HXLINE( 110)		this->width = ( (Float)(100) );
-HXLINE( 111)		this->height = ( (Float)(100) );
-HXLINE( 112)		this->set_text(HX_("",00,00,00,00));
-HXLINE( 114)		this->bounds =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,0,0,0,0);
-HXLINE( 115)		this->textBounds =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,0,0,0,0);
-HXLINE( 117)		this->type = 0;
-HXLINE( 118)		this->autoSize = 2;
-HXLINE( 119)		this->embedFonts = false;
-HXLINE( 120)		this->selectable = true;
-HXLINE( 121)		this->borderColor = 0;
-HXLINE( 122)		this->border = false;
-HXLINE( 123)		this->backgroundColor = 16777215;
-HXLINE( 124)		this->background = false;
-HXLINE( 125)		this->gridFitType = 1;
-HXLINE( 126)		this->maxChars = 0;
-HXLINE( 127)		this->multiline = false;
-HXLINE( 128)		this->numLines = 1;
-HXLINE( 129)		this->sharpness = ( (Float)(0) );
-HXLINE( 130)		this->scrollH = 0;
-HXLINE( 131)		this->set_scrollV(1);
-HXLINE( 132)		this->wordWrap = false;
-HXLINE( 134)		int length = null();
-HXDLIN( 134)		bool fixed = null();
-HXDLIN( 134)		::Array< Float > array = null();
-HXDLIN( 134)		this->lineAscents =  ::openfl::_Vector::FloatVector_obj::__alloc( HX_CTX ,length,fixed,array,true);
-HXLINE( 135)		int length1 = null();
-HXDLIN( 135)		bool fixed1 = null();
-HXDLIN( 135)		::Array< int > array1 = null();
-HXDLIN( 135)		this->lineBreaks =  ::openfl::_Vector::IntVector_obj::__alloc( HX_CTX ,length1,fixed1,array1);
-HXLINE( 136)		int length2 = null();
-HXDLIN( 136)		bool fixed2 = null();
-HXDLIN( 136)		::Array< Float > array2 = null();
-HXDLIN( 136)		this->lineDescents =  ::openfl::_Vector::FloatVector_obj::__alloc( HX_CTX ,length2,fixed2,array2,true);
-HXLINE( 137)		int length3 = null();
-HXDLIN( 137)		bool fixed3 = null();
-HXDLIN( 137)		::Array< Float > array3 = null();
-HXDLIN( 137)		this->lineLeadings =  ::openfl::_Vector::FloatVector_obj::__alloc( HX_CTX ,length3,fixed3,array3,true);
-HXLINE( 138)		int length4 = null();
-HXDLIN( 138)		bool fixed4 = null();
-HXDLIN( 138)		::Array< Float > array4 = null();
-HXDLIN( 138)		this->lineHeights =  ::openfl::_Vector::FloatVector_obj::__alloc( HX_CTX ,length4,fixed4,array4,true);
-HXLINE( 139)		int length5 = null();
-HXDLIN( 139)		bool fixed5 = null();
-HXDLIN( 139)		::Array< Float > array5 = null();
-HXDLIN( 139)		this->lineWidths =  ::openfl::_Vector::FloatVector_obj::__alloc( HX_CTX ,length5,fixed5,array5,true);
-HXLINE( 140)		int length6 = null();
-HXDLIN( 140)		bool fixed6 = null();
-HXDLIN( 140)		::Array< ::Dynamic> array6 = null();
-HXDLIN( 140)		this->layoutGroups =  ::openfl::_Vector::ObjectVector_obj::__alloc( HX_CTX ,length6,fixed6,array6,true);
-HXLINE( 141)		int length7 = null();
-HXDLIN( 141)		bool fixed7 = null();
-HXDLIN( 141)		::Array< ::Dynamic> array7 = null();
-HXDLIN( 141)		this->textFormatRanges =  ::openfl::_Vector::ObjectVector_obj::__alloc( HX_CTX ,length7,fixed7,array7,true);
+            	HX_GC_STACKFRAME(&_hx_pos_81873a2f4b2980c0_105_new)
+HXLINE( 106)		this->textField = textField;
+HXLINE( 108)		this->width = ( (Float)(100) );
+HXLINE( 109)		this->height = ( (Float)(100) );
+HXLINE( 110)		this->set_text(HX_("",00,00,00,00));
+HXLINE( 112)		this->bounds =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,0,0,0,0);
+HXLINE( 113)		this->textBounds =  ::openfl::geom::Rectangle_obj::__alloc( HX_CTX ,0,0,0,0);
+HXLINE( 115)		this->type = 0;
+HXLINE( 116)		this->autoSize = 2;
+HXLINE( 117)		this->embedFonts = false;
+HXLINE( 118)		this->selectable = true;
+HXLINE( 119)		this->borderColor = 0;
+HXLINE( 120)		this->border = false;
+HXLINE( 121)		this->backgroundColor = 16777215;
+HXLINE( 122)		this->background = false;
+HXLINE( 123)		this->gridFitType = 1;
+HXLINE( 124)		this->maxChars = 0;
+HXLINE( 125)		this->multiline = false;
+HXLINE( 126)		this->numLines = 1;
+HXLINE( 127)		this->sharpness = ( (Float)(0) );
+HXLINE( 128)		this->scrollH = 0;
+HXLINE( 129)		this->set_scrollV(1);
+HXLINE( 130)		this->wordWrap = false;
+HXLINE( 132)		int length = null();
+HXDLIN( 132)		bool fixed = null();
+HXDLIN( 132)		::Array< Float > array = null();
+HXDLIN( 132)		this->lineAscents =  ::openfl::_Vector::FloatVector_obj::__alloc( HX_CTX ,length,fixed,array,true);
+HXLINE( 133)		int length1 = null();
+HXDLIN( 133)		bool fixed1 = null();
+HXDLIN( 133)		::Array< int > array1 = null();
+HXDLIN( 133)		this->lineBreaks =  ::openfl::_Vector::IntVector_obj::__alloc( HX_CTX ,length1,fixed1,array1);
+HXLINE( 134)		int length2 = null();
+HXDLIN( 134)		bool fixed2 = null();
+HXDLIN( 134)		::Array< Float > array2 = null();
+HXDLIN( 134)		this->lineDescents =  ::openfl::_Vector::FloatVector_obj::__alloc( HX_CTX ,length2,fixed2,array2,true);
+HXLINE( 135)		int length3 = null();
+HXDLIN( 135)		bool fixed3 = null();
+HXDLIN( 135)		::Array< Float > array3 = null();
+HXDLIN( 135)		this->lineLeadings =  ::openfl::_Vector::FloatVector_obj::__alloc( HX_CTX ,length3,fixed3,array3,true);
+HXLINE( 136)		int length4 = null();
+HXDLIN( 136)		bool fixed4 = null();
+HXDLIN( 136)		::Array< Float > array4 = null();
+HXDLIN( 136)		this->lineHeights =  ::openfl::_Vector::FloatVector_obj::__alloc( HX_CTX ,length4,fixed4,array4,true);
+HXLINE( 137)		int length5 = null();
+HXDLIN( 137)		bool fixed5 = null();
+HXDLIN( 137)		::Array< Float > array5 = null();
+HXDLIN( 137)		this->lineWidths =  ::openfl::_Vector::FloatVector_obj::__alloc( HX_CTX ,length5,fixed5,array5,true);
+HXLINE( 138)		int length6 = null();
+HXDLIN( 138)		bool fixed6 = null();
+HXDLIN( 138)		::Array< ::Dynamic> array6 = null();
+HXDLIN( 138)		this->layoutGroups =  ::openfl::_Vector::ObjectVector_obj::__alloc( HX_CTX ,length6,fixed6,array6,true);
+HXLINE( 139)		int length7 = null();
+HXDLIN( 139)		bool fixed7 = null();
+HXDLIN( 139)		::Array< ::Dynamic> array7 = null();
+HXDLIN( 139)		this->textFormatRanges =  ::openfl::_Vector::ObjectVector_obj::__alloc( HX_CTX ,length7,fixed7,array7,true);
             	}
 
 Dynamic TextEngine_obj::__CreateEmpty() { return new TextEngine_obj; }
@@ -229,324 +221,291 @@ bool TextEngine_obj::_hx_isInstanceOf(int inClassId) {
  ::EReg TextEngine_obj::createRestrictRegexp(::String restrict){
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0,::Array< ::String >,declined) HXARGC(1)
             		::String _hx_run( ::EReg ereg){
-            			HX_GC_STACKFRAME(&_hx_pos_81873a2f4b2980c0_157_createRestrictRegexp)
-HXLINE( 158)			::Array< ::String > declined1 = declined;
-HXDLIN( 158)			int accepted = 0;
-HXDLIN( 158)			::String declined2 = declined1->__get(accepted);
-HXDLIN( 158)			declined1[accepted] = (declined2 + ereg->matched(1));
-HXLINE( 159)			return HX_("",00,00,00,00);
+            			HX_GC_STACKFRAME(&_hx_pos_81873a2f4b2980c0_155_createRestrictRegexp)
+HXLINE( 156)			::Array< ::String > declined1 = declined;
+HXDLIN( 156)			int accepted = 0;
+HXDLIN( 156)			::String declined2 = declined1->__get(accepted);
+HXDLIN( 156)			declined1[accepted] = (declined2 + ereg->matched(1));
+HXLINE( 157)			return HX_("",00,00,00,00);
             		}
             		HX_END_LOCAL_FUNC1(return)
 
-            	HX_GC_STACKFRAME(&_hx_pos_81873a2f4b2980c0_152_createRestrictRegexp)
-HXLINE( 153)		 ::EReg declinedRange =  ::EReg_obj::__alloc( HX_CTX ,HX_("\\^(.-.|.)",ee,f5,da,ba),HX_("gu",2e,5a,00,00));
-HXLINE( 154)		::Array< ::String > declined = ::Array_obj< ::String >::fromData( _hx_array_data_7e808804_3,1);
-HXLINE( 156)		::String accepted = declinedRange->map(restrict, ::Dynamic(new _hx_Closure_0(declined)));
-HXLINE( 162)		::Array< ::String > testRegexpParts = ::Array_obj< ::String >::__new(0);
-HXLINE( 164)		if ((accepted.length > 0)) {
-HXLINE( 166)			testRegexpParts->push(((HX_("[^",a3,4f,00,00) + restrict) + HX_("]",5d,00,00,00)));
+            	HX_GC_STACKFRAME(&_hx_pos_81873a2f4b2980c0_150_createRestrictRegexp)
+HXLINE( 151)		 ::EReg declinedRange =  ::EReg_obj::__alloc( HX_CTX ,HX_("\\^(.-.|.)",ee,f5,da,ba),HX_("gu",2e,5a,00,00));
+HXLINE( 152)		::Array< ::String > declined = ::Array_obj< ::String >::fromData( _hx_array_data_7e808804_3,1);
+HXLINE( 154)		::String accepted = declinedRange->map(restrict, ::Dynamic(new _hx_Closure_0(declined)));
+HXLINE( 160)		::Array< ::String > testRegexpParts = ::Array_obj< ::String >::__new(0);
+HXLINE( 162)		if ((accepted.length > 0)) {
+HXLINE( 164)			testRegexpParts->push(((HX_("[^",a3,4f,00,00) + restrict) + HX_("]",5d,00,00,00)));
             		}
-HXLINE( 169)		if ((declined->__get(0).length > 0)) {
-HXLINE( 171)			testRegexpParts->push(((HX_("[",5b,00,00,00) + declined->__get(0)) + HX_("]",5d,00,00,00)));
+HXLINE( 167)		if ((declined->__get(0).length > 0)) {
+HXLINE( 169)			testRegexpParts->push(((HX_("[",5b,00,00,00) + declined->__get(0)) + HX_("]",5d,00,00,00)));
             		}
-HXLINE( 174)		return  ::EReg_obj::__alloc( HX_CTX ,((HX_("(",28,00,00,00) + testRegexpParts->join(HX_("|",7c,00,00,00))) + HX_(")",29,00,00,00)),HX_("g",67,00,00,00));
+HXLINE( 172)		return  ::EReg_obj::__alloc( HX_CTX ,((HX_("(",28,00,00,00) + testRegexpParts->join(HX_("|",7c,00,00,00))) + HX_(")",29,00,00,00)),HX_("g",67,00,00,00));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextEngine_obj,createRestrictRegexp,return )
 
 void TextEngine_obj::getBounds(){
-            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_239_getBounds)
-HXLINE( 240)		int padding;
-HXDLIN( 240)		if (this->border) {
-HXLINE( 240)			padding = 1;
+            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_237_getBounds)
+HXLINE( 238)		int padding;
+HXDLIN( 238)		if (this->border) {
+HXLINE( 238)			padding = 1;
             		}
             		else {
-HXLINE( 240)			padding = 0;
+HXLINE( 238)			padding = 0;
             		}
-HXLINE( 242)		this->bounds->width = (this->width + padding);
-HXLINE( 243)		this->bounds->height = (this->height + padding);
-HXLINE( 245)		Float x = this->width;
-HXDLIN( 245)		Float y = this->width;
-HXLINE( 247)		{
-HXLINE( 247)			 ::Dynamic group = this->layoutGroups->iterator();
-HXDLIN( 247)			while(( (bool)(group->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE( 247)				 ::openfl::text::_internal::TextLayoutGroup group1 = ( ( ::openfl::text::_internal::TextLayoutGroup)(group->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE( 249)				if ((group1->offsetX < x)) {
-HXLINE( 249)					x = group1->offsetX;
+HXLINE( 240)		this->bounds->width = (this->width + padding);
+HXLINE( 241)		this->bounds->height = (this->height + padding);
+HXLINE( 243)		Float x = this->width;
+HXDLIN( 243)		Float y = this->width;
+HXLINE( 245)		{
+HXLINE( 245)			 ::Dynamic group = this->layoutGroups->iterator();
+HXDLIN( 245)			while(( (bool)(group->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE( 245)				 ::openfl::text::_internal::TextLayoutGroup group1 = ( ( ::openfl::text::_internal::TextLayoutGroup)(group->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE( 247)				if ((group1->offsetX < x)) {
+HXLINE( 247)					x = group1->offsetX;
             				}
-HXLINE( 250)				if ((group1->offsetY < y)) {
-HXLINE( 250)					y = group1->offsetY;
+HXLINE( 248)				if ((group1->offsetY < y)) {
+HXLINE( 248)					y = group1->offsetY;
             				}
             			}
             		}
-HXLINE( 253)		if ((x >= this->width)) {
-HXLINE( 253)			x = ( (Float)(2) );
+HXLINE( 251)		if ((x >= this->width)) {
+HXLINE( 251)			x = ( (Float)(2) );
             		}
-HXLINE( 254)		if ((y >= this->height)) {
-HXLINE( 254)			y = ( (Float)(2) );
+HXLINE( 252)		if ((y >= this->height)) {
+HXLINE( 252)			y = ( (Float)(2) );
             		}
-HXLINE( 260)		this->textBounds->setTo(::Math_obj::max((x - ( (Float)(2) )),( (Float)(0) )),::Math_obj::max((y - ( (Float)(2) )),( (Float)(0) )),::Math_obj::min((this->textWidth + 4),(this->bounds->width + 4)),::Math_obj::min((this->textHeight + 4),(this->bounds->height + 4)));
+HXLINE( 258)		this->textBounds->setTo(::Math_obj::max((x - ( (Float)(2) )),( (Float)(0) )),::Math_obj::max((y - ( (Float)(2) )),( (Float)(0) )),::Math_obj::min((this->textWidth + 4),(this->bounds->width + 4)),::Math_obj::min((this->textHeight + 4),(this->bounds->height + 4)));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextEngine_obj,getBounds,(void))
 
 ::String TextEngine_obj::getLine(int index){
-            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_554_getLine)
-HXLINE( 555)		bool _hx_tmp;
-HXDLIN( 555)		if ((index >= 0)) {
-HXLINE( 555)			_hx_tmp = (index > (this->lineBreaks->get_length() + 1));
+            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_552_getLine)
+HXLINE( 553)		bool _hx_tmp;
+HXDLIN( 553)		if ((index >= 0)) {
+HXLINE( 553)			_hx_tmp = (index > (this->lineBreaks->get_length() + 1));
             		}
             		else {
-HXLINE( 555)			_hx_tmp = true;
+HXLINE( 553)			_hx_tmp = true;
             		}
-HXDLIN( 555)		if (_hx_tmp) {
-HXLINE( 557)			return null();
+HXDLIN( 553)		if (_hx_tmp) {
+HXLINE( 555)			return null();
             		}
-HXLINE( 560)		if ((this->lineBreaks->get_length() == 0)) {
-HXLINE( 562)			return this->text;
+HXLINE( 558)		if ((this->lineBreaks->get_length() == 0)) {
+HXLINE( 560)			return this->text;
             		}
             		else {
-HXLINE( 566)			::String _hx_tmp = this->text;
-HXDLIN( 566)			int _hx_tmp1;
-HXDLIN( 566)			if ((index > 0)) {
-HXLINE( 566)				_hx_tmp1 = this->lineBreaks->get((index - 1));
+HXLINE( 564)			::String _hx_tmp = this->text;
+HXDLIN( 564)			int _hx_tmp1;
+HXDLIN( 564)			if ((index > 0)) {
+HXLINE( 564)				_hx_tmp1 = this->lineBreaks->get((index - 1));
             			}
             			else {
-HXLINE( 566)				_hx_tmp1 = 0;
+HXLINE( 564)				_hx_tmp1 = 0;
             			}
-HXDLIN( 566)			return _hx_tmp.substring(_hx_tmp1,this->lineBreaks->get(index));
+HXDLIN( 564)			return _hx_tmp.substring(_hx_tmp1,this->lineBreaks->get(index));
             		}
-HXLINE( 560)		return null();
+HXLINE( 558)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextEngine_obj,getLine,return )
 
-void TextEngine_obj::getLineBreaks(){
-            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_571_getLineBreaks)
-HXLINE( 572)		this->lineBreaks->set_length(0);
-HXLINE( 574)		int index = -1;
-HXLINE( 576)		int cr = -1;
-HXDLIN( 576)		int lf = -1;
-HXLINE( 577)		while((index < this->text.length)){
-HXLINE( 579)			lf = this->text.indexOf(HX_("\n",0a,00,00,00),(index + 1));
-HXLINE( 580)			cr = this->text.indexOf(HX_("\r",0d,00,00,00),(index + 1));
-HXLINE( 582)			if ((cr == -1)) {
-HXLINE( 582)				index = lf;
-            			}
-            			else {
-HXLINE( 582)				if ((lf == -1)) {
-HXLINE( 582)					index = cr;
-            				}
-            				else {
-HXLINE( 582)					if ((cr < lf)) {
-HXLINE( 582)						index = cr;
-            					}
-            					else {
-HXLINE( 582)						index = lf;
-            					}
-            				}
-            			}
-HXLINE( 584)			if ((index > -1)) {
-HXLINE( 584)				this->lineBreaks->push(index);
-            			}
-            			else {
-HXLINE( 586)				goto _hx_goto_7;
-            			}
-            		}
-            		_hx_goto_7:;
-            	}
-
-
-HX_DEFINE_DYNAMIC_FUNC0(TextEngine_obj,getLineBreaks,(void))
-
 int TextEngine_obj::getLineBreakIndex(::hx::Null< int >  __o_startIndex){
             		int startIndex = __o_startIndex.Default(0);
-            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_591_getLineBreakIndex)
-HXLINE( 592)		{
-HXLINE( 592)			 ::Dynamic lineBreak = this->lineBreaks->iterator();
-HXDLIN( 592)			while(( (bool)(lineBreak->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE( 592)				int lineBreak1 = ( (int)(lineBreak->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE( 594)				if ((lineBreak1 >= startIndex)) {
-HXLINE( 594)					return lineBreak1;
-            				}
-            			}
+            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_569_getLineBreakIndex)
+HXLINE( 570)		int cr = this->text.indexOf(HX_("\n",0a,00,00,00),startIndex);
+HXLINE( 571)		int lf = this->text.indexOf(HX_("\r",0d,00,00,00),startIndex);
+HXLINE( 573)		if ((cr == -1)) {
+HXLINE( 573)			return lf;
             		}
-HXLINE( 597)		return -1;
+HXLINE( 574)		if ((lf == -1)) {
+HXLINE( 574)			return cr;
+            		}
+HXLINE( 575)		if ((cr < lf)) {
+HXLINE( 575)			return cr;
+            		}
+            		else {
+HXLINE( 575)			return lf;
+            		}
+HXDLIN( 575)		return 0;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextEngine_obj,getLineBreakIndex,return )
 
 void TextEngine_obj::getLineMeasurements(){
-            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_601_getLineMeasurements)
-HXLINE( 602)		this->lineAscents->set_length(0);
-HXLINE( 603)		this->lineDescents->set_length(0);
-HXLINE( 604)		this->lineLeadings->set_length(0);
-HXLINE( 605)		this->lineHeights->set_length(0);
-HXLINE( 606)		this->lineWidths->set_length(0);
-HXLINE( 608)		Float currentLineAscent = ((Float)0.0);
-HXLINE( 609)		Float currentLineDescent = ((Float)0.0);
-HXLINE( 610)		 ::Dynamic currentLineLeading = null();
-HXLINE( 611)		Float currentLineHeight = ((Float)0.0);
-HXLINE( 612)		Float currentLineWidth = ((Float)0.0);
-HXLINE( 613)		Float currentTextHeight = ((Float)0.0);
-HXLINE( 615)		this->textWidth = ( (Float)(0) );
-HXLINE( 616)		this->textHeight = ( (Float)(0) );
-HXLINE( 617)		this->numLines = 1;
-HXLINE( 618)		this->maxScrollH = 0;
-HXLINE( 620)		{
-HXLINE( 620)			 ::Dynamic group = this->layoutGroups->iterator();
-HXDLIN( 620)			while(( (bool)(group->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE( 620)				 ::openfl::text::_internal::TextLayoutGroup group1 = ( ( ::openfl::text::_internal::TextLayoutGroup)(group->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE( 622)				while((group1->lineIndex > (this->numLines - 1))){
-HXLINE( 624)					this->lineAscents->push(currentLineAscent);
-HXLINE( 625)					this->lineDescents->push(currentLineDescent);
-HXLINE( 626)					{
-HXLINE( 626)						Float _hx_tmp;
-HXDLIN( 626)						if (::hx::IsNotNull( currentLineLeading )) {
-HXLINE( 626)							_hx_tmp = ( (Float)(currentLineLeading) );
+            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_579_getLineMeasurements)
+HXLINE( 580)		this->lineAscents->set_length(0);
+HXLINE( 581)		this->lineDescents->set_length(0);
+HXLINE( 582)		this->lineLeadings->set_length(0);
+HXLINE( 583)		this->lineHeights->set_length(0);
+HXLINE( 584)		this->lineWidths->set_length(0);
+HXLINE( 586)		Float currentLineAscent = ((Float)0.0);
+HXLINE( 587)		Float currentLineDescent = ((Float)0.0);
+HXLINE( 588)		 ::Dynamic currentLineLeading = null();
+HXLINE( 589)		Float currentLineHeight = ((Float)0.0);
+HXLINE( 590)		Float currentLineWidth = ((Float)0.0);
+HXLINE( 591)		Float currentTextHeight = ((Float)0.0);
+HXLINE( 593)		this->textWidth = ( (Float)(0) );
+HXLINE( 594)		this->textHeight = ( (Float)(0) );
+HXLINE( 595)		this->numLines = 1;
+HXLINE( 596)		this->maxScrollH = 0;
+HXLINE( 598)		{
+HXLINE( 598)			 ::Dynamic group = this->layoutGroups->iterator();
+HXDLIN( 598)			while(( (bool)(group->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE( 598)				 ::openfl::text::_internal::TextLayoutGroup group1 = ( ( ::openfl::text::_internal::TextLayoutGroup)(group->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE( 600)				while((group1->lineIndex > (this->numLines - 1))){
+HXLINE( 602)					this->lineAscents->push(currentLineAscent);
+HXLINE( 603)					this->lineDescents->push(currentLineDescent);
+HXLINE( 604)					{
+HXLINE( 604)						Float _hx_tmp;
+HXDLIN( 604)						if (::hx::IsNotNull( currentLineLeading )) {
+HXLINE( 604)							_hx_tmp = ( (Float)(currentLineLeading) );
             						}
             						else {
-HXLINE( 626)							_hx_tmp = ( (Float)(0) );
+HXLINE( 604)							_hx_tmp = ( (Float)(0) );
             						}
-HXDLIN( 626)						this->lineLeadings->push(_hx_tmp);
+HXDLIN( 604)						this->lineLeadings->push(_hx_tmp);
             					}
-HXLINE( 627)					this->lineHeights->push(currentLineHeight);
-HXLINE( 628)					this->lineWidths->push(currentLineWidth);
-HXLINE( 630)					currentLineAscent = ( (Float)(0) );
-HXLINE( 631)					currentLineDescent = ( (Float)(0) );
-HXLINE( 632)					currentLineLeading = null();
-HXLINE( 633)					currentLineHeight = ( (Float)(0) );
-HXLINE( 634)					currentLineWidth = ( (Float)(0) );
-HXLINE( 636)					this->numLines++;
+HXLINE( 605)					this->lineHeights->push(currentLineHeight);
+HXLINE( 606)					this->lineWidths->push(currentLineWidth);
+HXLINE( 608)					currentLineAscent = ( (Float)(0) );
+HXLINE( 609)					currentLineDescent = ( (Float)(0) );
+HXLINE( 610)					currentLineLeading = null();
+HXLINE( 611)					currentLineHeight = ( (Float)(0) );
+HXLINE( 612)					currentLineWidth = ( (Float)(0) );
+HXLINE( 614)					this->numLines++;
             				}
-HXLINE( 639)				currentLineAscent = ::Math_obj::max(currentLineAscent,group1->ascent);
-HXLINE( 640)				currentLineDescent = ::Math_obj::max(currentLineDescent,group1->descent);
-HXLINE( 642)				if (::hx::IsNull( currentLineLeading )) {
-HXLINE( 644)					currentLineLeading = group1->leading;
+HXLINE( 617)				currentLineAscent = ::Math_obj::max(currentLineAscent,group1->ascent);
+HXLINE( 618)				currentLineDescent = ::Math_obj::max(currentLineDescent,group1->descent);
+HXLINE( 620)				if (::hx::IsNull( currentLineLeading )) {
+HXLINE( 622)					currentLineLeading = group1->leading;
             				}
             				else {
-HXLINE( 648)					currentLineLeading = ::Std_obj::_hx_int(::Math_obj::max(( (Float)(currentLineLeading) ),( (Float)(group1->leading) )));
+HXLINE( 626)					currentLineLeading = ::Std_obj::_hx_int(::Math_obj::max(( (Float)(currentLineLeading) ),( (Float)(group1->leading) )));
             				}
-HXLINE( 651)				currentLineHeight = ::Math_obj::max(currentLineHeight,group1->height);
-HXLINE( 652)				currentLineWidth = ((group1->offsetX - ( (Float)(2) )) + group1->width);
-HXLINE( 654)				if ((currentLineWidth > this->textWidth)) {
-HXLINE( 656)					this->textWidth = currentLineWidth;
+HXLINE( 629)				currentLineHeight = ::Math_obj::max(currentLineHeight,group1->height);
+HXLINE( 630)				currentLineWidth = ((group1->offsetX - ( (Float)(2) )) + group1->width);
+HXLINE( 632)				if ((currentLineWidth > this->textWidth)) {
+HXLINE( 634)					this->textWidth = currentLineWidth;
             				}
-HXLINE( 659)				currentTextHeight = (((group1->offsetY - ( (Float)(2) )) + group1->ascent) + group1->descent);
-HXLINE( 661)				if ((currentTextHeight > this->textHeight)) {
-HXLINE( 663)					this->textHeight = currentTextHeight;
+HXLINE( 637)				currentTextHeight = (((group1->offsetY - ( (Float)(2) )) + group1->ascent) + group1->descent);
+HXLINE( 639)				if ((currentTextHeight > this->textHeight)) {
+HXLINE( 641)					this->textHeight = currentTextHeight;
             				}
             			}
             		}
-HXLINE( 667)		bool _hx_tmp;
-HXDLIN( 667)		bool _hx_tmp1;
-HXDLIN( 667)		if ((this->textHeight == 0)) {
-HXLINE( 667)			_hx_tmp1 = ::hx::IsNotNull( this->textField );
+HXLINE( 645)		bool _hx_tmp;
+HXDLIN( 645)		bool _hx_tmp1;
+HXDLIN( 645)		if ((this->textHeight == 0)) {
+HXLINE( 645)			_hx_tmp1 = ::hx::IsNotNull( this->textField );
             		}
             		else {
-HXLINE( 667)			_hx_tmp1 = false;
+HXLINE( 645)			_hx_tmp1 = false;
             		}
-HXDLIN( 667)		if (_hx_tmp1) {
-HXLINE( 667)			_hx_tmp = ::hx::IsEq( this->textField->get_type(),1 );
+HXDLIN( 645)		if (_hx_tmp1) {
+HXLINE( 645)			_hx_tmp = ::hx::IsEq( this->textField->get_type(),1 );
             		}
             		else {
-HXLINE( 667)			_hx_tmp = false;
+HXLINE( 645)			_hx_tmp = false;
             		}
-HXDLIN( 667)		if (_hx_tmp) {
-HXLINE( 669)			 ::openfl::text::TextFormat currentFormat = this->textField->_hx___textFormat;
-HXLINE( 670)			Float ascent;
-HXDLIN( 670)			Float descent;
-HXLINE( 672)			 ::openfl::text::Font font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-HXLINE( 674)			if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
-HXLINE( 676)				ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
-HXLINE( 677)				descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
+HXDLIN( 645)		if (_hx_tmp) {
+HXLINE( 647)			 ::openfl::text::TextFormat currentFormat = this->textField->_hx___textFormat;
+HXLINE( 648)			Float ascent;
+HXDLIN( 648)			Float descent;
+HXLINE( 650)			 ::openfl::text::Font font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXLINE( 652)			if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
+HXLINE( 654)				ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
+HXLINE( 655)				descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
             			}
             			else {
-HXLINE( 679)				bool _hx_tmp;
-HXDLIN( 679)				if (::hx::IsNotNull( font )) {
-HXLINE( 679)					_hx_tmp = (font->unitsPerEM != 0);
+HXLINE( 657)				bool _hx_tmp;
+HXDLIN( 657)				if (::hx::IsNotNull( font )) {
+HXLINE( 657)					_hx_tmp = (font->unitsPerEM != 0);
             				}
             				else {
-HXLINE( 679)					_hx_tmp = false;
+HXLINE( 657)					_hx_tmp = false;
             				}
-HXDLIN( 679)				if (_hx_tmp) {
-HXLINE( 682)					ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
-HXLINE( 683)					descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
+HXDLIN( 657)				if (_hx_tmp) {
+HXLINE( 660)					ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
+HXLINE( 661)					descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
             				}
             				else {
-HXLINE( 691)					ascent = ( (Float)(currentFormat->size) );
-HXLINE( 692)					descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
+HXLINE( 669)					ascent = ( (Float)(currentFormat->size) );
+HXLINE( 670)					descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
             				}
             			}
-HXLINE( 670)			 ::Dynamic leading = currentFormat->leading;
-HXDLIN( 670)			Float heightValue = ((ascent + descent) + leading);
-HXLINE( 699)			currentLineAscent = ascent;
-HXLINE( 700)			currentLineDescent = descent;
-HXLINE( 701)			currentLineLeading = leading;
-HXLINE( 703)			currentTextHeight = (ascent + descent);
-HXLINE( 704)			this->textHeight = currentTextHeight;
+HXLINE( 648)			 ::Dynamic leading = currentFormat->leading;
+HXDLIN( 648)			Float heightValue = ((ascent + descent) + leading);
+HXLINE( 677)			currentLineAscent = ascent;
+HXLINE( 678)			currentLineDescent = descent;
+HXLINE( 679)			currentLineLeading = leading;
+HXLINE( 681)			currentTextHeight = (ascent + descent);
+HXLINE( 682)			this->textHeight = currentTextHeight;
             		}
-HXLINE( 707)		this->lineAscents->push(currentLineAscent);
-HXLINE( 708)		this->lineDescents->push(currentLineDescent);
-HXLINE( 709)		{
-HXLINE( 709)			Float _hx_tmp2;
-HXDLIN( 709)			if (::hx::IsNotNull( currentLineLeading )) {
-HXLINE( 709)				_hx_tmp2 = ( (Float)(currentLineLeading) );
+HXLINE( 685)		this->lineAscents->push(currentLineAscent);
+HXLINE( 686)		this->lineDescents->push(currentLineDescent);
+HXLINE( 687)		{
+HXLINE( 687)			Float _hx_tmp2;
+HXDLIN( 687)			if (::hx::IsNotNull( currentLineLeading )) {
+HXLINE( 687)				_hx_tmp2 = ( (Float)(currentLineLeading) );
             			}
             			else {
-HXLINE( 709)				_hx_tmp2 = ( (Float)(0) );
+HXLINE( 687)				_hx_tmp2 = ( (Float)(0) );
             			}
-HXDLIN( 709)			this->lineLeadings->push(_hx_tmp2);
+HXDLIN( 687)			this->lineLeadings->push(_hx_tmp2);
             		}
-HXLINE( 710)		this->lineHeights->push(currentLineHeight);
-HXLINE( 711)		this->lineWidths->push(currentLineWidth);
-HXLINE( 713)		if ((this->numLines == 1)) {
-HXLINE( 715)			if (::hx::IsGreater( currentLineLeading,0 )) {
-HXLINE( 717)				 ::openfl::text::_internal::TextEngine _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 717)				_hx_tmp->textHeight = (_hx_tmp->textHeight + currentLineLeading);
+HXLINE( 688)		this->lineHeights->push(currentLineHeight);
+HXLINE( 689)		this->lineWidths->push(currentLineWidth);
+HXLINE( 691)		if ((this->numLines == 1)) {
+HXLINE( 693)			if (::hx::IsGreater( currentLineLeading,0 )) {
+HXLINE( 695)				 ::openfl::text::_internal::TextEngine _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 695)				_hx_tmp->textHeight = (_hx_tmp->textHeight + currentLineLeading);
             			}
             		}
-HXLINE( 721)		if ((this->layoutGroups->get_length() > 0)) {
-HXLINE( 723)			::Dynamic this1 = this->layoutGroups;
-HXDLIN( 723)			 ::openfl::text::_internal::TextLayoutGroup group = ( ( ::openfl::_Vector::ObjectVector)(this1) )->get((this->layoutGroups->get_length() - 1)).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
-HXLINE( 725)			bool _hx_tmp;
-HXDLIN( 725)			if (::hx::IsNotNull( group )) {
-HXLINE( 725)				_hx_tmp = (group->startIndex == group->endIndex);
+HXLINE( 699)		if ((this->layoutGroups->get_length() > 0)) {
+HXLINE( 701)			::Dynamic this1 = this->layoutGroups;
+HXDLIN( 701)			 ::openfl::text::_internal::TextLayoutGroup group = ( ( ::openfl::_Vector::ObjectVector)(this1) )->get((this->layoutGroups->get_length() - 1)).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
+HXLINE( 703)			bool _hx_tmp;
+HXDLIN( 703)			if (::hx::IsNotNull( group )) {
+HXLINE( 703)				_hx_tmp = (group->startIndex == group->endIndex);
             			}
             			else {
-HXLINE( 725)				_hx_tmp = false;
+HXLINE( 703)				_hx_tmp = false;
             			}
-HXDLIN( 725)			if (_hx_tmp) {
-HXLINE( 727)				 ::openfl::text::_internal::TextEngine _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 727)				_hx_tmp->textHeight = (_hx_tmp->textHeight - currentLineHeight);
+HXDLIN( 703)			if (_hx_tmp) {
+HXLINE( 705)				 ::openfl::text::_internal::TextEngine _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 705)				_hx_tmp->textHeight = (_hx_tmp->textHeight - currentLineHeight);
             			}
             		}
-HXLINE( 731)		if (::hx::IsNotEq( this->autoSize,2 )) {
-HXLINE( 733)			 ::Dynamic _hx_switch_0 = this->autoSize;
+HXLINE( 709)		if (::hx::IsNotEq( this->autoSize,2 )) {
+HXLINE( 711)			 ::Dynamic _hx_switch_0 = this->autoSize;
             			if (  (_hx_switch_0==0) ||  (_hx_switch_0==1) ||  (_hx_switch_0==3) ){
-HXLINE( 736)				if (!(this->wordWrap)) {
-HXLINE( 738)					this->width = (this->textWidth + 4);
+HXLINE( 714)				if (!(this->wordWrap)) {
+HXLINE( 716)					this->width = (this->textWidth + 4);
             				}
-HXLINE( 741)				this->height = (this->textHeight + 4);
-HXLINE( 742)				this->bottomScrollV = this->numLines;
-HXLINE( 735)				goto _hx_goto_13;
+HXLINE( 719)				this->height = (this->textHeight + 4);
+HXLINE( 720)				this->bottomScrollV = this->numLines;
+HXLINE( 713)				goto _hx_goto_10;
             			}
             			/* default */{
             			}
-            			_hx_goto_13:;
+            			_hx_goto_10:;
             		}
-HXLINE( 748)		if ((this->textWidth > (this->width - ( (Float)(4) )))) {
-HXLINE( 750)			this->maxScrollH = ::Std_obj::_hx_int(((this->textWidth - this->width) + 4));
+HXLINE( 726)		if ((this->textWidth > (this->width - ( (Float)(4) )))) {
+HXLINE( 728)			this->maxScrollH = ::Std_obj::_hx_int(((this->textWidth - this->width) + 4));
             		}
             		else {
-HXLINE( 754)			this->maxScrollH = 0;
+HXLINE( 732)			this->maxScrollH = 0;
             		}
-HXLINE( 757)		if ((this->scrollH > this->maxScrollH)) {
-HXLINE( 757)			this->scrollH = this->maxScrollH;
+HXLINE( 735)		if ((this->scrollH > this->maxScrollH)) {
+HXLINE( 735)			this->scrollH = this->maxScrollH;
             		}
             	}
 
@@ -554,5750 +513,5101 @@ HXLINE( 757)			this->scrollH = this->maxScrollH;
 HX_DEFINE_DYNAMIC_FUNC0(TextEngine_obj,getLineMeasurements,(void))
 
 void TextEngine_obj::getLayoutGroups(){
-            	HX_GC_STACKFRAME(&_hx_pos_81873a2f4b2980c0_761_getLayoutGroups)
-HXLINE( 760)		 ::openfl::text::_internal::TextEngine _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE( 762)		this->layoutGroups->set_length(0);
-HXLINE( 764)		bool _hx_tmp;
-HXDLIN( 764)		if (::hx::IsNotNull( this->text )) {
-HXLINE( 764)			_hx_tmp = (this->text == HX_("",00,00,00,00));
+            	HX_GC_STACKFRAME(&_hx_pos_81873a2f4b2980c0_739_getLayoutGroups)
+HXLINE( 738)		 ::openfl::text::_internal::TextEngine _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 740)		this->layoutGroups->set_length(0);
+HXLINE( 742)		bool _hx_tmp;
+HXDLIN( 742)		if (::hx::IsNotNull( this->text )) {
+HXLINE( 742)			_hx_tmp = (this->text == HX_("",00,00,00,00));
             		}
             		else {
-HXLINE( 764)			_hx_tmp = true;
+HXLINE( 742)			_hx_tmp = true;
             		}
-HXDLIN( 764)		if (_hx_tmp) {
-HXLINE( 764)			return;
+HXDLIN( 742)		if (_hx_tmp) {
+HXLINE( 742)			return;
             		}
-HXLINE( 766)		int rangeIndex = -1;
-HXLINE( 767)		 ::openfl::text::_internal::TextFormatRange formatRange = null();
-HXLINE( 768)		 ::lime::text::Font font = null();
-HXLINE( 770)		 ::openfl::text::TextFormat currentFormat = ::openfl::text::TextField_obj::_hx___defaultTextFormat->clone();
-HXLINE( 773)		int leading = 0;
-HXLINE( 774)		Float ascent = ((Float)0.0);
-HXDLIN( 774)		Float maxAscent = ((Float)0.0);
-HXLINE( 775)		Float descent = ((Float)0.0);
-HXLINE( 778)		 ::Dynamic align = 3;
-HXLINE( 779)		int blockIndent = 0;
-HXLINE( 780)		bool bullet = false;
-HXLINE( 781)		int indent = 0;
-HXLINE( 782)		int leftMargin = 0;
-HXLINE( 783)		int rightMargin = 0;
-HXLINE( 784)		bool firstLineOfParagraph = true;
-HXLINE( 786)		 ::Dynamic tabStops = null();
-HXLINE( 788)		 ::openfl::text::_internal::TextLayoutGroup layoutGroup = null();
-HXDLIN( 788)		::Array< ::Dynamic> positions = null();
-HXLINE( 789)		Float widthValue = ((Float)0.0);
-HXDLIN( 789)		int heightValue = 0;
-HXDLIN( 789)		int maxHeightValue = 0;
-HXLINE( 790)		int previousSpaceIndex = -2;
-HXLINE( 791)		int previousBreakIndex = -1;
-HXLINE( 792)		int spaceIndex = this->text.indexOf(HX_(" ",20,00,00,00),null());
-HXLINE( 793)		int breakCount = 0;
-HXLINE( 794)		int breakIndex;
-HXDLIN( 794)		if ((breakCount < this->lineBreaks->get_length())) {
-HXLINE( 794)			breakIndex = this->lineBreaks->get(breakCount);
+HXLINE( 744)		int rangeIndex = -1;
+HXLINE( 745)		 ::openfl::text::_internal::TextFormatRange formatRange = null();
+HXLINE( 746)		 ::lime::text::Font font = null();
+HXLINE( 748)		 ::openfl::text::TextFormat currentFormat = ::openfl::text::TextField_obj::_hx___defaultTextFormat->clone();
+HXLINE( 751)		int leading = 0;
+HXLINE( 752)		Float ascent = ((Float)0.0);
+HXDLIN( 752)		Float maxAscent = ((Float)0.0);
+HXLINE( 753)		Float descent = ((Float)0.0);
+HXLINE( 756)		 ::Dynamic align = 3;
+HXLINE( 757)		int blockIndent = 0;
+HXLINE( 758)		bool bullet = false;
+HXLINE( 759)		int indent = 0;
+HXLINE( 760)		int leftMargin = 0;
+HXLINE( 761)		int rightMargin = 0;
+HXLINE( 762)		 ::Dynamic tabStops = null();
+HXLINE( 764)		 ::openfl::text::_internal::TextLayoutGroup layoutGroup = null();
+HXDLIN( 764)		::Array< ::Dynamic> positions = null();
+HXLINE( 765)		Float widthValue = ((Float)0.0);
+HXDLIN( 765)		int heightValue = 0;
+HXDLIN( 765)		int maxHeightValue = 0;
+HXLINE( 766)		int previousSpaceIndex = -2;
+HXLINE( 767)		int previousBreakIndex = -1;
+HXLINE( 768)		int spaceIndex = this->text.indexOf(HX_(" ",20,00,00,00),null());
+HXLINE( 769)		int breakIndex = this->getLineBreakIndex(null());
+HXLINE( 771)		Float offsetX = ((Float)2.0);
+HXLINE( 772)		Float offsetY = ((Float)2.0);
+HXLINE( 773)		int textIndex = 0;
+HXLINE( 774)		int lineIndex = 0;
+HXLINE(1289)		if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1289)			rangeIndex = (rangeIndex + 1);
+HXDLIN(1289)			formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1289)			currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)			font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
             		}
-            		else {
-HXLINE( 794)			breakIndex = -1;
+HXLINE(1290)		{
+HXLINE(1290)			if (::hx::IsNotNull( currentFormat->align )) {
+HXLINE( 975)				align = currentFormat->align;
+            			}
+HXLINE(1290)			bool _hx_tmp1 = ::hx::IsNotNull( currentFormat->blockIndent );
+HXDLIN(1290)			bool _hx_tmp2 = ::hx::IsNotNull( currentFormat->bullet );
+HXDLIN(1290)			bool _hx_tmp3 = ::hx::IsNotNull( currentFormat->indent );
+HXDLIN(1290)			if (::hx::IsNotNull( currentFormat->leftMargin )) {
+HXLINE( 995)				leftMargin = ( (int)(currentFormat->leftMargin) );
+            			}
+HXLINE(1290)			if (::hx::IsNotNull( currentFormat->rightMargin )) {
+HXLINE(1000)				rightMargin = ( (int)(currentFormat->rightMargin) );
+            			}
+HXLINE(1290)			bool _hx_tmp4 = ::hx::IsNotNull( currentFormat->tabStops );
             		}
-HXLINE( 796)		Float offsetX = ((Float)0.0);
-HXLINE( 797)		Float offsetY = ((Float)0.0);
-HXLINE( 798)		int textIndex = 0;
-HXLINE( 799)		int lineIndex = 0;
-HXLINE(1312)		if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1312)			rangeIndex = (rangeIndex + 1);
-HXDLIN(1312)			formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1312)			currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1312)			font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-            		}
-HXLINE(1313)		{
-HXLINE(1313)			firstLineOfParagraph = true;
-HXDLIN(1313)			if (::hx::IsNotNull( currentFormat->align )) {
-HXLINE(1313)				align = currentFormat->align;
+HXLINE(1291)		{
+HXLINE(1291)			if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
+HXLINE( 939)				ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
+HXLINE( 940)				descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
             			}
             			else {
-HXLINE(1313)				align = 3;
-            			}
-HXDLIN(1313)			if (::hx::IsNotNull( currentFormat->blockIndent )) {
-HXLINE(1313)				blockIndent = ( (int)(currentFormat->blockIndent) );
-            			}
-            			else {
-HXLINE(1313)				blockIndent = 0;
-            			}
-HXDLIN(1313)			if (::hx::IsNotNull( currentFormat->indent )) {
-HXLINE(1313)				indent = ( (int)(currentFormat->indent) );
-            			}
-            			else {
-HXLINE(1313)				indent = 0;
-            			}
-HXDLIN(1313)			if (::hx::IsNotNull( currentFormat->leftMargin )) {
-HXLINE(1313)				leftMargin = ( (int)(currentFormat->leftMargin) );
-            			}
-            			else {
-HXLINE(1313)				leftMargin = 0;
-            			}
-HXDLIN(1313)			if (::hx::IsNotNull( currentFormat->rightMargin )) {
-HXLINE(1313)				rightMargin = ( (int)(currentFormat->rightMargin) );
-            			}
-            			else {
-HXLINE(1313)				rightMargin = 0;
-            			}
-HXDLIN(1313)			bool _hx_tmp1 = ::hx::IsNotNull( currentFormat->bullet );
-HXDLIN(1313)			bool _hx_tmp2 = ::hx::IsNotNull( currentFormat->tabStops );
-            		}
-HXLINE(1314)		{
-HXLINE(1314)			if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
-HXLINE(1314)				ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
-HXDLIN(1314)				descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
-            			}
-            			else {
-HXLINE(1314)				bool _hx_tmp;
-HXDLIN(1314)				if (::hx::IsNotNull( font )) {
-HXLINE(1314)					_hx_tmp = (font->unitsPerEM != 0);
+HXLINE(1291)				bool _hx_tmp;
+HXDLIN(1291)				if (::hx::IsNotNull( font )) {
+HXLINE(1291)					_hx_tmp = (font->unitsPerEM != 0);
             				}
             				else {
-HXLINE(1314)					_hx_tmp = false;
+HXLINE(1291)					_hx_tmp = false;
             				}
-HXDLIN(1314)				if (_hx_tmp) {
-HXLINE(1314)					ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
-HXDLIN(1314)					descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
+HXDLIN(1291)				if (_hx_tmp) {
+HXLINE( 945)					ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
+HXLINE( 946)					descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
             				}
             				else {
-HXLINE(1314)					ascent = ( (Float)(currentFormat->size) );
-HXDLIN(1314)					descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
+HXLINE( 951)					ascent = ( (Float)(currentFormat->size) );
+HXLINE( 952)					descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
             				}
             			}
-HXDLIN(1314)			leading = ( (int)(currentFormat->leading) );
-HXDLIN(1314)			heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
-HXDLIN(1314)			if ((heightValue > maxHeightValue)) {
-HXLINE(1314)				maxHeightValue = heightValue;
+HXLINE( 955)			leading = ( (int)(currentFormat->leading) );
+HXLINE( 957)			heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
+HXLINE(1291)			if ((heightValue > maxHeightValue)) {
+HXLINE( 961)				maxHeightValue = heightValue;
             			}
-HXDLIN(1314)			if ((ascent > maxAscent)) {
-HXLINE(1314)				maxAscent = ascent;
+HXLINE(1291)			if ((ascent > maxAscent)) {
+HXLINE( 966)				maxAscent = ascent;
             			}
             		}
-HXLINE(1316)		bool wrap;
-HXLINE(1317)		int maxLoops = (this->text.length + 1);
-HXLINE(1321)		while((textIndex < maxLoops)){
-HXLINE(1323)			bool _hx_tmp;
-HXDLIN(1323)			if ((breakIndex > -1)) {
-HXLINE(1323)				if ((spaceIndex != -1)) {
-HXLINE(1323)					_hx_tmp = (breakIndex < spaceIndex);
+HXLINE(1293)		bool wrap;
+HXLINE(1294)		int maxLoops = (this->text.length + 1);
+HXLINE(1298)		while((textIndex < maxLoops)){
+HXLINE(1300)			bool _hx_tmp;
+HXDLIN(1300)			if ((breakIndex > -1)) {
+HXLINE(1300)				if ((spaceIndex != -1)) {
+HXLINE(1300)					_hx_tmp = (breakIndex < spaceIndex);
             				}
             				else {
-HXLINE(1323)					_hx_tmp = true;
+HXLINE(1300)					_hx_tmp = true;
             				}
             			}
             			else {
-HXLINE(1323)				_hx_tmp = false;
+HXLINE(1300)				_hx_tmp = false;
             			}
-HXDLIN(1323)			if (_hx_tmp) {
-HXLINE(1327)				if ((textIndex <= breakIndex)) {
-HXLINE(1329)					if ((textIndex >= breakIndex)) {
-HXLINE(1329)						positions = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN(1329)						widthValue = ( (Float)(0) );
+HXDLIN(1300)			if (_hx_tmp) {
+HXLINE(1304)				if ((textIndex <= breakIndex)) {
+HXLINE(1306)					if ((breakIndex <= formatRange->end)) {
+HXLINE(1306)						::String text = _gthis->text;
+HXDLIN(1306)						Float letterSpacing = ((Float)0.0);
+HXDLIN(1306)						if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)							letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+            						}
+HXLINE(1306)						if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1306)							_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+            						}
+HXDLIN(1306)						_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1306)						_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1306)						if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1306)							_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+            						}
+HXDLIN(1306)						_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1306)						bool positions1;
+HXDLIN(1306)						if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1306)							positions1 = (_gthis->sharpness < 400);
+            						}
+            						else {
+HXLINE(1306)							positions1 = true;
+            						}
+HXDLIN(1306)						_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1306)						 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1306)						_gthis1->set_text(text.substring(textIndex,breakIndex));
+HXDLIN(1306)						positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1306)						Float width = ((Float)0.0);
+HXDLIN(1306)						int _g = 0;
+HXDLIN(1306)						while((_g < positions->length)){
+HXLINE(1306)							 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1306)							_g = (_g + 1);
+HXDLIN(1306)							width = (width + position->advance->x);
+            						}
+HXDLIN(1306)						widthValue = width;
             					}
             					else {
-HXLINE(1329)						if ((breakIndex <= formatRange->end)) {
-HXLINE(1329)							::String text = _gthis->text;
-HXDLIN(1329)							Float letterSpacing = ((Float)0.0);
-HXDLIN(1329)							if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1329)								letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+HXLINE(1306)						int tempIndex = textIndex;
+HXDLIN(1306)						int tempRangeEnd = formatRange->end;
+HXDLIN(1306)						int countRanges = 0;
+HXLINE(1046)						positions = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(1047)						widthValue = ( (Float)(0) );
+HXLINE(1306)						while(true){
+HXLINE(1306)							if ((tempIndex != tempRangeEnd)) {
+HXLINE(1306)								::String text = _gthis->text;
+HXDLIN(1306)								Float letterSpacing = ((Float)0.0);
+HXDLIN(1306)								if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)									letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+            								}
+HXLINE(1306)								if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1306)									_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+            								}
+HXDLIN(1306)								_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1306)								_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1306)								if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1306)									_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+            								}
+HXDLIN(1306)								_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1306)								bool _hx_tmp;
+HXDLIN(1306)								if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1306)									_hx_tmp = (_gthis->sharpness < 400);
+            								}
+            								else {
+HXLINE(1306)									_hx_tmp = true;
+            								}
+HXDLIN(1306)								_gthis->_hx___textLayout->autoHint = _hx_tmp;
+HXDLIN(1306)								 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1306)								_gthis1->set_text(text.substring(tempIndex,tempRangeEnd));
+HXDLIN(1306)								::Array< ::Dynamic> tempPositions = _gthis->_hx___textLayout->get_positions();
+HXLINE(1054)								positions = positions->concat(tempPositions);
             							}
-HXDLIN(1329)							if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1329)								_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-            							}
-HXDLIN(1329)							_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1329)							_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1329)							if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1329)								_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
-            							}
-HXDLIN(1329)							_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1329)							bool positions1;
-HXDLIN(1329)							if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1329)								positions1 = (_gthis->sharpness < 400);
+HXLINE(1306)							if ((tempRangeEnd != breakIndex)) {
+HXLINE(1306)								bool _hx_tmp;
+HXDLIN(1306)								if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1306)									rangeIndex = (rangeIndex + 1);
+HXDLIN(1306)									formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1306)									currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)									font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXLINE(1306)									_hx_tmp = true;
+            								}
+            								else {
+HXLINE(1306)									_hx_tmp = false;
+            								}
+HXDLIN(1306)								if (!(_hx_tmp)) {
+HXLINE(1306)									::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1061,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
+HXDLIN(1306)									goto _hx_goto_14;
+            								}
+HXLINE(1065)								tempIndex = tempRangeEnd;
+HXLINE(1306)								if ((breakIndex < formatRange->end)) {
+HXLINE(1306)									tempRangeEnd = breakIndex;
+            								}
+            								else {
+HXLINE(1306)									tempRangeEnd = formatRange->end;
+            								}
+HXDLIN(1306)								countRanges = (countRanges + 1);
             							}
             							else {
-HXLINE(1329)								positions1 = true;
-            							}
-HXDLIN(1329)							_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1329)							 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1329)							_gthis1->set_text(text.substring(textIndex,breakIndex));
-HXDLIN(1329)							positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1329)							Float width = ((Float)0.0);
-HXDLIN(1329)							{
-HXLINE(1329)								int _g = 0;
-HXDLIN(1329)								while((_g < positions->length)){
-HXLINE(1329)									 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1329)									_g = (_g + 1);
-HXDLIN(1329)									width = (width + position->advance->x);
+HXLINE(1306)								Float width = ((Float)0.0);
+HXDLIN(1306)								int _g = 0;
+HXDLIN(1306)								while((_g < positions->length)){
+HXLINE(1306)									 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1306)									_g = (_g + 1);
+HXDLIN(1306)									width = (width + position->advance->x);
             								}
+HXDLIN(1306)								widthValue = width;
+HXDLIN(1306)								goto _hx_goto_14;
             							}
-HXDLIN(1329)							widthValue = width;
             						}
-            						else {
-HXLINE(1329)							int tempIndex = textIndex;
-HXDLIN(1329)							int tempRangeEnd = formatRange->end;
-HXDLIN(1329)							int countRanges = 0;
-HXDLIN(1329)							positions = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN(1329)							widthValue = ( (Float)(0) );
-HXDLIN(1329)							while(true){
-HXLINE(1329)								if ((tempIndex != tempRangeEnd)) {
-HXLINE(1329)									::String text = _gthis->text;
-HXDLIN(1329)									Float letterSpacing = ((Float)0.0);
-HXDLIN(1329)									if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1329)										letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
-            									}
-HXDLIN(1329)									if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1329)										_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-            									}
-HXDLIN(1329)									_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1329)									_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1329)									if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1329)										_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
-            									}
-HXDLIN(1329)									_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1329)									bool _hx_tmp;
-HXDLIN(1329)									if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1329)										_hx_tmp = (_gthis->sharpness < 400);
-            									}
-            									else {
-HXLINE(1329)										_hx_tmp = true;
-            									}
-HXDLIN(1329)									_gthis->_hx___textLayout->autoHint = _hx_tmp;
-HXDLIN(1329)									 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1329)									_gthis1->set_text(text.substring(tempIndex,tempRangeEnd));
-HXDLIN(1329)									::Array< ::Dynamic> tempPositions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1329)									positions = positions->concat(tempPositions);
-            								}
-HXDLIN(1329)								if ((tempRangeEnd != breakIndex)) {
-HXLINE(1329)									bool _hx_tmp;
-HXDLIN(1329)									if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1329)										rangeIndex = (rangeIndex + 1);
-HXDLIN(1329)										formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1329)										currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1329)										font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-HXDLIN(1329)										_hx_tmp = true;
-            									}
-            									else {
-HXLINE(1329)										_hx_tmp = false;
-            									}
-HXDLIN(1329)									if (!(_hx_tmp)) {
-HXLINE(1329)										::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1092,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
-HXDLIN(1329)										goto _hx_goto_17;
-            									}
-HXDLIN(1329)									tempIndex = tempRangeEnd;
-HXDLIN(1329)									if ((breakIndex < formatRange->end)) {
-HXLINE(1329)										tempRangeEnd = breakIndex;
-            									}
-            									else {
-HXLINE(1329)										tempRangeEnd = formatRange->end;
-            									}
-HXDLIN(1329)									countRanges = (countRanges + 1);
-            								}
-            								else {
-HXLINE(1329)									Float width = ((Float)0.0);
-HXDLIN(1329)									{
-HXLINE(1329)										int _g = 0;
-HXDLIN(1329)										while((_g < positions->length)){
-HXLINE(1329)											 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1329)											_g = (_g + 1);
-HXDLIN(1329)											width = (width + position->advance->x);
-            										}
-            									}
-HXDLIN(1329)									widthValue = width;
-HXDLIN(1329)									goto _hx_goto_17;
-            								}
-            							}
-            							_hx_goto_17:;
-HXDLIN(1329)							rangeIndex = (rangeIndex - (countRanges + 1));
-HXDLIN(1329)							if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1329)								rangeIndex = (rangeIndex + 1);
-HXDLIN(1329)								formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1329)								currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1329)								font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-            							}
+            						_hx_goto_14:;
+HXDLIN(1306)						rangeIndex = (rangeIndex - (countRanges + 1));
+HXDLIN(1306)						if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1306)							rangeIndex = (rangeIndex + 1);
+HXDLIN(1306)							formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1306)							currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)							font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
             						}
             					}
-HXLINE(1330)					{
-HXLINE(1330)						bool _hx_tmp;
-HXDLIN(1330)						if ((_gthis->width >= 4)) {
-HXLINE(1330)							_hx_tmp = _gthis->wordWrap;
+HXLINE(1307)					{
+HXLINE(1307)						bool _hx_tmp;
+HXDLIN(1307)						if ((_gthis->width >= 4)) {
+HXLINE(1307)							_hx_tmp = _gthis->wordWrap;
             						}
             						else {
-HXLINE(1330)							_hx_tmp = false;
+HXLINE(1307)							_hx_tmp = false;
             						}
-HXDLIN(1330)						if (_hx_tmp) {
-HXLINE(1330)							::Array< ::Dynamic> remainingPositions = positions;
-HXDLIN(1330)							int i;
-HXDLIN(1330)							int bufferCount;
-HXDLIN(1330)							int placeIndex;
-HXDLIN(1330)							Float positionWidth;
-HXDLIN(1330)							 ::openfl::text::_internal::GlyphPosition currentPosition;
-HXDLIN(1330)							Float width = ((Float)0.0);
-HXDLIN(1330)							{
-HXLINE(1330)								int _g = 0;
-HXDLIN(1330)								while((_g < remainingPositions->length)){
-HXLINE(1330)									 ::openfl::text::_internal::GlyphPosition position = remainingPositions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1330)									_g = (_g + 1);
-HXDLIN(1330)									width = (width + position->advance->x);
+HXDLIN(1307)						if (_hx_tmp) {
+HXLINE(1307)							::Array< ::Dynamic> remainingPositions = positions;
+HXDLIN(1307)							int i;
+HXDLIN(1307)							int bufferCount;
+HXDLIN(1307)							int placeIndex;
+HXDLIN(1307)							Float positionWidth;
+HXDLIN(1307)							 ::openfl::text::_internal::GlyphPosition currentPosition;
+HXDLIN(1307)							Float width = ((Float)0.0);
+HXDLIN(1307)							{
+HXLINE(1307)								int _g = 0;
+HXDLIN(1307)								while((_g < remainingPositions->length)){
+HXLINE(1307)									 ::openfl::text::_internal::GlyphPosition position = remainingPositions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1307)									_g = (_g + 1);
+HXDLIN(1307)									width = (width + position->advance->x);
             								}
             							}
-HXDLIN(1330)							Float tempWidth = width;
-HXDLIN(1330)							while(true){
-HXLINE(1330)								bool _hx_tmp;
-HXDLIN(1330)								if ((remainingPositions->length > 0)) {
-HXLINE(1330)									int _hx_tmp1;
-HXDLIN(1330)									if (firstLineOfParagraph) {
-HXLINE(1330)										_hx_tmp1 = indent;
+HXDLIN(1307)							Float tempWidth = width;
+HXDLIN(1307)							while(((offsetX + tempWidth) > (_gthis->width - ( (Float)(2) )))){
+HXLINE(1202)								bufferCount = 0;
+HXDLIN(1202)								i = bufferCount;
+HXLINE(1203)								positionWidth = ((Float)0.0);
+HXLINE(1307)								while(((offsetX + positionWidth) < (_gthis->width - ( (Float)(2) )))){
+HXLINE(1207)									currentPosition = remainingPositions->__get(i).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXLINE(1307)									if ((currentPosition->advance->x == ((Float)0.0))) {
+HXLINE(1307)										i = (i + 1);
+HXDLIN(1307)										bufferCount = (bufferCount + 1);
             									}
             									else {
-HXLINE(1330)										_hx_tmp1 = 0;
+HXLINE(1307)										positionWidth = (positionWidth + currentPosition->advance->x);
+HXDLIN(1307)										i = (i + 1);
             									}
-HXDLIN(1330)									_hx_tmp = ((offsetX + tempWidth) > (((_gthis->width - ( (Float)(2) )) - ( (Float)(rightMargin) )) - ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp1)) )));
+            								}
+HXDLIN(1307)								if ((positionWidth == ((Float)0.0))) {
+HXLINE(1307)									goto _hx_goto_17;
             								}
             								else {
-HXLINE(1330)									_hx_tmp = false;
-            								}
-HXDLIN(1330)								if (!(_hx_tmp)) {
-HXLINE(1330)									goto _hx_goto_20;
-            								}
-HXDLIN(1330)								bufferCount = 0;
-HXDLIN(1330)								i = bufferCount;
-HXDLIN(1330)								positionWidth = ((Float)0.0);
-HXDLIN(1330)								while(true){
-HXLINE(1330)									int _hx_tmp;
-HXDLIN(1330)									if (firstLineOfParagraph) {
-HXLINE(1330)										_hx_tmp = indent;
+HXLINE(1307)									bool _hx_tmp;
+HXDLIN(1307)									if ((i < 2)) {
+HXLINE(1307)										_hx_tmp = ((positionWidth + offsetX) > (_gthis->width - ( (Float)(2) )));
             									}
             									else {
-HXLINE(1330)										_hx_tmp = 0;
+HXLINE(1307)										_hx_tmp = false;
             									}
-HXDLIN(1330)									if (!(((offsetX + positionWidth) < (((_gthis->width - ( (Float)(2) )) - ( (Float)(rightMargin) )) - ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp)) ))))) {
-HXLINE(1330)										goto _hx_goto_21;
-            									}
-HXDLIN(1330)									currentPosition = remainingPositions->__get(i).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1330)									if ((currentPosition->advance->x == ((Float)0.0))) {
-HXLINE(1330)										i = (i + 1);
-HXDLIN(1330)										bufferCount = (bufferCount + 1);
+HXDLIN(1307)									if (_hx_tmp) {
+HXLINE(1307)										if ((((textIndex + i) - bufferCount) == breakIndex)) {
+HXLINE(1307)											goto _hx_goto_17;
+            										}
             									}
             									else {
-HXLINE(1330)										positionWidth = (positionWidth + currentPosition->advance->x);
-HXDLIN(1330)										i = (i + 1);
-            									}
-            								}
-            								_hx_goto_21:;
-HXDLIN(1330)								if ((i == bufferCount)) {
-HXLINE(1330)									i = (bufferCount + 1);
-            								}
-            								else {
-HXLINE(1330)									while(true){
-HXLINE(1330)										bool _hx_tmp;
-HXDLIN(1330)										if ((i > 1)) {
-HXLINE(1330)											int _hx_tmp1;
-HXDLIN(1330)											if (firstLineOfParagraph) {
-HXLINE(1330)												_hx_tmp1 = indent;
-            											}
-            											else {
-HXLINE(1330)												_hx_tmp1 = 0;
-            											}
-HXDLIN(1330)											_hx_tmp = ((offsetX + positionWidth) > (((_gthis->width - ( (Float)(2) )) - ( (Float)(rightMargin) )) - ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp1)) )));
-            										}
-            										else {
-HXLINE(1330)											_hx_tmp = false;
-            										}
-HXDLIN(1330)										if (!(_hx_tmp)) {
-HXLINE(1330)											goto _hx_goto_22;
-            										}
-HXDLIN(1330)										i = (i - 1);
-HXDLIN(1330)										if (((i - bufferCount) > 0)) {
-HXLINE(1330)											{
-HXLINE(1330)												int endIndex = ((textIndex + i) - bufferCount);
-HXDLIN(1330)												if ((textIndex >= endIndex)) {
-HXLINE(1330)													positions = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN(1330)													widthValue = ( (Float)(0) );
-            												}
-            												else {
-HXLINE(1330)													if ((endIndex <= formatRange->end)) {
-HXLINE(1330)														::String text = _gthis->text;
-HXDLIN(1330)														Float letterSpacing = ((Float)0.0);
-HXDLIN(1330)														if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1330)															letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+HXLINE(1307)										while(((offsetX + positionWidth) > (_gthis->width - ( (Float)(2) )))){
+HXLINE(1307)											i = (i - 1);
+HXDLIN(1307)											if (((i - bufferCount) > 0)) {
+HXLINE(1307)												{
+HXLINE(1307)													int endIndex = ((textIndex + i) - bufferCount);
+HXDLIN(1307)													if ((endIndex <= formatRange->end)) {
+HXLINE(1307)														::String text = _gthis->text;
+HXDLIN(1307)														Float letterSpacing = ((Float)0.0);
+HXDLIN(1307)														if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)															letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
             														}
-HXDLIN(1330)														if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1330)															_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE(1307)														if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1307)															_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
             														}
-HXDLIN(1330)														_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1330)														_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1330)														if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1330)															_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+HXDLIN(1307)														_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1307)														_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1307)														if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1307)															_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
             														}
-HXDLIN(1330)														_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1330)														bool positions1;
-HXDLIN(1330)														if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1330)															positions1 = (_gthis->sharpness < 400);
+HXDLIN(1307)														_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1307)														bool positions1;
+HXDLIN(1307)														if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1307)															positions1 = (_gthis->sharpness < 400);
             														}
             														else {
-HXLINE(1330)															positions1 = true;
+HXLINE(1307)															positions1 = true;
             														}
-HXDLIN(1330)														_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1330)														 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1330)														_gthis1->set_text(text.substring(textIndex,endIndex));
-HXDLIN(1330)														positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1330)														Float width = ((Float)0.0);
-HXDLIN(1330)														{
-HXLINE(1330)															int _g = 0;
-HXDLIN(1330)															while((_g < positions->length)){
-HXLINE(1330)																 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1330)																_g = (_g + 1);
-HXDLIN(1330)																width = (width + position->advance->x);
-            															}
+HXDLIN(1307)														_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1307)														 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1307)														_gthis1->set_text(text.substring(textIndex,endIndex));
+HXDLIN(1307)														positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1307)														Float width = ((Float)0.0);
+HXDLIN(1307)														int _g = 0;
+HXDLIN(1307)														while((_g < positions->length)){
+HXLINE(1307)															 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1307)															_g = (_g + 1);
+HXDLIN(1307)															width = (width + position->advance->x);
             														}
-HXDLIN(1330)														widthValue = width;
+HXDLIN(1307)														widthValue = width;
             													}
             													else {
-HXLINE(1330)														int tempIndex = textIndex;
-HXDLIN(1330)														int tempRangeEnd = formatRange->end;
-HXDLIN(1330)														int countRanges = 0;
-HXDLIN(1330)														positions = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN(1330)														widthValue = ( (Float)(0) );
-HXDLIN(1330)														while(true){
-HXLINE(1330)															if ((tempIndex != tempRangeEnd)) {
-HXLINE(1330)																::String text = _gthis->text;
-HXDLIN(1330)																Float letterSpacing = ((Float)0.0);
-HXDLIN(1330)																if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1330)																	letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+HXLINE(1307)														int tempIndex = textIndex;
+HXDLIN(1307)														int tempRangeEnd = formatRange->end;
+HXDLIN(1307)														int countRanges = 0;
+HXLINE(1046)														positions = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(1047)														widthValue = ( (Float)(0) );
+HXLINE(1307)														while(true){
+HXLINE(1307)															if ((tempIndex != tempRangeEnd)) {
+HXLINE(1307)																::String text = _gthis->text;
+HXDLIN(1307)																Float letterSpacing = ((Float)0.0);
+HXDLIN(1307)																if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)																	letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
             																}
-HXDLIN(1330)																if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1330)																	_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE(1307)																if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1307)																	_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
             																}
-HXDLIN(1330)																_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1330)																_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1330)																if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1330)																	_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+HXDLIN(1307)																_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1307)																_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1307)																if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1307)																	_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
             																}
-HXDLIN(1330)																_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1330)																bool _hx_tmp;
-HXDLIN(1330)																if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1330)																	_hx_tmp = (_gthis->sharpness < 400);
+HXDLIN(1307)																_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1307)																bool _hx_tmp;
+HXDLIN(1307)																if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1307)																	_hx_tmp = (_gthis->sharpness < 400);
             																}
             																else {
-HXLINE(1330)																	_hx_tmp = true;
+HXLINE(1307)																	_hx_tmp = true;
             																}
-HXDLIN(1330)																_gthis->_hx___textLayout->autoHint = _hx_tmp;
-HXDLIN(1330)																 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1330)																_gthis1->set_text(text.substring(tempIndex,tempRangeEnd));
-HXDLIN(1330)																::Array< ::Dynamic> tempPositions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1330)																positions = positions->concat(tempPositions);
+HXDLIN(1307)																_gthis->_hx___textLayout->autoHint = _hx_tmp;
+HXDLIN(1307)																 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1307)																_gthis1->set_text(text.substring(tempIndex,tempRangeEnd));
+HXDLIN(1307)																::Array< ::Dynamic> tempPositions = _gthis->_hx___textLayout->get_positions();
+HXLINE(1054)																positions = positions->concat(tempPositions);
             															}
-HXDLIN(1330)															if ((tempRangeEnd != endIndex)) {
-HXLINE(1330)																bool _hx_tmp;
-HXDLIN(1330)																if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1330)																	rangeIndex = (rangeIndex + 1);
-HXDLIN(1330)																	formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1330)																	currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1330)																	font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-HXDLIN(1330)																	_hx_tmp = true;
+HXLINE(1307)															if ((tempRangeEnd != endIndex)) {
+HXLINE(1307)																bool _hx_tmp;
+HXDLIN(1307)																if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1307)																	rangeIndex = (rangeIndex + 1);
+HXDLIN(1307)																	formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1307)																	currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)																	font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXLINE(1307)																	_hx_tmp = true;
             																}
             																else {
-HXLINE(1330)																	_hx_tmp = false;
+HXLINE(1307)																	_hx_tmp = false;
             																}
-HXDLIN(1330)																if (!(_hx_tmp)) {
-HXLINE(1330)																	::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1092,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
-HXDLIN(1330)																	goto _hx_goto_24;
+HXDLIN(1307)																if (!(_hx_tmp)) {
+HXLINE(1307)																	::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1061,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
+HXDLIN(1307)																	goto _hx_goto_21;
             																}
-HXDLIN(1330)																tempIndex = tempRangeEnd;
-HXDLIN(1330)																if ((endIndex < formatRange->end)) {
-HXLINE(1330)																	tempRangeEnd = endIndex;
+HXLINE(1065)																tempIndex = tempRangeEnd;
+HXLINE(1307)																if ((endIndex < formatRange->end)) {
+HXLINE(1307)																	tempRangeEnd = endIndex;
             																}
             																else {
-HXLINE(1330)																	tempRangeEnd = formatRange->end;
+HXLINE(1307)																	tempRangeEnd = formatRange->end;
             																}
-HXDLIN(1330)																countRanges = (countRanges + 1);
+HXDLIN(1307)																countRanges = (countRanges + 1);
             															}
             															else {
-HXLINE(1330)																Float width = ((Float)0.0);
-HXDLIN(1330)																{
-HXLINE(1330)																	int _g = 0;
-HXDLIN(1330)																	while((_g < positions->length)){
-HXLINE(1330)																		 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1330)																		_g = (_g + 1);
-HXDLIN(1330)																		width = (width + position->advance->x);
-            																	}
+HXLINE(1307)																Float width = ((Float)0.0);
+HXDLIN(1307)																int _g = 0;
+HXDLIN(1307)																while((_g < positions->length)){
+HXLINE(1307)																	 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1307)																	_g = (_g + 1);
+HXDLIN(1307)																	width = (width + position->advance->x);
             																}
-HXDLIN(1330)																widthValue = width;
-HXDLIN(1330)																goto _hx_goto_24;
+HXDLIN(1307)																widthValue = width;
+HXDLIN(1307)																goto _hx_goto_21;
+            															}
+            														}
+            														_hx_goto_21:;
+HXDLIN(1307)														rangeIndex = (rangeIndex - (countRanges + 1));
+HXDLIN(1307)														if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1307)															rangeIndex = (rangeIndex + 1);
+HXDLIN(1307)															formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1307)															currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)															font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+            														}
+            													}
+            												}
+HXLINE(1250)												positionWidth = widthValue;
+            											}
+            											else {
+HXLINE(1256)												i = 1;
+HXLINE(1257)												bufferCount = 0;
+HXLINE(1307)												{
+HXLINE(1307)													int endIndex = (textIndex + 1);
+HXDLIN(1307)													if ((endIndex <= formatRange->end)) {
+HXLINE(1307)														::String text = _gthis->text;
+HXDLIN(1307)														Float letterSpacing = ((Float)0.0);
+HXDLIN(1307)														if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)															letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+            														}
+HXLINE(1307)														if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1307)															_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+            														}
+HXDLIN(1307)														_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1307)														_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1307)														if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1307)															_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+            														}
+HXDLIN(1307)														_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1307)														bool positions1;
+HXDLIN(1307)														if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1307)															positions1 = (_gthis->sharpness < 400);
+            														}
+            														else {
+HXLINE(1307)															positions1 = true;
+            														}
+HXDLIN(1307)														_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1307)														 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1307)														_gthis1->set_text(text.substring(textIndex,endIndex));
+HXDLIN(1307)														positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1307)														Float width = ((Float)0.0);
+HXDLIN(1307)														int _g = 0;
+HXDLIN(1307)														while((_g < positions->length)){
+HXLINE(1307)															 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1307)															_g = (_g + 1);
+HXDLIN(1307)															width = (width + position->advance->x);
+            														}
+HXDLIN(1307)														widthValue = width;
+            													}
+            													else {
+HXLINE(1307)														int tempIndex = textIndex;
+HXDLIN(1307)														int tempRangeEnd = formatRange->end;
+HXDLIN(1307)														int countRanges = 0;
+HXLINE(1046)														positions = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(1047)														widthValue = ( (Float)(0) );
+HXLINE(1307)														while(true){
+HXLINE(1307)															if ((tempIndex != tempRangeEnd)) {
+HXLINE(1307)																::String text = _gthis->text;
+HXDLIN(1307)																Float letterSpacing = ((Float)0.0);
+HXDLIN(1307)																if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)																	letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+            																}
+HXLINE(1307)																if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1307)																	_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+            																}
+HXDLIN(1307)																_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1307)																_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1307)																if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1307)																	_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+            																}
+HXDLIN(1307)																_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1307)																bool _hx_tmp;
+HXDLIN(1307)																if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1307)																	_hx_tmp = (_gthis->sharpness < 400);
+            																}
+            																else {
+HXLINE(1307)																	_hx_tmp = true;
+            																}
+HXDLIN(1307)																_gthis->_hx___textLayout->autoHint = _hx_tmp;
+HXDLIN(1307)																 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1307)																_gthis1->set_text(text.substring(tempIndex,tempRangeEnd));
+HXDLIN(1307)																::Array< ::Dynamic> tempPositions = _gthis->_hx___textLayout->get_positions();
+HXLINE(1054)																positions = positions->concat(tempPositions);
+            															}
+HXLINE(1307)															if ((tempRangeEnd != endIndex)) {
+HXLINE(1307)																bool _hx_tmp;
+HXDLIN(1307)																if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1307)																	rangeIndex = (rangeIndex + 1);
+HXDLIN(1307)																	formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1307)																	currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)																	font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXLINE(1307)																	_hx_tmp = true;
+            																}
+            																else {
+HXLINE(1307)																	_hx_tmp = false;
+            																}
+HXDLIN(1307)																if (!(_hx_tmp)) {
+HXLINE(1307)																	::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1061,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
+HXDLIN(1307)																	goto _hx_goto_24;
+            																}
+HXLINE(1065)																tempIndex = tempRangeEnd;
+HXLINE(1307)																if ((endIndex < formatRange->end)) {
+HXLINE(1307)																	tempRangeEnd = endIndex;
+            																}
+            																else {
+HXLINE(1307)																	tempRangeEnd = formatRange->end;
+            																}
+HXDLIN(1307)																countRanges = (countRanges + 1);
+            															}
+            															else {
+HXLINE(1307)																Float width = ((Float)0.0);
+HXDLIN(1307)																int _g = 0;
+HXDLIN(1307)																while((_g < positions->length)){
+HXLINE(1307)																	 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1307)																	_g = (_g + 1);
+HXDLIN(1307)																	width = (width + position->advance->x);
+            																}
+HXDLIN(1307)																widthValue = width;
+HXDLIN(1307)																goto _hx_goto_24;
             															}
             														}
             														_hx_goto_24:;
-HXDLIN(1330)														rangeIndex = (rangeIndex - (countRanges + 1));
-HXDLIN(1330)														if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1330)															rangeIndex = (rangeIndex + 1);
-HXDLIN(1330)															formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1330)															currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1330)															font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXDLIN(1307)														rangeIndex = (rangeIndex - (countRanges + 1));
+HXDLIN(1307)														if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1307)															rangeIndex = (rangeIndex + 1);
+HXDLIN(1307)															formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1307)															currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)															font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
             														}
             													}
             												}
+HXLINE(1260)												positionWidth = ( (Float)(0) );
             											}
-HXDLIN(1330)											positionWidth = widthValue;
-            										}
-            										else {
-HXLINE(1330)											i = 1;
-HXDLIN(1330)											bufferCount = 0;
-HXDLIN(1330)											{
-HXLINE(1330)												int endIndex = (textIndex + 1);
-HXDLIN(1330)												if ((textIndex >= endIndex)) {
-HXLINE(1330)													positions = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN(1330)													widthValue = ( (Float)(0) );
-            												}
-            												else {
-HXLINE(1330)													if ((endIndex <= formatRange->end)) {
-HXLINE(1330)														::String text = _gthis->text;
-HXDLIN(1330)														Float letterSpacing = ((Float)0.0);
-HXDLIN(1330)														if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1330)															letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
-            														}
-HXDLIN(1330)														if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1330)															_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-            														}
-HXDLIN(1330)														_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1330)														_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1330)														if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1330)															_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
-            														}
-HXDLIN(1330)														_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1330)														bool positions1;
-HXDLIN(1330)														if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1330)															positions1 = (_gthis->sharpness < 400);
-            														}
-            														else {
-HXLINE(1330)															positions1 = true;
-            														}
-HXDLIN(1330)														_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1330)														 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1330)														_gthis1->set_text(text.substring(textIndex,endIndex));
-HXDLIN(1330)														positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1330)														Float width = ((Float)0.0);
-HXDLIN(1330)														{
-HXLINE(1330)															int _g = 0;
-HXDLIN(1330)															while((_g < positions->length)){
-HXLINE(1330)																 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1330)																_g = (_g + 1);
-HXDLIN(1330)																width = (width + position->advance->x);
-            															}
-            														}
-HXDLIN(1330)														widthValue = width;
-            													}
-            													else {
-HXLINE(1330)														int tempIndex = textIndex;
-HXDLIN(1330)														int tempRangeEnd = formatRange->end;
-HXDLIN(1330)														int countRanges = 0;
-HXDLIN(1330)														positions = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN(1330)														widthValue = ( (Float)(0) );
-HXDLIN(1330)														while(true){
-HXLINE(1330)															if ((tempIndex != tempRangeEnd)) {
-HXLINE(1330)																::String text = _gthis->text;
-HXDLIN(1330)																Float letterSpacing = ((Float)0.0);
-HXDLIN(1330)																if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1330)																	letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
-            																}
-HXDLIN(1330)																if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1330)																	_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-            																}
-HXDLIN(1330)																_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1330)																_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1330)																if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1330)																	_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
-            																}
-HXDLIN(1330)																_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1330)																bool _hx_tmp;
-HXDLIN(1330)																if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1330)																	_hx_tmp = (_gthis->sharpness < 400);
-            																}
-            																else {
-HXLINE(1330)																	_hx_tmp = true;
-            																}
-HXDLIN(1330)																_gthis->_hx___textLayout->autoHint = _hx_tmp;
-HXDLIN(1330)																 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1330)																_gthis1->set_text(text.substring(tempIndex,tempRangeEnd));
-HXDLIN(1330)																::Array< ::Dynamic> tempPositions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1330)																positions = positions->concat(tempPositions);
-            															}
-HXDLIN(1330)															if ((tempRangeEnd != endIndex)) {
-HXLINE(1330)																bool _hx_tmp;
-HXDLIN(1330)																if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1330)																	rangeIndex = (rangeIndex + 1);
-HXDLIN(1330)																	formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1330)																	currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1330)																	font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-HXDLIN(1330)																	_hx_tmp = true;
-            																}
-            																else {
-HXLINE(1330)																	_hx_tmp = false;
-            																}
-HXDLIN(1330)																if (!(_hx_tmp)) {
-HXLINE(1330)																	::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1092,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
-HXDLIN(1330)																	goto _hx_goto_27;
-            																}
-HXDLIN(1330)																tempIndex = tempRangeEnd;
-HXDLIN(1330)																if ((endIndex < formatRange->end)) {
-HXLINE(1330)																	tempRangeEnd = endIndex;
-            																}
-            																else {
-HXLINE(1330)																	tempRangeEnd = formatRange->end;
-            																}
-HXDLIN(1330)																countRanges = (countRanges + 1);
-            															}
-            															else {
-HXLINE(1330)																Float width = ((Float)0.0);
-HXDLIN(1330)																{
-HXLINE(1330)																	int _g = 0;
-HXDLIN(1330)																	while((_g < positions->length)){
-HXLINE(1330)																		 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1330)																		_g = (_g + 1);
-HXDLIN(1330)																		width = (width + position->advance->x);
-            																	}
-            																}
-HXDLIN(1330)																widthValue = width;
-HXDLIN(1330)																goto _hx_goto_27;
-            															}
-            														}
-            														_hx_goto_27:;
-HXDLIN(1330)														rangeIndex = (rangeIndex - (countRanges + 1));
-HXDLIN(1330)														if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1330)															rangeIndex = (rangeIndex + 1);
-HXDLIN(1330)															formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1330)															currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1330)															font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-            														}
-            													}
-            												}
-            											}
-HXDLIN(1330)											positionWidth = ( (Float)(0) );
             										}
             									}
-            									_hx_goto_22:;
             								}
-HXDLIN(1330)								placeIndex = ((textIndex + i) - bufferCount);
-HXDLIN(1330)								{
-HXLINE(1330)									if ((placeIndex <= formatRange->end)) {
-HXLINE(1330)										::String text = _gthis->text;
-HXDLIN(1330)										Float letterSpacing = ((Float)0.0);
-HXDLIN(1330)										if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1330)											letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+HXLINE(1265)								placeIndex = ((textIndex + i) - bufferCount);
+HXLINE(1307)								{
+HXLINE(1307)									if ((placeIndex <= formatRange->end)) {
+HXLINE(1307)										::String text = _gthis->text;
+HXDLIN(1307)										Float letterSpacing = ((Float)0.0);
+HXDLIN(1307)										if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)											letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
             										}
-HXDLIN(1330)										if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1330)											_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE(1307)										if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1307)											_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
             										}
-HXDLIN(1330)										_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1330)										_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1330)										if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1330)											_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+HXDLIN(1307)										_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1307)										_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1307)										if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1307)											_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
             										}
-HXDLIN(1330)										_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1330)										bool positions1;
-HXDLIN(1330)										if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1330)											positions1 = (_gthis->sharpness < 400);
+HXDLIN(1307)										_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1307)										bool positions1;
+HXDLIN(1307)										if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1307)											positions1 = (_gthis->sharpness < 400);
             										}
             										else {
-HXLINE(1330)											positions1 = true;
+HXLINE(1307)											positions1 = true;
             										}
-HXDLIN(1330)										_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1330)										 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1330)										_gthis1->set_text(text.substring(textIndex,placeIndex));
-HXDLIN(1330)										positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1330)										Float width = ((Float)0.0);
-HXDLIN(1330)										{
-HXLINE(1330)											int _g = 0;
-HXDLIN(1330)											while((_g < positions->length)){
-HXLINE(1330)												 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1330)												_g = (_g + 1);
-HXDLIN(1330)												width = (width + position->advance->x);
+HXDLIN(1307)										_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1307)										 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1307)										_gthis1->set_text(text.substring(textIndex,placeIndex));
+HXDLIN(1307)										positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1307)										Float width = ((Float)0.0);
+HXDLIN(1307)										int _g = 0;
+HXDLIN(1307)										while((_g < positions->length)){
+HXLINE(1307)											 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1307)											_g = (_g + 1);
+HXDLIN(1307)											width = (width + position->advance->x);
+            										}
+HXDLIN(1307)										widthValue = width;
+HXDLIN(1307)										bool _hx_tmp;
+HXDLIN(1307)										if (::hx::IsNotNull( layoutGroup )) {
+HXLINE(1307)											_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
+            										}
+            										else {
+HXLINE(1307)											_hx_tmp = true;
+            										}
+HXDLIN(1307)										if (_hx_tmp) {
+HXLINE( 923)											layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,placeIndex);
+HXLINE(1307)											_gthis->layoutGroups->push(layoutGroup);
+            										}
+            										else {
+HXLINE(1307)											layoutGroup->format = formatRange->format;
+HXDLIN(1307)											layoutGroup->startIndex = textIndex;
+HXDLIN(1307)											layoutGroup->endIndex = placeIndex;
+            										}
+HXDLIN(1307)										layoutGroup->positions = positions;
+HXDLIN(1307)										layoutGroup->offsetX = offsetX;
+HXDLIN(1307)										layoutGroup->ascent = ascent;
+HXDLIN(1307)										layoutGroup->descent = descent;
+HXDLIN(1307)										layoutGroup->leading = leading;
+HXDLIN(1307)										layoutGroup->lineIndex = lineIndex;
+HXDLIN(1307)										layoutGroup->offsetY = offsetY;
+HXDLIN(1307)										layoutGroup->width = widthValue;
+HXDLIN(1307)										layoutGroup->height = ( (Float)(heightValue) );
+HXDLIN(1307)										offsetX = (offsetX + widthValue);
+HXDLIN(1307)										if ((placeIndex == formatRange->end)) {
+HXLINE(1108)											layoutGroup = null();
+HXLINE(1307)											if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1307)												rangeIndex = (rangeIndex + 1);
+HXDLIN(1307)												formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1307)												currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)												font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
             											}
-            										}
-HXDLIN(1330)										widthValue = width;
-HXDLIN(1330)										bool _hx_tmp;
-HXDLIN(1330)										if (::hx::IsNotNull( layoutGroup )) {
-HXLINE(1330)											_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
-            										}
-            										else {
-HXLINE(1330)											_hx_tmp = true;
-            										}
-HXDLIN(1330)										if (_hx_tmp) {
-HXLINE(1330)											layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,placeIndex);
-HXDLIN(1330)											_gthis->layoutGroups->push(layoutGroup);
-            										}
-            										else {
-HXLINE(1330)											layoutGroup->format = formatRange->format;
-HXDLIN(1330)											layoutGroup->startIndex = textIndex;
-HXDLIN(1330)											layoutGroup->endIndex = placeIndex;
-            										}
-HXDLIN(1330)										layoutGroup->positions = positions;
-HXDLIN(1330)										int _hx_tmp1;
-HXDLIN(1330)										if (firstLineOfParagraph) {
-HXLINE(1330)											_hx_tmp1 = indent;
-            										}
-            										else {
-HXLINE(1330)											_hx_tmp1 = 0;
-            										}
-HXDLIN(1330)										layoutGroup->offsetX = (offsetX + ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp1)) ));
-HXDLIN(1330)										layoutGroup->ascent = ascent;
-HXDLIN(1330)										layoutGroup->descent = descent;
-HXDLIN(1330)										layoutGroup->leading = leading;
-HXDLIN(1330)										layoutGroup->lineIndex = lineIndex;
-HXDLIN(1330)										layoutGroup->offsetY = (offsetY + 2);
-HXDLIN(1330)										layoutGroup->width = widthValue;
-HXDLIN(1330)										layoutGroup->height = ( (Float)(heightValue) );
-HXDLIN(1330)										offsetX = (offsetX + widthValue);
-HXDLIN(1330)										if ((placeIndex == formatRange->end)) {
-HXLINE(1330)											layoutGroup = null();
-HXDLIN(1330)											if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1330)												rangeIndex = (rangeIndex + 1);
-HXDLIN(1330)												formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1330)												currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1330)												font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-            											}
-HXDLIN(1330)											{
-HXLINE(1330)												if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
-HXLINE(1330)													ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
-HXDLIN(1330)													descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
+HXLINE(1307)											{
+HXLINE(1307)												if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
+HXLINE( 939)													ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
+HXLINE( 940)													descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
             												}
             												else {
-HXLINE(1330)													bool _hx_tmp;
-HXDLIN(1330)													if (::hx::IsNotNull( font )) {
-HXLINE(1330)														_hx_tmp = (font->unitsPerEM != 0);
+HXLINE(1307)													bool _hx_tmp;
+HXDLIN(1307)													if (::hx::IsNotNull( font )) {
+HXLINE(1307)														_hx_tmp = (font->unitsPerEM != 0);
             													}
             													else {
-HXLINE(1330)														_hx_tmp = false;
+HXLINE(1307)														_hx_tmp = false;
             													}
-HXDLIN(1330)													if (_hx_tmp) {
-HXLINE(1330)														ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
-HXDLIN(1330)														descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
+HXDLIN(1307)													if (_hx_tmp) {
+HXLINE( 945)														ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
+HXLINE( 946)														descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
             													}
             													else {
-HXLINE(1330)														ascent = ( (Float)(currentFormat->size) );
-HXDLIN(1330)														descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
+HXLINE( 951)														ascent = ( (Float)(currentFormat->size) );
+HXLINE( 952)														descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
             													}
             												}
-HXDLIN(1330)												leading = ( (int)(currentFormat->leading) );
-HXDLIN(1330)												heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
-HXDLIN(1330)												if ((heightValue > maxHeightValue)) {
-HXLINE(1330)													maxHeightValue = heightValue;
+HXLINE( 955)												leading = ( (int)(currentFormat->leading) );
+HXLINE( 957)												heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
+HXLINE(1307)												if ((heightValue > maxHeightValue)) {
+HXLINE( 961)													maxHeightValue = heightValue;
             												}
-HXDLIN(1330)												if ((ascent > maxAscent)) {
-HXLINE(1330)													maxAscent = ascent;
+HXLINE(1307)												if ((ascent > maxAscent)) {
+HXLINE( 966)													maxAscent = ascent;
             												}
             											}
             										}
             									}
             									else {
-HXLINE(1330)										while(true){
-HXLINE(1330)											int tempRangeEnd;
-HXDLIN(1330)											if ((placeIndex < formatRange->end)) {
-HXLINE(1330)												tempRangeEnd = placeIndex;
+HXLINE(1307)										while(true){
+HXLINE(1307)											int tempRangeEnd;
+HXDLIN(1307)											if ((placeIndex < formatRange->end)) {
+HXLINE(1307)												tempRangeEnd = placeIndex;
             											}
             											else {
-HXLINE(1330)												tempRangeEnd = formatRange->end;
+HXLINE(1307)												tempRangeEnd = formatRange->end;
             											}
-HXDLIN(1330)											if ((textIndex != tempRangeEnd)) {
-HXLINE(1330)												::String text = _gthis->text;
-HXDLIN(1330)												Float letterSpacing = ((Float)0.0);
-HXDLIN(1330)												if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1330)													letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+HXDLIN(1307)											if ((textIndex != tempRangeEnd)) {
+HXLINE(1307)												::String text = _gthis->text;
+HXDLIN(1307)												Float letterSpacing = ((Float)0.0);
+HXDLIN(1307)												if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)													letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
             												}
-HXDLIN(1330)												if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1330)													_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE(1307)												if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1307)													_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
             												}
-HXDLIN(1330)												_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1330)												_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1330)												if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1330)													_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+HXDLIN(1307)												_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1307)												_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1307)												if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1307)													_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
             												}
-HXDLIN(1330)												_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1330)												bool positions1;
-HXDLIN(1330)												if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1330)													positions1 = (_gthis->sharpness < 400);
+HXDLIN(1307)												_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1307)												bool positions1;
+HXDLIN(1307)												if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1307)													positions1 = (_gthis->sharpness < 400);
             												}
             												else {
-HXLINE(1330)													positions1 = true;
+HXLINE(1307)													positions1 = true;
             												}
-HXDLIN(1330)												_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1330)												 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1330)												_gthis1->set_text(text.substring(textIndex,tempRangeEnd));
-HXDLIN(1330)												positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1330)												Float width = ((Float)0.0);
-HXDLIN(1330)												{
-HXLINE(1330)													int _g = 0;
-HXDLIN(1330)													while((_g < positions->length)){
-HXLINE(1330)														 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1330)														_g = (_g + 1);
-HXDLIN(1330)														width = (width + position->advance->x);
-            													}
+HXDLIN(1307)												_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1307)												 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1307)												_gthis1->set_text(text.substring(textIndex,tempRangeEnd));
+HXDLIN(1307)												positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1307)												Float width = ((Float)0.0);
+HXDLIN(1307)												int _g = 0;
+HXDLIN(1307)												while((_g < positions->length)){
+HXLINE(1307)													 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1307)													_g = (_g + 1);
+HXDLIN(1307)													width = (width + position->advance->x);
             												}
-HXDLIN(1330)												widthValue = width;
-HXDLIN(1330)												bool _hx_tmp;
-HXDLIN(1330)												if (::hx::IsNotNull( layoutGroup )) {
-HXLINE(1330)													_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
+HXDLIN(1307)												widthValue = width;
+HXDLIN(1307)												bool _hx_tmp;
+HXDLIN(1307)												if (::hx::IsNotNull( layoutGroup )) {
+HXLINE(1307)													_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
             												}
             												else {
-HXLINE(1330)													_hx_tmp = true;
+HXLINE(1307)													_hx_tmp = true;
             												}
-HXDLIN(1330)												if (_hx_tmp) {
-HXLINE(1330)													layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,tempRangeEnd);
-HXDLIN(1330)													_gthis->layoutGroups->push(layoutGroup);
-            												}
-            												else {
-HXLINE(1330)													layoutGroup->format = formatRange->format;
-HXDLIN(1330)													layoutGroup->startIndex = textIndex;
-HXDLIN(1330)													layoutGroup->endIndex = tempRangeEnd;
-            												}
-HXDLIN(1330)												layoutGroup->positions = positions;
-HXDLIN(1330)												int _hx_tmp1;
-HXDLIN(1330)												if (firstLineOfParagraph) {
-HXLINE(1330)													_hx_tmp1 = indent;
+HXDLIN(1307)												if (_hx_tmp) {
+HXLINE( 923)													layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,tempRangeEnd);
+HXLINE(1307)													_gthis->layoutGroups->push(layoutGroup);
             												}
             												else {
-HXLINE(1330)													_hx_tmp1 = 0;
+HXLINE(1307)													layoutGroup->format = formatRange->format;
+HXDLIN(1307)													layoutGroup->startIndex = textIndex;
+HXDLIN(1307)													layoutGroup->endIndex = tempRangeEnd;
             												}
-HXDLIN(1330)												layoutGroup->offsetX = (offsetX + ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp1)) ));
-HXDLIN(1330)												layoutGroup->ascent = ascent;
-HXDLIN(1330)												layoutGroup->descent = descent;
-HXDLIN(1330)												layoutGroup->leading = leading;
-HXDLIN(1330)												layoutGroup->lineIndex = lineIndex;
-HXDLIN(1330)												layoutGroup->offsetY = (offsetY + 2);
-HXDLIN(1330)												layoutGroup->width = widthValue;
-HXDLIN(1330)												layoutGroup->height = ( (Float)(heightValue) );
-HXDLIN(1330)												offsetX = (offsetX + widthValue);
-HXDLIN(1330)												textIndex = tempRangeEnd;
+HXDLIN(1307)												layoutGroup->positions = positions;
+HXDLIN(1307)												layoutGroup->offsetX = offsetX;
+HXDLIN(1307)												layoutGroup->ascent = ascent;
+HXDLIN(1307)												layoutGroup->descent = descent;
+HXDLIN(1307)												layoutGroup->leading = leading;
+HXDLIN(1307)												layoutGroup->lineIndex = lineIndex;
+HXDLIN(1307)												layoutGroup->offsetY = offsetY;
+HXDLIN(1307)												layoutGroup->width = widthValue;
+HXDLIN(1307)												layoutGroup->height = ( (Float)(heightValue) );
+HXDLIN(1307)												offsetX = (offsetX + widthValue);
+HXLINE(1140)												textIndex = tempRangeEnd;
             											}
-HXDLIN(1330)											if ((tempRangeEnd == formatRange->end)) {
-HXLINE(1330)												layoutGroup = null();
+HXLINE(1307)											if ((tempRangeEnd == formatRange->end)) {
+HXLINE(1143)												layoutGroup = null();
             											}
-HXDLIN(1330)											if ((tempRangeEnd == placeIndex)) {
-HXLINE(1330)												goto _hx_goto_30;
+HXLINE(1307)											if ((tempRangeEnd == placeIndex)) {
+HXLINE(1307)												goto _hx_goto_27;
             											}
-HXDLIN(1330)											bool _hx_tmp;
-HXDLIN(1330)											if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1330)												rangeIndex = (rangeIndex + 1);
-HXDLIN(1330)												formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1330)												currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1330)												font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-HXDLIN(1330)												_hx_tmp = true;
+HXDLIN(1307)											bool _hx_tmp;
+HXDLIN(1307)											if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1307)												rangeIndex = (rangeIndex + 1);
+HXDLIN(1307)												formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1307)												currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)												font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXLINE(1307)												_hx_tmp = true;
             											}
             											else {
-HXLINE(1330)												_hx_tmp = false;
+HXLINE(1307)												_hx_tmp = false;
             											}
-HXDLIN(1330)											if (!(_hx_tmp)) {
-HXLINE(1330)												::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1180,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
-HXDLIN(1330)												goto _hx_goto_30;
+HXDLIN(1307)											if (!(_hx_tmp)) {
+HXLINE(1307)												::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1149,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
+HXDLIN(1307)												goto _hx_goto_27;
             											}
-HXDLIN(1330)											{
-HXLINE(1330)												if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
-HXLINE(1330)													ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
-HXDLIN(1330)													descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
+HXDLIN(1307)											{
+HXLINE(1307)												if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
+HXLINE( 939)													ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
+HXLINE( 940)													descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
             												}
             												else {
-HXLINE(1330)													bool _hx_tmp;
-HXDLIN(1330)													if (::hx::IsNotNull( font )) {
-HXLINE(1330)														_hx_tmp = (font->unitsPerEM != 0);
+HXLINE(1307)													bool _hx_tmp;
+HXDLIN(1307)													if (::hx::IsNotNull( font )) {
+HXLINE(1307)														_hx_tmp = (font->unitsPerEM != 0);
             													}
             													else {
-HXLINE(1330)														_hx_tmp = false;
+HXLINE(1307)														_hx_tmp = false;
             													}
-HXDLIN(1330)													if (_hx_tmp) {
-HXLINE(1330)														ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
-HXDLIN(1330)														descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
+HXDLIN(1307)													if (_hx_tmp) {
+HXLINE( 945)														ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
+HXLINE( 946)														descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
             													}
             													else {
-HXLINE(1330)														ascent = ( (Float)(currentFormat->size) );
-HXDLIN(1330)														descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
+HXLINE( 951)														ascent = ( (Float)(currentFormat->size) );
+HXLINE( 952)														descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
             													}
             												}
-HXDLIN(1330)												leading = ( (int)(currentFormat->leading) );
-HXDLIN(1330)												heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
-HXDLIN(1330)												if ((heightValue > maxHeightValue)) {
-HXLINE(1330)													maxHeightValue = heightValue;
+HXLINE( 955)												leading = ( (int)(currentFormat->leading) );
+HXLINE( 957)												heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
+HXLINE(1307)												if ((heightValue > maxHeightValue)) {
+HXLINE( 961)													maxHeightValue = heightValue;
             												}
-HXDLIN(1330)												if ((ascent > maxAscent)) {
-HXLINE(1330)													maxAscent = ascent;
+HXLINE(1307)												if ((ascent > maxAscent)) {
+HXLINE( 966)													maxAscent = ascent;
             												}
             											}
             										}
-            										_hx_goto_30:;
+            										_hx_goto_27:;
             									}
-HXDLIN(1330)									textIndex = placeIndex;
+HXLINE(1157)									textIndex = placeIndex;
             								}
-HXDLIN(1330)								{
-HXLINE(1330)									{
-HXLINE(1330)										if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
-HXLINE(1330)											ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
-HXDLIN(1330)											descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
+HXLINE(1307)								{
+HXLINE(1307)									{
+HXLINE(1307)										if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
+HXLINE( 939)											ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
+HXLINE( 940)											descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
             										}
             										else {
-HXLINE(1330)											bool _hx_tmp;
-HXDLIN(1330)											if (::hx::IsNotNull( font )) {
-HXLINE(1330)												_hx_tmp = (font->unitsPerEM != 0);
+HXLINE(1307)											bool _hx_tmp;
+HXDLIN(1307)											if (::hx::IsNotNull( font )) {
+HXLINE(1307)												_hx_tmp = (font->unitsPerEM != 0);
             											}
             											else {
-HXLINE(1330)												_hx_tmp = false;
+HXLINE(1307)												_hx_tmp = false;
             											}
-HXDLIN(1330)											if (_hx_tmp) {
-HXLINE(1330)												ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
-HXDLIN(1330)												descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
+HXDLIN(1307)											if (_hx_tmp) {
+HXLINE( 945)												ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
+HXLINE( 946)												descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
             											}
             											else {
-HXLINE(1330)												ascent = ( (Float)(currentFormat->size) );
-HXDLIN(1330)												descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
+HXLINE( 951)												ascent = ( (Float)(currentFormat->size) );
+HXLINE( 952)												descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
             											}
             										}
-HXDLIN(1330)										leading = ( (int)(currentFormat->leading) );
-HXDLIN(1330)										heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
-HXDLIN(1330)										if ((heightValue > maxHeightValue)) {
-HXLINE(1330)											maxHeightValue = heightValue;
+HXLINE( 955)										leading = ( (int)(currentFormat->leading) );
+HXLINE( 957)										heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
+HXLINE(1307)										if ((heightValue > maxHeightValue)) {
+HXLINE( 961)											maxHeightValue = heightValue;
             										}
-HXDLIN(1330)										if ((ascent > maxAscent)) {
-HXLINE(1330)											maxAscent = ascent;
+HXLINE(1307)										if ((ascent > maxAscent)) {
+HXLINE( 966)											maxAscent = ascent;
             										}
             									}
-HXDLIN(1330)									int i1 = _gthis->layoutGroups->get_length();
-HXDLIN(1330)									while(true){
-HXLINE(1330)										i1 = (i1 - 1);
-HXDLIN(1330)										if (!((i1 > -1))) {
-HXLINE(1330)											goto _hx_goto_32;
+HXLINE(1307)									int i1 = _gthis->layoutGroups->get_length();
+HXDLIN(1307)									while(true){
+HXLINE(1307)										i1 = (i1 - 1);
+HXDLIN(1307)										if (!((i1 > -1))) {
+HXLINE(1307)											goto _hx_goto_29;
             										}
-HXDLIN(1330)										 ::openfl::text::_internal::TextLayoutGroup lg = _gthis->layoutGroups->get(i1).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
-HXDLIN(1330)										if ((lg->lineIndex < lineIndex)) {
-HXLINE(1330)											goto _hx_goto_32;
+HXDLIN(1307)										 ::openfl::text::_internal::TextLayoutGroup lg = _gthis->layoutGroups->get(i1).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
+HXDLIN(1307)										if ((lg->lineIndex < lineIndex)) {
+HXLINE(1307)											goto _hx_goto_29;
             										}
-HXDLIN(1330)										if ((lg->lineIndex > lineIndex)) {
-HXLINE(1330)											continue;
+HXDLIN(1307)										if ((lg->lineIndex > lineIndex)) {
+HXLINE(1307)											continue;
             										}
-HXDLIN(1330)										lg->ascent = maxAscent;
-HXDLIN(1330)										lg->height = ( (Float)(maxHeightValue) );
+HXDLIN(1307)										lg->ascent = maxAscent;
+HXDLIN(1307)										lg->height = ( (Float)(maxHeightValue) );
             									}
-            									_hx_goto_32:;
-HXDLIN(1330)									offsetY = (offsetY + maxHeightValue);
-HXDLIN(1330)									maxAscent = ((Float)0.0);
-HXDLIN(1330)									maxHeightValue = 0;
-HXDLIN(1330)									lineIndex = (lineIndex + 1);
-HXDLIN(1330)									offsetX = ( (Float)(0) );
-HXDLIN(1330)									firstLineOfParagraph = false;
+            									_hx_goto_29:;
+HXDLIN(1307)									offsetY = (offsetY + maxHeightValue);
+HXLINE(1182)									maxAscent = ((Float)0.0);
+HXLINE(1183)									maxHeightValue = 0;
+HXLINE(1307)									lineIndex = (lineIndex + 1);
+HXLINE(1186)									offsetX = ( (Float)(2) );
             								}
-HXDLIN(1330)								if ((placeIndex >= breakIndex)) {
-HXLINE(1330)									positions = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN(1330)									widthValue = ( (Float)(0) );
+HXLINE(1307)								if ((breakIndex <= formatRange->end)) {
+HXLINE(1307)									::String text = _gthis->text;
+HXDLIN(1307)									Float letterSpacing = ((Float)0.0);
+HXDLIN(1307)									if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)										letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+            									}
+HXLINE(1307)									if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1307)										_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+            									}
+HXDLIN(1307)									_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1307)									_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1307)									if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1307)										_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+            									}
+HXDLIN(1307)									_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1307)									bool positions1;
+HXDLIN(1307)									if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1307)										positions1 = (_gthis->sharpness < 400);
+            									}
+            									else {
+HXLINE(1307)										positions1 = true;
+            									}
+HXDLIN(1307)									_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1307)									 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1307)									_gthis1->set_text(text.substring(placeIndex,breakIndex));
+HXDLIN(1307)									positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1307)									Float width = ((Float)0.0);
+HXDLIN(1307)									int _g = 0;
+HXDLIN(1307)									while((_g < positions->length)){
+HXLINE(1307)										 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1307)										_g = (_g + 1);
+HXDLIN(1307)										width = (width + position->advance->x);
+            									}
+HXDLIN(1307)									widthValue = width;
             								}
             								else {
-HXLINE(1330)									if ((breakIndex <= formatRange->end)) {
-HXLINE(1330)										::String text = _gthis->text;
-HXDLIN(1330)										Float letterSpacing = ((Float)0.0);
-HXDLIN(1330)										if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1330)											letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
-            										}
-HXDLIN(1330)										if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1330)											_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-            										}
-HXDLIN(1330)										_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1330)										_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1330)										if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1330)											_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
-            										}
-HXDLIN(1330)										_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1330)										bool positions1;
-HXDLIN(1330)										if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1330)											positions1 = (_gthis->sharpness < 400);
-            										}
-            										else {
-HXLINE(1330)											positions1 = true;
-            										}
-HXDLIN(1330)										_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1330)										 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1330)										_gthis1->set_text(text.substring(placeIndex,breakIndex));
-HXDLIN(1330)										positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1330)										Float width = ((Float)0.0);
-HXDLIN(1330)										{
-HXLINE(1330)											int _g = 0;
-HXDLIN(1330)											while((_g < positions->length)){
-HXLINE(1330)												 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1330)												_g = (_g + 1);
-HXDLIN(1330)												width = (width + position->advance->x);
+HXLINE(1307)									int tempIndex = placeIndex;
+HXDLIN(1307)									int tempRangeEnd = formatRange->end;
+HXDLIN(1307)									int countRanges = 0;
+HXLINE(1046)									positions = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(1047)									widthValue = ( (Float)(0) );
+HXLINE(1307)									while(true){
+HXLINE(1307)										if ((tempIndex != tempRangeEnd)) {
+HXLINE(1307)											::String text = _gthis->text;
+HXDLIN(1307)											Float letterSpacing = ((Float)0.0);
+HXDLIN(1307)											if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)												letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
             											}
-            										}
-HXDLIN(1330)										widthValue = width;
-            									}
-            									else {
-HXLINE(1330)										int tempIndex = placeIndex;
-HXDLIN(1330)										int tempRangeEnd = formatRange->end;
-HXDLIN(1330)										int countRanges = 0;
-HXDLIN(1330)										positions = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN(1330)										widthValue = ( (Float)(0) );
-HXDLIN(1330)										while(true){
-HXLINE(1330)											if ((tempIndex != tempRangeEnd)) {
-HXLINE(1330)												::String text = _gthis->text;
-HXDLIN(1330)												Float letterSpacing = ((Float)0.0);
-HXDLIN(1330)												if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1330)													letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
-            												}
-HXDLIN(1330)												if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1330)													_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-            												}
-HXDLIN(1330)												_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1330)												_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1330)												if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1330)													_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
-            												}
-HXDLIN(1330)												_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1330)												bool _hx_tmp;
-HXDLIN(1330)												if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1330)													_hx_tmp = (_gthis->sharpness < 400);
-            												}
-            												else {
-HXLINE(1330)													_hx_tmp = true;
-            												}
-HXDLIN(1330)												_gthis->_hx___textLayout->autoHint = _hx_tmp;
-HXDLIN(1330)												 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1330)												_gthis1->set_text(text.substring(tempIndex,tempRangeEnd));
-HXDLIN(1330)												::Array< ::Dynamic> tempPositions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1330)												positions = positions->concat(tempPositions);
+HXLINE(1307)											if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1307)												_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
             											}
-HXDLIN(1330)											if ((tempRangeEnd != breakIndex)) {
-HXLINE(1330)												bool _hx_tmp;
-HXDLIN(1330)												if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1330)													rangeIndex = (rangeIndex + 1);
-HXDLIN(1330)													formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1330)													currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1330)													font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-HXDLIN(1330)													_hx_tmp = true;
-            												}
-            												else {
-HXLINE(1330)													_hx_tmp = false;
-            												}
-HXDLIN(1330)												if (!(_hx_tmp)) {
-HXLINE(1330)													::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1092,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
-HXDLIN(1330)													goto _hx_goto_34;
-            												}
-HXDLIN(1330)												tempIndex = tempRangeEnd;
-HXDLIN(1330)												if ((breakIndex < formatRange->end)) {
-HXLINE(1330)													tempRangeEnd = breakIndex;
-            												}
-            												else {
-HXLINE(1330)													tempRangeEnd = formatRange->end;
-            												}
-HXDLIN(1330)												countRanges = (countRanges + 1);
+HXDLIN(1307)											_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1307)											_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1307)											if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1307)												_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+            											}
+HXDLIN(1307)											_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1307)											bool _hx_tmp;
+HXDLIN(1307)											if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1307)												_hx_tmp = (_gthis->sharpness < 400);
             											}
             											else {
-HXLINE(1330)												Float width = ((Float)0.0);
-HXDLIN(1330)												{
-HXLINE(1330)													int _g = 0;
-HXDLIN(1330)													while((_g < positions->length)){
-HXLINE(1330)														 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1330)														_g = (_g + 1);
-HXDLIN(1330)														width = (width + position->advance->x);
-            													}
-            												}
-HXDLIN(1330)												widthValue = width;
-HXDLIN(1330)												goto _hx_goto_34;
+HXLINE(1307)												_hx_tmp = true;
             											}
+HXDLIN(1307)											_gthis->_hx___textLayout->autoHint = _hx_tmp;
+HXDLIN(1307)											 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1307)											_gthis1->set_text(text.substring(tempIndex,tempRangeEnd));
+HXDLIN(1307)											::Array< ::Dynamic> tempPositions = _gthis->_hx___textLayout->get_positions();
+HXLINE(1054)											positions = positions->concat(tempPositions);
             										}
-            										_hx_goto_34:;
-HXDLIN(1330)										rangeIndex = (rangeIndex - (countRanges + 1));
-HXDLIN(1330)										if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1330)											rangeIndex = (rangeIndex + 1);
-HXDLIN(1330)											formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1330)											currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1330)											font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXLINE(1307)										if ((tempRangeEnd != breakIndex)) {
+HXLINE(1307)											bool _hx_tmp;
+HXDLIN(1307)											if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1307)												rangeIndex = (rangeIndex + 1);
+HXDLIN(1307)												formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1307)												currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)												font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXLINE(1307)												_hx_tmp = true;
+            											}
+            											else {
+HXLINE(1307)												_hx_tmp = false;
+            											}
+HXDLIN(1307)											if (!(_hx_tmp)) {
+HXLINE(1307)												::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1061,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
+HXDLIN(1307)												goto _hx_goto_31;
+            											}
+HXLINE(1065)											tempIndex = tempRangeEnd;
+HXLINE(1307)											if ((breakIndex < formatRange->end)) {
+HXLINE(1307)												tempRangeEnd = breakIndex;
+            											}
+            											else {
+HXLINE(1307)												tempRangeEnd = formatRange->end;
+            											}
+HXDLIN(1307)											countRanges = (countRanges + 1);
+            										}
+            										else {
+HXLINE(1307)											Float width = ((Float)0.0);
+HXDLIN(1307)											int _g = 0;
+HXDLIN(1307)											while((_g < positions->length)){
+HXLINE(1307)												 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1307)												_g = (_g + 1);
+HXDLIN(1307)												width = (width + position->advance->x);
+            											}
+HXDLIN(1307)											widthValue = width;
+HXDLIN(1307)											goto _hx_goto_31;
             										}
             									}
+            									_hx_goto_31:;
+HXDLIN(1307)									rangeIndex = (rangeIndex - (countRanges + 1));
+HXDLIN(1307)									if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1307)										rangeIndex = (rangeIndex + 1);
+HXDLIN(1307)										formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1307)										currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)										font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+            									}
             								}
-HXDLIN(1330)								remainingPositions = positions;
-HXDLIN(1330)								tempWidth = widthValue;
+HXLINE(1271)								remainingPositions = positions;
+HXLINE(1272)								tempWidth = widthValue;
             							}
-            							_hx_goto_20:;
+            							_hx_goto_17:;
             						}
-HXDLIN(1330)						{
-HXLINE(1330)							if ((breakIndex <= formatRange->end)) {
-HXLINE(1330)								::String text = _gthis->text;
-HXDLIN(1330)								Float letterSpacing = ((Float)0.0);
-HXDLIN(1330)								if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1330)									letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+HXLINE(1307)						{
+HXLINE(1307)							if ((breakIndex <= formatRange->end)) {
+HXLINE(1307)								::String text = _gthis->text;
+HXDLIN(1307)								Float letterSpacing = ((Float)0.0);
+HXDLIN(1307)								if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)									letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
             								}
-HXDLIN(1330)								if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1330)									_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE(1307)								if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1307)									_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
             								}
-HXDLIN(1330)								_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1330)								_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1330)								if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1330)									_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+HXDLIN(1307)								_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1307)								_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1307)								if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1307)									_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
             								}
-HXDLIN(1330)								_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1330)								bool positions1;
-HXDLIN(1330)								if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1330)									positions1 = (_gthis->sharpness < 400);
+HXDLIN(1307)								_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1307)								bool positions1;
+HXDLIN(1307)								if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1307)									positions1 = (_gthis->sharpness < 400);
             								}
             								else {
-HXLINE(1330)									positions1 = true;
+HXLINE(1307)									positions1 = true;
             								}
-HXDLIN(1330)								_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1330)								 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1330)								_gthis1->set_text(text.substring(textIndex,breakIndex));
-HXDLIN(1330)								positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1330)								Float width = ((Float)0.0);
-HXDLIN(1330)								{
-HXLINE(1330)									int _g = 0;
-HXDLIN(1330)									while((_g < positions->length)){
-HXLINE(1330)										 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1330)										_g = (_g + 1);
-HXDLIN(1330)										width = (width + position->advance->x);
+HXDLIN(1307)								_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1307)								 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1307)								_gthis1->set_text(text.substring(textIndex,breakIndex));
+HXDLIN(1307)								positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1307)								Float width = ((Float)0.0);
+HXDLIN(1307)								int _g = 0;
+HXDLIN(1307)								while((_g < positions->length)){
+HXLINE(1307)									 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1307)									_g = (_g + 1);
+HXDLIN(1307)									width = (width + position->advance->x);
+            								}
+HXDLIN(1307)								widthValue = width;
+HXDLIN(1307)								bool _hx_tmp;
+HXDLIN(1307)								if (::hx::IsNotNull( layoutGroup )) {
+HXLINE(1307)									_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
+            								}
+            								else {
+HXLINE(1307)									_hx_tmp = true;
+            								}
+HXDLIN(1307)								if (_hx_tmp) {
+HXLINE( 923)									layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,breakIndex);
+HXLINE(1307)									_gthis->layoutGroups->push(layoutGroup);
+            								}
+            								else {
+HXLINE(1307)									layoutGroup->format = formatRange->format;
+HXDLIN(1307)									layoutGroup->startIndex = textIndex;
+HXDLIN(1307)									layoutGroup->endIndex = breakIndex;
+            								}
+HXDLIN(1307)								layoutGroup->positions = positions;
+HXDLIN(1307)								layoutGroup->offsetX = offsetX;
+HXDLIN(1307)								layoutGroup->ascent = ascent;
+HXDLIN(1307)								layoutGroup->descent = descent;
+HXDLIN(1307)								layoutGroup->leading = leading;
+HXDLIN(1307)								layoutGroup->lineIndex = lineIndex;
+HXDLIN(1307)								layoutGroup->offsetY = offsetY;
+HXDLIN(1307)								layoutGroup->width = widthValue;
+HXDLIN(1307)								layoutGroup->height = ( (Float)(heightValue) );
+HXDLIN(1307)								offsetX = (offsetX + widthValue);
+HXDLIN(1307)								if ((breakIndex == formatRange->end)) {
+HXLINE(1108)									layoutGroup = null();
+HXLINE(1307)									if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1307)										rangeIndex = (rangeIndex + 1);
+HXDLIN(1307)										formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1307)										currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)										font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
             									}
-            								}
-HXDLIN(1330)								widthValue = width;
-HXDLIN(1330)								bool _hx_tmp;
-HXDLIN(1330)								if (::hx::IsNotNull( layoutGroup )) {
-HXLINE(1330)									_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
-            								}
-            								else {
-HXLINE(1330)									_hx_tmp = true;
-            								}
-HXDLIN(1330)								if (_hx_tmp) {
-HXLINE(1330)									layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,breakIndex);
-HXDLIN(1330)									_gthis->layoutGroups->push(layoutGroup);
-            								}
-            								else {
-HXLINE(1330)									layoutGroup->format = formatRange->format;
-HXDLIN(1330)									layoutGroup->startIndex = textIndex;
-HXDLIN(1330)									layoutGroup->endIndex = breakIndex;
-            								}
-HXDLIN(1330)								layoutGroup->positions = positions;
-HXDLIN(1330)								int _hx_tmp1;
-HXDLIN(1330)								if (firstLineOfParagraph) {
-HXLINE(1330)									_hx_tmp1 = indent;
-            								}
-            								else {
-HXLINE(1330)									_hx_tmp1 = 0;
-            								}
-HXDLIN(1330)								layoutGroup->offsetX = (offsetX + ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp1)) ));
-HXDLIN(1330)								layoutGroup->ascent = ascent;
-HXDLIN(1330)								layoutGroup->descent = descent;
-HXDLIN(1330)								layoutGroup->leading = leading;
-HXDLIN(1330)								layoutGroup->lineIndex = lineIndex;
-HXDLIN(1330)								layoutGroup->offsetY = (offsetY + 2);
-HXDLIN(1330)								layoutGroup->width = widthValue;
-HXDLIN(1330)								layoutGroup->height = ( (Float)(heightValue) );
-HXDLIN(1330)								offsetX = (offsetX + widthValue);
-HXDLIN(1330)								if ((breakIndex == formatRange->end)) {
-HXLINE(1330)									layoutGroup = null();
-HXDLIN(1330)									if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1330)										rangeIndex = (rangeIndex + 1);
-HXDLIN(1330)										formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1330)										currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1330)										font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-            									}
-HXDLIN(1330)									{
-HXLINE(1330)										if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
-HXLINE(1330)											ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
-HXDLIN(1330)											descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
+HXLINE(1307)									{
+HXLINE(1307)										if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
+HXLINE( 939)											ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
+HXLINE( 940)											descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
             										}
             										else {
-HXLINE(1330)											bool _hx_tmp;
-HXDLIN(1330)											if (::hx::IsNotNull( font )) {
-HXLINE(1330)												_hx_tmp = (font->unitsPerEM != 0);
+HXLINE(1307)											bool _hx_tmp;
+HXDLIN(1307)											if (::hx::IsNotNull( font )) {
+HXLINE(1307)												_hx_tmp = (font->unitsPerEM != 0);
             											}
             											else {
-HXLINE(1330)												_hx_tmp = false;
+HXLINE(1307)												_hx_tmp = false;
             											}
-HXDLIN(1330)											if (_hx_tmp) {
-HXLINE(1330)												ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
-HXDLIN(1330)												descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
+HXDLIN(1307)											if (_hx_tmp) {
+HXLINE( 945)												ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
+HXLINE( 946)												descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
             											}
             											else {
-HXLINE(1330)												ascent = ( (Float)(currentFormat->size) );
-HXDLIN(1330)												descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
+HXLINE( 951)												ascent = ( (Float)(currentFormat->size) );
+HXLINE( 952)												descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
             											}
             										}
-HXDLIN(1330)										leading = ( (int)(currentFormat->leading) );
-HXDLIN(1330)										heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
-HXDLIN(1330)										if ((heightValue > maxHeightValue)) {
-HXLINE(1330)											maxHeightValue = heightValue;
+HXLINE( 955)										leading = ( (int)(currentFormat->leading) );
+HXLINE( 957)										heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
+HXLINE(1307)										if ((heightValue > maxHeightValue)) {
+HXLINE( 961)											maxHeightValue = heightValue;
             										}
-HXDLIN(1330)										if ((ascent > maxAscent)) {
-HXLINE(1330)											maxAscent = ascent;
+HXLINE(1307)										if ((ascent > maxAscent)) {
+HXLINE( 966)											maxAscent = ascent;
             										}
             									}
             								}
             							}
             							else {
-HXLINE(1330)								while(true){
-HXLINE(1330)									int tempRangeEnd;
-HXDLIN(1330)									if ((breakIndex < formatRange->end)) {
-HXLINE(1330)										tempRangeEnd = breakIndex;
+HXLINE(1307)								while(true){
+HXLINE(1307)									int tempRangeEnd;
+HXDLIN(1307)									if ((breakIndex < formatRange->end)) {
+HXLINE(1307)										tempRangeEnd = breakIndex;
             									}
             									else {
-HXLINE(1330)										tempRangeEnd = formatRange->end;
+HXLINE(1307)										tempRangeEnd = formatRange->end;
             									}
-HXDLIN(1330)									if ((textIndex != tempRangeEnd)) {
-HXLINE(1330)										::String text = _gthis->text;
-HXDLIN(1330)										Float letterSpacing = ((Float)0.0);
-HXDLIN(1330)										if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1330)											letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+HXDLIN(1307)									if ((textIndex != tempRangeEnd)) {
+HXLINE(1307)										::String text = _gthis->text;
+HXDLIN(1307)										Float letterSpacing = ((Float)0.0);
+HXDLIN(1307)										if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)											letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
             										}
-HXDLIN(1330)										if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1330)											_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE(1307)										if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1307)											_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
             										}
-HXDLIN(1330)										_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1330)										_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1330)										if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1330)											_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+HXDLIN(1307)										_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1307)										_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1307)										if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1307)											_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
             										}
-HXDLIN(1330)										_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1330)										bool positions1;
-HXDLIN(1330)										if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1330)											positions1 = (_gthis->sharpness < 400);
+HXDLIN(1307)										_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1307)										bool positions1;
+HXDLIN(1307)										if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1307)											positions1 = (_gthis->sharpness < 400);
             										}
             										else {
-HXLINE(1330)											positions1 = true;
+HXLINE(1307)											positions1 = true;
             										}
-HXDLIN(1330)										_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1330)										 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1330)										_gthis1->set_text(text.substring(textIndex,tempRangeEnd));
-HXDLIN(1330)										positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1330)										Float width = ((Float)0.0);
-HXDLIN(1330)										{
-HXLINE(1330)											int _g = 0;
-HXDLIN(1330)											while((_g < positions->length)){
-HXLINE(1330)												 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1330)												_g = (_g + 1);
-HXDLIN(1330)												width = (width + position->advance->x);
-            											}
+HXDLIN(1307)										_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1307)										 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1307)										_gthis1->set_text(text.substring(textIndex,tempRangeEnd));
+HXDLIN(1307)										positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1307)										Float width = ((Float)0.0);
+HXDLIN(1307)										int _g = 0;
+HXDLIN(1307)										while((_g < positions->length)){
+HXLINE(1307)											 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1307)											_g = (_g + 1);
+HXDLIN(1307)											width = (width + position->advance->x);
             										}
-HXDLIN(1330)										widthValue = width;
-HXDLIN(1330)										bool _hx_tmp;
-HXDLIN(1330)										if (::hx::IsNotNull( layoutGroup )) {
-HXLINE(1330)											_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
+HXDLIN(1307)										widthValue = width;
+HXDLIN(1307)										bool _hx_tmp;
+HXDLIN(1307)										if (::hx::IsNotNull( layoutGroup )) {
+HXLINE(1307)											_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
             										}
             										else {
-HXLINE(1330)											_hx_tmp = true;
+HXLINE(1307)											_hx_tmp = true;
             										}
-HXDLIN(1330)										if (_hx_tmp) {
-HXLINE(1330)											layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,tempRangeEnd);
-HXDLIN(1330)											_gthis->layoutGroups->push(layoutGroup);
-            										}
-            										else {
-HXLINE(1330)											layoutGroup->format = formatRange->format;
-HXDLIN(1330)											layoutGroup->startIndex = textIndex;
-HXDLIN(1330)											layoutGroup->endIndex = tempRangeEnd;
-            										}
-HXDLIN(1330)										layoutGroup->positions = positions;
-HXDLIN(1330)										int _hx_tmp1;
-HXDLIN(1330)										if (firstLineOfParagraph) {
-HXLINE(1330)											_hx_tmp1 = indent;
+HXDLIN(1307)										if (_hx_tmp) {
+HXLINE( 923)											layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,tempRangeEnd);
+HXLINE(1307)											_gthis->layoutGroups->push(layoutGroup);
             										}
             										else {
-HXLINE(1330)											_hx_tmp1 = 0;
+HXLINE(1307)											layoutGroup->format = formatRange->format;
+HXDLIN(1307)											layoutGroup->startIndex = textIndex;
+HXDLIN(1307)											layoutGroup->endIndex = tempRangeEnd;
             										}
-HXDLIN(1330)										layoutGroup->offsetX = (offsetX + ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp1)) ));
-HXDLIN(1330)										layoutGroup->ascent = ascent;
-HXDLIN(1330)										layoutGroup->descent = descent;
-HXDLIN(1330)										layoutGroup->leading = leading;
-HXDLIN(1330)										layoutGroup->lineIndex = lineIndex;
-HXDLIN(1330)										layoutGroup->offsetY = (offsetY + 2);
-HXDLIN(1330)										layoutGroup->width = widthValue;
-HXDLIN(1330)										layoutGroup->height = ( (Float)(heightValue) );
-HXDLIN(1330)										offsetX = (offsetX + widthValue);
-HXDLIN(1330)										textIndex = tempRangeEnd;
+HXDLIN(1307)										layoutGroup->positions = positions;
+HXDLIN(1307)										layoutGroup->offsetX = offsetX;
+HXDLIN(1307)										layoutGroup->ascent = ascent;
+HXDLIN(1307)										layoutGroup->descent = descent;
+HXDLIN(1307)										layoutGroup->leading = leading;
+HXDLIN(1307)										layoutGroup->lineIndex = lineIndex;
+HXDLIN(1307)										layoutGroup->offsetY = offsetY;
+HXDLIN(1307)										layoutGroup->width = widthValue;
+HXDLIN(1307)										layoutGroup->height = ( (Float)(heightValue) );
+HXDLIN(1307)										offsetX = (offsetX + widthValue);
+HXLINE(1140)										textIndex = tempRangeEnd;
             									}
-HXDLIN(1330)									if ((tempRangeEnd == formatRange->end)) {
-HXLINE(1330)										layoutGroup = null();
+HXLINE(1307)									if ((tempRangeEnd == formatRange->end)) {
+HXLINE(1143)										layoutGroup = null();
             									}
-HXDLIN(1330)									if ((tempRangeEnd == breakIndex)) {
-HXLINE(1330)										goto _hx_goto_37;
+HXLINE(1307)									if ((tempRangeEnd == breakIndex)) {
+HXLINE(1307)										goto _hx_goto_34;
             									}
-HXDLIN(1330)									bool _hx_tmp;
-HXDLIN(1330)									if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1330)										rangeIndex = (rangeIndex + 1);
-HXDLIN(1330)										formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1330)										currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1330)										font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-HXDLIN(1330)										_hx_tmp = true;
+HXDLIN(1307)									bool _hx_tmp;
+HXDLIN(1307)									if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1307)										rangeIndex = (rangeIndex + 1);
+HXDLIN(1307)										formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1307)										currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)										font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXLINE(1307)										_hx_tmp = true;
             									}
             									else {
-HXLINE(1330)										_hx_tmp = false;
+HXLINE(1307)										_hx_tmp = false;
             									}
-HXDLIN(1330)									if (!(_hx_tmp)) {
-HXLINE(1330)										::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1180,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
-HXDLIN(1330)										goto _hx_goto_37;
+HXDLIN(1307)									if (!(_hx_tmp)) {
+HXLINE(1307)										::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1149,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
+HXDLIN(1307)										goto _hx_goto_34;
             									}
-HXDLIN(1330)									{
-HXLINE(1330)										if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
-HXLINE(1330)											ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
-HXDLIN(1330)											descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
+HXDLIN(1307)									{
+HXLINE(1307)										if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
+HXLINE( 939)											ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
+HXLINE( 940)											descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
             										}
             										else {
-HXLINE(1330)											bool _hx_tmp;
-HXDLIN(1330)											if (::hx::IsNotNull( font )) {
-HXLINE(1330)												_hx_tmp = (font->unitsPerEM != 0);
+HXLINE(1307)											bool _hx_tmp;
+HXDLIN(1307)											if (::hx::IsNotNull( font )) {
+HXLINE(1307)												_hx_tmp = (font->unitsPerEM != 0);
             											}
             											else {
-HXLINE(1330)												_hx_tmp = false;
+HXLINE(1307)												_hx_tmp = false;
             											}
-HXDLIN(1330)											if (_hx_tmp) {
-HXLINE(1330)												ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
-HXDLIN(1330)												descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
+HXDLIN(1307)											if (_hx_tmp) {
+HXLINE( 945)												ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
+HXLINE( 946)												descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
             											}
             											else {
-HXLINE(1330)												ascent = ( (Float)(currentFormat->size) );
-HXDLIN(1330)												descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
+HXLINE( 951)												ascent = ( (Float)(currentFormat->size) );
+HXLINE( 952)												descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
             											}
             										}
-HXDLIN(1330)										leading = ( (int)(currentFormat->leading) );
-HXDLIN(1330)										heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
-HXDLIN(1330)										if ((heightValue > maxHeightValue)) {
-HXLINE(1330)											maxHeightValue = heightValue;
+HXLINE( 955)										leading = ( (int)(currentFormat->leading) );
+HXLINE( 957)										heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
+HXLINE(1307)										if ((heightValue > maxHeightValue)) {
+HXLINE( 961)											maxHeightValue = heightValue;
             										}
-HXDLIN(1330)										if ((ascent > maxAscent)) {
-HXLINE(1330)											maxAscent = ascent;
+HXLINE(1307)										if ((ascent > maxAscent)) {
+HXLINE( 966)											maxAscent = ascent;
             										}
             									}
             								}
-            								_hx_goto_37:;
+            								_hx_goto_34:;
             							}
-HXDLIN(1330)							textIndex = breakIndex;
+HXLINE(1157)							textIndex = breakIndex;
             						}
             					}
-HXLINE(1332)					layoutGroup = null();
+HXLINE(1309)					layoutGroup = null();
             				}
             				else {
-HXLINE(1334)					bool _hx_tmp;
-HXDLIN(1334)					if (::hx::IsNotNull( layoutGroup )) {
-HXLINE(1334)						_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
+HXLINE(1311)					bool _hx_tmp;
+HXDLIN(1311)					if (::hx::IsNotNull( layoutGroup )) {
+HXLINE(1311)						_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
             					}
             					else {
-HXLINE(1334)						_hx_tmp = false;
+HXLINE(1311)						_hx_tmp = false;
             					}
-HXDLIN(1334)					if (_hx_tmp) {
-HXLINE(1337)						if ((layoutGroup->endIndex == spaceIndex)) {
-HXLINE(1339)							 ::openfl::text::_internal::TextLayoutGroup layoutGroup1 = layoutGroup;
-HXDLIN(1339)							int index = (layoutGroup->positions->length - 1);
-HXDLIN(1339)							Float _hx_tmp;
-HXDLIN(1339)							bool _hx_tmp1;
-HXDLIN(1339)							if ((index >= 0)) {
-HXLINE(1339)								_hx_tmp1 = (index < layoutGroup->positions->length);
+HXDLIN(1311)					if (_hx_tmp) {
+HXLINE(1314)						if ((layoutGroup->endIndex == spaceIndex)) {
+HXLINE(1316)							 ::openfl::text::_internal::TextLayoutGroup layoutGroup1 = layoutGroup;
+HXDLIN(1316)							int index = (layoutGroup->positions->length - 1);
+HXDLIN(1316)							Float _hx_tmp;
+HXDLIN(1316)							bool _hx_tmp1;
+HXDLIN(1316)							if ((index >= 0)) {
+HXLINE(1316)								_hx_tmp1 = (index < layoutGroup->positions->length);
             							}
             							else {
-HXLINE(1339)								_hx_tmp1 = false;
+HXLINE(1316)								_hx_tmp1 = false;
             							}
-HXDLIN(1339)							if (_hx_tmp1) {
-HXLINE(1339)								_hx_tmp = layoutGroup->positions->__get(index).StaticCast<  ::openfl::text::_internal::GlyphPosition >()->advance->x;
+HXDLIN(1316)							if (_hx_tmp1) {
+HXLINE(1316)								_hx_tmp = layoutGroup->positions->__get(index).StaticCast<  ::openfl::text::_internal::GlyphPosition >()->advance->x;
             							}
             							else {
-HXLINE(1339)								_hx_tmp = ( (Float)(0) );
+HXLINE(1316)								_hx_tmp = ( (Float)(0) );
             							}
-HXDLIN(1339)							layoutGroup1->width = (layoutGroup1->width - _hx_tmp);
+HXDLIN(1316)							layoutGroup1->width = (layoutGroup1->width - _hx_tmp);
             						}
-HXLINE(1342)						layoutGroup = null();
+HXLINE(1319)						layoutGroup = null();
             					}
             				}
-HXLINE(1345)				{
-HXLINE(1345)					{
-HXLINE(1345)						if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
-HXLINE(1345)							ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
-HXDLIN(1345)							descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
+HXLINE(1323)				if ((formatRange->end == breakIndex)) {
+HXLINE(1325)					if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1325)						rangeIndex = (rangeIndex + 1);
+HXDLIN(1325)						formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1325)						currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)						font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+            					}
+HXLINE(1326)					{
+HXLINE(1326)						if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
+HXLINE( 939)							ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
+HXLINE( 940)							descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
             						}
             						else {
-HXLINE(1345)							bool _hx_tmp;
-HXDLIN(1345)							if (::hx::IsNotNull( font )) {
-HXLINE(1345)								_hx_tmp = (font->unitsPerEM != 0);
+HXLINE(1326)							bool _hx_tmp;
+HXDLIN(1326)							if (::hx::IsNotNull( font )) {
+HXLINE(1326)								_hx_tmp = (font->unitsPerEM != 0);
             							}
             							else {
-HXLINE(1345)								_hx_tmp = false;
+HXLINE(1326)								_hx_tmp = false;
             							}
-HXDLIN(1345)							if (_hx_tmp) {
-HXLINE(1345)								ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
-HXDLIN(1345)								descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
+HXDLIN(1326)							if (_hx_tmp) {
+HXLINE( 945)								ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
+HXLINE( 946)								descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
             							}
             							else {
-HXLINE(1345)								ascent = ( (Float)(currentFormat->size) );
-HXDLIN(1345)								descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
+HXLINE( 951)								ascent = ( (Float)(currentFormat->size) );
+HXLINE( 952)								descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
             							}
             						}
-HXDLIN(1345)						leading = ( (int)(currentFormat->leading) );
-HXDLIN(1345)						heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
-HXDLIN(1345)						if ((heightValue > maxHeightValue)) {
-HXLINE(1345)							maxHeightValue = heightValue;
+HXLINE( 955)						leading = ( (int)(currentFormat->leading) );
+HXLINE( 957)						heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
+HXLINE(1326)						if ((heightValue > maxHeightValue)) {
+HXLINE( 961)							maxHeightValue = heightValue;
             						}
-HXDLIN(1345)						if ((ascent > maxAscent)) {
-HXLINE(1345)							maxAscent = ascent;
+HXLINE(1326)						if ((ascent > maxAscent)) {
+HXLINE( 966)							maxAscent = ascent;
             						}
             					}
-HXDLIN(1345)					int i = _gthis->layoutGroups->get_length();
-HXDLIN(1345)					while(true){
-HXLINE(1345)						i = (i - 1);
-HXDLIN(1345)						if (!((i > -1))) {
-HXLINE(1345)							goto _hx_goto_39;
-            						}
-HXDLIN(1345)						 ::openfl::text::_internal::TextLayoutGroup lg = _gthis->layoutGroups->get(i).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
-HXDLIN(1345)						if ((lg->lineIndex < lineIndex)) {
-HXLINE(1345)							goto _hx_goto_39;
-            						}
-HXDLIN(1345)						if ((lg->lineIndex > lineIndex)) {
-HXLINE(1345)							continue;
-            						}
-HXDLIN(1345)						lg->ascent = maxAscent;
-HXDLIN(1345)						lg->height = ( (Float)(maxHeightValue) );
-            					}
-            					_hx_goto_39:;
-HXDLIN(1345)					offsetY = (offsetY + maxHeightValue);
-HXDLIN(1345)					maxAscent = ((Float)0.0);
-HXDLIN(1345)					maxHeightValue = 0;
-HXDLIN(1345)					lineIndex = (lineIndex + 1);
-HXDLIN(1345)					offsetX = ( (Float)(0) );
-HXDLIN(1345)					firstLineOfParagraph = false;
             				}
-HXLINE(1348)				if ((formatRange->end == breakIndex)) {
-HXLINE(1350)					if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1350)						rangeIndex = (rangeIndex + 1);
-HXDLIN(1350)						formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1350)						currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1350)						font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-            					}
-HXLINE(1351)					{
-HXLINE(1351)						if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
-HXLINE(1351)							ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
-HXDLIN(1351)							descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
+HXLINE(1329)				{
+HXLINE(1329)					{
+HXLINE(1329)						if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
+HXLINE( 939)							ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
+HXLINE( 940)							descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
             						}
             						else {
-HXLINE(1351)							bool _hx_tmp;
-HXDLIN(1351)							if (::hx::IsNotNull( font )) {
-HXLINE(1351)								_hx_tmp = (font->unitsPerEM != 0);
+HXLINE(1329)							bool _hx_tmp;
+HXDLIN(1329)							if (::hx::IsNotNull( font )) {
+HXLINE(1329)								_hx_tmp = (font->unitsPerEM != 0);
             							}
             							else {
-HXLINE(1351)								_hx_tmp = false;
+HXLINE(1329)								_hx_tmp = false;
             							}
-HXDLIN(1351)							if (_hx_tmp) {
-HXLINE(1351)								ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
-HXDLIN(1351)								descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
+HXDLIN(1329)							if (_hx_tmp) {
+HXLINE( 945)								ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
+HXLINE( 946)								descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
             							}
             							else {
-HXLINE(1351)								ascent = ( (Float)(currentFormat->size) );
-HXDLIN(1351)								descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
+HXLINE( 951)								ascent = ( (Float)(currentFormat->size) );
+HXLINE( 952)								descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
             							}
             						}
-HXDLIN(1351)						leading = ( (int)(currentFormat->leading) );
-HXDLIN(1351)						heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
-HXDLIN(1351)						if ((heightValue > maxHeightValue)) {
-HXLINE(1351)							maxHeightValue = heightValue;
+HXLINE( 955)						leading = ( (int)(currentFormat->leading) );
+HXLINE( 957)						heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
+HXLINE(1329)						if ((heightValue > maxHeightValue)) {
+HXLINE( 961)							maxHeightValue = heightValue;
             						}
-HXDLIN(1351)						if ((ascent > maxAscent)) {
-HXLINE(1351)							maxAscent = ascent;
+HXLINE(1329)						if ((ascent > maxAscent)) {
+HXLINE( 966)							maxAscent = ascent;
             						}
             					}
+HXLINE(1329)					int i = _gthis->layoutGroups->get_length();
+HXDLIN(1329)					while(true){
+HXLINE(1329)						i = (i - 1);
+HXDLIN(1329)						if (!((i > -1))) {
+HXLINE(1329)							goto _hx_goto_36;
+            						}
+HXDLIN(1329)						 ::openfl::text::_internal::TextLayoutGroup lg = _gthis->layoutGroups->get(i).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
+HXDLIN(1329)						if ((lg->lineIndex < lineIndex)) {
+HXLINE(1329)							goto _hx_goto_36;
+            						}
+HXDLIN(1329)						if ((lg->lineIndex > lineIndex)) {
+HXLINE(1329)							continue;
+            						}
+HXDLIN(1329)						lg->ascent = maxAscent;
+HXDLIN(1329)						lg->height = ( (Float)(maxHeightValue) );
+            					}
+            					_hx_goto_36:;
+HXDLIN(1329)					offsetY = (offsetY + maxHeightValue);
+HXLINE(1182)					maxAscent = ((Float)0.0);
+HXLINE(1183)					maxHeightValue = 0;
+HXLINE(1329)					lineIndex = (lineIndex + 1);
+HXLINE(1186)					offsetX = ( (Float)(2) );
             				}
-HXLINE(1354)				textIndex = (breakIndex + 1);
-HXLINE(1355)				previousBreakIndex = breakIndex;
-HXLINE(1356)				breakCount = (breakCount + 1);
-HXLINE(1357)				if ((breakCount < this->lineBreaks->get_length())) {
-HXLINE(1357)					breakIndex = this->lineBreaks->get(breakCount);
-            				}
-            				else {
-HXLINE(1357)					breakIndex = -1;
-            				}
-HXLINE(1359)				{
-HXLINE(1359)					firstLineOfParagraph = true;
-HXDLIN(1359)					if (::hx::IsNotNull( currentFormat->align )) {
-HXLINE(1359)						align = currentFormat->align;
+HXLINE(1331)				textIndex = (breakIndex + 1);
+HXLINE(1332)				previousBreakIndex = breakIndex;
+HXLINE(1333)				breakIndex = this->getLineBreakIndex(textIndex);
+HXLINE(1335)				{
+HXLINE(1335)					if (::hx::IsNotNull( currentFormat->align )) {
+HXLINE( 975)						align = currentFormat->align;
             					}
-            					else {
-HXLINE(1359)						align = 3;
+HXLINE(1335)					bool _hx_tmp = ::hx::IsNotNull( currentFormat->blockIndent );
+HXDLIN(1335)					bool _hx_tmp1 = ::hx::IsNotNull( currentFormat->bullet );
+HXDLIN(1335)					bool _hx_tmp2 = ::hx::IsNotNull( currentFormat->indent );
+HXDLIN(1335)					if (::hx::IsNotNull( currentFormat->leftMargin )) {
+HXLINE( 995)						leftMargin = ( (int)(currentFormat->leftMargin) );
             					}
-HXDLIN(1359)					if (::hx::IsNotNull( currentFormat->blockIndent )) {
-HXLINE(1359)						blockIndent = ( (int)(currentFormat->blockIndent) );
+HXLINE(1335)					if (::hx::IsNotNull( currentFormat->rightMargin )) {
+HXLINE(1000)						rightMargin = ( (int)(currentFormat->rightMargin) );
             					}
-            					else {
-HXLINE(1359)						blockIndent = 0;
-            					}
-HXDLIN(1359)					if (::hx::IsNotNull( currentFormat->indent )) {
-HXLINE(1359)						indent = ( (int)(currentFormat->indent) );
-            					}
-            					else {
-HXLINE(1359)						indent = 0;
-            					}
-HXDLIN(1359)					if (::hx::IsNotNull( currentFormat->leftMargin )) {
-HXLINE(1359)						leftMargin = ( (int)(currentFormat->leftMargin) );
-            					}
-            					else {
-HXLINE(1359)						leftMargin = 0;
-            					}
-HXDLIN(1359)					if (::hx::IsNotNull( currentFormat->rightMargin )) {
-HXLINE(1359)						rightMargin = ( (int)(currentFormat->rightMargin) );
-            					}
-            					else {
-HXLINE(1359)						rightMargin = 0;
-            					}
-HXDLIN(1359)					bool _hx_tmp = ::hx::IsNotNull( currentFormat->bullet );
-HXDLIN(1359)					bool _hx_tmp1 = ::hx::IsNotNull( currentFormat->tabStops );
+HXLINE(1335)					bool _hx_tmp3 = ::hx::IsNotNull( currentFormat->tabStops );
             				}
             			}
             			else {
-HXLINE(1361)				if ((spaceIndex > -1)) {
-HXLINE(1365)					bool _hx_tmp;
-HXDLIN(1365)					if (::hx::IsNotNull( layoutGroup )) {
-HXLINE(1365)						_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
+HXLINE(1337)				if ((spaceIndex > -1)) {
+HXLINE(1341)					bool _hx_tmp;
+HXDLIN(1341)					if (::hx::IsNotNull( layoutGroup )) {
+HXLINE(1341)						_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
             					}
             					else {
-HXLINE(1365)						_hx_tmp = false;
+HXLINE(1341)						_hx_tmp = false;
             					}
-HXDLIN(1365)					if (_hx_tmp) {
-HXLINE(1367)						layoutGroup = null();
+HXDLIN(1341)					if (_hx_tmp) {
+HXLINE(1343)						layoutGroup = null();
             					}
-HXLINE(1370)					wrap = false;
-HXLINE(1372)					while((textIndex < this->text.length)){
-HXLINE(1376)						int endIndex = -1;
-HXLINE(1378)						if ((spaceIndex == -1)) {
-HXLINE(1380)							endIndex = breakIndex;
+HXLINE(1346)					wrap = false;
+HXLINE(1348)					while((textIndex < this->text.length)){
+HXLINE(1352)						int endIndex = -1;
+HXLINE(1354)						if ((spaceIndex == -1)) {
+HXLINE(1356)							endIndex = breakIndex;
             						}
             						else {
-HXLINE(1384)							endIndex = (spaceIndex + 1);
-HXLINE(1386)							bool _hx_tmp;
-HXDLIN(1386)							if ((breakIndex > -1)) {
-HXLINE(1386)								_hx_tmp = (breakIndex < endIndex);
+HXLINE(1360)							endIndex = (spaceIndex + 1);
+HXLINE(1362)							bool _hx_tmp;
+HXDLIN(1362)							if ((breakIndex > -1)) {
+HXLINE(1362)								_hx_tmp = (breakIndex < endIndex);
             							}
             							else {
-HXLINE(1386)								_hx_tmp = false;
+HXLINE(1362)								_hx_tmp = false;
             							}
-HXDLIN(1386)							if (_hx_tmp) {
-HXLINE(1388)								endIndex = breakIndex;
+HXDLIN(1362)							if (_hx_tmp) {
+HXLINE(1364)								endIndex = breakIndex;
             							}
             						}
-HXLINE(1392)						if ((endIndex == -1)) {
-HXLINE(1394)							endIndex = this->text.length;
+HXLINE(1368)						if ((endIndex == -1)) {
+HXLINE(1370)							endIndex = this->text.length;
             						}
-HXLINE(1397)						if ((textIndex >= endIndex)) {
-HXLINE(1397)							positions = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN(1397)							widthValue = ( (Float)(0) );
+HXLINE(1373)						if ((endIndex <= formatRange->end)) {
+HXLINE(1373)							::String text = _gthis->text;
+HXDLIN(1373)							Float letterSpacing = ((Float)0.0);
+HXDLIN(1373)							if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)								letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+            							}
+HXLINE(1373)							if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1373)								_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+            							}
+HXDLIN(1373)							_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1373)							_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1373)							if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1373)								_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+            							}
+HXDLIN(1373)							_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1373)							bool positions1;
+HXDLIN(1373)							if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1373)								positions1 = (_gthis->sharpness < 400);
+            							}
+            							else {
+HXLINE(1373)								positions1 = true;
+            							}
+HXDLIN(1373)							_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1373)							 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1373)							_gthis1->set_text(text.substring(textIndex,endIndex));
+HXDLIN(1373)							positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1373)							Float width = ((Float)0.0);
+HXDLIN(1373)							int _g = 0;
+HXDLIN(1373)							while((_g < positions->length)){
+HXLINE(1373)								 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1373)								_g = (_g + 1);
+HXDLIN(1373)								width = (width + position->advance->x);
+            							}
+HXDLIN(1373)							widthValue = width;
             						}
             						else {
-HXLINE(1397)							if ((endIndex <= formatRange->end)) {
-HXLINE(1397)								::String text = _gthis->text;
-HXDLIN(1397)								Float letterSpacing = ((Float)0.0);
-HXDLIN(1397)								if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1397)									letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
-            								}
-HXDLIN(1397)								if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1397)									_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-            								}
-HXDLIN(1397)								_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1397)								_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1397)								if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1397)									_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
-            								}
-HXDLIN(1397)								_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1397)								bool positions1;
-HXDLIN(1397)								if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1397)									positions1 = (_gthis->sharpness < 400);
-            								}
-            								else {
-HXLINE(1397)									positions1 = true;
-            								}
-HXDLIN(1397)								_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1397)								 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1397)								_gthis1->set_text(text.substring(textIndex,endIndex));
-HXDLIN(1397)								positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1397)								Float width = ((Float)0.0);
-HXDLIN(1397)								{
-HXLINE(1397)									int _g = 0;
-HXDLIN(1397)									while((_g < positions->length)){
-HXLINE(1397)										 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1397)										_g = (_g + 1);
-HXDLIN(1397)										width = (width + position->advance->x);
+HXLINE(1373)							int tempIndex = textIndex;
+HXDLIN(1373)							int tempRangeEnd = formatRange->end;
+HXDLIN(1373)							int countRanges = 0;
+HXLINE(1046)							positions = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(1047)							widthValue = ( (Float)(0) );
+HXLINE(1373)							while(true){
+HXLINE(1373)								if ((tempIndex != tempRangeEnd)) {
+HXLINE(1373)									::String text = _gthis->text;
+HXDLIN(1373)									Float letterSpacing = ((Float)0.0);
+HXDLIN(1373)									if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)										letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
             									}
-            								}
-HXDLIN(1397)								widthValue = width;
-            							}
-            							else {
-HXLINE(1397)								int tempIndex = textIndex;
-HXDLIN(1397)								int tempRangeEnd = formatRange->end;
-HXDLIN(1397)								int countRanges = 0;
-HXDLIN(1397)								positions = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN(1397)								widthValue = ( (Float)(0) );
-HXDLIN(1397)								while(true){
-HXLINE(1397)									if ((tempIndex != tempRangeEnd)) {
-HXLINE(1397)										::String text = _gthis->text;
-HXDLIN(1397)										Float letterSpacing = ((Float)0.0);
-HXDLIN(1397)										if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1397)											letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
-            										}
-HXDLIN(1397)										if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1397)											_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-            										}
-HXDLIN(1397)										_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1397)										_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1397)										if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1397)											_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
-            										}
-HXDLIN(1397)										_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1397)										bool _hx_tmp;
-HXDLIN(1397)										if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1397)											_hx_tmp = (_gthis->sharpness < 400);
-            										}
-            										else {
-HXLINE(1397)											_hx_tmp = true;
-            										}
-HXDLIN(1397)										_gthis->_hx___textLayout->autoHint = _hx_tmp;
-HXDLIN(1397)										 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1397)										_gthis1->set_text(text.substring(tempIndex,tempRangeEnd));
-HXDLIN(1397)										::Array< ::Dynamic> tempPositions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1397)										positions = positions->concat(tempPositions);
+HXLINE(1373)									if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1373)										_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
             									}
-HXDLIN(1397)									if ((tempRangeEnd != endIndex)) {
-HXLINE(1397)										bool _hx_tmp;
-HXDLIN(1397)										if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1397)											rangeIndex = (rangeIndex + 1);
-HXDLIN(1397)											formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1397)											currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1397)											font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-HXDLIN(1397)											_hx_tmp = true;
-            										}
-            										else {
-HXLINE(1397)											_hx_tmp = false;
-            										}
-HXDLIN(1397)										if (!(_hx_tmp)) {
-HXLINE(1397)											::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1092,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
-HXDLIN(1397)											goto _hx_goto_42;
-            										}
-HXDLIN(1397)										tempIndex = tempRangeEnd;
-HXDLIN(1397)										if ((endIndex < formatRange->end)) {
-HXLINE(1397)											tempRangeEnd = endIndex;
-            										}
-            										else {
-HXLINE(1397)											tempRangeEnd = formatRange->end;
-            										}
-HXDLIN(1397)										countRanges = (countRanges + 1);
+HXDLIN(1373)									_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1373)									_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1373)									if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1373)										_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+            									}
+HXDLIN(1373)									_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1373)									bool _hx_tmp;
+HXDLIN(1373)									if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1373)										_hx_tmp = (_gthis->sharpness < 400);
             									}
             									else {
-HXLINE(1397)										Float width = ((Float)0.0);
-HXDLIN(1397)										{
-HXLINE(1397)											int _g = 0;
-HXDLIN(1397)											while((_g < positions->length)){
-HXLINE(1397)												 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1397)												_g = (_g + 1);
-HXDLIN(1397)												width = (width + position->advance->x);
-            											}
-            										}
-HXDLIN(1397)										widthValue = width;
-HXDLIN(1397)										goto _hx_goto_42;
+HXLINE(1373)										_hx_tmp = true;
             									}
+HXDLIN(1373)									_gthis->_hx___textLayout->autoHint = _hx_tmp;
+HXDLIN(1373)									 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1373)									_gthis1->set_text(text.substring(tempIndex,tempRangeEnd));
+HXDLIN(1373)									::Array< ::Dynamic> tempPositions = _gthis->_hx___textLayout->get_positions();
+HXLINE(1054)									positions = positions->concat(tempPositions);
+            								}
+HXLINE(1373)								if ((tempRangeEnd != endIndex)) {
+HXLINE(1373)									bool _hx_tmp;
+HXDLIN(1373)									if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1373)										rangeIndex = (rangeIndex + 1);
+HXDLIN(1373)										formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1373)										currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)										font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXLINE(1373)										_hx_tmp = true;
+            									}
+            									else {
+HXLINE(1373)										_hx_tmp = false;
+            									}
+HXDLIN(1373)									if (!(_hx_tmp)) {
+HXLINE(1373)										::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1061,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
+HXDLIN(1373)										goto _hx_goto_39;
+            									}
+HXLINE(1065)									tempIndex = tempRangeEnd;
+HXLINE(1373)									if ((endIndex < formatRange->end)) {
+HXLINE(1373)										tempRangeEnd = endIndex;
+            									}
+            									else {
+HXLINE(1373)										tempRangeEnd = formatRange->end;
+            									}
+HXDLIN(1373)									countRanges = (countRanges + 1);
+            								}
+            								else {
+HXLINE(1373)									Float width = ((Float)0.0);
+HXDLIN(1373)									int _g = 0;
+HXDLIN(1373)									while((_g < positions->length)){
+HXLINE(1373)										 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1373)										_g = (_g + 1);
+HXDLIN(1373)										width = (width + position->advance->x);
+            									}
+HXDLIN(1373)									widthValue = width;
+HXDLIN(1373)									goto _hx_goto_39;
+            								}
+            							}
+            							_hx_goto_39:;
+HXDLIN(1373)							rangeIndex = (rangeIndex - (countRanges + 1));
+HXDLIN(1373)							if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1373)								rangeIndex = (rangeIndex + 1);
+HXDLIN(1373)								formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1373)								currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)								font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+            							}
+            						}
+HXLINE(1375)						if (::hx::IsEq( align,2 )) {
+HXLINE(1377)							bool _hx_tmp;
+HXDLIN(1377)							if ((positions->length > 0)) {
+HXLINE(1377)								_hx_tmp = (textIndex == previousSpaceIndex);
+            							}
+            							else {
+HXLINE(1377)								_hx_tmp = false;
+            							}
+HXDLIN(1377)							if (_hx_tmp) {
+HXLINE(1380)								textIndex = (textIndex + 1);
+HXLINE(1382)								Float spaceWidth = positions->shift().StaticCast<  ::openfl::text::_internal::GlyphPosition >()->advance->x;
+HXLINE(1383)								widthValue = (widthValue - spaceWidth);
+HXLINE(1384)								offsetX = (offsetX + spaceWidth);
+            							}
+HXLINE(1387)							bool _hx_tmp1;
+HXDLIN(1387)							if ((positions->length > 0)) {
+HXLINE(1387)								_hx_tmp1 = (endIndex == (spaceIndex + 1));
+            							}
+            							else {
+HXLINE(1387)								_hx_tmp1 = false;
+            							}
+HXDLIN(1387)							if (_hx_tmp1) {
+HXLINE(1390)								endIndex = (endIndex - 1);
+HXLINE(1392)								Float spaceWidth = positions->pop().StaticCast<  ::openfl::text::_internal::GlyphPosition >()->advance->x;
+HXLINE(1393)								widthValue = (widthValue - spaceWidth);
+            							}
+            						}
+HXLINE(1397)						if (this->wordWrap) {
+HXLINE(1399)							if (((offsetX + widthValue) > (this->width - ( (Float)(2) )))) {
+HXLINE(1401)								wrap = true;
+HXLINE(1403)								bool _hx_tmp;
+HXDLIN(1403)								if ((positions->length > 0)) {
+HXLINE(1403)									_hx_tmp = (endIndex == (spaceIndex + 1));
+            								}
+            								else {
+HXLINE(1403)									_hx_tmp = false;
+            								}
+HXDLIN(1403)								if (_hx_tmp) {
+HXLINE(1408)									 ::openfl::text::_internal::GlyphPosition lastPosition = positions->__get((positions->length - 1)).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXLINE(1409)									Float spaceWidth = lastPosition->advance->x;
+HXLINE(1411)									if ((((offsetX + widthValue) - spaceWidth) <= (this->width - ( (Float)(2) )))) {
+HXLINE(1413)										wrap = false;
+            									}
+            								}
+            							}
+            						}
+HXLINE(1419)						if (wrap) {
+HXLINE(1421)							bool _hx_tmp;
+HXDLIN(1421)							if (::hx::IsNotEq( align,2 )) {
+HXLINE(1421)								if (::hx::IsNull( layoutGroup )) {
+HXLINE(1421)									_hx_tmp = (this->layoutGroups->get_length() > 0);
+            								}
+            								else {
+HXLINE(1421)									_hx_tmp = true;
+            								}
+            							}
+            							else {
+HXLINE(1421)								_hx_tmp = false;
+            							}
+HXDLIN(1421)							if (_hx_tmp) {
+HXLINE(1423)								 ::openfl::text::_internal::TextLayoutGroup previous = layoutGroup;
+HXLINE(1424)								if (::hx::IsNull( previous )) {
+HXLINE(1426)									::Dynamic this1 = this->layoutGroups;
+HXDLIN(1426)									previous = ( ( ::openfl::_Vector::ObjectVector)(this1) )->get((this->layoutGroups->get_length() - 1)).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
+            								}
+HXLINE(1430)								 ::openfl::text::_internal::TextLayoutGroup previous1 = previous;
+HXDLIN(1430)								int index = (previous->positions->length - 1);
+HXDLIN(1430)								Float _hx_tmp;
+HXDLIN(1430)								bool _hx_tmp1;
+HXDLIN(1430)								if ((index >= 0)) {
+HXLINE(1430)									_hx_tmp1 = (index < previous->positions->length);
+            								}
+            								else {
+HXLINE(1430)									_hx_tmp1 = false;
+            								}
+HXDLIN(1430)								if (_hx_tmp1) {
+HXLINE(1430)									_hx_tmp = previous->positions->__get(index).StaticCast<  ::openfl::text::_internal::GlyphPosition >()->advance->x;
+            								}
+            								else {
+HXLINE(1430)									_hx_tmp = ( (Float)(0) );
+            								}
+HXDLIN(1430)								previous1->width = (previous1->width - _hx_tmp);
+HXLINE(1431)								previous->endIndex--;
+            							}
+HXLINE(1434)							int i = (this->layoutGroups->get_length() - 1);
+HXLINE(1435)							int offsetCount = 0;
+HXLINE(1437)							while(true){
+HXLINE(1439)								layoutGroup = this->layoutGroups->get(i).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
+HXLINE(1441)								bool _hx_tmp;
+HXDLIN(1441)								if ((i > 0)) {
+HXLINE(1441)									_hx_tmp = (layoutGroup->startIndex > previousSpaceIndex);
+            								}
+            								else {
+HXLINE(1441)									_hx_tmp = false;
+            								}
+HXDLIN(1441)								if (_hx_tmp) {
+HXLINE(1443)									offsetCount = (offsetCount + 1);
+            								}
+            								else {
+HXLINE(1447)									goto _hx_goto_41;
+            								}
+HXLINE(1450)								i = (i - 1);
+            							}
+            							_hx_goto_41:;
+HXLINE(1453)							if ((textIndex == (previousSpaceIndex + 1))) {
+HXLINE(1455)								{
+HXLINE(1455)									if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
+HXLINE( 939)										ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
+HXLINE( 940)										descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
+            									}
+            									else {
+HXLINE(1455)										bool _hx_tmp;
+HXDLIN(1455)										if (::hx::IsNotNull( font )) {
+HXLINE(1455)											_hx_tmp = (font->unitsPerEM != 0);
+            										}
+            										else {
+HXLINE(1455)											_hx_tmp = false;
+            										}
+HXDLIN(1455)										if (_hx_tmp) {
+HXLINE( 945)											ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
+HXLINE( 946)											descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
+            										}
+            										else {
+HXLINE( 951)											ascent = ( (Float)(currentFormat->size) );
+HXLINE( 952)											descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
+            										}
+            									}
+HXLINE( 955)									leading = ( (int)(currentFormat->leading) );
+HXLINE( 957)									heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
+HXLINE(1455)									if ((heightValue > maxHeightValue)) {
+HXLINE( 961)										maxHeightValue = heightValue;
+            									}
+HXLINE(1455)									if ((ascent > maxAscent)) {
+HXLINE( 966)										maxAscent = ascent;
+            									}
+            								}
+HXLINE(1455)								int i = _gthis->layoutGroups->get_length();
+HXDLIN(1455)								while(true){
+HXLINE(1455)									i = (i - 1);
+HXDLIN(1455)									if (!((i > -1))) {
+HXLINE(1455)										goto _hx_goto_42;
+            									}
+HXDLIN(1455)									 ::openfl::text::_internal::TextLayoutGroup lg = _gthis->layoutGroups->get(i).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
+HXDLIN(1455)									if ((lg->lineIndex < lineIndex)) {
+HXLINE(1455)										goto _hx_goto_42;
+            									}
+HXDLIN(1455)									if ((lg->lineIndex > lineIndex)) {
+HXLINE(1455)										continue;
+            									}
+HXDLIN(1455)									lg->ascent = maxAscent;
+HXDLIN(1455)									lg->height = ( (Float)(maxHeightValue) );
             								}
             								_hx_goto_42:;
-HXDLIN(1397)								rangeIndex = (rangeIndex - (countRanges + 1));
-HXDLIN(1397)								if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1397)									rangeIndex = (rangeIndex + 1);
-HXDLIN(1397)									formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1397)									currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1397)									font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-            								}
+HXDLIN(1455)								offsetY = (offsetY + maxHeightValue);
+HXLINE(1182)								maxAscent = ((Float)0.0);
+HXLINE(1183)								maxHeightValue = 0;
+HXLINE(1455)								lineIndex = (lineIndex + 1);
+HXLINE(1186)								offsetX = ( (Float)(2) );
             							}
-            						}
-HXLINE(1399)						if (::hx::IsEq( align,2 )) {
-HXLINE(1401)							bool _hx_tmp;
-HXDLIN(1401)							if ((positions->length > 0)) {
-HXLINE(1401)								_hx_tmp = (textIndex == previousSpaceIndex);
-            							}
-            							else {
-HXLINE(1401)								_hx_tmp = false;
-            							}
-HXDLIN(1401)							if (_hx_tmp) {
-HXLINE(1404)								textIndex = (textIndex + 1);
-HXLINE(1406)								Float spaceWidth = positions->shift().StaticCast<  ::openfl::text::_internal::GlyphPosition >()->advance->x;
-HXLINE(1407)								widthValue = (widthValue - spaceWidth);
-HXLINE(1408)								offsetX = (offsetX + spaceWidth);
-            							}
-HXLINE(1411)							bool _hx_tmp1;
-HXDLIN(1411)							if ((positions->length > 0)) {
-HXLINE(1411)								_hx_tmp1 = (endIndex == (spaceIndex + 1));
-            							}
-            							else {
-HXLINE(1411)								_hx_tmp1 = false;
-            							}
-HXDLIN(1411)							if (_hx_tmp1) {
-HXLINE(1414)								endIndex = (endIndex - 1);
-HXLINE(1416)								Float spaceWidth = positions->pop().StaticCast<  ::openfl::text::_internal::GlyphPosition >()->advance->x;
-HXLINE(1417)								widthValue = (widthValue - spaceWidth);
-            							}
-            						}
-HXLINE(1421)						if (this->wordWrap) {
-HXLINE(1423)							int _hx_tmp;
-HXDLIN(1423)							if (firstLineOfParagraph) {
-HXLINE(1423)								_hx_tmp = indent;
-            							}
-            							else {
-HXLINE(1423)								_hx_tmp = 0;
-            							}
-HXDLIN(1423)							if (((offsetX + widthValue) > (((_gthis->width - ( (Float)(2) )) - ( (Float)(rightMargin) )) - ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp)) )))) {
-HXLINE(1425)								wrap = true;
-HXLINE(1427)								bool _hx_tmp;
-HXDLIN(1427)								if ((positions->length > 0)) {
-HXLINE(1427)									_hx_tmp = (endIndex == (spaceIndex + 1));
-            								}
-            								else {
-HXLINE(1427)									_hx_tmp = false;
-            								}
-HXDLIN(1427)								if (_hx_tmp) {
-HXLINE(1432)									 ::openfl::text::_internal::GlyphPosition lastPosition = positions->__get((positions->length - 1)).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXLINE(1433)									Float spaceWidth = lastPosition->advance->x;
-HXLINE(1435)									int _hx_tmp;
-HXDLIN(1435)									if (firstLineOfParagraph) {
-HXLINE(1435)										_hx_tmp = indent;
-            									}
-            									else {
-HXLINE(1435)										_hx_tmp = 0;
-            									}
-HXDLIN(1435)									if ((((offsetX + widthValue) - spaceWidth) <= (((_gthis->width - ( (Float)(2) )) - ( (Float)(rightMargin) )) - ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp)) )))) {
-HXLINE(1437)										wrap = false;
+HXLINE(1458)							offsetX = ( (Float)(2) );
+HXLINE(1460)							if ((offsetCount > 0)) {
+HXLINE(1462)								::Dynamic this1 = this->layoutGroups;
+HXDLIN(1462)								Float bumpX = ( ( ::openfl::_Vector::ObjectVector)(this1) )->get((this->layoutGroups->get_length() - offsetCount)).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >()->offsetX;
+HXLINE(1464)								{
+HXLINE(1464)									int _g = (this->layoutGroups->get_length() - offsetCount);
+HXDLIN(1464)									int _g1 = this->layoutGroups->get_length();
+HXDLIN(1464)									while((_g < _g1)){
+HXLINE(1464)										_g = (_g + 1);
+HXDLIN(1464)										int i = (_g - 1);
+HXLINE(1466)										layoutGroup = this->layoutGroups->get(i).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
+HXLINE(1467)										 ::openfl::text::_internal::TextLayoutGroup layoutGroup1 = layoutGroup;
+HXDLIN(1467)										layoutGroup1->offsetX = (layoutGroup1->offsetX - bumpX);
+HXLINE(1468)										layoutGroup->offsetY = offsetY;
+HXLINE(1469)										layoutGroup->lineIndex = lineIndex;
+HXLINE(1470)										offsetX = (offsetX + layoutGroup->width);
             									}
             								}
             							}
-            						}
-HXLINE(1443)						if (wrap) {
-HXLINE(1445)							bool _hx_tmp;
-HXDLIN(1445)							if (::hx::IsNotEq( align,2 )) {
-HXLINE(1445)								if (::hx::IsNull( layoutGroup )) {
-HXLINE(1445)									_hx_tmp = (this->layoutGroups->get_length() > 0);
+HXLINE(1474)							{
+HXLINE(1474)								bool _hx_tmp1;
+HXDLIN(1474)								if ((_gthis->width >= 4)) {
+HXLINE(1474)									_hx_tmp1 = _gthis->wordWrap;
             								}
             								else {
-HXLINE(1445)									_hx_tmp = true;
+HXLINE(1474)									_hx_tmp1 = false;
             								}
-            							}
-            							else {
-HXLINE(1445)								_hx_tmp = false;
-            							}
-HXDLIN(1445)							if (_hx_tmp) {
-HXLINE(1447)								 ::openfl::text::_internal::TextLayoutGroup previous = layoutGroup;
-HXLINE(1448)								if (::hx::IsNull( previous )) {
-HXLINE(1450)									::Dynamic this1 = this->layoutGroups;
-HXDLIN(1450)									previous = ( ( ::openfl::_Vector::ObjectVector)(this1) )->get((this->layoutGroups->get_length() - 1)).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
-            								}
-HXLINE(1454)								 ::openfl::text::_internal::TextLayoutGroup previous1 = previous;
-HXDLIN(1454)								int index = (previous->positions->length - 1);
-HXDLIN(1454)								Float _hx_tmp;
-HXDLIN(1454)								bool _hx_tmp1;
-HXDLIN(1454)								if ((index >= 0)) {
-HXLINE(1454)									_hx_tmp1 = (index < previous->positions->length);
-            								}
-            								else {
-HXLINE(1454)									_hx_tmp1 = false;
-            								}
-HXDLIN(1454)								if (_hx_tmp1) {
-HXLINE(1454)									_hx_tmp = previous->positions->__get(index).StaticCast<  ::openfl::text::_internal::GlyphPosition >()->advance->x;
-            								}
-            								else {
-HXLINE(1454)									_hx_tmp = ( (Float)(0) );
-            								}
-HXDLIN(1454)								previous1->width = (previous1->width - _hx_tmp);
-HXLINE(1455)								previous->endIndex--;
-            							}
-HXLINE(1458)							int i = (this->layoutGroups->get_length() - 1);
-HXLINE(1459)							int offsetCount = 0;
-HXLINE(1461)							while(true){
-HXLINE(1463)								layoutGroup = this->layoutGroups->get(i).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
-HXLINE(1465)								bool _hx_tmp;
-HXDLIN(1465)								if ((i > 0)) {
-HXLINE(1465)									_hx_tmp = (layoutGroup->startIndex > previousSpaceIndex);
-            								}
-            								else {
-HXLINE(1465)									_hx_tmp = false;
-            								}
-HXDLIN(1465)								if (_hx_tmp) {
-HXLINE(1467)									offsetCount = (offsetCount + 1);
-            								}
-            								else {
-HXLINE(1471)									goto _hx_goto_44;
-            								}
-HXLINE(1474)								i = (i - 1);
-            							}
-            							_hx_goto_44:;
-HXLINE(1477)							if ((textIndex == (previousSpaceIndex + 1))) {
-HXLINE(1479)								{
-HXLINE(1479)									if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
-HXLINE(1479)										ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
-HXDLIN(1479)										descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
-            									}
-            									else {
-HXLINE(1479)										bool _hx_tmp;
-HXDLIN(1479)										if (::hx::IsNotNull( font )) {
-HXLINE(1479)											_hx_tmp = (font->unitsPerEM != 0);
-            										}
-            										else {
-HXLINE(1479)											_hx_tmp = false;
-            										}
-HXDLIN(1479)										if (_hx_tmp) {
-HXLINE(1479)											ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
-HXDLIN(1479)											descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
-            										}
-            										else {
-HXLINE(1479)											ascent = ( (Float)(currentFormat->size) );
-HXDLIN(1479)											descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
+HXDLIN(1474)								if (_hx_tmp1) {
+HXLINE(1474)									::Array< ::Dynamic> remainingPositions = positions;
+HXDLIN(1474)									int i;
+HXDLIN(1474)									int bufferCount;
+HXDLIN(1474)									int placeIndex;
+HXDLIN(1474)									Float positionWidth;
+HXDLIN(1474)									 ::openfl::text::_internal::GlyphPosition currentPosition;
+HXDLIN(1474)									Float width = ((Float)0.0);
+HXDLIN(1474)									{
+HXLINE(1474)										int _g = 0;
+HXDLIN(1474)										while((_g < remainingPositions->length)){
+HXLINE(1474)											 ::openfl::text::_internal::GlyphPosition position = remainingPositions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1474)											_g = (_g + 1);
+HXDLIN(1474)											width = (width + position->advance->x);
             										}
             									}
-HXDLIN(1479)									leading = ( (int)(currentFormat->leading) );
-HXDLIN(1479)									heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
-HXDLIN(1479)									if ((heightValue > maxHeightValue)) {
-HXLINE(1479)										maxHeightValue = heightValue;
-            									}
-HXDLIN(1479)									if ((ascent > maxAscent)) {
-HXLINE(1479)										maxAscent = ascent;
-            									}
-            								}
-HXDLIN(1479)								int i = _gthis->layoutGroups->get_length();
-HXDLIN(1479)								while(true){
-HXLINE(1479)									i = (i - 1);
-HXDLIN(1479)									if (!((i > -1))) {
-HXLINE(1479)										goto _hx_goto_45;
-            									}
-HXDLIN(1479)									 ::openfl::text::_internal::TextLayoutGroup lg = _gthis->layoutGroups->get(i).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
-HXDLIN(1479)									if ((lg->lineIndex < lineIndex)) {
-HXLINE(1479)										goto _hx_goto_45;
-            									}
-HXDLIN(1479)									if ((lg->lineIndex > lineIndex)) {
-HXLINE(1479)										continue;
-            									}
-HXDLIN(1479)									lg->ascent = maxAscent;
-HXDLIN(1479)									lg->height = ( (Float)(maxHeightValue) );
-            								}
-            								_hx_goto_45:;
-HXDLIN(1479)								offsetY = (offsetY + maxHeightValue);
-HXDLIN(1479)								maxAscent = ((Float)0.0);
-HXDLIN(1479)								maxHeightValue = 0;
-HXDLIN(1479)								lineIndex = (lineIndex + 1);
-HXDLIN(1479)								offsetX = ( (Float)(0) );
-HXDLIN(1479)								firstLineOfParagraph = false;
-            							}
-HXLINE(1482)							offsetX = ( (Float)(0) );
-HXLINE(1484)							if ((offsetCount > 0)) {
-HXLINE(1486)								::Dynamic this1 = this->layoutGroups;
-HXDLIN(1486)								Float bumpX = ( ( ::openfl::_Vector::ObjectVector)(this1) )->get((this->layoutGroups->get_length() - offsetCount)).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >()->offsetX;
-HXLINE(1488)								{
-HXLINE(1488)									int _g = (this->layoutGroups->get_length() - offsetCount);
-HXDLIN(1488)									int _g1 = this->layoutGroups->get_length();
-HXDLIN(1488)									while((_g < _g1)){
-HXLINE(1488)										_g = (_g + 1);
-HXDLIN(1488)										int i = (_g - 1);
-HXLINE(1490)										layoutGroup = this->layoutGroups->get(i).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
-HXLINE(1491)										 ::openfl::text::_internal::TextLayoutGroup layoutGroup1 = layoutGroup;
-HXDLIN(1491)										layoutGroup1->offsetX = (layoutGroup1->offsetX - bumpX);
-HXLINE(1492)										layoutGroup->offsetY = (offsetY + 2);
-HXLINE(1493)										layoutGroup->lineIndex = lineIndex;
-HXLINE(1494)										offsetX = (offsetX + layoutGroup->width);
-            									}
-            								}
-            							}
-HXLINE(1498)							{
-HXLINE(1498)								bool _hx_tmp1;
-HXDLIN(1498)								if ((_gthis->width >= 4)) {
-HXLINE(1498)									_hx_tmp1 = _gthis->wordWrap;
-            								}
-            								else {
-HXLINE(1498)									_hx_tmp1 = false;
-            								}
-HXDLIN(1498)								if (_hx_tmp1) {
-HXLINE(1498)									::Array< ::Dynamic> remainingPositions = positions;
-HXDLIN(1498)									int i;
-HXDLIN(1498)									int bufferCount;
-HXDLIN(1498)									int placeIndex;
-HXDLIN(1498)									Float positionWidth;
-HXDLIN(1498)									 ::openfl::text::_internal::GlyphPosition currentPosition;
-HXDLIN(1498)									Float width = ((Float)0.0);
-HXDLIN(1498)									{
-HXLINE(1498)										int _g = 0;
-HXDLIN(1498)										while((_g < remainingPositions->length)){
-HXLINE(1498)											 ::openfl::text::_internal::GlyphPosition position = remainingPositions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1498)											_g = (_g + 1);
-HXDLIN(1498)											width = (width + position->advance->x);
-            										}
-            									}
-HXDLIN(1498)									Float tempWidth = width;
-HXDLIN(1498)									while(true){
-HXLINE(1498)										bool _hx_tmp;
-HXDLIN(1498)										if ((remainingPositions->length > 0)) {
-HXLINE(1498)											int _hx_tmp1;
-HXDLIN(1498)											if (firstLineOfParagraph) {
-HXLINE(1498)												_hx_tmp1 = indent;
+HXDLIN(1474)									Float tempWidth = width;
+HXDLIN(1474)									while(((offsetX + tempWidth) > (_gthis->width - ( (Float)(2) )))){
+HXLINE(1202)										bufferCount = 0;
+HXDLIN(1202)										i = bufferCount;
+HXLINE(1203)										positionWidth = ((Float)0.0);
+HXLINE(1474)										while(((offsetX + positionWidth) < (_gthis->width - ( (Float)(2) )))){
+HXLINE(1207)											currentPosition = remainingPositions->__get(i).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXLINE(1474)											if ((currentPosition->advance->x == ((Float)0.0))) {
+HXLINE(1474)												i = (i + 1);
+HXDLIN(1474)												bufferCount = (bufferCount + 1);
             											}
             											else {
-HXLINE(1498)												_hx_tmp1 = 0;
+HXLINE(1474)												positionWidth = (positionWidth + currentPosition->advance->x);
+HXDLIN(1474)												i = (i + 1);
             											}
-HXDLIN(1498)											_hx_tmp = ((offsetX + tempWidth) > (((_gthis->width - ( (Float)(2) )) - ( (Float)(rightMargin) )) - ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp1)) )));
+            										}
+HXDLIN(1474)										if ((positionWidth == ((Float)0.0))) {
+HXLINE(1474)											goto _hx_goto_45;
             										}
             										else {
-HXLINE(1498)											_hx_tmp = false;
-            										}
-HXDLIN(1498)										if (!(_hx_tmp)) {
-HXLINE(1498)											goto _hx_goto_48;
-            										}
-HXDLIN(1498)										bufferCount = 0;
-HXDLIN(1498)										i = bufferCount;
-HXDLIN(1498)										positionWidth = ((Float)0.0);
-HXDLIN(1498)										while(true){
-HXLINE(1498)											int _hx_tmp;
-HXDLIN(1498)											if (firstLineOfParagraph) {
-HXLINE(1498)												_hx_tmp = indent;
+HXLINE(1474)											bool _hx_tmp;
+HXDLIN(1474)											if ((i < 2)) {
+HXLINE(1474)												_hx_tmp = ((positionWidth + offsetX) > (_gthis->width - ( (Float)(2) )));
             											}
             											else {
-HXLINE(1498)												_hx_tmp = 0;
+HXLINE(1474)												_hx_tmp = false;
             											}
-HXDLIN(1498)											if (!(((offsetX + positionWidth) < (((_gthis->width - ( (Float)(2) )) - ( (Float)(rightMargin) )) - ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp)) ))))) {
-HXLINE(1498)												goto _hx_goto_49;
-            											}
-HXDLIN(1498)											currentPosition = remainingPositions->__get(i).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1498)											if ((currentPosition->advance->x == ((Float)0.0))) {
-HXLINE(1498)												i = (i + 1);
-HXDLIN(1498)												bufferCount = (bufferCount + 1);
+HXDLIN(1474)											if (_hx_tmp) {
+HXLINE(1474)												if ((((textIndex + i) - bufferCount) == endIndex)) {
+HXLINE(1474)													goto _hx_goto_45;
+            												}
             											}
             											else {
-HXLINE(1498)												positionWidth = (positionWidth + currentPosition->advance->x);
-HXDLIN(1498)												i = (i + 1);
-            											}
-            										}
-            										_hx_goto_49:;
-HXDLIN(1498)										if ((i == bufferCount)) {
-HXLINE(1498)											i = (bufferCount + 1);
-            										}
-            										else {
-HXLINE(1498)											while(true){
-HXLINE(1498)												bool _hx_tmp;
-HXDLIN(1498)												if ((i > 1)) {
-HXLINE(1498)													int _hx_tmp1;
-HXDLIN(1498)													if (firstLineOfParagraph) {
-HXLINE(1498)														_hx_tmp1 = indent;
-            													}
-            													else {
-HXLINE(1498)														_hx_tmp1 = 0;
-            													}
-HXDLIN(1498)													_hx_tmp = ((offsetX + positionWidth) > (((_gthis->width - ( (Float)(2) )) - ( (Float)(rightMargin) )) - ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp1)) )));
-            												}
-            												else {
-HXLINE(1498)													_hx_tmp = false;
-            												}
-HXDLIN(1498)												if (!(_hx_tmp)) {
-HXLINE(1498)													goto _hx_goto_50;
-            												}
-HXDLIN(1498)												i = (i - 1);
-HXDLIN(1498)												if (((i - bufferCount) > 0)) {
-HXLINE(1498)													{
-HXLINE(1498)														int endIndex = ((textIndex + i) - bufferCount);
-HXDLIN(1498)														if ((textIndex >= endIndex)) {
-HXLINE(1498)															positions = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN(1498)															widthValue = ( (Float)(0) );
-            														}
-            														else {
-HXLINE(1498)															if ((endIndex <= formatRange->end)) {
-HXLINE(1498)																::String text = _gthis->text;
-HXDLIN(1498)																Float letterSpacing = ((Float)0.0);
-HXDLIN(1498)																if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1498)																	letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+HXLINE(1474)												while(((offsetX + positionWidth) > (_gthis->width - ( (Float)(2) )))){
+HXLINE(1474)													i = (i - 1);
+HXDLIN(1474)													if (((i - bufferCount) > 0)) {
+HXLINE(1474)														{
+HXLINE(1474)															int endIndex = ((textIndex + i) - bufferCount);
+HXDLIN(1474)															if ((endIndex <= formatRange->end)) {
+HXLINE(1474)																::String text = _gthis->text;
+HXDLIN(1474)																Float letterSpacing = ((Float)0.0);
+HXDLIN(1474)																if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)																	letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
             																}
-HXDLIN(1498)																if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1498)																	_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE(1474)																if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1474)																	_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
             																}
-HXDLIN(1498)																_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1498)																_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1498)																if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1498)																	_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+HXDLIN(1474)																_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1474)																_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1474)																if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1474)																	_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
             																}
-HXDLIN(1498)																_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1498)																bool positions1;
-HXDLIN(1498)																if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1498)																	positions1 = (_gthis->sharpness < 400);
+HXDLIN(1474)																_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1474)																bool positions1;
+HXDLIN(1474)																if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1474)																	positions1 = (_gthis->sharpness < 400);
             																}
             																else {
-HXLINE(1498)																	positions1 = true;
+HXLINE(1474)																	positions1 = true;
             																}
-HXDLIN(1498)																_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1498)																 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1498)																_gthis1->set_text(text.substring(textIndex,endIndex));
-HXDLIN(1498)																positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1498)																Float width = ((Float)0.0);
-HXDLIN(1498)																{
-HXLINE(1498)																	int _g = 0;
-HXDLIN(1498)																	while((_g < positions->length)){
-HXLINE(1498)																		 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1498)																		_g = (_g + 1);
-HXDLIN(1498)																		width = (width + position->advance->x);
-            																	}
+HXDLIN(1474)																_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1474)																 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1474)																_gthis1->set_text(text.substring(textIndex,endIndex));
+HXDLIN(1474)																positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1474)																Float width = ((Float)0.0);
+HXDLIN(1474)																int _g = 0;
+HXDLIN(1474)																while((_g < positions->length)){
+HXLINE(1474)																	 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1474)																	_g = (_g + 1);
+HXDLIN(1474)																	width = (width + position->advance->x);
             																}
-HXDLIN(1498)																widthValue = width;
+HXDLIN(1474)																widthValue = width;
             															}
             															else {
-HXLINE(1498)																int tempIndex = textIndex;
-HXDLIN(1498)																int tempRangeEnd = formatRange->end;
-HXDLIN(1498)																int countRanges = 0;
-HXDLIN(1498)																positions = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN(1498)																widthValue = ( (Float)(0) );
-HXDLIN(1498)																while(true){
-HXLINE(1498)																	if ((tempIndex != tempRangeEnd)) {
-HXLINE(1498)																		::String text = _gthis->text;
-HXDLIN(1498)																		Float letterSpacing = ((Float)0.0);
-HXDLIN(1498)																		if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1498)																			letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+HXLINE(1474)																int tempIndex = textIndex;
+HXDLIN(1474)																int tempRangeEnd = formatRange->end;
+HXDLIN(1474)																int countRanges = 0;
+HXLINE(1046)																positions = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(1047)																widthValue = ( (Float)(0) );
+HXLINE(1474)																while(true){
+HXLINE(1474)																	if ((tempIndex != tempRangeEnd)) {
+HXLINE(1474)																		::String text = _gthis->text;
+HXDLIN(1474)																		Float letterSpacing = ((Float)0.0);
+HXDLIN(1474)																		if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)																			letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
             																		}
-HXDLIN(1498)																		if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1498)																			_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE(1474)																		if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1474)																			_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
             																		}
-HXDLIN(1498)																		_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1498)																		_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1498)																		if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1498)																			_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+HXDLIN(1474)																		_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1474)																		_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1474)																		if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1474)																			_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
             																		}
-HXDLIN(1498)																		_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1498)																		bool _hx_tmp;
-HXDLIN(1498)																		if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1498)																			_hx_tmp = (_gthis->sharpness < 400);
+HXDLIN(1474)																		_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1474)																		bool _hx_tmp;
+HXDLIN(1474)																		if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1474)																			_hx_tmp = (_gthis->sharpness < 400);
             																		}
             																		else {
-HXLINE(1498)																			_hx_tmp = true;
+HXLINE(1474)																			_hx_tmp = true;
             																		}
-HXDLIN(1498)																		_gthis->_hx___textLayout->autoHint = _hx_tmp;
-HXDLIN(1498)																		 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1498)																		_gthis1->set_text(text.substring(tempIndex,tempRangeEnd));
-HXDLIN(1498)																		::Array< ::Dynamic> tempPositions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1498)																		positions = positions->concat(tempPositions);
+HXDLIN(1474)																		_gthis->_hx___textLayout->autoHint = _hx_tmp;
+HXDLIN(1474)																		 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1474)																		_gthis1->set_text(text.substring(tempIndex,tempRangeEnd));
+HXDLIN(1474)																		::Array< ::Dynamic> tempPositions = _gthis->_hx___textLayout->get_positions();
+HXLINE(1054)																		positions = positions->concat(tempPositions);
             																	}
-HXDLIN(1498)																	if ((tempRangeEnd != endIndex)) {
-HXLINE(1498)																		bool _hx_tmp;
-HXDLIN(1498)																		if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1498)																			rangeIndex = (rangeIndex + 1);
-HXDLIN(1498)																			formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1498)																			currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1498)																			font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-HXDLIN(1498)																			_hx_tmp = true;
+HXLINE(1474)																	if ((tempRangeEnd != endIndex)) {
+HXLINE(1474)																		bool _hx_tmp;
+HXDLIN(1474)																		if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1474)																			rangeIndex = (rangeIndex + 1);
+HXDLIN(1474)																			formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1474)																			currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)																			font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXLINE(1474)																			_hx_tmp = true;
             																		}
             																		else {
-HXLINE(1498)																			_hx_tmp = false;
+HXLINE(1474)																			_hx_tmp = false;
             																		}
-HXDLIN(1498)																		if (!(_hx_tmp)) {
-HXLINE(1498)																			::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1092,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
-HXDLIN(1498)																			goto _hx_goto_52;
+HXDLIN(1474)																		if (!(_hx_tmp)) {
+HXLINE(1474)																			::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1061,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
+HXDLIN(1474)																			goto _hx_goto_49;
             																		}
-HXDLIN(1498)																		tempIndex = tempRangeEnd;
-HXDLIN(1498)																		if ((endIndex < formatRange->end)) {
-HXLINE(1498)																			tempRangeEnd = endIndex;
+HXLINE(1065)																		tempIndex = tempRangeEnd;
+HXLINE(1474)																		if ((endIndex < formatRange->end)) {
+HXLINE(1474)																			tempRangeEnd = endIndex;
             																		}
             																		else {
-HXLINE(1498)																			tempRangeEnd = formatRange->end;
+HXLINE(1474)																			tempRangeEnd = formatRange->end;
             																		}
-HXDLIN(1498)																		countRanges = (countRanges + 1);
+HXDLIN(1474)																		countRanges = (countRanges + 1);
             																	}
             																	else {
-HXLINE(1498)																		Float width = ((Float)0.0);
-HXDLIN(1498)																		{
-HXLINE(1498)																			int _g = 0;
-HXDLIN(1498)																			while((_g < positions->length)){
-HXLINE(1498)																				 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1498)																				_g = (_g + 1);
-HXDLIN(1498)																				width = (width + position->advance->x);
-            																			}
+HXLINE(1474)																		Float width = ((Float)0.0);
+HXDLIN(1474)																		int _g = 0;
+HXDLIN(1474)																		while((_g < positions->length)){
+HXLINE(1474)																			 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1474)																			_g = (_g + 1);
+HXDLIN(1474)																			width = (width + position->advance->x);
             																		}
-HXDLIN(1498)																		widthValue = width;
-HXDLIN(1498)																		goto _hx_goto_52;
+HXDLIN(1474)																		widthValue = width;
+HXDLIN(1474)																		goto _hx_goto_49;
+            																	}
+            																}
+            																_hx_goto_49:;
+HXDLIN(1474)																rangeIndex = (rangeIndex - (countRanges + 1));
+HXDLIN(1474)																if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1474)																	rangeIndex = (rangeIndex + 1);
+HXDLIN(1474)																	formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1474)																	currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)																	font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+            																}
+            															}
+            														}
+HXLINE(1250)														positionWidth = widthValue;
+            													}
+            													else {
+HXLINE(1256)														i = 1;
+HXLINE(1257)														bufferCount = 0;
+HXLINE(1474)														{
+HXLINE(1474)															int endIndex = (textIndex + 1);
+HXDLIN(1474)															if ((endIndex <= formatRange->end)) {
+HXLINE(1474)																::String text = _gthis->text;
+HXDLIN(1474)																Float letterSpacing = ((Float)0.0);
+HXDLIN(1474)																if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)																	letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+            																}
+HXLINE(1474)																if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1474)																	_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+            																}
+HXDLIN(1474)																_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1474)																_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1474)																if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1474)																	_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+            																}
+HXDLIN(1474)																_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1474)																bool positions1;
+HXDLIN(1474)																if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1474)																	positions1 = (_gthis->sharpness < 400);
+            																}
+            																else {
+HXLINE(1474)																	positions1 = true;
+            																}
+HXDLIN(1474)																_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1474)																 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1474)																_gthis1->set_text(text.substring(textIndex,endIndex));
+HXDLIN(1474)																positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1474)																Float width = ((Float)0.0);
+HXDLIN(1474)																int _g = 0;
+HXDLIN(1474)																while((_g < positions->length)){
+HXLINE(1474)																	 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1474)																	_g = (_g + 1);
+HXDLIN(1474)																	width = (width + position->advance->x);
+            																}
+HXDLIN(1474)																widthValue = width;
+            															}
+            															else {
+HXLINE(1474)																int tempIndex = textIndex;
+HXDLIN(1474)																int tempRangeEnd = formatRange->end;
+HXDLIN(1474)																int countRanges = 0;
+HXLINE(1046)																positions = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(1047)																widthValue = ( (Float)(0) );
+HXLINE(1474)																while(true){
+HXLINE(1474)																	if ((tempIndex != tempRangeEnd)) {
+HXLINE(1474)																		::String text = _gthis->text;
+HXDLIN(1474)																		Float letterSpacing = ((Float)0.0);
+HXDLIN(1474)																		if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)																			letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+            																		}
+HXLINE(1474)																		if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1474)																			_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+            																		}
+HXDLIN(1474)																		_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1474)																		_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1474)																		if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1474)																			_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+            																		}
+HXDLIN(1474)																		_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1474)																		bool _hx_tmp;
+HXDLIN(1474)																		if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1474)																			_hx_tmp = (_gthis->sharpness < 400);
+            																		}
+            																		else {
+HXLINE(1474)																			_hx_tmp = true;
+            																		}
+HXDLIN(1474)																		_gthis->_hx___textLayout->autoHint = _hx_tmp;
+HXDLIN(1474)																		 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1474)																		_gthis1->set_text(text.substring(tempIndex,tempRangeEnd));
+HXDLIN(1474)																		::Array< ::Dynamic> tempPositions = _gthis->_hx___textLayout->get_positions();
+HXLINE(1054)																		positions = positions->concat(tempPositions);
+            																	}
+HXLINE(1474)																	if ((tempRangeEnd != endIndex)) {
+HXLINE(1474)																		bool _hx_tmp;
+HXDLIN(1474)																		if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1474)																			rangeIndex = (rangeIndex + 1);
+HXDLIN(1474)																			formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1474)																			currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)																			font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXLINE(1474)																			_hx_tmp = true;
+            																		}
+            																		else {
+HXLINE(1474)																			_hx_tmp = false;
+            																		}
+HXDLIN(1474)																		if (!(_hx_tmp)) {
+HXLINE(1474)																			::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1061,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
+HXDLIN(1474)																			goto _hx_goto_52;
+            																		}
+HXLINE(1065)																		tempIndex = tempRangeEnd;
+HXLINE(1474)																		if ((endIndex < formatRange->end)) {
+HXLINE(1474)																			tempRangeEnd = endIndex;
+            																		}
+            																		else {
+HXLINE(1474)																			tempRangeEnd = formatRange->end;
+            																		}
+HXDLIN(1474)																		countRanges = (countRanges + 1);
+            																	}
+            																	else {
+HXLINE(1474)																		Float width = ((Float)0.0);
+HXDLIN(1474)																		int _g = 0;
+HXDLIN(1474)																		while((_g < positions->length)){
+HXLINE(1474)																			 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1474)																			_g = (_g + 1);
+HXDLIN(1474)																			width = (width + position->advance->x);
+            																		}
+HXDLIN(1474)																		widthValue = width;
+HXDLIN(1474)																		goto _hx_goto_52;
             																	}
             																}
             																_hx_goto_52:;
-HXDLIN(1498)																rangeIndex = (rangeIndex - (countRanges + 1));
-HXDLIN(1498)																if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1498)																	rangeIndex = (rangeIndex + 1);
-HXDLIN(1498)																	formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1498)																	currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1498)																	font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXDLIN(1474)																rangeIndex = (rangeIndex - (countRanges + 1));
+HXDLIN(1474)																if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1474)																	rangeIndex = (rangeIndex + 1);
+HXDLIN(1474)																	formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1474)																	currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)																	font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
             																}
             															}
             														}
+HXLINE(1260)														positionWidth = ( (Float)(0) );
             													}
-HXDLIN(1498)													positionWidth = widthValue;
-            												}
-            												else {
-HXLINE(1498)													i = 1;
-HXDLIN(1498)													bufferCount = 0;
-HXDLIN(1498)													{
-HXLINE(1498)														int endIndex = (textIndex + 1);
-HXDLIN(1498)														if ((textIndex >= endIndex)) {
-HXLINE(1498)															positions = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN(1498)															widthValue = ( (Float)(0) );
-            														}
-            														else {
-HXLINE(1498)															if ((endIndex <= formatRange->end)) {
-HXLINE(1498)																::String text = _gthis->text;
-HXDLIN(1498)																Float letterSpacing = ((Float)0.0);
-HXDLIN(1498)																if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1498)																	letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
-            																}
-HXDLIN(1498)																if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1498)																	_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-            																}
-HXDLIN(1498)																_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1498)																_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1498)																if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1498)																	_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
-            																}
-HXDLIN(1498)																_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1498)																bool positions1;
-HXDLIN(1498)																if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1498)																	positions1 = (_gthis->sharpness < 400);
-            																}
-            																else {
-HXLINE(1498)																	positions1 = true;
-            																}
-HXDLIN(1498)																_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1498)																 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1498)																_gthis1->set_text(text.substring(textIndex,endIndex));
-HXDLIN(1498)																positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1498)																Float width = ((Float)0.0);
-HXDLIN(1498)																{
-HXLINE(1498)																	int _g = 0;
-HXDLIN(1498)																	while((_g < positions->length)){
-HXLINE(1498)																		 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1498)																		_g = (_g + 1);
-HXDLIN(1498)																		width = (width + position->advance->x);
-            																	}
-            																}
-HXDLIN(1498)																widthValue = width;
-            															}
-            															else {
-HXLINE(1498)																int tempIndex = textIndex;
-HXDLIN(1498)																int tempRangeEnd = formatRange->end;
-HXDLIN(1498)																int countRanges = 0;
-HXDLIN(1498)																positions = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN(1498)																widthValue = ( (Float)(0) );
-HXDLIN(1498)																while(true){
-HXLINE(1498)																	if ((tempIndex != tempRangeEnd)) {
-HXLINE(1498)																		::String text = _gthis->text;
-HXDLIN(1498)																		Float letterSpacing = ((Float)0.0);
-HXDLIN(1498)																		if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1498)																			letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
-            																		}
-HXDLIN(1498)																		if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1498)																			_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-            																		}
-HXDLIN(1498)																		_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1498)																		_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1498)																		if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1498)																			_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
-            																		}
-HXDLIN(1498)																		_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1498)																		bool _hx_tmp;
-HXDLIN(1498)																		if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1498)																			_hx_tmp = (_gthis->sharpness < 400);
-            																		}
-            																		else {
-HXLINE(1498)																			_hx_tmp = true;
-            																		}
-HXDLIN(1498)																		_gthis->_hx___textLayout->autoHint = _hx_tmp;
-HXDLIN(1498)																		 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1498)																		_gthis1->set_text(text.substring(tempIndex,tempRangeEnd));
-HXDLIN(1498)																		::Array< ::Dynamic> tempPositions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1498)																		positions = positions->concat(tempPositions);
-            																	}
-HXDLIN(1498)																	if ((tempRangeEnd != endIndex)) {
-HXLINE(1498)																		bool _hx_tmp;
-HXDLIN(1498)																		if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1498)																			rangeIndex = (rangeIndex + 1);
-HXDLIN(1498)																			formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1498)																			currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1498)																			font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-HXDLIN(1498)																			_hx_tmp = true;
-            																		}
-            																		else {
-HXLINE(1498)																			_hx_tmp = false;
-            																		}
-HXDLIN(1498)																		if (!(_hx_tmp)) {
-HXLINE(1498)																			::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1092,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
-HXDLIN(1498)																			goto _hx_goto_55;
-            																		}
-HXDLIN(1498)																		tempIndex = tempRangeEnd;
-HXDLIN(1498)																		if ((endIndex < formatRange->end)) {
-HXLINE(1498)																			tempRangeEnd = endIndex;
-            																		}
-            																		else {
-HXLINE(1498)																			tempRangeEnd = formatRange->end;
-            																		}
-HXDLIN(1498)																		countRanges = (countRanges + 1);
-            																	}
-            																	else {
-HXLINE(1498)																		Float width = ((Float)0.0);
-HXDLIN(1498)																		{
-HXLINE(1498)																			int _g = 0;
-HXDLIN(1498)																			while((_g < positions->length)){
-HXLINE(1498)																				 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1498)																				_g = (_g + 1);
-HXDLIN(1498)																				width = (width + position->advance->x);
-            																			}
-            																		}
-HXDLIN(1498)																		widthValue = width;
-HXDLIN(1498)																		goto _hx_goto_55;
-            																	}
-            																}
-            																_hx_goto_55:;
-HXDLIN(1498)																rangeIndex = (rangeIndex - (countRanges + 1));
-HXDLIN(1498)																if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1498)																	rangeIndex = (rangeIndex + 1);
-HXDLIN(1498)																	formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1498)																	currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1498)																	font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-            																}
-            															}
-            														}
-            													}
-HXDLIN(1498)													positionWidth = ( (Float)(0) );
             												}
             											}
-            											_hx_goto_50:;
             										}
-HXDLIN(1498)										placeIndex = ((textIndex + i) - bufferCount);
-HXDLIN(1498)										{
-HXLINE(1498)											if ((placeIndex <= formatRange->end)) {
-HXLINE(1498)												::String text = _gthis->text;
-HXDLIN(1498)												Float letterSpacing = ((Float)0.0);
-HXDLIN(1498)												if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1498)													letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+HXLINE(1265)										placeIndex = ((textIndex + i) - bufferCount);
+HXLINE(1474)										{
+HXLINE(1474)											if ((placeIndex <= formatRange->end)) {
+HXLINE(1474)												::String text = _gthis->text;
+HXDLIN(1474)												Float letterSpacing = ((Float)0.0);
+HXDLIN(1474)												if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)													letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
             												}
-HXDLIN(1498)												if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1498)													_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE(1474)												if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1474)													_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
             												}
-HXDLIN(1498)												_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1498)												_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1498)												if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1498)													_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+HXDLIN(1474)												_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1474)												_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1474)												if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1474)													_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
             												}
-HXDLIN(1498)												_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1498)												bool positions1;
-HXDLIN(1498)												if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1498)													positions1 = (_gthis->sharpness < 400);
+HXDLIN(1474)												_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1474)												bool positions1;
+HXDLIN(1474)												if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1474)													positions1 = (_gthis->sharpness < 400);
             												}
             												else {
-HXLINE(1498)													positions1 = true;
+HXLINE(1474)													positions1 = true;
             												}
-HXDLIN(1498)												_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1498)												 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1498)												_gthis1->set_text(text.substring(textIndex,placeIndex));
-HXDLIN(1498)												positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1498)												Float width = ((Float)0.0);
-HXDLIN(1498)												{
-HXLINE(1498)													int _g = 0;
-HXDLIN(1498)													while((_g < positions->length)){
-HXLINE(1498)														 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1498)														_g = (_g + 1);
-HXDLIN(1498)														width = (width + position->advance->x);
+HXDLIN(1474)												_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1474)												 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1474)												_gthis1->set_text(text.substring(textIndex,placeIndex));
+HXDLIN(1474)												positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1474)												Float width = ((Float)0.0);
+HXDLIN(1474)												int _g = 0;
+HXDLIN(1474)												while((_g < positions->length)){
+HXLINE(1474)													 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1474)													_g = (_g + 1);
+HXDLIN(1474)													width = (width + position->advance->x);
+            												}
+HXDLIN(1474)												widthValue = width;
+HXDLIN(1474)												bool _hx_tmp;
+HXDLIN(1474)												if (::hx::IsNotNull( layoutGroup )) {
+HXLINE(1474)													_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
+            												}
+            												else {
+HXLINE(1474)													_hx_tmp = true;
+            												}
+HXDLIN(1474)												if (_hx_tmp) {
+HXLINE( 923)													layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,placeIndex);
+HXLINE(1474)													_gthis->layoutGroups->push(layoutGroup);
+            												}
+            												else {
+HXLINE(1474)													layoutGroup->format = formatRange->format;
+HXDLIN(1474)													layoutGroup->startIndex = textIndex;
+HXDLIN(1474)													layoutGroup->endIndex = placeIndex;
+            												}
+HXDLIN(1474)												layoutGroup->positions = positions;
+HXDLIN(1474)												layoutGroup->offsetX = offsetX;
+HXDLIN(1474)												layoutGroup->ascent = ascent;
+HXDLIN(1474)												layoutGroup->descent = descent;
+HXDLIN(1474)												layoutGroup->leading = leading;
+HXDLIN(1474)												layoutGroup->lineIndex = lineIndex;
+HXDLIN(1474)												layoutGroup->offsetY = offsetY;
+HXDLIN(1474)												layoutGroup->width = widthValue;
+HXDLIN(1474)												layoutGroup->height = ( (Float)(heightValue) );
+HXDLIN(1474)												offsetX = (offsetX + widthValue);
+HXDLIN(1474)												if ((placeIndex == formatRange->end)) {
+HXLINE(1108)													layoutGroup = null();
+HXLINE(1474)													if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1474)														rangeIndex = (rangeIndex + 1);
+HXDLIN(1474)														formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1474)														currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)														font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
             													}
-            												}
-HXDLIN(1498)												widthValue = width;
-HXDLIN(1498)												bool _hx_tmp;
-HXDLIN(1498)												if (::hx::IsNotNull( layoutGroup )) {
-HXLINE(1498)													_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
-            												}
-            												else {
-HXLINE(1498)													_hx_tmp = true;
-            												}
-HXDLIN(1498)												if (_hx_tmp) {
-HXLINE(1498)													layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,placeIndex);
-HXDLIN(1498)													_gthis->layoutGroups->push(layoutGroup);
-            												}
-            												else {
-HXLINE(1498)													layoutGroup->format = formatRange->format;
-HXDLIN(1498)													layoutGroup->startIndex = textIndex;
-HXDLIN(1498)													layoutGroup->endIndex = placeIndex;
-            												}
-HXDLIN(1498)												layoutGroup->positions = positions;
-HXDLIN(1498)												int _hx_tmp1;
-HXDLIN(1498)												if (firstLineOfParagraph) {
-HXLINE(1498)													_hx_tmp1 = indent;
-            												}
-            												else {
-HXLINE(1498)													_hx_tmp1 = 0;
-            												}
-HXDLIN(1498)												layoutGroup->offsetX = (offsetX + ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp1)) ));
-HXDLIN(1498)												layoutGroup->ascent = ascent;
-HXDLIN(1498)												layoutGroup->descent = descent;
-HXDLIN(1498)												layoutGroup->leading = leading;
-HXDLIN(1498)												layoutGroup->lineIndex = lineIndex;
-HXDLIN(1498)												layoutGroup->offsetY = (offsetY + 2);
-HXDLIN(1498)												layoutGroup->width = widthValue;
-HXDLIN(1498)												layoutGroup->height = ( (Float)(heightValue) );
-HXDLIN(1498)												offsetX = (offsetX + widthValue);
-HXDLIN(1498)												if ((placeIndex == formatRange->end)) {
-HXLINE(1498)													layoutGroup = null();
-HXDLIN(1498)													if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1498)														rangeIndex = (rangeIndex + 1);
-HXDLIN(1498)														formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1498)														currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1498)														font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-            													}
-HXDLIN(1498)													{
-HXLINE(1498)														if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
-HXLINE(1498)															ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
-HXDLIN(1498)															descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
+HXLINE(1474)													{
+HXLINE(1474)														if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
+HXLINE( 939)															ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
+HXLINE( 940)															descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
             														}
             														else {
-HXLINE(1498)															bool _hx_tmp;
-HXDLIN(1498)															if (::hx::IsNotNull( font )) {
-HXLINE(1498)																_hx_tmp = (font->unitsPerEM != 0);
+HXLINE(1474)															bool _hx_tmp;
+HXDLIN(1474)															if (::hx::IsNotNull( font )) {
+HXLINE(1474)																_hx_tmp = (font->unitsPerEM != 0);
             															}
             															else {
-HXLINE(1498)																_hx_tmp = false;
+HXLINE(1474)																_hx_tmp = false;
             															}
-HXDLIN(1498)															if (_hx_tmp) {
-HXLINE(1498)																ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
-HXDLIN(1498)																descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
+HXDLIN(1474)															if (_hx_tmp) {
+HXLINE( 945)																ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
+HXLINE( 946)																descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
             															}
             															else {
-HXLINE(1498)																ascent = ( (Float)(currentFormat->size) );
-HXDLIN(1498)																descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
+HXLINE( 951)																ascent = ( (Float)(currentFormat->size) );
+HXLINE( 952)																descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
             															}
             														}
-HXDLIN(1498)														leading = ( (int)(currentFormat->leading) );
-HXDLIN(1498)														heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
-HXDLIN(1498)														if ((heightValue > maxHeightValue)) {
-HXLINE(1498)															maxHeightValue = heightValue;
+HXLINE( 955)														leading = ( (int)(currentFormat->leading) );
+HXLINE( 957)														heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
+HXLINE(1474)														if ((heightValue > maxHeightValue)) {
+HXLINE( 961)															maxHeightValue = heightValue;
             														}
-HXDLIN(1498)														if ((ascent > maxAscent)) {
-HXLINE(1498)															maxAscent = ascent;
+HXLINE(1474)														if ((ascent > maxAscent)) {
+HXLINE( 966)															maxAscent = ascent;
             														}
             													}
             												}
             											}
             											else {
-HXLINE(1498)												while(true){
-HXLINE(1498)													int tempRangeEnd;
-HXDLIN(1498)													if ((placeIndex < formatRange->end)) {
-HXLINE(1498)														tempRangeEnd = placeIndex;
+HXLINE(1474)												while(true){
+HXLINE(1474)													int tempRangeEnd;
+HXDLIN(1474)													if ((placeIndex < formatRange->end)) {
+HXLINE(1474)														tempRangeEnd = placeIndex;
             													}
             													else {
-HXLINE(1498)														tempRangeEnd = formatRange->end;
+HXLINE(1474)														tempRangeEnd = formatRange->end;
             													}
-HXDLIN(1498)													if ((textIndex != tempRangeEnd)) {
-HXLINE(1498)														::String text = _gthis->text;
-HXDLIN(1498)														Float letterSpacing = ((Float)0.0);
-HXDLIN(1498)														if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1498)															letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+HXDLIN(1474)													if ((textIndex != tempRangeEnd)) {
+HXLINE(1474)														::String text = _gthis->text;
+HXDLIN(1474)														Float letterSpacing = ((Float)0.0);
+HXDLIN(1474)														if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)															letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
             														}
-HXDLIN(1498)														if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1498)															_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE(1474)														if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1474)															_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
             														}
-HXDLIN(1498)														_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1498)														_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1498)														if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1498)															_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+HXDLIN(1474)														_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1474)														_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1474)														if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1474)															_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
             														}
-HXDLIN(1498)														_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1498)														bool positions1;
-HXDLIN(1498)														if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1498)															positions1 = (_gthis->sharpness < 400);
+HXDLIN(1474)														_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1474)														bool positions1;
+HXDLIN(1474)														if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1474)															positions1 = (_gthis->sharpness < 400);
             														}
             														else {
-HXLINE(1498)															positions1 = true;
+HXLINE(1474)															positions1 = true;
             														}
-HXDLIN(1498)														_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1498)														 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1498)														_gthis1->set_text(text.substring(textIndex,tempRangeEnd));
-HXDLIN(1498)														positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1498)														Float width = ((Float)0.0);
-HXDLIN(1498)														{
-HXLINE(1498)															int _g = 0;
-HXDLIN(1498)															while((_g < positions->length)){
-HXLINE(1498)																 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1498)																_g = (_g + 1);
-HXDLIN(1498)																width = (width + position->advance->x);
-            															}
+HXDLIN(1474)														_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1474)														 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1474)														_gthis1->set_text(text.substring(textIndex,tempRangeEnd));
+HXDLIN(1474)														positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1474)														Float width = ((Float)0.0);
+HXDLIN(1474)														int _g = 0;
+HXDLIN(1474)														while((_g < positions->length)){
+HXLINE(1474)															 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1474)															_g = (_g + 1);
+HXDLIN(1474)															width = (width + position->advance->x);
             														}
-HXDLIN(1498)														widthValue = width;
-HXDLIN(1498)														bool _hx_tmp;
-HXDLIN(1498)														if (::hx::IsNotNull( layoutGroup )) {
-HXLINE(1498)															_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
+HXDLIN(1474)														widthValue = width;
+HXDLIN(1474)														bool _hx_tmp;
+HXDLIN(1474)														if (::hx::IsNotNull( layoutGroup )) {
+HXLINE(1474)															_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
             														}
             														else {
-HXLINE(1498)															_hx_tmp = true;
+HXLINE(1474)															_hx_tmp = true;
             														}
-HXDLIN(1498)														if (_hx_tmp) {
-HXLINE(1498)															layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,tempRangeEnd);
-HXDLIN(1498)															_gthis->layoutGroups->push(layoutGroup);
-            														}
-            														else {
-HXLINE(1498)															layoutGroup->format = formatRange->format;
-HXDLIN(1498)															layoutGroup->startIndex = textIndex;
-HXDLIN(1498)															layoutGroup->endIndex = tempRangeEnd;
-            														}
-HXDLIN(1498)														layoutGroup->positions = positions;
-HXDLIN(1498)														int _hx_tmp1;
-HXDLIN(1498)														if (firstLineOfParagraph) {
-HXLINE(1498)															_hx_tmp1 = indent;
+HXDLIN(1474)														if (_hx_tmp) {
+HXLINE( 923)															layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,tempRangeEnd);
+HXLINE(1474)															_gthis->layoutGroups->push(layoutGroup);
             														}
             														else {
-HXLINE(1498)															_hx_tmp1 = 0;
+HXLINE(1474)															layoutGroup->format = formatRange->format;
+HXDLIN(1474)															layoutGroup->startIndex = textIndex;
+HXDLIN(1474)															layoutGroup->endIndex = tempRangeEnd;
             														}
-HXDLIN(1498)														layoutGroup->offsetX = (offsetX + ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp1)) ));
-HXDLIN(1498)														layoutGroup->ascent = ascent;
-HXDLIN(1498)														layoutGroup->descent = descent;
-HXDLIN(1498)														layoutGroup->leading = leading;
-HXDLIN(1498)														layoutGroup->lineIndex = lineIndex;
-HXDLIN(1498)														layoutGroup->offsetY = (offsetY + 2);
-HXDLIN(1498)														layoutGroup->width = widthValue;
-HXDLIN(1498)														layoutGroup->height = ( (Float)(heightValue) );
-HXDLIN(1498)														offsetX = (offsetX + widthValue);
-HXDLIN(1498)														textIndex = tempRangeEnd;
+HXDLIN(1474)														layoutGroup->positions = positions;
+HXDLIN(1474)														layoutGroup->offsetX = offsetX;
+HXDLIN(1474)														layoutGroup->ascent = ascent;
+HXDLIN(1474)														layoutGroup->descent = descent;
+HXDLIN(1474)														layoutGroup->leading = leading;
+HXDLIN(1474)														layoutGroup->lineIndex = lineIndex;
+HXDLIN(1474)														layoutGroup->offsetY = offsetY;
+HXDLIN(1474)														layoutGroup->width = widthValue;
+HXDLIN(1474)														layoutGroup->height = ( (Float)(heightValue) );
+HXDLIN(1474)														offsetX = (offsetX + widthValue);
+HXLINE(1140)														textIndex = tempRangeEnd;
             													}
-HXDLIN(1498)													if ((tempRangeEnd == formatRange->end)) {
-HXLINE(1498)														layoutGroup = null();
+HXLINE(1474)													if ((tempRangeEnd == formatRange->end)) {
+HXLINE(1143)														layoutGroup = null();
             													}
-HXDLIN(1498)													if ((tempRangeEnd == placeIndex)) {
-HXLINE(1498)														goto _hx_goto_58;
+HXLINE(1474)													if ((tempRangeEnd == placeIndex)) {
+HXLINE(1474)														goto _hx_goto_55;
             													}
-HXDLIN(1498)													bool _hx_tmp;
-HXDLIN(1498)													if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1498)														rangeIndex = (rangeIndex + 1);
-HXDLIN(1498)														formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1498)														currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1498)														font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-HXDLIN(1498)														_hx_tmp = true;
+HXDLIN(1474)													bool _hx_tmp;
+HXDLIN(1474)													if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1474)														rangeIndex = (rangeIndex + 1);
+HXDLIN(1474)														formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1474)														currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)														font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXLINE(1474)														_hx_tmp = true;
             													}
             													else {
-HXLINE(1498)														_hx_tmp = false;
+HXLINE(1474)														_hx_tmp = false;
             													}
-HXDLIN(1498)													if (!(_hx_tmp)) {
-HXLINE(1498)														::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1180,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
-HXDLIN(1498)														goto _hx_goto_58;
+HXDLIN(1474)													if (!(_hx_tmp)) {
+HXLINE(1474)														::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1149,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
+HXDLIN(1474)														goto _hx_goto_55;
             													}
-HXDLIN(1498)													{
-HXLINE(1498)														if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
-HXLINE(1498)															ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
-HXDLIN(1498)															descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
+HXDLIN(1474)													{
+HXLINE(1474)														if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
+HXLINE( 939)															ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
+HXLINE( 940)															descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
             														}
             														else {
-HXLINE(1498)															bool _hx_tmp;
-HXDLIN(1498)															if (::hx::IsNotNull( font )) {
-HXLINE(1498)																_hx_tmp = (font->unitsPerEM != 0);
+HXLINE(1474)															bool _hx_tmp;
+HXDLIN(1474)															if (::hx::IsNotNull( font )) {
+HXLINE(1474)																_hx_tmp = (font->unitsPerEM != 0);
             															}
             															else {
-HXLINE(1498)																_hx_tmp = false;
+HXLINE(1474)																_hx_tmp = false;
             															}
-HXDLIN(1498)															if (_hx_tmp) {
-HXLINE(1498)																ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
-HXDLIN(1498)																descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
+HXDLIN(1474)															if (_hx_tmp) {
+HXLINE( 945)																ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
+HXLINE( 946)																descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
             															}
             															else {
-HXLINE(1498)																ascent = ( (Float)(currentFormat->size) );
-HXDLIN(1498)																descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
+HXLINE( 951)																ascent = ( (Float)(currentFormat->size) );
+HXLINE( 952)																descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
             															}
             														}
-HXDLIN(1498)														leading = ( (int)(currentFormat->leading) );
-HXDLIN(1498)														heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
-HXDLIN(1498)														if ((heightValue > maxHeightValue)) {
-HXLINE(1498)															maxHeightValue = heightValue;
+HXLINE( 955)														leading = ( (int)(currentFormat->leading) );
+HXLINE( 957)														heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
+HXLINE(1474)														if ((heightValue > maxHeightValue)) {
+HXLINE( 961)															maxHeightValue = heightValue;
             														}
-HXDLIN(1498)														if ((ascent > maxAscent)) {
-HXLINE(1498)															maxAscent = ascent;
+HXLINE(1474)														if ((ascent > maxAscent)) {
+HXLINE( 966)															maxAscent = ascent;
             														}
             													}
             												}
-            												_hx_goto_58:;
+            												_hx_goto_55:;
             											}
-HXDLIN(1498)											textIndex = placeIndex;
+HXLINE(1157)											textIndex = placeIndex;
             										}
-HXDLIN(1498)										{
-HXLINE(1498)											{
-HXLINE(1498)												if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
-HXLINE(1498)													ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
-HXDLIN(1498)													descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
+HXLINE(1474)										{
+HXLINE(1474)											{
+HXLINE(1474)												if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
+HXLINE( 939)													ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
+HXLINE( 940)													descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
             												}
             												else {
-HXLINE(1498)													bool _hx_tmp;
-HXDLIN(1498)													if (::hx::IsNotNull( font )) {
-HXLINE(1498)														_hx_tmp = (font->unitsPerEM != 0);
+HXLINE(1474)													bool _hx_tmp;
+HXDLIN(1474)													if (::hx::IsNotNull( font )) {
+HXLINE(1474)														_hx_tmp = (font->unitsPerEM != 0);
             													}
             													else {
-HXLINE(1498)														_hx_tmp = false;
+HXLINE(1474)														_hx_tmp = false;
             													}
-HXDLIN(1498)													if (_hx_tmp) {
-HXLINE(1498)														ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
-HXDLIN(1498)														descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
+HXDLIN(1474)													if (_hx_tmp) {
+HXLINE( 945)														ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
+HXLINE( 946)														descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
             													}
             													else {
-HXLINE(1498)														ascent = ( (Float)(currentFormat->size) );
-HXDLIN(1498)														descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
+HXLINE( 951)														ascent = ( (Float)(currentFormat->size) );
+HXLINE( 952)														descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
             													}
             												}
-HXDLIN(1498)												leading = ( (int)(currentFormat->leading) );
-HXDLIN(1498)												heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
-HXDLIN(1498)												if ((heightValue > maxHeightValue)) {
-HXLINE(1498)													maxHeightValue = heightValue;
+HXLINE( 955)												leading = ( (int)(currentFormat->leading) );
+HXLINE( 957)												heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
+HXLINE(1474)												if ((heightValue > maxHeightValue)) {
+HXLINE( 961)													maxHeightValue = heightValue;
             												}
-HXDLIN(1498)												if ((ascent > maxAscent)) {
-HXLINE(1498)													maxAscent = ascent;
+HXLINE(1474)												if ((ascent > maxAscent)) {
+HXLINE( 966)													maxAscent = ascent;
             												}
             											}
-HXDLIN(1498)											int i1 = _gthis->layoutGroups->get_length();
-HXDLIN(1498)											while(true){
-HXLINE(1498)												i1 = (i1 - 1);
-HXDLIN(1498)												if (!((i1 > -1))) {
-HXLINE(1498)													goto _hx_goto_60;
+HXLINE(1474)											int i1 = _gthis->layoutGroups->get_length();
+HXDLIN(1474)											while(true){
+HXLINE(1474)												i1 = (i1 - 1);
+HXDLIN(1474)												if (!((i1 > -1))) {
+HXLINE(1474)													goto _hx_goto_57;
             												}
-HXDLIN(1498)												 ::openfl::text::_internal::TextLayoutGroup lg = _gthis->layoutGroups->get(i1).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
-HXDLIN(1498)												if ((lg->lineIndex < lineIndex)) {
-HXLINE(1498)													goto _hx_goto_60;
+HXDLIN(1474)												 ::openfl::text::_internal::TextLayoutGroup lg = _gthis->layoutGroups->get(i1).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
+HXDLIN(1474)												if ((lg->lineIndex < lineIndex)) {
+HXLINE(1474)													goto _hx_goto_57;
             												}
-HXDLIN(1498)												if ((lg->lineIndex > lineIndex)) {
-HXLINE(1498)													continue;
+HXDLIN(1474)												if ((lg->lineIndex > lineIndex)) {
+HXLINE(1474)													continue;
             												}
-HXDLIN(1498)												lg->ascent = maxAscent;
-HXDLIN(1498)												lg->height = ( (Float)(maxHeightValue) );
+HXDLIN(1474)												lg->ascent = maxAscent;
+HXDLIN(1474)												lg->height = ( (Float)(maxHeightValue) );
             											}
-            											_hx_goto_60:;
-HXDLIN(1498)											offsetY = (offsetY + maxHeightValue);
-HXDLIN(1498)											maxAscent = ((Float)0.0);
-HXDLIN(1498)											maxHeightValue = 0;
-HXDLIN(1498)											lineIndex = (lineIndex + 1);
-HXDLIN(1498)											offsetX = ( (Float)(0) );
-HXDLIN(1498)											firstLineOfParagraph = false;
+            											_hx_goto_57:;
+HXDLIN(1474)											offsetY = (offsetY + maxHeightValue);
+HXLINE(1182)											maxAscent = ((Float)0.0);
+HXLINE(1183)											maxHeightValue = 0;
+HXLINE(1474)											lineIndex = (lineIndex + 1);
+HXLINE(1186)											offsetX = ( (Float)(2) );
             										}
-HXDLIN(1498)										if ((placeIndex >= endIndex)) {
-HXLINE(1498)											positions = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN(1498)											widthValue = ( (Float)(0) );
+HXLINE(1474)										if ((endIndex <= formatRange->end)) {
+HXLINE(1474)											::String text = _gthis->text;
+HXDLIN(1474)											Float letterSpacing = ((Float)0.0);
+HXDLIN(1474)											if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)												letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+            											}
+HXLINE(1474)											if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1474)												_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+            											}
+HXDLIN(1474)											_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1474)											_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1474)											if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1474)												_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+            											}
+HXDLIN(1474)											_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1474)											bool positions1;
+HXDLIN(1474)											if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1474)												positions1 = (_gthis->sharpness < 400);
+            											}
+            											else {
+HXLINE(1474)												positions1 = true;
+            											}
+HXDLIN(1474)											_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1474)											 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1474)											_gthis1->set_text(text.substring(placeIndex,endIndex));
+HXDLIN(1474)											positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1474)											Float width = ((Float)0.0);
+HXDLIN(1474)											int _g = 0;
+HXDLIN(1474)											while((_g < positions->length)){
+HXLINE(1474)												 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1474)												_g = (_g + 1);
+HXDLIN(1474)												width = (width + position->advance->x);
+            											}
+HXDLIN(1474)											widthValue = width;
             										}
             										else {
-HXLINE(1498)											if ((endIndex <= formatRange->end)) {
-HXLINE(1498)												::String text = _gthis->text;
-HXDLIN(1498)												Float letterSpacing = ((Float)0.0);
-HXDLIN(1498)												if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1498)													letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
-            												}
-HXDLIN(1498)												if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1498)													_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-            												}
-HXDLIN(1498)												_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1498)												_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1498)												if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1498)													_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
-            												}
-HXDLIN(1498)												_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1498)												bool positions1;
-HXDLIN(1498)												if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1498)													positions1 = (_gthis->sharpness < 400);
-            												}
-            												else {
-HXLINE(1498)													positions1 = true;
-            												}
-HXDLIN(1498)												_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1498)												 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1498)												_gthis1->set_text(text.substring(placeIndex,endIndex));
-HXDLIN(1498)												positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1498)												Float width = ((Float)0.0);
-HXDLIN(1498)												{
-HXLINE(1498)													int _g = 0;
-HXDLIN(1498)													while((_g < positions->length)){
-HXLINE(1498)														 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1498)														_g = (_g + 1);
-HXDLIN(1498)														width = (width + position->advance->x);
+HXLINE(1474)											int tempIndex = placeIndex;
+HXDLIN(1474)											int tempRangeEnd = formatRange->end;
+HXDLIN(1474)											int countRanges = 0;
+HXLINE(1046)											positions = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(1047)											widthValue = ( (Float)(0) );
+HXLINE(1474)											while(true){
+HXLINE(1474)												if ((tempIndex != tempRangeEnd)) {
+HXLINE(1474)													::String text = _gthis->text;
+HXDLIN(1474)													Float letterSpacing = ((Float)0.0);
+HXDLIN(1474)													if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)														letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
             													}
-            												}
-HXDLIN(1498)												widthValue = width;
-            											}
-            											else {
-HXLINE(1498)												int tempIndex = placeIndex;
-HXDLIN(1498)												int tempRangeEnd = formatRange->end;
-HXDLIN(1498)												int countRanges = 0;
-HXDLIN(1498)												positions = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN(1498)												widthValue = ( (Float)(0) );
-HXDLIN(1498)												while(true){
-HXLINE(1498)													if ((tempIndex != tempRangeEnd)) {
-HXLINE(1498)														::String text = _gthis->text;
-HXDLIN(1498)														Float letterSpacing = ((Float)0.0);
-HXDLIN(1498)														if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1498)															letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
-            														}
-HXDLIN(1498)														if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1498)															_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-            														}
-HXDLIN(1498)														_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1498)														_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1498)														if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1498)															_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
-            														}
-HXDLIN(1498)														_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1498)														bool _hx_tmp;
-HXDLIN(1498)														if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1498)															_hx_tmp = (_gthis->sharpness < 400);
-            														}
-            														else {
-HXLINE(1498)															_hx_tmp = true;
-            														}
-HXDLIN(1498)														_gthis->_hx___textLayout->autoHint = _hx_tmp;
-HXDLIN(1498)														 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1498)														_gthis1->set_text(text.substring(tempIndex,tempRangeEnd));
-HXDLIN(1498)														::Array< ::Dynamic> tempPositions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1498)														positions = positions->concat(tempPositions);
+HXLINE(1474)													if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1474)														_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
             													}
-HXDLIN(1498)													if ((tempRangeEnd != endIndex)) {
-HXLINE(1498)														bool _hx_tmp;
-HXDLIN(1498)														if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1498)															rangeIndex = (rangeIndex + 1);
-HXDLIN(1498)															formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1498)															currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1498)															font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-HXDLIN(1498)															_hx_tmp = true;
-            														}
-            														else {
-HXLINE(1498)															_hx_tmp = false;
-            														}
-HXDLIN(1498)														if (!(_hx_tmp)) {
-HXLINE(1498)															::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1092,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
-HXDLIN(1498)															goto _hx_goto_62;
-            														}
-HXDLIN(1498)														tempIndex = tempRangeEnd;
-HXDLIN(1498)														if ((endIndex < formatRange->end)) {
-HXLINE(1498)															tempRangeEnd = endIndex;
-            														}
-            														else {
-HXLINE(1498)															tempRangeEnd = formatRange->end;
-            														}
-HXDLIN(1498)														countRanges = (countRanges + 1);
+HXDLIN(1474)													_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1474)													_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1474)													if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1474)														_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+            													}
+HXDLIN(1474)													_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1474)													bool _hx_tmp;
+HXDLIN(1474)													if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1474)														_hx_tmp = (_gthis->sharpness < 400);
             													}
             													else {
-HXLINE(1498)														Float width = ((Float)0.0);
-HXDLIN(1498)														{
-HXLINE(1498)															int _g = 0;
-HXDLIN(1498)															while((_g < positions->length)){
-HXLINE(1498)																 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1498)																_g = (_g + 1);
-HXDLIN(1498)																width = (width + position->advance->x);
-            															}
-            														}
-HXDLIN(1498)														widthValue = width;
-HXDLIN(1498)														goto _hx_goto_62;
+HXLINE(1474)														_hx_tmp = true;
             													}
+HXDLIN(1474)													_gthis->_hx___textLayout->autoHint = _hx_tmp;
+HXDLIN(1474)													 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1474)													_gthis1->set_text(text.substring(tempIndex,tempRangeEnd));
+HXDLIN(1474)													::Array< ::Dynamic> tempPositions = _gthis->_hx___textLayout->get_positions();
+HXLINE(1054)													positions = positions->concat(tempPositions);
             												}
-            												_hx_goto_62:;
-HXDLIN(1498)												rangeIndex = (rangeIndex - (countRanges + 1));
-HXDLIN(1498)												if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1498)													rangeIndex = (rangeIndex + 1);
-HXDLIN(1498)													formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1498)													currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1498)													font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXLINE(1474)												if ((tempRangeEnd != endIndex)) {
+HXLINE(1474)													bool _hx_tmp;
+HXDLIN(1474)													if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1474)														rangeIndex = (rangeIndex + 1);
+HXDLIN(1474)														formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1474)														currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)														font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXLINE(1474)														_hx_tmp = true;
+            													}
+            													else {
+HXLINE(1474)														_hx_tmp = false;
+            													}
+HXDLIN(1474)													if (!(_hx_tmp)) {
+HXLINE(1474)														::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1061,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
+HXDLIN(1474)														goto _hx_goto_59;
+            													}
+HXLINE(1065)													tempIndex = tempRangeEnd;
+HXLINE(1474)													if ((endIndex < formatRange->end)) {
+HXLINE(1474)														tempRangeEnd = endIndex;
+            													}
+            													else {
+HXLINE(1474)														tempRangeEnd = formatRange->end;
+            													}
+HXDLIN(1474)													countRanges = (countRanges + 1);
+            												}
+            												else {
+HXLINE(1474)													Float width = ((Float)0.0);
+HXDLIN(1474)													int _g = 0;
+HXDLIN(1474)													while((_g < positions->length)){
+HXLINE(1474)														 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1474)														_g = (_g + 1);
+HXDLIN(1474)														width = (width + position->advance->x);
+            													}
+HXDLIN(1474)													widthValue = width;
+HXDLIN(1474)													goto _hx_goto_59;
             												}
             											}
+            											_hx_goto_59:;
+HXDLIN(1474)											rangeIndex = (rangeIndex - (countRanges + 1));
+HXDLIN(1474)											if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1474)												rangeIndex = (rangeIndex + 1);
+HXDLIN(1474)												formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1474)												currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)												font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+            											}
             										}
-HXDLIN(1498)										remainingPositions = positions;
-HXDLIN(1498)										tempWidth = widthValue;
+HXLINE(1271)										remainingPositions = positions;
+HXLINE(1272)										tempWidth = widthValue;
             									}
-            									_hx_goto_48:;
+            									_hx_goto_45:;
             								}
-HXDLIN(1498)								{
-HXLINE(1498)									if ((endIndex <= formatRange->end)) {
-HXLINE(1498)										::String text = _gthis->text;
-HXDLIN(1498)										Float letterSpacing = ((Float)0.0);
-HXDLIN(1498)										if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1498)											letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+HXLINE(1474)								{
+HXLINE(1474)									if ((endIndex <= formatRange->end)) {
+HXLINE(1474)										::String text = _gthis->text;
+HXDLIN(1474)										Float letterSpacing = ((Float)0.0);
+HXDLIN(1474)										if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)											letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
             										}
-HXDLIN(1498)										if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1498)											_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE(1474)										if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1474)											_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
             										}
-HXDLIN(1498)										_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1498)										_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1498)										if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1498)											_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+HXDLIN(1474)										_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1474)										_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1474)										if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1474)											_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
             										}
-HXDLIN(1498)										_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1498)										bool positions1;
-HXDLIN(1498)										if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1498)											positions1 = (_gthis->sharpness < 400);
+HXDLIN(1474)										_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1474)										bool positions1;
+HXDLIN(1474)										if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1474)											positions1 = (_gthis->sharpness < 400);
             										}
             										else {
-HXLINE(1498)											positions1 = true;
+HXLINE(1474)											positions1 = true;
             										}
-HXDLIN(1498)										_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1498)										 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1498)										_gthis1->set_text(text.substring(textIndex,endIndex));
-HXDLIN(1498)										positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1498)										Float width = ((Float)0.0);
-HXDLIN(1498)										{
-HXLINE(1498)											int _g = 0;
-HXDLIN(1498)											while((_g < positions->length)){
-HXLINE(1498)												 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1498)												_g = (_g + 1);
-HXDLIN(1498)												width = (width + position->advance->x);
+HXDLIN(1474)										_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1474)										 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1474)										_gthis1->set_text(text.substring(textIndex,endIndex));
+HXDLIN(1474)										positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1474)										Float width = ((Float)0.0);
+HXDLIN(1474)										int _g = 0;
+HXDLIN(1474)										while((_g < positions->length)){
+HXLINE(1474)											 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1474)											_g = (_g + 1);
+HXDLIN(1474)											width = (width + position->advance->x);
+            										}
+HXDLIN(1474)										widthValue = width;
+HXDLIN(1474)										bool _hx_tmp;
+HXDLIN(1474)										if (::hx::IsNotNull( layoutGroup )) {
+HXLINE(1474)											_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
+            										}
+            										else {
+HXLINE(1474)											_hx_tmp = true;
+            										}
+HXDLIN(1474)										if (_hx_tmp) {
+HXLINE( 923)											layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,endIndex);
+HXLINE(1474)											_gthis->layoutGroups->push(layoutGroup);
+            										}
+            										else {
+HXLINE(1474)											layoutGroup->format = formatRange->format;
+HXDLIN(1474)											layoutGroup->startIndex = textIndex;
+HXDLIN(1474)											layoutGroup->endIndex = endIndex;
+            										}
+HXDLIN(1474)										layoutGroup->positions = positions;
+HXDLIN(1474)										layoutGroup->offsetX = offsetX;
+HXDLIN(1474)										layoutGroup->ascent = ascent;
+HXDLIN(1474)										layoutGroup->descent = descent;
+HXDLIN(1474)										layoutGroup->leading = leading;
+HXDLIN(1474)										layoutGroup->lineIndex = lineIndex;
+HXDLIN(1474)										layoutGroup->offsetY = offsetY;
+HXDLIN(1474)										layoutGroup->width = widthValue;
+HXDLIN(1474)										layoutGroup->height = ( (Float)(heightValue) );
+HXDLIN(1474)										offsetX = (offsetX + widthValue);
+HXDLIN(1474)										if ((endIndex == formatRange->end)) {
+HXLINE(1108)											layoutGroup = null();
+HXLINE(1474)											if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1474)												rangeIndex = (rangeIndex + 1);
+HXDLIN(1474)												formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1474)												currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)												font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
             											}
-            										}
-HXDLIN(1498)										widthValue = width;
-HXDLIN(1498)										bool _hx_tmp;
-HXDLIN(1498)										if (::hx::IsNotNull( layoutGroup )) {
-HXLINE(1498)											_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
-            										}
-            										else {
-HXLINE(1498)											_hx_tmp = true;
-            										}
-HXDLIN(1498)										if (_hx_tmp) {
-HXLINE(1498)											layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,endIndex);
-HXDLIN(1498)											_gthis->layoutGroups->push(layoutGroup);
-            										}
-            										else {
-HXLINE(1498)											layoutGroup->format = formatRange->format;
-HXDLIN(1498)											layoutGroup->startIndex = textIndex;
-HXDLIN(1498)											layoutGroup->endIndex = endIndex;
-            										}
-HXDLIN(1498)										layoutGroup->positions = positions;
-HXDLIN(1498)										int _hx_tmp1;
-HXDLIN(1498)										if (firstLineOfParagraph) {
-HXLINE(1498)											_hx_tmp1 = indent;
-            										}
-            										else {
-HXLINE(1498)											_hx_tmp1 = 0;
-            										}
-HXDLIN(1498)										layoutGroup->offsetX = (offsetX + ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp1)) ));
-HXDLIN(1498)										layoutGroup->ascent = ascent;
-HXDLIN(1498)										layoutGroup->descent = descent;
-HXDLIN(1498)										layoutGroup->leading = leading;
-HXDLIN(1498)										layoutGroup->lineIndex = lineIndex;
-HXDLIN(1498)										layoutGroup->offsetY = (offsetY + 2);
-HXDLIN(1498)										layoutGroup->width = widthValue;
-HXDLIN(1498)										layoutGroup->height = ( (Float)(heightValue) );
-HXDLIN(1498)										offsetX = (offsetX + widthValue);
-HXDLIN(1498)										if ((endIndex == formatRange->end)) {
-HXLINE(1498)											layoutGroup = null();
-HXDLIN(1498)											if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1498)												rangeIndex = (rangeIndex + 1);
-HXDLIN(1498)												formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1498)												currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1498)												font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-            											}
-HXDLIN(1498)											{
-HXLINE(1498)												if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
-HXLINE(1498)													ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
-HXDLIN(1498)													descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
+HXLINE(1474)											{
+HXLINE(1474)												if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
+HXLINE( 939)													ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
+HXLINE( 940)													descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
             												}
             												else {
-HXLINE(1498)													bool _hx_tmp;
-HXDLIN(1498)													if (::hx::IsNotNull( font )) {
-HXLINE(1498)														_hx_tmp = (font->unitsPerEM != 0);
+HXLINE(1474)													bool _hx_tmp;
+HXDLIN(1474)													if (::hx::IsNotNull( font )) {
+HXLINE(1474)														_hx_tmp = (font->unitsPerEM != 0);
             													}
             													else {
-HXLINE(1498)														_hx_tmp = false;
+HXLINE(1474)														_hx_tmp = false;
             													}
-HXDLIN(1498)													if (_hx_tmp) {
-HXLINE(1498)														ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
-HXDLIN(1498)														descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
+HXDLIN(1474)													if (_hx_tmp) {
+HXLINE( 945)														ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
+HXLINE( 946)														descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
             													}
             													else {
-HXLINE(1498)														ascent = ( (Float)(currentFormat->size) );
-HXDLIN(1498)														descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
+HXLINE( 951)														ascent = ( (Float)(currentFormat->size) );
+HXLINE( 952)														descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
             													}
             												}
-HXDLIN(1498)												leading = ( (int)(currentFormat->leading) );
-HXDLIN(1498)												heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
-HXDLIN(1498)												if ((heightValue > maxHeightValue)) {
-HXLINE(1498)													maxHeightValue = heightValue;
+HXLINE( 955)												leading = ( (int)(currentFormat->leading) );
+HXLINE( 957)												heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
+HXLINE(1474)												if ((heightValue > maxHeightValue)) {
+HXLINE( 961)													maxHeightValue = heightValue;
             												}
-HXDLIN(1498)												if ((ascent > maxAscent)) {
-HXLINE(1498)													maxAscent = ascent;
+HXLINE(1474)												if ((ascent > maxAscent)) {
+HXLINE( 966)													maxAscent = ascent;
             												}
             											}
             										}
             									}
             									else {
-HXLINE(1498)										while(true){
-HXLINE(1498)											int tempRangeEnd;
-HXDLIN(1498)											if ((endIndex < formatRange->end)) {
-HXLINE(1498)												tempRangeEnd = endIndex;
+HXLINE(1474)										while(true){
+HXLINE(1474)											int tempRangeEnd;
+HXDLIN(1474)											if ((endIndex < formatRange->end)) {
+HXLINE(1474)												tempRangeEnd = endIndex;
             											}
             											else {
-HXLINE(1498)												tempRangeEnd = formatRange->end;
+HXLINE(1474)												tempRangeEnd = formatRange->end;
             											}
-HXDLIN(1498)											if ((textIndex != tempRangeEnd)) {
-HXLINE(1498)												::String text = _gthis->text;
-HXDLIN(1498)												Float letterSpacing = ((Float)0.0);
-HXDLIN(1498)												if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1498)													letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+HXDLIN(1474)											if ((textIndex != tempRangeEnd)) {
+HXLINE(1474)												::String text = _gthis->text;
+HXDLIN(1474)												Float letterSpacing = ((Float)0.0);
+HXDLIN(1474)												if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)													letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
             												}
-HXDLIN(1498)												if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1498)													_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE(1474)												if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1474)													_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
             												}
-HXDLIN(1498)												_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1498)												_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1498)												if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1498)													_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+HXDLIN(1474)												_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1474)												_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1474)												if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1474)													_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
             												}
-HXDLIN(1498)												_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1498)												bool positions1;
-HXDLIN(1498)												if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1498)													positions1 = (_gthis->sharpness < 400);
+HXDLIN(1474)												_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1474)												bool positions1;
+HXDLIN(1474)												if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1474)													positions1 = (_gthis->sharpness < 400);
             												}
             												else {
-HXLINE(1498)													positions1 = true;
+HXLINE(1474)													positions1 = true;
             												}
-HXDLIN(1498)												_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1498)												 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1498)												_gthis1->set_text(text.substring(textIndex,tempRangeEnd));
-HXDLIN(1498)												positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1498)												Float width = ((Float)0.0);
-HXDLIN(1498)												{
-HXLINE(1498)													int _g = 0;
-HXDLIN(1498)													while((_g < positions->length)){
-HXLINE(1498)														 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1498)														_g = (_g + 1);
-HXDLIN(1498)														width = (width + position->advance->x);
-            													}
+HXDLIN(1474)												_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1474)												 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1474)												_gthis1->set_text(text.substring(textIndex,tempRangeEnd));
+HXDLIN(1474)												positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1474)												Float width = ((Float)0.0);
+HXDLIN(1474)												int _g = 0;
+HXDLIN(1474)												while((_g < positions->length)){
+HXLINE(1474)													 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1474)													_g = (_g + 1);
+HXDLIN(1474)													width = (width + position->advance->x);
             												}
-HXDLIN(1498)												widthValue = width;
-HXDLIN(1498)												bool _hx_tmp;
-HXDLIN(1498)												if (::hx::IsNotNull( layoutGroup )) {
-HXLINE(1498)													_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
+HXDLIN(1474)												widthValue = width;
+HXDLIN(1474)												bool _hx_tmp;
+HXDLIN(1474)												if (::hx::IsNotNull( layoutGroup )) {
+HXLINE(1474)													_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
             												}
             												else {
-HXLINE(1498)													_hx_tmp = true;
+HXLINE(1474)													_hx_tmp = true;
             												}
-HXDLIN(1498)												if (_hx_tmp) {
-HXLINE(1498)													layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,tempRangeEnd);
-HXDLIN(1498)													_gthis->layoutGroups->push(layoutGroup);
-            												}
-            												else {
-HXLINE(1498)													layoutGroup->format = formatRange->format;
-HXDLIN(1498)													layoutGroup->startIndex = textIndex;
-HXDLIN(1498)													layoutGroup->endIndex = tempRangeEnd;
-            												}
-HXDLIN(1498)												layoutGroup->positions = positions;
-HXDLIN(1498)												int _hx_tmp1;
-HXDLIN(1498)												if (firstLineOfParagraph) {
-HXLINE(1498)													_hx_tmp1 = indent;
+HXDLIN(1474)												if (_hx_tmp) {
+HXLINE( 923)													layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,tempRangeEnd);
+HXLINE(1474)													_gthis->layoutGroups->push(layoutGroup);
             												}
             												else {
-HXLINE(1498)													_hx_tmp1 = 0;
+HXLINE(1474)													layoutGroup->format = formatRange->format;
+HXDLIN(1474)													layoutGroup->startIndex = textIndex;
+HXDLIN(1474)													layoutGroup->endIndex = tempRangeEnd;
             												}
-HXDLIN(1498)												layoutGroup->offsetX = (offsetX + ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp1)) ));
-HXDLIN(1498)												layoutGroup->ascent = ascent;
-HXDLIN(1498)												layoutGroup->descent = descent;
-HXDLIN(1498)												layoutGroup->leading = leading;
-HXDLIN(1498)												layoutGroup->lineIndex = lineIndex;
-HXDLIN(1498)												layoutGroup->offsetY = (offsetY + 2);
-HXDLIN(1498)												layoutGroup->width = widthValue;
-HXDLIN(1498)												layoutGroup->height = ( (Float)(heightValue) );
-HXDLIN(1498)												offsetX = (offsetX + widthValue);
-HXDLIN(1498)												textIndex = tempRangeEnd;
+HXDLIN(1474)												layoutGroup->positions = positions;
+HXDLIN(1474)												layoutGroup->offsetX = offsetX;
+HXDLIN(1474)												layoutGroup->ascent = ascent;
+HXDLIN(1474)												layoutGroup->descent = descent;
+HXDLIN(1474)												layoutGroup->leading = leading;
+HXDLIN(1474)												layoutGroup->lineIndex = lineIndex;
+HXDLIN(1474)												layoutGroup->offsetY = offsetY;
+HXDLIN(1474)												layoutGroup->width = widthValue;
+HXDLIN(1474)												layoutGroup->height = ( (Float)(heightValue) );
+HXDLIN(1474)												offsetX = (offsetX + widthValue);
+HXLINE(1140)												textIndex = tempRangeEnd;
             											}
-HXDLIN(1498)											if ((tempRangeEnd == formatRange->end)) {
-HXLINE(1498)												layoutGroup = null();
+HXLINE(1474)											if ((tempRangeEnd == formatRange->end)) {
+HXLINE(1143)												layoutGroup = null();
             											}
-HXDLIN(1498)											if ((tempRangeEnd == endIndex)) {
-HXLINE(1498)												goto _hx_goto_65;
+HXLINE(1474)											if ((tempRangeEnd == endIndex)) {
+HXLINE(1474)												goto _hx_goto_62;
             											}
-HXDLIN(1498)											bool _hx_tmp;
-HXDLIN(1498)											if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1498)												rangeIndex = (rangeIndex + 1);
-HXDLIN(1498)												formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1498)												currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1498)												font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-HXDLIN(1498)												_hx_tmp = true;
+HXDLIN(1474)											bool _hx_tmp;
+HXDLIN(1474)											if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1474)												rangeIndex = (rangeIndex + 1);
+HXDLIN(1474)												formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1474)												currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)												font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXLINE(1474)												_hx_tmp = true;
             											}
             											else {
-HXLINE(1498)												_hx_tmp = false;
+HXLINE(1474)												_hx_tmp = false;
             											}
-HXDLIN(1498)											if (!(_hx_tmp)) {
-HXLINE(1498)												::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1180,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
-HXDLIN(1498)												goto _hx_goto_65;
+HXDLIN(1474)											if (!(_hx_tmp)) {
+HXLINE(1474)												::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1149,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
+HXDLIN(1474)												goto _hx_goto_62;
             											}
-HXDLIN(1498)											{
-HXLINE(1498)												if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
-HXLINE(1498)													ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
-HXDLIN(1498)													descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
+HXDLIN(1474)											{
+HXLINE(1474)												if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
+HXLINE( 939)													ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
+HXLINE( 940)													descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
             												}
             												else {
-HXLINE(1498)													bool _hx_tmp;
-HXDLIN(1498)													if (::hx::IsNotNull( font )) {
-HXLINE(1498)														_hx_tmp = (font->unitsPerEM != 0);
+HXLINE(1474)													bool _hx_tmp;
+HXDLIN(1474)													if (::hx::IsNotNull( font )) {
+HXLINE(1474)														_hx_tmp = (font->unitsPerEM != 0);
             													}
             													else {
-HXLINE(1498)														_hx_tmp = false;
+HXLINE(1474)														_hx_tmp = false;
             													}
-HXDLIN(1498)													if (_hx_tmp) {
-HXLINE(1498)														ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
-HXDLIN(1498)														descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
+HXDLIN(1474)													if (_hx_tmp) {
+HXLINE( 945)														ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
+HXLINE( 946)														descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
             													}
             													else {
-HXLINE(1498)														ascent = ( (Float)(currentFormat->size) );
-HXDLIN(1498)														descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
+HXLINE( 951)														ascent = ( (Float)(currentFormat->size) );
+HXLINE( 952)														descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
             													}
             												}
-HXDLIN(1498)												leading = ( (int)(currentFormat->leading) );
-HXDLIN(1498)												heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
-HXDLIN(1498)												if ((heightValue > maxHeightValue)) {
-HXLINE(1498)													maxHeightValue = heightValue;
+HXLINE( 955)												leading = ( (int)(currentFormat->leading) );
+HXLINE( 957)												heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
+HXLINE(1474)												if ((heightValue > maxHeightValue)) {
+HXLINE( 961)													maxHeightValue = heightValue;
             												}
-HXDLIN(1498)												if ((ascent > maxAscent)) {
-HXLINE(1498)													maxAscent = ascent;
+HXLINE(1474)												if ((ascent > maxAscent)) {
+HXLINE( 966)													maxAscent = ascent;
             												}
             											}
+            										}
+            										_hx_goto_62:;
+            									}
+HXLINE(1157)									textIndex = endIndex;
+            								}
+            							}
+HXLINE(1476)							wrap = false;
+            						}
+            						else {
+HXLINE(1480)							bool _hx_tmp;
+HXDLIN(1480)							if (::hx::IsNotNull( layoutGroup )) {
+HXLINE(1480)								_hx_tmp = (textIndex == spaceIndex);
+            							}
+            							else {
+HXLINE(1480)								_hx_tmp = false;
+            							}
+HXDLIN(1480)							if (_hx_tmp) {
+HXLINE(1483)								if (::hx::IsNotEq( align,2 )) {
+HXLINE(1485)									layoutGroup->endIndex = spaceIndex;
+HXLINE(1486)									layoutGroup->positions = layoutGroup->positions->concat(positions);
+HXLINE(1487)									 ::openfl::text::_internal::TextLayoutGroup layoutGroup1 = layoutGroup;
+HXDLIN(1487)									layoutGroup1->width = (layoutGroup1->width + widthValue);
+            								}
+HXLINE(1490)								offsetX = (offsetX + widthValue);
+HXLINE(1492)								textIndex = endIndex;
+            							}
+            							else {
+HXLINE(1494)								bool _hx_tmp;
+HXDLIN(1494)								if (::hx::IsNotNull( layoutGroup )) {
+HXLINE(1494)									_hx_tmp = ::hx::IsEq( align,2 );
+            								}
+            								else {
+HXLINE(1494)									_hx_tmp = true;
+            								}
+HXDLIN(1494)								if (_hx_tmp) {
+HXLINE(1496)									bool _hx_tmp;
+HXDLIN(1496)									if ((_gthis->width >= 4)) {
+HXLINE(1496)										_hx_tmp = _gthis->wordWrap;
+            									}
+            									else {
+HXLINE(1496)										_hx_tmp = false;
+            									}
+HXDLIN(1496)									if (_hx_tmp) {
+HXLINE(1496)										::Array< ::Dynamic> remainingPositions = positions;
+HXDLIN(1496)										int i;
+HXDLIN(1496)										int bufferCount;
+HXDLIN(1496)										int placeIndex;
+HXDLIN(1496)										Float positionWidth;
+HXDLIN(1496)										 ::openfl::text::_internal::GlyphPosition currentPosition;
+HXDLIN(1496)										Float width = ((Float)0.0);
+HXDLIN(1496)										{
+HXLINE(1496)											int _g = 0;
+HXDLIN(1496)											while((_g < remainingPositions->length)){
+HXLINE(1496)												 ::openfl::text::_internal::GlyphPosition position = remainingPositions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1496)												_g = (_g + 1);
+HXDLIN(1496)												width = (width + position->advance->x);
+            											}
+            										}
+HXDLIN(1496)										Float tempWidth = width;
+HXDLIN(1496)										while(((offsetX + tempWidth) > (_gthis->width - ( (Float)(2) )))){
+HXLINE(1202)											bufferCount = 0;
+HXDLIN(1202)											i = bufferCount;
+HXLINE(1203)											positionWidth = ((Float)0.0);
+HXLINE(1496)											while(((offsetX + positionWidth) < (_gthis->width - ( (Float)(2) )))){
+HXLINE(1207)												currentPosition = remainingPositions->__get(i).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXLINE(1496)												if ((currentPosition->advance->x == ((Float)0.0))) {
+HXLINE(1496)													i = (i + 1);
+HXDLIN(1496)													bufferCount = (bufferCount + 1);
+            												}
+            												else {
+HXLINE(1496)													positionWidth = (positionWidth + currentPosition->advance->x);
+HXDLIN(1496)													i = (i + 1);
+            												}
+            											}
+HXDLIN(1496)											if ((positionWidth == ((Float)0.0))) {
+HXLINE(1496)												goto _hx_goto_65;
+            											}
+            											else {
+HXLINE(1496)												bool _hx_tmp;
+HXDLIN(1496)												if ((i < 2)) {
+HXLINE(1496)													_hx_tmp = ((positionWidth + offsetX) > (_gthis->width - ( (Float)(2) )));
+            												}
+            												else {
+HXLINE(1496)													_hx_tmp = false;
+            												}
+HXDLIN(1496)												if (_hx_tmp) {
+HXLINE(1496)													if ((((textIndex + i) - bufferCount) == endIndex)) {
+HXLINE(1496)														goto _hx_goto_65;
+            													}
+            												}
+            												else {
+HXLINE(1496)													while(((offsetX + positionWidth) > (_gthis->width - ( (Float)(2) )))){
+HXLINE(1496)														i = (i - 1);
+HXDLIN(1496)														if (((i - bufferCount) > 0)) {
+HXLINE(1496)															{
+HXLINE(1496)																int endIndex = ((textIndex + i) - bufferCount);
+HXDLIN(1496)																if ((endIndex <= formatRange->end)) {
+HXLINE(1496)																	::String text = _gthis->text;
+HXDLIN(1496)																	Float letterSpacing = ((Float)0.0);
+HXDLIN(1496)																	if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)																		letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+            																	}
+HXLINE(1496)																	if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1496)																		_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+            																	}
+HXDLIN(1496)																	_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1496)																	_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1496)																	if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1496)																		_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+            																	}
+HXDLIN(1496)																	_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1496)																	bool positions1;
+HXDLIN(1496)																	if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1496)																		positions1 = (_gthis->sharpness < 400);
+            																	}
+            																	else {
+HXLINE(1496)																		positions1 = true;
+            																	}
+HXDLIN(1496)																	_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1496)																	 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1496)																	_gthis1->set_text(text.substring(textIndex,endIndex));
+HXDLIN(1496)																	positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1496)																	Float width = ((Float)0.0);
+HXDLIN(1496)																	int _g = 0;
+HXDLIN(1496)																	while((_g < positions->length)){
+HXLINE(1496)																		 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1496)																		_g = (_g + 1);
+HXDLIN(1496)																		width = (width + position->advance->x);
+            																	}
+HXDLIN(1496)																	widthValue = width;
+            																}
+            																else {
+HXLINE(1496)																	int tempIndex = textIndex;
+HXDLIN(1496)																	int tempRangeEnd = formatRange->end;
+HXDLIN(1496)																	int countRanges = 0;
+HXLINE(1046)																	positions = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(1047)																	widthValue = ( (Float)(0) );
+HXLINE(1496)																	while(true){
+HXLINE(1496)																		if ((tempIndex != tempRangeEnd)) {
+HXLINE(1496)																			::String text = _gthis->text;
+HXDLIN(1496)																			Float letterSpacing = ((Float)0.0);
+HXDLIN(1496)																			if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)																				letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+            																			}
+HXLINE(1496)																			if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1496)																				_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+            																			}
+HXDLIN(1496)																			_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1496)																			_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1496)																			if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1496)																				_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+            																			}
+HXDLIN(1496)																			_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1496)																			bool _hx_tmp;
+HXDLIN(1496)																			if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1496)																				_hx_tmp = (_gthis->sharpness < 400);
+            																			}
+            																			else {
+HXLINE(1496)																				_hx_tmp = true;
+            																			}
+HXDLIN(1496)																			_gthis->_hx___textLayout->autoHint = _hx_tmp;
+HXDLIN(1496)																			 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1496)																			_gthis1->set_text(text.substring(tempIndex,tempRangeEnd));
+HXDLIN(1496)																			::Array< ::Dynamic> tempPositions = _gthis->_hx___textLayout->get_positions();
+HXLINE(1054)																			positions = positions->concat(tempPositions);
+            																		}
+HXLINE(1496)																		if ((tempRangeEnd != endIndex)) {
+HXLINE(1496)																			bool _hx_tmp;
+HXDLIN(1496)																			if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1496)																				rangeIndex = (rangeIndex + 1);
+HXDLIN(1496)																				formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1496)																				currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)																				font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXLINE(1496)																				_hx_tmp = true;
+            																			}
+            																			else {
+HXLINE(1496)																				_hx_tmp = false;
+            																			}
+HXDLIN(1496)																			if (!(_hx_tmp)) {
+HXLINE(1496)																				::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1061,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
+HXDLIN(1496)																				goto _hx_goto_69;
+            																			}
+HXLINE(1065)																			tempIndex = tempRangeEnd;
+HXLINE(1496)																			if ((endIndex < formatRange->end)) {
+HXLINE(1496)																				tempRangeEnd = endIndex;
+            																			}
+            																			else {
+HXLINE(1496)																				tempRangeEnd = formatRange->end;
+            																			}
+HXDLIN(1496)																			countRanges = (countRanges + 1);
+            																		}
+            																		else {
+HXLINE(1496)																			Float width = ((Float)0.0);
+HXDLIN(1496)																			int _g = 0;
+HXDLIN(1496)																			while((_g < positions->length)){
+HXLINE(1496)																				 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1496)																				_g = (_g + 1);
+HXDLIN(1496)																				width = (width + position->advance->x);
+            																			}
+HXDLIN(1496)																			widthValue = width;
+HXDLIN(1496)																			goto _hx_goto_69;
+            																		}
+            																	}
+            																	_hx_goto_69:;
+HXDLIN(1496)																	rangeIndex = (rangeIndex - (countRanges + 1));
+HXDLIN(1496)																	if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1496)																		rangeIndex = (rangeIndex + 1);
+HXDLIN(1496)																		formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1496)																		currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)																		font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+            																	}
+            																}
+            															}
+HXLINE(1250)															positionWidth = widthValue;
+            														}
+            														else {
+HXLINE(1256)															i = 1;
+HXLINE(1257)															bufferCount = 0;
+HXLINE(1496)															{
+HXLINE(1496)																int endIndex = (textIndex + 1);
+HXDLIN(1496)																if ((endIndex <= formatRange->end)) {
+HXLINE(1496)																	::String text = _gthis->text;
+HXDLIN(1496)																	Float letterSpacing = ((Float)0.0);
+HXDLIN(1496)																	if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)																		letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+            																	}
+HXLINE(1496)																	if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1496)																		_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+            																	}
+HXDLIN(1496)																	_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1496)																	_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1496)																	if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1496)																		_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+            																	}
+HXDLIN(1496)																	_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1496)																	bool positions1;
+HXDLIN(1496)																	if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1496)																		positions1 = (_gthis->sharpness < 400);
+            																	}
+            																	else {
+HXLINE(1496)																		positions1 = true;
+            																	}
+HXDLIN(1496)																	_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1496)																	 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1496)																	_gthis1->set_text(text.substring(textIndex,endIndex));
+HXDLIN(1496)																	positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1496)																	Float width = ((Float)0.0);
+HXDLIN(1496)																	int _g = 0;
+HXDLIN(1496)																	while((_g < positions->length)){
+HXLINE(1496)																		 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1496)																		_g = (_g + 1);
+HXDLIN(1496)																		width = (width + position->advance->x);
+            																	}
+HXDLIN(1496)																	widthValue = width;
+            																}
+            																else {
+HXLINE(1496)																	int tempIndex = textIndex;
+HXDLIN(1496)																	int tempRangeEnd = formatRange->end;
+HXDLIN(1496)																	int countRanges = 0;
+HXLINE(1046)																	positions = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(1047)																	widthValue = ( (Float)(0) );
+HXLINE(1496)																	while(true){
+HXLINE(1496)																		if ((tempIndex != tempRangeEnd)) {
+HXLINE(1496)																			::String text = _gthis->text;
+HXDLIN(1496)																			Float letterSpacing = ((Float)0.0);
+HXDLIN(1496)																			if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)																				letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+            																			}
+HXLINE(1496)																			if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1496)																				_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+            																			}
+HXDLIN(1496)																			_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1496)																			_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1496)																			if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1496)																				_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+            																			}
+HXDLIN(1496)																			_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1496)																			bool _hx_tmp;
+HXDLIN(1496)																			if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1496)																				_hx_tmp = (_gthis->sharpness < 400);
+            																			}
+            																			else {
+HXLINE(1496)																				_hx_tmp = true;
+            																			}
+HXDLIN(1496)																			_gthis->_hx___textLayout->autoHint = _hx_tmp;
+HXDLIN(1496)																			 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1496)																			_gthis1->set_text(text.substring(tempIndex,tempRangeEnd));
+HXDLIN(1496)																			::Array< ::Dynamic> tempPositions = _gthis->_hx___textLayout->get_positions();
+HXLINE(1054)																			positions = positions->concat(tempPositions);
+            																		}
+HXLINE(1496)																		if ((tempRangeEnd != endIndex)) {
+HXLINE(1496)																			bool _hx_tmp;
+HXDLIN(1496)																			if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1496)																				rangeIndex = (rangeIndex + 1);
+HXDLIN(1496)																				formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1496)																				currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)																				font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXLINE(1496)																				_hx_tmp = true;
+            																			}
+            																			else {
+HXLINE(1496)																				_hx_tmp = false;
+            																			}
+HXDLIN(1496)																			if (!(_hx_tmp)) {
+HXLINE(1496)																				::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1061,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
+HXDLIN(1496)																				goto _hx_goto_72;
+            																			}
+HXLINE(1065)																			tempIndex = tempRangeEnd;
+HXLINE(1496)																			if ((endIndex < formatRange->end)) {
+HXLINE(1496)																				tempRangeEnd = endIndex;
+            																			}
+            																			else {
+HXLINE(1496)																				tempRangeEnd = formatRange->end;
+            																			}
+HXDLIN(1496)																			countRanges = (countRanges + 1);
+            																		}
+            																		else {
+HXLINE(1496)																			Float width = ((Float)0.0);
+HXDLIN(1496)																			int _g = 0;
+HXDLIN(1496)																			while((_g < positions->length)){
+HXLINE(1496)																				 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1496)																				_g = (_g + 1);
+HXDLIN(1496)																				width = (width + position->advance->x);
+            																			}
+HXDLIN(1496)																			widthValue = width;
+HXDLIN(1496)																			goto _hx_goto_72;
+            																		}
+            																	}
+            																	_hx_goto_72:;
+HXDLIN(1496)																	rangeIndex = (rangeIndex - (countRanges + 1));
+HXDLIN(1496)																	if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1496)																		rangeIndex = (rangeIndex + 1);
+HXDLIN(1496)																		formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1496)																		currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)																		font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+            																	}
+            																}
+            															}
+HXLINE(1260)															positionWidth = ( (Float)(0) );
+            														}
+            													}
+            												}
+            											}
+HXLINE(1265)											placeIndex = ((textIndex + i) - bufferCount);
+HXLINE(1496)											{
+HXLINE(1496)												if ((placeIndex <= formatRange->end)) {
+HXLINE(1496)													::String text = _gthis->text;
+HXDLIN(1496)													Float letterSpacing = ((Float)0.0);
+HXDLIN(1496)													if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)														letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+            													}
+HXLINE(1496)													if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1496)														_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+            													}
+HXDLIN(1496)													_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1496)													_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1496)													if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1496)														_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+            													}
+HXDLIN(1496)													_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1496)													bool positions1;
+HXDLIN(1496)													if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1496)														positions1 = (_gthis->sharpness < 400);
+            													}
+            													else {
+HXLINE(1496)														positions1 = true;
+            													}
+HXDLIN(1496)													_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1496)													 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1496)													_gthis1->set_text(text.substring(textIndex,placeIndex));
+HXDLIN(1496)													positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1496)													Float width = ((Float)0.0);
+HXDLIN(1496)													int _g = 0;
+HXDLIN(1496)													while((_g < positions->length)){
+HXLINE(1496)														 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1496)														_g = (_g + 1);
+HXDLIN(1496)														width = (width + position->advance->x);
+            													}
+HXDLIN(1496)													widthValue = width;
+HXDLIN(1496)													bool _hx_tmp;
+HXDLIN(1496)													if (::hx::IsNotNull( layoutGroup )) {
+HXLINE(1496)														_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
+            													}
+            													else {
+HXLINE(1496)														_hx_tmp = true;
+            													}
+HXDLIN(1496)													if (_hx_tmp) {
+HXLINE( 923)														layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,placeIndex);
+HXLINE(1496)														_gthis->layoutGroups->push(layoutGroup);
+            													}
+            													else {
+HXLINE(1496)														layoutGroup->format = formatRange->format;
+HXDLIN(1496)														layoutGroup->startIndex = textIndex;
+HXDLIN(1496)														layoutGroup->endIndex = placeIndex;
+            													}
+HXDLIN(1496)													layoutGroup->positions = positions;
+HXDLIN(1496)													layoutGroup->offsetX = offsetX;
+HXDLIN(1496)													layoutGroup->ascent = ascent;
+HXDLIN(1496)													layoutGroup->descent = descent;
+HXDLIN(1496)													layoutGroup->leading = leading;
+HXDLIN(1496)													layoutGroup->lineIndex = lineIndex;
+HXDLIN(1496)													layoutGroup->offsetY = offsetY;
+HXDLIN(1496)													layoutGroup->width = widthValue;
+HXDLIN(1496)													layoutGroup->height = ( (Float)(heightValue) );
+HXDLIN(1496)													offsetX = (offsetX + widthValue);
+HXDLIN(1496)													if ((placeIndex == formatRange->end)) {
+HXLINE(1108)														layoutGroup = null();
+HXLINE(1496)														if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1496)															rangeIndex = (rangeIndex + 1);
+HXDLIN(1496)															formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1496)															currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)															font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+            														}
+HXLINE(1496)														{
+HXLINE(1496)															if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
+HXLINE( 939)																ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
+HXLINE( 940)																descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
+            															}
+            															else {
+HXLINE(1496)																bool _hx_tmp;
+HXDLIN(1496)																if (::hx::IsNotNull( font )) {
+HXLINE(1496)																	_hx_tmp = (font->unitsPerEM != 0);
+            																}
+            																else {
+HXLINE(1496)																	_hx_tmp = false;
+            																}
+HXDLIN(1496)																if (_hx_tmp) {
+HXLINE( 945)																	ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
+HXLINE( 946)																	descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
+            																}
+            																else {
+HXLINE( 951)																	ascent = ( (Float)(currentFormat->size) );
+HXLINE( 952)																	descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
+            																}
+            															}
+HXLINE( 955)															leading = ( (int)(currentFormat->leading) );
+HXLINE( 957)															heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
+HXLINE(1496)															if ((heightValue > maxHeightValue)) {
+HXLINE( 961)																maxHeightValue = heightValue;
+            															}
+HXLINE(1496)															if ((ascent > maxAscent)) {
+HXLINE( 966)																maxAscent = ascent;
+            															}
+            														}
+            													}
+            												}
+            												else {
+HXLINE(1496)													while(true){
+HXLINE(1496)														int tempRangeEnd;
+HXDLIN(1496)														if ((placeIndex < formatRange->end)) {
+HXLINE(1496)															tempRangeEnd = placeIndex;
+            														}
+            														else {
+HXLINE(1496)															tempRangeEnd = formatRange->end;
+            														}
+HXDLIN(1496)														if ((textIndex != tempRangeEnd)) {
+HXLINE(1496)															::String text = _gthis->text;
+HXDLIN(1496)															Float letterSpacing = ((Float)0.0);
+HXDLIN(1496)															if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)																letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+            															}
+HXLINE(1496)															if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1496)																_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+            															}
+HXDLIN(1496)															_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1496)															_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1496)															if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1496)																_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+            															}
+HXDLIN(1496)															_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1496)															bool positions1;
+HXDLIN(1496)															if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1496)																positions1 = (_gthis->sharpness < 400);
+            															}
+            															else {
+HXLINE(1496)																positions1 = true;
+            															}
+HXDLIN(1496)															_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1496)															 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1496)															_gthis1->set_text(text.substring(textIndex,tempRangeEnd));
+HXDLIN(1496)															positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1496)															Float width = ((Float)0.0);
+HXDLIN(1496)															int _g = 0;
+HXDLIN(1496)															while((_g < positions->length)){
+HXLINE(1496)																 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1496)																_g = (_g + 1);
+HXDLIN(1496)																width = (width + position->advance->x);
+            															}
+HXDLIN(1496)															widthValue = width;
+HXDLIN(1496)															bool _hx_tmp;
+HXDLIN(1496)															if (::hx::IsNotNull( layoutGroup )) {
+HXLINE(1496)																_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
+            															}
+            															else {
+HXLINE(1496)																_hx_tmp = true;
+            															}
+HXDLIN(1496)															if (_hx_tmp) {
+HXLINE( 923)																layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,tempRangeEnd);
+HXLINE(1496)																_gthis->layoutGroups->push(layoutGroup);
+            															}
+            															else {
+HXLINE(1496)																layoutGroup->format = formatRange->format;
+HXDLIN(1496)																layoutGroup->startIndex = textIndex;
+HXDLIN(1496)																layoutGroup->endIndex = tempRangeEnd;
+            															}
+HXDLIN(1496)															layoutGroup->positions = positions;
+HXDLIN(1496)															layoutGroup->offsetX = offsetX;
+HXDLIN(1496)															layoutGroup->ascent = ascent;
+HXDLIN(1496)															layoutGroup->descent = descent;
+HXDLIN(1496)															layoutGroup->leading = leading;
+HXDLIN(1496)															layoutGroup->lineIndex = lineIndex;
+HXDLIN(1496)															layoutGroup->offsetY = offsetY;
+HXDLIN(1496)															layoutGroup->width = widthValue;
+HXDLIN(1496)															layoutGroup->height = ( (Float)(heightValue) );
+HXDLIN(1496)															offsetX = (offsetX + widthValue);
+HXLINE(1140)															textIndex = tempRangeEnd;
+            														}
+HXLINE(1496)														if ((tempRangeEnd == formatRange->end)) {
+HXLINE(1143)															layoutGroup = null();
+            														}
+HXLINE(1496)														if ((tempRangeEnd == placeIndex)) {
+HXLINE(1496)															goto _hx_goto_75;
+            														}
+HXDLIN(1496)														bool _hx_tmp;
+HXDLIN(1496)														if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1496)															rangeIndex = (rangeIndex + 1);
+HXDLIN(1496)															formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1496)															currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)															font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXLINE(1496)															_hx_tmp = true;
+            														}
+            														else {
+HXLINE(1496)															_hx_tmp = false;
+            														}
+HXDLIN(1496)														if (!(_hx_tmp)) {
+HXLINE(1496)															::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1149,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
+HXDLIN(1496)															goto _hx_goto_75;
+            														}
+HXDLIN(1496)														{
+HXLINE(1496)															if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
+HXLINE( 939)																ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
+HXLINE( 940)																descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
+            															}
+            															else {
+HXLINE(1496)																bool _hx_tmp;
+HXDLIN(1496)																if (::hx::IsNotNull( font )) {
+HXLINE(1496)																	_hx_tmp = (font->unitsPerEM != 0);
+            																}
+            																else {
+HXLINE(1496)																	_hx_tmp = false;
+            																}
+HXDLIN(1496)																if (_hx_tmp) {
+HXLINE( 945)																	ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
+HXLINE( 946)																	descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
+            																}
+            																else {
+HXLINE( 951)																	ascent = ( (Float)(currentFormat->size) );
+HXLINE( 952)																	descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
+            																}
+            															}
+HXLINE( 955)															leading = ( (int)(currentFormat->leading) );
+HXLINE( 957)															heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
+HXLINE(1496)															if ((heightValue > maxHeightValue)) {
+HXLINE( 961)																maxHeightValue = heightValue;
+            															}
+HXLINE(1496)															if ((ascent > maxAscent)) {
+HXLINE( 966)																maxAscent = ascent;
+            															}
+            														}
+            													}
+            													_hx_goto_75:;
+            												}
+HXLINE(1157)												textIndex = placeIndex;
+            											}
+HXLINE(1496)											{
+HXLINE(1496)												{
+HXLINE(1496)													if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
+HXLINE( 939)														ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
+HXLINE( 940)														descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
+            													}
+            													else {
+HXLINE(1496)														bool _hx_tmp;
+HXDLIN(1496)														if (::hx::IsNotNull( font )) {
+HXLINE(1496)															_hx_tmp = (font->unitsPerEM != 0);
+            														}
+            														else {
+HXLINE(1496)															_hx_tmp = false;
+            														}
+HXDLIN(1496)														if (_hx_tmp) {
+HXLINE( 945)															ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
+HXLINE( 946)															descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
+            														}
+            														else {
+HXLINE( 951)															ascent = ( (Float)(currentFormat->size) );
+HXLINE( 952)															descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
+            														}
+            													}
+HXLINE( 955)													leading = ( (int)(currentFormat->leading) );
+HXLINE( 957)													heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
+HXLINE(1496)													if ((heightValue > maxHeightValue)) {
+HXLINE( 961)														maxHeightValue = heightValue;
+            													}
+HXLINE(1496)													if ((ascent > maxAscent)) {
+HXLINE( 966)														maxAscent = ascent;
+            													}
+            												}
+HXLINE(1496)												int i1 = _gthis->layoutGroups->get_length();
+HXDLIN(1496)												while(true){
+HXLINE(1496)													i1 = (i1 - 1);
+HXDLIN(1496)													if (!((i1 > -1))) {
+HXLINE(1496)														goto _hx_goto_77;
+            													}
+HXDLIN(1496)													 ::openfl::text::_internal::TextLayoutGroup lg = _gthis->layoutGroups->get(i1).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
+HXDLIN(1496)													if ((lg->lineIndex < lineIndex)) {
+HXLINE(1496)														goto _hx_goto_77;
+            													}
+HXDLIN(1496)													if ((lg->lineIndex > lineIndex)) {
+HXLINE(1496)														continue;
+            													}
+HXDLIN(1496)													lg->ascent = maxAscent;
+HXDLIN(1496)													lg->height = ( (Float)(maxHeightValue) );
+            												}
+            												_hx_goto_77:;
+HXDLIN(1496)												offsetY = (offsetY + maxHeightValue);
+HXLINE(1182)												maxAscent = ((Float)0.0);
+HXLINE(1183)												maxHeightValue = 0;
+HXLINE(1496)												lineIndex = (lineIndex + 1);
+HXLINE(1186)												offsetX = ( (Float)(2) );
+            											}
+HXLINE(1496)											if ((endIndex <= formatRange->end)) {
+HXLINE(1496)												::String text = _gthis->text;
+HXDLIN(1496)												Float letterSpacing = ((Float)0.0);
+HXDLIN(1496)												if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)													letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+            												}
+HXLINE(1496)												if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1496)													_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+            												}
+HXDLIN(1496)												_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1496)												_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1496)												if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1496)													_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+            												}
+HXDLIN(1496)												_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1496)												bool positions1;
+HXDLIN(1496)												if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1496)													positions1 = (_gthis->sharpness < 400);
+            												}
+            												else {
+HXLINE(1496)													positions1 = true;
+            												}
+HXDLIN(1496)												_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1496)												 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1496)												_gthis1->set_text(text.substring(placeIndex,endIndex));
+HXDLIN(1496)												positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1496)												Float width = ((Float)0.0);
+HXDLIN(1496)												int _g = 0;
+HXDLIN(1496)												while((_g < positions->length)){
+HXLINE(1496)													 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1496)													_g = (_g + 1);
+HXDLIN(1496)													width = (width + position->advance->x);
+            												}
+HXDLIN(1496)												widthValue = width;
+            											}
+            											else {
+HXLINE(1496)												int tempIndex = placeIndex;
+HXDLIN(1496)												int tempRangeEnd = formatRange->end;
+HXDLIN(1496)												int countRanges = 0;
+HXLINE(1046)												positions = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(1047)												widthValue = ( (Float)(0) );
+HXLINE(1496)												while(true){
+HXLINE(1496)													if ((tempIndex != tempRangeEnd)) {
+HXLINE(1496)														::String text = _gthis->text;
+HXDLIN(1496)														Float letterSpacing = ((Float)0.0);
+HXDLIN(1496)														if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)															letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+            														}
+HXLINE(1496)														if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1496)															_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+            														}
+HXDLIN(1496)														_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1496)														_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1496)														if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1496)															_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+            														}
+HXDLIN(1496)														_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1496)														bool _hx_tmp;
+HXDLIN(1496)														if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1496)															_hx_tmp = (_gthis->sharpness < 400);
+            														}
+            														else {
+HXLINE(1496)															_hx_tmp = true;
+            														}
+HXDLIN(1496)														_gthis->_hx___textLayout->autoHint = _hx_tmp;
+HXDLIN(1496)														 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1496)														_gthis1->set_text(text.substring(tempIndex,tempRangeEnd));
+HXDLIN(1496)														::Array< ::Dynamic> tempPositions = _gthis->_hx___textLayout->get_positions();
+HXLINE(1054)														positions = positions->concat(tempPositions);
+            													}
+HXLINE(1496)													if ((tempRangeEnd != endIndex)) {
+HXLINE(1496)														bool _hx_tmp;
+HXDLIN(1496)														if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1496)															rangeIndex = (rangeIndex + 1);
+HXDLIN(1496)															formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1496)															currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)															font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXLINE(1496)															_hx_tmp = true;
+            														}
+            														else {
+HXLINE(1496)															_hx_tmp = false;
+            														}
+HXDLIN(1496)														if (!(_hx_tmp)) {
+HXLINE(1496)															::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1061,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
+HXDLIN(1496)															goto _hx_goto_79;
+            														}
+HXLINE(1065)														tempIndex = tempRangeEnd;
+HXLINE(1496)														if ((endIndex < formatRange->end)) {
+HXLINE(1496)															tempRangeEnd = endIndex;
+            														}
+            														else {
+HXLINE(1496)															tempRangeEnd = formatRange->end;
+            														}
+HXDLIN(1496)														countRanges = (countRanges + 1);
+            													}
+            													else {
+HXLINE(1496)														Float width = ((Float)0.0);
+HXDLIN(1496)														int _g = 0;
+HXDLIN(1496)														while((_g < positions->length)){
+HXLINE(1496)															 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1496)															_g = (_g + 1);
+HXDLIN(1496)															width = (width + position->advance->x);
+            														}
+HXDLIN(1496)														widthValue = width;
+HXDLIN(1496)														goto _hx_goto_79;
+            													}
+            												}
+            												_hx_goto_79:;
+HXDLIN(1496)												rangeIndex = (rangeIndex - (countRanges + 1));
+HXDLIN(1496)												if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1496)													rangeIndex = (rangeIndex + 1);
+HXDLIN(1496)													formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1496)													currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)													font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+            												}
+            											}
+HXLINE(1271)											remainingPositions = positions;
+HXLINE(1272)											tempWidth = widthValue;
             										}
             										_hx_goto_65:;
             									}
-HXDLIN(1498)									textIndex = endIndex;
-            								}
-            							}
-HXLINE(1500)							wrap = false;
-            						}
-            						else {
-HXLINE(1504)							bool _hx_tmp;
-HXDLIN(1504)							if (::hx::IsNotNull( layoutGroup )) {
-HXLINE(1504)								_hx_tmp = (textIndex == spaceIndex);
-            							}
-            							else {
-HXLINE(1504)								_hx_tmp = false;
-            							}
-HXDLIN(1504)							if (_hx_tmp) {
-HXLINE(1507)								if (::hx::IsNotEq( align,2 )) {
-HXLINE(1509)									layoutGroup->endIndex = spaceIndex;
-HXLINE(1510)									layoutGroup->positions = layoutGroup->positions->concat(positions);
-HXLINE(1511)									 ::openfl::text::_internal::TextLayoutGroup layoutGroup1 = layoutGroup;
-HXDLIN(1511)									layoutGroup1->width = (layoutGroup1->width + widthValue);
-            								}
-HXLINE(1514)								offsetX = (offsetX + widthValue);
-HXLINE(1516)								textIndex = endIndex;
-            							}
-            							else {
-HXLINE(1518)								bool _hx_tmp;
-HXDLIN(1518)								if (::hx::IsNotNull( layoutGroup )) {
-HXLINE(1518)									_hx_tmp = ::hx::IsEq( align,2 );
-            								}
-            								else {
-HXLINE(1518)									_hx_tmp = true;
-            								}
-HXDLIN(1518)								if (_hx_tmp) {
-HXLINE(1520)									{
-HXLINE(1520)										bool _hx_tmp;
-HXDLIN(1520)										if ((_gthis->width >= 4)) {
-HXLINE(1520)											_hx_tmp = _gthis->wordWrap;
+HXLINE(1496)									{
+HXLINE(1496)										if ((endIndex <= formatRange->end)) {
+HXLINE(1496)											::String text = _gthis->text;
+HXDLIN(1496)											Float letterSpacing = ((Float)0.0);
+HXDLIN(1496)											if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)												letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+            											}
+HXLINE(1496)											if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1496)												_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+            											}
+HXDLIN(1496)											_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1496)											_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1496)											if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1496)												_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+            											}
+HXDLIN(1496)											_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1496)											bool positions1;
+HXDLIN(1496)											if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1496)												positions1 = (_gthis->sharpness < 400);
+            											}
+            											else {
+HXLINE(1496)												positions1 = true;
+            											}
+HXDLIN(1496)											_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1496)											 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1496)											_gthis1->set_text(text.substring(textIndex,endIndex));
+HXDLIN(1496)											positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1496)											Float width = ((Float)0.0);
+HXDLIN(1496)											int _g = 0;
+HXDLIN(1496)											while((_g < positions->length)){
+HXLINE(1496)												 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1496)												_g = (_g + 1);
+HXDLIN(1496)												width = (width + position->advance->x);
+            											}
+HXDLIN(1496)											widthValue = width;
+HXDLIN(1496)											bool _hx_tmp;
+HXDLIN(1496)											if (::hx::IsNotNull( layoutGroup )) {
+HXLINE(1496)												_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
+            											}
+            											else {
+HXLINE(1496)												_hx_tmp = true;
+            											}
+HXDLIN(1496)											if (_hx_tmp) {
+HXLINE( 923)												layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,endIndex);
+HXLINE(1496)												_gthis->layoutGroups->push(layoutGroup);
+            											}
+            											else {
+HXLINE(1496)												layoutGroup->format = formatRange->format;
+HXDLIN(1496)												layoutGroup->startIndex = textIndex;
+HXDLIN(1496)												layoutGroup->endIndex = endIndex;
+            											}
+HXDLIN(1496)											layoutGroup->positions = positions;
+HXDLIN(1496)											layoutGroup->offsetX = offsetX;
+HXDLIN(1496)											layoutGroup->ascent = ascent;
+HXDLIN(1496)											layoutGroup->descent = descent;
+HXDLIN(1496)											layoutGroup->leading = leading;
+HXDLIN(1496)											layoutGroup->lineIndex = lineIndex;
+HXDLIN(1496)											layoutGroup->offsetY = offsetY;
+HXDLIN(1496)											layoutGroup->width = widthValue;
+HXDLIN(1496)											layoutGroup->height = ( (Float)(heightValue) );
+HXDLIN(1496)											offsetX = (offsetX + widthValue);
+HXDLIN(1496)											if ((endIndex == formatRange->end)) {
+HXLINE(1108)												layoutGroup = null();
+HXLINE(1496)												if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1496)													rangeIndex = (rangeIndex + 1);
+HXDLIN(1496)													formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1496)													currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)													font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+            												}
+HXLINE(1496)												{
+HXLINE(1496)													if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
+HXLINE( 939)														ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
+HXLINE( 940)														descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
+            													}
+            													else {
+HXLINE(1496)														bool _hx_tmp;
+HXDLIN(1496)														if (::hx::IsNotNull( font )) {
+HXLINE(1496)															_hx_tmp = (font->unitsPerEM != 0);
+            														}
+            														else {
+HXLINE(1496)															_hx_tmp = false;
+            														}
+HXDLIN(1496)														if (_hx_tmp) {
+HXLINE( 945)															ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
+HXLINE( 946)															descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
+            														}
+            														else {
+HXLINE( 951)															ascent = ( (Float)(currentFormat->size) );
+HXLINE( 952)															descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
+            														}
+            													}
+HXLINE( 955)													leading = ( (int)(currentFormat->leading) );
+HXLINE( 957)													heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
+HXLINE(1496)													if ((heightValue > maxHeightValue)) {
+HXLINE( 961)														maxHeightValue = heightValue;
+            													}
+HXLINE(1496)													if ((ascent > maxAscent)) {
+HXLINE( 966)														maxAscent = ascent;
+            													}
+            												}
+            											}
             										}
             										else {
-HXLINE(1520)											_hx_tmp = false;
+HXLINE(1496)											while(true){
+HXLINE(1496)												int tempRangeEnd;
+HXDLIN(1496)												if ((endIndex < formatRange->end)) {
+HXLINE(1496)													tempRangeEnd = endIndex;
+            												}
+            												else {
+HXLINE(1496)													tempRangeEnd = formatRange->end;
+            												}
+HXDLIN(1496)												if ((textIndex != tempRangeEnd)) {
+HXLINE(1496)													::String text = _gthis->text;
+HXDLIN(1496)													Float letterSpacing = ((Float)0.0);
+HXDLIN(1496)													if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)														letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+            													}
+HXLINE(1496)													if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1496)														_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+            													}
+HXDLIN(1496)													_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1496)													_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1496)													if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1496)														_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+            													}
+HXDLIN(1496)													_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1496)													bool positions1;
+HXDLIN(1496)													if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1496)														positions1 = (_gthis->sharpness < 400);
+            													}
+            													else {
+HXLINE(1496)														positions1 = true;
+            													}
+HXDLIN(1496)													_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1496)													 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1496)													_gthis1->set_text(text.substring(textIndex,tempRangeEnd));
+HXDLIN(1496)													positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1496)													Float width = ((Float)0.0);
+HXDLIN(1496)													int _g = 0;
+HXDLIN(1496)													while((_g < positions->length)){
+HXLINE(1496)														 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1496)														_g = (_g + 1);
+HXDLIN(1496)														width = (width + position->advance->x);
+            													}
+HXDLIN(1496)													widthValue = width;
+HXDLIN(1496)													bool _hx_tmp;
+HXDLIN(1496)													if (::hx::IsNotNull( layoutGroup )) {
+HXLINE(1496)														_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
+            													}
+            													else {
+HXLINE(1496)														_hx_tmp = true;
+            													}
+HXDLIN(1496)													if (_hx_tmp) {
+HXLINE( 923)														layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,tempRangeEnd);
+HXLINE(1496)														_gthis->layoutGroups->push(layoutGroup);
+            													}
+            													else {
+HXLINE(1496)														layoutGroup->format = formatRange->format;
+HXDLIN(1496)														layoutGroup->startIndex = textIndex;
+HXDLIN(1496)														layoutGroup->endIndex = tempRangeEnd;
+            													}
+HXDLIN(1496)													layoutGroup->positions = positions;
+HXDLIN(1496)													layoutGroup->offsetX = offsetX;
+HXDLIN(1496)													layoutGroup->ascent = ascent;
+HXDLIN(1496)													layoutGroup->descent = descent;
+HXDLIN(1496)													layoutGroup->leading = leading;
+HXDLIN(1496)													layoutGroup->lineIndex = lineIndex;
+HXDLIN(1496)													layoutGroup->offsetY = offsetY;
+HXDLIN(1496)													layoutGroup->width = widthValue;
+HXDLIN(1496)													layoutGroup->height = ( (Float)(heightValue) );
+HXDLIN(1496)													offsetX = (offsetX + widthValue);
+HXLINE(1140)													textIndex = tempRangeEnd;
+            												}
+HXLINE(1496)												if ((tempRangeEnd == formatRange->end)) {
+HXLINE(1143)													layoutGroup = null();
+            												}
+HXLINE(1496)												if ((tempRangeEnd == endIndex)) {
+HXLINE(1496)													goto _hx_goto_82;
+            												}
+HXDLIN(1496)												bool _hx_tmp;
+HXDLIN(1496)												if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1496)													rangeIndex = (rangeIndex + 1);
+HXDLIN(1496)													formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1496)													currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)													font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXLINE(1496)													_hx_tmp = true;
+            												}
+            												else {
+HXLINE(1496)													_hx_tmp = false;
+            												}
+HXDLIN(1496)												if (!(_hx_tmp)) {
+HXLINE(1496)													::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1149,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
+HXDLIN(1496)													goto _hx_goto_82;
+            												}
+HXDLIN(1496)												{
+HXLINE(1496)													if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
+HXLINE( 939)														ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
+HXLINE( 940)														descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
+            													}
+            													else {
+HXLINE(1496)														bool _hx_tmp;
+HXDLIN(1496)														if (::hx::IsNotNull( font )) {
+HXLINE(1496)															_hx_tmp = (font->unitsPerEM != 0);
+            														}
+            														else {
+HXLINE(1496)															_hx_tmp = false;
+            														}
+HXDLIN(1496)														if (_hx_tmp) {
+HXLINE( 945)															ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
+HXLINE( 946)															descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
+            														}
+            														else {
+HXLINE( 951)															ascent = ( (Float)(currentFormat->size) );
+HXLINE( 952)															descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
+            														}
+            													}
+HXLINE( 955)													leading = ( (int)(currentFormat->leading) );
+HXLINE( 957)													heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
+HXLINE(1496)													if ((heightValue > maxHeightValue)) {
+HXLINE( 961)														maxHeightValue = heightValue;
+            													}
+HXLINE(1496)													if ((ascent > maxAscent)) {
+HXLINE( 966)														maxAscent = ascent;
+            													}
+            												}
+            											}
+            											_hx_goto_82:;
             										}
-HXDLIN(1520)										if (_hx_tmp) {
-HXLINE(1520)											::Array< ::Dynamic> remainingPositions = positions;
-HXDLIN(1520)											int i;
-HXDLIN(1520)											int bufferCount;
-HXDLIN(1520)											int placeIndex;
-HXDLIN(1520)											Float positionWidth;
-HXDLIN(1520)											 ::openfl::text::_internal::GlyphPosition currentPosition;
-HXDLIN(1520)											Float width = ((Float)0.0);
-HXDLIN(1520)											{
-HXLINE(1520)												int _g = 0;
-HXDLIN(1520)												while((_g < remainingPositions->length)){
-HXLINE(1520)													 ::openfl::text::_internal::GlyphPosition position = remainingPositions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1520)													_g = (_g + 1);
-HXDLIN(1520)													width = (width + position->advance->x);
-            												}
-            											}
-HXDLIN(1520)											Float tempWidth = width;
-HXDLIN(1520)											while(true){
-HXLINE(1520)												bool _hx_tmp;
-HXDLIN(1520)												if ((remainingPositions->length > 0)) {
-HXLINE(1520)													int _hx_tmp1;
-HXDLIN(1520)													if (firstLineOfParagraph) {
-HXLINE(1520)														_hx_tmp1 = indent;
-            													}
-            													else {
-HXLINE(1520)														_hx_tmp1 = 0;
-            													}
-HXDLIN(1520)													_hx_tmp = ((offsetX + tempWidth) > (((_gthis->width - ( (Float)(2) )) - ( (Float)(rightMargin) )) - ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp1)) )));
-            												}
-            												else {
-HXLINE(1520)													_hx_tmp = false;
-            												}
-HXDLIN(1520)												if (!(_hx_tmp)) {
-HXLINE(1520)													goto _hx_goto_68;
-            												}
-HXDLIN(1520)												bufferCount = 0;
-HXDLIN(1520)												i = bufferCount;
-HXDLIN(1520)												positionWidth = ((Float)0.0);
-HXDLIN(1520)												while(true){
-HXLINE(1520)													int _hx_tmp;
-HXDLIN(1520)													if (firstLineOfParagraph) {
-HXLINE(1520)														_hx_tmp = indent;
-            													}
-            													else {
-HXLINE(1520)														_hx_tmp = 0;
-            													}
-HXDLIN(1520)													if (!(((offsetX + positionWidth) < (((_gthis->width - ( (Float)(2) )) - ( (Float)(rightMargin) )) - ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp)) ))))) {
-HXLINE(1520)														goto _hx_goto_69;
-            													}
-HXDLIN(1520)													currentPosition = remainingPositions->__get(i).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1520)													if ((currentPosition->advance->x == ((Float)0.0))) {
-HXLINE(1520)														i = (i + 1);
-HXDLIN(1520)														bufferCount = (bufferCount + 1);
-            													}
-            													else {
-HXLINE(1520)														positionWidth = (positionWidth + currentPosition->advance->x);
-HXDLIN(1520)														i = (i + 1);
-            													}
-            												}
-            												_hx_goto_69:;
-HXDLIN(1520)												if ((i == bufferCount)) {
-HXLINE(1520)													i = (bufferCount + 1);
-            												}
-            												else {
-HXLINE(1520)													while(true){
-HXLINE(1520)														bool _hx_tmp;
-HXDLIN(1520)														if ((i > 1)) {
-HXLINE(1520)															int _hx_tmp1;
-HXDLIN(1520)															if (firstLineOfParagraph) {
-HXLINE(1520)																_hx_tmp1 = indent;
-            															}
-            															else {
-HXLINE(1520)																_hx_tmp1 = 0;
-            															}
-HXDLIN(1520)															_hx_tmp = ((offsetX + positionWidth) > (((_gthis->width - ( (Float)(2) )) - ( (Float)(rightMargin) )) - ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp1)) )));
-            														}
-            														else {
-HXLINE(1520)															_hx_tmp = false;
-            														}
-HXDLIN(1520)														if (!(_hx_tmp)) {
-HXLINE(1520)															goto _hx_goto_70;
-            														}
-HXDLIN(1520)														i = (i - 1);
-HXDLIN(1520)														if (((i - bufferCount) > 0)) {
-HXLINE(1520)															{
-HXLINE(1520)																int endIndex = ((textIndex + i) - bufferCount);
-HXDLIN(1520)																if ((textIndex >= endIndex)) {
-HXLINE(1520)																	positions = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN(1520)																	widthValue = ( (Float)(0) );
-            																}
-            																else {
-HXLINE(1520)																	if ((endIndex <= formatRange->end)) {
-HXLINE(1520)																		::String text = _gthis->text;
-HXDLIN(1520)																		Float letterSpacing = ((Float)0.0);
-HXDLIN(1520)																		if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1520)																			letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
-            																		}
-HXDLIN(1520)																		if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1520)																			_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-            																		}
-HXDLIN(1520)																		_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1520)																		_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1520)																		if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1520)																			_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
-            																		}
-HXDLIN(1520)																		_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1520)																		bool positions1;
-HXDLIN(1520)																		if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1520)																			positions1 = (_gthis->sharpness < 400);
-            																		}
-            																		else {
-HXLINE(1520)																			positions1 = true;
-            																		}
-HXDLIN(1520)																		_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1520)																		 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1520)																		_gthis1->set_text(text.substring(textIndex,endIndex));
-HXDLIN(1520)																		positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1520)																		Float width = ((Float)0.0);
-HXDLIN(1520)																		{
-HXLINE(1520)																			int _g = 0;
-HXDLIN(1520)																			while((_g < positions->length)){
-HXLINE(1520)																				 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1520)																				_g = (_g + 1);
-HXDLIN(1520)																				width = (width + position->advance->x);
-            																			}
-            																		}
-HXDLIN(1520)																		widthValue = width;
-            																	}
-            																	else {
-HXLINE(1520)																		int tempIndex = textIndex;
-HXDLIN(1520)																		int tempRangeEnd = formatRange->end;
-HXDLIN(1520)																		int countRanges = 0;
-HXDLIN(1520)																		positions = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN(1520)																		widthValue = ( (Float)(0) );
-HXDLIN(1520)																		while(true){
-HXLINE(1520)																			if ((tempIndex != tempRangeEnd)) {
-HXLINE(1520)																				::String text = _gthis->text;
-HXDLIN(1520)																				Float letterSpacing = ((Float)0.0);
-HXDLIN(1520)																				if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1520)																					letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
-            																				}
-HXDLIN(1520)																				if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1520)																					_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-            																				}
-HXDLIN(1520)																				_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1520)																				_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1520)																				if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1520)																					_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
-            																				}
-HXDLIN(1520)																				_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1520)																				bool _hx_tmp;
-HXDLIN(1520)																				if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1520)																					_hx_tmp = (_gthis->sharpness < 400);
-            																				}
-            																				else {
-HXLINE(1520)																					_hx_tmp = true;
-            																				}
-HXDLIN(1520)																				_gthis->_hx___textLayout->autoHint = _hx_tmp;
-HXDLIN(1520)																				 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1520)																				_gthis1->set_text(text.substring(tempIndex,tempRangeEnd));
-HXDLIN(1520)																				::Array< ::Dynamic> tempPositions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1520)																				positions = positions->concat(tempPositions);
-            																			}
-HXDLIN(1520)																			if ((tempRangeEnd != endIndex)) {
-HXLINE(1520)																				bool _hx_tmp;
-HXDLIN(1520)																				if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1520)																					rangeIndex = (rangeIndex + 1);
-HXDLIN(1520)																					formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1520)																					currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1520)																					font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-HXDLIN(1520)																					_hx_tmp = true;
-            																				}
-            																				else {
-HXLINE(1520)																					_hx_tmp = false;
-            																				}
-HXDLIN(1520)																				if (!(_hx_tmp)) {
-HXLINE(1520)																					::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1092,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
-HXDLIN(1520)																					goto _hx_goto_72;
-            																				}
-HXDLIN(1520)																				tempIndex = tempRangeEnd;
-HXDLIN(1520)																				if ((endIndex < formatRange->end)) {
-HXLINE(1520)																					tempRangeEnd = endIndex;
-            																				}
-            																				else {
-HXLINE(1520)																					tempRangeEnd = formatRange->end;
-            																				}
-HXDLIN(1520)																				countRanges = (countRanges + 1);
-            																			}
-            																			else {
-HXLINE(1520)																				Float width = ((Float)0.0);
-HXDLIN(1520)																				{
-HXLINE(1520)																					int _g = 0;
-HXDLIN(1520)																					while((_g < positions->length)){
-HXLINE(1520)																						 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1520)																						_g = (_g + 1);
-HXDLIN(1520)																						width = (width + position->advance->x);
-            																					}
-            																				}
-HXDLIN(1520)																				widthValue = width;
-HXDLIN(1520)																				goto _hx_goto_72;
-            																			}
-            																		}
-            																		_hx_goto_72:;
-HXDLIN(1520)																		rangeIndex = (rangeIndex - (countRanges + 1));
-HXDLIN(1520)																		if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1520)																			rangeIndex = (rangeIndex + 1);
-HXDLIN(1520)																			formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1520)																			currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1520)																			font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-            																		}
-            																	}
-            																}
-            															}
-HXDLIN(1520)															positionWidth = widthValue;
-            														}
-            														else {
-HXLINE(1520)															i = 1;
-HXDLIN(1520)															bufferCount = 0;
-HXDLIN(1520)															{
-HXLINE(1520)																int endIndex = (textIndex + 1);
-HXDLIN(1520)																if ((textIndex >= endIndex)) {
-HXLINE(1520)																	positions = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN(1520)																	widthValue = ( (Float)(0) );
-            																}
-            																else {
-HXLINE(1520)																	if ((endIndex <= formatRange->end)) {
-HXLINE(1520)																		::String text = _gthis->text;
-HXDLIN(1520)																		Float letterSpacing = ((Float)0.0);
-HXDLIN(1520)																		if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1520)																			letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
-            																		}
-HXDLIN(1520)																		if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1520)																			_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-            																		}
-HXDLIN(1520)																		_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1520)																		_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1520)																		if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1520)																			_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
-            																		}
-HXDLIN(1520)																		_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1520)																		bool positions1;
-HXDLIN(1520)																		if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1520)																			positions1 = (_gthis->sharpness < 400);
-            																		}
-            																		else {
-HXLINE(1520)																			positions1 = true;
-            																		}
-HXDLIN(1520)																		_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1520)																		 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1520)																		_gthis1->set_text(text.substring(textIndex,endIndex));
-HXDLIN(1520)																		positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1520)																		Float width = ((Float)0.0);
-HXDLIN(1520)																		{
-HXLINE(1520)																			int _g = 0;
-HXDLIN(1520)																			while((_g < positions->length)){
-HXLINE(1520)																				 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1520)																				_g = (_g + 1);
-HXDLIN(1520)																				width = (width + position->advance->x);
-            																			}
-            																		}
-HXDLIN(1520)																		widthValue = width;
-            																	}
-            																	else {
-HXLINE(1520)																		int tempIndex = textIndex;
-HXDLIN(1520)																		int tempRangeEnd = formatRange->end;
-HXDLIN(1520)																		int countRanges = 0;
-HXDLIN(1520)																		positions = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN(1520)																		widthValue = ( (Float)(0) );
-HXDLIN(1520)																		while(true){
-HXLINE(1520)																			if ((tempIndex != tempRangeEnd)) {
-HXLINE(1520)																				::String text = _gthis->text;
-HXDLIN(1520)																				Float letterSpacing = ((Float)0.0);
-HXDLIN(1520)																				if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1520)																					letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
-            																				}
-HXDLIN(1520)																				if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1520)																					_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-            																				}
-HXDLIN(1520)																				_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1520)																				_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1520)																				if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1520)																					_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
-            																				}
-HXDLIN(1520)																				_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1520)																				bool _hx_tmp;
-HXDLIN(1520)																				if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1520)																					_hx_tmp = (_gthis->sharpness < 400);
-            																				}
-            																				else {
-HXLINE(1520)																					_hx_tmp = true;
-            																				}
-HXDLIN(1520)																				_gthis->_hx___textLayout->autoHint = _hx_tmp;
-HXDLIN(1520)																				 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1520)																				_gthis1->set_text(text.substring(tempIndex,tempRangeEnd));
-HXDLIN(1520)																				::Array< ::Dynamic> tempPositions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1520)																				positions = positions->concat(tempPositions);
-            																			}
-HXDLIN(1520)																			if ((tempRangeEnd != endIndex)) {
-HXLINE(1520)																				bool _hx_tmp;
-HXDLIN(1520)																				if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1520)																					rangeIndex = (rangeIndex + 1);
-HXDLIN(1520)																					formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1520)																					currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1520)																					font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-HXDLIN(1520)																					_hx_tmp = true;
-            																				}
-            																				else {
-HXLINE(1520)																					_hx_tmp = false;
-            																				}
-HXDLIN(1520)																				if (!(_hx_tmp)) {
-HXLINE(1520)																					::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1092,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
-HXDLIN(1520)																					goto _hx_goto_75;
-            																				}
-HXDLIN(1520)																				tempIndex = tempRangeEnd;
-HXDLIN(1520)																				if ((endIndex < formatRange->end)) {
-HXLINE(1520)																					tempRangeEnd = endIndex;
-            																				}
-            																				else {
-HXLINE(1520)																					tempRangeEnd = formatRange->end;
-            																				}
-HXDLIN(1520)																				countRanges = (countRanges + 1);
-            																			}
-            																			else {
-HXLINE(1520)																				Float width = ((Float)0.0);
-HXDLIN(1520)																				{
-HXLINE(1520)																					int _g = 0;
-HXDLIN(1520)																					while((_g < positions->length)){
-HXLINE(1520)																						 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1520)																						_g = (_g + 1);
-HXDLIN(1520)																						width = (width + position->advance->x);
-            																					}
-            																				}
-HXDLIN(1520)																				widthValue = width;
-HXDLIN(1520)																				goto _hx_goto_75;
-            																			}
-            																		}
-            																		_hx_goto_75:;
-HXDLIN(1520)																		rangeIndex = (rangeIndex - (countRanges + 1));
-HXDLIN(1520)																		if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1520)																			rangeIndex = (rangeIndex + 1);
-HXDLIN(1520)																			formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1520)																			currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1520)																			font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-            																		}
-            																	}
-            																}
-            															}
-HXDLIN(1520)															positionWidth = ( (Float)(0) );
-            														}
-            													}
-            													_hx_goto_70:;
-            												}
-HXDLIN(1520)												placeIndex = ((textIndex + i) - bufferCount);
-HXDLIN(1520)												{
-HXLINE(1520)													if ((placeIndex <= formatRange->end)) {
-HXLINE(1520)														::String text = _gthis->text;
-HXDLIN(1520)														Float letterSpacing = ((Float)0.0);
-HXDLIN(1520)														if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1520)															letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
-            														}
-HXDLIN(1520)														if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1520)															_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-            														}
-HXDLIN(1520)														_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1520)														_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1520)														if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1520)															_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
-            														}
-HXDLIN(1520)														_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1520)														bool positions1;
-HXDLIN(1520)														if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1520)															positions1 = (_gthis->sharpness < 400);
-            														}
-            														else {
-HXLINE(1520)															positions1 = true;
-            														}
-HXDLIN(1520)														_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1520)														 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1520)														_gthis1->set_text(text.substring(textIndex,placeIndex));
-HXDLIN(1520)														positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1520)														Float width = ((Float)0.0);
-HXDLIN(1520)														{
-HXLINE(1520)															int _g = 0;
-HXDLIN(1520)															while((_g < positions->length)){
-HXLINE(1520)																 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1520)																_g = (_g + 1);
-HXDLIN(1520)																width = (width + position->advance->x);
-            															}
-            														}
-HXDLIN(1520)														widthValue = width;
-HXDLIN(1520)														bool _hx_tmp;
-HXDLIN(1520)														if (::hx::IsNotNull( layoutGroup )) {
-HXLINE(1520)															_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
-            														}
-            														else {
-HXLINE(1520)															_hx_tmp = true;
-            														}
-HXDLIN(1520)														if (_hx_tmp) {
-HXLINE(1520)															layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,placeIndex);
-HXDLIN(1520)															_gthis->layoutGroups->push(layoutGroup);
-            														}
-            														else {
-HXLINE(1520)															layoutGroup->format = formatRange->format;
-HXDLIN(1520)															layoutGroup->startIndex = textIndex;
-HXDLIN(1520)															layoutGroup->endIndex = placeIndex;
-            														}
-HXDLIN(1520)														layoutGroup->positions = positions;
-HXDLIN(1520)														int _hx_tmp1;
-HXDLIN(1520)														if (firstLineOfParagraph) {
-HXLINE(1520)															_hx_tmp1 = indent;
-            														}
-            														else {
-HXLINE(1520)															_hx_tmp1 = 0;
-            														}
-HXDLIN(1520)														layoutGroup->offsetX = (offsetX + ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp1)) ));
-HXDLIN(1520)														layoutGroup->ascent = ascent;
-HXDLIN(1520)														layoutGroup->descent = descent;
-HXDLIN(1520)														layoutGroup->leading = leading;
-HXDLIN(1520)														layoutGroup->lineIndex = lineIndex;
-HXDLIN(1520)														layoutGroup->offsetY = (offsetY + 2);
-HXDLIN(1520)														layoutGroup->width = widthValue;
-HXDLIN(1520)														layoutGroup->height = ( (Float)(heightValue) );
-HXDLIN(1520)														offsetX = (offsetX + widthValue);
-HXDLIN(1520)														if ((placeIndex == formatRange->end)) {
-HXLINE(1520)															layoutGroup = null();
-HXDLIN(1520)															if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1520)																rangeIndex = (rangeIndex + 1);
-HXDLIN(1520)																formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1520)																currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1520)																font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-            															}
-HXDLIN(1520)															{
-HXLINE(1520)																if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
-HXLINE(1520)																	ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
-HXDLIN(1520)																	descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
-            																}
-            																else {
-HXLINE(1520)																	bool _hx_tmp;
-HXDLIN(1520)																	if (::hx::IsNotNull( font )) {
-HXLINE(1520)																		_hx_tmp = (font->unitsPerEM != 0);
-            																	}
-            																	else {
-HXLINE(1520)																		_hx_tmp = false;
-            																	}
-HXDLIN(1520)																	if (_hx_tmp) {
-HXLINE(1520)																		ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
-HXDLIN(1520)																		descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
-            																	}
-            																	else {
-HXLINE(1520)																		ascent = ( (Float)(currentFormat->size) );
-HXDLIN(1520)																		descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
-            																	}
-            																}
-HXDLIN(1520)																leading = ( (int)(currentFormat->leading) );
-HXDLIN(1520)																heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
-HXDLIN(1520)																if ((heightValue > maxHeightValue)) {
-HXLINE(1520)																	maxHeightValue = heightValue;
-            																}
-HXDLIN(1520)																if ((ascent > maxAscent)) {
-HXLINE(1520)																	maxAscent = ascent;
-            																}
-            															}
-            														}
-            													}
-            													else {
-HXLINE(1520)														while(true){
-HXLINE(1520)															int tempRangeEnd;
-HXDLIN(1520)															if ((placeIndex < formatRange->end)) {
-HXLINE(1520)																tempRangeEnd = placeIndex;
-            															}
-            															else {
-HXLINE(1520)																tempRangeEnd = formatRange->end;
-            															}
-HXDLIN(1520)															if ((textIndex != tempRangeEnd)) {
-HXLINE(1520)																::String text = _gthis->text;
-HXDLIN(1520)																Float letterSpacing = ((Float)0.0);
-HXDLIN(1520)																if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1520)																	letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
-            																}
-HXDLIN(1520)																if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1520)																	_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-            																}
-HXDLIN(1520)																_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1520)																_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1520)																if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1520)																	_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
-            																}
-HXDLIN(1520)																_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1520)																bool positions1;
-HXDLIN(1520)																if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1520)																	positions1 = (_gthis->sharpness < 400);
-            																}
-            																else {
-HXLINE(1520)																	positions1 = true;
-            																}
-HXDLIN(1520)																_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1520)																 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1520)																_gthis1->set_text(text.substring(textIndex,tempRangeEnd));
-HXDLIN(1520)																positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1520)																Float width = ((Float)0.0);
-HXDLIN(1520)																{
-HXLINE(1520)																	int _g = 0;
-HXDLIN(1520)																	while((_g < positions->length)){
-HXLINE(1520)																		 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1520)																		_g = (_g + 1);
-HXDLIN(1520)																		width = (width + position->advance->x);
-            																	}
-            																}
-HXDLIN(1520)																widthValue = width;
-HXDLIN(1520)																bool _hx_tmp;
-HXDLIN(1520)																if (::hx::IsNotNull( layoutGroup )) {
-HXLINE(1520)																	_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
-            																}
-            																else {
-HXLINE(1520)																	_hx_tmp = true;
-            																}
-HXDLIN(1520)																if (_hx_tmp) {
-HXLINE(1520)																	layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,tempRangeEnd);
-HXDLIN(1520)																	_gthis->layoutGroups->push(layoutGroup);
-            																}
-            																else {
-HXLINE(1520)																	layoutGroup->format = formatRange->format;
-HXDLIN(1520)																	layoutGroup->startIndex = textIndex;
-HXDLIN(1520)																	layoutGroup->endIndex = tempRangeEnd;
-            																}
-HXDLIN(1520)																layoutGroup->positions = positions;
-HXDLIN(1520)																int _hx_tmp1;
-HXDLIN(1520)																if (firstLineOfParagraph) {
-HXLINE(1520)																	_hx_tmp1 = indent;
-            																}
-            																else {
-HXLINE(1520)																	_hx_tmp1 = 0;
-            																}
-HXDLIN(1520)																layoutGroup->offsetX = (offsetX + ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp1)) ));
-HXDLIN(1520)																layoutGroup->ascent = ascent;
-HXDLIN(1520)																layoutGroup->descent = descent;
-HXDLIN(1520)																layoutGroup->leading = leading;
-HXDLIN(1520)																layoutGroup->lineIndex = lineIndex;
-HXDLIN(1520)																layoutGroup->offsetY = (offsetY + 2);
-HXDLIN(1520)																layoutGroup->width = widthValue;
-HXDLIN(1520)																layoutGroup->height = ( (Float)(heightValue) );
-HXDLIN(1520)																offsetX = (offsetX + widthValue);
-HXDLIN(1520)																textIndex = tempRangeEnd;
-            															}
-HXDLIN(1520)															if ((tempRangeEnd == formatRange->end)) {
-HXLINE(1520)																layoutGroup = null();
-            															}
-HXDLIN(1520)															if ((tempRangeEnd == placeIndex)) {
-HXLINE(1520)																goto _hx_goto_78;
-            															}
-HXDLIN(1520)															bool _hx_tmp;
-HXDLIN(1520)															if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1520)																rangeIndex = (rangeIndex + 1);
-HXDLIN(1520)																formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1520)																currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1520)																font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-HXDLIN(1520)																_hx_tmp = true;
-            															}
-            															else {
-HXLINE(1520)																_hx_tmp = false;
-            															}
-HXDLIN(1520)															if (!(_hx_tmp)) {
-HXLINE(1520)																::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1180,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
-HXDLIN(1520)																goto _hx_goto_78;
-            															}
-HXDLIN(1520)															{
-HXLINE(1520)																if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
-HXLINE(1520)																	ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
-HXDLIN(1520)																	descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
-            																}
-            																else {
-HXLINE(1520)																	bool _hx_tmp;
-HXDLIN(1520)																	if (::hx::IsNotNull( font )) {
-HXLINE(1520)																		_hx_tmp = (font->unitsPerEM != 0);
-            																	}
-            																	else {
-HXLINE(1520)																		_hx_tmp = false;
-            																	}
-HXDLIN(1520)																	if (_hx_tmp) {
-HXLINE(1520)																		ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
-HXDLIN(1520)																		descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
-            																	}
-            																	else {
-HXLINE(1520)																		ascent = ( (Float)(currentFormat->size) );
-HXDLIN(1520)																		descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
-            																	}
-            																}
-HXDLIN(1520)																leading = ( (int)(currentFormat->leading) );
-HXDLIN(1520)																heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
-HXDLIN(1520)																if ((heightValue > maxHeightValue)) {
-HXLINE(1520)																	maxHeightValue = heightValue;
-            																}
-HXDLIN(1520)																if ((ascent > maxAscent)) {
-HXLINE(1520)																	maxAscent = ascent;
-            																}
-            															}
-            														}
-            														_hx_goto_78:;
-            													}
-HXDLIN(1520)													textIndex = placeIndex;
-            												}
-HXDLIN(1520)												{
-HXLINE(1520)													{
-HXLINE(1520)														if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
-HXLINE(1520)															ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
-HXDLIN(1520)															descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
-            														}
-            														else {
-HXLINE(1520)															bool _hx_tmp;
-HXDLIN(1520)															if (::hx::IsNotNull( font )) {
-HXLINE(1520)																_hx_tmp = (font->unitsPerEM != 0);
-            															}
-            															else {
-HXLINE(1520)																_hx_tmp = false;
-            															}
-HXDLIN(1520)															if (_hx_tmp) {
-HXLINE(1520)																ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
-HXDLIN(1520)																descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
-            															}
-            															else {
-HXLINE(1520)																ascent = ( (Float)(currentFormat->size) );
-HXDLIN(1520)																descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
-            															}
-            														}
-HXDLIN(1520)														leading = ( (int)(currentFormat->leading) );
-HXDLIN(1520)														heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
-HXDLIN(1520)														if ((heightValue > maxHeightValue)) {
-HXLINE(1520)															maxHeightValue = heightValue;
-            														}
-HXDLIN(1520)														if ((ascent > maxAscent)) {
-HXLINE(1520)															maxAscent = ascent;
-            														}
-            													}
-HXDLIN(1520)													int i1 = _gthis->layoutGroups->get_length();
-HXDLIN(1520)													while(true){
-HXLINE(1520)														i1 = (i1 - 1);
-HXDLIN(1520)														if (!((i1 > -1))) {
-HXLINE(1520)															goto _hx_goto_80;
-            														}
-HXDLIN(1520)														 ::openfl::text::_internal::TextLayoutGroup lg = _gthis->layoutGroups->get(i1).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
-HXDLIN(1520)														if ((lg->lineIndex < lineIndex)) {
-HXLINE(1520)															goto _hx_goto_80;
-            														}
-HXDLIN(1520)														if ((lg->lineIndex > lineIndex)) {
-HXLINE(1520)															continue;
-            														}
-HXDLIN(1520)														lg->ascent = maxAscent;
-HXDLIN(1520)														lg->height = ( (Float)(maxHeightValue) );
-            													}
-            													_hx_goto_80:;
-HXDLIN(1520)													offsetY = (offsetY + maxHeightValue);
-HXDLIN(1520)													maxAscent = ((Float)0.0);
-HXDLIN(1520)													maxHeightValue = 0;
-HXDLIN(1520)													lineIndex = (lineIndex + 1);
-HXDLIN(1520)													offsetX = ( (Float)(0) );
-HXDLIN(1520)													firstLineOfParagraph = false;
-            												}
-HXDLIN(1520)												if ((placeIndex >= endIndex)) {
-HXLINE(1520)													positions = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN(1520)													widthValue = ( (Float)(0) );
-            												}
-            												else {
-HXLINE(1520)													if ((endIndex <= formatRange->end)) {
-HXLINE(1520)														::String text = _gthis->text;
-HXDLIN(1520)														Float letterSpacing = ((Float)0.0);
-HXDLIN(1520)														if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1520)															letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
-            														}
-HXDLIN(1520)														if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1520)															_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-            														}
-HXDLIN(1520)														_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1520)														_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1520)														if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1520)															_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
-            														}
-HXDLIN(1520)														_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1520)														bool positions1;
-HXDLIN(1520)														if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1520)															positions1 = (_gthis->sharpness < 400);
-            														}
-            														else {
-HXLINE(1520)															positions1 = true;
-            														}
-HXDLIN(1520)														_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1520)														 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1520)														_gthis1->set_text(text.substring(placeIndex,endIndex));
-HXDLIN(1520)														positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1520)														Float width = ((Float)0.0);
-HXDLIN(1520)														{
-HXLINE(1520)															int _g = 0;
-HXDLIN(1520)															while((_g < positions->length)){
-HXLINE(1520)																 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1520)																_g = (_g + 1);
-HXDLIN(1520)																width = (width + position->advance->x);
-            															}
-            														}
-HXDLIN(1520)														widthValue = width;
-            													}
-            													else {
-HXLINE(1520)														int tempIndex = placeIndex;
-HXDLIN(1520)														int tempRangeEnd = formatRange->end;
-HXDLIN(1520)														int countRanges = 0;
-HXDLIN(1520)														positions = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN(1520)														widthValue = ( (Float)(0) );
-HXDLIN(1520)														while(true){
-HXLINE(1520)															if ((tempIndex != tempRangeEnd)) {
-HXLINE(1520)																::String text = _gthis->text;
-HXDLIN(1520)																Float letterSpacing = ((Float)0.0);
-HXDLIN(1520)																if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1520)																	letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
-            																}
-HXDLIN(1520)																if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1520)																	_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-            																}
-HXDLIN(1520)																_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1520)																_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1520)																if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1520)																	_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
-            																}
-HXDLIN(1520)																_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1520)																bool _hx_tmp;
-HXDLIN(1520)																if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1520)																	_hx_tmp = (_gthis->sharpness < 400);
-            																}
-            																else {
-HXLINE(1520)																	_hx_tmp = true;
-            																}
-HXDLIN(1520)																_gthis->_hx___textLayout->autoHint = _hx_tmp;
-HXDLIN(1520)																 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1520)																_gthis1->set_text(text.substring(tempIndex,tempRangeEnd));
-HXDLIN(1520)																::Array< ::Dynamic> tempPositions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1520)																positions = positions->concat(tempPositions);
-            															}
-HXDLIN(1520)															if ((tempRangeEnd != endIndex)) {
-HXLINE(1520)																bool _hx_tmp;
-HXDLIN(1520)																if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1520)																	rangeIndex = (rangeIndex + 1);
-HXDLIN(1520)																	formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1520)																	currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1520)																	font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-HXDLIN(1520)																	_hx_tmp = true;
-            																}
-            																else {
-HXLINE(1520)																	_hx_tmp = false;
-            																}
-HXDLIN(1520)																if (!(_hx_tmp)) {
-HXLINE(1520)																	::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1092,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
-HXDLIN(1520)																	goto _hx_goto_82;
-            																}
-HXDLIN(1520)																tempIndex = tempRangeEnd;
-HXDLIN(1520)																if ((endIndex < formatRange->end)) {
-HXLINE(1520)																	tempRangeEnd = endIndex;
-            																}
-            																else {
-HXLINE(1520)																	tempRangeEnd = formatRange->end;
-            																}
-HXDLIN(1520)																countRanges = (countRanges + 1);
-            															}
-            															else {
-HXLINE(1520)																Float width = ((Float)0.0);
-HXDLIN(1520)																{
-HXLINE(1520)																	int _g = 0;
-HXDLIN(1520)																	while((_g < positions->length)){
-HXLINE(1520)																		 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1520)																		_g = (_g + 1);
-HXDLIN(1520)																		width = (width + position->advance->x);
-            																	}
-            																}
-HXDLIN(1520)																widthValue = width;
-HXDLIN(1520)																goto _hx_goto_82;
-            															}
-            														}
-            														_hx_goto_82:;
-HXDLIN(1520)														rangeIndex = (rangeIndex - (countRanges + 1));
-HXDLIN(1520)														if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1520)															rangeIndex = (rangeIndex + 1);
-HXDLIN(1520)															formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1520)															currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1520)															font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-            														}
-            													}
-            												}
-HXDLIN(1520)												remainingPositions = positions;
-HXDLIN(1520)												tempWidth = widthValue;
-            											}
-            											_hx_goto_68:;
-            										}
-HXDLIN(1520)										{
-HXLINE(1520)											if ((endIndex <= formatRange->end)) {
-HXLINE(1520)												::String text = _gthis->text;
-HXDLIN(1520)												Float letterSpacing = ((Float)0.0);
-HXDLIN(1520)												if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1520)													letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
-            												}
-HXDLIN(1520)												if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1520)													_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-            												}
-HXDLIN(1520)												_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1520)												_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1520)												if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1520)													_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
-            												}
-HXDLIN(1520)												_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1520)												bool positions1;
-HXDLIN(1520)												if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1520)													positions1 = (_gthis->sharpness < 400);
-            												}
-            												else {
-HXLINE(1520)													positions1 = true;
-            												}
-HXDLIN(1520)												_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1520)												 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1520)												_gthis1->set_text(text.substring(textIndex,endIndex));
-HXDLIN(1520)												positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1520)												Float width = ((Float)0.0);
-HXDLIN(1520)												{
-HXLINE(1520)													int _g = 0;
-HXDLIN(1520)													while((_g < positions->length)){
-HXLINE(1520)														 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1520)														_g = (_g + 1);
-HXDLIN(1520)														width = (width + position->advance->x);
-            													}
-            												}
-HXDLIN(1520)												widthValue = width;
-HXDLIN(1520)												bool _hx_tmp;
-HXDLIN(1520)												if (::hx::IsNotNull( layoutGroup )) {
-HXLINE(1520)													_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
-            												}
-            												else {
-HXLINE(1520)													_hx_tmp = true;
-            												}
-HXDLIN(1520)												if (_hx_tmp) {
-HXLINE(1520)													layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,endIndex);
-HXDLIN(1520)													_gthis->layoutGroups->push(layoutGroup);
-            												}
-            												else {
-HXLINE(1520)													layoutGroup->format = formatRange->format;
-HXDLIN(1520)													layoutGroup->startIndex = textIndex;
-HXDLIN(1520)													layoutGroup->endIndex = endIndex;
-            												}
-HXDLIN(1520)												layoutGroup->positions = positions;
-HXDLIN(1520)												int _hx_tmp1;
-HXDLIN(1520)												if (firstLineOfParagraph) {
-HXLINE(1520)													_hx_tmp1 = indent;
-            												}
-            												else {
-HXLINE(1520)													_hx_tmp1 = 0;
-            												}
-HXDLIN(1520)												layoutGroup->offsetX = (offsetX + ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp1)) ));
-HXDLIN(1520)												layoutGroup->ascent = ascent;
-HXDLIN(1520)												layoutGroup->descent = descent;
-HXDLIN(1520)												layoutGroup->leading = leading;
-HXDLIN(1520)												layoutGroup->lineIndex = lineIndex;
-HXDLIN(1520)												layoutGroup->offsetY = (offsetY + 2);
-HXDLIN(1520)												layoutGroup->width = widthValue;
-HXDLIN(1520)												layoutGroup->height = ( (Float)(heightValue) );
-HXDLIN(1520)												offsetX = (offsetX + widthValue);
-HXDLIN(1520)												if ((endIndex == formatRange->end)) {
-HXLINE(1520)													layoutGroup = null();
-HXDLIN(1520)													if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1520)														rangeIndex = (rangeIndex + 1);
-HXDLIN(1520)														formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1520)														currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1520)														font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-            													}
-HXDLIN(1520)													{
-HXLINE(1520)														if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
-HXLINE(1520)															ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
-HXDLIN(1520)															descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
-            														}
-            														else {
-HXLINE(1520)															bool _hx_tmp;
-HXDLIN(1520)															if (::hx::IsNotNull( font )) {
-HXLINE(1520)																_hx_tmp = (font->unitsPerEM != 0);
-            															}
-            															else {
-HXLINE(1520)																_hx_tmp = false;
-            															}
-HXDLIN(1520)															if (_hx_tmp) {
-HXLINE(1520)																ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
-HXDLIN(1520)																descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
-            															}
-            															else {
-HXLINE(1520)																ascent = ( (Float)(currentFormat->size) );
-HXDLIN(1520)																descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
-            															}
-            														}
-HXDLIN(1520)														leading = ( (int)(currentFormat->leading) );
-HXDLIN(1520)														heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
-HXDLIN(1520)														if ((heightValue > maxHeightValue)) {
-HXLINE(1520)															maxHeightValue = heightValue;
-            														}
-HXDLIN(1520)														if ((ascent > maxAscent)) {
-HXLINE(1520)															maxAscent = ascent;
-            														}
-            													}
-            												}
-            											}
-            											else {
-HXLINE(1520)												while(true){
-HXLINE(1520)													int tempRangeEnd;
-HXDLIN(1520)													if ((endIndex < formatRange->end)) {
-HXLINE(1520)														tempRangeEnd = endIndex;
-            													}
-            													else {
-HXLINE(1520)														tempRangeEnd = formatRange->end;
-            													}
-HXDLIN(1520)													if ((textIndex != tempRangeEnd)) {
-HXLINE(1520)														::String text = _gthis->text;
-HXDLIN(1520)														Float letterSpacing = ((Float)0.0);
-HXDLIN(1520)														if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1520)															letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
-            														}
-HXDLIN(1520)														if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1520)															_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-            														}
-HXDLIN(1520)														_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1520)														_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1520)														if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1520)															_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
-            														}
-HXDLIN(1520)														_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1520)														bool positions1;
-HXDLIN(1520)														if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1520)															positions1 = (_gthis->sharpness < 400);
-            														}
-            														else {
-HXLINE(1520)															positions1 = true;
-            														}
-HXDLIN(1520)														_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1520)														 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1520)														_gthis1->set_text(text.substring(textIndex,tempRangeEnd));
-HXDLIN(1520)														positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1520)														Float width = ((Float)0.0);
-HXDLIN(1520)														{
-HXLINE(1520)															int _g = 0;
-HXDLIN(1520)															while((_g < positions->length)){
-HXLINE(1520)																 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1520)																_g = (_g + 1);
-HXDLIN(1520)																width = (width + position->advance->x);
-            															}
-            														}
-HXDLIN(1520)														widthValue = width;
-HXDLIN(1520)														bool _hx_tmp;
-HXDLIN(1520)														if (::hx::IsNotNull( layoutGroup )) {
-HXLINE(1520)															_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
-            														}
-            														else {
-HXLINE(1520)															_hx_tmp = true;
-            														}
-HXDLIN(1520)														if (_hx_tmp) {
-HXLINE(1520)															layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,tempRangeEnd);
-HXDLIN(1520)															_gthis->layoutGroups->push(layoutGroup);
-            														}
-            														else {
-HXLINE(1520)															layoutGroup->format = formatRange->format;
-HXDLIN(1520)															layoutGroup->startIndex = textIndex;
-HXDLIN(1520)															layoutGroup->endIndex = tempRangeEnd;
-            														}
-HXDLIN(1520)														layoutGroup->positions = positions;
-HXDLIN(1520)														int _hx_tmp1;
-HXDLIN(1520)														if (firstLineOfParagraph) {
-HXLINE(1520)															_hx_tmp1 = indent;
-            														}
-            														else {
-HXLINE(1520)															_hx_tmp1 = 0;
-            														}
-HXDLIN(1520)														layoutGroup->offsetX = (offsetX + ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp1)) ));
-HXDLIN(1520)														layoutGroup->ascent = ascent;
-HXDLIN(1520)														layoutGroup->descent = descent;
-HXDLIN(1520)														layoutGroup->leading = leading;
-HXDLIN(1520)														layoutGroup->lineIndex = lineIndex;
-HXDLIN(1520)														layoutGroup->offsetY = (offsetY + 2);
-HXDLIN(1520)														layoutGroup->width = widthValue;
-HXDLIN(1520)														layoutGroup->height = ( (Float)(heightValue) );
-HXDLIN(1520)														offsetX = (offsetX + widthValue);
-HXDLIN(1520)														textIndex = tempRangeEnd;
-            													}
-HXDLIN(1520)													if ((tempRangeEnd == formatRange->end)) {
-HXLINE(1520)														layoutGroup = null();
-            													}
-HXDLIN(1520)													if ((tempRangeEnd == endIndex)) {
-HXLINE(1520)														goto _hx_goto_85;
-            													}
-HXDLIN(1520)													bool _hx_tmp;
-HXDLIN(1520)													if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1520)														rangeIndex = (rangeIndex + 1);
-HXDLIN(1520)														formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1520)														currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1520)														font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-HXDLIN(1520)														_hx_tmp = true;
-            													}
-            													else {
-HXLINE(1520)														_hx_tmp = false;
-            													}
-HXDLIN(1520)													if (!(_hx_tmp)) {
-HXLINE(1520)														::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1180,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
-HXDLIN(1520)														goto _hx_goto_85;
-            													}
-HXDLIN(1520)													{
-HXLINE(1520)														if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
-HXLINE(1520)															ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
-HXDLIN(1520)															descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
-            														}
-            														else {
-HXLINE(1520)															bool _hx_tmp;
-HXDLIN(1520)															if (::hx::IsNotNull( font )) {
-HXLINE(1520)																_hx_tmp = (font->unitsPerEM != 0);
-            															}
-            															else {
-HXLINE(1520)																_hx_tmp = false;
-            															}
-HXDLIN(1520)															if (_hx_tmp) {
-HXLINE(1520)																ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
-HXDLIN(1520)																descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
-            															}
-            															else {
-HXLINE(1520)																ascent = ( (Float)(currentFormat->size) );
-HXDLIN(1520)																descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
-            															}
-            														}
-HXDLIN(1520)														leading = ( (int)(currentFormat->leading) );
-HXDLIN(1520)														heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
-HXDLIN(1520)														if ((heightValue > maxHeightValue)) {
-HXLINE(1520)															maxHeightValue = heightValue;
-            														}
-HXDLIN(1520)														if ((ascent > maxAscent)) {
-HXLINE(1520)															maxAscent = ascent;
-            														}
-            													}
-            												}
-            												_hx_goto_85:;
-            											}
-HXDLIN(1520)											textIndex = endIndex;
-            										}
-            									}
-HXLINE(1521)									if ((endIndex == this->text.length)) {
-HXLINE(1521)										{
-HXLINE(1521)											if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
-HXLINE(1521)												ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
-HXDLIN(1521)												descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
-            											}
-            											else {
-HXLINE(1521)												bool _hx_tmp;
-HXDLIN(1521)												if (::hx::IsNotNull( font )) {
-HXLINE(1521)													_hx_tmp = (font->unitsPerEM != 0);
-            												}
-            												else {
-HXLINE(1521)													_hx_tmp = false;
-            												}
-HXDLIN(1521)												if (_hx_tmp) {
-HXLINE(1521)													ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
-HXDLIN(1521)													descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
-            												}
-            												else {
-HXLINE(1521)													ascent = ( (Float)(currentFormat->size) );
-HXDLIN(1521)													descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
-            												}
-            											}
-HXDLIN(1521)											leading = ( (int)(currentFormat->leading) );
-HXDLIN(1521)											heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
-HXDLIN(1521)											if ((heightValue > maxHeightValue)) {
-HXLINE(1521)												maxHeightValue = heightValue;
-            											}
-HXDLIN(1521)											if ((ascent > maxAscent)) {
-HXLINE(1521)												maxAscent = ascent;
-            											}
-            										}
-HXDLIN(1521)										int i = _gthis->layoutGroups->get_length();
-HXDLIN(1521)										while(true){
-HXLINE(1521)											i = (i - 1);
-HXDLIN(1521)											if (!((i > -1))) {
-HXLINE(1521)												goto _hx_goto_87;
-            											}
-HXDLIN(1521)											 ::openfl::text::_internal::TextLayoutGroup lg = _gthis->layoutGroups->get(i).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
-HXDLIN(1521)											if ((lg->lineIndex < lineIndex)) {
-HXLINE(1521)												goto _hx_goto_87;
-            											}
-HXDLIN(1521)											if ((lg->lineIndex > lineIndex)) {
-HXLINE(1521)												continue;
-            											}
-HXDLIN(1521)											lg->ascent = maxAscent;
-HXDLIN(1521)											lg->height = ( (Float)(maxHeightValue) );
-            										}
-            										_hx_goto_87:;
-HXDLIN(1521)										offsetY = (offsetY + maxHeightValue);
-HXDLIN(1521)										maxAscent = ((Float)0.0);
-HXDLIN(1521)										maxHeightValue = 0;
-HXDLIN(1521)										lineIndex = (lineIndex + 1);
-HXDLIN(1521)										offsetX = ( (Float)(0) );
-HXDLIN(1521)										firstLineOfParagraph = false;
+HXLINE(1157)										textIndex = endIndex;
             									}
             								}
             								else {
-HXLINE(1525)									int tempRangeEnd;
-HXDLIN(1525)									if ((endIndex < formatRange->end)) {
-HXLINE(1525)										tempRangeEnd = endIndex;
+HXLINE(1500)									int tempRangeEnd;
+HXDLIN(1500)									if ((endIndex < formatRange->end)) {
+HXLINE(1500)										tempRangeEnd = endIndex;
             									}
             									else {
-HXLINE(1525)										tempRangeEnd = formatRange->end;
+HXLINE(1500)										tempRangeEnd = formatRange->end;
             									}
-HXLINE(1527)									if ((tempRangeEnd < endIndex)) {
-HXLINE(1529)										::String text = this->text;
-HXDLIN(1529)										Float letterSpacing = ((Float)0.0);
-HXDLIN(1529)										if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1529)											letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+HXLINE(1502)									if ((tempRangeEnd < endIndex)) {
+HXLINE(1504)										::String text = this->text;
+HXDLIN(1504)										Float letterSpacing = ((Float)0.0);
+HXDLIN(1504)										if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)											letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
             										}
-HXDLIN(1529)										if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1529)											_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE(1504)										if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1504)											_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
             										}
-HXDLIN(1529)										_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1529)										_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1529)										if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1529)											_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+HXDLIN(1504)										_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1504)										_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1504)										if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1504)											_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
             										}
-HXDLIN(1529)										_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1529)										bool positions1;
-HXDLIN(1529)										if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1529)											positions1 = (_gthis->sharpness < 400);
+HXDLIN(1504)										_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1504)										bool positions1;
+HXDLIN(1504)										if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1504)											positions1 = (_gthis->sharpness < 400);
             										}
             										else {
-HXLINE(1529)											positions1 = true;
+HXLINE(1504)											positions1 = true;
             										}
-HXDLIN(1529)										_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1529)										 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1529)										_gthis1->set_text(text.substring(textIndex,tempRangeEnd));
-HXDLIN(1529)										positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXLINE(1530)										Float width = ((Float)0.0);
-HXDLIN(1530)										{
-HXLINE(1530)											int _g = 0;
-HXDLIN(1530)											while((_g < positions->length)){
-HXLINE(1530)												 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1530)												_g = (_g + 1);
-HXDLIN(1530)												width = (width + position->advance->x);
-            											}
+HXDLIN(1504)										_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1504)										 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1504)										_gthis1->set_text(text.substring(textIndex,tempRangeEnd));
+HXDLIN(1504)										positions = _gthis->_hx___textLayout->get_positions();
+HXLINE(1505)										Float width = ((Float)0.0);
+HXDLIN(1505)										int _g = 0;
+HXDLIN(1505)										while((_g < positions->length)){
+HXLINE(1505)											 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1505)											_g = (_g + 1);
+HXDLIN(1505)											width = (width + position->advance->x);
             										}
-HXDLIN(1530)										widthValue = width;
+HXDLIN(1505)										widthValue = width;
             									}
-HXLINE(1533)									layoutGroup->endIndex = tempRangeEnd;
-HXLINE(1534)									layoutGroup->positions = layoutGroup->positions->concat(positions);
-HXLINE(1535)									 ::openfl::text::_internal::TextLayoutGroup layoutGroup1 = layoutGroup;
-HXDLIN(1535)									layoutGroup1->width = (layoutGroup1->width + widthValue);
-HXLINE(1537)									offsetX = (offsetX + widthValue);
-HXLINE(1539)									if ((tempRangeEnd == formatRange->end)) {
-HXLINE(1541)										layoutGroup = null();
-HXLINE(1542)										if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1542)											rangeIndex = (rangeIndex + 1);
-HXDLIN(1542)											formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1542)											currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1542)											font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXLINE(1508)									layoutGroup->endIndex = tempRangeEnd;
+HXLINE(1509)									layoutGroup->positions = layoutGroup->positions->concat(positions);
+HXLINE(1510)									 ::openfl::text::_internal::TextLayoutGroup layoutGroup1 = layoutGroup;
+HXDLIN(1510)									layoutGroup1->width = (layoutGroup1->width + widthValue);
+HXLINE(1512)									offsetX = (offsetX + widthValue);
+HXLINE(1514)									if ((tempRangeEnd == formatRange->end)) {
+HXLINE(1516)										layoutGroup = null();
+HXLINE(1517)										if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1517)											rangeIndex = (rangeIndex + 1);
+HXDLIN(1517)											formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1517)											currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)											font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
             										}
-HXLINE(1543)										{
-HXLINE(1543)											if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
-HXLINE(1543)												ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
-HXDLIN(1543)												descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
+HXLINE(1518)										{
+HXLINE(1518)											if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
+HXLINE( 939)												ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
+HXLINE( 940)												descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
             											}
             											else {
-HXLINE(1543)												bool _hx_tmp;
-HXDLIN(1543)												if (::hx::IsNotNull( font )) {
-HXLINE(1543)													_hx_tmp = (font->unitsPerEM != 0);
+HXLINE(1518)												bool _hx_tmp;
+HXDLIN(1518)												if (::hx::IsNotNull( font )) {
+HXLINE(1518)													_hx_tmp = (font->unitsPerEM != 0);
             												}
             												else {
-HXLINE(1543)													_hx_tmp = false;
+HXLINE(1518)													_hx_tmp = false;
             												}
-HXDLIN(1543)												if (_hx_tmp) {
-HXLINE(1543)													ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
-HXDLIN(1543)													descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
+HXDLIN(1518)												if (_hx_tmp) {
+HXLINE( 945)													ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
+HXLINE( 946)													descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
             												}
             												else {
-HXLINE(1543)													ascent = ( (Float)(currentFormat->size) );
-HXDLIN(1543)													descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
+HXLINE( 951)													ascent = ( (Float)(currentFormat->size) );
+HXLINE( 952)													descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
             												}
             											}
-HXDLIN(1543)											leading = ( (int)(currentFormat->leading) );
-HXDLIN(1543)											heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
-HXDLIN(1543)											if ((heightValue > maxHeightValue)) {
-HXLINE(1543)												maxHeightValue = heightValue;
+HXLINE( 955)											leading = ( (int)(currentFormat->leading) );
+HXLINE( 957)											heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
+HXLINE(1518)											if ((heightValue > maxHeightValue)) {
+HXLINE( 961)												maxHeightValue = heightValue;
             											}
-HXDLIN(1543)											if ((ascent > maxAscent)) {
-HXLINE(1543)												maxAscent = ascent;
+HXLINE(1518)											if ((ascent > maxAscent)) {
+HXLINE( 966)												maxAscent = ascent;
             											}
             										}
-HXLINE(1545)										textIndex = tempRangeEnd;
-HXLINE(1547)										if ((tempRangeEnd != endIndex)) {
-HXLINE(1549)											if ((endIndex <= formatRange->end)) {
-HXLINE(1549)												::String text = _gthis->text;
-HXDLIN(1549)												Float letterSpacing = ((Float)0.0);
-HXDLIN(1549)												if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1549)													letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+HXLINE(1520)										textIndex = tempRangeEnd;
+HXLINE(1522)										if ((tempRangeEnd != endIndex)) {
+HXLINE(1524)											if ((endIndex <= formatRange->end)) {
+HXLINE(1524)												::String text = _gthis->text;
+HXDLIN(1524)												Float letterSpacing = ((Float)0.0);
+HXDLIN(1524)												if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)													letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
             												}
-HXDLIN(1549)												if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1549)													_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE(1524)												if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1524)													_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
             												}
-HXDLIN(1549)												_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1549)												_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1549)												if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1549)													_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+HXDLIN(1524)												_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1524)												_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1524)												if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1524)													_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
             												}
-HXDLIN(1549)												_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1549)												bool positions1;
-HXDLIN(1549)												if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1549)													positions1 = (_gthis->sharpness < 400);
+HXDLIN(1524)												_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1524)												bool positions1;
+HXDLIN(1524)												if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1524)													positions1 = (_gthis->sharpness < 400);
             												}
             												else {
-HXLINE(1549)													positions1 = true;
+HXLINE(1524)													positions1 = true;
             												}
-HXDLIN(1549)												_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1549)												 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1549)												_gthis1->set_text(text.substring(textIndex,endIndex));
-HXDLIN(1549)												positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1549)												Float width = ((Float)0.0);
-HXDLIN(1549)												{
-HXLINE(1549)													int _g = 0;
-HXDLIN(1549)													while((_g < positions->length)){
-HXLINE(1549)														 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1549)														_g = (_g + 1);
-HXDLIN(1549)														width = (width + position->advance->x);
+HXDLIN(1524)												_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1524)												 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1524)												_gthis1->set_text(text.substring(textIndex,endIndex));
+HXDLIN(1524)												positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1524)												Float width = ((Float)0.0);
+HXDLIN(1524)												int _g = 0;
+HXDLIN(1524)												while((_g < positions->length)){
+HXLINE(1524)													 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1524)													_g = (_g + 1);
+HXDLIN(1524)													width = (width + position->advance->x);
+            												}
+HXDLIN(1524)												widthValue = width;
+HXDLIN(1524)												bool _hx_tmp;
+HXDLIN(1524)												if (::hx::IsNotNull( layoutGroup )) {
+HXLINE(1524)													_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
+            												}
+            												else {
+HXLINE(1524)													_hx_tmp = true;
+            												}
+HXDLIN(1524)												if (_hx_tmp) {
+HXLINE( 923)													layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,endIndex);
+HXLINE(1524)													_gthis->layoutGroups->push(layoutGroup);
+            												}
+            												else {
+HXLINE(1524)													layoutGroup->format = formatRange->format;
+HXDLIN(1524)													layoutGroup->startIndex = textIndex;
+HXDLIN(1524)													layoutGroup->endIndex = endIndex;
+            												}
+HXDLIN(1524)												layoutGroup->positions = positions;
+HXDLIN(1524)												layoutGroup->offsetX = offsetX;
+HXDLIN(1524)												layoutGroup->ascent = ascent;
+HXDLIN(1524)												layoutGroup->descent = descent;
+HXDLIN(1524)												layoutGroup->leading = leading;
+HXDLIN(1524)												layoutGroup->lineIndex = lineIndex;
+HXDLIN(1524)												layoutGroup->offsetY = offsetY;
+HXDLIN(1524)												layoutGroup->width = widthValue;
+HXDLIN(1524)												layoutGroup->height = ( (Float)(heightValue) );
+HXDLIN(1524)												offsetX = (offsetX + widthValue);
+HXDLIN(1524)												if ((endIndex == formatRange->end)) {
+HXLINE(1108)													layoutGroup = null();
+HXLINE(1524)													if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1524)														rangeIndex = (rangeIndex + 1);
+HXDLIN(1524)														formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1524)														currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)														font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
             													}
-            												}
-HXDLIN(1549)												widthValue = width;
-HXDLIN(1549)												bool _hx_tmp;
-HXDLIN(1549)												if (::hx::IsNotNull( layoutGroup )) {
-HXLINE(1549)													_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
-            												}
-            												else {
-HXLINE(1549)													_hx_tmp = true;
-            												}
-HXDLIN(1549)												if (_hx_tmp) {
-HXLINE(1549)													layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,endIndex);
-HXDLIN(1549)													_gthis->layoutGroups->push(layoutGroup);
-            												}
-            												else {
-HXLINE(1549)													layoutGroup->format = formatRange->format;
-HXDLIN(1549)													layoutGroup->startIndex = textIndex;
-HXDLIN(1549)													layoutGroup->endIndex = endIndex;
-            												}
-HXDLIN(1549)												layoutGroup->positions = positions;
-HXDLIN(1549)												int _hx_tmp1;
-HXDLIN(1549)												if (firstLineOfParagraph) {
-HXLINE(1549)													_hx_tmp1 = indent;
-            												}
-            												else {
-HXLINE(1549)													_hx_tmp1 = 0;
-            												}
-HXDLIN(1549)												layoutGroup->offsetX = (offsetX + ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp1)) ));
-HXDLIN(1549)												layoutGroup->ascent = ascent;
-HXDLIN(1549)												layoutGroup->descent = descent;
-HXDLIN(1549)												layoutGroup->leading = leading;
-HXDLIN(1549)												layoutGroup->lineIndex = lineIndex;
-HXDLIN(1549)												layoutGroup->offsetY = (offsetY + 2);
-HXDLIN(1549)												layoutGroup->width = widthValue;
-HXDLIN(1549)												layoutGroup->height = ( (Float)(heightValue) );
-HXDLIN(1549)												offsetX = (offsetX + widthValue);
-HXDLIN(1549)												if ((endIndex == formatRange->end)) {
-HXLINE(1549)													layoutGroup = null();
-HXDLIN(1549)													if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1549)														rangeIndex = (rangeIndex + 1);
-HXDLIN(1549)														formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1549)														currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1549)														font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-            													}
-HXDLIN(1549)													{
-HXLINE(1549)														if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
-HXLINE(1549)															ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
-HXDLIN(1549)															descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
+HXLINE(1524)													{
+HXLINE(1524)														if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
+HXLINE( 939)															ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
+HXLINE( 940)															descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
             														}
             														else {
-HXLINE(1549)															bool _hx_tmp;
-HXDLIN(1549)															if (::hx::IsNotNull( font )) {
-HXLINE(1549)																_hx_tmp = (font->unitsPerEM != 0);
+HXLINE(1524)															bool _hx_tmp;
+HXDLIN(1524)															if (::hx::IsNotNull( font )) {
+HXLINE(1524)																_hx_tmp = (font->unitsPerEM != 0);
             															}
             															else {
-HXLINE(1549)																_hx_tmp = false;
+HXLINE(1524)																_hx_tmp = false;
             															}
-HXDLIN(1549)															if (_hx_tmp) {
-HXLINE(1549)																ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
-HXDLIN(1549)																descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
+HXDLIN(1524)															if (_hx_tmp) {
+HXLINE( 945)																ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
+HXLINE( 946)																descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
             															}
             															else {
-HXLINE(1549)																ascent = ( (Float)(currentFormat->size) );
-HXDLIN(1549)																descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
+HXLINE( 951)																ascent = ( (Float)(currentFormat->size) );
+HXLINE( 952)																descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
             															}
             														}
-HXDLIN(1549)														leading = ( (int)(currentFormat->leading) );
-HXDLIN(1549)														heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
-HXDLIN(1549)														if ((heightValue > maxHeightValue)) {
-HXLINE(1549)															maxHeightValue = heightValue;
+HXLINE( 955)														leading = ( (int)(currentFormat->leading) );
+HXLINE( 957)														heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
+HXLINE(1524)														if ((heightValue > maxHeightValue)) {
+HXLINE( 961)															maxHeightValue = heightValue;
             														}
-HXDLIN(1549)														if ((ascent > maxAscent)) {
-HXLINE(1549)															maxAscent = ascent;
+HXLINE(1524)														if ((ascent > maxAscent)) {
+HXLINE( 966)															maxAscent = ascent;
             														}
             													}
             												}
             											}
             											else {
-HXLINE(1549)												while(true){
-HXLINE(1549)													int tempRangeEnd;
-HXDLIN(1549)													if ((endIndex < formatRange->end)) {
-HXLINE(1549)														tempRangeEnd = endIndex;
+HXLINE(1524)												while(true){
+HXLINE(1524)													int tempRangeEnd;
+HXDLIN(1524)													if ((endIndex < formatRange->end)) {
+HXLINE(1524)														tempRangeEnd = endIndex;
             													}
             													else {
-HXLINE(1549)														tempRangeEnd = formatRange->end;
+HXLINE(1524)														tempRangeEnd = formatRange->end;
             													}
-HXDLIN(1549)													if ((textIndex != tempRangeEnd)) {
-HXLINE(1549)														::String text = _gthis->text;
-HXDLIN(1549)														Float letterSpacing = ((Float)0.0);
-HXDLIN(1549)														if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1549)															letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+HXDLIN(1524)													if ((textIndex != tempRangeEnd)) {
+HXLINE(1524)														::String text = _gthis->text;
+HXDLIN(1524)														Float letterSpacing = ((Float)0.0);
+HXDLIN(1524)														if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)															letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
             														}
-HXDLIN(1549)														if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1549)															_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE(1524)														if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1524)															_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
             														}
-HXDLIN(1549)														_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1549)														_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1549)														if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1549)															_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+HXDLIN(1524)														_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1524)														_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1524)														if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1524)															_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
             														}
-HXDLIN(1549)														_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1549)														bool positions1;
-HXDLIN(1549)														if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1549)															positions1 = (_gthis->sharpness < 400);
+HXDLIN(1524)														_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1524)														bool positions1;
+HXDLIN(1524)														if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1524)															positions1 = (_gthis->sharpness < 400);
             														}
             														else {
-HXLINE(1549)															positions1 = true;
+HXLINE(1524)															positions1 = true;
             														}
-HXDLIN(1549)														_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1549)														 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1549)														_gthis1->set_text(text.substring(textIndex,tempRangeEnd));
-HXDLIN(1549)														positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1549)														Float width = ((Float)0.0);
-HXDLIN(1549)														{
-HXLINE(1549)															int _g = 0;
-HXDLIN(1549)															while((_g < positions->length)){
-HXLINE(1549)																 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1549)																_g = (_g + 1);
-HXDLIN(1549)																width = (width + position->advance->x);
-            															}
+HXDLIN(1524)														_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1524)														 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1524)														_gthis1->set_text(text.substring(textIndex,tempRangeEnd));
+HXDLIN(1524)														positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1524)														Float width = ((Float)0.0);
+HXDLIN(1524)														int _g = 0;
+HXDLIN(1524)														while((_g < positions->length)){
+HXLINE(1524)															 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1524)															_g = (_g + 1);
+HXDLIN(1524)															width = (width + position->advance->x);
             														}
-HXDLIN(1549)														widthValue = width;
-HXDLIN(1549)														bool _hx_tmp;
-HXDLIN(1549)														if (::hx::IsNotNull( layoutGroup )) {
-HXLINE(1549)															_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
+HXDLIN(1524)														widthValue = width;
+HXDLIN(1524)														bool _hx_tmp;
+HXDLIN(1524)														if (::hx::IsNotNull( layoutGroup )) {
+HXLINE(1524)															_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
             														}
             														else {
-HXLINE(1549)															_hx_tmp = true;
+HXLINE(1524)															_hx_tmp = true;
             														}
-HXDLIN(1549)														if (_hx_tmp) {
-HXLINE(1549)															layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,tempRangeEnd);
-HXDLIN(1549)															_gthis->layoutGroups->push(layoutGroup);
-            														}
-            														else {
-HXLINE(1549)															layoutGroup->format = formatRange->format;
-HXDLIN(1549)															layoutGroup->startIndex = textIndex;
-HXDLIN(1549)															layoutGroup->endIndex = tempRangeEnd;
-            														}
-HXDLIN(1549)														layoutGroup->positions = positions;
-HXDLIN(1549)														int _hx_tmp1;
-HXDLIN(1549)														if (firstLineOfParagraph) {
-HXLINE(1549)															_hx_tmp1 = indent;
+HXDLIN(1524)														if (_hx_tmp) {
+HXLINE( 923)															layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,tempRangeEnd);
+HXLINE(1524)															_gthis->layoutGroups->push(layoutGroup);
             														}
             														else {
-HXLINE(1549)															_hx_tmp1 = 0;
+HXLINE(1524)															layoutGroup->format = formatRange->format;
+HXDLIN(1524)															layoutGroup->startIndex = textIndex;
+HXDLIN(1524)															layoutGroup->endIndex = tempRangeEnd;
             														}
-HXDLIN(1549)														layoutGroup->offsetX = (offsetX + ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp1)) ));
-HXDLIN(1549)														layoutGroup->ascent = ascent;
-HXDLIN(1549)														layoutGroup->descent = descent;
-HXDLIN(1549)														layoutGroup->leading = leading;
-HXDLIN(1549)														layoutGroup->lineIndex = lineIndex;
-HXDLIN(1549)														layoutGroup->offsetY = (offsetY + 2);
-HXDLIN(1549)														layoutGroup->width = widthValue;
-HXDLIN(1549)														layoutGroup->height = ( (Float)(heightValue) );
-HXDLIN(1549)														offsetX = (offsetX + widthValue);
-HXDLIN(1549)														textIndex = tempRangeEnd;
+HXDLIN(1524)														layoutGroup->positions = positions;
+HXDLIN(1524)														layoutGroup->offsetX = offsetX;
+HXDLIN(1524)														layoutGroup->ascent = ascent;
+HXDLIN(1524)														layoutGroup->descent = descent;
+HXDLIN(1524)														layoutGroup->leading = leading;
+HXDLIN(1524)														layoutGroup->lineIndex = lineIndex;
+HXDLIN(1524)														layoutGroup->offsetY = offsetY;
+HXDLIN(1524)														layoutGroup->width = widthValue;
+HXDLIN(1524)														layoutGroup->height = ( (Float)(heightValue) );
+HXDLIN(1524)														offsetX = (offsetX + widthValue);
+HXLINE(1140)														textIndex = tempRangeEnd;
             													}
-HXDLIN(1549)													if ((tempRangeEnd == formatRange->end)) {
-HXLINE(1549)														layoutGroup = null();
+HXLINE(1524)													if ((tempRangeEnd == formatRange->end)) {
+HXLINE(1143)														layoutGroup = null();
             													}
-HXDLIN(1549)													if ((tempRangeEnd == endIndex)) {
-HXLINE(1549)														goto _hx_goto_90;
+HXLINE(1524)													if ((tempRangeEnd == endIndex)) {
+HXLINE(1524)														goto _hx_goto_86;
             													}
-HXDLIN(1549)													bool _hx_tmp;
-HXDLIN(1549)													if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1549)														rangeIndex = (rangeIndex + 1);
-HXDLIN(1549)														formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1549)														currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1549)														font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-HXDLIN(1549)														_hx_tmp = true;
+HXDLIN(1524)													bool _hx_tmp;
+HXDLIN(1524)													if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1524)														rangeIndex = (rangeIndex + 1);
+HXDLIN(1524)														formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1524)														currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)														font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXLINE(1524)														_hx_tmp = true;
             													}
             													else {
-HXLINE(1549)														_hx_tmp = false;
+HXLINE(1524)														_hx_tmp = false;
             													}
-HXDLIN(1549)													if (!(_hx_tmp)) {
-HXLINE(1549)														::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1180,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
-HXDLIN(1549)														goto _hx_goto_90;
+HXDLIN(1524)													if (!(_hx_tmp)) {
+HXLINE(1524)														::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1149,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
+HXDLIN(1524)														goto _hx_goto_86;
             													}
-HXDLIN(1549)													{
-HXLINE(1549)														if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
-HXLINE(1549)															ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
-HXDLIN(1549)															descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
+HXDLIN(1524)													{
+HXLINE(1524)														if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
+HXLINE( 939)															ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
+HXLINE( 940)															descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
             														}
             														else {
-HXLINE(1549)															bool _hx_tmp;
-HXDLIN(1549)															if (::hx::IsNotNull( font )) {
-HXLINE(1549)																_hx_tmp = (font->unitsPerEM != 0);
+HXLINE(1524)															bool _hx_tmp;
+HXDLIN(1524)															if (::hx::IsNotNull( font )) {
+HXLINE(1524)																_hx_tmp = (font->unitsPerEM != 0);
             															}
             															else {
-HXLINE(1549)																_hx_tmp = false;
+HXLINE(1524)																_hx_tmp = false;
             															}
-HXDLIN(1549)															if (_hx_tmp) {
-HXLINE(1549)																ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
-HXDLIN(1549)																descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
+HXDLIN(1524)															if (_hx_tmp) {
+HXLINE( 945)																ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
+HXLINE( 946)																descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
             															}
             															else {
-HXLINE(1549)																ascent = ( (Float)(currentFormat->size) );
-HXDLIN(1549)																descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
+HXLINE( 951)																ascent = ( (Float)(currentFormat->size) );
+HXLINE( 952)																descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
             															}
             														}
-HXDLIN(1549)														leading = ( (int)(currentFormat->leading) );
-HXDLIN(1549)														heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
-HXDLIN(1549)														if ((heightValue > maxHeightValue)) {
-HXLINE(1549)															maxHeightValue = heightValue;
+HXLINE( 955)														leading = ( (int)(currentFormat->leading) );
+HXLINE( 957)														heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
+HXLINE(1524)														if ((heightValue > maxHeightValue)) {
+HXLINE( 961)															maxHeightValue = heightValue;
             														}
-HXDLIN(1549)														if ((ascent > maxAscent)) {
-HXLINE(1549)															maxAscent = ascent;
+HXLINE(1524)														if ((ascent > maxAscent)) {
+HXLINE( 966)															maxAscent = ascent;
             														}
             													}
             												}
-            												_hx_goto_90:;
+            												_hx_goto_86:;
             											}
-HXDLIN(1549)											textIndex = endIndex;
+HXLINE(1157)											textIndex = endIndex;
             										}
             									}
-HXLINE(1555)									if ((breakIndex == endIndex)) {
-HXLINE(1555)										endIndex = (endIndex + 1);
+HXLINE(1530)									if ((breakIndex == endIndex)) {
+HXLINE(1530)										endIndex = (endIndex + 1);
             									}
-HXLINE(1557)									textIndex = endIndex;
-HXLINE(1559)									if ((endIndex == this->text.length)) {
-HXLINE(1559)										{
-HXLINE(1559)											if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
-HXLINE(1559)												ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
-HXDLIN(1559)												descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
-            											}
-            											else {
-HXLINE(1559)												bool _hx_tmp;
-HXDLIN(1559)												if (::hx::IsNotNull( font )) {
-HXLINE(1559)													_hx_tmp = (font->unitsPerEM != 0);
-            												}
-            												else {
-HXLINE(1559)													_hx_tmp = false;
-            												}
-HXDLIN(1559)												if (_hx_tmp) {
-HXLINE(1559)													ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
-HXDLIN(1559)													descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
-            												}
-            												else {
-HXLINE(1559)													ascent = ( (Float)(currentFormat->size) );
-HXDLIN(1559)													descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
-            												}
-            											}
-HXDLIN(1559)											leading = ( (int)(currentFormat->leading) );
-HXDLIN(1559)											heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
-HXDLIN(1559)											if ((heightValue > maxHeightValue)) {
-HXLINE(1559)												maxHeightValue = heightValue;
-            											}
-HXDLIN(1559)											if ((ascent > maxAscent)) {
-HXLINE(1559)												maxAscent = ascent;
-            											}
-            										}
-HXDLIN(1559)										int i = _gthis->layoutGroups->get_length();
-HXDLIN(1559)										while(true){
-HXLINE(1559)											i = (i - 1);
-HXDLIN(1559)											if (!((i > -1))) {
-HXLINE(1559)												goto _hx_goto_92;
-            											}
-HXDLIN(1559)											 ::openfl::text::_internal::TextLayoutGroup lg = _gthis->layoutGroups->get(i).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
-HXDLIN(1559)											if ((lg->lineIndex < lineIndex)) {
-HXLINE(1559)												goto _hx_goto_92;
-            											}
-HXDLIN(1559)											if ((lg->lineIndex > lineIndex)) {
-HXLINE(1559)												continue;
-            											}
-HXDLIN(1559)											lg->ascent = maxAscent;
-HXDLIN(1559)											lg->height = ( (Float)(maxHeightValue) );
-            										}
-            										_hx_goto_92:;
-HXDLIN(1559)										offsetY = (offsetY + maxHeightValue);
-HXDLIN(1559)										maxAscent = ((Float)0.0);
-HXDLIN(1559)										maxHeightValue = 0;
-HXDLIN(1559)										lineIndex = (lineIndex + 1);
-HXDLIN(1559)										offsetX = ( (Float)(0) );
-HXDLIN(1559)										firstLineOfParagraph = false;
-            									}
+HXLINE(1532)									textIndex = endIndex;
             								}
             							}
             						}
-HXLINE(1563)						int nextSpaceIndex = this->text.indexOf(HX_(" ",20,00,00,00),textIndex);
-HXLINE(1568)						if ((breakIndex == previousSpaceIndex)) {
-HXLINE(1570)							layoutGroup->endIndex = breakIndex;
-HXLINE(1572)							if ((((breakIndex - layoutGroup->startIndex) - layoutGroup->positions->length) < 0)) {
-HXLINE(1575)								layoutGroup->positions->push(null());
+HXLINE(1536)						int nextSpaceIndex = this->text.indexOf(HX_(" ",20,00,00,00),textIndex);
+HXLINE(1541)						if ((breakIndex == previousSpaceIndex)) {
+HXLINE(1543)							layoutGroup->endIndex = breakIndex;
+HXLINE(1545)							if ((((breakIndex - layoutGroup->startIndex) - layoutGroup->positions->length) < 0)) {
+HXLINE(1548)								layoutGroup->positions->push(null());
             							}
-HXLINE(1578)							textIndex = (breakIndex + 1);
+HXLINE(1551)							textIndex = (breakIndex + 1);
             						}
-HXLINE(1581)						previousSpaceIndex = spaceIndex;
-HXLINE(1582)						spaceIndex = nextSpaceIndex;
-HXLINE(1584)						bool _hx_tmp;
-HXDLIN(1584)						bool _hx_tmp1;
-HXDLIN(1584)						bool _hx_tmp2;
-HXDLIN(1584)						if ((breakIndex > -1)) {
-HXLINE(1584)							_hx_tmp2 = (breakIndex <= textIndex);
+HXLINE(1554)						previousSpaceIndex = spaceIndex;
+HXLINE(1555)						spaceIndex = nextSpaceIndex;
+HXLINE(1557)						bool _hx_tmp;
+HXDLIN(1557)						bool _hx_tmp1;
+HXDLIN(1557)						bool _hx_tmp2;
+HXDLIN(1557)						if ((breakIndex > -1)) {
+HXLINE(1557)							_hx_tmp2 = (breakIndex <= textIndex);
             						}
             						else {
-HXLINE(1584)							_hx_tmp2 = false;
+HXLINE(1557)							_hx_tmp2 = false;
             						}
-HXDLIN(1584)						if (_hx_tmp2) {
-HXLINE(1584)							if ((spaceIndex <= breakIndex)) {
-HXLINE(1584)								_hx_tmp1 = (spaceIndex == -1);
+HXDLIN(1557)						if (_hx_tmp2) {
+HXLINE(1557)							if ((spaceIndex <= breakIndex)) {
+HXLINE(1557)								_hx_tmp1 = (spaceIndex == -1);
             							}
             							else {
-HXLINE(1584)								_hx_tmp1 = true;
+HXLINE(1557)								_hx_tmp1 = true;
             							}
             						}
             						else {
-HXLINE(1584)							_hx_tmp1 = false;
+HXLINE(1557)							_hx_tmp1 = false;
             						}
-HXDLIN(1584)						if (!(_hx_tmp1)) {
-HXLINE(1584)							_hx_tmp = (textIndex > this->text.length);
+HXDLIN(1557)						if (!(_hx_tmp1)) {
+HXLINE(1557)							_hx_tmp = (textIndex > this->text.length);
             						}
             						else {
-HXLINE(1584)							_hx_tmp = true;
+HXLINE(1557)							_hx_tmp = true;
             						}
-HXDLIN(1584)						if (_hx_tmp) {
-HXLINE(1587)							goto _hx_goto_40;
+HXDLIN(1557)						if (_hx_tmp) {
+HXLINE(1560)							goto _hx_goto_37;
             						}
             					}
-            					_hx_goto_40:;
+            					_hx_goto_37:;
             				}
             				else {
-HXLINE(1593)					if ((textIndex < this->text.length)) {
-HXLINE(1597)						{
-HXLINE(1597)							int endIndex = this->text.length;
-HXDLIN(1597)							if ((textIndex >= endIndex)) {
-HXLINE(1597)								positions = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN(1597)								widthValue = ( (Float)(0) );
-            							}
-            							else {
-HXLINE(1597)								if ((endIndex <= formatRange->end)) {
-HXLINE(1597)									::String text = _gthis->text;
-HXDLIN(1597)									Float letterSpacing = ((Float)0.0);
-HXDLIN(1597)									if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1597)										letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
-            									}
-HXDLIN(1597)									if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1597)										_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-            									}
-HXDLIN(1597)									_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1597)									_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1597)									if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1597)										_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
-            									}
-HXDLIN(1597)									_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1597)									bool positions1;
-HXDLIN(1597)									if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1597)										positions1 = (_gthis->sharpness < 400);
-            									}
-            									else {
-HXLINE(1597)										positions1 = true;
-            									}
-HXDLIN(1597)									_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1597)									 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1597)									_gthis1->set_text(text.substring(textIndex,endIndex));
-HXDLIN(1597)									positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1597)									Float width = ((Float)0.0);
-HXDLIN(1597)									{
-HXLINE(1597)										int _g = 0;
-HXDLIN(1597)										while((_g < positions->length)){
-HXLINE(1597)											 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1597)											_g = (_g + 1);
-HXDLIN(1597)											width = (width + position->advance->x);
-            										}
-            									}
-HXDLIN(1597)									widthValue = width;
+HXLINE(1566)					if ((textIndex < this->text.length)) {
+HXLINE(1570)						{
+HXLINE(1570)							int endIndex = this->text.length;
+HXDLIN(1570)							if ((endIndex <= formatRange->end)) {
+HXLINE(1570)								::String text = _gthis->text;
+HXDLIN(1570)								Float letterSpacing = ((Float)0.0);
+HXDLIN(1570)								if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)									letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+            								}
+HXLINE(1570)								if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1570)									_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+            								}
+HXDLIN(1570)								_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1570)								_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1570)								if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1570)									_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+            								}
+HXDLIN(1570)								_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1570)								bool positions1;
+HXDLIN(1570)								if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1570)									positions1 = (_gthis->sharpness < 400);
             								}
             								else {
-HXLINE(1597)									int tempIndex = textIndex;
-HXDLIN(1597)									int tempRangeEnd = formatRange->end;
-HXDLIN(1597)									int countRanges = 0;
-HXDLIN(1597)									positions = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN(1597)									widthValue = ( (Float)(0) );
-HXDLIN(1597)									while(true){
-HXLINE(1597)										if ((tempIndex != tempRangeEnd)) {
-HXLINE(1597)											::String text = _gthis->text;
-HXDLIN(1597)											Float letterSpacing = ((Float)0.0);
-HXDLIN(1597)											if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1597)												letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
-            											}
-HXDLIN(1597)											if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1597)												_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-            											}
-HXDLIN(1597)											_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1597)											_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1597)											if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1597)												_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
-            											}
-HXDLIN(1597)											_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1597)											bool _hx_tmp;
-HXDLIN(1597)											if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1597)												_hx_tmp = (_gthis->sharpness < 400);
-            											}
-            											else {
-HXLINE(1597)												_hx_tmp = true;
-            											}
-HXDLIN(1597)											_gthis->_hx___textLayout->autoHint = _hx_tmp;
-HXDLIN(1597)											 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1597)											_gthis1->set_text(text.substring(tempIndex,tempRangeEnd));
-HXDLIN(1597)											::Array< ::Dynamic> tempPositions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1597)											positions = positions->concat(tempPositions);
+HXLINE(1570)									positions1 = true;
+            								}
+HXDLIN(1570)								_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1570)								 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1570)								_gthis1->set_text(text.substring(textIndex,endIndex));
+HXDLIN(1570)								positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1570)								Float width = ((Float)0.0);
+HXDLIN(1570)								int _g = 0;
+HXDLIN(1570)								while((_g < positions->length)){
+HXLINE(1570)									 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1570)									_g = (_g + 1);
+HXDLIN(1570)									width = (width + position->advance->x);
+            								}
+HXDLIN(1570)								widthValue = width;
+            							}
+            							else {
+HXLINE(1570)								int tempIndex = textIndex;
+HXDLIN(1570)								int tempRangeEnd = formatRange->end;
+HXDLIN(1570)								int countRanges = 0;
+HXLINE(1046)								positions = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(1047)								widthValue = ( (Float)(0) );
+HXLINE(1570)								while(true){
+HXLINE(1570)									if ((tempIndex != tempRangeEnd)) {
+HXLINE(1570)										::String text = _gthis->text;
+HXDLIN(1570)										Float letterSpacing = ((Float)0.0);
+HXDLIN(1570)										if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)											letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
             										}
-HXDLIN(1597)										if ((tempRangeEnd != endIndex)) {
-HXLINE(1597)											bool _hx_tmp;
-HXDLIN(1597)											if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1597)												rangeIndex = (rangeIndex + 1);
-HXDLIN(1597)												formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1597)												currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1597)												font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-HXDLIN(1597)												_hx_tmp = true;
-            											}
-            											else {
-HXLINE(1597)												_hx_tmp = false;
-            											}
-HXDLIN(1597)											if (!(_hx_tmp)) {
-HXLINE(1597)												::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1092,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
-HXDLIN(1597)												goto _hx_goto_94;
-            											}
-HXDLIN(1597)											tempIndex = tempRangeEnd;
-HXDLIN(1597)											if ((endIndex < formatRange->end)) {
-HXLINE(1597)												tempRangeEnd = endIndex;
-            											}
-            											else {
-HXLINE(1597)												tempRangeEnd = formatRange->end;
-            											}
-HXDLIN(1597)											countRanges = (countRanges + 1);
+HXLINE(1570)										if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1570)											_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+            										}
+HXDLIN(1570)										_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1570)										_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1570)										if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1570)											_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+            										}
+HXDLIN(1570)										_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1570)										bool _hx_tmp;
+HXDLIN(1570)										if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1570)											_hx_tmp = (_gthis->sharpness < 400);
             										}
             										else {
-HXLINE(1597)											Float width = ((Float)0.0);
-HXDLIN(1597)											{
-HXLINE(1597)												int _g = 0;
-HXDLIN(1597)												while((_g < positions->length)){
-HXLINE(1597)													 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1597)													_g = (_g + 1);
-HXDLIN(1597)													width = (width + position->advance->x);
-            												}
-            											}
-HXDLIN(1597)											widthValue = width;
-HXDLIN(1597)											goto _hx_goto_94;
+HXLINE(1570)											_hx_tmp = true;
             										}
+HXDLIN(1570)										_gthis->_hx___textLayout->autoHint = _hx_tmp;
+HXDLIN(1570)										 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1570)										_gthis1->set_text(text.substring(tempIndex,tempRangeEnd));
+HXDLIN(1570)										::Array< ::Dynamic> tempPositions = _gthis->_hx___textLayout->get_positions();
+HXLINE(1054)										positions = positions->concat(tempPositions);
             									}
-            									_hx_goto_94:;
-HXDLIN(1597)									rangeIndex = (rangeIndex - (countRanges + 1));
-HXDLIN(1597)									if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1597)										rangeIndex = (rangeIndex + 1);
-HXDLIN(1597)										formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1597)										currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1597)										font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXLINE(1570)									if ((tempRangeEnd != endIndex)) {
+HXLINE(1570)										bool _hx_tmp;
+HXDLIN(1570)										if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1570)											rangeIndex = (rangeIndex + 1);
+HXDLIN(1570)											formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1570)											currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)											font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXLINE(1570)											_hx_tmp = true;
+            										}
+            										else {
+HXLINE(1570)											_hx_tmp = false;
+            										}
+HXDLIN(1570)										if (!(_hx_tmp)) {
+HXLINE(1570)											::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1061,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
+HXDLIN(1570)											goto _hx_goto_89;
+            										}
+HXLINE(1065)										tempIndex = tempRangeEnd;
+HXLINE(1570)										if ((endIndex < formatRange->end)) {
+HXLINE(1570)											tempRangeEnd = endIndex;
+            										}
+            										else {
+HXLINE(1570)											tempRangeEnd = formatRange->end;
+            										}
+HXDLIN(1570)										countRanges = (countRanges + 1);
             									}
+            									else {
+HXLINE(1570)										Float width = ((Float)0.0);
+HXDLIN(1570)										int _g = 0;
+HXDLIN(1570)										while((_g < positions->length)){
+HXLINE(1570)											 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1570)											_g = (_g + 1);
+HXDLIN(1570)											width = (width + position->advance->x);
+            										}
+HXDLIN(1570)										widthValue = width;
+HXDLIN(1570)										goto _hx_goto_89;
+            									}
+            								}
+            								_hx_goto_89:;
+HXDLIN(1570)								rangeIndex = (rangeIndex - (countRanges + 1));
+HXDLIN(1570)								if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1570)									rangeIndex = (rangeIndex + 1);
+HXDLIN(1570)									formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1570)									currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)									font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
             								}
             							}
             						}
-HXLINE(1598)						{
-HXLINE(1598)							int endIndex1 = this->text.length;
-HXDLIN(1598)							bool _hx_tmp;
-HXDLIN(1598)							if ((_gthis->width >= 4)) {
-HXLINE(1598)								_hx_tmp = _gthis->wordWrap;
+HXLINE(1571)						{
+HXLINE(1571)							int endIndex1 = this->text.length;
+HXDLIN(1571)							bool _hx_tmp;
+HXDLIN(1571)							if ((_gthis->width >= 4)) {
+HXLINE(1571)								_hx_tmp = _gthis->wordWrap;
             							}
             							else {
-HXLINE(1598)								_hx_tmp = false;
+HXLINE(1571)								_hx_tmp = false;
             							}
-HXDLIN(1598)							if (_hx_tmp) {
-HXLINE(1598)								::Array< ::Dynamic> remainingPositions = positions;
-HXDLIN(1598)								int i;
-HXDLIN(1598)								int bufferCount;
-HXDLIN(1598)								int placeIndex;
-HXDLIN(1598)								Float positionWidth;
-HXDLIN(1598)								 ::openfl::text::_internal::GlyphPosition currentPosition;
-HXDLIN(1598)								Float width = ((Float)0.0);
-HXDLIN(1598)								{
-HXLINE(1598)									int _g = 0;
-HXDLIN(1598)									while((_g < remainingPositions->length)){
-HXLINE(1598)										 ::openfl::text::_internal::GlyphPosition position = remainingPositions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1598)										_g = (_g + 1);
-HXDLIN(1598)										width = (width + position->advance->x);
+HXDLIN(1571)							if (_hx_tmp) {
+HXLINE(1571)								::Array< ::Dynamic> remainingPositions = positions;
+HXDLIN(1571)								int i;
+HXDLIN(1571)								int bufferCount;
+HXDLIN(1571)								int placeIndex;
+HXDLIN(1571)								Float positionWidth;
+HXDLIN(1571)								 ::openfl::text::_internal::GlyphPosition currentPosition;
+HXDLIN(1571)								Float width = ((Float)0.0);
+HXDLIN(1571)								{
+HXLINE(1571)									int _g = 0;
+HXDLIN(1571)									while((_g < remainingPositions->length)){
+HXLINE(1571)										 ::openfl::text::_internal::GlyphPosition position = remainingPositions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1571)										_g = (_g + 1);
+HXDLIN(1571)										width = (width + position->advance->x);
             									}
             								}
-HXDLIN(1598)								Float tempWidth = width;
-HXDLIN(1598)								while(true){
-HXLINE(1598)									bool _hx_tmp;
-HXDLIN(1598)									if ((remainingPositions->length > 0)) {
-HXLINE(1598)										int _hx_tmp1;
-HXDLIN(1598)										if (firstLineOfParagraph) {
-HXLINE(1598)											_hx_tmp1 = indent;
+HXDLIN(1571)								Float tempWidth = width;
+HXDLIN(1571)								while(((offsetX + tempWidth) > (_gthis->width - ( (Float)(2) )))){
+HXLINE(1202)									bufferCount = 0;
+HXDLIN(1202)									i = bufferCount;
+HXLINE(1203)									positionWidth = ((Float)0.0);
+HXLINE(1571)									while(((offsetX + positionWidth) < (_gthis->width - ( (Float)(2) )))){
+HXLINE(1207)										currentPosition = remainingPositions->__get(i).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXLINE(1571)										if ((currentPosition->advance->x == ((Float)0.0))) {
+HXLINE(1571)											i = (i + 1);
+HXDLIN(1571)											bufferCount = (bufferCount + 1);
             										}
             										else {
-HXLINE(1598)											_hx_tmp1 = 0;
+HXLINE(1571)											positionWidth = (positionWidth + currentPosition->advance->x);
+HXDLIN(1571)											i = (i + 1);
             										}
-HXDLIN(1598)										_hx_tmp = ((offsetX + tempWidth) > (((_gthis->width - ( (Float)(2) )) - ( (Float)(rightMargin) )) - ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp1)) )));
+            									}
+HXDLIN(1571)									if ((positionWidth == ((Float)0.0))) {
+HXLINE(1571)										goto _hx_goto_92;
             									}
             									else {
-HXLINE(1598)										_hx_tmp = false;
-            									}
-HXDLIN(1598)									if (!(_hx_tmp)) {
-HXLINE(1598)										goto _hx_goto_97;
-            									}
-HXDLIN(1598)									bufferCount = 0;
-HXDLIN(1598)									i = bufferCount;
-HXDLIN(1598)									positionWidth = ((Float)0.0);
-HXDLIN(1598)									while(true){
-HXLINE(1598)										int _hx_tmp;
-HXDLIN(1598)										if (firstLineOfParagraph) {
-HXLINE(1598)											_hx_tmp = indent;
+HXLINE(1571)										bool _hx_tmp;
+HXDLIN(1571)										if ((i < 2)) {
+HXLINE(1571)											_hx_tmp = ((positionWidth + offsetX) > (_gthis->width - ( (Float)(2) )));
             										}
             										else {
-HXLINE(1598)											_hx_tmp = 0;
+HXLINE(1571)											_hx_tmp = false;
             										}
-HXDLIN(1598)										if (!(((offsetX + positionWidth) < (((_gthis->width - ( (Float)(2) )) - ( (Float)(rightMargin) )) - ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp)) ))))) {
-HXLINE(1598)											goto _hx_goto_98;
-            										}
-HXDLIN(1598)										currentPosition = remainingPositions->__get(i).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1598)										if ((currentPosition->advance->x == ((Float)0.0))) {
-HXLINE(1598)											i = (i + 1);
-HXDLIN(1598)											bufferCount = (bufferCount + 1);
+HXDLIN(1571)										if (_hx_tmp) {
+HXLINE(1571)											if ((((textIndex + i) - bufferCount) == endIndex1)) {
+HXLINE(1571)												goto _hx_goto_92;
+            											}
             										}
             										else {
-HXLINE(1598)											positionWidth = (positionWidth + currentPosition->advance->x);
-HXDLIN(1598)											i = (i + 1);
-            										}
-            									}
-            									_hx_goto_98:;
-HXDLIN(1598)									if ((i == bufferCount)) {
-HXLINE(1598)										i = (bufferCount + 1);
-            									}
-            									else {
-HXLINE(1598)										while(true){
-HXLINE(1598)											bool _hx_tmp;
-HXDLIN(1598)											if ((i > 1)) {
-HXLINE(1598)												int _hx_tmp1;
-HXDLIN(1598)												if (firstLineOfParagraph) {
-HXLINE(1598)													_hx_tmp1 = indent;
-            												}
-            												else {
-HXLINE(1598)													_hx_tmp1 = 0;
-            												}
-HXDLIN(1598)												_hx_tmp = ((offsetX + positionWidth) > (((_gthis->width - ( (Float)(2) )) - ( (Float)(rightMargin) )) - ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp1)) )));
-            											}
-            											else {
-HXLINE(1598)												_hx_tmp = false;
-            											}
-HXDLIN(1598)											if (!(_hx_tmp)) {
-HXLINE(1598)												goto _hx_goto_99;
-            											}
-HXDLIN(1598)											i = (i - 1);
-HXDLIN(1598)											if (((i - bufferCount) > 0)) {
-HXLINE(1598)												{
-HXLINE(1598)													int endIndex = ((textIndex + i) - bufferCount);
-HXDLIN(1598)													if ((textIndex >= endIndex)) {
-HXLINE(1598)														positions = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN(1598)														widthValue = ( (Float)(0) );
-            													}
-            													else {
-HXLINE(1598)														if ((endIndex <= formatRange->end)) {
-HXLINE(1598)															::String text = _gthis->text;
-HXDLIN(1598)															Float letterSpacing = ((Float)0.0);
-HXDLIN(1598)															if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1598)																letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+HXLINE(1571)											while(((offsetX + positionWidth) > (_gthis->width - ( (Float)(2) )))){
+HXLINE(1571)												i = (i - 1);
+HXDLIN(1571)												if (((i - bufferCount) > 0)) {
+HXLINE(1571)													{
+HXLINE(1571)														int endIndex = ((textIndex + i) - bufferCount);
+HXDLIN(1571)														if ((endIndex <= formatRange->end)) {
+HXLINE(1571)															::String text = _gthis->text;
+HXDLIN(1571)															Float letterSpacing = ((Float)0.0);
+HXDLIN(1571)															if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)																letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
             															}
-HXDLIN(1598)															if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1598)																_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE(1571)															if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1571)																_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
             															}
-HXDLIN(1598)															_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1598)															_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1598)															if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1598)																_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+HXDLIN(1571)															_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1571)															_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1571)															if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1571)																_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
             															}
-HXDLIN(1598)															_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1598)															bool positions1;
-HXDLIN(1598)															if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1598)																positions1 = (_gthis->sharpness < 400);
+HXDLIN(1571)															_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1571)															bool positions1;
+HXDLIN(1571)															if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1571)																positions1 = (_gthis->sharpness < 400);
             															}
             															else {
-HXLINE(1598)																positions1 = true;
+HXLINE(1571)																positions1 = true;
             															}
-HXDLIN(1598)															_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1598)															 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1598)															_gthis1->set_text(text.substring(textIndex,endIndex));
-HXDLIN(1598)															positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1598)															Float width = ((Float)0.0);
-HXDLIN(1598)															{
-HXLINE(1598)																int _g = 0;
-HXDLIN(1598)																while((_g < positions->length)){
-HXLINE(1598)																	 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1598)																	_g = (_g + 1);
-HXDLIN(1598)																	width = (width + position->advance->x);
-            																}
+HXDLIN(1571)															_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1571)															 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1571)															_gthis1->set_text(text.substring(textIndex,endIndex));
+HXDLIN(1571)															positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1571)															Float width = ((Float)0.0);
+HXDLIN(1571)															int _g = 0;
+HXDLIN(1571)															while((_g < positions->length)){
+HXLINE(1571)																 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1571)																_g = (_g + 1);
+HXDLIN(1571)																width = (width + position->advance->x);
             															}
-HXDLIN(1598)															widthValue = width;
+HXDLIN(1571)															widthValue = width;
             														}
             														else {
-HXLINE(1598)															int tempIndex = textIndex;
-HXDLIN(1598)															int tempRangeEnd = formatRange->end;
-HXDLIN(1598)															int countRanges = 0;
-HXDLIN(1598)															positions = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN(1598)															widthValue = ( (Float)(0) );
-HXDLIN(1598)															while(true){
-HXLINE(1598)																if ((tempIndex != tempRangeEnd)) {
-HXLINE(1598)																	::String text = _gthis->text;
-HXDLIN(1598)																	Float letterSpacing = ((Float)0.0);
-HXDLIN(1598)																	if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1598)																		letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+HXLINE(1571)															int tempIndex = textIndex;
+HXDLIN(1571)															int tempRangeEnd = formatRange->end;
+HXDLIN(1571)															int countRanges = 0;
+HXLINE(1046)															positions = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(1047)															widthValue = ( (Float)(0) );
+HXLINE(1571)															while(true){
+HXLINE(1571)																if ((tempIndex != tempRangeEnd)) {
+HXLINE(1571)																	::String text = _gthis->text;
+HXDLIN(1571)																	Float letterSpacing = ((Float)0.0);
+HXDLIN(1571)																	if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)																		letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
             																	}
-HXDLIN(1598)																	if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1598)																		_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE(1571)																	if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1571)																		_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
             																	}
-HXDLIN(1598)																	_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1598)																	_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1598)																	if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1598)																		_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+HXDLIN(1571)																	_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1571)																	_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1571)																	if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1571)																		_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
             																	}
-HXDLIN(1598)																	_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1598)																	bool _hx_tmp;
-HXDLIN(1598)																	if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1598)																		_hx_tmp = (_gthis->sharpness < 400);
+HXDLIN(1571)																	_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1571)																	bool _hx_tmp;
+HXDLIN(1571)																	if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1571)																		_hx_tmp = (_gthis->sharpness < 400);
             																	}
             																	else {
-HXLINE(1598)																		_hx_tmp = true;
+HXLINE(1571)																		_hx_tmp = true;
             																	}
-HXDLIN(1598)																	_gthis->_hx___textLayout->autoHint = _hx_tmp;
-HXDLIN(1598)																	 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1598)																	_gthis1->set_text(text.substring(tempIndex,tempRangeEnd));
-HXDLIN(1598)																	::Array< ::Dynamic> tempPositions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1598)																	positions = positions->concat(tempPositions);
+HXDLIN(1571)																	_gthis->_hx___textLayout->autoHint = _hx_tmp;
+HXDLIN(1571)																	 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1571)																	_gthis1->set_text(text.substring(tempIndex,tempRangeEnd));
+HXDLIN(1571)																	::Array< ::Dynamic> tempPositions = _gthis->_hx___textLayout->get_positions();
+HXLINE(1054)																	positions = positions->concat(tempPositions);
             																}
-HXDLIN(1598)																if ((tempRangeEnd != endIndex)) {
-HXLINE(1598)																	bool _hx_tmp;
-HXDLIN(1598)																	if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1598)																		rangeIndex = (rangeIndex + 1);
-HXDLIN(1598)																		formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1598)																		currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1598)																		font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-HXDLIN(1598)																		_hx_tmp = true;
+HXLINE(1571)																if ((tempRangeEnd != endIndex)) {
+HXLINE(1571)																	bool _hx_tmp;
+HXDLIN(1571)																	if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1571)																		rangeIndex = (rangeIndex + 1);
+HXDLIN(1571)																		formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1571)																		currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)																		font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXLINE(1571)																		_hx_tmp = true;
             																	}
             																	else {
-HXLINE(1598)																		_hx_tmp = false;
+HXLINE(1571)																		_hx_tmp = false;
             																	}
-HXDLIN(1598)																	if (!(_hx_tmp)) {
-HXLINE(1598)																		::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1092,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
-HXDLIN(1598)																		goto _hx_goto_101;
+HXDLIN(1571)																	if (!(_hx_tmp)) {
+HXLINE(1571)																		::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1061,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
+HXDLIN(1571)																		goto _hx_goto_96;
             																	}
-HXDLIN(1598)																	tempIndex = tempRangeEnd;
-HXDLIN(1598)																	if ((endIndex < formatRange->end)) {
-HXLINE(1598)																		tempRangeEnd = endIndex;
+HXLINE(1065)																	tempIndex = tempRangeEnd;
+HXLINE(1571)																	if ((endIndex < formatRange->end)) {
+HXLINE(1571)																		tempRangeEnd = endIndex;
             																	}
             																	else {
-HXLINE(1598)																		tempRangeEnd = formatRange->end;
+HXLINE(1571)																		tempRangeEnd = formatRange->end;
             																	}
-HXDLIN(1598)																	countRanges = (countRanges + 1);
+HXDLIN(1571)																	countRanges = (countRanges + 1);
             																}
             																else {
-HXLINE(1598)																	Float width = ((Float)0.0);
-HXDLIN(1598)																	{
-HXLINE(1598)																		int _g = 0;
-HXDLIN(1598)																		while((_g < positions->length)){
-HXLINE(1598)																			 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1598)																			_g = (_g + 1);
-HXDLIN(1598)																			width = (width + position->advance->x);
-            																		}
+HXLINE(1571)																	Float width = ((Float)0.0);
+HXDLIN(1571)																	int _g = 0;
+HXDLIN(1571)																	while((_g < positions->length)){
+HXLINE(1571)																		 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1571)																		_g = (_g + 1);
+HXDLIN(1571)																		width = (width + position->advance->x);
             																	}
-HXDLIN(1598)																	widthValue = width;
-HXDLIN(1598)																	goto _hx_goto_101;
+HXDLIN(1571)																	widthValue = width;
+HXDLIN(1571)																	goto _hx_goto_96;
             																}
             															}
-            															_hx_goto_101:;
-HXDLIN(1598)															rangeIndex = (rangeIndex - (countRanges + 1));
-HXDLIN(1598)															if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1598)																rangeIndex = (rangeIndex + 1);
-HXDLIN(1598)																formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1598)																currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1598)																font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+            															_hx_goto_96:;
+HXDLIN(1571)															rangeIndex = (rangeIndex - (countRanges + 1));
+HXDLIN(1571)															if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1571)																rangeIndex = (rangeIndex + 1);
+HXDLIN(1571)																formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1571)																currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)																font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
             															}
             														}
             													}
+HXLINE(1250)													positionWidth = widthValue;
             												}
-HXDLIN(1598)												positionWidth = widthValue;
-            											}
-            											else {
-HXLINE(1598)												i = 1;
-HXDLIN(1598)												bufferCount = 0;
-HXDLIN(1598)												{
-HXLINE(1598)													int endIndex = (textIndex + 1);
-HXDLIN(1598)													if ((textIndex >= endIndex)) {
-HXLINE(1598)														positions = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN(1598)														widthValue = ( (Float)(0) );
-            													}
-            													else {
-HXLINE(1598)														if ((endIndex <= formatRange->end)) {
-HXLINE(1598)															::String text = _gthis->text;
-HXDLIN(1598)															Float letterSpacing = ((Float)0.0);
-HXDLIN(1598)															if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1598)																letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+            												else {
+HXLINE(1256)													i = 1;
+HXLINE(1257)													bufferCount = 0;
+HXLINE(1571)													{
+HXLINE(1571)														int endIndex = (textIndex + 1);
+HXDLIN(1571)														if ((endIndex <= formatRange->end)) {
+HXLINE(1571)															::String text = _gthis->text;
+HXDLIN(1571)															Float letterSpacing = ((Float)0.0);
+HXDLIN(1571)															if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)																letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
             															}
-HXDLIN(1598)															if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1598)																_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE(1571)															if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1571)																_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
             															}
-HXDLIN(1598)															_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1598)															_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1598)															if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1598)																_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+HXDLIN(1571)															_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1571)															_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1571)															if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1571)																_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
             															}
-HXDLIN(1598)															_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1598)															bool positions1;
-HXDLIN(1598)															if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1598)																positions1 = (_gthis->sharpness < 400);
+HXDLIN(1571)															_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1571)															bool positions1;
+HXDLIN(1571)															if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1571)																positions1 = (_gthis->sharpness < 400);
             															}
             															else {
-HXLINE(1598)																positions1 = true;
+HXLINE(1571)																positions1 = true;
             															}
-HXDLIN(1598)															_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1598)															 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1598)															_gthis1->set_text(text.substring(textIndex,endIndex));
-HXDLIN(1598)															positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1598)															Float width = ((Float)0.0);
-HXDLIN(1598)															{
-HXLINE(1598)																int _g = 0;
-HXDLIN(1598)																while((_g < positions->length)){
-HXLINE(1598)																	 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1598)																	_g = (_g + 1);
-HXDLIN(1598)																	width = (width + position->advance->x);
-            																}
+HXDLIN(1571)															_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1571)															 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1571)															_gthis1->set_text(text.substring(textIndex,endIndex));
+HXDLIN(1571)															positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1571)															Float width = ((Float)0.0);
+HXDLIN(1571)															int _g = 0;
+HXDLIN(1571)															while((_g < positions->length)){
+HXLINE(1571)																 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1571)																_g = (_g + 1);
+HXDLIN(1571)																width = (width + position->advance->x);
             															}
-HXDLIN(1598)															widthValue = width;
+HXDLIN(1571)															widthValue = width;
             														}
             														else {
-HXLINE(1598)															int tempIndex = textIndex;
-HXDLIN(1598)															int tempRangeEnd = formatRange->end;
-HXDLIN(1598)															int countRanges = 0;
-HXDLIN(1598)															positions = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN(1598)															widthValue = ( (Float)(0) );
-HXDLIN(1598)															while(true){
-HXLINE(1598)																if ((tempIndex != tempRangeEnd)) {
-HXLINE(1598)																	::String text = _gthis->text;
-HXDLIN(1598)																	Float letterSpacing = ((Float)0.0);
-HXDLIN(1598)																	if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1598)																		letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+HXLINE(1571)															int tempIndex = textIndex;
+HXDLIN(1571)															int tempRangeEnd = formatRange->end;
+HXDLIN(1571)															int countRanges = 0;
+HXLINE(1046)															positions = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(1047)															widthValue = ( (Float)(0) );
+HXLINE(1571)															while(true){
+HXLINE(1571)																if ((tempIndex != tempRangeEnd)) {
+HXLINE(1571)																	::String text = _gthis->text;
+HXDLIN(1571)																	Float letterSpacing = ((Float)0.0);
+HXDLIN(1571)																	if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)																		letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
             																	}
-HXDLIN(1598)																	if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1598)																		_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE(1571)																	if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1571)																		_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
             																	}
-HXDLIN(1598)																	_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1598)																	_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1598)																	if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1598)																		_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+HXDLIN(1571)																	_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1571)																	_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1571)																	if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1571)																		_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
             																	}
-HXDLIN(1598)																	_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1598)																	bool _hx_tmp;
-HXDLIN(1598)																	if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1598)																		_hx_tmp = (_gthis->sharpness < 400);
+HXDLIN(1571)																	_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1571)																	bool _hx_tmp;
+HXDLIN(1571)																	if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1571)																		_hx_tmp = (_gthis->sharpness < 400);
             																	}
             																	else {
-HXLINE(1598)																		_hx_tmp = true;
+HXLINE(1571)																		_hx_tmp = true;
             																	}
-HXDLIN(1598)																	_gthis->_hx___textLayout->autoHint = _hx_tmp;
-HXDLIN(1598)																	 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1598)																	_gthis1->set_text(text.substring(tempIndex,tempRangeEnd));
-HXDLIN(1598)																	::Array< ::Dynamic> tempPositions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1598)																	positions = positions->concat(tempPositions);
+HXDLIN(1571)																	_gthis->_hx___textLayout->autoHint = _hx_tmp;
+HXDLIN(1571)																	 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1571)																	_gthis1->set_text(text.substring(tempIndex,tempRangeEnd));
+HXDLIN(1571)																	::Array< ::Dynamic> tempPositions = _gthis->_hx___textLayout->get_positions();
+HXLINE(1054)																	positions = positions->concat(tempPositions);
             																}
-HXDLIN(1598)																if ((tempRangeEnd != endIndex)) {
-HXLINE(1598)																	bool _hx_tmp;
-HXDLIN(1598)																	if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1598)																		rangeIndex = (rangeIndex + 1);
-HXDLIN(1598)																		formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1598)																		currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1598)																		font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-HXDLIN(1598)																		_hx_tmp = true;
+HXLINE(1571)																if ((tempRangeEnd != endIndex)) {
+HXLINE(1571)																	bool _hx_tmp;
+HXDLIN(1571)																	if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1571)																		rangeIndex = (rangeIndex + 1);
+HXDLIN(1571)																		formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1571)																		currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)																		font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXLINE(1571)																		_hx_tmp = true;
             																	}
             																	else {
-HXLINE(1598)																		_hx_tmp = false;
+HXLINE(1571)																		_hx_tmp = false;
             																	}
-HXDLIN(1598)																	if (!(_hx_tmp)) {
-HXLINE(1598)																		::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1092,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
-HXDLIN(1598)																		goto _hx_goto_104;
+HXDLIN(1571)																	if (!(_hx_tmp)) {
+HXLINE(1571)																		::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1061,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
+HXDLIN(1571)																		goto _hx_goto_99;
             																	}
-HXDLIN(1598)																	tempIndex = tempRangeEnd;
-HXDLIN(1598)																	if ((endIndex < formatRange->end)) {
-HXLINE(1598)																		tempRangeEnd = endIndex;
+HXLINE(1065)																	tempIndex = tempRangeEnd;
+HXLINE(1571)																	if ((endIndex < formatRange->end)) {
+HXLINE(1571)																		tempRangeEnd = endIndex;
             																	}
             																	else {
-HXLINE(1598)																		tempRangeEnd = formatRange->end;
+HXLINE(1571)																		tempRangeEnd = formatRange->end;
             																	}
-HXDLIN(1598)																	countRanges = (countRanges + 1);
+HXDLIN(1571)																	countRanges = (countRanges + 1);
             																}
             																else {
-HXLINE(1598)																	Float width = ((Float)0.0);
-HXDLIN(1598)																	{
-HXLINE(1598)																		int _g = 0;
-HXDLIN(1598)																		while((_g < positions->length)){
-HXLINE(1598)																			 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1598)																			_g = (_g + 1);
-HXDLIN(1598)																			width = (width + position->advance->x);
-            																		}
+HXLINE(1571)																	Float width = ((Float)0.0);
+HXDLIN(1571)																	int _g = 0;
+HXDLIN(1571)																	while((_g < positions->length)){
+HXLINE(1571)																		 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1571)																		_g = (_g + 1);
+HXDLIN(1571)																		width = (width + position->advance->x);
             																	}
-HXDLIN(1598)																	widthValue = width;
-HXDLIN(1598)																	goto _hx_goto_104;
+HXDLIN(1571)																	widthValue = width;
+HXDLIN(1571)																	goto _hx_goto_99;
             																}
             															}
-            															_hx_goto_104:;
-HXDLIN(1598)															rangeIndex = (rangeIndex - (countRanges + 1));
-HXDLIN(1598)															if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1598)																rangeIndex = (rangeIndex + 1);
-HXDLIN(1598)																formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1598)																currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1598)																font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+            															_hx_goto_99:;
+HXDLIN(1571)															rangeIndex = (rangeIndex - (countRanges + 1));
+HXDLIN(1571)															if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1571)																rangeIndex = (rangeIndex + 1);
+HXDLIN(1571)																formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1571)																currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)																font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
             															}
             														}
             													}
+HXLINE(1260)													positionWidth = ( (Float)(0) );
             												}
-HXDLIN(1598)												positionWidth = ( (Float)(0) );
             											}
             										}
-            										_hx_goto_99:;
             									}
-HXDLIN(1598)									placeIndex = ((textIndex + i) - bufferCount);
-HXDLIN(1598)									{
-HXLINE(1598)										if ((placeIndex <= formatRange->end)) {
-HXLINE(1598)											::String text = _gthis->text;
-HXDLIN(1598)											Float letterSpacing = ((Float)0.0);
-HXDLIN(1598)											if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1598)												letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+HXLINE(1265)									placeIndex = ((textIndex + i) - bufferCount);
+HXLINE(1571)									{
+HXLINE(1571)										if ((placeIndex <= formatRange->end)) {
+HXLINE(1571)											::String text = _gthis->text;
+HXDLIN(1571)											Float letterSpacing = ((Float)0.0);
+HXDLIN(1571)											if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)												letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
             											}
-HXDLIN(1598)											if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1598)												_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE(1571)											if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1571)												_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
             											}
-HXDLIN(1598)											_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1598)											_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1598)											if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1598)												_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+HXDLIN(1571)											_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1571)											_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1571)											if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1571)												_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
             											}
-HXDLIN(1598)											_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1598)											bool positions1;
-HXDLIN(1598)											if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1598)												positions1 = (_gthis->sharpness < 400);
+HXDLIN(1571)											_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1571)											bool positions1;
+HXDLIN(1571)											if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1571)												positions1 = (_gthis->sharpness < 400);
             											}
             											else {
-HXLINE(1598)												positions1 = true;
+HXLINE(1571)												positions1 = true;
             											}
-HXDLIN(1598)											_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1598)											 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1598)											_gthis1->set_text(text.substring(textIndex,placeIndex));
-HXDLIN(1598)											positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1598)											Float width = ((Float)0.0);
-HXDLIN(1598)											{
-HXLINE(1598)												int _g = 0;
-HXDLIN(1598)												while((_g < positions->length)){
-HXLINE(1598)													 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1598)													_g = (_g + 1);
-HXDLIN(1598)													width = (width + position->advance->x);
+HXDLIN(1571)											_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1571)											 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1571)											_gthis1->set_text(text.substring(textIndex,placeIndex));
+HXDLIN(1571)											positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1571)											Float width = ((Float)0.0);
+HXDLIN(1571)											int _g = 0;
+HXDLIN(1571)											while((_g < positions->length)){
+HXLINE(1571)												 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1571)												_g = (_g + 1);
+HXDLIN(1571)												width = (width + position->advance->x);
+            											}
+HXDLIN(1571)											widthValue = width;
+HXDLIN(1571)											bool _hx_tmp;
+HXDLIN(1571)											if (::hx::IsNotNull( layoutGroup )) {
+HXLINE(1571)												_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
+            											}
+            											else {
+HXLINE(1571)												_hx_tmp = true;
+            											}
+HXDLIN(1571)											if (_hx_tmp) {
+HXLINE( 923)												layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,placeIndex);
+HXLINE(1571)												_gthis->layoutGroups->push(layoutGroup);
+            											}
+            											else {
+HXLINE(1571)												layoutGroup->format = formatRange->format;
+HXDLIN(1571)												layoutGroup->startIndex = textIndex;
+HXDLIN(1571)												layoutGroup->endIndex = placeIndex;
+            											}
+HXDLIN(1571)											layoutGroup->positions = positions;
+HXDLIN(1571)											layoutGroup->offsetX = offsetX;
+HXDLIN(1571)											layoutGroup->ascent = ascent;
+HXDLIN(1571)											layoutGroup->descent = descent;
+HXDLIN(1571)											layoutGroup->leading = leading;
+HXDLIN(1571)											layoutGroup->lineIndex = lineIndex;
+HXDLIN(1571)											layoutGroup->offsetY = offsetY;
+HXDLIN(1571)											layoutGroup->width = widthValue;
+HXDLIN(1571)											layoutGroup->height = ( (Float)(heightValue) );
+HXDLIN(1571)											offsetX = (offsetX + widthValue);
+HXDLIN(1571)											if ((placeIndex == formatRange->end)) {
+HXLINE(1108)												layoutGroup = null();
+HXLINE(1571)												if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1571)													rangeIndex = (rangeIndex + 1);
+HXDLIN(1571)													formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1571)													currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)													font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
             												}
-            											}
-HXDLIN(1598)											widthValue = width;
-HXDLIN(1598)											bool _hx_tmp;
-HXDLIN(1598)											if (::hx::IsNotNull( layoutGroup )) {
-HXLINE(1598)												_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
-            											}
-            											else {
-HXLINE(1598)												_hx_tmp = true;
-            											}
-HXDLIN(1598)											if (_hx_tmp) {
-HXLINE(1598)												layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,placeIndex);
-HXDLIN(1598)												_gthis->layoutGroups->push(layoutGroup);
-            											}
-            											else {
-HXLINE(1598)												layoutGroup->format = formatRange->format;
-HXDLIN(1598)												layoutGroup->startIndex = textIndex;
-HXDLIN(1598)												layoutGroup->endIndex = placeIndex;
-            											}
-HXDLIN(1598)											layoutGroup->positions = positions;
-HXDLIN(1598)											int _hx_tmp1;
-HXDLIN(1598)											if (firstLineOfParagraph) {
-HXLINE(1598)												_hx_tmp1 = indent;
-            											}
-            											else {
-HXLINE(1598)												_hx_tmp1 = 0;
-            											}
-HXDLIN(1598)											layoutGroup->offsetX = (offsetX + ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp1)) ));
-HXDLIN(1598)											layoutGroup->ascent = ascent;
-HXDLIN(1598)											layoutGroup->descent = descent;
-HXDLIN(1598)											layoutGroup->leading = leading;
-HXDLIN(1598)											layoutGroup->lineIndex = lineIndex;
-HXDLIN(1598)											layoutGroup->offsetY = (offsetY + 2);
-HXDLIN(1598)											layoutGroup->width = widthValue;
-HXDLIN(1598)											layoutGroup->height = ( (Float)(heightValue) );
-HXDLIN(1598)											offsetX = (offsetX + widthValue);
-HXDLIN(1598)											if ((placeIndex == formatRange->end)) {
-HXLINE(1598)												layoutGroup = null();
-HXDLIN(1598)												if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1598)													rangeIndex = (rangeIndex + 1);
-HXDLIN(1598)													formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1598)													currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1598)													font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-            												}
-HXDLIN(1598)												{
-HXLINE(1598)													if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
-HXLINE(1598)														ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
-HXDLIN(1598)														descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
+HXLINE(1571)												{
+HXLINE(1571)													if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
+HXLINE( 939)														ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
+HXLINE( 940)														descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
             													}
             													else {
-HXLINE(1598)														bool _hx_tmp;
-HXDLIN(1598)														if (::hx::IsNotNull( font )) {
-HXLINE(1598)															_hx_tmp = (font->unitsPerEM != 0);
+HXLINE(1571)														bool _hx_tmp;
+HXDLIN(1571)														if (::hx::IsNotNull( font )) {
+HXLINE(1571)															_hx_tmp = (font->unitsPerEM != 0);
             														}
             														else {
-HXLINE(1598)															_hx_tmp = false;
+HXLINE(1571)															_hx_tmp = false;
             														}
-HXDLIN(1598)														if (_hx_tmp) {
-HXLINE(1598)															ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
-HXDLIN(1598)															descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
+HXDLIN(1571)														if (_hx_tmp) {
+HXLINE( 945)															ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
+HXLINE( 946)															descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
             														}
             														else {
-HXLINE(1598)															ascent = ( (Float)(currentFormat->size) );
-HXDLIN(1598)															descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
+HXLINE( 951)															ascent = ( (Float)(currentFormat->size) );
+HXLINE( 952)															descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
             														}
             													}
-HXDLIN(1598)													leading = ( (int)(currentFormat->leading) );
-HXDLIN(1598)													heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
-HXDLIN(1598)													if ((heightValue > maxHeightValue)) {
-HXLINE(1598)														maxHeightValue = heightValue;
+HXLINE( 955)													leading = ( (int)(currentFormat->leading) );
+HXLINE( 957)													heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
+HXLINE(1571)													if ((heightValue > maxHeightValue)) {
+HXLINE( 961)														maxHeightValue = heightValue;
             													}
-HXDLIN(1598)													if ((ascent > maxAscent)) {
-HXLINE(1598)														maxAscent = ascent;
+HXLINE(1571)													if ((ascent > maxAscent)) {
+HXLINE( 966)														maxAscent = ascent;
             													}
             												}
             											}
             										}
             										else {
-HXLINE(1598)											while(true){
-HXLINE(1598)												int tempRangeEnd;
-HXDLIN(1598)												if ((placeIndex < formatRange->end)) {
-HXLINE(1598)													tempRangeEnd = placeIndex;
+HXLINE(1571)											while(true){
+HXLINE(1571)												int tempRangeEnd;
+HXDLIN(1571)												if ((placeIndex < formatRange->end)) {
+HXLINE(1571)													tempRangeEnd = placeIndex;
             												}
             												else {
-HXLINE(1598)													tempRangeEnd = formatRange->end;
+HXLINE(1571)													tempRangeEnd = formatRange->end;
             												}
-HXDLIN(1598)												if ((textIndex != tempRangeEnd)) {
-HXLINE(1598)													::String text = _gthis->text;
-HXDLIN(1598)													Float letterSpacing = ((Float)0.0);
-HXDLIN(1598)													if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1598)														letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+HXDLIN(1571)												if ((textIndex != tempRangeEnd)) {
+HXLINE(1571)													::String text = _gthis->text;
+HXDLIN(1571)													Float letterSpacing = ((Float)0.0);
+HXDLIN(1571)													if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)														letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
             													}
-HXDLIN(1598)													if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1598)														_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE(1571)													if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1571)														_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
             													}
-HXDLIN(1598)													_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1598)													_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1598)													if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1598)														_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+HXDLIN(1571)													_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1571)													_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1571)													if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1571)														_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
             													}
-HXDLIN(1598)													_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1598)													bool positions1;
-HXDLIN(1598)													if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1598)														positions1 = (_gthis->sharpness < 400);
+HXDLIN(1571)													_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1571)													bool positions1;
+HXDLIN(1571)													if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1571)														positions1 = (_gthis->sharpness < 400);
             													}
             													else {
-HXLINE(1598)														positions1 = true;
+HXLINE(1571)														positions1 = true;
             													}
-HXDLIN(1598)													_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1598)													 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1598)													_gthis1->set_text(text.substring(textIndex,tempRangeEnd));
-HXDLIN(1598)													positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1598)													Float width = ((Float)0.0);
-HXDLIN(1598)													{
-HXLINE(1598)														int _g = 0;
-HXDLIN(1598)														while((_g < positions->length)){
-HXLINE(1598)															 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1598)															_g = (_g + 1);
-HXDLIN(1598)															width = (width + position->advance->x);
-            														}
+HXDLIN(1571)													_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1571)													 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1571)													_gthis1->set_text(text.substring(textIndex,tempRangeEnd));
+HXDLIN(1571)													positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1571)													Float width = ((Float)0.0);
+HXDLIN(1571)													int _g = 0;
+HXDLIN(1571)													while((_g < positions->length)){
+HXLINE(1571)														 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1571)														_g = (_g + 1);
+HXDLIN(1571)														width = (width + position->advance->x);
             													}
-HXDLIN(1598)													widthValue = width;
-HXDLIN(1598)													bool _hx_tmp;
-HXDLIN(1598)													if (::hx::IsNotNull( layoutGroup )) {
-HXLINE(1598)														_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
+HXDLIN(1571)													widthValue = width;
+HXDLIN(1571)													bool _hx_tmp;
+HXDLIN(1571)													if (::hx::IsNotNull( layoutGroup )) {
+HXLINE(1571)														_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
             													}
             													else {
-HXLINE(1598)														_hx_tmp = true;
+HXLINE(1571)														_hx_tmp = true;
             													}
-HXDLIN(1598)													if (_hx_tmp) {
-HXLINE(1598)														layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,tempRangeEnd);
-HXDLIN(1598)														_gthis->layoutGroups->push(layoutGroup);
-            													}
-            													else {
-HXLINE(1598)														layoutGroup->format = formatRange->format;
-HXDLIN(1598)														layoutGroup->startIndex = textIndex;
-HXDLIN(1598)														layoutGroup->endIndex = tempRangeEnd;
-            													}
-HXDLIN(1598)													layoutGroup->positions = positions;
-HXDLIN(1598)													int _hx_tmp1;
-HXDLIN(1598)													if (firstLineOfParagraph) {
-HXLINE(1598)														_hx_tmp1 = indent;
+HXDLIN(1571)													if (_hx_tmp) {
+HXLINE( 923)														layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,tempRangeEnd);
+HXLINE(1571)														_gthis->layoutGroups->push(layoutGroup);
             													}
             													else {
-HXLINE(1598)														_hx_tmp1 = 0;
+HXLINE(1571)														layoutGroup->format = formatRange->format;
+HXDLIN(1571)														layoutGroup->startIndex = textIndex;
+HXDLIN(1571)														layoutGroup->endIndex = tempRangeEnd;
             													}
-HXDLIN(1598)													layoutGroup->offsetX = (offsetX + ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp1)) ));
-HXDLIN(1598)													layoutGroup->ascent = ascent;
-HXDLIN(1598)													layoutGroup->descent = descent;
-HXDLIN(1598)													layoutGroup->leading = leading;
-HXDLIN(1598)													layoutGroup->lineIndex = lineIndex;
-HXDLIN(1598)													layoutGroup->offsetY = (offsetY + 2);
-HXDLIN(1598)													layoutGroup->width = widthValue;
-HXDLIN(1598)													layoutGroup->height = ( (Float)(heightValue) );
-HXDLIN(1598)													offsetX = (offsetX + widthValue);
-HXDLIN(1598)													textIndex = tempRangeEnd;
+HXDLIN(1571)													layoutGroup->positions = positions;
+HXDLIN(1571)													layoutGroup->offsetX = offsetX;
+HXDLIN(1571)													layoutGroup->ascent = ascent;
+HXDLIN(1571)													layoutGroup->descent = descent;
+HXDLIN(1571)													layoutGroup->leading = leading;
+HXDLIN(1571)													layoutGroup->lineIndex = lineIndex;
+HXDLIN(1571)													layoutGroup->offsetY = offsetY;
+HXDLIN(1571)													layoutGroup->width = widthValue;
+HXDLIN(1571)													layoutGroup->height = ( (Float)(heightValue) );
+HXDLIN(1571)													offsetX = (offsetX + widthValue);
+HXLINE(1140)													textIndex = tempRangeEnd;
             												}
-HXDLIN(1598)												if ((tempRangeEnd == formatRange->end)) {
-HXLINE(1598)													layoutGroup = null();
+HXLINE(1571)												if ((tempRangeEnd == formatRange->end)) {
+HXLINE(1143)													layoutGroup = null();
             												}
-HXDLIN(1598)												if ((tempRangeEnd == placeIndex)) {
-HXLINE(1598)													goto _hx_goto_107;
+HXLINE(1571)												if ((tempRangeEnd == placeIndex)) {
+HXLINE(1571)													goto _hx_goto_102;
             												}
-HXDLIN(1598)												bool _hx_tmp;
-HXDLIN(1598)												if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1598)													rangeIndex = (rangeIndex + 1);
-HXDLIN(1598)													formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1598)													currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1598)													font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-HXDLIN(1598)													_hx_tmp = true;
+HXDLIN(1571)												bool _hx_tmp;
+HXDLIN(1571)												if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1571)													rangeIndex = (rangeIndex + 1);
+HXDLIN(1571)													formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1571)													currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)													font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXLINE(1571)													_hx_tmp = true;
             												}
             												else {
-HXLINE(1598)													_hx_tmp = false;
+HXLINE(1571)													_hx_tmp = false;
             												}
-HXDLIN(1598)												if (!(_hx_tmp)) {
-HXLINE(1598)													::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1180,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
-HXDLIN(1598)													goto _hx_goto_107;
+HXDLIN(1571)												if (!(_hx_tmp)) {
+HXLINE(1571)													::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1149,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
+HXDLIN(1571)													goto _hx_goto_102;
             												}
-HXDLIN(1598)												{
-HXLINE(1598)													if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
-HXLINE(1598)														ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
-HXDLIN(1598)														descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
+HXDLIN(1571)												{
+HXLINE(1571)													if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
+HXLINE( 939)														ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
+HXLINE( 940)														descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
             													}
             													else {
-HXLINE(1598)														bool _hx_tmp;
-HXDLIN(1598)														if (::hx::IsNotNull( font )) {
-HXLINE(1598)															_hx_tmp = (font->unitsPerEM != 0);
+HXLINE(1571)														bool _hx_tmp;
+HXDLIN(1571)														if (::hx::IsNotNull( font )) {
+HXLINE(1571)															_hx_tmp = (font->unitsPerEM != 0);
             														}
             														else {
-HXLINE(1598)															_hx_tmp = false;
+HXLINE(1571)															_hx_tmp = false;
             														}
-HXDLIN(1598)														if (_hx_tmp) {
-HXLINE(1598)															ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
-HXDLIN(1598)															descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
+HXDLIN(1571)														if (_hx_tmp) {
+HXLINE( 945)															ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
+HXLINE( 946)															descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
             														}
             														else {
-HXLINE(1598)															ascent = ( (Float)(currentFormat->size) );
-HXDLIN(1598)															descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
+HXLINE( 951)															ascent = ( (Float)(currentFormat->size) );
+HXLINE( 952)															descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
             														}
             													}
-HXDLIN(1598)													leading = ( (int)(currentFormat->leading) );
-HXDLIN(1598)													heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
-HXDLIN(1598)													if ((heightValue > maxHeightValue)) {
-HXLINE(1598)														maxHeightValue = heightValue;
+HXLINE( 955)													leading = ( (int)(currentFormat->leading) );
+HXLINE( 957)													heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
+HXLINE(1571)													if ((heightValue > maxHeightValue)) {
+HXLINE( 961)														maxHeightValue = heightValue;
             													}
-HXDLIN(1598)													if ((ascent > maxAscent)) {
-HXLINE(1598)														maxAscent = ascent;
+HXLINE(1571)													if ((ascent > maxAscent)) {
+HXLINE( 966)														maxAscent = ascent;
             													}
             												}
             											}
-            											_hx_goto_107:;
+            											_hx_goto_102:;
             										}
-HXDLIN(1598)										textIndex = placeIndex;
+HXLINE(1157)										textIndex = placeIndex;
             									}
-HXDLIN(1598)									{
-HXLINE(1598)										{
-HXLINE(1598)											if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
-HXLINE(1598)												ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
-HXDLIN(1598)												descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
+HXLINE(1571)									{
+HXLINE(1571)										{
+HXLINE(1571)											if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
+HXLINE( 939)												ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
+HXLINE( 940)												descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
             											}
             											else {
-HXLINE(1598)												bool _hx_tmp;
-HXDLIN(1598)												if (::hx::IsNotNull( font )) {
-HXLINE(1598)													_hx_tmp = (font->unitsPerEM != 0);
+HXLINE(1571)												bool _hx_tmp;
+HXDLIN(1571)												if (::hx::IsNotNull( font )) {
+HXLINE(1571)													_hx_tmp = (font->unitsPerEM != 0);
             												}
             												else {
-HXLINE(1598)													_hx_tmp = false;
+HXLINE(1571)													_hx_tmp = false;
             												}
-HXDLIN(1598)												if (_hx_tmp) {
-HXLINE(1598)													ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
-HXDLIN(1598)													descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
+HXDLIN(1571)												if (_hx_tmp) {
+HXLINE( 945)													ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
+HXLINE( 946)													descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
             												}
             												else {
-HXLINE(1598)													ascent = ( (Float)(currentFormat->size) );
-HXDLIN(1598)													descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
+HXLINE( 951)													ascent = ( (Float)(currentFormat->size) );
+HXLINE( 952)													descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
             												}
             											}
-HXDLIN(1598)											leading = ( (int)(currentFormat->leading) );
-HXDLIN(1598)											heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
-HXDLIN(1598)											if ((heightValue > maxHeightValue)) {
-HXLINE(1598)												maxHeightValue = heightValue;
+HXLINE( 955)											leading = ( (int)(currentFormat->leading) );
+HXLINE( 957)											heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
+HXLINE(1571)											if ((heightValue > maxHeightValue)) {
+HXLINE( 961)												maxHeightValue = heightValue;
             											}
-HXDLIN(1598)											if ((ascent > maxAscent)) {
-HXLINE(1598)												maxAscent = ascent;
+HXLINE(1571)											if ((ascent > maxAscent)) {
+HXLINE( 966)												maxAscent = ascent;
             											}
             										}
-HXDLIN(1598)										int i1 = _gthis->layoutGroups->get_length();
-HXDLIN(1598)										while(true){
-HXLINE(1598)											i1 = (i1 - 1);
-HXDLIN(1598)											if (!((i1 > -1))) {
-HXLINE(1598)												goto _hx_goto_109;
+HXLINE(1571)										int i1 = _gthis->layoutGroups->get_length();
+HXDLIN(1571)										while(true){
+HXLINE(1571)											i1 = (i1 - 1);
+HXDLIN(1571)											if (!((i1 > -1))) {
+HXLINE(1571)												goto _hx_goto_104;
             											}
-HXDLIN(1598)											 ::openfl::text::_internal::TextLayoutGroup lg = _gthis->layoutGroups->get(i1).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
-HXDLIN(1598)											if ((lg->lineIndex < lineIndex)) {
-HXLINE(1598)												goto _hx_goto_109;
+HXDLIN(1571)											 ::openfl::text::_internal::TextLayoutGroup lg = _gthis->layoutGroups->get(i1).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
+HXDLIN(1571)											if ((lg->lineIndex < lineIndex)) {
+HXLINE(1571)												goto _hx_goto_104;
             											}
-HXDLIN(1598)											if ((lg->lineIndex > lineIndex)) {
-HXLINE(1598)												continue;
+HXDLIN(1571)											if ((lg->lineIndex > lineIndex)) {
+HXLINE(1571)												continue;
             											}
-HXDLIN(1598)											lg->ascent = maxAscent;
-HXDLIN(1598)											lg->height = ( (Float)(maxHeightValue) );
+HXDLIN(1571)											lg->ascent = maxAscent;
+HXDLIN(1571)											lg->height = ( (Float)(maxHeightValue) );
             										}
-            										_hx_goto_109:;
-HXDLIN(1598)										offsetY = (offsetY + maxHeightValue);
-HXDLIN(1598)										maxAscent = ((Float)0.0);
-HXDLIN(1598)										maxHeightValue = 0;
-HXDLIN(1598)										lineIndex = (lineIndex + 1);
-HXDLIN(1598)										offsetX = ( (Float)(0) );
-HXDLIN(1598)										firstLineOfParagraph = false;
+            										_hx_goto_104:;
+HXDLIN(1571)										offsetY = (offsetY + maxHeightValue);
+HXLINE(1182)										maxAscent = ((Float)0.0);
+HXLINE(1183)										maxHeightValue = 0;
+HXLINE(1571)										lineIndex = (lineIndex + 1);
+HXLINE(1186)										offsetX = ( (Float)(2) );
             									}
-HXDLIN(1598)									if ((placeIndex >= endIndex1)) {
-HXLINE(1598)										positions = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN(1598)										widthValue = ( (Float)(0) );
+HXLINE(1571)									if ((endIndex1 <= formatRange->end)) {
+HXLINE(1571)										::String text = _gthis->text;
+HXDLIN(1571)										Float letterSpacing = ((Float)0.0);
+HXDLIN(1571)										if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)											letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+            										}
+HXLINE(1571)										if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1571)											_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+            										}
+HXDLIN(1571)										_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1571)										_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1571)										if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1571)											_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+            										}
+HXDLIN(1571)										_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1571)										bool positions1;
+HXDLIN(1571)										if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1571)											positions1 = (_gthis->sharpness < 400);
+            										}
+            										else {
+HXLINE(1571)											positions1 = true;
+            										}
+HXDLIN(1571)										_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1571)										 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1571)										_gthis1->set_text(text.substring(placeIndex,endIndex1));
+HXDLIN(1571)										positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1571)										Float width = ((Float)0.0);
+HXDLIN(1571)										int _g = 0;
+HXDLIN(1571)										while((_g < positions->length)){
+HXLINE(1571)											 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1571)											_g = (_g + 1);
+HXDLIN(1571)											width = (width + position->advance->x);
+            										}
+HXDLIN(1571)										widthValue = width;
             									}
             									else {
-HXLINE(1598)										if ((endIndex1 <= formatRange->end)) {
-HXLINE(1598)											::String text = _gthis->text;
-HXDLIN(1598)											Float letterSpacing = ((Float)0.0);
-HXDLIN(1598)											if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1598)												letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
-            											}
-HXDLIN(1598)											if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1598)												_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-            											}
-HXDLIN(1598)											_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1598)											_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1598)											if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1598)												_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
-            											}
-HXDLIN(1598)											_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1598)											bool positions1;
-HXDLIN(1598)											if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1598)												positions1 = (_gthis->sharpness < 400);
-            											}
-            											else {
-HXLINE(1598)												positions1 = true;
-            											}
-HXDLIN(1598)											_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1598)											 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1598)											_gthis1->set_text(text.substring(placeIndex,endIndex1));
-HXDLIN(1598)											positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1598)											Float width = ((Float)0.0);
-HXDLIN(1598)											{
-HXLINE(1598)												int _g = 0;
-HXDLIN(1598)												while((_g < positions->length)){
-HXLINE(1598)													 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1598)													_g = (_g + 1);
-HXDLIN(1598)													width = (width + position->advance->x);
+HXLINE(1571)										int tempIndex = placeIndex;
+HXDLIN(1571)										int tempRangeEnd = formatRange->end;
+HXDLIN(1571)										int countRanges = 0;
+HXLINE(1046)										positions = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(1047)										widthValue = ( (Float)(0) );
+HXLINE(1571)										while(true){
+HXLINE(1571)											if ((tempIndex != tempRangeEnd)) {
+HXLINE(1571)												::String text = _gthis->text;
+HXDLIN(1571)												Float letterSpacing = ((Float)0.0);
+HXDLIN(1571)												if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)													letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
             												}
-            											}
-HXDLIN(1598)											widthValue = width;
-            										}
-            										else {
-HXLINE(1598)											int tempIndex = placeIndex;
-HXDLIN(1598)											int tempRangeEnd = formatRange->end;
-HXDLIN(1598)											int countRanges = 0;
-HXDLIN(1598)											positions = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN(1598)											widthValue = ( (Float)(0) );
-HXDLIN(1598)											while(true){
-HXLINE(1598)												if ((tempIndex != tempRangeEnd)) {
-HXLINE(1598)													::String text = _gthis->text;
-HXDLIN(1598)													Float letterSpacing = ((Float)0.0);
-HXDLIN(1598)													if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1598)														letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
-            													}
-HXDLIN(1598)													if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1598)														_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
-            													}
-HXDLIN(1598)													_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1598)													_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1598)													if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1598)														_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
-            													}
-HXDLIN(1598)													_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1598)													bool _hx_tmp;
-HXDLIN(1598)													if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1598)														_hx_tmp = (_gthis->sharpness < 400);
-            													}
-            													else {
-HXLINE(1598)														_hx_tmp = true;
-            													}
-HXDLIN(1598)													_gthis->_hx___textLayout->autoHint = _hx_tmp;
-HXDLIN(1598)													 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1598)													_gthis1->set_text(text.substring(tempIndex,tempRangeEnd));
-HXDLIN(1598)													::Array< ::Dynamic> tempPositions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1598)													positions = positions->concat(tempPositions);
+HXLINE(1571)												if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1571)													_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
             												}
-HXDLIN(1598)												if ((tempRangeEnd != endIndex1)) {
-HXLINE(1598)													bool _hx_tmp;
-HXDLIN(1598)													if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1598)														rangeIndex = (rangeIndex + 1);
-HXDLIN(1598)														formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1598)														currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1598)														font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-HXDLIN(1598)														_hx_tmp = true;
-            													}
-            													else {
-HXLINE(1598)														_hx_tmp = false;
-            													}
-HXDLIN(1598)													if (!(_hx_tmp)) {
-HXLINE(1598)														::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1092,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
-HXDLIN(1598)														goto _hx_goto_111;
-            													}
-HXDLIN(1598)													tempIndex = tempRangeEnd;
-HXDLIN(1598)													if ((endIndex1 < formatRange->end)) {
-HXLINE(1598)														tempRangeEnd = endIndex1;
-            													}
-            													else {
-HXLINE(1598)														tempRangeEnd = formatRange->end;
-            													}
-HXDLIN(1598)													countRanges = (countRanges + 1);
+HXDLIN(1571)												_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1571)												_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1571)												if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1571)													_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+            												}
+HXDLIN(1571)												_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1571)												bool _hx_tmp;
+HXDLIN(1571)												if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1571)													_hx_tmp = (_gthis->sharpness < 400);
             												}
             												else {
-HXLINE(1598)													Float width = ((Float)0.0);
-HXDLIN(1598)													{
-HXLINE(1598)														int _g = 0;
-HXDLIN(1598)														while((_g < positions->length)){
-HXLINE(1598)															 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1598)															_g = (_g + 1);
-HXDLIN(1598)															width = (width + position->advance->x);
-            														}
-            													}
-HXDLIN(1598)													widthValue = width;
-HXDLIN(1598)													goto _hx_goto_111;
+HXLINE(1571)													_hx_tmp = true;
             												}
+HXDLIN(1571)												_gthis->_hx___textLayout->autoHint = _hx_tmp;
+HXDLIN(1571)												 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1571)												_gthis1->set_text(text.substring(tempIndex,tempRangeEnd));
+HXDLIN(1571)												::Array< ::Dynamic> tempPositions = _gthis->_hx___textLayout->get_positions();
+HXLINE(1054)												positions = positions->concat(tempPositions);
             											}
-            											_hx_goto_111:;
-HXDLIN(1598)											rangeIndex = (rangeIndex - (countRanges + 1));
-HXDLIN(1598)											if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1598)												rangeIndex = (rangeIndex + 1);
-HXDLIN(1598)												formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1598)												currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1598)												font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXLINE(1571)											if ((tempRangeEnd != endIndex1)) {
+HXLINE(1571)												bool _hx_tmp;
+HXDLIN(1571)												if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1571)													rangeIndex = (rangeIndex + 1);
+HXDLIN(1571)													formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1571)													currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)													font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXLINE(1571)													_hx_tmp = true;
+            												}
+            												else {
+HXLINE(1571)													_hx_tmp = false;
+            												}
+HXDLIN(1571)												if (!(_hx_tmp)) {
+HXLINE(1571)													::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1061,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
+HXDLIN(1571)													goto _hx_goto_106;
+            												}
+HXLINE(1065)												tempIndex = tempRangeEnd;
+HXLINE(1571)												if ((endIndex1 < formatRange->end)) {
+HXLINE(1571)													tempRangeEnd = endIndex1;
+            												}
+            												else {
+HXLINE(1571)													tempRangeEnd = formatRange->end;
+            												}
+HXDLIN(1571)												countRanges = (countRanges + 1);
+            											}
+            											else {
+HXLINE(1571)												Float width = ((Float)0.0);
+HXDLIN(1571)												int _g = 0;
+HXDLIN(1571)												while((_g < positions->length)){
+HXLINE(1571)													 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1571)													_g = (_g + 1);
+HXDLIN(1571)													width = (width + position->advance->x);
+            												}
+HXDLIN(1571)												widthValue = width;
+HXDLIN(1571)												goto _hx_goto_106;
             											}
             										}
+            										_hx_goto_106:;
+HXDLIN(1571)										rangeIndex = (rangeIndex - (countRanges + 1));
+HXDLIN(1571)										if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1571)											rangeIndex = (rangeIndex + 1);
+HXDLIN(1571)											formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1571)											currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)											font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+            										}
             									}
-HXDLIN(1598)									remainingPositions = positions;
-HXDLIN(1598)									tempWidth = widthValue;
+HXLINE(1271)									remainingPositions = positions;
+HXLINE(1272)									tempWidth = widthValue;
             								}
-            								_hx_goto_97:;
+            								_hx_goto_92:;
             							}
-HXDLIN(1598)							{
-HXLINE(1598)								if ((endIndex1 <= formatRange->end)) {
-HXLINE(1598)									::String text = _gthis->text;
-HXDLIN(1598)									Float letterSpacing = ((Float)0.0);
-HXDLIN(1598)									if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1598)										letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+HXLINE(1571)							{
+HXLINE(1571)								if ((endIndex1 <= formatRange->end)) {
+HXLINE(1571)									::String text = _gthis->text;
+HXDLIN(1571)									Float letterSpacing = ((Float)0.0);
+HXDLIN(1571)									if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)										letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
             									}
-HXDLIN(1598)									if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1598)										_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE(1571)									if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1571)										_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
             									}
-HXDLIN(1598)									_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1598)									_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1598)									if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1598)										_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+HXDLIN(1571)									_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1571)									_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1571)									if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1571)										_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
             									}
-HXDLIN(1598)									_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1598)									bool positions1;
-HXDLIN(1598)									if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1598)										positions1 = (_gthis->sharpness < 400);
+HXDLIN(1571)									_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1571)									bool positions1;
+HXDLIN(1571)									if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1571)										positions1 = (_gthis->sharpness < 400);
             									}
             									else {
-HXLINE(1598)										positions1 = true;
+HXLINE(1571)										positions1 = true;
             									}
-HXDLIN(1598)									_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1598)									 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1598)									_gthis1->set_text(text.substring(textIndex,endIndex1));
-HXDLIN(1598)									positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1598)									Float width = ((Float)0.0);
-HXDLIN(1598)									{
-HXLINE(1598)										int _g = 0;
-HXDLIN(1598)										while((_g < positions->length)){
-HXLINE(1598)											 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1598)											_g = (_g + 1);
-HXDLIN(1598)											width = (width + position->advance->x);
+HXDLIN(1571)									_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1571)									 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1571)									_gthis1->set_text(text.substring(textIndex,endIndex1));
+HXDLIN(1571)									positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1571)									Float width = ((Float)0.0);
+HXDLIN(1571)									int _g = 0;
+HXDLIN(1571)									while((_g < positions->length)){
+HXLINE(1571)										 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1571)										_g = (_g + 1);
+HXDLIN(1571)										width = (width + position->advance->x);
+            									}
+HXDLIN(1571)									widthValue = width;
+HXDLIN(1571)									bool _hx_tmp;
+HXDLIN(1571)									if (::hx::IsNotNull( layoutGroup )) {
+HXLINE(1571)										_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
+            									}
+            									else {
+HXLINE(1571)										_hx_tmp = true;
+            									}
+HXDLIN(1571)									if (_hx_tmp) {
+HXLINE( 923)										layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,endIndex1);
+HXLINE(1571)										_gthis->layoutGroups->push(layoutGroup);
+            									}
+            									else {
+HXLINE(1571)										layoutGroup->format = formatRange->format;
+HXDLIN(1571)										layoutGroup->startIndex = textIndex;
+HXDLIN(1571)										layoutGroup->endIndex = endIndex1;
+            									}
+HXDLIN(1571)									layoutGroup->positions = positions;
+HXDLIN(1571)									layoutGroup->offsetX = offsetX;
+HXDLIN(1571)									layoutGroup->ascent = ascent;
+HXDLIN(1571)									layoutGroup->descent = descent;
+HXDLIN(1571)									layoutGroup->leading = leading;
+HXDLIN(1571)									layoutGroup->lineIndex = lineIndex;
+HXDLIN(1571)									layoutGroup->offsetY = offsetY;
+HXDLIN(1571)									layoutGroup->width = widthValue;
+HXDLIN(1571)									layoutGroup->height = ( (Float)(heightValue) );
+HXDLIN(1571)									offsetX = (offsetX + widthValue);
+HXDLIN(1571)									if ((endIndex1 == formatRange->end)) {
+HXLINE(1108)										layoutGroup = null();
+HXLINE(1571)										if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1571)											rangeIndex = (rangeIndex + 1);
+HXDLIN(1571)											formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1571)											currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)											font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
             										}
-            									}
-HXDLIN(1598)									widthValue = width;
-HXDLIN(1598)									bool _hx_tmp;
-HXDLIN(1598)									if (::hx::IsNotNull( layoutGroup )) {
-HXLINE(1598)										_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
-            									}
-            									else {
-HXLINE(1598)										_hx_tmp = true;
-            									}
-HXDLIN(1598)									if (_hx_tmp) {
-HXLINE(1598)										layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,endIndex1);
-HXDLIN(1598)										_gthis->layoutGroups->push(layoutGroup);
-            									}
-            									else {
-HXLINE(1598)										layoutGroup->format = formatRange->format;
-HXDLIN(1598)										layoutGroup->startIndex = textIndex;
-HXDLIN(1598)										layoutGroup->endIndex = endIndex1;
-            									}
-HXDLIN(1598)									layoutGroup->positions = positions;
-HXDLIN(1598)									int _hx_tmp1;
-HXDLIN(1598)									if (firstLineOfParagraph) {
-HXLINE(1598)										_hx_tmp1 = indent;
-            									}
-            									else {
-HXLINE(1598)										_hx_tmp1 = 0;
-            									}
-HXDLIN(1598)									layoutGroup->offsetX = (offsetX + ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp1)) ));
-HXDLIN(1598)									layoutGroup->ascent = ascent;
-HXDLIN(1598)									layoutGroup->descent = descent;
-HXDLIN(1598)									layoutGroup->leading = leading;
-HXDLIN(1598)									layoutGroup->lineIndex = lineIndex;
-HXDLIN(1598)									layoutGroup->offsetY = (offsetY + 2);
-HXDLIN(1598)									layoutGroup->width = widthValue;
-HXDLIN(1598)									layoutGroup->height = ( (Float)(heightValue) );
-HXDLIN(1598)									offsetX = (offsetX + widthValue);
-HXDLIN(1598)									if ((endIndex1 == formatRange->end)) {
-HXLINE(1598)										layoutGroup = null();
-HXDLIN(1598)										if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1598)											rangeIndex = (rangeIndex + 1);
-HXDLIN(1598)											formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1598)											currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1598)											font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-            										}
-HXDLIN(1598)										{
-HXLINE(1598)											if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
-HXLINE(1598)												ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
-HXDLIN(1598)												descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
+HXLINE(1571)										{
+HXLINE(1571)											if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
+HXLINE( 939)												ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
+HXLINE( 940)												descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
             											}
             											else {
-HXLINE(1598)												bool _hx_tmp;
-HXDLIN(1598)												if (::hx::IsNotNull( font )) {
-HXLINE(1598)													_hx_tmp = (font->unitsPerEM != 0);
+HXLINE(1571)												bool _hx_tmp;
+HXDLIN(1571)												if (::hx::IsNotNull( font )) {
+HXLINE(1571)													_hx_tmp = (font->unitsPerEM != 0);
             												}
             												else {
-HXLINE(1598)													_hx_tmp = false;
+HXLINE(1571)													_hx_tmp = false;
             												}
-HXDLIN(1598)												if (_hx_tmp) {
-HXLINE(1598)													ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
-HXDLIN(1598)													descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
+HXDLIN(1571)												if (_hx_tmp) {
+HXLINE( 945)													ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
+HXLINE( 946)													descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
             												}
             												else {
-HXLINE(1598)													ascent = ( (Float)(currentFormat->size) );
-HXDLIN(1598)													descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
+HXLINE( 951)													ascent = ( (Float)(currentFormat->size) );
+HXLINE( 952)													descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
             												}
             											}
-HXDLIN(1598)											leading = ( (int)(currentFormat->leading) );
-HXDLIN(1598)											heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
-HXDLIN(1598)											if ((heightValue > maxHeightValue)) {
-HXLINE(1598)												maxHeightValue = heightValue;
+HXLINE( 955)											leading = ( (int)(currentFormat->leading) );
+HXLINE( 957)											heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
+HXLINE(1571)											if ((heightValue > maxHeightValue)) {
+HXLINE( 961)												maxHeightValue = heightValue;
             											}
-HXDLIN(1598)											if ((ascent > maxAscent)) {
-HXLINE(1598)												maxAscent = ascent;
+HXLINE(1571)											if ((ascent > maxAscent)) {
+HXLINE( 966)												maxAscent = ascent;
             											}
             										}
             									}
             								}
             								else {
-HXLINE(1598)									while(true){
-HXLINE(1598)										int tempRangeEnd;
-HXDLIN(1598)										if ((endIndex1 < formatRange->end)) {
-HXLINE(1598)											tempRangeEnd = endIndex1;
+HXLINE(1571)									while(true){
+HXLINE(1571)										int tempRangeEnd;
+HXDLIN(1571)										if ((endIndex1 < formatRange->end)) {
+HXLINE(1571)											tempRangeEnd = endIndex1;
             										}
             										else {
-HXLINE(1598)											tempRangeEnd = formatRange->end;
+HXLINE(1571)											tempRangeEnd = formatRange->end;
             										}
-HXDLIN(1598)										if ((textIndex != tempRangeEnd)) {
-HXLINE(1598)											::String text = _gthis->text;
-HXDLIN(1598)											Float letterSpacing = ((Float)0.0);
-HXDLIN(1598)											if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
-HXLINE(1598)												letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
+HXDLIN(1571)										if ((textIndex != tempRangeEnd)) {
+HXLINE(1571)											::String text = _gthis->text;
+HXDLIN(1571)											Float letterSpacing = ((Float)0.0);
+HXDLIN(1571)											if (::hx::IsNotNull( formatRange->format->letterSpacing )) {
+HXLINE( 788)												letterSpacing = ( (Float)(formatRange->format->letterSpacing) );
             											}
-HXDLIN(1598)											if (::hx::IsNull( _gthis->_hx___textLayout )) {
-HXLINE(1598)												_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
+HXLINE(1571)											if (::hx::IsNull( _gthis->_hx___textLayout )) {
+HXLINE(1571)												_gthis->_hx___textLayout =  ::openfl::text::_internal::TextLayout_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null());
             											}
-HXDLIN(1598)											_gthis->_hx___textLayout->set_text(null());
-HXDLIN(1598)											_gthis->_hx___textLayout->set_font(font);
-HXDLIN(1598)											if (::hx::IsNotNull( formatRange->format->size )) {
-HXLINE(1598)												_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
+HXDLIN(1571)											_gthis->_hx___textLayout->set_text(null());
+HXDLIN(1571)											_gthis->_hx___textLayout->set_font(font);
+HXDLIN(1571)											if (::hx::IsNotNull( formatRange->format->size )) {
+HXLINE(1571)												_gthis->_hx___textLayout->set_size(( (int)(formatRange->format->size) ));
             											}
-HXDLIN(1598)											_gthis->_hx___textLayout->letterSpacing = letterSpacing;
-HXDLIN(1598)											bool positions1;
-HXDLIN(1598)											if (::hx::IsEq( _gthis->antiAliasType,0 )) {
-HXLINE(1598)												positions1 = (_gthis->sharpness < 400);
+HXDLIN(1571)											_gthis->_hx___textLayout->letterSpacing = letterSpacing;
+HXDLIN(1571)											bool positions1;
+HXDLIN(1571)											if (::hx::IsEq( _gthis->antiAliasType,0 )) {
+HXLINE(1571)												positions1 = (_gthis->sharpness < 400);
             											}
             											else {
-HXLINE(1598)												positions1 = true;
+HXLINE(1571)												positions1 = true;
             											}
-HXDLIN(1598)											_gthis->_hx___textLayout->autoHint = positions1;
-HXDLIN(1598)											 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
-HXDLIN(1598)											_gthis1->set_text(text.substring(textIndex,tempRangeEnd));
-HXDLIN(1598)											positions = _gthis->_hx___shapeCache->cache(formatRange,_gthis->_hx___textLayout);
-HXDLIN(1598)											Float width = ((Float)0.0);
-HXDLIN(1598)											{
-HXLINE(1598)												int _g = 0;
-HXDLIN(1598)												while((_g < positions->length)){
-HXLINE(1598)													 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN(1598)													_g = (_g + 1);
-HXDLIN(1598)													width = (width + position->advance->x);
-            												}
+HXDLIN(1571)											_gthis->_hx___textLayout->autoHint = positions1;
+HXDLIN(1571)											 ::openfl::text::_internal::TextLayout _gthis1 = _gthis->_hx___textLayout;
+HXDLIN(1571)											_gthis1->set_text(text.substring(textIndex,tempRangeEnd));
+HXDLIN(1571)											positions = _gthis->_hx___textLayout->get_positions();
+HXDLIN(1571)											Float width = ((Float)0.0);
+HXDLIN(1571)											int _g = 0;
+HXDLIN(1571)											while((_g < positions->length)){
+HXLINE(1571)												 ::openfl::text::_internal::GlyphPosition position = positions->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN(1571)												_g = (_g + 1);
+HXDLIN(1571)												width = (width + position->advance->x);
             											}
-HXDLIN(1598)											widthValue = width;
-HXDLIN(1598)											bool _hx_tmp;
-HXDLIN(1598)											if (::hx::IsNotNull( layoutGroup )) {
-HXLINE(1598)												_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
+HXDLIN(1571)											widthValue = width;
+HXDLIN(1571)											bool _hx_tmp;
+HXDLIN(1571)											if (::hx::IsNotNull( layoutGroup )) {
+HXLINE(1571)												_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
             											}
             											else {
-HXLINE(1598)												_hx_tmp = true;
+HXLINE(1571)												_hx_tmp = true;
             											}
-HXDLIN(1598)											if (_hx_tmp) {
-HXLINE(1598)												layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,tempRangeEnd);
-HXDLIN(1598)												_gthis->layoutGroups->push(layoutGroup);
-            											}
-            											else {
-HXLINE(1598)												layoutGroup->format = formatRange->format;
-HXDLIN(1598)												layoutGroup->startIndex = textIndex;
-HXDLIN(1598)												layoutGroup->endIndex = tempRangeEnd;
-            											}
-HXDLIN(1598)											layoutGroup->positions = positions;
-HXDLIN(1598)											int _hx_tmp1;
-HXDLIN(1598)											if (firstLineOfParagraph) {
-HXLINE(1598)												_hx_tmp1 = indent;
+HXDLIN(1571)											if (_hx_tmp) {
+HXLINE( 923)												layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,tempRangeEnd);
+HXLINE(1571)												_gthis->layoutGroups->push(layoutGroup);
             											}
             											else {
-HXLINE(1598)												_hx_tmp1 = 0;
+HXLINE(1571)												layoutGroup->format = formatRange->format;
+HXDLIN(1571)												layoutGroup->startIndex = textIndex;
+HXDLIN(1571)												layoutGroup->endIndex = tempRangeEnd;
             											}
-HXDLIN(1598)											layoutGroup->offsetX = (offsetX + ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp1)) ));
-HXDLIN(1598)											layoutGroup->ascent = ascent;
-HXDLIN(1598)											layoutGroup->descent = descent;
-HXDLIN(1598)											layoutGroup->leading = leading;
-HXDLIN(1598)											layoutGroup->lineIndex = lineIndex;
-HXDLIN(1598)											layoutGroup->offsetY = (offsetY + 2);
-HXDLIN(1598)											layoutGroup->width = widthValue;
-HXDLIN(1598)											layoutGroup->height = ( (Float)(heightValue) );
-HXDLIN(1598)											offsetX = (offsetX + widthValue);
-HXDLIN(1598)											textIndex = tempRangeEnd;
+HXDLIN(1571)											layoutGroup->positions = positions;
+HXDLIN(1571)											layoutGroup->offsetX = offsetX;
+HXDLIN(1571)											layoutGroup->ascent = ascent;
+HXDLIN(1571)											layoutGroup->descent = descent;
+HXDLIN(1571)											layoutGroup->leading = leading;
+HXDLIN(1571)											layoutGroup->lineIndex = lineIndex;
+HXDLIN(1571)											layoutGroup->offsetY = offsetY;
+HXDLIN(1571)											layoutGroup->width = widthValue;
+HXDLIN(1571)											layoutGroup->height = ( (Float)(heightValue) );
+HXDLIN(1571)											offsetX = (offsetX + widthValue);
+HXLINE(1140)											textIndex = tempRangeEnd;
             										}
-HXDLIN(1598)										if ((tempRangeEnd == formatRange->end)) {
-HXLINE(1598)											layoutGroup = null();
+HXLINE(1571)										if ((tempRangeEnd == formatRange->end)) {
+HXLINE(1143)											layoutGroup = null();
             										}
-HXDLIN(1598)										if ((tempRangeEnd == endIndex1)) {
-HXLINE(1598)											goto _hx_goto_114;
+HXLINE(1571)										if ((tempRangeEnd == endIndex1)) {
+HXLINE(1571)											goto _hx_goto_109;
             										}
-HXDLIN(1598)										bool _hx_tmp;
-HXDLIN(1598)										if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
-HXLINE(1598)											rangeIndex = (rangeIndex + 1);
-HXDLIN(1598)											formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
-HXDLIN(1598)											currentFormat->_hx___merge(formatRange->format);
-HXDLIN(1598)											font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
-HXDLIN(1598)											_hx_tmp = true;
+HXDLIN(1571)										bool _hx_tmp;
+HXDLIN(1571)										if ((rangeIndex < (_gthis->textFormatRanges->get_length() - 1))) {
+HXLINE(1571)											rangeIndex = (rangeIndex + 1);
+HXDLIN(1571)											formatRange = _gthis->textFormatRanges->get(rangeIndex).StaticCast<  ::openfl::text::_internal::TextFormatRange >();
+HXDLIN(1571)											currentFormat->_hx___merge(formatRange->format);
+HXLINE(1022)											font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(currentFormat);
+HXLINE(1571)											_hx_tmp = true;
             										}
             										else {
-HXLINE(1598)											_hx_tmp = false;
+HXLINE(1571)											_hx_tmp = false;
             										}
-HXDLIN(1598)										if (!(_hx_tmp)) {
-HXLINE(1598)											::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1180,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
-HXDLIN(1598)											goto _hx_goto_114;
+HXDLIN(1571)										if (!(_hx_tmp)) {
+HXLINE(1571)											::lime::utils::Log_obj::warn(HX_("You found a bug in OpenFL's text code! Please save a copy of your project and contact Joshua Granick (@singmajesty) so we can fix this.",08,e2,e2,42),::hx::SourceInfo(HX_("openfl/text/_internal/TextEngine.hx",39,18,5e,b8),1149,HX_("openfl.text._internal.TextEngine",04,88,80,7e),HX_("getLayoutGroups",54,f8,56,5a)));
+HXDLIN(1571)											goto _hx_goto_109;
             										}
-HXDLIN(1598)										{
-HXLINE(1598)											if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
-HXLINE(1598)												ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
-HXDLIN(1598)												descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
+HXDLIN(1571)										{
+HXLINE(1571)											if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
+HXLINE( 939)												ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
+HXLINE( 940)												descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
             											}
             											else {
-HXLINE(1598)												bool _hx_tmp;
-HXDLIN(1598)												if (::hx::IsNotNull( font )) {
-HXLINE(1598)													_hx_tmp = (font->unitsPerEM != 0);
+HXLINE(1571)												bool _hx_tmp;
+HXDLIN(1571)												if (::hx::IsNotNull( font )) {
+HXLINE(1571)													_hx_tmp = (font->unitsPerEM != 0);
             												}
             												else {
-HXLINE(1598)													_hx_tmp = false;
+HXLINE(1571)													_hx_tmp = false;
             												}
-HXDLIN(1598)												if (_hx_tmp) {
-HXLINE(1598)													ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
-HXDLIN(1598)													descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
+HXDLIN(1571)												if (_hx_tmp) {
+HXLINE( 945)													ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
+HXLINE( 946)													descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
             												}
             												else {
-HXLINE(1598)													ascent = ( (Float)(currentFormat->size) );
-HXDLIN(1598)													descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
+HXLINE( 951)													ascent = ( (Float)(currentFormat->size) );
+HXLINE( 952)													descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
             												}
             											}
-HXDLIN(1598)											leading = ( (int)(currentFormat->leading) );
-HXDLIN(1598)											heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
-HXDLIN(1598)											if ((heightValue > maxHeightValue)) {
-HXLINE(1598)												maxHeightValue = heightValue;
+HXLINE( 955)											leading = ( (int)(currentFormat->leading) );
+HXLINE( 957)											heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
+HXLINE(1571)											if ((heightValue > maxHeightValue)) {
+HXLINE( 961)												maxHeightValue = heightValue;
             											}
-HXDLIN(1598)											if ((ascent > maxAscent)) {
-HXLINE(1598)												maxAscent = ascent;
+HXLINE(1571)											if ((ascent > maxAscent)) {
+HXLINE( 966)												maxAscent = ascent;
             											}
             										}
             									}
-            									_hx_goto_114:;
+            									_hx_goto_109:;
             								}
-HXDLIN(1598)								textIndex = endIndex1;
+HXLINE(1157)								textIndex = endIndex1;
             							}
             						}
-HXLINE(1600)						{
-HXLINE(1600)							{
-HXLINE(1600)								if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
-HXLINE(1600)									ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
-HXDLIN(1600)									descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
+HXLINE(1573)						{
+HXLINE(1573)							{
+HXLINE(1573)								if (::hx::IsNotNull( currentFormat->_hx___ascent )) {
+HXLINE( 939)									ascent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___ascent) ));
+HXLINE( 940)									descent = (( (Float)(currentFormat->size) ) * ( (Float)(currentFormat->_hx___descent) ));
             								}
             								else {
-HXLINE(1600)									bool _hx_tmp;
-HXDLIN(1600)									if (::hx::IsNotNull( font )) {
-HXLINE(1600)										_hx_tmp = (font->unitsPerEM != 0);
+HXLINE(1573)									bool _hx_tmp;
+HXDLIN(1573)									if (::hx::IsNotNull( font )) {
+HXLINE(1573)										_hx_tmp = (font->unitsPerEM != 0);
             									}
             									else {
-HXLINE(1600)										_hx_tmp = false;
+HXLINE(1573)										_hx_tmp = false;
             									}
-HXDLIN(1600)									if (_hx_tmp) {
-HXLINE(1600)										ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
-HXDLIN(1600)										descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
+HXDLIN(1573)									if (_hx_tmp) {
+HXLINE( 945)										ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) ));
+HXLINE( 946)										descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(currentFormat->size) )));
             									}
             									else {
-HXLINE(1600)										ascent = ( (Float)(currentFormat->size) );
-HXDLIN(1600)										descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
+HXLINE( 951)										ascent = ( (Float)(currentFormat->size) );
+HXLINE( 952)										descent = (( (Float)(currentFormat->size) ) * ((Float)0.185));
             									}
             								}
-HXDLIN(1600)								leading = ( (int)(currentFormat->leading) );
-HXDLIN(1600)								heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
-HXDLIN(1600)								if ((heightValue > maxHeightValue)) {
-HXLINE(1600)									maxHeightValue = heightValue;
+HXLINE( 955)								leading = ( (int)(currentFormat->leading) );
+HXLINE( 957)								heightValue = ::Math_obj::ceil(((ascent + descent) + leading));
+HXLINE(1573)								if ((heightValue > maxHeightValue)) {
+HXLINE( 961)									maxHeightValue = heightValue;
             								}
-HXDLIN(1600)								if ((ascent > maxAscent)) {
-HXLINE(1600)									maxAscent = ascent;
+HXLINE(1573)								if ((ascent > maxAscent)) {
+HXLINE( 966)									maxAscent = ascent;
             								}
             							}
-HXDLIN(1600)							int i = _gthis->layoutGroups->get_length();
-HXDLIN(1600)							while(true){
-HXLINE(1600)								i = (i - 1);
-HXDLIN(1600)								if (!((i > -1))) {
-HXLINE(1600)									goto _hx_goto_116;
+HXLINE(1573)							int i = _gthis->layoutGroups->get_length();
+HXDLIN(1573)							while(true){
+HXLINE(1573)								i = (i - 1);
+HXDLIN(1573)								if (!((i > -1))) {
+HXLINE(1573)									goto _hx_goto_111;
             								}
-HXDLIN(1600)								 ::openfl::text::_internal::TextLayoutGroup lg = _gthis->layoutGroups->get(i).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
-HXDLIN(1600)								if ((lg->lineIndex < lineIndex)) {
-HXLINE(1600)									goto _hx_goto_116;
+HXDLIN(1573)								 ::openfl::text::_internal::TextLayoutGroup lg = _gthis->layoutGroups->get(i).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
+HXDLIN(1573)								if ((lg->lineIndex < lineIndex)) {
+HXLINE(1573)									goto _hx_goto_111;
             								}
-HXDLIN(1600)								if ((lg->lineIndex > lineIndex)) {
-HXLINE(1600)									continue;
+HXDLIN(1573)								if ((lg->lineIndex > lineIndex)) {
+HXLINE(1573)									continue;
             								}
-HXDLIN(1600)								lg->ascent = maxAscent;
-HXDLIN(1600)								lg->height = ( (Float)(maxHeightValue) );
+HXDLIN(1573)								lg->ascent = maxAscent;
+HXDLIN(1573)								lg->height = ( (Float)(maxHeightValue) );
             							}
-            							_hx_goto_116:;
-HXDLIN(1600)							offsetY = (offsetY + maxHeightValue);
-HXDLIN(1600)							maxAscent = ((Float)0.0);
-HXDLIN(1600)							maxHeightValue = 0;
-HXDLIN(1600)							lineIndex = (lineIndex + 1);
-HXDLIN(1600)							offsetX = ( (Float)(0) );
-HXDLIN(1600)							firstLineOfParagraph = false;
+            							_hx_goto_111:;
+HXDLIN(1573)							offsetY = (offsetY + maxHeightValue);
+HXLINE(1182)							maxAscent = ((Float)0.0);
+HXLINE(1183)							maxHeightValue = 0;
+HXLINE(1573)							lineIndex = (lineIndex + 1);
+HXLINE(1186)							offsetX = ( (Float)(2) );
             						}
             					}
-HXLINE(1603)					textIndex = (textIndex + 1);
+HXLINE(1576)					textIndex = (textIndex + 1);
             				}
             			}
             		}
-HXLINE(1608)		bool _hx_tmp3;
-HXDLIN(1608)		if ((previousBreakIndex == (textIndex - 2))) {
-HXLINE(1608)			_hx_tmp3 = (previousBreakIndex > -1);
+HXLINE(1581)		bool _hx_tmp5;
+HXDLIN(1581)		if ((previousBreakIndex == (textIndex - 2))) {
+HXLINE(1581)			_hx_tmp5 = (previousBreakIndex > -1);
             		}
             		else {
-HXLINE(1608)			_hx_tmp3 = false;
+HXLINE(1581)			_hx_tmp5 = false;
             		}
-HXDLIN(1608)		if (_hx_tmp3) {
-HXLINE(1610)			{
-HXLINE(1610)				int startIndex = (textIndex - 1);
-HXDLIN(1610)				int endIndex = (textIndex - 1);
-HXDLIN(1610)				bool _hx_tmp;
-HXDLIN(1610)				if (::hx::IsNotNull( layoutGroup )) {
-HXLINE(1610)					_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
-            				}
-            				else {
-HXLINE(1610)					_hx_tmp = true;
-            				}
-HXDLIN(1610)				if (_hx_tmp) {
-HXLINE(1610)					layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,startIndex,endIndex);
-HXDLIN(1610)					_gthis->layoutGroups->push(layoutGroup);
-            				}
-            				else {
-HXLINE(1610)					layoutGroup->format = formatRange->format;
-HXDLIN(1610)					layoutGroup->startIndex = startIndex;
-HXDLIN(1610)					layoutGroup->endIndex = endIndex;
-            				}
-            			}
-HXLINE(1612)			layoutGroup->positions = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE(1613)			layoutGroup->ascent = ascent;
-HXLINE(1614)			layoutGroup->descent = descent;
-HXLINE(1615)			layoutGroup->leading = leading;
-HXLINE(1616)			layoutGroup->lineIndex = lineIndex;
-HXLINE(1617)			int _hx_tmp1;
-HXDLIN(1617)			if (firstLineOfParagraph) {
-HXLINE(1617)				_hx_tmp1 = indent;
+HXDLIN(1581)		if (_hx_tmp5) {
+HXLINE(1583)			bool _hx_tmp;
+HXDLIN(1583)			if (::hx::IsNotNull( layoutGroup )) {
+HXLINE(1583)				_hx_tmp = (layoutGroup->startIndex != layoutGroup->endIndex);
             			}
             			else {
-HXLINE(1617)				_hx_tmp1 = 0;
+HXLINE(1583)				_hx_tmp = true;
             			}
-HXDLIN(1617)			layoutGroup->offsetX = ( (Float)((((2 + leftMargin) + blockIndent) + _hx_tmp1)) );
-HXLINE(1618)			layoutGroup->offsetY = (offsetY + 2);
-HXLINE(1619)			layoutGroup->width = ( (Float)(0) );
-HXLINE(1620)			Float _hx_tmp2;
-HXDLIN(1620)			if ((::openfl::text::_TextFieldType::TextFieldType_Impl__obj::toString(this->type) == HX_("input",0a,c4,1d,be))) {
-HXLINE(1620)				_hx_tmp2 = ( (Float)(heightValue) );
+HXDLIN(1583)			if (_hx_tmp) {
+HXLINE( 923)				layoutGroup =  ::openfl::text::_internal::TextLayoutGroup_obj::__alloc( HX_CTX ,formatRange->format,textIndex,textIndex);
+HXLINE(1583)				_gthis->layoutGroups->push(layoutGroup);
             			}
             			else {
-HXLINE(1620)				_hx_tmp2 = ( (Float)(0) );
+HXLINE(1583)				layoutGroup->format = formatRange->format;
+HXDLIN(1583)				layoutGroup->startIndex = textIndex;
+HXDLIN(1583)				layoutGroup->endIndex = textIndex;
             			}
-HXDLIN(1620)			layoutGroup->height = _hx_tmp2;
+HXLINE(1585)			layoutGroup->positions = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(1586)			layoutGroup->ascent = ascent;
+HXLINE(1587)			layoutGroup->descent = descent;
+HXLINE(1588)			layoutGroup->leading = leading;
+HXLINE(1589)			layoutGroup->lineIndex = lineIndex;
+HXLINE(1590)			layoutGroup->offsetX = ( (Float)(2) );
+HXLINE(1591)			layoutGroup->offsetY = offsetY;
+HXLINE(1592)			layoutGroup->width = ( (Float)(0) );
+HXLINE(1593)			layoutGroup->height = ( (Float)(heightValue) );
             		}
             	}
 
@@ -6305,133 +5615,133 @@ HXDLIN(1620)			layoutGroup->height = _hx_tmp2;
 HX_DEFINE_DYNAMIC_FUNC0(TextEngine_obj,getLayoutGroups,(void))
 
 ::String TextEngine_obj::restrictText(::String value){
-            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_1632_restrictText)
-HXLINE(1633)		if (::hx::IsNull( value )) {
-HXLINE(1635)			return value;
+            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_1605_restrictText)
+HXLINE(1606)		if (::hx::IsNull( value )) {
+HXLINE(1608)			return value;
             		}
-HXLINE(1638)		if (::hx::IsNotNull( this->_hx___restrictRegexp )) {
-HXLINE(1640)			value = this->_hx___restrictRegexp->split(value)->join(HX_("",00,00,00,00));
+HXLINE(1611)		if (::hx::IsNotNull( this->_hx___restrictRegexp )) {
+HXLINE(1613)			value = this->_hx___restrictRegexp->split(value)->join(HX_("",00,00,00,00));
             		}
-HXLINE(1649)		return value;
+HXLINE(1622)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextEngine_obj,restrictText,return )
 
 void TextEngine_obj::setTextAlignment(){
-            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_1653_setTextAlignment)
-HXLINE(1654)		int lineIndex = -1;
-HXLINE(1655)		Float offsetX = ((Float)0.0);
-HXLINE(1656)		Float totalWidth = (this->width - ( (Float)(4) ));
-HXLINE(1657)		 ::openfl::text::_internal::TextLayoutGroup group;
-HXDLIN(1657)		int lineLength;
-HXLINE(1658)		bool lineMeasurementsDirty = false;
-HXLINE(1660)		{
-HXLINE(1660)			int _g = 0;
-HXDLIN(1660)			int _g1 = this->layoutGroups->get_length();
-HXDLIN(1660)			while((_g < _g1)){
-HXLINE(1660)				_g = (_g + 1);
-HXDLIN(1660)				int i = (_g - 1);
-HXLINE(1662)				group = this->layoutGroups->get(i).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
-HXLINE(1664)				if ((group->lineIndex != lineIndex)) {
-HXLINE(1666)					lineIndex = group->lineIndex;
-HXLINE(1667)					totalWidth = ((this->width - ( (Float)(4) )) - ( (Float)(group->format->rightMargin) ));
-HXLINE(1669)					 ::Dynamic _hx_switch_0 = group->format->align;
+            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_1626_setTextAlignment)
+HXLINE(1627)		int lineIndex = -1;
+HXLINE(1628)		Float offsetX = ((Float)0.0);
+HXLINE(1629)		Float totalWidth = (this->width - ( (Float)(4) ));
+HXLINE(1630)		 ::openfl::text::_internal::TextLayoutGroup group;
+HXDLIN(1630)		int lineLength;
+HXLINE(1631)		bool lineMeasurementsDirty = false;
+HXLINE(1633)		{
+HXLINE(1633)			int _g = 0;
+HXDLIN(1633)			int _g1 = this->layoutGroups->get_length();
+HXDLIN(1633)			while((_g < _g1)){
+HXLINE(1633)				_g = (_g + 1);
+HXDLIN(1633)				int i = (_g - 1);
+HXLINE(1635)				group = this->layoutGroups->get(i).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
+HXLINE(1637)				if ((group->lineIndex != lineIndex)) {
+HXLINE(1639)					lineIndex = group->lineIndex;
+HXLINE(1640)					totalWidth = ((this->width - ( (Float)(4) )) - ( (Float)(group->format->rightMargin) ));
+HXLINE(1642)					 ::Dynamic _hx_switch_0 = group->format->align;
             					if (  (_hx_switch_0==0) ){
-HXLINE(1672)						if ((this->lineWidths->get(lineIndex) < totalWidth)) {
-HXLINE(1674)							offsetX = ( (Float)(::Math_obj::round(((totalWidth - this->lineWidths->get(lineIndex)) / ( (Float)(2) )))) );
+HXLINE(1645)						if ((this->lineWidths->get(lineIndex) < totalWidth)) {
+HXLINE(1647)							offsetX = ( (Float)(::Math_obj::round(((totalWidth - this->lineWidths->get(lineIndex)) / ( (Float)(2) )))) );
             						}
             						else {
-HXLINE(1678)							offsetX = ( (Float)(0) );
+HXLINE(1651)							offsetX = ( (Float)(0) );
             						}
-HXLINE(1672)						goto _hx_goto_120;
+HXLINE(1645)						goto _hx_goto_115;
             					}
             					if (  (_hx_switch_0==2) ){
-HXLINE(1692)						if ((this->lineWidths->get(lineIndex) < totalWidth)) {
-HXLINE(1694)							lineLength = 1;
-HXLINE(1696)							{
-HXLINE(1696)								int _g = (i + 1);
-HXDLIN(1696)								int _g1 = this->layoutGroups->get_length();
-HXDLIN(1696)								while((_g < _g1)){
-HXLINE(1696)									_g = (_g + 1);
-HXDLIN(1696)									int j = (_g - 1);
-HXLINE(1698)									if ((this->layoutGroups->get(j).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >()->lineIndex == lineIndex)) {
-HXLINE(1700)										bool _hx_tmp;
-HXDLIN(1700)										if ((j != 0)) {
-HXLINE(1700)											::String _hx_tmp1 = this->text;
-HXDLIN(1700)											_hx_tmp = ::hx::IsEq( _hx_tmp1.charCodeAt((this->layoutGroups->get(j).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >()->startIndex - 1)),32 );
+HXLINE(1665)						if ((this->lineWidths->get(lineIndex) < totalWidth)) {
+HXLINE(1667)							lineLength = 1;
+HXLINE(1669)							{
+HXLINE(1669)								int _g = (i + 1);
+HXDLIN(1669)								int _g1 = this->layoutGroups->get_length();
+HXDLIN(1669)								while((_g < _g1)){
+HXLINE(1669)									_g = (_g + 1);
+HXDLIN(1669)									int j = (_g - 1);
+HXLINE(1671)									if ((this->layoutGroups->get(j).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >()->lineIndex == lineIndex)) {
+HXLINE(1673)										bool _hx_tmp;
+HXDLIN(1673)										if ((j != 0)) {
+HXLINE(1673)											::String _hx_tmp1 = this->text;
+HXDLIN(1673)											_hx_tmp = ::hx::IsEq( _hx_tmp1.charCodeAt((this->layoutGroups->get(j).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >()->startIndex - 1)),32 );
             										}
             										else {
-HXLINE(1700)											_hx_tmp = true;
+HXLINE(1673)											_hx_tmp = true;
             										}
-HXDLIN(1700)										if (_hx_tmp) {
-HXLINE(1702)											lineLength = (lineLength + 1);
+HXDLIN(1673)										if (_hx_tmp) {
+HXLINE(1675)											lineLength = (lineLength + 1);
             										}
             									}
             									else {
-HXLINE(1707)										goto _hx_goto_121;
+HXLINE(1680)										goto _hx_goto_116;
             									}
             								}
-            								_hx_goto_121:;
+            								_hx_goto_116:;
             							}
-HXLINE(1711)							if ((lineLength > 1)) {
-HXLINE(1713)								group = this->layoutGroups->get(((i + lineLength) - 1)).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
-HXLINE(1715)								 ::Dynamic endChar = this->text.charCodeAt(group->endIndex);
-HXLINE(1716)								bool _hx_tmp;
-HXDLIN(1716)								bool _hx_tmp1;
-HXDLIN(1716)								if ((group->endIndex < this->text.length)) {
-HXLINE(1716)									_hx_tmp1 = ::hx::IsNotEq( endChar,10 );
+HXLINE(1684)							if ((lineLength > 1)) {
+HXLINE(1686)								group = this->layoutGroups->get(((i + lineLength) - 1)).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
+HXLINE(1688)								 ::Dynamic endChar = this->text.charCodeAt(group->endIndex);
+HXLINE(1689)								bool _hx_tmp;
+HXDLIN(1689)								bool _hx_tmp1;
+HXDLIN(1689)								if ((group->endIndex < this->text.length)) {
+HXLINE(1689)									_hx_tmp1 = ::hx::IsNotEq( endChar,10 );
             								}
             								else {
-HXLINE(1716)									_hx_tmp1 = false;
+HXLINE(1689)									_hx_tmp1 = false;
             								}
-HXDLIN(1716)								if (_hx_tmp1) {
-HXLINE(1716)									_hx_tmp = ::hx::IsNotEq( endChar,13 );
+HXDLIN(1689)								if (_hx_tmp1) {
+HXLINE(1689)									_hx_tmp = ::hx::IsNotEq( endChar,13 );
             								}
             								else {
-HXLINE(1716)									_hx_tmp = false;
+HXLINE(1689)									_hx_tmp = false;
             								}
-HXDLIN(1716)								if (_hx_tmp) {
-HXLINE(1718)									offsetX = ((totalWidth - this->lineWidths->get(lineIndex)) / ( (Float)((lineLength - 1)) ));
-HXLINE(1719)									lineMeasurementsDirty = true;
-HXLINE(1721)									int j = 1;
-HXLINE(1722)									while(true){
-HXLINE(1731)										 ::openfl::text::_internal::TextLayoutGroup _hx_tmp = this->layoutGroups->get((i + j)).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
-HXDLIN(1731)										_hx_tmp->offsetX = (_hx_tmp->offsetX + (offsetX * ( (Float)(j) )));
-HXLINE(1733)										j = (j + 1);
-HXLINE(1722)										if (!((j < lineLength))) {
-HXLINE(1722)											goto _hx_goto_122;
+HXDLIN(1689)								if (_hx_tmp) {
+HXLINE(1691)									offsetX = ((totalWidth - this->lineWidths->get(lineIndex)) / ( (Float)((lineLength - 1)) ));
+HXLINE(1692)									lineMeasurementsDirty = true;
+HXLINE(1694)									int j = 1;
+HXLINE(1695)									while(true){
+HXLINE(1704)										 ::openfl::text::_internal::TextLayoutGroup _hx_tmp = this->layoutGroups->get((i + j)).StaticCast<  ::openfl::text::_internal::TextLayoutGroup >();
+HXDLIN(1704)										_hx_tmp->offsetX = (_hx_tmp->offsetX + (offsetX * ( (Float)(j) )));
+HXLINE(1706)										j = (j + 1);
+HXLINE(1695)										if (!((j < lineLength))) {
+HXLINE(1695)											goto _hx_goto_117;
             										}
             									}
-            									_hx_goto_122:;
+            									_hx_goto_117:;
             								}
             							}
             						}
-HXLINE(1738)						offsetX = ( (Float)(0) );
-HXLINE(1691)						goto _hx_goto_120;
+HXLINE(1711)						offsetX = ( (Float)(0) );
+HXLINE(1664)						goto _hx_goto_115;
             					}
             					if (  (_hx_switch_0==4) ){
-HXLINE(1682)						if ((this->lineWidths->get(lineIndex) < totalWidth)) {
-HXLINE(1684)							offsetX = ( (Float)(::Math_obj::round((totalWidth - this->lineWidths->get(lineIndex)))) );
+HXLINE(1655)						if ((this->lineWidths->get(lineIndex) < totalWidth)) {
+HXLINE(1657)							offsetX = ( (Float)(::Math_obj::round((totalWidth - this->lineWidths->get(lineIndex)))) );
             						}
             						else {
-HXLINE(1688)							offsetX = ( (Float)(0) );
+HXLINE(1661)							offsetX = ( (Float)(0) );
             						}
-HXLINE(1682)						goto _hx_goto_120;
+HXLINE(1655)						goto _hx_goto_115;
             					}
             					/* default */{
-HXLINE(1741)						offsetX = ( (Float)(0) );
+HXLINE(1714)						offsetX = ( (Float)(0) );
             					}
-            					_hx_goto_120:;
+            					_hx_goto_115:;
             				}
-HXLINE(1745)				if ((offsetX > 0)) {
-HXLINE(1747)					 ::openfl::text::_internal::TextLayoutGroup group1 = group;
-HXDLIN(1747)					group1->offsetX = (group1->offsetX + offsetX);
+HXLINE(1718)				if ((offsetX > 0)) {
+HXLINE(1720)					 ::openfl::text::_internal::TextLayoutGroup group1 = group;
+HXDLIN(1720)					group1->offsetX = (group1->offsetX + offsetX);
             				}
             			}
             		}
-HXLINE(1751)		if (lineMeasurementsDirty) {
-HXLINE(1755)			this->getLineMeasurements();
+HXLINE(1724)		if (lineMeasurementsDirty) {
+HXLINE(1728)			this->getLineMeasurements();
             		}
             	}
 
@@ -6439,216 +5749,212 @@ HXLINE(1755)			this->getLineMeasurements();
 HX_DEFINE_DYNAMIC_FUNC0(TextEngine_obj,setTextAlignment,(void))
 
 ::String TextEngine_obj::trimText(::String value){
-            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_1760_trimText)
-HXLINE(1761)		if (::hx::IsNull( value )) {
-HXLINE(1763)			return value;
+            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_1733_trimText)
+HXLINE(1734)		if (::hx::IsNull( value )) {
+HXLINE(1736)			return value;
             		}
-HXLINE(1766)		bool _hx_tmp;
-HXDLIN(1766)		if ((this->maxChars > 0)) {
-HXLINE(1766)			_hx_tmp = (value.length > this->maxChars);
+HXLINE(1739)		bool _hx_tmp;
+HXDLIN(1739)		if ((this->maxChars > 0)) {
+HXLINE(1739)			_hx_tmp = (value.length > this->maxChars);
             		}
             		else {
-HXLINE(1766)			_hx_tmp = false;
+HXLINE(1739)			_hx_tmp = false;
             		}
-HXDLIN(1766)		if (_hx_tmp) {
-HXLINE(1768)			value = value.substr(0,this->maxChars);
+HXDLIN(1739)		if (_hx_tmp) {
+HXLINE(1741)			value = value.substr(0,this->maxChars);
             		}
-HXLINE(1771)		return value;
+HXLINE(1744)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextEngine_obj,trimText,return )
 
 void TextEngine_obj::update(){
-            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_1775_update)
-HXLINE(1776)		bool _hx_tmp;
-HXDLIN(1776)		if (::hx::IsNotNull( this->text )) {
-HXLINE(1776)			_hx_tmp = (this->textFormatRanges->get_length() == 0);
+            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_1748_update)
+HXLINE(1749)		bool _hx_tmp;
+HXDLIN(1749)		if (::hx::IsNotNull( this->text )) {
+HXLINE(1749)			_hx_tmp = (this->textFormatRanges->get_length() == 0);
             		}
             		else {
-HXLINE(1776)			_hx_tmp = true;
+HXLINE(1749)			_hx_tmp = true;
             		}
-HXDLIN(1776)		if (_hx_tmp) {
-HXLINE(1778)			this->lineAscents->set_length(0);
-HXLINE(1779)			this->lineBreaks->set_length(0);
-HXLINE(1780)			this->lineDescents->set_length(0);
-HXLINE(1781)			this->lineLeadings->set_length(0);
-HXLINE(1782)			this->lineHeights->set_length(0);
-HXLINE(1783)			this->lineWidths->set_length(0);
-HXLINE(1784)			this->layoutGroups->set_length(0);
-HXLINE(1786)			this->textWidth = ( (Float)(0) );
-HXLINE(1787)			this->textHeight = ( (Float)(0) );
-HXLINE(1788)			this->numLines = 1;
-HXLINE(1789)			this->maxScrollH = 0;
-HXLINE(1790)			this->maxScrollV = 1;
-HXLINE(1791)			this->bottomScrollV = 1;
+HXDLIN(1749)		if (_hx_tmp) {
+HXLINE(1751)			this->lineAscents->set_length(0);
+HXLINE(1752)			this->lineBreaks->set_length(0);
+HXLINE(1753)			this->lineDescents->set_length(0);
+HXLINE(1754)			this->lineLeadings->set_length(0);
+HXLINE(1755)			this->lineHeights->set_length(0);
+HXLINE(1756)			this->lineWidths->set_length(0);
+HXLINE(1757)			this->layoutGroups->set_length(0);
+HXLINE(1759)			this->textWidth = ( (Float)(0) );
+HXLINE(1760)			this->textHeight = ( (Float)(0) );
+HXLINE(1761)			this->numLines = 1;
+HXLINE(1762)			this->maxScrollH = 0;
+HXLINE(1763)			this->maxScrollV = 1;
+HXLINE(1764)			this->bottomScrollV = 1;
             		}
             		else {
-HXLINE(1795)			this->getLineBreaks();
-HXLINE(1796)			this->getLayoutGroups();
-HXLINE(1797)			this->getLineMeasurements();
-HXLINE(1798)			this->setTextAlignment();
+HXLINE(1768)			this->getLayoutGroups();
+HXLINE(1769)			this->getLineMeasurements();
+HXLINE(1770)			this->setTextAlignment();
             		}
-HXLINE(1801)		this->getBounds();
+HXLINE(1773)		this->getBounds();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextEngine_obj,update,(void))
 
 int TextEngine_obj::get_bottomScrollV(){
-            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_1808_get_bottomScrollV)
-HXDLIN(1808)		bool _hx_tmp;
-HXDLIN(1808)		if ((this->numLines != 1)) {
-HXDLIN(1808)			_hx_tmp = ::hx::IsNull( this->lineHeights );
+            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_1780_get_bottomScrollV)
+HXDLIN(1780)		bool _hx_tmp;
+HXDLIN(1780)		if ((this->numLines != 1)) {
+HXDLIN(1780)			_hx_tmp = ::hx::IsNull( this->lineHeights );
             		}
             		else {
-HXDLIN(1808)			_hx_tmp = true;
+HXDLIN(1780)			_hx_tmp = true;
             		}
-HXDLIN(1808)		if (_hx_tmp) {
-HXLINE(1810)			return 1;
+HXDLIN(1780)		if (_hx_tmp) {
+HXLINE(1782)			return 1;
             		}
             		else {
-HXLINE(1814)			int ret = this->lineHeights->get_length();
-HXLINE(1816)			Float tempHeight;
-HXDLIN(1816)			if ((this->lineLeadings->get_length() == ret)) {
-HXLINE(1816)				tempHeight = -(this->lineLeadings->get((ret - 1)));
-            			}
-            			else {
-HXLINE(1816)				tempHeight = ((Float)0.0);
-            			}
-HXLINE(1818)			{
-HXLINE(1818)				int _g = (this->get_scrollV() - 1);
-HXDLIN(1818)				int _g1 = this->lineHeights->get_length();
-HXDLIN(1818)				while((_g < _g1)){
-HXLINE(1818)					_g = (_g + 1);
-HXDLIN(1818)					int i = (_g - 1);
-HXLINE(1820)					Float _hx_tmp = (tempHeight + this->lineHeights->get(i));
-HXDLIN(1820)					if ((_hx_tmp <= (this->height - ( (Float)(4) )))) {
-HXLINE(1822)						tempHeight = (tempHeight + this->lineHeights->get(i));
+HXLINE(1786)			Float tempHeight = ((Float)0.0);
+HXLINE(1787)			int ret = this->lineHeights->get_length();
+HXLINE(1789)			{
+HXLINE(1789)				int _g = (ret - 1);
+HXDLIN(1789)				int _g1 = this->lineHeights->get_length();
+HXDLIN(1789)				while((_g < _g1)){
+HXLINE(1789)					_g = (_g + 1);
+HXDLIN(1789)					int i = (_g - 1);
+HXLINE(1791)					Float _hx_tmp = (tempHeight + this->lineHeights->get(i));
+HXDLIN(1791)					if ((_hx_tmp <= (this->height - ( (Float)(4) )))) {
+HXLINE(1793)						tempHeight = (tempHeight + this->lineHeights->get(i));
             					}
             					else {
-HXLINE(1826)						ret = i;
-HXLINE(1827)						goto _hx_goto_126;
+HXLINE(1797)						ret = i;
+HXLINE(1798)						goto _hx_goto_121;
             					}
             				}
-            				_hx_goto_126:;
+            				_hx_goto_121:;
             			}
-HXLINE(1831)			if ((ret < this->get_scrollV())) {
-HXLINE(1831)				return this->get_scrollV();
+HXLINE(1802)			if ((ret < 1)) {
+HXLINE(1802)				return 1;
             			}
-HXLINE(1832)			return ret;
+HXLINE(1803)			return ret;
             		}
-HXLINE(1808)		return 0;
+HXLINE(1780)		return 0;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextEngine_obj,get_bottomScrollV,return )
 
 int TextEngine_obj::get_maxScrollV(){
-            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_1839_get_maxScrollV)
-HXDLIN(1839)		bool _hx_tmp;
-HXDLIN(1839)		if ((this->numLines != 1)) {
-HXDLIN(1839)			_hx_tmp = ::hx::IsNull( this->lineHeights );
+            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_1810_get_maxScrollV)
+HXDLIN(1810)		bool _hx_tmp;
+HXDLIN(1810)		if ((this->numLines != 1)) {
+HXDLIN(1810)			_hx_tmp = ::hx::IsNull( this->lineHeights );
             		}
             		else {
-HXDLIN(1839)			_hx_tmp = true;
+HXDLIN(1810)			_hx_tmp = true;
             		}
-HXDLIN(1839)		if (_hx_tmp) {
-HXLINE(1841)			return 1;
+HXDLIN(1810)		if (_hx_tmp) {
+HXLINE(1812)			return 1;
             		}
             		else {
-HXLINE(1845)			int i = (this->numLines - 1);
-HXDLIN(1845)			Float tempHeight = ((Float)0.0);
-HXLINE(1846)			int j = i;
-HXLINE(1849)			while((i >= 0)){
-HXLINE(1851)				Float _hx_tmp = (tempHeight + this->lineHeights->get(i));
-HXDLIN(1851)				if ((_hx_tmp <= (this->height - ( (Float)(4) )))) {
-HXLINE(1853)					tempHeight = (tempHeight + this->lineHeights->get(i));
-HXLINE(1854)					i = (i - 1);
+HXLINE(1816)			int i = (this->numLines - 1);
+HXDLIN(1816)			Float tempHeight = ((Float)0.0);
+HXLINE(1818)			if (::hx::IsEq( this->text.charCodeAt((this->text.length - 1)),10 )) {
+HXLINE(1818)				i = (i - 1);
+            			}
+HXLINE(1819)			int j = i;
+HXLINE(1821)			while((i >= 0)){
+HXLINE(1823)				Float _hx_tmp = (tempHeight + this->lineHeights->get(i));
+HXDLIN(1823)				if ((_hx_tmp <= (this->height - ( (Float)(4) )))) {
+HXLINE(1825)					tempHeight = (tempHeight + this->lineHeights->get(i));
+HXLINE(1826)					i = (i - 1);
             				}
             				else {
-HXLINE(1857)					goto _hx_goto_128;
+HXLINE(1829)					goto _hx_goto_123;
             				}
             			}
-            			_hx_goto_128:;
-HXLINE(1860)			if ((i == j)) {
-HXLINE(1860)				i = this->numLines;
+            			_hx_goto_123:;
+HXLINE(1832)			if ((i == j)) {
+HXLINE(1832)				i = this->numLines;
             			}
             			else {
-HXLINE(1863)				i = (i + 2);
+HXLINE(1835)				i = (i + 2);
             			}
-HXLINE(1865)			if ((i < 1)) {
-HXLINE(1865)				return 1;
+HXLINE(1837)			if ((i < 1)) {
+HXLINE(1837)				return 1;
             			}
-HXLINE(1866)			return i;
+HXLINE(1838)			return i;
             		}
-HXLINE(1839)		return 0;
+HXLINE(1810)		return 0;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextEngine_obj,get_maxScrollV,return )
 
 ::String TextEngine_obj::set_restrict(::String value){
-            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_1871_set_restrict)
-HXLINE(1872)		if ((this->restrict == value)) {
-HXLINE(1874)			return this->restrict;
+            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_1843_set_restrict)
+HXLINE(1844)		if ((this->restrict == value)) {
+HXLINE(1846)			return this->restrict;
             		}
-HXLINE(1877)		this->restrict = value;
-HXLINE(1879)		bool _hx_tmp;
-HXDLIN(1879)		if (::hx::IsNotNull( this->restrict )) {
-HXLINE(1879)			_hx_tmp = (this->restrict.length == 0);
-            		}
-            		else {
-HXLINE(1879)			_hx_tmp = true;
-            		}
-HXDLIN(1879)		if (_hx_tmp) {
-HXLINE(1881)			this->_hx___restrictRegexp = null();
+HXLINE(1849)		this->restrict = value;
+HXLINE(1851)		bool _hx_tmp;
+HXDLIN(1851)		if (::hx::IsNotNull( this->restrict )) {
+HXLINE(1851)			_hx_tmp = (this->restrict.length == 0);
             		}
             		else {
-HXLINE(1885)			this->_hx___restrictRegexp = this->createRestrictRegexp(value);
+HXLINE(1851)			_hx_tmp = true;
             		}
-HXLINE(1888)		return this->restrict;
+HXDLIN(1851)		if (_hx_tmp) {
+HXLINE(1853)			this->_hx___restrictRegexp = null();
+            		}
+            		else {
+HXLINE(1857)			this->_hx___restrictRegexp = this->createRestrictRegexp(value);
+            		}
+HXLINE(1860)		return this->restrict;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextEngine_obj,set_restrict,return )
 
 int TextEngine_obj::get_scrollV(){
-            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_1892_get_scrollV)
-HXLINE(1893)		bool _hx_tmp;
-HXDLIN(1893)		if ((this->numLines != 1)) {
-HXLINE(1893)			_hx_tmp = ::hx::IsNull( this->lineHeights );
+            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_1864_get_scrollV)
+HXLINE(1865)		bool _hx_tmp;
+HXDLIN(1865)		if ((this->numLines != 1)) {
+HXLINE(1865)			_hx_tmp = ::hx::IsNull( this->lineHeights );
             		}
             		else {
-HXLINE(1893)			_hx_tmp = true;
+HXLINE(1865)			_hx_tmp = true;
             		}
-HXDLIN(1893)		if (_hx_tmp) {
-HXLINE(1893)			return 1;
+HXDLIN(1865)		if (_hx_tmp) {
+HXLINE(1865)			return 1;
             		}
-HXLINE(1895)		int max = this->get_maxScrollV();
-HXLINE(1896)		if ((this->scrollV > max)) {
-HXLINE(1896)			return max;
+HXLINE(1867)		int max = this->get_maxScrollV();
+HXLINE(1868)		if ((this->scrollV > max)) {
+HXLINE(1868)			return max;
             		}
-HXLINE(1897)		return this->scrollV;
+HXLINE(1869)		return this->scrollV;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextEngine_obj,get_scrollV,return )
 
 int TextEngine_obj::set_scrollV(int value){
-            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_1901_set_scrollV)
-HXLINE(1902)		if ((value < 1)) {
-HXLINE(1902)			value = 1;
+            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_1873_set_scrollV)
+HXLINE(1874)		if ((value < 1)) {
+HXLINE(1874)			value = 1;
             		}
-HXLINE(1903)		return (this->scrollV = value);
+HXLINE(1875)		return (this->scrollV = value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextEngine_obj,set_scrollV,return )
 
 ::String TextEngine_obj::set_text(::String value){
-            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_1908_set_text)
-HXDLIN(1908)		return (this->text = value);
+            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_1880_set_text)
+HXDLIN(1880)		return (this->text = value);
             	}
 
 
@@ -6667,341 +5973,341 @@ int TextEngine_obj::UTF8_HYPHEN;
  ::haxe::ds::StringMap TextEngine_obj::_hx___defaultFonts;
 
  ::openfl::text::Font TextEngine_obj::findFont(::String name){
-            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_178_findFont)
-HXLINE( 182)		{
-HXLINE( 182)			int _g = 0;
-HXDLIN( 182)			::Array< ::Dynamic> _g1 = ::openfl::text::Font_obj::_hx___registeredFonts;
-HXDLIN( 182)			while((_g < _g1->length)){
-HXLINE( 182)				 ::openfl::text::Font registeredFont = _g1->__get(_g).StaticCast<  ::openfl::text::Font >();
-HXDLIN( 182)				_g = (_g + 1);
-HXLINE( 184)				if (::hx::IsNull( registeredFont )) {
-HXLINE( 184)					continue;
+            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_176_findFont)
+HXLINE( 180)		{
+HXLINE( 180)			int _g = 0;
+HXDLIN( 180)			::Array< ::Dynamic> _g1 = ::openfl::text::Font_obj::_hx___registeredFonts;
+HXDLIN( 180)			while((_g < _g1->length)){
+HXLINE( 180)				 ::openfl::text::Font registeredFont = _g1->__get(_g).StaticCast<  ::openfl::text::Font >();
+HXDLIN( 180)				_g = (_g + 1);
+HXLINE( 182)				if (::hx::IsNull( registeredFont )) {
+HXLINE( 182)					continue;
             				}
-HXLINE( 186)				bool _hx_tmp;
-HXDLIN( 186)				if ((registeredFont->name != name)) {
-HXLINE( 187)					if (::hx::IsNotNull( registeredFont->_hx___fontPath )) {
-HXLINE( 188)						if ((registeredFont->_hx___fontPath != name)) {
-HXLINE( 186)							_hx_tmp = (registeredFont->_hx___fontPathWithoutDirectory == name);
+HXLINE( 184)				bool _hx_tmp;
+HXDLIN( 184)				if ((registeredFont->name != name)) {
+HXLINE( 185)					if (::hx::IsNotNull( registeredFont->_hx___fontPath )) {
+HXLINE( 186)						if ((registeredFont->_hx___fontPath != name)) {
+HXLINE( 184)							_hx_tmp = (registeredFont->_hx___fontPathWithoutDirectory == name);
             						}
             						else {
-HXLINE( 186)							_hx_tmp = true;
+HXLINE( 184)							_hx_tmp = true;
             						}
             					}
             					else {
-HXLINE( 186)						_hx_tmp = false;
+HXLINE( 184)						_hx_tmp = false;
             					}
             				}
             				else {
-HXLINE( 186)					_hx_tmp = true;
+HXLINE( 184)					_hx_tmp = true;
             				}
-HXDLIN( 186)				if (_hx_tmp) {
-HXLINE( 190)					if (registeredFont->_hx___initialize()) {
-HXLINE( 192)						return registeredFont;
+HXDLIN( 184)				if (_hx_tmp) {
+HXLINE( 188)					if (registeredFont->_hx___initialize()) {
+HXLINE( 190)						return registeredFont;
             					}
             				}
             			}
             		}
-HXLINE( 201)		 ::openfl::text::Font font = ::openfl::text::Font_obj::fromFile(name);
-HXLINE( 203)		if (::hx::IsNotNull( font )) {
-HXLINE( 205)			::openfl::text::Font_obj::_hx___registeredFonts->push(font);
-HXLINE( 206)			return font;
+HXLINE( 199)		 ::openfl::text::Font font = ::openfl::text::Font_obj::fromFile(name);
+HXLINE( 201)		if (::hx::IsNotNull( font )) {
+HXLINE( 203)			::openfl::text::Font_obj::_hx___registeredFonts->push(font);
+HXLINE( 204)			return font;
             		}
-HXLINE( 210)		return null();
+HXLINE( 208)		return null();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(TextEngine_obj,findFont,return )
 
  ::openfl::text::Font TextEngine_obj::findFontVariant( ::openfl::text::TextFormat format){
-            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_214_findFontVariant)
-HXLINE( 215)		::String fontName = format->font;
-HXLINE( 216)		 ::Dynamic bold = format->bold;
-HXLINE( 217)		 ::Dynamic italic = format->italic;
-HXLINE( 219)		if (::hx::IsNull( fontName )) {
-HXLINE( 219)			fontName = HX_("_serif",be,66,15,76);
+            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_212_findFontVariant)
+HXLINE( 213)		::String fontName = format->font;
+HXLINE( 214)		 ::Dynamic bold = format->bold;
+HXLINE( 215)		 ::Dynamic italic = format->italic;
+HXLINE( 217)		if (::hx::IsNull( fontName )) {
+HXLINE( 217)			fontName = HX_("_serif",be,66,15,76);
             		}
-HXLINE( 220)		::String fontNamePrefix = ::StringTools_obj::replace(::StringTools_obj::replace(fontName,HX_(" Normal",67,be,ac,97),HX_("",00,00,00,00)),HX_(" Regular",1c,be,27,76),HX_("",00,00,00,00));
-HXLINE( 222)		bool _hx_tmp;
-HXDLIN( 222)		bool _hx_tmp1;
-HXDLIN( 222)		if (( (bool)(bold) )) {
-HXLINE( 222)			_hx_tmp1 = ( (bool)(italic) );
-            		}
-            		else {
-HXLINE( 222)			_hx_tmp1 = false;
-            		}
-HXDLIN( 222)		if (_hx_tmp1) {
-HXLINE( 222)			_hx_tmp = ::openfl::text::Font_obj::_hx___fontByName->exists((fontNamePrefix + HX_(" Bold Italic",0b,b0,c3,94)));
+HXLINE( 218)		::String fontNamePrefix = ::StringTools_obj::replace(::StringTools_obj::replace(fontName,HX_(" Normal",67,be,ac,97),HX_("",00,00,00,00)),HX_(" Regular",1c,be,27,76),HX_("",00,00,00,00));
+HXLINE( 220)		bool _hx_tmp;
+HXDLIN( 220)		bool _hx_tmp1;
+HXDLIN( 220)		if (( (bool)(bold) )) {
+HXLINE( 220)			_hx_tmp1 = ( (bool)(italic) );
             		}
             		else {
-HXLINE( 222)			_hx_tmp = false;
+HXLINE( 220)			_hx_tmp1 = false;
             		}
-HXDLIN( 222)		if (_hx_tmp) {
-HXLINE( 224)			return ::openfl::text::_internal::TextEngine_obj::findFont((fontNamePrefix + HX_(" Bold Italic",0b,b0,c3,94)));
+HXDLIN( 220)		if (_hx_tmp1) {
+HXLINE( 220)			_hx_tmp = ::openfl::text::Font_obj::_hx___fontByName->exists((fontNamePrefix + HX_(" Bold Italic",0b,b0,c3,94)));
             		}
             		else {
-HXLINE( 226)			bool _hx_tmp;
-HXDLIN( 226)			if (( (bool)(bold) )) {
-HXLINE( 226)				_hx_tmp = ::openfl::text::Font_obj::_hx___fontByName->exists((fontNamePrefix + HX_(" Bold",c5,3d,c7,98)));
+HXLINE( 220)			_hx_tmp = false;
+            		}
+HXDLIN( 220)		if (_hx_tmp) {
+HXLINE( 222)			return ::openfl::text::_internal::TextEngine_obj::findFont((fontNamePrefix + HX_(" Bold Italic",0b,b0,c3,94)));
+            		}
+            		else {
+HXLINE( 224)			bool _hx_tmp;
+HXDLIN( 224)			if (( (bool)(bold) )) {
+HXLINE( 224)				_hx_tmp = ::openfl::text::Font_obj::_hx___fontByName->exists((fontNamePrefix + HX_(" Bold",c5,3d,c7,98)));
             			}
             			else {
-HXLINE( 226)				_hx_tmp = false;
+HXLINE( 224)				_hx_tmp = false;
             			}
-HXDLIN( 226)			if (_hx_tmp) {
-HXLINE( 228)				return ::openfl::text::_internal::TextEngine_obj::findFont((fontNamePrefix + HX_(" Bold",c5,3d,c7,98)));
+HXDLIN( 224)			if (_hx_tmp) {
+HXLINE( 226)				return ::openfl::text::_internal::TextEngine_obj::findFont((fontNamePrefix + HX_(" Bold",c5,3d,c7,98)));
             			}
             			else {
-HXLINE( 230)				bool _hx_tmp;
-HXDLIN( 230)				if (( (bool)(italic) )) {
-HXLINE( 230)					_hx_tmp = ::openfl::text::Font_obj::_hx___fontByName->exists((fontNamePrefix + HX_(" Italic",30,7b,a7,6d)));
+HXLINE( 228)				bool _hx_tmp;
+HXDLIN( 228)				if (( (bool)(italic) )) {
+HXLINE( 228)					_hx_tmp = ::openfl::text::Font_obj::_hx___fontByName->exists((fontNamePrefix + HX_(" Italic",30,7b,a7,6d)));
             				}
             				else {
-HXLINE( 230)					_hx_tmp = false;
+HXLINE( 228)					_hx_tmp = false;
             				}
-HXDLIN( 230)				if (_hx_tmp) {
-HXLINE( 232)					return ::openfl::text::_internal::TextEngine_obj::findFont((fontNamePrefix + HX_(" Italic",30,7b,a7,6d)));
+HXDLIN( 228)				if (_hx_tmp) {
+HXLINE( 230)					return ::openfl::text::_internal::TextEngine_obj::findFont((fontNamePrefix + HX_(" Italic",30,7b,a7,6d)));
             				}
             			}
             		}
-HXLINE( 235)		return ::openfl::text::_internal::TextEngine_obj::findFont(fontName);
+HXLINE( 233)		return ::openfl::text::_internal::TextEngine_obj::findFont(fontName);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(TextEngine_obj,findFontVariant,return )
 
 Float TextEngine_obj::getFormatHeight( ::openfl::text::TextFormat format){
-            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_264_getFormatHeight)
-HXLINE( 265)		Float ascent;
-HXDLIN( 265)		Float descent;
-HXLINE( 271)		 ::openfl::text::Font font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(format);
-HXLINE( 273)		if (::hx::IsNotNull( format->_hx___ascent )) {
-HXLINE( 275)			ascent = (( (Float)(format->size) ) * ( (Float)(format->_hx___ascent) ));
-HXLINE( 276)			descent = (( (Float)(format->size) ) * ( (Float)(format->_hx___descent) ));
+            	HX_STACKFRAME(&_hx_pos_81873a2f4b2980c0_262_getFormatHeight)
+HXLINE( 263)		Float ascent;
+HXDLIN( 263)		Float descent;
+HXLINE( 269)		 ::openfl::text::Font font = ::openfl::text::_internal::TextEngine_obj::getFontInstance(format);
+HXLINE( 271)		if (::hx::IsNotNull( format->_hx___ascent )) {
+HXLINE( 273)			ascent = (( (Float)(format->size) ) * ( (Float)(format->_hx___ascent) ));
+HXLINE( 274)			descent = (( (Float)(format->size) ) * ( (Float)(format->_hx___descent) ));
             		}
             		else {
-HXLINE( 278)			bool _hx_tmp;
-HXDLIN( 278)			if (::hx::IsNotNull( font )) {
-HXLINE( 278)				_hx_tmp = (font->unitsPerEM != 0);
+HXLINE( 276)			bool _hx_tmp;
+HXDLIN( 276)			if (::hx::IsNotNull( font )) {
+HXLINE( 276)				_hx_tmp = (font->unitsPerEM != 0);
             			}
             			else {
-HXLINE( 278)				_hx_tmp = false;
+HXLINE( 276)				_hx_tmp = false;
             			}
-HXDLIN( 278)			if (_hx_tmp) {
-HXLINE( 281)				ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(format->size) ));
-HXLINE( 282)				descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(format->size) )));
+HXDLIN( 276)			if (_hx_tmp) {
+HXLINE( 279)				ascent = ((( (Float)(font->ascender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(format->size) ));
+HXLINE( 280)				descent = ::Math_obj::abs(((( (Float)(font->descender) ) / ( (Float)(font->unitsPerEM) )) * ( (Float)(format->size) )));
             			}
             			else {
-HXLINE( 290)				ascent = ( (Float)(format->size) );
-HXLINE( 291)				descent = (( (Float)(format->size) ) * ((Float)0.185));
+HXLINE( 288)				ascent = ( (Float)(format->size) );
+HXLINE( 289)				descent = (( (Float)(format->size) ) * ((Float)0.185));
             			}
             		}
-HXLINE( 265)		int leading = ( (int)(format->leading) );
-HXLINE( 296)		return ((ascent + descent) + leading);
+HXLINE( 263)		int leading = ( (int)(format->leading) );
+HXLINE( 294)		return ((ascent + descent) + leading);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(TextEngine_obj,getFormatHeight,return )
 
 ::String TextEngine_obj::getFont( ::openfl::text::TextFormat format){
-            	HX_GC_STACKFRAME(&_hx_pos_81873a2f4b2980c0_300_getFont)
-HXLINE( 301)		::String fontName = format->font;
-HXLINE( 302)		 ::Dynamic bold = format->bold;
-HXLINE( 303)		 ::Dynamic italic = format->italic;
-HXLINE( 305)		if (::hx::IsNull( fontName )) {
-HXLINE( 305)			fontName = HX_("_serif",be,66,15,76);
+            	HX_GC_STACKFRAME(&_hx_pos_81873a2f4b2980c0_298_getFont)
+HXLINE( 299)		::String fontName = format->font;
+HXLINE( 300)		 ::Dynamic bold = format->bold;
+HXLINE( 301)		 ::Dynamic italic = format->italic;
+HXLINE( 303)		if (::hx::IsNull( fontName )) {
+HXLINE( 303)			fontName = HX_("_serif",be,66,15,76);
             		}
-HXLINE( 306)		::String fontNamePrefix = ::StringTools_obj::replace(::StringTools_obj::replace(fontName,HX_(" Normal",67,be,ac,97),HX_("",00,00,00,00)),HX_(" Regular",1c,be,27,76),HX_("",00,00,00,00));
-HXLINE( 308)		bool _hx_tmp;
-HXDLIN( 308)		bool _hx_tmp1;
-HXDLIN( 308)		if (( (bool)(bold) )) {
-HXLINE( 308)			_hx_tmp1 = ( (bool)(italic) );
-            		}
-            		else {
-HXLINE( 308)			_hx_tmp1 = false;
-            		}
-HXDLIN( 308)		if (_hx_tmp1) {
-HXLINE( 308)			_hx_tmp = ::openfl::text::Font_obj::_hx___fontByName->exists((fontNamePrefix + HX_(" Bold Italic",0b,b0,c3,94)));
+HXLINE( 304)		::String fontNamePrefix = ::StringTools_obj::replace(::StringTools_obj::replace(fontName,HX_(" Normal",67,be,ac,97),HX_("",00,00,00,00)),HX_(" Regular",1c,be,27,76),HX_("",00,00,00,00));
+HXLINE( 306)		bool _hx_tmp;
+HXDLIN( 306)		bool _hx_tmp1;
+HXDLIN( 306)		if (( (bool)(bold) )) {
+HXLINE( 306)			_hx_tmp1 = ( (bool)(italic) );
             		}
             		else {
-HXLINE( 308)			_hx_tmp = false;
+HXLINE( 306)			_hx_tmp1 = false;
             		}
-HXDLIN( 308)		if (_hx_tmp) {
-HXLINE( 310)			fontName = (fontNamePrefix + HX_(" Bold Italic",0b,b0,c3,94));
-HXLINE( 311)			bold = false;
-HXLINE( 312)			italic = false;
+HXDLIN( 306)		if (_hx_tmp1) {
+HXLINE( 306)			_hx_tmp = ::openfl::text::Font_obj::_hx___fontByName->exists((fontNamePrefix + HX_(" Bold Italic",0b,b0,c3,94)));
             		}
             		else {
-HXLINE( 314)			bool _hx_tmp;
-HXDLIN( 314)			if (( (bool)(bold) )) {
-HXLINE( 314)				_hx_tmp = ::openfl::text::Font_obj::_hx___fontByName->exists((fontNamePrefix + HX_(" Bold",c5,3d,c7,98)));
+HXLINE( 306)			_hx_tmp = false;
+            		}
+HXDLIN( 306)		if (_hx_tmp) {
+HXLINE( 308)			fontName = (fontNamePrefix + HX_(" Bold Italic",0b,b0,c3,94));
+HXLINE( 309)			bold = false;
+HXLINE( 310)			italic = false;
+            		}
+            		else {
+HXLINE( 312)			bool _hx_tmp;
+HXDLIN( 312)			if (( (bool)(bold) )) {
+HXLINE( 312)				_hx_tmp = ::openfl::text::Font_obj::_hx___fontByName->exists((fontNamePrefix + HX_(" Bold",c5,3d,c7,98)));
             			}
             			else {
-HXLINE( 314)				_hx_tmp = false;
+HXLINE( 312)				_hx_tmp = false;
             			}
-HXDLIN( 314)			if (_hx_tmp) {
-HXLINE( 316)				fontName = (fontNamePrefix + HX_(" Bold",c5,3d,c7,98));
-HXLINE( 317)				bold = false;
+HXDLIN( 312)			if (_hx_tmp) {
+HXLINE( 314)				fontName = (fontNamePrefix + HX_(" Bold",c5,3d,c7,98));
+HXLINE( 315)				bold = false;
             			}
             			else {
-HXLINE( 319)				bool _hx_tmp;
-HXDLIN( 319)				if (( (bool)(italic) )) {
-HXLINE( 319)					_hx_tmp = ::openfl::text::Font_obj::_hx___fontByName->exists((fontNamePrefix + HX_(" Italic",30,7b,a7,6d)));
+HXLINE( 317)				bool _hx_tmp;
+HXDLIN( 317)				if (( (bool)(italic) )) {
+HXLINE( 317)					_hx_tmp = ::openfl::text::Font_obj::_hx___fontByName->exists((fontNamePrefix + HX_(" Italic",30,7b,a7,6d)));
             				}
             				else {
-HXLINE( 319)					_hx_tmp = false;
+HXLINE( 317)					_hx_tmp = false;
             				}
-HXDLIN( 319)				if (_hx_tmp) {
-HXLINE( 321)					fontName = (fontNamePrefix + HX_(" Italic",30,7b,a7,6d));
-HXLINE( 322)					italic = false;
+HXDLIN( 317)				if (_hx_tmp) {
+HXLINE( 319)					fontName = (fontNamePrefix + HX_(" Italic",30,7b,a7,6d));
+HXLINE( 320)					italic = false;
             				}
             				else {
-HXLINE( 328)					bool _hx_tmp;
-HXDLIN( 328)					if (( (bool)(bold) )) {
-HXLINE( 328)						if ((fontName.indexOf(HX_(" Bold ",bb,ce,8e,15),null()) <= -1)) {
-HXLINE( 328)							_hx_tmp = ::StringTools_obj::endsWith(fontName,HX_(" Bold",c5,3d,c7,98));
+HXLINE( 326)					bool _hx_tmp;
+HXDLIN( 326)					if (( (bool)(bold) )) {
+HXLINE( 326)						if ((fontName.indexOf(HX_(" Bold ",bb,ce,8e,15),null()) <= -1)) {
+HXLINE( 326)							_hx_tmp = ::StringTools_obj::endsWith(fontName,HX_(" Bold",c5,3d,c7,98));
             						}
             						else {
-HXLINE( 328)							_hx_tmp = true;
+HXLINE( 326)							_hx_tmp = true;
             						}
             					}
             					else {
-HXLINE( 328)						_hx_tmp = false;
+HXLINE( 326)						_hx_tmp = false;
             					}
-HXDLIN( 328)					if (_hx_tmp) {
-HXLINE( 330)						bold = false;
+HXDLIN( 326)					if (_hx_tmp) {
+HXLINE( 328)						bold = false;
             					}
-HXLINE( 333)					bool _hx_tmp1;
-HXDLIN( 333)					if (( (bool)(italic) )) {
-HXLINE( 333)						if ((fontName.indexOf(HX_(" Italic ",f0,4e,e4,84),null()) <= -1)) {
-HXLINE( 333)							_hx_tmp1 = ::StringTools_obj::endsWith(fontName,HX_(" Italic",30,7b,a7,6d));
+HXLINE( 331)					bool _hx_tmp1;
+HXDLIN( 331)					if (( (bool)(italic) )) {
+HXLINE( 331)						if ((fontName.indexOf(HX_(" Italic ",f0,4e,e4,84),null()) <= -1)) {
+HXLINE( 331)							_hx_tmp1 = ::StringTools_obj::endsWith(fontName,HX_(" Italic",30,7b,a7,6d));
             						}
             						else {
-HXLINE( 333)							_hx_tmp1 = true;
+HXLINE( 331)							_hx_tmp1 = true;
             						}
             					}
             					else {
-HXLINE( 333)						_hx_tmp1 = false;
+HXLINE( 331)						_hx_tmp1 = false;
             					}
-HXDLIN( 333)					if (_hx_tmp1) {
-HXLINE( 335)						italic = false;
+HXDLIN( 331)					if (_hx_tmp1) {
+HXLINE( 333)						italic = false;
             					}
             				}
             			}
             		}
-HXLINE( 339)		::String font;
-HXDLIN( 339)		if (( (bool)(italic) )) {
-HXLINE( 339)			font = HX_("italic ",30,e3,44,91);
+HXLINE( 337)		::String font;
+HXDLIN( 337)		if (( (bool)(italic) )) {
+HXLINE( 337)			font = HX_("italic ",30,e3,44,91);
             		}
             		else {
-HXLINE( 339)			font = HX_("normal ",19,70,da,2b);
+HXLINE( 337)			font = HX_("normal ",19,70,da,2b);
             		}
-HXLINE( 340)		font = (font + HX_("normal ",19,70,da,2b));
-HXLINE( 341)		::String font1;
-HXDLIN( 341)		if (( (bool)(bold) )) {
-HXLINE( 341)			font1 = HX_("bold ",fb,d2,f5,b6);
+HXLINE( 338)		font = (font + HX_("normal ",19,70,da,2b));
+HXLINE( 339)		::String font1;
+HXDLIN( 339)		if (( (bool)(bold) )) {
+HXLINE( 339)			font1 = HX_("bold ",fb,d2,f5,b6);
             		}
             		else {
-HXLINE( 341)			font1 = HX_("normal ",19,70,da,2b);
+HXLINE( 339)			font1 = HX_("normal ",19,70,da,2b);
             		}
-HXDLIN( 341)		font = (font + font1);
-HXLINE( 342)		font = (font + (format->size + HX_("px",08,62,00,00)));
-HXLINE( 343)		font = (font + ((HX_("/",2f,00,00,00) + ((format->leading + format->size) + 3)) + HX_("px ",18,65,55,00)));
-HXLINE( 345)		::String font2;
-HXDLIN( 345)		::String _hx_switch_0 = fontName;
+HXDLIN( 339)		font = (font + font1);
+HXLINE( 340)		font = (font + (format->size + HX_("px",08,62,00,00)));
+HXLINE( 341)		font = (font + ((HX_("/",2f,00,00,00) + ((format->leading + format->size) + 3)) + HX_("px ",18,65,55,00)));
+HXLINE( 343)		::String font2;
+HXDLIN( 343)		::String _hx_switch_0 = fontName;
             		if (  (_hx_switch_0==HX_("_sans",32,a0,5e,ff)) ){
-HXLINE( 345)			font2 = HX_("sans-serif",c3,60,fb,08);
-HXDLIN( 345)			goto _hx_goto_138;
+HXLINE( 343)			font2 = HX_("sans-serif",c3,60,fb,08);
+HXDLIN( 343)			goto _hx_goto_133;
             		}
             		if (  (_hx_switch_0==HX_("_serif",be,66,15,76)) ){
-HXLINE( 345)			font2 = HX_("serif",7d,1f,2e,7a);
-HXDLIN( 345)			goto _hx_goto_138;
+HXLINE( 343)			font2 = HX_("serif",7d,1f,2e,7a);
+HXDLIN( 343)			goto _hx_goto_133;
             		}
             		if (  (_hx_switch_0==HX_("_typewriter",0c,5e,52,94)) ){
-HXLINE( 345)			font2 = HX_("monospace",c3,d1,e5,5e);
-HXDLIN( 345)			goto _hx_goto_138;
+HXLINE( 343)			font2 = HX_("monospace",c3,d1,e5,5e);
+HXDLIN( 343)			goto _hx_goto_133;
             		}
             		/* default */{
-HXLINE( 345)			font2 = ((HX_("'",27,00,00,00) +  ::EReg_obj::__alloc( HX_CTX ,HX_("^[\\s'\"]+(.*)[\\s'\"]+$",eb,e4,eb,f5),HX_("",00,00,00,00))->replace(fontName,HX_("$1",8d,1f,00,00))) + HX_("'",27,00,00,00));
+HXLINE( 343)			font2 = ((HX_("'",27,00,00,00) +  ::EReg_obj::__alloc( HX_CTX ,HX_("^[\\s'\"]+(.*)[\\s'\"]+$",eb,e4,eb,f5),HX_("",00,00,00,00))->replace(fontName,HX_("$1",8d,1f,00,00))) + HX_("'",27,00,00,00));
             		}
-            		_hx_goto_138:;
-HXDLIN( 345)		font = (font + (HX_("",00,00,00,00) + font2));
-HXLINE( 353)		return font;
+            		_hx_goto_133:;
+HXDLIN( 343)		font = (font + (HX_("",00,00,00,00) + font2));
+HXLINE( 351)		return font;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(TextEngine_obj,getFont,return )
 
  ::openfl::text::Font TextEngine_obj::getFontInstance( ::openfl::text::TextFormat format){
-            	HX_GC_STACKFRAME(&_hx_pos_81873a2f4b2980c0_357_getFontInstance)
-HXLINE( 361)		 ::openfl::text::Font instance = null();
-HXLINE( 362)		::Array< ::String > fontList = null();
-HXLINE( 364)		bool _hx_tmp;
-HXDLIN( 364)		if (::hx::IsNotNull( format )) {
-HXLINE( 364)			_hx_tmp = ::hx::IsNotNull( format->font );
+            	HX_GC_STACKFRAME(&_hx_pos_81873a2f4b2980c0_355_getFontInstance)
+HXLINE( 359)		 ::openfl::text::Font instance = null();
+HXLINE( 360)		::Array< ::String > fontList = null();
+HXLINE( 362)		bool _hx_tmp;
+HXDLIN( 362)		if (::hx::IsNotNull( format )) {
+HXLINE( 362)			_hx_tmp = ::hx::IsNotNull( format->font );
             		}
             		else {
-HXLINE( 364)			_hx_tmp = false;
+HXLINE( 362)			_hx_tmp = false;
             		}
-HXDLIN( 364)		if (_hx_tmp) {
-HXLINE( 366)			if (::openfl::text::_internal::TextEngine_obj::_hx___defaultFonts->exists(format->font)) {
-HXLINE( 368)				return ( ( ::openfl::text::Font)(::openfl::text::_internal::TextEngine_obj::_hx___defaultFonts->get(format->font)) );
+HXDLIN( 362)		if (_hx_tmp) {
+HXLINE( 364)			if (::openfl::text::_internal::TextEngine_obj::_hx___defaultFonts->exists(format->font)) {
+HXLINE( 366)				return ( ( ::openfl::text::Font)(::openfl::text::_internal::TextEngine_obj::_hx___defaultFonts->get(format->font)) );
             			}
-HXLINE( 371)			instance = ::openfl::text::_internal::TextEngine_obj::findFontVariant(format);
-HXLINE( 372)			if (::hx::IsNotNull( instance )) {
-HXLINE( 372)				return instance;
+HXLINE( 369)			instance = ::openfl::text::_internal::TextEngine_obj::findFontVariant(format);
+HXLINE( 370)			if (::hx::IsNotNull( instance )) {
+HXLINE( 370)				return instance;
             			}
-HXLINE( 374)			::String systemFontDirectory = ::lime::_hx_system::System_obj::get_fontsDirectory();
-HXLINE( 376)			::String _hx_switch_0 = format->font;
+HXLINE( 372)			::String systemFontDirectory = ::lime::_hx_system::System_obj::get_fontsDirectory();
+HXLINE( 374)			::String _hx_switch_0 = format->font;
             			if (  (_hx_switch_0==HX_("_sans",32,a0,5e,ff)) ){
-HXLINE( 415)				fontList = ::Array_obj< ::String >::__new(1)->init(0, ::sys::io::Process_obj::__alloc( HX_CTX ,HX_("fc-match",f5,ea,18,e0),::Array_obj< ::String >::fromData( _hx_array_data_7e808804_144,2),null())->_hx_stdout->readLine());
-HXDLIN( 415)				goto _hx_goto_140;
+HXLINE( 413)				fontList = ::Array_obj< ::String >::__new(1)->init(0, ::sys::io::Process_obj::__alloc( HX_CTX ,HX_("fc-match",f5,ea,18,e0),::Array_obj< ::String >::fromData( _hx_array_data_7e808804_139,2),null())->_hx_stdout->readLine());
+HXDLIN( 413)				goto _hx_goto_135;
             			}
             			if (  (_hx_switch_0==HX_("_serif",be,66,15,76)) ){
-HXLINE( 422)				goto _hx_goto_140;
+HXLINE( 420)				goto _hx_goto_135;
             			}
             			if (  (_hx_switch_0==HX_("_typewriter",0c,5e,52,94)) ){
-HXLINE( 463)				fontList = ::Array_obj< ::String >::__new(1)->init(0, ::sys::io::Process_obj::__alloc( HX_CTX ,HX_("fc-match",f5,ea,18,e0),::Array_obj< ::String >::fromData( _hx_array_data_7e808804_145,2),null())->_hx_stdout->readLine());
-HXDLIN( 463)				goto _hx_goto_140;
+HXLINE( 461)				fontList = ::Array_obj< ::String >::__new(1)->init(0, ::sys::io::Process_obj::__alloc( HX_CTX ,HX_("fc-match",f5,ea,18,e0),::Array_obj< ::String >::fromData( _hx_array_data_7e808804_140,2),null())->_hx_stdout->readLine());
+HXDLIN( 461)				goto _hx_goto_135;
             			}
             			/* default */{
-HXLINE( 471)				fontList = ::Array_obj< ::String >::__new(1)->init(0,((systemFontDirectory + HX_("/",2f,00,00,00)) + format->font));
+HXLINE( 469)				fontList = ::Array_obj< ::String >::__new(1)->init(0,((systemFontDirectory + HX_("/",2f,00,00,00)) + format->font));
             			}
-            			_hx_goto_140:;
-HXLINE( 474)			if (::hx::IsNotNull( fontList )) {
-HXLINE( 476)				int _g = 0;
-HXDLIN( 476)				while((_g < fontList->length)){
-HXLINE( 476)					::String font = fontList->__get(_g);
-HXDLIN( 476)					_g = (_g + 1);
-HXLINE( 478)					instance = ::openfl::text::_internal::TextEngine_obj::findFont(font);
-HXLINE( 480)					if (::hx::IsNotNull( instance )) {
-HXLINE( 482)						::openfl::text::_internal::TextEngine_obj::_hx___defaultFonts->set(format->font,instance);
-HXLINE( 483)						return instance;
+            			_hx_goto_135:;
+HXLINE( 472)			if (::hx::IsNotNull( fontList )) {
+HXLINE( 474)				int _g = 0;
+HXDLIN( 474)				while((_g < fontList->length)){
+HXLINE( 474)					::String font = fontList->__get(_g);
+HXDLIN( 474)					_g = (_g + 1);
+HXLINE( 476)					instance = ::openfl::text::_internal::TextEngine_obj::findFont(font);
+HXLINE( 478)					if (::hx::IsNotNull( instance )) {
+HXLINE( 480)						::openfl::text::_internal::TextEngine_obj::_hx___defaultFonts->set(format->font,instance);
+HXLINE( 481)						return instance;
             					}
             				}
             			}
-HXLINE( 488)			instance = ::openfl::text::_internal::TextEngine_obj::findFont(HX_("_serif",be,66,15,76));
-HXLINE( 489)			if (::hx::IsNotNull( instance )) {
-HXLINE( 489)				return instance;
+HXLINE( 486)			instance = ::openfl::text::_internal::TextEngine_obj::findFont(HX_("_serif",be,66,15,76));
+HXLINE( 487)			if (::hx::IsNotNull( instance )) {
+HXLINE( 487)				return instance;
             			}
             		}
-HXLINE( 492)		::String systemFontDirectory = ::lime::_hx_system::System_obj::get_fontsDirectory();
-HXLINE( 526)		fontList = ::Array_obj< ::String >::__new(1)->init(0, ::sys::io::Process_obj::__alloc( HX_CTX ,HX_("fc-match",f5,ea,18,e0),::Array_obj< ::String >::fromData( _hx_array_data_7e808804_146,2),null())->_hx_stdout->readLine());
-HXLINE( 536)		{
-HXLINE( 536)			int _g = 0;
-HXDLIN( 536)			while((_g < fontList->length)){
-HXLINE( 536)				::String font = fontList->__get(_g);
-HXDLIN( 536)				_g = (_g + 1);
-HXLINE( 538)				instance = ::openfl::text::_internal::TextEngine_obj::findFont(font);
-HXLINE( 540)				if (::hx::IsNotNull( instance )) {
-HXLINE( 542)					::openfl::text::_internal::TextEngine_obj::_hx___defaultFonts->set(format->font,instance);
-HXLINE( 543)					return instance;
+HXLINE( 490)		::String systemFontDirectory = ::lime::_hx_system::System_obj::get_fontsDirectory();
+HXLINE( 524)		fontList = ::Array_obj< ::String >::__new(1)->init(0, ::sys::io::Process_obj::__alloc( HX_CTX ,HX_("fc-match",f5,ea,18,e0),::Array_obj< ::String >::fromData( _hx_array_data_7e808804_141,2),null())->_hx_stdout->readLine());
+HXLINE( 534)		{
+HXLINE( 534)			int _g = 0;
+HXDLIN( 534)			while((_g < fontList->length)){
+HXLINE( 534)				::String font = fontList->__get(_g);
+HXDLIN( 534)				_g = (_g + 1);
+HXLINE( 536)				instance = ::openfl::text::_internal::TextEngine_obj::findFont(font);
+HXLINE( 538)				if (::hx::IsNotNull( instance )) {
+HXLINE( 540)					::openfl::text::_internal::TextEngine_obj::_hx___defaultFonts->set(format->font,instance);
+HXLINE( 541)					return instance;
             				}
             			}
             		}
-HXLINE( 547)		{
-HXLINE( 547)			 ::openfl::text::Font value = null();
-HXDLIN( 547)			::openfl::text::_internal::TextEngine_obj::_hx___defaultFonts->set(format->font,value);
+HXLINE( 545)		{
+HXLINE( 545)			 ::openfl::text::Font value = null();
+HXDLIN( 545)			::openfl::text::_internal::TextEngine_obj::_hx___defaultFonts->set(format->font,value);
             		}
-HXLINE( 550)		return null();
+HXLINE( 548)		return null();
             	}
 
 
@@ -7073,7 +6379,6 @@ void TextEngine_obj::__Mark(HX_MARK_PARAMS)
 	HX_MARK_MEMBER_NAME(_hx___measuredWidth,"__measuredWidth");
 	HX_MARK_MEMBER_NAME(_hx___restrictRegexp,"__restrictRegexp");
 	HX_MARK_MEMBER_NAME(_hx___selectionStart,"__selectionStart");
-	HX_MARK_MEMBER_NAME(_hx___shapeCache,"__shapeCache");
 	HX_MARK_MEMBER_NAME(_hx___showCursor,"__showCursor");
 	HX_MARK_MEMBER_NAME(_hx___textFormat,"__textFormat");
 	HX_MARK_MEMBER_NAME(_hx___textLayout,"__textLayout");
@@ -7131,7 +6436,6 @@ void TextEngine_obj::__Visit(HX_VISIT_PARAMS)
 	HX_VISIT_MEMBER_NAME(_hx___measuredWidth,"__measuredWidth");
 	HX_VISIT_MEMBER_NAME(_hx___restrictRegexp,"__restrictRegexp");
 	HX_VISIT_MEMBER_NAME(_hx___selectionStart,"__selectionStart");
-	HX_VISIT_MEMBER_NAME(_hx___shapeCache,"__shapeCache");
 	HX_VISIT_MEMBER_NAME(_hx___showCursor,"__showCursor");
 	HX_VISIT_MEMBER_NAME(_hx___textFormat,"__textFormat");
 	HX_VISIT_MEMBER_NAME(_hx___textLayout,"__textLayout");
@@ -7207,7 +6511,6 @@ void TextEngine_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"layoutGroups") ) { return ::hx::Val( layoutGroups ); }
 		if (HX_FIELD_EQ(inName,"lineDescents") ) { return ::hx::Val( lineDescents ); }
 		if (HX_FIELD_EQ(inName,"lineLeadings") ) { return ::hx::Val( lineLeadings ); }
-		if (HX_FIELD_EQ(inName,"__shapeCache") ) { return ::hx::Val( _hx___shapeCache ); }
 		if (HX_FIELD_EQ(inName,"__showCursor") ) { return ::hx::Val( _hx___showCursor ); }
 		if (HX_FIELD_EQ(inName,"__textFormat") ) { return ::hx::Val( _hx___textFormat ); }
 		if (HX_FIELD_EQ(inName,"__textLayout") ) { return ::hx::Val( _hx___textLayout ); }
@@ -7218,7 +6521,6 @@ void TextEngine_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"antiAliasType") ) { return ::hx::Val( antiAliasType ); }
 		if (HX_FIELD_EQ(inName,"bottomScrollV") ) { return ::hx::Val( inCallProp == ::hx::paccAlways ? get_bottomScrollV() : bottomScrollV ); }
 		if (HX_FIELD_EQ(inName,"__cursorTimer") ) { return ::hx::Val( _hx___cursorTimer ); }
-		if (HX_FIELD_EQ(inName,"getLineBreaks") ) { return ::hx::Val( getLineBreaks_dyn() ); }
 		break;
 	case 14:
 		if (HX_FIELD_EQ(inName,"get_maxScrollV") ) { return ::hx::Val( get_maxScrollV_dyn() ); }
@@ -7328,7 +6630,6 @@ bool TextEngine_obj::__GetStatic(const ::String &inName, Dynamic &outValue, ::hx
 		if (HX_FIELD_EQ(inName,"layoutGroups") ) { layoutGroups=inValue.Cast<  ::openfl::_Vector::ObjectVector >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"lineDescents") ) { lineDescents=inValue.Cast<  ::openfl::_Vector::FloatVector >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"lineLeadings") ) { lineLeadings=inValue.Cast<  ::openfl::_Vector::FloatVector >(); return inValue; }
-		if (HX_FIELD_EQ(inName,"__shapeCache") ) { _hx___shapeCache=inValue.Cast<  ::openfl::text::_internal::ShapeCache >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"__showCursor") ) { _hx___showCursor=inValue.Cast< bool >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"__textFormat") ) { _hx___textFormat=inValue.Cast<  ::openfl::text::TextFormat >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"__textLayout") ) { _hx___textLayout=inValue.Cast<  ::openfl::text::_internal::TextLayout >(); return inValue; }
@@ -7408,7 +6709,6 @@ void TextEngine_obj::__GetFields(Array< ::String> &outFields)
 	outFields->push(HX_("__measuredWidth",c0,49,ec,02));
 	outFields->push(HX_("__restrictRegexp",45,9f,ae,a9));
 	outFields->push(HX_("__selectionStart",96,e3,b9,43));
-	outFields->push(HX_("__shapeCache",81,aa,e8,5f));
 	outFields->push(HX_("__showCursor",d3,ae,f0,e0));
 	outFields->push(HX_("__textFormat",e4,8a,12,6d));
 	outFields->push(HX_("__textLayout",57,aa,3c,c8));
@@ -7466,7 +6766,6 @@ static ::hx::StorageInfo TextEngine_obj_sMemberStorageInfo[] = {
 	{::hx::fsInt,(int)offsetof(TextEngine_obj,_hx___measuredWidth),HX_("__measuredWidth",c0,49,ec,02)},
 	{::hx::fsObject /*  ::EReg */ ,(int)offsetof(TextEngine_obj,_hx___restrictRegexp),HX_("__restrictRegexp",45,9f,ae,a9)},
 	{::hx::fsInt,(int)offsetof(TextEngine_obj,_hx___selectionStart),HX_("__selectionStart",96,e3,b9,43)},
-	{::hx::fsObject /*  ::openfl::text::_internal::ShapeCache */ ,(int)offsetof(TextEngine_obj,_hx___shapeCache),HX_("__shapeCache",81,aa,e8,5f)},
 	{::hx::fsBool,(int)offsetof(TextEngine_obj,_hx___showCursor),HX_("__showCursor",d3,ae,f0,e0)},
 	{::hx::fsObject /*  ::openfl::text::TextFormat */ ,(int)offsetof(TextEngine_obj,_hx___textFormat),HX_("__textFormat",e4,8a,12,6d)},
 	{::hx::fsObject /*  ::openfl::text::_internal::TextLayout */ ,(int)offsetof(TextEngine_obj,_hx___textLayout),HX_("__textLayout",57,aa,3c,c8)},
@@ -7533,7 +6832,6 @@ static ::String TextEngine_obj_sMemberFields[] = {
 	HX_("__measuredWidth",c0,49,ec,02),
 	HX_("__restrictRegexp",45,9f,ae,a9),
 	HX_("__selectionStart",96,e3,b9,43),
-	HX_("__shapeCache",81,aa,e8,5f),
 	HX_("__showCursor",d3,ae,f0,e0),
 	HX_("__textFormat",e4,8a,12,6d),
 	HX_("__textLayout",57,aa,3c,c8),
@@ -7544,7 +6842,6 @@ static ::String TextEngine_obj_sMemberFields[] = {
 	HX_("createRestrictRegexp",41,d0,6b,e1),
 	HX_("getBounds",ab,0f,74,e2),
 	HX_("getLine",aa,c7,35,1a),
-	HX_("getLineBreaks",1e,5a,ce,46),
 	HX_("getLineBreakIndex",1d,16,36,36),
 	HX_("getLineMeasurements",c1,9f,81,56),
 	HX_("getLayoutGroups",54,f8,56,5a),

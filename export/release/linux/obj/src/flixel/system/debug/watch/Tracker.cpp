@@ -38,15 +38,15 @@
 #include <openfl/geom/Rectangle.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_60725c8fd849460b_41_new,"flixel.system.debug.watch.Tracker","new",0xf6eed663,"flixel.system.debug.watch.Tracker.new","flixel/system/debug/watch/Tracker.hx",41,0x14368dcf)
+HX_DEFINE_STACK_FRAME(_hx_pos_60725c8fd849460b_36_new,"flixel.system.debug.watch.Tracker","new",0xf6eed663,"flixel.system.debug.watch.Tracker.new","flixel/system/debug/watch/Tracker.hx",36,0x14368dcf)
 namespace flixel{
 namespace _hx_system{
 namespace debug{
 namespace watch{
 
 void Tracker_obj::__construct(::String Title, ::openfl::display::BitmapData Icon, ::Dynamic Width, ::Dynamic Height, ::Dynamic Resizable, ::openfl::geom::Rectangle Bounds, ::Dynamic Closable, ::Dynamic AlwaysOnTop){
-            	HX_STACKFRAME(&_hx_pos_60725c8fd849460b_41_new)
-HXDLIN(  41)		super::__construct(Title,Icon,Width,Height,Resizable,Bounds,Closable,AlwaysOnTop);
+            	HX_STACKFRAME(&_hx_pos_60725c8fd849460b_36_new)
+HXDLIN(  36)		super::__construct(Title,Icon,Width,Height,Resizable,Bounds,Closable,AlwaysOnTop);
             	}
 
 Dynamic Tracker_obj::__CreateEmpty() { return new Tracker_obj; }

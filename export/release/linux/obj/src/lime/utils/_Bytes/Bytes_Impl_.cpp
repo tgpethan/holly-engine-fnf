@@ -44,18 +44,18 @@
 #include <lime/utils/_Bytes/Bytes_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_3ebd2a3b5b6c79d1_19__new,"lime.utils._Bytes.Bytes_Impl_","_new",0x0e8a4e50,"lime.utils._Bytes.Bytes_Impl_._new","lime/utils/Bytes.hx",19,0x9fbf972b)
-HX_LOCAL_STACK_FRAME(_hx_pos_3ebd2a3b5b6c79d1_35_alloc,"lime.utils._Bytes.Bytes_Impl_","alloc",0xcffa3ca6,"lime.utils._Bytes.Bytes_Impl_.alloc","lime/utils/Bytes.hx",35,0x9fbf972b)
-HX_LOCAL_STACK_FRAME(_hx_pos_3ebd2a3b5b6c79d1_40_compress,"lime.utils._Bytes.Bytes_Impl_","compress",0xf1eb2411,"lime.utils._Bytes.Bytes_Impl_.compress","lime/utils/Bytes.hx",40,0x9fbf972b)
-HX_LOCAL_STACK_FRAME(_hx_pos_3ebd2a3b5b6c79d1_61_decompress,"lime.utils._Bytes.Bytes_Impl_","decompress",0x10439e52,"lime.utils._Bytes.Bytes_Impl_.decompress","lime/utils/Bytes.hx",61,0x9fbf972b)
-HX_LOCAL_STACK_FRAME(_hx_pos_3ebd2a3b5b6c79d1_82_fastGet,"lime.utils._Bytes.Bytes_Impl_","fastGet",0xe584c5cb,"lime.utils._Bytes.Bytes_Impl_.fastGet","lime/utils/Bytes.hx",82,0x9fbf972b)
-HX_LOCAL_STACK_FRAME(_hx_pos_3ebd2a3b5b6c79d1_86_fromBytes,"lime.utils._Bytes.Bytes_Impl_","fromBytes",0x6a55f752,"lime.utils._Bytes.Bytes_Impl_.fromBytes","lime/utils/Bytes.hx",86,0x9fbf972b)
-HX_LOCAL_STACK_FRAME(_hx_pos_3ebd2a3b5b6c79d1_93_fromFile,"lime.utils._Bytes.Bytes_Impl_","fromFile",0x0fb37975,"lime.utils._Bytes.Bytes_Impl_.fromFile","lime/utils/Bytes.hx",93,0x9fbf972b)
-HX_LOCAL_STACK_FRAME(_hx_pos_3ebd2a3b5b6c79d1_109_loadFromBytes,"lime.utils._Bytes.Bytes_Impl_","loadFromBytes",0x2f7a74cc,"lime.utils._Bytes.Bytes_Impl_.loadFromBytes","lime/utils/Bytes.hx",109,0x9fbf972b)
-HX_LOCAL_STACK_FRAME(_hx_pos_3ebd2a3b5b6c79d1_113_loadFromFile,"lime.utils._Bytes.Bytes_Impl_","loadFromFile",0xcbb4c93b,"lime.utils._Bytes.Bytes_Impl_.loadFromFile","lime/utils/Bytes.hx",113,0x9fbf972b)
-HX_LOCAL_STACK_FRAME(_hx_pos_3ebd2a3b5b6c79d1_119_ofData,"lime.utils._Bytes.Bytes_Impl_","ofData",0x35174d90,"lime.utils._Bytes.Bytes_Impl_.ofData","lime/utils/Bytes.hx",119,0x9fbf972b)
-HX_LOCAL_STACK_FRAME(_hx_pos_3ebd2a3b5b6c79d1_125_ofString,"lime.utils._Bytes.Bytes_Impl_","ofString",0x125d45b7,"lime.utils._Bytes.Bytes_Impl_.ofString","lime/utils/Bytes.hx",125,0x9fbf972b)
-HX_LOCAL_STACK_FRAME(_hx_pos_3ebd2a3b5b6c79d1_132___fromNativePointer,"lime.utils._Bytes.Bytes_Impl_","__fromNativePointer",0x287bf4ed,"lime.utils._Bytes.Bytes_Impl_.__fromNativePointer","lime/utils/Bytes.hx",132,0x9fbf972b)
+HX_LOCAL_STACK_FRAME(_hx_pos_3ebd2a3b5b6c79d1_18__new,"lime.utils._Bytes.Bytes_Impl_","_new",0x0e8a4e50,"lime.utils._Bytes.Bytes_Impl_._new","lime/utils/Bytes.hx",18,0x9fbf972b)
+HX_LOCAL_STACK_FRAME(_hx_pos_3ebd2a3b5b6c79d1_34_alloc,"lime.utils._Bytes.Bytes_Impl_","alloc",0xcffa3ca6,"lime.utils._Bytes.Bytes_Impl_.alloc","lime/utils/Bytes.hx",34,0x9fbf972b)
+HX_LOCAL_STACK_FRAME(_hx_pos_3ebd2a3b5b6c79d1_39_compress,"lime.utils._Bytes.Bytes_Impl_","compress",0xf1eb2411,"lime.utils._Bytes.Bytes_Impl_.compress","lime/utils/Bytes.hx",39,0x9fbf972b)
+HX_LOCAL_STACK_FRAME(_hx_pos_3ebd2a3b5b6c79d1_60_decompress,"lime.utils._Bytes.Bytes_Impl_","decompress",0x10439e52,"lime.utils._Bytes.Bytes_Impl_.decompress","lime/utils/Bytes.hx",60,0x9fbf972b)
+HX_LOCAL_STACK_FRAME(_hx_pos_3ebd2a3b5b6c79d1_81_fastGet,"lime.utils._Bytes.Bytes_Impl_","fastGet",0xe584c5cb,"lime.utils._Bytes.Bytes_Impl_.fastGet","lime/utils/Bytes.hx",81,0x9fbf972b)
+HX_LOCAL_STACK_FRAME(_hx_pos_3ebd2a3b5b6c79d1_85_fromBytes,"lime.utils._Bytes.Bytes_Impl_","fromBytes",0x6a55f752,"lime.utils._Bytes.Bytes_Impl_.fromBytes","lime/utils/Bytes.hx",85,0x9fbf972b)
+HX_LOCAL_STACK_FRAME(_hx_pos_3ebd2a3b5b6c79d1_92_fromFile,"lime.utils._Bytes.Bytes_Impl_","fromFile",0x0fb37975,"lime.utils._Bytes.Bytes_Impl_.fromFile","lime/utils/Bytes.hx",92,0x9fbf972b)
+HX_LOCAL_STACK_FRAME(_hx_pos_3ebd2a3b5b6c79d1_108_loadFromBytes,"lime.utils._Bytes.Bytes_Impl_","loadFromBytes",0x2f7a74cc,"lime.utils._Bytes.Bytes_Impl_.loadFromBytes","lime/utils/Bytes.hx",108,0x9fbf972b)
+HX_LOCAL_STACK_FRAME(_hx_pos_3ebd2a3b5b6c79d1_112_loadFromFile,"lime.utils._Bytes.Bytes_Impl_","loadFromFile",0xcbb4c93b,"lime.utils._Bytes.Bytes_Impl_.loadFromFile","lime/utils/Bytes.hx",112,0x9fbf972b)
+HX_LOCAL_STACK_FRAME(_hx_pos_3ebd2a3b5b6c79d1_118_ofData,"lime.utils._Bytes.Bytes_Impl_","ofData",0x35174d90,"lime.utils._Bytes.Bytes_Impl_.ofData","lime/utils/Bytes.hx",118,0x9fbf972b)
+HX_LOCAL_STACK_FRAME(_hx_pos_3ebd2a3b5b6c79d1_124_ofString,"lime.utils._Bytes.Bytes_Impl_","ofString",0x125d45b7,"lime.utils._Bytes.Bytes_Impl_.ofString","lime/utils/Bytes.hx",124,0x9fbf972b)
+HX_LOCAL_STACK_FRAME(_hx_pos_3ebd2a3b5b6c79d1_131___fromNativePointer,"lime.utils._Bytes.Bytes_Impl_","__fromNativePointer",0x287bf4ed,"lime.utils._Bytes.Bytes_Impl_.__fromNativePointer","lime/utils/Bytes.hx",131,0x9fbf972b)
 namespace lime{
 namespace utils{
 namespace _Bytes{
@@ -78,145 +78,145 @@ bool Bytes_Impl__obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::haxe::io::Bytes Bytes_Impl__obj::_new(int length,::Array< unsigned char > bytesData){
-            	HX_GC_STACKFRAME(&_hx_pos_3ebd2a3b5b6c79d1_19__new)
-HXDLIN(  19)		 ::haxe::io::Bytes this1 =  ::haxe::io::Bytes_obj::__alloc( HX_CTX ,length,bytesData);
-HXDLIN(  19)		return this1;
+            	HX_GC_STACKFRAME(&_hx_pos_3ebd2a3b5b6c79d1_18__new)
+HXDLIN(  18)		 ::haxe::io::Bytes this1 =  ::haxe::io::Bytes_obj::__alloc( HX_CTX ,length,bytesData);
+HXDLIN(  18)		return this1;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Bytes_Impl__obj,_new,return )
 
  ::haxe::io::Bytes Bytes_Impl__obj::alloc(int length){
-            	HX_STACKFRAME(&_hx_pos_3ebd2a3b5b6c79d1_35_alloc)
-HXDLIN(  35)		return ::haxe::io::Bytes_obj::alloc(length);
+            	HX_STACKFRAME(&_hx_pos_3ebd2a3b5b6c79d1_34_alloc)
+HXDLIN(  34)		return ::haxe::io::Bytes_obj::alloc(length);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Bytes_Impl__obj,alloc,return )
 
  ::haxe::io::Bytes Bytes_Impl__obj::compress( ::haxe::io::Bytes this1, ::lime::utils::CompressionAlgorithm algorithm){
-            	HX_STACKFRAME(&_hx_pos_3ebd2a3b5b6c79d1_40_compress)
-HXDLIN(  40)		switch((int)(algorithm->_hx_getIndex())){
+            	HX_STACKFRAME(&_hx_pos_3ebd2a3b5b6c79d1_39_compress)
+HXDLIN(  39)		switch((int)(algorithm->_hx_getIndex())){
             			case (int)0: {
-HXLINE(  43)				return ::lime::_internal::format::Deflate_obj::compress(this1);
+HXLINE(  42)				return ::lime::_internal::format::Deflate_obj::compress(this1);
             			}
             			break;
             			case (int)1: {
-HXLINE(  46)				return ::lime::_internal::format::GZip_obj::compress(this1);
+HXLINE(  45)				return ::lime::_internal::format::GZip_obj::compress(this1);
             			}
             			break;
             			case (int)2: {
-HXLINE(  49)				return ::lime::_internal::format::LZMA_obj::compress(this1);
+HXLINE(  48)				return ::lime::_internal::format::LZMA_obj::compress(this1);
             			}
             			break;
             			case (int)3: {
-HXLINE(  52)				return ::lime::_internal::format::Zlib_obj::compress(this1);
+HXLINE(  51)				return ::lime::_internal::format::Zlib_obj::compress(this1);
             			}
             			break;
             		}
-HXLINE(  40)		return null();
+HXLINE(  39)		return null();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Bytes_Impl__obj,compress,return )
 
  ::haxe::io::Bytes Bytes_Impl__obj::decompress( ::haxe::io::Bytes this1, ::lime::utils::CompressionAlgorithm algorithm){
-            	HX_STACKFRAME(&_hx_pos_3ebd2a3b5b6c79d1_61_decompress)
-HXDLIN(  61)		switch((int)(algorithm->_hx_getIndex())){
+            	HX_STACKFRAME(&_hx_pos_3ebd2a3b5b6c79d1_60_decompress)
+HXDLIN(  60)		switch((int)(algorithm->_hx_getIndex())){
             			case (int)0: {
-HXLINE(  64)				return ::lime::_internal::format::Deflate_obj::decompress(this1);
+HXLINE(  63)				return ::lime::_internal::format::Deflate_obj::decompress(this1);
             			}
             			break;
             			case (int)1: {
-HXLINE(  67)				return ::lime::_internal::format::GZip_obj::decompress(this1);
+HXLINE(  66)				return ::lime::_internal::format::GZip_obj::decompress(this1);
             			}
             			break;
             			case (int)2: {
-HXLINE(  70)				return ::lime::_internal::format::LZMA_obj::decompress(this1);
+HXLINE(  69)				return ::lime::_internal::format::LZMA_obj::decompress(this1);
             			}
             			break;
             			case (int)3: {
-HXLINE(  73)				return ::lime::_internal::format::Zlib_obj::decompress(this1);
+HXLINE(  72)				return ::lime::_internal::format::Zlib_obj::decompress(this1);
             			}
             			break;
             		}
-HXLINE(  61)		return null();
+HXLINE(  60)		return null();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Bytes_Impl__obj,decompress,return )
 
 int Bytes_Impl__obj::fastGet(::Array< unsigned char > b,int pos){
-            	HX_STACKFRAME(&_hx_pos_3ebd2a3b5b6c79d1_82_fastGet)
-HXDLIN(  82)		return ( (int)(_hx_array_unsafe_get(b,pos)) );
+            	HX_STACKFRAME(&_hx_pos_3ebd2a3b5b6c79d1_81_fastGet)
+HXDLIN(  81)		return ( (int)(_hx_array_unsafe_get(b,pos)) );
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Bytes_Impl__obj,fastGet,return )
 
  ::haxe::io::Bytes Bytes_Impl__obj::fromBytes( ::haxe::io::Bytes bytes){
-            	HX_STACKFRAME(&_hx_pos_3ebd2a3b5b6c79d1_86_fromBytes)
-HXLINE(  87)		if (::hx::IsNull( bytes )) {
-HXLINE(  87)			return null();
+            	HX_STACKFRAME(&_hx_pos_3ebd2a3b5b6c79d1_85_fromBytes)
+HXLINE(  86)		if (::hx::IsNull( bytes )) {
+HXLINE(  86)			return null();
             		}
-HXLINE(  89)		return ::lime::utils::_Bytes::Bytes_Impl__obj::_new(bytes->length,bytes->b);
+HXLINE(  88)		return ::lime::utils::_Bytes::Bytes_Impl__obj::_new(bytes->length,bytes->b);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Bytes_Impl__obj,fromBytes,return )
 
  ::haxe::io::Bytes Bytes_Impl__obj::fromFile(::String path){
-            	HX_STACKFRAME(&_hx_pos_3ebd2a3b5b6c79d1_93_fromFile)
-HXLINE(  96)		 ::haxe::io::Bytes bytes = ::lime::utils::_Bytes::Bytes_Impl__obj::alloc(0);
-HXLINE(  97)		::lime::_internal::backend::native::NativeCFFI_obj::lime_bytes_read_file(path,::hx::DynamicPtr(bytes));
-HXLINE(  98)		if ((bytes->length > 0)) {
-HXLINE(  98)			return bytes;
+            	HX_STACKFRAME(&_hx_pos_3ebd2a3b5b6c79d1_92_fromFile)
+HXLINE(  95)		 ::haxe::io::Bytes bytes = ::lime::utils::_Bytes::Bytes_Impl__obj::alloc(0);
+HXLINE(  96)		::lime::_internal::backend::native::NativeCFFI_obj::lime_bytes_read_file(path,::hx::DynamicPtr(bytes));
+HXLINE(  97)		if ((bytes->length > 0)) {
+HXLINE(  97)			return bytes;
             		}
-HXLINE( 104)		return null();
+HXLINE( 103)		return null();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Bytes_Impl__obj,fromFile,return )
 
  ::lime::app::Future Bytes_Impl__obj::loadFromBytes( ::haxe::io::Bytes bytes){
-            	HX_STACKFRAME(&_hx_pos_3ebd2a3b5b6c79d1_109_loadFromBytes)
-HXDLIN( 109)		return ::lime::app::Future_obj::withValue(::lime::utils::_Bytes::Bytes_Impl__obj::fromBytes(bytes));
+            	HX_STACKFRAME(&_hx_pos_3ebd2a3b5b6c79d1_108_loadFromBytes)
+HXDLIN( 108)		return ::lime::app::Future_obj::withValue(::lime::utils::_Bytes::Bytes_Impl__obj::fromBytes(bytes));
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Bytes_Impl__obj,loadFromBytes,return )
 
  ::lime::app::Future Bytes_Impl__obj::loadFromFile(::String path){
-            	HX_GC_STACKFRAME(&_hx_pos_3ebd2a3b5b6c79d1_113_loadFromFile)
-HXLINE( 114)		 ::lime::net::_HTTPRequest_lime_utils_Bytes request =  ::lime::net::_HTTPRequest_lime_utils_Bytes_obj::__alloc( HX_CTX ,null());
-HXLINE( 115)		return request->load(path);
+            	HX_GC_STACKFRAME(&_hx_pos_3ebd2a3b5b6c79d1_112_loadFromFile)
+HXLINE( 113)		 ::lime::net::_HTTPRequest_lime_utils_Bytes request =  ::lime::net::_HTTPRequest_lime_utils_Bytes_obj::__alloc( HX_CTX ,null());
+HXLINE( 114)		return request->load(path);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Bytes_Impl__obj,loadFromFile,return )
 
  ::haxe::io::Bytes Bytes_Impl__obj::ofData(::Array< unsigned char > b){
-            	HX_STACKFRAME(&_hx_pos_3ebd2a3b5b6c79d1_119_ofData)
-HXLINE( 120)		 ::haxe::io::Bytes bytes = ::haxe::io::Bytes_obj::ofData(b);
-HXLINE( 121)		return ::lime::utils::_Bytes::Bytes_Impl__obj::_new(bytes->length,bytes->b);
+            	HX_STACKFRAME(&_hx_pos_3ebd2a3b5b6c79d1_118_ofData)
+HXLINE( 119)		 ::haxe::io::Bytes bytes = ::haxe::io::Bytes_obj::ofData(b);
+HXLINE( 120)		return ::lime::utils::_Bytes::Bytes_Impl__obj::_new(bytes->length,bytes->b);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Bytes_Impl__obj,ofData,return )
 
  ::haxe::io::Bytes Bytes_Impl__obj::ofString(::String s){
-            	HX_STACKFRAME(&_hx_pos_3ebd2a3b5b6c79d1_125_ofString)
-HXLINE( 126)		 ::haxe::io::Bytes bytes = ::haxe::io::Bytes_obj::ofString(s,null());
-HXLINE( 127)		return ::lime::utils::_Bytes::Bytes_Impl__obj::_new(bytes->length,bytes->b);
+            	HX_STACKFRAME(&_hx_pos_3ebd2a3b5b6c79d1_124_ofString)
+HXLINE( 125)		 ::haxe::io::Bytes bytes = ::haxe::io::Bytes_obj::ofString(s,null());
+HXLINE( 126)		return ::lime::utils::_Bytes::Bytes_Impl__obj::_new(bytes->length,bytes->b);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Bytes_Impl__obj,ofString,return )
 
  ::haxe::io::Bytes Bytes_Impl__obj::_hx___fromNativePointer( ::Dynamic data,int length){
-            	HX_STACKFRAME(&_hx_pos_3ebd2a3b5b6c79d1_132___fromNativePointer)
-HXLINE( 133)		 ::haxe::io::Bytes bytes = ::lime::utils::_Bytes::Bytes_Impl__obj::alloc(0);
-HXLINE( 134)		return ( ( ::Dynamic)(::lime::_internal::backend::native::NativeCFFI_obj::lime_bytes_from_data_pointer(( (Float)(data) ),length,::hx::DynamicPtr(bytes))) );
+            	HX_STACKFRAME(&_hx_pos_3ebd2a3b5b6c79d1_131___fromNativePointer)
+HXLINE( 132)		 ::haxe::io::Bytes bytes = ::lime::utils::_Bytes::Bytes_Impl__obj::alloc(0);
+HXLINE( 133)		return ( ( ::Dynamic)(::lime::_internal::backend::native::NativeCFFI_obj::lime_bytes_from_data_pointer(( (Float)(data) ),length,::hx::DynamicPtr(bytes))) );
             	}
 
 

@@ -50,23 +50,23 @@
 #include <openfl/utils/IDataOutput.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_bc206267402385e1_388_new,"openfl.display.LoaderInfo","new",0xaabc917d,"openfl.display.LoaderInfo.new","openfl/display/LoaderInfo.hx",388,0x88528a51)
-HX_LOCAL_STACK_FRAME(_hx_pos_bc206267402385e1_420___complete,"openfl.display.LoaderInfo","__complete",0x9858c05c,"openfl.display.LoaderInfo.__complete","openfl/display/LoaderInfo.hx",420,0x88528a51)
-HX_LOCAL_STACK_FRAME(_hx_pos_bc206267402385e1_435___update,"openfl.display.LoaderInfo","__update",0x44ca06ec,"openfl.display.LoaderInfo.__update","openfl/display/LoaderInfo.hx",435,0x88528a51)
-HX_LOCAL_STACK_FRAME(_hx_pos_bc206267402385e1_401_create,"openfl.display.LoaderInfo","create",0xe80075ff,"openfl.display.LoaderInfo.create","openfl/display/LoaderInfo.hx",401,0x88528a51)
-HX_LOCAL_STACK_FRAME(_hx_pos_bc206267402385e1_112_boot,"openfl.display.LoaderInfo","boot",0xb25bbc75,"openfl.display.LoaderInfo.boot","openfl/display/LoaderInfo.hx",112,0x88528a51)
-HX_LOCAL_STACK_FRAME(_hx_pos_bc206267402385e1_114_boot,"openfl.display.LoaderInfo","boot",0xb25bbc75,"openfl.display.LoaderInfo.boot","openfl/display/LoaderInfo.hx",114,0x88528a51)
+HX_DEFINE_STACK_FRAME(_hx_pos_bc206267402385e1_49_new,"openfl.display.LoaderInfo","new",0xaabc917d,"openfl.display.LoaderInfo.new","openfl/display/LoaderInfo.hx",49,0x88528a51)
+HX_LOCAL_STACK_FRAME(_hx_pos_bc206267402385e1_81___complete,"openfl.display.LoaderInfo","__complete",0x9858c05c,"openfl.display.LoaderInfo.__complete","openfl/display/LoaderInfo.hx",81,0x88528a51)
+HX_LOCAL_STACK_FRAME(_hx_pos_bc206267402385e1_96___update,"openfl.display.LoaderInfo","__update",0x44ca06ec,"openfl.display.LoaderInfo.__update","openfl/display/LoaderInfo.hx",96,0x88528a51)
+HX_LOCAL_STACK_FRAME(_hx_pos_bc206267402385e1_62_create,"openfl.display.LoaderInfo","create",0xe80075ff,"openfl.display.LoaderInfo.create","openfl/display/LoaderInfo.hx",62,0x88528a51)
+HX_LOCAL_STACK_FRAME(_hx_pos_bc206267402385e1_18_boot,"openfl.display.LoaderInfo","boot",0xb25bbc75,"openfl.display.LoaderInfo.boot","openfl/display/LoaderInfo.hx",18,0x88528a51)
+HX_LOCAL_STACK_FRAME(_hx_pos_bc206267402385e1_20_boot,"openfl.display.LoaderInfo","boot",0xb25bbc75,"openfl.display.LoaderInfo.boot","openfl/display/LoaderInfo.hx",20,0x88528a51)
 namespace openfl{
 namespace display{
 
 void LoaderInfo_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_bc206267402385e1_388_new)
-HXLINE( 389)		super::__construct(null());
-HXLINE( 391)		this->applicationDomain = ::openfl::_hx_system::ApplicationDomain_obj::currentDomain;
-HXLINE( 392)		this->bytesLoaded = 0;
-HXLINE( 393)		this->bytesTotal = 0;
-HXLINE( 394)		this->childAllowsParent = true;
-HXLINE( 395)		this->parameters =  ::Dynamic(::hx::Anon_obj::Create(0));
+            	HX_STACKFRAME(&_hx_pos_bc206267402385e1_49_new)
+HXLINE(  50)		super::__construct(null());
+HXLINE(  52)		this->applicationDomain = ::openfl::_hx_system::ApplicationDomain_obj::currentDomain;
+HXLINE(  53)		this->bytesLoaded = 0;
+HXLINE(  54)		this->bytesTotal = 0;
+HXLINE(  55)		this->childAllowsParent = true;
+HXLINE(  56)		this->parameters =  ::Dynamic(::hx::Anon_obj::Create(0));
             	}
 
 Dynamic LoaderInfo_obj::__CreateEmpty() { return new LoaderInfo_obj; }
@@ -89,14 +89,14 @@ bool LoaderInfo_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void LoaderInfo_obj::_hx___complete(){
-            	HX_GC_STACKFRAME(&_hx_pos_bc206267402385e1_420___complete)
-HXDLIN( 420)		if (!(this->_hx___completed)) {
-HXLINE( 422)			if ((this->bytesLoaded < this->bytesTotal)) {
-HXLINE( 424)				this->bytesLoaded = this->bytesTotal;
+            	HX_GC_STACKFRAME(&_hx_pos_bc206267402385e1_81___complete)
+HXDLIN(  81)		if (!(this->_hx___completed)) {
+HXLINE(  83)			if ((this->bytesLoaded < this->bytesTotal)) {
+HXLINE(  85)				this->bytesLoaded = this->bytesTotal;
             			}
-HXLINE( 427)			this->_hx___update(this->bytesLoaded,this->bytesTotal);
-HXLINE( 428)			this->_hx___completed = true;
-HXLINE( 430)			this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("complete",b9,00,c8,7f),null(),null()));
+HXLINE(  88)			this->_hx___update(this->bytesLoaded,this->bytesTotal);
+HXLINE(  89)			this->_hx___completed = true;
+HXLINE(  91)			this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("complete",b9,00,c8,7f),null(),null()));
             		}
             	}
 
@@ -104,10 +104,10 @@ HXLINE( 430)			this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX
 HX_DEFINE_DYNAMIC_FUNC0(LoaderInfo_obj,_hx___complete,(void))
 
 void LoaderInfo_obj::_hx___update(int bytesLoaded,int bytesTotal){
-            	HX_GC_STACKFRAME(&_hx_pos_bc206267402385e1_435___update)
-HXLINE( 436)		this->bytesLoaded = bytesLoaded;
-HXLINE( 437)		this->bytesTotal = bytesTotal;
-HXLINE( 439)		this->dispatchEvent( ::openfl::events::ProgressEvent_obj::__alloc( HX_CTX ,HX_("progress",ad,f7,2a,86),false,false,bytesLoaded,bytesTotal));
+            	HX_GC_STACKFRAME(&_hx_pos_bc206267402385e1_96___update)
+HXLINE(  97)		this->bytesLoaded = bytesLoaded;
+HXLINE(  98)		this->bytesTotal = bytesTotal;
+HXLINE( 100)		this->dispatchEvent( ::openfl::events::ProgressEvent_obj::__alloc( HX_CTX ,HX_("progress",ad,f7,2a,86),false,false,bytesLoaded,bytesTotal));
             	}
 
 
@@ -116,16 +116,16 @@ HX_DEFINE_DYNAMIC_FUNC2(LoaderInfo_obj,_hx___update,(void))
 ::String LoaderInfo_obj::_hx___rootURL;
 
  ::openfl::display::LoaderInfo LoaderInfo_obj::create( ::openfl::display::Loader loader){
-            	HX_GC_STACKFRAME(&_hx_pos_bc206267402385e1_401_create)
-HXLINE( 402)		 ::openfl::display::LoaderInfo loaderInfo =  ::openfl::display::LoaderInfo_obj::__alloc( HX_CTX );
-HXLINE( 403)		loaderInfo->uncaughtErrorEvents =  ::openfl::events::UncaughtErrorEvents_obj::__alloc( HX_CTX );
-HXLINE( 405)		if (::hx::IsNotNull( loader )) {
-HXLINE( 407)			loaderInfo->loader = loader;
+            	HX_GC_STACKFRAME(&_hx_pos_bc206267402385e1_62_create)
+HXLINE(  63)		 ::openfl::display::LoaderInfo loaderInfo =  ::openfl::display::LoaderInfo_obj::__alloc( HX_CTX );
+HXLINE(  64)		loaderInfo->uncaughtErrorEvents =  ::openfl::events::UncaughtErrorEvents_obj::__alloc( HX_CTX );
+HXLINE(  66)		if (::hx::IsNotNull( loader )) {
+HXLINE(  68)			loaderInfo->loader = loader;
             		}
             		else {
-HXLINE( 411)			loaderInfo->url = ::openfl::display::LoaderInfo_obj::_hx___rootURL;
+HXLINE(  72)			loaderInfo->url = ::openfl::display::LoaderInfo_obj::_hx___rootURL;
             		}
-HXLINE( 414)		return loaderInfo;
+HXLINE(  75)		return loaderInfo;
             	}
 
 
@@ -440,8 +440,8 @@ void LoaderInfo_obj::__register()
 void LoaderInfo_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_bc206267402385e1_112_boot)
-HXDLIN( 112)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(2)
+            	HX_STACKFRAME(&_hx_pos_bc206267402385e1_18_boot)
+HXDLIN(  18)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(2)
             			->setFixed(0,HX_("fields",79,8e,8e,80), ::Dynamic(::hx::Anon_obj::Create(1)
             				->setFixed(0,HX_("parameters",aa,be,7e,51), ::Dynamic(::hx::Anon_obj::Create(1)
             					->setFixed(0,HX_("SuppressWarnings",0c,d3,d2,00),::cpp::VirtualArray_obj::__new(1)->init(0,HX_("checkstyle:Dynamic",ce,ea,47,3c)))))))
@@ -450,8 +450,8 @@ HXDLIN( 112)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(2)
             					->setFixed(0,HX_("SuppressWarnings",0c,d3,d2,00),::cpp::VirtualArray_obj::__new(1)->init(0,HX_("checkstyle:FieldDocComment",70,56,1b,20))))))));
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_bc206267402385e1_114_boot)
-HXDLIN( 114)		_hx___rootURL = HX_("",00,00,00,00);
+            	HX_STACKFRAME(&_hx_pos_bc206267402385e1_20_boot)
+HXDLIN(  20)		_hx___rootURL = HX_("",00,00,00,00);
             	}
 }
 

@@ -42,24 +42,24 @@
 #include <openfl/utils/IDataOutput.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_a67c52c2b0f75a05_453_new,"openfl.events.TouchEvent","new",0xe223a0c4,"openfl.events.TouchEvent.new","openfl/events/TouchEvent.hx",453,0x2fe85d0c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a67c52c2b0f75a05_475_clone,"openfl.events.TouchEvent","clone",0x1a12c4c1,"openfl.events.TouchEvent.clone","openfl/events/TouchEvent.hx",475,0x2fe85d0c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a67c52c2b0f75a05_486_toString,"openfl.events.TouchEvent","toString",0x9efd15c8,"openfl.events.TouchEvent.toString","openfl/events/TouchEvent.hx",486,0x2fe85d0c)
+HX_DEFINE_STACK_FRAME(_hx_pos_a67c52c2b0f75a05_58_new,"openfl.events.TouchEvent","new",0xe223a0c4,"openfl.events.TouchEvent.new","openfl/events/TouchEvent.hx",58,0x2fe85d0c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a67c52c2b0f75a05_80_clone,"openfl.events.TouchEvent","clone",0x1a12c4c1,"openfl.events.TouchEvent.clone","openfl/events/TouchEvent.hx",80,0x2fe85d0c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a67c52c2b0f75a05_91_toString,"openfl.events.TouchEvent","toString",0x9efd15c8,"openfl.events.TouchEvent.toString","openfl/events/TouchEvent.hx",91,0x2fe85d0c)
 static const ::String _hx_array_data_e5132ed2_3[] = {
 	HX_("type",ba,f2,08,4d),HX_("bubbles",67,bb,56,61),HX_("cancelable",14,a0,79,c4),HX_("touchPointID",2c,be,83,7b),HX_("isPrimaryTouchPoint",29,3f,07,49),HX_("localX",8d,74,bf,59),HX_("localY",8e,74,bf,59),HX_("sizeX",77,08,d9,7c),HX_("sizeY",78,08,d9,7c),HX_("pressure",c5,ab,1d,70),HX_("relatedObject",0a,bf,cb,e8),HX_("ctrlKey",b4,35,7d,61),HX_("altKey",f6,a7,ca,44),HX_("shiftKey",3d,92,9f,99),HX_("commandKey",14,71,9b,43),HX_("controlKey",42,8e,a5,04),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_a67c52c2b0f75a05_497_updateAfterEvent,"openfl.events.TouchEvent","updateAfterEvent",0xeb0abce3,"openfl.events.TouchEvent.updateAfterEvent","openfl/events/TouchEvent.hx",497,0x2fe85d0c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a67c52c2b0f75a05_511___init,"openfl.events.TouchEvent","__init",0x9cbf244c,"openfl.events.TouchEvent.__init","openfl/events/TouchEvent.hx",511,0x2fe85d0c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a67c52c2b0f75a05_501___create,"openfl.events.TouchEvent","__create",0x8acd1738,"openfl.events.TouchEvent.__create","openfl/events/TouchEvent.hx",501,0x2fe85d0c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a67c52c2b0f75a05_39_boot,"openfl.events.TouchEvent","boot",0xf5220b4e,"openfl.events.TouchEvent.boot","openfl/events/TouchEvent.hx",39,0x2fe85d0c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a67c52c2b0f75a05_77_boot,"openfl.events.TouchEvent","boot",0xf5220b4e,"openfl.events.TouchEvent.boot","openfl/events/TouchEvent.hx",77,0x2fe85d0c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a67c52c2b0f75a05_107_boot,"openfl.events.TouchEvent","boot",0xf5220b4e,"openfl.events.TouchEvent.boot","openfl/events/TouchEvent.hx",107,0x2fe85d0c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a67c52c2b0f75a05_137_boot,"openfl.events.TouchEvent","boot",0xf5220b4e,"openfl.events.TouchEvent.boot","openfl/events/TouchEvent.hx",137,0x2fe85d0c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a67c52c2b0f75a05_167_boot,"openfl.events.TouchEvent","boot",0xf5220b4e,"openfl.events.TouchEvent.boot","openfl/events/TouchEvent.hx",167,0x2fe85d0c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a67c52c2b0f75a05_197_boot,"openfl.events.TouchEvent","boot",0xf5220b4e,"openfl.events.TouchEvent.boot","openfl/events/TouchEvent.hx",197,0x2fe85d0c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a67c52c2b0f75a05_227_boot,"openfl.events.TouchEvent","boot",0xf5220b4e,"openfl.events.TouchEvent.boot","openfl/events/TouchEvent.hx",227,0x2fe85d0c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a67c52c2b0f75a05_257_boot,"openfl.events.TouchEvent","boot",0xf5220b4e,"openfl.events.TouchEvent.boot","openfl/events/TouchEvent.hx",257,0x2fe85d0c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a67c52c2b0f75a05_287_boot,"openfl.events.TouchEvent","boot",0xf5220b4e,"openfl.events.TouchEvent.boot","openfl/events/TouchEvent.hx",287,0x2fe85d0c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a67c52c2b0f75a05_97_updateAfterEvent,"openfl.events.TouchEvent","updateAfterEvent",0xeb0abce3,"openfl.events.TouchEvent.updateAfterEvent","openfl/events/TouchEvent.hx",97,0x2fe85d0c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a67c52c2b0f75a05_111___init,"openfl.events.TouchEvent","__init",0x9cbf244c,"openfl.events.TouchEvent.__init","openfl/events/TouchEvent.hx",111,0x2fe85d0c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a67c52c2b0f75a05_101___create,"openfl.events.TouchEvent","__create",0x8acd1738,"openfl.events.TouchEvent.__create","openfl/events/TouchEvent.hx",101,0x2fe85d0c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a67c52c2b0f75a05_13_boot,"openfl.events.TouchEvent","boot",0xf5220b4e,"openfl.events.TouchEvent.boot","openfl/events/TouchEvent.hx",13,0x2fe85d0c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a67c52c2b0f75a05_22_boot,"openfl.events.TouchEvent","boot",0xf5220b4e,"openfl.events.TouchEvent.boot","openfl/events/TouchEvent.hx",22,0x2fe85d0c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a67c52c2b0f75a05_23_boot,"openfl.events.TouchEvent","boot",0xf5220b4e,"openfl.events.TouchEvent.boot","openfl/events/TouchEvent.hx",23,0x2fe85d0c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a67c52c2b0f75a05_24_boot,"openfl.events.TouchEvent","boot",0xf5220b4e,"openfl.events.TouchEvent.boot","openfl/events/TouchEvent.hx",24,0x2fe85d0c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a67c52c2b0f75a05_25_boot,"openfl.events.TouchEvent","boot",0xf5220b4e,"openfl.events.TouchEvent.boot","openfl/events/TouchEvent.hx",25,0x2fe85d0c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a67c52c2b0f75a05_26_boot,"openfl.events.TouchEvent","boot",0xf5220b4e,"openfl.events.TouchEvent.boot","openfl/events/TouchEvent.hx",26,0x2fe85d0c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a67c52c2b0f75a05_27_boot,"openfl.events.TouchEvent","boot",0xf5220b4e,"openfl.events.TouchEvent.boot","openfl/events/TouchEvent.hx",27,0x2fe85d0c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a67c52c2b0f75a05_28_boot,"openfl.events.TouchEvent","boot",0xf5220b4e,"openfl.events.TouchEvent.boot","openfl/events/TouchEvent.hx",28,0x2fe85d0c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a67c52c2b0f75a05_29_boot,"openfl.events.TouchEvent","boot",0xf5220b4e,"openfl.events.TouchEvent.boot","openfl/events/TouchEvent.hx",29,0x2fe85d0c)
 namespace openfl{
 namespace events{
 
@@ -80,23 +80,23 @@ void TouchEvent_obj::__construct(::String type,::hx::Null< bool >  __o_bubbles,:
             		bool controlKey = __o_controlKey.Default(false);
             		Float timestamp = __o_timestamp.Default(0);
             		bool isTouchPointCanceled = __o_isTouchPointCanceled.Default(false);
-            	HX_STACKFRAME(&_hx_pos_a67c52c2b0f75a05_453_new)
-HXLINE( 454)		super::__construct(type,bubbles,cancelable);
-HXLINE( 456)		this->touchPointID = touchPointID;
-HXLINE( 457)		this->isPrimaryTouchPoint = isPrimaryTouchPoint;
-HXLINE( 458)		this->localX = localX;
-HXLINE( 459)		this->localY = localY;
-HXLINE( 460)		this->sizeX = sizeX;
-HXLINE( 461)		this->sizeY = sizeY;
-HXLINE( 462)		this->pressure = pressure;
-HXLINE( 463)		this->relatedObject = relatedObject;
-HXLINE( 464)		this->ctrlKey = ctrlKey;
-HXLINE( 465)		this->altKey = altKey;
-HXLINE( 466)		this->shiftKey = shiftKey;
-HXLINE( 467)		this->commandKey = commandKey;
-HXLINE( 468)		this->controlKey = controlKey;
-HXLINE( 470)		this->stageX = ::Math_obj::NaN;
-HXLINE( 471)		this->stageY = ::Math_obj::NaN;
+            	HX_STACKFRAME(&_hx_pos_a67c52c2b0f75a05_58_new)
+HXLINE(  59)		super::__construct(type,bubbles,cancelable);
+HXLINE(  61)		this->touchPointID = touchPointID;
+HXLINE(  62)		this->isPrimaryTouchPoint = isPrimaryTouchPoint;
+HXLINE(  63)		this->localX = localX;
+HXLINE(  64)		this->localY = localY;
+HXLINE(  65)		this->sizeX = sizeX;
+HXLINE(  66)		this->sizeY = sizeY;
+HXLINE(  67)		this->pressure = pressure;
+HXLINE(  68)		this->relatedObject = relatedObject;
+HXLINE(  69)		this->ctrlKey = ctrlKey;
+HXLINE(  70)		this->altKey = altKey;
+HXLINE(  71)		this->shiftKey = shiftKey;
+HXLINE(  72)		this->commandKey = commandKey;
+HXLINE(  73)		this->controlKey = controlKey;
+HXLINE(  75)		this->stageX = ::Math_obj::NaN;
+HXLINE(  76)		this->stageY = ::Math_obj::NaN;
             	}
 
 Dynamic TouchEvent_obj::__CreateEmpty() { return new TouchEvent_obj; }
@@ -119,46 +119,46 @@ bool TouchEvent_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::openfl::events::Event TouchEvent_obj::clone(){
-            	HX_GC_STACKFRAME(&_hx_pos_a67c52c2b0f75a05_475_clone)
-HXLINE( 476)		 ::openfl::events::TouchEvent event =  ::openfl::events::TouchEvent_obj::__alloc( HX_CTX ,this->type,this->bubbles,this->cancelable,this->touchPointID,this->isPrimaryTouchPoint,this->localX,this->localY,this->sizeX,this->sizeY,this->pressure,this->relatedObject,this->ctrlKey,this->altKey,this->shiftKey,this->commandKey,this->controlKey,null(),null(),null(),null());
-HXLINE( 478)		event->target = this->target;
-HXLINE( 479)		event->currentTarget = this->currentTarget;
-HXLINE( 480)		event->eventPhase = this->eventPhase;
-HXLINE( 481)		return event;
+            	HX_GC_STACKFRAME(&_hx_pos_a67c52c2b0f75a05_80_clone)
+HXLINE(  81)		 ::openfl::events::TouchEvent event =  ::openfl::events::TouchEvent_obj::__alloc( HX_CTX ,this->type,this->bubbles,this->cancelable,this->touchPointID,this->isPrimaryTouchPoint,this->localX,this->localY,this->sizeX,this->sizeY,this->pressure,this->relatedObject,this->ctrlKey,this->altKey,this->shiftKey,this->commandKey,this->controlKey,null(),null(),null(),null());
+HXLINE(  83)		event->target = this->target;
+HXLINE(  84)		event->currentTarget = this->currentTarget;
+HXLINE(  85)		event->eventPhase = this->eventPhase;
+HXLINE(  86)		return event;
             	}
 
 
 ::String TouchEvent_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_a67c52c2b0f75a05_486_toString)
-HXDLIN( 486)		return this->_hx___formatToString(HX_("TouchEvent",fb,af,06,66),::Array_obj< ::String >::fromData( _hx_array_data_e5132ed2_3,16));
+            	HX_STACKFRAME(&_hx_pos_a67c52c2b0f75a05_91_toString)
+HXDLIN(  91)		return this->_hx___formatToString(HX_("TouchEvent",fb,af,06,66),::Array_obj< ::String >::fromData( _hx_array_data_e5132ed2_3,16));
             	}
 
 
 void TouchEvent_obj::updateAfterEvent(){
-            	HX_STACKFRAME(&_hx_pos_a67c52c2b0f75a05_497_updateAfterEvent)
+            	HX_STACKFRAME(&_hx_pos_a67c52c2b0f75a05_97_updateAfterEvent)
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TouchEvent_obj,updateAfterEvent,(void))
 
 void TouchEvent_obj::_hx___init(){
-            	HX_STACKFRAME(&_hx_pos_a67c52c2b0f75a05_511___init)
-HXLINE( 512)		this->super::_hx___init();
-HXLINE( 513)		this->touchPointID = 0;
-HXLINE( 514)		this->isPrimaryTouchPoint = false;
-HXLINE( 515)		this->localX = ( (Float)(0) );
-HXLINE( 516)		this->localY = ( (Float)(0) );
-HXLINE( 517)		this->sizeX = ( (Float)(0) );
-HXLINE( 518)		this->sizeY = ( (Float)(0) );
-HXLINE( 519)		this->pressure = ( (Float)(0) );
-HXLINE( 520)		this->relatedObject = null();
-HXLINE( 521)		this->ctrlKey = false;
-HXLINE( 522)		this->altKey = false;
-HXLINE( 523)		this->shiftKey = false;
-HXLINE( 524)		this->commandKey = false;
-HXLINE( 525)		this->controlKey = false;
-HXLINE( 527)		this->stageX = ::Math_obj::NaN;
-HXLINE( 528)		this->stageY = ::Math_obj::NaN;
+            	HX_STACKFRAME(&_hx_pos_a67c52c2b0f75a05_111___init)
+HXLINE( 112)		this->super::_hx___init();
+HXLINE( 113)		this->touchPointID = 0;
+HXLINE( 114)		this->isPrimaryTouchPoint = false;
+HXLINE( 115)		this->localX = ( (Float)(0) );
+HXLINE( 116)		this->localY = ( (Float)(0) );
+HXLINE( 117)		this->sizeX = ( (Float)(0) );
+HXLINE( 118)		this->sizeY = ( (Float)(0) );
+HXLINE( 119)		this->pressure = ( (Float)(0) );
+HXLINE( 120)		this->relatedObject = null();
+HXLINE( 121)		this->ctrlKey = false;
+HXLINE( 122)		this->altKey = false;
+HXLINE( 123)		this->shiftKey = false;
+HXLINE( 124)		this->commandKey = false;
+HXLINE( 125)		this->controlKey = false;
+HXLINE( 127)		this->stageX = ::Math_obj::NaN;
+HXLINE( 128)		this->stageY = ::Math_obj::NaN;
             	}
 
 
@@ -179,12 +179,12 @@ HXLINE( 528)		this->stageY = ::Math_obj::NaN;
 ::String TouchEvent_obj::TOUCH_TAP;
 
  ::openfl::events::TouchEvent TouchEvent_obj::_hx___create(::String type, ::Dynamic touch,Float stageX,Float stageY, ::openfl::geom::Point local, ::openfl::display::InteractiveObject target){
-            	HX_GC_STACKFRAME(&_hx_pos_a67c52c2b0f75a05_501___create)
-HXLINE( 502)		 ::openfl::events::TouchEvent evt =  ::openfl::events::TouchEvent_obj::__alloc( HX_CTX ,type,true,false,0,true,local->x,local->y,1,1,1,null(),null(),null(),null(),null(),null(),null(),null(),null(),null());
-HXLINE( 503)		evt->stageX = stageX;
-HXLINE( 504)		evt->stageY = stageY;
-HXLINE( 505)		evt->target = target;
-HXLINE( 507)		return evt;
+            	HX_GC_STACKFRAME(&_hx_pos_a67c52c2b0f75a05_101___create)
+HXLINE( 102)		 ::openfl::events::TouchEvent evt =  ::openfl::events::TouchEvent_obj::__alloc( HX_CTX ,type,true,false,0,true,local->x,local->y,1,1,1,null(),null(),null(),null(),null(),null(),null(),null(),null(),null());
+HXLINE( 103)		evt->stageX = stageX;
+HXLINE( 104)		evt->stageY = stageY;
+HXLINE( 105)		evt->target = target;
+HXLINE( 107)		return evt;
             	}
 
 
@@ -490,43 +490,43 @@ void TouchEvent_obj::__register()
 void TouchEvent_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_a67c52c2b0f75a05_39_boot)
-HXDLIN(  39)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
+            	HX_STACKFRAME(&_hx_pos_a67c52c2b0f75a05_13_boot)
+HXDLIN(  13)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
             			->setFixed(0,HX_("fields",79,8e,8e,80), ::Dynamic(::hx::Anon_obj::Create(1)
             				->setFixed(0,HX_("delta",f8,e7,26,d7), ::Dynamic(::hx::Anon_obj::Create(1)
             					->setFixed(0,HX_("SuppressWarnings",0c,d3,d2,00),::cpp::VirtualArray_obj::__new(1)->init(0,HX_("checkstyle:FieldDocComment",70,56,1b,20))))))));
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_a67c52c2b0f75a05_77_boot)
-HXDLIN(  77)		TOUCH_BEGIN = HX_("touchBegin",ea,cd,e6,a9);
+            	HX_STACKFRAME(&_hx_pos_a67c52c2b0f75a05_22_boot)
+HXDLIN(  22)		TOUCH_BEGIN = HX_("touchBegin",ea,cd,e6,a9);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_a67c52c2b0f75a05_107_boot)
-HXDLIN( 107)		TOUCH_END = HX_("touchEnd",5c,c5,09,00);
+            	HX_STACKFRAME(&_hx_pos_a67c52c2b0f75a05_23_boot)
+HXDLIN(  23)		TOUCH_END = HX_("touchEnd",5c,c5,09,00);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_a67c52c2b0f75a05_137_boot)
-HXDLIN( 137)		TOUCH_MOVE = HX_("touchMove",70,72,cd,0d);
+            	HX_STACKFRAME(&_hx_pos_a67c52c2b0f75a05_24_boot)
+HXDLIN(  24)		TOUCH_MOVE = HX_("touchMove",70,72,cd,0d);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_a67c52c2b0f75a05_167_boot)
-HXDLIN( 167)		TOUCH_OUT = HX_("touchOut",0f,62,11,00);
+            	HX_STACKFRAME(&_hx_pos_a67c52c2b0f75a05_25_boot)
+HXDLIN(  25)		TOUCH_OUT = HX_("touchOut",0f,62,11,00);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_a67c52c2b0f75a05_197_boot)
-HXDLIN( 197)		TOUCH_OVER = HX_("touchOver",b3,20,25,0f);
+            	HX_STACKFRAME(&_hx_pos_a67c52c2b0f75a05_26_boot)
+HXDLIN(  26)		TOUCH_OVER = HX_("touchOver",b3,20,25,0f);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_a67c52c2b0f75a05_227_boot)
-HXDLIN( 227)		TOUCH_ROLL_OUT = HX_("touchRollOut",12,0f,74,87);
+            	HX_STACKFRAME(&_hx_pos_a67c52c2b0f75a05_27_boot)
+HXDLIN(  27)		TOUCH_ROLL_OUT = HX_("touchRollOut",12,0f,74,87);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_a67c52c2b0f75a05_257_boot)
-HXDLIN( 257)		TOUCH_ROLL_OVER = HX_("touchRollOver",50,d6,19,fe);
+            	HX_STACKFRAME(&_hx_pos_a67c52c2b0f75a05_28_boot)
+HXDLIN(  28)		TOUCH_ROLL_OVER = HX_("touchRollOver",50,d6,19,fe);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_a67c52c2b0f75a05_287_boot)
-HXDLIN( 287)		TOUCH_TAP = HX_("touchTap",e4,1b,15,00);
+            	HX_STACKFRAME(&_hx_pos_a67c52c2b0f75a05_29_boot)
+HXDLIN(  29)		TOUCH_TAP = HX_("touchTap",e4,1b,15,00);
             	}
 }
 

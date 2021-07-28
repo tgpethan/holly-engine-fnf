@@ -48,17 +48,17 @@
 HX_LOCAL_STACK_FRAME(_hx_pos_fd1c4d1c82edf2db_68_closePath,"openfl.display._internal.CanvasGraphics","closePath",0x4bc7f60e,"openfl.display._internal.CanvasGraphics.closePath","openfl/display/_internal/CanvasGraphics.hx",68,0x5a71bf7c)
 HX_LOCAL_STACK_FRAME(_hx_pos_fd1c4d1c82edf2db_99_createBitmapFill,"openfl.display._internal.CanvasGraphics","createBitmapFill",0x4b43bfbd,"openfl.display._internal.CanvasGraphics.createBitmapFill","openfl/display/_internal/CanvasGraphics.hx",99,0x5a71bf7c)
 HX_LOCAL_STACK_FRAME(_hx_pos_fd1c4d1c82edf2db_106_createGradientPattern,"openfl.display._internal.CanvasGraphics","createGradientPattern",0x550b94b5,"openfl.display._internal.CanvasGraphics.createGradientPattern","openfl/display/_internal/CanvasGraphics.hx",106,0x5a71bf7c)
-HX_LOCAL_STACK_FRAME(_hx_pos_fd1c4d1c82edf2db_165_createTempPatternCanvas,"openfl.display._internal.CanvasGraphics","createTempPatternCanvas",0x6ada6549,"openfl.display._internal.CanvasGraphics.createTempPatternCanvas","openfl/display/_internal/CanvasGraphics.hx",165,0x5a71bf7c)
-HX_LOCAL_STACK_FRAME(_hx_pos_fd1c4d1c82edf2db_189_drawRoundRect,"openfl.display._internal.CanvasGraphics","drawRoundRect",0xaa7470ff,"openfl.display._internal.CanvasGraphics.drawRoundRect","openfl/display/_internal/CanvasGraphics.hx",189,0x5a71bf7c)
-HX_LOCAL_STACK_FRAME(_hx_pos_fd1c4d1c82edf2db_223_endFill,"openfl.display._internal.CanvasGraphics","endFill",0xd6b0224f,"openfl.display._internal.CanvasGraphics.endFill","openfl/display/_internal/CanvasGraphics.hx",223,0x5a71bf7c)
-HX_LOCAL_STACK_FRAME(_hx_pos_fd1c4d1c82edf2db_232_endStroke,"openfl.display._internal.CanvasGraphics","endStroke",0x88be9284,"openfl.display._internal.CanvasGraphics.endStroke","openfl/display/_internal/CanvasGraphics.hx",232,0x5a71bf7c)
-HX_LOCAL_STACK_FRAME(_hx_pos_fd1c4d1c82edf2db_457_hitTest,"openfl.display._internal.CanvasGraphics","hitTest",0x934efa96,"openfl.display._internal.CanvasGraphics.hitTest","openfl/display/_internal/CanvasGraphics.hx",457,0x5a71bf7c)
-HX_LOCAL_STACK_FRAME(_hx_pos_fd1c4d1c82edf2db_462_isCCW,"openfl.display._internal.CanvasGraphics","isCCW",0x9437381e,"openfl.display._internal.CanvasGraphics.isCCW","openfl/display/_internal/CanvasGraphics.hx",462,0x5a71bf7c)
-HX_LOCAL_STACK_FRAME(_hx_pos_fd1c4d1c82edf2db_466_normalizeUVT,"openfl.display._internal.CanvasGraphics","normalizeUVT",0xa0796975,"openfl.display._internal.CanvasGraphics.normalizeUVT","openfl/display/_internal/CanvasGraphics.hx",466,0x5a71bf7c)
-HX_LOCAL_STACK_FRAME(_hx_pos_fd1c4d1c82edf2db_507_playCommands,"openfl.display._internal.CanvasGraphics","playCommands",0xa3390eeb,"openfl.display._internal.CanvasGraphics.playCommands","openfl/display/_internal/CanvasGraphics.hx",507,0x5a71bf7c)
-HX_LOCAL_STACK_FRAME(_hx_pos_fd1c4d1c82edf2db_1142_render,"openfl.display._internal.CanvasGraphics","render",0xc2394625,"openfl.display._internal.CanvasGraphics.render","openfl/display/_internal/CanvasGraphics.hx",1142,0x5a71bf7c)
-HX_LOCAL_STACK_FRAME(_hx_pos_fd1c4d1c82edf2db_1461_renderMask,"openfl.display._internal.CanvasGraphics","renderMask",0x605729b1,"openfl.display._internal.CanvasGraphics.renderMask","openfl/display/_internal/CanvasGraphics.hx",1461,0x5a71bf7c)
-HX_LOCAL_STACK_FRAME(_hx_pos_fd1c4d1c82edf2db_1565_setSmoothing,"openfl.display._internal.CanvasGraphics","setSmoothing",0x137bf581,"openfl.display._internal.CanvasGraphics.setSmoothing","openfl/display/_internal/CanvasGraphics.hx",1565,0x5a71bf7c)
+HX_LOCAL_STACK_FRAME(_hx_pos_fd1c4d1c82edf2db_166_createTempPatternCanvas,"openfl.display._internal.CanvasGraphics","createTempPatternCanvas",0x6ada6549,"openfl.display._internal.CanvasGraphics.createTempPatternCanvas","openfl/display/_internal/CanvasGraphics.hx",166,0x5a71bf7c)
+HX_LOCAL_STACK_FRAME(_hx_pos_fd1c4d1c82edf2db_190_drawRoundRect,"openfl.display._internal.CanvasGraphics","drawRoundRect",0xaa7470ff,"openfl.display._internal.CanvasGraphics.drawRoundRect","openfl/display/_internal/CanvasGraphics.hx",190,0x5a71bf7c)
+HX_LOCAL_STACK_FRAME(_hx_pos_fd1c4d1c82edf2db_224_endFill,"openfl.display._internal.CanvasGraphics","endFill",0xd6b0224f,"openfl.display._internal.CanvasGraphics.endFill","openfl/display/_internal/CanvasGraphics.hx",224,0x5a71bf7c)
+HX_LOCAL_STACK_FRAME(_hx_pos_fd1c4d1c82edf2db_233_endStroke,"openfl.display._internal.CanvasGraphics","endStroke",0x88be9284,"openfl.display._internal.CanvasGraphics.endStroke","openfl/display/_internal/CanvasGraphics.hx",233,0x5a71bf7c)
+HX_LOCAL_STACK_FRAME(_hx_pos_fd1c4d1c82edf2db_458_hitTest,"openfl.display._internal.CanvasGraphics","hitTest",0x934efa96,"openfl.display._internal.CanvasGraphics.hitTest","openfl/display/_internal/CanvasGraphics.hx",458,0x5a71bf7c)
+HX_LOCAL_STACK_FRAME(_hx_pos_fd1c4d1c82edf2db_463_isCCW,"openfl.display._internal.CanvasGraphics","isCCW",0x9437381e,"openfl.display._internal.CanvasGraphics.isCCW","openfl/display/_internal/CanvasGraphics.hx",463,0x5a71bf7c)
+HX_LOCAL_STACK_FRAME(_hx_pos_fd1c4d1c82edf2db_467_normalizeUVT,"openfl.display._internal.CanvasGraphics","normalizeUVT",0xa0796975,"openfl.display._internal.CanvasGraphics.normalizeUVT","openfl/display/_internal/CanvasGraphics.hx",467,0x5a71bf7c)
+HX_LOCAL_STACK_FRAME(_hx_pos_fd1c4d1c82edf2db_508_playCommands,"openfl.display._internal.CanvasGraphics","playCommands",0xa3390eeb,"openfl.display._internal.CanvasGraphics.playCommands","openfl/display/_internal/CanvasGraphics.hx",508,0x5a71bf7c)
+HX_LOCAL_STACK_FRAME(_hx_pos_fd1c4d1c82edf2db_1138_render,"openfl.display._internal.CanvasGraphics","render",0xc2394625,"openfl.display._internal.CanvasGraphics.render","openfl/display/_internal/CanvasGraphics.hx",1138,0x5a71bf7c)
+HX_LOCAL_STACK_FRAME(_hx_pos_fd1c4d1c82edf2db_1457_renderMask,"openfl.display._internal.CanvasGraphics","renderMask",0x605729b1,"openfl.display._internal.CanvasGraphics.renderMask","openfl/display/_internal/CanvasGraphics.hx",1457,0x5a71bf7c)
+HX_LOCAL_STACK_FRAME(_hx_pos_fd1c4d1c82edf2db_1561_setSmoothing,"openfl.display._internal.CanvasGraphics","setSmoothing",0x137bf581,"openfl.display._internal.CanvasGraphics.setSmoothing","openfl/display/_internal/CanvasGraphics.hx",1561,0x5a71bf7c)
 HX_LOCAL_STACK_FRAME(_hx_pos_fd1c4d1c82edf2db_34_boot,"openfl.display._internal.CanvasGraphics","boot",0x19dfbd41,"openfl.display._internal.CanvasGraphics.boot","openfl/display/_internal/CanvasGraphics.hx",34,0x5a71bf7c)
 HX_LOCAL_STACK_FRAME(_hx_pos_fd1c4d1c82edf2db_36_boot,"openfl.display._internal.CanvasGraphics","boot",0x19dfbd41,"openfl.display._internal.CanvasGraphics.boot","openfl/display/_internal/CanvasGraphics.hx",36,0x5a71bf7c)
 HX_LOCAL_STACK_FRAME(_hx_pos_fd1c4d1c82edf2db_37_boot,"openfl.display._internal.CanvasGraphics","boot",0x19dfbd41,"openfl.display._internal.CanvasGraphics.boot","openfl/display/_internal/CanvasGraphics.hx",37,0x5a71bf7c)
@@ -143,44 +143,44 @@ void CanvasGraphics_obj::createGradientPattern( ::Dynamic type,::cpp::VirtualArr
 STATIC_HX_DEFINE_DYNAMIC_FUNC8(CanvasGraphics_obj,createGradientPattern,(void))
 
 void CanvasGraphics_obj::createTempPatternCanvas( ::openfl::display::BitmapData bitmap,bool repeat,int width,int height){
-            	HX_STACKFRAME(&_hx_pos_fd1c4d1c82edf2db_165_createTempPatternCanvas)
+            	HX_STACKFRAME(&_hx_pos_fd1c4d1c82edf2db_166_createTempPatternCanvas)
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC4(CanvasGraphics_obj,createTempPatternCanvas,(void))
 
 void CanvasGraphics_obj::drawRoundRect(Float x,Float y,Float width,Float height,Float ellipseWidth, ::Dynamic ellipseHeight){
-            	HX_STACKFRAME(&_hx_pos_fd1c4d1c82edf2db_189_drawRoundRect)
+            	HX_STACKFRAME(&_hx_pos_fd1c4d1c82edf2db_190_drawRoundRect)
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC6(CanvasGraphics_obj,drawRoundRect,(void))
 
 void CanvasGraphics_obj::endFill(){
-            	HX_STACKFRAME(&_hx_pos_fd1c4d1c82edf2db_223_endFill)
+            	HX_STACKFRAME(&_hx_pos_fd1c4d1c82edf2db_224_endFill)
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC0(CanvasGraphics_obj,endFill,(void))
 
 void CanvasGraphics_obj::endStroke(){
-            	HX_STACKFRAME(&_hx_pos_fd1c4d1c82edf2db_232_endStroke)
+            	HX_STACKFRAME(&_hx_pos_fd1c4d1c82edf2db_233_endStroke)
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC0(CanvasGraphics_obj,endStroke,(void))
 
 bool CanvasGraphics_obj::hitTest( ::openfl::display::Graphics graphics,Float x,Float y){
-            	HX_STACKFRAME(&_hx_pos_fd1c4d1c82edf2db_457_hitTest)
-HXDLIN( 457)		return false;
+            	HX_STACKFRAME(&_hx_pos_fd1c4d1c82edf2db_458_hitTest)
+HXDLIN( 458)		return false;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC3(CanvasGraphics_obj,hitTest,return )
 
 bool CanvasGraphics_obj::isCCW(Float x1,Float y1,Float x2,Float y2,Float x3,Float y3){
-            	HX_STACKFRAME(&_hx_pos_fd1c4d1c82edf2db_462_isCCW)
-HXDLIN( 462)		return ((((x2 - x1) * (y3 - y1)) - ((y2 - y1) * (x3 - x1))) < 0);
+            	HX_STACKFRAME(&_hx_pos_fd1c4d1c82edf2db_463_isCCW)
+HXDLIN( 463)		return ((((x2 - x1) * (y3 - y1)) - ((y2 - y1) * (x3 - x1))) < 0);
             	}
 
 
@@ -188,61 +188,61 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC6(CanvasGraphics_obj,isCCW,return )
 
  ::Dynamic CanvasGraphics_obj::normalizeUVT( ::openfl::_Vector::FloatVector uvt,::hx::Null< bool >  __o_skipT){
             		bool skipT = __o_skipT.Default(false);
-            	HX_GC_STACKFRAME(&_hx_pos_fd1c4d1c82edf2db_466_normalizeUVT)
-HXLINE( 467)		Float max = ::Math_obj::NEGATIVE_INFINITY;
-HXLINE( 468)		Float tmp = ::Math_obj::NEGATIVE_INFINITY;
-HXLINE( 469)		int len = uvt->get_length();
-HXLINE( 471)		{
-HXLINE( 471)			int _g = 1;
-HXDLIN( 471)			int _g1 = (len + 1);
-HXDLIN( 471)			while((_g < _g1)){
-HXLINE( 471)				_g = (_g + 1);
-HXDLIN( 471)				int t = (_g - 1);
-HXLINE( 473)				bool _hx_tmp;
-HXDLIN( 473)				if (skipT) {
-HXLINE( 473)					_hx_tmp = (::hx::Mod(t,3) == 0);
+            	HX_GC_STACKFRAME(&_hx_pos_fd1c4d1c82edf2db_467_normalizeUVT)
+HXLINE( 468)		Float max = ::Math_obj::NEGATIVE_INFINITY;
+HXLINE( 469)		Float tmp = ::Math_obj::NEGATIVE_INFINITY;
+HXLINE( 470)		int len = uvt->get_length();
+HXLINE( 472)		{
+HXLINE( 472)			int _g = 1;
+HXDLIN( 472)			int _g1 = (len + 1);
+HXDLIN( 472)			while((_g < _g1)){
+HXLINE( 472)				_g = (_g + 1);
+HXDLIN( 472)				int t = (_g - 1);
+HXLINE( 474)				bool _hx_tmp;
+HXDLIN( 474)				if (skipT) {
+HXLINE( 474)					_hx_tmp = (::hx::Mod(t,3) == 0);
             				}
             				else {
-HXLINE( 473)					_hx_tmp = false;
+HXLINE( 474)					_hx_tmp = false;
             				}
-HXDLIN( 473)				if (_hx_tmp) {
-HXLINE( 475)					continue;
+HXDLIN( 474)				if (_hx_tmp) {
+HXLINE( 476)					continue;
             				}
-HXLINE( 478)				tmp = uvt->get((t - 1));
-HXLINE( 480)				if ((max < tmp)) {
-HXLINE( 482)					max = tmp;
+HXLINE( 479)				tmp = uvt->get((t - 1));
+HXLINE( 481)				if ((max < tmp)) {
+HXLINE( 483)					max = tmp;
             				}
             			}
             		}
-HXLINE( 486)		if (!(skipT)) {
-HXLINE( 488)			return  ::Dynamic(::hx::Anon_obj::Create(2)
+HXLINE( 487)		if (!(skipT)) {
+HXLINE( 489)			return  ::Dynamic(::hx::Anon_obj::Create(2)
             				->setFixed(0,HX_("max",a4,0a,53,00),max)
             				->setFixed(1,HX_("uvt",f3,2e,59,00),uvt));
             		}
-HXLINE( 491)		int length = null();
-HXDLIN( 491)		bool fixed = null();
-HXDLIN( 491)		::Array< Float > array = null();
-HXDLIN( 491)		 ::openfl::_Vector::FloatVector result =  ::openfl::_Vector::FloatVector_obj::__alloc( HX_CTX ,length,fixed,array,true);
-HXLINE( 493)		{
-HXLINE( 493)			int _g2 = 1;
-HXDLIN( 493)			int _g3 = (len + 1);
-HXDLIN( 493)			while((_g2 < _g3)){
-HXLINE( 493)				_g2 = (_g2 + 1);
-HXDLIN( 493)				int t = (_g2 - 1);
-HXLINE( 495)				bool _hx_tmp;
-HXDLIN( 495)				if (skipT) {
-HXLINE( 495)					_hx_tmp = (::hx::Mod(t,3) == 0);
+HXLINE( 492)		int length = null();
+HXDLIN( 492)		bool fixed = null();
+HXDLIN( 492)		::Array< Float > array = null();
+HXDLIN( 492)		 ::openfl::_Vector::FloatVector result =  ::openfl::_Vector::FloatVector_obj::__alloc( HX_CTX ,length,fixed,array,true);
+HXLINE( 494)		{
+HXLINE( 494)			int _g2 = 1;
+HXDLIN( 494)			int _g3 = (len + 1);
+HXDLIN( 494)			while((_g2 < _g3)){
+HXLINE( 494)				_g2 = (_g2 + 1);
+HXDLIN( 494)				int t = (_g2 - 1);
+HXLINE( 496)				bool _hx_tmp;
+HXDLIN( 496)				if (skipT) {
+HXLINE( 496)					_hx_tmp = (::hx::Mod(t,3) == 0);
             				}
             				else {
-HXLINE( 495)					_hx_tmp = false;
+HXLINE( 496)					_hx_tmp = false;
             				}
-HXDLIN( 495)				if (_hx_tmp) {
-HXLINE( 497)					continue;
+HXDLIN( 496)				if (_hx_tmp) {
+HXLINE( 498)					continue;
             				}
-HXLINE( 500)				result->push(uvt->get((t - 1)));
+HXLINE( 501)				result->push(uvt->get((t - 1)));
             			}
             		}
-HXLINE( 503)		return  ::Dynamic(::hx::Anon_obj::Create(2)
+HXLINE( 504)		return  ::Dynamic(::hx::Anon_obj::Create(2)
             			->setFixed(0,HX_("max",a4,0a,53,00),max)
             			->setFixed(1,HX_("uvt",f3,2e,59,00),result));
             	}
@@ -252,28 +252,28 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC2(CanvasGraphics_obj,normalizeUVT,return )
 
 void CanvasGraphics_obj::playCommands( ::openfl::display::_internal::DrawCommandBuffer commands,::hx::Null< bool >  __o_stroke){
             		bool stroke = __o_stroke.Default(false);
-            	HX_STACKFRAME(&_hx_pos_fd1c4d1c82edf2db_507_playCommands)
+            	HX_STACKFRAME(&_hx_pos_fd1c4d1c82edf2db_508_playCommands)
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(CanvasGraphics_obj,playCommands,(void))
 
 void CanvasGraphics_obj::render( ::openfl::display::Graphics graphics, ::openfl::display::CanvasRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_fd1c4d1c82edf2db_1142_render)
+            	HX_STACKFRAME(&_hx_pos_fd1c4d1c82edf2db_1138_render)
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(CanvasGraphics_obj,render,(void))
 
 void CanvasGraphics_obj::renderMask( ::openfl::display::Graphics graphics, ::openfl::display::CanvasRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_fd1c4d1c82edf2db_1461_renderMask)
+            	HX_STACKFRAME(&_hx_pos_fd1c4d1c82edf2db_1457_renderMask)
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(CanvasGraphics_obj,renderMask,(void))
 
 void CanvasGraphics_obj::setSmoothing(bool smooth){
-            	HX_STACKFRAME(&_hx_pos_fd1c4d1c82edf2db_1565_setSmoothing)
+            	HX_STACKFRAME(&_hx_pos_fd1c4d1c82edf2db_1561_setSmoothing)
             	}
 
 

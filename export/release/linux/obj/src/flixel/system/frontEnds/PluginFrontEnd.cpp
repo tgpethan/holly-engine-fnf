@@ -29,23 +29,23 @@
 #include <flixel/util/IFlxDestroyable.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_4a20ba41f30cf210_12_new,"flixel.system.frontEnds.PluginFrontEnd","new",0x6ca9c2b1,"flixel.system.frontEnds.PluginFrontEnd.new","flixel/system/frontEnds/PluginFrontEnd.hx",12,0xbff70e9e)
-HX_LOCAL_STACK_FRAME(_hx_pos_4a20ba41f30cf210_27_add_flixel_tweens_FlxTweenManager,"flixel.system.frontEnds.PluginFrontEnd","add_flixel_tweens_FlxTweenManager",0xfdb05bd3,"flixel.system.frontEnds.PluginFrontEnd.add_flixel_tweens_FlxTweenManager","flixel/system/frontEnds/PluginFrontEnd.hx",27,0xbff70e9e)
-HX_LOCAL_STACK_FRAME(_hx_pos_4a20ba41f30cf210_27_add_flixel_util_FlxTimerManager,"flixel.system.frontEnds.PluginFrontEnd","add_flixel_util_FlxTimerManager",0x16f6f493,"flixel.system.frontEnds.PluginFrontEnd.add_flixel_util_FlxTimerManager","flixel/system/frontEnds/PluginFrontEnd.hx",27,0xbff70e9e)
-HX_LOCAL_STACK_FRAME(_hx_pos_4a20ba41f30cf210_49_get,"flixel.system.frontEnds.PluginFrontEnd","get",0x6ca472e7,"flixel.system.frontEnds.PluginFrontEnd.get","flixel/system/frontEnds/PluginFrontEnd.hx",49,0xbff70e9e)
-HX_LOCAL_STACK_FRAME(_hx_pos_4a20ba41f30cf210_68_remove,"flixel.system.frontEnds.PluginFrontEnd","remove",0x66803293,"flixel.system.frontEnds.PluginFrontEnd.remove","flixel/system/frontEnds/PluginFrontEnd.hx",68,0xbff70e9e)
-HX_LOCAL_STACK_FRAME(_hx_pos_4a20ba41f30cf210_92_removeType,"flixel.system.frontEnds.PluginFrontEnd","removeType",0x8b4a96ed,"flixel.system.frontEnds.PluginFrontEnd.removeType","flixel/system/frontEnds/PluginFrontEnd.hx",92,0xbff70e9e)
-HX_LOCAL_STACK_FRAME(_hx_pos_4a20ba41f30cf210_123_update,"flixel.system.frontEnds.PluginFrontEnd","update",0xe8fd1c58,"flixel.system.frontEnds.PluginFrontEnd.update","flixel/system/frontEnds/PluginFrontEnd.hx",123,0xbff70e9e)
-HX_LOCAL_STACK_FRAME(_hx_pos_4a20ba41f30cf210_138_draw,"flixel.system.frontEnds.PluginFrontEnd","draw",0xa14e4093,"flixel.system.frontEnds.PluginFrontEnd.draw","flixel/system/frontEnds/PluginFrontEnd.hx",138,0xbff70e9e)
+HX_DEFINE_STACK_FRAME(_hx_pos_4a20ba41f30cf210_7_new,"flixel.system.frontEnds.PluginFrontEnd","new",0x6ca9c2b1,"flixel.system.frontEnds.PluginFrontEnd.new","flixel/system/frontEnds/PluginFrontEnd.hx",7,0xbff70e9e)
+HX_LOCAL_STACK_FRAME(_hx_pos_4a20ba41f30cf210_22_add_flixel_tweens_FlxTweenManager,"flixel.system.frontEnds.PluginFrontEnd","add_flixel_tweens_FlxTweenManager",0xfdb05bd3,"flixel.system.frontEnds.PluginFrontEnd.add_flixel_tweens_FlxTweenManager","flixel/system/frontEnds/PluginFrontEnd.hx",22,0xbff70e9e)
+HX_LOCAL_STACK_FRAME(_hx_pos_4a20ba41f30cf210_22_add_flixel_util_FlxTimerManager,"flixel.system.frontEnds.PluginFrontEnd","add_flixel_util_FlxTimerManager",0x16f6f493,"flixel.system.frontEnds.PluginFrontEnd.add_flixel_util_FlxTimerManager","flixel/system/frontEnds/PluginFrontEnd.hx",22,0xbff70e9e)
+HX_LOCAL_STACK_FRAME(_hx_pos_4a20ba41f30cf210_44_get,"flixel.system.frontEnds.PluginFrontEnd","get",0x6ca472e7,"flixel.system.frontEnds.PluginFrontEnd.get","flixel/system/frontEnds/PluginFrontEnd.hx",44,0xbff70e9e)
+HX_LOCAL_STACK_FRAME(_hx_pos_4a20ba41f30cf210_63_remove,"flixel.system.frontEnds.PluginFrontEnd","remove",0x66803293,"flixel.system.frontEnds.PluginFrontEnd.remove","flixel/system/frontEnds/PluginFrontEnd.hx",63,0xbff70e9e)
+HX_LOCAL_STACK_FRAME(_hx_pos_4a20ba41f30cf210_87_removeType,"flixel.system.frontEnds.PluginFrontEnd","removeType",0x8b4a96ed,"flixel.system.frontEnds.PluginFrontEnd.removeType","flixel/system/frontEnds/PluginFrontEnd.hx",87,0xbff70e9e)
+HX_LOCAL_STACK_FRAME(_hx_pos_4a20ba41f30cf210_118_update,"flixel.system.frontEnds.PluginFrontEnd","update",0xe8fd1c58,"flixel.system.frontEnds.PluginFrontEnd.update","flixel/system/frontEnds/PluginFrontEnd.hx",118,0xbff70e9e)
+HX_LOCAL_STACK_FRAME(_hx_pos_4a20ba41f30cf210_133_draw,"flixel.system.frontEnds.PluginFrontEnd","draw",0xa14e4093,"flixel.system.frontEnds.PluginFrontEnd.draw","flixel/system/frontEnds/PluginFrontEnd.hx",133,0xbff70e9e)
 namespace flixel{
 namespace _hx_system{
 namespace frontEnds{
 
 void PluginFrontEnd_obj::__construct(){
-            	HX_GC_STACKFRAME(&_hx_pos_4a20ba41f30cf210_12_new)
-HXLINE(  17)		this->list = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE( 113)		this->add_flixel_util_FlxTimerManager((::flixel::util::FlxTimer_obj::globalManager =  ::flixel::util::FlxTimerManager_obj::__alloc( HX_CTX )));
-HXLINE( 114)		this->add_flixel_tweens_FlxTweenManager((::flixel::tweens::FlxTween_obj::globalManager =  ::flixel::tweens::FlxTweenManager_obj::__alloc( HX_CTX )));
+            	HX_GC_STACKFRAME(&_hx_pos_4a20ba41f30cf210_7_new)
+HXLINE(  12)		this->list = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE( 108)		this->add_flixel_util_FlxTimerManager((::flixel::util::FlxTimer_obj::globalManager =  ::flixel::util::FlxTimerManager_obj::__alloc( HX_CTX )));
+HXLINE( 109)		this->add_flixel_tweens_FlxTweenManager((::flixel::tweens::FlxTween_obj::globalManager =  ::flixel::tweens::FlxTweenManager_obj::__alloc( HX_CTX )));
             	}
 
 Dynamic PluginFrontEnd_obj::__CreateEmpty() { return new PluginFrontEnd_obj; }
@@ -64,117 +64,117 @@ bool PluginFrontEnd_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::flixel::tweens::FlxTweenManager PluginFrontEnd_obj::add_flixel_tweens_FlxTweenManager( ::flixel::tweens::FlxTweenManager Plugin){
-            	HX_STACKFRAME(&_hx_pos_4a20ba41f30cf210_27_add_flixel_tweens_FlxTweenManager)
-HXLINE(  29)		{
-HXLINE(  29)			int _g = 0;
-HXDLIN(  29)			::Array< ::Dynamic> _g1 = this->list;
-HXDLIN(  29)			while((_g < _g1->length)){
-HXLINE(  29)				 ::flixel::FlxBasic plugin = _g1->__get(_g).StaticCast<  ::flixel::FlxBasic >();
-HXDLIN(  29)				_g = (_g + 1);
-HXLINE(  31)				bool Simple = true;
-HXDLIN(  31)				::String _hx_tmp = ::flixel::util::FlxStringUtil_obj::getClassName(Plugin,Simple);
-HXDLIN(  31)				if ((_hx_tmp == ::flixel::util::FlxStringUtil_obj::getClassName(plugin,Simple))) {
-HXLINE(  33)					return Plugin;
+            	HX_STACKFRAME(&_hx_pos_4a20ba41f30cf210_22_add_flixel_tweens_FlxTweenManager)
+HXLINE(  24)		{
+HXLINE(  24)			int _g = 0;
+HXDLIN(  24)			::Array< ::Dynamic> _g1 = this->list;
+HXDLIN(  24)			while((_g < _g1->length)){
+HXLINE(  24)				 ::flixel::FlxBasic plugin = _g1->__get(_g).StaticCast<  ::flixel::FlxBasic >();
+HXDLIN(  24)				_g = (_g + 1);
+HXLINE(  26)				bool Simple = true;
+HXDLIN(  26)				::String _hx_tmp = ::flixel::util::FlxStringUtil_obj::getClassName(Plugin,Simple);
+HXDLIN(  26)				if ((_hx_tmp == ::flixel::util::FlxStringUtil_obj::getClassName(plugin,Simple))) {
+HXLINE(  28)					return Plugin;
             				}
             			}
             		}
-HXLINE(  38)		this->list->push(Plugin);
-HXLINE(  39)		return Plugin;
+HXLINE(  33)		this->list->push(Plugin);
+HXLINE(  34)		return Plugin;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(PluginFrontEnd_obj,add_flixel_tweens_FlxTweenManager,return )
 
  ::flixel::util::FlxTimerManager PluginFrontEnd_obj::add_flixel_util_FlxTimerManager( ::flixel::util::FlxTimerManager Plugin){
-            	HX_STACKFRAME(&_hx_pos_4a20ba41f30cf210_27_add_flixel_util_FlxTimerManager)
-HXLINE(  29)		{
-HXLINE(  29)			int _g = 0;
-HXDLIN(  29)			::Array< ::Dynamic> _g1 = this->list;
-HXDLIN(  29)			while((_g < _g1->length)){
-HXLINE(  29)				 ::flixel::FlxBasic plugin = _g1->__get(_g).StaticCast<  ::flixel::FlxBasic >();
-HXDLIN(  29)				_g = (_g + 1);
-HXLINE(  31)				bool Simple = true;
-HXDLIN(  31)				::String _hx_tmp = ::flixel::util::FlxStringUtil_obj::getClassName(Plugin,Simple);
-HXDLIN(  31)				if ((_hx_tmp == ::flixel::util::FlxStringUtil_obj::getClassName(plugin,Simple))) {
-HXLINE(  33)					return Plugin;
+            	HX_STACKFRAME(&_hx_pos_4a20ba41f30cf210_22_add_flixel_util_FlxTimerManager)
+HXLINE(  24)		{
+HXLINE(  24)			int _g = 0;
+HXDLIN(  24)			::Array< ::Dynamic> _g1 = this->list;
+HXDLIN(  24)			while((_g < _g1->length)){
+HXLINE(  24)				 ::flixel::FlxBasic plugin = _g1->__get(_g).StaticCast<  ::flixel::FlxBasic >();
+HXDLIN(  24)				_g = (_g + 1);
+HXLINE(  26)				bool Simple = true;
+HXDLIN(  26)				::String _hx_tmp = ::flixel::util::FlxStringUtil_obj::getClassName(Plugin,Simple);
+HXDLIN(  26)				if ((_hx_tmp == ::flixel::util::FlxStringUtil_obj::getClassName(plugin,Simple))) {
+HXLINE(  28)					return Plugin;
             				}
             			}
             		}
-HXLINE(  38)		this->list->push(Plugin);
-HXLINE(  39)		return Plugin;
+HXLINE(  33)		this->list->push(Plugin);
+HXLINE(  34)		return Plugin;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(PluginFrontEnd_obj,add_flixel_util_FlxTimerManager,return )
 
- ::Dynamic PluginFrontEnd_obj::get(::hx::Class ClassType){
-            	HX_STACKFRAME(&_hx_pos_4a20ba41f30cf210_49_get)
-HXLINE(  50)		{
-HXLINE(  50)			int _g = 0;
-HXDLIN(  50)			::Array< ::Dynamic> _g1 = this->list;
-HXDLIN(  50)			while((_g < _g1->length)){
-HXLINE(  50)				 ::flixel::FlxBasic plugin = _g1->__get(_g).StaticCast<  ::flixel::FlxBasic >();
-HXDLIN(  50)				_g = (_g + 1);
-HXLINE(  52)				if (::Std_obj::isOfType(plugin,( ( ::Dynamic)(ClassType) ))) {
-HXLINE(  54)					return plugin;
+ ::flixel::FlxBasic PluginFrontEnd_obj::get(::hx::Class ClassType){
+            	HX_STACKFRAME(&_hx_pos_4a20ba41f30cf210_44_get)
+HXLINE(  45)		{
+HXLINE(  45)			int _g = 0;
+HXDLIN(  45)			::Array< ::Dynamic> _g1 = this->list;
+HXDLIN(  45)			while((_g < _g1->length)){
+HXLINE(  45)				 ::flixel::FlxBasic plugin = _g1->__get(_g).StaticCast<  ::flixel::FlxBasic >();
+HXDLIN(  45)				_g = (_g + 1);
+HXLINE(  47)				if (::Std_obj::isOfType(plugin,ClassType)) {
+HXLINE(  49)					return plugin;
             				}
             			}
             		}
-HXLINE(  58)		return null();
+HXLINE(  53)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(PluginFrontEnd_obj,get,return )
 
- ::Dynamic PluginFrontEnd_obj::remove( ::Dynamic Plugin){
-            	HX_STACKFRAME(&_hx_pos_4a20ba41f30cf210_68_remove)
-HXLINE(  70)		int i = (this->list->length - 1);
-HXLINE(  72)		while((i >= 0)){
-HXLINE(  74)			if (::hx::IsEq( this->list->__get(i).StaticCast<  ::flixel::FlxBasic >(),Plugin )) {
-HXLINE(  76)				this->list->removeRange(i,1);
-HXLINE(  77)				return Plugin;
+ ::flixel::FlxBasic PluginFrontEnd_obj::remove( ::flixel::FlxBasic Plugin){
+            	HX_STACKFRAME(&_hx_pos_4a20ba41f30cf210_63_remove)
+HXLINE(  65)		int i = (this->list->length - 1);
+HXLINE(  67)		while((i >= 0)){
+HXLINE(  69)			if (::hx::IsEq( this->list->__get(i).StaticCast<  ::flixel::FlxBasic >(),Plugin )) {
+HXLINE(  71)				this->list->removeRange(i,1);
+HXLINE(  72)				return Plugin;
             			}
-HXLINE(  79)			i = (i - 1);
+HXLINE(  74)			i = (i - 1);
             		}
-HXLINE(  82)		return Plugin;
+HXLINE(  77)		return Plugin;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(PluginFrontEnd_obj,remove,return )
 
 bool PluginFrontEnd_obj::removeType(::hx::Class ClassType){
-            	HX_STACKFRAME(&_hx_pos_4a20ba41f30cf210_92_removeType)
-HXLINE(  94)		bool results = false;
-HXLINE(  95)		int i = (this->list->length - 1);
-HXLINE(  97)		while((i >= 0)){
-HXLINE(  99)			if (::Std_obj::isOfType(this->list->__get(i).StaticCast<  ::flixel::FlxBasic >(),( ( ::Dynamic)(ClassType) ))) {
-HXLINE( 101)				this->list->removeRange(i,1);
-HXLINE( 102)				results = true;
+            	HX_STACKFRAME(&_hx_pos_4a20ba41f30cf210_87_removeType)
+HXLINE(  89)		bool results = false;
+HXLINE(  90)		int i = (this->list->length - 1);
+HXLINE(  92)		while((i >= 0)){
+HXLINE(  94)			if (::Std_obj::isOfType(this->list->__get(i).StaticCast<  ::flixel::FlxBasic >(),ClassType)) {
+HXLINE(  96)				this->list->removeRange(i,1);
+HXLINE(  97)				results = true;
             			}
-HXLINE( 104)			i = (i - 1);
+HXLINE(  99)			i = (i - 1);
             		}
-HXLINE( 107)		return results;
+HXLINE( 102)		return results;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(PluginFrontEnd_obj,removeType,return )
 
 void PluginFrontEnd_obj::update(Float elapsed){
-            	HX_STACKFRAME(&_hx_pos_4a20ba41f30cf210_123_update)
-HXDLIN( 123)		int _g = 0;
-HXDLIN( 123)		::Array< ::Dynamic> _g1 = this->list;
-HXDLIN( 123)		while((_g < _g1->length)){
-HXDLIN( 123)			 ::flixel::FlxBasic plugin = _g1->__get(_g).StaticCast<  ::flixel::FlxBasic >();
-HXDLIN( 123)			_g = (_g + 1);
-HXLINE( 125)			bool _hx_tmp;
-HXDLIN( 125)			if (plugin->exists) {
-HXLINE( 125)				_hx_tmp = plugin->active;
+            	HX_STACKFRAME(&_hx_pos_4a20ba41f30cf210_118_update)
+HXDLIN( 118)		int _g = 0;
+HXDLIN( 118)		::Array< ::Dynamic> _g1 = this->list;
+HXDLIN( 118)		while((_g < _g1->length)){
+HXDLIN( 118)			 ::flixel::FlxBasic plugin = _g1->__get(_g).StaticCast<  ::flixel::FlxBasic >();
+HXDLIN( 118)			_g = (_g + 1);
+HXLINE( 120)			bool _hx_tmp;
+HXDLIN( 120)			if (plugin->exists) {
+HXLINE( 120)				_hx_tmp = plugin->active;
             			}
             			else {
-HXLINE( 125)				_hx_tmp = false;
+HXLINE( 120)				_hx_tmp = false;
             			}
-HXDLIN( 125)			if (_hx_tmp) {
-HXLINE( 127)				plugin->update(elapsed);
+HXDLIN( 120)			if (_hx_tmp) {
+HXLINE( 122)				plugin->update(elapsed);
             			}
             		}
             	}
@@ -183,21 +183,21 @@ HXLINE( 127)				plugin->update(elapsed);
 HX_DEFINE_DYNAMIC_FUNC1(PluginFrontEnd_obj,update,(void))
 
 void PluginFrontEnd_obj::draw(){
-            	HX_STACKFRAME(&_hx_pos_4a20ba41f30cf210_138_draw)
-HXDLIN( 138)		int _g = 0;
-HXDLIN( 138)		::Array< ::Dynamic> _g1 = this->list;
-HXDLIN( 138)		while((_g < _g1->length)){
-HXDLIN( 138)			 ::flixel::FlxBasic plugin = _g1->__get(_g).StaticCast<  ::flixel::FlxBasic >();
-HXDLIN( 138)			_g = (_g + 1);
-HXLINE( 140)			bool _hx_tmp;
-HXDLIN( 140)			if (plugin->exists) {
-HXLINE( 140)				_hx_tmp = plugin->visible;
+            	HX_STACKFRAME(&_hx_pos_4a20ba41f30cf210_133_draw)
+HXDLIN( 133)		int _g = 0;
+HXDLIN( 133)		::Array< ::Dynamic> _g1 = this->list;
+HXDLIN( 133)		while((_g < _g1->length)){
+HXDLIN( 133)			 ::flixel::FlxBasic plugin = _g1->__get(_g).StaticCast<  ::flixel::FlxBasic >();
+HXDLIN( 133)			_g = (_g + 1);
+HXLINE( 135)			bool _hx_tmp;
+HXDLIN( 135)			if (plugin->exists) {
+HXLINE( 135)				_hx_tmp = plugin->visible;
             			}
             			else {
-HXLINE( 140)				_hx_tmp = false;
+HXLINE( 135)				_hx_tmp = false;
             			}
-HXDLIN( 140)			if (_hx_tmp) {
-HXLINE( 142)				plugin->draw();
+HXDLIN( 135)			if (_hx_tmp) {
+HXLINE( 137)				plugin->draw();
             			}
             		}
             	}

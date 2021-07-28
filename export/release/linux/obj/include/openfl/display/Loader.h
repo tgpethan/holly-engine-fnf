@@ -77,10 +77,6 @@ class HXCPP_CLASS_ATTRIBUTES Loader_obj : public  ::openfl::display::DisplayObje
 		 ::openfl::utils::AssetLibrary _hx___library;
 		::String _hx___path;
 		bool _hx___unloaded;
-		 ::openfl::display::DisplayObject addChild( ::openfl::display::DisplayObject child);
-
-		 ::openfl::display::DisplayObject addChildAt( ::openfl::display::DisplayObject child,int index);
-
 		void close();
 		::Dynamic close_dyn();
 
@@ -89,12 +85,6 @@ class HXCPP_CLASS_ATTRIBUTES Loader_obj : public  ::openfl::display::DisplayObje
 
 		void loadBytes( ::openfl::utils::ByteArrayData buffer, ::openfl::_hx_system::LoaderContext context);
 		::Dynamic loadBytes_dyn();
-
-		 ::openfl::display::DisplayObject removeChild( ::openfl::display::DisplayObject child);
-
-		 ::openfl::display::DisplayObject removeChildAt(int index);
-
-		void setChildIndex( ::openfl::display::DisplayObject child,int index);
 
 		void unload();
 		::Dynamic unload_dyn();

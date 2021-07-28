@@ -66,18 +66,6 @@ class HXCPP_CLASS_ATTRIBUTES ObjectMap_obj : public ::hx::Object
 		 ::Dynamic keys();
 		::Dynamic keys_dyn();
 
-		 ::Dynamic iterator();
-		::Dynamic iterator_dyn();
-
-		 ::Dynamic keyValueIterator();
-		::Dynamic keyValueIterator_dyn();
-
-		virtual ::String toString();
-		::Dynamic toString_dyn();
-
-		void clear();
-		::Dynamic clear_dyn();
-
 
   inline void set(Dynamic key, ::null value) { __object_hash_set(HX_MAP_THIS,key,value); }
   inline void set(Dynamic key, bool value) { __object_hash_set(HX_MAP_THIS,key,value); }

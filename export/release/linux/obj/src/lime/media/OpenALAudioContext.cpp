@@ -957,9 +957,9 @@ HXDLIN( 568)		::lime::media::openal::AL_obj::sourceQueueBuffers(source,nb,buffer
 
 HX_DEFINE_DYNAMIC_FUNC3(OpenALAudioContext_obj,sourceQueueBuffers,(void))
 
- ::Dynamic OpenALAudioContext_obj::sourceUnqueueBuffer( ::Dynamic source){
+int OpenALAudioContext_obj::sourceUnqueueBuffer( ::Dynamic source){
             	HX_STACKFRAME(&_hx_pos_18837c5c516898e1_573_sourceUnqueueBuffer)
-HXDLIN( 573)		return ::lime::media::openal::AL_obj::sourceUnqueueBuffer(source);
+HXDLIN( 573)		return ( (int)(::lime::media::openal::AL_obj::sourceUnqueueBuffer(source)) );
             	}
 
 
