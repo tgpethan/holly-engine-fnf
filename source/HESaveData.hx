@@ -46,4 +46,9 @@ class HESaveData
         // Set FPS Max
         mainRef.setMaxFPS(FlxG.save.data.frameLimiter);
     }
+
+    public static function multiFromFrameLimiter(val:Float):Float
+    {
+        return val * (60 / FlxG.save.data.frameLimiter);
+    }
 }

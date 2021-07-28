@@ -1259,7 +1259,6 @@ class PlayState extends MusicBeatState
 						trainFrameTiming = 0;
 					}
 				}
-				// phillyCityLights.members[curLight].alpha -= (Conductor.crochet / 1000) * FlxG.elapsed;
 		}
 
 		super.update(elapsed);
@@ -1280,8 +1279,8 @@ class PlayState extends MusicBeatState
 			FlxG.switchState(new ChartingState());
 		}
 
-		iconP1.setGraphicSize(Std.int(FlxMath.lerp(150, iconP1.width, 0.50)));
-		iconP2.setGraphicSize(Std.int(FlxMath.lerp(150, iconP2.width, 0.50)));
+		iconP1.setGraphicSize(Std.int(FlxMath.lerp(150, iconP1.width, HESaveData.multiFromFrameLimiter(1.50))));
+		iconP2.setGraphicSize(Std.int(FlxMath.lerp(150, iconP2.width, HESaveData.multiFromFrameLimiter(1.50))));
 
 		iconP1.updateHitbox();
 		iconP2.updateHitbox();
@@ -1390,8 +1389,8 @@ class PlayState extends MusicBeatState
 
 		if (camZooming)
 		{
-			FlxG.camera.zoom = FlxMath.lerp(defaultCamZoom, FlxG.camera.zoom, 0.95);
-			camHUD.zoom = FlxMath.lerp(1, camHUD.zoom, 0.95);
+			FlxG.camera.zoom = FlxMath.lerp(defaultCamZoom, FlxG.camera.zoom, HESaveData.multiFromFrameLimiter(0.95));
+			camHUD.zoom = FlxMath.lerp(1, camHUD.zoom, HESaveData.multiFromFrameLimiter(0.95));
 		}
 
 		FlxG.watch.addQuick("beatShit", curBeat);
