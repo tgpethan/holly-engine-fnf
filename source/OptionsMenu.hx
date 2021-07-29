@@ -116,20 +116,11 @@ class OptionsMenu extends MusicBeatState
 				var option = daOptions[lastScreenSelected][curSelected];
 				option.action();
 
-				// Make new alphabet because it doesn't support updating text.
-				// I tried to make it support updating text and it got really weirdly spaced.
-				var x:Float = option.optionAlphabet.x;
-				var y:Float = option.optionAlphabet.y;
-				var targetY:Float = option.optionAlphabet.targetY;
-				remove(option.optionAlphabet);
-				trace(option.optionsString());
-				option.optionAlphabet = new Alphabet(0, (70 * curSelected) + 30, option.optionsString(), true, false);
-				option.optionAlphabet.isMenuItem = true;
-				option.optionAlphabet.targetY = targetY;
-				add(option.optionAlphabet);
+				option.optionAlphabet.changeDaText(option.optionsString());
 			}
 		}
 		if (controls.BACK)
+		{
 			if (inSubMenu) {
 				for (item in grpControls.members)
 				{
@@ -140,6 +131,8 @@ class OptionsMenu extends MusicBeatState
 				changeSelection();
 			}
 			else FlxG.switchState(new MainMenuState());
+			FlxG.save.flush();
+		}
 		if (controls.UP_P)
 			changeSelection(-1);
 		if (controls.DOWN_P)
