@@ -1,7 +1,5 @@
 package;
 
-import flixel.FlxG;
-
 class Option
 {
 	var optionName:String;

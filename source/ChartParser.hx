@@ -8,7 +8,6 @@ class ChartParser
 {
 	static public function parse(songName:String, section:Int):Array<Dynamic>
 	{
-		var IMG_WIDTH:Int = 8;
 		var regex:EReg = new EReg("[ \t]*((\r\n)|\r|\n)[ \t]*", "g");
 
 		var csvData = FlxStringUtil.imageToCSV(Paths.file('data/' + songName + '/' + songName + '_section' + section + '.png'));
