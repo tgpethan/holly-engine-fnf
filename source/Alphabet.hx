@@ -2,7 +2,6 @@ package;
 
 import flixel.FlxG;
 import flixel.FlxSprite;
-import flixel.graphics.frames.FlxAtlasFrames;
 import flixel.group.FlxSpriteGroup;
 import flixel.math.FlxMath;
 import flixel.util.FlxTimer;
@@ -30,6 +29,11 @@ class Alphabet extends FlxSpriteGroup
 
 	var yMulti:Float = 1;
 
+	var startX:Float = 0;
+	var startY:Float = 0;
+
+	var justDidDaFoonyTextChange:Bool = false;
+
 	// custom shit
 	// amp, backslash, question mark, apostrophy, comma, angry faic, period
 	var lastSprite:AlphaCharacter;
@@ -38,10 +42,15 @@ class Alphabet extends FlxSpriteGroup
 
 	var splitWords:Array<String> = [];
 
+	var daLetters:Array<AlphaCharacter> = [];
+
 	var isBold:Bool = false;
 
 	public function new(x:Float, y:Float, text:String = "", ?bold:Bool = false, typed:Bool = false)
 	{
+		startX = x;
+		startY = y;
+
 		super(x, y);
 
 		_finalText = text;
@@ -59,6 +68,33 @@ class Alphabet extends FlxSpriteGroup
 				addText();
 			}
 		}
+	}
+
+	public function changeDaText(newText)
+	{
+		for (letter in daLetters)
+			remove(letter);
+
+		_finalText = text;
+		text = newText;
+
+		lastSprite = null;
+
+		justDidDaFoonyTextChange = true;
+
+		updateHitbox();
+
+		daLetters = [];
+
+		x = startX;
+		y = startY;
+		
+		addText();
+
+		var scaledY = FlxMath.remapToRange(targetY, 0, 1, 0, 1.3);
+
+		y = (scaledY * 120) + (FlxG.height * 0.48);
+		x = (targetY * 20) + 90;
 	}
 
 	public function addText()
@@ -93,6 +129,7 @@ class Alphabet extends FlxSpriteGroup
 
 				// var letter:AlphaCharacter = new AlphaCharacter(30 * loopNum, 0);
 				var letter:AlphaCharacter = new AlphaCharacter(xPos, 0);
+				daLetters.push(letter);
 
 				if (isBold)
 					letter.createBold(character);
@@ -224,8 +261,17 @@ class Alphabet extends FlxSpriteGroup
 		{
 			var scaledY = FlxMath.remapToRange(targetY, 0, 1, 0, 1.3);
 
-			y = FlxMath.lerp(y, (scaledY * 120) + (FlxG.height * 0.48), HESaveData.multiFromFrameLimiter(0.16));
-			x = FlxMath.lerp(x, (targetY * 20) + 90, HESaveData.multiFromFrameLimiter(0.16));
+			if (justDidDaFoonyTextChange)
+			{
+				justDidDaFoonyTextChange = false;
+				//y = (scaledY * 120) + (FlxG.height * 0.48);
+				//x = (targetY * 20) + 90;
+			}
+			else
+			{
+				y = FlxMath.lerp(y, (scaledY * 120) + (FlxG.height * 0.48), HESaveData.multiFromFrameLimiter(0.16));
+				x = FlxMath.lerp(x, (targetY * 20) + 90, HESaveData.multiFromFrameLimiter(0.16));
+			}
 		}
 
 		super.update(elapsed);
