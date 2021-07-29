@@ -6,6 +6,9 @@ import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.math.FlxMath;
 import flixel.text.FlxText;
 import flixel.util.FlxColor;
+import flixel.util.FlxTimer;
+import flixel.tweens.FlxTween;
+import flixel.tweens.FlxEase;
 
 using StringTools;
 
@@ -21,13 +24,22 @@ class FreeplayState extends MusicBeatState
 	var lerpScore:Int = 0;
 	var intendedScore:Int = 0;
 
+	var usualMusicVolume:Bool = false;
+
 	private var grpSongs:FlxTypedGroup<Alphabet>;
 
 	private var iconArray:Array<HealthIcon> = [];
 
+	var blackOverlay:FlxSprite;
+	var bg:FlxSprite;
+
+	var rightItems:FlxTypedGroup<FlxSprite>;
+
 	override function create()
 	{
 		var initSonglist = CoolUtil.coolTextFile(Paths.txt('freeplaySonglist'));
+
+		FlxG.camera.zoom = 14;
 
 		for (i in 0...initSonglist.length)
 		{
@@ -38,7 +50,8 @@ class FreeplayState extends MusicBeatState
 
 		// LOAD CHARACTERS
 
-		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuBGBlue'));
+		bg = new FlxSprite().loadGraphic(Paths.image('menuBGBlue'));
+		bg.angle = 90;
 		add(bg);
 
 		grpSongs = new FlxTypedGroup<Alphabet>();
@@ -59,21 +72,65 @@ class FreeplayState extends MusicBeatState
 			add(icon);
 		}
 
+		rightItems = new FlxTypedGroup<FlxSprite>();
+		add(rightItems);
+
 		scoreText = new FlxText(FlxG.width * 0.7, 5, 0, "", 32);
 		scoreText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, RIGHT);
 
-		var scoreBG:FlxSprite = new FlxSprite(scoreText.x - 6, 0).makeGraphic(Std.int(FlxG.width * 0.35), 66, 0xFF000000);
+		var scoreBG:FlxSprite = new FlxSprite(scoreText.x - 6, 0).makeGraphic(Std.int(FlxG.width * 0.35) + 50, 66, 0xFF000000);
 		scoreBG.alpha = 0.6;
-		add(scoreBG);
+		rightItems.add(scoreBG);
 
 		diffText = new FlxText(scoreText.x, scoreText.y + 36, 0, "", 24);
 		diffText.font = scoreText.font;
-		add(diffText);
+		rightItems.add(diffText);
 
-		add(scoreText);
+		rightItems.add(scoreText);
+
+		blackOverlay = new FlxSprite(-50, -50).makeGraphic(FlxG.width + 50, FlxG.height + 50, FlxColor.BLACK);
+		blackOverlay.alpha = 1;
+		add(blackOverlay);
+
+		FlxTween.tween(FlxG.camera, { zoom: 1 }, 2, { ease: FlxEase.backIn });
+		FlxTween.tween(bg, { angle: 0 }, 2, { ease: FlxEase.expoIn });
+		FlxTween.tween(blackOverlay, { alpha: 0 }, 2, { ease: FlxEase.quadInOut });
 
 		changeSelection();
 		changeDiff();
+
+		grpSongs.forEach(function(spr:FlxSprite)
+		{
+			spr.alpha = 0;
+		});
+		for (spr in iconArray)
+		{
+			spr.alpha = 0;
+		}
+
+		new FlxTimer().start(2, function(tmr:FlxTimer)
+		{
+			for (i in 0...iconArray.length)
+			{
+				FlxTween.tween(iconArray[i], { alpha: (curSelected == i ? 1 : 0.6) }, 0.6 + (0.10 * (i + 1)), {
+					ease: FlxEase.quadInOut
+				});
+			}
+	
+			var bullShit:Int = 0;
+			for (item in grpSongs.members)
+			{
+				item.targetY = bullShit - curSelected;
+				bullShit++;
+	
+				item.alpha = 0.6;
+				// item.setGraphicSize(Std.int(item.width * 0.8));
+
+				FlxTween.tween(item, { alpha: (item.targetY == 0 ? 1 : 0.6) }, 0.6 + (0.10 * bullShit), {
+					ease: FlxEase.quadInOut
+				});
+			}
+		});
 
 		super.create();
 	}
@@ -134,7 +191,9 @@ class FreeplayState extends MusicBeatState
 
 		if (controls.BACK)
 		{
-			FlxG.switchState(new MainMenuState());
+			exitTransitions(function() {
+				FlxG.switchState(new MainMenuState());
+			});
 		}
 
 		if (accepted)
@@ -212,6 +271,78 @@ class FreeplayState extends MusicBeatState
 			
 			if (item.targetY == 0) item.alpha = 1;
 			else item.alpha = 0.6;
+		}
+	}
+
+	function exitTransitions(callback:Void -> Void)
+	{
+		// Delay until the tweens have finished
+		new FlxTimer().start(0.6, function(tmr:FlxTimer)
+		{
+			FlxTween.tween(FlxG.camera, { zoom: 14 }, 2, { ease: FlxEase.expoIn });
+			FlxTween.tween(bg, { angle: 180 }, 2, { ease: FlxEase.expoIn });
+			FlxTween.tween(blackOverlay, { alpha: 1 }, 2, {
+				ease: FlxEase.quadInOut,
+				onComplete: function(twn:FlxTween)
+				{
+					callback();
+				}
+			});
+		});
+
+		// Slide off right
+		rightItems.forEach(function(spr:FlxSprite)
+		{
+			FlxTween.tween(spr, { x: FlxG.width + 600 }, 0.6, {
+				ease: FlxEase.backIn,
+				onComplete: function(twn:FlxTween)
+				{
+					spr.kill();
+				}
+			});
+		});
+		rightItems.forEach(function(spr:FlxSprite)
+		{
+			FlxTween.tween(spr, { alpha: 0 }, 0.6, {
+				ease: FlxEase.quadInOut,
+				onComplete: function(twn:FlxTween)
+				{
+					spr.kill();
+				}
+			});
+		});
+		
+		// Slide off left
+		grpSongs.forEach(function(spr:FlxSprite)
+		{
+			FlxTween.tween(spr, { x: -600 }, 0.6, {
+				ease: FlxEase.backIn,
+				onComplete: function(twn:FlxTween)
+				{
+					spr.kill();
+				}
+			});
+		});
+		grpSongs.forEach(function(spr:FlxSprite)
+		{
+			FlxTween.tween(spr, { alpha: 0 }, 0.6, {
+				ease: FlxEase.quadInOut,
+				onComplete: function(twn:FlxTween)
+				{
+					spr.kill();
+				}
+			});
+		});
+
+		for (spr in iconArray)
+		{
+			FlxTween.tween(spr, { alpha: 0 }, 0.6, {
+				ease: FlxEase.quadInOut,
+				onComplete: function (twn:FlxTween)
+				{
+					spr.kill();
+				}
+			});
 		}
 	}
 }
