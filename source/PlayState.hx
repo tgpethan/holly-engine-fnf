@@ -1531,10 +1531,11 @@ class PlayState extends MusicBeatState
 
 				if (daNote.y < -daNote.height)
 				{
-					if (daNote.tooLate || !daNote.wasGoodHit)
+					if (!daNote.wasGoodHit)
 					{
 						health -= 0.0475;
 						vocals.volume = 0;
+						noteMiss(daNote.noteData);
 					}
 
 					daNote.active = false;
@@ -1853,8 +1854,6 @@ class PlayState extends MusicBeatState
 									if (controlArray[ignoreList[shit]])
 										inIgnoreList = true;
 								}
-								if (!inIgnoreList)
-									badNoteCheck();
 							}
 						}
 					}
@@ -1966,16 +1965,6 @@ class PlayState extends MusicBeatState
 			songScore -= 10;
 
 			FlxG.sound.play(Paths.soundRandom('missnote', 1, 3), FlxG.random.float(0.1, 0.2));
-			// FlxG.sound.play(Paths.sound('missnote1'), 1, false);
-			// FlxG.log.add('played imss note');
-
-			boyfriend.stunned = true;
-
-			// get stunned for 5 seconds
-			new FlxTimer().start(5 / 60, function(tmr:FlxTimer)
-			{
-				boyfriend.stunned = false;
-			});
 
 			switch (direction)
 			{
@@ -1991,33 +1980,10 @@ class PlayState extends MusicBeatState
 		}
 	}
 
-	function badNoteCheck()
-	{
-		// just double pasting this shit cuz fuk u
-		// REDO THIS SYSTEM!
-		var upP = controls.UP_P;
-		var rightP = controls.RIGHT_P;
-		var downP = controls.DOWN_P;
-		var leftP = controls.LEFT_P;
-
-		if (leftP)
-			noteMiss(0);
-		if (downP)
-			noteMiss(1);
-		if (upP)
-			noteMiss(2);
-		if (rightP)
-			noteMiss(3);
-	}
-
 	function noteCheck(keyP:Bool, note:Note):Void
 	{
 		if (keyP)
 			goodNoteHit(note);
-		else
-		{
-			badNoteCheck();
-		}
 	}
 
 	function goodNoteHit(note:Note):Void
