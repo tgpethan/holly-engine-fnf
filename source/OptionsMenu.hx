@@ -116,6 +116,8 @@ class OptionsMenu extends MusicBeatState
 				var option = daOptions[lastScreenSelected][curSelected];
 				option.action();
 
+				trace(option.optionsString() + " : " + option.getValue());
+
 				option.optionAlphabet.changeDaText(option.optionsString());
 			}
 		}

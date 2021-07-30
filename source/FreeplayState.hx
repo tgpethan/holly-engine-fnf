@@ -9,6 +9,7 @@ import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
 import flixel.tweens.FlxTween;
 import flixel.tweens.FlxEase;
+import flixel.system.FlxSound;
 
 using StringTools;
 
@@ -24,7 +25,7 @@ class FreeplayState extends MusicBeatState
 	var lerpScore:Int = 0;
 	var intendedScore:Int = 0;
 
-	var usualMusicVolume:Bool = false;
+	var usualMusicVolume:Bool = true;
 
 	private var grpSongs:FlxTypedGroup<Alphabet>;
 
@@ -34,6 +35,8 @@ class FreeplayState extends MusicBeatState
 	var bg:FlxSprite;
 
 	var rightItems:FlxTypedGroup<FlxSprite>;
+
+	var stopSpamming:Bool = false;
 
 	override function create()
 	{
@@ -159,7 +162,7 @@ class FreeplayState extends MusicBeatState
 	{
 		super.update(elapsed);
 
-		if (FlxG.sound.music.volume < 0.7)
+		if (FlxG.sound.music.volume < 0.7 && usualMusicVolume)
 		{
 			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
 		}
@@ -175,40 +178,62 @@ class FreeplayState extends MusicBeatState
 		var downP = controls.DOWN_P;
 		var accepted = controls.ACCEPT;
 
-		if (upP)
+		if (!stopSpamming)
 		{
-			changeSelection(-1);
-		}
-		if (downP)
-		{
-			changeSelection(1);
-		}
+			if (upP)
+			{
+				changeSelection(-1);
+			}
+			if (downP)
+			{
+				changeSelection(1);
+			}
+	
+			if (controls.LEFT_P)
+				changeDiff(-1);
+			if (controls.RIGHT_P)
+				changeDiff(1);
+	
+			if (controls.BACK)
+			{
+				FlxG.sound.music.fadeOut(0, 1.9);
+				
+				exitTransitions(function() {
+					FlxG.sound.music.stop();
+					FlxG.switchState(new MainMenuState());
+				});
+			}
+	
+			if (accepted)
+			{
+				var poop:String = Highscore.formatSong(songs[curSelected].songName.toLowerCase(), curDifficulty);
+	
+				trace(poop);
+	
+				usualMusicVolume = false;
+				stopSpamming = true;
+				FlxG.sound.music.volume = 0;
+				FlxG.sound.music.stop();
 
-		if (controls.LEFT_P)
-			changeDiff(-1);
-		if (controls.RIGHT_P)
-			changeDiff(1);
-
-		if (controls.BACK)
-		{
-			exitTransitions(function() {
-				FlxG.switchState(new MainMenuState());
-			});
-		}
-
-		if (accepted)
-		{
-			var poop:String = Highscore.formatSong(songs[curSelected].songName.toLowerCase(), curDifficulty);
-
-			trace(poop);
-
-			PlayState.SONG = Song.loadFromJson(poop, songs[curSelected].songName.toLowerCase());
-			PlayState.isStoryMode = false;
-			PlayState.storyDifficulty = curDifficulty;
-
-			PlayState.storyWeek = songs[curSelected].week;
-			trace('CUR WEEK' + PlayState.storyWeek);
-			LoadingState.loadAndSwitchState(new PlayState());
+				var shootSound:FlxSound = FlxG.sound.play(Paths.sound('titleShoot'));
+	
+				PlayState.SONG = Song.loadFromJson(poop, songs[curSelected].songName.toLowerCase());
+				PlayState.isStoryMode = false;
+				PlayState.storyDifficulty = curDifficulty;
+	
+				PlayState.storyWeek = songs[curSelected].week;
+				trace('CUR WEEK' + PlayState.storyWeek);
+	
+				exitTransitions(function() {});
+				new FlxTimer().start(5, function(tmr:FlxTimer)
+				{
+					shootSound.fadeOut(1, 0);
+					new FlxTimer().start(2, function(tmr:FlxTimer)
+					{
+						LoadingState.loadAndSwitchState(new PlayState());
+					});
+				});
+			}
 		}
 	}
 

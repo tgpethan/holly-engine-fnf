@@ -250,12 +250,11 @@ class TitleState extends MusicBeatState
 
 			transitioning = true;
 
+			FlxG.sound.music.fadeOut(1.9, 0);
+
 			new FlxTimer().start(2, function(tmr:FlxTimer)
 			{
-				// Check if version is outdated
-
-				var version:String = "v" + Application.current.meta.get('version');
-
+				FlxG.sound.music.stop();
 				FlxG.switchState(new MainMenuState());
 			});
 		}
