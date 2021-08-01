@@ -2,6 +2,7 @@ package;
 
 import flixel.FlxGame;
 import flixel.FlxState;
+import flixel.FlxG;
 import openfl.Lib;
 import openfl.display.FPS;
 import openfl.display.Sprite;
@@ -80,6 +81,8 @@ class Main extends Sprite
 	public function setMaxFPS(max:Int)
 	{
 		openfl.Lib.current.stage.frameRate = max;
+		FlxG.updateFramerate = max;
+		FlxG.drawFramerate = max;
 	}
 
 	public function setFPSVisibility(visible:Bool):Void
