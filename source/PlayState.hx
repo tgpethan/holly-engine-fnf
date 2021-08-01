@@ -1233,8 +1233,12 @@ class PlayState extends MusicBeatState
 			FlxG.switchState(new ChartingState());
 		}
 
-		iconP1.setGraphicSize(Std.int(FlxMath.lerp(150, iconP1.width, HESaveData.multiFromFrameLimiter(1.50))));
-		iconP2.setGraphicSize(Std.int(FlxMath.lerp(150, iconP2.width, HESaveData.multiFromFrameLimiter(1.50))));
+		// Janky maths that keeps it going at the same rate no matter the frame limiter somehow idk it was like 4 in the morning when I wrote this
+		// Only needed in gameplay for some reason?????????
+		var lerval:Float = HESaveData.multiFromFrameLimiter(0.5 * ((FlxG.save.data.frameLimiter / 60) + (FlxG.save.data.frameLimiter / 60 / 2)));
+
+		iconP1.setGraphicSize(Std.int(FlxMath.lerp(150, iconP1.width, lerval)));
+		iconP2.setGraphicSize(Std.int(FlxMath.lerp(150, iconP2.width, lerval)));
 
 		iconP1.updateHitbox();
 		iconP2.updateHitbox();
