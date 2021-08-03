@@ -29,7 +29,9 @@ class HESongWeekStorage
 
 	public static function addSong(weekID:Int, song:String, songCharacter:String)
 	{
+		var songID:Int = songMetadata.length;
 		songMetadata.push(new SongMetadata(song, weekID, songCharacter));
+		if (!(weekID < 0)) weekMetadata[weekID].weekSongs.push(songMetadata[songID]);
 		trace('Added song $song');
 	}
 }

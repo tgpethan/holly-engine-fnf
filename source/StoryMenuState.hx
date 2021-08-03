@@ -106,7 +106,7 @@ class StoryMenuState extends MusicBeatState
 
 		for (char in 0...3)
 		{
-			var weekCharacterThing:MenuCharacter = new MenuCharacter((FlxG.width * 0.25) * (1 + char) - 150, HESongWeekStorage.weekMetadata[curWeek].weekCharacters[char]);
+			var weekCharacterThing:MenuCharacter = new MenuCharacter((FlxG.width * 0.25) * (1 + char) - 150, HESongWeekStorage.weekMetadata[curWeek].weekCharacters[char] == "" ? "dad" : HESongWeekStorage.weekMetadata[curWeek].weekCharacters[char]);
 			weekCharacterThing.y += 70;
 			weekCharacterThing.antialiasing = true;
 			switch (weekCharacterThing.character)
@@ -362,37 +362,45 @@ class StoryMenuState extends MusicBeatState
 
 	function updateText()
 	{
-		grpWeekCharacters.members[0].animation.play(HESongWeekStorage.weekMetadata[curWeek].weekCharacters[0]);
-		grpWeekCharacters.members[1].animation.play(HESongWeekStorage.weekMetadata[curWeek].weekCharacters[1]);
-		grpWeekCharacters.members[2].animation.play(HESongWeekStorage.weekMetadata[curWeek].weekCharacters[2]);
+		// FIXME: This is horrible, seriously fix this
+		var thisWeekCharacters:Array<String> = HESongWeekStorage.weekMetadata[curWeek].weekCharacters;
+		grpWeekCharacters.forEach(function(man:MenuCharacter) {
+			man.animation.play(man.character == "" ? "dad" : man.character);
+			if (man.character == "") man.visible = false;
+			else man.visible = true;
+		});
 		txtTracklist.text = "Tracks\n";
 
-		switch (grpWeekCharacters.members[0].animation.curAnim.name)
+		if (thisWeekCharacters[0] != "")
 		{
-			case 'parents-christmas':
-				grpWeekCharacters.members[0].offset.set(200, 200);
-				grpWeekCharacters.members[0].setGraphicSize(Std.int(grpWeekCharacters.members[0].width * 0.99));
-
-			case 'senpai':
-				grpWeekCharacters.members[0].offset.set(130, 0);
-				grpWeekCharacters.members[0].setGraphicSize(Std.int(grpWeekCharacters.members[0].width * 1.4));
-
-			case 'mom':
-				grpWeekCharacters.members[0].offset.set(100, 200);
-				grpWeekCharacters.members[0].setGraphicSize(Std.int(grpWeekCharacters.members[0].width * 1));
-
-			case 'dad':
-				grpWeekCharacters.members[0].offset.set(120, 200);
-				grpWeekCharacters.members[0].setGraphicSize(Std.int(grpWeekCharacters.members[0].width * 1));
-
-			default:
-				grpWeekCharacters.members[0].offset.set(100, 100);
-				grpWeekCharacters.members[0].setGraphicSize(Std.int(grpWeekCharacters.members[0].width * 1));
-				// grpWeekCharacters.members[0].updateHitbox();
+			switch (grpWeekCharacters.members[0].animation.curAnim.name)
+			{
+				case 'parents-christmas':
+					grpWeekCharacters.members[0].offset.set(200, 200);
+					grpWeekCharacters.members[0].setGraphicSize(Std.int(grpWeekCharacters.members[0].width * 0.99));
+	
+				case 'senpai':
+					grpWeekCharacters.members[0].offset.set(130, 0);
+					grpWeekCharacters.members[0].setGraphicSize(Std.int(grpWeekCharacters.members[0].width * 1.4));
+	
+				case 'mom':
+					grpWeekCharacters.members[0].offset.set(100, 200);
+					grpWeekCharacters.members[0].setGraphicSize(Std.int(grpWeekCharacters.members[0].width * 1));
+	
+				case 'dad':
+					grpWeekCharacters.members[0].offset.set(120, 200);
+					grpWeekCharacters.members[0].setGraphicSize(Std.int(grpWeekCharacters.members[0].width * 1));
+	
+				default:
+					grpWeekCharacters.members[0].offset.set(100, 100);
+					grpWeekCharacters.members[0].setGraphicSize(Std.int(grpWeekCharacters.members[0].width * 1));
+					// grpWeekCharacters.members[0].updateHitbox();
+			}
 		}
 
 		for (song in HESongWeekStorage.weekMetadata[curWeek].weekSongs)
 		{
+			trace(song.songName);
 			txtTracklist.text += "\n" + song.songName;
 		}
 

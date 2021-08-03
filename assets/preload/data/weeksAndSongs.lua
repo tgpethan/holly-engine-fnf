@@ -6,7 +6,7 @@ function init()
 		Week Text: The text that shows up in the top right of the story menu
 		Week Characters: An array of characters to show on the story menu
 	]] 
-	addWeek(0, "Learn how to funk!", {"dad", "gf", "bf"});
+	addWeek(0, "Learn how to funk!", {"", "gf", "bf"});
 
 	--[[
 		Song args:

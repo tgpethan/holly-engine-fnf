@@ -32,11 +32,7 @@ class LuaFile
 		var resultError:String = Lua.tostring(luaState, resultCode);
 
 		// non-zero code = we fucking died
-		if (resultError != "0")
-		{
-			trace("LUA ERROR!!!!!1!1!!!1!");
-			trace(Lua.tostring(luaState, resultCode));
-		}
+		// TODO: Add error messages lol
 	}
 
 	public function pushNumber(varName:String, number:Float)
@@ -62,11 +58,7 @@ class LuaFile
 		var execResult:Int = Lua.pcall(luaState, args.length, 1, 0);
 		var errorString:String = Lua.tostring(luaState, execResult);
 
-		if (errorString != "0")
-		{
-			trace("LUA ERROR!!!!!1!1!!!1!");
-			// Add error messages lol
-		}
+		// TODO: Add error messages lol
 
 		return convert(execResult, type);
 	}
