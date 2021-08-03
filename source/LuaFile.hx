@@ -7,8 +7,6 @@ import llua.Convert;
 import llua.Lua;
 import llua.LuaL;
 import llua.State;
-import Sys;
-import sys.FileSystem;
 #end
 
 class LuaFile
