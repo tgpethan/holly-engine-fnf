@@ -366,8 +366,18 @@ class StoryMenuState extends MusicBeatState
 		var thisWeekCharacters:Array<String> = HESongWeekStorage.weekMetadata[curWeek].weekCharacters;
 		grpWeekCharacters.forEach(function(man:MenuCharacter) {
 			man.animation.play(man.character == "" ? "dad" : man.character);
-			if (man.character == "") man.visible = false;
-			else man.visible = true;
+			if (man.character == "")
+			{
+				man.visible = false;
+				man.active = false;
+				man.alpha = 0;
+			}
+			else
+			{
+				man.visible = true;
+				man.active = true;
+				man.alpha = 1;
+			}
 		});
 		txtTracklist.text = "Tracks\n";
 
