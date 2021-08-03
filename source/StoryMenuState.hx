@@ -16,20 +16,9 @@ class StoryMenuState extends MusicBeatState
 {
 	var scoreText:FlxText;
 
-	var weekData:Array<Dynamic> = [
-		['Tutorial']
-	];
 	var curDifficulty:Int = 1;
 
 	public static var weekUnlocked:Array<Bool> = [true, true, true, true, true, true, true];
-
-	var weekCharacters:Array<Dynamic> = [
-		['dad', 'bf', 'gf']
-	];
-
-	var weekNames:Array<String> = [
-		"Learn how to funk!"
-	];
 
 	var txtWeekTitle:FlxText;
 
@@ -89,7 +78,7 @@ class StoryMenuState extends MusicBeatState
 
 		trace("Line 70");
 
-		for (i in 0...weekData.length)
+		for (i in 0...HESongWeekStorage.weekMetadata.length)
 		{
 			var weekThing:MenuItem = new MenuItem(0, yellowBG.y + yellowBG.height + 10, i);
 			weekThing.y += ((weekThing.height + 20) * i);
@@ -117,7 +106,7 @@ class StoryMenuState extends MusicBeatState
 
 		for (char in 0...3)
 		{
-			var weekCharacterThing:MenuCharacter = new MenuCharacter((FlxG.width * 0.25) * (1 + char) - 150, weekCharacters[curWeek][char]);
+			var weekCharacterThing:MenuCharacter = new MenuCharacter((FlxG.width * 0.25) * (1 + char) - 150, HESongWeekStorage.weekMetadata[curWeek].weekCharacters[char]);
 			weekCharacterThing.y += 70;
 			weekCharacterThing.antialiasing = true;
 			switch (weekCharacterThing.character)
@@ -200,7 +189,7 @@ class StoryMenuState extends MusicBeatState
 
 		scoreText.text = "WEEK SCORE:" + lerpScore;
 
-		txtWeekTitle.text = weekNames[curWeek].toUpperCase();
+		txtWeekTitle.text = HESongWeekStorage.weekMetadata[curWeek].weekText.toUpperCase();
 		txtWeekTitle.x = FlxG.width - (txtWeekTitle.width + 10);
 
 		// FlxG.watch.addQuick('font', scoreText.font);
@@ -275,7 +264,11 @@ class StoryMenuState extends MusicBeatState
 				stopspamming = true;
 			}
 
-			PlayState.storyPlaylist = weekData[curWeek];
+			var weekSongs:Array<String> = [];
+			for (song in HESongWeekStorage.weekMetadata[curWeek].weekSongs)
+				weekSongs.push(song.songName);
+
+			PlayState.storyPlaylist = weekSongs;
 			PlayState.isStoryMode = true;
 			selectedWeek = true;
 
@@ -345,10 +338,10 @@ class StoryMenuState extends MusicBeatState
 	{
 		curWeek += change;
 
-		if (curWeek >= weekData.length)
+		if (curWeek >= HESongWeekStorage.weekMetadata.length)
 			curWeek = 0;
 		if (curWeek < 0)
-			curWeek = weekData.length - 1;
+			curWeek = HESongWeekStorage.weekMetadata.length - 1;
 
 		var bullShit:Int = 0;
 
@@ -369,9 +362,9 @@ class StoryMenuState extends MusicBeatState
 
 	function updateText()
 	{
-		grpWeekCharacters.members[0].animation.play(weekCharacters[curWeek][0]);
-		grpWeekCharacters.members[1].animation.play(weekCharacters[curWeek][1]);
-		grpWeekCharacters.members[2].animation.play(weekCharacters[curWeek][2]);
+		grpWeekCharacters.members[0].animation.play(HESongWeekStorage.weekMetadata[curWeek].weekCharacters[0]);
+		grpWeekCharacters.members[1].animation.play(HESongWeekStorage.weekMetadata[curWeek].weekCharacters[1]);
+		grpWeekCharacters.members[2].animation.play(HESongWeekStorage.weekMetadata[curWeek].weekCharacters[2]);
 		txtTracklist.text = "Tracks\n";
 
 		switch (grpWeekCharacters.members[0].animation.curAnim.name)
@@ -398,11 +391,9 @@ class StoryMenuState extends MusicBeatState
 				// grpWeekCharacters.members[0].updateHitbox();
 		}
 
-		var stringThing:Array<String> = weekData[curWeek];
-
-		for (i in stringThing)
+		for (song in HESongWeekStorage.weekMetadata[curWeek].weekSongs)
 		{
-			txtTracklist.text += "\n" + i;
+			txtTracklist.text += "\n" + song.songName;
 		}
 
 		txtTracklist.text = txtTracklist.text.toUpperCase();

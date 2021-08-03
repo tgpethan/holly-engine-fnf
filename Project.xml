@@ -83,6 +83,9 @@
 	<haxelib name="flixel-addons" />
 	<haxelib name="hscript" />
 
+	<!--luajit-->
+	<haxelib name="linc_luajit" />
+
 	<!--In case you want to use the ui package-->
 	<haxelib name="flixel-ui" />
 

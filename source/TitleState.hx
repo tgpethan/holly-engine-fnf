@@ -43,10 +43,12 @@ class TitleState extends MusicBeatState
 
 		super.create();
 
+		// seperate save to not change actual funkin save
 		FlxG.save.bind('funkin', 'tgpholly');
 
-		// Init HE Save
+		// Init HE Stuff
 		HESaveData.init();
+		HESongWeekStorage.init();
 
 		Highscore.load();
 
