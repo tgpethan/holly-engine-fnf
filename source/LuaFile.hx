@@ -25,12 +25,18 @@ class LuaFile
         trace("LuaJIT version: " + Lua.versionJIT());
 		Lua.init_callbacks(luaState);
 
+
 		// do the file
+		trace("Jitin' lua file at " + Paths.lua(luaFile));
 		var resultCode:Int = LuaL.dofile(luaState, Paths.lua(luaFile));
-		var resultError:String = Lua.tostring(luaState, resultCode);
 
 		// non-zero code = we fucking died
 		// TODO: Add error messages lol
+		if (resultCode != 0)
+		{
+			trace("Compilation error jitin' da lua lmao.");
+			trace(Lua.tostring(luaState, resultCode));
+		}
 	}
 
 	public function pushNumber(varName:String, number:Float)

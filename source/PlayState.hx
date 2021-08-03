@@ -99,7 +99,7 @@ class PlayState extends MusicBeatState
 
 	public static var campaignScore:Int = 0;
 
-	var defaultCamZoom:Float = 1.05;
+	public static var defaultCamZoom:Float = 1.05;
 
 	// how big to stretch the pixel art assets
 	public static var daPixelZoom:Float = 6;
@@ -108,42 +108,64 @@ class PlayState extends MusicBeatState
 
 	var blackOverlay:FlxSprite;
 
-	public static var luaBackground:FlxTypedGroup<FlxSprite>;
+	public static var luaBackground:Array<FlxSprite> = [];
 
 	public static var luaAdd:Dynamic;
 
 	// All of these functions are static so they can be called from lua
 	public static function createFlxSprite(elementPath:String, pos:Array<Int>)
 	{
-		trace("no");
+		var eltID:Int = luaBackground.length;
 		var elt:FlxSprite = new FlxSprite(pos[0], pos[1]).loadGraphic(Paths.image(elementPath));
+		luaBackground.push(elt);
 
-		trace("init sprite");
+		// Send element id to lua
+		return eltID;
+	}
 
-		// functions to send to lua
-		return {
-			getWidth: function() {
-				return elt.width;
-			},
-			getHeight: function() {
-				return elt.height;
-			},
+	public static function getWidth(eltID:Int)
+	{
+		return luaBackground[eltID].width;
+	}
 
-			setGraphicSize: elt.setGraphicSize,
-			updateHitbox: elt.updateHitbox,
-			setAntialiasing: function(value:Bool) {
-				elt.antialiasing = value;
-				trace("set aa: " + value);
-			},
-			setScrollFactor: elt.scrollFactor.set,
-			setActiveState: function(value:Bool) {
-				elt.active = value;
-			},
+	public static function getHeight(eltID:Int)
+	{
+		return luaBackground[eltID].height;
+	}
 
-			finish: function() {
-				luaAdd(elt);
-			}
-		}
+	public static function setGraphicSize(eltID:Int, width:Int, height:Int)
+	{
+		luaBackground[eltID].setGraphicSize(width, height);
+	}
+
+	public static function updateHitbox(eltID:Int)
+	{
+		luaBackground[eltID].updateHitbox();
+	}
+
+	public static function setAntialiasing(eltID:Int, value:Bool)
+	{
+		luaBackground[eltID].antialiasing = value;
+	}
+
+	public static function setScrollFactor(eltID:Int, x:Float, y:Float)
+	{
+		luaBackground[eltID].scrollFactor.set(x, y);
+	}
+
+	public static function setActive(eltID:Int, value:Bool)
+	{
+		luaBackground[eltID].active = value;
+	}
+
+	public static function setDefaultCamZoom(zoomValue:Float)
+	{
+		defaultCamZoom = zoomValue;
+	}
+
+	public static function finish(eltID:Int)
+	{
+		luaAdd(luaBackground[eltID]);
 	}
 
 	public static function setCurrentStage(newStage:String)
@@ -176,14 +198,22 @@ class PlayState extends MusicBeatState
 		Conductor.mapBPMChanges(SONG);
 		Conductor.changeBPM(SONG.bpm);
 
-		luaBackground = new FlxTypedGroup<FlxSprite>();
-		add(luaBackground);
-
 		luaAdd = add;
 		
-		var luaInstance:LuaFile = new LuaFile(SONG.song.toLowerCase() + "/stage.lua");
+		var luaInstance:LuaFile = new LuaFile(SONG.song.toLowerCase() + "/stage");
 
 		luaInstance.pushCallback("setCurrentStage", setCurrentStage);
+
+		luaInstance.pushCallback("getWidth", getWidth);
+		luaInstance.pushCallback("getHeight", getHeight);
+		luaInstance.pushCallback("setGraphicSize", setGraphicSize);
+		luaInstance.pushCallback("updateHitbox", updateHitbox);
+		luaInstance.pushCallback("setAntialiasing", setAntialiasing);
+		luaInstance.pushCallback("setScrollFactor", setScrollFactor);
+		luaInstance.pushCallback("setActive", setActive);
+		luaInstance.pushCallback("setDefaultCamZoom", setDefaultCamZoom);
+		luaInstance.pushCallback("finish", finish);
+
 		luaInstance.pushCallback("createFlxSprite", createFlxSprite);
 
 		trace("executing lua lol");
