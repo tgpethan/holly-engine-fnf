@@ -108,6 +108,50 @@ class PlayState extends MusicBeatState
 
 	var blackOverlay:FlxSprite;
 
+	public static var luaBackground:FlxTypedGroup<FlxSprite>;
+
+	public static var luaAdd:Dynamic;
+
+	// All of these functions are static so they can be called from lua
+	public static function createFlxSprite(elementPath:String, pos:Array<Int>)
+	{
+		trace("no");
+		var elt:FlxSprite = new FlxSprite(pos[0], pos[1]).loadGraphic(Paths.image(elementPath));
+
+		trace("init sprite");
+
+		// functions to send to lua
+		return {
+			getWidth: function() {
+				return elt.width;
+			},
+			getHeight: function() {
+				return elt.height;
+			},
+
+			setGraphicSize: elt.setGraphicSize,
+			updateHitbox: elt.updateHitbox,
+			setAntialiasing: function(value:Bool) {
+				elt.antialiasing = value;
+				trace("set aa: " + value);
+			},
+			setScrollFactor: elt.scrollFactor.set,
+			setActiveState: function(value:Bool) {
+				elt.active = value;
+			},
+
+			finish: function() {
+				luaAdd(elt);
+			}
+		}
+	}
+
+	public static function setCurrentStage(newStage:String)
+	{
+		curStage = newStage;
+		trace("set current stage to: " + newStage);
+	}
+
 	override public function create()
 	{
 		if (FlxG.sound.music != null)
@@ -132,7 +176,20 @@ class PlayState extends MusicBeatState
 		Conductor.mapBPMChanges(SONG);
 		Conductor.changeBPM(SONG.bpm);
 
-		switch (SONG.song.toLowerCase())
+		luaBackground = new FlxTypedGroup<FlxSprite>();
+		add(luaBackground);
+
+		luaAdd = add;
+		
+		var luaInstance:LuaFile = new LuaFile(SONG.song.toLowerCase() + "/stage.lua");
+
+		luaInstance.pushCallback("setCurrentStage", setCurrentStage);
+		luaInstance.pushCallback("createFlxSprite", createFlxSprite);
+
+		trace("executing lua lol");
+		luaInstance.executeLuaFunction("init", []);
+
+		/*switch (SONG.song.toLowerCase())
 		{
 			case 'tutorial':
 				dialogue = ["Hey you're pretty cute.", 'Use the arrow keys to keep up \nwith me singing.'];
@@ -455,7 +512,7 @@ class PlayState extends MusicBeatState
 
 		                  add(stageCurtains);
 		          }
-              }
+              }*/
 
 		var gfVersion:String = 'gf';
 
