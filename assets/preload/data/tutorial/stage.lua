@@ -28,3 +28,11 @@ end
 function update(elapsed)
 	
 end
+
+function stepHit(curStep, curBeat)
+
+end
+
+function beatHit(curStep, curBeat)
+	
+end

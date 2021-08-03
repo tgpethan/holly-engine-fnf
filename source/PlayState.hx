@@ -1851,6 +1851,9 @@ class PlayState extends MusicBeatState
 	override function stepHit()
 	{
 		super.stepHit();
+
+		luaInstance.executeLuaFunction("stepHit", [curStep, curBeat]);
+
 		if (FlxG.sound.music.time > Conductor.songPosition + 20 || FlxG.sound.music.time < Conductor.songPosition - 20)
 		{
 			resyncVocals();
@@ -1868,6 +1871,8 @@ class PlayState extends MusicBeatState
 	override function beatHit()
 	{
 		super.beatHit();
+
+		luaInstance.executeLuaFunction("beatHit", [curStep, curBeat]);
 
 		if (generatedMusic)
 		{
