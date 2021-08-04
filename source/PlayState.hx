@@ -116,7 +116,7 @@ class PlayState extends MusicBeatState
 	public static function createFlxSprite(elementPath:String, pos:Array<Int>)
 	{
 		var eltID:Int = luaBackground.length;
-		var elt:FlxSprite = new FlxSprite(pos[0], pos[1]).loadGraphic(Paths.image(elementPath));
+		var elt:FlxSprite = new FlxSprite(pos[0], pos[1]).loadGraphic(Paths.image("stages/" + curStage + "/" + elementPath));
 		luaBackground.push(elt);
 
 		// Send element id to lua
