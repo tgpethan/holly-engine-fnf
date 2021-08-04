@@ -1,5 +1,6 @@
 function init()
 	setDefaultCamZoom(0.9)
+	-- Image lookups use your stage name, make sure this is set!
 	setCurrentStage("stage")
 
 	local bg = createFlxSprite("stageback", {-600, -200})
