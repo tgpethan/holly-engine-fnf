@@ -123,6 +123,24 @@ class PlayState extends MusicBeatState
 		return eltID;
 	}
 
+	// Not implemented yet
+	public static function createSparrowSprite(elementPath:String, pos:Array<Int>)
+	{
+		var eltID:Int = luaBackground.length;
+
+		// Send element id to lua
+		return eltID;
+	}
+
+	// Not implemented yet
+	public static function createPackerSprite(elementPath:String, pos:Array<Int>)
+	{
+		var eltID:Int = luaBackground.length;
+
+		// Send element id to lua
+		return eltID;
+	}
+
 	public static function getWidth(eltID:Int)
 	{
 		return luaBackground[eltID].width;
