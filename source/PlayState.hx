@@ -200,6 +200,7 @@ class PlayState extends MusicBeatState
 		Conductor.mapBPMChanges(SONG);
 		Conductor.changeBPM(SONG.bpm);
 
+		// grab the add function and slap it in a static variable since we need it in lua
 		luaAdd = add;
 		
 		luaInstance = new LuaFile(SONG.song.toLowerCase() + "/stage");
