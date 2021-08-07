@@ -7,8 +7,6 @@ import flixel.FlxG;
 import flixel.FlxObject;
 import flixel.FlxSprite;
 import flixel.FlxSubState;
-import flixel.addons.effects.FlxTrail;
-import flixel.addons.effects.chainable.FlxWaveEffect;
 import flixel.addons.transition.FlxTransitionableState;
 import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.math.FlxMath;
@@ -33,8 +31,6 @@ class PlayState extends MusicBeatState
 	public static var storyWeek:Int = 0;
 	public static var storyPlaylist:Array<String> = [];
 	public static var storyDifficulty:Int = 1;
-
-	var halloweenLevel:Bool = false;
 
 	private var vocals:FlxSound;
 
@@ -75,22 +71,6 @@ class PlayState extends MusicBeatState
 
 	var dialogue:Array<String> = ['blah blah blah', 'coolswag'];
 
-	var halloweenBG:FlxSprite;
-	var isHalloween:Bool = false;
-
-	var phillyCityLights:FlxTypedGroup<FlxSprite>;
-	var phillyTrain:FlxSprite;
-	var trainSound:FlxSound;
-
-	var limo:FlxSprite;
-	var grpLimoDancers:FlxTypedGroup<BackgroundDancer>;
-	var fastCar:FlxSprite;
-
-	var upperBoppers:FlxSprite;
-	var bottomBoppers:FlxSprite;
-	var santa:FlxSprite;
-
-	var bgGirls:BackgroundGirls;
 	var wiggleShit:WiggleEffect = new WiggleEffect();
 
 	var talking:Bool = true;
@@ -220,7 +200,7 @@ class PlayState extends MusicBeatState
 
 		// grab the add function and slap it in a static variable since we need it in lua
 		luaAdd = add;
-		
+
 		luaInstance = new LuaFile(SONG.song.toLowerCase() + "/stage");
 
 		luaInstance.pushCallback("setCurrentStage", setCurrentStage);
@@ -257,10 +237,10 @@ class PlayState extends MusicBeatState
 		if (curStage == 'limo')
 			gfVersion = 'gf-car';
 
-		gf = new Character(400, 130, gfVersion);
+		gf = HECharacterStore.getCharacterByName(gfVersion); //new Character(400, 130, gfVersion);
 		gf.scrollFactor.set(0.95, 0.95);
 
-		dad = new Character(100, 100, SONG.player2);
+		dad = HECharacterStore.getCharacterByName(SONG.player2); //new Character(100, 100, SONG.player2);
 
 		var camPos:FlxPoint = new FlxPoint(dad.getGraphicMidpoint().x, dad.getGraphicMidpoint().y);
 
@@ -302,7 +282,7 @@ class PlayState extends MusicBeatState
 				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
 		}
 
-		boyfriend = new Boyfriend(770, 450, SONG.player1);
+		boyfriend = new Boyfriend(0, 0, HECharacterStore.getCharacterByName(SONG.player1));
 
 		add(gf);
 
@@ -732,7 +712,9 @@ class PlayState extends MusicBeatState
 				{
 					swagNote.x += FlxG.width / 2; // general offset
 				}
-				else {}
+				else
+				{
+				}
 			}
 			daBeats += 1;
 		}
@@ -898,7 +880,7 @@ class PlayState extends MusicBeatState
 	{
 		super.onFocus();
 	}
-	
+
 	override public function onFocusLost():Void
 	{
 		super.onFocusLost();
@@ -1308,10 +1290,14 @@ class PlayState extends MusicBeatState
 		else
 		{
 			trace('WENT BACK TO FREEPLAY??');
-			FlxTween.tween(FlxG.camera, { zoom: 14 }, 2, { ease: FlxEase.expoIn });
-			FlxTween.tween(blackOverlay, { alpha: 1 }, 2, { ease: FlxEase.quadInOut, onComplete: function(twn:FlxTween) {
-				FlxG.switchState(new FreeplayState());
-			}});
+			FlxTween.tween(FlxG.camera, {zoom: 14}, 2, {ease: FlxEase.expoIn});
+			FlxTween.tween(blackOverlay, {alpha: 1}, 2, {
+				ease: FlxEase.quadInOut,
+				onComplete: function(twn:FlxTween)
+				{
+					FlxG.switchState(new FreeplayState());
+				}
+			});
 		}
 	}
 
@@ -1548,7 +1534,7 @@ class PlayState extends MusicBeatState
 			}
 			else
 			{
-				//badNoteCheck();
+				// badNoteCheck();
 			}
 		}
 

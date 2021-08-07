@@ -48,6 +48,7 @@ class TitleState extends MusicBeatState
 
 		// Init HE Stuff
 		HESaveData.init();
+		HECharacterStore.init();
 		HESongWeekStorage.init();
 
 		Highscore.load();

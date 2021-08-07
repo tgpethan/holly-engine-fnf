@@ -13,7 +13,7 @@ build_dat_shit () {
 	case $1 in
 		clean)
 			echo "Performing clean build"
-			rm export/release/linux/bin/assets -r
+			rm export/debug/linux/bin/assets -r
 			;;
 		*)
 			echo "Performing dirty build, if you want assets to update you will need to perform a clean build"

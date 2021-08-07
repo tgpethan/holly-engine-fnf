@@ -2,6 +2,7 @@ package;
 
 // YESSS I GOT LUAJIT WORKING ON LINUX
 // I'm working on something for html5 exports
+import lime.app.Application;
 #if cpp
 import llua.Convert;
 import llua.Lua;
@@ -61,10 +62,25 @@ class LuaFile
 
 		var execResult:Int = Lua.pcall(luaState, args.length, 1, 0);
 		var errorString:String = Lua.tostring(luaState, execResult);
+		var asdf = getLuaErrorMessage(luaState);
 
 		// TODO: Add error messages lol
+		if (asdf != null)
+		{
+			if (errorString != null)
+			{
+				Application.current.window.alert('LUA ERROR:\n$asdf\n$errorString', "FUCK FUCK FUCK FUCK FUCKFUCKFUCK");
+			}
+		}
 
 		return convert(execResult, type);
+	}
+
+	function getLuaErrorMessage(l)
+	{
+		var v:String = Lua.tostring(l, -1);
+		Lua.pop(l, 1);
+		return v;
 	}
 
 	// taken from kade engine i'm sorry kadedev please don't kill me ;-;

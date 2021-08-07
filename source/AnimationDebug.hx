@@ -54,7 +54,7 @@ class AnimationDebug extends FlxState
 		}
 		else
 		{
-			bf = new Boyfriend(0, 0);
+			bf = new Boyfriend(0, 0, HECharacterStore.getCharacterByName("bf"));
 			bf.screenCenter();
 			bf.debugMode = true;
 			add(bf);
