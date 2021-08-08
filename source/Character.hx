@@ -30,7 +30,6 @@ class Character extends FlxSprite
 		curCharacter = character;
 		this.isPlayer = isPlayer;
 
-		trace("loading from [" + Paths.image("characters/" + curCharacter, "shared") + "]");
 		var tex:FlxAtlasFrames = Paths.getSparrowAtlas("characters/" + curCharacter, "shared");
 		frames = tex;
 		antialiasing = true;

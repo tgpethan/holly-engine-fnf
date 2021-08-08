@@ -36,9 +36,8 @@ class HECharacterStore
 		characterNames.push(characterName);
 		nameToInternalID[characterName] = characterID;
 		characters.push(new LuaCharacter(characterName));
-		trace('created character "$characterName", id: $characterID');
-
-		trace("returning");
+		trace('created character "$characterName"');
+		
 		return characterID;
 	}
 
@@ -47,6 +46,7 @@ class HECharacterStore
 		characters[characterID].animations.push(["prefix", name, prefix, frameRate, looped, flipX, flipY]);
 	}
 
+	// God I hate this function
 	public static function addByIndices(characterID:Int, name:String, prefix:String, stringIndices:String, more:Array<Dynamic>)
 	{
 		// This is supremely stupid
@@ -85,15 +85,13 @@ class HECharacterStore
 class LuaCharacter
 {
 	public var animOffsets:Array<Dynamic> = new Array<Dynamic>();
-
 	public var animations:Array<Dynamic> = new Array<Dynamic>();
+	public var defaultAnimation:String = "idle";
 
 	public var name:String;
 
 	public var flipX:Bool = false;
 	public var flipY:Bool = false;
-
-	public var defaultAnimation:String = "idle";
 
 	public function new(characterName:String)
 	{
