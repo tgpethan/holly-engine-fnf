@@ -45,7 +45,6 @@ class FreeplayState extends MusicBeatState
 		FlxG.camera.zoom = 14;
 
 		bg = new FlxSprite().loadGraphic(Paths.image('menuBGBlue'));
-		bg.angle = 90;
 		add(bg);
 
 		grpSongs = new FlxTypedGroup<Alphabet>();
@@ -87,7 +86,6 @@ class FreeplayState extends MusicBeatState
 		add(blackOverlay);
 
 		FlxTween.tween(FlxG.camera, { zoom: 1 }, 2, { ease: FlxEase.backIn });
-		FlxTween.tween(bg, { angle: 0 }, 2, { ease: FlxEase.expoIn });
 		FlxTween.tween(blackOverlay, { alpha: 0 }, 2, { ease: FlxEase.quadInOut });
 
 		changeSelection();
