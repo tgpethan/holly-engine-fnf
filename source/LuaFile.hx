@@ -62,25 +62,19 @@ class LuaFile
 
 		var execResult:Int = Lua.pcall(luaState, args.length, 1, 0);
 		var errorString:String = Lua.tostring(luaState, execResult);
-		var asdf = getLuaErrorMessage(luaState);
+		var asdf:String = getLuaErrorMessage(luaState);
 
 		// TODO: Add error messages lol
 		if (asdf != null)
 		{
 			if (errorString != null)
 			{
+				trace("OH FUCK");
 				Application.current.window.alert('LUA ERROR:\n$asdf\n$errorString', "FUCK FUCK FUCK FUCK FUCKFUCKFUCK");
 			}
 		}
 
 		return convert(execResult, type);
-	}
-
-	function getLuaErrorMessage(l)
-	{
-		var v:String = Lua.tostring(l, -1);
-		Lua.pop(l, 1);
-		return v;
 	}
 
 	// taken from kade engine i'm sorry kadedev please don't kill me ;-;
@@ -148,5 +142,11 @@ class LuaFile
 		{
 			return v;
 		}
+	}
+
+	function getLuaErrorMessage(l) {
+		var v:String = Lua.tostring(l, -1);
+		Lua.pop(l, 1);
+		return v;
 	}
 }

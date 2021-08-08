@@ -34,9 +34,9 @@ class PlayState extends MusicBeatState
 
 	private var vocals:FlxSound;
 
-	private var dad:Character;
-	private var gf:Character;
-	private var boyfriend:Boyfriend;
+	public static var dad:Character;
+	public static var gf:Character;
+	public static var boyfriend:Boyfriend;
 
 	private var notes:FlxTypedGroup<Note>;
 	private var unspawnNotes:Array<Note> = [];
@@ -172,6 +172,26 @@ class PlayState extends MusicBeatState
 		trace("set current stage to: " + newStage);
 	}
 
+	// initFinal thing
+
+	public static function setBFPos(x:Int, y:Int)
+	{
+		boyfriend.x = x;
+		boyfriend.y = y;
+	}
+
+	public static function setGFPos(x:Int, y:Int)
+	{
+		gf.x = x;
+		gf.y = y;
+	}
+
+	public static function setDadPos(x:Int, y:Int)
+	{
+		dad.x = x;
+		dad.y = y;
+	}
+
 	private var luaInstance:LuaFile;
 
 	override public function create()
@@ -217,6 +237,11 @@ class PlayState extends MusicBeatState
 
 		luaInstance.pushCallback("createFlxSprite", createFlxSprite);
 
+		luaInstance.pushCallback("setBFPos", setBFPos);
+		luaInstance.pushCallback("setGFPos", setGFPos);
+
+		luaInstance.pushCallback("setDadPos", setDadPos);
+
 		trace("executing lua init lol");
 		luaInstance.executeLuaFunction("init", []);
 
@@ -237,10 +262,10 @@ class PlayState extends MusicBeatState
 		if (curStage == 'limo')
 			gfVersion = 'gf-car';
 
-		gf = HECharacterStore.getCharacterByName(gfVersion); //new Character(400, 130, gfVersion);
+		gf = new Character(0, 0, gfVersion);
 		gf.scrollFactor.set(0.95, 0.95);
 
-		dad = HECharacterStore.getCharacterByName(SONG.player2); //new Character(100, 100, SONG.player2);
+		dad = new Character(0, 0, SONG.player2);
 
 		var camPos:FlxPoint = new FlxPoint(dad.getGraphicMidpoint().x, dad.getGraphicMidpoint().y);
 
@@ -282,7 +307,7 @@ class PlayState extends MusicBeatState
 				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
 		}
 
-		boyfriend = new Boyfriend(0, 0, HECharacterStore.getCharacterByName(SONG.player1));
+		boyfriend = new Boyfriend(0, 0, SONG.player1);
 
 		add(gf);
 
@@ -418,6 +443,8 @@ class PlayState extends MusicBeatState
 					startCountdown();
 			}
 		}
+
+		luaInstance.executeLuaFunction("initFinal", []);
 
 		super.create();
 	}
@@ -1188,7 +1215,7 @@ class PlayState extends MusicBeatState
 				// WIP interpolation shit? Need to fix the pause issue
 				// daNote.y = (strumLine.y - (songTime - daNote.strumTime) * (0.45 * PlayState.SONG.speed));
 
-				if (daNote.y < -daNote.height)
+				if ((daNote.y - daNote.height) < -daNote.height)
 				{
 					if (!daNote.wasGoodHit)
 					{

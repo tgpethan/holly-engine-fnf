@@ -32,37 +32,38 @@ function init()
 	addOffset(bf, 'deathLoop', 37, 5)
 	addOffset(bf, 'deathConfirm', 37, 69)
 	addOffset(bf, 'scared', -4, 0)
-	print("offsets finished")
+
+	setDefaultAnimation(bf, "idle")
+
+	setFlipX(bf, true);
 
 	-- GF
-	print("yo gf")
 	local gf = createCharacter("gf")
-	print("we good")
-	addByPrefix(gf, 'cheer', 'GF Cheer', 24, false);
-	addByPrefix(gf, 'singLEFT', 'GF left note', 24, false);
-	addByPrefix(gf, 'singRIGHT', 'GF Right Note', 24, false);
-	addByPrefix(gf, 'singUP', 'GF Up Note', 24, false);
-	addByPrefix(gf, 'singDOWN', 'GF Down Note', 24, false);
-	print("doing indices")
-	addByIndices(gf, 'sad', 'gf sad', {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}, "", 24, false);
-	--[[addByIndices(gf, 'danceLeft', 'GF Dancing Beat', {30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14}, "", 24, false);
-	addByIndices(gf, 'danceRight', 'GF Dancing Beat', {15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29}, "", 24, false);
-	addByIndices(gf, 'hairBlow', "GF Dancing Beat Hair blowing", {0, 1, 2, 3}, "", 24);
-	addByIndices(gf, 'hairFall', "GF Dancing Beat Hair Landing", {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}, "", 24, false);]]
-	print("indec done")
-	addByPrefix(gf, 'scared', 'GF FEAR', 24);
+	addByPrefix(gf, 'cheer', 'GF Cheer', 24, false)
+	addByPrefix(gf, 'singLEFT', 'GF left note', 24, false)
+	addByPrefix(gf, 'singRIGHT', 'GF Right Note', 24, false)
+	addByPrefix(gf, 'singUP', 'GF Up Note', 24, false)
+	addByPrefix(gf, 'singDOWN', 'GF Down Note', 24, false)
+	addByIndices(gf, 'sad', 'gf sad', "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12", {"", 24, false})
+	addByIndices(gf, 'danceLeft', 'GF Dancing Beat', "30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14", {"", 24, false})
+	addByIndices(gf, 'danceRight', 'GF Dancing Beat', "15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29", {"", 24, false})
+	addByIndices(gf, 'hairBlow', "GF Dancing Beat Hair blowing", "0, 1, 2, 3", {"", 24})
+	addByIndices(gf, 'hairFall', "GF Dancing Beat Hair Landing", "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11", {"", 24, false})
+	addByPrefix(gf, 'scared', 'GF FEAR', 24)
 
-	addOffset(gf, 'cheer', 0, 0);
-	addOffset(gf, 'sad', -2, -2);
-	addOffset(gf, 'danceLeft', 0, -9);
-	addOffset(gf, 'danceRight', 0, -9);
+	addOffset(gf, 'cheer', 0, 0)
+	addOffset(gf, 'sad', -2, -2)
+	addOffset(gf, 'danceLeft', 0, -9)
+	addOffset(gf, 'danceRight', 0, -9)
 
-	addOffset(gf, "singUP", 0, 4);
-	addOffset(gf, "singRIGHT", 0, -20);
-	addOffset(gf, "singLEFT", 0, -19);
-	addOffset(gf, "singDOWN", 0, -20);
-	addOffset(gf, 'hairBlow', 45, -8);
-	addOffset(gf, 'hairFall', 0, -9);
+	addOffset(gf, "singUP", 0, 4)
+	addOffset(gf, "singRIGHT", 0, -20)
+	addOffset(gf, "singLEFT", 0, -19)
+	addOffset(gf, "singDOWN", 0, -20)
+	addOffset(gf, 'hairBlow', 45, -8)
+	addOffset(gf, 'hairFall', 0, -9)
 
-	addOffset(gf, 'scared', -2, -17);
+	addOffset(gf, 'scared', -2, -17)
+
+	setDefaultAnimation(gf, "danceRight")
 end

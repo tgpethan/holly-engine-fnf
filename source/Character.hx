@@ -15,127 +15,139 @@ class Character extends FlxSprite
 
 	public var holdTimer:Float = 0;
 
-	public function new(x:Float, y:Float, ?character:Dynamic, ?isPlayer:Bool = false)
+	public function new(x:Float, y:Float, ?character:String, ?isPlayer:Bool = false)
 	{
 		super(x, y);
 
-		if (Std.isOfType(character, Character))
+		var luaCharacter = HECharacterStore.getLuaCharacterByName(character);
+		
+		animOffsets = new Map<String, Array<Dynamic>>();
+		for (offset in luaCharacter.animOffsets)
 		{
-			animOffsets = character.animOffsets;
-			curCharacter = character.character;
-			this.isPlayer = isPlayer;
-
-			frames = character.frames;
-			antialiasing = character.antialiasing;
+			addOffset(offset[0], offset[1], offset[2]);
 		}
-		else
+		
+		curCharacter = character;
+		this.isPlayer = isPlayer;
+
+		trace("loading from [" + Paths.image("characters/" + curCharacter, "shared") + "]");
+		var tex:FlxAtlasFrames = Paths.getSparrowAtlas("characters/" + curCharacter, "shared");
+		frames = tex;
+		antialiasing = true;
+
+		for (anim in luaCharacter.animations)
 		{
-			animOffsets = new Map<String, Array<Dynamic>>();
-			curCharacter = character;
-			this.isPlayer = isPlayer;
-	
-			trace("loading from [" + Paths.image("characters/" + curCharacter, "shared") + "]");
-			var tex:FlxAtlasFrames = Paths.getSparrowAtlas("characters/" + curCharacter, "shared");
-			frames = tex;
-			antialiasing = true;
-	
-			/*switch (curCharacter)
+			switch (anim[0])
 			{
-				case 'gf':
-					// GIRLFRIEND CODE
-					tex = Paths.getSparrowAtlas('GF_assets');
-					frames = tex;
-					animation.addByPrefix('cheer', 'GF Cheer', 24, false);
-					animation.addByPrefix('singLEFT', 'GF left note', 24, false);
-					animation.addByPrefix('singRIGHT', 'GF Right Note', 24, false);
-					animation.addByPrefix('singUP', 'GF Up Note', 24, false);
-					animation.addByPrefix('singDOWN', 'GF Down Note', 24, false);
-					animation.addByIndices('sad', 'gf sad', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], "", 24, false);
-					animation.addByIndices('danceLeft', 'GF Dancing Beat', [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "", 24, false);
-					animation.addByIndices('danceRight', 'GF Dancing Beat', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24, false);
-					animation.addByIndices('hairBlow', "GF Dancing Beat Hair blowing", [0, 1, 2, 3], "", 24);
-					animation.addByIndices('hairFall', "GF Dancing Beat Hair Landing", [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "", 24, false);
-					animation.addByPrefix('scared', 'GF FEAR', 24);
-	
-					addOffset('cheer');
-					addOffset('sad', -2, -2);
-					addOffset('danceLeft', 0, -9);
-					addOffset('danceRight', 0, -9);
-	
-					addOffset("singUP", 0, 4);
-					addOffset("singRIGHT", 0, -20);
-					addOffset("singLEFT", 0, -19);
-					addOffset("singDOWN", 0, -20);
-					addOffset('hairBlow', 45, -8);
-					addOffset('hairFall', 0, -9);
-	
-					addOffset('scared', -2, -17);
-	
-					playAnim('danceRight');
-	
-				case 'bf':
-					var tex = Paths.getSparrowAtlas('BOYFRIEND');
-					frames = tex;
-					animation.addByPrefix('idle', 'BF idle dance', 24, false);
-					animation.addByPrefix('singUP', 'BF NOTE UP0', 24, false);
-					animation.addByPrefix('singLEFT', 'BF NOTE LEFT0', 24, false);
-					animation.addByPrefix('singRIGHT', 'BF NOTE RIGHT0', 24, false);
-					animation.addByPrefix('singDOWN', 'BF NOTE DOWN0', 24, false);
-					animation.addByPrefix('singUPmiss', 'BF NOTE UP MISS', 24, false);
-					animation.addByPrefix('singLEFTmiss', 'BF NOTE LEFT MISS', 24, false);
-					animation.addByPrefix('singRIGHTmiss', 'BF NOTE RIGHT MISS', 24, false);
-					animation.addByPrefix('singDOWNmiss', 'BF NOTE DOWN MISS', 24, false);
-					animation.addByPrefix('hey', 'BF HEY', 24, false);
-	
-					animation.addByPrefix('firstDeath', "BF dies", 24, false);
-					animation.addByPrefix('deathLoop', "BF Dead Loop", 24, true);
-					animation.addByPrefix('deathConfirm', "BF Dead confirm", 24, false);
-	
-					animation.addByPrefix('scared', 'BF idle shaking', 24);
-	
-					addOffset('idle', -5);
-					addOffset("singUP", -29, 27);
-					addOffset("singRIGHT", -38, -7);
-					addOffset("singLEFT", 12, -6);
-					addOffset("singDOWN", -10, -50);
-					addOffset("singUPmiss", -29, 27);
-					addOffset("singRIGHTmiss", -30, 21);
-					addOffset("singLEFTmiss", 12, 24);
-					addOffset("singDOWNmiss", -11, -19);
-					addOffset("hey", 7, 4);
-					addOffset('firstDeath', 37, 11);
-					addOffset('deathLoop', 37, 5);
-					addOffset('deathConfirm', 37, 69);
-					addOffset('scared', -4);
-	
-					playAnim('idle');
-	
-					flipX = true;
-			}*/
-	
-			/*dance();
-	
-			if (isPlayer)
+				case "prefix":
+					animation.addByPrefix(anim[1], anim[2], anim[3], anim[4], anim[5], anim[6]);
+
+				case "indices":
+					animation.addByIndices(anim[1], anim[2], anim[3], anim[4], anim[5], anim[6], anim[7], anim[8]);
+			}
+		}
+
+		/*switch (curCharacter)
+		{
+			case 'gf':
+				// GIRLFRIEND CODE
+				tex = Paths.getSparrowAtlas('GF_assets');
+				frames = tex;
+				animation.addByPrefix('cheer', 'GF Cheer', 24, false);
+				animation.addByPrefix('singLEFT', 'GF left note', 24, false);
+				animation.addByPrefix('singRIGHT', 'GF Right Note', 24, false);
+				animation.addByPrefix('singUP', 'GF Up Note', 24, false);
+				animation.addByPrefix('singDOWN', 'GF Down Note', 24, false);
+				animation.addByIndices('sad', 'gf sad', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], "", 24, false);
+				animation.addByIndices('danceLeft', 'GF Dancing Beat', [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "", 24, false);
+				animation.addByIndices('danceRight', 'GF Dancing Beat', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24, false);
+				animation.addByIndices('hairBlow', "GF Dancing Beat Hair blowing", [0, 1, 2, 3], "", 24);
+				animation.addByIndices('hairFall', "GF Dancing Beat Hair Landing", [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "", 24, false);
+				animation.addByPrefix('scared', 'GF FEAR', 24);
+
+				addOffset('cheer');
+				addOffset('sad', -2, -2);
+				addOffset('danceLeft', 0, -9);
+				addOffset('danceRight', 0, -9);
+
+				addOffset("singUP", 0, 4);
+				addOffset("singRIGHT", 0, -20);
+				addOffset("singLEFT", 0, -19);
+				addOffset("singDOWN", 0, -20);
+				addOffset('hairBlow', 45, -8);
+				addOffset('hairFall', 0, -9);
+
+				addOffset('scared', -2, -17);
+
+				playAnim('danceRight');
+
+			case 'bf':
+				var tex = Paths.getSparrowAtlas('BOYFRIEND');
+				frames = tex;
+				animation.addByPrefix('idle', 'BF idle dance', 24, false);
+				animation.addByPrefix('singUP', 'BF NOTE UP0', 24, false);
+				animation.addByPrefix('singLEFT', 'BF NOTE LEFT0', 24, false);
+				animation.addByPrefix('singRIGHT', 'BF NOTE RIGHT0', 24, false);
+				animation.addByPrefix('singDOWN', 'BF NOTE DOWN0', 24, false);
+				animation.addByPrefix('singUPmiss', 'BF NOTE UP MISS', 24, false);
+				animation.addByPrefix('singLEFTmiss', 'BF NOTE LEFT MISS', 24, false);
+				animation.addByPrefix('singRIGHTmiss', 'BF NOTE RIGHT MISS', 24, false);
+				animation.addByPrefix('singDOWNmiss', 'BF NOTE DOWN MISS', 24, false);
+				animation.addByPrefix('hey', 'BF HEY', 24, false);
+
+				animation.addByPrefix('firstDeath', "BF dies", 24, false);
+				animation.addByPrefix('deathLoop', "BF Dead Loop", 24, true);
+				animation.addByPrefix('deathConfirm', "BF Dead confirm", 24, false);
+
+				animation.addByPrefix('scared', 'BF idle shaking', 24);
+
+				addOffset('idle', -5);
+				addOffset("singUP", -29, 27);
+				addOffset("singRIGHT", -38, -7);
+				addOffset("singLEFT", 12, -6);
+				addOffset("singDOWN", -10, -50);
+				addOffset("singUPmiss", -29, 27);
+				addOffset("singRIGHTmiss", -30, 21);
+				addOffset("singLEFTmiss", 12, 24);
+				addOffset("singDOWNmiss", -11, -19);
+				addOffset("hey", 7, 4);
+				addOffset('firstDeath', 37, 11);
+				addOffset('deathLoop', 37, 5);
+				addOffset('deathConfirm', 37, 69);
+				addOffset('scared', -4);
+
+				playAnim('idle');
+
+				flipX = true;
+		}*/
+
+		playAnim(luaCharacter.defaultAnimation);
+
+		flipX = luaCharacter.flipX;
+		flipY = luaCharacter.flipY;
+
+		dance();
+
+		if (isPlayer)
+		{
+			flipX = !flipX;
+
+			// Doesn't flip for BF, since his are already in the right place???
+			if (!curCharacter.startsWith('bf'))
 			{
-				flipX = !flipX;
-	
-				// Doesn't flip for BF, since his are already in the right place???
-				if (!curCharacter.startsWith('bf'))
+				// var animArray
+				var oldRight = animation.getByName('singRIGHT').frames;
+				animation.getByName('singRIGHT').frames = animation.getByName('singLEFT').frames;
+				animation.getByName('singLEFT').frames = oldRight;
+
+				// IF THEY HAVE MISS ANIMATIONS??
+				if (animation.getByName('singRIGHTmiss') != null)
 				{
-					// var animArray
-					var oldRight = animation.getByName('singRIGHT').frames;
-					animation.getByName('singRIGHT').frames = animation.getByName('singLEFT').frames;
-					animation.getByName('singLEFT').frames = oldRight;
-	
-					// IF THEY HAVE MISS ANIMATIONS??
-					if (animation.getByName('singRIGHTmiss') != null)
-					{
-						var oldMiss = animation.getByName('singRIGHTmiss').frames;
-						animation.getByName('singRIGHTmiss').frames = animation.getByName('singLEFTmiss').frames;
-						animation.getByName('singLEFTmiss').frames = oldMiss;
-					}
+					var oldMiss = animation.getByName('singRIGHTmiss').frames;
+					animation.getByName('singRIGHTmiss').frames = animation.getByName('singLEFTmiss').frames;
+					animation.getByName('singLEFTmiss').frames = oldMiss;
 				}
-			}*/
+			}
 		}
 	}
 

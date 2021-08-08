@@ -26,6 +26,13 @@ function init()
 	finish(stageCurtains)
 end
 
+function initFinal()
+	setGFPos(400, 130)
+	setDadPos(100, 100)
+	
+	setBFPos(770, 450)
+end
+
 function update(elapsed)
 	
 end
