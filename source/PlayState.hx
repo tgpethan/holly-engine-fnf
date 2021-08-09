@@ -92,6 +92,8 @@ class PlayState extends MusicBeatState
 
 	public static var luaAdd:Dynamic;
 
+	public static var luaGFVersion:String = "";
+
 	// All of these functions are static so they can be called from lua
 	public static function createFlxSprite(elementPath:String, pos:Array<Int>)
 	{
@@ -172,7 +174,10 @@ class PlayState extends MusicBeatState
 		trace("set current stage to: " + newStage);
 	}
 
-	// initFinal thing
+	public static function setBF(bfName:String)
+	{
+
+	}
 
 	public static function setBFPos(x:Int, y:Int)
 	{
@@ -180,10 +185,23 @@ class PlayState extends MusicBeatState
 		boyfriend.y = y;
 	}
 
+	public static function setGF(gfName:String)
+	{
+		luaGFVersion = gfName;
+	}
+
 	public static function setGFPos(x:Int, y:Int)
 	{
-		gf.x = x;
-		gf.y = y;
+		if (luaGFVersion != "")
+		{
+			gf.x = x;
+			gf.y = y;
+		}
+	}
+
+	public static function setDad(dadName:String)
+	{
+
 	}
 
 	public static function setDadPos(x:Int, y:Int)
@@ -225,6 +243,7 @@ class PlayState extends MusicBeatState
 
 		luaInstance.pushCallback("setCurrentStage", setCurrentStage);
 
+		//luaInstance.pushCallback();
 		luaInstance.pushCallback("getWidth", getWidth);
 		luaInstance.pushCallback("getHeight", getHeight);
 		luaInstance.pushCallback("setGraphicSize", setGraphicSize);
@@ -237,33 +256,21 @@ class PlayState extends MusicBeatState
 
 		luaInstance.pushCallback("createFlxSprite", createFlxSprite);
 
+		luaInstance.pushCallback("setBF", setBF);
 		luaInstance.pushCallback("setBFPos", setBFPos);
+		luaInstance.pushCallback("setGF", setGF);
 		luaInstance.pushCallback("setGFPos", setGFPos);
-
+		luaInstance.pushCallback("setDad", setDad);
 		luaInstance.pushCallback("setDadPos", setDadPos);
 
 		trace("executing lua init lol");
 		luaInstance.executeLuaFunction("init", []);
 
-		var gfVersion:String = 'gf';
-
-		switch (curStage)
+		if (luaGFVersion != "")
 		{
-			case 'limo':
-				gfVersion = 'gf-car';
-			case 'mall' | 'mallEvil':
-				gfVersion = 'gf-christmas';
-			case 'school':
-				gfVersion = 'gf-pixel';
-			case 'schoolEvil':
-				gfVersion = 'gf-pixel';
+			gf = new Character(0, 0, luaGFVersion);
+			gf.scrollFactor.set(0.95, 0.95);
 		}
-
-		if (curStage == 'limo')
-			gfVersion = 'gf-car';
-
-		gf = new Character(0, 0, gfVersion);
-		gf.scrollFactor.set(0.95, 0.95);
 
 		dad = new Character(0, 0, SONG.player2);
 
@@ -272,12 +279,15 @@ class PlayState extends MusicBeatState
 		switch (SONG.player2)
 		{
 			case 'gf':
-				dad.setPosition(gf.x, gf.y);
-				gf.visible = false;
-				if (isStoryMode)
+				if (luaGFVersion != "")
 				{
-					camPos.x += 600;
-					tweenCamIn();
+					dad.setPosition(gf.x, gf.y);
+					gf.visible = false;
+					if (isStoryMode)
+					{
+						camPos.x += 600;
+						tweenCamIn();
+					}
 				}
 
 			case "spooky":
@@ -309,7 +319,7 @@ class PlayState extends MusicBeatState
 
 		boyfriend = new Boyfriend(0, 0, SONG.player1);
 
-		add(gf);
+		if (luaGFVersion != "") add(gf);
 
 		add(dad);
 		add(boyfriend);
@@ -553,7 +563,7 @@ class PlayState extends MusicBeatState
 		startTimer = new FlxTimer().start(Conductor.crochet / 1000, function(tmr:FlxTimer)
 		{
 			dad.dance();
-			gf.dance();
+			if (luaGFVersion != "") gf.dance();
 			boyfriend.playAnim('idle');
 
 			var introAssets:Map<String, Array<String>> = new Map<String, Array<String>>();
@@ -1641,9 +1651,12 @@ class PlayState extends MusicBeatState
 		if (!boyfriend.stunned)
 		{
 			health -= 0.04;
-			if (combo > 5 && gf.animOffsets.exists('sad'))
+			if (luaGFVersion != "")
 			{
-				gf.playAnim('sad');
+				if (combo > 5 && gf.animOffsets.exists('sad'))
+				{
+					gf.playAnim('sad');
+				}
 			}
 			combo = 0;
 
@@ -1767,7 +1780,7 @@ class PlayState extends MusicBeatState
 		iconP1.updateHitbox();
 		iconP2.updateHitbox();
 
-		if (curBeat % gfSpeed == 0)
+		if (curBeat % gfSpeed == 0 && luaGFVersion != "")
 		{
 			gf.dance();
 		}

@@ -3,6 +3,9 @@ function init()
 	-- Image lookups use your stage name, make sure this is set!
 	setCurrentStage("stage")
 
+	setGF("gf")
+	setBF("bf")
+
 	local bg = createFlxSprite("stageback", {-600, -200})
 	setAntialiasing(bg, true)
 	setScrollFactor(bg, 0.9, 0.9)
