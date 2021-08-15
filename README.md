@@ -1,5 +1,4 @@
-# THIS IS REALLY *NOT* READY FOR USE YET
-## Use Kade Engine lmao it's better than this shit
+## THIS IS REALLY *NOT* READY FOR USE YET
 
 # Friday Night Funkin
 
