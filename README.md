@@ -1,5 +1,7 @@
 ## THIS IS REALLY *NOT* READY FOR USE YET
 
+This repo is my attempt to make literally everything in the game modifiable via lua, stages, characters and pretty much anything you can think of!
+
 # Friday Night Funkin
 
 This is the repository for Friday Night Funkin, a game originally made for Ludum Dare 47 "Stuck In a Loop".
