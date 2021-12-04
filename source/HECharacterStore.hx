@@ -5,12 +5,14 @@ class HECharacterStore
 	public static var nameToInternalID:Map<String, Int> = [];
 	public static var characterNames:Array<String> = [];
 	public static var characters:Array<LuaCharacter> = [];
+	static var activeCharacterID:Int = -1;
 
 	public static function init()
 	{
 		var luaInstance:LuaFile = new LuaFile("characters");
 
 		// Add functions in lua :)
+		luaInstance.pushCallback("setActiveCharacter", setActiveCharacter);
 		luaInstance.pushCallback("createCharacter", createCharacter);
 		luaInstance.pushCallback("addByPrefix", addByPrefix);
 		luaInstance.pushCallback("addByIndices", addByIndices);
@@ -41,13 +43,18 @@ class HECharacterStore
 		return characterID;
 	}
 
-	public static function addByPrefix(characterID:Int, name:String, prefix:String, frameRate:Int, looped:Bool = true, flipX:Bool = false, flipY:Bool = false)
+	public static function setActiveCharacter(characterID:Int)
 	{
-		characters[characterID].animations.push(["prefix", name, prefix, frameRate, looped, flipX, flipY]);
+		activeCharacterID = characterID;
+	}
+
+	public static function addByPrefix(name:String, prefix:String, frameRate:Int, looped:Bool = true, flipX:Bool = false, flipY:Bool = false)
+	{
+		characters[activeCharacterID].animations.push(["prefix", name, prefix, frameRate, looped, flipX, flipY]);
 	}
 
 	// God I hate this function
-	public static function addByIndices(characterID:Int, name:String, prefix:String, stringIndices:String, more:Array<Dynamic>)
+	public static function addByIndices(name:String, prefix:String, stringIndices:String, more:Array<Dynamic>)
 	{
 		// This is supremely stupid
 		// I had to make an array to shove everything else in cause it couldn't handle all the params lmao
@@ -57,28 +64,28 @@ class HECharacterStore
 		for (ind in splitIndices)
 			indices.push(Std.parseInt(ind));
 
-		// WHT TH FUC AM DOIG??!?
-		characters[characterID].animations.push(["indices", name, prefix, indices, more[0] == null ? "" : more[0], more[1] == null ? 30 : more[1], more[2] == null ? true : more[2], more[3] == null ? false : more[3], more[4] == null ? false : more[4]]);
+		// WHT TH FUC AM DOInG??!?
+		characters[activeCharacterID].animations.push(["indices", name, prefix, indices, more[0] == null ? "" : more[0], more[1] == null ? 30 : more[1], more[2] == null ? true : more[2], more[3] == null ? false : more[3], more[4] == null ? false : more[4]]);
 	}
 
-	public static function addOffset(characterID:Int, name:String, x:Float = 0, y:Float = 0)
+	public static function addOffset(name:String, x:Float = 0, y:Float = 0)
 	{
-		characters[characterID].animOffsets.push([name, x, y]);
+		characters[activeCharacterID].animOffsets.push([name, x, y]);
 	}
 
-	public static function setDefaultAnimation(characterID:Int, animName:String)
+	public static function setDefaultAnimation(animName:String)
 	{
-		characters[characterID].defaultAnimation = animName;
+		characters[activeCharacterID].defaultAnimation = animName;
 	}
 
-	public static function setFlipX(characterID:Int, b:Bool)
+	public static function setFlipX(b:Bool)
 	{
-		characters[characterID].flipX = b;
+		characters[activeCharacterID].flipX = b;
 	}
 
-	public static function setFlipY(characterID:Int, b:Bool)
+	public static function setFlipY(b:Bool)
 	{
-		characters[characterID].flipY = b;
+		characters[activeCharacterID].flipY = b;
 	}
 }
 
