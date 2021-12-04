@@ -32,6 +32,7 @@ class Main extends Sprite
 		super();
 
 		fpsDisplay = new FPS(10, 3, 0xFFFFFF);
+		fpsDisplay.visible = false;
 
 		if (stage != null)
 		{
