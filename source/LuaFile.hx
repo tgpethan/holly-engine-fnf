@@ -35,7 +35,7 @@ class LuaFile
 		// TODO: Add error messages lol
 		if (resultCode != 0)
 		{
-			trace("Compilation error jitin' da lua lmao.");
+			trace("Compilation error jitin' lua lmao.");
 			trace(Lua.tostring(luaState, resultCode));
 		}
 	}
