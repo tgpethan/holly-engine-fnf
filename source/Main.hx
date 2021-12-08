@@ -69,10 +69,20 @@ class Main extends Sprite
 		}
 
 		#if !debug
-		initialState = LuaScreen;
+		initialState = TitleState;
 		#end
 
 		addChild(new FlxGame(gameWidth, gameHeight, initialState, zoom, framerate, framerate, skipSplash, startFullscreen));
+
+		// seperate save to not change actual funkin save
+		FlxG.save.bind('funkin', 'tgpholly');
+
+		// Init HE Stuff
+		HESaveData.init();
+		HECharacterStore.init();
+		HESongWeekStorage.init();
+
+		Highscore.load();
 
 		#if !mobile
 		addChild(fpsDisplay);

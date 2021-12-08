@@ -21,7 +21,7 @@ function init()
 	finish(stageFront)
 
 	local stageCurtains = createFlxSprite("stagecurtains", {-500, -300})
-	setGraphicSize(stageCurtains, math.ceil(getWidth(stageCurtains) * 0.9))
+	setGraphicSize(stageCurtains, math.floor(getWidth(stageCurtains) * 0.9))
 	updateHitbox(stageCurtains)
 	setAntialiasing(stageCurtains, true)
 	setScrollFactor(stageCurtains, 1.3, 1.3)
